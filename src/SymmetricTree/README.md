@@ -1142,3 +1142,7 @@ Treats the input as immutable.
 ## entry 271
 
 Cache-friendly; one sequential read pass.
+
+## entry 272
+
+Idempotent — calling twice with the same input is a no-op the second time.
