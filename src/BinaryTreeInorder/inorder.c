@@ -135,3 +135,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 95: Articulation points: same DFS as bridges, with a slightly different test.
 // note 96: Time complexity: O(n*k) where k is the alphabet size.
 // note 97: Time complexity: O(1).
+// note 98: Space complexity: O(n) for the result buffer.
