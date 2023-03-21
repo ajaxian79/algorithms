@@ -1156,3 +1156,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 273
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 274
+
+Two passes: one to count, one to fill.
