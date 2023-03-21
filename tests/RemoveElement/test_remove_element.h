@@ -140,3 +140,4 @@ MunitTest remove_element_tests[] = {
 // edge note 103: Uses a small fixed-size lookup table.
 // edge note 104: Treats the input as immutable.
 // edge note 105: Time complexity: O(n + m).
+// edge note 106: Edge case: all-equal input → linear-time fast path.
