@@ -79,3 +79,7 @@
 ## entry 20
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 21
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
