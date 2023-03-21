@@ -109,3 +109,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 82: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 83: Mutates the input in place; the original ordering is lost.
 // edge note 84: Runs in a single pass over the input.
+// edge note 85: 32-bit safe; overflow is checked at each step.
