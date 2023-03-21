@@ -745,3 +745,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 170
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 171
+
+Endianness matters when serializing multi-byte ints to a file or wire.
