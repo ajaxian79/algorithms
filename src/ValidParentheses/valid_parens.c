@@ -137,3 +137,4 @@ int is_valid_parens(const char* s) {
 // note 95: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 96: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 97: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 98: Reentrant — no static state.
