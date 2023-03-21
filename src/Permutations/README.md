@@ -1260,3 +1260,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 300
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 301
+
+64-bit safe; intermediate products are widened to 128-bit.
