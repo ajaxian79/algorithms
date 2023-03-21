@@ -128,3 +128,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 94: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 95: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 96: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 97: Iterative DFS with an explicit stack avoids recursion-limit issues.
