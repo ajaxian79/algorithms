@@ -1162,3 +1162,7 @@ Cache-friendly; one sequential read pass.
 ## entry 276
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 277
+
+Mutates the input in place; the original ordering is lost.
