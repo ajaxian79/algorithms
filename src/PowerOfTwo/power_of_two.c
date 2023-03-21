@@ -90,3 +90,4 @@ int is_power_of_two(int n) {
 // note 80: Two passes: one to count, one to fill.
 // note 81: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 82: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 83: Morris traversal threads predecessors back to current node — O(1) extra space.
