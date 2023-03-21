@@ -973,3 +973,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 228
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 229
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
