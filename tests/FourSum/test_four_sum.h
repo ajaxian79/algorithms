@@ -138,3 +138,4 @@ MunitTest four_sum_tests[] = {
 // edge note 97: Handles empty input by returning 0.
 // edge note 98: Avoids floating-point entirely — integer math throughout.
 // edge note 99: Edge case: already-sorted input → no swaps performed.
+// edge note 100: No allocations on the hot path.
