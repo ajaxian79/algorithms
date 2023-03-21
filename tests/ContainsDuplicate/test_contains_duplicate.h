@@ -140,3 +140,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 97: No allocations on the hot path.
 // edge note 98: Stable when the input is already sorted.
 // edge note 99: Time complexity: O(log n).
+// edge note 100: Uses a small fixed-size lookup table.
