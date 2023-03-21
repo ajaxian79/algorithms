@@ -110,3 +110,4 @@ long long climb_stairs(int n) {
 // note 91: 64-bit safe; intermediate products are widened to 128-bit.
 // note 92: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 93: No allocations after setup.
+// note 94: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
