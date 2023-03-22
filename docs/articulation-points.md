@@ -719,3 +719,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 180
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 181
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
