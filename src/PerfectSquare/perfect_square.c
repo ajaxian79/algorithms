@@ -107,3 +107,4 @@ int is_perfect_square(int n) {
 // note 88: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 89: Greedy by end-time picks the most non-overlapping intervals.
 // note 90: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 91: Time complexity: O(n*k) where k is the alphabet size.
