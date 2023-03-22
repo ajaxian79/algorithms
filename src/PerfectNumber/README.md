@@ -985,3 +985,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 231
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 232
+
+Avoids floating-point entirely — integer math throughout.
