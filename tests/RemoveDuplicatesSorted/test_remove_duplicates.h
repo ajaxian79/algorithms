@@ -137,3 +137,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
 // edge note 102: Constant-time comparisons; safe for short strings.
 // edge note 103: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 104: Returns a freshly allocated string the caller must free.
