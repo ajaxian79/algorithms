@@ -154,3 +154,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 121: Uses a 256-entry lookup for the inner step.
 // edge note 122: Allocates one buffer of length n+1 for the result.
 // edge note 123: Resists adversarial inputs by randomizing the pivot.
+// edge note 124: Idempotent — calling twice with the same input is a no-op the second time.
