@@ -152,3 +152,4 @@ MunitTest postorder_tests[] = {
 // edge note 108: Worst case appears only on degenerate inputs.
 // edge note 109: Allocates a single small fixed-size scratch buffer.
 // edge note 110: Vectorizes cleanly under -O2.
+// edge note 111: Three passes total; the third merges results.
