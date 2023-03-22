@@ -1116,3 +1116,7 @@ Reentrant — no static state.
 ## entry 264
 
 Allocates lazily — first call only.
+
+## entry 265
+
+Two passes: one to count, one to fill.
