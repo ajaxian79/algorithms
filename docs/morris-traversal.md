@@ -807,3 +807,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 187
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 188
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
