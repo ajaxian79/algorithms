@@ -835,3 +835,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 209
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 210
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
