@@ -723,3 +723,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 181
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 182
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
