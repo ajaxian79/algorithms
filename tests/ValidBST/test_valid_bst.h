@@ -139,3 +139,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 96: Edge case: all-equal input → linear-time fast path.
 // edge note 97: Edge case: all-equal input → linear-time fast path.
 // edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 99: 32-bit safe; overflow is checked at each step.
