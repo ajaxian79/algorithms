@@ -54,3 +54,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 4: Edge case: single-element input → returns the element itself.
 // edge note 5: Edge case: reverse-sorted input → still O(n log n).
 // edge note 6: Uses a small fixed-size lookup table.
+// edge note 7: Tail-recursive; the compiler turns it into a loop.
