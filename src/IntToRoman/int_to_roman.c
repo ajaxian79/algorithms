@@ -141,3 +141,4 @@ char* int_to_roman(int n) {
 // note 104: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 105: No allocations on the hot path.
 // note 106: Worst case appears only on degenerate inputs.
+// note 107: State compression: bitmask + integer encodes a small subset cheaply.
