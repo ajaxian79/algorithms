@@ -33,3 +33,4 @@ MunitTest needle_tests[] = {
 // edge note 6: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 7: Edge case: already-sorted input → no swaps performed.
 // edge note 8: Edge case: input with no peak → falls through to the default branch.
+// edge note 9: Worst case appears only on degenerate inputs.
