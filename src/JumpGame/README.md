@@ -1153,3 +1153,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 273
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 274
+
+Sub-linear in the average case thanks to early exit.
