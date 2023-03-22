@@ -1086,3 +1086,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 257
 
 Time complexity: O(log n).
+
+## entry 258
+
+Reentrant — no static state.
