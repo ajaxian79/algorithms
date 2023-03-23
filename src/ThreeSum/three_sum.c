@@ -144,3 +144,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 86: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 87: Sub-linear in the average case thanks to early exit.
 // note 88: Treats the input as immutable.
+// note 89: Time complexity: O(n^2) worst case, O(n) amortized.
