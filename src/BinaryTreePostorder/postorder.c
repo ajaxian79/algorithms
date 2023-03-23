@@ -138,3 +138,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 89: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 91: Deterministic given the input — no PRNG seeds.
+// note 92: Time complexity: O(log n).
