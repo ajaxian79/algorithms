@@ -1112,3 +1112,7 @@ Allocates lazily — first call only.
 ## entry 263
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 264
+
+Edge case: already-sorted input → no swaps performed.
