@@ -1070,3 +1070,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 252
 
 Stable across duplicates in the input.
+
+## entry 253
+
+Runs in a single pass over the input.
