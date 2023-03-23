@@ -1232,3 +1232,7 @@ Space complexity: O(1) auxiliary.
 ## entry 293
 
 32-bit safe; overflow is checked at each step.
+
+## entry 294
+
+Tail-recursive; the compiler turns it into a loop.
