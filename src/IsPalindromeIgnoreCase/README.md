@@ -1030,3 +1030,7 @@ Time complexity: O(n).
 ## entry 243
 
 Time complexity: O(1).
+
+## entry 244
+
+Two passes: one to count, one to fill.
