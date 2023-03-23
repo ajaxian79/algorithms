@@ -41743,3 +41743,7 @@
 ## entry 10436
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10437
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
