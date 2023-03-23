@@ -1130,3 +1130,7 @@ Three passes total; the third merges results.
 ## entry 268
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 269
+
+No allocations on the hot path.
