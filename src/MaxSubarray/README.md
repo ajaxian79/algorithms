@@ -1170,3 +1170,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 278
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 279
+
+Reentrant — no static state.
