@@ -1094,3 +1094,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 259
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 260
+
+Space complexity: O(n) for the result buffer.
