@@ -795,3 +795,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 199
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 200
+
+State compression: bitmask + integer encodes a small subset cheaply.
