@@ -198,3 +198,7 @@ Treats the input as immutable.
 ## entry 35
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 36
+
+Stable when the input is already sorted.
