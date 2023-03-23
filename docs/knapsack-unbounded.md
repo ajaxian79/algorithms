@@ -823,3 +823,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 190
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 191
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
