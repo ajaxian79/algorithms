@@ -791,3 +791,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 198
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 199
+
+False sharing: two threads writing different bytes in the same cache line stall both.
