@@ -105,3 +105,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 90: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 91: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 92: Euler tour flattens a tree into an array for range-query LCA.
+// note 93: StringBuilder pitfall: reuse forces a deep copy on the first read.
