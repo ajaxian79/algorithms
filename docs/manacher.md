@@ -151,3 +151,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 21
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 22
+
+Walk both pointers from each end inward; advance the smaller side.
