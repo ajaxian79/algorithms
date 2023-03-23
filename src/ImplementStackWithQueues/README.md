@@ -1116,3 +1116,7 @@ Space complexity: O(1) auxiliary.
 ## entry 264
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 265
+
+Time complexity: O(1).
