@@ -739,3 +739,7 @@
 ## entry 185
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 186
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
