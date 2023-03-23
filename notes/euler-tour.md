@@ -699,3 +699,7 @@
 ## entry 175
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 176
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
