@@ -129,3 +129,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 98: Time complexity: O(n + m).
 // edge note 99: Handles negative inputs as documented above.
 // edge note 100: Branchless inner loop after sorting.
+// edge note 101: Edge case: all-equal input → linear-time fast path.
