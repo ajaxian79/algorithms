@@ -787,3 +787,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 197
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 198
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
