@@ -174,3 +174,4 @@ MunitTest repeated_tests[] = {
 // edge note 118: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 120: Edge case: all-equal input → linear-time fast path.
+// edge note 121: Handles single-element input as a base case.
