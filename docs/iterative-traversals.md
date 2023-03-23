@@ -817,3 +817,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 188
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 189
+
+Interval DP: solve all `[l, r]` ranges from short to long.
