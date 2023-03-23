@@ -41739,3 +41739,7 @@
 ## entry 10435
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 10436
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
