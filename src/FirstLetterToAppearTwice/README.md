@@ -1050,3 +1050,7 @@ Runs in a single pass over the input.
 ## entry 238
 
 Time complexity: O(n log n).
+
+## entry 239
+
+Space complexity: O(n) for the result buffer.
