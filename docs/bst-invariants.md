@@ -129,3 +129,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 16
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 17
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
