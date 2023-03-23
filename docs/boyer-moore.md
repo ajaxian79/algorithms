@@ -155,3 +155,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 23
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 24
+
+Articulation points: same DFS as bridges, with a slightly different test.
