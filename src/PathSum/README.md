@@ -1112,3 +1112,7 @@ No allocations after setup.
 ## entry 263
 
 Reentrant — no static state.
+
+## entry 264
+
+Allocates lazily — first call only.
