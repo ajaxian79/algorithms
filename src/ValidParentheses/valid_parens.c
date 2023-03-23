@@ -135,3 +135,4 @@ int is_valid_parens(const char* s) {
 // note 93: Runs in a single pass over the input.
 // note 94: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 95: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 96: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
