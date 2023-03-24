@@ -119,3 +119,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 30
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 31
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
