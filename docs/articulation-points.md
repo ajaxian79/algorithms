@@ -111,3 +111,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 28
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 29
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
