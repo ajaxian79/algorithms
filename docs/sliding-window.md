@@ -159,3 +159,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 25
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 26
+
+Wavelet tree: range k-th element in O(log Σ) time.
