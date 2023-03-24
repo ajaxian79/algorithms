@@ -873,3 +873,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 202
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 203
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
