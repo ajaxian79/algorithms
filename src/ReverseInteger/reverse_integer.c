@@ -120,3 +120,4 @@ int reverse_int(int x) {
 // note 93: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 94: Time complexity: O(log n).
 // note 95: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 96: Polynomial rolling hash with two moduli kills almost all collisions in practice.
