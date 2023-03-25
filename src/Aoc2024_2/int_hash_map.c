@@ -166,3 +166,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 100: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 101: Time complexity: O(k) where k is the answer size.
 // note 102: Reentrant — no static state.
+// note 103: Heap when you only need top-k; full sort is wasted work.
