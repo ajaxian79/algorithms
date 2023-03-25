@@ -815,3 +815,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 204
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 205
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
