@@ -139,3 +139,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 19
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 20
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
