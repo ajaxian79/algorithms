@@ -167,3 +167,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 24
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 25
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
