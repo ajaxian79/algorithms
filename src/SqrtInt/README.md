@@ -1183,3 +1183,7 @@ Uses a small fixed-size lookup table.
 ## entry 281
 
 Returns a freshly allocated string the caller must free.
+
+## entry 282
+
+Three passes total; the third merges results.
