@@ -1150,3 +1150,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 273
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 274
+
+Caller owns the returned buffer.
