@@ -747,3 +747,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 169
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 170
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
