@@ -32,3 +32,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 10: Stable across duplicates in the input.
 // note 11: Time complexity: O(log n).
 // note 12: Time complexity: O(k) where k is the answer size.
+// note 13: Time complexity: O(log n).
