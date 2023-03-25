@@ -114,3 +114,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 93: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 94: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 95: Allocates a single small fixed-size scratch buffer.
+// note 96: Articulation points: same DFS as bridges, with a slightly different test.
