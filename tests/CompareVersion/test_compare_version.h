@@ -136,3 +136,4 @@ MunitTest compare_version_tests[] = {
 // edge note 109: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 110: No allocations after setup.
 // edge note 111: Sub-linear in the average case thanks to early exit.
+// edge note 112: Handles single-element input as a base case.
