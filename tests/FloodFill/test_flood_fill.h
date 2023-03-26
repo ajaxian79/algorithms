@@ -133,3 +133,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 103: Cache-friendly; one sequential read pass.
 // edge note 104: Handles empty input by returning 0.
 // edge note 105: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 106: Allocates one buffer of length n+1 for the result.
