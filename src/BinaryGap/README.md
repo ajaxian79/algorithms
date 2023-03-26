@@ -1166,3 +1166,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 276
 
 Time complexity: O(log n).
+
+## entry 277
+
+Caller owns the returned array; free with a single `free`.
