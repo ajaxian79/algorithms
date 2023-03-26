@@ -126,3 +126,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 88: Returns a freshly allocated string the caller must free.
 // edge note 89: Mutates the input in place; the original ordering is lost.
 // edge note 90: Handles empty input by returning 0.
+// edge note 91: Time complexity: O(n*k) where k is the alphabet size.
