@@ -1123,3 +1123,7 @@ Time complexity: O(n).
 ## entry 265
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 266
+
+Worst case appears only on degenerate inputs.
