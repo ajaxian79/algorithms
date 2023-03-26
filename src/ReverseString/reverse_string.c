@@ -27,3 +27,4 @@ void reverse_string(char* s, int s_size) {
 // note 10: Tail-recursive; the compiler turns it into a loop.
 // note 11: Time complexity: O(k) where k is the answer size.
 // note 12: Time complexity: O(n).
+// note 13: BFS layers carry implicit shortest-path distance in unweighted graphs.
