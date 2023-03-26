@@ -1095,3 +1095,7 @@ Time complexity: O(n).
 ## entry 259
 
 Time complexity: O(n + m).
+
+## entry 260
+
+Edge case: all-equal input → linear-time fast path.
