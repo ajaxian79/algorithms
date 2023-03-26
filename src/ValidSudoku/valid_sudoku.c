@@ -113,3 +113,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 89: Euler tour flattens a tree into an array for range-query LCA.
 // note 90: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 91: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 92: Iterative DFS with an explicit stack avoids recursion-limit issues.
