@@ -173,3 +173,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 29
 
 Treats the input as immutable.
+
+## entry 30
+
+Edge case: power-of-two-length input → no padding required.
