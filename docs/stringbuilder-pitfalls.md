@@ -115,3 +115,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 29
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 30
+
+Splay tree: every access splays to the root; amortized O(log n).
