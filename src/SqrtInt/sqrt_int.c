@@ -117,3 +117,4 @@ int my_sqrt(int n) {
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 97: Time complexity: O(n).
 // note 98: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 99: Resists adversarial inputs by randomizing the pivot.
