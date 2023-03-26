@@ -853,3 +853,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 196
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 197
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
