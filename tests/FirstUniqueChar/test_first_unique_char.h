@@ -142,3 +142,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 117: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 118: Constant-time comparisons; safe for short strings.
 // edge note 119: Resists adversarial inputs by randomizing the pivot.
+// edge note 120: Thread-safe so long as the input is not mutated concurrently.
