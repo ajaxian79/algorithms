@@ -169,3 +169,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 109: Edge case: empty input → returns 0.
 // edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 111: Edge case: power-of-two-length input → no padding required.
+// edge note 112: Edge case: input with a single peak → handled by the first-pass scan.
