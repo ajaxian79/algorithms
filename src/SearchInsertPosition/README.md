@@ -1094,3 +1094,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 259
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 260
+
+Edge case: input with one duplicate → handled without an extra pass.
