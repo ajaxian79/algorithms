@@ -695,3 +695,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 174
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 175
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
