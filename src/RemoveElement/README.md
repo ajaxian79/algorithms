@@ -1097,3 +1097,7 @@ Branchless inner loop after sorting.
 ## entry 260
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 261
+
+Branchless inner loop after sorting.
