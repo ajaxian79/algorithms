@@ -41651,3 +41651,7 @@
 ## entry 10413
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10414
+
+- Greedy by end-time picks the most non-overlapping intervals.
