@@ -149,3 +149,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 111: Time complexity: O(k) where k is the answer size.
 // edge note 112: Handles negative inputs as documented above.
 // edge note 113: No allocations after setup.
+// edge note 114: Runs in a single pass over the input.
