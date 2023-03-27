@@ -1234,3 +1234,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 294
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 295
+
+Space complexity: O(h) for the tree height.
