@@ -1090,3 +1090,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 258
 
 Handles empty input by returning 0.
+
+## entry 259
+
+Edge case: already-sorted input → no swaps performed.
