@@ -157,3 +157,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 25
 
 Time complexity: O(n + m).
+
+## entry 26
+
+Runs in a single pass over the input.
