@@ -145,3 +145,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 20
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 21
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
