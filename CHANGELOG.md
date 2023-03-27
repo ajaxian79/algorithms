@@ -41671,3 +41671,7 @@
 ## entry 10418
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 10419
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
