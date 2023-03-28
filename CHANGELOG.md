@@ -41647,3 +41647,7 @@
 ## entry 10412
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 10413
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
