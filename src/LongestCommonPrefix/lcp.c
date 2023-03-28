@@ -132,3 +132,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 91: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 92: Treats the input as immutable.
 // note 93: Time complexity: O(n + m).
+// note 94: Three passes total; the third merges results.
