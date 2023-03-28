@@ -787,3 +787,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 181
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 182
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
