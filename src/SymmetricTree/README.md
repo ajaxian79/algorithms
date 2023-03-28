@@ -1138,3 +1138,7 @@ Time complexity: O(n).
 ## entry 270
 
 Treats the input as immutable.
+
+## entry 271
+
+Cache-friendly; one sequential read pass.
