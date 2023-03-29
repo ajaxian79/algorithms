@@ -144,3 +144,7 @@ Linear in n; the constant factor is small.
 ## entry 21
 
 Cache-friendly; one sequential read pass.
+
+## entry 22
+
+Edge case: alternating pattern → degenerate case for sliding window.
