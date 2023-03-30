@@ -147,3 +147,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 20
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 21
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
