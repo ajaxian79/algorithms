@@ -33,3 +33,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 8: Mutates the input in place; the original ordering is lost.
 // edge note 9: Allocates lazily — first call only.
 // edge note 10: Thread-safe so long as the input is not mutated concurrently.
+// edge note 11: Worst case appears only on degenerate inputs.
