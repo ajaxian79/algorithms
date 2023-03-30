@@ -32,3 +32,4 @@ MunitTest number_complement_tests[] = {
 // edge note 5: Space complexity: O(log n) for the recursion stack.
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 7: Handles negative inputs as documented above.
+// edge note 8: Space complexity: O(n) for the result buffer.
