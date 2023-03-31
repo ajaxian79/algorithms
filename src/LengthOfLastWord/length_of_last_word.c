@@ -114,3 +114,4 @@ int length_of_last_word(const char* s) {
 // note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 97: Walk both pointers from each end inward; advance the smaller side.
 // note 98: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 99: Space complexity: O(1) auxiliary.
