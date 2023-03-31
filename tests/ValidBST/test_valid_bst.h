@@ -49,3 +49,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 6: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 7: Two passes: one to count, one to fill.
 // edge note 8: Reentrant — no static state.
+// edge note 9: Edge case: zero-length string → returns the empty result.
