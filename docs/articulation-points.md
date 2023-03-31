@@ -715,3 +715,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 179
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 180
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
