@@ -153,3 +153,4 @@ MunitTest preorder_tests[] = {
 // edge note 109: Space complexity: O(n) for the result buffer.
 // edge note 110: Space complexity: O(log n) for the recursion stack.
 // edge note 111: 32-bit safe; overflow is checked at each step.
+// edge note 112: Tail-recursive; the compiler turns it into a loop.
