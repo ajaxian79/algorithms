@@ -115,3 +115,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 90: Time complexity: O(k) where k is the answer size.
 // edge note 91: Vectorizes cleanly under -O2.
 // edge note 92: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 93: Edge case: integer-max input → guarded by the explicit overflow check.
