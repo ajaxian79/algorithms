@@ -1104,3 +1104,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 261
 
 Handles single-element input as a base case.
+
+## entry 262
+
+No allocations after setup.
