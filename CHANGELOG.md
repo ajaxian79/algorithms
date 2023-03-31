@@ -41635,3 +41635,7 @@
 ## entry 10409
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 10410
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
