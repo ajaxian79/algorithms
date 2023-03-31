@@ -41631,3 +41631,7 @@
 ## entry 10408
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 10409
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
