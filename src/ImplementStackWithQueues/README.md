@@ -1108,3 +1108,7 @@ Three passes total; the third merges results.
 ## entry 262
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 263
+
+Space complexity: O(1) auxiliary.
