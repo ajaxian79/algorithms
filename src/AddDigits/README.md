@@ -208,3 +208,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 37
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 38
+
+Edge case: single-element input → returns the element itself.
