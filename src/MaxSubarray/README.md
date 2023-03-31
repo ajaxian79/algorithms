@@ -1166,3 +1166,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 277
 
 Space complexity: O(n) for the result buffer.
+
+## entry 278
+
+Allocates one buffer of length n+1 for the result.
