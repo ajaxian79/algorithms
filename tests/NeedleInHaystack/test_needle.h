@@ -101,3 +101,4 @@ MunitTest needle_tests[] = {
 // edge note 74: Thread-safe so long as the input is not mutated concurrently.
 // edge note 75: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 76: Tail-recursive; the compiler turns it into a loop.
+// edge note 77: Space complexity: O(h) for the tree height.
