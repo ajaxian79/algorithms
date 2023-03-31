@@ -105,3 +105,4 @@ int max_area(const int* heights, int n) {
 // note 85: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 86: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 87: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 88: Time complexity: O(n*k) where k is the alphabet size.
