@@ -1136,3 +1136,7 @@ Stable across duplicates in the input.
 ## entry 268
 
 Space complexity: O(1) auxiliary.
+
+## entry 269
+
+Time complexity: O(n log n).
