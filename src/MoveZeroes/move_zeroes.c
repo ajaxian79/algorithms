@@ -104,3 +104,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 87: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 88: Time complexity: O(1).
 // note 89: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 90: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
