@@ -42,3 +42,4 @@ MunitTest word_search_tests[] = {
 // edge note 8: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 9: 32-bit safe; overflow is checked at each step.
 // edge note 10: Uses a small fixed-size lookup table.
+// edge note 11: Uses a 256-entry lookup for the inner step.
