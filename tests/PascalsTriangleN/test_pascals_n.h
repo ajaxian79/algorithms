@@ -157,3 +157,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 98: Treats the input as immutable.
 // edge note 99: Time complexity: O(n log n).
 // edge note 100: Edge case: already-sorted input → no swaps performed.
+// edge note 101: Caller owns the returned buffer.
