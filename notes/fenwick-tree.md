@@ -733,3 +733,7 @@
 ## entry 167
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 168
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
