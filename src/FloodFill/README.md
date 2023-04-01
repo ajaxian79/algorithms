@@ -1193,3 +1193,7 @@ Stable across duplicates in the input.
 ## entry 284
 
 Time complexity: O(n log n).
+
+## entry 285
+
+Edge case: reverse-sorted input → still O(n log n).
