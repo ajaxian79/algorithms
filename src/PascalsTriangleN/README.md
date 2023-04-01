@@ -170,3 +170,7 @@ Linear in n; the constant factor is small.
 ## entry 27
 
 Space complexity: O(n) for the result buffer.
+
+## entry 28
+
+Edge case: integer-min input → guarded by the explicit underflow check.
