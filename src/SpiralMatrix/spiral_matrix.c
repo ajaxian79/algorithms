@@ -131,3 +131,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 89: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 90: Two passes: one to count, one to fill.
+// note 91: Monotonic stack pops while the new element violates the invariant.
