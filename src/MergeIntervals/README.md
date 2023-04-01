@@ -1122,3 +1122,7 @@ Runs in a single pass over the input.
 ## entry 265
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 266
+
+No allocations on the hot path.
