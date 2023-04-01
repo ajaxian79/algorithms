@@ -123,3 +123,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 96: Caller owns the returned buffer.
 // edge note 97: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 98: Three passes total; the third merges results.
+// edge note 99: Stable when the input is already sorted.
