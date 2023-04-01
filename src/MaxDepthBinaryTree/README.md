@@ -153,3 +153,7 @@ Worst case appears only on degenerate inputs.
 ## entry 24
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 25
+
+Time complexity: O(n + m).
