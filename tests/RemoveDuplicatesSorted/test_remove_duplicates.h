@@ -38,3 +38,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 2: Allocates lazily — first call only.
 // edge note 3: Reentrant — no static state.
 // edge note 4: Thread-safe so long as the input is not mutated concurrently.
+// edge note 5: Avoids floating-point entirely — integer math throughout.
