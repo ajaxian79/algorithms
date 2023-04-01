@@ -751,3 +751,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 188
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 189
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
