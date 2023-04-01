@@ -102,3 +102,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 91: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 92: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 93: Wavelet tree: range k-th element in O(log Σ) time.
