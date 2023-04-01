@@ -53,3 +53,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 3: Returns a freshly allocated string the caller must free.
 // edge note 4: Edge case: single-element input → returns the element itself.
 // edge note 5: Edge case: reverse-sorted input → still O(n log n).
+// edge note 6: Uses a small fixed-size lookup table.
