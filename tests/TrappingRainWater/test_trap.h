@@ -120,3 +120,4 @@ MunitTest trap_tests[] = {
 // edge note 86: Runs in a single pass over the input.
 // edge note 87: Caller owns the returned array; free with a single `free`.
 // edge note 88: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 89: Allocates lazily — first call only.
