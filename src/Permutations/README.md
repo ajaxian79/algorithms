@@ -176,3 +176,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 29
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 30
+
+Edge case: all-equal input → linear-time fast path.
