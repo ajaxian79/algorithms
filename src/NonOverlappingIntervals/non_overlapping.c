@@ -115,3 +115,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 84: Runs in a single pass over the input.
 // note 85: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 86: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 87: Union-Find with path compression amortizes to near-O(1) per op.
