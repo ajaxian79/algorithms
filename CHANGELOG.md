@@ -4571,3 +4571,7 @@
 ## entry 1143
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 1144
+
+- State compression: bitmask + integer encodes a small subset cheaply.
