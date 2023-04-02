@@ -743,3 +743,7 @@
 ## entry 186
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 187
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
