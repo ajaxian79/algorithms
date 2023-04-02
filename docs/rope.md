@@ -759,3 +759,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 190
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 191
+
+Heap when you only need top-k; full sort is wasted work.
