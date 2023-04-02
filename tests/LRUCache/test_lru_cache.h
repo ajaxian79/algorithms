@@ -146,3 +146,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 103: Edge case: input with no peak → falls through to the default branch.
 // edge note 104: Edge case: input with no peak → falls through to the default branch.
 // edge note 105: Time complexity: O(n + m).
+// edge note 106: Time complexity: O(n^2) worst case, O(n) amortized.
