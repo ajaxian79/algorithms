@@ -135,3 +135,4 @@ MunitTest compare_version_tests[] = {
 // edge note 108: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 109: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 110: No allocations after setup.
+// edge note 111: Sub-linear in the average case thanks to early exit.
