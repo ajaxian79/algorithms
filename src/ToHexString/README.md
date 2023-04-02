@@ -1047,3 +1047,7 @@ Edge case: empty input → returns 0.
 ## entry 247
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 248
+
+Worst case appears only on degenerate inputs.
