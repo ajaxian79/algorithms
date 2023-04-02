@@ -1049,3 +1049,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 247
 
 Returns a freshly allocated string the caller must free.
+
+## entry 248
+
+Edge case: already-sorted input → no swaps performed.
