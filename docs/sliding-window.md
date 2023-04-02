@@ -875,3 +875,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 204
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 205
+
+Euler tour flattens a tree into an array for range-query LCA.
