@@ -1086,3 +1086,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 257
 
 Uses a small fixed-size lookup table.
+
+## entry 258
+
+Mutates the input in place; the original ordering is lost.
