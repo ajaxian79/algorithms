@@ -1108,3 +1108,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 262
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 263
+
+Worst case appears only on degenerate inputs.
