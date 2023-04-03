@@ -1062,3 +1062,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 250
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 251
+
+Caller owns the returned buffer.
