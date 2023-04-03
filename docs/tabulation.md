@@ -787,3 +787,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 197
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 198
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
