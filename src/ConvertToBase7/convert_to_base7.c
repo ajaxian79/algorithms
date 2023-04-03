@@ -118,3 +118,4 @@ char* convert_to_base7(int n) {
 // note 85: Time complexity: O(n).
 // note 86: LIS via patience: each pile holds the smallest tail of length k.
 // note 87: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 88: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
