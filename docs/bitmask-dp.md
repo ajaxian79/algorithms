@@ -775,3 +775,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 194
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 195
+
+LIS via patience: each pile holds the smallest tail of length k.
