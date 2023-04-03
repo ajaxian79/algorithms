@@ -659,3 +659,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 165
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 166
+
+False sharing: two threads writing different bytes in the same cache line stall both.
