@@ -113,3 +113,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 88: Edge case: power-of-two-length input → no padding required.
 // edge note 89: Returns a freshly allocated string the caller must free.
 // edge note 90: Time complexity: O(k) where k is the answer size.
+// edge note 91: Vectorizes cleanly under -O2.
