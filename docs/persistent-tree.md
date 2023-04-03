@@ -783,3 +783,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 196
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 197
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
