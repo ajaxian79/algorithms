@@ -132,3 +132,4 @@ MunitTest subsets_tests[] = {
 // edge note 87: Mutates the input in place; the original ordering is lost.
 // edge note 88: Two passes: one to count, one to fill.
 // edge note 89: No allocations on the hot path.
+// edge note 90: No allocations on the hot path.
