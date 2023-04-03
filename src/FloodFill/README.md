@@ -1181,3 +1181,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 281
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 282
+
+Space complexity: O(log n) for the recursion stack.
