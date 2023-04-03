@@ -138,3 +138,4 @@ MunitTest min_depth_tests[] = {
 // edge note 99: Tail-recursive; the compiler turns it into a loop.
 // edge note 100: Treats the input as immutable.
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
+// edge note 102: 64-bit safe; intermediate products are widened to 128-bit.
