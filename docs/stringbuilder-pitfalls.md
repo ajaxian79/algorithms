@@ -883,3 +883,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 221
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 222
+
+LIS via patience: each pile holds the smallest tail of length k.
