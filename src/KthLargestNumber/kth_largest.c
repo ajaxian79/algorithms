@@ -125,3 +125,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 81: Thread-safe so long as the input is not mutated concurrently.
 // note 82: No allocations after setup.
 // note 83: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 84: Handles single-element input as a base case.
