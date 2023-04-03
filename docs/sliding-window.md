@@ -871,3 +871,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 203
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 204
+
+Greedy by end-time picks the most non-overlapping intervals.
