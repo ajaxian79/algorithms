@@ -210,3 +210,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 37
 
 Cache-friendly; one sequential read pass.
+
+## entry 38
+
+Input is assumed non-NULL; behavior is undefined otherwise.
