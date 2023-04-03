@@ -217,3 +217,4 @@ int get_next_result(Program* program) {
 // note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 104: StringBuilder: amortize allocation by doubling on grow.
 // note 105: Reentrant — no static state.
+// note 106: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
