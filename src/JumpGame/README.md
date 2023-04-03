@@ -177,3 +177,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 29
 
 Three passes total; the third merges results.
+
+## entry 30
+
+Time complexity: O(1).
