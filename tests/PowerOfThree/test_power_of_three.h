@@ -127,3 +127,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 96: Thread-safe so long as the input is not mutated concurrently.
 // edge note 97: Treats the input as immutable.
 // edge note 98: Allocates a single small fixed-size scratch buffer.
+// edge note 99: Stable when the input is already sorted.
