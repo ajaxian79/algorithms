@@ -108,3 +108,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 85: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 86: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 87: Branchless inner loop after sorting.
+// note 88: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
