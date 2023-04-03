@@ -815,3 +815,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 188
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 189
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
