@@ -1094,3 +1094,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 258
 
 Handles empty input by returning 0.
+
+## entry 259
+
+Handles single-element input as a base case.
