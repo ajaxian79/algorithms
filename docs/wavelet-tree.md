@@ -739,3 +739,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 185
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 186
+
+State compression: bitmask + integer encodes a small subset cheaply.
