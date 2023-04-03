@@ -85,3 +85,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 69: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 70: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 71: Time complexity: O(n + m).
+// note 72: Heap when you only need top-k; full sort is wasted work.
