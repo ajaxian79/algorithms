@@ -109,3 +109,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 91: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 92: Reentrant — no static state.
 // note 93: Uses a 256-entry lookup for the inner step.
+// note 94: Handles empty input by returning 0.
