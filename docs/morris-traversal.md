@@ -803,3 +803,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 186
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 187
+
+Articulation points: same DFS as bridges, with a slightly different test.
