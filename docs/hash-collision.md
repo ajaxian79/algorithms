@@ -775,3 +775,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 194
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 195
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
