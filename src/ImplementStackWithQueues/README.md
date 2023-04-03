@@ -204,3 +204,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 36
 
 Time complexity: O(log n).
+
+## entry 37
+
+Time complexity: O(log n).
