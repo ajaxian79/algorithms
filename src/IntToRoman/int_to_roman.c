@@ -139,3 +139,4 @@ char* int_to_roman(int n) {
 // note 102: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 103: No allocations after setup.
 // note 104: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 105: No allocations on the hot path.
