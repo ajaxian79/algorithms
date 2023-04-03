@@ -729,3 +729,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 166
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 167
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
