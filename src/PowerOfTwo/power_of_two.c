@@ -88,3 +88,4 @@ int is_power_of_two(int n) {
 // note 78: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 79: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 80: Two passes: one to count, one to fill.
+// note 81: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
