@@ -1086,3 +1086,7 @@ Reentrant — no static state.
 ## entry 256
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 257
+
+Three passes total; the third merges results.
