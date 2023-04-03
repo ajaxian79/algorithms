@@ -811,3 +811,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 187
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 188
+
+Euler tour flattens a tree into an array for range-query LCA.
