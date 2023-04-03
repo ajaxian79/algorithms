@@ -1104,3 +1104,7 @@ Handles negative inputs as documented above.
 ## entry 261
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 262
+
+Mutates the input in place; the original ordering is lost.
