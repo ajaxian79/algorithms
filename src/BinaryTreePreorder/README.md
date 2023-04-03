@@ -1174,3 +1174,7 @@ Caller owns the returned buffer.
 ## entry 279
 
 Branchless inner loop after sorting.
+
+## entry 280
+
+Edge case: alternating pattern → degenerate case for sliding window.
