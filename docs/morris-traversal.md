@@ -799,3 +799,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 185
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 186
+
+Merge intervals: sort by start; extend the running interval while overlapping.
