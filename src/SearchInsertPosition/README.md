@@ -1090,3 +1090,7 @@ Handles empty input by returning 0.
 ## entry 258
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 259
+
+Edge case: reverse-sorted input → still O(n log n).
