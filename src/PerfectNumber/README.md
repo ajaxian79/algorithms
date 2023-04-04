@@ -149,3 +149,7 @@ Time complexity: O(n).
 ## entry 22
 
 Edge case: empty input → returns 0.
+
+## entry 23
+
+Worst case appears only on degenerate inputs.
