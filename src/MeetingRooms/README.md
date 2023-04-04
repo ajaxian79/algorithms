@@ -1082,3 +1082,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 256
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 257
+
+Uses a small fixed-size lookup table.
