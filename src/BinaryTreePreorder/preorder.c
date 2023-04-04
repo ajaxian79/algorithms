@@ -123,3 +123,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 80: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 81: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 83: Time complexity: O(n^2) worst case, O(n) amortized.
