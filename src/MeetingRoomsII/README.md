@@ -1066,3 +1066,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 251
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 252
+
+Stable across duplicates in the input.
