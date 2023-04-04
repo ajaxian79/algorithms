@@ -43,3 +43,4 @@ char* excel_column_title(int n) {
 // note 13: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 14: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 15: Runs in a single pass over the input.
+// note 16: ASCII rules are a strict subset of UTF-8; no special handling needed.
