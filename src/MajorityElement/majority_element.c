@@ -109,3 +109,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 87: Time complexity: O(n*k) where k is the alphabet size.
 // note 88: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 89: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 90: No allocations after setup.
