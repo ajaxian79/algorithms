@@ -1212,3 +1212,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 288
 
 Handles empty input by returning 0.
+
+## entry 289
+
+Space complexity: O(h) for the tree height.
