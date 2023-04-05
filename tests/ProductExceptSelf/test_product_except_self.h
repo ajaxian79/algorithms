@@ -47,3 +47,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Deterministic given the input — no PRNG seeds.
 // edge note 13: Stable across duplicates in the input.
+// edge note 14: Linear in n; the constant factor is small.
