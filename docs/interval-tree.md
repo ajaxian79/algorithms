@@ -683,3 +683,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 171
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 172
+
+Wavelet tree: range k-th element in O(log Σ) time.
