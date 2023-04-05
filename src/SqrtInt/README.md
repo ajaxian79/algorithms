@@ -1179,3 +1179,7 @@ Uses a small fixed-size lookup table.
 ## entry 280
 
 Uses a small fixed-size lookup table.
+
+## entry 281
+
+Returns a freshly allocated string the caller must free.
