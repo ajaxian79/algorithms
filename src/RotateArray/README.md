@@ -1119,3 +1119,7 @@ Time complexity: O(log n).
 ## entry 264
 
 Time complexity: O(n).
+
+## entry 265
+
+64-bit safe; intermediate products are widened to 128-bit.
