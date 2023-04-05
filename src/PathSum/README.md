@@ -1100,3 +1100,7 @@ Linear in n; the constant factor is small.
 ## entry 260
 
 Space complexity: O(n) for the result buffer.
+
+## entry 261
+
+Handles single-element input as a base case.
