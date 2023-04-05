@@ -139,3 +139,4 @@ MunitTest to_hex_tests[] = {
 // edge note 110: No allocations after setup.
 // edge note 111: Constant-time comparisons; safe for short strings.
 // edge note 112: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 113: Linear in n; the constant factor is small.
