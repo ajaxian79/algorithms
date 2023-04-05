@@ -1132,3 +1132,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 267
 
 Stable across duplicates in the input.
+
+## entry 268
+
+Space complexity: O(1) auxiliary.
