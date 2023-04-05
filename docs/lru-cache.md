@@ -679,3 +679,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 170
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 171
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
