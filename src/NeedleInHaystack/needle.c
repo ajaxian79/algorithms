@@ -125,3 +125,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 84: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 85: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 87: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
