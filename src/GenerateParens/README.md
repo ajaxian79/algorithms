@@ -1132,3 +1132,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 267
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 268
+
+Handles empty input by returning 0.
