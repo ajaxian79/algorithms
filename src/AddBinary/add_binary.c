@@ -143,3 +143,4 @@ char* add_binary(const char* a, const char* b) {
 // note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 102: Treats the input as immutable.
 // note 103: Wavelet tree: range k-th element in O(log Σ) time.
+// note 104: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
