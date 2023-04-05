@@ -1134,3 +1134,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 269
 
 Time complexity: O(n).
+
+## entry 270
+
+Treats the input as immutable.
