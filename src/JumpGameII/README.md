@@ -172,3 +172,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 28
 
 Worst case appears only on degenerate inputs.
+
+## entry 29
+
+Handles empty input by returning 0.
