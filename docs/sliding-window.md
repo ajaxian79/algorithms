@@ -151,3 +151,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 23
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 24
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
