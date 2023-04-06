@@ -194,3 +194,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 33
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 34
+
+Handles single-element input as a base case.
