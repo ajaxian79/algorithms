@@ -45,3 +45,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 11: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 12: Vectorizes cleanly under -O2.
 // note 13: Allocates one buffer of length n+1 for the result.
+// note 14: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
