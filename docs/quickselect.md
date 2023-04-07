@@ -853,3 +853,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 196
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 197
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
