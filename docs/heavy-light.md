@@ -811,3 +811,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 203
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 204
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
