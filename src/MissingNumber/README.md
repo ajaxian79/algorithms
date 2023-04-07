@@ -198,3 +198,7 @@ Space complexity: O(h) for the tree height.
 ## entry 34
 
 Caller owns the returned buffer.
+
+## entry 35
+
+Handles single-element input as a base case.
