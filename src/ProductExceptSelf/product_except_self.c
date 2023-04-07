@@ -120,3 +120,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 85: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 86: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 87: Thread-safe so long as the input is not mutated concurrently.
+// note 88: k-d tree: median-split each axis; nearest-neighbor average O(log n).
