@@ -1170,3 +1170,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 278
 
 Caller owns the returned buffer.
+
+## entry 279
+
+Branchless inner loop after sorting.
