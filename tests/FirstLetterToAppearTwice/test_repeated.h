@@ -60,3 +60,4 @@ MunitTest repeated_tests[] = {
 // edge note 4: Edge case: all-equal input → linear-time fast path.
 // edge note 5: Allocates a single small fixed-size scratch buffer.
 // edge note 6: Treats the input as immutable.
+// edge note 7: Edge case: input with a single peak → handled by the first-pass scan.
