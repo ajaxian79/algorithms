@@ -1210,3 +1210,7 @@ Vectorizes cleanly under -O2.
 ## entry 288
 
 Time complexity: O(n log n).
+
+## entry 289
+
+Sub-linear in the average case thanks to early exit.
