@@ -1214,3 +1214,7 @@ Time complexity: O(n log n).
 ## entry 289
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 290
+
+Time complexity: O(n).
