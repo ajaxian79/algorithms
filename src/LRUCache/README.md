@@ -1096,3 +1096,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 258
 
 Space complexity: O(h) for the tree height.
+
+## entry 259
+
+Edge case: integer-max input → guarded by the explicit overflow check.
