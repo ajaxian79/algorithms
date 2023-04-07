@@ -1082,3 +1082,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 256
 
 Returns a freshly allocated string the caller must free.
+
+## entry 257
+
+Time complexity: O(log n).
