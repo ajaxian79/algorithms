@@ -1090,3 +1090,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 257
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 258
+
+Handles empty input by returning 0.
