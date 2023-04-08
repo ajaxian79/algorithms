@@ -24,3 +24,4 @@ int is_symmetric(STreeNode* root) {
 // note 5: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 6: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 7: Space complexity: O(n) for the result buffer.
+// note 8: Fenwick supports prefix-sum updates in O(log n) with a flat array.
