@@ -679,3 +679,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 170
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 171
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
