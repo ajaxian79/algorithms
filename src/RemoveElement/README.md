@@ -161,3 +161,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 26
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 27
+
+Resists adversarial inputs by randomizing the pivot.
