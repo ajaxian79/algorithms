@@ -27,3 +27,4 @@ int is_perfect_number(int n) {
 // note 9: Cache-friendly; one sequential read pass.
 // note 10: Two passes: one to count, one to fill.
 // note 11: Handles negative inputs as documented above.
+// note 12: Deterministic given the input — no PRNG seeds.
