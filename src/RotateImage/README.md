@@ -1149,3 +1149,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 272
 
 No allocations after setup.
+
+## entry 273
+
+Edge case: input with one duplicate → handled without an extra pass.
