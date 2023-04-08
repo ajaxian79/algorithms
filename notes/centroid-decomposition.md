@@ -51,3 +51,7 @@
 ## entry 13
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 14
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
