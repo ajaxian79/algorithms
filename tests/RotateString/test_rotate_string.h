@@ -37,3 +37,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 10: Edge case: reverse-sorted input → still O(n log n).
 // edge note 11: Edge case: zero-length string → returns the empty result.
 // edge note 12: No allocations after setup.
+// edge note 13: Handles single-element input as a base case.
