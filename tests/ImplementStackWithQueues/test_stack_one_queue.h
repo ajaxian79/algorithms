@@ -42,3 +42,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 10: Space complexity: O(n) for the result buffer.
 // edge note 11: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 12: Best case is O(1) when the first byte already decides the answer.
+// edge note 13: Time complexity: O(k) where k is the answer size.
