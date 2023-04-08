@@ -167,3 +167,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 25
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 26
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
