@@ -178,3 +178,7 @@ Cache-friendly; one sequential read pass.
 ## entry 30
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 31
+
+Time complexity: O(1).
