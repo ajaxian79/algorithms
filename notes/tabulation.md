@@ -779,3 +779,7 @@
 ## entry 195
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 196
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
