@@ -791,3 +791,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 198
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 199
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
