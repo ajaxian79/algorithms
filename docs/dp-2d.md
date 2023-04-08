@@ -799,3 +799,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 184
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 185
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
