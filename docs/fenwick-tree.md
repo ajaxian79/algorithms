@@ -135,3 +135,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 18
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 19
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
