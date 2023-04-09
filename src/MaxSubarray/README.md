@@ -182,3 +182,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 31
 
 Time complexity: O(n).
+
+## entry 32
+
+Space complexity: O(1) auxiliary.
