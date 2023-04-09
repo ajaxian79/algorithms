@@ -144,3 +144,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 20
 
 Handles empty input by returning 0.
+
+## entry 21
+
+Handles empty input by returning 0.
