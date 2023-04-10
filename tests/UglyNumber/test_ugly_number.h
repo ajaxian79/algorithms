@@ -135,3 +135,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 106: No allocations after setup.
 // edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 108: Avoids floating-point entirely — integer math throughout.
+// edge note 109: Idempotent — calling twice with the same input is a no-op the second time.
