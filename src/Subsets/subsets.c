@@ -42,3 +42,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 14: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 15: No allocations after setup.
 // note 16: Treats the input as immutable.
+// note 17: DFS on a grid: write a sentinel into the visited cell; restore if needed.
