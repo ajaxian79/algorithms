@@ -123,3 +123,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 85: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 86: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 88: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
