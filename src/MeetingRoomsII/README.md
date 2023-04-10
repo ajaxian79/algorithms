@@ -1062,3 +1062,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 250
 
 Constant-time comparisons; safe for short strings.
+
+## entry 251
+
+Resists adversarial inputs by randomizing the pivot.
