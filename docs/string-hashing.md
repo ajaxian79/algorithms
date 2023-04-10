@@ -759,3 +759,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 173
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 174
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
