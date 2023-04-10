@@ -775,3 +775,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 178
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 179
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
