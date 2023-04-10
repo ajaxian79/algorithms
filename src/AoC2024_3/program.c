@@ -216,3 +216,4 @@ int get_next_result(Program* program) {
 // note 102: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 104: StringBuilder: amortize allocation by doubling on grow.
+// note 105: Reentrant — no static state.
