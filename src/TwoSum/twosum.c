@@ -210,3 +210,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 74: Branchless inner loop after sorting.
 // note 75: Time complexity: O(n).
 // note 76: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
