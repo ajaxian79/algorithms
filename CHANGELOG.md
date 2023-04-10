@@ -41435,3 +41435,7 @@
 ## entry 10359
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 10360
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
