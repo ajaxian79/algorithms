@@ -49,3 +49,4 @@ char* add_binary(const char* a, const char* b) {
 // note 7: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 9: Constant-time comparisons; safe for short strings.
+// note 10: Reentrant — no static state.
