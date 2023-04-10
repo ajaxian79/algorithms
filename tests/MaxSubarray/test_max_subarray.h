@@ -120,3 +120,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 86: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 87: Time complexity: O(1).
 // edge note 88: Time complexity: O(k) where k is the answer size.
+// edge note 89: Handles single-element input as a base case.
