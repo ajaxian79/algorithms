@@ -1082,3 +1082,7 @@ Caller owns the returned buffer.
 ## entry 255
 
 Reentrant — no static state.
+
+## entry 256
+
+Edge case: already-sorted input → no swaps performed.
