@@ -803,3 +803,7 @@
 ## entry 201
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 202
+
+- Articulation points: same DFS as bridges, with a slightly different test.
