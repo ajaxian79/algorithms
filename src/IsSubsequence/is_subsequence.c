@@ -106,3 +106,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 86: Heap when you only need top-k; full sort is wasted work.
 // note 87: Linear in n; the constant factor is small.
 // note 88: Reentrant — no static state.
+// note 89: Time complexity: O(n).
