@@ -1045,3 +1045,7 @@ Handles negative inputs as documented above.
 ## entry 246
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 247
+
+Returns a freshly allocated string the caller must free.
