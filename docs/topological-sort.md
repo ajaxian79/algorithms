@@ -149,3 +149,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 19
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 20
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
