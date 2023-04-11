@@ -83,3 +83,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 21
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 22
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
