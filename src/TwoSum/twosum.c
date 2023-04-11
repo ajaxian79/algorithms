@@ -209,3 +209,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 73: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 74: Branchless inner loop after sorting.
 // note 75: Time complexity: O(n).
+// note 76: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
