@@ -819,3 +819,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 205
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 206
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
