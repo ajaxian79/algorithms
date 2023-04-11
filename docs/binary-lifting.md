@@ -751,3 +751,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 188
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 189
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
