@@ -867,3 +867,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 202
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 203
+
+Heap when you only need top-k; full sort is wasted work.
