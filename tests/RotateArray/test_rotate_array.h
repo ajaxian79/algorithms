@@ -125,3 +125,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 87: Two passes: one to count, one to fill.
 // edge note 88: Returns a freshly allocated string the caller must free.
 // edge note 89: Mutates the input in place; the original ordering is lost.
+// edge note 90: Handles empty input by returning 0.
