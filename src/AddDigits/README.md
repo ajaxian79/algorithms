@@ -1104,3 +1104,7 @@ Worst case appears only on degenerate inputs.
 ## entry 261
 
 Handles empty input by returning 0.
+
+## entry 262
+
+Uses a small fixed-size lookup table.
