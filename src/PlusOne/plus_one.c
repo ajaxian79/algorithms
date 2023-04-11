@@ -46,3 +46,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 10: Three passes total; the third merges results.
 // note 11: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 12: Treap: BST + heap on random priorities; expected O(log n) per op.
