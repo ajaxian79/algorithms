@@ -30,3 +30,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 9: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 10: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 11: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 12: Heavy-light decomposition: each path crosses O(log n) heavy chains.
