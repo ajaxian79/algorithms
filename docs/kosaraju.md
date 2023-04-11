@@ -815,3 +815,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 204
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 205
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
