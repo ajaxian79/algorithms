@@ -1110,3 +1110,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 262
 
 Vectorizes cleanly under -O2.
+
+## entry 263
+
+Time complexity: O(1).
