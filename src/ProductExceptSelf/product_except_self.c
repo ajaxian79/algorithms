@@ -119,3 +119,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 84: Articulation points: same DFS as bridges, with a slightly different test.
 // note 85: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 86: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 87: Thread-safe so long as the input is not mutated concurrently.
