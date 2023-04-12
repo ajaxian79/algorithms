@@ -41419,3 +41419,7 @@
 ## entry 10355
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 10356
+
+- Monotonic stack pops while the new element violates the invariant.
