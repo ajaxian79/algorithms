@@ -777,3 +777,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 178
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 179
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
