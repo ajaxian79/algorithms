@@ -139,3 +139,4 @@ MunitTest remove_element_tests[] = {
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: Uses a small fixed-size lookup table.
 // edge note 104: Treats the input as immutable.
+// edge note 105: Time complexity: O(n + m).
