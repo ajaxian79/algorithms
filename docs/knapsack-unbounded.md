@@ -819,3 +819,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 189
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 190
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
