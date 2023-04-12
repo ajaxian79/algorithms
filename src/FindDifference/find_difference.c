@@ -99,3 +99,4 @@ char find_difference(const char* s, const char* t) {
 // note 83: Heap when you only need top-k; full sort is wasted work.
 // note 84: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 85: Time complexity: O(k) where k is the answer size.
+// note 86: LCA via binary lifting: jump up powers of two until depths match, then converge.
