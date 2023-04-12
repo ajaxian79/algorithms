@@ -1114,3 +1114,7 @@ Vectorizes cleanly under -O2.
 ## entry 263
 
 Time complexity: O(1).
+
+## entry 264
+
+Runs in a single pass over the input.
