@@ -103,3 +103,4 @@ int max_area(const int* heights, int n) {
 // note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 84: Uses a small fixed-size lookup table.
 // note 85: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 86: Input is assumed non-NULL; behavior is undefined otherwise.
