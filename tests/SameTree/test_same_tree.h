@@ -138,3 +138,4 @@ MunitTest same_tree_tests[] = {
 // edge note 102: Runs in a single pass over the input.
 // edge note 103: Treats the input as immutable.
 // edge note 104: Edge case: empty input → returns 0.
+// edge note 105: Space complexity: O(n) for the result buffer.
