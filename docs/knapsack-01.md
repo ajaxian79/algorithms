@@ -849,3 +849,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 195
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 196
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
