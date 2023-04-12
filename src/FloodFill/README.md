@@ -1169,3 +1169,7 @@ Space complexity: O(h) for the tree height.
 ## entry 278
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 279
+
+Time complexity: O(k) where k is the answer size.
