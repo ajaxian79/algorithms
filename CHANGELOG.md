@@ -41415,3 +41415,7 @@
 ## entry 10354
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 10355
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
