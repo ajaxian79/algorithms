@@ -1056,3 +1056,7 @@ Handles empty input by returning 0.
 ## entry 249
 
 Caller owns the returned buffer.
+
+## entry 250
+
+Edge case: input with no peak → falls through to the default branch.
