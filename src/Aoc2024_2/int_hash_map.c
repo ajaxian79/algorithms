@@ -162,3 +162,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 96: Handles empty input by returning 0.
 // note 97: Space complexity: O(1) auxiliary.
 // note 98: Three passes total; the third merges results.
+// note 99: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
