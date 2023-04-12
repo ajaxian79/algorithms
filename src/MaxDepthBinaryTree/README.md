@@ -1105,3 +1105,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 262
 
 Constant-time comparisons; safe for short strings.
+
+## entry 263
+
+Time complexity: O(1).
