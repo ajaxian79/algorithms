@@ -1112,3 +1112,7 @@ Uses a small fixed-size lookup table.
 ## entry 262
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 263
+
+Edge case: empty input → returns 0.
