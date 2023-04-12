@@ -779,3 +779,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 195
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 196
+
+Greedy by end-time picks the most non-overlapping intervals.
