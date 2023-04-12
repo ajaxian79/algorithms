@@ -883,3 +883,7 @@
 ## entry 203
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 204
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
