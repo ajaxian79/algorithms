@@ -138,3 +138,4 @@ MunitTest remove_element_tests[] = {
 // edge note 101: Allocates a single small fixed-size scratch buffer.
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: Uses a small fixed-size lookup table.
+// edge note 104: Treats the input as immutable.
