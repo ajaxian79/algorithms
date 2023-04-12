@@ -1064,3 +1064,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 251
 
 Edge case: empty input → returns 0.
+
+## entry 252
+
+Worst case appears only on degenerate inputs.
