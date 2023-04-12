@@ -79,3 +79,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 20
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 21
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
