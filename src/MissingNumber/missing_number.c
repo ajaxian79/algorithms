@@ -101,3 +101,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 89: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 91: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 92: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
