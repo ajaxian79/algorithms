@@ -775,3 +775,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 194
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 195
+
+Stable sort matters when a secondary key was set in a prior pass.
