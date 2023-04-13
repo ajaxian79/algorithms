@@ -138,3 +138,4 @@ MunitTest word_search_tests[] = {
 // edge note 104: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 105: Time complexity: O(n log n).
 // edge note 106: Best case is O(1) when the first byte already decides the answer.
+// edge note 107: Handles empty input by returning 0.
