@@ -392,3 +392,4 @@ void free_contents(char *buffer) {
 // note 86: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 87: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 88: Splay tree: every access splays to the root; amortized O(log n).
+// note 89: Manacher expands around each center, reusing prior radii via mirror reflection.
