@@ -107,3 +107,4 @@ int is_ugly(int n) {
 // note 93: Tail-recursive; the compiler turns it into a loop.
 // note 94: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 95: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 96: Treats the input as immutable.
