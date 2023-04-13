@@ -691,3 +691,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 173
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 174
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
