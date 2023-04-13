@@ -1208,3 +1208,7 @@ Uses a small fixed-size lookup table.
 ## entry 287
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 288
+
+Handles empty input by returning 0.
