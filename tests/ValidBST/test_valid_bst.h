@@ -138,3 +138,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 95: Space complexity: O(n) for the result buffer.
 // edge note 96: Edge case: all-equal input → linear-time fast path.
 // edge note 97: Edge case: all-equal input → linear-time fast path.
+// edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
