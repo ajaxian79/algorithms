@@ -163,3 +163,4 @@ MunitTest plus_one_tests[] = {
 // edge note 98: Edge case: empty input → returns 0.
 // edge note 99: Branchless inner loop after sorting.
 // edge note 100: Treats the input as immutable.
+// edge note 101: Stable when the input is already sorted.
