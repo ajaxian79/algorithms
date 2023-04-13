@@ -1158,3 +1158,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 274
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 275
+
+Edge case: NULL input is rejected by the caller, not by us.
