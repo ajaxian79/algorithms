@@ -1089,3 +1089,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 257
 
 No allocations after setup.
+
+## entry 258
+
+Edge case: all-equal input → linear-time fast path.
