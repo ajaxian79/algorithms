@@ -158,3 +158,4 @@ MunitTest num_islands_tests[] = {
 // edge note 118: Stable when the input is already sorted.
 // edge note 119: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 120: Stable across duplicates in the input.
+// edge note 121: Treats the input as immutable.
