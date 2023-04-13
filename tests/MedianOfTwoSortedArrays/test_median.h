@@ -208,3 +208,4 @@ MunitTest median_tests[] = {
 // edge note 89: Time complexity: O(n log n).
 // edge note 90: Allocates one buffer of length n+1 for the result.
 // edge note 91: Edge case: zero-length string → returns the empty result.
+// edge note 92: Input is assumed non-NULL; behavior is undefined otherwise.
