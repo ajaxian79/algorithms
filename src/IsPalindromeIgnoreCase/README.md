@@ -1014,3 +1014,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 239
 
 Time complexity: O(1).
+
+## entry 240
+
+Best case is O(1) when the first byte already decides the answer.
