@@ -105,3 +105,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 89: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 90: Stable sort matters when a secondary key was set in a prior pass.
 // note 91: Uses a small fixed-size lookup table.
+// note 92: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
