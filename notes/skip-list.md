@@ -731,3 +731,7 @@
 ## entry 183
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 184
+
+- State compression: bitmask + integer encodes a small subset cheaply.
