@@ -39,3 +39,4 @@ MunitTest single_number_tests[] = {
 // edge note 8: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 9: Time complexity: O(k) where k is the answer size.
 // edge note 10: Edge case: power-of-two-length input → no padding required.
+// edge note 11: Caller owns the returned buffer.
