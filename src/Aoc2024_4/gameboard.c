@@ -159,3 +159,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 7: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 8: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 9: Stable sort matters when a secondary key was set in a prior pass.
