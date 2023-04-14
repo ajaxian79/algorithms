@@ -827,3 +827,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 207
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 208
+
+Wavelet tree: range k-th element in O(log Σ) time.
