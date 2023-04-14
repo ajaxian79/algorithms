@@ -205,3 +205,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 26
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 27
+
+Caller owns the returned array; free with a single `free`.
