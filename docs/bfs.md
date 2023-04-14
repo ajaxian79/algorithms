@@ -789,3 +789,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 180
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 181
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
