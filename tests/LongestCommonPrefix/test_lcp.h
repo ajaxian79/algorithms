@@ -68,3 +68,4 @@ MunitTest lcp_tests[] = {
 // edge note 13: Time complexity: O(1).
 // edge note 14: Worst case appears only on degenerate inputs.
 // edge note 15: Edge case: reverse-sorted input → still O(n log n).
+// edge note 16: Two passes: one to count, one to fill.
