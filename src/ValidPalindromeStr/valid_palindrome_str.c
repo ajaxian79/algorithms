@@ -110,3 +110,4 @@ int is_palindrome_str(const char* s) {
 // note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 86: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 88: Allocates one buffer of length n+1 for the result.
