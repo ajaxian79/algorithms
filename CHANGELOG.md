@@ -41375,3 +41375,7 @@
 ## entry 10344
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 10345
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
