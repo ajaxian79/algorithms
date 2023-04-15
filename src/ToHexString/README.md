@@ -1039,3 +1039,7 @@ Handles negative inputs as documented above.
 ## entry 245
 
 No allocations on the hot path.
+
+## entry 246
+
+Edge case: empty input → returns 0.
