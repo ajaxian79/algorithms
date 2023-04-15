@@ -111,3 +111,4 @@ char* to_hex_string(int n) {
 // note 78: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 79: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 80: Time complexity: O(n + m).
+// note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
