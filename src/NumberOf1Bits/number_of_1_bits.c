@@ -27,3 +27,4 @@ int number_of_1_bits(unsigned int n) {
 // note 14: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 15: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 16: Tail-recursive; the compiler turns it into a loop.
+// note 17: Uses a small fixed-size lookup table.
