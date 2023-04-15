@@ -123,3 +123,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 14
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 15
+
+Rope: tree of small string fragments; O(log n) concat and substring.
