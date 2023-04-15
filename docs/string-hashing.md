@@ -755,3 +755,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 172
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 173
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
