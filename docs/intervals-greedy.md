@@ -163,3 +163,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 23
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 24
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
