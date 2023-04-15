@@ -879,3 +879,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 220
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 221
+
+LIS via patience: each pile holds the smallest tail of length k.
