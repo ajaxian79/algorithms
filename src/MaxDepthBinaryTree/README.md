@@ -145,3 +145,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 22
 
 Treats the input as immutable.
+
+## entry 23
+
+Worst case appears only on degenerate inputs.
