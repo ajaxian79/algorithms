@@ -1030,3 +1030,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 243
 
 Time complexity: O(n log n).
+
+## entry 244
+
+Vectorizes cleanly under -O2.
