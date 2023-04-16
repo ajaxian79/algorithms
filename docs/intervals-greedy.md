@@ -735,3 +735,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 166
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 167
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
