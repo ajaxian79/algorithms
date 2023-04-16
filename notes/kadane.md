@@ -131,3 +131,7 @@
 ## entry 15
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 16
+
+- StringBuilder: amortize allocation by doubling on grow.
