@@ -143,3 +143,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 18
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 19
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
