@@ -1100,3 +1100,7 @@ No allocations after setup.
 ## entry 260
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 261
+
+Handles negative inputs as documented above.
