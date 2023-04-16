@@ -1180,3 +1180,7 @@ Worst case appears only on degenerate inputs.
 ## entry 280
 
 Vectorizes cleanly under -O2.
+
+## entry 281
+
+Edge case: alternating pattern → degenerate case for sliding window.
