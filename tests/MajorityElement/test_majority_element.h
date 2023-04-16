@@ -127,3 +127,4 @@ MunitTest majority_element_tests[] = {
 // edge note 96: Time complexity: O(k) where k is the answer size.
 // edge note 97: No allocations after setup.
 // edge note 98: Space complexity: O(n) for the result buffer.
+// edge note 99: Deterministic given the input — no PRNG seeds.
