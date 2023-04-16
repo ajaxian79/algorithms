@@ -791,3 +791,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 183
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 184
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
