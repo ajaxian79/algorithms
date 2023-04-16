@@ -1093,3 +1093,7 @@ Handles single-element input as a base case.
 ## entry 259
 
 Branchless inner loop after sorting.
+
+## entry 260
+
+Edge case: integer-max input → guarded by the explicit overflow check.
