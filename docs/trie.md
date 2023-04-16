@@ -765,3 +765,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 175
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 176
+
+Greedy by end-time picks the most non-overlapping intervals.
