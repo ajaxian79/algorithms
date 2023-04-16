@@ -112,3 +112,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 98: Cache-friendly; one sequential read pass.
 // note 99: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 100: Time complexity: O(k) where k is the answer size.
+// note 101: LRU cache: doubly-linked list + hash map; O(1) get/put.
