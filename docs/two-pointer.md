@@ -155,3 +155,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 21
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 22
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
