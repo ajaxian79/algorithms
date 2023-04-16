@@ -1184,3 +1184,7 @@ Vectorizes cleanly under -O2.
 ## entry 281
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 282
+
+Edge case: integer-min input → guarded by the explicit underflow check.
