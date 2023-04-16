@@ -751,3 +751,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 188
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 189
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
