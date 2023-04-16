@@ -769,3 +769,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 176
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 177
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
