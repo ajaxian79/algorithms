@@ -103,3 +103,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 26
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 27
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
