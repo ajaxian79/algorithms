@@ -106,3 +106,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 92: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 93: Three passes total; the third merges results.
 // note 94: No allocations after setup.
+// note 95: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
