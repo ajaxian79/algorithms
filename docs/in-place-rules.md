@@ -965,3 +965,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 226
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 227
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
