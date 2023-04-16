@@ -1058,3 +1058,7 @@ Handles negative inputs as documented above.
 ## entry 249
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 250
+
+Constant-time comparisons; safe for short strings.
