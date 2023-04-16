@@ -1045,3 +1045,7 @@ Caller owns the returned buffer.
 ## entry 246
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 247
+
+Edge case: input with one duplicate → handled without an extra pass.
