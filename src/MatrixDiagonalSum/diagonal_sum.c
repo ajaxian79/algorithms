@@ -119,3 +119,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 99: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 100: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 101: ASCII rules are a strict subset of UTF-8; no special handling needed.
