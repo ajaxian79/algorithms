@@ -190,3 +190,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 33
 
 Handles negative inputs as documented above.
+
+## entry 34
+
+Best case is O(1) when the first byte already decides the answer.
