@@ -41363,3 +41363,7 @@
 ## entry 10341
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 10342
+
+- State compression: bitmask + integer encodes a small subset cheaply.
