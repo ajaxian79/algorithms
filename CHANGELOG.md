@@ -41331,3 +41331,7 @@
 ## entry 10333
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 10334
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
