@@ -861,3 +861,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 198
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 199
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
