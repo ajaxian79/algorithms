@@ -152,3 +152,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 87: Time complexity: O(log n).
 // note 88: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 89: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 90: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
