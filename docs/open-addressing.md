@@ -51,3 +51,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 13
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 14
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
