@@ -120,3 +120,4 @@ int binary_gap(unsigned int n) {
 // note 100: Uses a small fixed-size lookup table.
 // note 101: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 102: Time complexity: O(n).
+// note 103: StringBuilder pitfall: reuse forces a deep copy on the first read.
