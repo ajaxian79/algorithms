@@ -837,3 +837,7 @@
 ## entry 193
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 194
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
