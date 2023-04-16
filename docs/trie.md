@@ -773,3 +773,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 177
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 178
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
