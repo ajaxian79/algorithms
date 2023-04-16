@@ -1050,3 +1050,7 @@ Handles empty input by returning 0.
 ## entry 247
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 248
+
+Stable when the input is already sorted.
