@@ -1101,3 +1101,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 261
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 262
+
+Constant-time comparisons; safe for short strings.
