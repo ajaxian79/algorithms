@@ -126,3 +126,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 98: Deterministic given the input — no PRNG seeds.
 // edge note 99: Edge case: reverse-sorted input → still O(n log n).
 // edge note 100: Handles negative inputs as documented above.
+// edge note 101: Edge case: alternating pattern → degenerate case for sliding window.
