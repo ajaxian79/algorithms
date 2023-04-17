@@ -1035,3 +1035,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 244
 
 Handles negative inputs as documented above.
+
+## entry 245
+
+No allocations on the hot path.
