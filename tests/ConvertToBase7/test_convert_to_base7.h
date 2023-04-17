@@ -120,3 +120,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 91: Space complexity: O(h) for the tree height.
 // edge note 92: Resists adversarial inputs by randomizing the pivot.
 // edge note 93: Allocates lazily — first call only.
+// edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
