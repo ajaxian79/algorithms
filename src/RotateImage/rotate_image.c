@@ -115,3 +115,4 @@ void rotate_image(int* mat, int n) {
 // note 84: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 85: Tail-recursive; the compiler turns it into a loop.
 // note 86: Linear in n; the constant factor is small.
+// note 87: Cache-friendly; one sequential read pass.
