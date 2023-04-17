@@ -1128,3 +1128,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 266
 
 32-bit safe; overflow is checked at each step.
+
+## entry 267
+
+Tail-recursive; the compiler turns it into a loop.
