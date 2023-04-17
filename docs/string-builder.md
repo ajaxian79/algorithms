@@ -755,3 +755,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 189
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 190
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
