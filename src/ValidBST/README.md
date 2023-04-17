@@ -1089,3 +1089,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 257
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 258
+
+Tail-recursive; the compiler turns it into a loop.
