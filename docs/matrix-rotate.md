@@ -765,3 +765,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 175
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 176
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
