@@ -140,3 +140,4 @@ MunitTest permutations_tests[] = {
 // edge note 99: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 100: Reentrant — no static state.
 // edge note 101: Stable when the input is already sorted.
+// edge note 102: Time complexity: O(n^2) worst case, O(n) amortized.
