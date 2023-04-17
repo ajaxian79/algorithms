@@ -1078,3 +1078,7 @@ Handles negative inputs as documented above.
 ## entry 255
 
 Constant-time comparisons; safe for short strings.
+
+## entry 256
+
+Returns a freshly allocated string the caller must free.
