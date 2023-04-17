@@ -133,3 +133,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 90: Time complexity: O(n + m).
 // note 91: Best case is O(1) when the first byte already decides the answer.
 // note 92: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 93: Hash collision: chain or open-address; chained handles arbitrary load factor.
