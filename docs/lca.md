@@ -731,3 +731,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 183
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 184
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
