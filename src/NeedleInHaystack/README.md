@@ -140,3 +140,7 @@ Stable across duplicates in the input.
 ## entry 20
 
 Linear in n; the constant factor is small.
+
+## entry 21
+
+Cache-friendly; one sequential read pass.
