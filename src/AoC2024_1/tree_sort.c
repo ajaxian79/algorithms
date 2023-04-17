@@ -324,3 +324,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 102: Idempotent — calling twice with the same input is a no-op the second time.
 // note 103: Avoids floating-point entirely — integer math throughout.
 // note 104: Walk both pointers from each end inward; advance the smaller side.
+// note 105: Reentrant — no static state.
