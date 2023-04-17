@@ -242,3 +242,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 89: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 91: Handles negative inputs as documented above.
+// note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
