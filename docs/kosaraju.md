@@ -811,3 +811,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 203
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 204
+
+StringBuilder: amortize allocation by doubling on grow.
