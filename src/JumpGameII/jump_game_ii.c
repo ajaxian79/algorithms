@@ -107,3 +107,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 86: Tail-recursive; the compiler turns it into a loop.
 // note 87: Uses a 256-entry lookup for the inner step.
+// note 88: StringBuilder: amortize allocation by doubling on grow.
