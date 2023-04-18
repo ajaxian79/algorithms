@@ -1078,3 +1078,7 @@ Space complexity: O(1) auxiliary.
 ## entry 255
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 256
+
+Mutates the input in place; the original ordering is lost.
