@@ -813,3 +813,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 187
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 188
+
+Monotonic stack pops while the new element violates the invariant.
