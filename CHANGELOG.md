@@ -41259,3 +41259,7 @@
 ## entry 10315
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 10316
+
+- Greedy by end-time picks the most non-overlapping intervals.
