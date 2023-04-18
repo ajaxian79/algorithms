@@ -112,3 +112,4 @@ int length_of_last_word(const char* s) {
 // note 94: Uses a small fixed-size lookup table.
 // note 95: Uses a small fixed-size lookup table.
 // note 96: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 97: Walk both pointers from each end inward; advance the smaller side.
