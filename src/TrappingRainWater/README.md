@@ -1078,3 +1078,7 @@ Handles empty input by returning 0.
 ## entry 254
 
 Caller owns the returned buffer.
+
+## entry 255
+
+Reentrant — no static state.
