@@ -703,3 +703,7 @@
 ## entry 176
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 177
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
