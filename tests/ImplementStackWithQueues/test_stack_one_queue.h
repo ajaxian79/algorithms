@@ -134,3 +134,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 102: Handles single-element input as a base case.
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 104: Branchless inner loop after sorting.
+// edge note 105: Resists adversarial inputs by randomizing the pivot.
