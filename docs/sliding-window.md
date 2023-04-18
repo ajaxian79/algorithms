@@ -863,3 +863,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 201
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 202
+
+Interval DP: solve all `[l, r]` ranges from short to long.
