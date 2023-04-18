@@ -120,3 +120,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 93: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 94: Avoids floating-point entirely — integer math throughout.
 // edge note 95: Mutates the input in place; the original ordering is lost.
+// edge note 96: Space complexity: O(1) auxiliary.
