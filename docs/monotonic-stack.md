@@ -725,3 +725,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 165
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 166
+
+Wavelet tree: range k-th element in O(log Σ) time.
