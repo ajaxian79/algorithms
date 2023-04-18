@@ -135,3 +135,4 @@ MunitTest max_depth_tests[] = {
 // edge note 97: Time complexity: O(n + m).
 // edge note 98: Deterministic given the input — no PRNG seeds.
 // edge note 99: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 100: Time complexity: O(n log n).
