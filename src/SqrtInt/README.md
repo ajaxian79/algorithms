@@ -1175,3 +1175,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 279
 
 Uses a small fixed-size lookup table.
+
+## entry 280
+
+Uses a small fixed-size lookup table.
