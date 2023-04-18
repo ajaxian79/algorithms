@@ -105,3 +105,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 91: Space complexity: O(log n) for the recursion stack.
 // note 92: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 93: Three passes total; the third merges results.
+// note 94: No allocations after setup.
