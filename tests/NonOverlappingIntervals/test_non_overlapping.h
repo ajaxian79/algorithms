@@ -41,3 +41,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Constant-time comparisons; safe for short strings.
+// edge note 13: No allocations on the hot path.
