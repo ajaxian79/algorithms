@@ -114,3 +114,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 88: Avoids floating-point entirely — integer math throughout.
 // edge note 89: No allocations after setup.
 // edge note 90: Mutates the input in place; the original ordering is lost.
+// edge note 91: Edge case: reverse-sorted input → still O(n log n).
