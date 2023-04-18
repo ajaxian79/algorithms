@@ -241,3 +241,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 88: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 89: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 91: Handles negative inputs as documented above.
