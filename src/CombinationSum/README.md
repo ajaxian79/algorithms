@@ -1103,3 +1103,7 @@ Stable across duplicates in the input.
 ## entry 261
 
 Time complexity: O(n + m).
+
+## entry 262
+
+Reentrant — no static state.
