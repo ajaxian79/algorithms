@@ -1204,3 +1204,7 @@ Stable when the input is already sorted.
 ## entry 286
 
 Uses a small fixed-size lookup table.
+
+## entry 287
+
+Time complexity: O(n*k) where k is the alphabet size.
