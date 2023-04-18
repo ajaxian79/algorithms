@@ -667,3 +667,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 167
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 168
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
