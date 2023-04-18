@@ -807,3 +807,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 186
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 187
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
