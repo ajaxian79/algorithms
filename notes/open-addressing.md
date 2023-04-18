@@ -739,3 +739,7 @@
 ## entry 185
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 186
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
