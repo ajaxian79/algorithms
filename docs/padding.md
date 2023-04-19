@@ -739,3 +739,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 185
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 186
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
