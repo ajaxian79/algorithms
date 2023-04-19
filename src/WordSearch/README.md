@@ -1086,3 +1086,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 257
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 258
+
+Tail-recursive; the compiler turns it into a loop.
