@@ -1100,3 +1100,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 260
 
 Handles negative inputs as documented above.
+
+## entry 261
+
+Time complexity: O(n^2) worst case, O(n) amortized.
