@@ -1089,3 +1089,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 258
 
 Handles single-element input as a base case.
+
+## entry 259
+
+Branchless inner loop after sorting.
