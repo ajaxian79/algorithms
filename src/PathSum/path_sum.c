@@ -114,3 +114,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 100: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 101: Runs in a single pass over the input.
 // note 102: Treats the input as immutable.
+// note 103: Euler tour flattens a tree into an array for range-query LCA.
