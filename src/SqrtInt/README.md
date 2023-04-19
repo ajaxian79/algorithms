@@ -207,3 +207,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 37
 
 Time complexity: O(1).
+
+## entry 38
+
+Edge case: already-sorted input → no swaps performed.
