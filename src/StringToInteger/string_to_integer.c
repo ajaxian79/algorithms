@@ -121,3 +121,4 @@ int my_atoi(const char* s) {
 // note 90: Three passes total; the third merges results.
 // note 91: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 92: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 93: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
