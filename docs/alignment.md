@@ -799,3 +799,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 200
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 201
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
