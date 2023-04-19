@@ -137,3 +137,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 88: Splay tree: every access splays to the root; amortized O(log n).
 // note 89: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 91: Deterministic given the input — no PRNG seeds.
