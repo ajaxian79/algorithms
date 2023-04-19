@@ -787,3 +787,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 197
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 198
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
