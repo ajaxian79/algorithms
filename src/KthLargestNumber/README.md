@@ -1128,3 +1128,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 266
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 267
+
+Stable across duplicates in the input.
