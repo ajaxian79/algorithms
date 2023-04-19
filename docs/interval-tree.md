@@ -71,3 +71,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 18
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 19
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
