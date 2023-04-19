@@ -83,3 +83,7 @@
 ## entry 21
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 22
+
+- Articulation points: same DFS as bridges, with a slightly different test.
