@@ -132,3 +132,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 103: Runs in a single pass over the input.
 // edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 105: Handles single-element input as a base case.
+// edge note 106: Cache-friendly; one sequential read pass.
