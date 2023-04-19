@@ -128,3 +128,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 84: Three passes total; the third merges results.
 // edge note 85: Handles negative inputs as documented above.
 // edge note 86: Handles negative inputs as documented above.
+// edge note 87: Best case is O(1) when the first byte already decides the answer.
