@@ -671,3 +671,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 168
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 169
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
