@@ -803,3 +803,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 201
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 202
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
