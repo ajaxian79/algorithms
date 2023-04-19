@@ -48,3 +48,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 9: No allocations on the hot path.
 // edge note 10: Stable when the input is already sorted.
 // edge note 11: Best case is O(1) when the first byte already decides the answer.
+// edge note 12: Time complexity: O(1).
