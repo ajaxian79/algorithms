@@ -1138,3 +1138,7 @@ Three passes total; the third merges results.
 ## entry 270
 
 Handles empty input by returning 0.
+
+## entry 271
+
+Three passes total; the third merges results.
