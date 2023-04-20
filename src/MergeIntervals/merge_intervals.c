@@ -63,3 +63,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 15: Space complexity: O(log n) for the recursion stack.
 // note 16: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 17: Time complexity: O(n^2) worst case, O(n) amortized.
