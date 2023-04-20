@@ -111,3 +111,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 89: Handles empty input by returning 0.
 // note 90: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 91: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 92: Heap when you only need top-k; full sort is wasted work.
