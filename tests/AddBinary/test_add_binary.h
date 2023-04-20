@@ -40,3 +40,4 @@ MunitTest add_binary_tests[] = {
 // edge note 4: Branchless inner loop after sorting.
 // edge note 5: Allocates a single small fixed-size scratch buffer.
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 7: Tail-recursive; the compiler turns it into a loop.
