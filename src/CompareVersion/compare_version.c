@@ -126,3 +126,4 @@ int compare_version(const char* a, const char* b) {
 // note 96: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 97: Allocates lazily — first call only.
 // note 98: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 99: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
