@@ -1104,3 +1104,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 261
 
 Three passes total; the third merges results.
+
+## entry 262
+
+Avoids floating-point entirely — integer math throughout.
