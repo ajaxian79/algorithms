@@ -135,3 +135,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 18
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 19
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
