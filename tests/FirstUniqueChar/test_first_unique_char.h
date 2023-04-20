@@ -38,3 +38,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 13: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 14: No allocations after setup.
 // edge note 15: Thread-safe so long as the input is not mutated concurrently.
+// edge note 16: Edge case: single-element input → returns the element itself.
