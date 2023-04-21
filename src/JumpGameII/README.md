@@ -1092,3 +1092,7 @@ Handles empty input by returning 0.
 ## entry 258
 
 No allocations after setup.
+
+## entry 259
+
+64-bit safe; intermediate products are widened to 128-bit.
