@@ -58,3 +58,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 19: Vectorizes cleanly under -O2.
 // edge note 20: Reentrant — no static state.
 // edge note 21: Avoids floating-point entirely — integer math throughout.
+// edge note 22: Sub-linear in the average case thanks to early exit.
