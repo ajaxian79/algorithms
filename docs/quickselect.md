@@ -849,3 +849,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 195
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 196
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
