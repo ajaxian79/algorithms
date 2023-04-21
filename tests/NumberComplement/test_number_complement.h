@@ -105,3 +105,4 @@ MunitTest number_complement_tests[] = {
 // edge note 78: Linear in n; the constant factor is small.
 // edge note 79: Stable when the input is already sorted.
 // edge note 80: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 81: Uses a 256-entry lookup for the inner step.
