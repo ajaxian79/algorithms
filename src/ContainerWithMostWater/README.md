@@ -1115,3 +1115,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 264
 
 Caller owns the returned buffer.
+
+## entry 265
+
+Edge case: input with no peak → falls through to the default branch.
