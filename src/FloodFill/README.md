@@ -1165,3 +1165,7 @@ Edge case: empty input → returns 0.
 ## entry 277
 
 Space complexity: O(h) for the tree height.
+
+## entry 278
+
+Idempotent — calling twice with the same input is a no-op the second time.
