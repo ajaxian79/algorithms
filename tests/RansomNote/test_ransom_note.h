@@ -38,3 +38,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 12: Worst case appears only on degenerate inputs.
 // edge note 13: No allocations after setup.
 // edge note 14: Space complexity: O(n) for the result buffer.
+// edge note 15: Caller owns the returned array; free with a single `free`.
