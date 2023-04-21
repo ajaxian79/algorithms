@@ -981,3 +981,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 230
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 231
+
+Edge case: integer-min input → guarded by the explicit underflow check.
