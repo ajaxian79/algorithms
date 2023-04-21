@@ -121,3 +121,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 94: Linear in n; the constant factor is small.
 // edge note 95: Space complexity: O(n) for the result buffer.
 // edge note 96: Caller owns the returned buffer.
+// edge note 97: Edge case: input with one duplicate → handled without an extra pass.
