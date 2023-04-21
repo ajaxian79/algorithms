@@ -1182,3 +1182,7 @@ Time complexity: O(log n).
 ## entry 281
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 282
+
+Space complexity: O(1) auxiliary.
