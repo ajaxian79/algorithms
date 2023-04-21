@@ -120,3 +120,4 @@ MunitTest find_difference_tests[] = {
 // edge note 95: Time complexity: O(n).
 // edge note 96: Caller owns the returned array; free with a single `free`.
 // edge note 97: Allocates a single small fixed-size scratch buffer.
+// edge note 98: No allocations after setup.
