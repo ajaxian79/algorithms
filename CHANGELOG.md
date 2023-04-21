@@ -41179,3 +41179,7 @@
 ## entry 10295
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 10296
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
