@@ -1101,3 +1101,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 250
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 251
+
+Runs in a single pass over the input.
