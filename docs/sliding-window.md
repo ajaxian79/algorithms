@@ -859,3 +859,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 200
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 201
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
