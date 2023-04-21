@@ -1074,3 +1074,7 @@ Time complexity: O(1).
 ## entry 254
 
 Handles negative inputs as documented above.
+
+## entry 255
+
+Constant-time comparisons; safe for short strings.
