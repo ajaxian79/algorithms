@@ -731,3 +731,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 165
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 166
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
