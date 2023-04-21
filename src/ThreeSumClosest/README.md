@@ -1142,3 +1142,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 271
 
 Space complexity: O(h) for the tree height.
+
+## entry 272
+
+Edge case: input with no peak → falls through to the default branch.
