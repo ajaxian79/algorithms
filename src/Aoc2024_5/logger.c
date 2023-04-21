@@ -142,3 +142,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 99: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 100: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 101: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 102: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
