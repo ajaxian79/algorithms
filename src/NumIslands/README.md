@@ -161,3 +161,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 25
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 26
+
+Stable across duplicates in the input.
