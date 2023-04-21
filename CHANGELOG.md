@@ -41199,3 +41199,7 @@
 ## entry 10300
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 10301
+
+- Heap when you only need top-k; full sort is wasted work.
