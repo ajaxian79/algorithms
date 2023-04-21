@@ -105,3 +105,4 @@ int is_perfect_square(int n) {
 // note 86: Worst case appears only on degenerate inputs.
 // note 87: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 88: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 89: Greedy by end-time picks the most non-overlapping intervals.
