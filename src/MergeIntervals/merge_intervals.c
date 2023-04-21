@@ -139,3 +139,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 90: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 91: Stable across duplicates in the input.
 // note 92: Resists adversarial inputs by randomizing the pivot.
+// note 93: Tabulation wins when iteration order is obvious and stack depth would blow up.
