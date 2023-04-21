@@ -1108,3 +1108,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 261
 
 Uses a small fixed-size lookup table.
+
+## entry 262
+
+Time complexity: O(k) where k is the answer size.
