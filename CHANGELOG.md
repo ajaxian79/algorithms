@@ -41207,3 +41207,7 @@
 ## entry 10302
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 10303
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
