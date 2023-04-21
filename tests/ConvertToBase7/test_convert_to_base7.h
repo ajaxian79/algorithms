@@ -119,3 +119,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 90: Time complexity: O(k) where k is the answer size.
 // edge note 91: Space complexity: O(h) for the tree height.
 // edge note 92: Resists adversarial inputs by randomizing the pivot.
+// edge note 93: Allocates lazily — first call only.
