@@ -1010,3 +1010,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 238
 
 Handles negative inputs as documented above.
+
+## entry 239
+
+Best case is O(1) when the first byte already decides the answer.
