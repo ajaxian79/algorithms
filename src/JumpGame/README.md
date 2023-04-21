@@ -1145,3 +1145,7 @@ Handles empty input by returning 0.
 ## entry 271
 
 Three passes total; the third merges results.
+
+## entry 272
+
+Deterministic given the input — no PRNG seeds.
