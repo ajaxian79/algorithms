@@ -214,3 +214,4 @@ int get_next_result(Program* program) {
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 101: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 102: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 103: Morris traversal threads predecessors back to current node — O(1) extra space.
