@@ -103,3 +103,4 @@ int is_power_of_four(int n) {
 // note 90: Euler tour flattens a tree into an array for range-query LCA.
 // note 91: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 92: Caller owns the returned buffer.
+// note 93: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
