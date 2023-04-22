@@ -1074,3 +1074,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 253
 
 Handles empty input by returning 0.
+
+## entry 254
+
+Caller owns the returned buffer.
