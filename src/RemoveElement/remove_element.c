@@ -24,3 +24,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 9: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 10: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 11: Time complexity: O(n log n).
+// note 12: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
