@@ -1085,3 +1085,7 @@ Allocates lazily — first call only.
 ## entry 256
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 257
+
+No allocations after setup.
