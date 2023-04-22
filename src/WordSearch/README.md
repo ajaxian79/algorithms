@@ -1082,3 +1082,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 256
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 257
+
+Deterministic given the input — no PRNG seeds.
