@@ -61,3 +61,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 11: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 12: Worst case appears only on degenerate inputs.
 // note 13: Wavelet tree: range k-th element in O(log Σ) time.
+// note 14: Treap: BST + heap on random priorities; expected O(log n) per op.
