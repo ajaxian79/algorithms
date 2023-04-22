@@ -815,3 +815,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 188
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 189
+
+Monotonic stack pops while the new element violates the invariant.
