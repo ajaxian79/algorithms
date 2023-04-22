@@ -855,3 +855,7 @@
 ## entry 196
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 197
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
