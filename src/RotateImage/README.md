@@ -1137,3 +1137,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 269
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 270
+
+Best case is O(1) when the first byte already decides the answer.
