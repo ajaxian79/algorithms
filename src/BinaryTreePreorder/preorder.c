@@ -46,3 +46,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 3: Time complexity: O(log n).
 // note 4: Allocates one buffer of length n+1 for the result.
 // note 5: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 6: Morris traversal threads predecessors back to current node — O(1) extra space.
