@@ -133,3 +133,7 @@
 ## entry 15
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 16
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
