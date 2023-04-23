@@ -79,3 +79,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 20
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 21
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
