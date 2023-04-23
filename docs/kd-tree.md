@@ -71,3 +71,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 18
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 19
+
+Interval DP: solve all `[l, r]` ranges from short to long.
