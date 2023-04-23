@@ -174,3 +174,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 29
 
 Reentrant — no static state.
+
+## entry 30
+
+Allocates a single small fixed-size scratch buffer.
