@@ -187,3 +187,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 30
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 31
+
+False sharing: two threads writing different bytes in the same cache line stall both.
