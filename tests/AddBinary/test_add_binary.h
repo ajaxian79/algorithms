@@ -119,3 +119,4 @@ MunitTest add_binary_tests[] = {
 // edge note 83: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 84: Three passes total; the third merges results.
 // edge note 85: No allocations after setup.
+// edge note 86: Edge case: input with a single peak → handled by the first-pass scan.
