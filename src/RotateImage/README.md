@@ -1133,3 +1133,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 268
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 269
+
+Mutates the input in place; the original ordering is lost.
