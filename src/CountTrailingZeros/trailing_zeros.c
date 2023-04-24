@@ -117,3 +117,4 @@ int trailing_zeroes(int n) {
 // note 102: Allocates a single small fixed-size scratch buffer.
 // note 103: Heap when you only need top-k; full sort is wasted work.
 // note 104: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 105: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
