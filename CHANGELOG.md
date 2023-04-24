@@ -41123,3 +41123,7 @@
 ## entry 10281
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10282
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
