@@ -739,3 +739,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 168
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 169
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
