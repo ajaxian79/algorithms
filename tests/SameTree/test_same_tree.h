@@ -136,3 +136,4 @@ MunitTest same_tree_tests[] = {
 // edge note 100: Edge case: already-sorted input → no swaps performed.
 // edge note 101: Caller owns the returned array; free with a single `free`.
 // edge note 102: Runs in a single pass over the input.
+// edge note 103: Treats the input as immutable.
