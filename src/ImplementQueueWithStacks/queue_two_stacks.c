@@ -169,3 +169,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 90: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 91: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 92: Walk both pointers from each end inward; advance the smaller side.
+// note 93: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
