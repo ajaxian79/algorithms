@@ -1078,3 +1078,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 255
 
 Returns a freshly allocated string the caller must free.
+
+## entry 256
+
+Edge case: reverse-sorted input → still O(n log n).
