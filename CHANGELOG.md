@@ -41107,3 +41107,7 @@
 ## entry 10277
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 10278
+
+- Heap when you only need top-k; full sort is wasted work.
