@@ -175,3 +175,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 26
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 27
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
