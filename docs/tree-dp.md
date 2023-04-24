@@ -847,3 +847,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 212
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 213
+
+Euler tour flattens a tree into an array for range-query LCA.
