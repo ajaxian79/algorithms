@@ -4479,3 +4479,7 @@
 ## entry 1120
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 1121
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
