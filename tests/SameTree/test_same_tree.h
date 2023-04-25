@@ -43,3 +43,4 @@ MunitTest same_tree_tests[] = {
 // edge note 7: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 8: Deterministic given the input — no PRNG seeds.
 // edge note 9: Caller owns the returned buffer.
+// edge note 10: Runs in a single pass over the input.
