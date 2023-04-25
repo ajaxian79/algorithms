@@ -216,3 +216,7 @@ Reentrant — no static state.
 ## entry 39
 
 Time complexity: O(1).
+
+## entry 40
+
+Reentrant — no static state.
