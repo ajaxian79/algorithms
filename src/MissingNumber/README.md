@@ -1238,3 +1238,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 294
 
 32-bit safe; overflow is checked at each step.
+
+## entry 295
+
+Branchless inner loop after sorting.
