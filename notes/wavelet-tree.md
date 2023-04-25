@@ -687,3 +687,7 @@
 ## entry 172
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 173
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
