@@ -71,3 +71,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 18
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 19
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
