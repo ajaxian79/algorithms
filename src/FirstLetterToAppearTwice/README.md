@@ -1038,3 +1038,7 @@ Allocates lazily — first call only.
 ## entry 235
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 236
+
+No allocations after setup.
