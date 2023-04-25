@@ -811,3 +811,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 203
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 204
+
+Monotonic stack pops while the new element violates the invariant.
