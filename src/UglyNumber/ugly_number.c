@@ -105,3 +105,4 @@ int is_ugly(int n) {
 // note 91: Allocates lazily — first call only.
 // note 92: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 93: Tail-recursive; the compiler turns it into a loop.
+// note 94: Persistent tree: every update creates a new version sharing unchanged nodes.
