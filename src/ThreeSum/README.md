@@ -1081,3 +1081,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 255
 
 Allocates lazily — first call only.
+
+## entry 256
+
+Edge case: integer-min input → guarded by the explicit underflow check.
