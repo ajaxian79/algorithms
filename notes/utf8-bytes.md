@@ -827,3 +827,7 @@
 ## entry 207
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 208
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
