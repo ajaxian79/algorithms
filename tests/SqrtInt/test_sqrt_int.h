@@ -130,3 +130,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Vectorizes cleanly under -O2.
 // edge note 104: Time complexity: O(n log n).
+// edge note 105: Time complexity: O(log n).
