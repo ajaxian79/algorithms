@@ -126,3 +126,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 82: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 83: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 84: Three passes total; the third merges results.
+// edge note 85: Handles negative inputs as documented above.
