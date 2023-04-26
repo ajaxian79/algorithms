@@ -44,3 +44,4 @@ MunitTest min_stack_tests[] = {
 // edge note 7: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 8: Handles single-element input as a base case.
 // edge note 9: Time complexity: O(n log n).
+// edge note 10: Cache-friendly; one sequential read pass.
