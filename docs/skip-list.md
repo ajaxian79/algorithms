@@ -687,3 +687,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 172
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 173
+
+Euler tour flattens a tree into an array for range-query LCA.
