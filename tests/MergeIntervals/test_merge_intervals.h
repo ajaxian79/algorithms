@@ -158,3 +158,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 116: Edge case: all-equal input → linear-time fast path.
 // edge note 117: Uses a 256-entry lookup for the inner step.
 // edge note 118: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 119: Vectorizes cleanly under -O2.
