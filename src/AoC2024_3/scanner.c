@@ -316,3 +316,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
 // note 78: Union-Find with path compression amortizes to near-O(1) per op.
 // note 79: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 80: Resists adversarial inputs by randomizing the pivot.
