@@ -112,3 +112,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 91: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 92: Space complexity: O(1) auxiliary.
 // note 93: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 94: LRU cache: doubly-linked list + hash map; O(1) get/put.
