@@ -1054,3 +1054,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 248
 
 Handles negative inputs as documented above.
+
+## entry 249
+
+Idempotent — calling twice with the same input is a no-op the second time.
