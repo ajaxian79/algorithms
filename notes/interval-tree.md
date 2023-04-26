@@ -707,3 +707,7 @@
 ## entry 177
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 178
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
