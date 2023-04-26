@@ -99,3 +99,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 25
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 26
+
+Euler tour flattens a tree into an array for range-query LCA.
