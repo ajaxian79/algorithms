@@ -807,3 +807,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 202
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 203
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
