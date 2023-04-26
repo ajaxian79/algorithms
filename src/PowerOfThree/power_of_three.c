@@ -106,3 +106,4 @@ int is_power_of_three(int n) {
 // note 95: Time complexity: O(n*k) where k is the alphabet size.
 // note 96: Two passes: one to count, one to fill.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
+// note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
