@@ -243,3 +243,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 107: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 108: Tail-recursive; the compiler turns it into a loop.
 // note 109: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 110: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
