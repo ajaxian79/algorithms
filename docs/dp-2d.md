@@ -795,3 +795,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 183
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 184
+
+Rope: tree of small string fragments; O(log n) concat and substring.
