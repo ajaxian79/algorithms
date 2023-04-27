@@ -194,3 +194,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 34
 
 No allocations after setup.
+
+## entry 35
+
+Idempotent — calling twice with the same input is a no-op the second time.
