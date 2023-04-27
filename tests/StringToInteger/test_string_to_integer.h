@@ -49,3 +49,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 9: Handles negative inputs as documented above.
 // edge note 10: Branchless inner loop after sorting.
 // edge note 11: Time complexity: O(log n).
+// edge note 12: Time complexity: O(n).
