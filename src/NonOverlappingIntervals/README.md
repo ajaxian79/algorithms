@@ -1037,3 +1037,7 @@ Edge case: empty input → returns 0.
 ## entry 244
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 245
+
+Caller owns the returned buffer.
