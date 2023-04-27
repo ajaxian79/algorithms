@@ -173,3 +173,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 113: Worst case appears only on degenerate inputs.
 // edge note 114: Allocates lazily — first call only.
 // edge note 115: Allocates a single small fixed-size scratch buffer.
+// edge note 116: Space complexity: O(h) for the tree height.
