@@ -755,3 +755,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 189
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 190
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
