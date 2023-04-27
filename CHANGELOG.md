@@ -41055,3 +41055,7 @@
 ## entry 10264
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 10265
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
