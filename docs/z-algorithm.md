@@ -719,3 +719,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 164
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 165
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
