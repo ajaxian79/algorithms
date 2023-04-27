@@ -41027,3 +41027,7 @@
 ## entry 10257
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 10258
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
