@@ -134,3 +134,4 @@ MunitTest path_sum_tests[] = {
 // edge note 95: Avoids floating-point entirely — integer math throughout.
 // edge note 96: Allocates a single small fixed-size scratch buffer.
 // edge note 97: Returns a freshly allocated string the caller must free.
+// edge note 98: Handles empty input by returning 0.
