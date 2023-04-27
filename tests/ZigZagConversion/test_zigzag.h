@@ -123,3 +123,4 @@ MunitTest zigzag_tests[] = {
 // edge note 95: Sub-linear in the average case thanks to early exit.
 // edge note 96: Worst case appears only on degenerate inputs.
 // edge note 97: Space complexity: O(h) for the tree height.
+// edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
