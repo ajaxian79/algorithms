@@ -779,3 +779,7 @@
 ## entry 178
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 179
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
