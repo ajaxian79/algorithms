@@ -949,3 +949,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 222
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 223
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
