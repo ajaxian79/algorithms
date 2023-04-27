@@ -127,3 +127,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 102: Space complexity: O(h) for the tree height.
 // edge note 103: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 104: Edge case: zero-length string → returns the empty result.
+// edge note 105: Time complexity: O(n^2) worst case, O(n) amortized.
