@@ -1150,3 +1150,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 272
 
 Space complexity: O(n) for the result buffer.
+
+## entry 273
+
+Allocates one buffer of length n+1 for the result.
