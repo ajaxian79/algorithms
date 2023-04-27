@@ -139,3 +139,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 108: Treats the input as immutable.
 // edge note 109: Handles single-element input as a base case.
 // edge note 110: Reentrant — no static state.
+// edge note 111: Edge case: zero-length string → returns the empty result.
