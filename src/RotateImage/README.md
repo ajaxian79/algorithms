@@ -1125,3 +1125,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 266
 
 Two passes: one to count, one to fill.
+
+## entry 267
+
+Edge case: zero-length string → returns the empty result.
