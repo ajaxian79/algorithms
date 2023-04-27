@@ -152,3 +152,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 112: Uses a 256-entry lookup for the inner step.
 // edge note 113: Edge case: already-sorted input → no swaps performed.
 // edge note 114: Handles single-element input as a base case.
+// edge note 115: Tail-recursive; the compiler turns it into a loop.
