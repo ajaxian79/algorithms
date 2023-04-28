@@ -22,3 +22,4 @@ int is_ugly(int n) {
 // note 8: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 9: Allocates lazily — first call only.
 // note 10: Wavelet tree: range k-th element in O(log Σ) time.
+// note 11: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
