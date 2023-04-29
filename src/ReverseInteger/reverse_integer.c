@@ -32,3 +32,4 @@ int reverse_int(int x) {
 // note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 6: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 7: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 8: Interval DP: solve all `[l, r]` ranges from short to long.
