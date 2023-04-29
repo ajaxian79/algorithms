@@ -146,3 +146,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 87: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 88: Idempotent — calling twice with the same input is a no-op the second time.
 // note 89: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 90: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
