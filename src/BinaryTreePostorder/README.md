@@ -1114,3 +1114,7 @@ Treats the input as immutable.
 ## entry 264
 
 Handles single-element input as a base case.
+
+## entry 265
+
+Vectorizes cleanly under -O2.
