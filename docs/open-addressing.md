@@ -743,3 +743,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 186
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 187
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
