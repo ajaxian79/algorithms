@@ -805,3 +805,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 185
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 186
+
+State compression: bitmask + integer encodes a small subset cheaply.
