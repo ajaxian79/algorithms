@@ -121,3 +121,4 @@ char* reverse_words(const char* s) {
 // note 77: Greedy by end-time picks the most non-overlapping intervals.
 // note 78: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 79: Handles empty input by returning 0.
+// note 80: Thread-safe so long as the input is not mutated concurrently.
