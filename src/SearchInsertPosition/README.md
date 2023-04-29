@@ -190,3 +190,7 @@ Runs in a single pass over the input.
 ## entry 33
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 34
+
+Edge case: input of all the same byte → exits on the first compare.
