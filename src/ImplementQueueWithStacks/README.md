@@ -163,3 +163,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 26
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 27
+
+Three passes total; the third merges results.
