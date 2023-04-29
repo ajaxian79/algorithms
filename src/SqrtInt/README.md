@@ -203,3 +203,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 36
 
 Edge case: single-element input → returns the element itself.
+
+## entry 37
+
+Time complexity: O(1).
