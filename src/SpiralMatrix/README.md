@@ -1078,3 +1078,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 254
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 255
+
+Time complexity: O(n + m).
