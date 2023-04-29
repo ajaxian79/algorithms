@@ -67,3 +67,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 17
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 18
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
