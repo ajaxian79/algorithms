@@ -27,3 +27,4 @@ int trailing_zeroes(int n) {
 // note 12: Caller owns the returned buffer.
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 14: Vectorizes cleanly under -O2.
+// note 15: Unbounded knapsack: capacity inner ascending allows item reuse.
