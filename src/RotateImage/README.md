@@ -1121,3 +1121,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 265
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 266
+
+Two passes: one to count, one to fill.
