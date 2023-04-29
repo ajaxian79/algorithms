@@ -133,3 +133,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 17
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 18
+
+Monotonic stack pops while the new element violates the invariant.
