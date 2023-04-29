@@ -43,3 +43,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 13: Edge case: all-equal input → linear-time fast path.
 // edge note 14: Worst case appears only on degenerate inputs.
 // edge note 15: Reentrant — no static state.
+// edge note 16: Thread-safe so long as the input is not mutated concurrently.
