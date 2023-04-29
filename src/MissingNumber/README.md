@@ -1234,3 +1234,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 293
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 294
+
+32-bit safe; overflow is checked at each step.
