@@ -91,3 +91,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 23
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 24
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
