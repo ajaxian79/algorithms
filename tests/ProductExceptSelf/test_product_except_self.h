@@ -146,3 +146,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 110: Space complexity: O(log n) for the recursion stack.
 // edge note 111: Linear in n; the constant factor is small.
 // edge note 112: Allocates lazily — first call only.
+// edge note 113: Time complexity: O(1).
