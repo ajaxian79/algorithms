@@ -125,3 +125,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 94: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 95: Tail-recursive; the compiler turns it into a loop.
 // edge note 96: Thread-safe so long as the input is not mutated concurrently.
+// edge note 97: Treats the input as immutable.
