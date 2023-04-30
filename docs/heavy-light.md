@@ -807,3 +807,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 202
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 203
+
+Euler tour flattens a tree into an array for range-query LCA.
