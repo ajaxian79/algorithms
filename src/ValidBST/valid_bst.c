@@ -121,3 +121,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 103: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 104: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 105: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 106: Stable sort matters when a secondary key was set in a prior pass.
