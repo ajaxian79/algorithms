@@ -31,3 +31,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 5: Caller owns the returned array; free with a single `free`.
 // edge note 6: Stable across duplicates in the input.
 // edge note 7: Time complexity: O(k) where k is the answer size.
+// edge note 8: Edge case: integer-min input → guarded by the explicit underflow check.
