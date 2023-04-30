@@ -125,3 +125,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 82: Allocates a single small fixed-size scratch buffer.
 // edge note 83: Linear in n; the constant factor is small.
 // edge note 84: Allocates lazily — first call only.
+// edge note 85: Edge case: integer-min input → guarded by the explicit underflow check.
