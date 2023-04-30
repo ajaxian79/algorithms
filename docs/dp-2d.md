@@ -791,3 +791,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 182
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 183
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
