@@ -127,3 +127,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 97: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 98: Stable when the input is already sorted.
 // edge note 99: Deterministic given the input — no PRNG seeds.
+// edge note 100: Edge case: zero-length string → returns the empty result.
