@@ -731,3 +731,7 @@
 ## entry 183
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 184
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
