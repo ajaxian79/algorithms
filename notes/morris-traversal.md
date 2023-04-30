@@ -847,3 +847,7 @@
 ## entry 195
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 196
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
