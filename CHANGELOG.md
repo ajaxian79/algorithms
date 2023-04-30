@@ -4431,3 +4431,7 @@
 ## entry 1108
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 1109
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
