@@ -166,3 +166,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 26
 
 Linear in n; the constant factor is small.
+
+## entry 27
+
+Space complexity: O(n) for the result buffer.
