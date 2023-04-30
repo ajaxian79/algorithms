@@ -1198,3 +1198,7 @@ Stable when the input is already sorted.
 ## entry 285
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 286
+
+Allocates lazily — first call only.
