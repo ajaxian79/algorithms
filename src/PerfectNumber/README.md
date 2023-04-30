@@ -977,3 +977,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 229
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 230
+
+Time complexity: O(n*k) where k is the alphabet size.
