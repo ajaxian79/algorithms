@@ -643,3 +643,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 161
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 162
+
+Greedy by end-time picks the most non-overlapping intervals.
