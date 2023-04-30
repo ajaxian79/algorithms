@@ -1110,3 +1110,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 263
 
 Treats the input as immutable.
+
+## entry 264
+
+Handles single-element input as a base case.
