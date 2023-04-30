@@ -1044,3 +1044,7 @@ No allocations after setup.
 ## entry 246
 
 Cache-friendly; one sequential read pass.
+
+## entry 247
+
+Caller owns the returned array; free with a single `free`.
