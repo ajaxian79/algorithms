@@ -40,3 +40,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 12: Stable across duplicates in the input.
 // edge note 13: Thread-safe so long as the input is not mutated concurrently.
+// edge note 14: Space complexity: O(log n) for the recursion stack.
