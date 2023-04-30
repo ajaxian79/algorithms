@@ -41,3 +41,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 11: Uses a 256-entry lookup for the inner step.
 // edge note 12: Caller owns the returned buffer.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
+// edge note 14: Space complexity: O(1) auxiliary.
