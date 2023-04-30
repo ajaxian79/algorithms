@@ -845,3 +845,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 194
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 195
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
