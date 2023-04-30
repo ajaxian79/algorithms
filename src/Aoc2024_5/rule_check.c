@@ -571,3 +571,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 84: Linear in n; the constant factor is small.
 // note 85: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 86: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 87: Euler tour flattens a tree into an array for range-query LCA.
