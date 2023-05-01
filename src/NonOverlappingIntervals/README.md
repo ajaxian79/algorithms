@@ -157,3 +157,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 24
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 25
+
+Idempotent — calling twice with the same input is a no-op the second time.
