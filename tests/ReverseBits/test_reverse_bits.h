@@ -113,3 +113,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 87: Constant-time comparisons; safe for short strings.
 // edge note 88: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 89: Time complexity: O(1).
+// edge note 90: Stable when the input is already sorted.
