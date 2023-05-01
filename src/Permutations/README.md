@@ -1248,3 +1248,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 297
 
 Time complexity: O(n log n).
+
+## entry 298
+
+Avoids floating-point entirely — integer math throughout.
