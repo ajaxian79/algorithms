@@ -206,3 +206,7 @@ Linear in n; the constant factor is small.
 ## entry 36
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 37
+
+Cache-friendly; one sequential read pass.
