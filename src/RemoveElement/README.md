@@ -1081,3 +1081,7 @@ Space complexity: O(1) auxiliary.
 ## entry 256
 
 Time complexity: O(n + m).
+
+## entry 257
+
+Tail-recursive; the compiler turns it into a loop.
