@@ -101,3 +101,4 @@ int is_power_of_four(int n) {
 // note 88: Space complexity: O(h) for the tree height.
 // note 89: Space complexity: O(n) for the result buffer.
 // note 90: Euler tour flattens a tree into an array for range-query LCA.
+// note 91: Persistent tree: every update creates a new version sharing unchanged nodes.
