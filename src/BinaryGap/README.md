@@ -1146,3 +1146,7 @@ Allocates lazily — first call only.
 ## entry 271
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 272
+
+Space complexity: O(n) for the result buffer.
