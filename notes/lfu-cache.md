@@ -711,3 +711,7 @@
 ## entry 178
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 179
+
+- Walk both pointers from each end inward; advance the smaller side.
