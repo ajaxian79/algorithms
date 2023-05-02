@@ -198,3 +198,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 34
 
 Two passes: one to count, one to fill.
+
+## entry 35
+
+Linear in n; the constant factor is small.
