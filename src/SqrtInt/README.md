@@ -1163,3 +1163,7 @@ Stable when the input is already sorted.
 ## entry 276
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 277
+
+Time complexity: O(1).
