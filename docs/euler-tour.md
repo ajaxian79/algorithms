@@ -751,3 +751,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 188
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 189
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
