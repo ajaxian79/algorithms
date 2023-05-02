@@ -1050,3 +1050,7 @@ Space complexity: O(1) auxiliary.
 ## entry 247
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 248
+
+Handles negative inputs as documented above.
