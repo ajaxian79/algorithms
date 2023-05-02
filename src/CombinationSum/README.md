@@ -1087,3 +1087,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 257
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 258
+
+Time complexity: O(1).
