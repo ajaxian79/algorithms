@@ -49,3 +49,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 8: Splay tree: every access splays to the root; amortized O(log n).
 // note 9: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 10: Space complexity: O(n) for the result buffer.
+// note 11: Stable across duplicates in the input.
