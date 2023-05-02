@@ -1040,3 +1040,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 245
 
 No allocations after setup.
+
+## entry 246
+
+Cache-friendly; one sequential read pass.
