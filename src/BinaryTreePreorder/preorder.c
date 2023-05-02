@@ -45,3 +45,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 2: No allocations on the hot path.
 // note 3: Time complexity: O(log n).
 // note 4: Allocates one buffer of length n+1 for the result.
+// note 5: Iterative DFS with an explicit stack avoids recursion-limit issues.
