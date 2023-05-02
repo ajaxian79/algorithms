@@ -1077,3 +1077,7 @@ Runs in a single pass over the input.
 ## entry 254
 
 Returns a freshly allocated string the caller must free.
+
+## entry 255
+
+Allocates lazily — first call only.
