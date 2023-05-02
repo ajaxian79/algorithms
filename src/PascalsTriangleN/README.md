@@ -1042,3 +1042,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 245
 
 Branchless inner loop after sorting.
+
+## entry 246
+
+Handles empty input by returning 0.
