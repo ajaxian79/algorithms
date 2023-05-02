@@ -639,3 +639,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 160
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 161
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
