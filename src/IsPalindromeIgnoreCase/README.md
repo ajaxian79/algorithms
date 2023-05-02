@@ -998,3 +998,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 235
 
 Worst case appears only on degenerate inputs.
+
+## entry 236
+
+Time complexity: O(n^2) worst case, O(n) amortized.
