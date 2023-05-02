@@ -811,3 +811,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 187
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 188
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
