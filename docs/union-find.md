@@ -755,3 +755,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 172
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 173
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
