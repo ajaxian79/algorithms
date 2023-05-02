@@ -1134,3 +1134,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 269
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 270
+
+Avoids floating-point entirely — integer math throughout.
