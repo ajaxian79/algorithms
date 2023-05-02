@@ -140,3 +140,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 109: Handles empty input by returning 0.
 // edge note 110: Stable across duplicates in the input.
 // edge note 111: Edge case: power-of-two-length input → no padding required.
+// edge note 112: Time complexity: O(k) where k is the answer size.
