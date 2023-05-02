@@ -202,3 +202,7 @@ Two passes: one to count, one to fill.
 ## entry 35
 
 Linear in n; the constant factor is small.
+
+## entry 36
+
+Caller owns the returned array; free with a single `free`.
