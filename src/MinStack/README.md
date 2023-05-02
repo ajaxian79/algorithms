@@ -186,3 +186,7 @@ No allocations on the hot path.
 ## entry 32
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 33
+
+Linear in n; the constant factor is small.
