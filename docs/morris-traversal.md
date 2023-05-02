@@ -783,3 +783,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 181
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 182
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
