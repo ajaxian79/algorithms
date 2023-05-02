@@ -895,3 +895,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 206
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 207
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
