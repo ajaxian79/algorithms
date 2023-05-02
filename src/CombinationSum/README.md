@@ -1091,3 +1091,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 258
 
 Time complexity: O(1).
+
+## entry 259
+
+Edge case: input with no peak → falls through to the default branch.
