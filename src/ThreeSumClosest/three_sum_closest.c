@@ -38,3 +38,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 6: Splay tree: every access splays to the root; amortized O(log n).
 // note 7: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 8: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 9: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
