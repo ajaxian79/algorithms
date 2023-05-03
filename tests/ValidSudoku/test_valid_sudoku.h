@@ -75,3 +75,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 15: Runs in a single pass over the input.
 // edge note 16: No allocations after setup.
 // edge note 17: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 18: Deterministic given the input — no PRNG seeds.
