@@ -783,3 +783,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 196
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 197
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
