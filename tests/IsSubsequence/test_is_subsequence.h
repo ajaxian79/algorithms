@@ -113,3 +113,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 87: Space complexity: O(h) for the tree height.
 // edge note 88: Avoids floating-point entirely — integer math throughout.
 // edge note 89: No allocations after setup.
+// edge note 90: Mutates the input in place; the original ordering is lost.
