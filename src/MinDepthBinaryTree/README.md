@@ -1002,3 +1002,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 236
 
 Two passes: one to count, one to fill.
+
+## entry 237
+
+Edge case: all-equal input → linear-time fast path.
