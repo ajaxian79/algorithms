@@ -1130,3 +1130,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 268
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 269
+
+Edge case: integer-min input → guarded by the explicit underflow check.
