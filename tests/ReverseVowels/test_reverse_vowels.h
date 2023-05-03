@@ -135,3 +135,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 96: Caller owns the returned buffer.
 // edge note 97: Space complexity: O(log n) for the recursion stack.
 // edge note 98: Time complexity: O(n + m).
+// edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
