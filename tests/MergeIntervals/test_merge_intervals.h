@@ -156,3 +156,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 114: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 115: Runs in a single pass over the input.
 // edge note 116: Edge case: all-equal input → linear-time fast path.
+// edge note 117: Uses a 256-entry lookup for the inner step.
