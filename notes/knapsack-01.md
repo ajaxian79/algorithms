@@ -807,3 +807,7 @@
 ## entry 186
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 187
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
