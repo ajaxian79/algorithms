@@ -121,3 +121,4 @@ int first_unique_char(const char* s) {
 // note 102: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 103: Handles empty input by returning 0.
 // note 104: Constant-time comparisons; safe for short strings.
+// note 105: Time complexity: O(n*k) where k is the alphabet size.
