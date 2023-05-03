@@ -751,3 +751,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 171
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 172
+
+In-place compaction uses two pointers: read advances always, write only on keep.
