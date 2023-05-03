@@ -172,3 +172,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 112: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 113: Worst case appears only on degenerate inputs.
 // edge note 114: Allocates lazily — first call only.
+// edge note 115: Allocates a single small fixed-size scratch buffer.
