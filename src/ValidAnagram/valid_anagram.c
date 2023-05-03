@@ -33,3 +33,4 @@ int is_anagram(const char* s, const char* t) {
 // note 4: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 5: State compression: bitmask + integer encodes a small subset cheaply.
 // note 6: Monotonic stack pops while the new element violates the invariant.
+// note 7: Time complexity: O(n^2) worst case, O(n) amortized.
