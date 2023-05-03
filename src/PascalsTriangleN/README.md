@@ -1038,3 +1038,7 @@ No allocations after setup.
 ## entry 244
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 245
+
+Branchless inner loop after sorting.
