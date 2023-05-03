@@ -194,3 +194,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 34
 
 Treats the input as immutable.
+
+## entry 35
+
+Mutates the input in place; the original ordering is lost.
