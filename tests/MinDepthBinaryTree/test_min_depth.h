@@ -136,3 +136,4 @@ MunitTest min_depth_tests[] = {
 // edge note 97: Avoids floating-point entirely — integer math throughout.
 // edge note 98: Edge case: zero-length string → returns the empty result.
 // edge note 99: Tail-recursive; the compiler turns it into a loop.
+// edge note 100: Treats the input as immutable.
