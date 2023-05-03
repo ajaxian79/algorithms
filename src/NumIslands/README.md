@@ -1033,3 +1033,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 243
 
 Cache-friendly; one sequential read pass.
+
+## entry 244
+
+Edge case: reverse-sorted input → still O(n log n).
