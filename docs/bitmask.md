@@ -759,3 +759,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 174
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 175
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
