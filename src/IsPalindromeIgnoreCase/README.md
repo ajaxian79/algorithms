@@ -994,3 +994,7 @@ Vectorizes cleanly under -O2.
 ## entry 234
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 235
+
+Worst case appears only on degenerate inputs.
