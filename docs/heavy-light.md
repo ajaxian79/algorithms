@@ -803,3 +803,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 201
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 202
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
