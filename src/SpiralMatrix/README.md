@@ -1066,3 +1066,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 251
 
 Caller owns the returned buffer.
+
+## entry 252
+
+Cache-friendly; one sequential read pass.
