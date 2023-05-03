@@ -35,3 +35,4 @@ MunitTest happy_number_tests[] = {
 // edge note 7: Returns a freshly allocated string the caller must free.
 // edge note 8: Time complexity: O(k) where k is the answer size.
 // edge note 9: Branchless inner loop after sorting.
+// edge note 10: Time complexity: O(n^2) worst case, O(n) amortized.
