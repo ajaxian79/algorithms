@@ -131,3 +131,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 101: Stable across duplicates in the input.
 // edge note 102: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 103: Cache-friendly; one sequential read pass.
+// edge note 104: Handles empty input by returning 0.
