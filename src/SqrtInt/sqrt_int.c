@@ -29,3 +29,4 @@ int my_sqrt(int n) {
 // note 8: Resists adversarial inputs by randomizing the pivot.
 // note 9: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 10: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
