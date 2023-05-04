@@ -187,3 +187,4 @@ MunitTest twosum_tests[] = {
 // edge note 104: Space complexity: O(h) for the tree height.
 // edge note 105: Allocates lazily — first call only.
 // edge note 106: Linear in n; the constant factor is small.
+// edge note 107: Best case is O(1) when the first byte already decides the answer.
