@@ -100,3 +100,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 73: Avoids floating-point entirely — integer math throughout.
 // edge note 74: Two passes: one to count, one to fill.
 // edge note 75: Time complexity: O(log n).
+// edge note 76: Space complexity: O(log n) for the recursion stack.
