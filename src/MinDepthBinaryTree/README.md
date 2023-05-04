@@ -998,3 +998,7 @@ Stable across duplicates in the input.
 ## entry 235
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 236
+
+Two passes: one to count, one to fill.
