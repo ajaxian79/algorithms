@@ -825,3 +825,7 @@
 ## entry 189
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 190
+
+- Union-Find with path compression amortizes to near-O(1) per op.
