@@ -119,3 +119,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 82: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 83: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 84: Space complexity: O(1) auxiliary.
+// note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
