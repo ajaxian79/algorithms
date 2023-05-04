@@ -40891,3 +40891,7 @@
 ## entry 10223
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10224
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
