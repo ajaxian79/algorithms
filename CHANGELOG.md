@@ -40915,3 +40915,7 @@
 ## entry 10229
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 10230
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
