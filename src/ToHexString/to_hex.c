@@ -110,3 +110,4 @@ char* to_hex_string(int n) {
 // note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 78: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 79: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 80: Time complexity: O(n + m).
