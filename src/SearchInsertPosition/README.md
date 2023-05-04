@@ -186,3 +186,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 32
 
 Runs in a single pass over the input.
+
+## entry 33
+
+Tail-recursive; the compiler turns it into a loop.
