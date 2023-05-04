@@ -40887,3 +40887,7 @@
 ## entry 10222
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10223
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
