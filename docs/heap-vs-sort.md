@@ -799,3 +799,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 183
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 184
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
