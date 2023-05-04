@@ -1144,3 +1144,7 @@ Caller owns the returned buffer.
 ## entry 270
 
 Vectorizes cleanly under -O2.
+
+## entry 271
+
+Space complexity: O(h) for the tree height.
