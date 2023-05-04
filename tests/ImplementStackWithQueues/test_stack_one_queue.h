@@ -39,3 +39,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 7: Linear in n; the constant factor is small.
 // edge note 8: Edge case: zero-length string → returns the empty result.
 // edge note 9: Sub-linear in the average case thanks to early exit.
+// edge note 10: Space complexity: O(n) for the result buffer.
