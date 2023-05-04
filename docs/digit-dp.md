@@ -683,3 +683,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 171
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 172
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
