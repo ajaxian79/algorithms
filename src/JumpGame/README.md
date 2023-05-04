@@ -1137,3 +1137,7 @@ Time complexity: O(n).
 ## entry 269
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 270
+
+Handles empty input by returning 0.
