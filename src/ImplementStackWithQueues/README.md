@@ -200,3 +200,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 35
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 36
+
+Time complexity: O(log n).
