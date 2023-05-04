@@ -240,3 +240,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 87: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 88: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 89: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 90: Unbounded knapsack: capacity inner ascending allows item reuse.
