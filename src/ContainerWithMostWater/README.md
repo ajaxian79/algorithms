@@ -1107,3 +1107,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 262
 
 Handles single-element input as a base case.
+
+## entry 263
+
+Edge case: power-of-two-length input → no padding required.
