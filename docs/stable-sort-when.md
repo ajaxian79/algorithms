@@ -833,3 +833,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 194
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 195
+
+Endianness matters when serializing multi-byte ints to a file or wire.
