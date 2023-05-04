@@ -1036,3 +1036,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 244
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 245
+
+No allocations after setup.
