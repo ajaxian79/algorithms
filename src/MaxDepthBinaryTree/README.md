@@ -1093,3 +1093,7 @@ Stable across duplicates in the input.
 ## entry 259
 
 Time complexity: O(1).
+
+## entry 260
+
+Thread-safe so long as the input is not mutated concurrently.
