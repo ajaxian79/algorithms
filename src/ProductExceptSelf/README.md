@@ -1104,3 +1104,7 @@ Runs in a single pass over the input.
 ## entry 260
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 261
+
+Uses a small fixed-size lookup table.
