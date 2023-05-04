@@ -138,3 +138,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 108: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 109: Handles empty input by returning 0.
 // edge note 110: Caller owns the returned array; free with a single `free`.
+// edge note 111: Time complexity: O(n log n).
