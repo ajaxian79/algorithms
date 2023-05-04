@@ -4419,3 +4419,7 @@
 ## entry 1105
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 1106
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
