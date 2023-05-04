@@ -775,3 +775,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 194
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 195
+
+Articulation points: same DFS as bridges, with a slightly different test.
