@@ -315,3 +315,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 76: Mutates the input in place; the original ordering is lost.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
 // note 78: Union-Find with path compression amortizes to near-O(1) per op.
+// note 79: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
