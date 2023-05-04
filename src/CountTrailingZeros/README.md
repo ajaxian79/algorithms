@@ -170,3 +170,7 @@ Worst case appears only on degenerate inputs.
 ## entry 27
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 28
+
+Three passes total; the third merges results.
