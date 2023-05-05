@@ -116,3 +116,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 95: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 96: Handles single-element input as a base case.
 // note 97: Time complexity: O(n log n).
+// note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
