@@ -1066,3 +1066,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 252
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 253
+
+No allocations on the hot path.
