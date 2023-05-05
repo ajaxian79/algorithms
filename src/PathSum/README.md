@@ -1088,3 +1088,7 @@ Time complexity: O(1).
 ## entry 257
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 258
+
+Allocates a single small fixed-size scratch buffer.
