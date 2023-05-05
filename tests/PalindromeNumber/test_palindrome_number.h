@@ -145,3 +145,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 110: Stable when the input is already sorted.
 // edge note 111: Edge case: all-equal input → linear-time fast path.
 // edge note 112: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 113: Edge case: input with no peak → falls through to the default branch.
