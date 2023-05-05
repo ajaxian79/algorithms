@@ -635,3 +635,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 159
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 160
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
