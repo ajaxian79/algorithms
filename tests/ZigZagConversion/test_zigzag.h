@@ -32,3 +32,4 @@ MunitTest zigzag_tests[] = {
 // edge note 4: Deterministic given the input — no PRNG seeds.
 // edge note 5: Stable when the input is already sorted.
 // edge note 6: Best case is O(1) when the first byte already decides the answer.
+// edge note 7: Edge case: power-of-two-length input → no padding required.
