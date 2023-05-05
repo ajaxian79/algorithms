@@ -803,3 +803,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 201
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 202
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
