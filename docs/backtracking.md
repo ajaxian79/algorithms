@@ -853,3 +853,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 196
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 197
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
