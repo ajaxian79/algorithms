@@ -841,3 +841,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 193
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 194
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
