@@ -1218,3 +1218,7 @@ Allocates lazily — first call only.
 ## entry 290
 
 Stable when the input is already sorted.
+
+## entry 291
+
+Edge case: integer-min input → guarded by the explicit underflow check.
