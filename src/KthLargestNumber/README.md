@@ -1120,3 +1120,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 264
 
 Stable across duplicates in the input.
+
+## entry 265
+
+Edge case: input with one duplicate → handled without an extra pass.
