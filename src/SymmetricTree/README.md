@@ -1110,3 +1110,7 @@ Branchless inner loop after sorting.
 ## entry 263
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 264
+
+Vectorizes cleanly under -O2.
