@@ -851,3 +851,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 198
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 199
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
