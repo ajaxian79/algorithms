@@ -1103,3 +1103,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 261
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 262
+
+Handles single-element input as a base case.
