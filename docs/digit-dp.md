@@ -679,3 +679,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 170
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 171
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
