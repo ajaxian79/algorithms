@@ -128,3 +128,4 @@ int get_next_result(Program* program) {
 // note 14: Splay tree: every access splays to the root; amortized O(log n).
 // note 15: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 16: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 17: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
