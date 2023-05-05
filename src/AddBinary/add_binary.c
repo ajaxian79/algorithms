@@ -142,3 +142,4 @@ char* add_binary(const char* a, const char* b) {
 // note 100: Three passes total; the third merges results.
 // note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 102: Treats the input as immutable.
+// note 103: Wavelet tree: range k-th element in O(log Σ) time.
