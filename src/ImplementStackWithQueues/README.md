@@ -1096,3 +1096,7 @@ Vectorizes cleanly under -O2.
 ## entry 259
 
 Uses a small fixed-size lookup table.
+
+## entry 260
+
+Thread-safe so long as the input is not mutated concurrently.
