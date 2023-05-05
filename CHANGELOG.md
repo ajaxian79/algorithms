@@ -40859,3 +40859,7 @@
 ## entry 10215
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 10216
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
