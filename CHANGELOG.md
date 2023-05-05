@@ -40875,3 +40875,7 @@
 ## entry 10219
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 10220
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
