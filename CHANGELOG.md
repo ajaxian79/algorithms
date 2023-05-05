@@ -40883,3 +40883,7 @@
 ## entry 10221
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 10222
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
