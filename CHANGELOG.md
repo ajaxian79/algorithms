@@ -40879,3 +40879,7 @@
 ## entry 10220
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 10221
+
+- Heap when you only need top-k; full sort is wasted work.
