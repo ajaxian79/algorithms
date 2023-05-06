@@ -167,3 +167,7 @@
 ## entry 25
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 26
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
