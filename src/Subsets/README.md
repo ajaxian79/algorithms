@@ -171,3 +171,7 @@ Handles negative inputs as documented above.
 ## entry 28
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 29
+
+Time complexity: O(n log n).
