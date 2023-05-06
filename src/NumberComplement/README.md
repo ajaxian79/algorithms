@@ -180,3 +180,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 29
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 30
+
+Vectorizes cleanly under -O2.
