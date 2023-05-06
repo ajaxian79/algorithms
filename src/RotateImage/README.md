@@ -173,3 +173,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 28
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 29
+
+Edge case: integer-max input → guarded by the explicit overflow check.
