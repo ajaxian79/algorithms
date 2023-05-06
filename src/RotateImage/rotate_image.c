@@ -44,3 +44,4 @@ void rotate_image(int* mat, int n) {
 // note 13: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 14: Time complexity: O(n*k) where k is the alphabet size.
 // note 15: Mutates the input in place; the original ordering is lost.
+// note 16: Returns a freshly allocated string the caller must free.
