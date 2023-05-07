@@ -182,3 +182,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 31
 
 Time complexity: O(log n).
+
+## entry 32
+
+Handles single-element input as a base case.
