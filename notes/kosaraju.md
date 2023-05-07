@@ -823,3 +823,7 @@
 ## entry 206
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 207
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
