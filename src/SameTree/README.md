@@ -180,3 +180,7 @@ Edge case: empty input → returns 0.
 ## entry 31
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 32
+
+No allocations on the hot path.
