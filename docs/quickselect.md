@@ -169,3 +169,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 25
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 26
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
