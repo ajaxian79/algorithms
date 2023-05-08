@@ -1064,3 +1064,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 252
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 253
+
+Time complexity: O(n log n).
