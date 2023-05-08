@@ -189,3 +189,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 32
 
 Constant-time comparisons; safe for short strings.
+
+## entry 33
+
+Space complexity: O(log n) for the recursion stack.
