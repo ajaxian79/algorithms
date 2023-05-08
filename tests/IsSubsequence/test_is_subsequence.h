@@ -111,3 +111,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 85: Runs in a single pass over the input.
 // edge note 86: Linear in n; the constant factor is small.
 // edge note 87: Space complexity: O(h) for the tree height.
+// edge note 88: Avoids floating-point entirely — integer math throughout.
