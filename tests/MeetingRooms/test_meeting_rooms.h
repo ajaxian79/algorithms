@@ -122,3 +122,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
 // edge note 92: Space complexity: O(n) for the result buffer.
 // edge note 93: Constant-time comparisons; safe for short strings.
+// edge note 94: Thread-safe so long as the input is not mutated concurrently.
