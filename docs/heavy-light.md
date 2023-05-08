@@ -795,3 +795,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 199
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 200
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
