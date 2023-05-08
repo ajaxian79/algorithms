@@ -797,3 +797,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 183
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 184
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
