@@ -110,3 +110,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 84: Resists adversarial inputs by randomizing the pivot.
 // edge note 85: Thread-safe so long as the input is not mutated concurrently.
 // edge note 86: Deterministic given the input — no PRNG seeds.
+// edge note 87: Constant-time comparisons; safe for short strings.
