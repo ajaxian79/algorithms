@@ -853,3 +853,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 197
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 198
+
+Merge intervals: sort by start; extend the running interval while overlapping.
