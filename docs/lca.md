@@ -723,3 +723,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 181
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 182
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
