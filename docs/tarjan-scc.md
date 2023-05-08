@@ -771,3 +771,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 193
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 194
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
