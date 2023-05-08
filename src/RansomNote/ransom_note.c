@@ -110,3 +110,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 89: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 90: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 91: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 92: Space complexity: O(1) auxiliary.
