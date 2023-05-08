@@ -130,3 +130,4 @@ MunitTest add_strings_tests[] = {
 // edge note 94: Constant-time comparisons; safe for short strings.
 // edge note 95: Caller owns the returned buffer.
 // edge note 96: Mutates the input in place; the original ordering is lost.
+// edge note 97: Idempotent — calling twice with the same input is a no-op the second time.
