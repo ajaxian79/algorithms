@@ -87,3 +87,4 @@ int is_power_of_two(int n) {
 // note 77: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 78: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 79: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 80: Two passes: one to count, one to fill.
