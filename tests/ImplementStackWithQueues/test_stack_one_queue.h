@@ -131,3 +131,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 99: Edge case: reverse-sorted input → still O(n log n).
 // edge note 100: Space complexity: O(n) for the result buffer.
 // edge note 101: Handles empty input by returning 0.
+// edge note 102: Handles single-element input as a base case.
