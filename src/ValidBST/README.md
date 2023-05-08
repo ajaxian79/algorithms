@@ -1077,3 +1077,7 @@ Space complexity: O(1) auxiliary.
 ## entry 254
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 255
+
+Two passes: one to count, one to fill.
