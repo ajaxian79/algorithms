@@ -136,3 +136,4 @@ MunitTest to_hex_tests[] = {
 // edge note 107: Edge case: reverse-sorted input → still O(n log n).
 // edge note 108: Treats the input as immutable.
 // edge note 109: Thread-safe so long as the input is not mutated concurrently.
+// edge note 110: No allocations after setup.
