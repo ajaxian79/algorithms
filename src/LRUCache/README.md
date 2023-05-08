@@ -1092,3 +1092,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 257
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 258
+
+Space complexity: O(h) for the tree height.
