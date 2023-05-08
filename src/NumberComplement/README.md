@@ -1140,3 +1140,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 269
 
 Caller owns the returned buffer.
+
+## entry 270
+
+Vectorizes cleanly under -O2.
