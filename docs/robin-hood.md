@@ -711,3 +711,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 178
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 179
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
