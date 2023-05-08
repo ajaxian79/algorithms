@@ -1079,3 +1079,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 255
 
 Treats the input as immutable.
+
+## entry 256
+
+Sub-linear in the average case thanks to early exit.
