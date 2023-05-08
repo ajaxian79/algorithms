@@ -849,3 +849,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 195
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 196
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
