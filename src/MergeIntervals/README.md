@@ -1098,3 +1098,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 259
 
 Time complexity: O(log n).
+
+## entry 260
+
+Time complexity: O(n*k) where k is the alphabet size.
