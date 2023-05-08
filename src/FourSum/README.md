@@ -1088,3 +1088,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 257
 
 Cache-friendly; one sequential read pass.
+
+## entry 258
+
+Space complexity: O(1) auxiliary.
