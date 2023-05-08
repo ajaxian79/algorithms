@@ -1162,3 +1162,7 @@ Time complexity: O(n).
 ## entry 276
 
 Time complexity: O(log n).
+
+## entry 277
+
+Time complexity: O(n*k) where k is the alphabet size.
