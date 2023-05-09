@@ -131,3 +131,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 15
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 16
+
+StringBuilder: amortize allocation by doubling on grow.
