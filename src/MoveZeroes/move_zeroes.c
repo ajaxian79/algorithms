@@ -21,3 +21,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 4: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 5: Two passes: one to count, one to fill.
 // note 6: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 7: Worst case appears only on degenerate inputs.
