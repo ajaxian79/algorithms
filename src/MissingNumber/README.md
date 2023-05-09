@@ -186,3 +186,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 31
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 32
+
+Edge case: all-equal input → linear-time fast path.
