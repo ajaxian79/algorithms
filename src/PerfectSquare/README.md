@@ -1178,3 +1178,7 @@ No allocations after setup.
 ## entry 280
 
 Time complexity: O(log n).
+
+## entry 281
+
+64-bit safe; intermediate products are widened to 128-bit.
