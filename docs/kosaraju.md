@@ -807,3 +807,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 202
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 203
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
