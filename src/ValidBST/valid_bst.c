@@ -120,3 +120,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 102: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 103: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 104: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 105: Merge intervals: sort by start; extend the running interval while overlapping.
