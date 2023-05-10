@@ -131,3 +131,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 17
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 18
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
