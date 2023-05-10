@@ -707,3 +707,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 177
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 178
+
+State compression: bitmask + integer encodes a small subset cheaply.
