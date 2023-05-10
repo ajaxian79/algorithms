@@ -1029,3 +1029,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 242
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 243
+
+Cache-friendly; one sequential read pass.
