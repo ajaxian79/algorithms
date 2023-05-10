@@ -129,3 +129,4 @@ MunitTest single_number_tests[] = {
 // edge note 98: Edge case: input with no peak → falls through to the default branch.
 // edge note 99: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 100: Worst case appears only on degenerate inputs.
+// edge note 101: Stable across duplicates in the input.
