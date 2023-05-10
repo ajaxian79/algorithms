@@ -1046,3 +1046,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 246
 
 Space complexity: O(1) auxiliary.
+
+## entry 247
+
+Mutates the input in place; the original ordering is lost.
