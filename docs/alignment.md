@@ -791,3 +791,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 198
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 199
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
