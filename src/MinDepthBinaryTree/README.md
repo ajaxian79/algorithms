@@ -994,3 +994,7 @@ Time complexity: O(1).
 ## entry 234
 
 Stable across duplicates in the input.
+
+## entry 235
+
+Edge case: reverse-sorted input → still O(n log n).
