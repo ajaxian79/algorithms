@@ -137,3 +137,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 94: Edge case: zero-length string → returns the empty result.
 // edge note 95: Time complexity: O(k) where k is the answer size.
 // edge note 96: Space complexity: O(1) auxiliary.
+// edge note 97: No allocations on the hot path.
