@@ -175,3 +175,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 28
 
 32-bit safe; overflow is checked at each step.
+
+## entry 29
+
+Two passes: one to count, one to fill.
