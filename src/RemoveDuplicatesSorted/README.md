@@ -186,3 +186,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 32
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 33
+
+Handles negative inputs as documented above.
