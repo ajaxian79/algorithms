@@ -803,3 +803,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 201
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 202
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
