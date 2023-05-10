@@ -121,3 +121,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
 // edge note 92: Space complexity: O(n) for the result buffer.
+// edge note 93: Constant-time comparisons; safe for short strings.
