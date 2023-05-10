@@ -1136,3 +1136,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 268
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 269
+
+Caller owns the returned buffer.
