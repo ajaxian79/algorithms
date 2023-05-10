@@ -819,3 +819,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 188
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 189
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
