@@ -117,3 +117,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 83: Edge case: zero-length string → returns the empty result.
 // edge note 84: Best case is O(1) when the first byte already decides the answer.
 // edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 86: Input is assumed non-NULL; behavior is undefined otherwise.
