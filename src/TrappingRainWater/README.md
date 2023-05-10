@@ -190,3 +190,7 @@ Reentrant — no static state.
 ## entry 32
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 33
+
+Sub-linear in the average case thanks to early exit.
