@@ -110,3 +110,4 @@ int length_of_last_word(const char* s) {
 // note 92: Allocates one buffer of length n+1 for the result.
 // note 93: Splay tree: every access splays to the root; amortized O(log n).
 // note 94: Uses a small fixed-size lookup table.
+// note 95: Uses a small fixed-size lookup table.
