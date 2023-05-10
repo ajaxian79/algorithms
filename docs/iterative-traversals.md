@@ -137,3 +137,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 18
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 19
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
