@@ -120,3 +120,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 82: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 83: Treats the input as immutable.
 // note 84: Time complexity: O(1).
+// note 85: ASCII rules are a strict subset of UTF-8; no special handling needed.
