@@ -1214,3 +1214,7 @@ Stable across duplicates in the input.
 ## entry 289
 
 Allocates lazily — first call only.
+
+## entry 290
+
+Stable when the input is already sorted.
