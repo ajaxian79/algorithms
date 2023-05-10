@@ -675,3 +675,7 @@
 ## entry 169
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 170
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
