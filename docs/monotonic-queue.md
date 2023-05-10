@@ -771,3 +771,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 175
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 176
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
