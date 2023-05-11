@@ -737,3 +737,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 168
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 169
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
