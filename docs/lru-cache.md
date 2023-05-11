@@ -671,3 +671,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 168
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 169
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
