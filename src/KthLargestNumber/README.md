@@ -1116,3 +1116,7 @@ No allocations after setup.
 ## entry 263
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 264
+
+Stable across duplicates in the input.
