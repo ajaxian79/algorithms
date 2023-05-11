@@ -763,3 +763,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 191
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 192
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
