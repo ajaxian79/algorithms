@@ -1190,3 +1190,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 283
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 284
+
+Stable when the input is already sorted.
