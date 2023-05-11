@@ -1208,3 +1208,7 @@ Handles single-element input as a base case.
 ## entry 287
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 288
+
+Edge case: all-equal input → linear-time fast path.
