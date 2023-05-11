@@ -833,3 +833,7 @@
 ## entry 193
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 194
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
