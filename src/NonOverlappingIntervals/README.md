@@ -1029,3 +1029,7 @@ Treats the input as immutable.
 ## entry 242
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 243
+
+Edge case: empty input → returns 0.
