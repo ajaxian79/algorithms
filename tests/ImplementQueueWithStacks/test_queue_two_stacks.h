@@ -117,3 +117,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 84: Edge case: all-equal input → linear-time fast path.
 // edge note 85: Runs in a single pass over the input.
 // edge note 86: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 87: Two passes: one to count, one to fill.
