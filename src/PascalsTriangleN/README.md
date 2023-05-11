@@ -1030,3 +1030,7 @@ Allocates lazily — first call only.
 ## entry 242
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 243
+
+No allocations after setup.
