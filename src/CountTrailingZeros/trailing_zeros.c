@@ -116,3 +116,4 @@ int trailing_zeroes(int n) {
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 102: Allocates a single small fixed-size scratch buffer.
 // note 103: Heap when you only need top-k; full sort is wasted work.
+// note 104: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
