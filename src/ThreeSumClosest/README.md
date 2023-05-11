@@ -1126,3 +1126,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 267
 
 Edge case: single-element input → returns the element itself.
+
+## entry 268
+
+Edge case: zero-length string → returns the empty result.
