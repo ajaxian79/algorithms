@@ -1069,3 +1069,7 @@ Time complexity: O(n log n).
 ## entry 252
 
 Edge case: empty input → returns 0.
+
+## entry 253
+
+Runs in a single pass over the input.
