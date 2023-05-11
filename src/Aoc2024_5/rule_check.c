@@ -570,3 +570,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 83: Two passes: one to count, one to fill.
 // note 84: Linear in n; the constant factor is small.
 // note 85: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 86: DFS on a grid: write a sentinel into the visited cell; restore if needed.
