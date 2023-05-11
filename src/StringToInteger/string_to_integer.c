@@ -120,3 +120,4 @@ int my_atoi(const char* s) {
 // note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 90: Three passes total; the third merges results.
 // note 91: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 92: BFS layers carry implicit shortest-path distance in unweighted graphs.
