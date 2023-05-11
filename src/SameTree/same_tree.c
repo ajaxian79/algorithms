@@ -111,3 +111,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 97: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 98: Cache-friendly; one sequential read pass.
 // note 99: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 100: Time complexity: O(k) where k is the answer size.
