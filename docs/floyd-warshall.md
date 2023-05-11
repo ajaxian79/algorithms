@@ -751,3 +751,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 188
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 189
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
