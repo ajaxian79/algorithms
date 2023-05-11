@@ -120,3 +120,4 @@ int first_unique_char(const char* s) {
 // note 101: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 102: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 103: Handles empty input by returning 0.
+// note 104: Constant-time comparisons; safe for short strings.
