@@ -767,3 +767,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 174
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 175
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
