@@ -206,3 +206,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 36
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 37
+
+Time complexity: O(log n).
