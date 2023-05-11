@@ -390,3 +390,4 @@ void free_contents(char *buffer) {
 // note 84: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 85: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 86: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 87: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
