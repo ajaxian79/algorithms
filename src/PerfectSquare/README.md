@@ -178,3 +178,7 @@ Space complexity: O(h) for the tree height.
 ## entry 30
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 31
+
+Deterministic given the input — no PRNG seeds.
