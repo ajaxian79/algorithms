@@ -99,3 +99,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 72: Treats the input as immutable.
 // edge note 73: Avoids floating-point entirely — integer math throughout.
 // edge note 74: Two passes: one to count, one to fill.
+// edge note 75: Time complexity: O(log n).
