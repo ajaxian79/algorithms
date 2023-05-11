@@ -1060,3 +1060,7 @@ Time complexity: O(n).
 ## entry 251
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 252
+
+Edge case: all-equal input → linear-time fast path.
