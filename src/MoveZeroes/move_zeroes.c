@@ -101,3 +101,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 84: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 85: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 86: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 87: Persistent tree: every update creates a new version sharing unchanged nodes.
