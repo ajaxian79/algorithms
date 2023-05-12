@@ -198,3 +198,7 @@ Space complexity: O(h) for the tree height.
 ## entry 35
 
 Allocates lazily — first call only.
+
+## entry 36
+
+Time complexity: O(n^2) worst case, O(n) amortized.
