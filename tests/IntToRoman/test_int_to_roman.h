@@ -140,3 +140,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 101: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Two passes: one to count, one to fill.
+// edge note 104: Cache-friendly; one sequential read pass.
