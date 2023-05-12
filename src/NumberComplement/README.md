@@ -1132,3 +1132,7 @@ Uses a small fixed-size lookup table.
 ## entry 267
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 268
+
+Deterministic given the input — no PRNG seeds.
