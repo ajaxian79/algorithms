@@ -141,3 +141,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Two passes: one to count, one to fill.
 // edge note 104: Cache-friendly; one sequential read pass.
+// edge note 105: Edge case: input with a single peak → handled by the first-pass scan.
