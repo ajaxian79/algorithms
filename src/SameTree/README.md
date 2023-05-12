@@ -176,3 +176,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 30
 
 Edge case: empty input → returns 0.
+
+## entry 31
+
+Edge case: integer-max input → guarded by the explicit overflow check.
