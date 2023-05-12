@@ -40715,3 +40715,7 @@
 ## entry 10179
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 10180
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
