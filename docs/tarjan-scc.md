@@ -763,3 +763,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 191
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 192
+
+In-place compaction uses two pointers: read advances always, write only on keep.
