@@ -1096,3 +1096,7 @@ Linear in n; the constant factor is small.
 ## entry 259
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 260
+
+Worst case appears only on degenerate inputs.
