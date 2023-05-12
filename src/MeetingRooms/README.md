@@ -1074,3 +1074,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 254
 
 Space complexity: O(1) auxiliary.
+
+## entry 255
+
+Edge case: alternating pattern → degenerate case for sliding window.
