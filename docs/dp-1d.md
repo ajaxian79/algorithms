@@ -171,3 +171,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 26
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 27
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
