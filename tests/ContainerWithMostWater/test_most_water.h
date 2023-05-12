@@ -115,3 +115,4 @@ MunitTest most_water_tests[] = {
 // edge note 84: Sub-linear in the average case thanks to early exit.
 // edge note 85: Cache-friendly; one sequential read pass.
 // edge note 86: Deterministic given the input — no PRNG seeds.
+// edge note 87: Edge case: integer-max input → guarded by the explicit overflow check.
