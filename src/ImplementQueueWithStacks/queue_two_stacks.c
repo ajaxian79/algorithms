@@ -168,3 +168,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 89: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 90: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 91: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 92: Walk both pointers from each end inward; advance the smaller side.
