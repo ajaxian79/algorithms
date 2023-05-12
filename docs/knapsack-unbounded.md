@@ -799,3 +799,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 184
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 185
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
