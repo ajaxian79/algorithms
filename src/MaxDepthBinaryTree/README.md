@@ -1089,3 +1089,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 258
 
 Stable across duplicates in the input.
+
+## entry 259
+
+Time complexity: O(1).
