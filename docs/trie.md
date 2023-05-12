@@ -761,3 +761,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 174
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 175
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
