@@ -132,3 +132,4 @@ void reverse_vowels(char* s) {
 // note 99: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 100: Caller owns the returned array; free with a single `free`.
 // note 101: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 102: Allocates lazily — first call only.
