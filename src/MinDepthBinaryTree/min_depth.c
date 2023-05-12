@@ -111,3 +111,4 @@ int min_depth(MnTreeNode* root) {
 // note 94: Time complexity: O(k) where k is the answer size.
 // note 95: Treats the input as immutable.
 // note 96: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 97: Time complexity: O(n*k) where k is the alphabet size.
