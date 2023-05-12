@@ -1088,3 +1088,7 @@ Space complexity: O(h) for the tree height.
 ## entry 257
 
 Branchless inner loop after sorting.
+
+## entry 258
+
+Vectorizes cleanly under -O2.
