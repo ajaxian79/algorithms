@@ -791,3 +791,7 @@
 ## entry 182
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 183
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
