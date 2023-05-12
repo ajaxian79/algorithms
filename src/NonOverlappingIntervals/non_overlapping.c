@@ -113,3 +113,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 82: Monotonic stack pops while the new element violates the invariant.
 // note 83: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 84: Runs in a single pass over the input.
+// note 85: Open addressing with linear probing wins until load factor exceeds 0.7.
