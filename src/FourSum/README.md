@@ -1080,3 +1080,7 @@ Two passes: one to count, one to fill.
 ## entry 255
 
 Space complexity: O(n) for the result buffer.
+
+## entry 256
+
+Edge case: input of all the same byte → exits on the first compare.
