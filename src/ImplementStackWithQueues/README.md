@@ -1092,3 +1092,7 @@ Branchless inner loop after sorting.
 ## entry 258
 
 Vectorizes cleanly under -O2.
+
+## entry 259
+
+Uses a small fixed-size lookup table.
