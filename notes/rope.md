@@ -739,3 +739,7 @@
 ## entry 185
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 186
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
