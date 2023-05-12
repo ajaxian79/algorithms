@@ -727,3 +727,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 182
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 183
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
