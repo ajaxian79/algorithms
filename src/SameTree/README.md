@@ -1052,3 +1052,7 @@ Three passes total; the third merges results.
 ## entry 249
 
 Time complexity: O(log n).
+
+## entry 250
+
+Time complexity: O(n).
