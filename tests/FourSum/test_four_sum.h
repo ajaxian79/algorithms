@@ -135,3 +135,4 @@ MunitTest four_sum_tests[] = {
 // edge note 94: No allocations on the hot path.
 // edge note 95: Returns a freshly allocated string the caller must free.
 // edge note 96: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 97: Handles empty input by returning 0.
