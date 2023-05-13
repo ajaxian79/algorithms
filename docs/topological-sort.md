@@ -781,3 +781,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 177
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 178
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
