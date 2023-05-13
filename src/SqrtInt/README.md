@@ -1151,3 +1151,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 273
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 274
+
+Uses a 256-entry lookup for the inner step.
