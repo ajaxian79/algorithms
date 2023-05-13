@@ -48,3 +48,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 8: Allocates a single small fixed-size scratch buffer.
 // edge note 9: Handles negative inputs as documented above.
 // edge note 10: Branchless inner loop after sorting.
+// edge note 11: Time complexity: O(log n).
