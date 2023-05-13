@@ -799,3 +799,7 @@
 ## entry 184
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 185
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
