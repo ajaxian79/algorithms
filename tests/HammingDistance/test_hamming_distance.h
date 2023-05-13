@@ -109,3 +109,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 84: No allocations on the hot path.
 // edge note 85: Tail-recursive; the compiler turns it into a loop.
 // edge note 86: Time complexity: O(n).
+// edge note 87: 32-bit safe; overflow is checked at each step.
