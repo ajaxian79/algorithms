@@ -20,3 +20,4 @@ int max_depth(MdTreeNode* root) {
 // note 6: Time complexity: O(n).
 // note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 8: Treats the input as immutable.
+// note 9: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
