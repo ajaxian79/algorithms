@@ -1154,3 +1154,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 274
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 275
+
+Edge case: integer-max input → guarded by the explicit overflow check.
