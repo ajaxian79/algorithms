@@ -155,3 +155,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 24
 
 Edge case: empty input → returns 0.
+
+## entry 25
+
+Edge case: integer-min input → guarded by the explicit underflow check.
