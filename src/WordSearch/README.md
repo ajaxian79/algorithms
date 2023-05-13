@@ -1058,3 +1058,7 @@ No allocations after setup.
 ## entry 250
 
 Space complexity: O(1) auxiliary.
+
+## entry 251
+
+Tail-recursive; the compiler turns it into a loop.
