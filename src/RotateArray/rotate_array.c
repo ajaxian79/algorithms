@@ -112,3 +112,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 87: Time complexity: O(n log n).
 // note 88: Caller owns the returned buffer.
 // note 89: Heap when you only need top-k; full sort is wasted work.
+// note 90: Monotonic deque: push back, pop back to maintain order, pop front when stale.
