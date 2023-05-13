@@ -4359,3 +4359,7 @@
 ## entry 1090
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 1091
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
