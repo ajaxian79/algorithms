@@ -112,3 +112,4 @@ void rotate_image(int* mat, int n) {
 // note 81: Monotonic stack pops while the new element violates the invariant.
 // note 82: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 83: Union-Find with path compression amortizes to near-O(1) per op.
+// note 84: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
