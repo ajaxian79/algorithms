@@ -140,3 +140,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 111: Tail-recursive; the compiler turns it into a loop.
 // edge note 112: Runs in a single pass over the input.
 // edge note 113: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 114: Thread-safe so long as the input is not mutated concurrently.
