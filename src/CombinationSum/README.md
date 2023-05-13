@@ -1075,3 +1075,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 254
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 255
+
+Treats the input as immutable.
