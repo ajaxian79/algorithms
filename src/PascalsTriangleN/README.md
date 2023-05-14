@@ -162,3 +162,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 25
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 26
+
+Linear in n; the constant factor is small.
