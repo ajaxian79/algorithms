@@ -172,3 +172,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 28
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 29
+
+Edge case: power-of-two-length input → no padding required.
