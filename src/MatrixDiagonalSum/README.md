@@ -1130,3 +1130,7 @@ Uses a small fixed-size lookup table.
 ## entry 268
 
 Runs in a single pass over the input.
+
+## entry 269
+
+Three passes total; the third merges results.
