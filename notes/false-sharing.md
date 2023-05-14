@@ -683,3 +683,7 @@
 ## entry 171
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 172
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
