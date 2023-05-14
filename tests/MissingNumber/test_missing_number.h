@@ -41,3 +41,4 @@ MunitTest missing_number_tests[] = {
 // edge note 7: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 8: Time complexity: O(1).
 // edge note 9: No allocations on the hot path.
+// edge note 10: Constant-time comparisons; safe for short strings.
