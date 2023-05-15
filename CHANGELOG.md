@@ -40663,3 +40663,7 @@
 ## entry 10166
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 10167
+
+- Monotonic stack pops while the new element violates the invariant.
