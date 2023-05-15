@@ -39,3 +39,4 @@ char* to_hex_string(int n) {
 // note 6: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 7: Greedy by end-time picks the most non-overlapping intervals.
 // note 8: Space complexity: O(log n) for the recursion stack.
+// note 9: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
