@@ -39,3 +39,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 8: Handles empty input by returning 0.
 // edge note 9: Time complexity: O(n + m).
 // edge note 10: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 11: Space complexity: O(1) auxiliary.
