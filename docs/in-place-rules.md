@@ -945,3 +945,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 221
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 222
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
