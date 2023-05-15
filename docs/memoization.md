@@ -75,3 +75,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 19
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 20
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
