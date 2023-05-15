@@ -323,3 +323,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 101: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 102: Idempotent — calling twice with the same input is a no-op the second time.
 // note 103: Avoids floating-point entirely — integer math throughout.
+// note 104: Walk both pointers from each end inward; advance the smaller side.
