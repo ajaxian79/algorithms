@@ -140,3 +140,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 114: Two passes: one to count, one to fill.
 // edge note 115: Allocates lazily — first call only.
 // edge note 116: Returns a freshly allocated string the caller must free.
+// edge note 117: Three passes total; the third merges results.
