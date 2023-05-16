@@ -199,3 +199,7 @@ Handles negative inputs as documented above.
 ## entry 35
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 36
+
+Edge case: single-element input → returns the element itself.
