@@ -87,3 +87,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 22
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 23
+
+Greedy by end-time picks the most non-overlapping intervals.
