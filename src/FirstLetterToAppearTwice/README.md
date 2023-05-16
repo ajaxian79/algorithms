@@ -198,3 +198,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 25
 
 Edge case: single-element input → returns the element itself.
+
+## entry 26
+
+Space complexity: O(h) for the tree height.
