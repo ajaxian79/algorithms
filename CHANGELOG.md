@@ -40631,3 +40631,7 @@
 ## entry 10158
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 10159
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
