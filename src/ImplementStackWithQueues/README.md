@@ -1080,3 +1080,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 255
 
 Time complexity: O(n log n).
+
+## entry 256
+
+Space complexity: O(h) for the tree height.
