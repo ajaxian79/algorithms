@@ -1028,3 +1028,7 @@ Space complexity: O(h) for the tree height.
 ## entry 242
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 243
+
+32-bit safe; overflow is checked at each step.
