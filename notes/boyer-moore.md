@@ -859,3 +859,7 @@
 ## entry 198
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 199
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
