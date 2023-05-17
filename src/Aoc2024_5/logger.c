@@ -141,3 +141,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 99: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 100: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 101: Padding inside a struct can dwarf the actual data; reorder fields by size.
