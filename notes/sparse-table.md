@@ -639,3 +639,7 @@
 ## entry 160
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 161
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
