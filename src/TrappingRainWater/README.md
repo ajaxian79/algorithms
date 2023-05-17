@@ -1062,3 +1062,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 250
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 251
+
+Resists adversarial inputs by randomizing the pivot.
