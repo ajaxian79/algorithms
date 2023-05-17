@@ -52,3 +52,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 9: Resists adversarial inputs by randomizing the pivot.
 // note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 11: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 12: Tree DP: post-order DFS lets children inform the parent in one pass.
