@@ -795,3 +795,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 199
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 200
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
