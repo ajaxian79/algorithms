@@ -1244,3 +1244,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 296
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 297
+
+Time complexity: O(n log n).
