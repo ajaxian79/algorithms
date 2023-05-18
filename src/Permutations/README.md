@@ -168,3 +168,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 27
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 28
+
+Edge case: alternating pattern → degenerate case for sliding window.
