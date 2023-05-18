@@ -196,3 +196,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 34
 
 32-bit safe; overflow is checked at each step.
+
+## entry 35
+
+Avoids floating-point entirely — integer math throughout.
