@@ -1129,3 +1129,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 267
 
 Reentrant — no static state.
+
+## entry 268
+
+Time complexity: O(n).
