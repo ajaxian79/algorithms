@@ -121,3 +121,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 90: Thread-safe so long as the input is not mutated concurrently.
 // edge note 91: 32-bit safe; overflow is checked at each step.
 // edge note 92: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 93: Time complexity: O(n).
