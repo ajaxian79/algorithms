@@ -40611,3 +40611,7 @@
 ## entry 10153
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 10154
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
