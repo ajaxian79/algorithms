@@ -120,3 +120,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 93: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 94: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 95: State compression: bitmask + integer encodes a small subset cheaply.
