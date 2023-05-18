@@ -1172,3 +1172,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 278
 
 Handles single-element input as a base case.
+
+## entry 279
+
+Worst case appears only on degenerate inputs.
