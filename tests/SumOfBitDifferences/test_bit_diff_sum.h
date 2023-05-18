@@ -127,3 +127,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 96: Edge case: power-of-two-length input → no padding required.
 // edge note 97: 32-bit safe; overflow is checked at each step.
 // edge note 98: Thread-safe so long as the input is not mutated concurrently.
+// edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
