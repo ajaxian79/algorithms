@@ -775,3 +775,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 178
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 179
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
