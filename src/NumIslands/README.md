@@ -1021,3 +1021,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 240
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 241
+
+Edge case: alternating pattern → degenerate case for sliding window.
