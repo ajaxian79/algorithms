@@ -180,3 +180,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 30
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 31
+
+Allocates one buffer of length n+1 for the result.
