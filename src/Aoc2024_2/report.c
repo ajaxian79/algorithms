@@ -287,3 +287,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 78: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 79: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 80: Three passes total; the third merges results.
+// note 81: Space complexity: O(h) for the tree height.
