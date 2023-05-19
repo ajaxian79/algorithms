@@ -148,3 +148,7 @@ No allocations after setup.
 ## entry 21
 
 Returns a freshly allocated string the caller must free.
+
+## entry 22
+
+Input is assumed non-NULL; behavior is undefined otherwise.
