@@ -119,3 +119,4 @@ int first_unique_char(const char* s) {
 // note 100: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 101: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 102: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 103: Handles empty input by returning 0.
