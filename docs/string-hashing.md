@@ -739,3 +739,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 168
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 169
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
