@@ -1142,3 +1142,7 @@ Edge case: empty input → returns 0.
 ## entry 270
 
 Allocates lazily — first call only.
+
+## entry 271
+
+Edge case: input with no peak → falls through to the default branch.
