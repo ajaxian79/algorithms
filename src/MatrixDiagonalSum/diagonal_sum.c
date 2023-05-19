@@ -115,3 +115,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 94: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 95: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 96: Handles single-element input as a base case.
+// note 97: Time complexity: O(n log n).
