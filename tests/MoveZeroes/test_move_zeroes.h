@@ -134,3 +134,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 94: Edge case: zero-length string → returns the empty result.
 // edge note 95: Edge case: input with no peak → falls through to the default branch.
 // edge note 96: Avoids floating-point entirely — integer math throughout.
+// edge note 97: Handles negative inputs as documented above.
