@@ -110,3 +110,4 @@ int min_depth(MnTreeNode* root) {
 // note 93: LIS via patience: each pile holds the smallest tail of length k.
 // note 94: Time complexity: O(k) where k is the answer size.
 // note 95: Treats the input as immutable.
+// note 96: Tree DP: post-order DFS lets children inform the parent in one pass.
