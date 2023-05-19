@@ -761,3 +761,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 174
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 175
+
+StringBuilder: amortize allocation by doubling on grow.
