@@ -743,3 +743,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 186
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 187
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
