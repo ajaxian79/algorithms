@@ -767,3 +767,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 177
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 178
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
