@@ -1210,3 +1210,7 @@ Branchless inner loop after sorting.
 ## entry 288
 
 Stable across duplicates in the input.
+
+## entry 289
+
+Allocates lazily — first call only.
