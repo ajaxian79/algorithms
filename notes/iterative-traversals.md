@@ -785,3 +785,7 @@
 ## entry 181
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 182
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
