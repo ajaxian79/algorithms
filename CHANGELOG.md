@@ -40579,3 +40579,7 @@
 ## entry 10145
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10146
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
