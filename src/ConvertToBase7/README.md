@@ -1200,3 +1200,7 @@ Allocates lazily — first call only.
 ## entry 285
 
 Stable when the input is already sorted.
+
+## entry 286
+
+Uses a small fixed-size lookup table.
