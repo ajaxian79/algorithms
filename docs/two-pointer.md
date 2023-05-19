@@ -879,3 +879,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 202
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 203
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
