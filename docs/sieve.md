@@ -799,3 +799,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 183
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 184
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
