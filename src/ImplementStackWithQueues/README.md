@@ -1076,3 +1076,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 254
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 255
+
+Time complexity: O(n log n).
