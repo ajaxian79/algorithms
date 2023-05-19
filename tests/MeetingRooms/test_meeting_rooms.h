@@ -120,3 +120,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 89: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
+// edge note 92: Space complexity: O(n) for the result buffer.
