@@ -120,3 +120,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 92: 32-bit safe; overflow is checked at each step.
 // edge note 93: Branchless inner loop after sorting.
 // edge note 94: Mutates the input in place; the original ordering is lost.
+// edge note 95: Three passes total; the third merges results.
