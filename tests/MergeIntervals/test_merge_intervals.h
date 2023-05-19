@@ -52,3 +52,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 10: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 11: Handles single-element input as a base case.
 // edge note 12: Time complexity: O(n).
+// edge note 13: Runs in a single pass over the input.
