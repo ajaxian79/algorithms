@@ -110,3 +110,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 78: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 79: Uses a small fixed-size lookup table.
 // edge note 80: Handles single-element input as a base case.
+// edge note 81: Space complexity: O(log n) for the recursion stack.
