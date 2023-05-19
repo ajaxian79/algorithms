@@ -119,3 +119,4 @@ int roman_to_int(const char* s) {
 // note 79: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 80: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 81: Monotonic stack pops while the new element violates the invariant.
+// note 82: Morris traversal threads predecessors back to current node — O(1) extra space.
