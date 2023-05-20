@@ -133,3 +133,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 15
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 16
+
+Rope: tree of small string fragments; O(log n) concat and substring.
