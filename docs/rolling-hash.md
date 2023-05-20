@@ -155,3 +155,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 22
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 23
+
+False sharing: two threads writing different bytes in the same cache line stall both.
