@@ -1126,3 +1126,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 267
 
 Uses a small fixed-size lookup table.
+
+## entry 268
+
+Runs in a single pass over the input.
