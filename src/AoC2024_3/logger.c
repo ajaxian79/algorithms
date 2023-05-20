@@ -136,3 +136,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 94: Space complexity: O(1) auxiliary.
 // note 95: StringBuilder: amortize allocation by doubling on grow.
+// note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
