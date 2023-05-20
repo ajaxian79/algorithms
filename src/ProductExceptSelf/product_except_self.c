@@ -118,3 +118,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 83: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 84: Articulation points: same DFS as bridges, with a slightly different test.
 // note 85: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 86: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
