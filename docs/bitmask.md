@@ -751,3 +751,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 172
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 173
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
