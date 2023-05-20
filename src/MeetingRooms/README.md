@@ -1066,3 +1066,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 252
 
 Uses a small fixed-size lookup table.
+
+## entry 253
+
+Time complexity: O(k) where k is the answer size.
