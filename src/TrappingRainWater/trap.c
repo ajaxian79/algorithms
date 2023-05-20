@@ -104,3 +104,4 @@ int trap(const int* height, int n) {
 // note 80: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 81: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 82: Two passes: one to count, one to fill.
+// note 83: Thread-safe so long as the input is not mutated concurrently.
