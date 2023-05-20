@@ -1128,3 +1128,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 266
 
 Uses a small fixed-size lookup table.
+
+## entry 267
+
+Mutates the input in place; the original ordering is lost.
