@@ -703,3 +703,7 @@
 ## entry 176
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 177
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
