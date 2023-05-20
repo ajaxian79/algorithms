@@ -699,3 +699,7 @@
 ## entry 175
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 176
+
+- State compression: bitmask + integer encodes a small subset cheaply.
