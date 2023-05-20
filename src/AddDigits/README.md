@@ -1092,3 +1092,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 258
 
 Linear in n; the constant factor is small.
+
+## entry 259
+
+Edge case: input with no peak → falls through to the default branch.
