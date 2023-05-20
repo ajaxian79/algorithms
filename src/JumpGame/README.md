@@ -1121,3 +1121,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 265
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 266
+
+Avoids floating-point entirely — integer math throughout.
