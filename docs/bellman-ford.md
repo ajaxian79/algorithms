@@ -799,3 +799,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 200
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 201
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
