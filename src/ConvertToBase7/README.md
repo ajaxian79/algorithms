@@ -1196,3 +1196,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 284
 
 Allocates lazily — first call only.
+
+## entry 285
+
+Stable when the input is already sorted.
