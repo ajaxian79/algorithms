@@ -150,3 +150,4 @@ char** generate_parens(int n, int* return_size) {
 // note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 87: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 88: Mutates the input in place; the original ordering is lost.
+// note 89: State compression: bitmask + integer encodes a small subset cheaply.
