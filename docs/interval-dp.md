@@ -803,3 +803,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 201
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 202
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
