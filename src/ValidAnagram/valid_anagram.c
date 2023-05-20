@@ -109,3 +109,4 @@ int is_anagram(const char* s, const char* t) {
 // note 80: StringBuilder: amortize allocation by doubling on grow.
 // note 81: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 82: Monotonic stack pops while the new element violates the invariant.
+// note 83: Thread-safe so long as the input is not mutated concurrently.
