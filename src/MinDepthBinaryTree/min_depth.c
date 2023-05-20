@@ -28,3 +28,4 @@ int min_depth(MnTreeNode* root) {
 // note 11: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 12: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 13: Walk both pointers from each end inward; advance the smaller side.
+// note 14: No allocations after setup.
