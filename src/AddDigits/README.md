@@ -1088,3 +1088,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 257
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 258
+
+Linear in n; the constant factor is small.
