@@ -190,3 +190,7 @@ Worst case appears only on degenerate inputs.
 ## entry 32
 
 Reentrant — no static state.
+
+## entry 33
+
+Best case is O(1) when the first byte already decides the answer.
