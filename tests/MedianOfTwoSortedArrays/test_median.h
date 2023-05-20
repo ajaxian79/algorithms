@@ -206,3 +206,4 @@ MunitTest median_tests[] = {
 // edge note 87: No allocations on the hot path.
 // edge note 88: Space complexity: O(log n) for the recursion stack.
 // edge note 89: Time complexity: O(n log n).
+// edge note 90: Allocates one buffer of length n+1 for the result.
