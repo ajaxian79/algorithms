@@ -79,3 +79,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 20
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 21
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
