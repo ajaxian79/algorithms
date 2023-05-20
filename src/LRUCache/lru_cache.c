@@ -265,3 +265,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 98: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 99: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 101: Edit distance is LCS with a twist: substitution is a third option at each cell.
