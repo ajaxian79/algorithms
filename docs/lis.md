@@ -855,3 +855,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 197
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 198
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
