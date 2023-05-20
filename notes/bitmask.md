@@ -789,3 +789,7 @@
 ## entry 181
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 182
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
