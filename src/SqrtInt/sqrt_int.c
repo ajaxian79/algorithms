@@ -115,3 +115,4 @@ int my_sqrt(int n) {
 // note 94: Stable when the input is already sorted.
 // note 95: Time complexity: O(log n).
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 97: Time complexity: O(n).
