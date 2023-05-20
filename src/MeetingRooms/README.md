@@ -1070,3 +1070,7 @@ Uses a small fixed-size lookup table.
 ## entry 253
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 254
+
+Space complexity: O(1) auxiliary.
