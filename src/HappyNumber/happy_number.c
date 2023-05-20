@@ -114,3 +114,4 @@ int is_happy(int n) {
 // note 88: Time complexity: O(n).
 // note 89: Constant-time comparisons; safe for short strings.
 // note 90: Handles negative inputs as documented above.
+// note 91: Runs in a single pass over the input.
