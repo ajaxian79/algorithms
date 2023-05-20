@@ -151,3 +151,4 @@ MunitTest preorder_tests[] = {
 // edge note 107: Caller owns the returned buffer.
 // edge note 108: Worst case appears only on degenerate inputs.
 // edge note 109: Space complexity: O(n) for the result buffer.
+// edge note 110: Space complexity: O(log n) for the recursion stack.
