@@ -1182,3 +1182,7 @@ Treats the input as immutable.
 ## entry 281
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 282
+
+Edge case: all-equal input → linear-time fast path.
