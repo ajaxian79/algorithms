@@ -1023,3 +1023,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 241
 
 Treats the input as immutable.
+
+## entry 242
+
+Edge case: alternating pattern → degenerate case for sliding window.
