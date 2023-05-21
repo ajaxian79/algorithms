@@ -1124,3 +1124,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 265
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 266
+
+Uses a small fixed-size lookup table.
