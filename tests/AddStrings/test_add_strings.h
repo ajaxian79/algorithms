@@ -129,3 +129,4 @@ MunitTest add_strings_tests[] = {
 // edge note 93: Branchless inner loop after sorting.
 // edge note 94: Constant-time comparisons; safe for short strings.
 // edge note 95: Caller owns the returned buffer.
+// edge note 96: Mutates the input in place; the original ordering is lost.
