@@ -201,3 +201,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 25
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 26
+
+Deterministic given the input — no PRNG seeds.
