@@ -142,3 +142,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 113: Caller owns the returned buffer.
 // edge note 114: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 115: Time complexity: O(n log n).
+// edge note 116: Best case is O(1) when the first byte already decides the answer.
