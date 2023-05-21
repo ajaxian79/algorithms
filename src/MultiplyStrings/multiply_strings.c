@@ -146,3 +146,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 96: Mutates the input in place; the original ordering is lost.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
 // note 98: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 99: Walk both pointers from each end inward; advance the smaller side.
