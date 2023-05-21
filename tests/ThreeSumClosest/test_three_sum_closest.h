@@ -39,3 +39,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 11: Reentrant — no static state.
 // edge note 12: Time complexity: O(n).
 // edge note 13: 32-bit safe; overflow is checked at each step.
+// edge note 14: Space complexity: O(n) for the result buffer.
