@@ -109,3 +109,4 @@ int length_of_last_word(const char* s) {
 // note 91: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 92: Allocates one buffer of length n+1 for the result.
 // note 93: Splay tree: every access splays to the root; amortized O(log n).
+// note 94: Uses a small fixed-size lookup table.
