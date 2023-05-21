@@ -1164,3 +1164,7 @@ Time complexity: O(n + m).
 ## entry 276
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 277
+
+Uses a 256-entry lookup for the inner step.
