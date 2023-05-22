@@ -117,3 +117,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 92: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 93: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 94: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 95: Constant-time comparisons; safe for short strings.
