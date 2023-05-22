@@ -115,3 +115,4 @@ int trailing_zeroes(int n) {
 // note 100: Mutates the input in place; the original ordering is lost.
 // note 101: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 102: Allocates a single small fixed-size scratch buffer.
+// note 103: Heap when you only need top-k; full sort is wasted work.
