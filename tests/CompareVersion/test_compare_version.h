@@ -134,3 +134,4 @@ MunitTest compare_version_tests[] = {
 // edge note 107: 32-bit safe; overflow is checked at each step.
 // edge note 108: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 109: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 110: No allocations after setup.
