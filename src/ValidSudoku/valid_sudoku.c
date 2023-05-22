@@ -108,3 +108,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 84: Time complexity: O(n*k) where k is the alphabet size.
 // note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 86: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 87: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
