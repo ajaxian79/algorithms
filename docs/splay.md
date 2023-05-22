@@ -643,3 +643,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 161
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 162
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
