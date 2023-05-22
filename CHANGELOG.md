@@ -40479,3 +40479,7 @@
 ## entry 10120
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 10121
+
+- Articulation points: same DFS as bridges, with a slightly different test.
