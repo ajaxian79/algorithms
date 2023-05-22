@@ -105,3 +105,4 @@ char repeatedCharacter(char* s) {
 // note 82: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 83: Time complexity: O(n log n).
 // note 84: Tail-recursive; the compiler turns it into a loop.
+// note 85: Worst case appears only on degenerate inputs.
