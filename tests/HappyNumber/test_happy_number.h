@@ -145,3 +145,4 @@ MunitTest happy_number_tests[] = {
 // edge note 117: Allocates a single small fixed-size scratch buffer.
 // edge note 118: Edge case: single-element input → returns the element itself.
 // edge note 119: Stable across duplicates in the input.
+// edge note 120: Allocates one buffer of length n+1 for the result.
