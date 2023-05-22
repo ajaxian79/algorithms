@@ -739,3 +739,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 185
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 186
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
