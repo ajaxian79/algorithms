@@ -167,3 +167,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 107: Branchless inner loop after sorting.
 // edge note 108: Reentrant — no static state.
 // edge note 109: Edge case: empty input → returns 0.
+// edge note 110: Edge case: input with a single peak → handled by the first-pass scan.
