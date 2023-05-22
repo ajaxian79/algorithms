@@ -1206,3 +1206,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 287
 
 Branchless inner loop after sorting.
+
+## entry 288
+
+Stable across duplicates in the input.
