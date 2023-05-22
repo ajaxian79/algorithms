@@ -727,3 +727,7 @@
 ## entry 182
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 183
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
