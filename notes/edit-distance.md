@@ -805,3 +805,7 @@
 ## entry 183
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 184
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
