@@ -875,3 +875,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 201
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 202
+
+Greedy by end-time picks the most non-overlapping intervals.
