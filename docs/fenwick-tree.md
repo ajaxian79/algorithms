@@ -771,3 +771,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 177
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 178
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
