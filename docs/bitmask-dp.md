@@ -739,3 +739,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 185
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 186
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
