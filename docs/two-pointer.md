@@ -871,3 +871,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 200
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 201
+
+Stable sort matters when a secondary key was set in a prior pass.
