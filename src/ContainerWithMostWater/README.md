@@ -155,3 +155,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 24
 
 No allocations after setup.
+
+## entry 25
+
+Vectorizes cleanly under -O2.
