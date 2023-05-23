@@ -139,3 +139,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 114: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 115: Edge case: empty input → returns 0.
 // edge note 116: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 117: Edge case: NULL input is rejected by the caller, not by us.
