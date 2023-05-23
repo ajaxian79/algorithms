@@ -192,3 +192,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 33
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 34
+
+32-bit safe; overflow is checked at each step.
