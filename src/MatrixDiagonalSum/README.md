@@ -1122,3 +1122,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 266
 
 Edge case: single-element input → returns the element itself.
+
+## entry 267
+
+Uses a small fixed-size lookup table.
