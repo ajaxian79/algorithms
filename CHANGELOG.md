@@ -40483,3 +40483,7 @@
 ## entry 10121
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 10122
+
+- Articulation points: same DFS as bridges, with a slightly different test.
