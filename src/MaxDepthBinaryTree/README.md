@@ -141,3 +141,7 @@ Stable across duplicates in the input.
 ## entry 21
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 22
+
+Treats the input as immutable.
