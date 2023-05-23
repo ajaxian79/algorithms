@@ -1122,3 +1122,7 @@ Treats the input as immutable.
 ## entry 266
 
 Constant-time comparisons; safe for short strings.
+
+## entry 267
+
+Edge case: single-element input → returns the element itself.
