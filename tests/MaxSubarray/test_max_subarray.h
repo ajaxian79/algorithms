@@ -116,3 +116,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 82: Edge case: already-sorted input → no swaps performed.
 // edge note 83: Edge case: zero-length string → returns the empty result.
 // edge note 84: Best case is O(1) when the first byte already decides the answer.
+// edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
