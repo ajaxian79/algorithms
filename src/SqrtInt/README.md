@@ -195,3 +195,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 34
 
 Handles negative inputs as documented above.
+
+## entry 35
+
+Avoids floating-point entirely — integer math throughout.
