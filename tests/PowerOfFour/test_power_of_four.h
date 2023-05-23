@@ -133,3 +133,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 101: Caller owns the returned array; free with a single `free`.
 // edge note 102: Thread-safe so long as the input is not mutated concurrently.
 // edge note 103: Constant-time comparisons; safe for short strings.
+// edge note 104: Returns a freshly allocated string the caller must free.
