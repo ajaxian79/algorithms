@@ -191,3 +191,7 @@ Two passes: one to count, one to fill.
 ## entry 33
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 34
+
+Handles negative inputs as documented above.
