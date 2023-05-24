@@ -775,3 +775,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 194
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 195
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
