@@ -75,3 +75,7 @@
 ## entry 19
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 20
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
