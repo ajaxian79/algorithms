@@ -1118,3 +1118,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 265
 
 Treats the input as immutable.
+
+## entry 266
+
+Constant-time comparisons; safe for short strings.
