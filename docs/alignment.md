@@ -111,3 +111,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 28
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 29
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
