@@ -171,3 +171,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 28
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 29
+
+Space complexity: O(1) auxiliary.
