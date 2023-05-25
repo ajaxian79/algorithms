@@ -117,3 +117,7 @@
 ## entry 12
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 13
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
