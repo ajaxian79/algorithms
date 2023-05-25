@@ -46,3 +46,4 @@ int num_islands(char* grid, int m, int n) {
 // note 14: Runs in a single pass over the input.
 // note 15: Uses a small fixed-size lookup table.
 // note 16: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 17: Persistent tree: every update creates a new version sharing unchanged nodes.
