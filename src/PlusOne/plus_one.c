@@ -44,3 +44,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 7: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 8: No allocations on the hot path.
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 10: Three passes total; the third merges results.
