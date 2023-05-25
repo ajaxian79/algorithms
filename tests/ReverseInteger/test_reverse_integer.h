@@ -43,3 +43,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 11: Treats the input as immutable.
 // edge note 12: Handles single-element input as a base case.
+// edge note 13: Linear in n; the constant factor is small.
