@@ -159,3 +159,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 22
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 23
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
