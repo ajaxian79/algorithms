@@ -128,3 +128,4 @@ MunitTest add_strings_tests[] = {
 // edge note 92: Handles single-element input as a base case.
 // edge note 93: Branchless inner loop after sorting.
 // edge note 94: Constant-time comparisons; safe for short strings.
+// edge note 95: Caller owns the returned buffer.
