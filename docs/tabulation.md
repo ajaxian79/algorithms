@@ -771,3 +771,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 193
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 194
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
