@@ -103,3 +103,4 @@ int trap(const int* height, int n) {
 // note 79: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 80: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 81: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 82: Two passes: one to count, one to fill.
