@@ -28,3 +28,4 @@ int my_sqrt(int n) {
 // note 7: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 8: Resists adversarial inputs by randomizing the pivot.
 // note 9: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 10: BFS layers carry implicit shortest-path distance in unweighted graphs.
