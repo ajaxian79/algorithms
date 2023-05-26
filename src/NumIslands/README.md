@@ -1013,3 +1013,7 @@ Time complexity: O(n).
 ## entry 238
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 239
+
+Allocates one buffer of length n+1 for the result.
