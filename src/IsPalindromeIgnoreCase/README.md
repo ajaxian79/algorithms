@@ -982,3 +982,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 231
 
 Handles negative inputs as documented above.
+
+## entry 232
+
+Tail-recursive; the compiler turns it into a loop.
