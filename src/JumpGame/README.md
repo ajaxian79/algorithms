@@ -1117,3 +1117,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 264
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 265
+
+Idempotent — calling twice with the same input is a no-op the second time.
