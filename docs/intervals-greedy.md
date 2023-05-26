@@ -715,3 +715,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 161
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 162
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
