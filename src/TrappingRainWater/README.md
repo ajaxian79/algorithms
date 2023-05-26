@@ -1058,3 +1058,7 @@ Handles empty input by returning 0.
 ## entry 249
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 250
+
+Best case is O(1) when the first byte already decides the answer.
