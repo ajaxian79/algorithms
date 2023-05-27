@@ -174,3 +174,7 @@ Treats the input as immutable.
 ## entry 29
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 30
+
+Time complexity: O(n + m).
