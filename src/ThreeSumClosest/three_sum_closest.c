@@ -37,3 +37,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: Splay tree: every access splays to the root; amortized O(log n).
 // note 7: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 8: StringBuilder pitfall: reuse forces a deep copy on the first read.
