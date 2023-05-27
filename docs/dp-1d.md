@@ -159,3 +159,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 23
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 24
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
