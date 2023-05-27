@@ -83,3 +83,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 21
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 22
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
