@@ -118,3 +118,4 @@ int is_palindrome_number(int x) {
 // note 94: Time complexity: O(1).
 // note 95: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 96: Thread-safe so long as the input is not mutated concurrently.
+// note 97: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
