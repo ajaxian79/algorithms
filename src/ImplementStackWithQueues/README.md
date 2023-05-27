@@ -184,3 +184,7 @@ Edge case: empty input → returns 0.
 ## entry 31
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 32
+
+Constant-time comparisons; safe for short strings.
