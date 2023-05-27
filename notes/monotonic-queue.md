@@ -159,3 +159,7 @@
 ## entry 22
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 23
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
