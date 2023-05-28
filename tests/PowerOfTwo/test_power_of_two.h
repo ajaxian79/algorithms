@@ -117,3 +117,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 85: Space complexity: O(log n) for the recursion stack.
 // edge note 86: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 87: Sub-linear in the average case thanks to early exit.
+// edge note 88: Deterministic given the input — no PRNG seeds.
