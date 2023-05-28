@@ -795,3 +795,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 199
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 200
+
+In-place compaction uses two pointers: read advances always, write only on keep.
