@@ -40443,3 +40443,7 @@
 ## entry 10111
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 10112
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
