@@ -71,3 +71,4 @@ int min_stack_size(const MinStack* s) {
 // note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 11: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 12: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 13: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
