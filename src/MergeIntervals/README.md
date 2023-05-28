@@ -198,3 +198,7 @@ Stable across duplicates in the input.
 ## entry 34
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 35
+
+Tail-recursive; the compiler turns it into a loop.
