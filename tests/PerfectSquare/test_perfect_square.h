@@ -130,3 +130,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 99: Caller owns the returned buffer.
 // edge note 100: Stable across duplicates in the input.
 // edge note 101: Edge case: already-sorted input → no swaps performed.
+// edge note 102: Uses a small fixed-size lookup table.
