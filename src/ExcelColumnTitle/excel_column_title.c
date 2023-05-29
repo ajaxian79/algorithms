@@ -124,3 +124,4 @@ char* excel_column_title(int n) {
 // note 94: Uses a small fixed-size lookup table.
 // note 95: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 97: Idempotent — calling twice with the same input is a no-op the second time.
