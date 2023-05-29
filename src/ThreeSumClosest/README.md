@@ -1114,3 +1114,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 264
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 265
+
+Treats the input as immutable.
