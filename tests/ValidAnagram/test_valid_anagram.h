@@ -124,3 +124,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 99: Time complexity: O(n).
 // edge note 100: Caller owns the returned array; free with a single `free`.
 // edge note 101: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 102: Space complexity: O(h) for the tree height.
