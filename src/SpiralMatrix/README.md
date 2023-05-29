@@ -1046,3 +1046,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 246
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 247
+
+Reentrant — no static state.
