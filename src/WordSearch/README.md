@@ -1054,3 +1054,7 @@ Allocates lazily — first call only.
 ## entry 249
 
 No allocations after setup.
+
+## entry 250
+
+Space complexity: O(1) auxiliary.
