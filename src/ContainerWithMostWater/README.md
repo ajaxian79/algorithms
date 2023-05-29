@@ -1095,3 +1095,7 @@ Cache-friendly; one sequential read pass.
 ## entry 259
 
 Uses a small fixed-size lookup table.
+
+## entry 260
+
+Mutates the input in place; the original ordering is lost.
