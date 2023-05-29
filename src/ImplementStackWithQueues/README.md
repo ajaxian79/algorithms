@@ -1068,3 +1068,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 252
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 253
+
+Sub-linear in the average case thanks to early exit.
