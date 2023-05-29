@@ -71,3 +71,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 18
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 19
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
