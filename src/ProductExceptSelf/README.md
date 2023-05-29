@@ -1096,3 +1096,7 @@ Time complexity: O(1).
 ## entry 258
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 259
+
+Runs in a single pass over the input.
