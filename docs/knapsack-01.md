@@ -833,3 +833,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 191
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 192
+
+False sharing: two threads writing different bytes in the same cache line stall both.
