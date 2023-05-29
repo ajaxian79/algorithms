@@ -990,3 +990,7 @@ Handles empty input by returning 0.
 ## entry 233
 
 Time complexity: O(1).
+
+## entry 234
+
+Stable across duplicates in the input.
