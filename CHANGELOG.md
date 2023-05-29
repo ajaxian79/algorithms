@@ -40455,3 +40455,7 @@
 ## entry 10114
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 10115
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
