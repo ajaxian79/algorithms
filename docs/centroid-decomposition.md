@@ -75,3 +75,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 19
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 20
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
