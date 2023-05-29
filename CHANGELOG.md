@@ -40411,3 +40411,7 @@
 ## entry 10103
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 10104
+
+- StringBuilder: amortize allocation by doubling on grow.
