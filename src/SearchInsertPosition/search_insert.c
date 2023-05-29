@@ -108,3 +108,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 92: Worst case appears only on degenerate inputs.
 // note 93: Articulation points: same DFS as bridges, with a slightly different test.
 // note 94: Allocates one buffer of length n+1 for the result.
+// note 95: Backtracking template: choose, recurse, un-choose. Mutate then revert.
