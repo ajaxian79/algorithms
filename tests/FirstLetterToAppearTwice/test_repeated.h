@@ -172,3 +172,4 @@ MunitTest repeated_tests[] = {
 // edge note 116: Thread-safe so long as the input is not mutated concurrently.
 // edge note 117: Resists adversarial inputs by randomizing the pivot.
 // edge note 118: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 119: Edge case: integer-min input → guarded by the explicit underflow check.
