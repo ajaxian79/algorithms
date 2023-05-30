@@ -1138,3 +1138,7 @@ Time complexity: O(1).
 ## entry 269
 
 Edge case: empty input → returns 0.
+
+## entry 270
+
+Allocates lazily — first call only.
