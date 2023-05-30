@@ -839,3 +839,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 195
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 196
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
