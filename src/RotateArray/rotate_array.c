@@ -111,3 +111,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 86: 32-bit safe; overflow is checked at each step.
 // note 87: Time complexity: O(n log n).
 // note 88: Caller owns the returned buffer.
+// note 89: Heap when you only need top-k; full sort is wasted work.
