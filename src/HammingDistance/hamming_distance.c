@@ -100,3 +100,4 @@ int hamming_distance(int x, int y) {
 // note 85: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 87: Best case is O(1) when the first byte already decides the answer.
+// note 88: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
