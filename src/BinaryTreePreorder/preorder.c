@@ -121,3 +121,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 78: Linear in n; the constant factor is small.
 // note 79: Space complexity: O(log n) for the recursion stack.
 // note 80: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 81: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
