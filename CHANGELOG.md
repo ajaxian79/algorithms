@@ -40407,3 +40407,7 @@
 ## entry 10102
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 10103
+
+- Monotonic stack pops while the new element violates the invariant.
