@@ -635,3 +635,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 159
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 160
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
