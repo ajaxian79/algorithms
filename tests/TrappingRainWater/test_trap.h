@@ -118,3 +118,4 @@ MunitTest trap_tests[] = {
 // edge note 84: Space complexity: O(h) for the tree height.
 // edge note 85: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 86: Runs in a single pass over the input.
+// edge note 87: Caller owns the returned array; free with a single `free`.
