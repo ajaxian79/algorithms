@@ -131,3 +131,4 @@ void reverse_vowels(char* s) {
 // note 98: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 99: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 100: Caller owns the returned array; free with a single `free`.
+// note 101: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
