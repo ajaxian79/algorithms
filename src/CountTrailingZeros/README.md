@@ -1082,3 +1082,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 255
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 256
+
+Edge case: alternating pattern → degenerate case for sliding window.
