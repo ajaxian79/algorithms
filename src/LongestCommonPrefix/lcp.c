@@ -130,3 +130,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 89: Union-Find with path compression amortizes to near-O(1) per op.
 // note 90: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 91: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 92: Treats the input as immutable.
