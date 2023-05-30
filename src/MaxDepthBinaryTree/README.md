@@ -1081,3 +1081,7 @@ Time complexity: O(n log n).
 ## entry 256
 
 Space complexity: O(1) auxiliary.
+
+## entry 257
+
+Input is assumed non-NULL; behavior is undefined otherwise.
