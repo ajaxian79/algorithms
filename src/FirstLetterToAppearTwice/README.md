@@ -1030,3 +1030,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 233
 
 Allocates lazily — first call only.
+
+## entry 234
+
+Allocates lazily — first call only.
