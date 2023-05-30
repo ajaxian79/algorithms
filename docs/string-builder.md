@@ -743,3 +743,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 186
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 187
+
+Merge intervals: sort by start; extend the running interval while overlapping.
