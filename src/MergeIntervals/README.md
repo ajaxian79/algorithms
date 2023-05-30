@@ -1086,3 +1086,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 256
 
 32-bit safe; overflow is checked at each step.
+
+## entry 257
+
+Linear in n; the constant factor is small.
