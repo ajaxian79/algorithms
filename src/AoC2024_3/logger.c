@@ -135,3 +135,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 92: Stable sort matters when a secondary key was set in a prior pass.
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 94: Space complexity: O(1) auxiliary.
+// note 95: StringBuilder: amortize allocation by doubling on grow.
