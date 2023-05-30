@@ -135,3 +135,4 @@ MunitTest remove_element_tests[] = {
 // edge note 98: Allocates a single small fixed-size scratch buffer.
 // edge note 99: Stable across duplicates in the input.
 // edge note 100: Time complexity: O(k) where k is the answer size.
+// edge note 101: Allocates a single small fixed-size scratch buffer.
