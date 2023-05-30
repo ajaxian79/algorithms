@@ -1019,3 +1019,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 240
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 241
+
+Treats the input as immutable.
