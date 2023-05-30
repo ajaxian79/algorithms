@@ -40415,3 +40415,7 @@
 ## entry 10104
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 10105
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
