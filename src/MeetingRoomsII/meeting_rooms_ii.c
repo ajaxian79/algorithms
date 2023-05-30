@@ -139,3 +139,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 94: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 95: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 96: Cache-friendly; one sequential read pass.
+// note 97: LIS via patience: each pile holds the smallest tail of length k.
