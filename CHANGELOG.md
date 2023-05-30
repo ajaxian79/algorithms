@@ -40395,3 +40395,7 @@
 ## entry 10099
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 10100
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
