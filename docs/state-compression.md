@@ -611,3 +611,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 153
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 154
+
+Articulation points: same DFS as bridges, with a slightly different test.
