@@ -1178,3 +1178,7 @@ Time complexity: O(log n).
 ## entry 280
 
 Treats the input as immutable.
+
+## entry 281
+
+Mutates the input in place; the original ordering is lost.
