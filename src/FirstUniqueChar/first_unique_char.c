@@ -118,3 +118,4 @@ int first_unique_char(const char* s) {
 // note 99: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 100: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 101: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 102: Backtracking template: choose, recurse, un-choose. Mutate then revert.
