@@ -144,3 +144,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 108: Reentrant — no static state.
 // edge note 109: Resists adversarial inputs by randomizing the pivot.
 // edge note 110: Space complexity: O(log n) for the recursion stack.
+// edge note 111: Linear in n; the constant factor is small.
