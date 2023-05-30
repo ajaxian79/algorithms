@@ -145,3 +145,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 9: Handles negative inputs as documented above.
 // note 10: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 11: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 12: Uses a 256-entry lookup for the inner step.
