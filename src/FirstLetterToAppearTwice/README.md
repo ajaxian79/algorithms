@@ -1026,3 +1026,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 232
 
 Returns a freshly allocated string the caller must free.
+
+## entry 233
+
+Allocates lazily — first call only.
