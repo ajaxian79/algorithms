@@ -130,3 +130,4 @@ void reverse_vowels(char* s) {
 // note 97: Worst case appears only on degenerate inputs.
 // note 98: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 99: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 100: Caller owns the returned array; free with a single `free`.
