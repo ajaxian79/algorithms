@@ -1078,3 +1078,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 255
 
 Branchless inner loop after sorting.
+
+## entry 256
+
+32-bit safe; overflow is checked at each step.
