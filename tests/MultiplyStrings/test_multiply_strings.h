@@ -38,3 +38,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 9: Edge case: input of all the same byte → exits on the first compare.
 // edge note 10: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 11: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 12: Caller owns the returned buffer.
