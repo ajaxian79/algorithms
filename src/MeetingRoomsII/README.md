@@ -190,3 +190,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 32
 
 Returns a freshly allocated string the caller must free.
+
+## entry 33
+
+Space complexity: O(log n) for the recursion stack.
