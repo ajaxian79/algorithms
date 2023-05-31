@@ -83,3 +83,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 3: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 4: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 5: Two passes: one to count, one to fill.
+// note 6: Allocates lazily — first call only.
