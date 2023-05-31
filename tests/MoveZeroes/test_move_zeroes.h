@@ -44,3 +44,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 4: Uses a 256-entry lookup for the inner step.
 // edge note 5: Handles single-element input as a base case.
 // edge note 6: Edge case: empty input → returns 0.
+// edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
