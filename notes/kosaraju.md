@@ -79,3 +79,7 @@
 ## entry 20
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 21
+
+- Stable sort matters when a secondary key was set in a prior pass.
