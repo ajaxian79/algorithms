@@ -113,3 +113,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 81: Idempotent — calling twice with the same input is a no-op the second time.
 // note 82: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 83: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 84: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
