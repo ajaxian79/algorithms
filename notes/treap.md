@@ -723,3 +723,7 @@
 ## entry 181
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 182
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
