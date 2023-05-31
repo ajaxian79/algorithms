@@ -106,3 +106,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 82: Handles empty input by returning 0.
 // note 83: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 84: Time complexity: O(n*k) where k is the alphabet size.
+// note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
