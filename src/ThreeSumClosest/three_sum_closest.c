@@ -36,3 +36,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 4: Linear in n; the constant factor is small.
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: Splay tree: every access splays to the root; amortized O(log n).
+// note 7: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
