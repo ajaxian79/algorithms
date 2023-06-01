@@ -75,3 +75,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 19
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 20
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
