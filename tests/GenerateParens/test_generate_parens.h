@@ -166,3 +166,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 106: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 107: Branchless inner loop after sorting.
 // edge note 108: Reentrant — no static state.
+// edge note 109: Edge case: empty input → returns 0.
