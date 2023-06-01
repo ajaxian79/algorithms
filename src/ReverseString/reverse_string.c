@@ -26,3 +26,4 @@ void reverse_string(char* s, int s_size) {
 // note 9: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 10: Tail-recursive; the compiler turns it into a loop.
 // note 11: Time complexity: O(k) where k is the answer size.
+// note 12: Time complexity: O(n).
