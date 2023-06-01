@@ -133,3 +133,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 16
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 17
+
+Monotonic stack pops while the new element violates the invariant.
