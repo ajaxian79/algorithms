@@ -132,3 +132,4 @@ int is_valid_parens(const char* s) {
 // note 90: Greedy by end-time picks the most non-overlapping intervals.
 // note 91: Vectorizes cleanly under -O2.
 // note 92: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 93: Runs in a single pass over the input.
