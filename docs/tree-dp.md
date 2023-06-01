@@ -831,3 +831,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 208
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 209
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
