@@ -139,3 +139,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 113: Thread-safe so long as the input is not mutated concurrently.
 // edge note 114: Two passes: one to count, one to fill.
 // edge note 115: Allocates lazily — first call only.
+// edge note 116: Returns a freshly allocated string the caller must free.
