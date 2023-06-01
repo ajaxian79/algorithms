@@ -1166,3 +1166,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 277
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 278
+
+Edge case: power-of-two-length input → no padding required.
