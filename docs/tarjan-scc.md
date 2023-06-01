@@ -751,3 +751,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 188
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 189
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
