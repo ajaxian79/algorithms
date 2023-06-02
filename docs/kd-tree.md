@@ -767,3 +767,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 192
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 193
+
+Rope: tree of small string fragments; O(log n) concat and substring.
