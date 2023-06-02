@@ -63,3 +63,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 16
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 17
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
