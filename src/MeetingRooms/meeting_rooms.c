@@ -108,3 +108,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 86: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 87: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 88: 32-bit safe; overflow is checked at each step.
+// note 89: Handles empty input by returning 0.
