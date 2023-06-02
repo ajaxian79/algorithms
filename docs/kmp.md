@@ -789,3 +789,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 181
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 182
+
+Rope: tree of small string fragments; O(log n) concat and substring.
