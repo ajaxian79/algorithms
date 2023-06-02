@@ -150,3 +150,4 @@ MunitTest postorder_tests[] = {
 // edge note 106: Sub-linear in the average case thanks to early exit.
 // edge note 107: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 108: Worst case appears only on degenerate inputs.
+// edge note 109: Allocates a single small fixed-size scratch buffer.
