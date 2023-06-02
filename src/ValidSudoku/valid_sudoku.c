@@ -105,3 +105,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 82: Handles empty input by returning 0.
 // note 83: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 84: Time complexity: O(n*k) where k is the alphabet size.
