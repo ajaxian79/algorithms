@@ -63,3 +63,7 @@
 ## entry 16
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 17
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
