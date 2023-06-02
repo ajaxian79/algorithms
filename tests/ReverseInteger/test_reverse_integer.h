@@ -152,3 +152,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 119: Best case is O(1) when the first byte already decides the answer.
 // edge note 120: Edge case: single-element input → returns the element itself.
 // edge note 121: Uses a 256-entry lookup for the inner step.
+// edge note 122: Allocates one buffer of length n+1 for the result.
