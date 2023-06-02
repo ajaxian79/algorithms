@@ -639,3 +639,7 @@
 ## entry 160
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 161
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
