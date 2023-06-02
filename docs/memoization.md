@@ -711,3 +711,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 178
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 179
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
