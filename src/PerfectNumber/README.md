@@ -957,3 +957,7 @@ Time complexity: O(n).
 ## entry 224
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 225
+
+Space complexity: O(log n) for the recursion stack.
