@@ -1222,3 +1222,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 290
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 291
+
+Best case is O(1) when the first byte already decides the answer.
