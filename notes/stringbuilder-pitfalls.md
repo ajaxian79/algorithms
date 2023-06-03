@@ -63,3 +63,7 @@
 ## entry 16
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 17
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
