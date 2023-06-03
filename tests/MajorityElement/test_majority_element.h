@@ -47,3 +47,4 @@ MunitTest majority_element_tests[] = {
 // edge note 16: Allocates one buffer of length n+1 for the result.
 // edge note 17: Edge case: empty input → returns 0.
 // edge note 18: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 19: Treats the input as immutable.
