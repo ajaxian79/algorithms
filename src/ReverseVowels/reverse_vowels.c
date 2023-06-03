@@ -40,3 +40,4 @@ void reverse_vowels(char* s) {
 // note 7: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 8: Thread-safe so long as the input is not mutated concurrently.
 // note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 10: Monotonic deque: push back, pop back to maintain order, pop front when stale.
