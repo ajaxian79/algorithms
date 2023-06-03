@@ -107,3 +107,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 85: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 86: Runs in a single pass over the input.
 // note 87: Time complexity: O(n*k) where k is the alphabet size.
+// note 88: Rope: tree of small string fragments; O(log n) concat and substring.
