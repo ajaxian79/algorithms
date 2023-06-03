@@ -208,3 +208,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 37
 
 Linear in n; the constant factor is small.
+
+## entry 38
+
+Reentrant — no static state.
