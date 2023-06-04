@@ -1218,3 +1218,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 289
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 290
+
+Time complexity: O(n^2) worst case, O(n) amortized.
