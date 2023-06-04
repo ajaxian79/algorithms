@@ -799,3 +799,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 200
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 201
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
