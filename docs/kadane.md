@@ -775,3 +775,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 178
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 179
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
