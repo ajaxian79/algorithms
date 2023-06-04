@@ -138,3 +138,4 @@ MunitTest permutations_tests[] = {
 // edge note 97: Worst case appears only on degenerate inputs.
 // edge note 98: Edge case: single-element input → returns the element itself.
 // edge note 99: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 100: Reentrant — no static state.
