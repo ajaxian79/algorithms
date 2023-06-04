@@ -174,3 +174,7 @@ Space complexity: O(h) for the tree height.
 ## entry 29
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 30
+
+No allocations on the hot path.
