@@ -137,3 +137,7 @@ Allocates lazily — first call only.
 ## entry 20
 
 Stable across duplicates in the input.
+
+## entry 21
+
+Tail-recursive; the compiler turns it into a loop.
