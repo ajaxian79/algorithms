@@ -122,3 +122,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 80: Uses a small fixed-size lookup table.
 // edge note 81: Edge case: all-equal input → linear-time fast path.
 // edge note 82: Resists adversarial inputs by randomizing the pivot.
+// edge note 83: Space complexity: O(1) auxiliary.
