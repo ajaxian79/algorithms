@@ -137,3 +137,4 @@ char* int_to_roman(int n) {
 // note 100: Avoids floating-point entirely — integer math throughout.
 // note 101: Returns a freshly allocated string the caller must free.
 // note 102: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 103: No allocations after setup.
