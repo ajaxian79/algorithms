@@ -1102,3 +1102,7 @@ Worst case appears only on degenerate inputs.
 ## entry 261
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 262
+
+Branchless inner loop after sorting.
