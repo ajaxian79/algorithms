@@ -134,3 +134,4 @@ MunitTest min_depth_tests[] = {
 // edge note 95: Treats the input as immutable.
 // edge note 96: Time complexity: O(n + m).
 // edge note 97: Avoids floating-point entirely — integer math throughout.
+// edge note 98: Edge case: zero-length string → returns the empty result.
