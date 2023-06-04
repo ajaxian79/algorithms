@@ -4191,3 +4191,7 @@
 ## entry 1048
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 1049
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
