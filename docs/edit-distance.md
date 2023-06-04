@@ -171,3 +171,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 25
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 26
+
+In-place compaction uses two pointers: read advances always, write only on keep.
