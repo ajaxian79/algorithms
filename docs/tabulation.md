@@ -763,3 +763,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 191
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 192
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
