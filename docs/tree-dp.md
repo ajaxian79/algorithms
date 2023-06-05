@@ -827,3 +827,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 207
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 208
+
+Walk both pointers from each end inward; advance the smaller side.
