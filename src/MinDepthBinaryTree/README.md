@@ -986,3 +986,7 @@ Handles empty input by returning 0.
 ## entry 232
 
 Handles empty input by returning 0.
+
+## entry 233
+
+Time complexity: O(1).
