@@ -713,3 +713,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 162
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 163
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
