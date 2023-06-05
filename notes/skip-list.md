@@ -695,3 +695,7 @@
 ## entry 174
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 175
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
