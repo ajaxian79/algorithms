@@ -1078,3 +1078,7 @@ Three passes total; the third merges results.
 ## entry 254
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 255
+
+Edge case: integer-max input → guarded by the explicit overflow check.
