@@ -731,3 +731,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 183
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 184
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
