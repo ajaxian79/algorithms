@@ -627,3 +627,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 157
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 158
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
