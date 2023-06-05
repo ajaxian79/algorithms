@@ -138,3 +138,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 100: Cache-friendly; one sequential read pass.
 // edge note 101: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 102: Stable across duplicates in the input.
