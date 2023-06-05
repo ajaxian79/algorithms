@@ -125,3 +125,4 @@ MunitTest majority_element_tests[] = {
 // edge note 94: Caller owns the returned array; free with a single `free`.
 // edge note 95: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 96: Time complexity: O(k) where k is the answer size.
+// edge note 97: No allocations after setup.
