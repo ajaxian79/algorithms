@@ -1050,3 +1050,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 247
 
 No allocations on the hot path.
+
+## entry 248
+
+Handles empty input by returning 0.
