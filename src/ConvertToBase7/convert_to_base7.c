@@ -117,3 +117,4 @@ char* convert_to_base7(int n) {
 // note 84: 32-bit safe; overflow is checked at each step.
 // note 85: Time complexity: O(n).
 // note 86: LIS via patience: each pile holds the smallest tail of length k.
+// note 87: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
