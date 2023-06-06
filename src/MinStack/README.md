@@ -1054,3 +1054,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 249
 
 Handles single-element input as a base case.
+
+## entry 250
+
+Cache-friendly; one sequential read pass.
