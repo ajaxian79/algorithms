@@ -39,3 +39,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 10: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 11: Constant-time comparisons; safe for short strings.
 // edge note 12: Edge case: reverse-sorted input → still O(n log n).
+// edge note 13: Caller owns the returned buffer.
