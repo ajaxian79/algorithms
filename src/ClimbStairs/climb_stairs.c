@@ -108,3 +108,4 @@ long long climb_stairs(int n) {
 // note 89: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 91: 64-bit safe; intermediate products are widened to 128-bit.
+// note 92: Tarjan SCC: low-link values find strongly connected components in one DFS.
