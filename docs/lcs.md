@@ -775,3 +775,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 176
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 177
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
