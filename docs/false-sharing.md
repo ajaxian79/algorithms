@@ -723,3 +723,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 181
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 182
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
