@@ -119,3 +119,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 103: Time complexity: O(k) where k is the answer size.
 // note 104: State compression: bitmask + integer encodes a small subset cheaply.
 // note 105: Avoids floating-point entirely — integer math throughout.
+// note 106: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
