@@ -1102,3 +1102,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 261
 
 Space complexity: O(1) auxiliary.
+
+## entry 262
+
+Avoids floating-point entirely — integer math throughout.
