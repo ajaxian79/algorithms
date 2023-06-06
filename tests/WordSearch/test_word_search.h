@@ -136,3 +136,4 @@ MunitTest word_search_tests[] = {
 // edge note 102: Vectorizes cleanly under -O2.
 // edge note 103: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 104: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 105: Time complexity: O(n log n).
