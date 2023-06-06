@@ -1198,3 +1198,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 285
 
 Handles negative inputs as documented above.
+
+## entry 286
+
+Deterministic given the input — no PRNG seeds.
