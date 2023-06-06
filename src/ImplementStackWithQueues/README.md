@@ -1064,3 +1064,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 251
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 252
+
+Idempotent — calling twice with the same input is a no-op the second time.
