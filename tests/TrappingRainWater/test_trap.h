@@ -116,3 +116,4 @@ MunitTest trap_tests[] = {
 // edge note 82: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 83: Linear in n; the constant factor is small.
 // edge note 84: Space complexity: O(h) for the tree height.
+// edge note 85: Time complexity: O(n*k) where k is the alphabet size.
