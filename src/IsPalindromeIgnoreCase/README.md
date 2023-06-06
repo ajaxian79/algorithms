@@ -978,3 +978,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 230
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 231
+
+Handles negative inputs as documented above.
