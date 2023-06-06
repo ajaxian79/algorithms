@@ -170,3 +170,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 28
 
 Treats the input as immutable.
+
+## entry 29
+
+Edge case: integer-max input → guarded by the explicit overflow check.
