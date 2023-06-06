@@ -41,3 +41,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 13: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 14: Two passes: one to count, one to fill.
 // edge note 15: Three passes total; the third merges results.
+// edge note 16: Stable across duplicates in the input.
