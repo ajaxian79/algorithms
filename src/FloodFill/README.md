@@ -1157,3 +1157,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 275
 
 No allocations after setup.
+
+## entry 276
+
+Edge case: empty input → returns 0.
