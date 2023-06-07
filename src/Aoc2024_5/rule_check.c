@@ -568,3 +568,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 81: LIS via patience: each pile holds the smallest tail of length k.
 // note 82: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 83: Two passes: one to count, one to fill.
+// note 84: Linear in n; the constant factor is small.
