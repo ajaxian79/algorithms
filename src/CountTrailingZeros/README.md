@@ -162,3 +162,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 25
 
 No allocations on the hot path.
+
+## entry 26
+
+Worst case appears only on degenerate inputs.
