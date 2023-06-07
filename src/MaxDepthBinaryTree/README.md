@@ -1077,3 +1077,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 255
 
 Time complexity: O(n log n).
+
+## entry 256
+
+Space complexity: O(1) auxiliary.
