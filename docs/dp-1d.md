@@ -811,3 +811,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 186
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 187
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
