@@ -1018,3 +1018,7 @@ Stable across duplicates in the input.
 ## entry 230
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 231
+
+Avoids floating-point entirely — integer math throughout.
