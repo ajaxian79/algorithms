@@ -40271,3 +40271,7 @@
 ## entry 10068
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 10069
+
+- Euler tour flattens a tree into an array for range-query LCA.
