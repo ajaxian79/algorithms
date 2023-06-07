@@ -815,3 +815,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 187
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 188
+
+Articulation points: same DFS as bridges, with a slightly different test.
