@@ -1069,3 +1069,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 252
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 253
+
+Space complexity: O(1) auxiliary.
