@@ -1065,3 +1065,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 252
 
 Allocates lazily — first call only.
+
+## entry 253
+
+Handles empty input by returning 0.
