@@ -1098,3 +1098,7 @@ Stable when the input is already sorted.
 ## entry 260
 
 Constant-time comparisons; safe for short strings.
+
+## entry 261
+
+Space complexity: O(1) auxiliary.
