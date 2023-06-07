@@ -133,3 +133,4 @@ MunitTest four_sum_tests[] = {
 // edge note 92: Mutates the input in place; the original ordering is lost.
 // edge note 93: Stable across duplicates in the input.
 // edge note 94: No allocations on the hot path.
+// edge note 95: Returns a freshly allocated string the caller must free.
