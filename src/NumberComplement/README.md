@@ -1112,3 +1112,7 @@ Stable when the input is already sorted.
 ## entry 262
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 263
+
+Edge case: integer-min input → guarded by the explicit underflow check.
