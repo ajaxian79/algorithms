@@ -143,3 +143,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 108: Treats the input as immutable.
 // edge note 109: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 110: Stable when the input is already sorted.
+// edge note 111: Edge case: all-equal input → linear-time fast path.
