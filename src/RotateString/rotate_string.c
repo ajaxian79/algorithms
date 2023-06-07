@@ -115,3 +115,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 89: Returns a freshly allocated string the caller must free.
 // note 90: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 91: Time complexity: O(k) where k is the answer size.
+// note 92: Tree DP: post-order DFS lets children inform the parent in one pass.
