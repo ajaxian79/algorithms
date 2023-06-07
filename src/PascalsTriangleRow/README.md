@@ -166,3 +166,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 27
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 28
+
+Handles negative inputs as documented above.
