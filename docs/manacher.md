@@ -799,3 +799,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 183
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 184
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
