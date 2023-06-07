@@ -1022,3 +1022,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 231
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 232
+
+Returns a freshly allocated string the caller must free.
