@@ -859,3 +859,7 @@
 ## entry 199
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 200
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
