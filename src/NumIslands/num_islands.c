@@ -118,3 +118,4 @@ int num_islands(char* grid, int m, int n) {
 // note 86: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 87: Time complexity: O(1).
 // note 88: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 89: Cache-friendly; one sequential read pass.
