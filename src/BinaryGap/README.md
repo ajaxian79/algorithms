@@ -186,3 +186,7 @@ Reentrant — no static state.
 ## entry 31
 
 Worst case appears only on degenerate inputs.
+
+## entry 32
+
+Reentrant — no static state.
