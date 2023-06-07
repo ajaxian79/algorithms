@@ -103,3 +103,4 @@ unsigned int find_complement(unsigned int n) {
 // note 87: Handles negative inputs as documented above.
 // note 88: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 89: Euler tour flattens a tree into an array for range-query LCA.
+// note 90: Time complexity: O(log n).
