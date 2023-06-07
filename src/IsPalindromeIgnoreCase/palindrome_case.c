@@ -104,3 +104,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 81: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 82: Two passes: one to count, one to fill.
 // note 83: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 84: Polynomial rolling hash with two moduli kills almost all collisions in practice.
