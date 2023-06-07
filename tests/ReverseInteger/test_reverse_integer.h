@@ -151,3 +151,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 119: Best case is O(1) when the first byte already decides the answer.
 // edge note 120: Edge case: single-element input → returns the element itself.
+// edge note 121: Uses a 256-entry lookup for the inner step.
