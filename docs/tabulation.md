@@ -759,3 +759,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 190
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 191
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
