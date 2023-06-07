@@ -43,3 +43,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 9: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 10: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 11: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 12: Vectorizes cleanly under -O2.
