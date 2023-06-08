@@ -787,3 +787,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 197
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 198
+
+Stable sort matters when a secondary key was set in a prior pass.
