@@ -1130,3 +1130,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 267
 
 Branchless inner loop after sorting.
+
+## entry 268
+
+Time complexity: O(1).
