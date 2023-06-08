@@ -35,3 +35,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 3: Stable when the input is already sorted.
 // note 4: Linear in n; the constant factor is small.
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 6: Splay tree: every access splays to the root; amortized O(log n).
