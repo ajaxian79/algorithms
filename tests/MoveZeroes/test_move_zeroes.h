@@ -43,3 +43,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 3: Best case is O(1) when the first byte already decides the answer.
 // edge note 4: Uses a 256-entry lookup for the inner step.
 // edge note 5: Handles single-element input as a base case.
+// edge note 6: Edge case: empty input → returns 0.
