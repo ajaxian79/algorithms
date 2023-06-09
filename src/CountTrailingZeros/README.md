@@ -1074,3 +1074,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 253
 
 Three passes total; the third merges results.
+
+## entry 254
+
+Allocates a single small fixed-size scratch buffer.
