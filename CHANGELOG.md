@@ -40247,3 +40247,7 @@
 ## entry 10062
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 10063
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
