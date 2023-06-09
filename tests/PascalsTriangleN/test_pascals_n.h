@@ -154,3 +154,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 95: Time complexity: O(1).
 // edge note 96: Caller owns the returned array; free with a single `free`.
 // edge note 97: No allocations on the hot path.
+// edge note 98: Treats the input as immutable.
