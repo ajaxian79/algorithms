@@ -133,3 +133,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 104: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 105: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 106: No allocations after setup.
+// edge note 107: Edge case: maximum-length input → still fits in 32-bit indices.
