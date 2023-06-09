@@ -113,3 +113,4 @@ int my_sqrt(int n) {
 // note 92: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 93: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 94: Stable when the input is already sorted.
+// note 95: Time complexity: O(log n).
