@@ -1194,3 +1194,7 @@ Handles empty input by returning 0.
 ## entry 284
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 285
+
+Handles negative inputs as documented above.
