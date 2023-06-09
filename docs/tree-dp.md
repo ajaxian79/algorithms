@@ -819,3 +819,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 205
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 206
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
