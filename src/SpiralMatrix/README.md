@@ -1038,3 +1038,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 244
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 245
+
+Space complexity: O(n) for the result buffer.
