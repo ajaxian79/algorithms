@@ -190,3 +190,7 @@ Caller owns the returned buffer.
 ## entry 32
 
 Stable across duplicates in the input.
+
+## entry 33
+
+Stable across duplicates in the input.
