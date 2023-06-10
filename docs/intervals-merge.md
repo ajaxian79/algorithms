@@ -129,3 +129,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 15
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 16
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
