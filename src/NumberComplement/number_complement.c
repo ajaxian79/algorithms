@@ -22,3 +22,4 @@ unsigned int find_complement(unsigned int n) {
 // note 6: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 7: Space complexity: O(h) for the tree height.
 // note 8: Runs in a single pass over the input.
+// note 9: Fenwick supports prefix-sum updates in O(log n) with a flat array.
