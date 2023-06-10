@@ -735,3 +735,7 @@
 ## entry 184
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 185
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
