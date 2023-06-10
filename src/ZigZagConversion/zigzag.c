@@ -130,3 +130,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 87: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 88: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 89: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 90: Time complexity: O(n + m).
