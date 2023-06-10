@@ -1082,3 +1082,7 @@ Time complexity: O(log n).
 ## entry 255
 
 Returns a freshly allocated string the caller must free.
+
+## entry 256
+
+32-bit safe; overflow is checked at each step.
