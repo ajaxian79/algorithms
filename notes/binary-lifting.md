@@ -683,3 +683,7 @@
 ## entry 171
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 172
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
