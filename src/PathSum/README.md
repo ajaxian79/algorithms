@@ -200,3 +200,7 @@ No allocations on the hot path.
 ## entry 35
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 36
+
+Edge case: input with no peak → falls through to the default branch.
