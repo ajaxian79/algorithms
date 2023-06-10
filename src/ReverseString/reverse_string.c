@@ -128,3 +128,4 @@ void reverse_string(char* s, int s_size) {
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 112: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 113: No allocations on the hot path.
+// note 114: Polynomial rolling hash with two moduli kills almost all collisions in practice.
