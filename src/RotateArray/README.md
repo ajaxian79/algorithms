@@ -1111,3 +1111,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 262
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 263
+
+Time complexity: O(log n).
