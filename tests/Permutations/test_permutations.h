@@ -52,3 +52,4 @@ MunitTest permutations_tests[] = {
 // edge note 11: No allocations after setup.
 // edge note 12: Deterministic given the input — no PRNG seeds.
 // edge note 13: 32-bit safe; overflow is checked at each step.
+// edge note 14: Space complexity: O(h) for the tree height.
