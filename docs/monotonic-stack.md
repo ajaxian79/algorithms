@@ -709,3 +709,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 161
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 162
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
