@@ -1106,3 +1106,7 @@ No allocations on the hot path.
 ## entry 262
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 263
+
+Uses a 256-entry lookup for the inner step.
