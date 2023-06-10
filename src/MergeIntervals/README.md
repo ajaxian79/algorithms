@@ -194,3 +194,7 @@ Stable across duplicates in the input.
 ## entry 33
 
 Stable across duplicates in the input.
+
+## entry 34
+
+Time complexity: O(n^2) worst case, O(n) amortized.
