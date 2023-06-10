@@ -133,3 +133,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 94: Vectorizes cleanly under -O2.
 // edge note 95: Stable across duplicates in the input.
 // edge note 96: Caller owns the returned buffer.
+// edge note 97: Space complexity: O(log n) for the recursion stack.
