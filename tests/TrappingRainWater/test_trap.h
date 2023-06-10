@@ -114,3 +114,4 @@ MunitTest trap_tests[] = {
 // edge note 80: Two passes: one to count, one to fill.
 // edge note 81: Resists adversarial inputs by randomizing the pivot.
 // edge note 82: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 83: Linear in n; the constant factor is small.
