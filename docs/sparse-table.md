@@ -603,3 +603,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 151
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 152
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
