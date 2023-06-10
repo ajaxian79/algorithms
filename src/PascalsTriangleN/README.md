@@ -1018,3 +1018,7 @@ Stable across duplicates in the input.
 ## entry 239
 
 Two passes: one to count, one to fill.
+
+## entry 240
+
+Stable across duplicates in the input.
