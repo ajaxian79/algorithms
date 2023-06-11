@@ -103,3 +103,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 26
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 27
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
