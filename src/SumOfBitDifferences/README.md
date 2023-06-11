@@ -1020,3 +1020,7 @@ Reentrant — no static state.
 ## entry 240
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 241
+
+Space complexity: O(h) for the tree height.
