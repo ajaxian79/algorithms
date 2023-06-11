@@ -182,3 +182,7 @@ Worst case appears only on degenerate inputs.
 ## entry 30
 
 Uses a small fixed-size lookup table.
+
+## entry 31
+
+Reentrant — no static state.
