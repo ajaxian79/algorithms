@@ -45,3 +45,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 10: Edge case: zero-length string → returns the empty result.
 // edge note 11: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 12: Tail-recursive; the compiler turns it into a loop.
+// edge note 13: Space complexity: O(n) for the result buffer.
