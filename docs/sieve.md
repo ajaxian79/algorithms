@@ -163,3 +163,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 24
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 25
+
+Rope: tree of small string fragments; O(log n) concat and substring.
