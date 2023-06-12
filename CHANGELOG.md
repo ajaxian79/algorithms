@@ -40211,3 +40211,7 @@
 ## entry 10053
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 10054
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
