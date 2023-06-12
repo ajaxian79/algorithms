@@ -186,3 +186,7 @@ Uses a small fixed-size lookup table.
 ## entry 31
 
 Reentrant — no static state.
+
+## entry 32
+
+Edge case: input with no peak → falls through to the default branch.
