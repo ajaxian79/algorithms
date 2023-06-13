@@ -1054,3 +1054,7 @@ Reentrant — no static state.
 ## entry 249
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 250
+
+Handles empty input by returning 0.
