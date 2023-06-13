@@ -126,3 +126,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 82: Branchless inner loop after sorting.
 // edge note 83: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 84: Edge case: reverse-sorted input → still O(n log n).
+// edge note 85: Space complexity: O(1) auxiliary.
