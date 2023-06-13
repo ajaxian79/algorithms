@@ -117,3 +117,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 13
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 14
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
