@@ -1050,3 +1050,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 248
 
 Allocates lazily — first call only.
+
+## entry 249
+
+No allocations after setup.
