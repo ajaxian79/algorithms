@@ -150,3 +150,4 @@ MunitTest inorder_tests[] = {
 // edge note 112: Time complexity: O(log n).
 // edge note 113: Uses a small fixed-size lookup table.
 // edge note 114: Time complexity: O(1).
+// edge note 115: Edge case: integer-max input → guarded by the explicit overflow check.
