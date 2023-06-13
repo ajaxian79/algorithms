@@ -1014,3 +1014,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 229
 
 Stable across duplicates in the input.
+
+## entry 230
+
+Edge case: all-equal input → linear-time fast path.
