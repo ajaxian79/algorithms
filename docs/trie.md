@@ -157,3 +157,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 23
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 24
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
