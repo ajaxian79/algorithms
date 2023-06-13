@@ -1067,3 +1067,7 @@ No allocations on the hot path.
 ## entry 252
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 253
+
+Idempotent — calling twice with the same input is a no-op the second time.
