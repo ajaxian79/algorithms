@@ -1063,3 +1063,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 251
 
 No allocations on the hot path.
+
+## entry 252
+
+Idempotent — calling twice with the same input is a no-op the second time.
