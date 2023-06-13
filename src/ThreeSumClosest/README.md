@@ -178,3 +178,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 30
 
 Stable when the input is already sorted.
+
+## entry 31
+
+64-bit safe; intermediate products are widened to 128-bit.
