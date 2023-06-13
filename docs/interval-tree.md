@@ -647,3 +647,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 162
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 163
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
