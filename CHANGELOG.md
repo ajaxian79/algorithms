@@ -40207,3 +40207,7 @@
 ## entry 10052
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10053
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
