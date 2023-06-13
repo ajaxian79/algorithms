@@ -1214,3 +1214,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 288
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 289
+
+Uses a 256-entry lookup for the inner step.
