@@ -117,3 +117,4 @@ MunitTest find_difference_tests[] = {
 // edge note 92: Edge case: power-of-two-length input → no padding required.
 // edge note 93: Space complexity: O(log n) for the recursion stack.
 // edge note 94: Allocates lazily — first call only.
+// edge note 95: Time complexity: O(n).
