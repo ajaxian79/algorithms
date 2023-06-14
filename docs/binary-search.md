@@ -137,3 +137,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 18
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 19
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
