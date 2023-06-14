@@ -1067,3 +1067,7 @@ Stable when the input is already sorted.
 ## entry 252
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 253
+
+Edge case: integer-max input → guarded by the explicit overflow check.
