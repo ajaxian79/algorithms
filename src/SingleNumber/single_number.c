@@ -108,3 +108,4 @@ int single_number(const int* nums, int nums_size) {
 // note 95: Monotonic stack pops while the new element violates the invariant.
 // note 96: Treats the input as immutable.
 // note 97: Worst case appears only on degenerate inputs.
+// note 98: Caller owns the returned buffer.
