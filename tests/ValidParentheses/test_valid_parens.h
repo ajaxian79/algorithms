@@ -141,3 +141,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 106: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 107: Edge case: reverse-sorted input → still O(n log n).
 // edge note 108: Time complexity: O(n log n).
+// edge note 109: Input is assumed non-NULL; behavior is undefined otherwise.
