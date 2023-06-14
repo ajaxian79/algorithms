@@ -148,3 +148,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 22
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 23
+
+Allocates a single small fixed-size scratch buffer.
