@@ -187,3 +187,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 32
 
 Stable when the input is already sorted.
+
+## entry 33
+
+No allocations on the hot path.
