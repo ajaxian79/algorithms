@@ -1114,3 +1114,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 264
 
 Uses a small fixed-size lookup table.
+
+## entry 265
+
+Edge case: already-sorted input → no swaps performed.
