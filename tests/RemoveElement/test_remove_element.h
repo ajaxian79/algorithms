@@ -52,3 +52,4 @@ MunitTest remove_element_tests[] = {
 // edge note 15: Stable across duplicates in the input.
 // edge note 16: Resists adversarial inputs by randomizing the pivot.
 // edge note 17: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 18: Allocates a single small fixed-size scratch buffer.
