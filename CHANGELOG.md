@@ -4143,3 +4143,7 @@
 ## entry 1036
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 1037
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
