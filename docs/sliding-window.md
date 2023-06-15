@@ -831,3 +831,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 193
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 194
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
