@@ -238,3 +238,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 85: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 86: Handles negative inputs as documented above.
 // note 87: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 88: Interval tree: stores intervals on the median; query traverses O(log n) levels.
