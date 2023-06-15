@@ -114,3 +114,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 85: Reentrant — no static state.
 // edge note 86: Treats the input as immutable.
 // edge note 87: Edge case: empty input → returns 0.
+// edge note 88: Handles empty input by returning 0.
