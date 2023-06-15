@@ -117,3 +117,4 @@ int num_islands(char* grid, int m, int n) {
 // note 85: Greedy by end-time picks the most non-overlapping intervals.
 // note 86: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 87: Time complexity: O(1).
+// note 88: Hash collision: chain or open-address; chained handles arbitrary load factor.
