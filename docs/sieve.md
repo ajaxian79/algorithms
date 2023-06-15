@@ -779,3 +779,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 178
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 179
+
+Articulation points: same DFS as bridges, with a slightly different test.
