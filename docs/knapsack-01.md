@@ -829,3 +829,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 190
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 191
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
