@@ -1108,3 +1108,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 261
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 262
+
+No allocations after setup.
