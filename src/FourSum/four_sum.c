@@ -143,3 +143,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 84: 32-bit safe; overflow is checked at each step.
 // note 85: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 86: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 87: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
