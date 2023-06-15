@@ -1076,3 +1076,7 @@ Two passes: one to count, one to fill.
 ## entry 254
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 255
+
+Space complexity: O(n) for the result buffer.
