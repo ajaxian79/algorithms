@@ -1034,3 +1034,7 @@ Worst case appears only on degenerate inputs.
 ## entry 243
 
 Edge case: single-element input → returns the element itself.
+
+## entry 244
+
+Edge case: input with a single peak → handled by the first-pass scan.
