@@ -729,3 +729,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 166
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 167
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
