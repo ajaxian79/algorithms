@@ -1074,3 +1074,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 254
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 255
+
+Branchless inner loop after sorting.
