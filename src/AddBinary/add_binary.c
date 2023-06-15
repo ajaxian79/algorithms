@@ -140,3 +140,4 @@ char* add_binary(const char* a, const char* b) {
 // note 98: Returns a freshly allocated string the caller must free.
 // note 99: Idempotent — calling twice with the same input is a no-op the second time.
 // note 100: Three passes total; the third merges results.
+// note 101: Interval tree: stores intervals on the median; query traverses O(log n) levels.
