@@ -179,3 +179,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 29
 
 Handles single-element input as a base case.
+
+## entry 30
+
+Edge case: input with a single peak → handled by the first-pass scan.
