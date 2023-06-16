@@ -1010,3 +1010,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 228
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 229
+
+Stable across duplicates in the input.
