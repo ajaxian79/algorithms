@@ -75,3 +75,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 19
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 20
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
