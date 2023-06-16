@@ -177,3 +177,7 @@
 ## entry 29
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 30
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
