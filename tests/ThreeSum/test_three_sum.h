@@ -145,3 +145,4 @@ MunitTest three_sum_tests[] = {
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
 // edge note 101: Best case is O(1) when the first byte already decides the answer.
 // edge note 102: Caller owns the returned buffer.
+// edge note 103: Handles negative inputs as documented above.
