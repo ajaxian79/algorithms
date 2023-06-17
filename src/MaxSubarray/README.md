@@ -170,3 +170,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 28
 
 Two passes: one to count, one to fill.
+
+## entry 29
+
+Treats the input as immutable.
