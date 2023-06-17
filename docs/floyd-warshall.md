@@ -71,3 +71,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 18
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 19
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
