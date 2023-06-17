@@ -71,3 +71,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 18
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 19
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
