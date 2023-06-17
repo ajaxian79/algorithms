@@ -4123,3 +4123,7 @@
 ## entry 1031
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 1032
+
+- Euler tour flattens a tree into an array for range-query LCA.
