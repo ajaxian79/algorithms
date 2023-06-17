@@ -183,3 +183,7 @@ Stable across duplicates in the input.
 ## entry 31
 
 Returns a freshly allocated string the caller must free.
+
+## entry 32
+
+Stable when the input is already sorted.
