@@ -1072,3 +1072,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 253
 
 Two passes: one to count, one to fill.
+
+## entry 254
+
+64-bit safe; intermediate products are widened to 128-bit.
