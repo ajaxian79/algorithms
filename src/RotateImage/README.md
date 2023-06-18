@@ -1109,3 +1109,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 262
 
 Space complexity: O(1) auxiliary.
+
+## entry 263
+
+Worst case appears only on degenerate inputs.
