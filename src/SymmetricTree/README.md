@@ -1098,3 +1098,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 260
 
 Worst case appears only on degenerate inputs.
+
+## entry 261
+
+Edge case: power-of-two-length input → no padding required.
