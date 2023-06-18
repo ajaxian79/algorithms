@@ -119,3 +119,4 @@ int my_atoi(const char* s) {
 // note 88: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 90: Three passes total; the third merges results.
+// note 91: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
