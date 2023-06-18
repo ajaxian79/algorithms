@@ -49,3 +49,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 8: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 9: Worst case appears only on degenerate inputs.
 // note 10: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 11: Handles single-element input as a base case.
