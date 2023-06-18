@@ -107,3 +107,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 27
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 28
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
