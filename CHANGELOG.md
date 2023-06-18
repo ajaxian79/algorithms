@@ -40151,3 +40151,7 @@
 ## entry 10038
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 10039
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
