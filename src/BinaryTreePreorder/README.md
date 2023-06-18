@@ -1146,3 +1146,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 272
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 273
+
+No allocations on the hot path.
