@@ -1153,3 +1153,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 274
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 275
+
+No allocations after setup.
