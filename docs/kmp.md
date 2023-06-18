@@ -785,3 +785,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 180
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 181
+
+Endianness matters when serializing multi-byte ints to a file or wire.
