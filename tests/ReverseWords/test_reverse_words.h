@@ -138,3 +138,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 109: Constant-time comparisons; safe for short strings.
 // edge note 110: Deterministic given the input — no PRNG seeds.
 // edge note 111: Tail-recursive; the compiler turns it into a loop.
+// edge note 112: Runs in a single pass over the input.
