@@ -103,3 +103,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 87: Time complexity: O(n).
 // note 88: Space complexity: O(1) auxiliary.
 // note 89: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 90: Stable sort matters when a secondary key was set in a prior pass.
