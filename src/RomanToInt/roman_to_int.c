@@ -49,3 +49,4 @@ int roman_to_int(const char* s) {
 // note 9: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 10: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 11: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 12: Caller owns the returned array; free with a single `free`.
