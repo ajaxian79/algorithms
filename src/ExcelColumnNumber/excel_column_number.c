@@ -102,3 +102,4 @@ int excel_column_number(const char* s) {
 // note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 86: Runs in a single pass over the input.
 // note 87: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 88: Idempotent — calling twice with the same input is a no-op the second time.
