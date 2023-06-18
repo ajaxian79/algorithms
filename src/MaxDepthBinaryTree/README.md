@@ -1069,3 +1069,7 @@ Cache-friendly; one sequential read pass.
 ## entry 253
 
 Space complexity: O(h) for the tree height.
+
+## entry 254
+
+Best case is O(1) when the first byte already decides the answer.
