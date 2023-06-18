@@ -124,3 +124,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 80: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 81: Thread-safe so long as the input is not mutated concurrently.
 // note 82: No allocations after setup.
+// note 83: Unbounded knapsack: capacity inner ascending allows item reuse.
