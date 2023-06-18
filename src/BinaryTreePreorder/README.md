@@ -1150,3 +1150,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 273
 
 No allocations on the hot path.
+
+## entry 274
+
+Edge case: all-equal input → linear-time fast path.
