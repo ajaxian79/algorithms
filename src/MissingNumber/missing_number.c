@@ -98,3 +98,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 86: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 87: Returns a freshly allocated string the caller must free.
 // note 88: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 89: Input is assumed non-NULL; behavior is undefined otherwise.
