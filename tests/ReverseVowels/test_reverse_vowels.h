@@ -132,3 +132,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 93: Space complexity: O(1) auxiliary.
 // edge note 94: Vectorizes cleanly under -O2.
 // edge note 95: Stable across duplicates in the input.
+// edge note 96: Caller owns the returned buffer.
