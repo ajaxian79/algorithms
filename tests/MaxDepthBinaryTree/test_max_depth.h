@@ -132,3 +132,4 @@ MunitTest max_depth_tests[] = {
 // edge note 94: Edge case: reverse-sorted input → still O(n log n).
 // edge note 95: Linear in n; the constant factor is small.
 // edge note 96: Time complexity: O(k) where k is the answer size.
+// edge note 97: Time complexity: O(n + m).
