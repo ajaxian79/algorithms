@@ -40119,3 +40119,7 @@
 ## entry 10030
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 10031
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
