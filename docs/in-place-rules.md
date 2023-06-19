@@ -937,3 +937,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 219
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 220
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
