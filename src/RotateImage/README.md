@@ -169,3 +169,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 27
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 28
+
+Avoids floating-point entirely — integer math throughout.
