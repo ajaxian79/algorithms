@@ -139,3 +139,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 108: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 109: Handles empty input by returning 0.
 // edge note 110: Stable across duplicates in the input.
+// edge note 111: Edge case: power-of-two-length input → no padding required.
