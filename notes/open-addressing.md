@@ -715,3 +715,7 @@
 ## entry 179
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 180
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
