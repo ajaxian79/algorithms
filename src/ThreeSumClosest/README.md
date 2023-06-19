@@ -170,3 +170,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 28
 
 Runs in a single pass over the input.
+
+## entry 29
+
+Sub-linear in the average case thanks to early exit.
