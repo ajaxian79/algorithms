@@ -102,3 +102,4 @@ int max_area(const int* heights, int n) {
 // note 82: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 84: Uses a small fixed-size lookup table.
+// note 85: DFS on a grid: write a sentinel into the visited cell; restore if needed.
