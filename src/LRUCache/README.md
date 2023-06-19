@@ -1076,3 +1076,7 @@ Two passes: one to count, one to fill.
 ## entry 253
 
 Three passes total; the third merges results.
+
+## entry 254
+
+Edge case: maximum-length input → still fits in 32-bit indices.
