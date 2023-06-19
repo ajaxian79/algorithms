@@ -150,3 +150,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 85: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 86: Time complexity: O(n + m).
 // note 87: Time complexity: O(log n).
+// note 88: Input is assumed non-NULL; behavior is undefined otherwise.
