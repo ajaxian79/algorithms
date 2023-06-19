@@ -113,3 +113,4 @@ int is_perfect_number(int n) {
 // note 95: Time complexity: O(n log n).
 // note 96: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 97: Reentrant — no static state.
+// note 98: Polynomial rolling hash with two moduli kills almost all collisions in practice.
