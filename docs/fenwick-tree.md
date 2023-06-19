@@ -759,3 +759,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 174
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 175
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
