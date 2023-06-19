@@ -735,3 +735,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 184
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 185
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
