@@ -125,3 +125,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 94: Edge case: empty input → returns 0.
 // edge note 95: Allocates a single small fixed-size scratch buffer.
 // edge note 96: Edge case: power-of-two-length input → no padding required.
+// edge note 97: 32-bit safe; overflow is checked at each step.
