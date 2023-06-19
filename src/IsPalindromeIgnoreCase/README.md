@@ -974,3 +974,7 @@ Caller owns the returned buffer.
 ## entry 229
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 230
+
+Edge case: power-of-two-length input → no padding required.
