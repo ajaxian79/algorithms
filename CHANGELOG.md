@@ -40123,3 +40123,7 @@
 ## entry 10031
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 10032
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
