@@ -153,3 +153,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 111: Edge case: empty input → returns 0.
 // edge note 112: Uses a small fixed-size lookup table.
 // edge note 113: Uses a small fixed-size lookup table.
+// edge note 114: Idempotent — calling twice with the same input is a no-op the second time.
