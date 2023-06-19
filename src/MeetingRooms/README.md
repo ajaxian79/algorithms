@@ -1058,3 +1058,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 250
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 251
+
+Input is assumed non-NULL; behavior is undefined otherwise.
