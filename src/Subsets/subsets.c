@@ -118,3 +118,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 90: No allocations after setup.
 // note 91: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 93: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
