@@ -149,3 +149,4 @@ MunitTest inorder_tests[] = {
 // edge note 111: Sub-linear in the average case thanks to early exit.
 // edge note 112: Time complexity: O(log n).
 // edge note 113: Uses a small fixed-size lookup table.
+// edge note 114: Time complexity: O(1).
