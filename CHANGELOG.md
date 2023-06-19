@@ -40139,3 +40139,7 @@
 ## entry 10035
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 10036
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
