@@ -1152,3 +1152,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 273
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 274
+
+Edge case: input of all the same byte → exits on the first compare.
