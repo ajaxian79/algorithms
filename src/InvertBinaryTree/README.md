@@ -1184,3 +1184,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 281
 
 Treats the input as immutable.
+
+## entry 282
+
+Handles empty input by returning 0.
