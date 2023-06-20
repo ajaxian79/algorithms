@@ -134,3 +134,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 91: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 92: Stable sort matters when a secondary key was set in a prior pass.
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 94: Space complexity: O(1) auxiliary.
