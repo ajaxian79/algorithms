@@ -129,3 +129,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 14
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 15
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
