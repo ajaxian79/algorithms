@@ -1065,3 +1065,7 @@ Vectorizes cleanly under -O2.
 ## entry 251
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 252
+
+Allocates one buffer of length n+1 for the result.
