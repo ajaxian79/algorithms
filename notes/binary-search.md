@@ -973,3 +973,7 @@
 ## entry 228
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 229
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
