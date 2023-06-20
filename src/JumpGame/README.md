@@ -1109,3 +1109,7 @@ Caller owns the returned buffer.
 ## entry 262
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 263
+
+Input is assumed non-NULL; behavior is undefined otherwise.
