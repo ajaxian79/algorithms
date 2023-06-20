@@ -1046,3 +1046,7 @@ Space complexity: O(1) auxiliary.
 ## entry 247
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 248
+
+Allocates lazily — first call only.
