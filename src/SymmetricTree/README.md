@@ -1094,3 +1094,7 @@ No allocations after setup.
 ## entry 259
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 260
+
+Worst case appears only on degenerate inputs.
