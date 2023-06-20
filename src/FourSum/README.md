@@ -1068,3 +1068,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 252
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 253
+
+Two passes: one to count, one to fill.
