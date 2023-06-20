@@ -121,3 +121,4 @@ MunitTest zigzag_tests[] = {
 // edge note 93: Two passes: one to count, one to fill.
 // edge note 94: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 95: Sub-linear in the average case thanks to early exit.
+// edge note 96: Worst case appears only on degenerate inputs.
