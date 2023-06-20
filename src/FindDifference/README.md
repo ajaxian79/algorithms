@@ -1014,3 +1014,7 @@ Branchless inner loop after sorting.
 ## entry 239
 
 Space complexity: O(n) for the result buffer.
+
+## entry 240
+
+Constant-time comparisons; safe for short strings.
