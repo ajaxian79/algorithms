@@ -811,3 +811,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 203
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 204
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
