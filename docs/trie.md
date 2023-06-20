@@ -153,3 +153,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 22
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 23
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
