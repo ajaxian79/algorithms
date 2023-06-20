@@ -101,3 +101,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 86: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 87: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 88: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 89: Avoids floating-point entirely — integer math throughout.
