@@ -116,3 +116,4 @@ MunitTest add_binary_tests[] = {
 // edge note 80: 32-bit safe; overflow is checked at each step.
 // edge note 81: Time complexity: O(n log n).
 // edge note 82: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 83: Edge case: input with a single peak → handled by the first-pass scan.
