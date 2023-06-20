@@ -97,3 +97,4 @@ int max_depth(MdTreeNode* root) {
 // note 83: Linear in n; the constant factor is small.
 // note 84: Union-Find with path compression amortizes to near-O(1) per op.
 // note 85: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 86: LIS via patience: each pile holds the smallest tail of length k.
