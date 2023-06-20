@@ -1102,3 +1102,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 261
 
 No allocations on the hot path.
+
+## entry 262
+
+Edge case: already-sorted input → no swaps performed.
