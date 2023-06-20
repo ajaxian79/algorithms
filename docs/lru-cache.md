@@ -655,3 +655,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 164
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 165
+
+Interval DP: solve all `[l, r]` ranges from short to long.
