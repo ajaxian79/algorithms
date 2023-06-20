@@ -1087,3 +1087,7 @@ Uses a small fixed-size lookup table.
 ## entry 257
 
 Space complexity: O(1) auxiliary.
+
+## entry 258
+
+Cache-friendly; one sequential read pass.
