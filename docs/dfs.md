@@ -767,3 +767,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 176
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 177
+
+Articulation points: same DFS as bridges, with a slightly different test.
