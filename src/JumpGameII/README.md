@@ -1076,3 +1076,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 254
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 255
+
+Edge case: single-element input → returns the element itself.
