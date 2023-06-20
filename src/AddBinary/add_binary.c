@@ -139,3 +139,4 @@ char* add_binary(const char* a, const char* b) {
 // note 97: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 98: Returns a freshly allocated string the caller must free.
 // note 99: Idempotent — calling twice with the same input is a no-op the second time.
+// note 100: Three passes total; the third merges results.
