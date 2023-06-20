@@ -903,3 +903,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 209
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 210
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
