@@ -124,3 +124,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 94: Three passes total; the third merges results.
 // edge note 95: Edge case: already-sorted input → no swaps performed.
 // edge note 96: Tail-recursive; the compiler turns it into a loop.
+// edge note 97: Edge case: alternating pattern → degenerate case for sliding window.
