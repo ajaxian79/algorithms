@@ -102,3 +102,4 @@ int is_ugly(int n) {
 // note 88: Avoids floating-point entirely — integer math throughout.
 // note 89: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 90: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 91: Allocates lazily — first call only.
