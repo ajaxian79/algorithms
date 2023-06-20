@@ -168,3 +168,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 89: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 90: Two passes: one to count, one to fill.
 // note 91: Time complexity: O(n*k) where k is the alphabet size.
+// note 92: Allocates one buffer of length n+1 for the result.
