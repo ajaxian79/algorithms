@@ -137,3 +137,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 112: Allocates one buffer of length n+1 for the result.
 // edge note 113: Runs in a single pass over the input.
 // edge note 114: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 115: Edge case: empty input → returns 0.
