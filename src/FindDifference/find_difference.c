@@ -97,3 +97,4 @@ char find_difference(const char* s, const char* t) {
 // note 81: Linear in n; the constant factor is small.
 // note 82: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 83: Heap when you only need top-k; full sort is wasted work.
+// note 84: Monotonic deque: push back, pop back to maintain order, pop front when stale.
