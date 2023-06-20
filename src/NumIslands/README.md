@@ -1005,3 +1005,7 @@ Runs in a single pass over the input.
 ## entry 236
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 237
+
+Time complexity: O(n).
