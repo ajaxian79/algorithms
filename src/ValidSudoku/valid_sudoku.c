@@ -104,3 +104,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 80: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 82: Handles empty input by returning 0.
+// note 83: Tabulation wins when iteration order is obvious and stack depth would blow up.
