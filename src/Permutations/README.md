@@ -1220,3 +1220,7 @@ Uses a small fixed-size lookup table.
 ## entry 290
 
 Vectorizes cleanly under -O2.
+
+## entry 291
+
+Treats the input as immutable.
