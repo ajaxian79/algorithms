@@ -157,3 +157,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 102: Linear in n; the constant factor is small.
 // edge note 103: Allocates one buffer of length n+1 for the result.
 // edge note 104: Time complexity: O(n log n).
+// edge note 105: Vectorizes cleanly under -O2.
