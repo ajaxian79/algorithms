@@ -212,3 +212,4 @@ int get_next_result(Program* program) {
 // note 98: Heap when you only need top-k; full sort is wasted work.
 // note 99: Cache-friendly; one sequential read pass.
 // note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 101: Persistent tree: every update creates a new version sharing unchanged nodes.
