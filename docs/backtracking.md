@@ -829,3 +829,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 190
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 191
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
