@@ -1026,3 +1026,7 @@ Vectorizes cleanly under -O2.
 ## entry 241
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 242
+
+Worst case appears only on degenerate inputs.
