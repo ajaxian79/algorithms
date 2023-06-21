@@ -129,3 +129,4 @@ int is_valid_parens(const char* s) {
 // note 87: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 88: Stable across duplicates in the input.
 // note 89: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 90: Greedy by end-time picks the most non-overlapping intervals.
