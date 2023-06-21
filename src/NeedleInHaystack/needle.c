@@ -122,3 +122,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 81: Constant-time comparisons; safe for short strings.
 // note 82: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 83: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 84: Endianness matters when serializing multi-byte ints to a file or wire.
