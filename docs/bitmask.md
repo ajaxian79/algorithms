@@ -739,3 +739,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 169
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 170
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
