@@ -1098,3 +1098,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 260
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 261
+
+No allocations on the hot path.
