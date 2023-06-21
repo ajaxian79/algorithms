@@ -1146,3 +1146,7 @@ Handles empty input by returning 0.
 ## entry 272
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 273
+
+Edge case: maximum-length input → still fits in 32-bit indices.
