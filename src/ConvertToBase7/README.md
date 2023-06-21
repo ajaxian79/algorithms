@@ -1184,3 +1184,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 281
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 282
+
+Three passes total; the third merges results.
