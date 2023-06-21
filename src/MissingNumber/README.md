@@ -1210,3 +1210,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 287
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 288
+
+Edge case: zero-length string → returns the empty result.
