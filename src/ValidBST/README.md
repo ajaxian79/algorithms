@@ -185,3 +185,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 31
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 32
+
+Constant-time comparisons; safe for short strings.
