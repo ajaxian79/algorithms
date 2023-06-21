@@ -136,3 +136,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 106: Time complexity: O(n).
 // edge note 107: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 108: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 109: Handles empty input by returning 0.
