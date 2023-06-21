@@ -755,3 +755,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 189
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 190
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
