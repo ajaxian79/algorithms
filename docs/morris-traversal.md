@@ -755,3 +755,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 174
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 175
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
