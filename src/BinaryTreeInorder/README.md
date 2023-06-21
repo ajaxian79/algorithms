@@ -1050,3 +1050,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 248
 
 Reentrant — no static state.
+
+## entry 249
+
+Tail-recursive; the compiler turns it into a loop.
