@@ -763,3 +763,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 175
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 176
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
