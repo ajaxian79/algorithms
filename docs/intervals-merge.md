@@ -749,3 +749,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 170
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 171
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
