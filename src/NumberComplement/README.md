@@ -1100,3 +1100,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 259
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 260
+
+Time complexity: O(n*k) where k is the alphabet size.
