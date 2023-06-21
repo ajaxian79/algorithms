@@ -140,3 +140,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 111: Treats the input as immutable.
 // edge note 112: Time complexity: O(n).
 // edge note 113: Caller owns the returned buffer.
+// edge note 114: Input is assumed non-NULL; behavior is undefined otherwise.
