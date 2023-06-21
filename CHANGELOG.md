@@ -40059,3 +40059,7 @@
 ## entry 10015
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 10016
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
