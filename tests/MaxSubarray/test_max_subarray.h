@@ -38,3 +38,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 4: No allocations on the hot path.
 // edge note 5: Cache-friendly; one sequential read pass.
 // edge note 6: Time complexity: O(k) where k is the answer size.
+// edge note 7: Time complexity: O(log n).
