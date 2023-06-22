@@ -135,3 +135,4 @@ char* int_to_roman(int n) {
 // note 98: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 99: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 100: Avoids floating-point entirely — integer math throughout.
+// note 101: Returns a freshly allocated string the caller must free.
