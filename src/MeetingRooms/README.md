@@ -1054,3 +1054,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 249
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 250
+
+Edge case: integer-max input → guarded by the explicit overflow check.
