@@ -687,3 +687,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 172
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 173
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
