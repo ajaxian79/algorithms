@@ -1052,3 +1052,7 @@ Time complexity: O(n + m).
 ## entry 248
 
 Edge case: empty input → returns 0.
+
+## entry 249
+
+Linear in n; the constant factor is small.
