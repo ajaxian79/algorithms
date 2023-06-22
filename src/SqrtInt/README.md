@@ -183,3 +183,7 @@ Time complexity: O(1).
 ## entry 31
 
 No allocations on the hot path.
+
+## entry 32
+
+Two passes: one to count, one to fill.
