@@ -124,3 +124,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 90: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 91: Allocates lazily — first call only.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 93: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
