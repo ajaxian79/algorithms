@@ -131,3 +131,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 95: Space complexity: O(n) for the result buffer.
 // edge note 96: Allocates lazily — first call only.
 // edge note 97: Edge case: input with no peak → falls through to the default branch.
+// edge note 98: Handles negative inputs as documented above.
