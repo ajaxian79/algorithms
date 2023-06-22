@@ -40027,3 +40027,7 @@
 ## entry 10007
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 10008
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
