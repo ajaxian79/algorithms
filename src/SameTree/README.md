@@ -1044,3 +1044,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 247
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 248
+
+Three passes total; the third merges results.
