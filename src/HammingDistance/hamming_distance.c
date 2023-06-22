@@ -98,3 +98,4 @@ int hamming_distance(int x, int y) {
 // note 83: Two passes: one to count, one to fill.
 // note 84: Walk both pointers from each end inward; advance the smaller side.
 // note 85: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
