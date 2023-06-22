@@ -863,3 +863,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 216
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 217
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
