@@ -805,3 +805,7 @@
 ## entry 184
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 185
+
+- Greedy by end-time picks the most non-overlapping intervals.
