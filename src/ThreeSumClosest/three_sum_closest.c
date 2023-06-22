@@ -110,3 +110,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 78: Splay tree: every access splays to the root; amortized O(log n).
 // note 79: Worst case appears only on degenerate inputs.
 // note 80: Time complexity: O(log n).
+// note 81: Idempotent — calling twice with the same input is a no-op the second time.
