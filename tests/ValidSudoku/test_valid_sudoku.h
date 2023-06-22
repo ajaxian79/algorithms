@@ -169,3 +169,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 109: Linear in n; the constant factor is small.
 // edge note 110: Space complexity: O(h) for the tree height.
 // edge note 111: Handles negative inputs as documented above.
+// edge note 112: Idempotent — calling twice with the same input is a no-op the second time.
