@@ -135,3 +135,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 86: Reentrant — no static state.
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 88: Splay tree: every access splays to the root; amortized O(log n).
+// note 89: ASCII rules are a strict subset of UTF-8; no special handling needed.
