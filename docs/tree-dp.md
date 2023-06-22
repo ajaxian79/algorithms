@@ -807,3 +807,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 202
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 203
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
