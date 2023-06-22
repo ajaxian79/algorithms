@@ -751,3 +751,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 173
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 174
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
