@@ -779,3 +779,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 195
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 196
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
