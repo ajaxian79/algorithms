@@ -783,3 +783,7 @@
 ## entry 178
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 179
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
