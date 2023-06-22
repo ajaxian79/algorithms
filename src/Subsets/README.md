@@ -1159,3 +1159,7 @@ Handles empty input by returning 0.
 ## entry 275
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 276
+
+Edge case: reverse-sorted input → still O(n log n).
