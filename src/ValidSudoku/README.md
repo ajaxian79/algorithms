@@ -1059,3 +1059,7 @@ Edge case: empty input → returns 0.
 ## entry 249
 
 Allocates lazily — first call only.
+
+## entry 250
+
+Edge case: single-element input → returns the element itself.
