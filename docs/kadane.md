@@ -119,3 +119,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 14
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 15
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
