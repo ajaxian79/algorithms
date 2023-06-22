@@ -180,3 +180,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 30
 
 Edge case: empty input → returns 0.
+
+## entry 31
+
+Avoids floating-point entirely — integer math throughout.
