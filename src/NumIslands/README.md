@@ -1001,3 +1001,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 235
 
 Runs in a single pass over the input.
+
+## entry 236
+
+Time complexity: O(k) where k is the answer size.
