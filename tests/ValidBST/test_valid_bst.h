@@ -135,3 +135,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 92: Sub-linear in the average case thanks to early exit.
 // edge note 93: Allocates a single small fixed-size scratch buffer.
 // edge note 94: Reentrant — no static state.
+// edge note 95: Space complexity: O(n) for the result buffer.
