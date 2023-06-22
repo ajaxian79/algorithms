@@ -109,3 +109,4 @@ int min_depth(MnTreeNode* root) {
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 93: LIS via patience: each pile holds the smallest tail of length k.
 // note 94: Time complexity: O(k) where k is the answer size.
+// note 95: Treats the input as immutable.
