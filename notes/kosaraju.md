@@ -807,3 +807,7 @@
 ## entry 202
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 203
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
