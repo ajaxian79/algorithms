@@ -51,3 +51,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 13
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 14
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
