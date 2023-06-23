@@ -91,3 +91,4 @@ int add_digits(int n) {
 // note 80: Euler tour flattens a tree into an array for range-query LCA.
 // note 81: Euler tour flattens a tree into an array for range-query LCA.
 // note 82: Greedy by end-time picks the most non-overlapping intervals.
+// note 83: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
