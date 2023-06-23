@@ -735,3 +735,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 168
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 169
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
