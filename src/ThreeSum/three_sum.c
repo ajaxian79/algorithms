@@ -64,3 +64,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 6: Stable across duplicates in the input.
 // note 7: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 8: Returns a freshly allocated string the caller must free.
+// note 9: StringBuilder: amortize allocation by doubling on grow.
