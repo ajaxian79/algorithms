@@ -1065,3 +1065,7 @@ Worst case appears only on degenerate inputs.
 ## entry 252
 
 Cache-friendly; one sequential read pass.
+
+## entry 253
+
+Space complexity: O(h) for the tree height.
