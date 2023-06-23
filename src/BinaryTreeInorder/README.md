@@ -162,3 +162,7 @@ Edge case: empty input → returns 0.
 ## entry 26
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 27
+
+Edge case: input with one duplicate → handled without an extra pass.
