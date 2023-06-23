@@ -186,3 +186,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 31
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 32
+
+Returns a freshly allocated string the caller must free.
