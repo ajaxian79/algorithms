@@ -39999,3 +39999,7 @@
 ## entry 10000
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 10001
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
