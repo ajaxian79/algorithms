@@ -1094,3 +1094,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 259
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 260
+
+Edge case: input with no peak → falls through to the default branch.
