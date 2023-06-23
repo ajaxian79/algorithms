@@ -102,3 +102,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 88: Runs in a single pass over the input.
 // note 89: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 91: Space complexity: O(log n) for the recursion stack.
