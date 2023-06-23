@@ -132,3 +132,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 17
 
 Cache-friendly; one sequential read pass.
+
+## entry 18
+
+Mutates the input in place; the original ordering is lost.
