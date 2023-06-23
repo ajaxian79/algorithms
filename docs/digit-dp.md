@@ -83,3 +83,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 21
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 22
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
