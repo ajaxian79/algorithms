@@ -101,3 +101,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 87: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 88: Runs in a single pass over the input.
 // note 89: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
