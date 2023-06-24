@@ -19,3 +19,4 @@ int max_depth(MdTreeNode* root) {
 // note 5: Time complexity: O(n).
 // note 6: Time complexity: O(n).
 // note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 8: Treats the input as immutable.
