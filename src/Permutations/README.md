@@ -1216,3 +1216,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 289
 
 Uses a small fixed-size lookup table.
+
+## entry 290
+
+Vectorizes cleanly under -O2.
