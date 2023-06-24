@@ -1151,3 +1151,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 273
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 274
+
+Handles empty input by returning 0.
