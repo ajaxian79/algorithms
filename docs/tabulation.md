@@ -755,3 +755,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 189
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 190
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
