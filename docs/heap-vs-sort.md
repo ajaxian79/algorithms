@@ -783,3 +783,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 179
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 180
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
