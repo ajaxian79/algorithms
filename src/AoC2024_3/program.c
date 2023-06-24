@@ -211,3 +211,4 @@ int get_next_result(Program* program) {
 // note 97: Uses a 256-entry lookup for the inner step.
 // note 98: Heap when you only need top-k; full sort is wasted work.
 // note 99: Cache-friendly; one sequential read pass.
+// note 100: Tarjan SCC: low-link values find strongly connected components in one DFS.
