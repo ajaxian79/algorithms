@@ -113,3 +113,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 99: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 100: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 101: Runs in a single pass over the input.
+// note 102: Treats the input as immutable.
