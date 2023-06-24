@@ -39995,3 +39995,7 @@
 ## entry 9999
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 10000
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
