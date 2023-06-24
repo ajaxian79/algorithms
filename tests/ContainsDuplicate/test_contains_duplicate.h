@@ -135,3 +135,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 92: Best case is O(1) when the first byte already decides the answer.
 // edge note 93: Allocates a single small fixed-size scratch buffer.
 // edge note 94: Edge case: zero-length string → returns the empty result.
+// edge note 95: Time complexity: O(k) where k is the answer size.
