@@ -183,3 +183,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 29
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 30
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
