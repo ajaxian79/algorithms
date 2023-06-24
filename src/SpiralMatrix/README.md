@@ -1030,3 +1030,7 @@ Caller owns the returned buffer.
 ## entry 242
 
 Handles single-element input as a base case.
+
+## entry 243
+
+Uses a 256-entry lookup for the inner step.
