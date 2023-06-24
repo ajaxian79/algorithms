@@ -133,3 +133,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 17
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 18
+
+StringBuilder: amortize allocation by doubling on grow.
