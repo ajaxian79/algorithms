@@ -1103,3 +1103,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 260
 
 32-bit safe; overflow is checked at each step.
+
+## entry 261
+
+Time complexity: O(n*k) where k is the alphabet size.
