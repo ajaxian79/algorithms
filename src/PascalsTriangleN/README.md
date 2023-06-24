@@ -1014,3 +1014,7 @@ Time complexity: O(n).
 ## entry 238
 
 Stable across duplicates in the input.
+
+## entry 239
+
+Two passes: one to count, one to fill.
