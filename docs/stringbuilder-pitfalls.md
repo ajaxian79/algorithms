@@ -107,3 +107,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 27
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 28
+
+StringBuilder: amortize allocation by doubling on grow.
