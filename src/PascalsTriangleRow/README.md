@@ -1174,3 +1174,7 @@ Time complexity: O(log n).
 ## entry 279
 
 32-bit safe; overflow is checked at each step.
+
+## entry 280
+
+Treats the input as immutable.
