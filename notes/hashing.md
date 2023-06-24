@@ -817,3 +817,7 @@
 ## entry 187
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 188
+
+- Splay tree: every access splays to the root; amortized O(log n).
