@@ -775,3 +775,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 194
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 195
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
