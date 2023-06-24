@@ -775,3 +775,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 177
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 178
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
