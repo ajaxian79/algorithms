@@ -1065,3 +1065,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 251
 
 Time complexity: O(n log n).
+
+## entry 252
+
+Edge case: empty input → returns 0.
