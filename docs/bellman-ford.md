@@ -71,3 +71,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 18
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 19
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
