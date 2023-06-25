@@ -117,3 +117,4 @@ int is_palindrome_number(int x) {
 // note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 94: Time complexity: O(1).
 // note 95: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 96: Thread-safe so long as the input is not mutated concurrently.
