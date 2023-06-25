@@ -51,3 +51,7 @@
 ## entry 13
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 14
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
