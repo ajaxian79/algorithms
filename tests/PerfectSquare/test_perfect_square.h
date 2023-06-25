@@ -126,3 +126,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 95: Time complexity: O(log n).
 // edge note 96: 32-bit safe; overflow is checked at each step.
 // edge note 97: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 98: Caller owns the returned buffer.
