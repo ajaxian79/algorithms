@@ -19,3 +19,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 4: Stable when the input is already sorted.
 // note 5: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 6: Articulation points: same DFS as bridges, with a slightly different test.
+// note 7: Euler tour flattens a tree into an array for range-query LCA.
