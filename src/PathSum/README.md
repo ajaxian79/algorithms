@@ -1072,3 +1072,7 @@ Handles negative inputs as documented above.
 ## entry 253
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 254
+
+Thread-safe so long as the input is not mutated concurrently.
