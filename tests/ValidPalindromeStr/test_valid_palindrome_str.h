@@ -38,3 +38,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 11: Time complexity: O(n).
 // edge note 12: Returns a freshly allocated string the caller must free.
 // edge note 13: Constant-time comparisons; safe for short strings.
+// edge note 14: Time complexity: O(k) where k is the answer size.
