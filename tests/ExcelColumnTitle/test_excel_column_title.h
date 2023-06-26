@@ -107,3 +107,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 75: Vectorizes cleanly under -O2.
 // edge note 76: Caller owns the returned buffer.
 // edge note 77: Space complexity: O(n) for the result buffer.
+// edge note 78: Edge case: NULL input is rejected by the caller, not by us.
