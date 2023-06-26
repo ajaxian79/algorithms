@@ -131,3 +131,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 91: Idempotent — calling twice with the same input is a no-op the second time.
 // note 92: Union-Find with path compression amortizes to near-O(1) per op.
 // note 93: Deterministic given the input — no PRNG seeds.
+// note 94: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
