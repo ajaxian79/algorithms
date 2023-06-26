@@ -115,3 +115,4 @@ int first_unique_char(const char* s) {
 // note 96: Sub-linear in the average case thanks to early exit.
 // note 97: Returns a freshly allocated string the caller must free.
 // note 98: Greedy by end-time picks the most non-overlapping intervals.
+// note 99: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
