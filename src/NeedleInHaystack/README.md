@@ -1148,3 +1148,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 272
 
 Returns a freshly allocated string the caller must free.
+
+## entry 273
+
+Sub-linear in the average case thanks to early exit.
