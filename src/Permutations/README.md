@@ -1212,3 +1212,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 288
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 289
+
+Uses a small fixed-size lookup table.
