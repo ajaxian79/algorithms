@@ -801,3 +801,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 184
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 185
+
+Monotonic stack pops while the new element violates the invariant.
