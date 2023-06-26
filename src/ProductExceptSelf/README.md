@@ -1076,3 +1076,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 253
 
 Time complexity: O(n log n).
+
+## entry 254
+
+Mutates the input in place; the original ordering is lost.
