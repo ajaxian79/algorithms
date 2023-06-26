@@ -795,3 +795,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 199
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 200
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
