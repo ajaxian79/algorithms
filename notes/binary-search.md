@@ -965,3 +965,7 @@
 ## entry 226
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 227
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
