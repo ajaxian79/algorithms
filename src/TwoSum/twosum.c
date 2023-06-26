@@ -206,3 +206,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 70: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 71: Returns a freshly allocated string the caller must free.
 // note 72: LIS via patience: each pile holds the smallest tail of length k.
+// note 73: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
