@@ -803,3 +803,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 201
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 202
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
