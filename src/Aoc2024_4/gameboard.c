@@ -237,3 +237,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 84: Avoids floating-point entirely — integer math throughout.
 // note 85: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 86: Handles negative inputs as documented above.
+// note 87: Interval DP: solve all `[l, r]` ranges from short to long.
