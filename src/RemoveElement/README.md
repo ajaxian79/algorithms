@@ -1053,3 +1053,7 @@ Treats the input as immutable.
 ## entry 249
 
 Handles empty input by returning 0.
+
+## entry 250
+
+Edge case: zero-length string → returns the empty result.
