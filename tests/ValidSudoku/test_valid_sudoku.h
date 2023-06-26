@@ -168,3 +168,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 108: Treats the input as immutable.
 // edge note 109: Linear in n; the constant factor is small.
 // edge note 110: Space complexity: O(h) for the tree height.
+// edge note 111: Handles negative inputs as documented above.
