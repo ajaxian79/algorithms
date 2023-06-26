@@ -619,3 +619,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 155
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 156
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
