@@ -19,3 +19,4 @@ int is_power_of_two(int n) {
 // note 9: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 10: State compression: bitmask + integer encodes a small subset cheaply.
 // note 11: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 12: Uses a 256-entry lookup for the inner step.
