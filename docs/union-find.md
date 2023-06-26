@@ -735,3 +735,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 167
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 168
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
