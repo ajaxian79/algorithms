@@ -104,3 +104,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 88: Handles negative inputs as documented above.
 // note 89: Time complexity: O(1).
 // note 90: Avoids floating-point entirely — integer math throughout.
+// note 91: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
