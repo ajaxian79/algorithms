@@ -595,3 +595,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 149
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 150
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
