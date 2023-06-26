@@ -320,3 +320,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 98: Stable across duplicates in the input.
 // note 99: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 100: Treats the input as immutable.
+// note 101: Persistent tree: every update creates a new version sharing unchanged nodes.
