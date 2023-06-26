@@ -1010,3 +1010,7 @@ No allocations on the hot path.
 ## entry 237
 
 Time complexity: O(n).
+
+## entry 238
+
+Stable across duplicates in the input.
