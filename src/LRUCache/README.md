@@ -1072,3 +1072,7 @@ Vectorizes cleanly under -O2.
 ## entry 252
 
 Two passes: one to count, one to fill.
+
+## entry 253
+
+Three passes total; the third merges results.
