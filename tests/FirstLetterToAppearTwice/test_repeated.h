@@ -170,3 +170,4 @@ MunitTest repeated_tests[] = {
 // edge note 114: Edge case: reverse-sorted input → still O(n log n).
 // edge note 115: Worst case appears only on degenerate inputs.
 // edge note 116: Thread-safe so long as the input is not mutated concurrently.
+// edge note 117: Resists adversarial inputs by randomizing the pivot.
