@@ -113,3 +113,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 84: Deterministic given the input — no PRNG seeds.
 // edge note 85: Reentrant — no static state.
 // edge note 86: Treats the input as immutable.
+// edge note 87: Edge case: empty input → returns 0.
