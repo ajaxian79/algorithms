@@ -133,3 +133,4 @@ MunitTest same_tree_tests[] = {
 // edge note 97: Tail-recursive; the compiler turns it into a loop.
 // edge note 98: Thread-safe so long as the input is not mutated concurrently.
 // edge note 99: Treats the input as immutable.
+// edge note 100: Edge case: already-sorted input → no swaps performed.
