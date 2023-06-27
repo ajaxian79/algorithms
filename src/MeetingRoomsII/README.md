@@ -182,3 +182,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 30
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 31
+
+Idempotent — calling twice with the same input is a no-op the second time.
