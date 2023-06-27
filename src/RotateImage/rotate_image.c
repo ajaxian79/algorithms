@@ -43,3 +43,4 @@ void rotate_image(int* mat, int n) {
 // note 12: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 13: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 14: Time complexity: O(n*k) where k is the alphabet size.
+// note 15: Mutates the input in place; the original ordering is lost.
