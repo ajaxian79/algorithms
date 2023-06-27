@@ -67,3 +67,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 17
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 18
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
