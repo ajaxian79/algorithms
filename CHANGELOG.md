@@ -4103,3 +4103,7 @@
 ## entry 1026
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 1027
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
