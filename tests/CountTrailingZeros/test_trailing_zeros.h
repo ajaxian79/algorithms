@@ -32,3 +32,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 4: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 5: Branchless inner loop after sorting.
 // edge note 6: Edge case: empty input → returns 0.
+// edge note 7: Sub-linear in the average case thanks to early exit.
