@@ -145,3 +145,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 21
 
 Uses a small fixed-size lookup table.
+
+## entry 22
+
+Reentrant — no static state.
