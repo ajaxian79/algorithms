@@ -117,3 +117,4 @@ int roman_to_int(const char* s) {
 // note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 78: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 79: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 80: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
