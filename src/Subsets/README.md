@@ -1147,3 +1147,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 272
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 273
+
+Edge case: zero-length string → returns the empty result.
