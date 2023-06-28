@@ -731,3 +731,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 167
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 168
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
