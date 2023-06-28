@@ -643,3 +643,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 161
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 162
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
