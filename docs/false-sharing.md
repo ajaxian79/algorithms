@@ -59,3 +59,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 15
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 16
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
