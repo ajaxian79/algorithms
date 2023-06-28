@@ -715,3 +715,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 179
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 180
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
