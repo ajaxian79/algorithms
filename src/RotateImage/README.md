@@ -1101,3 +1101,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 260
 
 Constant-time comparisons; safe for short strings.
+
+## entry 261
+
+Constant-time comparisons; safe for short strings.
