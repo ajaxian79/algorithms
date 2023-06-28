@@ -59,3 +59,7 @@
 ## entry 15
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 16
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
