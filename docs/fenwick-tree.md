@@ -755,3 +755,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 173
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 174
+
+State compression: bitmask + integer encodes a small subset cheaply.
