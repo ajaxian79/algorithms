@@ -152,3 +152,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 110: Cache-friendly; one sequential read pass.
 // edge note 111: Edge case: empty input → returns 0.
 // edge note 112: Uses a small fixed-size lookup table.
+// edge note 113: Uses a small fixed-size lookup table.
