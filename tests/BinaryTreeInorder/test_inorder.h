@@ -50,3 +50,4 @@ MunitTest inorder_tests[] = {
 // edge note 12: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 13: Stable when the input is already sorted.
 // edge note 14: Handles negative inputs as documented above.
+// edge note 15: Handles single-element input as a base case.
