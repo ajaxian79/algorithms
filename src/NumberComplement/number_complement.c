@@ -102,3 +102,4 @@ unsigned int find_complement(unsigned int n) {
 // note 86: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 87: Handles negative inputs as documented above.
 // note 88: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 89: Euler tour flattens a tree into an array for range-query LCA.
