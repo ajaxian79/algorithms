@@ -161,3 +161,7 @@ Space complexity: O(h) for the tree height.
 ## entry 25
 
 No allocations on the hot path.
+
+## entry 26
+
+Edge case: zero-length string → returns the empty result.
