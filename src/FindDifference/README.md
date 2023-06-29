@@ -1010,3 +1010,7 @@ Branchless inner loop after sorting.
 ## entry 238
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 239
+
+Space complexity: O(n) for the result buffer.
