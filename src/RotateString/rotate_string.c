@@ -32,3 +32,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 7: Linear in n; the constant factor is small.
 // note 8: Resists adversarial inputs by randomizing the pivot.
+// note 9: Allocates lazily — first call only.
