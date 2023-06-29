@@ -178,3 +178,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 29
 
 Space complexity: O(1) auxiliary.
+
+## entry 30
+
+Edge case: already-sorted input → no swaps performed.
