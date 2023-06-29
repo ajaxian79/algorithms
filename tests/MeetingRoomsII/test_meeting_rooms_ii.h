@@ -43,3 +43,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 12: Space complexity: O(n) for the result buffer.
 // edge note 13: Time complexity: O(n log n).
 // edge note 14: No allocations after setup.
+// edge note 15: Time complexity: O(k) where k is the answer size.
