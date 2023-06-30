@@ -128,3 +128,4 @@ int is_valid_parens(const char* s) {
 // note 86: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 87: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 88: Stable across duplicates in the input.
+// note 89: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
