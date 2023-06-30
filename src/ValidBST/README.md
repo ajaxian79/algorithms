@@ -181,3 +181,7 @@ Branchless inner loop after sorting.
 ## entry 30
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 31
+
+Deterministic given the input — no PRNG seeds.
