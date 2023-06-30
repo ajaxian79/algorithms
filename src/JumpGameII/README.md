@@ -1072,3 +1072,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 253
 
 Space complexity: O(n) for the result buffer.
+
+## entry 254
+
+Thread-safe so long as the input is not mutated concurrently.
