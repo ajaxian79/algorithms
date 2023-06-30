@@ -699,3 +699,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 175
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 176
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
