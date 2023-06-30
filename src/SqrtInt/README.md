@@ -179,3 +179,7 @@ Time complexity: O(n log n).
 ## entry 30
 
 Time complexity: O(1).
+
+## entry 31
+
+No allocations on the hot path.
