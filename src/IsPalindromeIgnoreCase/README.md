@@ -178,3 +178,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 30
 
 Returns a freshly allocated string the caller must free.
+
+## entry 31
+
+Time complexity: O(log n).
