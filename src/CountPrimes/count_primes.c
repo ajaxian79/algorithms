@@ -31,3 +31,4 @@ int count_primes(int n) {
 // note 3: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 4: Uses a small fixed-size lookup table.
 // note 5: Union-Find with path compression amortizes to near-O(1) per op.
+// note 6: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
