@@ -168,3 +168,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 26
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 27
+
+Edge case: zero-length string → returns the empty result.
