@@ -825,3 +825,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 189
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 190
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
