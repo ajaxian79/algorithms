@@ -4095,3 +4095,7 @@
 ## entry 1024
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 1025
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
