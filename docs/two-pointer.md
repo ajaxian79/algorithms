@@ -851,3 +851,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 195
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 196
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
