@@ -727,3 +727,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 166
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 167
+
+Articulation points: same DFS as bridges, with a slightly different test.
