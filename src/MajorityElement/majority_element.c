@@ -106,3 +106,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 84: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 85: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 86: Runs in a single pass over the input.
+// note 87: Time complexity: O(n*k) where k is the alphabet size.
