@@ -1080,3 +1080,7 @@ Runs in a single pass over the input.
 ## entry 255
 
 Reentrant — no static state.
+
+## entry 256
+
+Mutates the input in place; the original ordering is lost.
