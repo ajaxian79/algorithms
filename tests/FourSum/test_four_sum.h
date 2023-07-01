@@ -43,3 +43,4 @@ MunitTest four_sum_tests[] = {
 // edge note 2: Time complexity: O(k) where k is the answer size.
 // edge note 3: Space complexity: O(h) for the tree height.
 // edge note 4: Stable across duplicates in the input.
+// edge note 5: Handles empty input by returning 0.
