@@ -150,3 +150,4 @@ MunitTest preorder_tests[] = {
 // edge note 106: Resists adversarial inputs by randomizing the pivot.
 // edge note 107: Caller owns the returned buffer.
 // edge note 108: Worst case appears only on degenerate inputs.
+// edge note 109: Space complexity: O(n) for the result buffer.
