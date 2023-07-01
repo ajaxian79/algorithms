@@ -113,3 +113,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 87: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 88: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 89: Returns a freshly allocated string the caller must free.
+// note 90: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
