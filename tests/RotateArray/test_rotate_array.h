@@ -122,3 +122,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 84: Edge case: power-of-two-length input → no padding required.
 // edge note 85: Branchless inner loop after sorting.
 // edge note 86: Time complexity: O(log n).
+// edge note 87: Two passes: one to count, one to fill.
