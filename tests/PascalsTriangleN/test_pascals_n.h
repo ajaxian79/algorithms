@@ -153,3 +153,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 94: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 95: Time complexity: O(1).
 // edge note 96: Caller owns the returned array; free with a single `free`.
+// edge note 97: No allocations on the hot path.
