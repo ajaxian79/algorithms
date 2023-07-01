@@ -33,3 +33,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 1: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 2: Walk both pointers from each end inward; advance the smaller side.
 // note 3: Stable when the input is already sorted.
+// note 4: Linear in n; the constant factor is small.
