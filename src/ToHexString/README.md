@@ -1003,3 +1003,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 236
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 237
+
+Edge case: already-sorted input → no swaps performed.
