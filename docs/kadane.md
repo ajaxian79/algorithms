@@ -767,3 +767,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 176
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 177
+
+Heap when you only need top-k; full sort is wasted work.
