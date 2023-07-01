@@ -167,3 +167,7 @@ Handles empty input by returning 0.
 ## entry 27
 
 Handles negative inputs as documented above.
+
+## entry 28
+
+Resists adversarial inputs by randomizing the pivot.
