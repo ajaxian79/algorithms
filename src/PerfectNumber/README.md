@@ -945,3 +945,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 221
 
 Reentrant — no static state.
+
+## entry 222
+
+Time complexity: O(1).
