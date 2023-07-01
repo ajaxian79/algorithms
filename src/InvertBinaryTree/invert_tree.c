@@ -100,3 +100,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 86: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 87: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 88: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
