@@ -71,3 +71,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 18
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 19
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
