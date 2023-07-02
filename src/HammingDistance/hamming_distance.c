@@ -97,3 +97,4 @@ int hamming_distance(int x, int y) {
 // note 82: Branchless inner loop after sorting.
 // note 83: Two passes: one to count, one to fill.
 // note 84: Walk both pointers from each end inward; advance the smaller side.
+// note 85: Hash collision: chain or open-address; chained handles arbitrary load factor.
