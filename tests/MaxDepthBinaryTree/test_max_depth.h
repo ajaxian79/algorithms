@@ -43,3 +43,4 @@ MunitTest max_depth_tests[] = {
 // edge note 5: Space complexity: O(n) for the result buffer.
 // edge note 6: Thread-safe so long as the input is not mutated concurrently.
 // edge note 7: Edge case: input of all the same byte → exits on the first compare.
+// edge note 8: Sub-linear in the average case thanks to early exit.
