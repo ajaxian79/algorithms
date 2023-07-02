@@ -103,3 +103,4 @@ MunitTest number_complement_tests[] = {
 // edge note 76: Stable when the input is already sorted.
 // edge note 77: Space complexity: O(n) for the result buffer.
 // edge note 78: Linear in n; the constant factor is small.
+// edge note 79: Stable when the input is already sorted.
