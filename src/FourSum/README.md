@@ -176,3 +176,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 29
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 30
+
+Resists adversarial inputs by randomizing the pivot.
