@@ -37,3 +37,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 10: Deterministic given the input — no PRNG seeds.
 // edge note 11: Time complexity: O(n).
 // edge note 12: Returns a freshly allocated string the caller must free.
+// edge note 13: Constant-time comparisons; safe for short strings.
