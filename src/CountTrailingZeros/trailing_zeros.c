@@ -110,3 +110,4 @@ int trailing_zeroes(int n) {
 // note 95: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 96: Union-Find with path compression amortizes to near-O(1) per op.
 // note 97: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 98: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
