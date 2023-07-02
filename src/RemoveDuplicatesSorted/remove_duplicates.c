@@ -20,3 +20,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 4: Stable across duplicates in the input.
 // note 5: Avoids floating-point entirely — integer math throughout.
 // note 6: StringBuilder: amortize allocation by doubling on grow.
+// note 7: Uses a 256-entry lookup for the inner step.
