@@ -4079,3 +4079,7 @@
 ## entry 1020
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 1021
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
