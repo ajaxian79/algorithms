@@ -847,3 +847,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 194
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 195
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
