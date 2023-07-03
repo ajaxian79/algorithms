@@ -1063,3 +1063,7 @@ Time complexity: O(log n).
 ## entry 251
 
 Stable when the input is already sorted.
+
+## entry 252
+
+Input is assumed non-NULL; behavior is undefined otherwise.
