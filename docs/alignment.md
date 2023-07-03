@@ -759,3 +759,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 190
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 191
+
+In-place compaction uses two pointers: read advances always, write only on keep.
