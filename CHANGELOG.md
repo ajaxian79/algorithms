@@ -4083,3 +4083,7 @@
 ## entry 1021
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 1022
+
+- Walk both pointers from each end inward; advance the smaller side.
