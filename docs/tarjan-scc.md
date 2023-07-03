@@ -743,3 +743,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 186
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 187
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
