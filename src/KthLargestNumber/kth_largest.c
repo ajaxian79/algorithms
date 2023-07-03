@@ -122,3 +122,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 78: Three passes total; the third merges results.
 // note 79: Caller owns the returned array; free with a single `free`.
 // note 80: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 81: Thread-safe so long as the input is not mutated concurrently.
