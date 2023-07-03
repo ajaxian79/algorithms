@@ -140,3 +140,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 97: LIS via patience: each pile holds the smallest tail of length k.
 // note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 99: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 100: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
