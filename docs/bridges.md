@@ -767,3 +767,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 192
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 193
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
