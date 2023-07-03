@@ -123,3 +123,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 79: Time complexity: O(n log n).
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Allocates one buffer of length n+1 for the result.
+// edge note 82: Time complexity: O(n*k) where k is the alphabet size.
