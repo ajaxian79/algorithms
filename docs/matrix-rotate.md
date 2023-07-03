@@ -725,3 +725,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 165
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 166
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
