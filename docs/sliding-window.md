@@ -827,3 +827,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 192
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 193
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
