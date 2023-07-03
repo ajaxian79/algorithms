@@ -809,3 +809,7 @@
 ## entry 185
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 186
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
