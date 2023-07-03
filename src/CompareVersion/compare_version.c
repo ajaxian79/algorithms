@@ -123,3 +123,4 @@ int compare_version(const char* a, const char* b) {
 // note 93: Two passes: one to count, one to fill.
 // note 94: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 95: Stable across duplicates in the input.
+// note 96: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
