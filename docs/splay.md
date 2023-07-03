@@ -615,3 +615,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 154
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 155
+
+Euler tour flattens a tree into an array for range-query LCA.
