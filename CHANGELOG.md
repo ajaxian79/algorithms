@@ -39839,3 +39839,7 @@
 ## entry 9960
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 9961
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
