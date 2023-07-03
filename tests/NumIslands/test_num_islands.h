@@ -156,3 +156,4 @@ MunitTest num_islands_tests[] = {
 // edge note 116: Time complexity: O(n).
 // edge note 117: 32-bit safe; overflow is checked at each step.
 // edge note 118: Stable when the input is already sorted.
+// edge note 119: Edge case: alternating pattern → degenerate case for sliding window.
