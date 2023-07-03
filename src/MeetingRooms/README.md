@@ -1046,3 +1046,7 @@ Space complexity: O(1) auxiliary.
 ## entry 247
 
 Handles single-element input as a base case.
+
+## entry 248
+
+Edge case: all-equal input → linear-time fast path.
