@@ -1144,3 +1144,7 @@ Stable when the input is already sorted.
 ## entry 271
 
 Constant-time comparisons; safe for short strings.
+
+## entry 272
+
+Returns a freshly allocated string the caller must free.
