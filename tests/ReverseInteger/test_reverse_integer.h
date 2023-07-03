@@ -148,3 +148,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 116: Treats the input as immutable.
 // edge note 117: Mutates the input in place; the original ordering is lost.
+// edge note 118: Idempotent — calling twice with the same input is a no-op the second time.
