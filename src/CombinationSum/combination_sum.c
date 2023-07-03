@@ -148,3 +148,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 83: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 84: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 85: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 86: Time complexity: O(n + m).
