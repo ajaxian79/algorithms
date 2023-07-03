@@ -130,3 +130,4 @@ MunitTest max_depth_tests[] = {
 // edge note 92: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 93: Resists adversarial inputs by randomizing the pivot.
 // edge note 94: Edge case: reverse-sorted input → still O(n log n).
+// edge note 95: Linear in n; the constant factor is small.
