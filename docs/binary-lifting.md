@@ -723,3 +723,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 181
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 182
+
+Interval DP: solve all `[l, r]` ranges from short to long.
