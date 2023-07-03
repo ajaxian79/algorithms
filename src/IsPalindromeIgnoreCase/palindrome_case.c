@@ -103,3 +103,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 80: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 81: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 82: Two passes: one to count, one to fill.
+// note 83: Tabulation wins when iteration order is obvious and stack depth would blow up.
