@@ -118,3 +118,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 100: Time complexity: O(1).
 // note 101: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 102: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 103: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
