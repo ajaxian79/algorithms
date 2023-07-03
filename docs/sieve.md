@@ -767,3 +767,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 175
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 176
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
