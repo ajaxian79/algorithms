@@ -998,3 +998,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 225
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 226
+
+Space complexity: O(log n) for the recursion stack.
