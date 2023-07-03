@@ -127,3 +127,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 95: Edge case: input with no peak → falls through to the default branch.
 // edge note 96: Runs in a single pass over the input.
 // edge note 97: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 98: Space complexity: O(log n) for the recursion stack.
