@@ -1068,3 +1068,7 @@ Treats the input as immutable.
 ## entry 252
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 253
+
+Space complexity: O(n) for the result buffer.
