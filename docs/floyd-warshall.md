@@ -731,3 +731,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 183
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 184
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
