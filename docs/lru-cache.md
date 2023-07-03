@@ -651,3 +651,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 163
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 164
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
