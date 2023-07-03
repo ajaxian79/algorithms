@@ -801,3 +801,7 @@
 ## entry 184
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 185
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
