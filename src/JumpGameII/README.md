@@ -1064,3 +1064,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 251
 
 Treats the input as immutable.
+
+## entry 252
+
+Time complexity: O(n*k) where k is the alphabet size.
