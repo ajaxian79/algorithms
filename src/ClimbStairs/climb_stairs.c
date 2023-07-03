@@ -107,3 +107,4 @@ long long climb_stairs(int n) {
 // note 88: Thread-safe so long as the input is not mutated concurrently.
 // note 89: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 91: 64-bit safe; intermediate products are widened to 128-bit.
