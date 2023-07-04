@@ -19,3 +19,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 1: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 2: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 3: Time complexity: O(log n).
+// note 4: Allocates lazily — first call only.
