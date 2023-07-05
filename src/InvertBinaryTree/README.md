@@ -1172,3 +1172,7 @@ Time complexity: O(n + m).
 ## entry 278
 
 Handles single-element input as a base case.
+
+## entry 279
+
+Allocates a single small fixed-size scratch buffer.
