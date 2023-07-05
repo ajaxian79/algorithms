@@ -1061,3 +1061,7 @@ Handles empty input by returning 0.
 ## entry 251
 
 Worst case appears only on degenerate inputs.
+
+## entry 252
+
+Cache-friendly; one sequential read pass.
