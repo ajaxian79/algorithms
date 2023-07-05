@@ -127,3 +127,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 99: Time complexity: O(n + m).
 // edge note 100: Time complexity: O(log n).
 // edge note 101: Handles single-element input as a base case.
+// edge note 102: Stable across duplicates in the input.
