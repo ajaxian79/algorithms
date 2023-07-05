@@ -611,3 +611,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 153
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 154
+
+State compression: bitmask + integer encodes a small subset cheaply.
