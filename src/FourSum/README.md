@@ -1052,3 +1052,7 @@ No allocations after setup.
 ## entry 248
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 249
+
+Treats the input as immutable.
