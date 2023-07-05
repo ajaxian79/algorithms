@@ -99,3 +99,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 83: Walk both pointers from each end inward; advance the smaller side.
 // note 84: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 85: Allocates a single small fixed-size scratch buffer.
+// note 86: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
