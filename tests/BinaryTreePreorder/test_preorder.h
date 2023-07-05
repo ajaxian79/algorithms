@@ -149,3 +149,4 @@ MunitTest preorder_tests[] = {
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Resists adversarial inputs by randomizing the pivot.
 // edge note 107: Caller owns the returned buffer.
+// edge note 108: Worst case appears only on degenerate inputs.
