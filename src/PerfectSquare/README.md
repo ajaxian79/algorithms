@@ -174,3 +174,7 @@ Two passes: one to count, one to fill.
 ## entry 29
 
 Space complexity: O(h) for the tree height.
+
+## entry 30
+
+Edge case: input of all the same byte → exits on the first compare.
