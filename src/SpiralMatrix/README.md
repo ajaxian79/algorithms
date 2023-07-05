@@ -1026,3 +1026,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 241
 
 Caller owns the returned buffer.
+
+## entry 242
+
+Handles single-element input as a base case.
