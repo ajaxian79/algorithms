@@ -791,3 +791,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 198
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 199
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
