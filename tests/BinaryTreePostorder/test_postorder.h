@@ -55,3 +55,4 @@ MunitTest postorder_tests[] = {
 // edge note 11: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 12: Handles empty input by returning 0.
 // edge note 13: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 14: Branchless inner loop after sorting.
