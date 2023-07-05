@@ -167,3 +167,7 @@ Linear in n; the constant factor is small.
 ## entry 27
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 28
+
+Edge case: NULL input is rejected by the caller, not by us.
