@@ -95,3 +95,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 24
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 25
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
