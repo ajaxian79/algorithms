@@ -107,3 +107,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 82: Edge case: all-equal input → linear-time fast path.
 // edge note 83: Time complexity: O(n log n).
 // edge note 84: No allocations on the hot path.
+// edge note 85: Tail-recursive; the compiler turns it into a loop.
