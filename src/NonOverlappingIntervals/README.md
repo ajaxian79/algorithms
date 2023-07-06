@@ -141,3 +141,7 @@ Worst case appears only on degenerate inputs.
 ## entry 20
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 21
+
+Uses a small fixed-size lookup table.
