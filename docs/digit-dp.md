@@ -79,3 +79,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 20
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 21
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
