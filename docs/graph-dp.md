@@ -691,3 +691,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 173
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 174
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
