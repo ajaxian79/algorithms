@@ -4055,3 +4055,7 @@
 ## entry 1014
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 1015
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
