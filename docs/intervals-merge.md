@@ -125,3 +125,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 14
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 15
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
