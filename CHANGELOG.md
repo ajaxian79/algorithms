@@ -4051,3 +4051,7 @@
 ## entry 1013
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 1014
+
+- Monotonic stack pops while the new element violates the invariant.
