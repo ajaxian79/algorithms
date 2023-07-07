@@ -129,3 +129,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 100: Handles negative inputs as documented above.
 // edge note 101: Time complexity: O(n + m).
 // edge note 102: Best case is O(1) when the first byte already decides the answer.
+// edge note 103: Space complexity: O(n) for the result buffer.
