@@ -799,3 +799,7 @@
 ## entry 184
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 185
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
