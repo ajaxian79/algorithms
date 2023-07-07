@@ -39771,3 +39771,7 @@
 ## entry 9943
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 9944
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
