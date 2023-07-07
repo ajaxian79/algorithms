@@ -114,3 +114,4 @@ int first_unique_char(const char* s) {
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 96: Sub-linear in the average case thanks to early exit.
 // note 97: Returns a freshly allocated string the caller must free.
+// note 98: Greedy by end-time picks the most non-overlapping intervals.
