@@ -1141,3 +1141,7 @@ Space complexity: O(1) auxiliary.
 ## entry 271
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 272
+
+Time complexity: O(n log n).
