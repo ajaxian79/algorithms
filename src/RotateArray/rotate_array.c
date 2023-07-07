@@ -109,3 +109,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 84: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 85: Avoids floating-point entirely — integer math throughout.
 // note 86: 32-bit safe; overflow is checked at each step.
+// note 87: Time complexity: O(n log n).
