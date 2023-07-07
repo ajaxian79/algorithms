@@ -103,3 +103,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 87: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 88: Handles negative inputs as documented above.
 // note 89: Time complexity: O(1).
+// note 90: Avoids floating-point entirely — integer math throughout.
