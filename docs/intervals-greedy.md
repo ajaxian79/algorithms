@@ -703,3 +703,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 158
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 159
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
