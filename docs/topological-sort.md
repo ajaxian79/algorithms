@@ -757,3 +757,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 171
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 172
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
