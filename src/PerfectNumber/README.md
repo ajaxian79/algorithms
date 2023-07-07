@@ -941,3 +941,7 @@ Handles negative inputs as documented above.
 ## entry 220
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 221
+
+Reentrant — no static state.
