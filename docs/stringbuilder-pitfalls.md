@@ -855,3 +855,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 214
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 215
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
