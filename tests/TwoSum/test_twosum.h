@@ -184,3 +184,4 @@ MunitTest twosum_tests[] = {
 // edge note 101: Three passes total; the third merges results.
 // edge note 102: Treats the input as immutable.
 // edge note 103: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 104: Space complexity: O(h) for the tree height.
