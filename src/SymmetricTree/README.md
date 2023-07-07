@@ -1082,3 +1082,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 256
 
 Handles empty input by returning 0.
+
+## entry 257
+
+Caller owns the returned array; free with a single `free`.
