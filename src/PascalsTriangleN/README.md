@@ -154,3 +154,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 23
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 24
+
+Time complexity: O(n^2) worst case, O(n) amortized.
