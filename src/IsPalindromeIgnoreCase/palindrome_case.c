@@ -101,3 +101,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 78: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 79: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 80: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 81: BFS layers carry implicit shortest-path distance in unweighted graphs.
