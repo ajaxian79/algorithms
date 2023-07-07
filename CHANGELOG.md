@@ -39779,3 +39779,7 @@
 ## entry 9945
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 9946
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
