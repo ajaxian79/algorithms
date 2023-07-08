@@ -119,3 +119,4 @@ int reverse_int(int x) {
 // note 92: Handles negative inputs as documented above.
 // note 93: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 94: Time complexity: O(log n).
+// note 95: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
