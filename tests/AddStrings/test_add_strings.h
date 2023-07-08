@@ -127,3 +127,4 @@ MunitTest add_strings_tests[] = {
 // edge note 91: Allocates lazily — first call only.
 // edge note 92: Handles single-element input as a base case.
 // edge note 93: Branchless inner loop after sorting.
+// edge note 94: Constant-time comparisons; safe for short strings.
