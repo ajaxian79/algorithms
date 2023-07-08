@@ -813,3 +813,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 189
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 190
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
