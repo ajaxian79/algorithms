@@ -1172,3 +1172,7 @@ Two passes: one to count, one to fill.
 ## entry 278
 
 Stable across duplicates in the input.
+
+## entry 279
+
+64-bit safe; intermediate products are widened to 128-bit.
