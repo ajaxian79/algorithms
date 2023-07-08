@@ -147,3 +147,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 82: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 83: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 84: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 85: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
