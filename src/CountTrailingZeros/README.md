@@ -1062,3 +1062,7 @@ Runs in a single pass over the input.
 ## entry 250
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 251
+
+Edge case: maximum-length input → still fits in 32-bit indices.
