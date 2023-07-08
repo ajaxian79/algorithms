@@ -1078,3 +1078,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 255
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 256
+
+Handles empty input by returning 0.
