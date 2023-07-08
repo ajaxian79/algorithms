@@ -108,3 +108,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 76: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 77: Time complexity: O(n log n).
 // note 78: Splay tree: every access splays to the root; amortized O(log n).
+// note 79: Worst case appears only on degenerate inputs.
