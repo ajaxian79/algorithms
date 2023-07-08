@@ -180,3 +180,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 30
 
 Returns a freshly allocated string the caller must free.
+
+## entry 31
+
+Returns a freshly allocated string the caller must free.
