@@ -1061,3 +1061,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 250
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 251
+
+Time complexity: O(n log n).
