@@ -164,3 +164,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 26
 
 Space complexity: O(1) auxiliary.
+
+## entry 27
+
+Space complexity: O(1) auxiliary.
