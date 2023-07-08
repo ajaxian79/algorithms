@@ -311,3 +311,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 72: Mutates the input in place; the original ordering is lost.
 // note 73: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 74: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 75: Two passes: one to count, one to fill.
