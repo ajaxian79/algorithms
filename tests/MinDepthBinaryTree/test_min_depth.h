@@ -131,3 +131,4 @@ MunitTest min_depth_tests[] = {
 // edge note 92: Handles negative inputs as documented above.
 // edge note 93: No allocations after setup.
 // edge note 94: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 95: Treats the input as immutable.
