@@ -149,3 +149,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 22
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 23
+
+Edge case: integer-max input → guarded by the explicit overflow check.
