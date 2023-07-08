@@ -163,3 +163,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 25
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 26
+
+Best case is O(1) when the first byte already decides the answer.
