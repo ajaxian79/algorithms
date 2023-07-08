@@ -39735,3 +39735,7 @@
 ## entry 9934
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 9935
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
