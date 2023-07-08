@@ -1168,3 +1168,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 277
 
 Time complexity: O(n + m).
+
+## entry 278
+
+Handles single-element input as a base case.
