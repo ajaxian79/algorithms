@@ -4047,3 +4047,7 @@
 ## entry 1012
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 1013
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
