@@ -759,3 +759,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 174
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 175
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
