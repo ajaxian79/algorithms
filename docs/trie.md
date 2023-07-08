@@ -745,3 +745,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 170
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 171
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
