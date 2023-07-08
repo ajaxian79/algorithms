@@ -1204,3 +1204,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 286
 
 Stable when the input is already sorted.
+
+## entry 287
+
+Edge case: all-equal input → linear-time fast path.
