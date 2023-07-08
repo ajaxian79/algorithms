@@ -997,3 +997,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 234
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 235
+
+Runs in a single pass over the input.
