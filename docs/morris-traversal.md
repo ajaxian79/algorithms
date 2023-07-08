@@ -743,3 +743,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 171
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 172
+
+Merge intervals: sort by start; extend the running interval while overlapping.
