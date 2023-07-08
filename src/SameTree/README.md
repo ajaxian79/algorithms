@@ -1040,3 +1040,7 @@ Runs in a single pass over the input.
 ## entry 246
 
 Returns a freshly allocated string the caller must free.
+
+## entry 247
+
+Edge case: reverse-sorted input → still O(n log n).
