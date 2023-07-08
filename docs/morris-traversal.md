@@ -747,3 +747,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 172
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 173
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
