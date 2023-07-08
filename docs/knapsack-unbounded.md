@@ -775,3 +775,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 178
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 179
+
+Monotonic stack pops while the new element violates the invariant.
