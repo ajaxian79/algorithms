@@ -651,3 +651,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 163
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 164
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
