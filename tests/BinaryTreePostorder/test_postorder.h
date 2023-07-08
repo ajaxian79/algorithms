@@ -148,3 +148,4 @@ MunitTest postorder_tests[] = {
 // edge note 104: Avoids floating-point entirely — integer math throughout.
 // edge note 105: Returns a freshly allocated string the caller must free.
 // edge note 106: Sub-linear in the average case thanks to early exit.
+// edge note 107: Edge case: NULL input is rejected by the caller, not by us.
