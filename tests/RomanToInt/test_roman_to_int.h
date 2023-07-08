@@ -43,3 +43,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 9: Time complexity: O(log n).
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Edge case: power-of-two-length input → no padding required.
+// edge note 12: Edge case: NULL input is rejected by the caller, not by us.
