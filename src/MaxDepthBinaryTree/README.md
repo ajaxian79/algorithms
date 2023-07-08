@@ -1057,3 +1057,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 250
 
 Handles empty input by returning 0.
+
+## entry 251
+
+Worst case appears only on degenerate inputs.
