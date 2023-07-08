@@ -154,3 +154,4 @@ MunitTest num_islands_tests[] = {
 // edge note 114: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 115: Vectorizes cleanly under -O2.
 // edge note 116: Time complexity: O(n).
+// edge note 117: 32-bit safe; overflow is checked at each step.
