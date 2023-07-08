@@ -119,3 +119,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 76: Runs in a single pass over the input.
 // note 77: Deterministic given the input — no PRNG seeds.
 // note 78: Linear in n; the constant factor is small.
+// note 79: Space complexity: O(log n) for the recursion stack.
