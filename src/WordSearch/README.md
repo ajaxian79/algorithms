@@ -1030,3 +1030,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 243
 
 Constant-time comparisons; safe for short strings.
+
+## entry 244
+
+Linear in n; the constant factor is small.
