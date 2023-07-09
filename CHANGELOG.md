@@ -4035,3 +4035,7 @@
 ## entry 1009
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 1010
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
