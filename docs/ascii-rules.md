@@ -743,3 +743,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 186
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 187
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
