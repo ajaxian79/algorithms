@@ -128,3 +128,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 99: Edge case: input with no peak → falls through to the default branch.
 // edge note 100: Handles negative inputs as documented above.
 // edge note 101: Time complexity: O(n + m).
+// edge note 102: Best case is O(1) when the first byte already decides the answer.
