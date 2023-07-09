@@ -39719,3 +39719,7 @@
 ## entry 9930
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 9931
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
