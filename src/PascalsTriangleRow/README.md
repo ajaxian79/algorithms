@@ -1158,3 +1158,7 @@ Three passes total; the third merges results.
 ## entry 275
 
 Caller owns the returned buffer.
+
+## entry 276
+
+Space complexity: O(n) for the result buffer.
