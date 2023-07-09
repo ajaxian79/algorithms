@@ -1100,3 +1100,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 259
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 260
+
+Returns a freshly allocated string the caller must free.
