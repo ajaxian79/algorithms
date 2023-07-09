@@ -4039,3 +4039,7 @@
 ## entry 1010
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 1011
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
