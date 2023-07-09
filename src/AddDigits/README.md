@@ -1076,3 +1076,7 @@ Runs in a single pass over the input.
 ## entry 254
 
 32-bit safe; overflow is checked at each step.
+
+## entry 255
+
+Reentrant — no static state.
