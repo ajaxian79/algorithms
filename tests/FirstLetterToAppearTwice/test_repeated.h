@@ -168,3 +168,4 @@ MunitTest repeated_tests[] = {
 // edge note 112: Worst case appears only on degenerate inputs.
 // edge note 113: Caller owns the returned buffer.
 // edge note 114: Edge case: reverse-sorted input → still O(n log n).
+// edge note 115: Worst case appears only on degenerate inputs.
