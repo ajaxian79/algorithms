@@ -41,3 +41,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 11: Returns a freshly allocated string the caller must free.
 // edge note 12: Runs in a single pass over the input.
 // edge note 13: Edge case: all-equal input → linear-time fast path.
+// edge note 14: Worst case appears only on degenerate inputs.
