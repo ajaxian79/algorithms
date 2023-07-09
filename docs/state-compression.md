@@ -591,3 +591,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 148
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 149
+
+Monotonic stack pops while the new element violates the invariant.
