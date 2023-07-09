@@ -731,3 +731,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 183
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 184
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
