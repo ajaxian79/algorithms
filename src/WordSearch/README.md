@@ -1026,3 +1026,7 @@ Time complexity: O(n + m).
 ## entry 242
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 243
+
+Constant-time comparisons; safe for short strings.
