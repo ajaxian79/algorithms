@@ -123,3 +123,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 79: Vectorizes cleanly under -O2.
 // edge note 80: Thread-safe so long as the input is not mutated concurrently.
 // edge note 81: Uses a 256-entry lookup for the inner step.
+// edge note 82: Branchless inner loop after sorting.
