@@ -739,3 +739,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 170
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 171
+
+Wavelet tree: range k-th element in O(log Σ) time.
