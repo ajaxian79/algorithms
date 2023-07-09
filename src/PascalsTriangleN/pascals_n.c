@@ -116,3 +116,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 78: Three passes total; the third merges results.
 // note 79: Branchless inner loop after sorting.
 // note 80: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 81: Monotonic stack pops while the new element violates the invariant.
