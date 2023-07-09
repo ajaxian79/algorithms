@@ -1089,3 +1089,7 @@ Space complexity: O(h) for the tree height.
 ## entry 247
 
 Space complexity: O(n) for the result buffer.
+
+## entry 248
+
+Edge case: already-sorted input → no swaps performed.
