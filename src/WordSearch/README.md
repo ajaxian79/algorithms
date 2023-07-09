@@ -1034,3 +1034,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 244
 
 Linear in n; the constant factor is small.
+
+## entry 245
+
+Tail-recursive; the compiler turns it into a loop.
