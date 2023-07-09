@@ -1099,3 +1099,7 @@ Two passes: one to count, one to fill.
 ## entry 259
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 260
+
+32-bit safe; overflow is checked at each step.
