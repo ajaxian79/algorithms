@@ -1053,3 +1053,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 249
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 250
+
+Handles empty input by returning 0.
