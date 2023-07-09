@@ -1083,3 +1083,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 256
 
 Uses a small fixed-size lookup table.
+
+## entry 257
+
+Space complexity: O(1) auxiliary.
