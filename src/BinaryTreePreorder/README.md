@@ -1138,3 +1138,7 @@ Time complexity: O(n + m).
 ## entry 270
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 271
+
+Uses a 256-entry lookup for the inner step.
