@@ -779,3 +779,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 195
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 196
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
