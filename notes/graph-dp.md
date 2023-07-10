@@ -655,3 +655,7 @@
 ## entry 164
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 165
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
