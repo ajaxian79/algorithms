@@ -839,3 +839,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 193
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 194
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
