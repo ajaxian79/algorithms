@@ -1079,3 +1079,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 255
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 256
+
+Uses a small fixed-size lookup table.
