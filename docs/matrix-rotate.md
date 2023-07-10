@@ -721,3 +721,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 164
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 165
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
