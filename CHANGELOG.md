@@ -39687,3 +39687,7 @@
 ## entry 9922
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 9923
+
+- State compression: bitmask + integer encodes a small subset cheaply.
