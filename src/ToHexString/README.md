@@ -995,3 +995,7 @@ Worst case appears only on degenerate inputs.
 ## entry 234
 
 Handles empty input by returning 0.
+
+## entry 235
+
+Edge case: all-equal input → linear-time fast path.
