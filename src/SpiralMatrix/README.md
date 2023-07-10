@@ -1022,3 +1022,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 240
 
 Constant-time comparisons; safe for short strings.
+
+## entry 241
+
+Caller owns the returned buffer.
