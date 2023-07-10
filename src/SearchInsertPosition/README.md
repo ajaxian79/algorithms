@@ -1054,3 +1054,7 @@ Worst case appears only on degenerate inputs.
 ## entry 249
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 250
+
+Time complexity: O(n^2) worst case, O(n) amortized.
