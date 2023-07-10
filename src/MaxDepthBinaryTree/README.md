@@ -1049,3 +1049,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 248
 
 Constant-time comparisons; safe for short strings.
+
+## entry 249
+
+Space complexity: O(log n) for the recursion stack.
