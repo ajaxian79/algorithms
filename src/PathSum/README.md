@@ -1068,3 +1068,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 252
 
 Handles negative inputs as documented above.
+
+## entry 253
+
+Edge case: input with no peak → falls through to the default branch.
