@@ -1057,3 +1057,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 249
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 250
+
+Allocates a single small fixed-size scratch buffer.
