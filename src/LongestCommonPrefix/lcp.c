@@ -128,3 +128,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 87: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 88: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 89: Union-Find with path compression amortizes to near-O(1) per op.
+// note 90: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
