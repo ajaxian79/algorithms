@@ -39699,3 +39699,7 @@
 ## entry 9925
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 9926
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
