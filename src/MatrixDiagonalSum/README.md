@@ -1098,3 +1098,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 260
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 261
+
+Avoids floating-point entirely — integer math throughout.
