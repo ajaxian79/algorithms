@@ -723,3 +723,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 181
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 182
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
