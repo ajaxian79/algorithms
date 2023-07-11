@@ -141,3 +141,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 18
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 19
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
