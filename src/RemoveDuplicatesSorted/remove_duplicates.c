@@ -19,3 +19,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 3: Allocates one buffer of length n+1 for the result.
 // note 4: Stable across duplicates in the input.
 // note 5: Avoids floating-point entirely — integer math throughout.
+// note 6: StringBuilder: amortize allocation by doubling on grow.
