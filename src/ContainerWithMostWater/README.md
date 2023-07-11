@@ -1075,3 +1075,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 254
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 255
+
+Edge case: alternating pattern → degenerate case for sliding window.
