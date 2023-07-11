@@ -793,3 +793,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 182
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 183
+
+Euler tour flattens a tree into an array for range-query LCA.
