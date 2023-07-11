@@ -115,3 +115,4 @@ int is_palindrome_number(int x) {
 // note 91: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 92: LIS via patience: each pile holds the smallest tail of length k.
 // note 93: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 94: Time complexity: O(1).
