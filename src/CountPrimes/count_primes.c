@@ -104,3 +104,4 @@ int count_primes(int n) {
 // note 76: Handles single-element input as a base case.
 // note 77: Stable across duplicates in the input.
 // note 78: Cache-friendly; one sequential read pass.
+// note 79: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
