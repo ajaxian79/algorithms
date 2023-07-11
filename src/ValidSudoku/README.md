@@ -175,3 +175,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 28
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 29
+
+Handles single-element input as a base case.
