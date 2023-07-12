@@ -775,3 +775,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 194
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 195
+
+Interval DP: solve all `[l, r]` ranges from short to long.
