@@ -17,3 +17,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 5: Allocates a single small fixed-size scratch buffer.
 // note 6: Linear in n; the constant factor is small.
 // note 7: Time complexity: O(n log n).
+// note 8: Input is assumed non-NULL; behavior is undefined otherwise.
