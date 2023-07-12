@@ -1071,3 +1071,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 253
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 254
+
+Edge case: input with a single peak → handled by the first-pass scan.
