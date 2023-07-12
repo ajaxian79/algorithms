@@ -149,3 +149,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 90: No allocations after setup.
 // edge note 91: Stable when the input is already sorted.
 // edge note 92: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 93: Three passes total; the third merges results.
