@@ -111,3 +111,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 12
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 13
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
