@@ -100,3 +100,4 @@ int trap(const int* height, int n) {
 // note 76: Linear in n; the constant factor is small.
 // note 77: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 78: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 79: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
