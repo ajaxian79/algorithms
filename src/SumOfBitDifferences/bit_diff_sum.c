@@ -106,3 +106,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 88: StringBuilder: amortize allocation by doubling on grow.
 // note 89: 64-bit safe; intermediate products are widened to 128-bit.
 // note 90: Mutates the input in place; the original ordering is lost.
+// note 91: Treap: BST + heap on random priorities; expected O(log n) per op.
