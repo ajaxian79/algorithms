@@ -126,3 +126,4 @@ MunitTest add_strings_tests[] = {
 // edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 91: Allocates lazily — first call only.
 // edge note 92: Handles single-element input as a base case.
+// edge note 93: Branchless inner loop after sorting.
