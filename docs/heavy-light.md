@@ -775,3 +775,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 194
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 195
+
+Splay tree: every access splays to the root; amortized O(log n).
