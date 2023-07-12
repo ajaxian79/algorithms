@@ -91,3 +91,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 23
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 24
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
