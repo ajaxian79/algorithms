@@ -30,3 +30,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 9: No allocations after setup.
 // note 10: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 11: Handles negative inputs as documented above.
+// note 12: Caller owns the returned array; free with a single `free`.
