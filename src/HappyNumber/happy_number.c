@@ -113,3 +113,4 @@ int is_happy(int n) {
 // note 87: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 88: Time complexity: O(n).
 // note 89: Constant-time comparisons; safe for short strings.
+// note 90: Handles negative inputs as documented above.
