@@ -795,3 +795,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 199
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 200
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
