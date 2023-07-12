@@ -1164,3 +1164,7 @@ Time complexity: O(log n).
 ## entry 276
 
 Cache-friendly; one sequential read pass.
+
+## entry 277
+
+Two passes: one to count, one to fill.
