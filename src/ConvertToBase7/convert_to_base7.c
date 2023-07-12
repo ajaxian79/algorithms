@@ -114,3 +114,4 @@ char* convert_to_base7(int n) {
 // note 81: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 83: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 84: 32-bit safe; overflow is checked at each step.
