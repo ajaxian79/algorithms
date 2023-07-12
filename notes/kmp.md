@@ -797,3 +797,7 @@
 ## entry 183
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 184
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
