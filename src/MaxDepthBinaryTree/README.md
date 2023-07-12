@@ -1045,3 +1045,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 247
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 248
+
+Constant-time comparisons; safe for short strings.
