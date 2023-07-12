@@ -1093,3 +1093,7 @@ Space complexity: O(1) auxiliary.
 ## entry 258
 
 Time complexity: O(n).
+
+## entry 259
+
+Edge case: input with one duplicate → handled without an extra pass.
