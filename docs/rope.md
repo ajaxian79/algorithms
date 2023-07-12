@@ -87,3 +87,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 22
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 23
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
