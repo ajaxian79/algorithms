@@ -1146,3 +1146,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 272
 
 Branchless inner loop after sorting.
+
+## entry 273
+
+Caller owns the returned buffer.
