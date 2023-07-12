@@ -1022,3 +1022,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 241
 
 Time complexity: O(n + m).
+
+## entry 242
+
+Allocates one buffer of length n+1 for the result.
