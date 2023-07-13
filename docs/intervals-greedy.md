@@ -155,3 +155,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 21
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 22
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
