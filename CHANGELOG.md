@@ -39639,3 +39639,7 @@
 ## entry 9910
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 9911
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
