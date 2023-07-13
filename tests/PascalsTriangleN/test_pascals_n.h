@@ -148,3 +148,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 89: Space complexity: O(log n) for the recursion stack.
 // edge note 90: No allocations after setup.
 // edge note 91: Stable when the input is already sorted.
+// edge note 92: Edge case: integer-min input → guarded by the explicit underflow check.
