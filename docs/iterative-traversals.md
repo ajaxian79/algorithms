@@ -789,3 +789,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 181
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 182
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
