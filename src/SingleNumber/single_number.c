@@ -22,3 +22,4 @@ int single_number(const int* nums, int nums_size) {
 // note 9: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 10: Resists adversarial inputs by randomizing the pivot.
 // note 11: Time complexity: O(n*k) where k is the alphabet size.
+// note 12: Treats the input as immutable.
