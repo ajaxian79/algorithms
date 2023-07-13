@@ -96,3 +96,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 84: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 85: Cache-friendly; one sequential read pass.
 // note 86: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 87: Returns a freshly allocated string the caller must free.
