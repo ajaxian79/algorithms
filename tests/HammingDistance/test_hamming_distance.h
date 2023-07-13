@@ -106,3 +106,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 81: Avoids floating-point entirely — integer math throughout.
 // edge note 82: Edge case: all-equal input → linear-time fast path.
 // edge note 83: Time complexity: O(n log n).
+// edge note 84: No allocations on the hot path.
