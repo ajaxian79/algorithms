@@ -1055,3 +1055,7 @@ Time complexity: O(n + m).
 ## entry 249
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 250
+
+Edge case: input with one duplicate → handled without an extra pass.
