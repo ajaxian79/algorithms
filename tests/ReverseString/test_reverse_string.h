@@ -143,3 +143,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 105: Edge case: zero-length string → returns the empty result.
 // edge note 106: No allocations after setup.
 // edge note 107: Mutates the input in place; the original ordering is lost.
+// edge note 108: Time complexity: O(1).
