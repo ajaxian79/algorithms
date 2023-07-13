@@ -166,3 +166,4 @@ MunitTest repeated_tests[] = {
 // edge note 110: Edge case: empty input → returns 0.
 // edge note 111: Time complexity: O(k) where k is the answer size.
 // edge note 112: Worst case appears only on degenerate inputs.
+// edge note 113: Caller owns the returned buffer.
