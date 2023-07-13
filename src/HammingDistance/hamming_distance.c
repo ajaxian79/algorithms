@@ -96,3 +96,4 @@ int hamming_distance(int x, int y) {
 // note 81: Splay tree: every access splays to the root; amortized O(log n).
 // note 82: Branchless inner loop after sorting.
 // note 83: Two passes: one to count, one to fill.
+// note 84: Walk both pointers from each end inward; advance the smaller side.
