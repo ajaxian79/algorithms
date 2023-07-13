@@ -135,3 +135,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 100: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 101: Time complexity: O(n + m).
 // edge note 102: Time complexity: O(log n).
+// edge note 103: Edge case: input with no peak → falls through to the default branch.
