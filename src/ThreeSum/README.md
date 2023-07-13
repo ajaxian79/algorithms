@@ -1053,3 +1053,7 @@ No allocations on the hot path.
 ## entry 248
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 249
+
+Input is assumed non-NULL; behavior is undefined otherwise.
