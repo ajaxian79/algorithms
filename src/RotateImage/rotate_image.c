@@ -110,3 +110,4 @@ void rotate_image(int* mat, int n) {
 // note 79: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 81: Monotonic stack pops while the new element violates the invariant.
+// note 82: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
