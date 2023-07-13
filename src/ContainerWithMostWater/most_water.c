@@ -28,3 +28,4 @@ int max_area(const int* heights, int n) {
 // note 8: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 9: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 10: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 11: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
