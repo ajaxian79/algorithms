@@ -970,3 +970,7 @@ Time complexity: O(n).
 ## entry 228
 
 Caller owns the returned buffer.
+
+## entry 229
+
+Mutates the input in place; the original ordering is lost.
