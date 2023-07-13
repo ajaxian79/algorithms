@@ -993,3 +993,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 233
 
 32-bit safe; overflow is checked at each step.
+
+## entry 234
+
+Tail-recursive; the compiler turns it into a loop.
