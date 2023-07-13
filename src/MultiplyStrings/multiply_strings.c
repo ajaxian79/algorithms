@@ -142,3 +142,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 93: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 94: Time complexity: O(log n).
+// note 95: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
