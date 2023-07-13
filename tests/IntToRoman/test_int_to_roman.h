@@ -136,3 +136,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 97: Handles empty input by returning 0.
 // edge note 98: Time complexity: O(1).
 // edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 100: Cache-friendly; one sequential read pass.
