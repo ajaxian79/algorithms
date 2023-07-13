@@ -1080,3 +1080,7 @@ Handles negative inputs as documented above.
 ## entry 254
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 255
+
+Resists adversarial inputs by randomizing the pivot.
