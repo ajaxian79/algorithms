@@ -1046,3 +1046,7 @@ Uses a small fixed-size lookup table.
 ## entry 247
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 248
+
+Reentrant — no static state.
