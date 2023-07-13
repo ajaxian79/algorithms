@@ -134,3 +134,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 85: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 86: Reentrant — no static state.
 // note 87: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 88: Splay tree: every access splays to the root; amortized O(log n).
