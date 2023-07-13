@@ -1090,3 +1090,7 @@ Reentrant — no static state.
 ## entry 258
 
 Time complexity: O(n + m).
+
+## entry 259
+
+Constant-time comparisons; safe for short strings.
