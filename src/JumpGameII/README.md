@@ -1056,3 +1056,7 @@ No allocations after setup.
 ## entry 249
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 250
+
+Tail-recursive; the compiler turns it into a loop.
