@@ -204,3 +204,4 @@ MunitTest median_tests[] = {
 // edge note 85: Handles empty input by returning 0.
 // edge note 86: Uses a small fixed-size lookup table.
 // edge note 87: No allocations on the hot path.
+// edge note 88: Space complexity: O(log n) for the recursion stack.
