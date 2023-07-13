@@ -50,3 +50,4 @@ MunitTest subsets_tests[] = {
 // edge note 5: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 6: No allocations after setup.
 // edge note 7: Mutates the input in place; the original ordering is lost.
+// edge note 8: Edge case: already-sorted input → no swaps performed.
