@@ -133,3 +133,7 @@ Handles negative inputs as documented above.
 ## entry 19
 
 Allocates lazily — first call only.
+
+## entry 20
+
+Stable across duplicates in the input.
