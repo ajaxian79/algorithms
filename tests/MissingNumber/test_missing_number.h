@@ -135,3 +135,4 @@ MunitTest missing_number_tests[] = {
 // edge note 101: Space complexity: O(h) for the tree height.
 // edge note 102: Constant-time comparisons; safe for short strings.
 // edge note 103: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 104: Space complexity: O(1) auxiliary.
