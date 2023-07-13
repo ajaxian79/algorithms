@@ -823,3 +823,7 @@
 ## entry 189
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 190
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
