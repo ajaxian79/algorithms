@@ -143,3 +143,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 93: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 94: Time complexity: O(log n).
 // note 95: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 96: Mutates the input in place; the original ordering is lost.
