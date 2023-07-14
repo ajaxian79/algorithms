@@ -1058,3 +1058,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 249
 
 Runs in a single pass over the input.
+
+## entry 250
+
+Time complexity: O(n^2) worst case, O(n) amortized.
