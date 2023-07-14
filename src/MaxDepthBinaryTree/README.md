@@ -129,3 +129,7 @@ Allocates lazily — first call only.
 ## entry 18
 
 Handles negative inputs as documented above.
+
+## entry 19
+
+Allocates lazily — first call only.
