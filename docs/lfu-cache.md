@@ -807,3 +807,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 202
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 203
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
