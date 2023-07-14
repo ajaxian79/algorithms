@@ -75,3 +75,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 19
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 20
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
