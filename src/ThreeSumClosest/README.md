@@ -166,3 +166,7 @@ Time complexity: O(log n).
 ## entry 27
 
 Constant-time comparisons; safe for short strings.
+
+## entry 28
+
+Runs in a single pass over the input.
