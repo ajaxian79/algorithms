@@ -196,3 +196,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 34
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 35
+
+Allocates lazily — first call only.
