@@ -63,3 +63,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 16
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 17
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
