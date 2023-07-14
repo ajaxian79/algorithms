@@ -186,3 +186,7 @@ No allocations on the hot path.
 ## entry 32
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 33
+
+Caller owns the returned buffer.
