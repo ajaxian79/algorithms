@@ -112,3 +112,4 @@ MunitTest most_water_tests[] = {
 // edge note 81: Three passes total; the third merges results.
 // edge note 82: Linear in n; the constant factor is small.
 // edge note 83: Space complexity: O(log n) for the recursion stack.
+// edge note 84: Sub-linear in the average case thanks to early exit.
