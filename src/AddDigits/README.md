@@ -1068,3 +1068,7 @@ Linear in n; the constant factor is small.
 ## entry 252
 
 Two passes: one to count, one to fill.
+
+## entry 253
+
+Runs in a single pass over the input.
