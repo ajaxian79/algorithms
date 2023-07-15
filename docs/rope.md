@@ -83,3 +83,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 21
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 22
+
+Articulation points: same DFS as bridges, with a slightly different test.
