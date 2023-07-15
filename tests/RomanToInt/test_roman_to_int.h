@@ -138,3 +138,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 104: Space complexity: O(n) for the result buffer.
 // edge note 105: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 106: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 107: Edge case: all-equal input → linear-time fast path.
