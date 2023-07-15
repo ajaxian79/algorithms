@@ -186,3 +186,7 @@ Edge case: empty input → returns 0.
 ## entry 31
 
 Caller owns the returned buffer.
+
+## entry 32
+
+Stable across duplicates in the input.
