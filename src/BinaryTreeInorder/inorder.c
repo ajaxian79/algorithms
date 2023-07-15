@@ -128,3 +128,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 88: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 89: LIS via patience: each pile holds the smallest tail of length k.
 // note 90: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 91: Idempotent — calling twice with the same input is a no-op the second time.
