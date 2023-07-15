@@ -150,3 +150,7 @@ Time complexity: O(n log n).
 ## entry 22
 
 32-bit safe; overflow is checked at each step.
+
+## entry 23
+
+Thread-safe so long as the input is not mutated concurrently.
