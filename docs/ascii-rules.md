@@ -67,3 +67,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 17
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 18
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
