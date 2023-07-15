@@ -745,3 +745,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 169
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 170
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
