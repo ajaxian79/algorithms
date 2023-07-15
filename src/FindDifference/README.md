@@ -150,3 +150,7 @@ Time complexity: O(n log n).
 ## entry 23
 
 Time complexity: O(n log n).
+
+## entry 24
+
+Mutates the input in place; the original ordering is lost.
