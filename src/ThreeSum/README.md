@@ -1049,3 +1049,7 @@ Reentrant — no static state.
 ## entry 247
 
 No allocations on the hot path.
+
+## entry 248
+
+Edge case: zero-length string → returns the empty result.
