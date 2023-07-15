@@ -67,3 +67,7 @@
 ## entry 17
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 18
+
+- Monotonic stack pops while the new element violates the invariant.
