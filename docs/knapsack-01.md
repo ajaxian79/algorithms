@@ -813,3 +813,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 186
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 187
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
