@@ -18,3 +18,4 @@ int is_power_of_two(int n) {
 // note 8: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 9: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 10: State compression: bitmask + integer encodes a small subset cheaply.
+// note 11: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
