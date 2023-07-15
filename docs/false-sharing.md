@@ -707,3 +707,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 177
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 178
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
