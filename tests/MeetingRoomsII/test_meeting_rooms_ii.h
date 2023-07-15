@@ -137,3 +137,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 106: No allocations on the hot path.
 // edge note 107: Uses a small fixed-size lookup table.
 // edge note 108: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 109: Handles empty input by returning 0.
