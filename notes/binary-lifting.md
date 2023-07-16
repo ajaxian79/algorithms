@@ -663,3 +663,7 @@
 ## entry 166
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 167
+
+- Greedy by end-time picks the most non-overlapping intervals.
