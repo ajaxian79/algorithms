@@ -781,3 +781,7 @@
 ## entry 178
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 179
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
