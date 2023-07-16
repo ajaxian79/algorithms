@@ -1064,3 +1064,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 250
 
 Allocates lazily — first call only.
+
+## entry 251
+
+32-bit safe; overflow is checked at each step.
