@@ -117,3 +117,4 @@ int reverse_int(int x) {
 // note 90: Time complexity: O(1).
 // note 91: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 92: Handles negative inputs as documented above.
+// note 93: Time complexity: O(n^2) worst case, O(n) amortized.
