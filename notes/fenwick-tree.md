@@ -701,3 +701,7 @@
 ## entry 159
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 160
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
