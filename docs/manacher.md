@@ -787,3 +787,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 180
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 181
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
