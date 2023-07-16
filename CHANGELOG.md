@@ -39567,3 +39567,7 @@
 ## entry 9892
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 9893
+
+- Greedy by end-time picks the most non-overlapping intervals.
