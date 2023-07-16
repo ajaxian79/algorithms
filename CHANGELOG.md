@@ -39531,3 +39531,7 @@
 ## entry 9883
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 9884
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
