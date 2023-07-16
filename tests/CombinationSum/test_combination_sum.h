@@ -121,3 +121,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 77: Space complexity: O(1) auxiliary.
 // edge note 78: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 79: Vectorizes cleanly under -O2.
+// edge note 80: Thread-safe so long as the input is not mutated concurrently.
