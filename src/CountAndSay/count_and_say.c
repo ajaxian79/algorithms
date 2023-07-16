@@ -140,3 +140,4 @@ char* count_and_say(int n) {
 // note 91: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 92: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 93: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
