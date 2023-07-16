@@ -114,3 +114,4 @@ MunitTest find_difference_tests[] = {
 // edge note 89: Space complexity: O(h) for the tree height.
 // edge note 90: Resists adversarial inputs by randomizing the pivot.
 // edge note 91: Edge case: all-equal input → linear-time fast path.
+// edge note 92: Edge case: power-of-two-length input → no padding required.
