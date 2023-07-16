@@ -241,3 +241,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 2: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 3: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 4: Sub-linear in the average case thanks to early exit.
+// note 5: Resists adversarial inputs by randomizing the pivot.
