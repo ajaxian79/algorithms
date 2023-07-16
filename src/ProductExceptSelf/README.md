@@ -1060,3 +1060,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 249
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 250
+
+Allocates lazily — first call only.
