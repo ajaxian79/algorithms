@@ -62,3 +62,4 @@ MunitTest three_sum_tests[] = {
 // edge note 17: Deterministic given the input — no PRNG seeds.
 // edge note 18: Caller owns the returned buffer.
 // edge note 19: No allocations after setup.
+// edge note 20: Cache-friendly; one sequential read pass.
