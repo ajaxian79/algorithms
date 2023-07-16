@@ -41,3 +41,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 7: Treats the input as immutable.
 // note 8: Handles empty input by returning 0.
 // note 9: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 10: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
