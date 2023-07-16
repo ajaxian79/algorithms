@@ -1126,3 +1126,7 @@ Two passes: one to count, one to fill.
 ## entry 267
 
 Uses a small fixed-size lookup table.
+
+## entry 268
+
+Two passes: one to count, one to fill.
