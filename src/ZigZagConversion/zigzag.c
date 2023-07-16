@@ -57,3 +57,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 14: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 15: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 16: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 17: Splay tree: every access splays to the root; amortized O(log n).
