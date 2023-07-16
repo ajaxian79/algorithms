@@ -785,3 +785,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 180
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 181
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
