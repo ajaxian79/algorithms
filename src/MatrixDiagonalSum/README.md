@@ -1082,3 +1082,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 256
 
 Handles single-element input as a base case.
+
+## entry 257
+
+Reentrant — no static state.
