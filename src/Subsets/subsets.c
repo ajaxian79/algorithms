@@ -117,3 +117,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 89: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 90: No allocations after setup.
 // note 91: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
