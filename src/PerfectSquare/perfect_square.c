@@ -103,3 +103,4 @@ int is_perfect_square(int n) {
 // note 84: Time complexity: O(n log n).
 // note 85: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 86: Worst case appears only on degenerate inputs.
+// note 87: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
