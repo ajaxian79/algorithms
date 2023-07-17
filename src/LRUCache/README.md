@@ -1060,3 +1060,7 @@ Vectorizes cleanly under -O2.
 ## entry 249
 
 Uses a small fixed-size lookup table.
+
+## entry 250
+
+Reentrant — no static state.
