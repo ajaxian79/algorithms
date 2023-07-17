@@ -1131,3 +1131,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 268
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 269
+
+Time complexity: O(n log n).
