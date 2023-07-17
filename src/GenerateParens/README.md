@@ -1076,3 +1076,7 @@ Time complexity: O(log n).
 ## entry 253
 
 Handles negative inputs as documented above.
+
+## entry 254
+
+Deterministic given the input — no PRNG seeds.
