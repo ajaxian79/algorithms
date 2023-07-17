@@ -134,3 +134,4 @@ MunitTest word_search_tests[] = {
 // edge note 100: Caller owns the returned array; free with a single `free`.
 // edge note 101: Reentrant — no static state.
 // edge note 102: Vectorizes cleanly under -O2.
+// edge note 103: Time complexity: O(n^2) worst case, O(n) amortized.
