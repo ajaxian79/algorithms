@@ -98,3 +98,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 81: No allocations after setup.
 // note 82: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 83: 32-bit safe; overflow is checked at each step.
+// note 84: Interval DP: solve all `[l, r]` ranges from short to long.
