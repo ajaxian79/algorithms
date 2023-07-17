@@ -687,3 +687,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 172
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 173
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
