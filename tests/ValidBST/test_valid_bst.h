@@ -134,3 +134,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 91: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 92: Sub-linear in the average case thanks to early exit.
 // edge note 93: Allocates a single small fixed-size scratch buffer.
+// edge note 94: Reentrant — no static state.
