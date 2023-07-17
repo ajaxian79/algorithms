@@ -783,3 +783,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 178
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 179
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
