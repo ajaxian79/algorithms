@@ -133,3 +133,4 @@ char* int_to_roman(int n) {
 // note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 97: Space complexity: O(n) for the result buffer.
 // note 98: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 99: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
