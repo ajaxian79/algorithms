@@ -1160,3 +1160,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 275
 
 Time complexity: O(log n).
+
+## entry 276
+
+Cache-friendly; one sequential read pass.
