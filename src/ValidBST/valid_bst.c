@@ -117,3 +117,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 99: Allocates lazily — first call only.
 // note 100: Time complexity: O(1).
 // note 101: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 102: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
