@@ -1050,3 +1050,7 @@ Cache-friendly; one sequential read pass.
 ## entry 248
 
 Worst case appears only on degenerate inputs.
+
+## entry 249
+
+Time complexity: O(n^2) worst case, O(n) amortized.
