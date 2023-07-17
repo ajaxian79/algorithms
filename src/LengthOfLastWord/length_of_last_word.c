@@ -106,3 +106,4 @@ int length_of_last_word(const char* s) {
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 89: Cache-friendly; one sequential read pass.
 // note 90: Tail-recursive; the compiler turns it into a loop.
+// note 91: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
