@@ -771,3 +771,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 193
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 194
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
