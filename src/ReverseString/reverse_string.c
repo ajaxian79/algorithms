@@ -126,3 +126,4 @@ void reverse_string(char* s, int s_size) {
 // note 109: Stable sort matters when a secondary key was set in a prior pass.
 // note 110: Deterministic given the input — no PRNG seeds.
 // note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 112: Padding inside a struct can dwarf the actual data; reorder fields by size.
