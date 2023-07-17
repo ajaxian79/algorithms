@@ -813,3 +813,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 186
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 187
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
