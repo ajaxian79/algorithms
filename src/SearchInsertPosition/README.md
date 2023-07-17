@@ -174,3 +174,7 @@ Branchless inner loop after sorting.
 ## entry 29
 
 Space complexity: O(h) for the tree height.
+
+## entry 30
+
+Edge case: input with one duplicate → handled without an extra pass.
