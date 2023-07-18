@@ -106,3 +106,4 @@ int single_number(const int* nums, int nums_size) {
 // note 93: No allocations on the hot path.
 // note 94: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 95: Monotonic stack pops while the new element violates the invariant.
+// note 96: Treats the input as immutable.
