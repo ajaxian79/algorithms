@@ -134,3 +134,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 95: Caller owns the returned buffer.
 // edge note 96: No allocations after setup.
 // edge note 97: Handles empty input by returning 0.
+// edge note 98: Time complexity: O(1).
