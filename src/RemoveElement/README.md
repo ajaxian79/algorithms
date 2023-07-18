@@ -1049,3 +1049,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 248
 
 Treats the input as immutable.
+
+## entry 249
+
+Handles empty input by returning 0.
