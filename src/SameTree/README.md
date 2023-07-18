@@ -1036,3 +1036,7 @@ Allocates lazily — first call only.
 ## entry 245
 
 Runs in a single pass over the input.
+
+## entry 246
+
+Returns a freshly allocated string the caller must free.
