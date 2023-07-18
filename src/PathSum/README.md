@@ -1060,3 +1060,7 @@ Vectorizes cleanly under -O2.
 ## entry 250
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 251
+
+Allocates one buffer of length n+1 for the result.
