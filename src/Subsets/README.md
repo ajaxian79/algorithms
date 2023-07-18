@@ -1135,3 +1135,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 269
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 270
+
+Stable when the input is already sorted.
