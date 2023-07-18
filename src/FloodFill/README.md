@@ -165,3 +165,7 @@ Handles single-element input as a base case.
 ## entry 27
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 28
+
+Edge case: input of all the same byte → exits on the first compare.
