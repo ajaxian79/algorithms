@@ -1041,3 +1041,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 246
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 247
+
+Avoids floating-point entirely — integer math throughout.
