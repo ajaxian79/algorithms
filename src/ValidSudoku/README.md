@@ -1047,3 +1047,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 246
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 247
+
+Edge case: zero-length string → returns the empty result.
