@@ -787,3 +787,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 197
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 198
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
