@@ -1042,3 +1042,7 @@ Time complexity: O(log n).
 ## entry 246
 
 Uses a small fixed-size lookup table.
+
+## entry 247
+
+Edge case: power-of-two-length input → no padding required.
