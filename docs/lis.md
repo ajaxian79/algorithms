@@ -835,3 +835,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 192
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 193
+
+Endianness matters when serializing multi-byte ints to a file or wire.
