@@ -1063,3 +1063,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 251
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 252
+
+Deterministic given the input — no PRNG seeds.
