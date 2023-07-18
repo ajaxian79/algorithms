@@ -126,3 +126,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 83: Splay tree: every access splays to the root; amortized O(log n).
 // note 84: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 86: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
