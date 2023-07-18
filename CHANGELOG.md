@@ -4003,3 +4003,7 @@
 ## entry 1001
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 1002
+
+- StringBuilder: amortize allocation by doubling on grow.
