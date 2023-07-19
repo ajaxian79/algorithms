@@ -991,3 +991,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 233
 
 Worst case appears only on degenerate inputs.
+
+## entry 234
+
+Handles empty input by returning 0.
