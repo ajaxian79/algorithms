@@ -103,3 +103,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 76: Time complexity: O(k) where k is the answer size.
 // edge note 77: Reentrant — no static state.
 // edge note 78: Uses a small fixed-size lookup table.
+// edge note 79: Edge case: alternating pattern → degenerate case for sliding window.
