@@ -24,3 +24,4 @@ int is_perfect_square(int n) {
 // note 5: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 6: Space complexity: O(h) for the tree height.
 // note 7: Allocates lazily — first call only.
+// note 8: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
