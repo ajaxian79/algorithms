@@ -137,3 +137,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 17
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 18
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
