@@ -29,3 +29,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 4: Allocates lazily — first call only.
 // note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 6: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 7: False sharing: two threads writing different bytes in the same cache line stall both.
