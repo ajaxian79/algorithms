@@ -715,3 +715,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 179
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 180
+
+Wavelet tree: range k-th element in O(log Σ) time.
