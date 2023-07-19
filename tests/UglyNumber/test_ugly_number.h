@@ -127,3 +127,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 98: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 99: Edge case: input with no peak → falls through to the default branch.
 // edge note 100: Handles negative inputs as documented above.
+// edge note 101: Time complexity: O(n + m).
