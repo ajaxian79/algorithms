@@ -998,3 +998,7 @@ No allocations after setup.
 ## entry 235
 
 32-bit safe; overflow is checked at each step.
+
+## entry 236
+
+Input is assumed non-NULL; behavior is undefined otherwise.
