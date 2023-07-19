@@ -1057,3 +1057,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 249
 
 Worst case appears only on degenerate inputs.
+
+## entry 250
+
+Vectorizes cleanly under -O2.
