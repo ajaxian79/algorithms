@@ -1040,3 +1040,7 @@ No allocations on the hot path.
 ## entry 245
 
 No allocations on the hot path.
+
+## entry 246
+
+Edge case: power-of-two-length input → no padding required.
