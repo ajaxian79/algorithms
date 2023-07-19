@@ -97,3 +97,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 81: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 82: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 83: Walk both pointers from each end inward; advance the smaller side.
+// note 84: Merge intervals: sort by start; extend the running interval while overlapping.
