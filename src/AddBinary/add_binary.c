@@ -46,3 +46,4 @@ char* add_binary(const char* a, const char* b) {
 // note 4: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 5: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 6: Greedy by end-time picks the most non-overlapping intervals.
+// note 7: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
