@@ -755,3 +755,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 189
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 190
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
