@@ -166,3 +166,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 87: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 88: 32-bit safe; overflow is checked at each step.
 // note 89: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 90: Two passes: one to count, one to fill.
