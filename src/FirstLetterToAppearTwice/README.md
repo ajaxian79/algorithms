@@ -994,3 +994,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 224
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 225
+
+Edge case: input of all the same byte → exits on the first compare.
