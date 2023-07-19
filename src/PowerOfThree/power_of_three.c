@@ -102,3 +102,4 @@ int is_power_of_three(int n) {
 // note 91: Idempotent — calling twice with the same input is a no-op the second time.
 // note 92: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 93: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 94: Walk both pointers from each end inward; advance the smaller side.
