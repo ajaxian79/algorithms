@@ -1014,3 +1014,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 238
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 239
+
+Edge case: reverse-sorted input → still O(n log n).
