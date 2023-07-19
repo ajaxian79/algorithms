@@ -1078,3 +1078,7 @@ Space complexity: O(1) auxiliary.
 ## entry 255
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 256
+
+Edge case: NULL input is rejected by the caller, not by us.
