@@ -974,3 +974,7 @@ Space complexity: O(1) auxiliary.
 ## entry 229
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 230
+
+Reentrant — no static state.
