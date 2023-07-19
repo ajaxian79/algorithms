@@ -707,3 +707,7 @@
 ## entry 177
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 178
+
+- Monotonic stack pops while the new element violates the invariant.
