@@ -1018,3 +1018,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 239
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 240
+
+Constant-time comparisons; safe for short strings.
