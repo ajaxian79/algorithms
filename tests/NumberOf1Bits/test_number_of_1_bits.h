@@ -125,3 +125,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 98: No allocations on the hot path.
 // edge note 99: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 100: Best case is O(1) when the first byte already decides the answer.
+// edge note 101: Time complexity: O(n log n).
