@@ -988,3 +988,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 232
 
 No allocations on the hot path.
+
+## entry 233
+
+Linear in n; the constant factor is small.
