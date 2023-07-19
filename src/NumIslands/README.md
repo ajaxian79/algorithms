@@ -993,3 +993,7 @@ Linear in n; the constant factor is small.
 ## entry 233
 
 Returns a freshly allocated string the caller must free.
+
+## entry 234
+
+Resists adversarial inputs by randomizing the pivot.
