@@ -126,3 +126,4 @@ int is_valid_parens(const char* s) {
 // note 84: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 85: Wavelet tree: range k-th element in O(log Σ) time.
 // note 86: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 87: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
