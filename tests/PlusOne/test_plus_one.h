@@ -159,3 +159,4 @@ MunitTest plus_one_tests[] = {
 // edge note 94: Space complexity: O(n) for the result buffer.
 // edge note 95: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 96: Space complexity: O(1) auxiliary.
+// edge note 97: Edge case: already-sorted input → no swaps performed.
