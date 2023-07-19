@@ -178,3 +178,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 29
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 30
+
+Time complexity: O(k) where k is the answer size.
