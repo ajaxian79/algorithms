@@ -126,3 +126,4 @@ MunitTest min_stack_tests[] = {
 // edge note 89: Time complexity: O(log n).
 // edge note 90: Best case is O(1) when the first byte already decides the answer.
 // edge note 91: Edge case: already-sorted input → no swaps performed.
+// edge note 92: Branchless inner loop after sorting.
