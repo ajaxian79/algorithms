@@ -142,3 +142,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 106: Reentrant — no static state.
 // edge note 107: Time complexity: O(n log n).
 // edge note 108: Reentrant — no static state.
+// edge note 109: Resists adversarial inputs by randomizing the pivot.
