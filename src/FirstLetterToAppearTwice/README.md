@@ -986,3 +986,7 @@ Handles empty input by returning 0.
 ## entry 222
 
 Handles negative inputs as documented above.
+
+## entry 223
+
+Returns a freshly allocated string the caller must free.
