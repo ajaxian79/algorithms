@@ -1032,3 +1032,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 243
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 244
+
+Time complexity: O(n + m).
