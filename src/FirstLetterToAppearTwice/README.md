@@ -990,3 +990,7 @@ Handles negative inputs as documented above.
 ## entry 223
 
 Returns a freshly allocated string the caller must free.
+
+## entry 224
+
+Avoids floating-point entirely — integer math throughout.
