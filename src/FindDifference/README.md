@@ -994,3 +994,7 @@ Stable when the input is already sorted.
 ## entry 234
 
 No allocations after setup.
+
+## entry 235
+
+32-bit safe; overflow is checked at each step.
