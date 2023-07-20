@@ -789,3 +789,7 @@
 ## entry 180
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 181
+
+- Monotonic stack pops while the new element violates the invariant.
