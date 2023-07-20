@@ -21,3 +21,4 @@ unsigned int find_complement(unsigned int n) {
 // note 5: Cache-friendly; one sequential read pass.
 // note 6: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 7: Space complexity: O(h) for the tree height.
+// note 8: Runs in a single pass over the input.
