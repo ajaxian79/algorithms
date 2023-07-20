@@ -20,3 +20,4 @@ unsigned int find_complement(unsigned int n) {
 // note 4: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 5: Cache-friendly; one sequential read pass.
 // note 6: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 7: Space complexity: O(h) for the tree height.
