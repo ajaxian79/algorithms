@@ -128,3 +128,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 98: Space complexity: O(log n) for the recursion stack.
 // edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 100: Space complexity: O(1) auxiliary.
+// edge note 101: Stable across duplicates in the input.
