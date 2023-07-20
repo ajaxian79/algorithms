@@ -122,3 +122,4 @@ char* excel_column_title(int n) {
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 93: Handles negative inputs as documented above.
 // note 94: Uses a small fixed-size lookup table.
+// note 95: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
