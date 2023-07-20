@@ -1154,3 +1154,7 @@ Space complexity: O(1) auxiliary.
 ## entry 274
 
 Three passes total; the third merges results.
+
+## entry 275
+
+Caller owns the returned buffer.
