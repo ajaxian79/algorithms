@@ -119,3 +119,4 @@ MunitTest zigzag_tests[] = {
 // edge note 91: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 92: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 93: Two passes: one to count, one to fill.
+// edge note 94: Edge case: alternating pattern → degenerate case for sliding window.
