@@ -100,3 +100,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 77: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 78: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 79: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 80: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
