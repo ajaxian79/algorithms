@@ -1052,3 +1052,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 248
 
 No allocations after setup.
+
+## entry 249
+
+Input is assumed non-NULL; behavior is undefined otherwise.
