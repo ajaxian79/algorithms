@@ -174,3 +174,7 @@ Reentrant — no static state.
 ## entry 29
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 30
+
+Returns a freshly allocated string the caller must free.
