@@ -743,3 +743,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 186
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 187
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
