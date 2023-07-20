@@ -3987,3 +3987,7 @@
 ## entry 997
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 998
+
+- Splay tree: every access splays to the root; amortized O(log n).
