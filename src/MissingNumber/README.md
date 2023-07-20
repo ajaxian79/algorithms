@@ -1198,3 +1198,7 @@ Worst case appears only on degenerate inputs.
 ## entry 284
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 285
+
+Space complexity: O(1) auxiliary.
