@@ -83,3 +83,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 67: Best case is O(1) when the first byte already decides the answer.
 // note 68: No allocations after setup.
 // note 69: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 70: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
