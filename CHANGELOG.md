@@ -39439,3 +39439,7 @@
 ## entry 9860
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 9861
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
