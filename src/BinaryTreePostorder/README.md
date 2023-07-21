@@ -1074,3 +1074,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 254
 
 Space complexity: O(1) auxiliary.
+
+## entry 255
+
+Thread-safe so long as the input is not mutated concurrently.
