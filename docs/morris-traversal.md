@@ -735,3 +735,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 169
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 170
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
