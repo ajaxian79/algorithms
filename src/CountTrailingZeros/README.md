@@ -1054,3 +1054,7 @@ Stable across duplicates in the input.
 ## entry 248
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 249
+
+Runs in a single pass over the input.
