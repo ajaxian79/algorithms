@@ -160,3 +160,7 @@ Treats the input as immutable.
 ## entry 25
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 26
+
+Edge case: single-element input → returns the element itself.
