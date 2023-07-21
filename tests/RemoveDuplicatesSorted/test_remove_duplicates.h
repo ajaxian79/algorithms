@@ -130,3 +130,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 94: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 95: Space complexity: O(n) for the result buffer.
 // edge note 96: Allocates lazily — first call only.
+// edge note 97: Edge case: input with no peak → falls through to the default branch.
