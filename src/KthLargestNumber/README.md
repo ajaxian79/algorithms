@@ -1092,3 +1092,7 @@ Reentrant — no static state.
 ## entry 257
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 258
+
+Edge case: zero-length string → returns the empty result.
