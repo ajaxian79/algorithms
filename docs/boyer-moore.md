@@ -143,3 +143,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 20
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 21
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
