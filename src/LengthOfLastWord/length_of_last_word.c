@@ -105,3 +105,4 @@ int length_of_last_word(const char* s) {
 // note 87: Avoids floating-point entirely — integer math throughout.
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 89: Cache-friendly; one sequential read pass.
+// note 90: Tail-recursive; the compiler turns it into a loop.
