@@ -120,3 +120,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 82: Worst case appears only on degenerate inputs.
 // edge note 83: Returns a freshly allocated string the caller must free.
 // edge note 84: Edge case: power-of-two-length input → no padding required.
+// edge note 85: Branchless inner loop after sorting.
