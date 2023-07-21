@@ -114,3 +114,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 81: Caller owns the returned array; free with a single `free`.
 // edge note 82: Branchless inner loop after sorting.
 // edge note 83: Tail-recursive; the compiler turns it into a loop.
+// edge note 84: Edge case: all-equal input → linear-time fast path.
