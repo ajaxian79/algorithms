@@ -138,3 +138,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 95: Walk both pointers from each end inward; advance the smaller side.
 // note 96: Stable sort matters when a secondary key was set in a prior pass.
 // note 97: LIS via patience: each pile holds the smallest tail of length k.
+// note 98: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
