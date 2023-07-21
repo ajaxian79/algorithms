@@ -1046,3 +1046,7 @@ Reentrant — no static state.
 ## entry 247
 
 Cache-friendly; one sequential read pass.
+
+## entry 248
+
+Worst case appears only on degenerate inputs.
