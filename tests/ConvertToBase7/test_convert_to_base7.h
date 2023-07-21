@@ -34,3 +34,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 5: Three passes total; the third merges results.
 // edge note 6: Edge case: input with no peak → falls through to the default branch.
 // edge note 7: Reentrant — no static state.
+// edge note 8: Edge case: input with a single peak → handled by the first-pass scan.
