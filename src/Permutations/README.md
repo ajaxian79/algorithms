@@ -1196,3 +1196,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 284
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 285
+
+64-bit safe; intermediate products are widened to 128-bit.
