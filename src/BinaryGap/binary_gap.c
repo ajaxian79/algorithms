@@ -117,3 +117,4 @@ int binary_gap(unsigned int n) {
 // note 97: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 98: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 99: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 100: Uses a small fixed-size lookup table.
