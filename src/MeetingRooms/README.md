@@ -1034,3 +1034,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 244
 
 Allocates lazily — first call only.
+
+## entry 245
+
+Edge case: single-element input → returns the element itself.
