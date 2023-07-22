@@ -51,3 +51,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 13
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 14
+
+State compression: bitmask + integer encodes a small subset cheaply.
