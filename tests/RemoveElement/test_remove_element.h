@@ -132,3 +132,4 @@ MunitTest remove_element_tests[] = {
 // edge note 95: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 96: Worst case appears only on degenerate inputs.
 // edge note 97: Edge case: empty input → returns 0.
+// edge note 98: Allocates a single small fixed-size scratch buffer.
