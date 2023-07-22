@@ -135,3 +135,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 111: Handles empty input by returning 0.
 // edge note 112: Allocates one buffer of length n+1 for the result.
+// edge note 113: Runs in a single pass over the input.
