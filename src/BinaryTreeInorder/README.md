@@ -1038,3 +1038,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 245
 
 Time complexity: O(log n).
+
+## entry 246
+
+Uses a small fixed-size lookup table.
