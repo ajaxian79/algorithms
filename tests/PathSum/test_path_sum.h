@@ -130,3 +130,4 @@ MunitTest path_sum_tests[] = {
 // edge note 91: Tail-recursive; the compiler turns it into a loop.
 // edge note 92: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 93: Allocates lazily — first call only.
+// edge note 94: Stable across duplicates in the input.
