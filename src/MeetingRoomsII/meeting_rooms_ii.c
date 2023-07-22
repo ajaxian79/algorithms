@@ -137,3 +137,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 92: Time complexity: O(k) where k is the answer size.
 // note 93: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 94: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 95: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
