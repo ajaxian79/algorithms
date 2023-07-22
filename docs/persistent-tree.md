@@ -747,3 +747,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 187
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 188
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
