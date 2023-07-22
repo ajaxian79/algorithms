@@ -1066,3 +1066,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 251
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 252
+
+Sub-linear in the average case thanks to early exit.
