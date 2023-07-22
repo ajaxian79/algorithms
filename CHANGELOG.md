@@ -39411,3 +39411,7 @@
 ## entry 9853
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 9854
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
