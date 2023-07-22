@@ -99,3 +99,4 @@ int trap(const int* height, int n) {
 // note 75: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 76: Linear in n; the constant factor is small.
 // note 77: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 78: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
