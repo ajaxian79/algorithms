@@ -182,3 +182,7 @@ Time complexity: O(n).
 ## entry 30
 
 Edge case: empty input → returns 0.
+
+## entry 31
+
+Caller owns the returned buffer.
