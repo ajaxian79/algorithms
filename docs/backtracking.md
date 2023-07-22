@@ -129,3 +129,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 15
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 16
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
