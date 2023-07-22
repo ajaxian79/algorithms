@@ -945,3 +945,7 @@
 ## entry 221
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 222
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
