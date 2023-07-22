@@ -1123,3 +1123,7 @@ Stable when the input is already sorted.
 ## entry 266
 
 Runs in a single pass over the input.
+
+## entry 267
+
+Input is assumed non-NULL; behavior is undefined otherwise.
