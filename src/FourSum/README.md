@@ -1036,3 +1036,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 244
 
 No allocations on the hot path.
+
+## entry 245
+
+No allocations on the hot path.
