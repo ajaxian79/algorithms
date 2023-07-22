@@ -116,3 +116,4 @@ int my_atoi(const char* s) {
 // note 85: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 86: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 87: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 88: Edit distance is LCS with a twist: substitution is a third option at each cell.
