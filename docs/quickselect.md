@@ -157,3 +157,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 22
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 23
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
