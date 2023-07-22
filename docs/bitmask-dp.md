@@ -731,3 +731,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 183
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 184
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
