@@ -771,3 +771,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 177
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 178
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
