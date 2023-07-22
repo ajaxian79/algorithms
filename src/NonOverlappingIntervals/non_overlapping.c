@@ -110,3 +110,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 79: Uses a small fixed-size lookup table.
 // note 80: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 81: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 82: Monotonic stack pops while the new element violates the invariant.
