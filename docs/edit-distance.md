@@ -159,3 +159,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 22
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 23
+
+In-place compaction uses two pointers: read advances always, write only on keep.
