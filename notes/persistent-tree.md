@@ -663,3 +663,7 @@
 ## entry 166
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 167
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
