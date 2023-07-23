@@ -152,3 +152,7 @@ Treats the input as immutable.
 ## entry 23
 
 Time complexity: O(n + m).
+
+## entry 24
+
+Linear in n; the constant factor is small.
