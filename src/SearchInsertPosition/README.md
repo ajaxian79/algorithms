@@ -1042,3 +1042,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 246
 
 Reentrant — no static state.
+
+## entry 247
+
+Cache-friendly; one sequential read pass.
