@@ -173,3 +173,7 @@ Three passes total; the third merges results.
 ## entry 28
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 29
+
+Branchless inner loop after sorting.
