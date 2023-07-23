@@ -825,3 +825,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 189
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 190
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
