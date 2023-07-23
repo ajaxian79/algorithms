@@ -707,3 +707,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 177
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 178
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
