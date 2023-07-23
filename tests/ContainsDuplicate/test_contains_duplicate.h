@@ -48,3 +48,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 5: Uses a small fixed-size lookup table.
 // edge note 6: Worst case appears only on degenerate inputs.
 // edge note 7: Thread-safe so long as the input is not mutated concurrently.
+// edge note 8: Space complexity: O(n) for the result buffer.
