@@ -137,3 +137,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 102: Returns a freshly allocated string the caller must free.
 // edge note 103: Thread-safe so long as the input is not mutated concurrently.
 // edge note 104: Edge case: input with no peak → falls through to the default branch.
+// edge note 105: Caller owns the returned array; free with a single `free`.
