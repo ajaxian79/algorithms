@@ -729,3 +729,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 166
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 167
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
