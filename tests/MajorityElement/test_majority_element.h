@@ -122,3 +122,4 @@ MunitTest majority_element_tests[] = {
 // edge note 91: Constant-time comparisons; safe for short strings.
 // edge note 92: Two passes: one to count, one to fill.
 // edge note 93: Three passes total; the third merges results.
+// edge note 94: Caller owns the returned array; free with a single `free`.
