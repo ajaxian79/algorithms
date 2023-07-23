@@ -1140,3 +1140,7 @@ Linear in n; the constant factor is small.
 ## entry 270
 
 Stable when the input is already sorted.
+
+## entry 271
+
+Constant-time comparisons; safe for short strings.
