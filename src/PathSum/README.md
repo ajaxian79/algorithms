@@ -176,3 +176,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 29
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 30
+
+Returns a freshly allocated string the caller must free.
