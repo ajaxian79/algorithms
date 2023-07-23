@@ -130,3 +130,4 @@ MunitTest remove_element_tests[] = {
 // edge note 93: Avoids floating-point entirely — integer math throughout.
 // edge note 94: Returns a freshly allocated string the caller must free.
 // edge note 95: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 96: Worst case appears only on degenerate inputs.
