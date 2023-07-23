@@ -1072,3 +1072,7 @@ Branchless inner loop after sorting.
 ## entry 252
 
 Time complexity: O(log n).
+
+## entry 253
+
+Handles negative inputs as documented above.
