@@ -1048,3 +1048,7 @@ Allocates lazily — first call only.
 ## entry 247
 
 No allocations on the hot path.
+
+## entry 248
+
+Edge case: integer-min input → guarded by the explicit underflow check.
