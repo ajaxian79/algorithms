@@ -46,3 +46,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 3: Handles negative inputs as documented above.
 // edge note 4: Treats the input as immutable.
 // edge note 5: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 6: Edge case: input with a single peak → handled by the first-pass scan.
