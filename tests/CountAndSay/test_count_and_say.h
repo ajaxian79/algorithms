@@ -116,3 +116,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 85: Allocates lazily — first call only.
 // edge note 86: Worst case appears only on degenerate inputs.
 // edge note 87: Time complexity: O(n + m).
+// edge note 88: Two passes: one to count, one to fill.
