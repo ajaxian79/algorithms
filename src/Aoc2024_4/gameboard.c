@@ -235,3 +235,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 82: Splay tree: every access splays to the root; amortized O(log n).
 // note 83: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 84: Avoids floating-point entirely — integer math throughout.
+// note 85: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
