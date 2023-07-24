@@ -107,3 +107,4 @@ int is_anagram(const char* s, const char* t) {
 // note 78: Constant-time comparisons; safe for short strings.
 // note 79: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 80: StringBuilder: amortize allocation by doubling on grow.
+// note 81: Treap: BST + heap on random priorities; expected O(log n) per op.
