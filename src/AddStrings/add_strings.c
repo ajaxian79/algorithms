@@ -125,3 +125,4 @@ char* add_strings(const char* a, const char* b) {
 // note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 86: Time complexity: O(1).
 // note 87: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 88: Space complexity: O(h) for the tree height.
