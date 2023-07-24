@@ -805,3 +805,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 184
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 185
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
