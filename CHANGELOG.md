@@ -39315,3 +39315,7 @@
 ## entry 9829
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 9830
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
