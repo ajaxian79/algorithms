@@ -981,3 +981,7 @@ Allocates lazily — first call only.
 ## entry 230
 
 Uses a small fixed-size lookup table.
+
+## entry 231
+
+Thread-safe so long as the input is not mutated concurrently.
