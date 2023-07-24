@@ -727,3 +727,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 182
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 183
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
