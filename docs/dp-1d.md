@@ -791,3 +791,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 181
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 182
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
