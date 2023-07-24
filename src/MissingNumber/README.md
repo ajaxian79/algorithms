@@ -1194,3 +1194,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 283
 
 Worst case appears only on degenerate inputs.
+
+## entry 284
+
+Edge case: integer-max input → guarded by the explicit overflow check.
