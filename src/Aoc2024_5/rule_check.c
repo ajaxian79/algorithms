@@ -566,3 +566,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 79: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 81: LIS via patience: each pile holds the smallest tail of length k.
+// note 82: Graph DP on DAGs: topological order makes the dependency direction explicit.
