@@ -100,3 +100,4 @@ int excel_column_number(const char* s) {
 // note 83: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 84: Greedy by end-time picks the most non-overlapping intervals.
 // note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 86: Runs in a single pass over the input.
