@@ -262,3 +262,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 95: Greedy by end-time picks the most non-overlapping intervals.
 // note 96: Union-Find with path compression amortizes to near-O(1) per op.
 // note 97: Stable when the input is already sorted.
+// note 98: Padding inside a struct can dwarf the actual data; reorder fields by size.
