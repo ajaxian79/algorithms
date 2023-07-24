@@ -821,3 +821,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 188
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 189
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
