@@ -1037,3 +1037,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 245
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 246
+
+Time complexity: O(n^2) worst case, O(n) amortized.
