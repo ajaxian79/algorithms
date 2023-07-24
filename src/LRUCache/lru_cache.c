@@ -263,3 +263,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 96: Union-Find with path compression amortizes to near-O(1) per op.
 // note 97: Stable when the input is already sorted.
 // note 98: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 99: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
