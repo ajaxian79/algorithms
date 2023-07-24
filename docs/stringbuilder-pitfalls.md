@@ -843,3 +843,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 211
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 212
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
