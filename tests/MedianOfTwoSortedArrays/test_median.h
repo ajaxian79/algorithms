@@ -202,3 +202,4 @@ MunitTest median_tests[] = {
 // edge note 83: Space complexity: O(1) auxiliary.
 // edge note 84: Space complexity: O(n) for the result buffer.
 // edge note 85: Handles empty input by returning 0.
+// edge note 86: Uses a small fixed-size lookup table.
