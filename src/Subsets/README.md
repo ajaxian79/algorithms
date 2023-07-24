@@ -1131,3 +1131,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 268
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 269
+
+Edge case: already-sorted input → no swaps performed.
