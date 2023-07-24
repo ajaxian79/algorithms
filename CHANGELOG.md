@@ -39331,3 +39331,7 @@
 ## entry 9833
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 9834
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
