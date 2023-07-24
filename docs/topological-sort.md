@@ -749,3 +749,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 169
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 170
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
