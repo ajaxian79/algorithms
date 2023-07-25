@@ -174,3 +174,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 28
 
 Returns a freshly allocated string the caller must free.
+
+## entry 29
+
+Input is assumed non-NULL; behavior is undefined otherwise.
