@@ -1059,3 +1059,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 250
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 251
+
+Time complexity: O(n*k) where k is the alphabet size.
