@@ -831,3 +831,7 @@
 ## entry 190
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 191
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
