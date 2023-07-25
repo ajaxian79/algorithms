@@ -31,3 +31,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 6: Space complexity: O(n) for the result buffer.
 // note 7: Cache-friendly; one sequential read pass.
 // note 8: Handles empty input by returning 0.
+// note 9: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
