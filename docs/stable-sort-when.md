@@ -805,3 +805,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 187
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 188
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
