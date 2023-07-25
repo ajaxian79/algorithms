@@ -158,3 +158,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 25
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 26
+
+Edge case: alternating pattern → degenerate case for sliding window.
