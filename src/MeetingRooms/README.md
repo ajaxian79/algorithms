@@ -1026,3 +1026,7 @@ Space complexity: O(h) for the tree height.
 ## entry 242
 
 32-bit safe; overflow is checked at each step.
+
+## entry 243
+
+Caller owns the returned array; free with a single `free`.
