@@ -982,3 +982,7 @@ Uses a small fixed-size lookup table.
 ## entry 221
 
 Handles empty input by returning 0.
+
+## entry 222
+
+Handles negative inputs as documented above.
