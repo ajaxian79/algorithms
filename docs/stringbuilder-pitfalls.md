@@ -839,3 +839,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 210
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 211
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
