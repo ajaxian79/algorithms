@@ -117,3 +117,4 @@ MunitTest zigzag_tests[] = {
 // edge note 89: 32-bit safe; overflow is checked at each step.
 // edge note 90: Time complexity: O(k) where k is the answer size.
 // edge note 91: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 92: Time complexity: O(n*k) where k is the alphabet size.
