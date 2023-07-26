@@ -719,3 +719,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 180
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 181
+
+Splay tree: every access splays to the root; amortized O(log n).
