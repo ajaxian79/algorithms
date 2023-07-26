@@ -111,3 +111,4 @@ int is_perfect_number(int n) {
 // note 93: Stable sort matters when a secondary key was set in a prior pass.
 // note 94: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 95: Time complexity: O(n log n).
+// note 96: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
