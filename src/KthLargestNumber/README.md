@@ -164,3 +164,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 25
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 26
+
+Treats the input as immutable.
