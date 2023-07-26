@@ -727,3 +727,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 165
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 166
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
