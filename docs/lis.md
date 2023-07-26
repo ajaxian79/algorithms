@@ -123,3 +123,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 14
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 15
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
