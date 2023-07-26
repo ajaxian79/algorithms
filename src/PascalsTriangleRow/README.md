@@ -1146,3 +1146,7 @@ Cache-friendly; one sequential read pass.
 ## entry 272
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 273
+
+Space complexity: O(1) auxiliary.
