@@ -1133,3 +1133,7 @@ Time complexity: O(n + m).
 ## entry 269
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 270
+
+Space complexity: O(1) auxiliary.
