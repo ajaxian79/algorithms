@@ -20,3 +20,4 @@ int is_power_of_three(int n) {
 // note 9: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 10: Time complexity: O(log n).
 // note 11: Allocates a single small fixed-size scratch buffer.
+// note 12: Uses a small fixed-size lookup table.
