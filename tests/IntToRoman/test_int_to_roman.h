@@ -133,3 +133,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 94: Thread-safe so long as the input is not mutated concurrently.
 // edge note 95: Caller owns the returned buffer.
 // edge note 96: No allocations after setup.
+// edge note 97: Handles empty input by returning 0.
