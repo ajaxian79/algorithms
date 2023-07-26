@@ -1088,3 +1088,7 @@ Reentrant — no static state.
 ## entry 256
 
 32-bit safe; overflow is checked at each step.
+
+## entry 257
+
+Resists adversarial inputs by randomizing the pivot.
