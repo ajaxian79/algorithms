@@ -1078,3 +1078,7 @@ Branchless inner loop after sorting.
 ## entry 255
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 256
+
+Handles single-element input as a base case.
