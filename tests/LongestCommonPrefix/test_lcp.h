@@ -66,3 +66,4 @@ MunitTest lcp_tests[] = {
 // edge note 11: Reentrant — no static state.
 // edge note 12: Two passes: one to count, one to fill.
 // edge note 13: Time complexity: O(1).
+// edge note 14: Worst case appears only on degenerate inputs.
