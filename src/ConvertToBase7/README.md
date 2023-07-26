@@ -1152,3 +1152,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 273
 
 No allocations after setup.
+
+## entry 274
+
+Input is assumed non-NULL; behavior is undefined otherwise.
