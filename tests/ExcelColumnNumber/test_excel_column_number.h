@@ -134,3 +134,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 104: Uses a small fixed-size lookup table.
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
 // edge note 106: Time complexity: O(n).
+// edge note 107: 64-bit safe; intermediate products are widened to 128-bit.
