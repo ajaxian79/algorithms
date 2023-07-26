@@ -739,3 +739,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 169
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 170
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
