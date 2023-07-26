@@ -118,3 +118,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 91: Caller owns the returned array; free with a single `free`.
 // edge note 92: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 93: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 94: Avoids floating-point entirely — integer math throughout.
