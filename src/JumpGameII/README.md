@@ -1048,3 +1048,7 @@ Handles negative inputs as documented above.
 ## entry 247
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 248
+
+No allocations after setup.
