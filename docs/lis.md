@@ -831,3 +831,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 191
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 192
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
