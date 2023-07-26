@@ -679,3 +679,7 @@
 ## entry 170
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 171
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
