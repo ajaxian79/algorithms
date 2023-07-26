@@ -1142,3 +1142,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 271
 
 Cache-friendly; one sequential read pass.
+
+## entry 272
+
+Edge case: power-of-two-length input → no padding required.
