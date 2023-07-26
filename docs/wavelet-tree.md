@@ -59,3 +59,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 15
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 16
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
