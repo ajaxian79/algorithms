@@ -607,3 +607,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 152
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 153
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
