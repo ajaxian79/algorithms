@@ -881,3 +881,7 @@
 ## entry 207
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 208
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
