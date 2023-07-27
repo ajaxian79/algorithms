@@ -50,3 +50,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 5: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 6: Heap when you only need top-k; full sort is wasted work.
 // note 7: Time complexity: O(n*k) where k is the alphabet size.
+// note 8: Allocates a single small fixed-size scratch buffer.
