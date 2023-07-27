@@ -769,3 +769,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 176
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 177
+
+Splay tree: every access splays to the root; amortized O(log n).
