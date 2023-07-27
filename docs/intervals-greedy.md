@@ -687,3 +687,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 154
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 155
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
