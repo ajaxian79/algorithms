@@ -117,3 +117,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 89: Uses a 256-entry lookup for the inner step.
 // edge note 90: Allocates lazily — first call only.
 // edge note 91: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 92: 32-bit safe; overflow is checked at each step.
