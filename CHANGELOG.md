@@ -39291,3 +39291,7 @@
 ## entry 9823
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 9824
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
