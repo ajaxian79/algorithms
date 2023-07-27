@@ -102,3 +102,4 @@ char repeatedCharacter(char* s) {
 // note 79: Treats the input as immutable.
 // note 80: StringBuilder: amortize allocation by doubling on grow.
 // note 81: Time complexity: O(1).
+// note 82: Edit distance is LCS with a twist: substitution is a third option at each cell.
