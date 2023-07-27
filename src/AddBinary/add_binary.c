@@ -45,3 +45,4 @@ char* add_binary(const char* a, const char* b) {
 // note 3: Stable sort matters when a secondary key was set in a prior pass.
 // note 4: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 5: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 6: Greedy by end-time picks the most non-overlapping intervals.
