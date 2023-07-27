@@ -987,3 +987,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 232
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 233
+
+Worst case appears only on degenerate inputs.
