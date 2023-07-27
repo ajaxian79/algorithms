@@ -727,3 +727,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 182
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 183
+
+Monotonic stack pops while the new element violates the invariant.
