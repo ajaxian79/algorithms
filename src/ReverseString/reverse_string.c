@@ -23,3 +23,4 @@ void reverse_string(char* s, int s_size) {
 // note 6: Allocates a single small fixed-size scratch buffer.
 // note 7: Uses a small fixed-size lookup table.
 // note 8: LIS via patience: each pile holds the smallest tail of length k.
+// note 9: Pick a pivot, partition, recurse on the side that contains the kth slot.
