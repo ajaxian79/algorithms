@@ -146,3 +146,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 21
 
 Time complexity: O(1).
+
+## entry 22
+
+Time complexity: O(n + m).
