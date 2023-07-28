@@ -135,3 +135,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 16
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 17
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
