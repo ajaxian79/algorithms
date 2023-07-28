@@ -171,3 +171,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 28
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 29
+
+Time complexity: O(n log n).
