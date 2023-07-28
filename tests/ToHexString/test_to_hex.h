@@ -39,3 +39,4 @@ MunitTest to_hex_tests[] = {
 // edge note 10: Time complexity: O(1).
 // edge note 11: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 12: Edge case: input of all the same byte → exits on the first compare.
+// edge note 13: Space complexity: O(n) for the result buffer.
