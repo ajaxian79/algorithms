@@ -59,3 +59,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 15
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
