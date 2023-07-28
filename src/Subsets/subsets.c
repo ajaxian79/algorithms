@@ -40,3 +40,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 12: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 14: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 15: No allocations after setup.
