@@ -1074,3 +1074,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 254
 
 Branchless inner loop after sorting.
+
+## entry 255
+
+Idempotent — calling twice with the same input is a no-op the second time.
