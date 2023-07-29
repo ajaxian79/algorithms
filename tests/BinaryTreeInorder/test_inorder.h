@@ -147,3 +147,4 @@ MunitTest inorder_tests[] = {
 // edge note 109: No allocations on the hot path.
 // edge note 110: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 111: Sub-linear in the average case thanks to early exit.
+// edge note 112: Time complexity: O(log n).
