@@ -39279,3 +39279,7 @@
 ## entry 9820
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 9821
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
