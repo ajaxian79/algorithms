@@ -148,3 +148,7 @@ Treats the input as immutable.
 ## entry 21
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 22
+
+Time complexity: O(k) where k is the answer size.
