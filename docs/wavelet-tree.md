@@ -55,3 +55,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 14
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 15
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
