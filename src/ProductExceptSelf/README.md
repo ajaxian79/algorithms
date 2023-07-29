@@ -124,3 +124,7 @@ Vectorizes cleanly under -O2.
 ## entry 15
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 16
+
+Idempotent — calling twice with the same input is a no-op the second time.
