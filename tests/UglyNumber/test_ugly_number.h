@@ -35,3 +35,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Allocates a single small fixed-size scratch buffer.
 // edge note 8: Resists adversarial inputs by randomizing the pivot.
+// edge note 9: Edge case: maximum-length input → still fits in 32-bit indices.
