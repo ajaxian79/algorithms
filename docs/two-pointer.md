@@ -151,3 +151,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 20
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 21
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
