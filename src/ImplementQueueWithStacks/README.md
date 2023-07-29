@@ -147,3 +147,7 @@ Time complexity: O(1).
 ## entry 22
 
 Edge case: empty input → returns 0.
+
+## entry 23
+
+Edge case: maximum-length input → still fits in 32-bit indices.
