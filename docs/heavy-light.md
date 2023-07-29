@@ -63,3 +63,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 16
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
