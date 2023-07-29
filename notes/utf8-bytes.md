@@ -87,3 +87,7 @@
 ## entry 22
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 23
+
+- StringBuilder: amortize allocation by doubling on grow.
