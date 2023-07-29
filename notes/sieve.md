@@ -149,3 +149,7 @@
 ## entry 23
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 24
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
