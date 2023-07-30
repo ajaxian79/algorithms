@@ -147,3 +147,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 19
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 20
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
