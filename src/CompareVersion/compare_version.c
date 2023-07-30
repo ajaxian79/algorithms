@@ -120,3 +120,4 @@ int compare_version(const char* a, const char* b) {
 // note 90: Monotonic stack pops while the new element violates the invariant.
 // note 91: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 93: Two passes: one to count, one to fill.
