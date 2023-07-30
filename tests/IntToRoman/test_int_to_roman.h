@@ -132,3 +132,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 93: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 94: Thread-safe so long as the input is not mutated concurrently.
 // edge note 95: Caller owns the returned buffer.
+// edge note 96: No allocations after setup.
