@@ -1030,3 +1030,7 @@ Handles negative inputs as documented above.
 ## entry 243
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 244
+
+Constant-time comparisons; safe for short strings.
