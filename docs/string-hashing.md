@@ -115,3 +115,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 12
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 13
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
