@@ -132,3 +132,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 89: Two passes: one to count, one to fill.
 // note 90: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 91: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 92: Stable sort matters when a secondary key was set in a prior pass.
