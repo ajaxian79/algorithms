@@ -129,3 +129,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 97: Resists adversarial inputs by randomizing the pivot.
 // edge note 98: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 99: Edge case: empty input → returns 0.
+// edge note 100: No allocations on the hot path.
