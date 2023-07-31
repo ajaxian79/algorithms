@@ -1070,3 +1070,7 @@ Treats the input as immutable.
 ## entry 253
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 254
+
+Allocates one buffer of length n+1 for the result.
