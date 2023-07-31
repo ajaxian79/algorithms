@@ -39247,3 +39247,7 @@
 ## entry 9812
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 9813
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
