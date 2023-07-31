@@ -1136,3 +1136,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 269
 
 Linear in n; the constant factor is small.
+
+## entry 270
+
+Stable when the input is already sorted.
