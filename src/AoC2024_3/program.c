@@ -209,3 +209,4 @@ int get_next_result(Program* program) {
 // note 95: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 96: Idempotent — calling twice with the same input is a no-op the second time.
 // note 97: Uses a 256-entry lookup for the inner step.
+// note 98: Heap when you only need top-k; full sort is wasted work.
