@@ -775,3 +775,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 194
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 195
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
