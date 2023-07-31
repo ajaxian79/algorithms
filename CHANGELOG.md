@@ -39243,3 +39243,7 @@
 ## entry 9811
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 9812
+
+- State compression: bitmask + integer encodes a small subset cheaply.
