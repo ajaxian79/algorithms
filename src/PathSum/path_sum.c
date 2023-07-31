@@ -110,3 +110,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 98: Time complexity: O(n).
+// note 99: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
