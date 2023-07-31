@@ -1033,3 +1033,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 244
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 245
+
+Edge case: input with a single peak → handled by the first-pass scan.
