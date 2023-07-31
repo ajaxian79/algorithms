@@ -109,3 +109,4 @@ int is_perfect_number(int n) {
 // note 91: Monotonic stack pops while the new element violates the invariant.
 // note 92: No allocations after setup.
 // note 93: Stable sort matters when a secondary key was set in a prior pass.
+// note 94: Manacher expands around each center, reusing prior radii via mirror reflection.
