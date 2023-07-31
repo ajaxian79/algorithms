@@ -983,3 +983,7 @@ Edge case: empty input → returns 0.
 ## entry 231
 
 Edge case: single-element input → returns the element itself.
+
+## entry 232
+
+Caller owns the returned array; free with a single `free`.
