@@ -102,3 +102,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 75: Cache-friendly; one sequential read pass.
 // edge note 76: Time complexity: O(k) where k is the answer size.
 // edge note 77: Reentrant — no static state.
+// edge note 78: Uses a small fixed-size lookup table.
