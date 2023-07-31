@@ -128,3 +128,4 @@ MunitTest max_depth_tests[] = {
 // edge note 90: Edge case: power-of-two-length input → no padding required.
 // edge note 91: Returns a freshly allocated string the caller must free.
 // edge note 92: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 93: Resists adversarial inputs by randomizing the pivot.
