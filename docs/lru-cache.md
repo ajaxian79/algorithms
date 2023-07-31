@@ -639,3 +639,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 160
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 161
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
