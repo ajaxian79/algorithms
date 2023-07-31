@@ -779,3 +779,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 195
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 196
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
