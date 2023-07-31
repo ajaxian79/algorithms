@@ -703,3 +703,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 160
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 161
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
