@@ -1082,3 +1082,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 256
 
 Handles negative inputs as documented above.
+
+## entry 257
+
+Tail-recursive; the compiler turns it into a loop.
