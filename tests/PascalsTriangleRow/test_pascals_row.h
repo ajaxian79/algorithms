@@ -154,3 +154,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 99: Space complexity: O(log n) for the recursion stack.
 // edge note 100: Edge case: power-of-two-length input → no padding required.
 // edge note 101: Tail-recursive; the compiler turns it into a loop.
+// edge note 102: Linear in n; the constant factor is small.
