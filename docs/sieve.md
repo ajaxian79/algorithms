@@ -763,3 +763,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 174
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 175
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
