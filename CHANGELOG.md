@@ -39239,3 +39239,7 @@
 ## entry 9810
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 9811
+
+- Stable sort matters when a secondary key was set in a prior pass.
