@@ -1070,3 +1070,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 253
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 254
+
+Branchless inner loop after sorting.
