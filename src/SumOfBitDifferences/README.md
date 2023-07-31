@@ -984,3 +984,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 231
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 232
+
+No allocations on the hot path.
