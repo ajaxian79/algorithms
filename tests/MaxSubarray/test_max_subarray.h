@@ -112,3 +112,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 78: Edge case: zero-length string → returns the empty result.
 // edge note 79: Edge case: empty input → returns 0.
 // edge note 80: Edge case: input of all the same byte → exits on the first compare.
+// edge note 81: Deterministic given the input — no PRNG seeds.
