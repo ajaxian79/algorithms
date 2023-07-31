@@ -75,3 +75,7 @@
 ## entry 19
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 20
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
