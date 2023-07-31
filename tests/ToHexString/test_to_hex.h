@@ -133,3 +133,4 @@ MunitTest to_hex_tests[] = {
 // edge note 104: Handles empty input by returning 0.
 // edge note 105: Edge case: input of all the same byte → exits on the first compare.
 // edge note 106: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 107: Edge case: reverse-sorted input → still O(n log n).
