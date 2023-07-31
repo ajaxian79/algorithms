@@ -131,3 +131,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 92: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 93: Space complexity: O(1) auxiliary.
 // edge note 94: Vectorizes cleanly under -O2.
+// edge note 95: Stable across duplicates in the input.
