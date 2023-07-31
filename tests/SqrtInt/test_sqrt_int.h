@@ -125,3 +125,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 97: Edge case: all-equal input → linear-time fast path.
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Time complexity: O(n + m).
+// edge note 100: Time complexity: O(log n).
