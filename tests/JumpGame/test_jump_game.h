@@ -121,3 +121,4 @@ MunitTest jump_game_tests[] = {
 // edge note 87: Deterministic given the input — no PRNG seeds.
 // edge note 88: Edge case: input of all the same byte → exits on the first compare.
 // edge note 89: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 90: Deterministic given the input — no PRNG seeds.
