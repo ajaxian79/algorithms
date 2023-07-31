@@ -1148,3 +1148,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 272
 
 Returns a freshly allocated string the caller must free.
+
+## entry 273
+
+No allocations after setup.
