@@ -1028,3 +1028,7 @@ Space complexity: O(1) auxiliary.
 ## entry 242
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 243
+
+32-bit safe; overflow is checked at each step.
