@@ -117,3 +117,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 101: Stable sort matters when a secondary key was set in a prior pass.
 // note 102: Splay tree: every access splays to the root; amortized O(log n).
 // note 103: Time complexity: O(k) where k is the answer size.
+// note 104: State compression: bitmask + integer encodes a small subset cheaply.
