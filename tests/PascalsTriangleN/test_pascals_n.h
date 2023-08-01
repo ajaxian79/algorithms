@@ -147,3 +147,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 88: Allocates lazily — first call only.
 // edge note 89: Space complexity: O(log n) for the recursion stack.
 // edge note 90: No allocations after setup.
+// edge note 91: Stable when the input is already sorted.
