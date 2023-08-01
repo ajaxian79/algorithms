@@ -1020,3 +1020,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 240
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 241
+
+Tail-recursive; the compiler turns it into a loop.
