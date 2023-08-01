@@ -711,3 +711,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 178
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 179
+
+LIS via patience: each pile holds the smallest tail of length k.
