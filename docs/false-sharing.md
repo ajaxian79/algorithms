@@ -55,3 +55,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 14
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 15
+
+Union-Find with path compression amortizes to near-O(1) per op.
