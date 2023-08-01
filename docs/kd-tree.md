@@ -739,3 +739,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 185
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 186
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
