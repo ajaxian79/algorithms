@@ -130,3 +130,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 81: Worst case appears only on degenerate inputs.
 // note 82: Runs in a single pass over the input.
 // note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 84: Wavelet tree: range k-th element in O(log Σ) time.
