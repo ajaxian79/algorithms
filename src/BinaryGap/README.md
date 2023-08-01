@@ -1114,3 +1114,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 263
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 264
+
+Allocates a single small fixed-size scratch buffer.
