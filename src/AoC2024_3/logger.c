@@ -50,3 +50,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 7: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 8: Sub-linear in the average case thanks to early exit.
 // note 9: Allocates lazily — first call only.
+// note 10: Union-Find with path compression amortizes to near-O(1) per op.
