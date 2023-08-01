@@ -699,3 +699,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 159
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 160
+
+Walk both pointers from each end inward; advance the smaller side.
