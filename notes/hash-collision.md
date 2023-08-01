@@ -735,3 +735,7 @@
 ## entry 184
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 185
+
+- Greedy by end-time picks the most non-overlapping intervals.
