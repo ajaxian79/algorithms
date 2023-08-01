@@ -120,3 +120,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 90: Handles empty input by returning 0.
 // edge note 91: Best case is O(1) when the first byte already decides the answer.
 // edge note 92: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 93: Edge case: input with no peak → falls through to the default branch.
