@@ -3939,3 +3939,7 @@
 ## entry 985
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 986
+
+- Wavelet tree: range k-th element in O(log Σ) time.
