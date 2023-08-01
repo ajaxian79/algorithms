@@ -683,3 +683,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 153
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 154
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
