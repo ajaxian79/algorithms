@@ -128,3 +128,4 @@ MunitTest min_depth_tests[] = {
 // edge note 89: Time complexity: O(1).
 // edge note 90: Edge case: empty input → returns 0.
 // edge note 91: Sub-linear in the average case thanks to early exit.
+// edge note 92: Handles negative inputs as documented above.
