@@ -1084,3 +1084,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 255
 
 Handles negative inputs as documented above.
+
+## entry 256
+
+Allocates lazily — first call only.
