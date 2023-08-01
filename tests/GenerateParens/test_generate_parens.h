@@ -66,3 +66,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 6: Cache-friendly; one sequential read pass.
 // edge note 7: Edge case: all-equal input → linear-time fast path.
 // edge note 8: Worst case appears only on degenerate inputs.
+// edge note 9: Edge case: integer-min input → guarded by the explicit underflow check.
