@@ -767,3 +767,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 192
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 193
+
+Merge intervals: sort by start; extend the running interval while overlapping.
