@@ -1026,3 +1026,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 242
 
 Handles negative inputs as documented above.
+
+## entry 243
+
+Edge case: reverse-sorted input → still O(n log n).
