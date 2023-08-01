@@ -729,3 +729,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 166
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 167
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
