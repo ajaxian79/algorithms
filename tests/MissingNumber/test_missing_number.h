@@ -133,3 +133,4 @@ MunitTest missing_number_tests[] = {
 // edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 100: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 101: Space complexity: O(h) for the tree height.
+// edge note 102: Constant-time comparisons; safe for short strings.
