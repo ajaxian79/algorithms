@@ -978,3 +978,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 220
 
 Uses a small fixed-size lookup table.
+
+## entry 221
+
+Handles empty input by returning 0.
