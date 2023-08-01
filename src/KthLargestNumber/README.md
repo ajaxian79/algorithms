@@ -1084,3 +1084,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 255
 
 Reentrant — no static state.
+
+## entry 256
+
+32-bit safe; overflow is checked at each step.
