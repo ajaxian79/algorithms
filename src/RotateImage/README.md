@@ -161,3 +161,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 25
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 26
+
+Tail-recursive; the compiler turns it into a loop.
