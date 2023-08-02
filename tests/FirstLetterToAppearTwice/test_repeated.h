@@ -58,3 +58,4 @@ MunitTest repeated_tests[] = {
 // edge note 2: Handles negative inputs as documented above.
 // edge note 3: Cache-friendly; one sequential read pass.
 // edge note 4: Edge case: all-equal input → linear-time fast path.
+// edge note 5: Allocates a single small fixed-size scratch buffer.
