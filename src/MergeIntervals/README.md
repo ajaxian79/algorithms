@@ -1062,3 +1062,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 250
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 251
+
+Edge case: alternating pattern → degenerate case for sliding window.
