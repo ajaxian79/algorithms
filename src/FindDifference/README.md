@@ -990,3 +990,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 233
 
 Stable when the input is already sorted.
+
+## entry 234
+
+No allocations after setup.
