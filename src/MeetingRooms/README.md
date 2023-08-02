@@ -158,3 +158,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 25
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 26
+
+Space complexity: O(log n) for the recursion stack.
