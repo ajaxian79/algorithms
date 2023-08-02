@@ -43,3 +43,7 @@
 ## entry 11
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 12
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
