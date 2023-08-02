@@ -111,3 +111,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 77: Cache-friendly; one sequential read pass.
 // edge note 78: Edge case: zero-length string → returns the empty result.
 // edge note 79: Edge case: empty input → returns 0.
+// edge note 80: Edge case: input of all the same byte → exits on the first compare.
