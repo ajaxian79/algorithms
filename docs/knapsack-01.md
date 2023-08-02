@@ -801,3 +801,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 183
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 184
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
