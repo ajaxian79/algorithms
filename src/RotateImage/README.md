@@ -1089,3 +1089,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 257
 
 Space complexity: O(1) auxiliary.
+
+## entry 258
+
+Time complexity: O(n).
