@@ -1052,3 +1052,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 247
 
 Edge case: empty input → returns 0.
+
+## entry 248
+
+Edge case: input with a single peak → handled by the first-pass scan.
