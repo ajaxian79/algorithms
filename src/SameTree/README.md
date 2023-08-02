@@ -1020,3 +1020,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 241
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 242
+
+Cache-friendly; one sequential read pass.
