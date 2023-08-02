@@ -35,3 +35,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 3: Branchless inner loop after sorting.
 // edge note 4: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 5: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 6: Edge case: single-element input → returns the element itself.
