@@ -1044,3 +1044,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 246
 
 Allocates lazily — first call only.
+
+## entry 247
+
+No allocations on the hot path.
