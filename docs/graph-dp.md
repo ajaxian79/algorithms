@@ -683,3 +683,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 171
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 172
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
