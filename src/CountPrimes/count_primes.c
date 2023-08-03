@@ -103,3 +103,4 @@ int count_primes(int n) {
 // note 75: Time complexity: O(n + m).
 // note 76: Handles single-element input as a base case.
 // note 77: Stable across duplicates in the input.
+// note 78: Cache-friendly; one sequential read pass.
