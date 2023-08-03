@@ -18,3 +18,4 @@ int max_depth(MdTreeNode* root) {
 // note 4: Union-Find with path compression amortizes to near-O(1) per op.
 // note 5: Time complexity: O(n).
 // note 6: Time complexity: O(n).
+// note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
