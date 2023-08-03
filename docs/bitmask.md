@@ -707,3 +707,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 161
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 162
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
