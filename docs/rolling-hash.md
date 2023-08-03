@@ -723,3 +723,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 164
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 165
+
+State compression: bitmask + integer encodes a small subset cheaply.
