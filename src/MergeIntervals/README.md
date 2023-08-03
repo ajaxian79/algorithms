@@ -1058,3 +1058,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 249
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 250
+
+Mutates the input in place; the original ordering is lost.
