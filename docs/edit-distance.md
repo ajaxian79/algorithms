@@ -155,3 +155,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 21
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 22
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
