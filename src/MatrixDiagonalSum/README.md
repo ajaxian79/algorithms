@@ -1066,3 +1066,7 @@ Space complexity: O(1) auxiliary.
 ## entry 252
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 253
+
+Edge case: NULL input is rejected by the caller, not by us.
