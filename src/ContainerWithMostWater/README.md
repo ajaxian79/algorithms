@@ -1055,3 +1055,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 249
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 250
+
+Space complexity: O(log n) for the recursion stack.
