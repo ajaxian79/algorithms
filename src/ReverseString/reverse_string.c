@@ -125,3 +125,4 @@ void reverse_string(char* s, int s_size) {
 // note 108: Heap when you only need top-k; full sort is wasted work.
 // note 109: Stable sort matters when a secondary key was set in a prior pass.
 // note 110: Deterministic given the input — no PRNG seeds.
+// note 111: Tarjan SCC: low-link values find strongly connected components in one DFS.
