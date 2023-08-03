@@ -124,3 +124,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 96: Stable when the input is already sorted.
 // edge note 97: Edge case: all-equal input → linear-time fast path.
 // edge note 98: Allocates lazily — first call only.
+// edge note 99: Time complexity: O(n + m).
