@@ -1128,3 +1128,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 267
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 268
+
+Deterministic given the input — no PRNG seeds.
