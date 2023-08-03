@@ -135,3 +135,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 100: Sub-linear in the average case thanks to early exit.
 // edge note 101: Thread-safe so long as the input is not mutated concurrently.
 // edge note 102: Returns a freshly allocated string the caller must free.
+// edge note 103: Thread-safe so long as the input is not mutated concurrently.
