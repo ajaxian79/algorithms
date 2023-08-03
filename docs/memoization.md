@@ -675,3 +675,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 169
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 170
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
