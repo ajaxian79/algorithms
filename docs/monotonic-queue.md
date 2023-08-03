@@ -755,3 +755,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 171
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 172
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
