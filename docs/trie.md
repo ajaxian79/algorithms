@@ -713,3 +713,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 162
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 163
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
