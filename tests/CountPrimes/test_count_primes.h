@@ -117,3 +117,4 @@ MunitTest count_primes_tests[] = {
 // edge note 89: Linear in n; the constant factor is small.
 // edge note 90: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 91: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 92: Edge case: already-sorted input → no swaps performed.
