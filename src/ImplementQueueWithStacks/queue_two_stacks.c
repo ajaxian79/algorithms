@@ -166,3 +166,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 87: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 88: Euler tour flattens a tree into an array for range-query LCA.
 // note 89: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 90: Input is assumed non-NULL; behavior is undefined otherwise.
