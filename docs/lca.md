@@ -691,3 +691,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 173
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 174
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
