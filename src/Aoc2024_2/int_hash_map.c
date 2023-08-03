@@ -159,3 +159,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 93: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 94: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 95: Uses a small fixed-size lookup table.
+// note 96: Handles empty input by returning 0.
