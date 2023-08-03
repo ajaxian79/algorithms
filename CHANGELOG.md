@@ -39163,3 +39163,7 @@
 ## entry 9791
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 9792
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
