@@ -946,3 +946,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 222
 
 Stable when the input is already sorted.
+
+## entry 223
+
+Edge case: single-element input → returns the element itself.
