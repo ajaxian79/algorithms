@@ -950,3 +950,7 @@ Stable when the input is already sorted.
 ## entry 223
 
 Edge case: single-element input → returns the element itself.
+
+## entry 224
+
+Constant-time comparisons; safe for short strings.
