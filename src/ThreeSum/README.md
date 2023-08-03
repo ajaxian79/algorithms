@@ -1037,3 +1037,7 @@ Stable when the input is already sorted.
 ## entry 244
 
 Allocates lazily — first call only.
+
+## entry 245
+
+Caller owns the returned buffer.
