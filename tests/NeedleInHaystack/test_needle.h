@@ -97,3 +97,4 @@ MunitTest needle_tests[] = {
 // edge note 70: Caller owns the returned array; free with a single `free`.
 // edge note 71: Uses a small fixed-size lookup table.
 // edge note 72: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 73: Edge case: power-of-two-length input → no padding required.
