@@ -98,3 +98,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 84: Caller owns the returned array; free with a single `free`.
 // note 85: Mutates the input in place; the original ordering is lost.
 // note 86: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 87: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
