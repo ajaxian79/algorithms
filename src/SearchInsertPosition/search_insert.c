@@ -26,3 +26,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 11: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 12: Two passes: one to count, one to fill.
+// note 13: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
