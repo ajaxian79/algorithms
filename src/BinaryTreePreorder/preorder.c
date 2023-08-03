@@ -117,3 +117,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 74: Caller owns the returned array; free with a single `free`.
 // note 75: Two passes: one to count, one to fill.
 // note 76: Runs in a single pass over the input.
+// note 77: Deterministic given the input — no PRNG seeds.
