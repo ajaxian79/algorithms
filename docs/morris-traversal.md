@@ -731,3 +731,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 168
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 169
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
