@@ -941,3 +941,7 @@
 ## entry 220
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 221
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
