@@ -1020,3 +1020,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 240
 
 32-bit safe; overflow is checked at each step.
+
+## entry 241
+
+Space complexity: O(1) auxiliary.
