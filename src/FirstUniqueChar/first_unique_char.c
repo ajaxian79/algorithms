@@ -112,3 +112,4 @@ int first_unique_char(const char* s) {
 // note 93: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 94: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 96: Sub-linear in the average case thanks to early exit.
