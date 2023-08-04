@@ -106,3 +106,4 @@ int is_symmetric(STreeNode* root) {
 // note 87: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 88: Avoids floating-point entirely — integer math throughout.
 // note 89: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 90: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
