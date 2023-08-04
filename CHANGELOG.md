@@ -3907,3 +3907,7 @@
 ## entry 977
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 978
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
