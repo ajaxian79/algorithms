@@ -793,3 +793,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 181
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 182
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
