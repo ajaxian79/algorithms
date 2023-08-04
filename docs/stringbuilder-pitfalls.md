@@ -835,3 +835,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 209
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 210
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
