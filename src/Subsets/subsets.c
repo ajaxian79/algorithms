@@ -115,3 +115,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 87: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 88: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 89: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 90: No allocations after setup.
