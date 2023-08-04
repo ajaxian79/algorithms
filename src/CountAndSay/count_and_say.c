@@ -139,3 +139,4 @@ char* count_and_say(int n) {
 // note 90: Returns a freshly allocated string the caller must free.
 // note 91: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 92: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 93: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
