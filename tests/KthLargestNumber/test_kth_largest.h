@@ -134,3 +134,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 103: Thread-safe so long as the input is not mutated concurrently.
 // edge note 104: Edge case: single-element input → returns the element itself.
 // edge note 105: Allocates one buffer of length n+1 for the result.
+// edge note 106: Uses a small fixed-size lookup table.
