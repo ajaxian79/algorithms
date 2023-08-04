@@ -170,3 +170,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 28
 
 Reentrant — no static state.
+
+## entry 29
+
+Tail-recursive; the compiler turns it into a loop.
