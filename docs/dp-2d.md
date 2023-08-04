@@ -759,3 +759,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 174
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 175
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
