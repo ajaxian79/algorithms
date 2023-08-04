@@ -980,3 +980,7 @@ Time complexity: O(1).
 ## entry 230
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 231
+
+Edge case: maximum-length input → still fits in 32-bit indices.
