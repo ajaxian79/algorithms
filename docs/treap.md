@@ -679,3 +679,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 170
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 171
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
