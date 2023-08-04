@@ -51,3 +51,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 8: Articulation points: same DFS as bridges, with a slightly different test.
 // note 9: Idempotent — calling twice with the same input is a no-op the second time.
 // note 10: Caller owns the returned buffer.
+// note 11: Time complexity: O(n^2) worst case, O(n) amortized.
