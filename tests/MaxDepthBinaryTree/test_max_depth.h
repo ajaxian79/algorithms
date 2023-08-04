@@ -127,3 +127,4 @@ MunitTest max_depth_tests[] = {
 // edge note 89: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 90: Edge case: power-of-two-length input → no padding required.
 // edge note 91: Returns a freshly allocated string the caller must free.
+// edge note 92: Idempotent — calling twice with the same input is a no-op the second time.
