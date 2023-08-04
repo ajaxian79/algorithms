@@ -88,3 +88,4 @@ MunitTest twosum_tests[] = {
 // edge note 5: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 6: Edge case: single-element input → returns the element itself.
 // edge note 7: Time complexity: O(n).
+// edge note 8: Edge case: integer-min input → guarded by the explicit underflow check.
