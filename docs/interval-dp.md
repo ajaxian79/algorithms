@@ -767,3 +767,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 192
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 193
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
