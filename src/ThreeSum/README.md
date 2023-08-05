@@ -1029,3 +1029,7 @@ Vectorizes cleanly under -O2.
 ## entry 242
 
 Branchless inner loop after sorting.
+
+## entry 243
+
+Stable when the input is already sorted.
