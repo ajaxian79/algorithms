@@ -126,3 +126,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 85: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 86: Time complexity: O(n log n).
 // note 87: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 88: Treap: BST + heap on random priorities; expected O(log n) per op.
