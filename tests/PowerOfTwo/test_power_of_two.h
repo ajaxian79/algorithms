@@ -43,3 +43,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 11: Allocates one buffer of length n+1 for the result.
 // edge note 12: Time complexity: O(n + m).
 // edge note 13: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 14: Allocates one buffer of length n+1 for the result.
