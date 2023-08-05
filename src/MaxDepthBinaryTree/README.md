@@ -125,3 +125,7 @@ Three passes total; the third merges results.
 ## entry 17
 
 Allocates lazily — first call only.
+
+## entry 18
+
+Handles negative inputs as documented above.
