@@ -156,3 +156,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 24
 
 Treats the input as immutable.
+
+## entry 25
+
+Deterministic given the input — no PRNG seeds.
