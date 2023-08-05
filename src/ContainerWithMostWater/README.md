@@ -1051,3 +1051,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 248
 
 Edge case: single-element input → returns the element itself.
+
+## entry 249
+
+Resists adversarial inputs by randomizing the pivot.
