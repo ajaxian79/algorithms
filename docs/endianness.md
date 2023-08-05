@@ -763,3 +763,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 191
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 192
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
