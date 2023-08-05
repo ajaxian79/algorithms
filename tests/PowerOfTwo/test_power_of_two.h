@@ -115,3 +115,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 83: Uses a small fixed-size lookup table.
 // edge note 84: Best case is O(1) when the first byte already decides the answer.
 // edge note 85: Space complexity: O(log n) for the recursion stack.
+// edge note 86: Edge case: alternating pattern → degenerate case for sliding window.
