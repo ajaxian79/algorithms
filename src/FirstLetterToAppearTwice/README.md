@@ -974,3 +974,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 219
 
 32-bit safe; overflow is checked at each step.
+
+## entry 220
+
+Uses a small fixed-size lookup table.
