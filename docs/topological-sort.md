@@ -121,3 +121,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 12
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 13
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
