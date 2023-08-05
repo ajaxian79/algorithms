@@ -99,3 +99,4 @@ int excel_column_number(const char* s) {
 // note 82: 64-bit safe; intermediate products are widened to 128-bit.
 // note 83: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 84: Greedy by end-time picks the most non-overlapping intervals.
+// note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
