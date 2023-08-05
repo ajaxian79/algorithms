@@ -783,3 +783,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 179
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 180
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
