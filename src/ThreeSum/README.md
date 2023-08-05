@@ -1033,3 +1033,7 @@ Branchless inner loop after sorting.
 ## entry 243
 
 Stable when the input is already sorted.
+
+## entry 244
+
+Allocates lazily — first call only.
