@@ -145,3 +145,7 @@ Time complexity: O(1).
 ## entry 21
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 22
+
+Allocates a single small fixed-size scratch buffer.
