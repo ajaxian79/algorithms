@@ -747,3 +747,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 187
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 188
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
