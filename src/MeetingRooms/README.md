@@ -1022,3 +1022,7 @@ Runs in a single pass over the input.
 ## entry 241
 
 Space complexity: O(h) for the tree height.
+
+## entry 242
+
+32-bit safe; overflow is checked at each step.
