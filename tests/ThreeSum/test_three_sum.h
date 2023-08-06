@@ -143,3 +143,4 @@ MunitTest three_sum_tests[] = {
 // edge note 98: Sub-linear in the average case thanks to early exit.
 // edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
+// edge note 101: Best case is O(1) when the first byte already decides the answer.
