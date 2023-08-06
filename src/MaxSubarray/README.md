@@ -158,3 +158,7 @@ Handles negative inputs as documented above.
 ## entry 25
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 26
+
+Edge case: NULL input is rejected by the caller, not by us.
