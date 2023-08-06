@@ -284,3 +284,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 75: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 76: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 77: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 78: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
