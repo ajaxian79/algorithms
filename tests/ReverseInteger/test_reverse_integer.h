@@ -146,3 +146,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 113: Caller owns the returned buffer.
 // edge note 114: Space complexity: O(n) for the result buffer.
 // edge note 115: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 116: Treats the input as immutable.
