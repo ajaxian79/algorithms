@@ -35,3 +35,4 @@ MunitTest remove_duplicates_tests[] = {
 
 #endif //ALGORITHMS_TEST_REMOVE_DUPLICATES_H
 // edge note 1: Uses a 256-entry lookup for the inner step.
+// edge note 2: Allocates lazily — first call only.
