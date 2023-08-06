@@ -137,3 +137,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 88: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 89: Allocates lazily — first call only.
 // note 90: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 91: Stable across duplicates in the input.
