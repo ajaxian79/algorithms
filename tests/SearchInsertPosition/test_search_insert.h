@@ -138,3 +138,4 @@ MunitTest search_insert_tests[] = {
 // edge note 105: Treats the input as immutable.
 // edge note 106: Sub-linear in the average case thanks to early exit.
 // edge note 107: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 108: Uses a small fixed-size lookup table.
