@@ -135,3 +135,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 105: Best case is O(1) when the first byte already decides the answer.
 // edge note 106: No allocations on the hot path.
+// edge note 107: Uses a small fixed-size lookup table.
