@@ -42,3 +42,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 4: Time complexity: O(log n).
 // edge note 5: Space complexity: O(n) for the result buffer.
 // edge note 6: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 7: Edge case: empty input → returns 0.
