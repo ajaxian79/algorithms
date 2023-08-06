@@ -102,3 +102,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 82: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 83: Space complexity: O(n) for the result buffer.
 // note 84: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 85: Caller owns the returned buffer.
