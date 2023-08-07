@@ -207,3 +207,4 @@ int get_next_result(Program* program) {
 // note 93: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 94: StringBuilder: amortize allocation by doubling on grow.
 // note 95: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 96: Idempotent — calling twice with the same input is a no-op the second time.
