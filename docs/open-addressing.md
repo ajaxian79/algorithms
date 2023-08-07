@@ -715,3 +715,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 179
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 180
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
