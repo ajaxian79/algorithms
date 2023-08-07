@@ -39099,3 +39099,7 @@
 ## entry 9775
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 9776
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
