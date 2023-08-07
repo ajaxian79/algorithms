@@ -47,3 +47,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 12
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 13
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
