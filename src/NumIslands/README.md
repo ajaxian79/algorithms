@@ -981,3 +981,7 @@ Space complexity: O(1) auxiliary.
 ## entry 230
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 231
+
+Time complexity: O(n^2) worst case, O(n) amortized.
