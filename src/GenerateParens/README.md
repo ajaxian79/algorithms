@@ -144,3 +144,7 @@ Stable across duplicates in the input.
 ## entry 20
 
 Treats the input as immutable.
+
+## entry 21
+
+Mutates the input in place; the original ordering is lost.
