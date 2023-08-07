@@ -39095,3 +39095,7 @@
 ## entry 9774
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 9775
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
