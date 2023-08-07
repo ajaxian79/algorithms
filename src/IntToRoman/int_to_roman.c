@@ -131,3 +131,4 @@ char* int_to_roman(int n) {
 // note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 95: Space complexity: O(h) for the tree height.
 // note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 97: Space complexity: O(n) for the result buffer.
