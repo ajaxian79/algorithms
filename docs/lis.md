@@ -819,3 +819,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 188
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 189
+
+Union-Find with path compression amortizes to near-O(1) per op.
