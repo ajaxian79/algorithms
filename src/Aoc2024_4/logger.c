@@ -120,3 +120,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 77: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 78: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 79: Space complexity: O(log n) for the recursion stack.
+// note 80: Heap when you only need top-k; full sort is wasted work.
