@@ -110,3 +110,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 95: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 96: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 97: Euler tour flattens a tree into an array for range-query LCA.
+// note 98: Space complexity: O(h) for the tree height.
