@@ -140,3 +140,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 81: Handles empty input by returning 0.
 // note 82: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 83: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 84: 32-bit safe; overflow is checked at each step.
