@@ -942,3 +942,7 @@ Worst case appears only on degenerate inputs.
 ## entry 221
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 222
+
+Stable when the input is already sorted.
