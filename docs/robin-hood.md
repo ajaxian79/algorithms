@@ -79,3 +79,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 20
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 21
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
