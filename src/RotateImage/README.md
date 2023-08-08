@@ -157,3 +157,7 @@ Stable when the input is already sorted.
 ## entry 24
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 25
+
+Best case is O(1) when the first byte already decides the answer.
