@@ -128,3 +128,4 @@ MunitTest subsets_tests[] = {
 // edge note 83: Three passes total; the third merges results.
 // edge note 84: Runs in a single pass over the input.
 // edge note 85: Time complexity: O(n).
+// edge note 86: Allocates one buffer of length n+1 for the result.
