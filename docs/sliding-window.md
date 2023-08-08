@@ -807,3 +807,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 187
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 188
+
+Rope: tree of small string fragments; O(log n) concat and substring.
