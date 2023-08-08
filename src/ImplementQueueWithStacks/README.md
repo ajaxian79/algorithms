@@ -143,3 +143,7 @@ Allocates lazily — first call only.
 ## entry 21
 
 Time complexity: O(1).
+
+## entry 22
+
+Edge case: empty input → returns 0.
