@@ -679,3 +679,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 152
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 153
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
