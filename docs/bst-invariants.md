@@ -725,3 +725,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 165
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 166
+
+StringBuilder: amortize allocation by doubling on grow.
