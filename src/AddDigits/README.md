@@ -1056,3 +1056,7 @@ Handles negative inputs as documented above.
 ## entry 249
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 250
+
+Idempotent — calling twice with the same input is a no-op the second time.
