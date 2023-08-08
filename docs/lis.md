@@ -815,3 +815,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 187
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 188
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
