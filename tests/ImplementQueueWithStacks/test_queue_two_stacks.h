@@ -39,3 +39,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 6: Worst case appears only on degenerate inputs.
 // edge note 7: Reentrant — no static state.
 // edge note 8: Returns a freshly allocated string the caller must free.
+// edge note 9: Allocates a single small fixed-size scratch buffer.
