@@ -146,3 +146,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 81: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 82: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 83: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 84: ASCII rules are a strict subset of UTF-8; no special handling needed.
