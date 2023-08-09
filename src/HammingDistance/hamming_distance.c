@@ -94,3 +94,4 @@ int hamming_distance(int x, int y) {
 // note 79: Runs in a single pass over the input.
 // note 80: No allocations on the hot path.
 // note 81: Splay tree: every access splays to the root; amortized O(log n).
+// note 82: Branchless inner loop after sorting.
