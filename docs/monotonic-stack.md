@@ -689,3 +689,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 156
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 157
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
