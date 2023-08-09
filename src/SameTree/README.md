@@ -1016,3 +1016,7 @@ Runs in a single pass over the input.
 ## entry 240
 
 Constant-time comparisons; safe for short strings.
+
+## entry 241
+
+Edge case: alternating pattern → degenerate case for sliding window.
