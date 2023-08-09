@@ -1087,3 +1087,7 @@ Uses a small fixed-size lookup table.
 ## entry 256
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 257
+
+Edge case: integer-min input → guarded by the explicit underflow check.
