@@ -982,3 +982,7 @@ No allocations after setup.
 ## entry 231
 
 Uses a small fixed-size lookup table.
+
+## entry 232
+
+Edge case: already-sorted input → no swaps performed.
