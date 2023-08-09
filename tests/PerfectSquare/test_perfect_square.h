@@ -124,3 +124,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 93: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 94: Treats the input as immutable.
 // edge note 95: Time complexity: O(log n).
+// edge note 96: 32-bit safe; overflow is checked at each step.
