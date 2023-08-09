@@ -106,3 +106,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 74: Cache-friendly; one sequential read pass.
 // edge note 75: Vectorizes cleanly under -O2.
 // edge note 76: Caller owns the returned buffer.
+// edge note 77: Space complexity: O(n) for the result buffer.
