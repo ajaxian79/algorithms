@@ -170,3 +170,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 28
 
 Three passes total; the third merges results.
+
+## entry 29
+
+Thread-safe so long as the input is not mutated concurrently.
