@@ -163,3 +163,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 26
 
 Linear in n; the constant factor is small.
+
+## entry 27
+
+Edge case: all-equal input → linear-time fast path.
