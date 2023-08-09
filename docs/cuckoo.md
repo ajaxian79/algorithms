@@ -67,3 +67,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 17
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 18
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
