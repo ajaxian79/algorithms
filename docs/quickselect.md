@@ -789,3 +789,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 180
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 181
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
