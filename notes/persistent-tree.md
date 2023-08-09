@@ -659,3 +659,7 @@
 ## entry 165
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 166
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
