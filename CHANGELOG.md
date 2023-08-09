@@ -39051,3 +39051,7 @@
 ## entry 9763
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 9764
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
