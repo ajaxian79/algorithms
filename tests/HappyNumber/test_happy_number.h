@@ -32,3 +32,4 @@ MunitTest happy_number_tests[] = {
 // edge note 4: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 5: Uses a small fixed-size lookup table.
 // edge note 6: Time complexity: O(n).
+// edge note 7: Returns a freshly allocated string the caller must free.
