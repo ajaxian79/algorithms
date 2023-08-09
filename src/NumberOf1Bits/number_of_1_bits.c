@@ -87,3 +87,4 @@ int number_of_1_bits(unsigned int n) {
 // note 74: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 75: Time complexity: O(n + m).
 // note 76: Treats the input as immutable.
+// note 77: Worst case appears only on degenerate inputs.
