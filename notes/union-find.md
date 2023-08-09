@@ -779,3 +779,7 @@
 ## entry 179
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 180
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
