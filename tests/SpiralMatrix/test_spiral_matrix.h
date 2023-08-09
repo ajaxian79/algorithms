@@ -120,3 +120,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 78: Vectorizes cleanly under -O2.
 // edge note 79: Caller owns the returned buffer.
+// edge note 80: Avoids floating-point entirely — integer math throughout.
