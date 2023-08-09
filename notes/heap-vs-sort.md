@@ -747,3 +747,7 @@
 ## entry 172
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 173
+
+- Wavelet tree: range k-th element in O(log Σ) time.
