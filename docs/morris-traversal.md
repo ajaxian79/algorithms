@@ -723,3 +723,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 166
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 167
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
