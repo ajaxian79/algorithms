@@ -61,3 +61,4 @@ MunitTest three_sum_tests[] = {
 // edge note 16: Allocates lazily — first call only.
 // edge note 17: Deterministic given the input — no PRNG seeds.
 // edge note 18: Caller owns the returned buffer.
+// edge note 19: No allocations after setup.
