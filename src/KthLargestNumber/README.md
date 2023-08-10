@@ -152,3 +152,7 @@ Two passes: one to count, one to fill.
 ## entry 22
 
 Space complexity: O(n) for the result buffer.
+
+## entry 23
+
+Best case is O(1) when the first byte already decides the answer.
