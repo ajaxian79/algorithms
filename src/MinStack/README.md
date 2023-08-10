@@ -1038,3 +1038,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 245
 
 Space complexity: O(h) for the tree height.
+
+## entry 246
+
+Edge case: input with a single peak → handled by the first-pass scan.
