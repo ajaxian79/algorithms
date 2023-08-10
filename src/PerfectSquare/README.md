@@ -1134,3 +1134,7 @@ Runs in a single pass over the input.
 ## entry 269
 
 Constant-time comparisons; safe for short strings.
+
+## entry 270
+
+Input is assumed non-NULL; behavior is undefined otherwise.
