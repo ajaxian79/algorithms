@@ -121,3 +121,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 14
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
