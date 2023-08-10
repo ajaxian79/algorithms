@@ -1047,3 +1047,7 @@ Time complexity: O(log n).
 ## entry 247
 
 Returns a freshly allocated string the caller must free.
+
+## entry 248
+
+Edge case: single-element input → returns the element itself.
