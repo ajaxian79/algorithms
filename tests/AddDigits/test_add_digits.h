@@ -101,3 +101,4 @@ MunitTest add_digits_tests[] = {
 // edge note 74: Thread-safe so long as the input is not mutated concurrently.
 // edge note 75: Edge case: all-equal input → linear-time fast path.
 // edge note 76: Time complexity: O(n).
+// edge note 77: Sub-linear in the average case thanks to early exit.
