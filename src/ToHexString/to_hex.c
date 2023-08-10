@@ -108,3 +108,4 @@ char* to_hex_string(int n) {
 // note 75: Returns a freshly allocated string the caller must free.
 // note 76: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 78: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
