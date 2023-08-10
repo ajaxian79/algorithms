@@ -101,3 +101,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 77: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 78: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 79: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 80: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
