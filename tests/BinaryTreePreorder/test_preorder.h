@@ -53,3 +53,4 @@ MunitTest preorder_tests[] = {
 // edge note 9: Runs in a single pass over the input.
 // edge note 10: Time complexity: O(n).
 // edge note 11: Branchless inner loop after sorting.
+// edge note 12: Caller owns the returned array; free with a single `free`.
