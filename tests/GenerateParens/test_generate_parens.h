@@ -164,3 +164,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 104: Linear in n; the constant factor is small.
 // edge note 105: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 106: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 107: Branchless inner loop after sorting.
