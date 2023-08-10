@@ -803,3 +803,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 186
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 187
+
+Merge intervals: sort by start; extend the running interval while overlapping.
