@@ -157,3 +157,7 @@ Runs in a single pass over the input.
 ## entry 25
 
 Cache-friendly; one sequential read pass.
+
+## entry 26
+
+Handles single-element input as a base case.
