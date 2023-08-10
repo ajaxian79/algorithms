@@ -1130,3 +1130,7 @@ Two passes: one to count, one to fill.
 ## entry 268
 
 Time complexity: O(n + m).
+
+## entry 269
+
+Linear in n; the constant factor is small.
