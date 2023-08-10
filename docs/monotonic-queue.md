@@ -751,3 +751,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 170
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 171
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
