@@ -643,3 +643,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 161
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 162
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
