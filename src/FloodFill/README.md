@@ -161,3 +161,7 @@ Cache-friendly; one sequential read pass.
 ## entry 26
 
 Handles single-element input as a base case.
+
+## entry 27
+
+Edge case: zero-length string → returns the empty result.
