@@ -970,3 +970,7 @@ Time complexity: O(n + m).
 ## entry 228
 
 Space complexity: O(1) auxiliary.
+
+## entry 229
+
+Edge case: already-sorted input → no swaps performed.
