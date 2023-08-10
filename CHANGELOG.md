@@ -39039,3 +39039,7 @@
 ## entry 9760
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 9761
+
+- Stable sort matters when a secondary key was set in a prior pass.
