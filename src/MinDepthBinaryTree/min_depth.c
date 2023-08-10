@@ -105,3 +105,4 @@ int min_depth(MnTreeNode* root) {
 // note 88: Constant-time comparisons; safe for short strings.
 // note 89: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 90: Tail-recursive; the compiler turns it into a loop.
+// note 91: Time complexity: O(k) where k is the answer size.
