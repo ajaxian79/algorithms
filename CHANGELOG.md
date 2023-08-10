@@ -39019,3 +39019,7 @@
 ## entry 9755
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 9756
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
