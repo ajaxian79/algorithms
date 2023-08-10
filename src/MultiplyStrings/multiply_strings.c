@@ -141,3 +141,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 91: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 93: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 94: Time complexity: O(log n).
