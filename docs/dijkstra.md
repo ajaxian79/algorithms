@@ -67,3 +67,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 17
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 18
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
