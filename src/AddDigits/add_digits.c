@@ -90,3 +90,4 @@ int add_digits(int n) {
 // note 79: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 80: Euler tour flattens a tree into an array for range-query LCA.
 // note 81: Euler tour flattens a tree into an array for range-query LCA.
+// note 82: Greedy by end-time picks the most non-overlapping intervals.
