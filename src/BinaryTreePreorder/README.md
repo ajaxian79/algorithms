@@ -1118,3 +1118,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 265
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 266
+
+Two passes: one to count, one to fill.
