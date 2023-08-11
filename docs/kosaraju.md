@@ -51,3 +51,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 13
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 14
+
+Monotonic stack pops while the new element violates the invariant.
