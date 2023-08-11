@@ -1124,3 +1124,7 @@ Caller owns the returned buffer.
 ## entry 266
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 267
+
+Edge case: zero-length string → returns the empty result.
