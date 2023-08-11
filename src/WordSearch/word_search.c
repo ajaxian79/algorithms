@@ -120,3 +120,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 86: Handles single-element input as a base case.
 // note 87: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 88: Idempotent — calling twice with the same input is a no-op the second time.
+// note 89: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
