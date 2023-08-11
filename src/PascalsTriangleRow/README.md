@@ -150,3 +150,7 @@ Space complexity: O(h) for the tree height.
 ## entry 23
 
 Caller owns the returned buffer.
+
+## entry 24
+
+Edge case: input with no peak → falls through to the default branch.
