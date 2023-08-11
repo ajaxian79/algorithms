@@ -138,3 +138,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 109: Branchless inner loop after sorting.
 // edge note 110: Branchless inner loop after sorting.
 // edge note 111: Treats the input as immutable.
+// edge note 112: Time complexity: O(n).
