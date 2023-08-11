@@ -771,3 +771,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 193
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 194
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
