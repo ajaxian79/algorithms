@@ -95,3 +95,4 @@ int max_depth(MdTreeNode* root) {
 // note 81: Thread-safe so long as the input is not mutated concurrently.
 // note 82: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 83: Linear in n; the constant factor is small.
+// note 84: Union-Find with path compression amortizes to near-O(1) per op.
