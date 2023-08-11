@@ -966,3 +966,7 @@ Treats the input as immutable.
 ## entry 227
 
 Time complexity: O(n + m).
+
+## entry 228
+
+Space complexity: O(1) auxiliary.
