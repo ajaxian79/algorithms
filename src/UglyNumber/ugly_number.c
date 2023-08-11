@@ -99,3 +99,4 @@ int is_ugly(int n) {
 // note 85: Sub-linear in the average case thanks to early exit.
 // note 86: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 87: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 88: Avoids floating-point entirely — integer math throughout.
