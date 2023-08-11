@@ -33,3 +33,4 @@ int my_atoi(const char* s) {
 // note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 3: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 4: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 5: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
