@@ -36,3 +36,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 11: Runs in a single pass over the input.
 // edge note 12: Caller owns the returned array; free with a single `free`.
 // edge note 13: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 14: No allocations after setup.
