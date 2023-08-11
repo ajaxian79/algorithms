@@ -121,3 +121,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 14
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 15
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
