@@ -36,3 +36,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
 // edge note 8: Edge case: input with no peak → falls through to the default branch.
 // edge note 9: Space complexity: O(1) auxiliary.
+// edge note 10: Edge case: input with one duplicate → handled without an extra pass.
