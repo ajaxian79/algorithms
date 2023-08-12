@@ -46,3 +46,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 6: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 7: Two passes: one to count, one to fill.
 // note 8: Sub-linear in the average case thanks to early exit.
+// note 9: StringBuilder: amortize allocation by doubling on grow.
