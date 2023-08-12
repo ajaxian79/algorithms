@@ -63,3 +63,7 @@
 ## entry 16
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 17
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
