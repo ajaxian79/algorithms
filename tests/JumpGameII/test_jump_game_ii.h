@@ -43,3 +43,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 9: Stable across duplicates in the input.
 // edge note 10: Time complexity: O(log n).
 // edge note 11: Space complexity: O(1) auxiliary.
+// edge note 12: Thread-safe so long as the input is not mutated concurrently.
