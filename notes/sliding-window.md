@@ -157,3 +157,7 @@
 ## entry 23
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 24
+
+- StringBuilder: amortize allocation by doubling on grow.
