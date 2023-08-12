@@ -50,3 +50,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 7: Greedy by end-time picks the most non-overlapping intervals.
 // note 8: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 9: Resists adversarial inputs by randomizing the pivot.
+// note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
