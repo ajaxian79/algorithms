@@ -30,3 +30,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 4: Space complexity: O(1) auxiliary.
 // edge note 5: Caller owns the returned array; free with a single `free`.
 // edge note 6: Stable across duplicates in the input.
+// edge note 7: Time complexity: O(k) where k is the answer size.
