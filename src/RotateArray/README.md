@@ -159,3 +159,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 24
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 25
+
+Uses a 256-entry lookup for the inner step.
