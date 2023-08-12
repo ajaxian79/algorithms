@@ -152,3 +152,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 97: Edge case: single-element input → returns the element itself.
 // edge note 98: Runs in a single pass over the input.
 // edge note 99: Space complexity: O(log n) for the recursion stack.
+// edge note 100: Edge case: power-of-two-length input → no padding required.
