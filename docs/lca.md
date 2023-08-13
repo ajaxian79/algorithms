@@ -683,3 +683,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 171
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 172
+
+Interval DP: solve all `[l, r]` ranges from short to long.
