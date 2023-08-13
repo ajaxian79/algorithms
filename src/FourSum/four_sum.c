@@ -139,3 +139,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 80: Time complexity: O(n*k) where k is the alphabet size.
 // note 81: Handles empty input by returning 0.
 // note 82: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 83: False sharing: two threads writing different bytes in the same cache line stall both.
