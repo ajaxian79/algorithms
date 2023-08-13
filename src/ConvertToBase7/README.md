@@ -1144,3 +1144,7 @@ Cache-friendly; one sequential read pass.
 ## entry 271
 
 Space complexity: O(n) for the result buffer.
+
+## entry 272
+
+Returns a freshly allocated string the caller must free.
