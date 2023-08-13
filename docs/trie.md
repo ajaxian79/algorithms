@@ -149,3 +149,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 21
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 22
+
+Endianness matters when serializing multi-byte ints to a file or wire.
