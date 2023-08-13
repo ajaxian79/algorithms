@@ -107,3 +107,4 @@ char* to_hex_string(int n) {
 // note 74: LIS via patience: each pile holds the smallest tail of length k.
 // note 75: Returns a freshly allocated string the caller must free.
 // note 76: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
