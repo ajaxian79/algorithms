@@ -234,3 +234,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 82: Splay tree: every access splays to the root; amortized O(log n).
 // note 83: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 84: Avoids floating-point entirely — integer math throughout.
