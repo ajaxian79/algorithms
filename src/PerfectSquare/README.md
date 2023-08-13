@@ -1130,3 +1130,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 268
 
 Runs in a single pass over the input.
+
+## entry 269
+
+Constant-time comparisons; safe for short strings.
