@@ -739,3 +739,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 185
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 186
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
