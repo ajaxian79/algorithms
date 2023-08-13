@@ -71,3 +71,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 18
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 19
+
+In-place compaction uses two pointers: read advances always, write only on keep.
