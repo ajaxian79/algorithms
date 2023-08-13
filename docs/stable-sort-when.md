@@ -797,3 +797,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 185
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 186
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
