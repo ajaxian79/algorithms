@@ -1106,3 +1106,7 @@ Time complexity: O(n).
 ## entry 261
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 262
+
+Edge case: single-element input → returns the element itself.
