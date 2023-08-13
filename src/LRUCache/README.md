@@ -1048,3 +1048,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 246
 
 Uses a small fixed-size lookup table.
+
+## entry 247
+
+Tail-recursive; the compiler turns it into a loop.
