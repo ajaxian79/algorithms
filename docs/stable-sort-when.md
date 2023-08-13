@@ -793,3 +793,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 184
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 185
+
+StringBuilder: amortize allocation by doubling on grow.
