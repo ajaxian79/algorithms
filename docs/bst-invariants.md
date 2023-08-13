@@ -721,3 +721,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 164
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 165
+
+Splay tree: every access splays to the root; amortized O(log n).
