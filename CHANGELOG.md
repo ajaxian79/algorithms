@@ -38991,3 +38991,7 @@
 ## entry 9748
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 9749
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
