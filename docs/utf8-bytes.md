@@ -643,3 +643,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 161
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 162
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
