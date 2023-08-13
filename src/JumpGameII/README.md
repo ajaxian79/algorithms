@@ -1040,3 +1040,7 @@ Vectorizes cleanly under -O2.
 ## entry 245
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 246
+
+Handles negative inputs as documented above.
