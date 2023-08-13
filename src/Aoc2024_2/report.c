@@ -217,3 +217,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 8: Linear in n; the constant factor is small.
 // note 9: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 10: Treats the input as immutable.
+// note 11: Time complexity: O(n).
