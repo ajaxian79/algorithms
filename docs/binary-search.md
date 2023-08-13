@@ -817,3 +817,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 188
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 189
+
+Splay tree: every access splays to the root; amortized O(log n).
