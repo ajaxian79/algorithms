@@ -150,3 +150,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 110: Stable across duplicates in the input.
 // edge note 111: Stable when the input is already sorted.
 // edge note 112: Uses a 256-entry lookup for the inner step.
+// edge note 113: Edge case: already-sorted input → no swaps performed.
