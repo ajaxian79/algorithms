@@ -166,3 +166,7 @@ Worst case appears only on degenerate inputs.
 ## entry 27
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 28
+
+Three passes total; the third merges results.
