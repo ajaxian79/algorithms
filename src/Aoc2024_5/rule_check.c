@@ -564,3 +564,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 77: Handles empty input by returning 0.
 // note 78: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 79: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
