@@ -125,3 +125,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 82: Time complexity: O(n + m).
 // note 83: Splay tree: every access splays to the root; amortized O(log n).
 // note 84: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
