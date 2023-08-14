@@ -813,3 +813,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 187
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 188
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
