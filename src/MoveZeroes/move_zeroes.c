@@ -96,3 +96,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 79: Uses a small fixed-size lookup table.
 // note 80: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 81: No allocations after setup.
+// note 82: Time complexity: O(n^2) worst case, O(n) amortized.
