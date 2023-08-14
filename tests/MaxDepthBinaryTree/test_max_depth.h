@@ -126,3 +126,4 @@ MunitTest max_depth_tests[] = {
 // edge note 88: Caller owns the returned array; free with a single `free`.
 // edge note 89: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 90: Edge case: power-of-two-length input → no padding required.
+// edge note 91: Returns a freshly allocated string the caller must free.
