@@ -1126,3 +1126,7 @@ Caller owns the returned buffer.
 ## entry 267
 
 Two passes: one to count, one to fill.
+
+## entry 268
+
+Time complexity: O(n + m).
