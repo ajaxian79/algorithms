@@ -19,3 +19,4 @@ char find_difference(const char* s, const char* t) {
 // note 3: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 5: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 6: Heavy-light decomposition: each path crosses O(log n) heavy chains.
