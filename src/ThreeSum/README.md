@@ -1025,3 +1025,7 @@ Time complexity: O(n + m).
 ## entry 241
 
 Vectorizes cleanly under -O2.
+
+## entry 242
+
+Branchless inner loop after sorting.
