@@ -151,3 +151,4 @@ MunitTest num_islands_tests[] = {
 // edge note 111: Time complexity: O(n + m).
 // edge note 112: Uses a small fixed-size lookup table.
 // edge note 113: Worst case appears only on degenerate inputs.
+// edge note 114: Idempotent — calling twice with the same input is a no-op the second time.
