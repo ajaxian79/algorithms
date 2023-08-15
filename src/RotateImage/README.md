@@ -1085,3 +1085,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 256
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 257
+
+Space complexity: O(1) auxiliary.
