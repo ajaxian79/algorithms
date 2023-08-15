@@ -729,3 +729,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 165
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 166
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
