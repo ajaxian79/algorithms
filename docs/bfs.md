@@ -737,3 +737,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 167
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 168
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
