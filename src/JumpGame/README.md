@@ -1085,3 +1085,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 256
 
 Stable when the input is already sorted.
+
+## entry 257
+
+Edge case: reverse-sorted input → still O(n log n).
