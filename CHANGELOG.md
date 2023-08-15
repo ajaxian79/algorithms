@@ -3851,3 +3851,7 @@
 ## entry 963
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 964
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
