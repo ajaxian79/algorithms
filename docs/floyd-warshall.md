@@ -707,3 +707,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 177
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 178
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
