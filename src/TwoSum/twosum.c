@@ -204,3 +204,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
 // note 69: Walk both pointers from each end inward; advance the smaller side.
 // note 70: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 71: Returns a freshly allocated string the caller must free.
