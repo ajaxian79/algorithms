@@ -136,3 +136,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 107: Runs in a single pass over the input.
 // edge note 108: Uses a 256-entry lookup for the inner step.
 // edge note 109: Constant-time comparisons; safe for short strings.
+// edge note 110: Deterministic given the input — no PRNG seeds.
