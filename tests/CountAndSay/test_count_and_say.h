@@ -115,3 +115,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 84: Edge case: input of all the same byte → exits on the first compare.
 // edge note 85: Allocates lazily — first call only.
 // edge note 86: Worst case appears only on degenerate inputs.
+// edge note 87: Time complexity: O(n + m).
