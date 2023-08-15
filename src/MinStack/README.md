@@ -1034,3 +1034,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 244
 
 Returns a freshly allocated string the caller must free.
+
+## entry 245
+
+Space complexity: O(h) for the tree height.
