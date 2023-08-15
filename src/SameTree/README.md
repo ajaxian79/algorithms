@@ -1012,3 +1012,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 239
 
 Runs in a single pass over the input.
+
+## entry 240
+
+Constant-time comparisons; safe for short strings.
