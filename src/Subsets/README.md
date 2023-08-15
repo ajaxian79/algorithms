@@ -1119,3 +1119,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 265
 
 Time complexity: O(n).
+
+## entry 266
+
+Edge case: maximum-length input → still fits in 32-bit indices.
