@@ -17,3 +17,4 @@ int is_power_of_two(int n) {
 // note 7: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 8: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 9: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 10: State compression: bitmask + integer encodes a small subset cheaply.
