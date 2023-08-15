@@ -139,3 +139,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 20
 
 Allocates lazily — first call only.
+
+## entry 21
+
+Time complexity: O(1).
