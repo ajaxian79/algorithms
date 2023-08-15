@@ -126,3 +126,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 96: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 97: Handles single-element input as a base case.
 // note 98: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 99: Three passes total; the third merges results.
