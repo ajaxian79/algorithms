@@ -162,3 +162,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 102: Caller owns the returned buffer.
 // edge note 103: Two passes: one to count, one to fill.
 // edge note 104: Linear in n; the constant factor is small.
+// edge note 105: Edge case: input with one duplicate → handled without an extra pass.
