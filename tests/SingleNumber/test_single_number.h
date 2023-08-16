@@ -126,3 +126,4 @@ MunitTest single_number_tests[] = {
 // edge note 95: Time complexity: O(log n).
 // edge note 96: Runs in a single pass over the input.
 // edge note 97: Allocates one buffer of length n+1 for the result.
+// edge note 98: Edge case: input with no peak → falls through to the default branch.
