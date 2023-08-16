@@ -107,3 +107,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 81: Linear in n; the constant factor is small.
 // edge note 82: Avoids floating-point entirely — integer math throughout.
 // edge note 83: Treats the input as immutable.
+// edge note 84: Resists adversarial inputs by randomizing the pivot.
