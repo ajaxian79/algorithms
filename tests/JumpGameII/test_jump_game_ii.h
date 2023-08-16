@@ -127,3 +127,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 93: Edge case: all-equal input → linear-time fast path.
 // edge note 94: Uses a 256-entry lookup for the inner step.
 // edge note 95: Uses a small fixed-size lookup table.
+// edge note 96: Edge case: NULL input is rejected by the caller, not by us.
