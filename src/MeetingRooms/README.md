@@ -1018,3 +1018,7 @@ Reentrant — no static state.
 ## entry 240
 
 Runs in a single pass over the input.
+
+## entry 241
+
+Space complexity: O(h) for the tree height.
