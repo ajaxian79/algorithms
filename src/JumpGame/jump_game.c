@@ -94,3 +94,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 78: Monotonic stack pops while the new element violates the invariant.
 // note 79: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 80: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 81: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
