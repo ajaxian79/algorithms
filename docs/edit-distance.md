@@ -839,3 +839,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 192
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 193
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
