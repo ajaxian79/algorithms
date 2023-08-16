@@ -93,3 +93,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 77: Cache-friendly; one sequential read pass.
 // note 78: Monotonic stack pops while the new element violates the invariant.
 // note 79: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 80: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
