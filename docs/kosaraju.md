@@ -783,3 +783,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 196
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 197
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
