@@ -994,3 +994,7 @@ Vectorizes cleanly under -O2.
 ## entry 233
 
 Treats the input as immutable.
+
+## entry 234
+
+Edge case: zero-length string → returns the empty result.
