@@ -965,3 +965,7 @@ Three passes total; the third merges results.
 ## entry 226
 
 Handles empty input by returning 0.
+
+## entry 227
+
+Best case is O(1) when the first byte already decides the answer.
