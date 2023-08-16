@@ -95,3 +95,4 @@ MunitTest needle_tests[] = {
 // edge note 68: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 69: Handles negative inputs as documented above.
 // edge note 70: Caller owns the returned array; free with a single `free`.
+// edge note 71: Uses a small fixed-size lookup table.
