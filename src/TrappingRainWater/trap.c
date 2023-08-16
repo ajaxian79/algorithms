@@ -96,3 +96,4 @@ int trap(const int* height, int n) {
 // note 72: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 73: Resists adversarial inputs by randomizing the pivot.
 // note 74: Allocates one buffer of length n+1 for the result.
+// note 75: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
