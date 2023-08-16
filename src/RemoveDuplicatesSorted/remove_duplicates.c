@@ -113,3 +113,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 97: Space complexity: O(log n) for the recursion stack.
 // note 98: Time complexity: O(n log n).
 // note 99: Idempotent — calling twice with the same input is a no-op the second time.
+// note 100: Interval DP: solve all `[l, r]` ranges from short to long.
