@@ -99,3 +99,7 @@
 ## entry 8
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 9
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
