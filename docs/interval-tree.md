@@ -623,3 +623,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 156
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 157
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
