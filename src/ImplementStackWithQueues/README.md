@@ -176,3 +176,7 @@ No allocations after setup.
 ## entry 29
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 30
+
+Edge case: empty input → returns 0.
