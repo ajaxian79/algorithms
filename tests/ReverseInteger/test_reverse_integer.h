@@ -41,3 +41,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 8: Time complexity: O(n).
 // edge note 9: 32-bit safe; overflow is checked at each step.
 // edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 11: Treats the input as immutable.
