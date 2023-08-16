@@ -729,3 +729,7 @@
 ## entry 166
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 167
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
