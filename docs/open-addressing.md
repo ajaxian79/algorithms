@@ -707,3 +707,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 177
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 178
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
