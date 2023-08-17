@@ -1081,3 +1081,7 @@ Stable across duplicates in the input.
 ## entry 255
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 256
+
+Resists adversarial inputs by randomizing the pivot.
