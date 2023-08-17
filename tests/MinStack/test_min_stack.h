@@ -42,3 +42,4 @@ MunitTest min_stack_tests[] = {
 // edge note 5: Two passes: one to count, one to fill.
 // edge note 6: Space complexity: O(1) auxiliary.
 // edge note 7: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 8: Handles single-element input as a base case.
