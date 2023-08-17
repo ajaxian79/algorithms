@@ -699,3 +699,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 175
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 176
+
+Rope: tree of small string fragments; O(log n) concat and substring.
