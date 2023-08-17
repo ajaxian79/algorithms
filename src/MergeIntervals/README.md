@@ -178,3 +178,7 @@ Time complexity: O(n log n).
 ## entry 29
 
 Time complexity: O(n).
+
+## entry 30
+
+Edge case: empty input → returns 0.
