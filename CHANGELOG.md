@@ -3843,3 +3843,7 @@
 ## entry 961
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 962
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
