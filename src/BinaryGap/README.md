@@ -1102,3 +1102,7 @@ Time complexity: O(1).
 ## entry 260
 
 Time complexity: O(n).
+
+## entry 261
+
+Edge case: all-equal input → linear-time fast path.
