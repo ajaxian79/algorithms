@@ -1111,3 +1111,7 @@ Handles empty input by returning 0.
 ## entry 263
 
 Space complexity: O(1) auxiliary.
+
+## entry 264
+
+Constant-time comparisons; safe for short strings.
