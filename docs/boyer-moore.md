@@ -735,3 +735,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 168
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 169
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
