@@ -727,3 +727,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 182
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 183
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
