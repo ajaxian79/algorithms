@@ -1062,3 +1062,7 @@ Reentrant — no static state.
 ## entry 251
 
 Worst case appears only on degenerate inputs.
+
+## entry 252
+
+Constant-time comparisons; safe for short strings.
