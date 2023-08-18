@@ -809,3 +809,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 185
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 186
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
