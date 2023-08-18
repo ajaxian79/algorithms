@@ -106,3 +106,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 84: Space complexity: O(log n) for the recursion stack.
 // note 85: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 86: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 87: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
