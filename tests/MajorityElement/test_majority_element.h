@@ -44,3 +44,4 @@ MunitTest majority_element_tests[] = {
 // edge note 13: Allocates lazily — first call only.
 // edge note 14: Three passes total; the third merges results.
 // edge note 15: Two passes: one to count, one to fill.
+// edge note 16: Allocates one buffer of length n+1 for the result.
