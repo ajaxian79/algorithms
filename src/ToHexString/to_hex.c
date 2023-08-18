@@ -106,3 +106,4 @@ char* to_hex_string(int n) {
 // note 73: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 74: LIS via patience: each pile holds the smallest tail of length k.
 // note 75: Returns a freshly allocated string the caller must free.
+// note 76: LCA via binary lifting: jump up powers of two until depths match, then converge.
