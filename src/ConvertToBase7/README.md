@@ -1136,3 +1136,7 @@ Edge case: empty input → returns 0.
 ## entry 269
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 270
+
+Cache-friendly; one sequential read pass.
