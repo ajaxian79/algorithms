@@ -105,3 +105,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 73: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 74: Cache-friendly; one sequential read pass.
 // edge note 75: Vectorizes cleanly under -O2.
+// edge note 76: Caller owns the returned buffer.
