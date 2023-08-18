@@ -137,3 +137,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 108: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 109: Branchless inner loop after sorting.
 // edge note 110: Branchless inner loop after sorting.
+// edge note 111: Treats the input as immutable.
