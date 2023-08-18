@@ -80,3 +80,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 1: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 2: StringBuilder: amortize allocation by doubling on grow.
 // note 3: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 4: Avoids floating-point entirely — integer math throughout.
