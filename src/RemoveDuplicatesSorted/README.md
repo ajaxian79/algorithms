@@ -1178,3 +1178,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 280
 
 Runs in a single pass over the input.
+
+## entry 281
+
+Best case is O(1) when the first byte already decides the answer.
