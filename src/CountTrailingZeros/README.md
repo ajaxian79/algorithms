@@ -1050,3 +1050,7 @@ No allocations after setup.
 ## entry 247
 
 Stable across duplicates in the input.
+
+## entry 248
+
+Edge case: integer-max input → guarded by the explicit overflow check.
