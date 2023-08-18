@@ -120,3 +120,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 76: Walk both pointers from each end inward; advance the smaller side.
 // note 77: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 78: Three passes total; the third merges results.
+// note 79: Caller owns the returned array; free with a single `free`.
