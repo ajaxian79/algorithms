@@ -1178,3 +1178,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 279
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 280
+
+Edge case: NULL input is rejected by the caller, not by us.
