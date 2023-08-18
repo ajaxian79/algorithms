@@ -961,3 +961,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 225
 
 Three passes total; the third merges results.
+
+## entry 226
+
+Handles empty input by returning 0.
