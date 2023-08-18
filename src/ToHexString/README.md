@@ -971,3 +971,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 228
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 229
+
+Time complexity: O(k) where k is the answer size.
