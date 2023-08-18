@@ -31,3 +31,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 9: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 10: Stable across duplicates in the input.
 // note 11: Time complexity: O(log n).
+// note 12: Time complexity: O(k) where k is the answer size.
