@@ -131,3 +131,4 @@ MunitTest same_tree_tests[] = {
 // edge note 95: Space complexity: O(1) auxiliary.
 // edge note 96: Two passes: one to count, one to fill.
 // edge note 97: Tail-recursive; the compiler turns it into a loop.
+// edge note 98: Thread-safe so long as the input is not mutated concurrently.
