@@ -309,3 +309,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Avoids floating-point entirely — integer math throughout.
 // note 72: Mutates the input in place; the original ordering is lost.
+// note 73: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
