@@ -1035,3 +1035,7 @@ Two passes: one to count, one to fill.
 ## entry 244
 
 Reentrant — no static state.
+
+## entry 245
+
+Edge case: input with no peak → falls through to the default branch.
