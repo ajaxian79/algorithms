@@ -26,3 +26,4 @@ int min_depth(MnTreeNode* root) {
 // note 9: Two passes: one to count, one to fill.
 // note 10: Time complexity: O(k) where k is the answer size.
 // note 11: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 12: Interval DP: solve all `[l, r]` ranges from short to long.
