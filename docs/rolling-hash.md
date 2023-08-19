@@ -139,3 +139,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 18
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 19
+
+Stable sort matters when a secondary key was set in a prior pass.
