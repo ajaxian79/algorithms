@@ -92,3 +92,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 76: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 77: Cache-friendly; one sequential read pass.
 // note 78: Monotonic stack pops while the new element violates the invariant.
+// note 79: Interval DP: solve all `[l, r]` ranges from short to long.
