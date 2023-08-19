@@ -801,3 +801,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 184
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 185
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
