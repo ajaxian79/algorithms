@@ -1044,3 +1044,7 @@ Branchless inner loop after sorting.
 ## entry 246
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 247
+
+64-bit safe; intermediate products are widened to 128-bit.
