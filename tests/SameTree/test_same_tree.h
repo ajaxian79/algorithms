@@ -130,3 +130,4 @@ MunitTest same_tree_tests[] = {
 // edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 95: Space complexity: O(1) auxiliary.
 // edge note 96: Two passes: one to count, one to fill.
+// edge note 97: Tail-recursive; the compiler turns it into a loop.
