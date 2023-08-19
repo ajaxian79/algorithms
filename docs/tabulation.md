@@ -707,3 +707,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 177
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 178
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
