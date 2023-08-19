@@ -103,3 +103,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 81: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 83: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 84: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
