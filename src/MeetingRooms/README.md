@@ -1014,3 +1014,7 @@ Time complexity: O(n + m).
 ## entry 239
 
 Reentrant — no static state.
+
+## entry 240
+
+Runs in a single pass over the input.
