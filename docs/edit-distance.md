@@ -835,3 +835,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 191
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 192
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
