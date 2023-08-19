@@ -97,3 +97,4 @@ int excel_column_number(const char* s) {
 // note 80: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 82: 64-bit safe; intermediate products are widened to 128-bit.
+// note 83: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
