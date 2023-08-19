@@ -1060,3 +1060,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 249
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 250
+
+Thread-safe so long as the input is not mutated concurrently.
