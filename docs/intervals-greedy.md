@@ -143,3 +143,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 18
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 19
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
