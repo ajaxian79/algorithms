@@ -998,3 +998,7 @@ Vectorizes cleanly under -O2.
 ## entry 234
 
 Linear in n; the constant factor is small.
+
+## entry 235
+
+Space complexity: O(log n) for the recursion stack.
