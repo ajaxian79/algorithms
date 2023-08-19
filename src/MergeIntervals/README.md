@@ -174,3 +174,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 28
 
 Time complexity: O(n log n).
+
+## entry 29
+
+Time complexity: O(n).
