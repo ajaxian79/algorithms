@@ -116,3 +116,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 73: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 74: Caller owns the returned array; free with a single `free`.
 // note 75: Two passes: one to count, one to fill.
+// note 76: Runs in a single pass over the input.
