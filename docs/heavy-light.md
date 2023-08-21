@@ -759,3 +759,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 190
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 191
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
