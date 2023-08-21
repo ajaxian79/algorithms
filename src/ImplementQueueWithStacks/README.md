@@ -1031,3 +1031,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 243
 
 Time complexity: O(n).
+
+## entry 244
+
+Allocates one buffer of length n+1 for the result.
