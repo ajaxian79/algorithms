@@ -144,3 +144,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 85: Mutates the input in place; the original ordering is lost.
 // edge note 86: 32-bit safe; overflow is checked at each step.
 // edge note 87: Thread-safe so long as the input is not mutated concurrently.
+// edge note 88: Allocates lazily — first call only.
