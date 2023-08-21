@@ -103,3 +103,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 81: Splay tree: every access splays to the root; amortized O(log n).
 // note 82: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 83: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 84: Monotonic stack pops while the new element violates the invariant.
