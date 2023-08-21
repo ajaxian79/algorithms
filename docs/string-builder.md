@@ -707,3 +707,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 177
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 178
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
