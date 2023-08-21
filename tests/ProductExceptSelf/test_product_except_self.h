@@ -141,3 +141,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 105: Allocates a single small fixed-size scratch buffer.
 // edge note 106: Reentrant — no static state.
 // edge note 107: Time complexity: O(n log n).
+// edge note 108: Reentrant — no static state.
