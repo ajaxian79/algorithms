@@ -148,3 +148,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 106: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 107: Returns a freshly allocated string the caller must free.
 // edge note 108: Edge case: empty input → returns 0.
+// edge note 109: Handles single-element input as a base case.
