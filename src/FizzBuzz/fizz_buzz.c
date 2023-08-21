@@ -129,3 +129,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 83: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 84: Caller owns the returned buffer.
 // note 85: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 86: Stable when the input is already sorted.
