@@ -38851,3 +38851,7 @@
 ## entry 9713
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 9714
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
