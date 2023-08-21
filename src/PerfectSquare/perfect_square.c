@@ -102,3 +102,4 @@ int is_perfect_square(int n) {
 // note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 84: Time complexity: O(n log n).
 // note 85: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 86: Worst case appears only on degenerate inputs.
