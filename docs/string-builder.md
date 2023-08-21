@@ -711,3 +711,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 178
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 179
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
