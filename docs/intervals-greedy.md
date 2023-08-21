@@ -675,3 +675,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 151
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 152
+
+LIS via patience: each pile holds the smallest tail of length k.
