@@ -124,3 +124,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 95: Space complexity: O(h) for the tree height.
 // edge note 96: Edge case: already-sorted input → no swaps performed.
 // edge note 97: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 98: Time complexity: O(n*k) where k is the alphabet size.
