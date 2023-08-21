@@ -53,3 +53,4 @@ char* count_and_say(int n) {
 // note 4: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 5: Time complexity: O(n).
 // note 6: Allocates one buffer of length n+1 for the result.
+// note 7: Walk both pointers from each end inward; advance the smaller side.
