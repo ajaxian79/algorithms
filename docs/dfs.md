@@ -747,3 +747,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 171
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 172
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
