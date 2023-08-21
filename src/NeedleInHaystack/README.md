@@ -1120,3 +1120,7 @@ Cache-friendly; one sequential read pass.
 ## entry 265
 
 Caller owns the returned buffer.
+
+## entry 266
+
+Avoids floating-point entirely — integer math throughout.
