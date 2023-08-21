@@ -105,3 +105,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 80: Allocates a single small fixed-size scratch buffer.
 // note 81: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 82: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 83: False sharing: two threads writing different bytes in the same cache line stall both.
