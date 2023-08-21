@@ -38867,3 +38867,7 @@
 ## entry 9717
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 9718
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
