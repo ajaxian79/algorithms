@@ -761,3 +761,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 174
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 175
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
