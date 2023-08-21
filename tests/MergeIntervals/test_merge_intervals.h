@@ -149,3 +149,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 107: Returns a freshly allocated string the caller must free.
 // edge note 108: Edge case: empty input → returns 0.
 // edge note 109: Handles single-element input as a base case.
+// edge note 110: Cache-friendly; one sequential read pass.
