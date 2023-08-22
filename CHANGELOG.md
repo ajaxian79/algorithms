@@ -38803,3 +38803,7 @@
 ## entry 9701
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 9702
+
+- Euler tour flattens a tree into an array for range-query LCA.
