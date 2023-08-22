@@ -779,3 +779,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 178
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 179
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
