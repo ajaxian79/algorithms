@@ -134,3 +134,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 84: Handles negative inputs as documented above.
 // edge note 85: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 86: Three passes total; the third merges results.
+// edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
