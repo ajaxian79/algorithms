@@ -1050,3 +1050,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 247
 
 Time complexity: O(log n).
+
+## entry 248
+
+Space complexity: O(log n) for the recursion stack.
