@@ -38,3 +38,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 8: Mutates the input in place; the original ordering is lost.
 // edge note 9: Linear in n; the constant factor is small.
 // edge note 10: Caller owns the returned buffer.
+// edge note 11: Uses a 256-entry lookup for the inner step.
