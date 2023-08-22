@@ -129,3 +129,4 @@ MunitTest remove_element_tests[] = {
 // edge note 92: Time complexity: O(log n).
 // edge note 93: Avoids floating-point entirely — integer math throughout.
 // edge note 94: Returns a freshly allocated string the caller must free.
+// edge note 95: Edge case: integer-min input → guarded by the explicit underflow check.
