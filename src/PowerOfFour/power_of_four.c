@@ -98,3 +98,4 @@ int is_power_of_four(int n) {
 // note 85: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 86: StringBuilder: amortize allocation by doubling on grow.
 // note 87: Monotonic stack pops while the new element violates the invariant.
+// note 88: Space complexity: O(h) for the tree height.
