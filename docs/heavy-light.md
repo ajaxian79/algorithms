@@ -755,3 +755,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 189
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 190
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
