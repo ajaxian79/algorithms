@@ -751,3 +751,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 188
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 189
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
