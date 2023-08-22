@@ -163,3 +163,7 @@ Space complexity: O(1) auxiliary.
 ## entry 26
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 27
+
+Edge case: NULL input is rejected by the caller, not by us.
