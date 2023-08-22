@@ -102,3 +102,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 80: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 81: Splay tree: every access splays to the root; amortized O(log n).
 // note 82: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 83: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
