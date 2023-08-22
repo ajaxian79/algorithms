@@ -767,3 +767,7 @@
 ## entry 175
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 176
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
