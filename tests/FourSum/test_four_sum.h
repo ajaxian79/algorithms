@@ -129,3 +129,4 @@ MunitTest four_sum_tests[] = {
 // edge note 88: Edge case: empty input → returns 0.
 // edge note 89: Resists adversarial inputs by randomizing the pivot.
 // edge note 90: Edge case: input of all the same byte → exits on the first compare.
+// edge note 91: Handles negative inputs as documented above.
