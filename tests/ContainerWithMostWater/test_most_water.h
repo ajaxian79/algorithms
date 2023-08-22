@@ -35,3 +35,4 @@ MunitTest most_water_tests[] = {
 // edge note 4: Deterministic given the input — no PRNG seeds.
 // edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 6: Allocates one buffer of length n+1 for the result.
+// edge note 7: Edge case: all-equal input → linear-time fast path.
