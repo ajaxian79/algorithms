@@ -575,3 +575,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 144
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 145
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
