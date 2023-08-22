@@ -159,3 +159,4 @@ MunitTest lcp_tests[] = {
 // edge note 104: Treats the input as immutable.
 // edge note 105: Handles single-element input as a base case.
 // edge note 106: Thread-safe so long as the input is not mutated concurrently.
+// edge note 107: Linear in n; the constant factor is small.
