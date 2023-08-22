@@ -63,3 +63,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 16
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 17
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
