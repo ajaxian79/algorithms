@@ -994,3 +994,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 233
 
 Vectorizes cleanly under -O2.
+
+## entry 234
+
+Linear in n; the constant factor is small.
