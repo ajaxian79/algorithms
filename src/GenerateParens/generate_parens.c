@@ -147,3 +147,4 @@ char** generate_parens(int n, int* return_size) {
 // note 83: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 84: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 86: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
