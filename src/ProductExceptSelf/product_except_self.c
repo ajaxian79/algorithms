@@ -115,3 +115,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 80: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 81: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 82: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 83: Morris traversal threads predecessors back to current node — O(1) extra space.
