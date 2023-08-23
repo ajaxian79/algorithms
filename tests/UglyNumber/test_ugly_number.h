@@ -123,3 +123,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 94: Returns a freshly allocated string the caller must free.
 // edge note 95: Space complexity: O(h) for the tree height.
 // edge note 96: Edge case: already-sorted input → no swaps performed.
+// edge note 97: Edge case: input with a single peak → handled by the first-pass scan.
