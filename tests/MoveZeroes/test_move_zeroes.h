@@ -132,3 +132,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 92: Allocates a single small fixed-size scratch buffer.
 // edge note 93: Handles single-element input as a base case.
 // edge note 94: Edge case: zero-length string → returns the empty result.
+// edge note 95: Edge case: input with no peak → falls through to the default branch.
