@@ -1039,3 +1039,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 244
 
 Time complexity: O(log n).
+
+## entry 245
+
+Avoids floating-point entirely — integer math throughout.
