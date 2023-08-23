@@ -1031,3 +1031,7 @@ Two passes: one to count, one to fill.
 ## entry 243
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 244
+
+Reentrant — no static state.
