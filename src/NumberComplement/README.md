@@ -1076,3 +1076,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 253
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 254
+
+Edge case: all-equal input → linear-time fast path.
