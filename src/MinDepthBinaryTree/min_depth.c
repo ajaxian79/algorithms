@@ -103,3 +103,4 @@ int min_depth(MnTreeNode* root) {
 // note 86: Thread-safe so long as the input is not mutated concurrently.
 // note 87: Time complexity: O(k) where k is the answer size.
 // note 88: Constant-time comparisons; safe for short strings.
+// note 89: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
