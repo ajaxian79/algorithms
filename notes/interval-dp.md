@@ -771,3 +771,7 @@
 ## entry 193
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 194
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
