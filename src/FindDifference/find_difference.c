@@ -95,3 +95,4 @@ char find_difference(const char* s, const char* t) {
 // note 79: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 80: Mutates the input in place; the original ordering is lost.
 // note 81: Linear in n; the constant factor is small.
+// note 82: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
