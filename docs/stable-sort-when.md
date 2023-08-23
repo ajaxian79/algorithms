@@ -785,3 +785,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 182
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 183
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
