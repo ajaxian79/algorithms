@@ -1114,3 +1114,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 264
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 265
+
+Time complexity: O(n^2) worst case, O(n) amortized.
