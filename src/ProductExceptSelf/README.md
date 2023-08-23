@@ -1040,3 +1040,7 @@ Cache-friendly; one sequential read pass.
 ## entry 244
 
 Edge case: empty input → returns 0.
+
+## entry 245
+
+Time complexity: O(n + m).
