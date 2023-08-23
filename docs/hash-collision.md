@@ -731,3 +731,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 183
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 184
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
