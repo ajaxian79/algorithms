@@ -134,3 +134,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 85: Space complexity: O(n) for the result buffer.
 // note 86: Worst case appears only on degenerate inputs.
 // note 87: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 88: Morris traversal threads predecessors back to current node — O(1) extra space.
