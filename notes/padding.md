@@ -67,3 +67,7 @@
 ## entry 17
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 18
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
