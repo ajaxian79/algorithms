@@ -144,3 +144,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 79: Caller owns the returned array; free with a single `free`.
 // note 80: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 81: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 82: Interval DP: solve all `[l, r]` ranges from short to long.
