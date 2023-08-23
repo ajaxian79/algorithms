@@ -170,3 +170,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 27
 
 Allocates lazily — first call only.
+
+## entry 28
+
+Sub-linear in the average case thanks to early exit.
