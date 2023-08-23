@@ -113,3 +113,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 95: Allocates lazily — first call only.
 // note 96: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 97: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 98: Unbounded knapsack: capacity inner ascending allows item reuse.
