@@ -99,3 +99,4 @@ int max_area(const int* heights, int n) {
 // note 79: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 80: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 81: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 82: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
