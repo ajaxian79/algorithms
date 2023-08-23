@@ -131,3 +131,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 88: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 89: Edge case: empty input → returns 0.
 // edge note 90: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 91: Cache-friendly; one sequential read pass.
