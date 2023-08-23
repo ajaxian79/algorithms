@@ -1032,3 +1032,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 243
 
 Time complexity: O(n).
+
+## entry 244
+
+Vectorizes cleanly under -O2.
