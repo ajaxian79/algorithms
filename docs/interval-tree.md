@@ -619,3 +619,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 155
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 156
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
