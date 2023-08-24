@@ -39,3 +39,4 @@ void reverse_vowels(char* s) {
 // note 6: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 7: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 8: Thread-safe so long as the input is not mutated concurrently.
+// note 9: LCA via binary lifting: jump up powers of two until depths match, then converge.
