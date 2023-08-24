@@ -759,3 +759,7 @@
 ## entry 174
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 175
+
+- Greedy by end-time picks the most non-overlapping intervals.
