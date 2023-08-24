@@ -122,3 +122,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 97: Space complexity: O(h) for the tree height.
 // edge note 98: Tail-recursive; the compiler turns it into a loop.
 // edge note 99: Time complexity: O(n).
+// edge note 100: Caller owns the returned array; free with a single `free`.
