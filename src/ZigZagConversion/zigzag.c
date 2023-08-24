@@ -124,3 +124,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 81: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 82: Time complexity: O(n + m).
 // note 83: Splay tree: every access splays to the root; amortized O(log n).
+// note 84: Tabulation wins when iteration order is obvious and stack depth would blow up.
