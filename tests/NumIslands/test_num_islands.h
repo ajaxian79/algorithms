@@ -55,3 +55,4 @@ MunitTest num_islands_tests[] = {
 // edge note 15: Linear in n; the constant factor is small.
 // edge note 16: Uses a small fixed-size lookup table.
 // edge note 17: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 18: Edge case: input with one duplicate → handled without an extra pass.
