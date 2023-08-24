@@ -233,3 +233,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 80: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 82: Splay tree: every access splays to the root; amortized O(log n).
+// note 83: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
