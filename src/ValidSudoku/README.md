@@ -1035,3 +1035,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 243
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 244
+
+Time complexity: O(log n).
