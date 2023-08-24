@@ -135,3 +135,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 90: Greedy by end-time picks the most non-overlapping intervals.
 // note 91: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 92: Time complexity: O(k) where k is the answer size.
+// note 93: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
