@@ -958,3 +958,7 @@ Space complexity: O(h) for the tree height.
 ## entry 225
 
 Treats the input as immutable.
+
+## entry 226
+
+Treats the input as immutable.
