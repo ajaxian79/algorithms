@@ -38719,3 +38719,7 @@
 ## entry 9680
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 9681
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
