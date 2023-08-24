@@ -723,3 +723,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 164
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 165
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
