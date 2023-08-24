@@ -751,3 +751,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 170
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 171
+
+Interval DP: solve all `[l, r]` ranges from short to long.
