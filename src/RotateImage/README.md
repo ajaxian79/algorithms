@@ -153,3 +153,7 @@ Runs in a single pass over the input.
 ## entry 23
 
 Stable when the input is already sorted.
+
+## entry 24
+
+Edge case: zero-length string → returns the empty result.
