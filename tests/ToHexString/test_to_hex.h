@@ -131,3 +131,4 @@ MunitTest to_hex_tests[] = {
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: Edge case: all-equal input → linear-time fast path.
 // edge note 104: Handles empty input by returning 0.
+// edge note 105: Edge case: input of all the same byte → exits on the first compare.
