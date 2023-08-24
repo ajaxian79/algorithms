@@ -723,3 +723,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 181
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 182
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
