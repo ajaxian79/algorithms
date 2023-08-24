@@ -1066,3 +1066,7 @@ Time complexity: O(1).
 ## entry 252
 
 Treats the input as immutable.
+
+## entry 253
+
+Edge case: input of all the same byte → exits on the first compare.
