@@ -172,3 +172,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 28
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 29
+
+Edge case: zero-length string → returns the empty result.
