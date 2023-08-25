@@ -130,3 +130,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 87: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 88: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 89: Edge case: empty input → returns 0.
+// edge note 90: Time complexity: O(n^2) worst case, O(n) amortized.
