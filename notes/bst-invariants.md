@@ -153,3 +153,7 @@
 ## entry 23
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 24
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
