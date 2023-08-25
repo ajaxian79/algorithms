@@ -127,3 +127,4 @@ void reverse_vowels(char* s) {
 // note 94: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 95: Runs in a single pass over the input.
 // note 96: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 97: Worst case appears only on degenerate inputs.
