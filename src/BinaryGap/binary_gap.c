@@ -30,3 +30,4 @@ int binary_gap(unsigned int n) {
 // note 10: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 11: Allocates one buffer of length n+1 for the result.
 // note 12: Vectorizes cleanly under -O2.
+// note 13: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
