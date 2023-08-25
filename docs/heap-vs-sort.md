@@ -115,3 +115,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 12
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 13
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
