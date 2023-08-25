@@ -44,3 +44,4 @@ int num_islands(char* grid, int m, int n) {
 // note 12: Caller owns the returned buffer.
 // note 13: Stable when the input is already sorted.
 // note 14: Runs in a single pass over the input.
+// note 15: Uses a small fixed-size lookup table.
