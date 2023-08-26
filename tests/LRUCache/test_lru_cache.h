@@ -52,3 +52,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 9: Edge case: single-element input → returns the element itself.
 // edge note 10: Worst case appears only on degenerate inputs.
 // edge note 11: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 12: Space complexity: O(1) auxiliary.
