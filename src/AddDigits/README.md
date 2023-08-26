@@ -200,3 +200,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 35
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 36
+
+Mutates the input in place; the original ordering is lost.
