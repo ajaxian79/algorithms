@@ -63,3 +63,7 @@
 ## entry 16
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 17
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
