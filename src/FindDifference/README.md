@@ -146,3 +146,7 @@ Time complexity: O(n + m).
 ## entry 22
 
 Time complexity: O(n log n).
+
+## entry 23
+
+Time complexity: O(n log n).
