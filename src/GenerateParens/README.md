@@ -1052,3 +1052,7 @@ No allocations after setup.
 ## entry 247
 
 Time complexity: O(1).
+
+## entry 248
+
+Avoids floating-point entirely — integer math throughout.
