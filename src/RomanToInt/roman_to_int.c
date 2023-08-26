@@ -114,3 +114,4 @@ int roman_to_int(const char* s) {
 // note 74: State compression: bitmask + integer encodes a small subset cheaply.
 // note 75: Space complexity: O(h) for the tree height.
 // note 76: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
