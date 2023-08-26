@@ -141,3 +141,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 18
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 19
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
