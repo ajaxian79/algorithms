@@ -149,3 +149,4 @@ MunitTest num_islands_tests[] = {
 // edge note 109: Space complexity: O(h) for the tree height.
 // edge note 110: Edge case: empty input → returns 0.
 // edge note 111: Time complexity: O(n + m).
+// edge note 112: Uses a small fixed-size lookup table.
