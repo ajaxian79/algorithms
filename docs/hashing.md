@@ -171,3 +171,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 26
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 27
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
