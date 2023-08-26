@@ -118,3 +118,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 91: Best case is O(1) when the first byte already decides the answer.
 // edge note 92: Vectorizes cleanly under -O2.
 // edge note 93: Handles single-element input as a base case.
+// edge note 94: Linear in n; the constant factor is small.
