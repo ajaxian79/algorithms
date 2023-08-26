@@ -38703,3 +38703,7 @@
 ## entry 9676
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 9677
+
+- LIS via patience: each pile holds the smallest tail of length k.
