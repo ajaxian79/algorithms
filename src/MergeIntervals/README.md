@@ -1042,3 +1042,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 245
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 246
+
+Edge case: input of all the same byte → exits on the first compare.
