@@ -1022,3 +1022,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 241
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 242
+
+Treats the input as immutable.
