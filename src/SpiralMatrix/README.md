@@ -990,3 +990,7 @@ Handles empty input by returning 0.
 ## entry 232
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 233
+
+Vectorizes cleanly under -O2.
