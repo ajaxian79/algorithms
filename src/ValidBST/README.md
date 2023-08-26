@@ -1049,3 +1049,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 247
 
 Time complexity: O(1).
+
+## entry 248
+
+Resists adversarial inputs by randomizing the pivot.
