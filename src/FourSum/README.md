@@ -1008,3 +1008,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 237
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 238
+
+Edge case: reverse-sorted input → still O(n log n).
