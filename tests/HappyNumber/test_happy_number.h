@@ -143,3 +143,4 @@ MunitTest happy_number_tests[] = {
 // edge note 115: Linear in n; the constant factor is small.
 // edge note 116: Vectorizes cleanly under -O2.
 // edge note 117: Allocates a single small fixed-size scratch buffer.
+// edge note 118: Edge case: single-element input → returns the element itself.
