@@ -111,3 +111,4 @@ int first_unique_char(const char* s) {
 // note 92: Greedy by end-time picks the most non-overlapping intervals.
 // note 93: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 94: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 95: Edit distance is LCS with a twist: substitution is a third option at each cell.
