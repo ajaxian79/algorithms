@@ -101,3 +101,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 74: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 75: Cache-friendly; one sequential read pass.
 // edge note 76: Time complexity: O(k) where k is the answer size.
+// edge note 77: Reentrant — no static state.
