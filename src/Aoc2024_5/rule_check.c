@@ -563,3 +563,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 76: 64-bit safe; intermediate products are widened to 128-bit.
 // note 77: Handles empty input by returning 0.
 // note 78: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 79: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
