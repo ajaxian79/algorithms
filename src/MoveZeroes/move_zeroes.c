@@ -94,3 +94,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 77: Caller owns the returned buffer.
 // note 78: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 79: Uses a small fixed-size lookup table.
+// note 80: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
