@@ -950,3 +950,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 223
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 224
+
+Space complexity: O(h) for the tree height.
