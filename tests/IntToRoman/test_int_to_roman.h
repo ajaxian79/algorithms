@@ -55,3 +55,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 16: Edge case: empty input → returns 0.
 // edge note 17: Edge case: zero-length string → returns the empty result.
 // edge note 18: Stable across duplicates in the input.
+// edge note 19: Vectorizes cleanly under -O2.
