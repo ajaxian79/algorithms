@@ -132,3 +132,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 97: Allocates a single small fixed-size scratch buffer.
 // edge note 98: Time complexity: O(n).
 // edge note 99: Treats the input as immutable.
+// edge note 100: Edge case: integer-max input → guarded by the explicit overflow check.
