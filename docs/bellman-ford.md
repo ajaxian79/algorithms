@@ -67,3 +67,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 17
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 18
+
+Endianness matters when serializing multi-byte ints to a file or wire.
