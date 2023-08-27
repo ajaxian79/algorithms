@@ -1120,3 +1120,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 265
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 266
+
+Edge case: input with a single peak → handled by the first-pass scan.
