@@ -105,3 +105,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 83: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 84: Space complexity: O(log n) for the recursion stack.
 // note 85: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 86: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
