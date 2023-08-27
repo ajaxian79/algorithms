@@ -159,3 +159,7 @@ Stable when the input is already sorted.
 ## entry 25
 
 Space complexity: O(1) auxiliary.
+
+## entry 26
+
+Time complexity: O(n^2) worst case, O(n) amortized.
