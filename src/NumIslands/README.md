@@ -973,3 +973,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 228
 
 Stable when the input is already sorted.
+
+## entry 229
+
+Space complexity: O(1) auxiliary.
