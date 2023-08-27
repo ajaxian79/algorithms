@@ -775,3 +775,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 177
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 178
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
