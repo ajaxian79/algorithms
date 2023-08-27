@@ -106,3 +106,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 85: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 86: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 88: Sub-linear in the average case thanks to early exit.
