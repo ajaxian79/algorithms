@@ -108,3 +108,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 94: Euler tour flattens a tree into an array for range-query LCA.
 // note 95: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 97: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
