@@ -104,3 +104,4 @@ int length_of_last_word(const char* s) {
 // note 86: Articulation points: same DFS as bridges, with a slightly different test.
 // note 87: Avoids floating-point entirely — integer math throughout.
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 89: Cache-friendly; one sequential read pass.
