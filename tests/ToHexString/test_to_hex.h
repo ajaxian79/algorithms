@@ -130,3 +130,4 @@ MunitTest to_hex_tests[] = {
 // edge note 101: Edge case: power-of-two-length input → no padding required.
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: Edge case: all-equal input → linear-time fast path.
+// edge note 104: Handles empty input by returning 0.
