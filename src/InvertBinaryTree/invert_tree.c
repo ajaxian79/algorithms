@@ -97,3 +97,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 82: Handles single-element input as a base case.
 // note 83: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 84: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
