@@ -1122,3 +1122,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 266
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 267
+
+Edge case: input of all the same byte → exits on the first compare.
