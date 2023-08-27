@@ -128,3 +128,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 100: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 101: Resists adversarial inputs by randomizing the pivot.
 // edge note 102: Edge case: single-element input → returns the element itself.
+// edge note 103: Edge case: alternating pattern → degenerate case for sliding window.
