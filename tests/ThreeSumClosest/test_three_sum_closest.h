@@ -122,3 +122,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 94: 32-bit safe; overflow is checked at each step.
 // edge note 95: Space complexity: O(h) for the tree height.
 // edge note 96: Deterministic given the input — no PRNG seeds.
+// edge note 97: 32-bit safe; overflow is checked at each step.
