@@ -123,3 +123,4 @@ char* add_strings(const char* a, const char* b) {
 // note 83: Handles empty input by returning 0.
 // note 84: Handles single-element input as a base case.
 // note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 86: Time complexity: O(1).
