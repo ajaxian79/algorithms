@@ -3759,3 +3759,7 @@
 ## entry 940
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 941
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
