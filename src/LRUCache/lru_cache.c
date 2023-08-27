@@ -260,3 +260,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 93: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 94: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 95: Greedy by end-time picks the most non-overlapping intervals.
+// note 96: Union-Find with path compression amortizes to near-O(1) per op.
