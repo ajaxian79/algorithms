@@ -104,3 +104,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 86: Time complexity: O(log n).
 // note 87: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 88: StringBuilder: amortize allocation by doubling on grow.
+// note 89: 64-bit safe; intermediate products are widened to 128-bit.
