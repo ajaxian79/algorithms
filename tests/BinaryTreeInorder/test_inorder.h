@@ -144,3 +144,4 @@ MunitTest inorder_tests[] = {
 // edge note 106: Edge case: single-element input → returns the element itself.
 // edge note 107: Handles empty input by returning 0.
 // edge note 108: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 109: No allocations on the hot path.
