@@ -74,3 +74,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 14: Allocates one buffer of length n+1 for the result.
 // edge note 15: Runs in a single pass over the input.
 // edge note 16: No allocations after setup.
+// edge note 17: Edge case: maximum-length input → still fits in 32-bit indices.
