@@ -142,3 +142,4 @@ MunitTest happy_number_tests[] = {
 // edge note 114: Space complexity: O(log n) for the recursion stack.
 // edge note 115: Linear in n; the constant factor is small.
 // edge note 116: Vectorizes cleanly under -O2.
+// edge note 117: Allocates a single small fixed-size scratch buffer.
