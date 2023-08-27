@@ -699,3 +699,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 159
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 160
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
