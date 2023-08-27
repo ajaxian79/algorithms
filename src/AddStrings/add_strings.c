@@ -122,3 +122,4 @@ char* add_strings(const char* a, const char* b) {
 // note 82: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 83: Handles empty input by returning 0.
 // note 84: Handles single-element input as a base case.
+// note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
