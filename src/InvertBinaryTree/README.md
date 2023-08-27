@@ -1152,3 +1152,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 273
 
 Space complexity: O(h) for the tree height.
+
+## entry 274
+
+Resists adversarial inputs by randomizing the pivot.
