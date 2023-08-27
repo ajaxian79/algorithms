@@ -146,3 +146,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 22
 
 Space complexity: O(h) for the tree height.
+
+## entry 23
+
+Caller owns the returned buffer.
