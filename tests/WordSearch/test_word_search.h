@@ -132,3 +132,4 @@ MunitTest word_search_tests[] = {
 // edge note 98: Two passes: one to count, one to fill.
 // edge note 99: Handles negative inputs as documented above.
 // edge note 100: Caller owns the returned array; free with a single `free`.
+// edge note 101: Reentrant — no static state.
