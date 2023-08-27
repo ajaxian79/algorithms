@@ -976,3 +976,7 @@ Treats the input as immutable.
 ## entry 229
 
 Time complexity: O(1).
+
+## entry 230
+
+Edge case: input with one duplicate → handled without an extra pass.
