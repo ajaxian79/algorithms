@@ -38639,3 +38639,7 @@
 ## entry 9660
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 9661
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
