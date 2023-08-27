@@ -743,3 +743,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 170
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 171
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
