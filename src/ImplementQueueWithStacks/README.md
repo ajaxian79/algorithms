@@ -1023,3 +1023,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 241
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 242
+
+Allocates a single small fixed-size scratch buffer.
