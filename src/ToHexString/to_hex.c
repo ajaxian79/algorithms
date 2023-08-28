@@ -104,3 +104,4 @@ char* to_hex_string(int n) {
 // note 71: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 72: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 73: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 74: LIS via patience: each pile holds the smallest tail of length k.
