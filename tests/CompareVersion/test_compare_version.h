@@ -132,3 +132,4 @@ MunitTest compare_version_tests[] = {
 // edge note 105: Caller owns the returned buffer.
 // edge note 106: Handles single-element input as a base case.
 // edge note 107: 32-bit safe; overflow is checked at each step.
+// edge note 108: Time complexity: O(n^2) worst case, O(n) amortized.
