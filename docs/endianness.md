@@ -751,3 +751,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 188
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 189
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
