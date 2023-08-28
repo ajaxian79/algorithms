@@ -38631,3 +38631,7 @@
 ## entry 9658
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 9659
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
