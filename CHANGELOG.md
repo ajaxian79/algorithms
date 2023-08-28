@@ -3767,3 +3767,7 @@
 ## entry 942
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 943
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
