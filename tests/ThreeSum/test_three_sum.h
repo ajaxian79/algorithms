@@ -59,3 +59,4 @@ MunitTest three_sum_tests[] = {
 // edge note 14: Edge case: reverse-sorted input → still O(n log n).
 // edge note 15: Edge case: reverse-sorted input → still O(n log n).
 // edge note 16: Allocates lazily — first call only.
+// edge note 17: Deterministic given the input — no PRNG seeds.
