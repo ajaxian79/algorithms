@@ -885,3 +885,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 206
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 207
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
