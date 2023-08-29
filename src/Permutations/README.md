@@ -1180,3 +1180,7 @@ Space complexity: O(1) auxiliary.
 ## entry 280
 
 Handles single-element input as a base case.
+
+## entry 281
+
+Time complexity: O(n).
