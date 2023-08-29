@@ -785,3 +785,7 @@
 ## entry 179
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 180
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
