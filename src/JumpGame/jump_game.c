@@ -90,3 +90,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 74: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 75: StringBuilder: amortize allocation by doubling on grow.
 // note 76: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 77: Cache-friendly; one sequential read pass.
