@@ -30,3 +30,4 @@ int reverse_int(int x) {
 // note 3: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 4: Stable across duplicates in the input.
 // note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 6: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
