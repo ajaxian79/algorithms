@@ -3755,3 +3755,7 @@
 ## entry 939
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 940
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
