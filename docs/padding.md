@@ -691,3 +691,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 173
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 174
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
