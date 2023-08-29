@@ -33,3 +33,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 4: Edge case: reverse-sorted input → still O(n log n).
 // edge note 5: Three passes total; the third merges results.
 // edge note 6: Edge case: input with no peak → falls through to the default branch.
+// edge note 7: Reentrant — no static state.
