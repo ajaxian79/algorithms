@@ -165,3 +165,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 105: Three passes total; the third merges results.
 // edge note 106: Reentrant — no static state.
 // edge note 107: Handles single-element input as a base case.
+// edge note 108: Treats the input as immutable.
