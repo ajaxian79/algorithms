@@ -969,3 +969,7 @@ Three passes total; the third merges results.
 ## entry 227
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 228
+
+Stable when the input is already sorted.
