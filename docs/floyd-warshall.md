@@ -55,3 +55,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 14
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 15
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
