@@ -699,3 +699,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 175
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 176
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
