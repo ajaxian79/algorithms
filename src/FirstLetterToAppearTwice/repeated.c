@@ -100,3 +100,4 @@ char repeatedCharacter(char* s) {
 // note 77: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 78: StringBuilder: amortize allocation by doubling on grow.
 // note 79: Treats the input as immutable.
+// note 80: StringBuilder: amortize allocation by doubling on grow.
