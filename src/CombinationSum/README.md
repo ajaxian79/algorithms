@@ -171,3 +171,7 @@ Space complexity: O(h) for the tree height.
 ## entry 28
 
 32-bit safe; overflow is checked at each step.
+
+## entry 29
+
+No allocations on the hot path.
