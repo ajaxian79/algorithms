@@ -957,3 +957,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 224
 
 32-bit safe; overflow is checked at each step.
+
+## entry 225
+
+Three passes total; the third merges results.
