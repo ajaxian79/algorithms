@@ -1064,3 +1064,7 @@ Caller owns the returned buffer.
 ## entry 250
 
 Cache-friendly; one sequential read pass.
+
+## entry 251
+
+Edge case: all-equal input → linear-time fast path.
