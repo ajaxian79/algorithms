@@ -643,3 +643,7 @@
 ## entry 161
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 162
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
