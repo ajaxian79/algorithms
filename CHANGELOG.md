@@ -38595,3 +38595,7 @@
 ## entry 9649
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 9650
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
