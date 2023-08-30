@@ -133,3 +133,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 107: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 108: Best case is O(1) when the first byte already decides the answer.
 // edge note 109: Deterministic given the input — no PRNG seeds.
+// edge note 110: Edge case: power-of-two-length input → no padding required.
