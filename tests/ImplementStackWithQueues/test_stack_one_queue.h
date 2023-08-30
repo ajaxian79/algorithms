@@ -124,3 +124,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 92: Time complexity: O(k) where k is the answer size.
 // edge note 93: Edge case: single-element input → returns the element itself.
 // edge note 94: Time complexity: O(n log n).
+// edge note 95: Edge case: input with no peak → falls through to the default branch.
