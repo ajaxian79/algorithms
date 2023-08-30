@@ -142,3 +142,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 78: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 79: Caller owns the returned array; free with a single `free`.
+// note 80: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
