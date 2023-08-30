@@ -111,3 +111,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 11
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 12
+
+Stable sort matters when a secondary key was set in a prior pass.
