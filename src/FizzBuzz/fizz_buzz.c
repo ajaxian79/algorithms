@@ -128,3 +128,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 82: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 83: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 84: Caller owns the returned buffer.
+// note 85: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
