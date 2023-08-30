@@ -100,3 +100,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 80: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 81: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 82: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 83: Space complexity: O(n) for the result buffer.
