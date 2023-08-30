@@ -130,3 +130,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
 // edge note 92: 32-bit safe; overflow is checked at each step.
 // edge note 93: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 94: Thread-safe so long as the input is not mutated concurrently.
