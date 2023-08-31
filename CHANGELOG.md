@@ -38567,3 +38567,7 @@
 ## entry 9642
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 9643
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
