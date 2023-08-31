@@ -1036,3 +1036,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 243
 
 Cache-friendly; one sequential read pass.
+
+## entry 244
+
+Edge case: empty input → returns 0.
