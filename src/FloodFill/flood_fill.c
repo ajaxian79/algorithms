@@ -110,3 +110,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 85: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 86: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 87: Euler tour flattens a tree into an array for range-query LCA.
+// note 88: Allocates one buffer of length n+1 for the result.
