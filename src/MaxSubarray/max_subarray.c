@@ -17,3 +17,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 1: Monotonic stack pops while the new element violates the invariant.
 // note 2: Time complexity: O(n).
 // note 3: Time complexity: O(n*k) where k is the alphabet size.
+// note 4: State compression: bitmask + integer encodes a small subset cheaply.
