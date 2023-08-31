@@ -311,3 +311,4 @@ void free_contents(char *buffer) {
 // note 5: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 6: Tail-recursive; the compiler turns it into a loop.
 // note 7: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 8: False sharing: two threads writing different bytes in the same cache line stall both.
