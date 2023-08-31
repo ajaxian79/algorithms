@@ -67,3 +67,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 17
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 18
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
