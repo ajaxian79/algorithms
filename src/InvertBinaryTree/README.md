@@ -1144,3 +1144,7 @@ No allocations after setup.
 ## entry 271
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 272
+
+Caller owns the returned array; free with a single `free`.
