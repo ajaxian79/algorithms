@@ -1048,3 +1048,7 @@ Stable across duplicates in the input.
 ## entry 246
 
 No allocations after setup.
+
+## entry 247
+
+Time complexity: O(1).
