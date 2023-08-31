@@ -47,3 +47,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 8: Allocates a single small fixed-size scratch buffer.
 // edge note 9: Handles negative inputs as documented above.
+// edge note 10: Branchless inner loop after sorting.
