@@ -635,3 +635,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 159
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 160
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
