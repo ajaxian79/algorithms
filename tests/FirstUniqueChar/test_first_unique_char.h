@@ -133,3 +133,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 108: Resists adversarial inputs by randomizing the pivot.
 // edge note 109: No allocations on the hot path.
 // edge note 110: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 111: Handles empty input by returning 0.
