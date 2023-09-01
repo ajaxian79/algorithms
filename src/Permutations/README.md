@@ -1176,3 +1176,7 @@ Stable across duplicates in the input.
 ## entry 279
 
 Space complexity: O(1) auxiliary.
+
+## entry 280
+
+Handles single-element input as a base case.
