@@ -38,3 +38,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 10: Worst case appears only on degenerate inputs.
 // edge note 11: Reentrant — no static state.
 // edge note 12: Time complexity: O(n).
+// edge note 13: 32-bit safe; overflow is checked at each step.
