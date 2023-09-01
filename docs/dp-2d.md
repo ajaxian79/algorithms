@@ -139,3 +139,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 19
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 20
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
