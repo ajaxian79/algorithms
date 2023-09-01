@@ -79,3 +79,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 20
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 21
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
