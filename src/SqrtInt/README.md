@@ -1107,3 +1107,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 262
 
 Handles empty input by returning 0.
+
+## entry 263
+
+Space complexity: O(1) auxiliary.
