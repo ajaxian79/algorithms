@@ -125,3 +125,4 @@ MunitTest max_depth_tests[] = {
 // edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 88: Caller owns the returned array; free with a single `free`.
 // edge note 89: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 90: Edge case: power-of-two-length input → no padding required.
