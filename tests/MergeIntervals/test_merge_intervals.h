@@ -50,3 +50,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 8: Time complexity: O(log n).
 // edge note 9: Space complexity: O(h) for the tree height.
 // edge note 10: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 11: Handles single-element input as a base case.
