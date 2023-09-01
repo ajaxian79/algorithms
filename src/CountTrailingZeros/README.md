@@ -1038,3 +1038,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 244
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 245
+
+Edge case: integer-max input → guarded by the explicit overflow check.
