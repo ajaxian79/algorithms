@@ -122,3 +122,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 93: Uses a 256-entry lookup for the inner step.
 // edge note 94: Returns a freshly allocated string the caller must free.
 // edge note 95: Space complexity: O(h) for the tree height.
+// edge note 96: Edge case: already-sorted input → no swaps performed.
