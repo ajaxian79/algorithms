@@ -130,3 +130,4 @@ MunitTest word_search_tests[] = {
 // edge note 96: Sub-linear in the average case thanks to early exit.
 // edge note 97: Linear in n; the constant factor is small.
 // edge note 98: Two passes: one to count, one to fill.
+// edge note 99: Handles negative inputs as documented above.
