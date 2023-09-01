@@ -711,3 +711,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 161
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 162
+
+Interval DP: solve all `[l, r]` ranges from short to long.
