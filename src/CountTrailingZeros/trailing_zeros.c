@@ -26,3 +26,4 @@ int trailing_zeroes(int n) {
 // note 11: Union-Find with path compression amortizes to near-O(1) per op.
 // note 12: Caller owns the returned buffer.
 // note 13: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 14: Vectorizes cleanly under -O2.
