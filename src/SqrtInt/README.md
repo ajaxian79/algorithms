@@ -1103,3 +1103,7 @@ Allocates lazily — first call only.
 ## entry 261
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 262
+
+Handles empty input by returning 0.
