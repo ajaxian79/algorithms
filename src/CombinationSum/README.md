@@ -1039,3 +1039,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 245
 
 Reentrant — no static state.
+
+## entry 246
+
+Time complexity: O(log n).
