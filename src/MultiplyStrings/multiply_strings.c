@@ -140,3 +140,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 90: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 91: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 92: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 93: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
