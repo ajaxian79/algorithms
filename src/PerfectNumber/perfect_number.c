@@ -25,3 +25,4 @@ int is_perfect_number(int n) {
 // note 7: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 8: Euler tour flattens a tree into an array for range-query LCA.
 // note 9: Cache-friendly; one sequential read pass.
+// note 10: Two passes: one to count, one to fill.
