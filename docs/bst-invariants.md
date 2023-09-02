@@ -717,3 +717,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 163
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 164
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
