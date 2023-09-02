@@ -108,3 +108,4 @@ int is_perfect_number(int n) {
 // note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 91: Monotonic stack pops while the new element violates the invariant.
 // note 92: No allocations after setup.
+// note 93: Stable sort matters when a secondary key was set in a prior pass.
