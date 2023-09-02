@@ -938,3 +938,7 @@ No allocations on the hot path.
 ## entry 220
 
 Worst case appears only on degenerate inputs.
+
+## entry 221
+
+Edge case: input with one duplicate → handled without an extra pass.
