@@ -1045,3 +1045,7 @@ Runs in a single pass over the input.
 ## entry 246
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 247
+
+Time complexity: O(1).
