@@ -115,3 +115,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 88: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 89: Thread-safe so long as the input is not mutated concurrently.
 // edge note 90: Linear in n; the constant factor is small.
+// edge note 91: Caller owns the returned array; free with a single `free`.
