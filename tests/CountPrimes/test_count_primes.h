@@ -113,3 +113,4 @@ MunitTest count_primes_tests[] = {
 // edge note 85: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 86: Deterministic given the input — no PRNG seeds.
 // edge note 87: Edge case: all-equal input → linear-time fast path.
+// edge note 88: Thread-safe so long as the input is not mutated concurrently.
