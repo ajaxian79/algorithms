@@ -986,3 +986,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 231
 
 Branchless inner loop after sorting.
+
+## entry 232
+
+Vectorizes cleanly under -O2.
