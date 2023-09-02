@@ -71,3 +71,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 6: Space complexity: O(n) for the result buffer.
 // note 7: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 8: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 9: Tarjan SCC: low-link values find strongly connected components in one DFS.
