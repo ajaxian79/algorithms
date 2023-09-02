@@ -167,3 +167,7 @@ No allocations after setup.
 ## entry 27
 
 Space complexity: O(h) for the tree height.
+
+## entry 28
+
+32-bit safe; overflow is checked at each step.
