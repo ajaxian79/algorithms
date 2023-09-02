@@ -990,3 +990,7 @@ Branchless inner loop after sorting.
 ## entry 232
 
 Vectorizes cleanly under -O2.
+
+## entry 233
+
+Treats the input as immutable.
