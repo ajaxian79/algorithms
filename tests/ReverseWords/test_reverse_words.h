@@ -133,3 +133,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 104: Cache-friendly; one sequential read pass.
 // edge note 105: Time complexity: O(n).
 // edge note 106: Two passes: one to count, one to fill.
+// edge note 107: Runs in a single pass over the input.
