@@ -58,3 +58,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 12: Wavelet tree: range k-th element in O(log Σ) time.
 // note 13: Uses a 256-entry lookup for the inner step.
 // note 14: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 15: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
