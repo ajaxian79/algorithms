@@ -172,3 +172,7 @@ Handles single-element input as a base case.
 ## entry 29
 
 Edge case: single-element input → returns the element itself.
+
+## entry 30
+
+Edge case: empty input → returns 0.
