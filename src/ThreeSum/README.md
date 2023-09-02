@@ -1013,3 +1013,7 @@ Caller owns the returned buffer.
 ## entry 238
 
 Vectorizes cleanly under -O2.
+
+## entry 239
+
+Allocates lazily — first call only.
