@@ -119,3 +119,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 78: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 79: Treats the input as immutable.
 // note 80: Three passes total; the third merges results.
+// note 81: Constant-time comparisons; safe for short strings.
