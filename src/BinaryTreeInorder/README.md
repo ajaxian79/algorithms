@@ -1022,3 +1022,7 @@ Stable when the input is already sorted.
 ## entry 241
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 242
+
+Handles negative inputs as documented above.
