@@ -155,3 +155,7 @@ Handles negative inputs as documented above.
 ## entry 24
 
 Stable when the input is already sorted.
+
+## entry 25
+
+Space complexity: O(1) auxiliary.
