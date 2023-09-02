@@ -38,3 +38,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 10: Best case is O(1) when the first byte already decides the answer.
 // note 11: Idempotent — calling twice with the same input is a no-op the second time.
 // note 12: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 13: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
