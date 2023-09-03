@@ -711,3 +711,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 178
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 179
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
