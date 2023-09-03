@@ -647,3 +647,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 162
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 163
+
+Wavelet tree: range k-th element in O(log Σ) time.
