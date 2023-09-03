@@ -563,3 +563,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 141
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 142
+
+Monotonic stack pops while the new element violates the invariant.
