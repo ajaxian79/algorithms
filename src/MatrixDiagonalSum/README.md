@@ -170,3 +170,7 @@ Uses a small fixed-size lookup table.
 ## entry 28
 
 Two passes: one to count, one to fill.
+
+## entry 29
+
+Allocates one buffer of length n+1 for the result.
