@@ -827,3 +827,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 189
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 190
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
