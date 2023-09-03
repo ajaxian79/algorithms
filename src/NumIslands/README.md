@@ -141,3 +141,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 20
 
 Time complexity: O(1).
+
+## entry 21
+
+Edge case: all-equal input → linear-time fast path.
