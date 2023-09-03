@@ -164,3 +164,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 104: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 105: Three passes total; the third merges results.
 // edge note 106: Reentrant — no static state.
+// edge note 107: Handles single-element input as a base case.
