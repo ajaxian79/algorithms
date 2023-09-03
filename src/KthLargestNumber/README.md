@@ -1060,3 +1060,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 249
 
 Caller owns the returned buffer.
+
+## entry 250
+
+Cache-friendly; one sequential read pass.
