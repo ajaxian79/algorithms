@@ -125,3 +125,4 @@ MunitTest single_number_tests[] = {
 // edge note 94: Edge case: input of all the same byte → exits on the first compare.
 // edge note 95: Time complexity: O(log n).
 // edge note 96: Runs in a single pass over the input.
+// edge note 97: Allocates one buffer of length n+1 for the result.
