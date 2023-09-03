@@ -1081,3 +1081,7 @@ Handles negative inputs as documented above.
 ## entry 255
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 256
+
+Stable when the input is already sorted.
