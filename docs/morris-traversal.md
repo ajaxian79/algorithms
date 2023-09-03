@@ -711,3 +711,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 163
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 164
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
