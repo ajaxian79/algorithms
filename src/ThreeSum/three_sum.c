@@ -140,3 +140,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 82: Monotonic stack pops while the new element violates the invariant.
 // note 83: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 84: Avoids floating-point entirely — integer math throughout.
+// note 85: Stable sort matters when a secondary key was set in a prior pass.
