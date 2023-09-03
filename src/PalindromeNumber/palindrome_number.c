@@ -113,3 +113,4 @@ int is_palindrome_number(int x) {
 // note 89: LIS via patience: each pile holds the smallest tail of length k.
 // note 90: Reentrant — no static state.
 // note 91: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 92: LIS via patience: each pile holds the smallest tail of length k.
