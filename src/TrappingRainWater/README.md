@@ -982,3 +982,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 230
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 231
+
+Branchless inner loop after sorting.
