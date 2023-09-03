@@ -567,3 +567,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 142
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 143
+
+Monotonic stack pops while the new element violates the invariant.
