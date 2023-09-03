@@ -1054,3 +1054,7 @@ Time complexity: O(1).
 ## entry 249
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 250
+
+Space complexity: O(1) auxiliary.
