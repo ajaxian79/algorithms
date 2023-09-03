@@ -168,3 +168,7 @@ Space complexity: O(1) auxiliary.
 ## entry 28
 
 Handles single-element input as a base case.
+
+## entry 29
+
+Edge case: single-element input → returns the element itself.
