@@ -38499,3 +38499,7 @@
 ## entry 9625
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 9626
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
