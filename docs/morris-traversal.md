@@ -707,3 +707,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 162
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 163
+
+Euler tour flattens a tree into an array for range-query LCA.
