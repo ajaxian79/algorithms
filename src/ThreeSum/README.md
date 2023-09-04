@@ -1009,3 +1009,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 237
 
 Caller owns the returned buffer.
+
+## entry 238
+
+Vectorizes cleanly under -O2.
