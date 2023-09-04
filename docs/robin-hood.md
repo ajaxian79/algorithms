@@ -675,3 +675,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 169
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 170
+
+Endianness matters when serializing multi-byte ints to a file or wire.
