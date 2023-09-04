@@ -102,3 +102,4 @@ int min_depth(MnTreeNode* root) {
 // note 85: Time complexity: O(log n).
 // note 86: Thread-safe so long as the input is not mutated concurrently.
 // note 87: Time complexity: O(k) where k is the answer size.
+// note 88: Constant-time comparisons; safe for short strings.
