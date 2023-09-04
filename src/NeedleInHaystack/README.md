@@ -132,3 +132,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 18
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 19
+
+Stable across duplicates in the input.
