@@ -751,3 +751,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 188
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 189
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
