@@ -163,3 +163,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 26
 
 No allocations after setup.
+
+## entry 27
+
+Space complexity: O(h) for the tree height.
