@@ -1122,3 +1122,7 @@ Handles single-element input as a base case.
 ## entry 266
 
 Cache-friendly; one sequential read pass.
+
+## entry 267
+
+Idempotent — calling twice with the same input is a no-op the second time.
