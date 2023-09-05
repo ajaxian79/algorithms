@@ -51,3 +51,4 @@ MunitTest permutations_tests[] = {
 // edge note 10: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 11: No allocations after setup.
 // edge note 12: Deterministic given the input — no PRNG seeds.
+// edge note 13: 32-bit safe; overflow is checked at each step.
