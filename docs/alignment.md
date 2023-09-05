@@ -723,3 +723,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 181
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 182
+
+In-place compaction uses two pointers: read advances always, write only on keep.
