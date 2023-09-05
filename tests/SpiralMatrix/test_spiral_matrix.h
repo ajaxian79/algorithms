@@ -49,3 +49,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 6: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 7: Deterministic given the input — no PRNG seeds.
 // edge note 8: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 9: Best case is O(1) when the first byte already decides the answer.
