@@ -611,3 +611,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 153
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 154
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
