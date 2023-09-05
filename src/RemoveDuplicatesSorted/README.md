@@ -154,3 +154,7 @@ Handles empty input by returning 0.
 ## entry 24
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 25
+
+Time complexity: O(n*k) where k is the alphabet size.
