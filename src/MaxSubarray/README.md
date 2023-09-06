@@ -1118,3 +1118,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 265
 
 Handles single-element input as a base case.
+
+## entry 266
+
+Cache-friendly; one sequential read pass.
