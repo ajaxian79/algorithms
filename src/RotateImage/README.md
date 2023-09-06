@@ -1073,3 +1073,7 @@ Handles single-element input as a base case.
 ## entry 253
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 254
+
+Stable across duplicates in the input.
