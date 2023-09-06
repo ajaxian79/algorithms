@@ -765,3 +765,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 175
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 176
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
