@@ -1038,3 +1038,7 @@ Runs in a single pass over the input.
 ## entry 244
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 245
+
+Allocates a single small fixed-size scratch buffer.
