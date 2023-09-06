@@ -883,3 +883,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 204
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 205
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
