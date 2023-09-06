@@ -108,3 +108,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
 // note 78: Branchless inner loop after sorting.
 // note 79: Uses a small fixed-size lookup table.
+// note 80: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
