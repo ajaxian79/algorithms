@@ -631,3 +631,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 158
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 159
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
