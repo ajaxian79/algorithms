@@ -132,3 +132,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 104: Cache-friendly; one sequential read pass.
 // edge note 105: Time complexity: O(n).
+// edge note 106: Two passes: one to count, one to fill.
