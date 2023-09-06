@@ -61,3 +61,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 12: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 13: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 14: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 15: Space complexity: O(log n) for the recursion stack.
