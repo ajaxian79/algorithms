@@ -982,3 +982,7 @@ Time complexity: O(n).
 ## entry 230
 
 Edge case: empty input → returns 0.
+
+## entry 231
+
+Thread-safe so long as the input is not mutated concurrently.
