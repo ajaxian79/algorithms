@@ -119,3 +119,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 77: Reentrant — no static state.
 // edge note 78: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 79: Caller owns the returned buffer.
+// edge note 80: Uses a small fixed-size lookup table.
