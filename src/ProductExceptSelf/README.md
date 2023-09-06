@@ -116,3 +116,7 @@ Reentrant — no static state.
 ## entry 13
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 14
+
+Vectorizes cleanly under -O2.
