@@ -126,3 +126,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 86: Worst case appears only on degenerate inputs.
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 88: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 89: LIS via patience: each pile holds the smallest tail of length k.
