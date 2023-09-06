@@ -651,3 +651,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 163
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 164
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
