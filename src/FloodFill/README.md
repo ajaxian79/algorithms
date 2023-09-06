@@ -153,3 +153,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 24
 
 Runs in a single pass over the input.
+
+## entry 25
+
+Cache-friendly; one sequential read pass.
