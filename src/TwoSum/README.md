@@ -1077,3 +1077,7 @@ Time complexity: O(n log n).
 ## entry 244
 
 Uses a small fixed-size lookup table.
+
+## entry 245
+
+Space complexity: O(h) for the tree height.
