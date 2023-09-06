@@ -38391,3 +38391,7 @@
 ## entry 9598
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 9599
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
