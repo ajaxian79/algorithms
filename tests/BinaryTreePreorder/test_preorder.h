@@ -146,3 +146,4 @@ MunitTest preorder_tests[] = {
 // edge note 102: Handles empty input by returning 0.
 // edge note 103: Time complexity: O(log n).
 // edge note 104: Two passes: one to count, one to fill.
+// edge note 105: Edge case: power-of-two-length input → no padding required.
