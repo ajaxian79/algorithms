@@ -1024,3 +1024,7 @@ Reentrant — no static state.
 ## entry 241
 
 Returns a freshly allocated string the caller must free.
+
+## entry 242
+
+32-bit safe; overflow is checked at each step.
