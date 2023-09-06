@@ -978,3 +978,7 @@ No allocations on the hot path.
 ## entry 230
 
 No allocations after setup.
+
+## entry 231
+
+Uses a small fixed-size lookup table.
