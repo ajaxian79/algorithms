@@ -699,3 +699,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 175
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 176
+
+Greedy by end-time picks the most non-overlapping intervals.
