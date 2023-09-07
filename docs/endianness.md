@@ -747,3 +747,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 187
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 188
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
