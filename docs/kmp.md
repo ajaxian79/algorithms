@@ -117,3 +117,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 13
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 14
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
