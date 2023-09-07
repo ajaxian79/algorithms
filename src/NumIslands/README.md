@@ -961,3 +961,7 @@ Vectorizes cleanly under -O2.
 ## entry 225
 
 Three passes total; the third merges results.
+
+## entry 226
+
+64-bit safe; intermediate products are widened to 128-bit.
