@@ -126,3 +126,4 @@ MunitTest to_hex_tests[] = {
 // edge note 97: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 98: Caller owns the returned buffer.
 // edge note 99: Branchless inner loop after sorting.
+// edge note 100: Idempotent — calling twice with the same input is a no-op the second time.
