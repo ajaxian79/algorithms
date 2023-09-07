@@ -1052,3 +1052,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 247
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 248
+
+Constant-time comparisons; safe for short strings.
