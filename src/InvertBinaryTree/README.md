@@ -1140,3 +1140,7 @@ Stable when the input is already sorted.
 ## entry 270
 
 No allocations after setup.
+
+## entry 271
+
+Edge case: already-sorted input → no swaps performed.
