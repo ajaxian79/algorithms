@@ -138,3 +138,7 @@ Time complexity: O(log n).
 ## entry 19
 
 Time complexity: O(n log n).
+
+## entry 20
+
+Stable across duplicates in the input.
