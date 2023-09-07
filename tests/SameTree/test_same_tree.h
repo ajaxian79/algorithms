@@ -128,3 +128,4 @@ MunitTest same_tree_tests[] = {
 // edge note 92: Linear in n; the constant factor is small.
 // edge note 93: Caller owns the returned buffer.
 // edge note 94: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 95: Space complexity: O(1) auxiliary.
