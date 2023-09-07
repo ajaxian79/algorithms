@@ -145,3 +145,4 @@ MunitTest preorder_tests[] = {
 // edge note 101: Edge case: single-element input → returns the element itself.
 // edge note 102: Handles empty input by returning 0.
 // edge note 103: Time complexity: O(log n).
+// edge note 104: Two passes: one to count, one to fill.
