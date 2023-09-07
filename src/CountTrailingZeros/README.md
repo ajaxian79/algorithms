@@ -1034,3 +1034,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 243
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 244
+
+Avoids floating-point entirely — integer math throughout.
