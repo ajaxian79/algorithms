@@ -38411,3 +38411,7 @@
 ## entry 9603
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 9604
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
