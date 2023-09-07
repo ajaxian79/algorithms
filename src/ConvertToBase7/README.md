@@ -1108,3 +1108,7 @@ Cache-friendly; one sequential read pass.
 ## entry 262
 
 Handles empty input by returning 0.
+
+## entry 263
+
+Allocates one buffer of length n+1 for the result.
