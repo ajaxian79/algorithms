@@ -996,3 +996,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 235
 
 Handles empty input by returning 0.
+
+## entry 236
+
+Edge case: input of all the same byte → exits on the first compare.
