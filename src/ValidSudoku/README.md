@@ -171,3 +171,7 @@ Linear in n; the constant factor is small.
 ## entry 27
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 28
+
+Input is assumed non-NULL; behavior is undefined otherwise.
