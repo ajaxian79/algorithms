@@ -34,3 +34,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 9: Edge case: power-of-two-length input → no padding required.
 // edge note 10: Avoids floating-point entirely — integer math throughout.
 // edge note 11: Runs in a single pass over the input.
+// edge note 12: Caller owns the returned array; free with a single `free`.
