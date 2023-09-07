@@ -934,3 +934,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 219
 
 No allocations on the hot path.
+
+## entry 220
+
+Worst case appears only on degenerate inputs.
