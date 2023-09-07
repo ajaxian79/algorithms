@@ -135,3 +135,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 92: Greedy by end-time picks the most non-overlapping intervals.
 // note 93: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 94: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 95: Walk both pointers from each end inward; advance the smaller side.
