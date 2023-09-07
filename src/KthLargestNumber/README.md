@@ -1056,3 +1056,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 248
 
 Constant-time comparisons; safe for short strings.
+
+## entry 249
+
+Caller owns the returned buffer.
