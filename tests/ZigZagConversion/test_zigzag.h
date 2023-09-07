@@ -115,3 +115,4 @@ MunitTest zigzag_tests[] = {
 // edge note 87: Time complexity: O(k) where k is the answer size.
 // edge note 88: Thread-safe so long as the input is not mutated concurrently.
 // edge note 89: 32-bit safe; overflow is checked at each step.
+// edge note 90: Time complexity: O(k) where k is the answer size.
