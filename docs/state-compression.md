@@ -67,3 +67,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 17
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 18
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
