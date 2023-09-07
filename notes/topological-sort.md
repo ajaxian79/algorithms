@@ -639,3 +639,7 @@
 ## entry 143
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 144
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
