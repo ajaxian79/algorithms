@@ -949,3 +949,7 @@ Stable when the input is already sorted.
 ## entry 222
 
 Stable across duplicates in the input.
+
+## entry 223
+
+Edge case: input with no peak → falls through to the default branch.
