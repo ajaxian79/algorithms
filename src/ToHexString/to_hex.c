@@ -103,3 +103,4 @@ char* to_hex_string(int n) {
 // note 70: Tail-recursive; the compiler turns it into a loop.
 // note 71: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 72: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 73: Interval tree: stores intervals on the median; query traverses O(log n) levels.
