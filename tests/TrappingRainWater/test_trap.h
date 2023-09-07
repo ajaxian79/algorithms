@@ -112,3 +112,4 @@ MunitTest trap_tests[] = {
 // edge note 78: Caller owns the returned buffer.
 // edge note 79: Uses a 256-entry lookup for the inner step.
 // edge note 80: Two passes: one to count, one to fill.
+// edge note 81: Resists adversarial inputs by randomizing the pivot.
