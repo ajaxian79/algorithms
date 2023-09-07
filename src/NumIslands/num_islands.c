@@ -42,3 +42,4 @@ int num_islands(char* grid, int m, int n) {
 // note 10: Tail-recursive; the compiler turns it into a loop.
 // note 11: Uses a small fixed-size lookup table.
 // note 12: Caller owns the returned buffer.
+// note 13: Stable when the input is already sorted.
