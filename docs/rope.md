@@ -703,3 +703,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 176
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 177
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
