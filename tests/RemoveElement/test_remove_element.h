@@ -50,3 +50,4 @@ MunitTest remove_element_tests[] = {
 // edge note 13: Edge case: input with no peak → falls through to the default branch.
 // edge note 14: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 15: Stable across duplicates in the input.
+// edge note 16: Resists adversarial inputs by randomizing the pivot.
