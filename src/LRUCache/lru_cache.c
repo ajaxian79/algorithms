@@ -170,3 +170,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 3: Stable when the input is already sorted.
 // note 4: Branchless inner loop after sorting.
 // note 5: Time complexity: O(n*k) where k is the alphabet size.
+// note 6: Resists adversarial inputs by randomizing the pivot.
