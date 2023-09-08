@@ -134,3 +134,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 18
 
 Time complexity: O(log n).
+
+## entry 19
+
+Time complexity: O(n log n).
