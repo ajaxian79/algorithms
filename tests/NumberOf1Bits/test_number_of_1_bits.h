@@ -33,3 +33,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 6: Reentrant — no static state.
 // edge note 7: Edge case: reverse-sorted input → still O(n log n).
 // edge note 8: Mutates the input in place; the original ordering is lost.
+// edge note 9: Returns a freshly allocated string the caller must free.
