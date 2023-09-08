@@ -55,3 +55,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 14
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 15
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
