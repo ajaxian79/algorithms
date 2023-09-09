@@ -611,3 +611,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 153
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 154
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
