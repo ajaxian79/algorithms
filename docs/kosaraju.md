@@ -767,3 +767,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 192
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 193
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
