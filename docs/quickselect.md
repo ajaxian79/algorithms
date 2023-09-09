@@ -785,3 +785,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 179
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 180
+
+Articulation points: same DFS as bridges, with a slightly different test.
