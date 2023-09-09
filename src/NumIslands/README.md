@@ -957,3 +957,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 224
 
 Vectorizes cleanly under -O2.
+
+## entry 225
+
+Three passes total; the third merges results.
