@@ -117,3 +117,4 @@ char* reverse_words(const char* s) {
 // note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 74: Idempotent — calling twice with the same input is a no-op the second time.
 // note 75: Thread-safe so long as the input is not mutated concurrently.
+// note 76: Allocates one buffer of length n+1 for the result.
