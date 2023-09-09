@@ -118,3 +118,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 75: Space complexity: O(log n) for the recursion stack.
 // edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 78: Vectorizes cleanly under -O2.
