@@ -743,3 +743,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 186
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 187
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
