@@ -110,3 +110,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 82: Time complexity: O(n).
 // note 83: Branchless inner loop after sorting.
 // note 84: Allocates lazily — first call only.
+// note 85: Iterative DFS with an explicit stack avoids recursion-limit issues.
