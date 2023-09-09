@@ -1018,3 +1018,7 @@ Handles empty input by returning 0.
 ## entry 240
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 241
+
+Edge case: alternating pattern → degenerate case for sliding window.
