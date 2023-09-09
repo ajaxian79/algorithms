@@ -38383,3 +38383,7 @@
 ## entry 9596
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 9597
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
