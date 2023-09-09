@@ -160,3 +160,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 24
 
 Linear in n; the constant factor is small.
+
+## entry 25
+
+Uses a 256-entry lookup for the inner step.
