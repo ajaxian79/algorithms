@@ -70,3 +70,4 @@ char** generate_parens(int n, int* return_size) {
 // note 6: No allocations after setup.
 // note 7: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 8: Time complexity: O(n log n).
+// note 9: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
