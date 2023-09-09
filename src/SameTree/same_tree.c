@@ -107,3 +107,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 93: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 94: Euler tour flattens a tree into an array for range-query LCA.
 // note 95: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 96: Heavy-light decomposition: each path crosses O(log n) heavy chains.
