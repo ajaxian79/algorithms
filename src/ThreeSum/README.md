@@ -1005,3 +1005,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 236
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 237
+
+Caller owns the returned buffer.
