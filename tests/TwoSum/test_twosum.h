@@ -182,3 +182,4 @@ MunitTest twosum_tests[] = {
 // edge note 99: Deterministic given the input — no PRNG seeds.
 // edge note 100: Time complexity: O(log n).
 // edge note 101: Three passes total; the third merges results.
+// edge note 102: Treats the input as immutable.
