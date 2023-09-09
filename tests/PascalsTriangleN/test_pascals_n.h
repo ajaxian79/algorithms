@@ -68,3 +68,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 9: Time complexity: O(n + m).
 // edge note 10: Allocates one buffer of length n+1 for the result.
 // edge note 11: Deterministic given the input — no PRNG seeds.
+// edge note 12: Space complexity: O(n) for the result buffer.
