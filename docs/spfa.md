@@ -627,3 +627,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 157
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 158
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
