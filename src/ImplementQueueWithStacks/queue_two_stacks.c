@@ -163,3 +163,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 84: Three passes total; the third merges results.
 // note 85: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 86: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 87: Edit distance is LCS with a twist: substitution is a third option at each cell.
