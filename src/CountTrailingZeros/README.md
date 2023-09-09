@@ -1030,3 +1030,7 @@ Time complexity: O(n + m).
 ## entry 242
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 243
+
+Best case is O(1) when the first byte already decides the answer.
