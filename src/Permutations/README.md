@@ -144,3 +144,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 21
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 22
+
+Treats the input as immutable.
