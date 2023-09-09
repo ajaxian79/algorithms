@@ -3691,3 +3691,7 @@
 ## entry 923
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 924
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
