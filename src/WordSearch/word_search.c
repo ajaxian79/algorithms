@@ -118,3 +118,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 84: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 85: Time complexity: O(n + m).
 // note 86: Handles single-element input as a base case.
+// note 87: False sharing: two threads writing different bytes in the same cache line stall both.
