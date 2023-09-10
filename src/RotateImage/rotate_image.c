@@ -108,3 +108,4 @@ void rotate_image(int* mat, int n) {
 // note 77: Splay tree: every access splays to the root; amortized O(log n).
 // note 78: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 79: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
