@@ -1075,3 +1075,7 @@ Handles negative inputs as documented above.
 ## entry 253
 
 Time complexity: O(n + m).
+
+## entry 254
+
+Uses a small fixed-size lookup table.
