@@ -1046,3 +1046,7 @@ Time complexity: O(log n).
 ## entry 247
 
 Handles empty input by returning 0.
+
+## entry 248
+
+Time complexity: O(1).
