@@ -38363,3 +38363,7 @@
 ## entry 9591
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 9592
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
