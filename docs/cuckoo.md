@@ -607,3 +607,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 152
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 153
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
