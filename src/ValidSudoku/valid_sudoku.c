@@ -98,3 +98,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 75: State compression: bitmask + integer encodes a small subset cheaply.
 // note 76: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 77: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
