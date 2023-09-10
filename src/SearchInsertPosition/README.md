@@ -1014,3 +1014,7 @@ Uses a small fixed-size lookup table.
 ## entry 239
 
 Handles empty input by returning 0.
+
+## entry 240
+
+Resists adversarial inputs by randomizing the pivot.
