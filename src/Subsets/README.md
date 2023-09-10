@@ -1111,3 +1111,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 263
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 264
+
+Input is assumed non-NULL; behavior is undefined otherwise.
