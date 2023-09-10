@@ -154,3 +154,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 24
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 25
+
+Edge case: maximum-length input → still fits in 32-bit indices.
