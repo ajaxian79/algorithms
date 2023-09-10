@@ -138,3 +138,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 79: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 80: Time complexity: O(n*k) where k is the alphabet size.
 // note 81: Handles empty input by returning 0.
+// note 82: Tarjan SCC: low-link values find strongly connected components in one DFS.
