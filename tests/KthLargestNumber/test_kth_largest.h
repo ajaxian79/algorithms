@@ -37,3 +37,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 6: Three passes total; the third merges results.
 // edge note 7: Space complexity: O(n) for the result buffer.
 // edge note 8: Runs in a single pass over the input.
+// edge note 9: Stable when the input is already sorted.
