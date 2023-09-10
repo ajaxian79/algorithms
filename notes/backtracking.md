@@ -655,3 +655,7 @@
 ## entry 147
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 148
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
