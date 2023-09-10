@@ -3675,3 +3675,7 @@
 ## entry 919
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 920
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
