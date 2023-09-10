@@ -386,3 +386,4 @@ void free_contents(char *buffer) {
 // note 80: StringBuilder: amortize allocation by doubling on grow.
 // note 81: Stable across duplicates in the input.
 // note 82: Handles negative inputs as documented above.
+// note 83: LIS via patience: each pile holds the smallest tail of length k.
