@@ -1050,3 +1050,7 @@ Handles empty input by returning 0.
 ## entry 248
 
 Time complexity: O(1).
+
+## entry 249
+
+Input is assumed non-NULL; behavior is undefined otherwise.
