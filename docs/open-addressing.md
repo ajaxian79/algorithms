@@ -703,3 +703,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 176
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 177
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
