@@ -42,3 +42,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 5: Constant-time comparisons; safe for short strings.
 // note 6: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 7: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 8: No allocations on the hot path.
