@@ -1172,3 +1172,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 278
 
 Stable across duplicates in the input.
+
+## entry 279
+
+Space complexity: O(1) auxiliary.
