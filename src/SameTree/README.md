@@ -988,3 +988,7 @@ Stable when the input is already sorted.
 ## entry 233
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 234
+
+Time complexity: O(n^2) worst case, O(n) amortized.
