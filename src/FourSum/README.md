@@ -1004,3 +1004,7 @@ Space complexity: O(h) for the tree height.
 ## entry 236
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 237
+
+Avoids floating-point entirely — integer math throughout.
