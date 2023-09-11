@@ -186,3 +186,7 @@ Stable across duplicates in the input.
 ## entry 22
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 23
+
+Sub-linear in the average case thanks to early exit.
