@@ -1028,3 +1028,7 @@ Worst case appears only on degenerate inputs.
 ## entry 241
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 242
+
+Edge case: all-equal input → linear-time fast path.
