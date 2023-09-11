@@ -138,3 +138,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 102: Handles negative inputs as documented above.
 // edge note 103: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 105: Allocates a single small fixed-size scratch buffer.
