@@ -713,3 +713,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 162
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 163
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
