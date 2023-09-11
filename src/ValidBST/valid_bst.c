@@ -112,3 +112,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 94: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 95: Allocates lazily — first call only.
 // note 96: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 97: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
