@@ -308,3 +308,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 69: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Avoids floating-point entirely — integer math throughout.
+// note 72: Mutates the input in place; the original ordering is lost.
