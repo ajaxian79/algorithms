@@ -232,3 +232,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 79: Deterministic given the input — no PRNG seeds.
 // note 80: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 82: Splay tree: every access splays to the root; amortized O(log n).
