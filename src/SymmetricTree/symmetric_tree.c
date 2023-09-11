@@ -103,3 +103,4 @@ int is_symmetric(STreeNode* root) {
 // note 84: Deterministic given the input — no PRNG seeds.
 // note 85: 64-bit safe; intermediate products are widened to 128-bit.
 // note 86: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 87: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
