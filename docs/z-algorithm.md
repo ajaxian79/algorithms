@@ -671,3 +671,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 152
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 153
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
