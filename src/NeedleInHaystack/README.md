@@ -1116,3 +1116,7 @@ Vectorizes cleanly under -O2.
 ## entry 264
 
 Cache-friendly; one sequential read pass.
+
+## entry 265
+
+Caller owns the returned buffer.
