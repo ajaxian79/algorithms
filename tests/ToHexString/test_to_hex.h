@@ -125,3 +125,4 @@ MunitTest to_hex_tests[] = {
 // edge note 96: Sub-linear in the average case thanks to early exit.
 // edge note 97: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 98: Caller owns the returned buffer.
+// edge note 99: Branchless inner loop after sorting.
