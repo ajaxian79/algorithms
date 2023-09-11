@@ -169,3 +169,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 89: Allocates one buffer of length n+1 for the result.
 // note 90: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 91: Uses a small fixed-size lookup table.
+// note 92: Greedy by end-time picks the most non-overlapping intervals.
