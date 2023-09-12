@@ -707,3 +707,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 177
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 178
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
