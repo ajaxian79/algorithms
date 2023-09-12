@@ -1114,3 +1114,7 @@ Handles negative inputs as documented above.
 ## entry 264
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 265
+
+Handles single-element input as a base case.
