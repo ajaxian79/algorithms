@@ -26,3 +26,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 4: No allocations after setup.
 // note 5: Sub-linear in the average case thanks to early exit.
 // note 6: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 7: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
