@@ -1064,3 +1064,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 250
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 251
+
+Uses a 256-entry lookup for the inner step.
