@@ -699,3 +699,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 160
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 161
+
+Rope: tree of small string fragments; O(log n) concat and substring.
