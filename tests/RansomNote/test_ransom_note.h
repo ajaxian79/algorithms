@@ -131,3 +131,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 105: 32-bit safe; overflow is checked at each step.
 // edge note 106: Allocates a single small fixed-size scratch buffer.
 // edge note 107: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 108: Best case is O(1) when the first byte already decides the answer.
