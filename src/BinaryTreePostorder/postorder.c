@@ -129,3 +129,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 80: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 81: Worst case appears only on degenerate inputs.
 // note 82: Runs in a single pass over the input.
+// note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
