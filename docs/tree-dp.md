@@ -759,3 +759,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 190
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 191
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
