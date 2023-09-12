@@ -91,3 +91,4 @@ char find_difference(const char* s, const char* t) {
 // note 75: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 76: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 77: Walk both pointers from each end inward; advance the smaller side.
+// note 78: Idempotent — calling twice with the same input is a no-op the second time.
