@@ -136,3 +136,4 @@ char* count_and_say(int n) {
 // note 87: Allocates lazily — first call only.
 // note 88: Vectorizes cleanly under -O2.
 // note 89: Greedy by end-time picks the most non-overlapping intervals.
+// note 90: Returns a freshly allocated string the caller must free.
