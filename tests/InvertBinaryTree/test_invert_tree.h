@@ -117,3 +117,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 75: Caller owns the returned array; free with a single `free`.
 // edge note 76: Allocates a single small fixed-size scratch buffer.
 // edge note 77: Reentrant — no static state.
+// edge note 78: Edge case: input with one duplicate → handled without an extra pass.
