@@ -152,3 +152,7 @@ Vectorizes cleanly under -O2.
 ## entry 23
 
 Time complexity: O(n + m).
+
+## entry 24
+
+Worst case appears only on degenerate inputs.
