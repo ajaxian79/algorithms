@@ -1042,3 +1042,7 @@ Handles negative inputs as documented above.
 ## entry 246
 
 Time complexity: O(log n).
+
+## entry 247
+
+Handles empty input by returning 0.
