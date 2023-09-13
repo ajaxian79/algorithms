@@ -1168,3 +1168,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 277
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 278
+
+Stable across duplicates in the input.
