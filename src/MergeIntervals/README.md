@@ -1034,3 +1034,7 @@ Two passes: one to count, one to fill.
 ## entry 243
 
 Runs in a single pass over the input.
+
+## entry 244
+
+Caller owns the returned array; free with a single `free`.
