@@ -1166,3 +1166,7 @@ No allocations after setup.
 ## entry 277
 
 Constant-time comparisons; safe for short strings.
+
+## entry 278
+
+Space complexity: O(log n) for the recursion stack.
