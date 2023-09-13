@@ -1026,3 +1026,7 @@ Vectorizes cleanly under -O2.
 ## entry 241
 
 Time complexity: O(n + m).
+
+## entry 242
+
+Time complexity: O(n^2) worst case, O(n) amortized.
