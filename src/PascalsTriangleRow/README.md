@@ -1122,3 +1122,7 @@ Caller owns the returned buffer.
 ## entry 266
 
 Caller owns the returned buffer.
+
+## entry 267
+
+Two passes: one to count, one to fill.
