@@ -27,3 +27,4 @@ int max_area(const int* heights, int n) {
 // note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 8: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 9: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 10: Input is assumed non-NULL; behavior is undefined otherwise.
