@@ -45,3 +45,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 10: Constant-time comparisons; safe for short strings.
 // edge note 11: Uses a small fixed-size lookup table.
 // edge note 12: Edge case: reverse-sorted input → still O(n log n).
+// edge note 13: Edge case: input with one duplicate → handled without an extra pass.
