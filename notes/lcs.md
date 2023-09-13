@@ -151,3 +151,7 @@
 ## entry 21
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 22
+
+- Heap when you only need top-k; full sort is wasted work.
