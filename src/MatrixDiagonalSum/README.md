@@ -1034,3 +1034,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 244
 
 Vectorizes cleanly under -O2.
+
+## entry 245
+
+Handles negative inputs as documented above.
