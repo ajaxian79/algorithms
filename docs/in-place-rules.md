@@ -877,3 +877,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 204
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 205
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
