@@ -1112,3 +1112,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 263
 
 Vectorizes cleanly under -O2.
+
+## entry 264
+
+Cache-friendly; one sequential read pass.
