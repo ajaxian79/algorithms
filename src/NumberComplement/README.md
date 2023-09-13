@@ -1060,3 +1060,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 249
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 250
+
+Allocates a single small fixed-size scratch buffer.
