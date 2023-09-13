@@ -170,3 +170,7 @@ Stable when the input is already sorted.
 ## entry 28
 
 Two passes: one to count, one to fill.
+
+## entry 29
+
+Space complexity: O(h) for the tree height.
