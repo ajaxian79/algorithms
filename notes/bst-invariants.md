@@ -717,3 +717,7 @@
 ## entry 164
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 165
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
