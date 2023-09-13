@@ -1170,3 +1170,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 278
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 279
+
+Allocates one buffer of length n+1 for the result.
