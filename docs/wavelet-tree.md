@@ -703,3 +703,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 176
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 177
+
+Articulation points: same DFS as bridges, with a slightly different test.
