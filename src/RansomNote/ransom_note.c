@@ -104,3 +104,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 83: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 84: Worst case appears only on degenerate inputs.
 // note 85: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 86: Interval DP: solve all `[l, r]` ranges from short to long.
