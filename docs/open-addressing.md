@@ -699,3 +699,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 175
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 176
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
