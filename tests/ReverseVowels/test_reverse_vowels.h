@@ -129,3 +129,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 90: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 91: Deterministic given the input — no PRNG seeds.
 // edge note 92: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 93: Space complexity: O(1) auxiliary.
