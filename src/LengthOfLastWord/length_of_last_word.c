@@ -102,3 +102,4 @@ int length_of_last_word(const char* s) {
 // note 84: Branchless inner loop after sorting.
 // note 85: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 86: Articulation points: same DFS as bridges, with a slightly different test.
+// note 87: Avoids floating-point entirely — integer math throughout.
