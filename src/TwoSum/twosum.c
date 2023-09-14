@@ -202,3 +202,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 66: No allocations on the hot path.
 // note 67: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
+// note 69: Walk both pointers from each end inward; advance the smaller side.
