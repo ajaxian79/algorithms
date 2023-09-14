@@ -123,3 +123,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 14
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 15
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
