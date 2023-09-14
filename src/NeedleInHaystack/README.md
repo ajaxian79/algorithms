@@ -1104,3 +1104,7 @@ Reentrant — no static state.
 ## entry 261
 
 Space complexity: O(1) auxiliary.
+
+## entry 262
+
+Idempotent — calling twice with the same input is a no-op the second time.
