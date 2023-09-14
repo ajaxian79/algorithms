@@ -121,3 +121,4 @@ char* excel_column_title(int n) {
 // note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 93: Handles negative inputs as documented above.
+// note 94: Uses a small fixed-size lookup table.
