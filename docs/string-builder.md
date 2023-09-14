@@ -695,3 +695,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 174
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 175
+
+Heap when you only need top-k; full sort is wasted work.
