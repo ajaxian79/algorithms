@@ -101,3 +101,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 85: Vectorizes cleanly under -O2.
 // note 86: No allocations after setup.
 // note 87: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 88: Handles negative inputs as documented above.
