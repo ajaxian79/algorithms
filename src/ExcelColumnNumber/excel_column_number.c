@@ -95,3 +95,4 @@ int excel_column_number(const char* s) {
 // note 78: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 79: Allocates lazily — first call only.
 // note 80: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
