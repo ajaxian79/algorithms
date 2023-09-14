@@ -970,3 +970,7 @@ Runs in a single pass over the input.
 ## entry 228
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 229
+
+No allocations on the hot path.
