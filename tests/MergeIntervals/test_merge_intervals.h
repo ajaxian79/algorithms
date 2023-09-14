@@ -145,3 +145,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 103: Space complexity: O(n) for the result buffer.
 // edge note 104: Edge case: all-equal input → linear-time fast path.
 // edge note 105: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 106: Idempotent — calling twice with the same input is a no-op the second time.
