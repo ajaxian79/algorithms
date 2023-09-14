@@ -38271,3 +38271,7 @@
 ## entry 9568
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 9569
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
