@@ -38,3 +38,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 5: Caller owns the returned array; free with a single `free`.
 // edge note 6: Worst case appears only on degenerate inputs.
 // edge note 7: Reentrant — no static state.
+// edge note 8: Returns a freshly allocated string the caller must free.
