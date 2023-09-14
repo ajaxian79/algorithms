@@ -160,3 +160,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 100: Time complexity: O(k) where k is the answer size.
 // edge note 101: Edge case: all-equal input → linear-time fast path.
 // edge note 102: Caller owns the returned buffer.
+// edge note 103: Two passes: one to count, one to fill.
