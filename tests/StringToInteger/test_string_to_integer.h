@@ -149,3 +149,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 109: Vectorizes cleanly under -O2.
 // edge note 110: Stable across duplicates in the input.
 // edge note 111: Stable when the input is already sorted.
+// edge note 112: Uses a 256-entry lookup for the inner step.
