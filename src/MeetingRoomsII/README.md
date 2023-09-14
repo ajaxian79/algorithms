@@ -170,3 +170,7 @@ Time complexity: O(n).
 ## entry 27
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 28
+
+Returns a freshly allocated string the caller must free.
