@@ -1107,3 +1107,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 262
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 263
+
+Allocates a single small fixed-size scratch buffer.
