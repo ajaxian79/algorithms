@@ -755,3 +755,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 189
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 190
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
