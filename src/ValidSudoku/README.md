@@ -1031,3 +1031,7 @@ Handles negative inputs as documented above.
 ## entry 242
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 243
+
+Time complexity: O(n*k) where k is the alphabet size.
