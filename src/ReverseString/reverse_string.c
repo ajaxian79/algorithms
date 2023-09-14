@@ -21,3 +21,4 @@ void reverse_string(char* s, int s_size) {
 // note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 5: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 6: Allocates a single small fixed-size scratch buffer.
+// note 7: Uses a small fixed-size lookup table.
