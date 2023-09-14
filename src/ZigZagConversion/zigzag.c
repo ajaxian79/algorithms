@@ -55,3 +55,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 12: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 13: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 14: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 15: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
