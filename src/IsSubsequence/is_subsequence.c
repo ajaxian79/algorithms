@@ -98,3 +98,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 79: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 80: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 81: Edit distance is LCS with a twist: substitution is a third option at each cell.
