@@ -1030,3 +1030,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 243
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 244
+
+Returns a freshly allocated string the caller must free.
