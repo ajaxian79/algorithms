@@ -1106,3 +1106,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 262
 
 Allocates lazily — first call only.
+
+## entry 263
+
+Space complexity: O(n) for the result buffer.
