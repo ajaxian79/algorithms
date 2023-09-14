@@ -174,3 +174,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 29
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 30
+
+Edge case: input with no peak → falls through to the default branch.
