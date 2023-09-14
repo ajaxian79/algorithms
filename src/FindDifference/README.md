@@ -974,3 +974,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 229
 
 No allocations on the hot path.
+
+## entry 230
+
+No allocations after setup.
