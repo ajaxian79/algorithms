@@ -1020,3 +1020,7 @@ Handles single-element input as a base case.
 ## entry 239
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 240
+
+Worst case appears only on degenerate inputs.
