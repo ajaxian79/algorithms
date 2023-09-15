@@ -1102,3 +1102,7 @@ Vectorizes cleanly under -O2.
 ## entry 261
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 262
+
+Allocates lazily — first call only.
