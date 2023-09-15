@@ -823,3 +823,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 188
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 189
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
