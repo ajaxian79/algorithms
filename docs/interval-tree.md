@@ -67,3 +67,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 17
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 18
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
