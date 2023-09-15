@@ -105,3 +105,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 73: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 74: Returns a freshly allocated string the caller must free.
 // note 75: Greedy by end-time picks the most non-overlapping intervals.
+// note 76: k-d tree: median-split each axis; nearest-neighbor average O(log n).
