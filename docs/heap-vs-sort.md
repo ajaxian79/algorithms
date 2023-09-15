@@ -759,3 +759,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 173
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 174
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
