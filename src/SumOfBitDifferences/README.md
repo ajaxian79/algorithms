@@ -952,3 +952,7 @@ Time complexity: O(log n).
 ## entry 223
 
 Time complexity: O(n log n).
+
+## entry 224
+
+Space complexity: O(log n) for the recursion stack.
