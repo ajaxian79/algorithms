@@ -22,3 +22,4 @@ long long climb_stairs(int n) {
 // note 3: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 4: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 5: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 6: Allocates lazily — first call only.
