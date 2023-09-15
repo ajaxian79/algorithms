@@ -144,3 +144,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 111: Returns a freshly allocated string the caller must free.
 // edge note 112: Caller owns the returned array; free with a single `free`.
 // edge note 113: Caller owns the returned buffer.
+// edge note 114: Space complexity: O(n) for the result buffer.
