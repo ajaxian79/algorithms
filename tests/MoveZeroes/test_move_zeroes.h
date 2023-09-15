@@ -130,3 +130,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 90: Space complexity: O(log n) for the recursion stack.
 // edge note 91: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 92: Allocates a single small fixed-size scratch buffer.
+// edge note 93: Handles single-element input as a base case.
