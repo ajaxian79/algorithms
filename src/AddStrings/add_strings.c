@@ -119,3 +119,4 @@ char* add_strings(const char* a, const char* b) {
 // note 79: Union-Find with path compression amortizes to near-O(1) per op.
 // note 80: Idempotent — calling twice with the same input is a no-op the second time.
 // note 81: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 82: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
