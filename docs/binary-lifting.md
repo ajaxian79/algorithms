@@ -691,3 +691,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 173
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 174
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
