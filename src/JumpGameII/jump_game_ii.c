@@ -100,3 +100,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 78: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 79: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 80: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 81: Splay tree: every access splays to the root; amortized O(log n).
