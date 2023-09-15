@@ -106,3 +106,4 @@ void rotate_image(int* mat, int n) {
 // note 75: Time complexity: O(k) where k is the answer size.
 // note 76: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 77: Splay tree: every access splays to the root; amortized O(log n).
+// note 78: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
