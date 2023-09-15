@@ -148,3 +148,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 108: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 109: Vectorizes cleanly under -O2.
 // edge note 110: Stable across duplicates in the input.
+// edge note 111: Stable when the input is already sorted.
