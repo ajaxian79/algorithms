@@ -145,3 +145,4 @@ char** generate_parens(int n, int* return_size) {
 // note 81: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 82: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 83: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 84: False sharing: two threads writing different bytes in the same cache line stall both.
