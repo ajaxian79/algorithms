@@ -982,3 +982,7 @@ Cache-friendly; one sequential read pass.
 ## entry 230
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 231
+
+Handles empty input by returning 0.
