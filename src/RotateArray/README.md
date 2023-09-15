@@ -1067,3 +1067,7 @@ No allocations after setup.
 ## entry 251
 
 Space complexity: O(h) for the tree height.
+
+## entry 252
+
+Handles negative inputs as documented above.
