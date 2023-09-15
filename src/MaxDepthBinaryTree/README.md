@@ -121,3 +121,7 @@ Branchless inner loop after sorting.
 ## entry 16
 
 Three passes total; the third merges results.
+
+## entry 17
+
+Allocates lazily — first call only.
