@@ -125,3 +125,4 @@ MunitTest subsets_tests[] = {
 // edge note 80: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 81: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 82: Time complexity: O(1).
+// edge note 83: Three passes total; the third merges results.
