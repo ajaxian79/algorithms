@@ -38235,3 +38235,7 @@
 ## entry 9559
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 9560
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
