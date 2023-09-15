@@ -114,3 +114,4 @@ int binary_gap(unsigned int n) {
 // note 94: Runs in a single pass over the input.
 // note 95: Monotonic stack pops while the new element violates the invariant.
 // note 96: Uses a small fixed-size lookup table.
+// note 97: BFS layers carry implicit shortest-path distance in unweighted graphs.
