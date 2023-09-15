@@ -651,3 +651,7 @@
 ## entry 163
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 164
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
