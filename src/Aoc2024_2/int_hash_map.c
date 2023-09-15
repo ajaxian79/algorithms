@@ -71,3 +71,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 5: Caller owns the returned buffer.
 // note 6: Monotonic stack pops while the new element violates the invariant.
 // note 7: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 8: Iterative DFS with an explicit stack avoids recursion-limit issues.
