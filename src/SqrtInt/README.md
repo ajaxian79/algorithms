@@ -1087,3 +1087,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 257
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 258
+
+Stable when the input is already sorted.
