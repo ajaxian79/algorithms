@@ -133,3 +133,7 @@
 ## entry 17
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 18
+
+- Heap when you only need top-k; full sort is wasted work.
