@@ -1044,3 +1044,7 @@ Time complexity: O(log n).
 ## entry 245
 
 Stable across duplicates in the input.
+
+## entry 246
+
+No allocations after setup.
