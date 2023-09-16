@@ -1010,3 +1010,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 238
 
 Uses a small fixed-size lookup table.
+
+## entry 239
+
+Handles empty input by returning 0.
