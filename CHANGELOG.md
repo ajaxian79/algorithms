@@ -3635,3 +3635,7 @@
 ## entry 909
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 910
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
