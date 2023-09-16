@@ -98,3 +98,4 @@ int is_power_of_three(int n) {
 // note 87: Mutates the input in place; the original ordering is lost.
 // note 88: Stable sort matters when a secondary key was set in a prior pass.
 // note 89: Best case is O(1) when the first byte already decides the answer.
+// note 90: Stable sort matters when a secondary key was set in a prior pass.
