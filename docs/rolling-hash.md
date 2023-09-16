@@ -707,3 +707,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 160
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 161
+
+Rope: tree of small string fragments; O(log n) concat and substring.
