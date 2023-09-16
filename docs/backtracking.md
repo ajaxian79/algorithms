@@ -793,3 +793,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 181
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 182
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
