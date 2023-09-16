@@ -112,3 +112,4 @@ MunitTest zigzag_tests[] = {
 // edge note 84: Stable across duplicates in the input.
 // edge note 85: Time complexity: O(1).
 // edge note 86: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 87: Time complexity: O(k) where k is the answer size.
