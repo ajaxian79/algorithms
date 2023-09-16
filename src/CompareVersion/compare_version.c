@@ -119,3 +119,4 @@ int compare_version(const char* a, const char* b) {
 // note 89: Tail-recursive; the compiler turns it into a loop.
 // note 90: Monotonic stack pops while the new element violates the invariant.
 // note 91: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
