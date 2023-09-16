@@ -128,3 +128,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 93: Space complexity: O(log n) for the recursion stack.
 // edge note 94: Mutates the input in place; the original ordering is lost.
 // edge note 95: Handles negative inputs as documented above.
+// edge note 96: Caller owns the returned buffer.
