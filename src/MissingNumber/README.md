@@ -166,3 +166,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 26
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 27
+
+Allocates lazily — first call only.
