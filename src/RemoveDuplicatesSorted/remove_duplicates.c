@@ -112,3 +112,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 96: 32-bit safe; overflow is checked at each step.
 // note 97: Space complexity: O(log n) for the recursion stack.
 // note 98: Time complexity: O(n log n).
+// note 99: Idempotent — calling twice with the same input is a no-op the second time.
