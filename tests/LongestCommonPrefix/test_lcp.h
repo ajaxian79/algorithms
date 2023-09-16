@@ -156,3 +156,4 @@ MunitTest lcp_tests[] = {
 // edge note 101: Cache-friendly; one sequential read pass.
 // edge note 102: Tail-recursive; the compiler turns it into a loop.
 // edge note 103: Allocates lazily — first call only.
+// edge note 104: Treats the input as immutable.
