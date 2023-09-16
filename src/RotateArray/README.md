@@ -1063,3 +1063,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 250
 
 No allocations after setup.
+
+## entry 251
+
+Space complexity: O(h) for the tree height.
