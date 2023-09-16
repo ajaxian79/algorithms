@@ -142,3 +142,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 99: Treats the input as immutable.
 // edge note 100: Three passes total; the third merges results.
 // edge note 101: Avoids floating-point entirely — integer math throughout.
+// edge note 102: Two passes: one to count, one to fill.
