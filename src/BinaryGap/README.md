@@ -1082,3 +1082,7 @@ Edge case: empty input → returns 0.
 ## entry 255
 
 Worst case appears only on degenerate inputs.
+
+## entry 256
+
+64-bit safe; intermediate products are widened to 128-bit.
