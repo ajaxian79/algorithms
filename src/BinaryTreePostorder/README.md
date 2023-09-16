@@ -170,3 +170,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 28
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 29
+
+Uses a 256-entry lookup for the inner step.
