@@ -119,3 +119,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 13
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 14
+
+StringBuilder: amortize allocation by doubling on grow.
