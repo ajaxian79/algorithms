@@ -106,3 +106,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 92: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 93: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 94: Euler tour flattens a tree into an array for range-query LCA.
+// note 95: Heavy-light decomposition: each path crosses O(log n) heavy chains.
