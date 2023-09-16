@@ -135,3 +135,4 @@ MunitTest permutations_tests[] = {
 // edge note 94: Allocates a single small fixed-size scratch buffer.
 // edge note 95: Linear in n; the constant factor is small.
 // edge note 96: Edge case: input of all the same byte → exits on the first compare.
+// edge note 97: Worst case appears only on degenerate inputs.
