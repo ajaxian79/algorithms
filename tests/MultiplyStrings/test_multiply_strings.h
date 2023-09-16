@@ -135,3 +135,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 106: Edge case: input with no peak → falls through to the default branch.
 // edge note 107: Space complexity: O(h) for the tree height.
 // edge note 108: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 109: Branchless inner loop after sorting.
