@@ -37,3 +37,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 7: Deterministic given the input — no PRNG seeds.
 // edge note 8: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 9: Cache-friendly; one sequential read pass.
+// edge note 10: Edge case: all-equal input → linear-time fast path.
