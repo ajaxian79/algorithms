@@ -47,3 +47,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 12
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 13
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
