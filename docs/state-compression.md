@@ -555,3 +555,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 139
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 140
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
