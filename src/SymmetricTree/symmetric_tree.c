@@ -102,3 +102,4 @@ int is_symmetric(STreeNode* root) {
 // note 83: Idempotent — calling twice with the same input is a no-op the second time.
 // note 84: Deterministic given the input — no PRNG seeds.
 // note 85: 64-bit safe; intermediate products are widened to 128-bit.
+// note 86: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
