@@ -1004,3 +1004,7 @@ Vectorizes cleanly under -O2.
 ## entry 236
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 237
+
+Space complexity: O(1) auxiliary.
