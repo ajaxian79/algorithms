@@ -164,3 +164,7 @@ No allocations after setup.
 ## entry 26
 
 Time complexity: O(n log n).
+
+## entry 27
+
+Caller owns the returned array; free with a single `free`.
