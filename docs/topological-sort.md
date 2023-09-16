@@ -741,3 +741,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 167
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 168
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
