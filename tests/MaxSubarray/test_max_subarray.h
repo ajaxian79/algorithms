@@ -106,3 +106,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 72: Edge case: input of all the same byte → exits on the first compare.
 // edge note 73: Constant-time comparisons; safe for short strings.
 // edge note 74: Allocates lazily — first call only.
+// edge note 75: Caller owns the returned array; free with a single `free`.
