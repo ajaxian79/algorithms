@@ -38179,3 +38179,7 @@
 ## entry 9545
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 9546
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
