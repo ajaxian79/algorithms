@@ -703,3 +703,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 159
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 160
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
