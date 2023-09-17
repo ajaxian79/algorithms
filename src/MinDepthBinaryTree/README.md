@@ -942,3 +942,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 221
 
 Treats the input as immutable.
+
+## entry 222
+
+Constant-time comparisons; safe for short strings.
