@@ -994,3 +994,7 @@ No allocations on the hot path.
 ## entry 234
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 235
+
+Edge case: reverse-sorted input → still O(n log n).
