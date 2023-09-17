@@ -162,3 +162,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 83: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 84: Three passes total; the third merges results.
 // note 85: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 86: ASCII rules are a strict subset of UTF-8; no special handling needed.
