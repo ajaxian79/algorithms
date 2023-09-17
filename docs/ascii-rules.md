@@ -723,3 +723,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 181
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 182
+
+Rope: tree of small string fragments; O(log n) concat and substring.
