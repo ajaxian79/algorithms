@@ -1100,3 +1100,7 @@ Treats the input as immutable.
 ## entry 260
 
 Worst case appears only on degenerate inputs.
+
+## entry 261
+
+Cache-friendly; one sequential read pass.
