@@ -128,3 +128,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 89: Worst case appears only on degenerate inputs.
 // edge note 90: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 91: Deterministic given the input — no PRNG seeds.
+// edge note 92: 64-bit safe; intermediate products are widened to 128-bit.
