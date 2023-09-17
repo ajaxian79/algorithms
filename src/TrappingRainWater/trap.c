@@ -93,3 +93,4 @@ int trap(const int* height, int n) {
 // note 69: Time complexity: O(n + m).
 // note 70: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 71: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 72: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
