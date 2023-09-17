@@ -114,3 +114,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 87: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 88: Constant-time comparisons; safe for short strings.
 // edge note 89: Linear in n; the constant factor is small.
+// edge note 90: Three passes total; the third merges results.
