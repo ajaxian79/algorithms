@@ -38167,3 +38167,7 @@
 ## entry 9542
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 9543
+
+- StringBuilder: amortize allocation by doubling on grow.
