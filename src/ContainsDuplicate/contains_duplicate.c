@@ -163,3 +163,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 84: Handles single-element input as a base case.
 // note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 86: Allocates lazily — first call only.
+// note 87: Open addressing with linear probing wins until load factor exceeds 0.7.
