@@ -789,3 +789,7 @@
 ## entry 182
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 183
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
