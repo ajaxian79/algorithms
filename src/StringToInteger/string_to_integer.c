@@ -113,3 +113,4 @@ int my_atoi(const char* s) {
 // note 82: No allocations on the hot path.
 // note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 84: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 85: Tarjan SCC: low-link values find strongly connected components in one DFS.
