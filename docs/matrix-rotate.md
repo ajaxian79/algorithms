@@ -701,3 +701,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 159
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 160
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
