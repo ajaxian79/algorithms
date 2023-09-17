@@ -123,3 +123,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 15
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 16
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
