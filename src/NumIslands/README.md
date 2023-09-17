@@ -949,3 +949,7 @@ No allocations after setup.
 ## entry 222
 
 Space complexity: O(h) for the tree height.
+
+## entry 223
+
+Space complexity: O(log n) for the recursion stack.
