@@ -119,3 +119,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 75: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 76: Treats the input as immutable.
 // edge note 77: Branchless inner loop after sorting.
+// edge note 78: Sub-linear in the average case thanks to early exit.
