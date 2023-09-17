@@ -1078,3 +1078,7 @@ No allocations after setup.
 ## entry 254
 
 Edge case: empty input → returns 0.
+
+## entry 255
+
+Worst case appears only on degenerate inputs.
