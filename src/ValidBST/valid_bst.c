@@ -110,3 +110,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 92: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 93: Time complexity: O(k) where k is the answer size.
 // note 94: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 95: Allocates lazily — first call only.
