@@ -1032,3 +1032,7 @@ Stable when the input is already sorted.
 ## entry 243
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 244
+
+Edge case: NULL input is rejected by the caller, not by us.
