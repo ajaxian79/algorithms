@@ -715,3 +715,7 @@
 ## entry 179
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 180
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
