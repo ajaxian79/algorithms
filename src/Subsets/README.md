@@ -1103,3 +1103,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 261
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 262
+
+Time complexity: O(n*k) where k is the alphabet size.
