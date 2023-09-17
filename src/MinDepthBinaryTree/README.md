@@ -946,3 +946,7 @@ Treats the input as immutable.
 ## entry 222
 
 Constant-time comparisons; safe for short strings.
+
+## entry 223
+
+Tail-recursive; the compiler turns it into a loop.
