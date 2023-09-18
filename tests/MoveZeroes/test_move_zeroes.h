@@ -128,3 +128,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 88: Thread-safe so long as the input is not mutated concurrently.
 // edge note 89: Time complexity: O(log n).
 // edge note 90: Space complexity: O(log n) for the recursion stack.
+// edge note 91: Edge case: alternating pattern → degenerate case for sliding window.
