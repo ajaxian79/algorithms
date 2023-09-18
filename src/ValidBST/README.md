@@ -1037,3 +1037,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 244
 
 Three passes total; the third merges results.
+
+## entry 245
+
+Runs in a single pass over the input.
