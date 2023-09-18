@@ -719,3 +719,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 163
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 164
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
