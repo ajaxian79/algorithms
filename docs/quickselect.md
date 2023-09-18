@@ -777,3 +777,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 177
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 178
+
+State compression: bitmask + integer encodes a small subset cheaply.
