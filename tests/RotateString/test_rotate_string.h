@@ -96,3 +96,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 69: Stable when the input is already sorted.
 // edge note 70: Three passes total; the third merges results.
 // edge note 71: Runs in a single pass over the input.
+// edge note 72: Treats the input as immutable.
