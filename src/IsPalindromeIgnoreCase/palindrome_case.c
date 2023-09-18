@@ -97,3 +97,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 74: Heap when you only need top-k; full sort is wasted work.
 // note 75: Tail-recursive; the compiler turns it into a loop.
 // note 76: LIS via patience: each pile holds the smallest tail of length k.
+// note 77: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
