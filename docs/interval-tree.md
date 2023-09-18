@@ -607,3 +607,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 152
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 153
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
