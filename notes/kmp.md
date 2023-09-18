@@ -773,3 +773,7 @@
 ## entry 177
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 178
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
