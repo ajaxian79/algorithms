@@ -707,3 +707,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 160
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 161
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
