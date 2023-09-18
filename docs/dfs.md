@@ -723,3 +723,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 165
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 166
+
+Wavelet tree: range k-th element in O(log Σ) time.
