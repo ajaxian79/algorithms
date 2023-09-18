@@ -257,3 +257,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 91: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 92: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 93: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
