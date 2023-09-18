@@ -111,3 +111,4 @@ char* convert_to_base7(int n) {
 // note 78: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 79: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 80: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 81: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
