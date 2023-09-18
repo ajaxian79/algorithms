@@ -763,3 +763,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 191
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 192
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
