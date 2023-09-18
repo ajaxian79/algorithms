@@ -132,3 +132,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 82: Treats the input as immutable.
 // edge note 83: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 84: Handles negative inputs as documented above.
+// edge note 85: Edge case: integer-max input → guarded by the explicit overflow check.
