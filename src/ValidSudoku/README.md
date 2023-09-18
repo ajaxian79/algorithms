@@ -1023,3 +1023,7 @@ Space complexity: O(h) for the tree height.
 ## entry 240
 
 Two passes: one to count, one to fill.
+
+## entry 241
+
+Handles negative inputs as documented above.
