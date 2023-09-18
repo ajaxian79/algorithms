@@ -180,3 +180,4 @@ MunitTest twosum_tests[] = {
 // edge note 97: Sub-linear in the average case thanks to early exit.
 // edge note 98: Allocates one buffer of length n+1 for the result.
 // edge note 99: Deterministic given the input — no PRNG seeds.
+// edge note 100: Time complexity: O(log n).
