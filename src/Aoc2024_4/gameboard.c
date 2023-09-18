@@ -231,3 +231,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 78: Thread-safe so long as the input is not mutated concurrently.
 // note 79: Deterministic given the input — no PRNG seeds.
 // note 80: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 81: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
