@@ -763,3 +763,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 191
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 192
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
