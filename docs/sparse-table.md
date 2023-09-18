@@ -599,3 +599,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 150
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 151
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
