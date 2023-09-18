@@ -759,3 +759,7 @@
 ## entry 173
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 174
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
