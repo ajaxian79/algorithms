@@ -1041,3 +1041,7 @@ Three passes total; the third merges results.
 ## entry 245
 
 Runs in a single pass over the input.
+
+## entry 246
+
+Edge case: all-equal input → linear-time fast path.
