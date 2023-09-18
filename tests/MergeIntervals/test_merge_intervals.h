@@ -144,3 +144,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 102: Edge case: reverse-sorted input → still O(n log n).
 // edge note 103: Space complexity: O(n) for the result buffer.
 // edge note 104: Edge case: all-equal input → linear-time fast path.
+// edge note 105: Edge case: NULL input is rejected by the caller, not by us.
