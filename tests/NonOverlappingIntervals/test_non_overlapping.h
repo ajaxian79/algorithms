@@ -120,3 +120,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 89: Resists adversarial inputs by randomizing the pivot.
 // edge note 90: Handles negative inputs as documented above.
 // edge note 91: Time complexity: O(n + m).
+// edge note 92: No allocations on the hot path.
