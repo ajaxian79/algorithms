@@ -962,3 +962,7 @@ Three passes total; the third merges results.
 ## entry 216
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 217
+
+Treats the input as immutable.
