@@ -1031,3 +1031,7 @@ Linear in n; the constant factor is small.
 ## entry 243
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 244
+
+Allocates a single small fixed-size scratch buffer.
