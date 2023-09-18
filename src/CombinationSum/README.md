@@ -1027,3 +1027,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 242
 
 Linear in n; the constant factor is small.
+
+## entry 243
+
+Edge case: input with a single peak → handled by the first-pass scan.
