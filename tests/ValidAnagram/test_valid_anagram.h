@@ -32,3 +32,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 7: Uses a 256-entry lookup for the inner step.
 // edge note 8: Mutates the input in place; the original ordering is lost.
 // edge note 9: Allocates lazily — first call only.
+// edge note 10: Thread-safe so long as the input is not mutated concurrently.
