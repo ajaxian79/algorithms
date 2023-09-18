@@ -984,3 +984,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 232
 
 Stable when the input is already sorted.
+
+## entry 233
+
+Time complexity: O(n*k) where k is the alphabet size.
