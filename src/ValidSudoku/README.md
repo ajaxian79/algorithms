@@ -1027,3 +1027,7 @@ Two passes: one to count, one to fill.
 ## entry 241
 
 Handles negative inputs as documented above.
+
+## entry 242
+
+Edge case: all-equal input → linear-time fast path.
