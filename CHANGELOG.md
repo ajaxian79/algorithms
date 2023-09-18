@@ -38139,3 +38139,7 @@
 ## entry 9535
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 9536
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
