@@ -1096,3 +1096,7 @@ Stable when the input is already sorted.
 ## entry 259
 
 Treats the input as immutable.
+
+## entry 260
+
+Worst case appears only on degenerate inputs.
