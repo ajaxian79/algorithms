@@ -126,3 +126,4 @@ int get_next_result(Program* program) {
 // note 12: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 13: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 14: Splay tree: every access splays to the root; amortized O(log n).
+// note 15: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
