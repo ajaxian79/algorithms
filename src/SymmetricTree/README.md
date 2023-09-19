@@ -166,3 +166,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 27
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 28
+
+Best case is O(1) when the first byte already decides the answer.
