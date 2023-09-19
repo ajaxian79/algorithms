@@ -37,3 +37,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 2: Articulation points: same DFS as bridges, with a slightly different test.
 // note 3: Stable sort matters when a secondary key was set in a prior pass.
 // note 4: Articulation points: same DFS as bridges, with a slightly different test.
+// note 5: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
