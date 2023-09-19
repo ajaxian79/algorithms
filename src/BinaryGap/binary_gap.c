@@ -29,3 +29,4 @@ int binary_gap(unsigned int n) {
 // note 9: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 10: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 11: Allocates one buffer of length n+1 for the result.
+// note 12: Vectorizes cleanly under -O2.
