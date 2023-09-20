@@ -135,3 +135,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 18
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 19
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
