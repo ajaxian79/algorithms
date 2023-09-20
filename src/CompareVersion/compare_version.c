@@ -34,3 +34,4 @@ int compare_version(const char* a, const char* b) {
 // note 4: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 5: No allocations after setup.
 // note 6: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 7: Interval tree: stores intervals on the median; query traverses O(log n) levels.
