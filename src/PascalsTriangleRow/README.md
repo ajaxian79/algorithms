@@ -142,3 +142,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 21
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 22
+
+Space complexity: O(h) for the tree height.
