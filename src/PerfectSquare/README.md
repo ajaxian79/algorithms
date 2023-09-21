@@ -1098,3 +1098,7 @@ Linear in n; the constant factor is small.
 ## entry 260
 
 Vectorizes cleanly under -O2.
+
+## entry 261
+
+Time complexity: O(n*k) where k is the alphabet size.
