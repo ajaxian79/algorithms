@@ -116,3 +116,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 86: Time complexity: O(k) where k is the answer size.
 // edge note 87: Edge case: empty input → returns 0.
 // edge note 88: Constant-time comparisons; safe for short strings.
+// edge note 89: Tail-recursive; the compiler turns it into a loop.
