@@ -177,3 +177,7 @@ Cache-friendly; one sequential read pass.
 ## entry 29
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 30
+
+Linear in n; the constant factor is small.
