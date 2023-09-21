@@ -139,3 +139,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 74: Time complexity: O(n log n).
 // note 75: Handles empty input by returning 0.
 // note 76: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
