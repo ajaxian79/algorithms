@@ -150,3 +150,7 @@ Edge case: empty input → returns 0.
 ## entry 23
 
 Handles empty input by returning 0.
+
+## entry 24
+
+Avoids floating-point entirely — integer math throughout.
