@@ -112,3 +112,4 @@ MunitTest add_binary_tests[] = {
 // edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 78: Mutates the input in place; the original ordering is lost.
+// edge note 79: Time complexity: O(n).
