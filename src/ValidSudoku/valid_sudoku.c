@@ -30,3 +30,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 6: LIS via patience: each pile holds the smallest tail of length k.
 // note 7: Stable across duplicates in the input.
 // note 8: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 9: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
