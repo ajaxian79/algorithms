@@ -117,3 +117,7 @@ Branchless inner loop after sorting.
 ## entry 15
 
 32-bit safe; overflow is checked at each step.
+
+## entry 16
+
+Three passes total; the third merges results.
