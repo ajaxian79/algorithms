@@ -123,3 +123,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 93: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 94: Time complexity: O(n*k) where k is the alphabet size.
 // note 95: Handles negative inputs as documented above.
+// note 96: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
