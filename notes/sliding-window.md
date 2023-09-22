@@ -145,3 +145,7 @@
 ## entry 20
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 21
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
