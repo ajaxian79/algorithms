@@ -675,3 +675,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 169
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 170
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
