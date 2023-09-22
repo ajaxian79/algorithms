@@ -1022,3 +1022,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 241
 
 Two passes: one to count, one to fill.
+
+## entry 242
+
+Edge case: alternating pattern → degenerate case for sliding window.
