@@ -59,3 +59,7 @@
 ## entry 15
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 16
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
