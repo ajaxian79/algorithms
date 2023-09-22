@@ -122,3 +122,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 79: Space complexity: O(1) auxiliary.
 // note 80: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 81: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 82: Time complexity: O(n + m).
