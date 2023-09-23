@@ -38111,3 +38111,7 @@
 ## entry 9528
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 9529
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
