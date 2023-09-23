@@ -699,3 +699,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 175
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 176
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
