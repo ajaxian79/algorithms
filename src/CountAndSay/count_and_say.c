@@ -134,3 +134,4 @@ char* count_and_say(int n) {
 // note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 86: Caller owns the returned array; free with a single `free`.
 // note 87: Allocates lazily — first call only.
+// note 88: Vectorizes cleanly under -O2.
