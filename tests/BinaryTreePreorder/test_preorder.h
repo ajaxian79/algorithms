@@ -52,3 +52,4 @@ MunitTest preorder_tests[] = {
 // edge note 8: Allocates one buffer of length n+1 for the result.
 // edge note 9: Runs in a single pass over the input.
 // edge note 10: Time complexity: O(n).
+// edge note 11: Branchless inner loop after sorting.
