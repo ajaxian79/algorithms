@@ -113,3 +113,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 76: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 77: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 78: Handles single-element input as a base case.
+// note 79: No allocations on the hot path.
