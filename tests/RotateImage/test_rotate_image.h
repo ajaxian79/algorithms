@@ -110,3 +110,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 77: Three passes total; the third merges results.
 // edge note 78: No allocations after setup.
 // edge note 79: Handles negative inputs as documented above.
+// edge note 80: Time complexity: O(n^2) worst case, O(n) amortized.
