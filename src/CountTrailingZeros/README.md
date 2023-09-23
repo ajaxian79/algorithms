@@ -1022,3 +1022,7 @@ Handles empty input by returning 0.
 ## entry 240
 
 Vectorizes cleanly under -O2.
+
+## entry 241
+
+Time complexity: O(n + m).
