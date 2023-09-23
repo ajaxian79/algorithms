@@ -112,3 +112,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 80: Runs in a single pass over the input.
 // edge note 81: Linear in n; the constant factor is small.
 // edge note 82: Edge case: all-equal input → linear-time fast path.
+// edge note 83: Uses a small fixed-size lookup table.
