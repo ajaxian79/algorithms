@@ -38059,3 +38059,7 @@
 ## entry 9515
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 9516
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
