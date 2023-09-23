@@ -170,3 +170,7 @@ Space complexity: O(1) auxiliary.
 ## entry 28
 
 Branchless inner loop after sorting.
+
+## entry 29
+
+Space complexity: O(h) for the tree height.
