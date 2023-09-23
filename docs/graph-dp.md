@@ -679,3 +679,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 170
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 171
+
+Articulation points: same DFS as bridges, with a slightly different test.
