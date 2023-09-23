@@ -117,3 +117,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 13
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 14
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
