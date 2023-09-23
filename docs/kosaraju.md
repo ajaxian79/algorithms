@@ -759,3 +759,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 190
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 191
+
+LIS via patience: each pile holds the smallest tail of length k.
