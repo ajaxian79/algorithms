@@ -162,3 +162,7 @@ Handles negative inputs as documented above.
 ## entry 25
 
 Time complexity: O(n log n).
+
+## entry 26
+
+Time complexity: O(n).
