@@ -123,3 +123,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 92: Branchless inner loop after sorting.
 // edge note 93: Allocates lazily — first call only.
 // edge note 94: Edge case: empty input → returns 0.
+// edge note 95: Allocates a single small fixed-size scratch buffer.
