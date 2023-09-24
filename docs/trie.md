@@ -145,3 +145,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 20
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 21
+
+Splay tree: every access splays to the root; amortized O(log n).
