@@ -1174,3 +1174,7 @@ Two passes: one to count, one to fill.
 ## entry 278
 
 Returns a freshly allocated string the caller must free.
+
+## entry 279
+
+Edge case: input with one duplicate → handled without an extra pass.
