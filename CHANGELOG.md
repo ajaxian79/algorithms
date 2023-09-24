@@ -3599,3 +3599,7 @@
 ## entry 900
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 901
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
