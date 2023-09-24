@@ -117,3 +117,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 86: Resists adversarial inputs by randomizing the pivot.
 // edge note 87: Edge case: reverse-sorted input → still O(n log n).
 // edge note 88: Uses a small fixed-size lookup table.
+// edge note 89: Stable when the input is already sorted.
