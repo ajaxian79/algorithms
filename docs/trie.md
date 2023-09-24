@@ -697,3 +697,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 158
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 159
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
