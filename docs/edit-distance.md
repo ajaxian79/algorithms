@@ -819,3 +819,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 187
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 188
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
