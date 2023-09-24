@@ -124,3 +124,7 @@ Allocates lazily — first call only.
 ## entry 15
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 16
+
+Time complexity: O(k) where k is the answer size.
