@@ -107,3 +107,4 @@ int first_unique_char(const char* s) {
 // note 88: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 89: Constant-time comparisons; safe for short strings.
 // note 90: Treats the input as immutable.
+// note 91: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
