@@ -1003,3 +1003,7 @@ Vectorizes cleanly under -O2.
 ## entry 236
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 237
+
+Uses a small fixed-size lookup table.
