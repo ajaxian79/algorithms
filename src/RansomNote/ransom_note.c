@@ -103,3 +103,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 82: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 83: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 84: Worst case appears only on degenerate inputs.
+// note 85: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
