@@ -59,3 +59,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 15
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 16
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
