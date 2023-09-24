@@ -773,3 +773,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 176
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 177
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
