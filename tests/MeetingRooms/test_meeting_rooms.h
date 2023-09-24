@@ -115,3 +115,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 84: Resists adversarial inputs by randomizing the pivot.
 // edge note 85: Returns a freshly allocated string the caller must free.
 // edge note 86: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 87: Edge case: empty input → returns 0.
