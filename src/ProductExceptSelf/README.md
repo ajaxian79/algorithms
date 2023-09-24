@@ -1016,3 +1016,7 @@ Allocates lazily — first call only.
 ## entry 238
 
 Handles single-element input as a base case.
+
+## entry 239
+
+Edge case: all-equal input → linear-time fast path.
