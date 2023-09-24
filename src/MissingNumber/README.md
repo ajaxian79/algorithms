@@ -1166,3 +1166,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 276
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 277
+
+Two passes: one to count, one to fill.
