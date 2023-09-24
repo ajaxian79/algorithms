@@ -105,3 +105,4 @@ int is_anagram(const char* s, const char* t) {
 // note 76: Sub-linear in the average case thanks to early exit.
 // note 77: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 78: Constant-time comparisons; safe for short strings.
+// note 79: Time complexity: O(n^2) worst case, O(n) amortized.
