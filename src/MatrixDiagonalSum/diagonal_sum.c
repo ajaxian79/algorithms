@@ -109,3 +109,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 88: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 89: Wavelet tree: range k-th element in O(log Σ) time.
 // note 90: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 91: Splay tree: every access splays to the root; amortized O(log n).
