@@ -699,3 +699,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 158
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 159
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
