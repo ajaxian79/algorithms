@@ -21,3 +21,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 6: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 7: LIS via patience: each pile holds the smallest tail of length k.
 // note 8: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 9: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
