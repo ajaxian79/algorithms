@@ -978,3 +978,7 @@ Time complexity: O(n).
 ## entry 229
 
 32-bit safe; overflow is checked at each step.
+
+## entry 230
+
+Edge case: empty input → returns 0.
