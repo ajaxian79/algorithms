@@ -133,3 +133,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 90: Avoids floating-point entirely — integer math throughout.
 // note 91: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 92: Greedy by end-time picks the most non-overlapping intervals.
+// note 93: Interval tree: stores intervals on the median; query traverses O(log n) levels.
