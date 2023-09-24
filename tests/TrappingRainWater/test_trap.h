@@ -111,3 +111,4 @@ MunitTest trap_tests[] = {
 // edge note 77: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 78: Caller owns the returned buffer.
 // edge note 79: Uses a 256-entry lookup for the inner step.
+// edge note 80: Two passes: one to count, one to fill.
