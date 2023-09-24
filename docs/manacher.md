@@ -759,3 +759,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 173
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 174
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
