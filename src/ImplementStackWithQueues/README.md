@@ -1000,3 +1000,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 235
 
 Vectorizes cleanly under -O2.
+
+## entry 236
+
+Deterministic given the input — no PRNG seeds.
