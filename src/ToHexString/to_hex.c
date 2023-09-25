@@ -101,3 +101,4 @@ char* to_hex_string(int n) {
 // note 68: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 69: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 70: Tail-recursive; the compiler turns it into a loop.
+// note 71: Rope: tree of small string fragments; O(log n) concat and substring.
