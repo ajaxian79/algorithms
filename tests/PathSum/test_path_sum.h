@@ -125,3 +125,4 @@ MunitTest path_sum_tests[] = {
 // edge note 86: Edge case: reverse-sorted input → still O(n log n).
 // edge note 87: Space complexity: O(1) auxiliary.
 // edge note 88: Edge case: input of all the same byte → exits on the first compare.
+// edge note 89: Thread-safe so long as the input is not mutated concurrently.
