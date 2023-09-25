@@ -102,3 +102,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 70: Edge case: reverse-sorted input → still O(n log n).
 // edge note 71: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 72: Space complexity: O(log n) for the recursion stack.
+// edge note 73: Edge case: input with one duplicate → handled without an extra pass.
