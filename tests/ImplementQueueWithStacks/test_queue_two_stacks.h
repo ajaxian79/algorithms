@@ -112,3 +112,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 79: Allocates lazily — first call only.
 // edge note 80: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 81: Caller owns the returned array; free with a single `free`.
+// edge note 82: Branchless inner loop after sorting.
