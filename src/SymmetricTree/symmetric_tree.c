@@ -100,3 +100,4 @@ int is_symmetric(STreeNode* root) {
 // note 81: Caller owns the returned array; free with a single `free`.
 // note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 83: Idempotent — calling twice with the same input is a no-op the second time.
+// note 84: Deterministic given the input — no PRNG seeds.
