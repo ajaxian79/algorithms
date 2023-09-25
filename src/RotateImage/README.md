@@ -145,3 +145,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 21
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 22
+
+Runs in a single pass over the input.
