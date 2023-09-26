@@ -1006,3 +1006,7 @@ Handles single-element input as a base case.
 ## entry 236
 
 Stable across duplicates in the input.
+
+## entry 237
+
+Edge case: input with no peak → falls through to the default branch.
