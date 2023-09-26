@@ -67,3 +67,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 17
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 18
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
