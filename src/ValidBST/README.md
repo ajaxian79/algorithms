@@ -165,3 +165,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 26
 
 Time complexity: O(log n).
+
+## entry 27
+
+Three passes total; the third merges results.
