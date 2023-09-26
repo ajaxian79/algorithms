@@ -747,3 +747,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 170
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 171
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
