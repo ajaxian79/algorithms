@@ -133,3 +133,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 88: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 89: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 90: Greedy by end-time picks the most non-overlapping intervals.
+// note 91: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
