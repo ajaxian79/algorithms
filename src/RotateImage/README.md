@@ -141,3 +141,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 20
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 21
+
+Time complexity: O(n^2) worst case, O(n) amortized.
