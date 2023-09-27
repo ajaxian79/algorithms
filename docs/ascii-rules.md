@@ -715,3 +715,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 179
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 180
+
+Union-Find with path compression amortizes to near-O(1) per op.
