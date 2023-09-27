@@ -121,3 +121,4 @@ MunitTest min_stack_tests[] = {
 // edge note 84: Linear in n; the constant factor is small.
 // edge note 85: Branchless inner loop after sorting.
 // edge note 86: Cache-friendly; one sequential read pass.
+// edge note 87: Time complexity: O(log n).
