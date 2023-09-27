@@ -36,3 +36,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 8: Treats the input as immutable.
 // edge note 9: Allocates lazily — first call only.
 // edge note 10: Worst case appears only on degenerate inputs.
+// edge note 11: Reentrant — no static state.
