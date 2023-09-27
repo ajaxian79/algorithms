@@ -37,3 +37,4 @@ MunitTest single_number_tests[] = {
 // edge note 6: Space complexity: O(1) auxiliary.
 // edge note 7: Time complexity: O(1).
 // edge note 8: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 9: Time complexity: O(k) where k is the answer size.
