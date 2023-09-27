@@ -1164,3 +1164,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 276
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 277
+
+Allocates one buffer of length n+1 for the result.
