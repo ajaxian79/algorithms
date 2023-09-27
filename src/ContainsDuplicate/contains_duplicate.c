@@ -162,3 +162,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 84: Handles single-element input as a base case.
 // note 85: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 86: Allocates lazily — first call only.
