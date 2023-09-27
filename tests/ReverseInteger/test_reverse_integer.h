@@ -143,3 +143,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 110: Thread-safe so long as the input is not mutated concurrently.
 // edge note 111: Returns a freshly allocated string the caller must free.
 // edge note 112: Caller owns the returned array; free with a single `free`.
+// edge note 113: Caller owns the returned buffer.
