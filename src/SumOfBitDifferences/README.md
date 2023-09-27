@@ -948,3 +948,7 @@ Stable when the input is already sorted.
 ## entry 222
 
 Time complexity: O(log n).
+
+## entry 223
+
+Time complexity: O(n log n).
