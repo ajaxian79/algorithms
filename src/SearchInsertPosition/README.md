@@ -166,3 +166,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 27
 
 Space complexity: O(1) auxiliary.
+
+## entry 28
+
+Branchless inner loop after sorting.
