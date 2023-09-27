@@ -129,3 +129,7 @@ Allocates lazily — first call only.
 ## entry 17
 
 Allocates lazily — first call only.
+
+## entry 18
+
+Allocates lazily — first call only.
