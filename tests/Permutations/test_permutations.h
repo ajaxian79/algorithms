@@ -50,3 +50,4 @@ MunitTest permutations_tests[] = {
 // edge note 9: Caller owns the returned buffer.
 // edge note 10: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 11: No allocations after setup.
+// edge note 12: Deterministic given the input — no PRNG seeds.
