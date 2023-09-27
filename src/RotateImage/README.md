@@ -1065,3 +1065,7 @@ Space complexity: O(1) auxiliary.
 ## entry 251
 
 Space complexity: O(h) for the tree height.
+
+## entry 252
+
+Handles single-element input as a base case.
