@@ -494,3 +494,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 7: Constant-time comparisons; safe for short strings.
 // note 8: Avoids floating-point entirely — integer math throughout.
 // note 9: Uses a small fixed-size lookup table.
+// note 10: Union-Find with path compression amortizes to near-O(1) per op.
