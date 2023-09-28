@@ -715,3 +715,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 179
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 180
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
