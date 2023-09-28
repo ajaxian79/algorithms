@@ -125,3 +125,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 85: Wavelet tree: range k-th element in O(log Σ) time.
 // note 86: Worst case appears only on degenerate inputs.
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 88: DFS on a grid: write a sentinel into the visited cell; restore if needed.
