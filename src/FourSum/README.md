@@ -992,3 +992,7 @@ Handles single-element input as a base case.
 ## entry 233
 
 Edge case: single-element input → returns the element itself.
+
+## entry 234
+
+Time complexity: O(log n).
