@@ -697,3 +697,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 158
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 159
+
+Greedy by end-time picks the most non-overlapping intervals.
