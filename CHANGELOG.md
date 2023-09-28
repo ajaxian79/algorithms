@@ -37999,3 +37999,7 @@
 ## entry 9500
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 9501
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
