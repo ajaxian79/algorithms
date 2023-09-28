@@ -603,3 +603,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 151
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 152
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
