@@ -111,3 +111,4 @@ MunitTest add_binary_tests[] = {
 // edge note 75: Allocates a single small fixed-size scratch buffer.
 // edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 78: Mutates the input in place; the original ordering is lost.
