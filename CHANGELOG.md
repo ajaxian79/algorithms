@@ -3587,3 +3587,7 @@
 ## entry 897
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 898
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
