@@ -111,3 +111,4 @@ int my_atoi(const char* s) {
 // note 80: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 81: Allocates one buffer of length n+1 for the result.
 // note 82: No allocations on the hot path.
+// note 83: Time complexity: O(n^2) worst case, O(n) amortized.
