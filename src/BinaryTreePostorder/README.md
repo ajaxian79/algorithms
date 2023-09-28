@@ -166,3 +166,7 @@ Edge case: empty input → returns 0.
 ## entry 27
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 28
+
+Edge case: input of all the same byte → exits on the first compare.
