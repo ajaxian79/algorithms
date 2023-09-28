@@ -99,3 +99,4 @@ char repeatedCharacter(char* s) {
 // note 76: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 77: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 78: StringBuilder: amortize allocation by doubling on grow.
+// note 79: Treats the input as immutable.
