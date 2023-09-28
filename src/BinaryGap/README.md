@@ -1066,3 +1066,7 @@ Allocates lazily — first call only.
 ## entry 251
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 252
+
+Edge case: input of all the same byte → exits on the first compare.
