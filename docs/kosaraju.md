@@ -755,3 +755,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 189
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 190
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
