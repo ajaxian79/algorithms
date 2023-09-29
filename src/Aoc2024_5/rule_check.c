@@ -561,3 +561,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 74: 32-bit safe; overflow is checked at each step.
 // note 75: Time complexity: O(n).
 // note 76: 64-bit safe; intermediate products are widened to 128-bit.
+// note 77: Handles empty input by returning 0.
