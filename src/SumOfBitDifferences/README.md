@@ -940,3 +940,7 @@ Time complexity: O(n + m).
 ## entry 220
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 221
+
+Stable when the input is already sorted.
