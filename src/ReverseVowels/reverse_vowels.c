@@ -126,3 +126,4 @@ void reverse_vowels(char* s) {
 // note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 94: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 95: Runs in a single pass over the input.
+// note 96: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
