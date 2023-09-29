@@ -240,3 +240,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 104: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 105: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 106: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 107: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
