@@ -1083,3 +1083,7 @@ Space complexity: O(h) for the tree height.
 ## entry 256
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 257
+
+Space complexity: O(1) auxiliary.
