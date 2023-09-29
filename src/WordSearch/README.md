@@ -982,3 +982,7 @@ Branchless inner loop after sorting.
 ## entry 231
 
 Time complexity: O(log n).
+
+## entry 232
+
+Edge case: reverse-sorted input → still O(n log n).
