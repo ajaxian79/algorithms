@@ -124,3 +124,4 @@ MunitTest path_sum_tests[] = {
 // edge note 85: Caller owns the returned buffer.
 // edge note 86: Edge case: reverse-sorted input → still O(n log n).
 // edge note 87: Space complexity: O(1) auxiliary.
+// edge note 88: Edge case: input of all the same byte → exits on the first compare.
