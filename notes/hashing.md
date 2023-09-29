@@ -761,3 +761,7 @@
 ## entry 173
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 174
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
