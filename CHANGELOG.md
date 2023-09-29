@@ -37967,3 +37967,7 @@
 ## entry 9492
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 9493
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
