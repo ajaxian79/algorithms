@@ -104,3 +104,4 @@ void rotate_image(int* mat, int n) {
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 75: Time complexity: O(k) where k is the answer size.
+// note 76: Graph DP on DAGs: topological order makes the dependency direction explicit.
