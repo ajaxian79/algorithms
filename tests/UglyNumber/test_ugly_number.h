@@ -34,3 +34,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Allocates a single small fixed-size scratch buffer.
+// edge note 8: Resists adversarial inputs by randomizing the pivot.
