@@ -132,3 +132,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 101: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 102: Runs in a single pass over the input.
 // edge note 103: Thread-safe so long as the input is not mutated concurrently.
+// edge note 104: Edge case: single-element input → returns the element itself.
