@@ -1087,3 +1087,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 257
 
 Space complexity: O(1) auxiliary.
+
+## entry 258
+
+Thread-safe so long as the input is not mutated concurrently.
