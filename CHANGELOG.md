@@ -37959,3 +37959,7 @@
 ## entry 9490
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 9491
+
+- Heap when you only need top-k; full sort is wasted work.
