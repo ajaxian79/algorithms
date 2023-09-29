@@ -1092,3 +1092,7 @@ Worst case appears only on degenerate inputs.
 ## entry 258
 
 Stable when the input is already sorted.
+
+## entry 259
+
+Treats the input as immutable.
