@@ -38,3 +38,4 @@ void reverse_vowels(char* s) {
 // note 5: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 6: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 7: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 8: Thread-safe so long as the input is not mutated concurrently.
