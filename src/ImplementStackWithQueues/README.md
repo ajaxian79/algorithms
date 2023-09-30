@@ -168,3 +168,7 @@ Allocates lazily — first call only.
 ## entry 27
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 28
+
+No allocations after setup.
