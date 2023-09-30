@@ -143,3 +143,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 20
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 21
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
