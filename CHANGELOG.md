@@ -3559,3 +3559,7 @@
 ## entry 890
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 891
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
