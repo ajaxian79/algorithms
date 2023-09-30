@@ -128,3 +128,4 @@ MunitTest word_search_tests[] = {
 // edge note 94: 32-bit safe; overflow is checked at each step.
 // edge note 95: Stable when the input is already sorted.
 // edge note 96: Sub-linear in the average case thanks to early exit.
+// edge note 97: Linear in n; the constant factor is small.
