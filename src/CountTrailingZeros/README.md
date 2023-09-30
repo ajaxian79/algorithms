@@ -130,3 +130,7 @@ Time complexity: O(n + m).
 ## entry 17
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 18
+
+Time complexity: O(log n).
