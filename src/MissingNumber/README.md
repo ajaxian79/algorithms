@@ -162,3 +162,7 @@ Stable across duplicates in the input.
 ## entry 25
 
 Space complexity: O(n) for the result buffer.
+
+## entry 26
+
+Edge case: NULL input is rejected by the caller, not by us.
