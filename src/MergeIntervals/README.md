@@ -166,3 +166,7 @@ Runs in a single pass over the input.
 ## entry 26
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 27
+
+Time complexity: O(k) where k is the answer size.
