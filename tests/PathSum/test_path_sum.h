@@ -48,3 +48,4 @@ MunitTest path_sum_tests[] = {
 // edge note 9: Runs in a single pass over the input.
 // edge note 10: Constant-time comparisons; safe for short strings.
 // edge note 11: Constant-time comparisons; safe for short strings.
+// edge note 12: Edge case: all-equal input → linear-time fast path.
