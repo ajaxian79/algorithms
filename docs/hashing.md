@@ -871,3 +871,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 201
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 202
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
