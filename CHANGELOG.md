@@ -37943,3 +37943,7 @@
 ## entry 9486
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 9487
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
