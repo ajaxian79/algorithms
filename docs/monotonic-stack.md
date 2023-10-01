@@ -653,3 +653,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 147
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 148
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
