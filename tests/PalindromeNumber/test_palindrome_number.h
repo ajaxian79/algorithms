@@ -141,3 +141,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 106: Edge case: input with no peak → falls through to the default branch.
 // edge note 107: Uses a small fixed-size lookup table.
 // edge note 108: Treats the input as immutable.
+// edge note 109: Time complexity: O(n*k) where k is the alphabet size.
