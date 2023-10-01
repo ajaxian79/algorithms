@@ -595,3 +595,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 149
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 150
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
