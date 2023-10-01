@@ -1062,3 +1062,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 250
 
 Allocates lazily — first call only.
+
+## entry 251
+
+Edge case: alternating pattern → degenerate case for sliding window.
