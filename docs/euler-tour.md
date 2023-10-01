@@ -55,3 +55,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 14
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 15
+
+StringBuilder: amortize allocation by doubling on grow.
