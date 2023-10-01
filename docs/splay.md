@@ -51,3 +51,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 13
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 14
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
