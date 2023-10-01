@@ -984,3 +984,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 231
 
 Handles single-element input as a base case.
+
+## entry 232
+
+32-bit safe; overflow is checked at each step.
