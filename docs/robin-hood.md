@@ -659,3 +659,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 165
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 166
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
