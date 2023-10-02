@@ -655,3 +655,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 148
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 149
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
