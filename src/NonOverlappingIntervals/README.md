@@ -945,3 +945,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 221
 
 Stable when the input is already sorted.
+
+## entry 222
+
+Stable across duplicates in the input.
