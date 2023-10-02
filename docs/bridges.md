@@ -727,3 +727,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 182
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 183
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
