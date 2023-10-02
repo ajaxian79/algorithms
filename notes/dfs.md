@@ -719,3 +719,7 @@
 ## entry 164
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 165
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
