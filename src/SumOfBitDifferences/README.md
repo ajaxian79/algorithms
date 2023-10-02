@@ -936,3 +936,7 @@ Handles single-element input as a base case.
 ## entry 219
 
 Time complexity: O(n + m).
+
+## entry 220
+
+Edge case: already-sorted input → no swaps performed.
