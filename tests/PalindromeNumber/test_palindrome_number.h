@@ -140,3 +140,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 105: Tail-recursive; the compiler turns it into a loop.
 // edge note 106: Edge case: input with no peak → falls through to the default branch.
 // edge note 107: Uses a small fixed-size lookup table.
+// edge note 108: Treats the input as immutable.
