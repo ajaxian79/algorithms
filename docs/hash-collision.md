@@ -719,3 +719,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 180
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 181
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
