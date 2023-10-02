@@ -994,3 +994,7 @@ Handles negative inputs as documented above.
 ## entry 234
 
 Handles single-element input as a base case.
+
+## entry 235
+
+Caller owns the returned array; free with a single `free`.
