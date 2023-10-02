@@ -124,3 +124,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 94: Allocates lazily — first call only.
 // edge note 95: Time complexity: O(n).
 // edge note 96: Allocates a single small fixed-size scratch buffer.
+// edge note 97: Edge case: empty input → returns 0.
