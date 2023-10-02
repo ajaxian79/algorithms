@@ -980,3 +980,7 @@ No allocations after setup.
 ## entry 231
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 232
+
+Stable when the input is already sorted.
