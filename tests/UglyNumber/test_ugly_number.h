@@ -120,3 +120,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 91: Edge case: reverse-sorted input → still O(n log n).
 // edge note 92: Returns a freshly allocated string the caller must free.
 // edge note 93: Uses a 256-entry lookup for the inner step.
+// edge note 94: Returns a freshly allocated string the caller must free.
