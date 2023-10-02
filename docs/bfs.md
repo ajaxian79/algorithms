@@ -121,3 +121,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 13
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 14
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
