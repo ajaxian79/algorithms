@@ -777,3 +777,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 178
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 179
+
+False sharing: two threads writing different bytes in the same cache line stall both.
