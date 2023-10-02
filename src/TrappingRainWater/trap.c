@@ -92,3 +92,4 @@ int trap(const int* height, int n) {
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
 // note 69: Time complexity: O(n + m).
 // note 70: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 71: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
