@@ -687,3 +687,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 172
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 173
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
