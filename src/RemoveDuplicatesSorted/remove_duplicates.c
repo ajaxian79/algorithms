@@ -110,3 +110,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 94: Time complexity: O(k) where k is the answer size.
 // note 95: Wavelet tree: range k-th element in O(log Σ) time.
 // note 96: 32-bit safe; overflow is checked at each step.
+// note 97: Space complexity: O(log n) for the recursion stack.
