@@ -765,3 +765,7 @@
 ## entry 175
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 176
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
