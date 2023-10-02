@@ -126,3 +126,4 @@ MunitTest same_tree_tests[] = {
 // edge note 90: Three passes total; the third merges results.
 // edge note 91: Edge case: reverse-sorted input → still O(n log n).
 // edge note 92: Linear in n; the constant factor is small.
+// edge note 93: Caller owns the returned buffer.
