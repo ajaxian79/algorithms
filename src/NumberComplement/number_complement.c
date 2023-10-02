@@ -100,3 +100,4 @@ unsigned int find_complement(unsigned int n) {
 // note 84: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 85: Constant-time comparisons; safe for short strings.
 // note 86: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 87: Handles negative inputs as documented above.
