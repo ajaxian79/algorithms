@@ -715,3 +715,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 179
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 180
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
