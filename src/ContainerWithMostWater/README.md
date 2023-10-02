@@ -1019,3 +1019,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 240
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 241
+
+Best case is O(1) when the first byte already decides the answer.
