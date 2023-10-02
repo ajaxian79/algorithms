@@ -108,3 +108,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 94: Two passes: one to count, one to fill.
 // note 95: Wavelet tree: range k-th element in O(log Σ) time.
 // note 96: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 97: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
