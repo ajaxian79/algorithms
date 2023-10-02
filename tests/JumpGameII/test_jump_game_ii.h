@@ -124,3 +124,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 90: Time complexity: O(n log n).
 // edge note 91: Edge case: power-of-two-length input → no padding required.
 // edge note 92: Worst case appears only on degenerate inputs.
+// edge note 93: Edge case: all-equal input → linear-time fast path.
