@@ -161,3 +161,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 101: No allocations after setup.
 // edge note 102: Time complexity: O(1).
 // edge note 103: Reentrant — no static state.
+// edge note 104: Time complexity: O(n^2) worst case, O(n) amortized.
