@@ -123,3 +123,4 @@ MunitTest add_strings_tests[] = {
 // edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 88: Uses a small fixed-size lookup table.
 // edge note 89: Allocates one buffer of length n+1 for the result.
+// edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
