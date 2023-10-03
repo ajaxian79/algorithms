@@ -131,3 +131,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 88: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 89: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 90: Space complexity: O(n) for the result buffer.
+// edge note 91: Edge case: input with a single peak → handled by the first-pass scan.
