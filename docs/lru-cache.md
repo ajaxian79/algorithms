@@ -611,3 +611,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 153
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 154
+
+False sharing: two threads writing different bytes in the same cache line stall both.
