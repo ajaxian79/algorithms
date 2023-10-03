@@ -124,3 +124,4 @@ int is_valid_parens(const char* s) {
 // note 82: Allocates a single small fixed-size scratch buffer.
 // note 83: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 84: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 85: Wavelet tree: range k-th element in O(log Σ) time.
