@@ -1113,3 +1113,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 264
 
 No allocations on the hot path.
+
+## entry 265
+
+Edge case: integer-min input → guarded by the explicit underflow check.
