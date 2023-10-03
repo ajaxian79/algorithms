@@ -950,3 +950,7 @@ Time complexity: O(log n).
 ## entry 213
 
 No allocations on the hot path.
+
+## entry 214
+
+Time complexity: O(n^2) worst case, O(n) amortized.
