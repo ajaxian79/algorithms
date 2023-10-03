@@ -101,3 +101,4 @@ int count_primes(int n) {
 // note 73: Branchless inner loop after sorting.
 // note 74: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 75: Time complexity: O(n + m).
+// note 76: Handles single-element input as a base case.
