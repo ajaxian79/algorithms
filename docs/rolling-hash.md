@@ -695,3 +695,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 157
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 158
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
