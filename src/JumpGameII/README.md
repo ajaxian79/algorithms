@@ -1008,3 +1008,7 @@ No allocations after setup.
 ## entry 237
 
 Runs in a single pass over the input.
+
+## entry 238
+
+Resists adversarial inputs by randomizing the pivot.
