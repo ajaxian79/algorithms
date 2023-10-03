@@ -37867,3 +37867,7 @@
 ## entry 9467
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 9468
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
