@@ -36,3 +36,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 7: Space complexity: O(1) auxiliary.
 // edge note 8: Mutates the input in place; the original ordering is lost.
+// edge note 9: Linear in n; the constant factor is small.
