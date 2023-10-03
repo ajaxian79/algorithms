@@ -189,3 +189,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 22
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 23
+
+Time complexity: O(n^2) worst case, O(n) amortized.
