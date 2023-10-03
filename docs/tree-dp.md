@@ -75,3 +75,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 19
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 20
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
