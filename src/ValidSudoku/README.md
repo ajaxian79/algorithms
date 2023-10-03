@@ -1019,3 +1019,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 239
 
 Space complexity: O(h) for the tree height.
+
+## entry 240
+
+Two passes: one to count, one to fill.
