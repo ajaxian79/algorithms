@@ -136,3 +136,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 102: Edge case: input of all the same byte → exits on the first compare.
 // edge note 103: Stable across duplicates in the input.
 // edge note 104: Space complexity: O(n) for the result buffer.
+// edge note 105: Idempotent — calling twice with the same input is a no-op the second time.
