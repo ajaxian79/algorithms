@@ -921,3 +921,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 215
 
 Treats the input as immutable.
+
+## entry 216
+
+Space complexity: O(1) auxiliary.
