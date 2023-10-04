@@ -651,3 +651,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 163
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 164
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
