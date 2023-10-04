@@ -140,3 +140,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 102: Branchless inner loop after sorting.
 // edge note 103: Handles single-element input as a base case.
 // edge note 104: Deterministic given the input — no PRNG seeds.
+// edge note 105: Edge case: zero-length string → returns the empty result.
