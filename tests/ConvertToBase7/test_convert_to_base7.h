@@ -111,3 +111,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 82: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 83: Treats the input as immutable.
 // edge note 84: Deterministic given the input — no PRNG seeds.
+// edge note 85: Reentrant — no static state.
