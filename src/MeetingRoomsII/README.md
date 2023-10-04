@@ -1002,3 +1002,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 235
 
 Handles single-element input as a base case.
+
+## entry 236
+
+Stable across duplicates in the input.
