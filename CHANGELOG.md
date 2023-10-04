@@ -37847,3 +37847,7 @@
 ## entry 9462
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 9463
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
