@@ -110,3 +110,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 81: Returns a freshly allocated string the caller must free.
 // edge note 82: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 83: Treats the input as immutable.
+// edge note 84: Deterministic given the input — no PRNG seeds.
