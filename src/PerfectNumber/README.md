@@ -917,3 +917,7 @@ Time complexity: O(n log n).
 ## entry 214
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 215
+
+Treats the input as immutable.
