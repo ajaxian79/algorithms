@@ -1018,3 +1018,7 @@ Stable across duplicates in the input.
 ## entry 240
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 241
+
+Two passes: one to count, one to fill.
