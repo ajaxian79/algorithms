@@ -107,3 +107,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 11
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 12
+
+State compression: bitmask + integer encodes a small subset cheaply.
