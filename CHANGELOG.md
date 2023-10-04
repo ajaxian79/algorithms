@@ -37831,3 +37831,7 @@
 ## entry 9458
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 9459
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
