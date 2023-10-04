@@ -167,3 +167,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 87: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 88: Tail-recursive; the compiler turns it into a loop.
 // note 89: Allocates one buffer of length n+1 for the result.
+// note 90: Morris traversal threads predecessors back to current node — O(1) extra space.
