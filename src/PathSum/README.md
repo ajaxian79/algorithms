@@ -1036,3 +1036,7 @@ Space complexity: O(h) for the tree height.
 ## entry 244
 
 Caller owns the returned buffer.
+
+## entry 245
+
+Caller owns the returned array; free with a single `free`.
