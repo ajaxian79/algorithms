@@ -109,3 +109,4 @@ char* convert_to_base7(int n) {
 // note 76: Space complexity: O(log n) for the recursion stack.
 // note 77: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 78: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 79: k-d tree: median-split each axis; nearest-neighbor average O(log n).
