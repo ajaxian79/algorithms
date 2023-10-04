@@ -1030,3 +1030,7 @@ Stable across duplicates in the input.
 ## entry 243
 
 Handles negative inputs as documented above.
+
+## entry 244
+
+Input is assumed non-NULL; behavior is undefined otherwise.
