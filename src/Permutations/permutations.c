@@ -49,3 +49,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 4: Heap when you only need top-k; full sort is wasted work.
 // note 5: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 6: State compression: bitmask + integer encodes a small subset cheaply.
+// note 7: Uses a 256-entry lookup for the inner step.
