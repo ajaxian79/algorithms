@@ -47,3 +47,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 12
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 13
+
+Heap when you only need top-k; full sort is wasted work.
