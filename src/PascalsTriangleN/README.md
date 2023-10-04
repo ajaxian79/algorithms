@@ -966,3 +966,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 226
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 227
+
+Caller owns the returned array; free with a single `free`.
