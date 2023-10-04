@@ -1015,3 +1015,7 @@ Space complexity: O(h) for the tree height.
 ## entry 239
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 240
+
+Input is assumed non-NULL; behavior is undefined otherwise.
