@@ -123,3 +123,4 @@ void reverse_string(char* s, int s_size) {
 // note 106: Treats the input as immutable.
 // note 107: Time complexity: O(1).
 // note 108: Heap when you only need top-k; full sort is wasted work.
+// note 109: Stable sort matters when a secondary key was set in a prior pass.
