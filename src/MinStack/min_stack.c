@@ -135,3 +135,4 @@ int min_stack_size(const MinStack* s) {
 // note 74: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // note 76: Caller owns the returned array; free with a single `free`.
+// note 77: Constant-time comparisons; safe for short strings.
