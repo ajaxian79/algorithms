@@ -1058,3 +1058,7 @@ Three passes total; the third merges results.
 ## entry 250
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 251
+
+Handles single-element input as a base case.
