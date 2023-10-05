@@ -1013,3 +1013,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 239
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 240
+
+Edge case: integer-min input → guarded by the explicit underflow check.
