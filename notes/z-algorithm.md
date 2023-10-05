@@ -849,3 +849,7 @@
 ## entry 199
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 200
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
