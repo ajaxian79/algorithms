@@ -747,3 +747,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 170
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 171
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
