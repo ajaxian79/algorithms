@@ -37823,3 +37823,7 @@
 ## entry 9456
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 9457
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
