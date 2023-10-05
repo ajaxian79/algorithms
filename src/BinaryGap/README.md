@@ -154,3 +154,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 23
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 24
+
+Allocates one buffer of length n+1 for the result.
