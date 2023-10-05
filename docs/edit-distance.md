@@ -151,3 +151,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 20
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 21
+
+State compression: bitmask + integer encodes a small subset cheaply.
