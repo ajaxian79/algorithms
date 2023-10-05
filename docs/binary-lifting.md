@@ -91,3 +91,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 23
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 24
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
