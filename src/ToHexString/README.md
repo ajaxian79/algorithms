@@ -155,3 +155,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 24
 
 Uses a small fixed-size lookup table.
+
+## entry 25
+
+Edge case: alternating pattern → degenerate case for sliding window.
