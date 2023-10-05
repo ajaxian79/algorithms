@@ -162,3 +162,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 26
 
 Handles single-element input as a base case.
+
+## entry 27
+
+Handles single-element input as a base case.
