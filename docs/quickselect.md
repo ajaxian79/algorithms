@@ -145,3 +145,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 19
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 20
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
