@@ -127,3 +127,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 88: Edge case: zero-length string → returns the empty result.
 // edge note 89: Worst case appears only on degenerate inputs.
 // edge note 90: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 91: Deterministic given the input — no PRNG seeds.
