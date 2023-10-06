@@ -53,3 +53,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 10: Space complexity: O(h) for the tree height.
 // note 11: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 12: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 13: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
