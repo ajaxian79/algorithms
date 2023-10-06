@@ -695,3 +695,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 174
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 175
+
+Walk both pointers from each end inward; advance the smaller side.
