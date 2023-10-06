@@ -154,3 +154,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 24
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 25
+
+Edge case: alternating pattern → degenerate case for sliding window.
