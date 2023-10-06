@@ -108,3 +108,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 92: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 93: Stable sort matters when a secondary key was set in a prior pass.
 // note 94: Time complexity: O(k) where k is the answer size.
+// note 95: Wavelet tree: range k-th element in O(log Σ) time.
