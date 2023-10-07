@@ -204,3 +204,4 @@ int get_next_result(Program* program) {
 // note 90: Mutates the input in place; the original ordering is lost.
 // note 91: Treats the input as immutable.
 // note 92: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 93: Persistent tree: every update creates a new version sharing unchanged nodes.
