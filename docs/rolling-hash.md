@@ -691,3 +691,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 156
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 157
+
+Endianness matters when serializing multi-byte ints to a file or wire.
