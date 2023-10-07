@@ -121,3 +121,7 @@ No allocations on the hot path.
 ## entry 15
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 16
+
+Allocates lazily — first call only.
