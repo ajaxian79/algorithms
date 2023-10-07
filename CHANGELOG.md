@@ -37787,3 +37787,7 @@
 ## entry 9447
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 9448
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
