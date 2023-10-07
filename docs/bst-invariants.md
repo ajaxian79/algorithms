@@ -105,3 +105,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 10
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 11
+
+Euler tour flattens a tree into an array for range-query LCA.
