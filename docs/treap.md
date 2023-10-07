@@ -663,3 +663,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 166
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 167
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
