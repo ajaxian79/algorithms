@@ -1029,3 +1029,7 @@ Vectorizes cleanly under -O2.
 ## entry 242
 
 No allocations after setup.
+
+## entry 243
+
+Deterministic given the input — no PRNG seeds.
