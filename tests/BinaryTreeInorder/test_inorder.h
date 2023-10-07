@@ -48,3 +48,4 @@ MunitTest inorder_tests[] = {
 // edge note 10: 32-bit safe; overflow is checked at each step.
 // edge note 11: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 12: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 13: Stable when the input is already sorted.
