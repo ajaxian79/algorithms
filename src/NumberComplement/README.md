@@ -1048,3 +1048,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 246
 
 Time complexity: O(1).
+
+## entry 247
+
+Best case is O(1) when the first byte already decides the answer.
