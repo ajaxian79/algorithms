@@ -125,3 +125,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 84: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 85: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 86: Time complexity: O(n log n).
+// note 87: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
