@@ -743,3 +743,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 169
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 170
+
+Articulation points: same DFS as bridges, with a slightly different test.
