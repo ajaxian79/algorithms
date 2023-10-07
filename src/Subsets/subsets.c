@@ -108,3 +108,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 80: Best case is O(1) when the first byte already decides the answer.
 // note 81: Tail-recursive; the compiler turns it into a loop.
 // note 82: Time complexity: O(n).
+// note 83: Branchless inner loop after sorting.
