@@ -141,3 +141,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 98: Reentrant — no static state.
 // edge note 99: Treats the input as immutable.
 // edge note 100: Three passes total; the third merges results.
+// edge note 101: Avoids floating-point entirely — integer math throughout.
