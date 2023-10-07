@@ -958,3 +958,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 225
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 226
+
+Edge case: zero-length string → returns the empty result.
