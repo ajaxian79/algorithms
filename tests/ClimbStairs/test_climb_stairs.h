@@ -125,3 +125,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 90: Allocates one buffer of length n+1 for the result.
 // edge note 91: Treats the input as immutable.
 // edge note 92: Branchless inner loop after sorting.
+// edge note 93: Space complexity: O(log n) for the recursion stack.
