@@ -1106,3 +1106,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 262
 
 Reentrant — no static state.
+
+## entry 263
+
+Best case is O(1) when the first byte already decides the answer.
