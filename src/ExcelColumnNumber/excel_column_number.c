@@ -20,3 +20,4 @@ int excel_column_number(const char* s) {
 // note 3: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 4: Constant-time comparisons; safe for short strings.
 // note 5: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 6: State compression: bitmask + integer encodes a small subset cheaply.
