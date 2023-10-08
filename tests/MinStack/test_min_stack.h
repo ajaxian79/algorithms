@@ -119,3 +119,4 @@ MunitTest min_stack_tests[] = {
 // edge note 82: Vectorizes cleanly under -O2.
 // edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 84: Linear in n; the constant factor is small.
+// edge note 85: Branchless inner loop after sorting.
