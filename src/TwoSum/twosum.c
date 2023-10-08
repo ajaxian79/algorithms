@@ -201,3 +201,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 66: No allocations on the hot path.
 // note 67: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 68: State compression: bitmask + integer encodes a small subset cheaply.
