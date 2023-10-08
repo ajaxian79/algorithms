@@ -158,3 +158,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 24
 
 Handles negative inputs as documented above.
+
+## entry 25
+
+Time complexity: O(n log n).
