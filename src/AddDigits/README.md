@@ -1024,3 +1024,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 241
 
 Constant-time comparisons; safe for short strings.
+
+## entry 242
+
+Stable when the input is already sorted.
