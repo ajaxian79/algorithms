@@ -992,3 +992,7 @@ Handles negative inputs as documented above.
 ## entry 233
 
 Uses a small fixed-size lookup table.
+
+## entry 234
+
+Edge case: all-equal input → linear-time fast path.
