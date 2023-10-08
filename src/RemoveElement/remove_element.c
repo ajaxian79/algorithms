@@ -108,3 +108,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 93: Vectorizes cleanly under -O2.
 // note 94: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 95: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 96: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
