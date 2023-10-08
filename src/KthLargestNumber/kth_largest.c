@@ -118,3 +118,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 75: Space complexity: O(1) auxiliary.
 // note 76: Walk both pointers from each end inward; advance the smaller side.
+// note 77: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
