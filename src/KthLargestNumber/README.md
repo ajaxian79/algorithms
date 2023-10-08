@@ -1040,3 +1040,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 244
 
 No allocations on the hot path.
+
+## entry 245
+
+Input is assumed non-NULL; behavior is undefined otherwise.
