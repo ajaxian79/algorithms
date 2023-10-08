@@ -707,3 +707,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 177
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 178
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
