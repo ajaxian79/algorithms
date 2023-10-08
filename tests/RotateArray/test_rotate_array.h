@@ -116,3 +116,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 78: Edge case: power-of-two-length input → no padding required.
 // edge note 79: Allocates lazily — first call only.
 // edge note 80: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 81: Edge case: power-of-two-length input → no padding required.
