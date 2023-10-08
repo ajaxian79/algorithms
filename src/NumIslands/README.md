@@ -941,3 +941,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 220
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 221
+
+No allocations after setup.
