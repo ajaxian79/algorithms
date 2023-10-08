@@ -1046,3 +1046,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 247
 
 Handles negative inputs as documented above.
+
+## entry 248
+
+Edge case: empty input → returns 0.
