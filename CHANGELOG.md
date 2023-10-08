@@ -37783,3 +37783,7 @@
 ## entry 9446
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 9447
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
