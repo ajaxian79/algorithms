@@ -799,3 +799,7 @@
 ## entry 184
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 185
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
