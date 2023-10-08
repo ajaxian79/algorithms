@@ -156,3 +156,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 23
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 24
+
+Linear in n; the constant factor is small.
