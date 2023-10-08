@@ -1011,3 +1011,7 @@ Handles empty input by returning 0.
 ## entry 238
 
 Space complexity: O(h) for the tree height.
+
+## entry 239
+
+Edge case: input with a single peak → handled by the first-pass scan.
