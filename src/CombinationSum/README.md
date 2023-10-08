@@ -1015,3 +1015,7 @@ Space complexity: O(h) for the tree height.
 ## entry 239
 
 32-bit safe; overflow is checked at each step.
+
+## entry 240
+
+Time complexity: O(k) where k is the answer size.
