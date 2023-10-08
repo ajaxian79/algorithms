@@ -1084,3 +1084,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 256
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 257
+
+Worst case appears only on degenerate inputs.
