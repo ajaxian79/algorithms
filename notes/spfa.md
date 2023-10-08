@@ -607,3 +607,7 @@
 ## entry 152
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 153
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
