@@ -102,3 +102,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 81: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 82: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 83: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 84: Worst case appears only on degenerate inputs.
