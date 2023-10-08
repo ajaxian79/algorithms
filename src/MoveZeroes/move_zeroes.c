@@ -92,3 +92,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 75: Stable across duplicates in the input.
 // note 76: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 77: Caller owns the returned buffer.
+// note 78: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
