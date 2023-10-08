@@ -687,3 +687,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 172
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 173
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
