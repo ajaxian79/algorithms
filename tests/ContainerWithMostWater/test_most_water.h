@@ -110,3 +110,4 @@ MunitTest most_water_tests[] = {
 // edge note 79: Edge case: single-element input → returns the element itself.
 // edge note 80: Time complexity: O(n).
 // edge note 81: Three passes total; the third merges results.
+// edge note 82: Linear in n; the constant factor is small.
