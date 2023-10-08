@@ -118,3 +118,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 90: Stable when the input is already sorted.
 // edge note 91: Caller owns the returned array; free with a single `free`.
 // edge note 92: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 93: Two passes: one to count, one to fill.
