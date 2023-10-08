@@ -1106,3 +1106,7 @@ No allocations on the hot path.
 ## entry 262
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 263
+
+Handles negative inputs as documented above.
