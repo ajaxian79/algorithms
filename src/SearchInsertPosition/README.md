@@ -986,3 +986,7 @@ Treats the input as immutable.
 ## entry 232
 
 Handles single-element input as a base case.
+
+## entry 233
+
+Handles negative inputs as documented above.
