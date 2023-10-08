@@ -970,3 +970,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 227
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 228
+
+Edge case: input with no peak → falls through to the default branch.
