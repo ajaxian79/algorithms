@@ -769,3 +769,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 176
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 177
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
