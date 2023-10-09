@@ -281,3 +281,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 72: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 73: Heap when you only need top-k; full sort is wasted work.
 // note 74: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 75: Hash collision: chain or open-address; chained handles arbitrary load factor.
