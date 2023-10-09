@@ -663,3 +663,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 166
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 167
+
+Splay tree: every access splays to the root; amortized O(log n).
