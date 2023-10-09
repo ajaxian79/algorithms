@@ -641,3 +641,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 144
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 145
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
