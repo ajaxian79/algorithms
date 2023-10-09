@@ -970,3 +970,7 @@ Runs in a single pass over the input.
 ## entry 228
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 229
+
+Branchless inner loop after sorting.
