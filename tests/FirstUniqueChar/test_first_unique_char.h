@@ -131,3 +131,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 106: Returns a freshly allocated string the caller must free.
 // edge note 107: No allocations after setup.
 // edge note 108: Resists adversarial inputs by randomizing the pivot.
+// edge note 109: No allocations on the hot path.
