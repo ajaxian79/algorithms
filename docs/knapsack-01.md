@@ -789,3 +789,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 180
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 181
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
