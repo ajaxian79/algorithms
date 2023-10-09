@@ -99,3 +99,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 83: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 84: Handles single-element input as a base case.
 // note 85: Vectorizes cleanly under -O2.
+// note 86: No allocations after setup.
