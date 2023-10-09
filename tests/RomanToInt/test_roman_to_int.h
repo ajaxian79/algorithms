@@ -134,3 +134,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 100: Edge case: already-sorted input → no swaps performed.
 // edge note 101: Mutates the input in place; the original ordering is lost.
 // edge note 102: Edge case: input of all the same byte → exits on the first compare.
+// edge note 103: Stable across duplicates in the input.
