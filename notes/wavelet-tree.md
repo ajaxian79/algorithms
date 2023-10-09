@@ -627,3 +627,7 @@
 ## entry 157
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 158
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
