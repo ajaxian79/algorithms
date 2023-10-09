@@ -1051,3 +1051,7 @@ Space complexity: O(1) auxiliary.
 ## entry 247
 
 32-bit safe; overflow is checked at each step.
+
+## entry 248
+
+Space complexity: O(log n) for the recursion stack.
