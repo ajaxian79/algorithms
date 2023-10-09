@@ -1138,3 +1138,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 269
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 270
+
+Edge case: maximum-length input → still fits in 32-bit indices.
