@@ -37739,3 +37739,7 @@
 ## entry 9435
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 9436
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
