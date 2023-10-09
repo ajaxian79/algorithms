@@ -946,3 +946,7 @@ Time complexity: O(log n).
 ## entry 212
 
 32-bit safe; overflow is checked at each step.
+
+## entry 213
+
+No allocations on the hot path.
