@@ -96,3 +96,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 76: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 79: Interval tree: stores intervals on the median; query traverses O(log n) levels.
