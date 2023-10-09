@@ -743,3 +743,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 186
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 187
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
