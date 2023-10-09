@@ -188,3 +188,7 @@ Worst case appears only on degenerate inputs.
 ## entry 32
 
 Reentrant — no static state.
+
+## entry 33
+
+Time complexity: O(n log n).
