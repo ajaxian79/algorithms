@@ -122,3 +122,4 @@ MunitTest max_depth_tests[] = {
 // edge note 84: Stable across duplicates in the input.
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Stable across duplicates in the input.
+// edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
