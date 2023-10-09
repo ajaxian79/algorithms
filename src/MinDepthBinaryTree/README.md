@@ -938,3 +938,7 @@ Stable across duplicates in the input.
 ## entry 220
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 221
+
+Treats the input as immutable.
