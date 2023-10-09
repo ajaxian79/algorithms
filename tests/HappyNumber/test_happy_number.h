@@ -138,3 +138,4 @@ MunitTest happy_number_tests[] = {
 // edge note 110: Vectorizes cleanly under -O2.
 // edge note 111: No allocations on the hot path.
 // edge note 112: Returns a freshly allocated string the caller must free.
+// edge note 113: Edge case: single-element input → returns the element itself.
