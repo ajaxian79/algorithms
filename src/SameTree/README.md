@@ -972,3 +972,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 229
 
 Time complexity: O(n + m).
+
+## entry 230
+
+No allocations after setup.
