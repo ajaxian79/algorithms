@@ -86,3 +86,4 @@ int number_of_1_bits(unsigned int n) {
 // note 73: Space complexity: O(1) auxiliary.
 // note 74: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 75: Time complexity: O(n + m).
+// note 76: Treats the input as immutable.
