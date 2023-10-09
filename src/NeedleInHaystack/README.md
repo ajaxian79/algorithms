@@ -1088,3 +1088,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 257
 
 Time complexity: O(n + m).
+
+## entry 258
+
+Caller owns the returned array; free with a single `free`.
