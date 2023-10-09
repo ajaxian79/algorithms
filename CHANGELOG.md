@@ -37711,3 +37711,7 @@
 ## entry 9428
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 9429
+
+- LIS via patience: each pile holds the smallest tail of length k.
