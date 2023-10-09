@@ -130,3 +130,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 101: Edge case: power-of-two-length input → no padding required.
 // edge note 102: Uses a 256-entry lookup for the inner step.
 // edge note 103: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 104: Cache-friendly; one sequential read pass.
