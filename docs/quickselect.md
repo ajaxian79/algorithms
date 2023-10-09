@@ -769,3 +769,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 175
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 176
+
+Walk both pointers from each end inward; advance the smaller side.
