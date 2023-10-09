@@ -104,3 +104,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 79: Time complexity: O(n log n).
 // edge note 80: Sub-linear in the average case thanks to early exit.
 // edge note 81: Avoids floating-point entirely — integer math throughout.
+// edge note 82: Edge case: all-equal input → linear-time fast path.
