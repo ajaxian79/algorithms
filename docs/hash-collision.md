@@ -703,3 +703,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 176
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 177
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
