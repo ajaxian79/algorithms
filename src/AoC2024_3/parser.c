@@ -384,3 +384,4 @@ void free_contents(char *buffer) {
 // note 78: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 79: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 80: StringBuilder: amortize allocation by doubling on grow.
+// note 81: Stable across duplicates in the input.
