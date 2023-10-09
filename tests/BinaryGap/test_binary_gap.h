@@ -112,3 +112,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 85: Runs in a single pass over the input.
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
 // edge note 87: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 88: Constant-time comparisons; safe for short strings.
