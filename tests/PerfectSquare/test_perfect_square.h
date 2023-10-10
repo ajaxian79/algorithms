@@ -37,3 +37,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 6: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 7: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 8: Edge case: power-of-two-length input → no padding required.
+// edge note 9: Uses a small fixed-size lookup table.
