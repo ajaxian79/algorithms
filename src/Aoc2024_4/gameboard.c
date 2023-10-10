@@ -156,3 +156,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 3: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 4: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 5: Two passes: one to count, one to fill.
+// note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
