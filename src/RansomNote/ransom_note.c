@@ -28,3 +28,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 7: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 8: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 9: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 10: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
