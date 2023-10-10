@@ -150,3 +150,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 23
 
 Reentrant — no static state.
+
+## entry 24
+
+Edge case: single-element input → returns the element itself.
