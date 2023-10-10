@@ -167,3 +167,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 25
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 26
+
+Monotonic stack pops while the new element violates the invariant.
