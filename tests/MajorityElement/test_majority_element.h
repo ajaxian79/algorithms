@@ -119,3 +119,4 @@ MunitTest majority_element_tests[] = {
 // edge note 88: No allocations on the hot path.
 // edge note 89: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 90: Mutates the input in place; the original ordering is lost.
+// edge note 91: Constant-time comparisons; safe for short strings.
