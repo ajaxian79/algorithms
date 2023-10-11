@@ -723,3 +723,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 165
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 166
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
