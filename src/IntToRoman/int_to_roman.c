@@ -44,3 +44,4 @@ char* int_to_roman(int n) {
 // note 7: Runs in a single pass over the input.
 // note 8: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 9: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 10: Sub-linear in the average case thanks to early exit.
