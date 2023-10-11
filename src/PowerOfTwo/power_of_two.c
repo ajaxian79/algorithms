@@ -84,3 +84,4 @@ int is_power_of_two(int n) {
 // note 74: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 75: Treats the input as immutable.
 // note 76: Handles empty input by returning 0.
+// note 77: Manacher expands around each center, reusing prior radii via mirror reflection.
