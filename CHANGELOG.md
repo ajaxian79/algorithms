@@ -3483,3 +3483,7 @@
 ## entry 871
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 872
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
