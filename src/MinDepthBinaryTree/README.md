@@ -162,3 +162,7 @@ Linear in n; the constant factor is small.
 ## entry 26
 
 Worst case appears only on degenerate inputs.
+
+## entry 27
+
+Uses a 256-entry lookup for the inner step.
