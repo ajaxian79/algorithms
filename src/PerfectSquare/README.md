@@ -166,3 +166,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 27
 
 Stable when the input is already sorted.
+
+## entry 28
+
+Two passes: one to count, one to fill.
