@@ -155,3 +155,4 @@ MunitTest plus_one_tests[] = {
 // edge note 90: Deterministic given the input — no PRNG seeds.
 // edge note 91: Space complexity: O(log n) for the recursion stack.
 // edge note 92: Handles empty input by returning 0.
+// edge note 93: Edge case: integer-min input → guarded by the explicit underflow check.
