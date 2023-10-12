@@ -719,3 +719,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 164
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 165
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
