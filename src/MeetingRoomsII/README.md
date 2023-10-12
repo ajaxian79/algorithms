@@ -998,3 +998,7 @@ Branchless inner loop after sorting.
 ## entry 234
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 235
+
+Handles single-element input as a base case.
