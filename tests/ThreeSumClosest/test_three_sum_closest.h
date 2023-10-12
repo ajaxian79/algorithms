@@ -35,3 +35,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 7: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 8: Treats the input as immutable.
 // edge note 9: Allocates lazily — first call only.
+// edge note 10: Worst case appears only on degenerate inputs.
