@@ -144,3 +144,4 @@ MunitTest num_islands_tests[] = {
 // edge note 104: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 105: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 106: Edge case: single-element input → returns the element itself.
+// edge note 107: Time complexity: O(log n).
