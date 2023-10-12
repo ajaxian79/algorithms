@@ -727,3 +727,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 166
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 167
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
