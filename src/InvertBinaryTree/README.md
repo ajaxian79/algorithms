@@ -176,3 +176,7 @@ Caller owns the returned buffer.
 ## entry 29
 
 Two passes: one to count, one to fill.
+
+## entry 30
+
+Reentrant — no static state.
