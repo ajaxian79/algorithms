@@ -125,3 +125,4 @@ MunitTest same_tree_tests[] = {
 // edge note 89: 32-bit safe; overflow is checked at each step.
 // edge note 90: Three passes total; the third merges results.
 // edge note 91: Edge case: reverse-sorted input → still O(n log n).
+// edge note 92: Linear in n; the constant factor is small.
