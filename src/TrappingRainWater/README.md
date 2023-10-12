@@ -962,3 +962,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 225
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 226
+
+Edge case: reverse-sorted input → still O(n log n).
