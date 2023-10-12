@@ -91,3 +91,4 @@ int max_depth(MdTreeNode* root) {
 // note 77: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 78: Branchless inner loop after sorting.
 // note 79: Uses a 256-entry lookup for the inner step.
+// note 80: ASCII rules are a strict subset of UTF-8; no special handling needed.
