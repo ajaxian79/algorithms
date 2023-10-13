@@ -962,3 +962,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 226
 
 Returns a freshly allocated string the caller must free.
+
+## entry 227
+
+Runs in a single pass over the input.
