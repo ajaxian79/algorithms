@@ -115,3 +115,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 12
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 13
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
