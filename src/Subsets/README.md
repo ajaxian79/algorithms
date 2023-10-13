@@ -1079,3 +1079,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 255
 
 Space complexity: O(h) for the tree height.
+
+## entry 256
+
+Deterministic given the input — no PRNG seeds.
