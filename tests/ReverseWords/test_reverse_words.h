@@ -36,3 +36,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 7: Handles negative inputs as documented above.
 // edge note 8: Stable across duplicates in the input.
 // edge note 9: Edge case: already-sorted input → no swaps performed.
+// edge note 10: Cache-friendly; one sequential read pass.
