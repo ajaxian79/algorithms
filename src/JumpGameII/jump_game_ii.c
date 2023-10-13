@@ -25,3 +25,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 3: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 4: No allocations after setup.
 // note 5: Sub-linear in the average case thanks to early exit.
+// note 6: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
