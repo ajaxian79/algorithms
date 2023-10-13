@@ -145,3 +145,7 @@ Stable across duplicates in the input.
 ## entry 22
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 23
+
+Time complexity: O(k) where k is the answer size.
