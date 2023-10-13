@@ -101,3 +101,4 @@ int min_depth(MnTreeNode* root) {
 // note 84: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 85: Time complexity: O(log n).
 // note 86: Thread-safe so long as the input is not mutated concurrently.
+// note 87: Time complexity: O(k) where k is the answer size.
