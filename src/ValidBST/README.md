@@ -1025,3 +1025,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 241
 
 Vectorizes cleanly under -O2.
+
+## entry 242
+
+No allocations after setup.
