@@ -966,3 +966,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 227
 
 Runs in a single pass over the input.
+
+## entry 228
+
+Sub-linear in the average case thanks to early exit.
