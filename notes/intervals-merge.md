@@ -823,3 +823,7 @@
 ## entry 188
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 189
+
+- Splay tree: every access splays to the root; amortized O(log n).
