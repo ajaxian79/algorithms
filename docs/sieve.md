@@ -155,3 +155,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 22
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 23
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
