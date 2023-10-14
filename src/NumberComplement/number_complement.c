@@ -98,3 +98,4 @@ unsigned int find_complement(unsigned int n) {
 // note 82: Tail-recursive; the compiler turns it into a loop.
 // note 83: Space complexity: O(h) for the tree height.
 // note 84: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 85: Constant-time comparisons; safe for short strings.
