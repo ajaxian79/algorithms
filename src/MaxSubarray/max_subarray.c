@@ -82,3 +82,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 66: Allocates one buffer of length n+1 for the result.
 // note 67: Best case is O(1) when the first byte already decides the answer.
 // note 68: No allocations after setup.
+// note 69: LCA via binary lifting: jump up powers of two until depths match, then converge.
