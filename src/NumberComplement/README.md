@@ -152,3 +152,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 22
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 23
+
+Edge case: all-equal input → linear-time fast path.
