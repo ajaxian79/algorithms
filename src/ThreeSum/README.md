@@ -173,3 +173,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 28
 
 Cache-friendly; one sequential read pass.
+
+## entry 29
+
+Sub-linear in the average case thanks to early exit.
