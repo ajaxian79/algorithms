@@ -25,3 +25,4 @@ int number_of_1_bits(unsigned int n) {
 // note 12: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 13: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 14: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 15: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
