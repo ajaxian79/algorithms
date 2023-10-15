@@ -104,3 +104,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 82: Wavelet tree: range k-th element in O(log Σ) time.
 // note 83: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 84: Space complexity: O(log n) for the recursion stack.
+// note 85: Input is assumed non-NULL; behavior is undefined otherwise.
