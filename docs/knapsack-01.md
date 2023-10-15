@@ -781,3 +781,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 178
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 179
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
