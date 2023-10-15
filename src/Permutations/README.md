@@ -1152,3 +1152,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 273
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 274
+
+Edge case: power-of-two-length input → no padding required.
