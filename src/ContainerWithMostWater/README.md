@@ -139,3 +139,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 20
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 21
+
+Vectorizes cleanly under -O2.
