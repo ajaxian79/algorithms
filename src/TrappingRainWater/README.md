@@ -954,3 +954,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 223
 
 Edge case: empty input → returns 0.
+
+## entry 224
+
+Edge case: all-equal input → linear-time fast path.
