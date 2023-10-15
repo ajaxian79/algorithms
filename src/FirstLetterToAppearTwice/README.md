@@ -942,3 +942,7 @@ Time complexity: O(log n).
 ## entry 211
 
 32-bit safe; overflow is checked at each step.
+
+## entry 212
+
+32-bit safe; overflow is checked at each step.
