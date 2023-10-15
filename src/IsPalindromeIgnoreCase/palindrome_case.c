@@ -96,3 +96,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 74: Heap when you only need top-k; full sort is wasted work.
 // note 75: Tail-recursive; the compiler turns it into a loop.
+// note 76: LIS via patience: each pile holds the smallest tail of length k.
