@@ -1065,3 +1065,7 @@ Three passes total; the third merges results.
 ## entry 251
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 252
+
+Caller owns the returned buffer.
