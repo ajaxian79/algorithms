@@ -958,3 +958,7 @@ Edge case: empty input → returns 0.
 ## entry 224
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 225
+
+Mutates the input in place; the original ordering is lost.
