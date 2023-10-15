@@ -765,3 +765,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 174
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 175
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
