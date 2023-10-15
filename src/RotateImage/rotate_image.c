@@ -103,3 +103,4 @@ void rotate_image(int* mat, int n) {
 // note 72: Branchless inner loop after sorting.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 75: Time complexity: O(k) where k is the answer size.
