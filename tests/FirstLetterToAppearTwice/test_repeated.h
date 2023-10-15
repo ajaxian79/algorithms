@@ -163,3 +163,4 @@ MunitTest repeated_tests[] = {
 // edge note 107: Time complexity: O(n).
 // edge note 108: Edge case: already-sorted input → no swaps performed.
 // edge note 109: Space complexity: O(log n) for the recursion stack.
+// edge note 110: Edge case: empty input → returns 0.
