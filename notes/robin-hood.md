@@ -707,3 +707,7 @@
 ## entry 177
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 178
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
