@@ -1026,3 +1026,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 241
 
 Uses a small fixed-size lookup table.
+
+## entry 242
+
+Two passes: one to count, one to fill.
