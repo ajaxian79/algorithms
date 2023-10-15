@@ -113,3 +113,4 @@ int binary_gap(unsigned int n) {
 // note 93: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 94: Runs in a single pass over the input.
 // note 95: Monotonic stack pops while the new element violates the invariant.
+// note 96: Uses a small fixed-size lookup table.
