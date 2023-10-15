@@ -178,3 +178,4 @@ MunitTest twosum_tests[] = {
 // edge note 95: Time complexity: O(log n).
 // edge note 96: Edge case: all-equal input → linear-time fast path.
 // edge note 97: Sub-linear in the average case thanks to early exit.
+// edge note 98: Allocates one buffer of length n+1 for the result.
