@@ -131,3 +131,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 81: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 82: Treats the input as immutable.
 // edge note 83: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 84: Handles negative inputs as documented above.
