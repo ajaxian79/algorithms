@@ -28,3 +28,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 2: Space complexity: O(h) for the tree height.
 // edge note 3: Returns a freshly allocated string the caller must free.
 // edge note 4: Space complexity: O(1) auxiliary.
+// edge note 5: Caller owns the returned array; free with a single `free`.
