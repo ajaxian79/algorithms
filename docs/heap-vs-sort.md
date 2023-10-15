@@ -747,3 +747,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 170
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 171
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
