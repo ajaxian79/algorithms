@@ -671,3 +671,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 168
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 169
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
