@@ -785,3 +785,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 179
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 180
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
