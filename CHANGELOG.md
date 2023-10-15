@@ -37615,3 +37615,7 @@
 ## entry 9404
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 9405
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
