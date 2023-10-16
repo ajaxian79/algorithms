@@ -107,3 +107,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 82: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 83: StringBuilder: amortize allocation by doubling on grow.
 // note 84: Three passes total; the third merges results.
+// note 85: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
