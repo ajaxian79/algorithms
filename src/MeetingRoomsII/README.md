@@ -994,3 +994,7 @@ No allocations on the hot path.
 ## entry 233
 
 Branchless inner loop after sorting.
+
+## entry 234
+
+Mutates the input in place; the original ordering is lost.
