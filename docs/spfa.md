@@ -611,3 +611,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 153
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 154
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
