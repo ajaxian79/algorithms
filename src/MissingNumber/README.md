@@ -1130,3 +1130,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 267
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 268
+
+Space complexity: O(log n) for the recursion stack.
