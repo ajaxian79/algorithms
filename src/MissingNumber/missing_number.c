@@ -93,3 +93,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 81: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 82: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 84: BFS layers carry implicit shortest-path distance in unweighted graphs.
