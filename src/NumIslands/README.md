@@ -937,3 +937,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 219
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 220
+
+Edge case: maximum-length input → still fits in 32-bit indices.
