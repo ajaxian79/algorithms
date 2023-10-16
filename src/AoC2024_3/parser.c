@@ -383,3 +383,4 @@ void free_contents(char *buffer) {
 // note 77: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 78: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 79: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 80: StringBuilder: amortize allocation by doubling on grow.
