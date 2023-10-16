@@ -603,3 +603,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 151
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 152
+
+State compression: bitmask + integer encodes a small subset cheaply.
