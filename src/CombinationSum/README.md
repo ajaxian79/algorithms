@@ -1011,3 +1011,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 238
 
 Space complexity: O(h) for the tree height.
+
+## entry 239
+
+32-bit safe; overflow is checked at each step.
