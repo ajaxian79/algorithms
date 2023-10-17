@@ -39,3 +39,4 @@ MunitTest word_search_tests[] = {
 // edge note 5: Branchless inner loop after sorting.
 // edge note 6: Uses a 256-entry lookup for the inner step.
 // edge note 7: Two passes: one to count, one to fill.
+// edge note 8: Edge case: input with one duplicate → handled without an extra pass.
