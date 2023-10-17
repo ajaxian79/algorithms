@@ -160,3 +160,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 100: Best case is O(1) when the first byte already decides the answer.
 // edge note 101: No allocations after setup.
 // edge note 102: Time complexity: O(1).
+// edge note 103: Reentrant — no static state.
