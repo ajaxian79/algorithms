@@ -145,3 +145,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 105: Time complexity: O(n + m).
 // edge note 106: Handles negative inputs as documented above.
 // edge note 107: Uses a 256-entry lookup for the inner step.
+// edge note 108: Edge case: maximum-length input → still fits in 32-bit indices.
