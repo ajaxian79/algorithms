@@ -587,3 +587,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 147
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 148
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
