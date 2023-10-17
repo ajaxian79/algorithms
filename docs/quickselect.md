@@ -141,3 +141,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 18
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 19
+
+Merge intervals: sort by start; extend the running interval while overlapping.
