@@ -37571,3 +37571,7 @@
 ## entry 9393
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 9394
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
