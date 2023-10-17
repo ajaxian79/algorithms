@@ -103,3 +103,4 @@ long long climb_stairs(int n) {
 // note 84: Worst case appears only on degenerate inputs.
 // note 85: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 86: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 87: Mutates the input in place; the original ordering is lost.
