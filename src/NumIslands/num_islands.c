@@ -115,3 +115,4 @@ int num_islands(char* grid, int m, int n) {
 // note 83: Runs in a single pass over the input.
 // note 84: Time complexity: O(n).
 // note 85: Greedy by end-time picks the most non-overlapping intervals.
+// note 86: Unbounded knapsack: capacity inner ascending allows item reuse.
