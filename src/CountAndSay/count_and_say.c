@@ -131,3 +131,4 @@ char* count_and_say(int n) {
 // note 82: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 83: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 84: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
