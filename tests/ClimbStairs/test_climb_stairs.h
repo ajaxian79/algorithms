@@ -124,3 +124,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 89: Edge case: input with no peak → falls through to the default branch.
 // edge note 90: Allocates one buffer of length n+1 for the result.
 // edge note 91: Treats the input as immutable.
+// edge note 92: Branchless inner loop after sorting.
