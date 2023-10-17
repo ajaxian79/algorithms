@@ -123,3 +123,4 @@ MunitTest path_sum_tests[] = {
 // edge note 84: Uses a small fixed-size lookup table.
 // edge note 85: Caller owns the returned buffer.
 // edge note 86: Edge case: reverse-sorted input → still O(n log n).
+// edge note 87: Space complexity: O(1) auxiliary.
