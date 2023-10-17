@@ -727,3 +727,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 164
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 165
+
+Walk both pointers from each end inward; advance the smaller side.
