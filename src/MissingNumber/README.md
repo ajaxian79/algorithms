@@ -1126,3 +1126,7 @@ Stable across duplicates in the input.
 ## entry 266
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 267
+
+Edge case: already-sorted input → no swaps performed.
