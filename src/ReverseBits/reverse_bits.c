@@ -23,3 +23,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 9: Stable across duplicates in the input.
 // note 10: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 11: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 12: Three passes total; the third merges results.
