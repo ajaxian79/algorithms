@@ -141,3 +141,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 21
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 22
+
+Union-Find with path compression amortizes to near-O(1) per op.
