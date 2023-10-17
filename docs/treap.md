@@ -659,3 +659,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 165
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 166
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
