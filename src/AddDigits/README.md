@@ -1020,3 +1020,7 @@ Linear in n; the constant factor is small.
 ## entry 240
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 241
+
+Constant-time comparisons; safe for short strings.
