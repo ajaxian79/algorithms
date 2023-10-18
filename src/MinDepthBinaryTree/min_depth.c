@@ -100,3 +100,4 @@ int min_depth(MnTreeNode* root) {
 // note 83: Caller owns the returned array; free with a single `free`.
 // note 84: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 85: Time complexity: O(log n).
+// note 86: Thread-safe so long as the input is not mutated concurrently.
