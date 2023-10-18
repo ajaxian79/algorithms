@@ -114,3 +114,4 @@ char* reverse_words(const char* s) {
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 72: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
