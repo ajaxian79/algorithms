@@ -93,3 +93,4 @@ int excel_column_number(const char* s) {
 // note 76: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 77: Runs in a single pass over the input.
 // note 78: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 79: Allocates lazily — first call only.
