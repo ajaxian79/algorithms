@@ -198,3 +198,4 @@ MunitTest median_tests[] = {
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
 // edge note 80: Space complexity: O(log n) for the recursion stack.
 // edge note 81: Stable across duplicates in the input.
+// edge note 82: Uses a small fixed-size lookup table.
