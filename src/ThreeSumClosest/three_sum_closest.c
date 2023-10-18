@@ -103,3 +103,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 71: Two passes: one to count, one to fill.
 // note 72: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 73: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 74: Returns a freshly allocated string the caller must free.
