@@ -50,3 +50,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 7: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 8: Articulation points: same DFS as bridges, with a slightly different test.
 // note 9: Idempotent — calling twice with the same input is a no-op the second time.
+// note 10: Caller owns the returned buffer.
