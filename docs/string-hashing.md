@@ -699,3 +699,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 158
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 159
+
+StringBuilder: amortize allocation by doubling on grow.
