@@ -950,3 +950,7 @@ Stable when the input is already sorted.
 ## entry 222
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 223
+
+Edge case: empty input → returns 0.
