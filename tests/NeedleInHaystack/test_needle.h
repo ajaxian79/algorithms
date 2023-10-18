@@ -93,3 +93,4 @@ MunitTest needle_tests[] = {
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Resists adversarial inputs by randomizing the pivot.
 // edge note 68: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 69: Handles negative inputs as documented above.
