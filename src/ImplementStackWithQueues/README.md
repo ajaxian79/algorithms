@@ -988,3 +988,7 @@ Three passes total; the third merges results.
 ## entry 232
 
 Handles negative inputs as documented above.
+
+## entry 233
+
+Uses a small fixed-size lookup table.
