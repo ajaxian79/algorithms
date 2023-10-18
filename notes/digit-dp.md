@@ -759,3 +759,7 @@
 ## entry 190
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 191
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
