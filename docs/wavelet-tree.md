@@ -47,3 +47,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 12
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 13
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
