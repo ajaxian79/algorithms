@@ -135,3 +135,4 @@ char* add_binary(const char* a, const char* b) {
 // note 93: Three passes total; the third merges results.
 // note 94: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 95: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 96: Time complexity: O(n).
