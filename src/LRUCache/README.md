@@ -1024,3 +1024,7 @@ No allocations on the hot path.
 ## entry 240
 
 Worst case appears only on degenerate inputs.
+
+## entry 241
+
+Edge case: zero-length string → returns the empty result.
