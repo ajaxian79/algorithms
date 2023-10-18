@@ -663,3 +663,7 @@
 ## entry 166
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 167
+
+- State compression: bitmask + integer encodes a small subset cheaply.
