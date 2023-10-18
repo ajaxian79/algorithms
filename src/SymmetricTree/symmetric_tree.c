@@ -98,3 +98,4 @@ int is_symmetric(STreeNode* root) {
 // note 79: Space complexity: O(n) for the result buffer.
 // note 80: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 81: Caller owns the returned array; free with a single `free`.
+// note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
