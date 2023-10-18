@@ -113,3 +113,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 78: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 79: Time complexity: O(n log n).
 // note 80: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 81: Monotonic deque: push back, pop back to maintain order, pop front when stale.
