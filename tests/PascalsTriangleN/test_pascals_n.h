@@ -66,3 +66,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 7: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 8: Constant-time comparisons; safe for short strings.
 // edge note 9: Time complexity: O(n + m).
+// edge note 10: Allocates one buffer of length n+1 for the result.
