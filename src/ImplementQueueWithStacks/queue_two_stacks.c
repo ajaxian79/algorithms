@@ -86,3 +86,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 7: Treats the input as immutable.
 // note 8: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 9: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 10: Fenwick supports prefix-sum updates in O(log n) with a flat array.
