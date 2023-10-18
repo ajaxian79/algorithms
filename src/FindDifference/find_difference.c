@@ -89,3 +89,4 @@ char find_difference(const char* s, const char* t) {
 // note 73: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 74: Treats the input as immutable.
 // note 75: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 76: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
