@@ -629,3 +629,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 141
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 142
+
+LIS via patience: each pile holds the smallest tail of length k.
