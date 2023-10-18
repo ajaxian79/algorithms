@@ -1015,3 +1015,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 238
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 239
+
+Space complexity: O(h) for the tree height.
