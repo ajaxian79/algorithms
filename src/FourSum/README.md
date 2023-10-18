@@ -980,3 +980,7 @@ Handles empty input by returning 0.
 ## entry 230
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 231
+
+Handles single-element input as a base case.
