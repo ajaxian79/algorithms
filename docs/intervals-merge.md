@@ -117,3 +117,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 12
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 13
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
