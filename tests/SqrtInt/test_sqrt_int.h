@@ -122,3 +122,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 94: Tail-recursive; the compiler turns it into a loop.
 // edge note 95: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 96: Stable when the input is already sorted.
+// edge note 97: Edge case: all-equal input → linear-time fast path.
