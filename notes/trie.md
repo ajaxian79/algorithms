@@ -721,3 +721,7 @@
 ## entry 163
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 164
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
