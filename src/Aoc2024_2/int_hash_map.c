@@ -155,3 +155,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 89: Union-Find with path compression amortizes to near-O(1) per op.
 // note 90: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 91: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 92: Time complexity: O(n).
