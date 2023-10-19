@@ -729,3 +729,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 164
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 165
+
+Heap when you only need top-k; full sort is wasted work.
