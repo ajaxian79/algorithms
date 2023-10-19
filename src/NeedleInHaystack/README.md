@@ -1084,3 +1084,7 @@ Runs in a single pass over the input.
 ## entry 256
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 257
+
+Time complexity: O(n + m).
