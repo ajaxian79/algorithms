@@ -107,3 +107,4 @@ int trailing_zeroes(int n) {
 // note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 93: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 94: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 95: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
