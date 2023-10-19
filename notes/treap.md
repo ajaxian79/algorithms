@@ -679,3 +679,7 @@
 ## entry 170
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 171
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
