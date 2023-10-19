@@ -63,3 +63,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 16
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 17
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
