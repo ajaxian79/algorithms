@@ -104,3 +104,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 78: Handles empty input by returning 0.
 // edge note 79: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 80: Stable across duplicates in the input.
+// edge note 81: Linear in n; the constant factor is small.
