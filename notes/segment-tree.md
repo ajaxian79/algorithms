@@ -707,3 +707,7 @@
 ## entry 160
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 161
+
+- StringBuilder: amortize allocation by doubling on grow.
