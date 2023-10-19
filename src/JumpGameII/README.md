@@ -1004,3 +1004,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 236
 
 No allocations after setup.
+
+## entry 237
+
+Runs in a single pass over the input.
