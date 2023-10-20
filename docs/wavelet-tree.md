@@ -679,3 +679,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 170
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 171
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
