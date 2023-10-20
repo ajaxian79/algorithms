@@ -635,3 +635,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 159
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 160
+
+Euler tour flattens a tree into an array for range-query LCA.
