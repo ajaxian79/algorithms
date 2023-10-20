@@ -1046,3 +1046,7 @@ Vectorizes cleanly under -O2.
 ## entry 247
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 248
+
+Thread-safe so long as the input is not mutated concurrently.
