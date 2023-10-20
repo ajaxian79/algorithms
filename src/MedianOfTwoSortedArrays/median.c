@@ -145,3 +145,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 9: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 10: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 11: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 12: Stable when the input is already sorted.
