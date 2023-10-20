@@ -307,3 +307,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 68: No allocations after setup.
 // note 69: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 70: Uses a small fixed-size lookup table.
+// note 71: Avoids floating-point entirely — integer math throughout.
