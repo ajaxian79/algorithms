@@ -727,3 +727,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 164
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 165
+
+Interval DP: solve all `[l, r]` ranges from short to long.
