@@ -126,3 +126,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 94: Mutates the input in place; the original ordering is lost.
 // edge note 95: Caller owns the returned buffer.
 // edge note 96: Thread-safe so long as the input is not mutated concurrently.
+// edge note 97: Resists adversarial inputs by randomizing the pivot.
