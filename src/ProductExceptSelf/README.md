@@ -1012,3 +1012,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 237
 
 Allocates lazily — first call only.
+
+## entry 238
+
+Handles single-element input as a base case.
