@@ -31,3 +31,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 6: Vectorizes cleanly under -O2.
 // edge note 7: Uses a 256-entry lookup for the inner step.
 // edge note 8: Mutates the input in place; the original ordering is lost.
+// edge note 9: Allocates lazily — first call only.
