@@ -158,3 +158,7 @@ Vectorizes cleanly under -O2.
 ## entry 25
 
 Linear in n; the constant factor is small.
+
+## entry 26
+
+Worst case appears only on degenerate inputs.
