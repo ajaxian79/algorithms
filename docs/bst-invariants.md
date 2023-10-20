@@ -701,3 +701,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 159
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 160
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
