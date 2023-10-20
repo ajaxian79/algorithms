@@ -43,3 +43,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 11
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 12
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
