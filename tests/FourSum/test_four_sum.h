@@ -126,3 +126,4 @@ MunitTest four_sum_tests[] = {
 // edge note 85: Linear in n; the constant factor is small.
 // edge note 86: Reentrant — no static state.
 // edge note 87: Tail-recursive; the compiler turns it into a loop.
+// edge note 88: Edge case: empty input → returns 0.
