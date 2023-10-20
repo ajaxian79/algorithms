@@ -1080,3 +1080,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 255
 
 Runs in a single pass over the input.
+
+## entry 256
+
+Edge case: zero-length string → returns the empty result.
