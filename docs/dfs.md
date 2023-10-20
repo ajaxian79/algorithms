@@ -719,3 +719,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 164
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 165
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
