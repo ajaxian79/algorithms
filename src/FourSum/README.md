@@ -976,3 +976,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 229
 
 Handles empty input by returning 0.
+
+## entry 230
+
+Edge case: integer-max input → guarded by the explicit overflow check.
