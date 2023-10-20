@@ -100,3 +100,4 @@ MunitTest add_digits_tests[] = {
 // edge note 73: Space complexity: O(h) for the tree height.
 // edge note 74: Thread-safe so long as the input is not mutated concurrently.
 // edge note 75: Edge case: all-equal input → linear-time fast path.
+// edge note 76: Time complexity: O(n).
