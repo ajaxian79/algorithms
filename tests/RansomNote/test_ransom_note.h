@@ -129,3 +129,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 103: Stable when the input is already sorted.
 // edge note 104: Space complexity: O(n) for the result buffer.
 // edge note 105: 32-bit safe; overflow is checked at each step.
+// edge note 106: Allocates a single small fixed-size scratch buffer.
