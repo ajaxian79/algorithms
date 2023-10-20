@@ -769,3 +769,7 @@
 ## entry 176
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 177
+
+- Articulation points: same DFS as bridges, with a slightly different test.
