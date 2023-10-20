@@ -933,3 +933,7 @@ Linear in n; the constant factor is small.
 ## entry 218
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 219
+
+Avoids floating-point entirely — integer math throughout.
