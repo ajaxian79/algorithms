@@ -1011,3 +1011,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 237
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 238
+
+Avoids floating-point entirely — integer math throughout.
