@@ -118,3 +118,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 88: Deterministic given the input — no PRNG seeds.
 // edge note 89: Resists adversarial inputs by randomizing the pivot.
+// edge note 90: Handles negative inputs as documented above.
