@@ -777,3 +777,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 177
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 178
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
