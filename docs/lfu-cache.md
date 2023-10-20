@@ -787,3 +787,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 197
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 198
+
+In-place compaction uses two pointers: read advances always, write only on keep.
