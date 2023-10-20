@@ -132,3 +132,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 88: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 89: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 90: Greedy by end-time picks the most non-overlapping intervals.
