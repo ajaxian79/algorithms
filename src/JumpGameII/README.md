@@ -1000,3 +1000,7 @@ Handles negative inputs as documented above.
 ## entry 235
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 236
+
+No allocations after setup.
