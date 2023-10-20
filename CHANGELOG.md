@@ -37531,3 +37531,7 @@
 ## entry 9383
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 9384
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
