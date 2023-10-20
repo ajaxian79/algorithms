@@ -139,3 +139,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 19
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 20
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
