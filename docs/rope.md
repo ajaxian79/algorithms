@@ -683,3 +683,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 171
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 172
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
