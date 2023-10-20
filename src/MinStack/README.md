@@ -146,3 +146,7 @@ Handles negative inputs as documented above.
 ## entry 22
 
 Treats the input as immutable.
+
+## entry 23
+
+No allocations on the hot path.
