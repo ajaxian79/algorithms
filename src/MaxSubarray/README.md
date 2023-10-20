@@ -1094,3 +1094,7 @@ Branchless inner loop after sorting.
 ## entry 259
 
 No allocations after setup.
+
+## entry 260
+
+Edge case: already-sorted input → no swaps performed.
