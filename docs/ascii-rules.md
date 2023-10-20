@@ -51,3 +51,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 13
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 14
+
+Merge intervals: sort by start; extend the running interval while overlapping.
