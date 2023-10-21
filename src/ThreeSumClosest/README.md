@@ -162,3 +162,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 26
 
 Time complexity: O(log n).
+
+## entry 27
+
+Constant-time comparisons; safe for short strings.
