@@ -158,3 +158,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 25
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 26
+
+Handles single-element input as a base case.
