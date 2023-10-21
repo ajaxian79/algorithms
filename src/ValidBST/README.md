@@ -157,3 +157,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 24
 
 Stable across duplicates in the input.
+
+## entry 25
+
+Thread-safe so long as the input is not mutated concurrently.
