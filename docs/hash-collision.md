@@ -699,3 +699,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 175
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 176
+
+State compression: bitmask + integer encodes a small subset cheaply.
