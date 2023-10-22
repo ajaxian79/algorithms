@@ -1047,3 +1047,7 @@ Branchless inner loop after sorting.
 ## entry 246
 
 Space complexity: O(1) auxiliary.
+
+## entry 247
+
+32-bit safe; overflow is checked at each step.
