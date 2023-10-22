@@ -153,3 +153,7 @@ Two passes: one to count, one to fill.
 ## entry 23
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 24
+
+Stable across duplicates in the input.
