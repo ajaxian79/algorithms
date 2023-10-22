@@ -133,3 +133,7 @@ Handles empty input by returning 0.
 ## entry 18
 
 Handles single-element input as a base case.
+
+## entry 19
+
+Uses a 256-entry lookup for the inner step.
