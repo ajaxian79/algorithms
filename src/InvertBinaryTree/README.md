@@ -172,3 +172,7 @@ Stable across duplicates in the input.
 ## entry 28
 
 Caller owns the returned buffer.
+
+## entry 29
+
+Two passes: one to count, one to fill.
