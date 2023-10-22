@@ -659,3 +659,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 165
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 166
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
