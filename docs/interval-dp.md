@@ -75,3 +75,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 19
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 20
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
