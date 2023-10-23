@@ -100,3 +100,4 @@ int is_perfect_square(int n) {
 // note 81: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 82: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 84: Time complexity: O(n log n).
