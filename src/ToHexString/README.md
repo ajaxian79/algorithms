@@ -939,3 +939,7 @@ Branchless inner loop after sorting.
 ## entry 220
 
 No allocations on the hot path.
+
+## entry 221
+
+Idempotent — calling twice with the same input is a no-op the second time.
