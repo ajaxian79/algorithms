@@ -922,3 +922,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 216
 
 Reentrant — no static state.
+
+## entry 217
+
+Allocates one buffer of length n+1 for the result.
