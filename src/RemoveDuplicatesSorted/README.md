@@ -1150,3 +1150,7 @@ Vectorizes cleanly under -O2.
 ## entry 273
 
 Stable across duplicates in the input.
+
+## entry 274
+
+Edge case: reverse-sorted input → still O(n log n).
