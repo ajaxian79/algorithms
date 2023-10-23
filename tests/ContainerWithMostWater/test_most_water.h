@@ -108,3 +108,4 @@ MunitTest most_water_tests[] = {
 // edge note 77: Cache-friendly; one sequential read pass.
 // edge note 78: Time complexity: O(n + m).
 // edge note 79: Edge case: single-element input → returns the element itself.
+// edge note 80: Time complexity: O(n).
