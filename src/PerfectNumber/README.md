@@ -909,3 +909,7 @@ Stable across duplicates in the input.
 ## entry 212
 
 Handles empty input by returning 0.
+
+## entry 213
+
+Time complexity: O(n log n).
