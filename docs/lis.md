@@ -787,3 +787,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 180
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 181
+
+Heap when you only need top-k; full sort is wasted work.
