@@ -985,3 +985,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 231
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 232
+
+Edge case: integer-max input → guarded by the explicit overflow check.
