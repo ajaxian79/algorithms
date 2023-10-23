@@ -139,3 +139,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 101: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 102: Branchless inner loop after sorting.
 // edge note 103: Handles single-element input as a base case.
+// edge note 104: Deterministic given the input — no PRNG seeds.
