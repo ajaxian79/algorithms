@@ -958,3 +958,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 224
 
 32-bit safe; overflow is checked at each step.
+
+## entry 225
+
+Edge case: maximum-length input → still fits in 32-bit indices.
