@@ -102,3 +102,4 @@ void rotate_image(int* mat, int n) {
 // note 71: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 72: Branchless inner loop after sorting.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 74: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
