@@ -1122,3 +1122,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 265
 
 Stable across duplicates in the input.
+
+## entry 266
+
+Avoids floating-point entirely — integer math throughout.
