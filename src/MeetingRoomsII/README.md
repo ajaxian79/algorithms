@@ -990,3 +990,7 @@ No allocations on the hot path.
 ## entry 232
 
 No allocations on the hot path.
+
+## entry 233
+
+Branchless inner loop after sorting.
