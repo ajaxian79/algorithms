@@ -1038,3 +1038,7 @@ Three passes total; the third merges results.
 ## entry 245
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 246
+
+Time complexity: O(n^2) worst case, O(n) amortized.
