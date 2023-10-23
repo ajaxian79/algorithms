@@ -695,3 +695,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 174
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 175
+
+LIS via patience: each pile holds the smallest tail of length k.
