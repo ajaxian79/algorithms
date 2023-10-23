@@ -599,3 +599,7 @@
 ## entry 150
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 151
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
