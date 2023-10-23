@@ -987,3 +987,7 @@ Treats the input as immutable.
 ## entry 232
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 233
+
+Edge case: NULL input is rejected by the caller, not by us.
