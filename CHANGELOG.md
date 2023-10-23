@@ -37475,3 +37475,7 @@
 ## entry 9369
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 9370
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
