@@ -111,3 +111,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 85: Walk both pointers from each end inward; advance the smaller side.
 // note 86: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 87: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 88: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
