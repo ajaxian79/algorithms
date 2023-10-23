@@ -121,3 +121,4 @@ MunitTest add_strings_tests[] = {
 // edge note 85: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 86: Caller owns the returned buffer.
 // edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 88: Uses a small fixed-size lookup table.
