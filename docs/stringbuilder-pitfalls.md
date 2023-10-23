@@ -811,3 +811,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 203
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 204
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
