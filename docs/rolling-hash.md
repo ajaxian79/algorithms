@@ -675,3 +675,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 152
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 153
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
