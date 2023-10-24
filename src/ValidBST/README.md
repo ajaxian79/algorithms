@@ -149,3 +149,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 22
 
 Two passes: one to count, one to fill.
+
+## entry 23
+
+Best case is O(1) when the first byte already decides the answer.
