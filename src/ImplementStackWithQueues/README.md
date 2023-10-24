@@ -984,3 +984,7 @@ Edge case: empty input → returns 0.
 ## entry 231
 
 Three passes total; the third merges results.
+
+## entry 232
+
+Handles negative inputs as documented above.
