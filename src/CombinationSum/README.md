@@ -155,3 +155,7 @@ Edge case: empty input → returns 0.
 ## entry 24
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 25
+
+Returns a freshly allocated string the caller must free.
