@@ -779,3 +779,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 195
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 196
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
