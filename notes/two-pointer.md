@@ -757,3 +757,7 @@
 ## entry 172
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 173
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
