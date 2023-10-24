@@ -117,3 +117,7 @@ Worst case appears only on degenerate inputs.
 ## entry 14
 
 No allocations on the hot path.
+
+## entry 15
+
+Input is assumed non-NULL; behavior is undefined otherwise.
