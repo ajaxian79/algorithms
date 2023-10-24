@@ -165,3 +165,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 85: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 86: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 87: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 88: Tail-recursive; the compiler turns it into a loop.
