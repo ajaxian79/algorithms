@@ -169,3 +169,7 @@ Linear in n; the constant factor is small.
 ## entry 27
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 28
+
+Cache-friendly; one sequential read pass.
