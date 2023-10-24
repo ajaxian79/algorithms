@@ -683,3 +683,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 171
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 172
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
