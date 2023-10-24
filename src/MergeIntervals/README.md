@@ -1018,3 +1018,7 @@ Two passes: one to count, one to fill.
 ## entry 239
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 240
+
+Edge case: reverse-sorted input → still O(n log n).
