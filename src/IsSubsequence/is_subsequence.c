@@ -23,3 +23,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 3: Walk both pointers from each end inward; advance the smaller side.
 // note 4: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 6: StringBuilder pitfall: reuse forces a deep copy on the first read.
