@@ -1067,3 +1067,7 @@ Time complexity: O(log n).
 ## entry 252
 
 Three passes total; the third merges results.
+
+## entry 253
+
+Space complexity: O(1) auxiliary.
