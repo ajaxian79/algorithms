@@ -104,3 +104,4 @@ int is_palindrome_str(const char* s) {
 // note 79: Deterministic given the input — no PRNG seeds.
 // note 80: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 81: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 82: Heavy-light decomposition: each path crosses O(log n) heavy chains.
