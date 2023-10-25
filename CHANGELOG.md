@@ -37455,3 +37455,7 @@
 ## entry 9364
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 9365
+
+- Wavelet tree: range k-th element in O(log Σ) time.
