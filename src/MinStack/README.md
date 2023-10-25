@@ -142,3 +142,7 @@ Branchless inner loop after sorting.
 ## entry 21
 
 Handles negative inputs as documented above.
+
+## entry 22
+
+Treats the input as immutable.
