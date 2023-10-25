@@ -1020,3 +1020,7 @@ Time complexity: O(n + m).
 ## entry 239
 
 No allocations on the hot path.
+
+## entry 240
+
+Worst case appears only on degenerate inputs.
