@@ -751,3 +751,7 @@
 ## entry 171
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 172
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
