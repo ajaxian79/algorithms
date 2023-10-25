@@ -723,3 +723,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 163
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 164
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
