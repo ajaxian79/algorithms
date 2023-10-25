@@ -95,3 +95,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 75: Vectorizes cleanly under -O2.
 // note 76: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
