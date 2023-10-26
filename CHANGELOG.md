@@ -37439,3 +37439,7 @@
 ## entry 9360
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 9361
+
+- Walk both pointers from each end inward; advance the smaller side.
