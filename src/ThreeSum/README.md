@@ -165,3 +165,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 26
 
 Linear in n; the constant factor is small.
+
+## entry 27
+
+Mutates the input in place; the original ordering is lost.
