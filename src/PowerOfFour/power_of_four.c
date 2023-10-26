@@ -16,3 +16,4 @@ int is_power_of_four(int n) {
 // note 3: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 4: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 5: Runs in a single pass over the input.
+// note 6: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
