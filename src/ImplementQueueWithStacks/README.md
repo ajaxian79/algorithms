@@ -135,3 +135,7 @@ Branchless inner loop after sorting.
 ## entry 19
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 20
+
+Allocates lazily — first call only.
