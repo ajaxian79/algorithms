@@ -154,3 +154,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 24
 
 Handles negative inputs as documented above.
+
+## entry 25
+
+Time complexity: O(k) where k is the answer size.
