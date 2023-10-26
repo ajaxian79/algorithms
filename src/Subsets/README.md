@@ -159,3 +159,7 @@ Treats the input as immutable.
 ## entry 25
 
 Handles empty input by returning 0.
+
+## entry 26
+
+32-bit safe; overflow is checked at each step.
