@@ -129,3 +129,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 104: Cache-friendly; one sequential read pass.
 // edge note 105: Allocates lazily — first call only.
 // edge note 106: Returns a freshly allocated string the caller must free.
+// edge note 107: No allocations after setup.
