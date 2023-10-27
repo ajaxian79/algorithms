@@ -1042,3 +1042,7 @@ Time complexity: O(log n).
 ## entry 246
 
 Vectorizes cleanly under -O2.
+
+## entry 247
+
+Caller owns the returned array; free with a single `free`.
