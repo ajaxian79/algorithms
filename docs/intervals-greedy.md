@@ -127,3 +127,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 14
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 15
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
