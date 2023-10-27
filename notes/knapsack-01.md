@@ -123,3 +123,7 @@
 ## entry 15
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 16
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
