@@ -745,3 +745,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 170
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 171
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
