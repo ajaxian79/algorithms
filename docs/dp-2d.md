@@ -731,3 +731,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 167
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 168
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
