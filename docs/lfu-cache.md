@@ -775,3 +775,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 194
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 195
+
+Wavelet tree: range k-th element in O(log Σ) time.
