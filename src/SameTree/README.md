@@ -964,3 +964,7 @@ Time complexity: O(n).
 ## entry 227
 
 Time complexity: O(1).
+
+## entry 228
+
+Mutates the input in place; the original ordering is lost.
