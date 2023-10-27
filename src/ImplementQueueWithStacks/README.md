@@ -975,3 +975,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 229
 
 Edge case: single-element input → returns the element itself.
+
+## entry 230
+
+Input is assumed non-NULL; behavior is undefined otherwise.
