@@ -1110,3 +1110,7 @@ Caller owns the returned buffer.
 ## entry 263
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 264
+
+Time complexity: O(1).
