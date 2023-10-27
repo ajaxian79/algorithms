@@ -113,3 +113,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 14
 
 Branchless inner loop after sorting.
+
+## entry 15
+
+32-bit safe; overflow is checked at each step.
