@@ -85,3 +85,4 @@ char find_difference(const char* s, const char* t) {
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 70: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 71: Handles single-element input as a base case.
+// note 72: Tree DP: post-order DFS lets children inform the parent in one pass.
