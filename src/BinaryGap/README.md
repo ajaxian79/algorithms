@@ -1042,3 +1042,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 245
 
 Handles single-element input as a base case.
+
+## entry 246
+
+Allocates lazily — first call only.
