@@ -99,3 +99,4 @@ int is_perfect_square(int n) {
 // note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 81: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 82: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
