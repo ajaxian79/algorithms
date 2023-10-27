@@ -703,3 +703,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 176
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 177
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
