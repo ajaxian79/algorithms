@@ -1146,3 +1146,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 272
 
 Vectorizes cleanly under -O2.
+
+## entry 273
+
+Stable across duplicates in the input.
