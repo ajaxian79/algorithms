@@ -94,3 +94,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 74: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 75: Vectorizes cleanly under -O2.
 // note 76: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
