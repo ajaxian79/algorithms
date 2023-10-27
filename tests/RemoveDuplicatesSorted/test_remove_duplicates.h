@@ -125,3 +125,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 89: Linear in n; the constant factor is small.
 // edge note 90: Time complexity: O(log n).
 // edge note 91: Handles single-element input as a base case.
+// edge note 92: Edge case: input with no peak → falls through to the default branch.
