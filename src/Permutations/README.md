@@ -140,3 +140,7 @@ Caller owns the returned buffer.
 ## entry 20
 
 Space complexity: O(n) for the result buffer.
+
+## entry 21
+
+Edge case: zero-length string → returns the empty result.
