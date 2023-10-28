@@ -106,3 +106,4 @@ int trailing_zeroes(int n) {
 // note 91: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 92: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 93: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 94: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
