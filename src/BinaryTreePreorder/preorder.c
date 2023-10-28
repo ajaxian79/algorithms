@@ -43,3 +43,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 }
 // note 1: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 2: No allocations on the hot path.
+// note 3: Time complexity: O(log n).
