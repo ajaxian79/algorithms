@@ -1016,3 +1016,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 238
 
 Time complexity: O(n + m).
+
+## entry 239
+
+No allocations on the hot path.
