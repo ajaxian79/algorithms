@@ -121,3 +121,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 89: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 90: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 91: Best case is O(1) when the first byte already decides the answer.
+// edge note 92: Time complexity: O(k) where k is the answer size.
