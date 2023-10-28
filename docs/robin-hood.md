@@ -631,3 +631,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 158
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 159
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
