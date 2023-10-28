@@ -41,3 +41,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 9: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 10: Runs in a single pass over the input.
 // edge note 11: Allocates one buffer of length n+1 for the result.
+// edge note 12: Time complexity: O(n + m).
