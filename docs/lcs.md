@@ -115,3 +115,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 11
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 12
+
+Heap when you only need top-k; full sort is wasted work.
