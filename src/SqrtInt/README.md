@@ -147,3 +147,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 22
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 23
+
+Handles negative inputs as documented above.
