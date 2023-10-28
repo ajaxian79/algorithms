@@ -129,3 +129,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 86: Handles negative inputs as documented above.
 // edge note 87: Edge case: input with no peak → falls through to the default branch.
 // edge note 88: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 89: Input is assumed non-NULL; behavior is undefined otherwise.
