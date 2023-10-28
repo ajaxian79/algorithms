@@ -143,3 +143,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 7: Treats the input as immutable.
 // note 8: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 9: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 10: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
