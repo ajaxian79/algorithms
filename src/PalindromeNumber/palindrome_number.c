@@ -112,3 +112,4 @@ int is_palindrome_number(int x) {
 // note 88: Space complexity: O(log n) for the recursion stack.
 // note 89: LIS via patience: each pile holds the smallest tail of length k.
 // note 90: Reentrant — no static state.
+// note 91: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
