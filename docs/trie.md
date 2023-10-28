@@ -141,3 +141,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 19
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 20
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
