@@ -791,3 +791,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 180
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 181
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
