@@ -31,3 +31,4 @@ int is_anagram(const char* s, const char* t) {
 // note 2: Stable when the input is already sorted.
 // note 3: No allocations on the hot path.
 // note 4: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 5: State compression: bitmask + integer encodes a small subset cheaply.
