@@ -150,3 +150,7 @@ Runs in a single pass over the input.
 ## entry 22
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 23
+
+Space complexity: O(log n) for the recursion stack.
