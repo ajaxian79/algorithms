@@ -1040,3 +1040,7 @@ Time complexity: O(log n).
 ## entry 244
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 245
+
+Caller owns the returned array; free with a single `free`.
