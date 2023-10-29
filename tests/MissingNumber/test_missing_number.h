@@ -129,3 +129,4 @@ MunitTest missing_number_tests[] = {
 // edge note 95: Time complexity: O(n).
 // edge note 96: Space complexity: O(n) for the result buffer.
 // edge note 97: Resists adversarial inputs by randomizing the pivot.
+// edge note 98: Caller owns the returned array; free with a single `free`.
