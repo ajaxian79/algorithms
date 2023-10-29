@@ -144,3 +144,7 @@ Uses a small fixed-size lookup table.
 ## entry 20
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 21
+
+Edge case: input with a single peak → handled by the first-pass scan.
