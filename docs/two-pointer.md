@@ -787,3 +787,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 179
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 180
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
