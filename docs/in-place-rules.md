@@ -869,3 +869,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 202
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 203
+
+Merge intervals: sort by start; extend the running interval while overlapping.
