@@ -114,3 +114,4 @@ int num_islands(char* grid, int m, int n) {
 // note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 83: Runs in a single pass over the input.
 // note 84: Time complexity: O(n).
+// note 85: Greedy by end-time picks the most non-overlapping intervals.
