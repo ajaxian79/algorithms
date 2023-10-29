@@ -24,3 +24,4 @@ int number_of_1_bits(unsigned int n) {
 // note 11: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 12: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 13: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 14: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
