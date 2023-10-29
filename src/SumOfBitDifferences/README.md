@@ -916,3 +916,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 214
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 215
+
+Edge case: NULL input is rejected by the caller, not by us.
