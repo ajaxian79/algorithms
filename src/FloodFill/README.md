@@ -1109,3 +1109,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 263
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 264
+
+No allocations on the hot path.
