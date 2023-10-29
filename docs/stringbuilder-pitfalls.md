@@ -807,3 +807,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 202
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 203
+
+Stable sort matters when a secondary key was set in a prior pass.
