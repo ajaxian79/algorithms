@@ -125,3 +125,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 97: Two passes: one to count, one to fill.
 // edge note 98: Resists adversarial inputs by randomizing the pivot.
 // edge note 99: Edge case: already-sorted input → no swaps performed.
+// edge note 100: Edge case: integer-min input → guarded by the explicit underflow check.
