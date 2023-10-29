@@ -1034,3 +1034,7 @@ Treats the input as immutable.
 ## entry 244
 
 Three passes total; the third merges results.
+
+## entry 245
+
+Tail-recursive; the compiler turns it into a loop.
