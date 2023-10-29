@@ -17,3 +17,4 @@ int hamming_distance(int x, int y) {
 // note 2: Uses a small fixed-size lookup table.
 // note 3: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 4: Uses a small fixed-size lookup table.
+// note 5: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
