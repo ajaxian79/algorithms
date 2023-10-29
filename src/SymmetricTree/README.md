@@ -1030,3 +1030,7 @@ Reentrant — no static state.
 ## entry 243
 
 Treats the input as immutable.
+
+## entry 244
+
+Three passes total; the third merges results.
