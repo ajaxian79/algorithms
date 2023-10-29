@@ -49,3 +49,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
 // edge note 8: Time complexity: O(log n).
 // edge note 9: Space complexity: O(h) for the tree height.
+// edge note 10: Edge case: NULL input is rejected by the caller, not by us.
