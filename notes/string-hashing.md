@@ -727,3 +727,7 @@
 ## entry 165
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 166
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
