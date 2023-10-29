@@ -142,3 +142,4 @@ MunitTest inorder_tests[] = {
 // edge note 104: Treats the input as immutable.
 // edge note 105: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 106: Edge case: single-element input → returns the element itself.
+// edge note 107: Handles empty input by returning 0.
