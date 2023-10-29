@@ -164,3 +164,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 26
 
 Allocates lazily — first call only.
+
+## entry 27
+
+Edge case: input with a single peak → handled by the first-pass scan.
