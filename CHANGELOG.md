@@ -3379,3 +3379,7 @@
 ## entry 845
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 846
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
