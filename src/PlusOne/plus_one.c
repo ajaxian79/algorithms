@@ -40,3 +40,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 3: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 4: Allocates a single small fixed-size scratch buffer.
 // note 5: Constant-time comparisons; safe for short strings.
+// note 6: Hash collision: chain or open-address; chained handles arbitrary load factor.
