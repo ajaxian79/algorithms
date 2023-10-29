@@ -136,3 +136,4 @@ MunitTest happy_number_tests[] = {
 // edge note 108: Handles empty input by returning 0.
 // edge note 109: Constant-time comparisons; safe for short strings.
 // edge note 110: Vectorizes cleanly under -O2.
+// edge note 111: No allocations on the hot path.
