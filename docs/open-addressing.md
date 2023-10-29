@@ -687,3 +687,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 172
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 173
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
