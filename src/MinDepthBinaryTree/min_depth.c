@@ -99,3 +99,4 @@ int min_depth(MnTreeNode* root) {
 // note 82: Best case is O(1) when the first byte already decides the answer.
 // note 83: Caller owns the returned array; free with a single `free`.
 // note 84: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 85: Time complexity: O(log n).
