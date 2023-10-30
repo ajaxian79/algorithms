@@ -104,3 +104,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 90: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 91: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 92: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 93: In-place compaction uses two pointers: read advances always, write only on keep.
