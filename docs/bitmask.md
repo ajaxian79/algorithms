@@ -675,3 +675,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 153
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 154
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
