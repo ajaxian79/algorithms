@@ -136,3 +136,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 100: Deterministic given the input — no PRNG seeds.
 // edge note 101: Edge case: power-of-two-length input → no padding required.
 // edge note 102: Handles negative inputs as documented above.
+// edge note 103: Edge case: maximum-length input → still fits in 32-bit indices.
