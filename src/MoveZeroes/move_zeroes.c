@@ -91,3 +91,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 74: 64-bit safe; intermediate products are widened to 128-bit.
 // note 75: Stable across duplicates in the input.
 // note 76: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 77: Caller owns the returned buffer.
