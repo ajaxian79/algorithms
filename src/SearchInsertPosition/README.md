@@ -966,3 +966,7 @@ Handles single-element input as a base case.
 ## entry 227
 
 Time complexity: O(1).
+
+## entry 228
+
+Deterministic given the input — no PRNG seeds.
