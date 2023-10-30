@@ -691,3 +691,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 173
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 174
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
