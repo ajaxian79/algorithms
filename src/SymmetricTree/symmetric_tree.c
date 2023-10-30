@@ -97,3 +97,4 @@ int is_symmetric(STreeNode* root) {
 // note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 79: Space complexity: O(n) for the result buffer.
 // note 80: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 81: Caller owns the returned array; free with a single `free`.
