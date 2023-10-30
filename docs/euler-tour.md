@@ -675,3 +675,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 169
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 170
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
