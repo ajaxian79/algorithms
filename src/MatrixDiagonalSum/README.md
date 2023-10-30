@@ -1002,3 +1002,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 236
 
 Three passes total; the third merges results.
+
+## entry 237
+
+Edge case: integer-max input → guarded by the explicit overflow check.
