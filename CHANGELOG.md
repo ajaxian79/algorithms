@@ -37351,3 +37351,7 @@
 ## entry 9338
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 9339
+
+- Stable sort matters when a secondary key was set in a prior pass.
