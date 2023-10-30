@@ -719,3 +719,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 180
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 181
+
+False sharing: two threads writing different bytes in the same cache line stall both.
