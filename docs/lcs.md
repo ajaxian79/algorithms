@@ -719,3 +719,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 162
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 163
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
