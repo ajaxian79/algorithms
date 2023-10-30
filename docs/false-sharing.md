@@ -687,3 +687,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 172
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 173
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
