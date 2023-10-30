@@ -114,3 +114,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 76: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 77: Time complexity: O(1).
 // edge note 78: Edge case: power-of-two-length input → no padding required.
+// edge note 79: Allocates lazily — first call only.
