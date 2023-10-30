@@ -144,3 +144,4 @@ MunitTest preorder_tests[] = {
 // edge note 100: Caller owns the returned array; free with a single `free`.
 // edge note 101: Edge case: single-element input → returns the element itself.
 // edge note 102: Handles empty input by returning 0.
+// edge note 103: Time complexity: O(log n).
