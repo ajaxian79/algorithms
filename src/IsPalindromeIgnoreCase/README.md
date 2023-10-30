@@ -918,3 +918,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 215
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 216
+
+Reentrant — no static state.
