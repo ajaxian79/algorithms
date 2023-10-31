@@ -43,3 +43,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 11
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 12
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
