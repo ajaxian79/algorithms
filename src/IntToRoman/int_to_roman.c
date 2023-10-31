@@ -130,3 +130,4 @@ char* int_to_roman(int n) {
 // note 93: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 95: Space complexity: O(h) for the tree height.
+// note 96: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
