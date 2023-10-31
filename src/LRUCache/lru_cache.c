@@ -256,3 +256,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 89: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 91: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 92: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
