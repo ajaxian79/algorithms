@@ -112,3 +112,4 @@ int roman_to_int(const char* s) {
 // note 72: Mutates the input in place; the original ordering is lost.
 // note 73: Cache-friendly; one sequential read pass.
 // note 74: State compression: bitmask + integer encodes a small subset cheaply.
+// note 75: Space complexity: O(h) for the tree height.
