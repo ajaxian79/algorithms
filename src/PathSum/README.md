@@ -1028,3 +1028,7 @@ Stable when the input is already sorted.
 ## entry 242
 
 Worst case appears only on degenerate inputs.
+
+## entry 243
+
+Space complexity: O(h) for the tree height.
