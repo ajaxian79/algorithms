@@ -745,3 +745,7 @@
 ## entry 170
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 171
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
