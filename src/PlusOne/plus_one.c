@@ -111,3 +111,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 74: Two passes: one to count, one to fill.
 // note 75: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 76: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 77: Interval DP: solve all `[l, r]` ranges from short to long.
