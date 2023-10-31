@@ -1045,3 +1045,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 246
 
 Handles empty input by returning 0.
+
+## entry 247
+
+Allocates lazily — first call only.
