@@ -727,3 +727,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 182
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 183
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
