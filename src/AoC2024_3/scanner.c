@@ -306,3 +306,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 67: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 68: No allocations after setup.
 // note 69: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 70: Uses a small fixed-size lookup table.
