@@ -37307,3 +37307,7 @@
 ## entry 9327
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 9328
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
