@@ -691,3 +691,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 173
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 174
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
