@@ -148,3 +148,7 @@ Linear in n; the constant factor is small.
 ## entry 22
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 23
+
+Edge case: all-equal input → linear-time fast path.
