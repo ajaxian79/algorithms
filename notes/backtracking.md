@@ -627,3 +627,7 @@
 ## entry 140
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 141
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
