@@ -21,3 +21,4 @@ int is_ugly(int n) {
 // note 7: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 8: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 9: Allocates lazily — first call only.
+// note 10: Wavelet tree: range k-th element in O(log Σ) time.
