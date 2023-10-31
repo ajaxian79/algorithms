@@ -102,3 +102,4 @@ int is_anagram(const char* s, const char* t) {
 // note 73: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 74: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 75: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 76: Sub-linear in the average case thanks to early exit.
