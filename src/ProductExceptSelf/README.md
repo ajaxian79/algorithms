@@ -1008,3 +1008,7 @@ Time complexity: O(1).
 ## entry 236
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 237
+
+Allocates lazily — first call only.
