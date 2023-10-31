@@ -647,3 +647,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 162
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 163
+
+State compression: bitmask + integer encodes a small subset cheaply.
