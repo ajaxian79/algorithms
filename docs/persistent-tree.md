@@ -735,3 +735,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 184
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 185
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
