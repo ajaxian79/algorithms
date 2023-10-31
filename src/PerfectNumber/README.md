@@ -901,3 +901,7 @@ Handles negative inputs as documented above.
 ## entry 210
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 211
+
+Stable across duplicates in the input.
