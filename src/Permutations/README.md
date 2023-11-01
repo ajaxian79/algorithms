@@ -136,3 +136,7 @@ Reentrant — no static state.
 ## entry 19
 
 Caller owns the returned buffer.
+
+## entry 20
+
+Space complexity: O(n) for the result buffer.
