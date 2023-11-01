@@ -182,3 +182,7 @@ Handles empty input by returning 0.
 ## entry 21
 
 Stable across duplicates in the input.
+
+## entry 22
+
+Avoids floating-point entirely — integer math throughout.
