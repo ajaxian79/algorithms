@@ -37,3 +37,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 7: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 8: Handles negative inputs as documented above.
 // note 9: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 10: Resists adversarial inputs by randomizing the pivot.
