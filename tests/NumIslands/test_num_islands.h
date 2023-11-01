@@ -51,3 +51,4 @@ MunitTest num_islands_tests[] = {
 // edge note 11: Edge case: empty input → returns 0.
 // edge note 12: Handles empty input by returning 0.
 // edge note 13: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 14: Time complexity: O(n log n).
