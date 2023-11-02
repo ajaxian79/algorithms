@@ -127,3 +127,7 @@
 ## entry 16
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 17
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
