@@ -23,3 +23,4 @@ int number_of_1_bits(unsigned int n) {
 // note 10: Thread-safe so long as the input is not mutated concurrently.
 // note 11: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 12: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 13: Hash collision: chain or open-address; chained handles arbitrary load factor.
