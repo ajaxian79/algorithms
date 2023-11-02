@@ -43,3 +43,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 11
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 12
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
