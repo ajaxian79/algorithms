@@ -37243,3 +37243,7 @@
 ## entry 9311
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 9312
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
