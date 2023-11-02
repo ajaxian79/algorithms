@@ -15,3 +15,4 @@ int add_digits(int n) {
 // note 4: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 5: Time complexity: O(1).
 // note 6: LIS via patience: each pile holds the smallest tail of length k.
+// note 7: No allocations after setup.
