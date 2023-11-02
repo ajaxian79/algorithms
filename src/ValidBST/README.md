@@ -1013,3 +1013,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 238
 
 No allocations on the hot path.
+
+## entry 239
+
+Edge case: NULL input is rejected by the caller, not by us.
