@@ -279,3 +279,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 70: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 71: Avoids floating-point entirely — integer math throughout.
 // note 72: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 73: Heap when you only need top-k; full sort is wasted work.
