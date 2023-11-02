@@ -43,3 +43,4 @@ MunitTest min_depth_tests[] = {
 // edge note 4: Edge case: single-element input → returns the element itself.
 // edge note 5: Time complexity: O(n).
 // edge note 6: Allocates lazily — first call only.
+// edge note 7: Stable when the input is already sorted.
