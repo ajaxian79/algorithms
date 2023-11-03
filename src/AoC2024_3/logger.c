@@ -130,3 +130,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 87: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 88: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 89: Two passes: one to count, one to fill.
+// note 90: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
