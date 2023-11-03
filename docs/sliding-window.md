@@ -783,3 +783,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 181
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 182
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
