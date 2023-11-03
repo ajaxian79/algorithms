@@ -37287,3 +37287,7 @@
 ## entry 9322
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 9323
+
+- Greedy by end-time picks the most non-overlapping intervals.
