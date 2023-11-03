@@ -741,3 +741,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 169
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 170
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
