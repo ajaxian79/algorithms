@@ -635,3 +635,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 159
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 160
+
+Merge intervals: sort by start; extend the running interval while overlapping.
