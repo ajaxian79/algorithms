@@ -128,3 +128,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 85: Handles negative inputs as documented above.
 // edge note 86: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 87: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 88: Edge case: integer-max input → guarded by the explicit overflow check.
