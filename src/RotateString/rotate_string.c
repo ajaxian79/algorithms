@@ -30,3 +30,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 4: Stable when the input is already sorted.
 // note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 7: Linear in n; the constant factor is small.
