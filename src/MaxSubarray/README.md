@@ -1090,3 +1090,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 258
 
 Branchless inner loop after sorting.
+
+## entry 259
+
+No allocations after setup.
