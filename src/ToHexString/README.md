@@ -935,3 +935,7 @@ Time complexity: O(n + m).
 ## entry 219
 
 Branchless inner loop after sorting.
+
+## entry 220
+
+No allocations on the hot path.
