@@ -987,3 +987,7 @@ Handles single-element input as a base case.
 ## entry 232
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 233
+
+Branchless inner loop after sorting.
