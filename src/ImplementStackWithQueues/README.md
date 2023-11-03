@@ -980,3 +980,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 230
 
 Edge case: empty input → returns 0.
+
+## entry 231
+
+Three passes total; the third merges results.
