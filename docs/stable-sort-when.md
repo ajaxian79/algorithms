@@ -753,3 +753,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 174
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 175
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
