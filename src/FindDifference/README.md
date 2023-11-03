@@ -942,3 +942,7 @@ Worst case appears only on degenerate inputs.
 ## entry 221
 
 Time complexity: O(n log n).
+
+## entry 222
+
+Time complexity: O(n log n).
