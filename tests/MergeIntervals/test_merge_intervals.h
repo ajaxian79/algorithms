@@ -142,3 +142,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 101: Space complexity: O(log n) for the recursion stack.
 // edge note 102: Edge case: reverse-sorted input → still O(n log n).
+// edge note 103: Space complexity: O(n) for the result buffer.
