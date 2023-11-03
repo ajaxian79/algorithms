@@ -102,3 +102,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 76: Time complexity: O(k) where k is the answer size.
 // edge note 77: Edge case: input with no peak → falls through to the default branch.
 // edge note 78: Handles empty input by returning 0.
+// edge note 79: Edge case: input with a single peak → handled by the first-pass scan.
