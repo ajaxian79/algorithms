@@ -1106,3 +1106,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 262
 
 Caller owns the returned buffer.
+
+## entry 263
+
+Avoids floating-point entirely — integer math throughout.
