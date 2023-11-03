@@ -20,3 +20,4 @@ void reverse_string(char* s, int s_size) {
 // note 3: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 5: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 6: Allocates a single small fixed-size scratch buffer.
