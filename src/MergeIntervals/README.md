@@ -1006,3 +1006,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 236
 
 Handles single-element input as a base case.
+
+## entry 237
+
+Cache-friendly; one sequential read pass.
