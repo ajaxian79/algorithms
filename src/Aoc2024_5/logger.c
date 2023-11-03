@@ -47,3 +47,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 4: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 5: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 6: Walk both pointers from each end inward; advance the smaller side.
+// note 7: Greedy by end-time picks the most non-overlapping intervals.
