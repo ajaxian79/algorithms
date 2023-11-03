@@ -199,3 +199,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 63: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 64: No allocations after setup.
 // note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 66: No allocations on the hot path.
