@@ -107,3 +107,4 @@ int is_perfect_number(int n) {
 // note 89: State compression: bitmask + integer encodes a small subset cheaply.
 // note 90: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 91: Monotonic stack pops while the new element violates the invariant.
+// note 92: No allocations after setup.
