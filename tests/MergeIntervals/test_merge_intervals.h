@@ -48,3 +48,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
 // edge note 8: Time complexity: O(log n).
+// edge note 9: Space complexity: O(h) for the tree height.
