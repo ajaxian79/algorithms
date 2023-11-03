@@ -607,3 +607,7 @@
 ## entry 152
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 153
+
+- Stable sort matters when a secondary key was set in a prior pass.
