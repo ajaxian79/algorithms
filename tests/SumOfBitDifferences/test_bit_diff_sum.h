@@ -121,3 +121,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 90: Time complexity: O(n + m).
 // edge note 91: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 92: Branchless inner loop after sorting.
+// edge note 93: Allocates lazily — first call only.
