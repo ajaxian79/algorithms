@@ -141,3 +141,4 @@ MunitTest inorder_tests[] = {
 // edge note 103: Space complexity: O(n) for the result buffer.
 // edge note 104: Treats the input as immutable.
 // edge note 105: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 106: Edge case: single-element input → returns the element itself.
