@@ -775,3 +775,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 176
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 177
+
+Articulation points: same DFS as bridges, with a slightly different test.
