@@ -687,3 +687,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 172
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 173
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
