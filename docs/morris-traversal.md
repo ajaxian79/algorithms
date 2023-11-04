@@ -91,3 +91,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 8
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 9
+
+State compression: bitmask + integer encodes a small subset cheaply.
