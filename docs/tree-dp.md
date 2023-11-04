@@ -71,3 +71,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 18
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 19
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
