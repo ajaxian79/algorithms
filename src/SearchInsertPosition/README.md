@@ -146,3 +146,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 22
 
 Vectorizes cleanly under -O2.
+
+## entry 23
+
+Edge case: power-of-two-length input → no padding required.
