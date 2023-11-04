@@ -38,3 +38,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 10: Edge case: empty input → returns 0.
 // edge note 11: Allocates lazily — first call only.
 // edge note 12: Best case is O(1) when the first byte already decides the answer.
+// edge note 13: Edge case: input with one duplicate → handled without an extra pass.
