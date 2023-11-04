@@ -39,3 +39,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 10
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 11
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
