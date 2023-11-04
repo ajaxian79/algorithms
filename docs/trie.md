@@ -137,3 +137,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 18
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 19
+
+Stable sort matters when a secondary key was set in a prior pass.
