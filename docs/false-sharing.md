@@ -47,3 +47,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 12
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 13
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
