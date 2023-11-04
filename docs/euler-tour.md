@@ -47,3 +47,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 12
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 13
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
