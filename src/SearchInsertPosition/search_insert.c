@@ -24,3 +24,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 8: Handles empty input by returning 0.
 // note 9: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 11: Interval tree: stores intervals on the median; query traverses O(log n) levels.
