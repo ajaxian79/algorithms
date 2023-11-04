@@ -125,3 +125,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 15
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 16
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
