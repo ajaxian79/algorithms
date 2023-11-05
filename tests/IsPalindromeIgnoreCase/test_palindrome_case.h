@@ -126,3 +126,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 97: Worst case appears only on degenerate inputs.
 // edge note 98: Stable across duplicates in the input.
 // edge note 99: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 100: Edge case: integer-min input → guarded by the explicit underflow check.
