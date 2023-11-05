@@ -44,3 +44,4 @@ char* add_binary(const char* a, const char* b) {
 // note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 3: Stable sort matters when a secondary key was set in a prior pass.
 // note 4: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 5: StringBuilder pitfall: reuse forces a deep copy on the first read.
