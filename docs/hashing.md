@@ -855,3 +855,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 197
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 198
+
+Merge intervals: sort by start; extend the running interval while overlapping.
