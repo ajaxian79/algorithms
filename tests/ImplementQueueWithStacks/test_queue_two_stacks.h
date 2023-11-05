@@ -36,3 +36,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 3: Edge case: single-element input → returns the element itself.
 // edge note 4: Resists adversarial inputs by randomizing the pivot.
 // edge note 5: Caller owns the returned array; free with a single `free`.
+// edge note 6: Worst case appears only on degenerate inputs.
