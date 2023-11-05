@@ -779,3 +779,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 180
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 181
+
+LIS via patience: each pile holds the smallest tail of length k.
