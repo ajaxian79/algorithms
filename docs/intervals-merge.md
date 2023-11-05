@@ -689,3 +689,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 155
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 156
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
