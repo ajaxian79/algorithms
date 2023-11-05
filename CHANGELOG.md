@@ -37199,3 +37199,7 @@
 ## entry 9300
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 9301
+
+- State compression: bitmask + integer encodes a small subset cheaply.
