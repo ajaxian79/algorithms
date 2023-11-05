@@ -1078,3 +1078,7 @@ Reentrant — no static state.
 ## entry 255
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 256
+
+Space complexity: O(h) for the tree height.
