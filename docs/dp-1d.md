@@ -139,3 +139,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 18
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 19
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
