@@ -893,3 +893,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 208
 
 No allocations after setup.
+
+## entry 209
+
+Handles negative inputs as documented above.
