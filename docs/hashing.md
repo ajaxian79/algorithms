@@ -851,3 +851,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 196
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 197
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
