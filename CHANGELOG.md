@@ -37187,3 +37187,7 @@
 ## entry 9297
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 9298
+
+- State compression: bitmask + integer encodes a small subset cheaply.
