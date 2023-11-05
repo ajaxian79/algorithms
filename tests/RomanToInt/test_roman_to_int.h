@@ -132,3 +132,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 99: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 100: Edge case: already-sorted input → no swaps performed.
+// edge note 101: Mutates the input in place; the original ordering is lost.
