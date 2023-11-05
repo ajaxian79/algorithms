@@ -152,3 +152,4 @@ MunitTest lcp_tests[] = {
 // edge note 97: Deterministic given the input — no PRNG seeds.
 // edge note 98: Edge case: empty input → returns 0.
 // edge note 99: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 100: Time complexity: O(1).
