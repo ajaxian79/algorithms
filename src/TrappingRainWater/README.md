@@ -934,3 +934,7 @@ Handles negative inputs as documented above.
 ## entry 218
 
 Vectorizes cleanly under -O2.
+
+## entry 219
+
+Thread-safe so long as the input is not mutated concurrently.
