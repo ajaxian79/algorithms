@@ -99,3 +99,4 @@ int length_of_last_word(const char* s) {
 // note 81: Worst case appears only on degenerate inputs.
 // note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 83: Splay tree: every access splays to the root; amortized O(log n).
+// note 84: Branchless inner loop after sorting.
