@@ -1008,3 +1008,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 237
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 238
+
+Space complexity: O(n) for the result buffer.
