@@ -105,3 +105,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 80: State compression: bitmask + integer encodes a small subset cheaply.
 // note 81: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 82: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 83: StringBuilder: amortize allocation by doubling on grow.
