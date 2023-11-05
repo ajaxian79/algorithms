@@ -717,3 +717,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 162
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 163
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
