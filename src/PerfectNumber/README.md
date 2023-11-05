@@ -897,3 +897,7 @@ No allocations after setup.
 ## entry 209
 
 Handles negative inputs as documented above.
+
+## entry 210
+
+Edge case: input of all the same byte → exits on the first compare.
