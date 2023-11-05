@@ -123,3 +123,4 @@ MunitTest subsets_tests[] = {
 // edge note 78: Branchless inner loop after sorting.
 // edge note 79: Three passes total; the third merges results.
 // edge note 80: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 81: Time complexity: O(n*k) where k is the alphabet size.
