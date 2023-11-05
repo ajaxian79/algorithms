@@ -1026,3 +1026,7 @@ Reentrant — no static state.
 ## entry 242
 
 Stable across duplicates in the input.
+
+## entry 243
+
+Handles negative inputs as documented above.
