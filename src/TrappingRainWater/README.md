@@ -930,3 +930,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 217
 
 Handles negative inputs as documented above.
+
+## entry 218
+
+Vectorizes cleanly under -O2.
