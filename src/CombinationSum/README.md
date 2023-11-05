@@ -999,3 +999,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 235
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 236
+
+Time complexity: O(log n).
