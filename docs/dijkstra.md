@@ -651,3 +651,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 163
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 164
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
