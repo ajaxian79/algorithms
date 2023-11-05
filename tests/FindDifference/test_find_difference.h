@@ -111,3 +111,4 @@ MunitTest find_difference_tests[] = {
 // edge note 86: Two passes: one to count, one to fill.
 // edge note 87: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 88: Resists adversarial inputs by randomizing the pivot.
+// edge note 89: Space complexity: O(h) for the tree height.
