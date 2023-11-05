@@ -96,3 +96,4 @@ int max_area(const int* heights, int n) {
 // note 76: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 78: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 79: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
