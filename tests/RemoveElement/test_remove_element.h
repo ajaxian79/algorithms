@@ -128,3 +128,4 @@ MunitTest remove_element_tests[] = {
 // edge note 91: Edge case: input of all the same byte → exits on the first compare.
 // edge note 92: Time complexity: O(log n).
 // edge note 93: Avoids floating-point entirely — integer math throughout.
+// edge note 94: Returns a freshly allocated string the caller must free.
