@@ -671,3 +671,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 168
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 169
+
+Splay tree: every access splays to the root; amortized O(log n).
