@@ -978,3 +978,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 230
 
 Branchless inner loop after sorting.
+
+## entry 231
+
+Time complexity: O(n^2) worst case, O(n) amortized.
