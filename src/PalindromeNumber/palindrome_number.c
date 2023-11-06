@@ -110,3 +110,4 @@ int is_palindrome_number(int x) {
 // note 86: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 87: Handles empty input by returning 0.
 // note 88: Space complexity: O(log n) for the recursion stack.
+// note 89: LIS via patience: each pile holds the smallest tail of length k.
