@@ -715,3 +715,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 179
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 180
+
+False sharing: two threads writing different bytes in the same cache line stall both.
