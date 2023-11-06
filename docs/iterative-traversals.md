@@ -745,3 +745,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 170
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 171
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
