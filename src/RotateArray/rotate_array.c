@@ -101,3 +101,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 76: Tail-recursive; the compiler turns it into a loop.
 // note 77: Uses a 256-entry lookup for the inner step.
 // note 78: Space complexity: O(log n) for the recursion stack.
+// note 79: No allocations on the hot path.
