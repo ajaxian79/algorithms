@@ -116,3 +116,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 82: Allocates one buffer of length n+1 for the result.
 // note 83: Mutates the input in place; the original ordering is lost.
 // note 84: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 85: Time complexity: O(n + m).
