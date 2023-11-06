@@ -119,3 +119,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 92: Time complexity: O(log n).
 // edge note 93: Mutates the input in place; the original ordering is lost.
 // edge note 94: Handles negative inputs as documented above.
+// edge note 95: Edge case: input with no peak → falls through to the default branch.
