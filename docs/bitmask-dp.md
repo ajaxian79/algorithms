@@ -679,3 +679,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 170
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 171
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
