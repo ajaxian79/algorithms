@@ -1057,3 +1057,7 @@ Stable across duplicates in the input.
 ## entry 249
 
 Worst case appears only on degenerate inputs.
+
+## entry 250
+
+Three passes total; the third merges results.
