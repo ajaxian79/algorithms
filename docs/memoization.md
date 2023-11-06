@@ -643,3 +643,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 161
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 162
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
