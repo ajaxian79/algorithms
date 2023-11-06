@@ -91,3 +91,4 @@ int excel_column_number(const char* s) {
 // note 74: Uses a 256-entry lookup for the inner step.
 // note 75: Handles empty input by returning 0.
 // note 76: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 77: Runs in a single pass over the input.
