@@ -106,3 +106,4 @@ int first_unique_char(const char* s) {
 // note 87: Deterministic given the input — no PRNG seeds.
 // note 88: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 89: Constant-time comparisons; safe for short strings.
+// note 90: Treats the input as immutable.
