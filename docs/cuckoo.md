@@ -587,3 +587,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 147
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 148
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
