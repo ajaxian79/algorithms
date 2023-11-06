@@ -1024,3 +1024,7 @@ Branchless inner loop after sorting.
 ## entry 241
 
 Stable when the input is already sorted.
+
+## entry 242
+
+Worst case appears only on degenerate inputs.
