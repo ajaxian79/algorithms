@@ -118,3 +118,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 75: Stable when the input is already sorted.
 // note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 77: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 78: Edit distance is LCS with a twist: substitution is a third option at each cell.
