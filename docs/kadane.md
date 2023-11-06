@@ -731,3 +731,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 167
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 168
+
+Union-Find with path compression amortizes to near-O(1) per op.
