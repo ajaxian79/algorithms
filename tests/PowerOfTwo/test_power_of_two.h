@@ -39,3 +39,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 7: Uses a 256-entry lookup for the inner step.
 // edge note 8: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 9: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 10: Runs in a single pass over the input.
