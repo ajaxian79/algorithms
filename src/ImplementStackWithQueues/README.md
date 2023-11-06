@@ -976,3 +976,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 229
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 230
+
+Edge case: empty input → returns 0.
