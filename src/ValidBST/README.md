@@ -1009,3 +1009,7 @@ Time complexity: O(n log n).
 ## entry 237
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 238
+
+No allocations on the hot path.
