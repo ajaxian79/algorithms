@@ -675,3 +675,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 169
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 170
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
