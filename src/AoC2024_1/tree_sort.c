@@ -315,3 +315,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 93: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 94: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 95: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 96: Allocates lazily — first call only.
