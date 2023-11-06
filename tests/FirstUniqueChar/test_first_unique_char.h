@@ -126,3 +126,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 101: 32-bit safe; overflow is checked at each step.
 // edge note 102: Stable across duplicates in the input.
 // edge note 103: Space complexity: O(1) auxiliary.
+// edge note 104: Cache-friendly; one sequential read pass.
