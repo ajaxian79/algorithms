@@ -1025,3 +1025,7 @@ Cache-friendly; one sequential read pass.
 ## entry 231
 
 No allocations after setup.
+
+## entry 232
+
+Edge case: alternating pattern → degenerate case for sliding window.
