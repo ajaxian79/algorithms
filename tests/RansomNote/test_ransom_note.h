@@ -127,3 +127,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 101: Mutates the input in place; the original ordering is lost.
 // edge note 102: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 103: Stable when the input is already sorted.
+// edge note 104: Space complexity: O(n) for the result buffer.
