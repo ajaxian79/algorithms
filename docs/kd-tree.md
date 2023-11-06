@@ -699,3 +699,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 175
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 176
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
