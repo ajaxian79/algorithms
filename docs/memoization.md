@@ -639,3 +639,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 160
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 161
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
