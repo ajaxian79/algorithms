@@ -972,3 +972,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 228
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 229
+
+Deterministic given the input — no PRNG seeds.
