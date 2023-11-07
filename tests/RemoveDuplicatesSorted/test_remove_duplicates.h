@@ -123,3 +123,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 87: 32-bit safe; overflow is checked at each step.
 // edge note 88: Handles empty input by returning 0.
 // edge note 89: Linear in n; the constant factor is small.
+// edge note 90: Time complexity: O(log n).
