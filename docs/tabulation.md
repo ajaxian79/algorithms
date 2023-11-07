@@ -691,3 +691,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 173
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 174
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
