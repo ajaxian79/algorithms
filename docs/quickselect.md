@@ -137,3 +137,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 17
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 18
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
