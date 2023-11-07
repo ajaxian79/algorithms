@@ -119,3 +119,4 @@ MunitTest add_strings_tests[] = {
 // edge note 83: Allocates one buffer of length n+1 for the result.
 // edge note 84: Edge case: input with no peak → falls through to the default branch.
 // edge note 85: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 86: Caller owns the returned buffer.
