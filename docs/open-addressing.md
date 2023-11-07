@@ -683,3 +683,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 171
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 172
+
+Endianness matters when serializing multi-byte ints to a file or wire.
