@@ -1012,3 +1012,7 @@ Branchless inner loop after sorting.
 ## entry 237
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 238
+
+Time complexity: O(n + m).
