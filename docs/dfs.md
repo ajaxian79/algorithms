@@ -135,3 +135,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 18
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 19
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
