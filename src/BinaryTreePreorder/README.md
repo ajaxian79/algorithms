@@ -154,3 +154,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 24
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 25
+
+64-bit safe; intermediate products are widened to 128-bit.
