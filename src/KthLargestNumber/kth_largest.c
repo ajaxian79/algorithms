@@ -116,3 +116,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 72: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 73: Space complexity: O(h) for the tree height.
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 75: Space complexity: O(1) auxiliary.
