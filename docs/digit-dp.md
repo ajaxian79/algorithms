@@ -627,3 +627,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 157
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 158
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
