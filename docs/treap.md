@@ -651,3 +651,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 163
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 164
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
