@@ -889,3 +889,7 @@ Caller owns the returned buffer.
 ## entry 207
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 208
+
+No allocations after setup.
