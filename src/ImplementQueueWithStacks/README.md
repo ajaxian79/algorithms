@@ -967,3 +967,7 @@ Branchless inner loop after sorting.
 ## entry 227
 
 Space complexity: O(h) for the tree height.
+
+## entry 228
+
+Edge case: integer-max input → guarded by the explicit overflow check.
