@@ -1041,3 +1041,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 245
 
 Returns a freshly allocated string the caller must free.
+
+## entry 246
+
+Handles empty input by returning 0.
