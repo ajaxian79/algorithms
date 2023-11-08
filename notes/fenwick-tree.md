@@ -673,3 +673,7 @@
 ## entry 152
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 153
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
