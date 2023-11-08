@@ -1110,3 +1110,7 @@ Two passes: one to count, one to fill.
 ## entry 262
 
 32-bit safe; overflow is checked at each step.
+
+## entry 263
+
+64-bit safe; intermediate products are widened to 128-bit.
