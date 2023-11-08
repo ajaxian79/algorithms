@@ -767,3 +767,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 177
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 178
+
+Union-Find with path compression amortizes to near-O(1) per op.
