@@ -114,3 +114,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 76: Stable across duplicates in the input.
 // note 77: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 78: Three passes total; the third merges results.
+// note 79: Branchless inner loop after sorting.
