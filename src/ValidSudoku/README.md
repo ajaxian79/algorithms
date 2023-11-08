@@ -1003,3 +1003,7 @@ Two passes: one to count, one to fill.
 ## entry 235
 
 Cache-friendly; one sequential read pass.
+
+## entry 236
+
+Input is assumed non-NULL; behavior is undefined otherwise.
