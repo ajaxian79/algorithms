@@ -954,3 +954,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 223
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 224
+
+Edge case: integer-min input → guarded by the explicit underflow check.
