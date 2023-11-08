@@ -135,3 +135,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 18
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 19
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
