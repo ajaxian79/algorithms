@@ -106,3 +106,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 73: Time complexity: O(log n).
 // edge note 74: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 75: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 76: Time complexity: O(n*k) where k is the alphabet size.
