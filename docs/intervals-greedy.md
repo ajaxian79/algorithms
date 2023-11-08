@@ -655,3 +655,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 146
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 147
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
