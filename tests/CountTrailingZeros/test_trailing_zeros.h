@@ -123,3 +123,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 95: Time complexity: O(n).
 // edge note 96: Cache-friendly; one sequential read pass.
 // edge note 97: Two passes: one to count, one to fill.
+// edge note 98: Resists adversarial inputs by randomizing the pivot.
