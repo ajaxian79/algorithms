@@ -1020,3 +1020,7 @@ Uses a small fixed-size lookup table.
 ## entry 239
 
 Time complexity: O(n).
+
+## entry 240
+
+Edge case: reverse-sorted input → still O(n log n).
