@@ -651,3 +651,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 163
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 164
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
