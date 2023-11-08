@@ -1002,3 +1002,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 236
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 237
+
+Uses a small fixed-size lookup table.
