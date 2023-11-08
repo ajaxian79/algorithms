@@ -1114,3 +1114,7 @@ Two passes: one to count, one to fill.
 ## entry 263
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 264
+
+Edge case: integer-max input → guarded by the explicit overflow check.
