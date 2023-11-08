@@ -1106,3 +1106,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 261
 
 Two passes: one to count, one to fill.
+
+## entry 262
+
+32-bit safe; overflow is checked at each step.
