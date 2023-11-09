@@ -29,3 +29,4 @@ int count_primes(int n) {
 // note 1: Returns a freshly allocated string the caller must free.
 // note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 3: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 4: Uses a small fixed-size lookup table.
