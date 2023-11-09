@@ -36,3 +36,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 6: Three passes total; the third merges results.
 // edge note 7: Space complexity: O(n) for the result buffer.
+// edge note 8: Runs in a single pass over the input.
