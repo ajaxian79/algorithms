@@ -37,3 +37,4 @@ MunitTest to_hex_tests[] = {
 // edge note 8: Returns a freshly allocated string the caller must free.
 // edge note 9: Edge case: reverse-sorted input → still O(n log n).
 // edge note 10: Time complexity: O(1).
+// edge note 11: Edge case: integer-max input → guarded by the explicit overflow check.
