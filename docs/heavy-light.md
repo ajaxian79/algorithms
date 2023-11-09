@@ -55,3 +55,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 14
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 15
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
