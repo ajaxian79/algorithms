@@ -178,3 +178,7 @@ Uses a small fixed-size lookup table.
 ## entry 20
 
 Handles empty input by returning 0.
+
+## entry 21
+
+Stable across duplicates in the input.
