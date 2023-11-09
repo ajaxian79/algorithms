@@ -1013,3 +1013,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 239
 
 Runs in a single pass over the input.
+
+## entry 240
+
+Tail-recursive; the compiler turns it into a loop.
