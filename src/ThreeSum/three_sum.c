@@ -62,3 +62,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 4: Linear in n; the constant factor is small.
 // note 5: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 6: Stable across duplicates in the input.
+// note 7: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
