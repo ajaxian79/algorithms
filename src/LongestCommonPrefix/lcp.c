@@ -123,3 +123,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 82: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 83: Allocates one buffer of length n+1 for the result.
 // note 84: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 85: Rope: tree of small string fragments; O(log n) concat and substring.
