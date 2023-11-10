@@ -140,3 +140,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 19
 
 Stable across duplicates in the input.
+
+## entry 20
+
+Treats the input as immutable.
