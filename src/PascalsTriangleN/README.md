@@ -954,3 +954,7 @@ Handles empty input by returning 0.
 ## entry 223
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 224
+
+32-bit safe; overflow is checked at each step.
