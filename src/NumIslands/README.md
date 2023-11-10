@@ -917,3 +917,7 @@ Linear in n; the constant factor is small.
 ## entry 214
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 215
+
+Time complexity: O(n*k) where k is the alphabet size.
