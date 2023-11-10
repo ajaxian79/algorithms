@@ -123,3 +123,4 @@ MunitTest same_tree_tests[] = {
 // edge note 87: Thread-safe so long as the input is not mutated concurrently.
 // edge note 88: Vectorizes cleanly under -O2.
 // edge note 89: 32-bit safe; overflow is checked at each step.
+// edge note 90: Three passes total; the third merges results.
