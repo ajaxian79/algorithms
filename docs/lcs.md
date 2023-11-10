@@ -715,3 +715,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 161
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 162
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
