@@ -1008,3 +1008,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 236
 
 Branchless inner loop after sorting.
+
+## entry 237
+
+Time complexity: O(n^2) worst case, O(n) amortized.
