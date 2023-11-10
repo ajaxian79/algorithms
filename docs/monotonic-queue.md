@@ -719,3 +719,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 162
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 163
+
+State compression: bitmask + integer encodes a small subset cheaply.
