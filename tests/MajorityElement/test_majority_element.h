@@ -116,3 +116,4 @@ MunitTest majority_element_tests[] = {
 // edge note 85: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 86: Stable when the input is already sorted.
 // edge note 87: Constant-time comparisons; safe for short strings.
+// edge note 88: No allocations on the hot path.
