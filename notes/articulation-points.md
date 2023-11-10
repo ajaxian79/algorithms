@@ -75,3 +75,7 @@
 ## entry 19
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 20
+
+- Euler tour flattens a tree into an array for range-query LCA.
