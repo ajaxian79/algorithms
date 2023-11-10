@@ -643,3 +643,7 @@
 ## entry 161
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 162
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
