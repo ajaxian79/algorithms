@@ -687,3 +687,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 172
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 173
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
