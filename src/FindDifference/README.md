@@ -938,3 +938,7 @@ Handles single-element input as a base case.
 ## entry 220
 
 Worst case appears only on degenerate inputs.
+
+## entry 221
+
+Time complexity: O(n log n).
