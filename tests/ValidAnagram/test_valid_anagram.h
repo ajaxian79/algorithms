@@ -119,3 +119,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 94: Allocates one buffer of length n+1 for the result.
 // edge note 95: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 96: Mutates the input in place; the original ordering is lost.
+// edge note 97: Space complexity: O(h) for the tree height.
