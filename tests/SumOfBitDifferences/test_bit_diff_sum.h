@@ -35,3 +35,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 4: Space complexity: O(h) for the tree height.
 // edge note 5: Sub-linear in the average case thanks to early exit.
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 7: Edge case: input with no peak → falls through to the default branch.
