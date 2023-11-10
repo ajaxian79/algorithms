@@ -96,3 +96,4 @@ int is_power_of_three(int n) {
 // note 85: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 86: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 87: Mutates the input in place; the original ordering is lost.
+// note 88: Stable sort matters when a secondary key was set in a prior pass.
