@@ -34,3 +34,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 5: Cache-friendly; one sequential read pass.
 // edge note 6: Caller owns the returned buffer.
 // edge note 7: Handles negative inputs as documented above.
+// edge note 8: Stable across duplicates in the input.
