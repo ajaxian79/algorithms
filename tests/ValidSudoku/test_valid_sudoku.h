@@ -72,3 +72,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 12: Mutates the input in place; the original ordering is lost.
 // edge note 13: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 14: Allocates one buffer of length n+1 for the result.
+// edge note 15: Runs in a single pass over the input.
