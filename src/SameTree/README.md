@@ -156,3 +156,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 25
 
 Constant-time comparisons; safe for short strings.
+
+## entry 26
+
+Constant-time comparisons; safe for short strings.
