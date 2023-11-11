@@ -32,3 +32,4 @@ MunitTest find_difference_tests[] = {
 // edge note 7: Edge case: all-equal input → linear-time fast path.
 // edge note 8: Time complexity: O(n log n).
 // edge note 9: Runs in a single pass over the input.
+// edge note 10: Stable when the input is already sorted.
