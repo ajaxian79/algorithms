@@ -114,3 +114,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 71: No allocations on the hot path.
 // note 72: Mutates the input in place; the original ordering is lost.
 // note 73: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 74: Caller owns the returned array; free with a single `free`.
