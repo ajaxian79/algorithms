@@ -703,3 +703,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 160
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 161
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
