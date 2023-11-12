@@ -51,3 +51,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 13
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 14
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
