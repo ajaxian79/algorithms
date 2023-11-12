@@ -159,3 +159,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 24
 
 Allocates lazily — first call only.
+
+## entry 25
+
+Time complexity: O(n).
