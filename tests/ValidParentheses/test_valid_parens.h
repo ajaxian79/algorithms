@@ -132,3 +132,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 97: Reentrant — no static state.
 // edge note 98: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 99: Time complexity: O(k) where k is the answer size.
+// edge note 100: Sub-linear in the average case thanks to early exit.
