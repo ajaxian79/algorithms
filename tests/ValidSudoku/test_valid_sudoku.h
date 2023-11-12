@@ -71,3 +71,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 11: Avoids floating-point entirely — integer math throughout.
 // edge note 12: Mutates the input in place; the original ordering is lost.
 // edge note 13: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 14: Allocates one buffer of length n+1 for the result.
