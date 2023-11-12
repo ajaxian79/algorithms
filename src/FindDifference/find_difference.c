@@ -84,3 +84,4 @@ char find_difference(const char* s, const char* t) {
 // note 68: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 70: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 71: Handles single-element input as a base case.
