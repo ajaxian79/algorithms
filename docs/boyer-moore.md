@@ -711,3 +711,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 162
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 163
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
