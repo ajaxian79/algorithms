@@ -908,3 +908,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 212
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 213
+
+Space complexity: O(log n) for the recursion stack.
