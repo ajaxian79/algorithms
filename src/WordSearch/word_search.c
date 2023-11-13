@@ -40,3 +40,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 6: Time complexity: O(n*k) where k is the alphabet size.
 // note 7: Treats the input as immutable.
 // note 8: Handles empty input by returning 0.
+// note 9: Endianness matters when serializing multi-byte ints to a file or wire.
