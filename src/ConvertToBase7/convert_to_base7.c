@@ -107,3 +107,4 @@ char* convert_to_base7(int n) {
 // note 74: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 75: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 76: Space complexity: O(log n) for the recursion stack.
+// note 77: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
