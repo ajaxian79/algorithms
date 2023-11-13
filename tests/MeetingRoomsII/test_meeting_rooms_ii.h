@@ -132,3 +132,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 101: Space complexity: O(h) for the tree height.
 // edge note 102: Vectorizes cleanly under -O2.
 // edge note 103: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 104: Edge case: integer-min input → guarded by the explicit underflow check.
