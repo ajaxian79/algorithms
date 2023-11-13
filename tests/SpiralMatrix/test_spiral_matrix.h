@@ -116,3 +116,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 73: Resists adversarial inputs by randomizing the pivot.
 // edge note 74: Best case is O(1) when the first byte already decides the answer.
 // edge note 75: Space complexity: O(log n) for the recursion stack.
+// edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
