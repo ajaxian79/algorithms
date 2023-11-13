@@ -631,3 +631,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 158
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 159
+
+State compression: bitmask + integer encodes a small subset cheaply.
