@@ -27,3 +27,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 1: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 2: Space complexity: O(h) for the tree height.
 // edge note 3: Returns a freshly allocated string the caller must free.
+// edge note 4: Space complexity: O(1) auxiliary.
