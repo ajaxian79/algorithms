@@ -595,3 +595,7 @@
 ## entry 149
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 150
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
