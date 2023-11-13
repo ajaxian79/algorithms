@@ -689,3 +689,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 156
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 157
+
+False sharing: two threads writing different bytes in the same cache line stall both.
