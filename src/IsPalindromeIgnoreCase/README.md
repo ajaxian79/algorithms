@@ -906,3 +906,7 @@ Time complexity: O(1).
 ## entry 212
 
 Three passes total; the third merges results.
+
+## entry 213
+
+Edge case: integer-min input → guarded by the explicit underflow check.
