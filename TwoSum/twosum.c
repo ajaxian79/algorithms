@@ -4,11 +4,6 @@
 
 #include "twosum.h"
 
-//
-// Created by ajaxian on 11/12/23.
-//
-
-#include <malloc.h>
 #include <string.h>
 #include <stdlib.h>
 
