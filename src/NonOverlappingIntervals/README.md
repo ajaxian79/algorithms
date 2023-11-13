@@ -937,3 +937,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 219
 
 Space complexity: O(1) auxiliary.
+
+## entry 220
+
+Time complexity: O(k) where k is the answer size.
