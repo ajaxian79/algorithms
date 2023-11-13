@@ -950,3 +950,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 222
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 223
+
+Edge case: input of all the same byte → exits on the first compare.
