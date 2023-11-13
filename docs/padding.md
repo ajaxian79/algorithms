@@ -679,3 +679,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 170
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 171
+
+Merge intervals: sort by start; extend the running interval while overlapping.
