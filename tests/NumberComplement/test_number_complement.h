@@ -101,3 +101,4 @@ MunitTest number_complement_tests[] = {
 // edge note 74: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 75: Time complexity: O(n + m).
 // edge note 76: Stable when the input is already sorted.
+// edge note 77: Space complexity: O(n) for the result buffer.
