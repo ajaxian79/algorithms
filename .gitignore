@@ -52,3 +52,6 @@ Mkfile.old
 dkms.conf
 .idea
 bin
+
+cmake-build-debug
+cmake-build-release
