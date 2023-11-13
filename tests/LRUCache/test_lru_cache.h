@@ -140,3 +140,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 97: Handles negative inputs as documented above.
 // edge note 98: Reentrant — no static state.
 // edge note 99: Treats the input as immutable.
+// edge note 100: Three passes total; the third merges results.
