@@ -675,3 +675,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 169
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 170
+
+Rope: tree of small string fragments; O(log n) concat and substring.
