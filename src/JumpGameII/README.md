@@ -992,3 +992,7 @@ Treats the input as immutable.
 ## entry 233
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 234
+
+Handles negative inputs as documented above.
