@@ -1010,3 +1010,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 237
 
 Edge case: empty input → returns 0.
+
+## entry 238
+
+Input is assumed non-NULL; behavior is undefined otherwise.
