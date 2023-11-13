@@ -747,3 +747,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 170
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 171
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
