@@ -1102,3 +1102,7 @@ Worst case appears only on degenerate inputs.
 ## entry 261
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 262
+
+Caller owns the returned buffer.
