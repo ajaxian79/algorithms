@@ -37019,3 +37019,7 @@
 ## entry 9255
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 9256
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
