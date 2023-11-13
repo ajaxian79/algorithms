@@ -926,3 +926,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 207
 
 Space complexity: O(h) for the tree height.
+
+## entry 208
+
+Handles single-element input as a base case.
