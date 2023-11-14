@@ -958,3 +958,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 225
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 226
+
+Returns a freshly allocated string the caller must free.
