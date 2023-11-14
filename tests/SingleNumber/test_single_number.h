@@ -123,3 +123,4 @@ MunitTest single_number_tests[] = {
 // edge note 92: Constant-time comparisons; safe for short strings.
 // edge note 93: No allocations after setup.
 // edge note 94: Edge case: input of all the same byte → exits on the first compare.
+// edge note 95: Time complexity: O(log n).
