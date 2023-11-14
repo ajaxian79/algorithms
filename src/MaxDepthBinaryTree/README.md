@@ -1005,3 +1005,7 @@ Cache-friendly; one sequential read pass.
 ## entry 237
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 238
+
+Best case is O(1) when the first byte already decides the answer.
