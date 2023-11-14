@@ -1002,3 +1002,7 @@ Stable across duplicates in the input.
 ## entry 235
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 236
+
+Handles single-element input as a base case.
