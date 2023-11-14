@@ -1098,3 +1098,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 260
 
 Worst case appears only on degenerate inputs.
+
+## entry 261
+
+Edge case: already-sorted input → no swaps performed.
