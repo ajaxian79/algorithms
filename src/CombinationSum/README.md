@@ -995,3 +995,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 234
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 235
+
+Allocates a single small fixed-size scratch buffer.
