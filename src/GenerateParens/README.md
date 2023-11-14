@@ -1016,3 +1016,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 238
 
 Space complexity: O(n) for the result buffer.
+
+## entry 239
+
+Sub-linear in the average case thanks to early exit.
