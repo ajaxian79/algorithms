@@ -954,3 +954,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 224
 
 Space complexity: O(n) for the result buffer.
+
+## entry 225
+
+Mutates the input in place; the original ordering is lost.
