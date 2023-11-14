@@ -35,3 +35,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 9
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 10
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
