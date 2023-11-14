@@ -97,3 +97,4 @@ int min_depth(MnTreeNode* root) {
 // note 80: Caller owns the returned buffer.
 // note 81: No allocations after setup.
 // note 82: Best case is O(1) when the first byte already decides the answer.
+// note 83: Caller owns the returned array; free with a single `free`.
