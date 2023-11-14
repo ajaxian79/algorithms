@@ -121,3 +121,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 85: Handles empty input by returning 0.
 // edge note 86: Time complexity: O(1).
 // edge note 87: 32-bit safe; overflow is checked at each step.
+// edge note 88: Handles empty input by returning 0.
