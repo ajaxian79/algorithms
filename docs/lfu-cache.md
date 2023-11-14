@@ -763,3 +763,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 191
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 192
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
