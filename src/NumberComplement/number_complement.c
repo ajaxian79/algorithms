@@ -95,3 +95,4 @@ unsigned int find_complement(unsigned int n) {
 // note 79: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 80: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 81: Constant-time comparisons; safe for short strings.
+// note 82: Tail-recursive; the compiler turns it into a loop.
