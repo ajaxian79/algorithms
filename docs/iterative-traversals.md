@@ -741,3 +741,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 169
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 170
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
