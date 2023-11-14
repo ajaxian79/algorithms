@@ -711,3 +711,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 178
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 179
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
