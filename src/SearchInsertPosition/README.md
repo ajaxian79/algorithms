@@ -958,3 +958,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 225
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 226
+
+Handles single-element input as a base case.
