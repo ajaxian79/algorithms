@@ -998,3 +998,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 235
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 236
+
+Best case is O(1) when the first byte already decides the answer.
