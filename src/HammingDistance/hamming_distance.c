@@ -93,3 +93,4 @@ int hamming_distance(int x, int y) {
 // note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 79: Runs in a single pass over the input.
 // note 80: No allocations on the hot path.
+// note 81: Splay tree: every access splays to the root; amortized O(log n).
