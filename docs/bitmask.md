@@ -667,3 +667,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 151
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 152
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
