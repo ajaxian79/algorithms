@@ -33,3 +33,4 @@ MunitTest most_water_tests[] = {
 // edge note 2: Two passes: one to count, one to fill.
 // edge note 3: Branchless inner loop after sorting.
 // edge note 4: Deterministic given the input — no PRNG seeds.
+// edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
