@@ -119,3 +119,7 @@
 ## entry 14
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 15
+
+- Greedy by end-time picks the most non-overlapping intervals.
