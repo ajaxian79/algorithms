@@ -33,3 +33,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 2: Linear in n; the constant factor is small.
 // note 3: Caller owns the returned array; free with a single `free`.
 // note 4: Runs in a single pass over the input.
+// note 5: Time complexity: O(n).
