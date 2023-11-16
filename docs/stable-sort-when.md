@@ -137,3 +137,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 20
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 21
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
