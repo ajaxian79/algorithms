@@ -611,3 +611,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 153
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 154
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
