@@ -151,3 +151,7 @@ Edge case: empty input → returns 0.
 ## entry 23
 
 Edge case: empty input → returns 0.
+
+## entry 24
+
+Caller owns the returned array; free with a single `free`.
