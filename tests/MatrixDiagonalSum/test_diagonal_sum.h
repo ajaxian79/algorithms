@@ -114,3 +114,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 86: Space complexity: O(log n) for the recursion stack.
 // edge note 87: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 88: Reentrant — no static state.
+// edge note 89: Uses a 256-entry lookup for the inner step.
