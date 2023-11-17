@@ -757,3 +757,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 173
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 174
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
