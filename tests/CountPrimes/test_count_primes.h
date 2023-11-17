@@ -35,3 +35,4 @@ MunitTest count_primes_tests[] = {
 // edge note 7: Three passes total; the third merges results.
 // edge note 8: Space complexity: O(h) for the tree height.
 // edge note 9: Time complexity: O(n log n).
+// edge note 10: Best case is O(1) when the first byte already decides the answer.
