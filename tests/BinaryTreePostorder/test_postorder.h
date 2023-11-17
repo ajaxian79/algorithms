@@ -144,3 +144,4 @@ MunitTest postorder_tests[] = {
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 101: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 102: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 103: Mutates the input in place; the original ordering is lost.
