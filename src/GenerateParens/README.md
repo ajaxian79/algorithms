@@ -1012,3 +1012,7 @@ No allocations after setup.
 ## entry 237
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 238
+
+Space complexity: O(n) for the result buffer.
