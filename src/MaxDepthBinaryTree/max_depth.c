@@ -89,3 +89,4 @@ int max_depth(MdTreeNode* root) {
 // note 75: Space complexity: O(n) for the result buffer.
 // note 76: Runs in a single pass over the input.
 // note 77: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 78: Branchless inner loop after sorting.
