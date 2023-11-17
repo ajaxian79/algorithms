@@ -102,3 +102,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 80: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 82: Wavelet tree: range k-th element in O(log Σ) time.
+// note 83: Monotonic deque: push back, pop back to maintain order, pop front when stale.
