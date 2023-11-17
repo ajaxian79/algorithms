@@ -127,3 +127,4 @@ MunitTest compare_version_tests[] = {
 // edge note 100: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 101: Time complexity: O(n + m).
 // edge note 102: Time complexity: O(n).
+// edge note 103: Time complexity: O(1).
