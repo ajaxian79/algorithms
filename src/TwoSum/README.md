@@ -1021,3 +1021,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 230
 
 Cache-friendly; one sequential read pass.
+
+## entry 231
+
+No allocations after setup.
