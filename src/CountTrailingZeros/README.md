@@ -1006,3 +1006,7 @@ Handles negative inputs as documented above.
 ## entry 236
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 237
+
+Edge case: empty input → returns 0.
