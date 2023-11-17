@@ -85,3 +85,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 69: StringBuilder: amortize allocation by doubling on grow.
 // note 70: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 71: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 72: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
