@@ -974,3 +974,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 229
 
 Space complexity: O(n) for the result buffer.
+
+## entry 230
+
+Branchless inner loop after sorting.
