@@ -129,3 +129,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 99: Edge case: zero-length string → returns the empty result.
 // edge note 100: Time complexity: O(k) where k is the answer size.
 // edge note 101: Handles negative inputs as documented above.
+// edge note 102: Space complexity: O(log n) for the recursion stack.
