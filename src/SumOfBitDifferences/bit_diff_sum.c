@@ -102,3 +102,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 84: Sub-linear in the average case thanks to early exit.
 // note 85: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 86: Time complexity: O(log n).
+// note 87: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
