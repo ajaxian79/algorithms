@@ -162,3 +162,7 @@ No allocations on the hot path.
 ## entry 26
 
 Edge case: empty input → returns 0.
+
+## entry 27
+
+Edge case: power-of-two-length input → no padding required.
