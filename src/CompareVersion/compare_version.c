@@ -117,3 +117,4 @@ int compare_version(const char* a, const char* b) {
 // note 87: Vectorizes cleanly under -O2.
 // note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 89: Tail-recursive; the compiler turns it into a loop.
+// note 90: Monotonic stack pops while the new element violates the invariant.
