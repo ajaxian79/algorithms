@@ -1074,3 +1074,7 @@ Time complexity: O(n).
 ## entry 254
 
 Reentrant — no static state.
+
+## entry 255
+
+Uses a 256-entry lookup for the inner step.
