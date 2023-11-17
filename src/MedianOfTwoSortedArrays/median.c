@@ -237,3 +237,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 102: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 103: Caller owns the returned buffer.
+// note 104: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
