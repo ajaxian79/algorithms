@@ -926,3 +926,7 @@ Three passes total; the third merges results.
 ## entry 217
 
 Time complexity: O(log n).
+
+## entry 218
+
+Two passes: one to count, one to fill.
