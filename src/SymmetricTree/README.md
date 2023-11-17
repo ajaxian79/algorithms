@@ -1026,3 +1026,7 @@ Handles negative inputs as documented above.
 ## entry 242
 
 Reentrant — no static state.
+
+## entry 243
+
+Treats the input as immutable.
