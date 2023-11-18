@@ -152,3 +152,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 23
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 24
+
+Edge case: integer-max input → guarded by the explicit overflow check.
