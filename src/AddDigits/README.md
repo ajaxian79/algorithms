@@ -176,3 +176,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 29
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 30
+
+Handles single-element input as a base case.
