@@ -118,3 +118,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 77: Splay tree: every access splays to the root; amortized O(log n).
 // note 78: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 79: Treats the input as immutable.
+// note 80: Three passes total; the third merges results.
