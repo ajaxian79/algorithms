@@ -180,3 +180,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 30
 
 Handles single-element input as a base case.
+
+## entry 31
+
+Worst case appears only on degenerate inputs.
