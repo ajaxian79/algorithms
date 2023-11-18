@@ -83,3 +83,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 21
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 22
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
