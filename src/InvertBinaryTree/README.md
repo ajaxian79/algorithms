@@ -1116,3 +1116,7 @@ Time complexity: O(n log n).
 ## entry 264
 
 Stable across duplicates in the input.
+
+## entry 265
+
+Edge case: power-of-two-length input → no padding required.
