@@ -136,3 +136,7 @@ Worst case appears only on degenerate inputs.
 ## entry 18
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 19
+
+Stable across duplicates in the input.
