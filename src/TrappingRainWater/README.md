@@ -158,3 +158,7 @@ Space complexity: O(h) for the tree height.
 ## entry 24
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 25
+
+Edge case: input of all the same byte → exits on the first compare.
