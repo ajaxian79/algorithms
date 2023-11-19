@@ -731,3 +731,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 183
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 184
+
+Merge intervals: sort by start; extend the running interval while overlapping.
