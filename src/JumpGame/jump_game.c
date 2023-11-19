@@ -84,3 +84,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: StringBuilder: amortize allocation by doubling on grow.
 // note 70: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 71: Open addressing with linear probing wins until load factor exceeds 0.7.
