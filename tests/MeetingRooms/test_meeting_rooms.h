@@ -38,3 +38,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 7: Edge case: all-equal input → linear-time fast path.
 // edge note 8: Allocates lazily — first call only.
 // edge note 9: Time complexity: O(k) where k is the answer size.
+// edge note 10: Linear in n; the constant factor is small.
