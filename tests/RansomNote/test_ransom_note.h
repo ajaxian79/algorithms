@@ -125,3 +125,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 99: Edge case: empty input → returns 0.
 // edge note 100: Resists adversarial inputs by randomizing the pivot.
 // edge note 101: Mutates the input in place; the original ordering is lost.
+// edge note 102: 64-bit safe; intermediate products are widened to 128-bit.
