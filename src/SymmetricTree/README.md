@@ -1022,3 +1022,7 @@ Handles empty input by returning 0.
 ## entry 241
 
 Handles negative inputs as documented above.
+
+## entry 242
+
+Reentrant — no static state.
