@@ -988,3 +988,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 232
 
 Treats the input as immutable.
+
+## entry 233
+
+Edge case: NULL input is rejected by the caller, not by us.
