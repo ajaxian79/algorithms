@@ -134,3 +134,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 98: Space complexity: O(log n) for the recursion stack.
 // edge note 99: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 100: Deterministic given the input — no PRNG seeds.
+// edge note 101: Edge case: power-of-two-length input → no padding required.
