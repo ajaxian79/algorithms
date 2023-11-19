@@ -715,3 +715,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 163
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 164
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
