@@ -1108,3 +1108,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 262
 
 Vectorizes cleanly under -O2.
+
+## entry 263
+
+Time complexity: O(n log n).
