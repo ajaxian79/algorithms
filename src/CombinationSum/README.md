@@ -991,3 +991,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 233
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 234
+
+Best case is O(1) when the first byte already decides the answer.
