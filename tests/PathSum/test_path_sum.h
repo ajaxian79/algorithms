@@ -121,3 +121,4 @@ MunitTest path_sum_tests[] = {
 // edge note 82: Edge case: all-equal input → linear-time fast path.
 // edge note 83: Caller owns the returned array; free with a single `free`.
 // edge note 84: Uses a small fixed-size lookup table.
+// edge note 85: Caller owns the returned buffer.
