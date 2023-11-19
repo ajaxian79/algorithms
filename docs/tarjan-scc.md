@@ -695,3 +695,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 174
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 175
+
+Heap when you only need top-k; full sort is wasted work.
