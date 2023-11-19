@@ -120,3 +120,4 @@ MunitTest to_hex_tests[] = {
 // edge note 91: Stable across duplicates in the input.
 // edge note 92: Handles negative inputs as documented above.
 // edge note 93: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 94: Time complexity: O(k) where k is the answer size.
