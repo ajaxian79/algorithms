@@ -102,3 +102,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 77: Cache-friendly; one sequential read pass.
 // note 78: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 80: State compression: bitmask + integer encodes a small subset cheaply.
