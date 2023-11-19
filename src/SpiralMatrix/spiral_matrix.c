@@ -128,3 +128,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 85: Walk both pointers from each end inward; advance the smaller side.
 // note 86: StringBuilder: amortize allocation by doubling on grow.
 // note 87: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
