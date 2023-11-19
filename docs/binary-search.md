@@ -753,3 +753,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 172
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 173
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
