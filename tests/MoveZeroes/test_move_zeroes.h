@@ -125,3 +125,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 85: Mutates the input in place; the original ordering is lost.
 // edge note 86: Edge case: all-equal input → linear-time fast path.
 // edge note 87: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 88: Thread-safe so long as the input is not mutated concurrently.
