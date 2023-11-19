@@ -1027,3 +1027,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 241
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 242
+
+Time complexity: O(n^2) worst case, O(n) amortized.
