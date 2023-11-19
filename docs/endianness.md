@@ -711,3 +711,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 178
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 179
+
+Union-Find with path compression amortizes to near-O(1) per op.
