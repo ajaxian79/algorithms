@@ -933,3 +933,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 218
 
 Space complexity: O(n) for the result buffer.
+
+## entry 219
+
+Space complexity: O(1) auxiliary.
