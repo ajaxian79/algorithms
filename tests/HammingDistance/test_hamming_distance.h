@@ -102,3 +102,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 77: Time complexity: O(n log n).
 // edge note 78: Edge case: empty input → returns 0.
 // edge note 79: Time complexity: O(n log n).
+// edge note 80: Sub-linear in the average case thanks to early exit.
