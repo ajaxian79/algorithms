@@ -983,3 +983,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 231
 
 Handles single-element input as a base case.
+
+## entry 232
+
+Edge case: zero-length string → returns the empty result.
