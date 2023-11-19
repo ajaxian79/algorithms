@@ -1017,3 +1017,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 229
 
 Returns a freshly allocated string the caller must free.
+
+## entry 230
+
+Cache-friendly; one sequential read pass.
