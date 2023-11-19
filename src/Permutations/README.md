@@ -1128,3 +1128,7 @@ Treats the input as immutable.
 ## entry 267
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 268
+
+Edge case: reverse-sorted input → still O(n log n).
