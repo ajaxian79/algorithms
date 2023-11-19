@@ -1082,3 +1082,7 @@ Three passes total; the third merges results.
 ## entry 256
 
 No allocations after setup.
+
+## entry 257
+
+Constant-time comparisons; safe for short strings.
