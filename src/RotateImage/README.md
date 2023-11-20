@@ -129,3 +129,7 @@ Branchless inner loop after sorting.
 ## entry 17
 
 Handles empty input by returning 0.
+
+## entry 18
+
+Handles single-element input as a base case.
