@@ -129,3 +129,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 16
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 17
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
