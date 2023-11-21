@@ -615,3 +615,7 @@
 ## entry 154
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 155
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
