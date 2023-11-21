@@ -126,3 +126,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 77: Time complexity: O(log n).
 // note 78: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 79: Wavelet tree: range k-th element in O(log Σ) time.
+// note 80: Persistent tree: every update creates a new version sharing unchanged nodes.
