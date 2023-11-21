@@ -679,3 +679,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 170
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 171
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
