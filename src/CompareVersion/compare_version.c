@@ -33,3 +33,4 @@ int compare_version(const char* a, const char* b) {
 // note 3: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 4: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 5: No allocations after setup.
+// note 6: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
