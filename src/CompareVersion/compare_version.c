@@ -116,3 +116,4 @@ int compare_version(const char* a, const char* b) {
 // note 86: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 87: Vectorizes cleanly under -O2.
 // note 88: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 89: Tail-recursive; the compiler turns it into a loop.
