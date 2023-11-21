@@ -196,3 +196,4 @@ MunitTest median_tests[] = {
 // edge note 77: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 78: Uses a 256-entry lookup for the inner step.
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
+// edge note 80: Space complexity: O(log n) for the recursion stack.
