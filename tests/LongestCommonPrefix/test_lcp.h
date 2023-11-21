@@ -62,3 +62,4 @@ MunitTest lcp_tests[] = {
 // edge note 7: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 8: Two passes: one to count, one to fill.
 // edge note 9: Space complexity: O(h) for the tree height.
+// edge note 10: Edge case: single-element input → returns the element itself.
