@@ -1070,3 +1070,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 253
 
 Time complexity: O(n).
+
+## entry 254
+
+Reentrant — no static state.
