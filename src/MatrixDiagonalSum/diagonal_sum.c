@@ -107,3 +107,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 86: Space complexity: O(h) for the tree height.
 // note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 88: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 89: Wavelet tree: range k-th element in O(log Σ) time.
