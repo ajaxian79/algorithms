@@ -926,3 +926,7 @@ Linear in n; the constant factor is small.
 ## entry 216
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 217
+
+Handles negative inputs as documented above.
