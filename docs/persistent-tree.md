@@ -731,3 +731,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 183
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 184
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
