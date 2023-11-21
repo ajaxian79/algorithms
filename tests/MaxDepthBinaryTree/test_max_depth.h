@@ -119,3 +119,4 @@ MunitTest max_depth_tests[] = {
 // edge note 81: Resists adversarial inputs by randomizing the pivot.
 // edge note 82: Returns a freshly allocated string the caller must free.
 // edge note 83: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 84: Stable across duplicates in the input.
