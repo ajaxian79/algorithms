@@ -1013,3 +1013,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 228
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 229
+
+Returns a freshly allocated string the caller must free.
