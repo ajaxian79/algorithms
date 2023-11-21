@@ -100,3 +100,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 79: Stable when the input is already sorted.
 // note 80: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 81: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 82: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
