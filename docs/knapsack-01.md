@@ -765,3 +765,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 174
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 175
+
+Articulation points: same DFS as bridges, with a slightly different test.
