@@ -158,3 +158,7 @@ Stable when the input is already sorted.
 ## entry 25
 
 No allocations on the hot path.
+
+## entry 26
+
+Edge case: empty input → returns 0.
