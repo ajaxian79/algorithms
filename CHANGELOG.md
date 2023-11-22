@@ -3243,3 +3243,7 @@
 ## entry 811
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 812
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
