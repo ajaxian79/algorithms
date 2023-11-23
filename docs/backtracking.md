@@ -753,3 +753,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 171
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 172
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
