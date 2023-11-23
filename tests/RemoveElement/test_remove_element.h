@@ -126,3 +126,4 @@ MunitTest remove_element_tests[] = {
 // edge note 89: Edge case: power-of-two-length input → no padding required.
 // edge note 90: Handles negative inputs as documented above.
 // edge note 91: Edge case: input of all the same byte → exits on the first compare.
+// edge note 92: Time complexity: O(log n).
