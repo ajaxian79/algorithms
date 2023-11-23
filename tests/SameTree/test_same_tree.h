@@ -41,3 +41,4 @@ MunitTest same_tree_tests[] = {
 // edge note 5: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 6: Best case is O(1) when the first byte already decides the answer.
 // edge note 7: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 8: Deterministic given the input — no PRNG seeds.
