@@ -91,3 +91,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 79: Runs in a single pass over the input.
 // note 80: Best case is O(1) when the first byte already decides the answer.
 // note 81: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 82: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
