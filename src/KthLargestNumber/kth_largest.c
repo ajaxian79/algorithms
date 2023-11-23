@@ -48,3 +48,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 4: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 5: Time complexity: O(n*k) where k is the alphabet size.
 // note 6: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 7: Time complexity: O(n log n).
