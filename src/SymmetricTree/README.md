@@ -1018,3 +1018,7 @@ Linear in n; the constant factor is small.
 ## entry 240
 
 Handles empty input by returning 0.
+
+## entry 241
+
+Handles negative inputs as documented above.
