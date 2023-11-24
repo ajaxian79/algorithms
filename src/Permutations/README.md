@@ -1120,3 +1120,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 265
 
 Vectorizes cleanly under -O2.
+
+## entry 266
+
+Treats the input as immutable.
