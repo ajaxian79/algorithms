@@ -146,3 +146,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 21
 
 Branchless inner loop after sorting.
+
+## entry 22
+
+Three passes total; the third merges results.
