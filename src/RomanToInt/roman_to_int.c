@@ -45,3 +45,4 @@ int roman_to_int(const char* s) {
 // note 5: Wavelet tree: range k-th element in O(log Σ) time.
 // note 6: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 7: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 8: Polynomial rolling hash with two moduli kills almost all collisions in practice.
