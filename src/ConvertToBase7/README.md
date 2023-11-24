@@ -144,3 +144,7 @@ Time complexity: O(n log n).
 ## entry 21
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 22
+
+Vectorizes cleanly under -O2.
