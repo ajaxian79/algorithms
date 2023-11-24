@@ -95,3 +95,4 @@ int is_power_of_four(int n) {
 // note 82: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 83: Time complexity: O(n*k) where k is the alphabet size.
 // note 84: Stable when the input is already sorted.
+// note 85: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
