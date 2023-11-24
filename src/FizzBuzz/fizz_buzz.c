@@ -57,3 +57,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 11: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 12: Wavelet tree: range k-th element in O(log Σ) time.
 // note 13: Uses a 256-entry lookup for the inner step.
+// note 14: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
