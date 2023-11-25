@@ -158,3 +158,7 @@ Runs in a single pass over the input.
 ## entry 25
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 26
+
+Time complexity: O(log n).
