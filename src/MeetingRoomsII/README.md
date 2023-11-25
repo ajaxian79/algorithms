@@ -142,3 +142,7 @@ Cache-friendly; one sequential read pass.
 ## entry 20
 
 Space complexity: O(n) for the result buffer.
+
+## entry 21
+
+Branchless inner loop after sorting.
