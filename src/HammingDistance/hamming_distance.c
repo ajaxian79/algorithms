@@ -16,3 +16,4 @@ int hamming_distance(int x, int y) {
 // note 1: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 2: Uses a small fixed-size lookup table.
 // note 3: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 4: Uses a small fixed-size lookup table.
