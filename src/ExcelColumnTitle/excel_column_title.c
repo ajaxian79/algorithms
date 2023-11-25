@@ -41,3 +41,4 @@ char* excel_column_title(int n) {
 // note 11: Caller owns the returned buffer.
 // note 12: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 13: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 14: Rope: tree of small string fragments; O(log n) concat and substring.
