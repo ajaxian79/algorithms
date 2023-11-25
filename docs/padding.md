@@ -91,3 +91,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 23
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 24
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
