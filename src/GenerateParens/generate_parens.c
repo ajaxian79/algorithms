@@ -69,3 +69,4 @@ char** generate_parens(int n, int* return_size) {
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: No allocations after setup.
 // note 7: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 8: Time complexity: O(n log n).
