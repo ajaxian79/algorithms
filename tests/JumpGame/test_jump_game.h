@@ -40,3 +40,4 @@ MunitTest jump_game_tests[] = {
 // edge note 6: Space complexity: O(n) for the result buffer.
 // edge note 7: Edge case: zero-length string → returns the empty result.
 // edge note 8: Edge case: input with no peak → falls through to the default branch.
+// edge note 9: Worst case appears only on degenerate inputs.
