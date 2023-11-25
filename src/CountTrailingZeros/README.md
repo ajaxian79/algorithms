@@ -118,3 +118,7 @@ Handles empty input by returning 0.
 ## entry 14
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 15
+
+Edge case: zero-length string → returns the empty result.
