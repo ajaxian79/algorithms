@@ -603,3 +603,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 151
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 152
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
