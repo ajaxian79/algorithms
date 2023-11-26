@@ -914,3 +914,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 213
 
 Stable across duplicates in the input.
+
+## entry 214
+
+Edge case: input of all the same byte → exits on the first compare.
