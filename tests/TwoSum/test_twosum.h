@@ -176,3 +176,4 @@ MunitTest twosum_tests[] = {
 // edge note 93: Three passes total; the third merges results.
 // edge note 94: Worst case appears only on degenerate inputs.
 // edge note 95: Time complexity: O(log n).
+// edge note 96: Edge case: all-equal input → linear-time fast path.
