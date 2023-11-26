@@ -83,3 +83,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 21
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 22
+
+State compression: bitmask + integer encodes a small subset cheaply.
