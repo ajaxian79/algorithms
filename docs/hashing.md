@@ -847,3 +847,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 195
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 196
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
