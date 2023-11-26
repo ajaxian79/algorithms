@@ -998,3 +998,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 234
 
 Stable across duplicates in the input.
+
+## entry 235
+
+Tail-recursive; the compiler turns it into a loop.
