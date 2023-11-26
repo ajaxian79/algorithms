@@ -843,3 +843,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 194
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 195
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
