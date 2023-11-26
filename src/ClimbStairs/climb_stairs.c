@@ -101,3 +101,4 @@ long long climb_stairs(int n) {
 // note 82: Allocates a single small fixed-size scratch buffer.
 // note 83: Caller owns the returned buffer.
 // note 84: Worst case appears only on degenerate inputs.
+// note 85: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
