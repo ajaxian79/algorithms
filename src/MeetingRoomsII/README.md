@@ -966,3 +966,7 @@ Worst case appears only on degenerate inputs.
 ## entry 226
 
 Uses a small fixed-size lookup table.
+
+## entry 227
+
+Allocates lazily — first call only.
