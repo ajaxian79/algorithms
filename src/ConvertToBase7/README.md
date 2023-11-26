@@ -1068,3 +1068,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 252
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 253
+
+Space complexity: O(n) for the result buffer.
