@@ -34,3 +34,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 7: Uses a 256-entry lookup for the inner step.
 // edge note 8: Allocates lazily — first call only.
 // edge note 9: Runs in a single pass over the input.
+// edge note 10: Edge case: reverse-sorted input → still O(n log n).
