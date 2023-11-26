@@ -767,3 +767,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 174
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 175
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
