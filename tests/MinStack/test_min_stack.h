@@ -115,3 +115,4 @@ MunitTest min_stack_tests[] = {
 // edge note 78: Treats the input as immutable.
 // edge note 79: Reentrant — no static state.
 // edge note 80: Linear in n; the constant factor is small.
+// edge note 81: Stable when the input is already sorted.
