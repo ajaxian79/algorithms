@@ -1012,3 +1012,7 @@ Runs in a single pass over the input.
 ## entry 237
 
 Uses a small fixed-size lookup table.
+
+## entry 238
+
+64-bit safe; intermediate products are widened to 128-bit.
