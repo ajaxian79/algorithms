@@ -603,3 +603,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 151
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 152
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
