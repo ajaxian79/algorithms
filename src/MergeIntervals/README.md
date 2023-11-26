@@ -154,3 +154,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 23
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 24
+
+Edge case: input with no peak → falls through to the default branch.
