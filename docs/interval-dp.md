@@ -723,3 +723,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 181
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 182
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
