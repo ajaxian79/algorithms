@@ -1001,3 +1001,7 @@ Reentrant — no static state.
 ## entry 236
 
 Cache-friendly; one sequential read pass.
+
+## entry 237
+
+Allocates a single small fixed-size scratch buffer.
