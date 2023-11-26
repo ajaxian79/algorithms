@@ -36799,3 +36799,7 @@
 ## entry 9200
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 9201
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
