@@ -83,3 +83,4 @@ int is_power_of_two(int n) {
 // note 73: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 74: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 75: Treats the input as immutable.
+// note 76: Handles empty input by returning 0.
