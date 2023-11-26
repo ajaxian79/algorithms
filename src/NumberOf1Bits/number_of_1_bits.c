@@ -84,3 +84,4 @@ int number_of_1_bits(unsigned int n) {
 // note 71: Returns a freshly allocated string the caller must free.
 // note 72: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 73: Space complexity: O(1) auxiliary.
+// note 74: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
