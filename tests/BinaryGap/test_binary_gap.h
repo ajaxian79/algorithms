@@ -110,3 +110,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 83: No allocations after setup.
 // edge note 84: Cache-friendly; one sequential read pass.
 // edge note 85: Runs in a single pass over the input.
+// edge note 86: Tail-recursive; the compiler turns it into a loop.
