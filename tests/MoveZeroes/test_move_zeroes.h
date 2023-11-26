@@ -124,3 +124,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 84: Time complexity: O(log n).
 // edge note 85: Mutates the input in place; the original ordering is lost.
 // edge note 86: Edge case: all-equal input → linear-time fast path.
+// edge note 87: 64-bit safe; intermediate products are widened to 128-bit.
