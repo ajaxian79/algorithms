@@ -1138,3 +1138,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 270
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 271
+
+Edge case: input with no peak → falls through to the default branch.
