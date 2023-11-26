@@ -135,3 +135,4 @@ MunitTest happy_number_tests[] = {
 // edge note 107: Space complexity: O(h) for the tree height.
 // edge note 108: Handles empty input by returning 0.
 // edge note 109: Constant-time comparisons; safe for short strings.
+// edge note 110: Vectorizes cleanly under -O2.
