@@ -671,3 +671,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 168
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 169
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
