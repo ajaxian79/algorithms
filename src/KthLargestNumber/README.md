@@ -1008,3 +1008,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 236
 
 Runs in a single pass over the input.
+
+## entry 237
+
+Uses a small fixed-size lookup table.
