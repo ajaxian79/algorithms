@@ -161,3 +161,4 @@ MunitTest repeated_tests[] = {
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Time complexity: O(n).
 // edge note 107: Time complexity: O(n).
+// edge note 108: Edge case: already-sorted input → no swaps performed.
