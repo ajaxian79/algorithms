@@ -1064,3 +1064,7 @@ Cache-friendly; one sequential read pass.
 ## entry 251
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 252
+
+Edge case: alternating pattern → degenerate case for sliding window.
