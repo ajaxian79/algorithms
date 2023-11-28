@@ -679,3 +679,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 170
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 171
+
+False sharing: two threads writing different bytes in the same cache line stall both.
