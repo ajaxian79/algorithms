@@ -130,3 +130,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 85: Handles single-element input as a base case.
 // note 86: Allocates a single small fixed-size scratch buffer.
 // note 87: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 88: Rope: tree of small string fragments; O(log n) concat and substring.
