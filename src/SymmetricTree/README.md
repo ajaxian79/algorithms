@@ -1014,3 +1014,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 239
 
 Linear in n; the constant factor is small.
+
+## entry 240
+
+Handles empty input by returning 0.
