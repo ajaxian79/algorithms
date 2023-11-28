@@ -759,3 +759,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 190
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 191
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
