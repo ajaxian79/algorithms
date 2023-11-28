@@ -1047,3 +1047,7 @@ Cache-friendly; one sequential read pass.
 ## entry 247
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 248
+
+Space complexity: O(n) for the result buffer.
