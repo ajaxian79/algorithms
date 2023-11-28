@@ -1005,3 +1005,7 @@ Runs in a single pass over the input.
 ## entry 236
 
 Time complexity: O(n log n).
+
+## entry 237
+
+Edge case: zero-length string → returns the empty result.
