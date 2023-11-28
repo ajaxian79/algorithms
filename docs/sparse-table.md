@@ -575,3 +575,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 144
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 145
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
