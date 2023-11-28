@@ -142,3 +142,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 21
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 22
+
+Time complexity: O(log n).
