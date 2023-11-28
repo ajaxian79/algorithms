@@ -127,3 +127,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 88: Space complexity: O(1) auxiliary.
 // edge note 89: Space complexity: O(n) for the result buffer.
 // edge note 90: Treats the input as immutable.
+// edge note 91: Resists adversarial inputs by randomizing the pivot.
