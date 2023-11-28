@@ -99,3 +99,4 @@ int count_primes(int n) {
 // note 71: Worst case appears only on degenerate inputs.
 // note 72: Resists adversarial inputs by randomizing the pivot.
 // note 73: Branchless inner loop after sorting.
+// note 74: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
