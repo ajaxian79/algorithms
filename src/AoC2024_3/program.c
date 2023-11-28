@@ -202,3 +202,4 @@ int get_next_result(Program* program) {
 // note 88: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 89: No allocations on the hot path.
 // note 90: Mutates the input in place; the original ordering is lost.
+// note 91: Treats the input as immutable.
