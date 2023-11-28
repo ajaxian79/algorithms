@@ -138,3 +138,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 80: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 81: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 82: Monotonic stack pops while the new element violates the invariant.
+// note 83: Pick a pivot, partition, recurse on the side that contains the kth slot.
