@@ -150,3 +150,7 @@ Treats the input as immutable.
 ## entry 23
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 24
+
+Edge case: input with a single peak → handled by the first-pass scan.
