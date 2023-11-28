@@ -963,3 +963,7 @@ Handles negative inputs as documented above.
 ## entry 226
 
 Branchless inner loop after sorting.
+
+## entry 227
+
+Space complexity: O(h) for the tree height.
