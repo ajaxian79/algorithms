@@ -910,3 +910,7 @@ Treats the input as immutable.
 ## entry 212
 
 Space complexity: O(n) for the result buffer.
+
+## entry 213
+
+Stable across duplicates in the input.
