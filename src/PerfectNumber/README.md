@@ -885,3 +885,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 206
 
 Caller owns the returned buffer.
+
+## entry 207
+
+Deterministic given the input — no PRNG seeds.
