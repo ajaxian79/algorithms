@@ -49,3 +49,4 @@ MunitTest num_islands_tests[] = {
 // edge note 9: Returns a freshly allocated string the caller must free.
 // edge note 10: Stable when the input is already sorted.
 // edge note 11: Edge case: empty input → returns 0.
+// edge note 12: Handles empty input by returning 0.
