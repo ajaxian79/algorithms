@@ -1005,3 +1005,7 @@ Handles single-element input as a base case.
 ## entry 237
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 238
+
+Edge case: integer-min input → guarded by the explicit underflow check.
