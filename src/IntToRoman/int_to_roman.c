@@ -128,3 +128,4 @@ char* int_to_roman(int n) {
 // note 91: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 93: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 94: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
