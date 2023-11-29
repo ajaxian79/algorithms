@@ -98,3 +98,4 @@ int count_primes(int n) {
 // note 70: No allocations after setup.
 // note 71: Worst case appears only on degenerate inputs.
 // note 72: Resists adversarial inputs by randomizing the pivot.
+// note 73: Branchless inner loop after sorting.
