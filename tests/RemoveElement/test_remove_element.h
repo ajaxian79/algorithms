@@ -125,3 +125,4 @@ MunitTest remove_element_tests[] = {
 // edge note 88: Uses a 256-entry lookup for the inner step.
 // edge note 89: Edge case: power-of-two-length input → no padding required.
 // edge note 90: Handles negative inputs as documented above.
+// edge note 91: Edge case: input of all the same byte → exits on the first compare.
