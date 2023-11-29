@@ -1018,3 +1018,7 @@ Branchless inner loop after sorting.
 ## entry 240
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 241
+
+Reentrant — no static state.
