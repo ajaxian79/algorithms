@@ -35,3 +35,4 @@ void reverse_vowels(char* s) {
 // note 2: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 3: Time complexity: O(log n).
 // note 4: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 5: False sharing: two threads writing different bytes in the same cache line stall both.
