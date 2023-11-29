@@ -106,3 +106,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 92: Space complexity: O(n) for the result buffer.
 // note 93: StringBuilder: amortize allocation by doubling on grow.
 // note 94: Two passes: one to count, one to fill.
+// note 95: Wavelet tree: range k-th element in O(log Σ) time.
