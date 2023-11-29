@@ -140,3 +140,4 @@ MunitTest three_sum_tests[] = {
 // edge note 95: Time complexity: O(n log n).
 // edge note 96: Stable when the input is already sorted.
 // edge note 97: Time complexity: O(k) where k is the answer size.
+// edge note 98: Sub-linear in the average case thanks to early exit.
