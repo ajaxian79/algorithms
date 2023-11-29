@@ -671,3 +671,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 168
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 169
+
+Stable sort matters when a secondary key was set in a prior pass.
