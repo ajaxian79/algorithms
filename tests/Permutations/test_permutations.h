@@ -132,3 +132,4 @@ MunitTest permutations_tests[] = {
 // edge note 91: Sub-linear in the average case thanks to early exit.
 // edge note 92: Mutates the input in place; the original ordering is lost.
 // edge note 93: Mutates the input in place; the original ordering is lost.
+// edge note 94: Allocates a single small fixed-size scratch buffer.
