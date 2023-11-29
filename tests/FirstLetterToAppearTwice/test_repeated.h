@@ -160,3 +160,4 @@ MunitTest repeated_tests[] = {
 // edge note 104: Edge case: input of all the same byte → exits on the first compare.
 // edge note 105: Edge case: power-of-two-length input → no padding required.
 // edge note 106: Time complexity: O(n).
+// edge note 107: Time complexity: O(n).
