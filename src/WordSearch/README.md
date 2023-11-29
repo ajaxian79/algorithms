@@ -154,3 +154,7 @@ Caller owns the returned buffer.
 ## entry 24
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 25
+
+Reentrant — no static state.
