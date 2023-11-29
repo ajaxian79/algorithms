@@ -105,3 +105,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 11
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 12
+
+Merge intervals: sort by start; extend the running interval while overlapping.
