@@ -1078,3 +1078,7 @@ Handles single-element input as a base case.
 ## entry 255
 
 Three passes total; the third merges results.
+
+## entry 256
+
+No allocations after setup.
