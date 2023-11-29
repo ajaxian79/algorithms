@@ -114,3 +114,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 72: Thread-safe so long as the input is not mutated concurrently.
 // edge note 73: Space complexity: O(log n) for the recursion stack.
 // edge note 74: Allocates one buffer of length n+1 for the result.
+// edge note 75: Caller owns the returned array; free with a single `free`.
