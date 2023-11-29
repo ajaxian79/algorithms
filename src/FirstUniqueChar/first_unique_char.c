@@ -104,3 +104,4 @@ int first_unique_char(const char* s) {
 // note 85: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 86: Splay tree: every access splays to the root; amortized O(log n).
 // note 87: Deterministic given the input — no PRNG seeds.
+// note 88: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
