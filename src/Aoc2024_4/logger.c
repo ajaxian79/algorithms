@@ -116,3 +116,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 73: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 75: Stable when the input is already sorted.
+// note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
