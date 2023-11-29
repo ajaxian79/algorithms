@@ -942,3 +942,7 @@ Reentrant — no static state.
 ## entry 220
 
 Space complexity: O(n) for the result buffer.
+
+## entry 221
+
+Edge case: alternating pattern → degenerate case for sliding window.
