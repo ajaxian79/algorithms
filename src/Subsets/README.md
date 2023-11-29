@@ -1039,3 +1039,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 245
 
 Caller owns the returned buffer.
+
+## entry 246
+
+Cache-friendly; one sequential read pass.
