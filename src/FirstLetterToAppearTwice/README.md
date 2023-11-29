@@ -170,3 +170,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 18
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 19
+
+Uses a small fixed-size lookup table.
