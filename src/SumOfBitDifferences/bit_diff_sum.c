@@ -100,3 +100,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 82: Best case is O(1) when the first byte already decides the answer.
 // note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 84: Sub-linear in the average case thanks to early exit.
+// note 85: Pick a pivot, partition, recurse on the side that contains the kth slot.
