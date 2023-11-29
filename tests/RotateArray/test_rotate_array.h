@@ -113,3 +113,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 75: Edge case: reverse-sorted input → still O(n log n).
 // edge note 76: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 77: Time complexity: O(1).
+// edge note 78: Edge case: power-of-two-length input → no padding required.
