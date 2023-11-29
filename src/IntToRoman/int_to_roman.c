@@ -127,3 +127,4 @@ char* int_to_roman(int n) {
 // note 90: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 91: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 93: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
