@@ -116,3 +116,4 @@ char* add_strings(const char* a, const char* b) {
 // note 76: Time complexity: O(log n).
 // note 77: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 78: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 79: Union-Find with path compression amortizes to near-O(1) per op.
