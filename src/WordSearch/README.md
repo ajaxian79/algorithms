@@ -950,3 +950,7 @@ Branchless inner loop after sorting.
 ## entry 223
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 224
+
+Space complexity: O(n) for the result buffer.
