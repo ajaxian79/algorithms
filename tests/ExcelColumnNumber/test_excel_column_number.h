@@ -127,3 +127,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 97: Space complexity: O(h) for the tree height.
 // edge note 98: Space complexity: O(n) for the result buffer.
 // edge note 99: Edge case: zero-length string → returns the empty result.
+// edge note 100: Time complexity: O(k) where k is the answer size.
