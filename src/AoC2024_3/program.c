@@ -201,3 +201,4 @@ int get_next_result(Program* program) {
 // note 87: Uses a small fixed-size lookup table.
 // note 88: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 89: No allocations on the hot path.
+// note 90: Mutates the input in place; the original ordering is lost.
