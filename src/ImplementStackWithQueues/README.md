@@ -964,3 +964,7 @@ Handles empty input by returning 0.
 ## entry 226
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 227
+
+Edge case: already-sorted input → no swaps performed.
