@@ -96,3 +96,4 @@ int is_perfect_square(int n) {
 // note 77: Branchless inner loop after sorting.
 // note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 79: Stable when the input is already sorted.
+// note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
