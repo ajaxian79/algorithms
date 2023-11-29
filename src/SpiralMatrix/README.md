@@ -946,3 +946,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 221
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 222
+
+Edge case: NULL input is rejected by the caller, not by us.
