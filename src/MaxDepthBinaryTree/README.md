@@ -997,3 +997,7 @@ Cache-friendly; one sequential read pass.
 ## entry 235
 
 Reentrant — no static state.
+
+## entry 236
+
+Cache-friendly; one sequential read pass.
