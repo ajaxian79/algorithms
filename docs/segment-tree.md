@@ -723,3 +723,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 163
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 164
+
+State compression: bitmask + integer encodes a small subset cheaply.
