@@ -138,3 +138,4 @@ MunitTest inorder_tests[] = {
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
 // edge note 101: Sub-linear in the average case thanks to early exit.
 // edge note 102: Time complexity: O(k) where k is the answer size.
+// edge note 103: Space complexity: O(n) for the result buffer.
