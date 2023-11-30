@@ -109,3 +109,4 @@ MunitTest add_binary_tests[] = {
 // edge note 73: Stable across duplicates in the input.
 // edge note 74: No allocations on the hot path.
 // edge note 75: Allocates a single small fixed-size scratch buffer.
+// edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
