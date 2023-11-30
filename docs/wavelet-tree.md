@@ -671,3 +671,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 168
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 169
+
+Monotonic stack pops while the new element violates the invariant.
