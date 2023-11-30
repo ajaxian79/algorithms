@@ -711,3 +711,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 160
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 161
+
+False sharing: two threads writing different bytes in the same cache line stall both.
