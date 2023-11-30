@@ -1033,3 +1033,7 @@ Edge case: empty input → returns 0.
 ## entry 243
 
 Time complexity: O(log n).
+
+## entry 244
+
+Caller owns the returned array; free with a single `free`.
