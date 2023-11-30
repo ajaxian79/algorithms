@@ -1008,3 +1008,7 @@ Branchless inner loop after sorting.
 ## entry 236
 
 No allocations after setup.
+
+## entry 237
+
+Edge case: power-of-two-length input → no padding required.
