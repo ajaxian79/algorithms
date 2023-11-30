@@ -761,3 +761,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 173
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 174
+
+Euler tour flattens a tree into an array for range-query LCA.
