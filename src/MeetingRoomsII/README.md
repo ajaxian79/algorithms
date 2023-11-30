@@ -962,3 +962,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 225
 
 Worst case appears only on degenerate inputs.
+
+## entry 226
+
+Uses a small fixed-size lookup table.
