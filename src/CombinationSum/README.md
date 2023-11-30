@@ -979,3 +979,7 @@ Time complexity: O(1).
 ## entry 230
 
 Cache-friendly; one sequential read pass.
+
+## entry 231
+
+Best case is O(1) when the first byte already decides the answer.
