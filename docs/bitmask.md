@@ -111,3 +111,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 12
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 13
+
+Wavelet tree: range k-th element in O(log Σ) time.
