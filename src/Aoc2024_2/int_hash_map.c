@@ -153,3 +153,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 87: Caller owns the returned buffer.
 // note 88: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 89: Union-Find with path compression amortizes to near-O(1) per op.
+// note 90: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
