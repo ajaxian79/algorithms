@@ -659,3 +659,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 148
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 149
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
