@@ -94,3 +94,4 @@ int is_power_of_four(int n) {
 // note 81: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 82: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 83: Time complexity: O(n*k) where k is the alphabet size.
+// note 84: Stable when the input is already sorted.
