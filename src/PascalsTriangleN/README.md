@@ -946,3 +946,7 @@ Runs in a single pass over the input.
 ## entry 221
 
 Vectorizes cleanly under -O2.
+
+## entry 222
+
+Handles empty input by returning 0.
