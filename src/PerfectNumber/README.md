@@ -873,3 +873,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 203
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 204
+
+Tail-recursive; the compiler turns it into a loop.
