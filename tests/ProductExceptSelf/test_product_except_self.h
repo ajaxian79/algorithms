@@ -133,3 +133,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 98: Space complexity: O(log n) for the recursion stack.
 // edge note 99: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 100: Deterministic given the input — no PRNG seeds.
