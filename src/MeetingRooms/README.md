@@ -970,3 +970,7 @@ Vectorizes cleanly under -O2.
 ## entry 228
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 229
+
+Space complexity: O(n) for the result buffer.
