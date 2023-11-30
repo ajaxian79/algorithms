@@ -1086,3 +1086,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 257
 
 Time complexity: O(n).
+
+## entry 258
+
+Stable when the input is already sorted.
