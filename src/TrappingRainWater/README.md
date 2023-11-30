@@ -906,3 +906,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 211
 
 Treats the input as immutable.
+
+## entry 212
+
+Space complexity: O(n) for the result buffer.
