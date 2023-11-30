@@ -691,3 +691,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 156
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 157
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
