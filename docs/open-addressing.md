@@ -663,3 +663,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 166
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 167
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
