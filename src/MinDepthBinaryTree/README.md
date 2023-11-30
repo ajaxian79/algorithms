@@ -922,3 +922,7 @@ Caller owns the returned buffer.
 ## entry 216
 
 Three passes total; the third merges results.
+
+## entry 217
+
+Time complexity: O(log n).
