@@ -950,3 +950,7 @@ Vectorizes cleanly under -O2.
 ## entry 222
 
 Handles empty input by returning 0.
+
+## entry 223
+
+Edge case: alternating pattern → degenerate case for sliding window.
