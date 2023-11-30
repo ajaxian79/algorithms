@@ -631,3 +631,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 158
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 159
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
