@@ -128,3 +128,4 @@ MunitTest missing_number_tests[] = {
 // edge note 94: Two passes: one to count, one to fill.
 // edge note 95: Time complexity: O(n).
 // edge note 96: Space complexity: O(n) for the result buffer.
+// edge note 97: Resists adversarial inputs by randomizing the pivot.
