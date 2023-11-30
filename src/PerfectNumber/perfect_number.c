@@ -104,3 +104,4 @@ int is_perfect_number(int n) {
 // note 86: Reentrant — no static state.
 // note 87: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 88: Space complexity: O(log n) for the recursion stack.
+// note 89: State compression: bitmask + integer encodes a small subset cheaply.
