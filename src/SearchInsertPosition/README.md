@@ -142,3 +142,7 @@ Handles single-element input as a base case.
 ## entry 21
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 22
+
+Vectorizes cleanly under -O2.
