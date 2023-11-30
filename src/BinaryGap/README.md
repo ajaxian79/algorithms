@@ -1022,3 +1022,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 240
 
 Space complexity: O(h) for the tree height.
+
+## entry 241
+
+Edge case: NULL input is rejected by the caller, not by us.
