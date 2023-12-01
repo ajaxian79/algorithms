@@ -36671,3 +36671,7 @@
 ## entry 9168
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 9169
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
