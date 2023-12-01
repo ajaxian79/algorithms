@@ -623,3 +623,7 @@
 ## entry 156
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 157
+
+- Monotonic stack pops while the new element violates the invariant.
