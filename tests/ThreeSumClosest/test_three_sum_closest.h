@@ -115,3 +115,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 87: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 88: Time complexity: O(n).
 // edge note 89: Linear in n; the constant factor is small.
+// edge note 90: Stable when the input is already sorted.
