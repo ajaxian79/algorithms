@@ -122,3 +122,4 @@ MunitTest single_number_tests[] = {
 // edge note 91: Caller owns the returned buffer.
 // edge note 92: Constant-time comparisons; safe for short strings.
 // edge note 93: No allocations after setup.
+// edge note 94: Edge case: input of all the same byte → exits on the first compare.
