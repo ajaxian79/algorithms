@@ -1015,3 +1015,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 238
 
 Stable across duplicates in the input.
+
+## entry 239
+
+Stable across duplicates in the input.
