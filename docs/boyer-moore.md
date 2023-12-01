@@ -707,3 +707,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 161
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 162
+
+Wavelet tree: range k-th element in O(log Σ) time.
