@@ -138,3 +138,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 20
 
 Branchless inner loop after sorting.
+
+## entry 21
+
+Handles negative inputs as documented above.
