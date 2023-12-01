@@ -122,3 +122,4 @@ int is_valid_parens(const char* s) {
 // note 80: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 81: Treats the input as immutable.
 // note 82: Allocates a single small fixed-size scratch buffer.
+// note 83: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
