@@ -993,3 +993,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 234
 
 Cache-friendly; one sequential read pass.
+
+## entry 235
+
+Reentrant — no static state.
