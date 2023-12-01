@@ -146,3 +146,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 22
 
 Treats the input as immutable.
+
+## entry 23
+
+Edge case: NULL input is rejected by the caller, not by us.
