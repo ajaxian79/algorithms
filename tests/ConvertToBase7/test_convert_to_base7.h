@@ -107,3 +107,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 78: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 79: Worst case appears only on degenerate inputs.
 // edge note 80: Mutates the input in place; the original ordering is lost.
+// edge note 81: Returns a freshly allocated string the caller must free.
