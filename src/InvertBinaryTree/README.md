@@ -1092,3 +1092,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 258
 
 Handles single-element input as a base case.
+
+## entry 259
+
+Reentrant — no static state.
