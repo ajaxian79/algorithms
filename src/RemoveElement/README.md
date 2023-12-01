@@ -997,3 +997,7 @@ Vectorizes cleanly under -O2.
 ## entry 235
 
 Returns a freshly allocated string the caller must free.
+
+## entry 236
+
+Handles single-element input as a base case.
