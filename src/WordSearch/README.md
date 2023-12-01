@@ -146,3 +146,7 @@ Stable when the input is already sorted.
 ## entry 22
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 23
+
+Caller owns the returned buffer.
