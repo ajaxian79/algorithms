@@ -1116,3 +1116,7 @@ No allocations after setup.
 ## entry 264
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 265
+
+Vectorizes cleanly under -O2.
