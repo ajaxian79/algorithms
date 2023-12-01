@@ -141,3 +141,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 82: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 83: Edge case: single-element input → returns the element itself.
 // edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 85: Mutates the input in place; the original ordering is lost.
