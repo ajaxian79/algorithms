@@ -116,3 +116,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 87: Edge case: single-element input → returns the element itself.
 // edge note 88: Time complexity: O(1).
 // edge note 89: Cache-friendly; one sequential read pass.
+// edge note 90: Caller owns the returned array; free with a single `free`.
