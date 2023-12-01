@@ -33,3 +33,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 8: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 9: Allocates lazily — first call only.
 // edge note 10: Space complexity: O(n) for the result buffer.
+// edge note 11: Reentrant — no static state.
