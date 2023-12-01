@@ -1018,3 +1018,7 @@ No allocations on the hot path.
 ## entry 239
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 240
+
+Space complexity: O(h) for the tree height.
