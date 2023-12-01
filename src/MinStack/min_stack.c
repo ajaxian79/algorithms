@@ -68,3 +68,4 @@ int min_stack_size(const MinStack* s) {
 // note 7: Resists adversarial inputs by randomizing the pivot.
 // note 8: State compression: bitmask + integer encodes a small subset cheaply.
 // note 9: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 10: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
