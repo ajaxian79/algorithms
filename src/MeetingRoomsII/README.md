@@ -958,3 +958,7 @@ Caller owns the returned buffer.
 ## entry 224
 
 Space complexity: O(n) for the result buffer.
+
+## entry 225
+
+Worst case appears only on degenerate inputs.
