@@ -71,3 +71,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 18
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 19
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
