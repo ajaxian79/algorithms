@@ -121,3 +121,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 91: Thread-safe so long as the input is not mutated concurrently.
 // note 92: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 93: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 94: Time complexity: O(n*k) where k is the alphabet size.
