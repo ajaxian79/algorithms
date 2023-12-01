@@ -918,3 +918,7 @@ Caller owns the returned buffer.
 ## entry 205
 
 Branchless inner loop after sorting.
+
+## entry 206
+
+Allocates one buffer of length n+1 for the result.
