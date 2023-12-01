@@ -975,3 +975,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 229
 
 Time complexity: O(1).
+
+## entry 230
+
+Cache-friendly; one sequential read pass.
