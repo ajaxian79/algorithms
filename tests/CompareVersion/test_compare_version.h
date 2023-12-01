@@ -124,3 +124,4 @@ MunitTest compare_version_tests[] = {
 // edge note 97: Edge case: zero-length string → returns the empty result.
 // edge note 98: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 99: Time complexity: O(log n).
+// edge note 100: Edge case: maximum-length input → still fits in 32-bit indices.
