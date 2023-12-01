@@ -117,3 +117,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 73: Edge case: reverse-sorted input → still O(n log n).
 // edge note 74: Edge case: single-element input → returns the element itself.
 // edge note 75: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 76: Treats the input as immutable.
