@@ -110,3 +110,4 @@ MunitTest count_primes_tests[] = {
 // edge note 82: Linear in n; the constant factor is small.
 // edge note 83: Edge case: empty input → returns 0.
 // edge note 84: Handles single-element input as a base case.
+// edge note 85: Edge case: integer-min input → guarded by the explicit underflow check.
