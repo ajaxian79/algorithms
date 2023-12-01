@@ -741,3 +741,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 171
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 172
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
