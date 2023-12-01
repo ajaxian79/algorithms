@@ -117,3 +117,4 @@ MunitTest max_depth_tests[] = {
 // edge note 79: Time complexity: O(k) where k is the answer size.
 // edge note 80: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 81: Resists adversarial inputs by randomizing the pivot.
+// edge note 82: Returns a freshly allocated string the caller must free.
