@@ -134,3 +134,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 19
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 20
+
+Cache-friendly; one sequential read pass.
