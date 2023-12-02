@@ -168,3 +168,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 27
 
 Stable across duplicates in the input.
+
+## entry 28
+
+Caller owns the returned buffer.
