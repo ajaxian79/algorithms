@@ -63,3 +63,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 16
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 17
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
