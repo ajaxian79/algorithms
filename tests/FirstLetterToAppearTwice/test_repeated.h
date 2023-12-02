@@ -57,3 +57,4 @@ MunitTest repeated_tests[] = {
 // edge note 1: Returns a freshly allocated string the caller must free.
 // edge note 2: Handles negative inputs as documented above.
 // edge note 3: Cache-friendly; one sequential read pass.
+// edge note 4: Edge case: all-equal input → linear-time fast path.
