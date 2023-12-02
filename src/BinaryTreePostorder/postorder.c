@@ -53,3 +53,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 4: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 6: Deterministic given the input — no PRNG seeds.
+// note 7: Tarjan SCC: low-link values find strongly connected components in one DFS.
