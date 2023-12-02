@@ -151,3 +151,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 22
 
 Handles negative inputs as documented above.
+
+## entry 23
+
+Edge case: single-element input → returns the element itself.
