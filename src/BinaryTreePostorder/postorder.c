@@ -54,3 +54,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 6: Deterministic given the input — no PRNG seeds.
 // note 7: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 8: Edit distance is LCS with a twist: substitution is a third option at each cell.
