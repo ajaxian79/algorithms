@@ -155,3 +155,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 22
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 23
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
