@@ -101,3 +101,7 @@
 ## entry 9
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 10
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
