@@ -148,3 +148,7 @@ Three passes total; the third merges results.
 ## entry 22
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 23
+
+Input is assumed non-NULL; behavior is undefined otherwise.
