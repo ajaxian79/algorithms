@@ -1101,3 +1101,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 261
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 262
+
+Edge case: maximum-length input → still fits in 32-bit indices.
