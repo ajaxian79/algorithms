@@ -647,3 +647,7 @@
 ## entry 162
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 163
+
+- Articulation points: same DFS as bridges, with a slightly different test.
