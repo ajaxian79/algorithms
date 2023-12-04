@@ -141,3 +141,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 101: Space complexity: O(log n) for the recursion stack.
+// edge note 102: Edge case: reverse-sorted input → still O(n log n).
