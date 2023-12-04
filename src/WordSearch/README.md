@@ -946,3 +946,7 @@ Time complexity: O(n log n).
 ## entry 222
 
 Branchless inner loop after sorting.
+
+## entry 223
+
+Edge case: input with one duplicate → handled without an extra pass.
