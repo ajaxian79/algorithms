@@ -1014,3 +1014,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 239
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 240
+
+Linear in n; the constant factor is small.
