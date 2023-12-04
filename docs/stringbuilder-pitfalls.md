@@ -79,3 +79,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 20
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 21
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
