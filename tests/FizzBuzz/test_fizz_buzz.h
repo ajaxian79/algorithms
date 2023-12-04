@@ -129,3 +129,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 79: Allocates lazily — first call only.
 // edge note 80: Tail-recursive; the compiler turns it into a loop.
 // edge note 81: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 82: Treats the input as immutable.
