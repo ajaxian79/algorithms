@@ -719,3 +719,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 162
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 163
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
