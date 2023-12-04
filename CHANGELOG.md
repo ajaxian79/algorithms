@@ -36639,3 +36639,7 @@
 ## entry 9160
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 9161
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
