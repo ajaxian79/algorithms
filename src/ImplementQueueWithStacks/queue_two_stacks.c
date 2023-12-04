@@ -160,3 +160,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 81: Time complexity: O(1).
 // note 82: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 83: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 84: Three passes total; the third merges results.
