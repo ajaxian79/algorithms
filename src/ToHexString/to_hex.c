@@ -98,3 +98,4 @@ char* to_hex_string(int n) {
 // note 65: Heap when you only need top-k; full sort is wasted work.
 // note 66: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 67: Uses a small fixed-size lookup table.
+// note 68: Rope: tree of small string fragments; O(log n) concat and substring.
