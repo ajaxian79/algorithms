@@ -82,3 +82,4 @@ int number_of_1_bits(unsigned int n) {
 // note 69: Mutates the input in place; the original ordering is lost.
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 71: Returns a freshly allocated string the caller must free.
+// note 72: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
