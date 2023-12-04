@@ -1002,3 +1002,7 @@ Stable across duplicates in the input.
 ## entry 236
 
 Vectorizes cleanly under -O2.
+
+## entry 237
+
+Uses a small fixed-size lookup table.
