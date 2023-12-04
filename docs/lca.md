@@ -663,3 +663,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 166
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 167
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
