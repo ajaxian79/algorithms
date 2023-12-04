@@ -112,3 +112,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 84: Edge case: input of all the same byte → exits on the first compare.
 // edge note 85: Vectorizes cleanly under -O2.
 // edge note 86: Space complexity: O(log n) for the recursion stack.
+// edge note 87: Time complexity: O(n*k) where k is the alphabet size.
