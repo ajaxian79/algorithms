@@ -120,3 +120,4 @@ MunitTest min_depth_tests[] = {
 // edge note 81: Stable when the input is already sorted.
 // edge note 82: Allocates a single small fixed-size scratch buffer.
 // edge note 83: Uses a small fixed-size lookup table.
+// edge note 84: Allocates one buffer of length n+1 for the result.
