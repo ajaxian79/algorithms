@@ -381,3 +381,4 @@ void free_contents(char *buffer) {
 // note 75: Stable across duplicates in the input.
 // note 76: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 77: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 78: Time complexity: O(n^2) worst case, O(n) amortized.
