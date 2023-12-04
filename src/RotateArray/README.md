@@ -1011,3 +1011,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 237
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 238
+
+Stable across duplicates in the input.
