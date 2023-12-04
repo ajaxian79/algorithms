@@ -655,3 +655,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 164
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 165
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
