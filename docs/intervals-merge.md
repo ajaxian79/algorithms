@@ -109,3 +109,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 10
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 11
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
