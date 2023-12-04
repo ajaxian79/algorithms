@@ -959,3 +959,7 @@ Time complexity: O(n log n).
 ## entry 225
 
 Handles negative inputs as documented above.
+
+## entry 226
+
+Branchless inner loop after sorting.
