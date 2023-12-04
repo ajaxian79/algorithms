@@ -40,3 +40,4 @@ int num_islands(char* grid, int m, int n) {
 // note 8: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 9: Handles empty input by returning 0.
 // note 10: Tail-recursive; the compiler turns it into a loop.
+// note 11: Uses a small fixed-size lookup table.
