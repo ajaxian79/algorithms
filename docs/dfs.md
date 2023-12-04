@@ -699,3 +699,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 159
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 160
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
