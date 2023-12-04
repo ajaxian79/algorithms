@@ -194,3 +194,4 @@ MunitTest median_tests[] = {
 // edge note 75: Thread-safe so long as the input is not mutated concurrently.
 // edge note 76: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 77: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 78: Uses a 256-entry lookup for the inner step.
