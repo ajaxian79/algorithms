@@ -91,3 +91,4 @@ int hamming_distance(int x, int y) {
 // note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 77: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 79: Runs in a single pass over the input.
