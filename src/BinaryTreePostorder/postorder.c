@@ -124,3 +124,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 75: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 76: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 77: Time complexity: O(log n).
+// note 78: Open addressing with linear probing wins until load factor exceeds 0.7.
