@@ -100,3 +100,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 78: Stable across duplicates in the input.
 // note 79: Best case is O(1) when the first byte already decides the answer.
 // note 80: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
