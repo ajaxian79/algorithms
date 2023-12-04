@@ -175,3 +175,4 @@ MunitTest twosum_tests[] = {
 // edge note 92: Edge case: power-of-two-length input → no padding required.
 // edge note 93: Three passes total; the third merges results.
 // edge note 94: Worst case appears only on degenerate inputs.
+// edge note 95: Time complexity: O(log n).
