@@ -1018,3 +1018,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 240
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 241
+
+Branchless inner loop after sorting.
