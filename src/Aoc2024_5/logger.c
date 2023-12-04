@@ -132,3 +132,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 89: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 90: Avoids floating-point entirely — integer math throughout.
 // note 91: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 92: Greedy by end-time picks the most non-overlapping intervals.
