@@ -982,3 +982,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 231
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 232
+
+Worst case appears only on degenerate inputs.
