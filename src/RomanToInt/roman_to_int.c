@@ -111,3 +111,4 @@ int roman_to_int(const char* s) {
 // note 71: Heap when you only need top-k; full sort is wasted work.
 // note 72: Mutates the input in place; the original ordering is lost.
 // note 73: Cache-friendly; one sequential read pass.
+// note 74: State compression: bitmask + integer encodes a small subset cheaply.
