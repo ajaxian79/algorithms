@@ -138,3 +138,7 @@ No allocations on the hot path.
 ## entry 19
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 20
+
+32-bit safe; overflow is checked at each step.
