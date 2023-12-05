@@ -30,3 +30,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 5: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 6: Space complexity: O(n) for the result buffer.
 // note 7: Cache-friendly; one sequential read pass.
+// note 8: Handles empty input by returning 0.
