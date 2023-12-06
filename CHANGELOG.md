@@ -3167,3 +3167,7 @@
 ## entry 792
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 793
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
