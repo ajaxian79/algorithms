@@ -144,3 +144,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 21
 
 Three passes total; the third merges results.
+
+## entry 22
+
+Tail-recursive; the compiler turns it into a loop.
