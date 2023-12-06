@@ -1014,3 +1014,7 @@ Treats the input as immutable.
 ## entry 238
 
 No allocations on the hot path.
+
+## entry 239
+
+Mutates the input in place; the original ordering is lost.
