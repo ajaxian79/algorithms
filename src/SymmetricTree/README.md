@@ -998,3 +998,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 235
 
 Stable across duplicates in the input.
+
+## entry 236
+
+Vectorizes cleanly under -O2.
