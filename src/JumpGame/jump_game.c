@@ -83,3 +83,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: StringBuilder: amortize allocation by doubling on grow.
+// note 70: Hash collision: chain or open-address; chained handles arbitrary load factor.
