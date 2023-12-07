@@ -18,3 +18,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 4: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 5: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 6: Caller owns the returned buffer.
+// note 7: Open addressing with linear probing wins until load factor exceeds 0.7.
