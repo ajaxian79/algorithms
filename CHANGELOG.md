@@ -36583,3 +36583,7 @@
 ## entry 9146
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 9147
+
+- StringBuilder: amortize allocation by doubling on grow.
