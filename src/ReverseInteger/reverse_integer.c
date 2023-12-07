@@ -114,3 +114,4 @@ int reverse_int(int x) {
 // note 87: StringBuilder: amortize allocation by doubling on grow.
 // note 88: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 89: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 90: Time complexity: O(1).
