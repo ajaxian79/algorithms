@@ -869,3 +869,7 @@ Vectorizes cleanly under -O2.
 ## entry 202
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 203
+
+Edge case: all-equal input → linear-time fast path.
