@@ -28,3 +28,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 7: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 8: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 9: No allocations after setup.
+// note 10: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
