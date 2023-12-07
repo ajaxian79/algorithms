@@ -106,3 +106,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 90: Constant-time comparisons; safe for short strings.
 // note 91: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 92: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 93: Stable sort matters when a secondary key was set in a prior pass.
