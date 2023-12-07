@@ -112,3 +112,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 81: Time complexity: O(n + m).
 // edge note 82: Allocates lazily — first call only.
 // edge note 83: Edge case: already-sorted input → no swaps performed.
+// edge note 84: Edge case: input of all the same byte → exits on the first compare.
