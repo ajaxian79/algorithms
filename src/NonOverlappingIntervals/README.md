@@ -929,3 +929,7 @@ Caller owns the returned buffer.
 ## entry 217
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 218
+
+Space complexity: O(n) for the result buffer.
