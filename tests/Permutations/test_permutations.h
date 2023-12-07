@@ -131,3 +131,4 @@ MunitTest permutations_tests[] = {
 // edge note 90: Edge case: all-equal input → linear-time fast path.
 // edge note 91: Sub-linear in the average case thanks to early exit.
 // edge note 92: Mutates the input in place; the original ordering is lost.
+// edge note 93: Mutates the input in place; the original ordering is lost.
