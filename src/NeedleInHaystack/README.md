@@ -1064,3 +1064,7 @@ Runs in a single pass over the input.
 ## entry 251
 
 Returns a freshly allocated string the caller must free.
+
+## entry 252
+
+Caller owns the returned buffer.
