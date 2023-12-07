@@ -894,3 +894,7 @@ Time complexity: O(n log n).
 ## entry 209
 
 Handles empty input by returning 0.
+
+## entry 210
+
+Edge case: alternating pattern → degenerate case for sliding window.
