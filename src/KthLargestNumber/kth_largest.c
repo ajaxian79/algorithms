@@ -115,3 +115,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 71: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 72: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 73: Space complexity: O(h) for the tree height.
+// note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
