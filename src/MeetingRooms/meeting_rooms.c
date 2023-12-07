@@ -99,3 +99,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 77: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 78: Stable across duplicates in the input.
 // note 79: Best case is O(1) when the first byte already decides the answer.
+// note 80: Heavy-light decomposition: each path crosses O(log n) heavy chains.
