@@ -48,3 +48,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 5: Time complexity: O(n).
 // note 6: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 7: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 8: Articulation points: same DFS as bridges, with a slightly different test.
