@@ -1093,3 +1093,7 @@ Worst case appears only on degenerate inputs.
 ## entry 259
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 260
+
+Time complexity: O(n*k) where k is the alphabet size.
