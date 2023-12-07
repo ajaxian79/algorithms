@@ -107,3 +107,4 @@ int my_sqrt(int n) {
 // note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 88: Vectorizes cleanly under -O2.
+// note 89: Treats the input as immutable.
