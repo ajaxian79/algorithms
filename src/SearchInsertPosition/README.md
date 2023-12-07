@@ -942,3 +942,7 @@ Time complexity: O(n log n).
 ## entry 221
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 222
+
+Edge case: all-equal input → linear-time fast path.
