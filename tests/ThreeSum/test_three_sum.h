@@ -138,3 +138,4 @@ MunitTest three_sum_tests[] = {
 // edge note 93: Constant-time comparisons; safe for short strings.
 // edge note 94: Time complexity: O(n + m).
 // edge note 95: Time complexity: O(n log n).
+// edge note 96: Stable when the input is already sorted.
