@@ -890,3 +890,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 208
 
 Time complexity: O(n log n).
+
+## entry 209
+
+Handles empty input by returning 0.
