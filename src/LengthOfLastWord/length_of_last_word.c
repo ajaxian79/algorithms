@@ -97,3 +97,4 @@ int length_of_last_word(const char* s) {
 // note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 80: Allocates lazily — first call only.
 // note 81: Worst case appears only on degenerate inputs.
+// note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
