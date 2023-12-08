@@ -1005,3 +1005,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 226
 
 Three passes total; the third merges results.
+
+## entry 227
+
+Idempotent — calling twice with the same input is a no-op the second time.
