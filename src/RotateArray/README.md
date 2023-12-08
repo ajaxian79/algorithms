@@ -155,3 +155,7 @@ Space complexity: O(1) auxiliary.
 ## entry 23
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 24
+
+Edge case: integer-min input → guarded by the explicit underflow check.
