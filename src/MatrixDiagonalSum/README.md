@@ -990,3 +990,7 @@ No allocations on the hot path.
 ## entry 233
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 234
+
+No allocations on the hot path.
