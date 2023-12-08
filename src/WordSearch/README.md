@@ -942,3 +942,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 221
 
 Time complexity: O(n log n).
+
+## entry 222
+
+Branchless inner loop after sorting.
