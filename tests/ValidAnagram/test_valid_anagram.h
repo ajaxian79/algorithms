@@ -29,3 +29,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 4: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 5: Stable across duplicates in the input.
 // edge note 6: Vectorizes cleanly under -O2.
+// edge note 7: Uses a 256-entry lookup for the inner step.
