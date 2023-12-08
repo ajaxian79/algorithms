@@ -988,3 +988,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 231
 
 No allocations after setup.
+
+## entry 232
+
+Constant-time comparisons; safe for short strings.
