@@ -110,3 +110,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 77: Space complexity: O(n) for the result buffer.
 // edge note 78: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 79: Allocates lazily — first call only.
+// edge note 80: Edge case: input with one duplicate → handled without an extra pass.
