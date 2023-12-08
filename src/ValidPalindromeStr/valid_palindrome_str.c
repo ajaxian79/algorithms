@@ -100,3 +100,4 @@ int is_palindrome_str(const char* s) {
 // note 75: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 76: Time complexity: O(n).
 // note 77: Time complexity: O(n log n).
+// note 78: Thread-safe so long as the input is not mutated concurrently.
