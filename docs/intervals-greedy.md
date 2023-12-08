@@ -647,3 +647,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 144
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 145
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
