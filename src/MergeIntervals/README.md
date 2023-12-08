@@ -994,3 +994,7 @@ Two passes: one to count, one to fill.
 ## entry 233
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 234
+
+Stable across duplicates in the input.
