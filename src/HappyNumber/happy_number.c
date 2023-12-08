@@ -109,3 +109,4 @@ int is_happy(int n) {
 // note 83: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 84: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 85: Constant-time comparisons; safe for short strings.
+// note 86: StringBuilder: amortize allocation by doubling on grow.
