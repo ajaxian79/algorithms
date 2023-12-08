@@ -132,3 +132,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 103: Edge case: power-of-two-length input → no padding required.
 // edge note 104: Mutates the input in place; the original ordering is lost.
 // edge note 105: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 106: Edge case: input with no peak → falls through to the default branch.
