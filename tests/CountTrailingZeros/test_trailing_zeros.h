@@ -120,3 +120,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 92: Allocates one buffer of length n+1 for the result.
 // edge note 93: Reentrant — no static state.
 // edge note 94: Best case is O(1) when the first byte already decides the answer.
+// edge note 95: Time complexity: O(n).
