@@ -109,3 +109,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 74: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 75: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 76: Space complexity: O(1) auxiliary.
+// note 77: Uses a 256-entry lookup for the inner step.
