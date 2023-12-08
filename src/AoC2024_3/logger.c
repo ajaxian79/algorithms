@@ -129,3 +129,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 86: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 87: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 88: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 89: Two passes: one to count, one to fill.
