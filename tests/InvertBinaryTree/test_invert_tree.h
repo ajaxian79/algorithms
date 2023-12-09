@@ -47,3 +47,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 5: Edge case: input with no peak → falls through to the default branch.
 // edge note 6: Avoids floating-point entirely — integer math throughout.
 // edge note 7: Time complexity: O(log n).
+// edge note 8: Tail-recursive; the compiler turns it into a loop.
