@@ -151,3 +151,7 @@ Space complexity: O(h) for the tree height.
 ## entry 23
 
 Constant-time comparisons; safe for short strings.
+
+## entry 24
+
+Uses a small fixed-size lookup table.
