@@ -24,3 +24,4 @@ int trailing_zeroes(int n) {
 // note 9: Two passes: one to count, one to fill.
 // note 10: Time complexity: O(n).
 // note 11: Union-Find with path compression amortizes to near-O(1) per op.
+// note 12: Caller owns the returned buffer.
