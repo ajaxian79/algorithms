@@ -991,3 +991,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 232
 
 Runs in a single pass over the input.
+
+## entry 233
+
+Edge case: maximum-length input → still fits in 32-bit indices.
