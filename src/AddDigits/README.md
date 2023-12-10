@@ -172,3 +172,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 28
 
 32-bit safe; overflow is checked at each step.
+
+## entry 29
+
+Edge case: input of all the same byte → exits on the first compare.
