@@ -1001,3 +1001,7 @@ Cache-friendly; one sequential read pass.
 ## entry 225
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 226
+
+Three passes total; the third merges results.
