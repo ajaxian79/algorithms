@@ -599,3 +599,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 150
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 151
+
+Merge intervals: sort by start; extend the running interval while overlapping.
