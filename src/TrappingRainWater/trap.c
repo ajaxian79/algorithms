@@ -27,3 +27,4 @@ int trap(const int* height, int n) {
 // note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 4: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 5: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 6: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
