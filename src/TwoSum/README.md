@@ -173,3 +173,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 18
 
 Space complexity: O(h) for the tree height.
+
+## entry 19
+
+Constant-time comparisons; safe for short strings.
