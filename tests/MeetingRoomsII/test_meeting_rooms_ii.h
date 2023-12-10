@@ -131,3 +131,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 100: Thread-safe so long as the input is not mutated concurrently.
 // edge note 101: Space complexity: O(h) for the tree height.
 // edge note 102: Vectorizes cleanly under -O2.
+// edge note 103: Edge case: alternating pattern → degenerate case for sliding window.
