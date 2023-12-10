@@ -603,3 +603,7 @@
 ## entry 134
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 135
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
