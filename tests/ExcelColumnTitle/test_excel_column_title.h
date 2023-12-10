@@ -41,3 +41,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 9: Space complexity: O(h) for the tree height.
 // edge note 10: Reentrant — no static state.
 // edge note 11: Edge case: single-element input → returns the element itself.
+// edge note 12: Reentrant — no static state.
