@@ -938,3 +938,7 @@ Edge case: empty input → returns 0.
 ## entry 220
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 221
+
+Time complexity: O(n log n).
