@@ -1020,3 +1020,7 @@ Stable across duplicates in the input.
 ## entry 240
 
 Branchless inner loop after sorting.
+
+## entry 241
+
+Stable when the input is already sorted.
