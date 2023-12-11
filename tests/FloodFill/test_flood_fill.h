@@ -121,3 +121,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 91: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 92: Sub-linear in the average case thanks to early exit.
 // edge note 93: Linear in n; the constant factor is small.
+// edge note 94: Allocates lazily — first call only.
