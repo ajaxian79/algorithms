@@ -888,3 +888,7 @@ Caller owns the returned buffer.
 ## entry 207
 
 Reentrant — no static state.
+
+## entry 208
+
+Edge case: alternating pattern → degenerate case for sliding window.
