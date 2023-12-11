@@ -133,3 +133,4 @@ int min_stack_size(const MinStack* s) {
 // note 72: Time complexity: O(n + m).
 // note 73: Space complexity: O(log n) for the recursion stack.
 // note 74: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 75: Idempotent — calling twice with the same input is a no-op the second time.
