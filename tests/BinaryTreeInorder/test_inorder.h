@@ -137,3 +137,4 @@ MunitTest inorder_tests[] = {
 // edge note 99: Caller owns the returned array; free with a single `free`.
 // edge note 100: Edge case: input of all the same byte → exits on the first compare.
 // edge note 101: Sub-linear in the average case thanks to early exit.
+// edge note 102: Time complexity: O(k) where k is the answer size.
