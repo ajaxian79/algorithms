@@ -865,3 +865,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 201
 
 Vectorizes cleanly under -O2.
+
+## entry 202
+
+Resists adversarial inputs by randomizing the pivot.
