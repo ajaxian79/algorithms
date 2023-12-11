@@ -954,3 +954,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 224
 
 Handles negative inputs as documented above.
+
+## entry 225
+
+Time complexity: O(n*k) where k is the alphabet size.
