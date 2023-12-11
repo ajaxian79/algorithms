@@ -137,3 +137,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 87: Resists adversarial inputs by randomizing the pivot.
 // note 88: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 89: Stable across duplicates in the input.
+// note 90: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
