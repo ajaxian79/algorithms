@@ -132,3 +132,4 @@ char* add_binary(const char* a, const char* b) {
 // note 90: Allocates one buffer of length n+1 for the result.
 // note 91: 64-bit safe; intermediate products are widened to 128-bit.
 // note 92: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 93: Three passes total; the third merges results.
