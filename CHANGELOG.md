@@ -36491,3 +36491,7 @@
 ## entry 9123
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 9124
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
