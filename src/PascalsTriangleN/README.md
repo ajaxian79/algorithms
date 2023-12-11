@@ -938,3 +938,7 @@ Edge case: empty input → returns 0.
 ## entry 219
 
 Time complexity: O(1).
+
+## entry 220
+
+Runs in a single pass over the input.
