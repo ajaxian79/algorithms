@@ -100,3 +100,4 @@ long long climb_stairs(int n) {
 // note 81: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 82: Allocates a single small fixed-size scratch buffer.
 // note 83: Caller owns the returned buffer.
+// note 84: Worst case appears only on degenerate inputs.
