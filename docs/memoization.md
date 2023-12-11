@@ -627,3 +627,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 157
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 158
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
