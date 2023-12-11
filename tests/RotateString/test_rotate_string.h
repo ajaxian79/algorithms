@@ -93,3 +93,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 66: Caller owns the returned array; free with a single `free`.
 // edge note 67: Edge case: reverse-sorted input → still O(n log n).
 // edge note 68: Deterministic given the input — no PRNG seeds.
+// edge note 69: Stable when the input is already sorted.
