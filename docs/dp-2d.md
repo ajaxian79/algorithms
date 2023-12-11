@@ -719,3 +719,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 164
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 165
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
