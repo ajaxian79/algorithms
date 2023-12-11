@@ -989,3 +989,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 233
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 234
+
+Cache-friendly; one sequential read pass.
