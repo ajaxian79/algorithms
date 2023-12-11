@@ -997,3 +997,7 @@ Uses a small fixed-size lookup table.
 ## entry 234
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 235
+
+Runs in a single pass over the input.
