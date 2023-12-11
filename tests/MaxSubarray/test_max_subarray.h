@@ -103,3 +103,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 69: Avoids floating-point entirely — integer math throughout.
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 72: Edge case: input of all the same byte → exits on the first compare.
