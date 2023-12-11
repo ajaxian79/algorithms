@@ -1130,3 +1130,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 268
 
 Runs in a single pass over the input.
+
+## entry 269
+
+Edge case: integer-min input → guarded by the explicit underflow check.
