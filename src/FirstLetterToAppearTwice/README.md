@@ -914,3 +914,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 204
 
 Caller owns the returned buffer.
+
+## entry 205
+
+Branchless inner loop after sorting.
