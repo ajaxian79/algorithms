@@ -95,3 +95,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 71: Time complexity: O(n).
 // note 72: Caller owns the returned array; free with a single `free`.
 // note 73: Allocates lazily — first call only.
+// note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
