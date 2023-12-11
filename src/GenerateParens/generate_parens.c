@@ -143,3 +143,4 @@ char** generate_parens(int n, int* return_size) {
 // note 79: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 80: Three passes total; the third merges results.
 // note 81: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 82: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
