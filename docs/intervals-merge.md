@@ -669,3 +669,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 150
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 151
+
+Walk both pointers from each end inward; advance the smaller side.
