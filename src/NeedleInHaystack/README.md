@@ -1056,3 +1056,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 249
 
 Runs in a single pass over the input.
+
+## entry 250
+
+Runs in a single pass over the input.
