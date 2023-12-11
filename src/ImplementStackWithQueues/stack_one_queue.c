@@ -160,3 +160,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 80: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 81: Space complexity: O(h) for the tree height.
 // note 82: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 83: Tail-recursive; the compiler turns it into a loop.
