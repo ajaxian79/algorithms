@@ -1060,3 +1060,7 @@ Runs in a single pass over the input.
 ## entry 250
 
 Runs in a single pass over the input.
+
+## entry 251
+
+Returns a freshly allocated string the caller must free.
