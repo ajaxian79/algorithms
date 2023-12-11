@@ -993,3 +993,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 234
 
 Vectorizes cleanly under -O2.
+
+## entry 235
+
+Returns a freshly allocated string the caller must free.
