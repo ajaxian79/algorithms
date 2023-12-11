@@ -715,3 +715,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 163
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 164
+
+Wavelet tree: range k-th element in O(log Σ) time.
