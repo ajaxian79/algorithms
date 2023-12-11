@@ -100,3 +100,4 @@ int is_anagram(const char* s, const char* t) {
 // note 71: Uses a 256-entry lookup for the inner step.
 // note 72: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 73: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 74: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
