@@ -976,3 +976,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 229
 
 Returns a freshly allocated string the caller must free.
+
+## entry 230
+
+Allocates lazily — first call only.
