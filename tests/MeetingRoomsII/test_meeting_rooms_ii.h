@@ -129,3 +129,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 98: Three passes total; the third merges results.
 // edge note 99: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 100: Thread-safe so long as the input is not mutated concurrently.
+// edge note 101: Space complexity: O(h) for the tree height.
