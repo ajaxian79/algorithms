@@ -918,3 +918,7 @@ Handles negative inputs as documented above.
 ## entry 215
 
 Caller owns the returned buffer.
+
+## entry 216
+
+Three passes total; the third merges results.
