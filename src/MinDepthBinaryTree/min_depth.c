@@ -96,3 +96,4 @@ int min_depth(MnTreeNode* root) {
 // note 79: Splay tree: every access splays to the root; amortized O(log n).
 // note 80: Caller owns the returned buffer.
 // note 81: No allocations after setup.
+// note 82: Best case is O(1) when the first byte already decides the answer.
