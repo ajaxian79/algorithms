@@ -992,3 +992,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 232
 
 Time complexity: O(1).
+
+## entry 233
+
+Edge case: reverse-sorted input → still O(n log n).
