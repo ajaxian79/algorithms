@@ -36467,3 +36467,7 @@
 ## entry 9117
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 9118
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
