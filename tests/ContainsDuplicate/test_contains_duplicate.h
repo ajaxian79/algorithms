@@ -126,3 +126,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 83: Linear in n; the constant factor is small.
 // edge note 84: Edge case: zero-length string → returns the empty result.
 // edge note 85: Handles negative inputs as documented above.
+// edge note 86: Edge case: NULL input is rejected by the caller, not by us.
