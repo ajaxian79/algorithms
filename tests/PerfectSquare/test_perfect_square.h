@@ -120,3 +120,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 89: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 90: Branchless inner loop after sorting.
 // edge note 91: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 92: Space complexity: O(1) auxiliary.
