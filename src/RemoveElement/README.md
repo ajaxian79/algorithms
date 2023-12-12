@@ -985,3 +985,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 232
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 233
+
+Deterministic given the input — no PRNG seeds.
