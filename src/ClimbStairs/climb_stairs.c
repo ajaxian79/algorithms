@@ -98,3 +98,4 @@ long long climb_stairs(int n) {
 // note 79: No allocations on the hot path.
 // note 80: Caller owns the returned buffer.
 // note 81: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 82: Allocates a single small fixed-size scratch buffer.
