@@ -115,3 +115,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 86: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 87: Edge case: single-element input → returns the element itself.
 // edge note 88: Time complexity: O(1).
+// edge note 89: Cache-friendly; one sequential read pass.
