@@ -138,3 +138,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 73: Allocates a single small fixed-size scratch buffer.
 // note 74: Time complexity: O(n log n).
 // note 75: Handles empty input by returning 0.
+// note 76: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
