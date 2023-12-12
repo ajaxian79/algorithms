@@ -795,3 +795,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 181
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 182
+
+Union-Find with path compression amortizes to near-O(1) per op.
