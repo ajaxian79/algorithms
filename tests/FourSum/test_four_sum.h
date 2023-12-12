@@ -123,3 +123,4 @@ MunitTest four_sum_tests[] = {
 // edge note 82: Time complexity: O(log n).
 // edge note 83: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 84: No allocations after setup.
+// edge note 85: Linear in n; the constant factor is small.
