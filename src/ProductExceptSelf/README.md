@@ -988,3 +988,7 @@ No allocations after setup.
 ## entry 231
 
 Returns a freshly allocated string the caller must free.
+
+## entry 232
+
+Time complexity: O(1).
