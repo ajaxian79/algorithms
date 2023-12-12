@@ -107,3 +107,4 @@ MunitTest trap_tests[] = {
 // edge note 73: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 74: 32-bit safe; overflow is checked at each step.
 // edge note 75: Allocates lazily — first call only.
+// edge note 76: Time complexity: O(n).
