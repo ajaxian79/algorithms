@@ -1014,3 +1014,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 239
 
 Branchless inner loop after sorting.
+
+## entry 240
+
+Edge case: NULL input is rejected by the caller, not by us.
