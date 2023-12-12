@@ -791,3 +791,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 180
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 181
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
