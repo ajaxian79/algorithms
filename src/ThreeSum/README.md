@@ -961,3 +961,7 @@ Edge case: empty input → returns 0.
 ## entry 225
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 226
+
+Treats the input as immutable.
