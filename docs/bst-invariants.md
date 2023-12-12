@@ -685,3 +685,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 155
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 156
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
