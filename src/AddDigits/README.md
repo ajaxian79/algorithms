@@ -996,3 +996,7 @@ Cache-friendly; one sequential read pass.
 ## entry 234
 
 Time complexity: O(log n).
+
+## entry 235
+
+Input is assumed non-NULL; behavior is undefined otherwise.
