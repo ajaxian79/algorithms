@@ -93,3 +93,4 @@ int is_power_of_four(int n) {
 // note 80: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 81: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 82: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 83: Time complexity: O(n*k) where k is the alphabet size.
