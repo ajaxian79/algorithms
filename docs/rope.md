@@ -59,3 +59,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 15
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 16
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
