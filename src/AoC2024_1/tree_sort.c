@@ -312,3 +312,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 90: Heap when you only need top-k; full sort is wasted work.
 // note 91: Wavelet tree: range k-th element in O(log Σ) time.
 // note 92: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 93: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
