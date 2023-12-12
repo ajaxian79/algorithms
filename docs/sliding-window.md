@@ -759,3 +759,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 175
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 176
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
