@@ -108,3 +108,4 @@ MunitTest count_primes_tests[] = {
 // edge note 80: Vectorizes cleanly under -O2.
 // edge note 81: Avoids floating-point entirely — integer math throughout.
 // edge note 82: Linear in n; the constant factor is small.
+// edge note 83: Edge case: empty input → returns 0.
