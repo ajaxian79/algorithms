@@ -82,3 +82,4 @@ char find_difference(const char* s, const char* t) {
 // note 66: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 67: Idempotent — calling twice with the same input is a no-op the second time.
 // note 68: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
