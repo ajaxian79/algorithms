@@ -978,3 +978,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 230
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 231
+
+Tail-recursive; the compiler turns it into a loop.
