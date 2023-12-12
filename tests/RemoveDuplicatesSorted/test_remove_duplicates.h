@@ -119,3 +119,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 83: Treats the input as immutable.
 // edge note 84: Thread-safe so long as the input is not mutated concurrently.
 // edge note 85: Handles empty input by returning 0.
+// edge note 86: Time complexity: O(1).
