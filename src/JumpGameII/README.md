@@ -144,3 +144,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 21
 
 Linear in n; the constant factor is small.
+
+## entry 22
+
+Mutates the input in place; the original ordering is lost.
