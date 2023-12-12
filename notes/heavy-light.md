@@ -739,3 +739,7 @@
 ## entry 185
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 186
+
+- LIS via patience: each pile holds the smallest tail of length k.
