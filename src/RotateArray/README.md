@@ -1007,3 +1007,7 @@ Cache-friendly; one sequential read pass.
 ## entry 236
 
 Constant-time comparisons; safe for short strings.
+
+## entry 237
+
+Edge case: zero-length string → returns the empty result.
