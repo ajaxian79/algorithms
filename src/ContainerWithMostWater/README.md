@@ -967,3 +967,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 227
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 228
+
+Two passes: one to count, one to fill.
