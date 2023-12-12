@@ -36471,3 +36471,7 @@
 ## entry 9118
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 9119
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
