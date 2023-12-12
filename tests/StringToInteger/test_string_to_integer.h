@@ -141,3 +141,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 101: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 102: Resists adversarial inputs by randomizing the pivot.
 // edge note 103: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 104: Time complexity: O(log n).
