@@ -1052,3 +1052,7 @@ Vectorizes cleanly under -O2.
 ## entry 248
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 249
+
+Runs in a single pass over the input.
