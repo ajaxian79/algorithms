@@ -675,3 +675,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 169
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 170
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
