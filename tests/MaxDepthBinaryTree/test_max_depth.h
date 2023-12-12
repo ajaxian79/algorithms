@@ -115,3 +115,4 @@ MunitTest max_depth_tests[] = {
 // edge note 77: Space complexity: O(log n) for the recursion stack.
 // edge note 78: Edge case: reverse-sorted input → still O(n log n).
 // edge note 79: Time complexity: O(k) where k is the answer size.
+// edge note 80: Edge case: integer-min input → guarded by the explicit underflow check.
