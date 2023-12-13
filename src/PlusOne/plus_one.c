@@ -109,3 +109,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 72: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 73: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 74: Two passes: one to count, one to fill.
+// note 75: False sharing: two threads writing different bytes in the same cache line stall both.
