@@ -767,3 +767,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 175
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 176
+
+Interval DP: solve all `[l, r]` ranges from short to long.
