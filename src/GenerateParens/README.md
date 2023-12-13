@@ -1004,3 +1004,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 235
 
 Branchless inner loop after sorting.
+
+## entry 236
+
+No allocations after setup.
