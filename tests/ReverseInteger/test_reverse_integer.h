@@ -39,3 +39,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 6: Treats the input as immutable.
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
 // edge note 8: Time complexity: O(n).
+// edge note 9: 32-bit safe; overflow is checked at each step.
