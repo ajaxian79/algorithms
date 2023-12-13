@@ -681,3 +681,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 154
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 155
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
