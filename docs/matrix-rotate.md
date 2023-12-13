@@ -681,3 +681,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 154
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 155
+
+Greedy by end-time picks the most non-overlapping intervals.
