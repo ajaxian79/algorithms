@@ -144,3 +144,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 21
 
 Edge case: empty input → returns 0.
+
+## entry 22
+
+Time complexity: O(n).
