@@ -1074,3 +1074,7 @@ Time complexity: O(n).
 ## entry 254
 
 Handles single-element input as a base case.
+
+## entry 255
+
+Three passes total; the third merges results.
