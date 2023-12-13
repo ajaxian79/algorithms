@@ -1003,3 +1003,7 @@ Handles negative inputs as documented above.
 ## entry 235
 
 Cache-friendly; one sequential read pass.
+
+## entry 236
+
+Constant-time comparisons; safe for short strings.
