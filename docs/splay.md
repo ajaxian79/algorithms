@@ -571,3 +571,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 143
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 144
+
+Merge intervals: sort by start; extend the running interval while overlapping.
