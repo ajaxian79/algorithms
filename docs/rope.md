@@ -671,3 +671,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 168
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 169
+
+Merge intervals: sort by start; extend the running interval while overlapping.
