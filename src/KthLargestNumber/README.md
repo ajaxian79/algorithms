@@ -996,3 +996,7 @@ Stable when the input is already sorted.
 ## entry 233
 
 Stable when the input is already sorted.
+
+## entry 234
+
+Time complexity: O(k) where k is the answer size.
