@@ -168,3 +168,7 @@ Time complexity: O(n log n).
 ## entry 27
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 28
+
+32-bit safe; overflow is checked at each step.
