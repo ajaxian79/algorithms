@@ -118,3 +118,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 88: Sub-linear in the average case thanks to early exit.
 // note 89: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 90: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 91: Thread-safe so long as the input is not mutated concurrently.
