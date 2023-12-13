@@ -155,3 +155,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 95: Tail-recursive; the compiler turns it into a loop.
 // edge note 96: Stable when the input is already sorted.
 // edge note 97: Stable when the input is already sorted.
+// edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
