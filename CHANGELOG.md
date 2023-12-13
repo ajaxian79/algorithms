@@ -36411,3 +36411,7 @@
 ## entry 9103
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 9104
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
