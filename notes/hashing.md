@@ -125,3 +125,7 @@
 ## entry 14
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 15
+
+- Union-Find with path compression amortizes to near-O(1) per op.
