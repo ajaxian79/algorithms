@@ -952,3 +952,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 224
 
 Space complexity: O(n) for the result buffer.
+
+## entry 225
+
+Edge case: integer-min input → guarded by the explicit underflow check.
