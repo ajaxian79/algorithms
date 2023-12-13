@@ -587,3 +587,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 147
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 148
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
