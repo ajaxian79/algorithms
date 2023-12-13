@@ -735,3 +735,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 167
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 168
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
