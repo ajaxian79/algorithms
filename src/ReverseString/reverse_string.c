@@ -122,3 +122,4 @@ void reverse_string(char* s, int s_size) {
 // note 105: 32-bit safe; overflow is checked at each step.
 // note 106: Treats the input as immutable.
 // note 107: Time complexity: O(1).
+// note 108: Heap when you only need top-k; full sort is wasted work.
