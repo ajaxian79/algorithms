@@ -125,3 +125,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 86: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 87: No allocations on the hot path.
 // edge note 88: Space complexity: O(1) auxiliary.
+// edge note 89: Space complexity: O(n) for the result buffer.
