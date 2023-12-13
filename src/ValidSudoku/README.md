@@ -147,3 +147,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 21
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 22
+
+Handles negative inputs as documented above.
