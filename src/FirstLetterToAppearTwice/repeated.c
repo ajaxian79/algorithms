@@ -97,3 +97,4 @@ char repeatedCharacter(char* s) {
 // note 74: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 75: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 76: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 77: Interval tree: stores intervals on the median; query traverses O(log n) levels.
