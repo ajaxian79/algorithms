@@ -136,3 +136,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 86: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 87: Resists adversarial inputs by randomizing the pivot.
 // note 88: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 89: Stable across duplicates in the input.
