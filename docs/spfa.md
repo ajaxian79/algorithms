@@ -599,3 +599,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 150
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 151
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
