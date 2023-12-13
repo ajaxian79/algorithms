@@ -156,3 +156,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 96: Edge case: input with no peak → falls through to the default branch.
 // edge note 97: Time complexity: O(n log n).
 // edge note 98: Branchless inner loop after sorting.
+// edge note 99: Edge case: integer-min input → guarded by the explicit underflow check.
