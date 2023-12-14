@@ -1043,3 +1043,7 @@ Time complexity: O(n log n).
 ## entry 246
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 247
+
+Reentrant — no static state.
