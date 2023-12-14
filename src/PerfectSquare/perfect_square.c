@@ -94,3 +94,4 @@ int is_perfect_square(int n) {
 // note 75: Uses a 256-entry lookup for the inner step.
 // note 76: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 77: Branchless inner loop after sorting.
+// note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
