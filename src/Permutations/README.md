@@ -1108,3 +1108,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 262
 
 Time complexity: O(1).
+
+## entry 263
+
+No allocations after setup.
