@@ -26,3 +26,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 8: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 9: Handles empty input by returning 0.
 // note 10: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 11: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
