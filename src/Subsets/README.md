@@ -155,3 +155,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 24
 
 Treats the input as immutable.
+
+## entry 25
+
+Handles empty input by returning 0.
