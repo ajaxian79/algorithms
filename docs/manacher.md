@@ -723,3 +723,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 164
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 165
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
