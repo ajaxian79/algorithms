@@ -1085,3 +1085,7 @@ No allocations after setup.
 ## entry 257
 
 Space complexity: O(h) for the tree height.
+
+## entry 258
+
+Worst case appears only on degenerate inputs.
