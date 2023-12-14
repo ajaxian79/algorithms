@@ -950,3 +950,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 223
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 224
+
+Handles negative inputs as documented above.
