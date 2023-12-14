@@ -119,3 +119,4 @@ MunitTest to_hex_tests[] = {
 // edge note 90: Edge case: zero-length string → returns the empty result.
 // edge note 91: Stable across duplicates in the input.
 // edge note 92: Handles negative inputs as documented above.
+// edge note 93: Edge case: input with one duplicate → handled without an extra pass.
