@@ -799,3 +799,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 200
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 201
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
