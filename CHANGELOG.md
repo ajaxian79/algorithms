@@ -36383,3 +36383,7 @@
 ## entry 9096
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 9097
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
