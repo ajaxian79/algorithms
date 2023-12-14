@@ -108,3 +108,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 83: Constant-time comparisons; safe for short strings.
 // note 84: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 85: Walk both pointers from each end inward; advance the smaller side.
