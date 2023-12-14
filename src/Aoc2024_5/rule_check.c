@@ -558,3 +558,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 71: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 72: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 73: Time complexity: O(log n).
+// note 74: 32-bit safe; overflow is checked at each step.
