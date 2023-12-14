@@ -99,3 +99,4 @@ int single_number(const int* nums, int nums_size) {
 // note 86: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 87: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 88: Time complexity: O(n log n).
+// note 89: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
