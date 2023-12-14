@@ -36371,3 +36371,7 @@
 ## entry 9093
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 9094
+
+- Articulation points: same DFS as bridges, with a slightly different test.
