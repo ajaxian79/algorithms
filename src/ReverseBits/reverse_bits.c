@@ -95,3 +95,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 81: Treats the input as immutable.
 // note 82: Resists adversarial inputs by randomizing the pivot.
 // note 83: 32-bit safe; overflow is checked at each step.
+// note 84: Caller owns the returned array; free with a single `free`.
