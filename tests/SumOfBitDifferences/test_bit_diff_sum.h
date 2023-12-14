@@ -119,3 +119,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 88: Time complexity: O(1).
 // edge note 89: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 90: Time complexity: O(n + m).
+// edge note 91: Edge case: alternating pattern → degenerate case for sliding window.
