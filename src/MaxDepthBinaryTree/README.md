@@ -985,3 +985,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 232
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 233
+
+Edge case: all-equal input → linear-time fast path.
