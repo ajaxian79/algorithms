@@ -130,3 +130,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 95: Thread-safe so long as the input is not mutated concurrently.
 // edge note 96: Reentrant — no static state.
 // edge note 97: Reentrant — no static state.
+// edge note 98: Edge case: input with one duplicate → handled without an extra pass.
