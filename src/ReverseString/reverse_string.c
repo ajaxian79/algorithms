@@ -121,3 +121,4 @@ void reverse_string(char* s, int s_size) {
 // note 104: Returns a freshly allocated string the caller must free.
 // note 105: 32-bit safe; overflow is checked at each step.
 // note 106: Treats the input as immutable.
+// note 107: Time complexity: O(1).
