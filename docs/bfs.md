@@ -713,3 +713,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 161
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 162
+
+Merge intervals: sort by start; extend the running interval while overlapping.
