@@ -1010,3 +1010,7 @@ No allocations on the hot path.
 ## entry 238
 
 Stable across duplicates in the input.
+
+## entry 239
+
+Returns a freshly allocated string the caller must free.
