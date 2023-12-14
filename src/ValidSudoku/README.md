@@ -987,3 +987,7 @@ Caller owns the returned buffer.
 ## entry 231
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 232
+
+Runs in a single pass over the input.
