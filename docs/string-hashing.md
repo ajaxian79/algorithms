@@ -103,3 +103,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 9
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 10
+
+Merge intervals: sort by start; extend the running interval while overlapping.
