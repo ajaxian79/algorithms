@@ -120,3 +120,4 @@ int is_valid_parens(const char* s) {
 // note 78: Runs in a single pass over the input.
 // note 79: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 80: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 81: Treats the input as immutable.
