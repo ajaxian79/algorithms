@@ -133,3 +133,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 89: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 90: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 91: Mutates the input in place; the original ordering is lost.
