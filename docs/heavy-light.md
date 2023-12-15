@@ -695,3 +695,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 174
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 175
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
