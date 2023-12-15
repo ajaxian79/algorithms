@@ -957,3 +957,7 @@ Caller owns the returned buffer.
 ## entry 224
 
 Edge case: empty input → returns 0.
+
+## entry 225
+
+Space complexity: O(log n) for the recursion stack.
