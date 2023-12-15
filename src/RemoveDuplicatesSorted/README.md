@@ -1118,3 +1118,7 @@ Time complexity: O(n log n).
 ## entry 265
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 266
+
+Best case is O(1) when the first byte already decides the answer.
