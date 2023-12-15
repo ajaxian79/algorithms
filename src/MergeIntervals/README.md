@@ -150,3 +150,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 22
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 23
+
+Edge case: reverse-sorted input → still O(n log n).
