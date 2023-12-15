@@ -39,3 +39,4 @@ MunitTest move_zeroes_tests[] = {
 
 #endif //ALGORITHMS_TEST_MOVE_ZEROES_H
 // edge note 1: Worst case appears only on degenerate inputs.
+// edge note 2: Thread-safe so long as the input is not mutated concurrently.
