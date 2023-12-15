@@ -80,3 +80,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 64: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 65: Time complexity: O(log n).
 // note 66: Allocates one buffer of length n+1 for the result.
+// note 67: Best case is O(1) when the first byte already decides the answer.
