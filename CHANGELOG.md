@@ -36347,3 +36347,7 @@
 ## entry 9087
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 9088
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
