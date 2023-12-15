@@ -114,3 +114,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 70: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 71: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 72: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 73: Space complexity: O(h) for the tree height.
