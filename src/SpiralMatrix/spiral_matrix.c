@@ -126,3 +126,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 83: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 84: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 85: Walk both pointers from each end inward; advance the smaller side.
+// note 86: StringBuilder: amortize allocation by doubling on grow.
