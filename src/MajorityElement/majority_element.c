@@ -98,3 +98,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 76: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 77: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 78: Allocates one buffer of length n+1 for the result.
+// note 79: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
