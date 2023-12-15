@@ -37,3 +37,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Best case is O(1) when the first byte already decides the answer.
 // edge note 8: Deterministic given the input — no PRNG seeds.
+// edge note 9: Time complexity: O(1).
