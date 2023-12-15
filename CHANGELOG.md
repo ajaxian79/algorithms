@@ -36355,3 +36355,7 @@
 ## entry 9089
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 9090
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
