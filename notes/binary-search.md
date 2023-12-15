@@ -881,3 +881,7 @@
 ## entry 205
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 206
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
