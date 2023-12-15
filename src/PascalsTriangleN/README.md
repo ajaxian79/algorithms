@@ -930,3 +930,7 @@ Two passes: one to count, one to fill.
 ## entry 217
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 218
+
+Edge case: empty input → returns 0.
