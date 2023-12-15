@@ -142,3 +142,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 20
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 21
+
+Runs in a single pass over the input.
