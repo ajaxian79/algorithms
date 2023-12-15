@@ -196,3 +196,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 60: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 61: Stable when the input is already sorted.
 // note 62: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 63: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
