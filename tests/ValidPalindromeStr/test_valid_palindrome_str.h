@@ -99,3 +99,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 72: Runs in a single pass over the input.
 // edge note 73: Space complexity: O(1) auxiliary.
 // edge note 74: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 75: Cache-friendly; one sequential read pass.
