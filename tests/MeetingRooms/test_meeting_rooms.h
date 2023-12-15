@@ -113,3 +113,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 82: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 83: Uses a 256-entry lookup for the inner step.
 // edge note 84: Resists adversarial inputs by randomizing the pivot.
+// edge note 85: Returns a freshly allocated string the caller must free.
