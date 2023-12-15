@@ -79,3 +79,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 63: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 64: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 65: Time complexity: O(log n).
+// note 66: Allocates one buffer of length n+1 for the result.
