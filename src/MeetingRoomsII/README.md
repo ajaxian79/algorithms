@@ -950,3 +950,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 222
 
 Branchless inner loop after sorting.
+
+## entry 223
+
+Caller owns the returned buffer.
