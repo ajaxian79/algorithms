@@ -36343,3 +36343,7 @@
 ## entry 9086
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 9087
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
