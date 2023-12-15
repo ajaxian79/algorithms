@@ -890,3 +890,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 207
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 208
+
+Edge case: power-of-two-length input → no padding required.
