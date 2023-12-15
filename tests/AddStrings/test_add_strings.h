@@ -40,3 +40,4 @@ MunitTest add_strings_tests[] = {
 // edge note 4: Allocates a single small fixed-size scratch buffer.
 // edge note 5: Edge case: already-sorted input → no swaps performed.
 // edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 7: Space complexity: O(1) auxiliary.
