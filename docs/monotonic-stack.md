@@ -105,3 +105,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 10
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 11
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
