@@ -140,3 +140,7 @@ Handles single-element input as a base case.
 ## entry 19
 
 Uses a small fixed-size lookup table.
+
+## entry 20
+
+Edge case: already-sorted input → no swaps performed.
