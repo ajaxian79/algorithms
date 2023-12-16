@@ -1002,3 +1002,7 @@ Time complexity: O(n + m).
 ## entry 235
 
 Handles negative inputs as documented above.
+
+## entry 236
+
+Caller owns the returned array; free with a single `free`.
