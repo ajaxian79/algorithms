@@ -36291,3 +36291,7 @@
 ## entry 9073
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 9074
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
