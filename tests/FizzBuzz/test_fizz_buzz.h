@@ -127,3 +127,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 77: Sub-linear in the average case thanks to early exit.
 // edge note 78: Edge case: zero-length string → returns the empty result.
 // edge note 79: Allocates lazily — first call only.
+// edge note 80: Tail-recursive; the compiler turns it into a loop.
