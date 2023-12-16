@@ -100,3 +100,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 74: Caller owns the returned buffer.
 // edge note 75: Edge case: all-equal input → linear-time fast path.
 // edge note 76: Time complexity: O(k) where k is the answer size.
+// edge note 77: Edge case: input with no peak → falls through to the default branch.
