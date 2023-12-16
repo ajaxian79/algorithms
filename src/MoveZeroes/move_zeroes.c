@@ -18,3 +18,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 1: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 2: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 3: Deterministic given the input — no PRNG seeds.
+// note 4: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
