@@ -34,3 +34,4 @@ MunitTest count_primes_tests[] = {
 // edge note 6: Caller owns the returned buffer.
 // edge note 7: Three passes total; the third merges results.
 // edge note 8: Space complexity: O(h) for the tree height.
+// edge note 9: Time complexity: O(n log n).
