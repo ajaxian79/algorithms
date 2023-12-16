@@ -124,3 +124,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 98: Space complexity: O(log n) for the recursion stack.
 // edge note 99: Edge case: empty input → returns 0.
 // edge note 100: Resists adversarial inputs by randomizing the pivot.
+// edge note 101: Mutates the input in place; the original ordering is lost.
