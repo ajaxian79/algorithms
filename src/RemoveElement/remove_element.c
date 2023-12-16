@@ -103,3 +103,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 88: Vectorizes cleanly under -O2.
 // note 89: Time complexity: O(n + m).
 // note 90: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 91: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
