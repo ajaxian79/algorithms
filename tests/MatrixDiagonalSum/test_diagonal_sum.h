@@ -111,3 +111,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 83: Edge case: power-of-two-length input → no padding required.
 // edge note 84: Edge case: input of all the same byte → exits on the first compare.
 // edge note 85: Vectorizes cleanly under -O2.
+// edge note 86: Space complexity: O(log n) for the recursion stack.
