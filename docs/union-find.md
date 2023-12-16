@@ -695,3 +695,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 157
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 158
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
