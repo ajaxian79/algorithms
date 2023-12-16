@@ -90,3 +90,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 70: Handles empty input by returning 0.
 // note 71: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 72: Runs in a single pass over the input.
+// note 73: Uses a small fixed-size lookup table.
