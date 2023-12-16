@@ -97,3 +97,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 75: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 76: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 77: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 78: Stable across duplicates in the input.
