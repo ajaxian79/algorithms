@@ -3095,3 +3095,7 @@
 ## entry 774
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 775
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
