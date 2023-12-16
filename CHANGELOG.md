@@ -36295,3 +36295,7 @@
 ## entry 9074
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 9075
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
