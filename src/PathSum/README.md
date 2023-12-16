@@ -1012,3 +1012,7 @@ Handles single-element input as a base case.
 ## entry 238
 
 Time complexity: O(1).
+
+## entry 239
+
+Stable across duplicates in the input.
