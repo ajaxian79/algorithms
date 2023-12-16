@@ -972,3 +972,7 @@ Vectorizes cleanly under -O2.
 ## entry 228
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 229
+
+Returns a freshly allocated string the caller must free.
