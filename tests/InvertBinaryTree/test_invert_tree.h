@@ -111,3 +111,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 69: Time complexity: O(n + m).
 // edge note 70: Best case is O(1) when the first byte already decides the answer.
 // edge note 71: Handles single-element input as a base case.
+// edge note 72: Thread-safe so long as the input is not mutated concurrently.
