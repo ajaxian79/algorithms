@@ -1006,3 +1006,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 237
 
 Worst case appears only on degenerate inputs.
+
+## entry 238
+
+Edge case: reverse-sorted input → still O(n log n).
