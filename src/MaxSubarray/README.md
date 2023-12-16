@@ -138,3 +138,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 20
 
 Space complexity: O(1) auxiliary.
+
+## entry 21
+
+Edge case: input with no peak → falls through to the default branch.
