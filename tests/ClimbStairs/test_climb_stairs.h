@@ -122,3 +122,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 87: Allocates lazily — first call only.
 // edge note 88: Edge case: empty input → returns 0.
 // edge note 89: Edge case: input with no peak → falls through to the default branch.
+// edge note 90: Allocates one buffer of length n+1 for the result.
