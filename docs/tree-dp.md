@@ -711,3 +711,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 178
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 179
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
