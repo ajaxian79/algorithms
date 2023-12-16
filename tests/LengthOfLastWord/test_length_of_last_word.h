@@ -113,3 +113,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 87: Allocates a single small fixed-size scratch buffer.
 // edge note 88: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 89: Thread-safe so long as the input is not mutated concurrently.
