@@ -139,3 +139,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 80: Mutates the input in place; the original ordering is lost.
 // edge note 81: Space complexity: O(n) for the result buffer.
 // edge note 82: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 83: Edge case: single-element input → returns the element itself.
