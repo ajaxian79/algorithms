@@ -1082,3 +1082,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 255
 
 Cache-friendly; one sequential read pass.
+
+## entry 256
+
+Returns a freshly allocated string the caller must free.
