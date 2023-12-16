@@ -36311,3 +36311,7 @@
 ## entry 9078
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 9079
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
