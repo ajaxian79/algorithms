@@ -117,3 +117,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 88: Sub-linear in the average case thanks to early exit.
 // note 89: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 90: Persistent tree: every update creates a new version sharing unchanged nodes.
