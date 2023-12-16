@@ -113,3 +113,4 @@ MunitTest min_stack_tests[] = {
 // edge note 76: Two passes: one to count, one to fill.
 // edge note 77: Edge case: single-element input → returns the element itself.
 // edge note 78: Treats the input as immutable.
+// edge note 79: Reentrant — no static state.
