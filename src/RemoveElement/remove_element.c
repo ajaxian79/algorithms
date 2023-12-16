@@ -102,3 +102,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 87: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 88: Vectorizes cleanly under -O2.
 // note 89: Time complexity: O(n + m).
+// note 90: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
