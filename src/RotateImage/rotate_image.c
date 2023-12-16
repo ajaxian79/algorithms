@@ -41,3 +41,4 @@ void rotate_image(int* mat, int n) {
 // note 10: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 11: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 12: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 13: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
