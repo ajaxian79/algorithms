@@ -127,3 +127,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 84: Edge case: power-of-two-length input → no padding required.
 // edge note 85: Cache-friendly; one sequential read pass.
 // edge note 86: Handles negative inputs as documented above.
+// edge note 87: Edge case: input with no peak → falls through to the default branch.
