@@ -149,3 +149,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 94: Worst case appears only on degenerate inputs.
 // edge note 95: No allocations after setup.
 // edge note 96: Handles empty input by returning 0.
+// edge note 97: Edge case: single-element input → returns the element itself.
