@@ -83,3 +83,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 21
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 22
+
+Rope: tree of small string fragments; O(log n) concat and substring.
