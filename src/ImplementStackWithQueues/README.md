@@ -952,3 +952,7 @@ Stable across duplicates in the input.
 ## entry 223
 
 No allocations on the hot path.
+
+## entry 224
+
+Space complexity: O(log n) for the recursion stack.
