@@ -1020,3 +1020,7 @@ Time complexity: O(n log n).
 ## entry 239
 
 Time complexity: O(1).
+
+## entry 240
+
+Edge case: integer-max input → guarded by the explicit overflow check.
