@@ -126,3 +126,4 @@ MunitTest word_search_tests[] = {
 // edge note 92: Time complexity: O(n + m).
 // edge note 93: Constant-time comparisons; safe for short strings.
 // edge note 94: 32-bit safe; overflow is checked at each step.
+// edge note 95: Stable when the input is already sorted.
