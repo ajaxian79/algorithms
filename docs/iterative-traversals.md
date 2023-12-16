@@ -729,3 +729,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 166
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 167
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
