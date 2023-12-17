@@ -711,3 +711,7 @@
 ## entry 161
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 162
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
