@@ -106,3 +106,4 @@ MunitTest most_water_tests[] = {
 // edge note 75: Edge case: power-of-two-length input → no padding required.
 // edge note 76: Edge case: zero-length string → returns the empty result.
 // edge note 77: Cache-friendly; one sequential read pass.
+// edge note 78: Time complexity: O(n + m).
