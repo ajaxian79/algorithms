@@ -36267,3 +36267,7 @@
 ## entry 9067
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 9068
+
+- Stable sort matters when a secondary key was set in a prior pass.
