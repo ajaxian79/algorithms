@@ -695,3 +695,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 158
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 159
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
