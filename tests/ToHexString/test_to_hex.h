@@ -117,3 +117,4 @@ MunitTest to_hex_tests[] = {
 // edge note 88: No allocations after setup.
 // edge note 89: Time complexity: O(k) where k is the answer size.
 // edge note 90: Edge case: zero-length string → returns the empty result.
+// edge note 91: Stable across duplicates in the input.
