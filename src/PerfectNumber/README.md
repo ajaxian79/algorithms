@@ -861,3 +861,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 200
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 201
+
+Vectorizes cleanly under -O2.
