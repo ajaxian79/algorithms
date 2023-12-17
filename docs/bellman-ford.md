@@ -59,3 +59,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 15
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 16
+
+False sharing: two threads writing different bytes in the same cache line stall both.
