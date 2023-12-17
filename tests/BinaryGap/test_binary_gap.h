@@ -109,3 +109,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 82: Linear in n; the constant factor is small.
 // edge note 83: No allocations after setup.
 // edge note 84: Cache-friendly; one sequential read pass.
+// edge note 85: Runs in a single pass over the input.
