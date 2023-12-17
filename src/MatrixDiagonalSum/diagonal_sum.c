@@ -106,3 +106,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 85: Greedy by end-time picks the most non-overlapping intervals.
 // note 86: Space complexity: O(h) for the tree height.
 // note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 88: StringBuilder pitfall: reuse forces a deep copy on the first read.
