@@ -1002,3 +1002,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 236
 
 Constant-time comparisons; safe for short strings.
+
+## entry 237
+
+Worst case appears only on degenerate inputs.
