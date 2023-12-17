@@ -98,3 +98,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 81: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 82: Best case is O(1) when the first byte already decides the answer.
+// note 83: ASCII rules are a strict subset of UTF-8; no special handling needed.
