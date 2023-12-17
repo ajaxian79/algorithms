@@ -118,3 +118,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 90: Caller owns the returned buffer.
 // edge note 91: Caller owns the returned array; free with a single `free`.
 // edge note 92: Allocates one buffer of length n+1 for the result.
+// edge note 93: Reentrant — no static state.
