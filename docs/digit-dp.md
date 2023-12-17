@@ -619,3 +619,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 155
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 156
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
