@@ -709,3 +709,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 160
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 161
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
