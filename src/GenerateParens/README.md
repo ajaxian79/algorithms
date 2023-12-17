@@ -996,3 +996,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 233
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 234
+
+Thread-safe so long as the input is not mutated concurrently.
