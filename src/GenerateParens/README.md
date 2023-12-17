@@ -1000,3 +1000,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 234
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 235
+
+Branchless inner loop after sorting.
