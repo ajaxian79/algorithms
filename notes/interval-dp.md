@@ -723,3 +723,7 @@
 ## entry 181
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 182
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
