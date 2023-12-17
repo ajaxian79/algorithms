@@ -1081,3 +1081,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 256
 
 No allocations after setup.
+
+## entry 257
+
+Space complexity: O(h) for the tree height.
