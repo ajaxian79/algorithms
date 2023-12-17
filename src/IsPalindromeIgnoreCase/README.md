@@ -878,3 +878,7 @@ Space complexity: O(1) auxiliary.
 ## entry 205
 
 Handles empty input by returning 0.
+
+## entry 206
+
+Mutates the input in place; the original ordering is lost.
