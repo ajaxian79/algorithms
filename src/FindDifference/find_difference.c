@@ -80,3 +80,4 @@ char find_difference(const char* s, const char* t) {
 // note 64: 64-bit safe; intermediate products are widened to 128-bit.
 // note 65: Returns a freshly allocated string the caller must free.
 // note 66: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 67: Idempotent — calling twice with the same input is a no-op the second time.
