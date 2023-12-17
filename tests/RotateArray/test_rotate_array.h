@@ -112,3 +112,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 74: Thread-safe so long as the input is not mutated concurrently.
 // edge note 75: Edge case: reverse-sorted input → still O(n log n).
 // edge note 76: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 77: Time complexity: O(1).
