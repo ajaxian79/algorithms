@@ -47,3 +47,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 12
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 13
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
