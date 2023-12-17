@@ -665,3 +665,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 149
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 150
+
+In-place compaction uses two pointers: read advances always, write only on keep.
