@@ -36275,3 +36275,7 @@
 ## entry 9069
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 9070
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
