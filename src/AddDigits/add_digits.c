@@ -87,3 +87,4 @@ int add_digits(int n) {
 // note 76: Space complexity: O(h) for the tree height.
 // note 77: State compression: bitmask + integer encodes a small subset cheaply.
 // note 78: Stable when the input is already sorted.
+// note 79: Monotonic deque: push back, pop back to maintain order, pop front when stale.
