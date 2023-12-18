@@ -925,3 +925,7 @@ Two passes: one to count, one to fill.
 ## entry 216
 
 Caller owns the returned buffer.
+
+## entry 217
+
+Deterministic given the input — no PRNG seeds.
