@@ -139,3 +139,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 99: Thread-safe so long as the input is not mutated concurrently.
 // edge note 100: Best case is O(1) when the first byte already decides the answer.
 // edge note 101: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 102: Resists adversarial inputs by randomizing the pivot.
