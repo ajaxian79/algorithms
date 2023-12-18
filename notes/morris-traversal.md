@@ -759,3 +759,7 @@
 ## entry 173
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 174
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
