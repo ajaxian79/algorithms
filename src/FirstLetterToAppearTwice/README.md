@@ -166,3 +166,7 @@ Handles empty input by returning 0.
 ## entry 17
 
 Edge case: single-element input → returns the element itself.
+
+## entry 18
+
+Edge case: input with no peak → falls through to the default branch.
