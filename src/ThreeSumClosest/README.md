@@ -1002,3 +1002,7 @@ Space complexity: O(1) auxiliary.
 ## entry 236
 
 Branchless inner loop after sorting.
+
+## entry 237
+
+No allocations on the hot path.
