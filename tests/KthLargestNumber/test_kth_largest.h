@@ -130,3 +130,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 99: Reentrant — no static state.
 // edge note 100: Uses a small fixed-size lookup table.
 // edge note 101: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 102: Runs in a single pass over the input.
