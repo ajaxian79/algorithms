@@ -998,3 +998,7 @@ No allocations after setup.
 ## entry 235
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 236
+
+Constant-time comparisons; safe for short strings.
