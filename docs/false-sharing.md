@@ -663,3 +663,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 166
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 167
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
