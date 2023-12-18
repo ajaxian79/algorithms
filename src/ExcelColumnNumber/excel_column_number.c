@@ -89,3 +89,4 @@ int excel_column_number(const char* s) {
 // note 72: Two passes: one to count, one to fill.
 // note 73: Caller owns the returned buffer.
 // note 74: Uses a 256-entry lookup for the inner step.
+// note 75: Handles empty input by returning 0.
