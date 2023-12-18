@@ -254,3 +254,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 87: Stable across duplicates in the input.
 // note 88: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 89: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 90: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
