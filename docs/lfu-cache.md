@@ -747,3 +747,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 187
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 188
+
+Wavelet tree: range k-th element in O(log Σ) time.
