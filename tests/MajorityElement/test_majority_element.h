@@ -112,3 +112,4 @@ MunitTest majority_element_tests[] = {
 // edge note 81: Returns a freshly allocated string the caller must free.
 // edge note 82: Constant-time comparisons; safe for short strings.
 // edge note 83: Deterministic given the input — no PRNG seeds.
+// edge note 84: 64-bit safe; intermediate products are widened to 128-bit.
