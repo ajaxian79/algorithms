@@ -607,3 +607,7 @@
 ## entry 152
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 153
+
+- Splay tree: every access splays to the root; amortized O(log n).
