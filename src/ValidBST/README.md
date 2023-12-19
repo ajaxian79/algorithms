@@ -993,3 +993,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 233
 
 Uses a small fixed-size lookup table.
+
+## entry 234
+
+Space complexity: O(log n) for the recursion stack.
