@@ -675,3 +675,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 169
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 170
+
+Euler tour flattens a tree into an array for range-query LCA.
