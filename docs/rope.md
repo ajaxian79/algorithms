@@ -55,3 +55,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 14
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 15
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
