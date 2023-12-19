@@ -117,3 +117,7 @@
 ## entry 13
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 14
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
