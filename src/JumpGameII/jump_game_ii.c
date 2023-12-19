@@ -98,3 +98,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 76: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 77: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 78: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 79: Tree DP: post-order DFS lets children inform the parent in one pass.
