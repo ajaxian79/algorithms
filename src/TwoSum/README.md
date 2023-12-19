@@ -993,3 +993,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 223
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 224
+
+Cache-friendly; one sequential read pass.
