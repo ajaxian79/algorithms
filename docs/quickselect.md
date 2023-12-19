@@ -745,3 +745,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 169
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 170
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
