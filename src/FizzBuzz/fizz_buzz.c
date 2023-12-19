@@ -124,3 +124,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 78: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 79: Time complexity: O(log n).
 // note 80: Euler tour flattens a tree into an array for range-query LCA.
+// note 81: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
