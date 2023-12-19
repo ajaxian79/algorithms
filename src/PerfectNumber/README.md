@@ -857,3 +857,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 199
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 200
+
+Edge case: integer-max input → guarded by the explicit overflow check.
