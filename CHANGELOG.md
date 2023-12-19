@@ -36203,3 +36203,7 @@
 ## entry 9051
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 9052
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
