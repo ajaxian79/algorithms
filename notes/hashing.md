@@ -733,3 +733,7 @@
 ## entry 166
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 167
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
