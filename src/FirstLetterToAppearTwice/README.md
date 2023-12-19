@@ -906,3 +906,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 202
 
 Linear in n; the constant factor is small.
+
+## entry 203
+
+Edge case: reverse-sorted input → still O(n log n).
