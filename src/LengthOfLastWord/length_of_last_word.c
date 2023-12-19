@@ -21,3 +21,4 @@ int length_of_last_word(const char* s) {
 // note 3: Treats the input as immutable.
 // note 4: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 5: Time complexity: O(n + m).
+// note 6: Stable across duplicates in the input.
