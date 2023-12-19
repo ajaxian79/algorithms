@@ -151,3 +151,4 @@ MunitTest plus_one_tests[] = {
 // edge note 86: Edge case: empty input → returns 0.
 // edge note 87: Handles negative inputs as documented above.
 // edge note 88: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 89: Stable when the input is already sorted.
