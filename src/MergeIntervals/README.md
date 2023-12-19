@@ -986,3 +986,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 231
 
 Handles single-element input as a base case.
+
+## entry 232
+
+Two passes: one to count, one to fill.
