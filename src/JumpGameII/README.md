@@ -968,3 +968,7 @@ No allocations after setup.
 ## entry 227
 
 Vectorizes cleanly under -O2.
+
+## entry 228
+
+Input is assumed non-NULL; behavior is undefined otherwise.
