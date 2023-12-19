@@ -123,3 +123,4 @@ void reverse_vowels(char* s) {
 // note 90: Idempotent — calling twice with the same input is a no-op the second time.
 // note 91: Space complexity: O(log n) for the recursion stack.
 // note 92: Space complexity: O(n) for the result buffer.
+// note 93: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
