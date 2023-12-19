@@ -114,3 +114,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 71: Space complexity: O(n) for the result buffer.
 // edge note 72: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 73: Resists adversarial inputs by randomizing the pivot.
+// edge note 74: Best case is O(1) when the first byte already decides the answer.
