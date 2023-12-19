@@ -691,3 +691,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 157
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 158
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
