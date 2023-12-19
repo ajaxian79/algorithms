@@ -1074,3 +1074,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 253
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 254
+
+Edge case: single-element input → returns the element itself.
