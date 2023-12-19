@@ -953,3 +953,7 @@ Caller owns the returned buffer.
 ## entry 223
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 224
+
+Edge case: empty input → returns 0.
