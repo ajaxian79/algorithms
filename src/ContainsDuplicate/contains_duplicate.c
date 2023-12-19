@@ -158,3 +158,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 79: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 80: Uses a small fixed-size lookup table.
 // note 81: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 82: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
