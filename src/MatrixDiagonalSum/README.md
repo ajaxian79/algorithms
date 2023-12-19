@@ -982,3 +982,7 @@ Vectorizes cleanly under -O2.
 ## entry 231
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 232
+
+No allocations on the hot path.
