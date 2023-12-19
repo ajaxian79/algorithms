@@ -1062,3 +1062,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 251
 
 Two passes: one to count, one to fill.
+
+## entry 252
+
+Best case is O(1) when the first byte already decides the answer.
