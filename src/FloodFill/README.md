@@ -1077,3 +1077,7 @@ Cache-friendly; one sequential read pass.
 ## entry 255
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 256
+
+No allocations after setup.
