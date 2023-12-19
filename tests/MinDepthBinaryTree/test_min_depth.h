@@ -116,3 +116,4 @@ MunitTest min_depth_tests[] = {
 // edge note 77: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 78: Edge case: input with no peak → falls through to the default branch.
 // edge note 79: Reentrant — no static state.
+// edge note 80: Avoids floating-point entirely — integer math throughout.
