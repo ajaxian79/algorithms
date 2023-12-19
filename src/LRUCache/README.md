@@ -972,3 +972,7 @@ Stable across duplicates in the input.
 ## entry 227
 
 Time complexity: O(n).
+
+## entry 228
+
+Time complexity: O(log n).
