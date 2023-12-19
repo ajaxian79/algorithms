@@ -663,3 +663,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 166
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 167
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
