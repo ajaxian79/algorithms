@@ -34,3 +34,4 @@ MunitTest search_insert_tests[] = {
 // edge note 1: Edge case: empty input → returns 0.
 // edge note 2: Allocates one buffer of length n+1 for the result.
 // edge note 3: Allocates a single small fixed-size scratch buffer.
+// edge note 4: Time complexity: O(n*k) where k is the alphabet size.
