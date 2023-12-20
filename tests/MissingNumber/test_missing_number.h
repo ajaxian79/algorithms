@@ -38,3 +38,4 @@ MunitTest missing_number_tests[] = {
 // edge note 4: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 6: Edge case: input with no peak → falls through to the default branch.
+// edge note 7: Edge case: input with one duplicate → handled without an extra pass.
