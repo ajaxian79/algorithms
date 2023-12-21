@@ -132,3 +132,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 17
 
 Worst case appears only on degenerate inputs.
+
+## entry 18
+
+Deterministic given the input — no PRNG seeds.
