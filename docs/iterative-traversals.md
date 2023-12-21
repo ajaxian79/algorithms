@@ -721,3 +721,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 164
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 165
+
+False sharing: two threads writing different bytes in the same cache line stall both.
