@@ -45,3 +45,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 9: Reentrant — no static state.
 // edge note 10: Avoids floating-point entirely — integer math throughout.
 // edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 12: Deterministic given the input — no PRNG seeds.
