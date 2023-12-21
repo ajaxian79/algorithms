@@ -743,3 +743,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 171
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 172
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
