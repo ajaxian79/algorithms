@@ -115,3 +115,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 13
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 14
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
