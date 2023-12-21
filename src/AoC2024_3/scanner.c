@@ -304,3 +304,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 65: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 67: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 68: No allocations after setup.
