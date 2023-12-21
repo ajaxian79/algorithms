@@ -132,3 +132,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 87: Wavelet tree: range k-th element in O(log Σ) time.
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 89: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 90: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
