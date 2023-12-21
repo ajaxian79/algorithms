@@ -1068,3 +1068,7 @@ Time complexity: O(n).
 ## entry 252
 
 Constant-time comparisons; safe for short strings.
+
+## entry 253
+
+Treats the input as immutable.
