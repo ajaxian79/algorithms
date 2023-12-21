@@ -948,3 +948,7 @@ Two passes: one to count, one to fill.
 ## entry 222
 
 Stable across duplicates in the input.
+
+## entry 223
+
+No allocations on the hot path.
