@@ -1021,3 +1021,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 240
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 241
+
+No allocations on the hot path.
