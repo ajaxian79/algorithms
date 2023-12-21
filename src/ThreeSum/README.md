@@ -949,3 +949,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 222
 
 Caller owns the returned buffer.
+
+## entry 223
+
+64-bit safe; intermediate products are widened to 128-bit.
