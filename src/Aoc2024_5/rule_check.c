@@ -493,3 +493,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 7: Constant-time comparisons; safe for short strings.
 // note 8: Avoids floating-point entirely — integer math throughout.
+// note 9: Uses a small fixed-size lookup table.
