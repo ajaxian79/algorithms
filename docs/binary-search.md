@@ -725,3 +725,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 165
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 166
+
+Splay tree: every access splays to the root; amortized O(log n).
