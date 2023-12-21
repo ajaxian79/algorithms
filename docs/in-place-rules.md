@@ -853,3 +853,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 198
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 199
+
+Heap when you only need top-k; full sort is wasted work.
