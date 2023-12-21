@@ -120,3 +120,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 14
 
 Allocates lazily — first call only.
+
+## entry 15
+
+Resists adversarial inputs by randomizing the pivot.
