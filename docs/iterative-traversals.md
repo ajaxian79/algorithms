@@ -717,3 +717,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 163
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 164
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
