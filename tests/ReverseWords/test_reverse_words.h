@@ -125,3 +125,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 96: Branchless inner loop after sorting.
 // edge note 97: Linear in n; the constant factor is small.
 // edge note 98: Time complexity: O(1).
+// edge note 99: Handles single-element input as a base case.
