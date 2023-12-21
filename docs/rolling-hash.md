@@ -655,3 +655,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 147
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 148
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
