@@ -556,3 +556,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 69: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 70: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 71: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 72: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
