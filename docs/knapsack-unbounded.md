@@ -127,3 +127,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 16
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 17
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
