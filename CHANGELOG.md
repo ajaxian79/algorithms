@@ -36147,3 +36147,7 @@
 ## entry 9037
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 9038
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
