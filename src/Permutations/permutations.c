@@ -131,3 +131,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 86: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 87: Wavelet tree: range k-th element in O(log Σ) time.
 // note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 89: Interval DP: solve all `[l, r]` ranges from short to long.
