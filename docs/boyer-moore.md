@@ -687,3 +687,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 156
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 157
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
