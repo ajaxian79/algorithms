@@ -1006,3 +1006,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 236
 
 Edge case: empty input → returns 0.
+
+## entry 237
+
+Treats the input as immutable.
