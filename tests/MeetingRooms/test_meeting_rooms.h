@@ -110,3 +110,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 79: Time complexity: O(n).
 // edge note 80: Deterministic given the input — no PRNG seeds.
 // edge note 81: Edge case: reverse-sorted input → still O(n log n).
+// edge note 82: Edge case: input with a single peak → handled by the first-pass scan.
