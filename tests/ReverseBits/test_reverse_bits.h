@@ -98,3 +98,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 72: Allocates lazily — first call only.
 // edge note 73: Branchless inner loop after sorting.
 // edge note 74: Caller owns the returned buffer.
+// edge note 75: Edge case: all-equal input → linear-time fast path.
