@@ -100,3 +100,4 @@ void rotate_image(int* mat, int n) {
 // note 69: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 70: Handles empty input by returning 0.
 // note 71: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 72: Branchless inner loop after sorting.
