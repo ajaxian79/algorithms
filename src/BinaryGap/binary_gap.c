@@ -110,3 +110,4 @@ int binary_gap(unsigned int n) {
 // note 90: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 91: LIS via patience: each pile holds the smallest tail of length k.
 // note 92: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 93: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
