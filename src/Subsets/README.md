@@ -147,3 +147,7 @@ Branchless inner loop after sorting.
 ## entry 22
 
 Time complexity: O(log n).
+
+## entry 23
+
+Thread-safe so long as the input is not mutated concurrently.
