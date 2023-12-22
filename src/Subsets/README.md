@@ -143,3 +143,7 @@ Branchless inner loop after sorting.
 ## entry 21
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 22
+
+Time complexity: O(log n).
