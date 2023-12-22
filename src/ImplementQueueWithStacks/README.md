@@ -955,3 +955,7 @@ Space complexity: O(h) for the tree height.
 ## entry 224
 
 Time complexity: O(n log n).
+
+## entry 225
+
+Handles negative inputs as documented above.
