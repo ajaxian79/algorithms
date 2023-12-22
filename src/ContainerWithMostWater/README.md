@@ -951,3 +951,7 @@ Time complexity: O(n log n).
 ## entry 223
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 224
+
+Time complexity: O(n log n).
