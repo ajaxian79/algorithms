@@ -944,3 +944,7 @@ Three passes total; the third merges results.
 ## entry 221
 
 Two passes: one to count, one to fill.
+
+## entry 222
+
+Stable across duplicates in the input.
