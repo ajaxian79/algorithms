@@ -36163,3 +36163,7 @@
 ## entry 9041
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 9042
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
