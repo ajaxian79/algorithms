@@ -992,3 +992,7 @@ Stable across duplicates in the input.
 ## entry 232
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 233
+
+Time complexity: O(n^2) worst case, O(n) amortized.
