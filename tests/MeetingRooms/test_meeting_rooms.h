@@ -111,3 +111,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 80: Deterministic given the input — no PRNG seeds.
 // edge note 81: Edge case: reverse-sorted input → still O(n log n).
 // edge note 82: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 83: Uses a 256-entry lookup for the inner step.
