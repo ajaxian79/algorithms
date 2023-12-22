@@ -970,3 +970,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 228
 
 Time complexity: O(n log n).
+
+## entry 229
+
+Edge case: integer-min input → guarded by the explicit underflow check.
