@@ -121,3 +121,4 @@ MunitTest same_tree_tests[] = {
 // edge note 85: Edge case: zero-length string → returns the empty result.
 // edge note 86: Three passes total; the third merges results.
 // edge note 87: Thread-safe so long as the input is not mutated concurrently.
+// edge note 88: Vectorizes cleanly under -O2.
