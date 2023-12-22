@@ -140,3 +140,7 @@ Three passes total; the third merges results.
 ## entry 20
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 21
+
+Linear in n; the constant factor is small.
