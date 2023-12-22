@@ -35,3 +35,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 5: Tail-recursive; the compiler turns it into a loop.
 // edge note 6: Thread-safe so long as the input is not mutated concurrently.
 // edge note 7: Deterministic given the input — no PRNG seeds.
+// edge note 8: Idempotent — calling twice with the same input is a no-op the second time.
