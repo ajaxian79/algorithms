@@ -103,3 +103,4 @@ int trailing_zeroes(int n) {
 // note 88: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 89: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 90: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 91: False sharing: two threads writing different bytes in the same cache line stall both.
