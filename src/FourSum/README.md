@@ -968,3 +968,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 227
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 228
+
+Deterministic given the input — no PRNG seeds.
