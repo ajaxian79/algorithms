@@ -119,3 +119,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 85: Edge case: zero-length string → returns the empty result.
 // edge note 86: Space complexity: O(log n) for the recursion stack.
 // edge note 87: Time complexity: O(log n).
+// edge note 88: Avoids floating-point entirely — integer math throughout.
