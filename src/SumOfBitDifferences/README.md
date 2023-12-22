@@ -884,3 +884,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 206
 
 Caller owns the returned buffer.
+
+## entry 207
+
+Reentrant — no static state.
