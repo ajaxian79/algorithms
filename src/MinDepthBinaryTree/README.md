@@ -914,3 +914,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 214
 
 Handles negative inputs as documented above.
+
+## entry 215
+
+Caller owns the returned buffer.
