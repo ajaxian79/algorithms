@@ -983,3 +983,7 @@ Handles empty input by returning 0.
 ## entry 230
 
 Caller owns the returned buffer.
+
+## entry 231
+
+Avoids floating-point entirely — integer math throughout.
