@@ -125,3 +125,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 15
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 16
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
