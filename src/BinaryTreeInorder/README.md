@@ -142,3 +142,7 @@ Vectorizes cleanly under -O2.
 ## entry 21
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 22
+
+Edge case: already-sorted input → no swaps performed.
