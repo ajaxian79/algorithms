@@ -130,3 +130,7 @@ Branchless inner loop after sorting.
 ## entry 18
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 19
+
+Constant-time comparisons; safe for short strings.
