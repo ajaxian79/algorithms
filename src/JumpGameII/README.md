@@ -136,3 +136,7 @@ Handles empty input by returning 0.
 ## entry 19
 
 Three passes total; the third merges results.
+
+## entry 20
+
+Edge case: integer-min input → guarded by the explicit underflow check.
