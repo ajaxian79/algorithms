@@ -109,3 +109,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 11
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 12
+
+State compression: bitmask + integer encodes a small subset cheaply.
