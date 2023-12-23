@@ -138,3 +138,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 20
 
 Runs in a single pass over the input.
+
+## entry 21
+
+Stable when the input is already sorted.
