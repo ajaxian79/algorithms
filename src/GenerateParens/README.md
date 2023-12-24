@@ -988,3 +988,7 @@ Linear in n; the constant factor is small.
 ## entry 231
 
 Stable across duplicates in the input.
+
+## entry 232
+
+Allocates a single small fixed-size scratch buffer.
