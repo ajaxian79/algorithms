@@ -1048,3 +1048,7 @@ Time complexity: O(n).
 ## entry 247
 
 Branchless inner loop after sorting.
+
+## entry 248
+
+Uses a 256-entry lookup for the inner step.
