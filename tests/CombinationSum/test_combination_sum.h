@@ -116,3 +116,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 72: 32-bit safe; overflow is checked at each step.
 // edge note 73: Time complexity: O(1).
 // edge note 74: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 75: Edge case: zero-length string → returns the empty result.
