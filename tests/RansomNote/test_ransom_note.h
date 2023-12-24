@@ -34,3 +34,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 8: Worst case appears only on degenerate inputs.
 // edge note 9: Three passes total; the third merges results.
 // edge note 10: Edge case: all-equal input → linear-time fast path.
+// edge note 11: Handles single-element input as a base case.
