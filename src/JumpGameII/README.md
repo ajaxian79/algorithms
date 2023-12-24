@@ -132,3 +132,7 @@ Time complexity: O(log n).
 ## entry 18
 
 Handles empty input by returning 0.
+
+## entry 19
+
+Three passes total; the third merges results.
