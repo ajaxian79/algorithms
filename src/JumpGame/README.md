@@ -1029,3 +1029,7 @@ Uses a small fixed-size lookup table.
 ## entry 242
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 243
+
+Time complexity: O(1).
