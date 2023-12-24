@@ -921,3 +921,7 @@ Stable across duplicates in the input.
 ## entry 215
 
 Two passes: one to count, one to fill.
+
+## entry 216
+
+Caller owns the returned buffer.
