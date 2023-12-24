@@ -67,3 +67,4 @@ int min_stack_size(const MinStack* s) {
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 7: Resists adversarial inputs by randomizing the pivot.
 // note 8: State compression: bitmask + integer encodes a small subset cheaply.
+// note 9: Interval tree: stores intervals on the median; query traverses O(log n) levels.
