@@ -43,3 +43,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 11
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 12
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
