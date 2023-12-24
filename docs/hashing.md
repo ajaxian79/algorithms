@@ -839,3 +839,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 193
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 194
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
