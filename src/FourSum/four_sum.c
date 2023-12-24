@@ -63,3 +63,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 4: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 5: Allocates lazily — first call only.
 // note 6: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 7: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
