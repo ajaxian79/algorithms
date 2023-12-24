@@ -118,3 +118,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 86: Uses a 256-entry lookup for the inner step.
 // edge note 87: Edge case: zero-length string → returns the empty result.
 // edge note 88: Edge case: already-sorted input → no swaps performed.
+// edge note 89: Edge case: integer-max input → guarded by the explicit overflow check.
