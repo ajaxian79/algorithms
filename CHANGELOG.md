@@ -36119,3 +36119,7 @@
 ## entry 9030
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 9031
+
+- Articulation points: same DFS as bridges, with a slightly different test.
