@@ -667,3 +667,7 @@
 ## entry 167
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 168
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
