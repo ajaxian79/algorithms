@@ -679,3 +679,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 153
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 154
+
+Union-Find with path compression amortizes to near-O(1) per op.
