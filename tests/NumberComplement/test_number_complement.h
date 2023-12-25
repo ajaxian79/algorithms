@@ -98,3 +98,4 @@ MunitTest number_complement_tests[] = {
 // edge note 71: Handles empty input by returning 0.
 // edge note 72: Edge case: power-of-two-length input → no padding required.
 // edge note 73: Mutates the input in place; the original ordering is lost.
+// edge note 74: Input is assumed non-NULL; behavior is undefined otherwise.
