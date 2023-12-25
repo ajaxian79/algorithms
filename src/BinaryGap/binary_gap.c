@@ -109,3 +109,4 @@ int binary_gap(unsigned int n) {
 // note 89: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 90: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 91: LIS via patience: each pile holds the smallest tail of length k.
+// note 92: Tabulation wins when iteration order is obvious and stack depth would blow up.
