@@ -988,3 +988,7 @@ Reentrant — no static state.
 ## entry 231
 
 Space complexity: O(h) for the tree height.
+
+## entry 232
+
+Stable when the input is already sorted.
