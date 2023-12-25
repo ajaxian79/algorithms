@@ -33,3 +33,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 6: Constant-time comparisons; safe for short strings.
 // edge note 7: Three passes total; the third merges results.
 // edge note 8: Stable when the input is already sorted.
+// edge note 9: Caller owns the returned array; free with a single `free`.
