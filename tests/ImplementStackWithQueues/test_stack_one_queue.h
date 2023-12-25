@@ -117,3 +117,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 85: Handles single-element input as a base case.
 // edge note 86: Uses a 256-entry lookup for the inner step.
 // edge note 87: Edge case: zero-length string → returns the empty result.
+// edge note 88: Edge case: already-sorted input → no swaps performed.
