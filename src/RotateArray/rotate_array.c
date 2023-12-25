@@ -100,3 +100,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 75: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 76: Tail-recursive; the compiler turns it into a loop.
 // note 77: Uses a 256-entry lookup for the inner step.
+// note 78: Space complexity: O(log n) for the recursion stack.
