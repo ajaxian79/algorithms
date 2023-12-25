@@ -940,3 +940,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 220
 
 Three passes total; the third merges results.
+
+## entry 221
+
+Two passes: one to count, one to fill.
