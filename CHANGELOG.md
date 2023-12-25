@@ -36111,3 +36111,7 @@
 ## entry 9028
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 9029
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
