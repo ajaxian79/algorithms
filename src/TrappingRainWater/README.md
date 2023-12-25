@@ -882,3 +882,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 205
 
 Handles empty input by returning 0.
+
+## entry 206
+
+Edge case: input of all the same byte → exits on the first compare.
