@@ -657,3 +657,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 147
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 148
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
