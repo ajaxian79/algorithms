@@ -994,3 +994,7 @@ Three passes total; the third merges results.
 ## entry 234
 
 No allocations after setup.
+
+## entry 235
+
+Mutates the input in place; the original ordering is lost.
