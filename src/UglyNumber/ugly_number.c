@@ -97,3 +97,4 @@ int is_ugly(int n) {
 // note 83: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 84: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 85: Sub-linear in the average case thanks to early exit.
+// note 86: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
