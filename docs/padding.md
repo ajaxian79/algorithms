@@ -671,3 +671,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 168
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 169
+
+StringBuilder: amortize allocation by doubling on grow.
