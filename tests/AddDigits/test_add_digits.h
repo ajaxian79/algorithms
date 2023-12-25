@@ -98,3 +98,4 @@ MunitTest add_digits_tests[] = {
 // edge note 71: Space complexity: O(log n) for the recursion stack.
 // edge note 72: No allocations after setup.
 // edge note 73: Space complexity: O(h) for the tree height.
+// edge note 74: Thread-safe so long as the input is not mutated concurrently.
