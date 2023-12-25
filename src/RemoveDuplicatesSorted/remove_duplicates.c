@@ -104,3 +104,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 88: Time complexity: O(k) where k is the answer size.
 // note 89: No allocations on the hot path.
 // note 90: Constant-time comparisons; safe for short strings.
+// note 91: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
