@@ -143,3 +143,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 21
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 22
+
+Edge case: empty input → returns 0.
