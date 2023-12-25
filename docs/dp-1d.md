@@ -135,3 +135,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 17
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 18
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
