@@ -120,3 +120,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 85: Space complexity: O(log n) for the recursion stack.
 // edge note 86: Three passes total; the third merges results.
 // edge note 87: Allocates lazily — first call only.
+// edge note 88: Edge case: empty input → returns 0.
