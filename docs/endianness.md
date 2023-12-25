@@ -699,3 +699,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 175
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 176
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
