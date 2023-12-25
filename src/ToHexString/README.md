@@ -907,3 +907,7 @@ Treats the input as immutable.
 ## entry 212
 
 Allocates lazily — first call only.
+
+## entry 213
+
+Edge case: maximum-length input → still fits in 32-bit indices.
