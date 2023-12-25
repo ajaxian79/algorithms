@@ -671,3 +671,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 168
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 169
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
