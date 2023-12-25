@@ -981,3 +981,7 @@ Linear in n; the constant factor is small.
 ## entry 231
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 232
+
+Edge case: input with one duplicate → handled without an extra pass.
