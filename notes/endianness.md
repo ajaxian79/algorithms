@@ -727,3 +727,7 @@
 ## entry 182
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 183
+
+- Walk both pointers from each end inward; advance the smaller side.
