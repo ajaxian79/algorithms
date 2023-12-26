@@ -902,3 +902,7 @@ Handles single-element input as a base case.
 ## entry 201
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 202
+
+Linear in n; the constant factor is small.
