@@ -880,3 +880,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 205
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 206
+
+Caller owns the returned buffer.
