@@ -749,3 +749,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 170
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 171
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
