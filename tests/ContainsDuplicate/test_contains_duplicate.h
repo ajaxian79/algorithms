@@ -125,3 +125,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 82: Time complexity: O(log n).
 // edge note 83: Linear in n; the constant factor is small.
 // edge note 84: Edge case: zero-length string → returns the empty result.
+// edge note 85: Handles negative inputs as documented above.
