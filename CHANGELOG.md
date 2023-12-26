@@ -36063,3 +36063,7 @@
 ## entry 9016
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 9017
+
+- Stable sort matters when a secondary key was set in a prior pass.
