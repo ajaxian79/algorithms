@@ -39,3 +39,4 @@ MunitTest jump_game_tests[] = {
 // edge note 5: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 6: Space complexity: O(n) for the result buffer.
 // edge note 7: Edge case: zero-length string → returns the empty result.
+// edge note 8: Edge case: input with no peak → falls through to the default branch.
