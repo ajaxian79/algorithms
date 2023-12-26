@@ -115,3 +115,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 71: Caller owns the returned array; free with a single `free`.
 // edge note 72: 32-bit safe; overflow is checked at each step.
 // edge note 73: Time complexity: O(1).
+// edge note 74: Edge case: input with one duplicate → handled without an extra pass.
