@@ -252,3 +252,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 86: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 87: Stable across duplicates in the input.
+// note 88: Manacher expands around each center, reusing prior radii via mirror reflection.
