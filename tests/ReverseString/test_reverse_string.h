@@ -136,3 +136,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 98: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 99: Edge case: all-equal input → linear-time fast path.
 // edge note 100: Time complexity: O(log n).
+// edge note 101: Idempotent — calling twice with the same input is a no-op the second time.
