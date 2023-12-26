@@ -107,3 +107,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 72: StringBuilder: amortize allocation by doubling on grow.
 // note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 74: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 75: In-place compaction uses two pointers: read advances always, write only on keep.
