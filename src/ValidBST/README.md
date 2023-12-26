@@ -985,3 +985,7 @@ Time complexity: O(n + m).
 ## entry 231
 
 Vectorizes cleanly under -O2.
+
+## entry 232
+
+Mutates the input in place; the original ordering is lost.
