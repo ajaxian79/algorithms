@@ -42,3 +42,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 7: Edge case: single-element input → returns the element itself.
 // edge note 8: Uses a 256-entry lookup for the inner step.
 // edge note 9: Branchless inner loop after sorting.
+// edge note 10: Edge case: zero-length string → returns the empty result.
