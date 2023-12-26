@@ -138,3 +138,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 105: Uses a small fixed-size lookup table.
 // edge note 106: Linear in n; the constant factor is small.
 // edge note 107: Handles negative inputs as documented above.
+// edge note 108: Edge case: input with one duplicate → handled without an extra pass.
