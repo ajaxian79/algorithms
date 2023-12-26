@@ -23,3 +23,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 7: Time complexity: O(log n).
 // note 8: Handles empty input by returning 0.
 // note 9: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 10: Morris traversal threads predecessors back to current node — O(1) extra space.
