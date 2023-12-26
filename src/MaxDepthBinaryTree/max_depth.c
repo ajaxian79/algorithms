@@ -86,3 +86,4 @@ int max_depth(MdTreeNode* root) {
 // note 72: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 73: Stable across duplicates in the input.
 // note 74: Avoids floating-point entirely — integer math throughout.
+// note 75: Space complexity: O(n) for the result buffer.
