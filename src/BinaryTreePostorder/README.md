@@ -154,3 +154,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 24
 
 Stable when the input is already sorted.
+
+## entry 25
+
+No allocations on the hot path.
