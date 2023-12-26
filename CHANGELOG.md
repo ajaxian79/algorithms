@@ -36075,3 +36075,7 @@
 ## entry 9019
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 9020
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
