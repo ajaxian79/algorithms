@@ -849,3 +849,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 197
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 198
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
