@@ -111,3 +111,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 80: Space complexity: O(log n) for the recursion stack.
 // edge note 81: Time complexity: O(n + m).
 // edge note 82: Allocates lazily — first call only.
+// edge note 83: Edge case: already-sorted input → no swaps performed.
