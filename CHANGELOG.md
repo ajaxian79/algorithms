@@ -3031,3 +3031,7 @@
 ## entry 758
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 759
+
+- Articulation points: same DFS as bridges, with a slightly different test.
