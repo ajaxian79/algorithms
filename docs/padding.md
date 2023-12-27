@@ -667,3 +667,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 167
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 168
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
