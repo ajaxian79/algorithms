@@ -981,3 +981,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 230
 
 Time complexity: O(n + m).
+
+## entry 231
+
+Vectorizes cleanly under -O2.
