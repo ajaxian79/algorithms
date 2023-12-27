@@ -93,3 +93,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 70: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 71: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
