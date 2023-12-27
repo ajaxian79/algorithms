@@ -251,3 +251,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 84: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 86: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 87: Stable across duplicates in the input.
