@@ -978,3 +978,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 230
 
 Vectorizes cleanly under -O2.
+
+## entry 231
+
+Allocates a single small fixed-size scratch buffer.
