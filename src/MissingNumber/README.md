@@ -1062,3 +1062,7 @@ Vectorizes cleanly under -O2.
 ## entry 250
 
 Uses a small fixed-size lookup table.
+
+## entry 251
+
+Tail-recursive; the compiler turns it into a loop.
