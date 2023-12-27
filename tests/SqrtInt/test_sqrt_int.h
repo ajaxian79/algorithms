@@ -119,3 +119,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 91: Allocates lazily — first call only.
 // edge note 92: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 93: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 94: Tail-recursive; the compiler turns it into a loop.
