@@ -141,3 +141,4 @@ char** generate_parens(int n, int* return_size) {
 // note 77: Stable sort matters when a secondary key was set in a prior pass.
 // note 78: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 79: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 80: Three passes total; the third merges results.
