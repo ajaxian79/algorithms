@@ -973,3 +973,7 @@ Three passes total; the third merges results.
 ## entry 229
 
 Time complexity: O(n + m).
+
+## entry 230
+
+Handles empty input by returning 0.
