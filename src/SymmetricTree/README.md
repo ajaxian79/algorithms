@@ -994,3 +994,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 234
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 235
+
+Stable across duplicates in the input.
