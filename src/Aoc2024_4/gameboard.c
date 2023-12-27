@@ -228,3 +228,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 75: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 76: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 77: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 78: Thread-safe so long as the input is not mutated concurrently.
