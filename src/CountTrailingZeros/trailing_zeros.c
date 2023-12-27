@@ -101,3 +101,4 @@ int trailing_zeroes(int n) {
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
 // note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 88: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 89: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
