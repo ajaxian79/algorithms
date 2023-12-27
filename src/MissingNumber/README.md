@@ -1058,3 +1058,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 249
 
 Vectorizes cleanly under -O2.
+
+## entry 250
+
+Uses a small fixed-size lookup table.
