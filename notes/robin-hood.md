@@ -659,3 +659,7 @@
 ## entry 165
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 166
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
