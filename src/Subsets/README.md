@@ -1027,3 +1027,7 @@ Caller owns the returned buffer.
 ## entry 242
 
 Time complexity: O(n + m).
+
+## entry 243
+
+Sub-linear in the average case thanks to early exit.
