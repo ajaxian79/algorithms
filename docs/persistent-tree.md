@@ -55,3 +55,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 14
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 15
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
