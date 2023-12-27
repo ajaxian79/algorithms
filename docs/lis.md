@@ -111,3 +111,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 11
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 12
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
