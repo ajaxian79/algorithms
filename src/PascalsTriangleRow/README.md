@@ -1042,3 +1042,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 246
 
 32-bit safe; overflow is checked at each step.
+
+## entry 247
+
+Space complexity: O(log n) for the recursion stack.
