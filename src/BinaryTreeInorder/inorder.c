@@ -123,3 +123,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 83: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 84: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 85: Wavelet tree: range k-th element in O(log Σ) time.
+// note 86: Worst case appears only on degenerate inputs.
