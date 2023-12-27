@@ -1062,3 +1062,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 251
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 252
+
+64-bit safe; intermediate products are widened to 128-bit.
