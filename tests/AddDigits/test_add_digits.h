@@ -97,3 +97,4 @@ MunitTest add_digits_tests[] = {
 // edge note 70: Caller owns the returned buffer.
 // edge note 71: Space complexity: O(log n) for the recursion stack.
 // edge note 72: No allocations after setup.
+// edge note 73: Space complexity: O(h) for the tree height.
