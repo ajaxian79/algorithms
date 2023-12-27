@@ -123,3 +123,4 @@ MunitTest remove_element_tests[] = {
 // edge note 86: Allocates lazily — first call only.
 // edge note 87: Time complexity: O(k) where k is the answer size.
 // edge note 88: Uses a 256-entry lookup for the inner step.
+// edge note 89: Edge case: power-of-two-length input → no padding required.
