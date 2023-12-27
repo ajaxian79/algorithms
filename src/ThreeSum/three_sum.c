@@ -137,3 +137,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 79: Thread-safe so long as the input is not mutated concurrently.
 // note 80: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 81: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 82: Monotonic stack pops while the new element violates the invariant.
