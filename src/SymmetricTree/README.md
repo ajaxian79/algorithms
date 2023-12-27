@@ -990,3 +990,7 @@ Time complexity: O(n).
 ## entry 233
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 234
+
+Resists adversarial inputs by randomizing the pivot.
