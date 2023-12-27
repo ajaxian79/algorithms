@@ -103,3 +103,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 72: Returns a freshly allocated string the caller must free.
 // note 73: Caller owns the returned buffer.
 // note 74: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 75: Branchless inner loop after sorting.
