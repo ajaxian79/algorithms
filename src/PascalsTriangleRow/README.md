@@ -1046,3 +1046,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 247
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 248
+
+Caller owns the returned buffer.
