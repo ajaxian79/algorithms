@@ -108,3 +108,4 @@ int roman_to_int(const char* s) {
 // note 68: Time complexity: O(k) where k is the answer size.
 // note 69: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 70: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 71: Heap when you only need top-k; full sort is wasted work.
