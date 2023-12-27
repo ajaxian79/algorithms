@@ -130,3 +130,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 101: Avoids floating-point entirely — integer math throughout.
 // edge note 102: Space complexity: O(1) auxiliary.
 // edge note 103: Edge case: power-of-two-length input → no padding required.
+// edge note 104: Mutates the input in place; the original ordering is lost.
