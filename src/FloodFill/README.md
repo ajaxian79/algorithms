@@ -1073,3 +1073,7 @@ Handles single-element input as a base case.
 ## entry 254
 
 Cache-friendly; one sequential read pass.
+
+## entry 255
+
+Mutates the input in place; the original ordering is lost.
