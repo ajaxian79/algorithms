@@ -1038,3 +1038,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 245
 
 Time complexity: O(1).
+
+## entry 246
+
+64-bit safe; intermediate products are widened to 128-bit.
