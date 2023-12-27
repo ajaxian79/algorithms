@@ -127,3 +127,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 93: Cache-friendly; one sequential read pass.
 // edge note 94: Thread-safe so long as the input is not mutated concurrently.
 // edge note 95: Allocates lazily — first call only.
+// edge note 96: Space complexity: O(log n) for the recursion stack.
