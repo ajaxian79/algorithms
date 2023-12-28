@@ -131,3 +131,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 18
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 19
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
