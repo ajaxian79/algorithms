@@ -763,3 +763,7 @@
 ## entry 174
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 175
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
