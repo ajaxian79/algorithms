@@ -124,3 +124,4 @@ char* int_to_roman(int n) {
 // note 87: Handles empty input by returning 0.
 // note 88: Articulation points: same DFS as bridges, with a slightly different test.
 // note 89: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 90: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
