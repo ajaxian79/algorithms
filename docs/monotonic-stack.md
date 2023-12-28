@@ -621,3 +621,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 139
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 140
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
