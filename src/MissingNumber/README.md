@@ -150,3 +150,7 @@ Handles empty input by returning 0.
 ## entry 22
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 23
+
+Edge case: maximum-length input → still fits in 32-bit indices.
