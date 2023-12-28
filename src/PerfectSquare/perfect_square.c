@@ -92,3 +92,4 @@ int is_perfect_square(int n) {
 // note 73: Heap when you only need top-k; full sort is wasted work.
 // note 74: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 75: Uses a 256-entry lookup for the inner step.
+// note 76: Edit distance is LCS with a twist: substitution is a third option at each cell.
