@@ -63,3 +63,7 @@
 ## entry 16
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 17
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
