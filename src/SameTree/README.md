@@ -944,3 +944,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 222
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 223
+
+Edge case: integer-max input → guarded by the explicit overflow check.
