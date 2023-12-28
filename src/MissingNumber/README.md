@@ -1054,3 +1054,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 248
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 249
+
+Vectorizes cleanly under -O2.
