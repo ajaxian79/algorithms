@@ -787,3 +787,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 197
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 198
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
