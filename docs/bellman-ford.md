@@ -743,3 +743,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 186
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 187
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
