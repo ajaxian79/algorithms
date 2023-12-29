@@ -591,3 +591,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 148
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 149
+
+StringBuilder: amortize allocation by doubling on grow.
