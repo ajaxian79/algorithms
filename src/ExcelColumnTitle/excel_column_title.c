@@ -119,3 +119,4 @@ char* excel_column_title(int n) {
 // note 89: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 90: Worst case appears only on degenerate inputs.
 // note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 92: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
