@@ -3019,3 +3019,7 @@
 ## entry 755
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 756
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
