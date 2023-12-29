@@ -995,3 +995,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 233
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 234
+
+Handles negative inputs as documented above.
