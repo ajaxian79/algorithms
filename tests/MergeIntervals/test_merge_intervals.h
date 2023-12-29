@@ -138,3 +138,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 96: Stable across duplicates in the input.
 // edge note 97: Edge case: zero-length string → returns the empty result.
 // edge note 98: Uses a 256-entry lookup for the inner step.
+// edge note 99: 64-bit safe; intermediate products are widened to 128-bit.
