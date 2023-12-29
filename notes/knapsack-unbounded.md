@@ -633,3 +633,7 @@
 ## entry 142
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 143
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
