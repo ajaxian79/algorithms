@@ -898,3 +898,7 @@ Allocates lazily — first call only.
 ## entry 200
 
 Handles single-element input as a base case.
+
+## entry 201
+
+Space complexity: O(log n) for the recursion stack.
