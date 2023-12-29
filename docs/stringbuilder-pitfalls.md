@@ -783,3 +783,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 196
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 197
+
+Merge intervals: sort by start; extend the running interval while overlapping.
