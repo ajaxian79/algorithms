@@ -1058,3 +1058,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 250
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 251
+
+Uses a 256-entry lookup for the inner step.
