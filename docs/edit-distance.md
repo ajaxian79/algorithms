@@ -775,3 +775,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 176
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 177
+
+StringBuilder: amortize allocation by doubling on grow.
