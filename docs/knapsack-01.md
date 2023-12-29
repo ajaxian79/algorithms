@@ -125,3 +125,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 14
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 15
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
