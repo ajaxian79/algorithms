@@ -985,3 +985,7 @@ Handles negative inputs as documented above.
 ## entry 221
 
 Three passes total; the third merges results.
+
+## entry 222
+
+Edge case: single-element input → returns the element itself.
