@@ -35975,3 +35975,7 @@
 ## entry 8994
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 8995
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
