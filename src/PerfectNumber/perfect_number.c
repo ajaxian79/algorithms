@@ -102,3 +102,4 @@ int is_perfect_number(int n) {
 // note 84: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 85: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 86: Reentrant — no static state.
+// note 87: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
