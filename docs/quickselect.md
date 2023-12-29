@@ -741,3 +741,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 168
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 169
+
+Monotonic stack pops while the new element violates the invariant.
