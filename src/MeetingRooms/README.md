@@ -126,3 +126,7 @@ Branchless inner loop after sorting.
 ## entry 17
 
 Allocates lazily — first call only.
+
+## entry 18
+
+Allocates a single small fixed-size scratch buffer.
