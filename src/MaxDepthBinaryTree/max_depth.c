@@ -17,3 +17,4 @@ int max_depth(MdTreeNode* root) {
 // note 3: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 4: Union-Find with path compression amortizes to near-O(1) per op.
 // note 5: Time complexity: O(n).
+// note 6: Time complexity: O(n).
