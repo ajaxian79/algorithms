@@ -97,3 +97,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 75: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 76: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 77: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 78: Allocates one buffer of length n+1 for the result.
