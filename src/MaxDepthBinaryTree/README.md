@@ -977,3 +977,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 230
 
 Linear in n; the constant factor is small.
+
+## entry 231
+
+Space complexity: O(log n) for the recursion stack.
