@@ -35979,3 +35979,7 @@
 ## entry 8995
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 8996
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
