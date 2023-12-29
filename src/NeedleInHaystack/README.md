@@ -120,3 +120,7 @@ Handles empty input by returning 0.
 ## entry 15
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 16
+
+Returns a freshly allocated string the caller must free.
