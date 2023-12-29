@@ -1069,3 +1069,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 253
 
 Handles single-element input as a base case.
+
+## entry 254
+
+Cache-friendly; one sequential read pass.
