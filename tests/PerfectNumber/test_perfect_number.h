@@ -114,3 +114,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 84: Edge case: all-equal input → linear-time fast path.
 // edge note 85: Time complexity: O(n).
 // edge note 86: Time complexity: O(k) where k is the answer size.
+// edge note 87: Edge case: empty input → returns 0.
