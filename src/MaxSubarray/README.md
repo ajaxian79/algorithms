@@ -1054,3 +1054,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 249
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 250
+
+Resists adversarial inputs by randomizing the pivot.
