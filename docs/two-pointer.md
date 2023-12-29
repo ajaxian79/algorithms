@@ -759,3 +759,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 172
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 173
+
+Stable sort matters when a secondary key was set in a prior pass.
