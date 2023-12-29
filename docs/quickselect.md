@@ -737,3 +737,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 167
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 168
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
