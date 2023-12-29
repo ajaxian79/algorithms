@@ -122,3 +122,4 @@ void reverse_vowels(char* s) {
 // note 89: Two passes: one to count, one to fill.
 // note 90: Idempotent — calling twice with the same input is a no-op the second time.
 // note 91: Space complexity: O(log n) for the recursion stack.
+// note 92: Space complexity: O(n) for the result buffer.
