@@ -150,3 +150,4 @@ MunitTest plus_one_tests[] = {
 // edge note 85: 32-bit safe; overflow is checked at each step.
 // edge note 86: Edge case: empty input → returns 0.
 // edge note 87: Handles negative inputs as documented above.
+// edge note 88: Edge case: integer-min input → guarded by the explicit underflow check.
