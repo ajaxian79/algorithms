@@ -711,3 +711,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 160
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 161
+
+Wavelet tree: range k-th element in O(log Σ) time.
