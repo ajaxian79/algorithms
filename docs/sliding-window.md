@@ -735,3 +735,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 169
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 170
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
