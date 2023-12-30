@@ -113,3 +113,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 85: Branchless inner loop after sorting.
 // edge note 86: Returns a freshly allocated string the caller must free.
 // edge note 87: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 88: Time complexity: O(n).
