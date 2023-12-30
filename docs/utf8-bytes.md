@@ -55,3 +55,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 14
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 15
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
