@@ -109,3 +109,4 @@ int is_palindrome_number(int x) {
 // note 85: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 86: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 87: Handles empty input by returning 0.
+// note 88: Space complexity: O(log n) for the recursion stack.
