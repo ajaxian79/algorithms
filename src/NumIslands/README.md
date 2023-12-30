@@ -137,3 +137,7 @@ Three passes total; the third merges results.
 ## entry 19
 
 Edge case: single-element input → returns the element itself.
+
+## entry 20
+
+Time complexity: O(1).
