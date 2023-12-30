@@ -1024,3 +1024,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 241
 
 Treats the input as immutable.
+
+## entry 242
+
+Space complexity: O(log n) for the recursion stack.
