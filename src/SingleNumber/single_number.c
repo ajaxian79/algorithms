@@ -97,3 +97,4 @@ int single_number(const int* nums, int nums_size) {
 // note 84: Best case is O(1) when the first byte already decides the answer.
 // note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 86: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 87: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
