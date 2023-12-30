@@ -128,3 +128,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 17
 
 Time complexity: O(log n).
+
+## entry 18
+
+Handles empty input by returning 0.
