@@ -941,3 +941,7 @@ Handles single-element input as a base case.
 ## entry 220
 
 Vectorizes cleanly under -O2.
+
+## entry 221
+
+Space complexity: O(log n) for the recursion stack.
