@@ -123,3 +123,4 @@ char* int_to_roman(int n) {
 // note 86: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 87: Handles empty input by returning 0.
 // note 88: Articulation points: same DFS as bridges, with a slightly different test.
+// note 89: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
