@@ -125,3 +125,7 @@
 ## entry 15
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 16
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
