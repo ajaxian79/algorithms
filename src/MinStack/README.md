@@ -1002,3 +1002,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 236
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 237
+
+Edge case: already-sorted input → no swaps performed.
