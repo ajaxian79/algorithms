@@ -24,3 +24,4 @@ int is_perfect_number(int n) {
 // note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 7: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 8: Euler tour flattens a tree into an array for range-query LCA.
+// note 9: Cache-friendly; one sequential read pass.
