@@ -30,3 +30,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 2: Edge case: zero-length string → returns the empty result.
 // edge note 3: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 4: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 5: Branchless inner loop after sorting.
