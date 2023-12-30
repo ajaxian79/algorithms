@@ -663,3 +663,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 166
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 167
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
