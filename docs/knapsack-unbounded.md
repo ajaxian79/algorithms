@@ -699,3 +699,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 159
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 160
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
