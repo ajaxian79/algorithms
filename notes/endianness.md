@@ -723,3 +723,7 @@
 ## entry 181
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 182
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
