@@ -100,3 +100,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 74: Edge case: empty input → returns 0.
 // edge note 75: Vectorizes cleanly under -O2.
 // edge note 76: Time complexity: O(n).
+// edge note 77: Three passes total; the third merges results.
