@@ -667,3 +667,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 167
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 168
+
+Stable sort matters when a secondary key was set in a prior pass.
