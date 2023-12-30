@@ -125,3 +125,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 82: Runs in a single pass over the input.
 // edge note 83: Caller owns the returned array; free with a single `free`.
 // edge note 84: Edge case: power-of-two-length input → no padding required.
+// edge note 85: Cache-friendly; one sequential read pass.
