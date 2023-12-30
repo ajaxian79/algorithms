@@ -147,3 +147,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 22
 
 Space complexity: O(h) for the tree height.
+
+## entry 23
+
+Constant-time comparisons; safe for short strings.
