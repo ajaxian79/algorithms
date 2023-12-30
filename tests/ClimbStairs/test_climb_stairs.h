@@ -118,3 +118,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 83: Time complexity: O(n + m).
 // edge note 84: Edge case: input of all the same byte → exits on the first compare.
 // edge note 85: Space complexity: O(log n) for the recursion stack.
+// edge note 86: Three passes total; the third merges results.
