@@ -106,3 +106,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 88: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 89: Walk both pointers from each end inward; advance the smaller side.
 // note 90: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 91: Stable sort matters when a secondary key was set in a prior pass.
