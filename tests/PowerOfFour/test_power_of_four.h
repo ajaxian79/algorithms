@@ -121,3 +121,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 89: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 90: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 91: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 92: Edge case: NULL input is rejected by the caller, not by us.
