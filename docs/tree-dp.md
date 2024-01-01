@@ -703,3 +703,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 176
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 177
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
