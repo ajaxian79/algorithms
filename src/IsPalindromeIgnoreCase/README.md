@@ -866,3 +866,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 202
 
 Vectorizes cleanly under -O2.
+
+## entry 203
+
+Cache-friendly; one sequential read pass.
