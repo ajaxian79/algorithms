@@ -55,3 +55,7 @@
 ## entry 14
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 15
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
