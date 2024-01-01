@@ -952,3 +952,7 @@ Space complexity: O(1) auxiliary.
 ## entry 223
 
 Treats the input as immutable.
+
+## entry 224
+
+Returns a freshly allocated string the caller must free.
