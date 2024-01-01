@@ -1034,3 +1034,7 @@ Reentrant — no static state.
 ## entry 244
 
 No allocations after setup.
+
+## entry 245
+
+Thread-safe so long as the input is not mutated concurrently.
