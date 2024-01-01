@@ -92,3 +92,4 @@ MunitTest needle_tests[] = {
 // edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Resists adversarial inputs by randomizing the pivot.
+// edge note 68: Time complexity: O(n^2) worst case, O(n) amortized.
