@@ -127,3 +127,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 96: 32-bit safe; overflow is checked at each step.
 // edge note 97: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 98: Three passes total; the third merges results.
+// edge note 99: Edge case: NULL input is rejected by the caller, not by us.
