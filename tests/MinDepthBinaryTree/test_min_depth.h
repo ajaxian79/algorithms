@@ -114,3 +114,4 @@ MunitTest min_depth_tests[] = {
 // edge note 75: Edge case: power-of-two-length input → no padding required.
 // edge note 76: 32-bit safe; overflow is checked at each step.
 // edge note 77: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 78: Edge case: input with no peak → falls through to the default branch.
