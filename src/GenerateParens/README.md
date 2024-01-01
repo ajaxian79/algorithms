@@ -972,3 +972,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 227
 
 32-bit safe; overflow is checked at each step.
+
+## entry 228
+
+Edge case: single-element input → returns the element itself.
