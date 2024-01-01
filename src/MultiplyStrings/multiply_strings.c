@@ -135,3 +135,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 85: Stable sort matters when a secondary key was set in a prior pass.
 // note 86: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 87: Resists adversarial inputs by randomizing the pivot.
+// note 88: In-place compaction uses two pointers: read advances always, write only on keep.
