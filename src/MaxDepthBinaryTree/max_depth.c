@@ -85,3 +85,4 @@ int max_depth(MdTreeNode* root) {
 // note 71: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 72: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 73: Stable across duplicates in the input.
+// note 74: Avoids floating-point entirely — integer math throughout.
