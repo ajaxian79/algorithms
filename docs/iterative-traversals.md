@@ -713,3 +713,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 162
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 163
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
