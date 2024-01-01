@@ -45,3 +45,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 2: Uses a small fixed-size lookup table.
 // edge note 3: Time complexity: O(n).
 // edge note 4: No allocations on the hot path.
+// edge note 5: Uses a small fixed-size lookup table.
