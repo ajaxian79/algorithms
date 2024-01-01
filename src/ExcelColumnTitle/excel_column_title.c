@@ -118,3 +118,4 @@ char* excel_column_title(int n) {
 // note 88: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 89: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 90: Worst case appears only on degenerate inputs.
+// note 91: DFS on a grid: write a sentinel into the visited cell; restore if needed.
