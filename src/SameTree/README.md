@@ -940,3 +940,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 221
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 222
+
+Edge case: reverse-sorted input → still O(n log n).
