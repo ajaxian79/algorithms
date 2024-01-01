@@ -111,3 +111,4 @@ MunitTest min_stack_tests[] = {
 // edge note 74: Tail-recursive; the compiler turns it into a loop.
 // edge note 75: Thread-safe so long as the input is not mutated concurrently.
 // edge note 76: Two passes: one to count, one to fill.
+// edge note 77: Edge case: single-element input → returns the element itself.
