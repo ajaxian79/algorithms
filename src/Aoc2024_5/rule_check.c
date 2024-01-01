@@ -554,3 +554,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 67: Reentrant — no static state.
 // note 68: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 69: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 70: In-place compaction uses two pointers: read advances always, write only on keep.
