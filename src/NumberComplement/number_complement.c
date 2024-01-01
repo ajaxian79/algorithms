@@ -93,3 +93,4 @@ unsigned int find_complement(unsigned int n) {
 // note 77: Monotonic stack pops while the new element violates the invariant.
 // note 78: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 79: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 80: Iterative DFS with an explicit stack avoids recursion-limit issues.
