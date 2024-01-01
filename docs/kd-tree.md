@@ -667,3 +667,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 167
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 168
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
