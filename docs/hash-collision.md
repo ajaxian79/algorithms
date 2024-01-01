@@ -659,3 +659,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 165
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 166
+
+Merge intervals: sort by start; extend the running interval while overlapping.
