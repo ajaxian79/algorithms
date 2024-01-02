@@ -675,3 +675,7 @@
 ## entry 169
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 170
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
