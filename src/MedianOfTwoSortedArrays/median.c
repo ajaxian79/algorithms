@@ -234,3 +234,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 98: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 99: Tail-recursive; the compiler turns it into a loop.
 // note 100: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 101: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
