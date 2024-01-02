@@ -63,3 +63,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 16
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 17
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
