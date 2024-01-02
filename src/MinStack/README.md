@@ -134,3 +134,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 19
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 20
+
+Branchless inner loop after sorting.
