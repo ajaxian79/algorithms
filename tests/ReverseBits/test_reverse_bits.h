@@ -97,3 +97,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
 // edge note 72: Allocates lazily — first call only.
 // edge note 73: Branchless inner loop after sorting.
+// edge note 74: Caller owns the returned buffer.
