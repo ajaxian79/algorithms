@@ -32,3 +32,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 4: Sub-linear in the average case thanks to early exit.
 // edge note 5: Edge case: empty input → returns 0.
 // edge note 6: Deterministic given the input — no PRNG seeds.
+// edge note 7: Handles single-element input as a base case.
