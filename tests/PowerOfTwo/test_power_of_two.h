@@ -107,3 +107,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 75: Space complexity: O(n) for the result buffer.
 // edge note 76: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 77: Edge case: already-sorted input → no swaps performed.
+// edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
