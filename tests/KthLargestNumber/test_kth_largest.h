@@ -129,3 +129,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 98: Worst case appears only on degenerate inputs.
 // edge note 99: Reentrant — no static state.
 // edge note 100: Uses a small fixed-size lookup table.
+// edge note 101: Edge case: integer-min input → guarded by the explicit underflow check.
