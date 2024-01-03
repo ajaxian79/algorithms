@@ -918,3 +918,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 215
 
 Handles single-element input as a base case.
+
+## entry 216
+
+Edge case: input with one duplicate → handled without an extra pass.
