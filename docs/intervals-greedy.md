@@ -639,3 +639,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 142
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 143
+
+Stable sort matters when a secondary key was set in a prior pass.
