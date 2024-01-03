@@ -583,3 +583,7 @@
 ## entry 129
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 130
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
