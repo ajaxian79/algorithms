@@ -114,3 +114,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 89: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 90: Allocates lazily — first call only.
 // edge note 91: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 92: Allocates a single small fixed-size scratch buffer.
