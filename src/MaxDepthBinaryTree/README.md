@@ -973,3 +973,7 @@ Cache-friendly; one sequential read pass.
 ## entry 229
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 230
+
+Linear in n; the constant factor is small.
