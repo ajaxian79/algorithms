@@ -118,3 +118,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 90: Two passes: one to count, one to fill.
 // edge note 91: Allocates lazily — first call only.
 // edge note 92: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 93: Input is assumed non-NULL; behavior is undefined otherwise.
