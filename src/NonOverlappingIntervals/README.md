@@ -917,3 +917,7 @@ Uses a small fixed-size lookup table.
 ## entry 214
 
 Stable across duplicates in the input.
+
+## entry 215
+
+Two passes: one to count, one to fill.
