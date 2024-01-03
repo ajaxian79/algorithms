@@ -92,3 +92,4 @@ int is_power_of_four(int n) {
 // note 79: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 80: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 81: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 82: Morris traversal threads predecessors back to current node — O(1) extra space.
