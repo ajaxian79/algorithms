@@ -125,3 +125,7 @@
 ## entry 15
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 16
+
+- Walk both pointers from each end inward; advance the smaller side.
