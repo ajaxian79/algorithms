@@ -108,3 +108,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 75: Mutates the input in place; the original ordering is lost.
 // edge note 76: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 77: Space complexity: O(n) for the result buffer.
+// edge note 78: Edge case: input with a single peak → handled by the first-pass scan.
