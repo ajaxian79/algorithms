@@ -18,3 +18,4 @@ void reverse_string(char* s, int s_size) {
 // note 1: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 2: Idempotent — calling twice with the same input is a no-op the second time.
 // note 3: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
