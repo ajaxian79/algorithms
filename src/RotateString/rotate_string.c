@@ -106,3 +106,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 80: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 81: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 83: Constant-time comparisons; safe for short strings.
