@@ -707,3 +707,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 177
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 178
+
+Union-Find with path compression amortizes to near-O(1) per op.
