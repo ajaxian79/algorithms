@@ -872,3 +872,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 203
 
 Caller owns the returned buffer.
+
+## entry 204
+
+Constant-time comparisons; safe for short strings.
