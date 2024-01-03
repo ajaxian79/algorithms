@@ -120,3 +120,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 77: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 78: Constant-time comparisons; safe for short strings.
 // note 79: Space complexity: O(1) auxiliary.
+// note 80: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
