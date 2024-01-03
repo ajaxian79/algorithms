@@ -998,3 +998,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 235
 
 Returns a freshly allocated string the caller must free.
+
+## entry 236
+
+Tail-recursive; the compiler turns it into a loop.
