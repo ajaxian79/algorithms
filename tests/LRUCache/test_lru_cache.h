@@ -138,3 +138,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 95: No allocations after setup.
 // edge note 96: Resists adversarial inputs by randomizing the pivot.
 // edge note 97: Handles negative inputs as documented above.
+// edge note 98: Reentrant — no static state.
