@@ -968,3 +968,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 226
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 227
+
+32-bit safe; overflow is checked at each step.
