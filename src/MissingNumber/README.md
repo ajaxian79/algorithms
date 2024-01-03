@@ -1050,3 +1050,7 @@ Branchless inner loop after sorting.
 ## entry 247
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 248
+
+Resists adversarial inputs by randomizing the pivot.
