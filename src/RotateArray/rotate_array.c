@@ -98,3 +98,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 73: Handles negative inputs as documented above.
 // note 74: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 75: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 76: Tail-recursive; the compiler turns it into a loop.
