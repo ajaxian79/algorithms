@@ -39,3 +39,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 9: No allocations on the hot path.
 // edge note 10: Uses a small fixed-size lookup table.
 // edge note 11: Returns a freshly allocated string the caller must free.
+// edge note 12: Runs in a single pass over the input.
