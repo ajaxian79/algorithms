@@ -987,3 +987,7 @@ Time complexity: O(1).
 ## entry 231
 
 Time complexity: O(n log n).
+
+## entry 232
+
+Uses a 256-entry lookup for the inner step.
