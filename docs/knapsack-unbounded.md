@@ -695,3 +695,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 158
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 159
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
