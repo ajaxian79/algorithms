@@ -707,3 +707,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 177
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 178
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
