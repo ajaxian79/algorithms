@@ -948,3 +948,7 @@ Space complexity: O(1) auxiliary.
 ## entry 222
 
 Space complexity: O(1) auxiliary.
+
+## entry 223
+
+Treats the input as immutable.
