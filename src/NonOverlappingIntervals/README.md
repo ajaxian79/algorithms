@@ -913,3 +913,7 @@ Three passes total; the third merges results.
 ## entry 213
 
 Uses a small fixed-size lookup table.
+
+## entry 214
+
+Stable across duplicates in the input.
