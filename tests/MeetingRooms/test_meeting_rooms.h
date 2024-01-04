@@ -108,3 +108,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 77: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 78: Tail-recursive; the compiler turns it into a loop.
 // edge note 79: Time complexity: O(n).
+// edge note 80: Deterministic given the input — no PRNG seeds.
