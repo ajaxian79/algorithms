@@ -1065,3 +1065,7 @@ Edge case: empty input → returns 0.
 ## entry 252
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 253
+
+Handles single-element input as a base case.
