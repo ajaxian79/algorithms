@@ -117,3 +117,4 @@ char* excel_column_title(int n) {
 // note 87: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 88: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 89: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 90: Worst case appears only on degenerate inputs.
