@@ -127,3 +127,4 @@ MunitTest missing_number_tests[] = {
 // edge note 93: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 94: Two passes: one to count, one to fill.
 // edge note 95: Time complexity: O(n).
+// edge note 96: Space complexity: O(n) for the result buffer.
