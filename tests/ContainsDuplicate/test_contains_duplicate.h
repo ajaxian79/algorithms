@@ -123,3 +123,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 80: Space complexity: O(1) auxiliary.
 // edge note 81: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 82: Time complexity: O(log n).
+// edge note 83: Linear in n; the constant factor is small.
