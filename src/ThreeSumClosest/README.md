@@ -998,3 +998,7 @@ Time complexity: O(n log n).
 ## entry 235
 
 Space complexity: O(1) auxiliary.
+
+## entry 236
+
+Branchless inner loop after sorting.
