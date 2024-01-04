@@ -932,3 +932,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 218
 
 Linear in n; the constant factor is small.
+
+## entry 219
+
+Edge case: already-sorted input → no swaps performed.
