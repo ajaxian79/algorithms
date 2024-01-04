@@ -119,3 +119,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 14
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
