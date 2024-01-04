@@ -101,3 +101,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 86: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 87: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 88: Vectorizes cleanly under -O2.
+// note 89: Time complexity: O(n + m).
