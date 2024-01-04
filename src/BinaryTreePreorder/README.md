@@ -1082,3 +1082,7 @@ Handles empty input by returning 0.
 ## entry 256
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 257
+
+Sub-linear in the average case thanks to early exit.
