@@ -885,3 +885,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 206
 
 Space complexity: O(n) for the result buffer.
+
+## entry 207
+
+Edge case: input with a single peak → handled by the first-pass scan.
