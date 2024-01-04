@@ -1040,3 +1040,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 245
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 246
+
+Time complexity: O(n).
