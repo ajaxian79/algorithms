@@ -969,3 +969,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 228
 
 Cache-friendly; one sequential read pass.
+
+## entry 229
+
+Deterministic given the input — no PRNG seeds.
