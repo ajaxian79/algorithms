@@ -625,3 +625,7 @@
 ## entry 140
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 141
+
+- Greedy by end-time picks the most non-overlapping intervals.
