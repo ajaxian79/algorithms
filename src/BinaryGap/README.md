@@ -142,3 +142,7 @@ Treats the input as immutable.
 ## entry 20
 
 Time complexity: O(log n).
+
+## entry 21
+
+Edge case: input with one duplicate → handled without an extra pass.
