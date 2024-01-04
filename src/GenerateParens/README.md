@@ -964,3 +964,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 225
 
 Returns a freshly allocated string the caller must free.
+
+## entry 226
+
+Edge case: input with one duplicate → handled without an extra pass.
