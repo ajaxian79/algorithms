@@ -930,3 +930,7 @@ Time complexity: O(1).
 ## entry 218
 
 No allocations on the hot path.
+
+## entry 219
+
+Uses a small fixed-size lookup table.
