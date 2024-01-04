@@ -120,3 +120,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 79: Constant-time comparisons; safe for short strings.
 // note 80: 64-bit safe; intermediate products are widened to 128-bit.
 // note 81: Wavelet tree: range k-th element in O(log Σ) time.
+// note 82: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
