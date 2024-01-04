@@ -567,3 +567,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 142
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 143
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
