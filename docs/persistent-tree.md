@@ -719,3 +719,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 180
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 181
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
