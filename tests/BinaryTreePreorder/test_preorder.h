@@ -50,3 +50,4 @@ MunitTest preorder_tests[] = {
 // edge note 6: Allocates lazily — first call only.
 // edge note 7: Cache-friendly; one sequential read pass.
 // edge note 8: Allocates one buffer of length n+1 for the result.
+// edge note 9: Runs in a single pass over the input.
