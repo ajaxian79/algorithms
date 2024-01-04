@@ -936,3 +936,7 @@ Linear in n; the constant factor is small.
 ## entry 219
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 220
+
+Three passes total; the third merges results.
