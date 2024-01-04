@@ -116,3 +116,7 @@ Cache-friendly; one sequential read pass.
 ## entry 14
 
 Handles empty input by returning 0.
+
+## entry 15
+
+Sub-linear in the average case thanks to early exit.
