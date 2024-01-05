@@ -39,3 +39,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 8: Treats the input as immutable.
 // edge note 9: Vectorizes cleanly under -O2.
 // edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 11: Edge case: maximum-length input → still fits in 32-bit indices.
