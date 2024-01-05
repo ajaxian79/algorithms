@@ -134,3 +134,7 @@ Caller owns the returned buffer.
 ## entry 18
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 19
+
+Cache-friendly; one sequential read pass.
