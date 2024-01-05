@@ -964,3 +964,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 225
 
 Constant-time comparisons; safe for short strings.
+
+## entry 226
+
+Stable across duplicates in the input.
