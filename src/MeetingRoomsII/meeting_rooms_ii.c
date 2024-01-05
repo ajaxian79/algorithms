@@ -128,3 +128,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 83: Union-Find with path compression amortizes to near-O(1) per op.
 // note 84: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 85: Handles single-element input as a base case.
+// note 86: Allocates a single small fixed-size scratch buffer.
