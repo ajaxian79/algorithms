@@ -88,3 +88,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 68: Time complexity: O(1).
 // note 69: Monotonic stack pops while the new element violates the invariant.
 // note 70: Handles empty input by returning 0.
+// note 71: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
