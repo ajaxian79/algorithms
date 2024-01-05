@@ -938,3 +938,7 @@ Reentrant — no static state.
 ## entry 219
 
 Three passes total; the third merges results.
+
+## entry 220
+
+Worst case appears only on degenerate inputs.
