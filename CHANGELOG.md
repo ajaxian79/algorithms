@@ -2979,3 +2979,7 @@
 ## entry 745
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 746
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
