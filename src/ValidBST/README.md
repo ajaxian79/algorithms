@@ -973,3 +973,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 228
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 229
+
+Edge case: input with a single peak → handled by the first-pass scan.
