@@ -655,3 +655,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 164
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 165
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
