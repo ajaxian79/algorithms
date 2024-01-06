@@ -673,3 +673,7 @@
 ## entry 153
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 154
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
