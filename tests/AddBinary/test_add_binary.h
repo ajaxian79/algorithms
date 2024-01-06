@@ -38,3 +38,4 @@ MunitTest add_binary_tests[] = {
 // edge note 2: Space complexity: O(1) auxiliary.
 // edge note 3: Time complexity: O(n + m).
 // edge note 4: Branchless inner loop after sorting.
+// edge note 5: Allocates a single small fixed-size scratch buffer.
