@@ -35787,3 +35787,7 @@
 ## entry 8947
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 8948
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
