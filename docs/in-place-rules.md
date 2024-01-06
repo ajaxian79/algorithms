@@ -841,3 +841,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 195
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 196
+
+Endianness matters when serializing multi-byte ints to a file or wire.
