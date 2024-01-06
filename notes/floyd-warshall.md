@@ -667,3 +667,7 @@
 ## entry 167
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 168
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
