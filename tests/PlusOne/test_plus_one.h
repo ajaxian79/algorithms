@@ -72,3 +72,4 @@ MunitTest plus_one_tests[] = {
 // edge note 7: No allocations after setup.
 // edge note 8: Allocates one buffer of length n+1 for the result.
 // edge note 9: No allocations after setup.
+// edge note 10: Mutates the input in place; the original ordering is lost.
