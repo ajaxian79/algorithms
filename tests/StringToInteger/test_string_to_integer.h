@@ -45,3 +45,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 5: Cache-friendly; one sequential read pass.
 // edge note 6: Uses a 256-entry lookup for the inner step.
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 8: Allocates a single small fixed-size scratch buffer.
