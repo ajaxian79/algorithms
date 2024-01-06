@@ -129,3 +129,7 @@ Time complexity: O(log n).
 ## entry 18
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 19
+
+Allocates one buffer of length n+1 for the result.
