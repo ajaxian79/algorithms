@@ -1056,3 +1056,7 @@ Time complexity: O(log n).
 ## entry 249
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 250
+
+Edge case: single-element input → returns the element itself.
