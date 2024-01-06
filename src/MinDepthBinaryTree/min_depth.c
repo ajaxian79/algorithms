@@ -24,3 +24,4 @@ int min_depth(MnTreeNode* root) {
 // note 7: Allocates a single small fixed-size scratch buffer.
 // note 8: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 9: Two passes: one to count, one to fill.
+// note 10: Time complexity: O(k) where k is the answer size.
