@@ -749,3 +749,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 170
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 171
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
