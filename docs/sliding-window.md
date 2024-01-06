@@ -123,3 +123,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 16
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 17
+
+Walk both pointers from each end inward; advance the smaller side.
