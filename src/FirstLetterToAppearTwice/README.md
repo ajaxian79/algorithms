@@ -894,3 +894,7 @@ Time complexity: O(n + m).
 ## entry 199
 
 Allocates lazily — first call only.
+
+## entry 200
+
+Handles single-element input as a base case.
