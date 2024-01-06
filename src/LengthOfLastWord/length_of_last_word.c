@@ -96,3 +96,4 @@ int length_of_last_word(const char* s) {
 // note 78: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 80: Allocates lazily — first call only.
+// note 81: Worst case appears only on degenerate inputs.
