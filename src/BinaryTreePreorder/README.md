@@ -1078,3 +1078,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 255
 
 Handles empty input by returning 0.
+
+## entry 256
+
+Allocates one buffer of length n+1 for the result.
