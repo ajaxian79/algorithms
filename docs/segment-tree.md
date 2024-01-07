@@ -69,3 +69,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Greedy by end-time picks the most non-overlapping intervals.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
