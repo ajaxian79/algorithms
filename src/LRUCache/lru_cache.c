@@ -249,3 +249,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 83: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 84: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
