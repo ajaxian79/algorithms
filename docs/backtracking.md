@@ -101,3 +101,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 8
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 9
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
