@@ -67,3 +67,5 @@ Monotonic stack pops while the new element violates the invariant.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
