@@ -119,3 +119,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 76: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 77: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 78: Constant-time comparisons; safe for short strings.
+// note 79: Space complexity: O(1) auxiliary.
