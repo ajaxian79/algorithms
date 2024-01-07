@@ -1017,3 +1017,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 239
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 240
+
+Uses a 256-entry lookup for the inner step.
