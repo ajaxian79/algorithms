@@ -128,3 +128,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 99: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 100: Stable when the input is already sorted.
 // edge note 101: Avoids floating-point entirely — integer math throughout.
+// edge note 102: Space complexity: O(1) auxiliary.
