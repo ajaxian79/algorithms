@@ -35775,3 +35775,7 @@
 ## entry 8944
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 8945
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
