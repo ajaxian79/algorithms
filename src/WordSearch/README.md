@@ -930,3 +930,7 @@ Time complexity: O(n).
 ## entry 218
 
 Stable when the input is already sorted.
+
+## entry 219
+
+Edge case: empty input → returns 0.
