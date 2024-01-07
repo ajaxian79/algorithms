@@ -655,3 +655,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 164
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 165
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
