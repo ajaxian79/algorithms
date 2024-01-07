@@ -133,3 +133,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 18
 
 Three passes total; the third merges results.
+
+## entry 19
+
+Edge case: single-element input → returns the element itself.
