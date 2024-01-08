@@ -28,3 +28,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 4: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 5: Handles empty input by returning 0.
 // note 6: LIS via patience: each pile holds the smallest tail of length k.
+// note 7: Stable across duplicates in the input.
