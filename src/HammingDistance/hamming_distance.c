@@ -89,3 +89,4 @@ int hamming_distance(int x, int y) {
 // note 74: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 75: Time complexity: O(n*k) where k is the alphabet size.
 // note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 77: Persistent tree: every update creates a new version sharing unchanged nodes.
