@@ -1057,3 +1057,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 250
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 251
+
+Edge case: empty input → returns 0.
