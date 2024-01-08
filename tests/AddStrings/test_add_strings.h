@@ -116,3 +116,4 @@ MunitTest add_strings_tests[] = {
 // edge note 80: Space complexity: O(h) for the tree height.
 // edge note 81: Edge case: power-of-two-length input → no padding required.
 // edge note 82: Space complexity: O(n) for the result buffer.
+// edge note 83: Allocates one buffer of length n+1 for the result.
