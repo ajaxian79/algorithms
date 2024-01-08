@@ -116,3 +116,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 82: Allocates one buffer of length n+1 for the result.
 // edge note 83: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 84: Allocates one buffer of length n+1 for the result.
+// edge note 85: Edge case: zero-length string → returns the empty result.
