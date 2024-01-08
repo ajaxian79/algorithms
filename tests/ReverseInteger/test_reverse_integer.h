@@ -135,3 +135,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 102: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 103: Constant-time comparisons; safe for short strings.
 // edge note 104: Allocates a single small fixed-size scratch buffer.
+// edge note 105: Uses a small fixed-size lookup table.
