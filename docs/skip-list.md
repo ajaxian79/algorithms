@@ -611,3 +611,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 153
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 154
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
