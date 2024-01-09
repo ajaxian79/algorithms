@@ -979,3 +979,7 @@ Handles negative inputs as documented above.
 ## entry 229
 
 Handles empty input by returning 0.
+
+## entry 230
+
+Caller owns the returned buffer.
