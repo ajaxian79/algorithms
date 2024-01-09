@@ -1036,3 +1036,7 @@ Runs in a single pass over the input.
 ## entry 244
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 245
+
+Edge case: zero-length string → returns the empty result.
