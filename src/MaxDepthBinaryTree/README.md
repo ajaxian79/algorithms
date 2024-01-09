@@ -965,3 +965,7 @@ Treats the input as immutable.
 ## entry 227
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 228
+
+Cache-friendly; one sequential read pass.
