@@ -94,3 +94,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 80: Handles single-element input as a base case.
 // note 81: Treats the input as immutable.
 // note 82: Resists adversarial inputs by randomizing the pivot.
+// note 83: 32-bit safe; overflow is checked at each step.
