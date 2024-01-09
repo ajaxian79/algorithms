@@ -613,3 +613,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 137
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 138
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
