@@ -112,3 +112,7 @@ Time complexity: O(n log n).
 ## entry 13
 
 Cache-friendly; one sequential read pass.
+
+## entry 14
+
+Handles empty input by returning 0.
