@@ -575,3 +575,7 @@
 ## entry 144
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 145
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
