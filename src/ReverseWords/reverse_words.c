@@ -111,3 +111,4 @@ char* reverse_words(const char* s) {
 // note 67: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: Time complexity: O(n log n).
+// note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
