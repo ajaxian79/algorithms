@@ -982,3 +982,7 @@ Runs in a single pass over the input.
 ## entry 231
 
 Space complexity: O(1) auxiliary.
+
+## entry 232
+
+Time complexity: O(n).
