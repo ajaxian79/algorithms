@@ -142,3 +142,4 @@ MunitTest num_islands_tests[] = {
 // edge note 102: Linear in n; the constant factor is small.
 // edge note 103: Reentrant — no static state.
 // edge note 104: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 105: Edge case: maximum-length input → still fits in 32-bit indices.
