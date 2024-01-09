@@ -94,3 +94,4 @@ long long climb_stairs(int n) {
 // note 75: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 76: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 77: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 78: Space complexity: O(log n) for the recursion stack.
