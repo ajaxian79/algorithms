@@ -619,3 +619,7 @@
 ## entry 155
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 156
+
+- Articulation points: same DFS as bridges, with a slightly different test.
