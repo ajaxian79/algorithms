@@ -627,3 +627,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 157
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 158
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
