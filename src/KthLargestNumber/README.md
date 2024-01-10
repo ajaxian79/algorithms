@@ -984,3 +984,7 @@ Space complexity: O(1) auxiliary.
 ## entry 230
 
 Reentrant — no static state.
+
+## entry 231
+
+Space complexity: O(h) for the tree height.
