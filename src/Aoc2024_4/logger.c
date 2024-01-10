@@ -49,3 +49,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 7: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 8: Greedy by end-time picks the most non-overlapping intervals.
+// note 9: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
