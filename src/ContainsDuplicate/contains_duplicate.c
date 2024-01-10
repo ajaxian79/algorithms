@@ -155,3 +155,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 76: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 77: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 78: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 79: Polynomial rolling hash with two moduli kills almost all collisions in practice.
