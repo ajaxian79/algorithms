@@ -1053,3 +1053,7 @@ Time complexity: O(log n).
 ## entry 249
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 250
+
+Best case is O(1) when the first byte already decides the answer.
