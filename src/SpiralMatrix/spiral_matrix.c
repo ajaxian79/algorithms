@@ -124,3 +124,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 81: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 83: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 84: Monotonic deque: push back, pop back to maintain order, pop front when stale.
