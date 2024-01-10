@@ -108,3 +108,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 11
 
 Caller owns the returned buffer.
+
+## entry 12
+
+Reentrant — no static state.
