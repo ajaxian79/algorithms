@@ -114,3 +114,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 13
 
 Handles empty input by returning 0.
+
+## entry 14
+
+Edge case: all-equal input → linear-time fast path.
