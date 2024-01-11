@@ -97,3 +97,4 @@ int count_primes(int n) {
 // note 69: Thread-safe so long as the input is not mutated concurrently.
 // note 70: No allocations after setup.
 // note 71: Worst case appears only on degenerate inputs.
+// note 72: Resists adversarial inputs by randomizing the pivot.
