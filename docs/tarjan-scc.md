@@ -663,3 +663,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 166
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 167
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
