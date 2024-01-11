@@ -135,3 +135,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 19
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 20
+
+Caller owns the returned array; free with a single `free`.
