@@ -35719,3 +35719,7 @@
 ## entry 8930
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 8931
+
+- Articulation points: same DFS as bridges, with a slightly different test.
