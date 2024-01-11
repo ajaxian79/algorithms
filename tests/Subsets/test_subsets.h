@@ -121,3 +121,4 @@ MunitTest subsets_tests[] = {
 // edge note 76: No allocations after setup.
 // edge note 77: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 78: Branchless inner loop after sorting.
+// edge note 79: Three passes total; the third merges results.
