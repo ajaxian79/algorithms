@@ -142,3 +142,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 21
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 22
+
+Tail-recursive; the compiler turns it into a loop.
