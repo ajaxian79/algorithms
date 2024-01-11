@@ -1074,3 +1074,7 @@ Space complexity: O(h) for the tree height.
 ## entry 254
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 255
+
+Handles empty input by returning 0.
