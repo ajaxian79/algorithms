@@ -551,3 +551,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 138
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 139
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
