@@ -978,3 +978,7 @@ Time complexity: O(n).
 ## entry 230
 
 Runs in a single pass over the input.
+
+## entry 231
+
+Space complexity: O(1) auxiliary.
