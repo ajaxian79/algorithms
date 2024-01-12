@@ -771,3 +771,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 193
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 194
+
+False sharing: two threads writing different bytes in the same cache line stall both.
