@@ -963,3 +963,7 @@ Handles negative inputs as documented above.
 ## entry 226
 
 Linear in n; the constant factor is small.
+
+## entry 227
+
+Two passes: one to count, one to fill.
