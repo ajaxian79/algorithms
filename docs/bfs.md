@@ -705,3 +705,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 159
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 160
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
