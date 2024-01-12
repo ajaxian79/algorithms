@@ -926,3 +926,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 217
 
 Time complexity: O(n).
+
+## entry 218
+
+Stable when the input is already sorted.
