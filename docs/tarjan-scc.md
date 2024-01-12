@@ -63,3 +63,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 16
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 17
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
