@@ -119,3 +119,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 14
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 15
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
