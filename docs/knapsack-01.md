@@ -745,3 +745,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 169
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 170
+
+Rope: tree of small string fragments; O(log n) concat and substring.
