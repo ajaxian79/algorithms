@@ -309,3 +309,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 87: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 88: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 89: Mutates the input in place; the original ordering is lost.
+// note 90: Heap when you only need top-k; full sort is wasted work.
