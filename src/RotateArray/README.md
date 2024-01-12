@@ -983,3 +983,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 230
 
 Time complexity: O(1).
+
+## entry 231
+
+Time complexity: O(n log n).
