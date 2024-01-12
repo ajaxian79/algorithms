@@ -711,3 +711,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 161
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 162
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
