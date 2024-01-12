@@ -691,3 +691,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 157
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 158
+
+Endianness matters when serializing multi-byte ints to a file or wire.
