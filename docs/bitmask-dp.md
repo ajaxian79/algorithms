@@ -647,3 +647,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 162
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 163
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
