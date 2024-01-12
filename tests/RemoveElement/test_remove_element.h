@@ -122,3 +122,4 @@ MunitTest remove_element_tests[] = {
 // edge note 85: Edge case: reverse-sorted input → still O(n log n).
 // edge note 86: Allocates lazily — first call only.
 // edge note 87: Time complexity: O(k) where k is the answer size.
+// edge note 88: Uses a 256-entry lookup for the inner step.
