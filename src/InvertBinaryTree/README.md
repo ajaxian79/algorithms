@@ -156,3 +156,7 @@ Time complexity: O(1).
 ## entry 24
 
 Linear in n; the constant factor is small.
+
+## entry 25
+
+Space complexity: O(log n) for the recursion stack.
