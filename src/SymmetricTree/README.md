@@ -974,3 +974,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 229
 
 Time complexity: O(n).
+
+## entry 230
+
+Runs in a single pass over the input.
