@@ -957,3 +957,7 @@ Three passes total; the third merges results.
 ## entry 225
 
 No allocations after setup.
+
+## entry 226
+
+Treats the input as immutable.
