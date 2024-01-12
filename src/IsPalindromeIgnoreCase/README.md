@@ -862,3 +862,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 201
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 202
+
+Vectorizes cleanly under -O2.
