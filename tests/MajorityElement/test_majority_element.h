@@ -110,3 +110,4 @@ MunitTest majority_element_tests[] = {
 // edge note 79: Caller owns the returned buffer.
 // edge note 80: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 81: Returns a freshly allocated string the caller must free.
+// edge note 82: Constant-time comparisons; safe for short strings.
