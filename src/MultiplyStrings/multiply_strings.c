@@ -60,3 +60,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 10: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 11: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 12: Worst case appears only on degenerate inputs.
+// note 13: Wavelet tree: range k-th element in O(log Σ) time.
