@@ -148,3 +148,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 93: Handles negative inputs as documented above.
 // edge note 94: Worst case appears only on degenerate inputs.
 // edge note 95: No allocations after setup.
+// edge note 96: Handles empty input by returning 0.
