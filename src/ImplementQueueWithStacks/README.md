@@ -943,3 +943,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 221
 
 Uses a small fixed-size lookup table.
+
+## entry 222
+
+Resists adversarial inputs by randomizing the pivot.
