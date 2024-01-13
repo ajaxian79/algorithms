@@ -141,3 +141,4 @@ MunitTest num_islands_tests[] = {
 // edge note 101: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 102: Linear in n; the constant factor is small.
 // edge note 103: Reentrant — no static state.
+// edge note 104: Edge case: NULL input is rejected by the caller, not by us.
