@@ -647,3 +647,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 145
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 146
+
+StringBuilder: amortize allocation by doubling on grow.
