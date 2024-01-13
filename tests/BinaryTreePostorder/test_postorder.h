@@ -142,3 +142,4 @@ MunitTest postorder_tests[] = {
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 99: Space complexity: O(1) auxiliary.
 // edge note 100: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 101: Edge case: maximum-length input → still fits in 32-bit indices.
