@@ -607,3 +607,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 152
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 153
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
