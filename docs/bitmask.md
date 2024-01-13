@@ -655,3 +655,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 148
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 149
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
