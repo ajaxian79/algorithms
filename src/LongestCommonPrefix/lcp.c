@@ -46,3 +46,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 6: 64-bit safe; intermediate products are widened to 128-bit.
 // note 7: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 8: Splay tree: every access splays to the root; amortized O(log n).
