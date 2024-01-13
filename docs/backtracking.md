@@ -97,3 +97,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 7
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 8
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
