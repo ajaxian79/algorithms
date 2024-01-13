@@ -87,3 +87,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 22
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 23
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
