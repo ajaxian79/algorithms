@@ -655,3 +655,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 164
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 165
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
