@@ -107,3 +107,4 @@ MunitTest add_binary_tests[] = {
 // edge note 71: Time complexity: O(log n).
 // edge note 72: Best case is O(1) when the first byte already decides the answer.
 // edge note 73: Stable across duplicates in the input.
+// edge note 74: No allocations on the hot path.
