@@ -717,3 +717,7 @@
 ## entry 162
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 163
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
