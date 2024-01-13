@@ -79,3 +79,4 @@ int is_power_of_two(int n) {
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 70: Wavelet tree: range k-th element in O(log Σ) time.
 // note 71: Uses a 256-entry lookup for the inner step.
+// note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
