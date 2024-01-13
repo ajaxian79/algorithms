@@ -977,3 +977,7 @@ Caller owns the returned buffer.
 ## entry 219
 
 Handles negative inputs as documented above.
+
+## entry 220
+
+Handles negative inputs as documented above.
