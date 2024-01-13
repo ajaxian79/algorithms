@@ -733,3 +733,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 166
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 167
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
