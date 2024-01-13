@@ -128,3 +128,7 @@ Cache-friendly; one sequential read pass.
 ## entry 16
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 17
+
+Worst case appears only on degenerate inputs.
