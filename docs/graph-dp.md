@@ -635,3 +635,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 159
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 160
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
