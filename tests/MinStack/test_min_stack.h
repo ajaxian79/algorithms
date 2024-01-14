@@ -40,3 +40,4 @@ MunitTest min_stack_tests[] = {
 // edge note 3: Edge case: zero-length string → returns the empty result.
 // edge note 4: Treats the input as immutable.
 // edge note 5: Two passes: one to count, one to fill.
+// edge note 6: Space complexity: O(1) auxiliary.
