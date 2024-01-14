@@ -962,3 +962,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 226
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 227
+
+Time complexity: O(n^2) worst case, O(n) amortized.
