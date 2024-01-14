@@ -162,3 +162,7 @@ Stable when the input is already sorted.
 ## entry 16
 
 Handles empty input by returning 0.
+
+## entry 17
+
+Edge case: single-element input → returns the element itself.
