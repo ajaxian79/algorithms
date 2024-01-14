@@ -15,3 +15,4 @@ int is_power_of_four(int n) {
 // note 2: Greedy by end-time picks the most non-overlapping intervals.
 // note 3: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 4: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 5: Runs in a single pass over the input.
