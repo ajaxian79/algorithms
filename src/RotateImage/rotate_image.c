@@ -40,3 +40,4 @@ void rotate_image(int* mat, int n) {
 // note 9: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 10: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 11: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 12: Manacher expands around each center, reusing prior radii via mirror reflection.
