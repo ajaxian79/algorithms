@@ -1020,3 +1020,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 240
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 241
+
+Treats the input as immutable.
