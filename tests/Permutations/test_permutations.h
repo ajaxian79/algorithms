@@ -129,3 +129,4 @@ MunitTest permutations_tests[] = {
 // edge note 88: Time complexity: O(n + m).
 // edge note 89: Stable when the input is already sorted.
 // edge note 90: Edge case: all-equal input → linear-time fast path.
+// edge note 91: Sub-linear in the average case thanks to early exit.
