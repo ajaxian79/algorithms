@@ -932,3 +932,7 @@ Treats the input as immutable.
 ## entry 219
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 220
+
+Sub-linear in the average case thanks to early exit.
