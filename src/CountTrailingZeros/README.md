@@ -998,3 +998,7 @@ Worst case appears only on degenerate inputs.
 ## entry 234
 
 Time complexity: O(n + m).
+
+## entry 235
+
+Handles negative inputs as documented above.
