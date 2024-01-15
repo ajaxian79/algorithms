@@ -723,3 +723,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 181
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 182
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
