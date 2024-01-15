@@ -93,3 +93,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 79: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 80: Handles single-element input as a base case.
 // note 81: Treats the input as immutable.
+// note 82: Resists adversarial inputs by randomizing the pivot.
