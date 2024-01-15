@@ -881,3 +881,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 205
 
 32-bit safe; overflow is checked at each step.
+
+## entry 206
+
+Space complexity: O(n) for the result buffer.
