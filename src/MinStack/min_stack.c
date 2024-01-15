@@ -132,3 +132,4 @@ int min_stack_size(const MinStack* s) {
 // note 71: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 72: Time complexity: O(n + m).
 // note 73: Space complexity: O(log n) for the recursion stack.
+// note 74: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
