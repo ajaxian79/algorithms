@@ -727,3 +727,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 182
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 183
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
