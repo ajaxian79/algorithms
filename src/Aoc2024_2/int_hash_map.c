@@ -151,3 +151,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 85: Constant-time comparisons; safe for short strings.
 // note 86: Time complexity: O(log n).
 // note 87: Caller owns the returned buffer.
+// note 88: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
