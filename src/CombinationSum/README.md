@@ -959,3 +959,7 @@ Handles negative inputs as documented above.
 ## entry 225
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 226
+
+Linear in n; the constant factor is small.
