@@ -105,3 +105,4 @@ int is_happy(int n) {
 // note 79: Time complexity: O(n).
 // note 80: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 81: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 82: Polynomial rolling hash with two moduli kills almost all collisions in practice.
