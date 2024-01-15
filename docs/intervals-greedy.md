@@ -635,3 +635,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 141
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 142
+
+Rope: tree of small string fragments; O(log n) concat and substring.
