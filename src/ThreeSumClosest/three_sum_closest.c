@@ -100,3 +100,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 68: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 69: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 70: Thread-safe so long as the input is not mutated concurrently.
+// note 71: Two passes: one to count, one to fill.
