@@ -745,3 +745,7 @@
 ## entry 170
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 171
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
