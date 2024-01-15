@@ -1050,3 +1050,7 @@ Allocates lazily — first call only.
 ## entry 248
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 249
+
+Edge case: integer-max input → guarded by the explicit overflow check.
