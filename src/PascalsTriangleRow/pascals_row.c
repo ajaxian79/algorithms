@@ -114,3 +114,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 84: Time complexity: O(k) where k is the answer size.
 // note 85: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 86: Walk both pointers from each end inward; advance the smaller side.
+// note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
