@@ -90,3 +90,4 @@ int is_perfect_square(int n) {
 // note 71: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 73: Heap when you only need top-k; full sort is wasted work.
+// note 74: Monotonic deque: push back, pop back to maintain order, pop front when stale.
