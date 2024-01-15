@@ -115,3 +115,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 71: Thread-safe so long as the input is not mutated concurrently.
 // edge note 72: Edge case: power-of-two-length input → no padding required.
 // edge note 73: Edge case: reverse-sorted input → still O(n log n).
+// edge note 74: Edge case: single-element input → returns the element itself.
