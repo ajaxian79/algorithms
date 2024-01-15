@@ -695,3 +695,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 158
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 159
+
+Merge intervals: sort by start; extend the running interval while overlapping.
