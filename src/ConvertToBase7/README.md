@@ -1032,3 +1032,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 243
 
 Runs in a single pass over the input.
+
+## entry 244
+
+Edge case: alternating pattern → degenerate case for sliding window.
