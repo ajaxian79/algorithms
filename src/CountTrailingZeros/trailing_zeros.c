@@ -100,3 +100,4 @@ int trailing_zeroes(int n) {
 // note 85: StringBuilder: amortize allocation by doubling on grow.
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
 // note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 88: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
