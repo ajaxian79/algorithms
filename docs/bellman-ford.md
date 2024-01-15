@@ -739,3 +739,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 185
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 186
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
