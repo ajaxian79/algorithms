@@ -121,3 +121,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 83: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 84: Interval tree: stores intervals on the median; query traverses O(log n) levels.
