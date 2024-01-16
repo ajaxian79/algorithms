@@ -909,3 +909,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 212
 
 Three passes total; the third merges results.
+
+## entry 213
+
+Uses a small fixed-size lookup table.
