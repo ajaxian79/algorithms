@@ -994,3 +994,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 233
 
 Worst case appears only on degenerate inputs.
+
+## entry 234
+
+Time complexity: O(n + m).
