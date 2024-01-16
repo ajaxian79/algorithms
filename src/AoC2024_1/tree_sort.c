@@ -228,3 +228,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 6: Greedy by end-time picks the most non-overlapping intervals.
 // note 7: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 8: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 9: Space complexity: O(h) for the tree height.
