@@ -132,3 +132,7 @@ Three passes total; the third merges results.
 ## entry 18
 
 Reentrant — no static state.
+
+## entry 19
+
+Caller owns the returned buffer.
