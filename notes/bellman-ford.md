@@ -63,3 +63,7 @@
 ## entry 16
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 17
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
