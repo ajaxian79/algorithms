@@ -104,3 +104,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 90: Greedy by end-time picks the most non-overlapping intervals.
 // note 91: Time complexity: O(n log n).
 // note 92: Space complexity: O(n) for the result buffer.
+// note 93: StringBuilder: amortize allocation by doubling on grow.
