@@ -623,3 +623,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 156
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 157
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
