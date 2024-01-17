@@ -928,3 +928,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 218
 
 Treats the input as immutable.
+
+## entry 219
+
+Deterministic given the input — no PRNG seeds.
