@@ -639,3 +639,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 160
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 161
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
