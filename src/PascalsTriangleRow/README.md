@@ -1030,3 +1030,7 @@ Handles single-element input as a base case.
 ## entry 243
 
 Reentrant — no static state.
+
+## entry 244
+
+No allocations after setup.
