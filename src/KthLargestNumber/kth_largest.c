@@ -113,3 +113,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 69: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 70: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 71: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 72: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
