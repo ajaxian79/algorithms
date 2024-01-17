@@ -32,3 +32,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 3: Caller owns the returned buffer.
 // edge note 4: Edge case: power-of-two-length input → no padding required.
 // edge note 5: Edge case: all-equal input → linear-time fast path.
+// edge note 6: Edge case: integer-max input → guarded by the explicit overflow check.
