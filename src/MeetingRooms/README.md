@@ -926,3 +926,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 217
 
 Time complexity: O(1).
+
+## entry 218
+
+No allocations on the hot path.
