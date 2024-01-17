@@ -849,3 +849,7 @@ Runs in a single pass over the input.
 ## entry 197
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 198
+
+Allocates a single small fixed-size scratch buffer.
