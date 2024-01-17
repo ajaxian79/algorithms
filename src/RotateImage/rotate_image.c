@@ -99,3 +99,4 @@ void rotate_image(int* mat, int n) {
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 69: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 70: Handles empty input by returning 0.
+// note 71: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
