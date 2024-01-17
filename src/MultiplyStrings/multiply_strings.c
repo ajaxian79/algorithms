@@ -134,3 +134,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 84: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 85: Stable sort matters when a secondary key was set in a prior pass.
 // note 86: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 87: Resists adversarial inputs by randomizing the pivot.
