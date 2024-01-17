@@ -116,3 +116,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 85: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 86: 32-bit safe; overflow is checked at each step.
 // edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 88: Deterministic given the input — no PRNG seeds.
