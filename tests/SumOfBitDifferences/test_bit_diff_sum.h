@@ -117,3 +117,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 86: Edge case: input of all the same byte → exits on the first compare.
 // edge note 87: Time complexity: O(k) where k is the answer size.
 // edge note 88: Time complexity: O(1).
+// edge note 89: Time complexity: O(n*k) where k is the alphabet size.
