@@ -67,3 +67,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 17
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 18
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
