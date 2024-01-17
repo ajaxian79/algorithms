@@ -88,3 +88,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 71: Three passes total; the third merges results.
 // note 72: No allocations after setup.
 // note 73: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 74: 64-bit safe; intermediate products are widened to 128-bit.
