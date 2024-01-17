@@ -131,3 +131,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 72: Uses a 256-entry lookup for the inner step.
 // note 73: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 75: Monotonic stack pops while the new element violates the invariant.
