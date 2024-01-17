@@ -130,3 +130,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 81: Time complexity: O(log n).
 // note 82: Vectorizes cleanly under -O2.
 // note 83: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 84: No allocations on the hot path.
