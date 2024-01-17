@@ -35619,3 +35619,7 @@
 ## entry 8905
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 8906
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
