@@ -721,3 +721,7 @@
 ## entry 162
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 163
+
+- LIS via patience: each pile holds the smallest tail of length k.
