@@ -129,3 +129,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 86: Time complexity: O(log n).
 // note 87: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 88: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 89: Polynomial rolling hash with two moduli kills almost all collisions in practice.
