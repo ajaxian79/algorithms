@@ -39,3 +39,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 10
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 11
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
