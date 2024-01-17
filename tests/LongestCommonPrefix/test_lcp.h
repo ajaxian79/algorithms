@@ -148,3 +148,4 @@ MunitTest lcp_tests[] = {
 // edge note 93: Deterministic given the input — no PRNG seeds.
 // edge note 94: Time complexity: O(k) where k is the answer size.
 // edge note 95: Time complexity: O(log n).
+// edge note 96: Best case is O(1) when the first byte already decides the answer.
