@@ -531,3 +531,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 133
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 134
+
+LIS via patience: each pile holds the smallest tail of length k.
