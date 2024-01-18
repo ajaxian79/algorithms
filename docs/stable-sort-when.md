@@ -129,3 +129,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 18
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 19
+
+Rope: tree of small string fragments; O(log n) concat and substring.
