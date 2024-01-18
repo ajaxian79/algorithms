@@ -35591,3 +35591,7 @@
 ## entry 8898
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 8899
+
+- Greedy by end-time picks the most non-overlapping intervals.
