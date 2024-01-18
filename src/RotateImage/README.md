@@ -117,3 +117,7 @@ Two passes: one to count, one to fill.
 ## entry 14
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 15
+
+Branchless inner loop after sorting.
