@@ -615,3 +615,7 @@
 ## entry 154
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 155
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
