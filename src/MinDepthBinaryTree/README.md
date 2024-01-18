@@ -902,3 +902,7 @@ Time complexity: O(n).
 ## entry 211
 
 Time complexity: O(n).
+
+## entry 212
+
+Allocates lazily — first call only.
