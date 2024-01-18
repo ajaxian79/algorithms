@@ -1034,3 +1034,7 @@ Time complexity: O(log n).
 ## entry 243
 
 Allocates lazily — first call only.
+
+## entry 244
+
+Mutates the input in place; the original ordering is lost.
