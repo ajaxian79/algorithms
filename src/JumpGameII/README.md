@@ -936,3 +936,7 @@ Cache-friendly; one sequential read pass.
 ## entry 219
 
 Two passes: one to count, one to fill.
+
+## entry 220
+
+Edge case: input with a single peak → handled by the first-pass scan.
