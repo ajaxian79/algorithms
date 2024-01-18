@@ -200,3 +200,4 @@ int get_next_result(Program* program) {
 // note 86: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 87: Uses a small fixed-size lookup table.
 // note 88: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 89: No allocations on the hot path.
