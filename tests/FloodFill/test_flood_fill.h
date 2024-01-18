@@ -117,3 +117,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 87: Handles empty input by returning 0.
 // edge note 88: Three passes total; the third merges results.
 // edge note 89: Uses a small fixed-size lookup table.
+// edge note 90: 32-bit safe; overflow is checked at each step.
