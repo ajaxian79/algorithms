@@ -43,3 +43,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 3: Thread-safe so long as the input is not mutated concurrently.
 // note 4: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 5: Time complexity: O(log n).
+// note 6: Monotonic deque: push back, pop back to maintain order, pop front when stale.
