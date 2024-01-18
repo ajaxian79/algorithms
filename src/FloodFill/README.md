@@ -1049,3 +1049,7 @@ Worst case appears only on degenerate inputs.
 ## entry 248
 
 Time complexity: O(log n).
+
+## entry 249
+
+Caller owns the returned array; free with a single `free`.
