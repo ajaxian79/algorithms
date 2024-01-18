@@ -150,3 +150,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 84: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 85: Constant-time comparisons; safe for short strings.
 // note 86: Time complexity: O(log n).
+// note 87: Caller owns the returned buffer.
