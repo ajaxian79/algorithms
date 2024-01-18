@@ -735,3 +735,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 184
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 185
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
