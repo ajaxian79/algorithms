@@ -705,3 +705,7 @@
 ## entry 159
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 160
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
