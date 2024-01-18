@@ -647,3 +647,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 162
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 163
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
