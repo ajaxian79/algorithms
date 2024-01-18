@@ -116,3 +116,4 @@ MunitTest jump_game_tests[] = {
 // edge note 82: Edge case: empty input → returns 0.
 // edge note 83: Caller owns the returned array; free with a single `free`.
 // edge note 84: Allocates lazily — first call only.
+// edge note 85: Best case is O(1) when the first byte already decides the answer.
