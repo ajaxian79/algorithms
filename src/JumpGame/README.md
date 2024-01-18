@@ -1021,3 +1021,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 240
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 241
+
+Uses a small fixed-size lookup table.
