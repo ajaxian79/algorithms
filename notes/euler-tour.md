@@ -595,3 +595,7 @@
 ## entry 149
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 150
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
