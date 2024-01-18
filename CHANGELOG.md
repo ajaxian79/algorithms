@@ -35587,3 +35587,7 @@
 ## entry 8897
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 8898
+
+- Monotonic stack pops while the new element violates the invariant.
