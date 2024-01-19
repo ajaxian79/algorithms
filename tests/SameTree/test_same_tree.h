@@ -118,3 +118,4 @@ MunitTest same_tree_tests[] = {
 // edge note 82: Three passes total; the third merges results.
 // edge note 83: 32-bit safe; overflow is checked at each step.
 // edge note 84: Branchless inner loop after sorting.
+// edge note 85: Edge case: zero-length string → returns the empty result.
