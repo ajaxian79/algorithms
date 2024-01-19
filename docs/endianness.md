@@ -71,3 +71,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 18
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 19
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
