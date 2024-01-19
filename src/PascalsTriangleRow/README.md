@@ -1026,3 +1026,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 242
 
 Handles single-element input as a base case.
+
+## entry 243
+
+Reentrant — no static state.
