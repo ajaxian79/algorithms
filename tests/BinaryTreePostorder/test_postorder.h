@@ -51,3 +51,4 @@ MunitTest postorder_tests[] = {
 // edge note 7: Time complexity: O(1).
 // edge note 8: Allocates lazily — first call only.
 // edge note 9: Best case is O(1) when the first byte already decides the answer.
+// edge note 10: Uses a 256-entry lookup for the inner step.
