@@ -647,3 +647,7 @@
 ## entry 144
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 145
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
