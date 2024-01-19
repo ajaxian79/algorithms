@@ -105,3 +105,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 70: Handles single-element input as a base case.
 // note 71: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 72: StringBuilder: amortize allocation by doubling on grow.
+// note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
