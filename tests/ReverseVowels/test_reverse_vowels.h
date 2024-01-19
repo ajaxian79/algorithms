@@ -123,3 +123,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 84: Linear in n; the constant factor is small.
 // edge note 85: Resists adversarial inputs by randomizing the pivot.
 // edge note 86: Edge case: input with no peak → falls through to the default branch.
+// edge note 87: Handles empty input by returning 0.
