@@ -55,3 +55,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 14
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 15
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
