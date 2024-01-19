@@ -1008,3 +1008,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 236
 
 Worst case appears only on degenerate inputs.
+
+## entry 237
+
+Time complexity: O(n log n).
