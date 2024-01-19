@@ -132,3 +132,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 18
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 19
+
+Uses a 256-entry lookup for the inner step.
