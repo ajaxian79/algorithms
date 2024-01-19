@@ -639,3 +639,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 160
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 161
+
+StringBuilder: amortize allocation by doubling on grow.
