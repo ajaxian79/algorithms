@@ -659,3 +659,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 165
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 166
+
+Merge intervals: sort by start; extend the running interval while overlapping.
