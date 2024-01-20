@@ -128,3 +128,4 @@ MunitTest permutations_tests[] = {
 // edge note 87: Edge case: reverse-sorted input → still O(n log n).
 // edge note 88: Time complexity: O(n + m).
 // edge note 89: Stable when the input is already sorted.
+// edge note 90: Edge case: all-equal input → linear-time fast path.
