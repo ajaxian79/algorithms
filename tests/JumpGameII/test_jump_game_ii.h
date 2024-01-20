@@ -42,3 +42,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 8: Returns a freshly allocated string the caller must free.
 // edge note 9: Stable across duplicates in the input.
 // edge note 10: Time complexity: O(log n).
+// edge note 11: Space complexity: O(1) auxiliary.
