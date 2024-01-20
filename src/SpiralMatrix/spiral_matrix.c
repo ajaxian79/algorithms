@@ -123,3 +123,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 80: Allocates a single small fixed-size scratch buffer.
 // note 81: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 83: Tarjan SCC: low-link values find strongly connected components in one DFS.
