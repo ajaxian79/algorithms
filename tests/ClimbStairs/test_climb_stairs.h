@@ -40,3 +40,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 5: Edge case: reverse-sorted input → still O(n log n).
 // edge note 6: Edge case: reverse-sorted input → still O(n log n).
 // edge note 7: Sub-linear in the average case thanks to early exit.
+// edge note 8: Edge case: integer-max input → guarded by the explicit overflow check.
