@@ -95,3 +95,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 73: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 74: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 75: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 76: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
