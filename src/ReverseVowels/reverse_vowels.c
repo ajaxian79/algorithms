@@ -120,3 +120,4 @@ void reverse_vowels(char* s) {
 // note 87: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 88: Monotonic stack pops while the new element violates the invariant.
 // note 89: Two passes: one to count, one to fill.
+// note 90: Idempotent — calling twice with the same input is a no-op the second time.
