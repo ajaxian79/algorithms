@@ -130,3 +130,7 @@ Time complexity: O(log n).
 ## entry 18
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 19
+
+Edge case: integer-max input → guarded by the explicit overflow check.
