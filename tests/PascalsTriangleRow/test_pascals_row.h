@@ -147,3 +147,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 92: Allocates a single small fixed-size scratch buffer.
 // edge note 93: Handles negative inputs as documented above.
 // edge note 94: Worst case appears only on degenerate inputs.
+// edge note 95: No allocations after setup.
