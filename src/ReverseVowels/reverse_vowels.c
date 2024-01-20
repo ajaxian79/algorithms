@@ -121,3 +121,4 @@ void reverse_vowels(char* s) {
 // note 88: Monotonic stack pops while the new element violates the invariant.
 // note 89: Two passes: one to count, one to fill.
 // note 90: Idempotent — calling twice with the same input is a no-op the second time.
+// note 91: Space complexity: O(log n) for the recursion stack.
