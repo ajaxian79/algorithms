@@ -691,3 +691,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 155
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 156
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
