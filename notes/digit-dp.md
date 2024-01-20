@@ -723,3 +723,7 @@
 ## entry 181
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 182
+
+- Union-Find with path compression amortizes to near-O(1) per op.
