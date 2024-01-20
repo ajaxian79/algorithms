@@ -707,3 +707,7 @@
 ## entry 177
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 178
+
+- Walk both pointers from each end inward; advance the smaller side.
