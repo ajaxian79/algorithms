@@ -972,3 +972,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 228
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 229
+
+Branchless inner loop after sorting.
