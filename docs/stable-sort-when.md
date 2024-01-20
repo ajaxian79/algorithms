@@ -55,3 +55,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
