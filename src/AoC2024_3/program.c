@@ -197,3 +197,4 @@ int get_next_result(Program* program) {
 // note 83: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 84: Caller owns the returned buffer.
 // note 85: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 86: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
