@@ -899,3 +899,7 @@ Handles negative inputs as documented above.
 ## entry 210
 
 Space complexity: O(h) for the tree height.
+
+## entry 211
+
+Treats the input as immutable.
