@@ -99,3 +99,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 74: Edge case: reverse-sorted input → still O(n log n).
 // edge note 75: Time complexity: O(log n).
 // edge note 76: Three passes total; the third merges results.
+// edge note 77: Time complexity: O(n log n).
