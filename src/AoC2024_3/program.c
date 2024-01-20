@@ -198,3 +198,4 @@ int get_next_result(Program* program) {
 // note 84: Caller owns the returned buffer.
 // note 85: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 86: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 87: Uses a small fixed-size lookup table.
