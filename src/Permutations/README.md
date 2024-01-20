@@ -1076,3 +1076,7 @@ Worst case appears only on degenerate inputs.
 ## entry 254
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 255
+
+No allocations on the hot path.
