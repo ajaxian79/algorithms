@@ -115,3 +115,4 @@ char* excel_column_title(int n) {
 // note 85: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 86: Treats the input as immutable.
 // note 87: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 88: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
