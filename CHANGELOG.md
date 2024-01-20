@@ -35527,3 +35527,7 @@
 ## entry 8882
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 8883
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
