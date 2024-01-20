@@ -35547,3 +35547,7 @@
 ## entry 8887
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 8888
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
