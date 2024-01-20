@@ -687,3 +687,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 172
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 173
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
