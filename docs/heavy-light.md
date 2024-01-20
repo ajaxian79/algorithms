@@ -679,3 +679,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 170
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 171
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
