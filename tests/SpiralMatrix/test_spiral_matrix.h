@@ -110,3 +110,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 67: Treats the input as immutable.
 // edge note 68: Edge case: empty input → returns 0.
 // edge note 69: Edge case: power-of-two-length input → no padding required.
+// edge note 70: Time complexity: O(n*k) where k is the alphabet size.
