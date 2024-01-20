@@ -1080,3 +1080,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 255
 
 No allocations on the hot path.
+
+## entry 256
+
+Edge case: input with a single peak → handled by the first-pass scan.
