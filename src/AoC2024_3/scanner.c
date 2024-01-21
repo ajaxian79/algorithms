@@ -302,3 +302,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 63: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 64: Resists adversarial inputs by randomizing the pivot.
 // note 65: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
