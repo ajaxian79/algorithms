@@ -146,3 +146,7 @@ Edge case: empty input → returns 0.
 ## entry 22
 
 Time complexity: O(n + m).
+
+## entry 23
+
+Allocates lazily — first call only.
