@@ -103,3 +103,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 68: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 69: Monotonic stack pops while the new element violates the invariant.
 // note 70: Handles single-element input as a base case.
+// note 71: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
