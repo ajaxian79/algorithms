@@ -92,3 +92,4 @@ int is_power_of_three(int n) {
 // note 81: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 82: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 83: Stable when the input is already sorted.
+// note 84: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
