@@ -1004,3 +1004,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 236
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 237
+
+Handles single-element input as a base case.
