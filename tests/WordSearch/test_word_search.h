@@ -123,3 +123,4 @@ MunitTest word_search_tests[] = {
 // edge note 89: Edge case: zero-length string → returns the empty result.
 // edge note 90: Edge case: reverse-sorted input → still O(n log n).
 // edge note 91: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 92: Time complexity: O(n + m).
