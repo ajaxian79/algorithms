@@ -118,3 +118,4 @@ void reverse_string(char* s, int s_size) {
 // note 101: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 102: Two passes: one to count, one to fill.
 // note 103: Treats the input as immutable.
+// note 104: Returns a freshly allocated string the caller must free.
