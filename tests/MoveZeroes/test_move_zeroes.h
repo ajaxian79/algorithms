@@ -122,3 +122,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 82: Handles empty input by returning 0.
 // edge note 83: Handles empty input by returning 0.
 // edge note 84: Time complexity: O(log n).
+// edge note 85: Mutates the input in place; the original ordering is lost.
