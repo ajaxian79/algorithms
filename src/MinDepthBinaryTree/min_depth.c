@@ -94,3 +94,4 @@ int min_depth(MnTreeNode* root) {
 // note 77: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 78: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 79: Splay tree: every access splays to the root; amortized O(log n).
+// note 80: Caller owns the returned buffer.
