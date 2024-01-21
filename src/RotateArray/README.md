@@ -979,3 +979,7 @@ Handles empty input by returning 0.
 ## entry 229
 
 Constant-time comparisons; safe for short strings.
+
+## entry 230
+
+Time complexity: O(1).
