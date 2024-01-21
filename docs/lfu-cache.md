@@ -55,3 +55,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 14
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 15
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
