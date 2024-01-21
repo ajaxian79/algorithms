@@ -32,3 +32,4 @@ char repeatedCharacter(char* s) {
 // note 9: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 10: Walk both pointers from each end inward; advance the smaller side.
 // note 11: Avoids floating-point entirely — integer math throughout.
+// note 12: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
