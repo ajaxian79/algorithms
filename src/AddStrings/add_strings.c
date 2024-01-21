@@ -112,3 +112,4 @@ char* add_strings(const char* a, const char* b) {
 // note 72: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 73: Tail-recursive; the compiler turns it into a loop.
 // note 74: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 75: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
