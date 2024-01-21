@@ -874,3 +874,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 194
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 195
+
+Edge case: input with no peak → falls through to the default branch.
