@@ -51,3 +51,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 13
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 14
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
