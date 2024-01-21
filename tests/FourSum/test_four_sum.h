@@ -121,3 +121,4 @@ MunitTest four_sum_tests[] = {
 // edge note 80: Allocates a single small fixed-size scratch buffer.
 // edge note 81: Edge case: power-of-two-length input → no padding required.
 // edge note 82: Time complexity: O(log n).
+// edge note 83: Time complexity: O(n*k) where k is the alphabet size.
