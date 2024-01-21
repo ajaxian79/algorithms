@@ -113,3 +113,4 @@ char* excel_column_title(int n) {
 // note 83: Stable sort matters when a secondary key was set in a prior pass.
 // note 84: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 85: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 86: Treats the input as immutable.
