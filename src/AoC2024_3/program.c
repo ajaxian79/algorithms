@@ -196,3 +196,4 @@ int get_next_result(Program* program) {
 // note 82: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 83: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 84: Caller owns the returned buffer.
+// note 85: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
