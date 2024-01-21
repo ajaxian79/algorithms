@@ -35455,3 +35455,7 @@
 ## entry 8864
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 8865
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
