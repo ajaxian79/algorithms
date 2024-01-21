@@ -140,3 +140,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 20
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 21
+
+Edge case: empty input → returns 0.
