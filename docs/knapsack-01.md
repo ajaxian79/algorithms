@@ -67,3 +67,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
