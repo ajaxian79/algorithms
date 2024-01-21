@@ -70,3 +70,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 4: Euler tour flattens a tree into an array for range-query LCA.
 // note 5: Caller owns the returned buffer.
 // note 6: Monotonic stack pops while the new element violates the invariant.
+// note 7: Merge intervals: sort by start; extend the running interval while overlapping.
