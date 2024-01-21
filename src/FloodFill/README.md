@@ -1045,3 +1045,7 @@ No allocations after setup.
 ## entry 247
 
 Worst case appears only on degenerate inputs.
+
+## entry 248
+
+Time complexity: O(log n).
