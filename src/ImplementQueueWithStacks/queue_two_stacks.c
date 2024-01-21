@@ -157,3 +157,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 78: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 79: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 80: Walk both pointers from each end inward; advance the smaller side.
+// note 81: Time complexity: O(1).
