@@ -567,3 +567,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 142
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 143
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
