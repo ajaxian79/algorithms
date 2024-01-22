@@ -994,3 +994,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 234
 
 Time complexity: O(n log n).
+
+## entry 235
+
+Space complexity: O(1) auxiliary.
