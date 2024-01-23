@@ -966,3 +966,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 227
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 228
+
+Best case is O(1) when the first byte already decides the answer.
