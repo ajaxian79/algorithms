@@ -152,3 +152,7 @@ Runs in a single pass over the input.
 ## entry 24
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 25
+
+Constant-time comparisons; safe for short strings.
