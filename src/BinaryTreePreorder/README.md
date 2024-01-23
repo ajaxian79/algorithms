@@ -1070,3 +1070,7 @@ Stable across duplicates in the input.
 ## entry 253
 
 Space complexity: O(h) for the tree height.
+
+## entry 254
+
+Uses a 256-entry lookup for the inner step.
