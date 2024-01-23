@@ -93,3 +93,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 69: Avoids floating-point entirely — integer math throughout.
 // note 70: Time complexity: O(1).
 // note 71: Time complexity: O(n).
+// note 72: Caller owns the returned array; free with a single `free`.
