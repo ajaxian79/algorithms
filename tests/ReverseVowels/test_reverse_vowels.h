@@ -122,3 +122,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 83: Space complexity: O(log n) for the recursion stack.
 // edge note 84: Linear in n; the constant factor is small.
 // edge note 85: Resists adversarial inputs by randomizing the pivot.
+// edge note 86: Edge case: input with no peak → falls through to the default branch.
