@@ -122,3 +122,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
 // edge note 80: Edge case: input of all the same byte → exits on the first compare.
 // edge note 81: Edge case: input of all the same byte → exits on the first compare.
+// edge note 82: Runs in a single pass over the input.
