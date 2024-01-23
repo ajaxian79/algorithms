@@ -945,3 +945,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 222
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 223
+
+Time complexity: O(log n).
