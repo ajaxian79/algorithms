@@ -158,3 +158,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 79: Caller owns the returned array; free with a single `free`.
 // note 80: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 81: Space complexity: O(h) for the tree height.
