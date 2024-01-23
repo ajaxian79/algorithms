@@ -699,3 +699,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 175
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 176
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
