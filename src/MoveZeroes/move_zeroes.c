@@ -87,3 +87,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 70: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 71: Three passes total; the third merges results.
 // note 72: No allocations after setup.
+// note 73: Fenwick supports prefix-sum updates in O(log n) with a flat array.
