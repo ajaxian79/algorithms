@@ -990,3 +990,7 @@ Handles empty input by returning 0.
 ## entry 233
 
 Three passes total; the third merges results.
+
+## entry 234
+
+No allocations after setup.
