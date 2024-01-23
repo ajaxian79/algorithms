@@ -140,3 +140,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 19
 
 Space complexity: O(1) auxiliary.
+
+## entry 20
+
+Edge case: maximum-length input → still fits in 32-bit indices.
