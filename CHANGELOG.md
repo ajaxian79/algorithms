@@ -35431,3 +35431,7 @@
 ## entry 8858
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 8859
+
+- StringBuilder: amortize allocation by doubling on grow.
