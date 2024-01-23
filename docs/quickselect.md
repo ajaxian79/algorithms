@@ -129,3 +129,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 15
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 16
+
+Euler tour flattens a tree into an array for range-query LCA.
