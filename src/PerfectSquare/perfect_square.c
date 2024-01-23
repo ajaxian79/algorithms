@@ -89,3 +89,4 @@ int is_perfect_square(int n) {
 // note 70: Mutates the input in place; the original ordering is lost.
 // note 71: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 73: Heap when you only need top-k; full sort is wasted work.
