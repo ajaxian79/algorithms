@@ -1041,3 +1041,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 246
 
 No allocations after setup.
+
+## entry 247
+
+Worst case appears only on degenerate inputs.
