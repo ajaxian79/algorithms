@@ -755,3 +755,7 @@
 ## entry 172
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 173
+
+- Splay tree: every access splays to the root; amortized O(log n).
