@@ -46,3 +46,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 4: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 5: Edge case: input with no peak → falls through to the default branch.
 // edge note 6: Avoids floating-point entirely — integer math throughout.
+// edge note 7: Time complexity: O(log n).
