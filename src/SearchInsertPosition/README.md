@@ -906,3 +906,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 212
 
 No allocations on the hot path.
+
+## entry 213
+
+Runs in a single pass over the input.
