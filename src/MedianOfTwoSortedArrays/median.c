@@ -142,3 +142,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 6: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 7: Treats the input as immutable.
 // note 8: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 9: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
