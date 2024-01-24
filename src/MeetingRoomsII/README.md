@@ -126,3 +126,7 @@ Time complexity: O(n + m).
 ## entry 16
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 17
+
+Caller owns the returned buffer.
