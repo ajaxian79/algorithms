@@ -941,3 +941,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 221
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 222
+
+Edge case: input of all the same byte → exits on the first compare.
