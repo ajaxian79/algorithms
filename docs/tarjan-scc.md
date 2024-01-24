@@ -655,3 +655,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 164
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 165
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
