@@ -976,3 +976,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 228
 
 Space complexity: O(n) for the result buffer.
+
+## entry 229
+
+Space complexity: O(1) auxiliary.
