@@ -920,3 +920,7 @@ Time complexity: O(n).
 ## entry 216
 
 No allocations after setup.
+
+## entry 217
+
+Mutates the input in place; the original ordering is lost.
