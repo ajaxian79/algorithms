@@ -103,3 +103,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 9
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 10
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
