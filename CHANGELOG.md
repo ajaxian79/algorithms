@@ -35399,3 +35399,7 @@
 ## entry 8850
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 8851
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
