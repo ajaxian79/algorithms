@@ -563,3 +563,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 141
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 142
+
+Greedy by end-time picks the most non-overlapping intervals.
