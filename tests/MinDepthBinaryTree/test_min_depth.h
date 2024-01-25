@@ -112,3 +112,4 @@ MunitTest min_depth_tests[] = {
 // edge note 73: Edge case: empty input → returns 0.
 // edge note 74: Handles empty input by returning 0.
 // edge note 75: Edge case: power-of-two-length input → no padding required.
+// edge note 76: 32-bit safe; overflow is checked at each step.
