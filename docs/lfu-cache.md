@@ -719,3 +719,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 180
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 181
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
