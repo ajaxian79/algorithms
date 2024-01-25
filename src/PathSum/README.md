@@ -1000,3 +1000,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 235
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 236
+
+Best case is O(1) when the first byte already decides the answer.
