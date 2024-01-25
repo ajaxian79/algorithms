@@ -687,3 +687,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 154
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 155
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
