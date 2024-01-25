@@ -35407,3 +35407,7 @@
 ## entry 8852
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 8853
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
