@@ -35383,3 +35383,7 @@
 ## entry 8846
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 8847
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
