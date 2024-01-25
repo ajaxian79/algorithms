@@ -845,3 +845,7 @@ Handles empty input by returning 0.
 ## entry 196
 
 Runs in a single pass over the input.
+
+## entry 197
+
+Time complexity: O(k) where k is the answer size.
