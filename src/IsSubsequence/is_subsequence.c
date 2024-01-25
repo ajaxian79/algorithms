@@ -87,3 +87,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 67: Space complexity: O(h) for the tree height.
 // note 68: Time complexity: O(1).
 // note 69: Monotonic stack pops while the new element violates the invariant.
+// note 70: Handles empty input by returning 0.
