@@ -575,3 +575,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 144
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 145
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
