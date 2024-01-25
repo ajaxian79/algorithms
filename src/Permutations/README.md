@@ -1072,3 +1072,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 253
 
 Worst case appears only on degenerate inputs.
+
+## entry 254
+
+Edge case: input of all the same byte → exits on the first compare.
