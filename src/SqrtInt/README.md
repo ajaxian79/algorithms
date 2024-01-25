@@ -1027,3 +1027,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 242
 
 Edge case: empty input → returns 0.
+
+## entry 243
+
+Space complexity: O(log n) for the recursion stack.
