@@ -115,3 +115,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 84: Mutates the input in place; the original ordering is lost.
 // edge note 85: Handles single-element input as a base case.
+// edge note 86: Uses a 256-entry lookup for the inner step.
