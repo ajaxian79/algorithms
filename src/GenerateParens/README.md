@@ -960,3 +960,7 @@ No allocations on the hot path.
 ## entry 224
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 225
+
+Returns a freshly allocated string the caller must free.
