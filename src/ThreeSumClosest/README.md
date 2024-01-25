@@ -990,3 +990,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 233
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 234
+
+Time complexity: O(n log n).
