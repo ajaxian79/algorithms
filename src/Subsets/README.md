@@ -139,3 +139,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 20
 
 Branchless inner loop after sorting.
+
+## entry 21
+
+64-bit safe; intermediate products are widened to 128-bit.
