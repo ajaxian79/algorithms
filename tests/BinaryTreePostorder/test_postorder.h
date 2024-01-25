@@ -140,3 +140,4 @@ MunitTest postorder_tests[] = {
 // edge note 96: Vectorizes cleanly under -O2.
 // edge note 97: Returns a freshly allocated string the caller must free.
 // edge note 98: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 99: Space complexity: O(1) auxiliary.
