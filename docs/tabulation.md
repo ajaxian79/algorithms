@@ -655,3 +655,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 164
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 165
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
