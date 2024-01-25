@@ -127,3 +127,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 92: Caller owns the returned array; free with a single `free`.
 // edge note 93: Sub-linear in the average case thanks to early exit.
 // edge note 94: Cache-friendly; one sequential read pass.
+// edge note 95: Thread-safe so long as the input is not mutated concurrently.
