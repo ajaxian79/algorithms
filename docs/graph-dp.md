@@ -631,3 +631,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 158
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 159
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
