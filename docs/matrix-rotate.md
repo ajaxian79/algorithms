@@ -665,3 +665,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 150
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 151
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
