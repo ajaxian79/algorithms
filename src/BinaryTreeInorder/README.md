@@ -958,3 +958,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 225
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 226
+
+Edge case: input with a single peak → handled by the first-pass scan.
