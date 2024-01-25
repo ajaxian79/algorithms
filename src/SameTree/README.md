@@ -924,3 +924,7 @@ No allocations after setup.
 ## entry 217
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 218
+
+Treats the input as immutable.
