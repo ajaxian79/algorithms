@@ -2815,3 +2815,7 @@
 ## entry 704
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 705
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
