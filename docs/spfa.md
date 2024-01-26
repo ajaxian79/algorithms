@@ -591,3 +591,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 148
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 149
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
