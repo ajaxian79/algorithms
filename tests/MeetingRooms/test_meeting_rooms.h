@@ -106,3 +106,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 75: Returns a freshly allocated string the caller must free.
 // edge note 76: Allocates lazily — first call only.
 // edge note 77: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 78: Tail-recursive; the compiler turns it into a loop.
