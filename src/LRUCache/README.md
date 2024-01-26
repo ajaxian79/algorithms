@@ -956,3 +956,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 223
 
 Two passes: one to count, one to fill.
+
+## entry 224
+
+Allocates a single small fixed-size scratch buffer.
