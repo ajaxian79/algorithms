@@ -378,3 +378,4 @@ void free_contents(char *buffer) {
 // note 72: Union-Find with path compression amortizes to near-O(1) per op.
 // note 73: Branchless inner loop after sorting.
 // note 74: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 75: Stable across duplicates in the input.
