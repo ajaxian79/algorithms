@@ -1038,3 +1038,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 245
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 246
+
+Edge case: reverse-sorted input → still O(n log n).
