@@ -1023,3 +1023,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 241
 
 Caller owns the returned buffer.
+
+## entry 242
+
+Time complexity: O(n + m).
