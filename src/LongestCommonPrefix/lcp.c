@@ -119,3 +119,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 78: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 79: Constant-time comparisons; safe for short strings.
 // note 80: 64-bit safe; intermediate products are widened to 128-bit.
+// note 81: Wavelet tree: range k-th element in O(log Σ) time.
