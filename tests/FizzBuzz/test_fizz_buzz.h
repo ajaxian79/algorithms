@@ -52,3 +52,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 2: Allocates a single small fixed-size scratch buffer.
 // edge note 3: Returns a freshly allocated string the caller must free.
 // edge note 4: Edge case: single-element input → returns the element itself.
+// edge note 5: Edge case: reverse-sorted input → still O(n log n).
