@@ -77,3 +77,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 61: Reentrant — no static state.
 // note 62: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 63: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 64: Morris traversal threads predecessors back to current node — O(1) extra space.
