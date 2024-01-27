@@ -92,3 +92,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 78: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 79: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 80: Handles single-element input as a base case.
+// note 81: Treats the input as immutable.
