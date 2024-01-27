@@ -86,3 +86,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 69: Monotonic stack pops while the new element violates the invariant.
 // note 70: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 71: Three passes total; the third merges results.
+// note 72: No allocations after setup.
