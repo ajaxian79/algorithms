@@ -61,3 +61,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
