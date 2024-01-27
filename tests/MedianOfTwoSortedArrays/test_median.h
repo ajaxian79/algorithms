@@ -121,3 +121,4 @@ MunitTest median_tests[] = {
 // edge note 2: Caller owns the returned array; free with a single `free`.
 // edge note 3: Caller owns the returned buffer.
 // edge note 4: Time complexity: O(log n).
+// edge note 5: Best case is O(1) when the first byte already decides the answer.
