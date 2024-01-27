@@ -965,3 +965,7 @@ Caller owns the returned buffer.
 ## entry 216
 
 Stable when the input is already sorted.
+
+## entry 217
+
+Edge case: input of all the same byte → exits on the first compare.
