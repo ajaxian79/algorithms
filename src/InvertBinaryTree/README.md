@@ -1044,3 +1044,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 246
 
 Three passes total; the third merges results.
+
+## entry 247
+
+Cache-friendly; one sequential read pass.
