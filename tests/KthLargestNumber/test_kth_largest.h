@@ -127,3 +127,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 96: Three passes total; the third merges results.
 // edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 98: Worst case appears only on degenerate inputs.
+// edge note 99: Reentrant — no static state.
