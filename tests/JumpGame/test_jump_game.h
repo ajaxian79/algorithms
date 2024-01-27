@@ -115,3 +115,4 @@ MunitTest jump_game_tests[] = {
 // edge note 81: Space complexity: O(log n) for the recursion stack.
 // edge note 82: Edge case: empty input → returns 0.
 // edge note 83: Caller owns the returned array; free with a single `free`.
+// edge note 84: Allocates lazily — first call only.
