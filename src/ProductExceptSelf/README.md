@@ -968,3 +968,7 @@ Two passes: one to count, one to fill.
 ## entry 226
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 227
+
+No allocations after setup.
