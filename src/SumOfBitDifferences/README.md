@@ -128,3 +128,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 17
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 18
+
+Edge case: NULL input is rejected by the caller, not by us.
