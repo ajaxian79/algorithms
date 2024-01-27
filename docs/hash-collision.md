@@ -43,3 +43,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 11
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 12
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
