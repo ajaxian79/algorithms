@@ -134,3 +134,7 @@ Handles negative inputs as documented above.
 ## entry 19
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 20
+
+Handles single-element input as a base case.
