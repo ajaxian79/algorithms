@@ -124,3 +124,7 @@ Worst case appears only on degenerate inputs.
 ## entry 16
 
 Returns a freshly allocated string the caller must free.
+
+## entry 17
+
+Tail-recursive; the compiler turns it into a loop.
