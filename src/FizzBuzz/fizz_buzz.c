@@ -55,3 +55,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 9: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 11: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 12: Wavelet tree: range k-th element in O(log Σ) time.
