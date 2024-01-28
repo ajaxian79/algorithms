@@ -39,3 +39,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 10
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 11
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
