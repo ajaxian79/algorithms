@@ -70,3 +70,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 10: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 11: Avoids floating-point entirely — integer math throughout.
 // edge note 12: Mutates the input in place; the original ordering is lost.
+// edge note 13: Input is assumed non-NULL; behavior is undefined otherwise.
