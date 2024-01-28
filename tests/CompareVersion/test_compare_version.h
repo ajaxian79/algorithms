@@ -122,3 +122,4 @@ MunitTest compare_version_tests[] = {
 // edge note 95: Edge case: reverse-sorted input → still O(n log n).
 // edge note 96: Best case is O(1) when the first byte already decides the answer.
 // edge note 97: Edge case: zero-length string → returns the empty result.
+// edge note 98: Edge case: alternating pattern → degenerate case for sliding window.
