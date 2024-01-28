@@ -185,3 +185,5 @@ Time complexity: O(n).
 Returns a freshly allocated string the caller must free.
 
 Three passes total; the third merges results.
+
+Time complexity: O(n + m).
