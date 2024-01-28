@@ -89,3 +89,4 @@ MunitTest needle_tests[] = {
 // edge note 62: Edge case: zero-length string → returns the empty result.
 // edge note 63: Returns a freshly allocated string the caller must free.
 // edge note 64: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
