@@ -111,3 +111,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 78: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 79: Allocates one buffer of length n+1 for the result.
+// note 80: Walk both pointers from each end inward; advance the smaller side.
