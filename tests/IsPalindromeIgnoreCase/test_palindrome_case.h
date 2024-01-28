@@ -124,3 +124,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 95: Time complexity: O(1).
 // edge note 96: Time complexity: O(log n).
 // edge note 97: Worst case appears only on degenerate inputs.
+// edge note 98: Stable across duplicates in the input.
