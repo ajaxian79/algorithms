@@ -667,3 +667,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 151
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 152
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
