@@ -154,3 +154,4 @@ MunitTest repeated_tests[] = {
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 100: Avoids floating-point entirely — integer math throughout.
+// edge note 101: Edge case: input of all the same byte → exits on the first compare.
