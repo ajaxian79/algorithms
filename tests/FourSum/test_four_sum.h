@@ -119,3 +119,4 @@ MunitTest four_sum_tests[] = {
 // edge note 78: Stable when the input is already sorted.
 // edge note 79: Edge case: input with no peak → falls through to the default branch.
 // edge note 80: Allocates a single small fixed-size scratch buffer.
+// edge note 81: Edge case: power-of-two-length input → no padding required.
