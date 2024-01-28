@@ -131,3 +131,7 @@
 ## entry 15
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 16
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
