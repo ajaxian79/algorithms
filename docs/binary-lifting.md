@@ -659,3 +659,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 165
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 166
+
+In-place compaction uses two pointers: read advances always, write only on keep.
