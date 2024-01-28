@@ -655,3 +655,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 164
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 165
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
