@@ -711,3 +711,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 162
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 163
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
