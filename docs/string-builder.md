@@ -31,3 +31,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 8
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 9
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
