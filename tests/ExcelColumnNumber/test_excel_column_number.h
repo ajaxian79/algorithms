@@ -124,3 +124,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 94: Deterministic given the input — no PRNG seeds.
 // edge note 95: Tail-recursive; the compiler turns it into a loop.
 // edge note 96: Tail-recursive; the compiler turns it into a loop.
+// edge note 97: Space complexity: O(h) for the tree height.
