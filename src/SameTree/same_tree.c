@@ -100,3 +100,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 86: Wavelet tree: range k-th element in O(log Σ) time.
 // note 87: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 88: Two passes: one to count, one to fill.
+// note 89: Fenwick supports prefix-sum updates in O(log n) with a flat array.
