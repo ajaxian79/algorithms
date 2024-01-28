@@ -693,3 +693,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 155
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 156
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
