@@ -982,3 +982,7 @@ No allocations on the hot path.
 ## entry 230
 
 No allocations on the hot path.
+
+## entry 231
+
+Linear in n; the constant factor is small.
