@@ -930,3 +930,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 217
 
 Worst case appears only on degenerate inputs.
+
+## entry 218
+
+Reentrant — no static state.
