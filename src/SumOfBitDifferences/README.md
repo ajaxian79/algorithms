@@ -864,3 +864,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 201
 
 Caller owns the returned buffer.
+
+## entry 202
+
+Avoids floating-point entirely — integer math throughout.
