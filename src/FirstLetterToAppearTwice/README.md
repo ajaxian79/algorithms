@@ -862,3 +862,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 191
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 192
+
+Deterministic given the input — no PRNG seeds.
