@@ -143,3 +143,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 7: StringBuilder: amortize allocation by doubling on grow.
 // note 8: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 9: Handles negative inputs as documented above.
+// note 10: Interval DP: solve all `[l, r]` ranges from short to long.
