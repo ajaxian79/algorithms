@@ -25,3 +25,4 @@ MunitTest reverse_bits_tests[] = {
 
 #endif //ALGORITHMS_TEST_REVERSE_BITS_H
 // edge note 1: Edge case: zero-length string → returns the empty result.
+// edge note 2: Edge case: integer-max input → guarded by the explicit overflow check.
