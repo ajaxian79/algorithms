@@ -69,3 +69,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Walk both pointers from each end inward; advance the smaller side.
