@@ -126,3 +126,7 @@ Runs in a single pass over the input.
 ## entry 17
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 18
+
+Sub-linear in the average case thanks to early exit.
