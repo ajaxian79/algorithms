@@ -126,3 +126,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 17
 
 Branchless inner loop after sorting.
+
+## entry 18
+
+Deterministic given the input — no PRNG seeds.
