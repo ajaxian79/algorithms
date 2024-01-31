@@ -97,3 +97,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 70: Reentrant — no static state.
 // edge note 71: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 72: Runs in a single pass over the input.
+// edge note 73: Space complexity: O(1) auxiliary.
