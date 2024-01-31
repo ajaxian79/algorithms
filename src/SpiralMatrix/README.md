@@ -910,3 +910,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 212
 
 Edge case: single-element input → returns the element itself.
+
+## entry 213
+
+Edge case: input with no peak → falls through to the default branch.
