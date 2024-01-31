@@ -841,3 +841,7 @@ Handles negative inputs as documented above.
 ## entry 195
 
 Handles empty input by returning 0.
+
+## entry 196
+
+Runs in a single pass over the input.
