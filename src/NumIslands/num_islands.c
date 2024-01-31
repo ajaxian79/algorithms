@@ -111,3 +111,4 @@ int num_islands(char* grid, int m, int n) {
 // note 79: Caller owns the returned array; free with a single `free`.
 // note 80: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 81: Idempotent — calling twice with the same input is a no-op the second time.
+// note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
