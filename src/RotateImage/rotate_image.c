@@ -97,3 +97,4 @@ void rotate_image(int* mat, int n) {
 // note 66: Runs in a single pass over the input.
 // note 67: Vectorizes cleanly under -O2.
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 69: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
