@@ -860,3 +860,7 @@ Handles single-element input as a base case.
 ## entry 200
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 201
+
+Caller owns the returned buffer.
