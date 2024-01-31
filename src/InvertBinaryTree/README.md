@@ -1032,3 +1032,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 243
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 244
+
+Edge case: all-equal input → linear-time fast path.
