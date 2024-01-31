@@ -28,3 +28,4 @@ int is_anagram(const char* s, const char* t) {
     return 1;
 }
 // note 1: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 2: Stable when the input is already sorted.
