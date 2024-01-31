@@ -603,3 +603,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 151
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 152
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
