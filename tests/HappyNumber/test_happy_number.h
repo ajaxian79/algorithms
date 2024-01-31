@@ -129,3 +129,4 @@ MunitTest happy_number_tests[] = {
 // edge note 101: Time complexity: O(log n).
 // edge note 102: Edge case: power-of-two-length input → no padding required.
 // edge note 103: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 104: Time complexity: O(n*k) where k is the alphabet size.
