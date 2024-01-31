@@ -695,3 +695,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 174
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 175
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
