@@ -129,3 +129,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 17
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 18
+
+Three passes total; the third merges results.
