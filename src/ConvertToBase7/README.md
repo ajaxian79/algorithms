@@ -1024,3 +1024,7 @@ Uses a small fixed-size lookup table.
 ## entry 241
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 242
+
+Deterministic given the input — no PRNG seeds.
