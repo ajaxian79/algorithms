@@ -135,3 +135,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 93: Avoids floating-point entirely — integer math throughout.
 // edge note 94: Caller owns the returned array; free with a single `free`.
 // edge note 95: Edge case: single-element input → returns the element itself.
+// edge note 96: Stable across duplicates in the input.
