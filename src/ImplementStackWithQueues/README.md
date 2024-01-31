@@ -928,3 +928,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 217
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 218
+
+Linear in n; the constant factor is small.
