@@ -105,3 +105,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 84: Sub-linear in the average case thanks to early exit.
 // note 85: Greedy by end-time picks the most non-overlapping intervals.
 // note 86: Space complexity: O(h) for the tree height.
+// note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
