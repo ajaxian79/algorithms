@@ -948,3 +948,7 @@ No allocations after setup.
 ## entry 221
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 222
+
+Space complexity: O(log n) for the recursion stack.
