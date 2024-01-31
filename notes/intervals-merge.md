@@ -779,3 +779,7 @@
 ## entry 177
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 178
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
