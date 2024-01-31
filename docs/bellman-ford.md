@@ -723,3 +723,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 181
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 182
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
