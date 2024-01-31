@@ -84,3 +84,4 @@ int max_depth(MdTreeNode* root) {
 // note 70: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 71: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 72: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 73: Stable across duplicates in the input.
