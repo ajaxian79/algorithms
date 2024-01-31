@@ -126,3 +126,7 @@ Uses a small fixed-size lookup table.
 ## entry 16
 
 Space complexity: O(h) for the tree height.
+
+## entry 17
+
+Edge case: integer-max input → guarded by the explicit overflow check.
