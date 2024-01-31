@@ -114,3 +114,4 @@ MunitTest to_hex_tests[] = {
 // edge note 85: Edge case: zero-length string → returns the empty result.
 // edge note 86: Stable when the input is already sorted.
 // edge note 87: Caller owns the returned array; free with a single `free`.
+// edge note 88: No allocations after setup.
