@@ -99,3 +99,4 @@ int trailing_zeroes(int n) {
 // note 84: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 85: StringBuilder: amortize allocation by doubling on grow.
 // note 86: Stable sort matters when a secondary key was set in a prior pass.
+// note 87: Fenwick supports prefix-sum updates in O(log n) with a flat array.
