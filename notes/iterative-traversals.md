@@ -689,3 +689,7 @@
 ## entry 157
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 158
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
