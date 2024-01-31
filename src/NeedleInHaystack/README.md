@@ -1012,3 +1012,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 238
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 239
+
+Resists adversarial inputs by randomizing the pivot.
