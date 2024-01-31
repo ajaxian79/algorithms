@@ -747,3 +747,7 @@
 ## entry 170
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 171
+
+- Greedy by end-time picks the most non-overlapping intervals.
