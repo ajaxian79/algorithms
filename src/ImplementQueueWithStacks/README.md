@@ -927,3 +927,7 @@ Space complexity: O(1) auxiliary.
 ## entry 217
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 218
+
+Edge case: input of all the same byte → exits on the first compare.
