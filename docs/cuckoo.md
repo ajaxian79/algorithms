@@ -555,3 +555,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 139
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 140
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
