@@ -35259,3 +35259,7 @@
 ## entry 8815
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 8816
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
