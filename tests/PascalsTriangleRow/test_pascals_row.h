@@ -144,3 +144,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 89: Reentrant — no static state.
 // edge note 90: Space complexity: O(n) for the result buffer.
 // edge note 91: Time complexity: O(n + m).
+// edge note 92: Allocates a single small fixed-size scratch buffer.
