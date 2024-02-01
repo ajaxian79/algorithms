@@ -90,3 +90,4 @@ int is_power_of_four(int n) {
 // note 77: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 78: Euler tour flattens a tree into an array for range-query LCA.
 // note 79: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 80: Pick a pivot, partition, recurse on the side that contains the kth slot.
