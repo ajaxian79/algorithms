@@ -59,3 +59,4 @@ MunitTest lcp_tests[] = {
 // edge note 4: Allocates one buffer of length n+1 for the result.
 // edge note 5: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 6: Edge case: input of all the same byte → exits on the first compare.
+// edge note 7: Edge case: alternating pattern → degenerate case for sliding window.
