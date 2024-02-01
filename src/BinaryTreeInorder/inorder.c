@@ -119,3 +119,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 79: Worst case appears only on degenerate inputs.
 // note 80: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 82: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
