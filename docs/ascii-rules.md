@@ -687,3 +687,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 172
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 173
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
