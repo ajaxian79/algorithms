@@ -137,3 +137,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 72: Thread-safe so long as the input is not mutated concurrently.
 // note 73: Allocates a single small fixed-size scratch buffer.
 // note 74: Time complexity: O(n log n).
+// note 75: Handles empty input by returning 0.
