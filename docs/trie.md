@@ -117,3 +117,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 13
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 14
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
