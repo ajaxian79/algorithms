@@ -944,3 +944,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 220
 
 No allocations after setup.
+
+## entry 221
+
+Avoids floating-point entirely — integer math throughout.
