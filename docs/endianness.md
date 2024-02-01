@@ -63,3 +63,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 16
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 17
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
