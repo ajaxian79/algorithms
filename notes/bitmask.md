@@ -685,3 +685,7 @@
 ## entry 155
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 156
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
