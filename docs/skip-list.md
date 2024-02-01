@@ -59,3 +59,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 15
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 16
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
