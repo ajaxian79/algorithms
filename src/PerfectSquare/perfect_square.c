@@ -88,3 +88,4 @@ int is_perfect_square(int n) {
 // note 69: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 70: Mutates the input in place; the original ordering is lost.
 // note 71: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
