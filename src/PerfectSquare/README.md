@@ -1026,3 +1026,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 242
 
 Stable across duplicates in the input.
+
+## entry 243
+
+Time complexity: O(log n).
