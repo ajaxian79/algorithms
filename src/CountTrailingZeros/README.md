@@ -978,3 +978,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 229
 
 No allocations on the hot path.
+
+## entry 230
+
+No allocations on the hot path.
