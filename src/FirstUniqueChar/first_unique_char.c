@@ -100,3 +100,4 @@ int first_unique_char(const char* s) {
 // note 81: Union-Find with path compression amortizes to near-O(1) per op.
 // note 82: Time complexity: O(k) where k is the answer size.
 // note 83: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 84: Worst case appears only on degenerate inputs.
