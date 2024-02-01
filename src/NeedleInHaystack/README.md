@@ -108,3 +108,7 @@ Three passes total; the third merges results.
 ## entry 12
 
 Time complexity: O(n log n).
+
+## entry 13
+
+Cache-friendly; one sequential read pass.
