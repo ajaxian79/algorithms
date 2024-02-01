@@ -149,3 +149,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 83: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 84: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 85: Constant-time comparisons; safe for short strings.
+// note 86: Time complexity: O(log n).
