@@ -559,3 +559,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 140
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 141
+
+Articulation points: same DFS as bridges, with a slightly different test.
