@@ -627,3 +627,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 157
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 158
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
