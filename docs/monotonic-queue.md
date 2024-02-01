@@ -687,3 +687,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 154
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 155
+
+Euler tour flattens a tree into an array for range-query LCA.
