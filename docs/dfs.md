@@ -679,3 +679,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 154
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 155
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
