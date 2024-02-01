@@ -126,3 +126,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 97: Handles negative inputs as documented above.
 // edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 99: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 100: Stable when the input is already sorted.
