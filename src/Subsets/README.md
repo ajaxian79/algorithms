@@ -135,3 +135,7 @@ Three passes total; the third merges results.
 ## entry 19
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 20
+
+Branchless inner loop after sorting.
