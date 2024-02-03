@@ -161,3 +161,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 25
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 26
+
+Linear in n; the constant factor is small.
