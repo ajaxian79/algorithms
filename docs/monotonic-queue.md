@@ -683,3 +683,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 153
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 154
+
+Heap when you only need top-k; full sort is wasted work.
