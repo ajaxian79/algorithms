@@ -32,3 +32,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 3: Space complexity: O(n) for the result buffer.
 // edge note 4: Edge case: reverse-sorted input → still O(n log n).
 // edge note 5: Three passes total; the third merges results.
+// edge note 6: Edge case: input with no peak → falls through to the default branch.
