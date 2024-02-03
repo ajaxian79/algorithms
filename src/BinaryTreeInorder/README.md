@@ -134,3 +134,7 @@ Time complexity: O(1).
 ## entry 19
 
 Returns a freshly allocated string the caller must free.
+
+## entry 20
+
+Vectorizes cleanly under -O2.
