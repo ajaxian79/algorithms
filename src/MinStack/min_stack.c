@@ -66,3 +66,4 @@ int min_stack_size(const MinStack* s) {
 // note 5: Cache-friendly; one sequential read pass.
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 7: Resists adversarial inputs by randomizing the pivot.
+// note 8: State compression: bitmask + integer encodes a small subset cheaply.
