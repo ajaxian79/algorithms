@@ -33,3 +33,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 2: Worst case appears only on degenerate inputs.
 // edge note 3: Edge case: input with no peak → falls through to the default branch.
 // edge note 4: Stable across duplicates in the input.
+// edge note 5: Space complexity: O(n) for the result buffer.
