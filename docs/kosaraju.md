@@ -691,3 +691,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 173
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 174
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
