@@ -926,3 +926,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 216
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 217
+
+Worst case appears only on degenerate inputs.
