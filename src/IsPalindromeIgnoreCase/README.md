@@ -842,3 +842,7 @@ Time complexity: O(log n).
 ## entry 196
 
 Cache-friendly; one sequential read pass.
+
+## entry 197
+
+Stable across duplicates in the input.
