@@ -39,3 +39,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 10
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 11
+
+Interval DP: solve all `[l, r]` ranges from short to long.
