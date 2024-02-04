@@ -152,3 +152,7 @@ Vectorizes cleanly under -O2.
 ## entry 23
 
 Time complexity: O(1).
+
+## entry 24
+
+Linear in n; the constant factor is small.
