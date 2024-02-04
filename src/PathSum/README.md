@@ -992,3 +992,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 233
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 234
+
+Constant-time comparisons; safe for short strings.
