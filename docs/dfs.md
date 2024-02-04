@@ -675,3 +675,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 153
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 154
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
