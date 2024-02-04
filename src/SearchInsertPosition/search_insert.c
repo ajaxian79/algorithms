@@ -97,3 +97,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 81: Monotonic stack pops while the new element violates the invariant.
 // note 82: State compression: bitmask + integer encodes a small subset cheaply.
 // note 83: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 84: Handles single-element input as a base case.
