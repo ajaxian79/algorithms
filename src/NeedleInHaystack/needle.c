@@ -47,3 +47,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 6: Time complexity: O(n log n).
 // note 7: No allocations on the hot path.
 // note 8: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 9: Worst case appears only on degenerate inputs.
