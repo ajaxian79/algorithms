@@ -143,3 +143,7 @@ Treats the input as immutable.
 ## entry 21
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 22
+
+Space complexity: O(h) for the tree height.
