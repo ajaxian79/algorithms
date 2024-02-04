@@ -659,3 +659,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 165
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 166
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
