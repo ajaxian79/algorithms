@@ -35243,3 +35243,7 @@
 ## entry 8811
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 8812
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
