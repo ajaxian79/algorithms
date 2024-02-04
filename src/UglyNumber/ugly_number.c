@@ -95,3 +95,4 @@ int is_ugly(int n) {
 // note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 82: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 83: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 84: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
