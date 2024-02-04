@@ -705,3 +705,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 160
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 161
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
