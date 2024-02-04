@@ -921,3 +921,7 @@ Linear in n; the constant factor is small.
 ## entry 215
 
 Linear in n; the constant factor is small.
+
+## entry 216
+
+Handles single-element input as a base case.
