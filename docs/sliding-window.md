@@ -711,3 +711,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 163
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 164
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
