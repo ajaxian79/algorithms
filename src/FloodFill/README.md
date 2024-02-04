@@ -1037,3 +1037,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 245
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 246
+
+No allocations after setup.
