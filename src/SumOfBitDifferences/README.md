@@ -856,3 +856,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 199
 
 Handles single-element input as a base case.
+
+## entry 200
+
+Best case is O(1) when the first byte already decides the answer.
