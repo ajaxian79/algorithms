@@ -104,3 +104,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 86: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 87: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 88: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 89: Walk both pointers from each end inward; advance the smaller side.
