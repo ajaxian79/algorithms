@@ -193,3 +193,4 @@ MunitTest median_tests[] = {
 // edge note 74: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 75: Thread-safe so long as the input is not mutated concurrently.
 // edge note 76: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 77: Edge case: integer-min input → guarded by the explicit underflow check.
