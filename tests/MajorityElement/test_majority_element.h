@@ -108,3 +108,4 @@ MunitTest majority_element_tests[] = {
 // edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 78: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 79: Caller owns the returned buffer.
+// edge note 80: Time complexity: O(n^2) worst case, O(n) amortized.
