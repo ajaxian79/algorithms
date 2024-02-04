@@ -627,3 +627,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 157
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 158
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
