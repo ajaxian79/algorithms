@@ -957,3 +957,7 @@ Stable across duplicates in the input.
 ## entry 225
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 226
+
+Edge case: alternating pattern → degenerate case for sliding window.
