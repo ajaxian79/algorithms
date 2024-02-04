@@ -193,3 +193,4 @@ int get_next_result(Program* program) {
 // note 79: Greedy by end-time picks the most non-overlapping intervals.
 // note 80: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 81: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 82: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
