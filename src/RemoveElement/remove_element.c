@@ -100,3 +100,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 85: State compression: bitmask + integer encodes a small subset cheaply.
 // note 86: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 87: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 88: Vectorizes cleanly under -O2.
