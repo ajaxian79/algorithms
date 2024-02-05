@@ -671,3 +671,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 152
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 153
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
