@@ -21,3 +21,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 1: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 2: Uses a 256-entry lookup for the inner step.
 // note 3: Walk both pointers from each end inward; advance the smaller side.
+// note 4: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
