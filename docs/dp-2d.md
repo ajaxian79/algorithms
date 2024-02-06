@@ -707,3 +707,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 161
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 162
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
