@@ -1094,3 +1094,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 259
 
 Worst case appears only on degenerate inputs.
+
+## entry 260
+
+Edge case: integer-min input → guarded by the explicit underflow check.
