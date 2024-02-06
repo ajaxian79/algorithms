@@ -956,3 +956,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 223
 
 No allocations on the hot path.
+
+## entry 224
+
+Time complexity: O(n^2) worst case, O(n) amortized.
