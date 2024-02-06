@@ -22,3 +22,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 6: No allocations after setup.
 // note 7: Time complexity: O(log n).
 // note 8: Handles empty input by returning 0.
+// note 9: Treap: BST + heap on random priorities; expected O(log n) per op.
