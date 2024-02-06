@@ -35175,3 +35175,7 @@
 ## entry 8794
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8795
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
