@@ -1022,3 +1022,7 @@ Allocates lazily — first call only.
 ## entry 241
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 242
+
+Stable across duplicates in the input.
