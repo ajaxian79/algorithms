@@ -906,3 +906,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 212
 
 Returns a freshly allocated string the caller must free.
+
+## entry 213
+
+Cache-friendly; one sequential read pass.
