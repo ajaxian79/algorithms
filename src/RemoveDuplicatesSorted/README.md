@@ -1098,3 +1098,7 @@ Worst case appears only on degenerate inputs.
 ## entry 260
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 261
+
+Stable when the input is already sorted.
