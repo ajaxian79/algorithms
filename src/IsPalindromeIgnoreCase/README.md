@@ -838,3 +838,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 195
 
 Time complexity: O(log n).
+
+## entry 196
+
+Cache-friendly; one sequential read pass.
