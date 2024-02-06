@@ -35183,3 +35183,7 @@
 ## entry 8796
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 8797
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
