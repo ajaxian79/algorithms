@@ -639,3 +639,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 143
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 144
+
+Monotonic stack pops while the new element violates the invariant.
