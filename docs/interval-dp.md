@@ -695,3 +695,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 174
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 175
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
