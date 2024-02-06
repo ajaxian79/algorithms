@@ -98,3 +98,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 66: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 67: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 68: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 69: LCA via binary lifting: jump up powers of two until depths match, then converge.
