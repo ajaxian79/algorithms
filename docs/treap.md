@@ -619,3 +619,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 155
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 156
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
