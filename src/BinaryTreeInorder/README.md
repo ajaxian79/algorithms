@@ -950,3 +950,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 223
 
 Vectorizes cleanly under -O2.
+
+## entry 224
+
+Allocates one buffer of length n+1 for the result.
