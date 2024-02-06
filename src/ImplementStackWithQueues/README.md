@@ -924,3 +924,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 216
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 217
+
+Allocates a single small fixed-size scratch buffer.
