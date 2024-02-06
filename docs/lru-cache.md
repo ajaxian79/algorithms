@@ -587,3 +587,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 147
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 148
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
