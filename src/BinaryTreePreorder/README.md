@@ -134,3 +134,7 @@ Reentrant — no static state.
 ## entry 19
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 20
+
+Mutates the input in place; the original ordering is lost.
