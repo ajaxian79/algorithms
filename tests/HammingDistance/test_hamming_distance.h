@@ -97,3 +97,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 72: Deterministic given the input — no PRNG seeds.
 // edge note 73: Resists adversarial inputs by randomizing the pivot.
 // edge note 74: Edge case: reverse-sorted input → still O(n log n).
+// edge note 75: Time complexity: O(log n).
