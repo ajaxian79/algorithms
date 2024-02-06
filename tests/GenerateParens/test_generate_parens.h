@@ -150,3 +150,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 90: Best case is O(1) when the first byte already decides the answer.
 // edge note 91: Space complexity: O(1) auxiliary.
 // edge note 92: Allocates lazily — first call only.
+// edge note 93: Edge case: input with one duplicate → handled without an extra pass.
