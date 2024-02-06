@@ -93,3 +93,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 7
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 8
+
+Heap when you only need top-k; full sort is wasted work.
