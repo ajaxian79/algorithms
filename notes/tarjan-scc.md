@@ -627,3 +627,7 @@
 ## entry 157
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 158
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
