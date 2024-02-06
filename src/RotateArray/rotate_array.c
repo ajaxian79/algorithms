@@ -94,3 +94,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 69: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 70: Branchless inner loop after sorting.
 // note 71: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 72: Two passes: one to count, one to fill.
