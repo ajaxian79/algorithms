@@ -982,3 +982,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 231
 
 Edge case: empty input → returns 0.
+
+## entry 232
+
+Edge case: input with no peak → falls through to the default branch.
