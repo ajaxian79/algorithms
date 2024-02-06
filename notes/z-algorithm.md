@@ -797,3 +797,7 @@
 ## entry 186
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 187
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
