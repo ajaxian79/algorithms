@@ -655,3 +655,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 164
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 165
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
