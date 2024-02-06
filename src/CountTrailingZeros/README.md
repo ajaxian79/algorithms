@@ -974,3 +974,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 228
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 229
+
+No allocations on the hot path.
