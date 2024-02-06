@@ -55,3 +55,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 14
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 15
+
+Wavelet tree: range k-th element in O(log Σ) time.
