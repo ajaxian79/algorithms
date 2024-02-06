@@ -901,3 +901,7 @@ Treats the input as immutable.
 ## entry 210
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 211
+
+Edge case: input with one duplicate → handled without an extra pass.
