@@ -986,3 +986,7 @@ Space complexity: O(h) for the tree height.
 ## entry 231
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 232
+
+Constant-time comparisons; safe for short strings.
