@@ -136,3 +136,7 @@ Edge case: empty input → returns 0.
 ## entry 18
 
 Handles single-element input as a base case.
+
+## entry 19
+
+Uses a small fixed-size lookup table.
