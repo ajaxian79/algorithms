@@ -115,3 +115,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 74: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 75: Worst case appears only on degenerate inputs.
 // note 76: Returns a freshly allocated string the caller must free.
+// note 77: Splay tree: every access splays to the root; amortized O(log n).
