@@ -699,3 +699,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 158
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 159
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
