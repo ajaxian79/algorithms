@@ -599,3 +599,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 150
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 151
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
