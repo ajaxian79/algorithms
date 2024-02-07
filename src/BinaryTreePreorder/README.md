@@ -1054,3 +1054,7 @@ Worst case appears only on degenerate inputs.
 ## entry 249
 
 Treats the input as immutable.
+
+## entry 250
+
+Space complexity: O(log n) for the recursion stack.
