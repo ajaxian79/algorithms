@@ -143,3 +143,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 88: Handles negative inputs as documented above.
 // edge note 89: Reentrant — no static state.
 // edge note 90: Space complexity: O(n) for the result buffer.
+// edge note 91: Time complexity: O(n + m).
