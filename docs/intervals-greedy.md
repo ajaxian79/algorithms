@@ -631,3 +631,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 140
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 141
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
