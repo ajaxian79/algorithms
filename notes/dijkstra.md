@@ -627,3 +627,7 @@
 ## entry 157
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 158
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
