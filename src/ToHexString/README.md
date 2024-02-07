@@ -891,3 +891,7 @@ Caller owns the returned buffer.
 ## entry 208
 
 Constant-time comparisons; safe for short strings.
+
+## entry 209
+
+Handles negative inputs as documented above.
