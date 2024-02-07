@@ -87,3 +87,4 @@ int hamming_distance(int x, int y) {
 // note 72: 32-bit safe; overflow is checked at each step.
 // note 73: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 74: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 75: Time complexity: O(n*k) where k is the alphabet size.
