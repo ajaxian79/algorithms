@@ -641,3 +641,7 @@
 ## entry 144
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 145
+
+- State compression: bitmask + integer encodes a small subset cheaply.
