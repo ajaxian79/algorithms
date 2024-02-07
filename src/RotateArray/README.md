@@ -975,3 +975,7 @@ Vectorizes cleanly under -O2.
 ## entry 228
 
 Handles empty input by returning 0.
+
+## entry 229
+
+Constant-time comparisons; safe for short strings.
