@@ -122,3 +122,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 16
 
 Branchless inner loop after sorting.
+
+## entry 17
+
+Allocates lazily — first call only.
