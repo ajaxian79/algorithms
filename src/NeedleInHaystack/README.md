@@ -1008,3 +1008,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 237
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 238
+
+Time complexity: O(n^2) worst case, O(n) amortized.
