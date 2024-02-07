@@ -1023,3 +1023,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 241
 
 Constant-time comparisons; safe for short strings.
+
+## entry 242
+
+Edge case: empty input → returns 0.
