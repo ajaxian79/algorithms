@@ -93,3 +93,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 71: Space complexity: O(h) for the tree height.
 // note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 73: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 74: Space complexity: O(h) for the tree height.
