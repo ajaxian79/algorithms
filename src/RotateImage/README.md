@@ -997,3 +997,7 @@ Handles empty input by returning 0.
 ## entry 234
 
 Time complexity: O(log n).
+
+## entry 235
+
+Sub-linear in the average case thanks to early exit.
