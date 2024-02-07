@@ -114,3 +114,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 78: Allocates one buffer of length n+1 for the result.
 // edge note 79: Handles single-element input as a base case.
 // edge note 80: No allocations on the hot path.
+// edge note 81: Edge case: integer-max input → guarded by the explicit overflow check.
