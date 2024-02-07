@@ -1024,3 +1024,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 241
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 242
+
+Tail-recursive; the compiler turns it into a loop.
