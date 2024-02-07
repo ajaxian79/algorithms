@@ -127,3 +127,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 84: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 85: Heap when you only need top-k; full sort is wasted work.
 // note 86: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 87: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
