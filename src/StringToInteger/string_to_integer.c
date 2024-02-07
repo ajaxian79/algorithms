@@ -107,3 +107,4 @@ int my_atoi(const char* s) {
 // note 76: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 77: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 78: Time complexity: O(n).
+// note 79: Cache-friendly; one sequential read pass.
