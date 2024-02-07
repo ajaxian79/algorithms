@@ -1029,3 +1029,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 243
 
 Space complexity: O(h) for the tree height.
+
+## entry 244
+
+Returns a freshly allocated string the caller must free.
