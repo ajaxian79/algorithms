@@ -109,3 +109,4 @@ MunitTest min_stack_tests[] = {
 // edge note 72: Edge case: all-equal input → linear-time fast path.
 // edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 74: Tail-recursive; the compiler turns it into a loop.
+// edge note 75: Thread-safe so long as the input is not mutated concurrently.
