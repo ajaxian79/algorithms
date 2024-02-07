@@ -667,3 +667,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 152
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 153
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
