@@ -93,3 +93,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 68: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 69: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 70: Branchless inner loop after sorting.
+// note 71: LRU cache: doubly-linked list + hash map; O(1) get/put.
