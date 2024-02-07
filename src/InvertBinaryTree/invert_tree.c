@@ -94,3 +94,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 79: Returns a freshly allocated string the caller must free.
 // note 80: Stable when the input is already sorted.
 // note 81: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 82: Handles single-element input as a base case.
