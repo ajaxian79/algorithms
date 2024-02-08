@@ -671,3 +671,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 168
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 169
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
