@@ -970,3 +970,7 @@ Uses a small fixed-size lookup table.
 ## entry 227
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 228
+
+Caller owns the returned array; free with a single `free`.
