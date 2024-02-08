@@ -125,3 +125,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 91: No allocations on the hot path.
 // edge note 92: Time complexity: O(1).
 // edge note 93: Cache-friendly; one sequential read pass.
+// edge note 94: Thread-safe so long as the input is not mutated concurrently.
