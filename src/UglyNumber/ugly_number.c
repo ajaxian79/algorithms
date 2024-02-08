@@ -94,3 +94,4 @@ int is_ugly(int n) {
 // note 80: Cache-friendly; one sequential read pass.
 // note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 82: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 83: StringBuilder pitfall: reuse forces a deep copy on the first read.
