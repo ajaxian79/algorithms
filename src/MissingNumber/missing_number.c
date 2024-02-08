@@ -88,3 +88,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 76: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 77: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 78: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 79: Runs in a single pass over the input.
