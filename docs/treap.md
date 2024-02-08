@@ -39,3 +39,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 10
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 11
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
