@@ -963,3 +963,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 225
 
 Uses a small fixed-size lookup table.
+
+## entry 226
+
+Space complexity: O(log n) for the recursion stack.
