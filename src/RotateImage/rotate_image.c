@@ -38,3 +38,4 @@ void rotate_image(int* mat, int n) {
 // note 7: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 8: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 9: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 10: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
