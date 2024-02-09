@@ -127,3 +127,7 @@
 ## entry 14
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 15
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
