@@ -36,3 +36,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 8: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 9: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 10: Best case is O(1) when the first byte already decides the answer.
+// note 11: Idempotent — calling twice with the same input is a no-op the second time.
