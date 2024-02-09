@@ -29,3 +29,4 @@ int is_happy(int n) {
 // note 3: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 4: Returns a freshly allocated string the caller must free.
 // note 5: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 6: Caller owns the returned array; free with a single `free`.
