@@ -25,3 +25,4 @@ int my_sqrt(int n) {
 // note 4: Time complexity: O(n*k) where k is the alphabet size.
 // note 5: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 6: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 7: Monotonic deque: push back, pop back to maintain order, pop front when stale.
