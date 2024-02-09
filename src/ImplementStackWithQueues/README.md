@@ -152,3 +152,7 @@ Stable across duplicates in the input.
 ## entry 23
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 24
+
+Allocates a single small fixed-size scratch buffer.
