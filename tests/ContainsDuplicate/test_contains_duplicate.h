@@ -1,0 +1,43 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_CONTAINS_DUPLICATE_H
+#define ALGORITHMS_TEST_CONTAINS_DUPLICATE_H
+
+#include "../tests.h"
+#include "../../src/ContainsDuplicate/contains_duplicate.h"
+
+static MunitResult test_contains_duplicate_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {1, 2, 3, 1};
+    munit_assert_int(contains_duplicate(a, 4), ==, 1);
+
+    int b[] = {1, 2, 3, 4};
+    munit_assert_int(contains_duplicate(b, 4), ==, 0);
+
+    int c[] = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
+    munit_assert_int(contains_duplicate(c, 10), ==, 1);
+
+    int d[] = {0};
+    munit_assert_int(contains_duplicate(d, 1), ==, 0);
+
+    munit_assert_int(contains_duplicate(NULL, 0), ==, 0);
+    return MUNIT_OK;
+}
+
+static MunitResult test_contains_duplicate_negatives(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {-1, -2, -3, -2};
+    munit_assert_int(contains_duplicate(a, 4), ==, 1);
+
+    int b[] = {-100, 100, 0};
+    munit_assert_int(contains_duplicate(b, 3), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest contains_duplicate_tests[] = {
+    {"/basic", test_contains_duplicate_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/negatives", test_contains_duplicate_negatives, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_CONTAINS_DUPLICATE_H

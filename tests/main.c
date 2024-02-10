@@ -15,6 +15,7 @@
 #include "ClimbStairs/test_climb_stairs.h"
 #include "SingleNumber/test_single_number.h"
 #include "MajorityElement/test_majority_element.h"
+#include "ContainsDuplicate/test_contains_duplicate.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -122,6 +123,12 @@ MunitSuite suites[] = {
         },{
                 "/majority_element",
                 majority_element_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/contains_duplicate",
+                contains_duplicate_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
