@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#include "valid_anagram.h"
+
+#include <stddef.h>
+
+int is_anagram(const char* s, const char* t) {
+    if (s == NULL || t == NULL) return s == t;
+
+    int counts[256] = {0};
+    int s_len = 0;
+    int t_len = 0;
+
+    for (int i = 0; s[i] != '\0'; i++) {
+        counts[(unsigned char)s[i]]++;
+        s_len++;
+    }
+    for (int i = 0; t[i] != '\0'; i++) {
+        counts[(unsigned char)t[i]]--;
+        t_len++;
+    }
+    if (s_len != t_len) return 0;
+    for (int i = 0; i < 256; i++) {
+        if (counts[i] != 0) return 0;
+    }
+    return 1;
+}

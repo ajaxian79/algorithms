@@ -1,0 +1,25 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_VALID_ANAGRAM_H
+#define ALGORITHMS_TEST_VALID_ANAGRAM_H
+
+#include "../tests.h"
+#include "../../src/ValidAnagram/valid_anagram.h"
+
+static MunitResult test_valid_anagram_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_anagram("anagram", "nagaram"), ==, 1);
+    munit_assert_int(is_anagram("rat", "car"), ==, 0);
+    munit_assert_int(is_anagram("", ""), ==, 1);
+    munit_assert_int(is_anagram("a", "ab"), ==, 0);
+    munit_assert_int(is_anagram("aacc", "ccac"), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest valid_anagram_tests[] = {
+    {"/basic", test_valid_anagram_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_VALID_ANAGRAM_H

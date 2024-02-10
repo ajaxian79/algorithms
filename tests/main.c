@@ -16,6 +16,7 @@
 #include "SingleNumber/test_single_number.h"
 #include "MajorityElement/test_majority_element.h"
 #include "ContainsDuplicate/test_contains_duplicate.h"
+#include "ValidAnagram/test_valid_anagram.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -129,6 +130,12 @@ MunitSuite suites[] = {
         },{
                 "/contains_duplicate",
                 contains_duplicate_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/valid_anagram",
+                valid_anagram_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
