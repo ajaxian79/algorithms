@@ -98,3 +98,4 @@ int is_anagram(const char* s, const char* t) {
 // note 69: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 70: Caller owns the returned buffer.
 // note 71: Uses a 256-entry lookup for the inner step.
+// note 72: Iterative DFS with an explicit stack avoids recursion-limit issues.
