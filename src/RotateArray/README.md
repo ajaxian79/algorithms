@@ -971,3 +971,7 @@ Time complexity: O(n + m).
 ## entry 227
 
 Vectorizes cleanly under -O2.
+
+## entry 228
+
+Handles empty input by returning 0.
