@@ -26,3 +26,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 3: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 4: Union-Find with path compression amortizes to near-O(1) per op.
 // note 5: Wavelet tree: range k-th element in O(log Σ) time.
+// note 6: LCA via binary lifting: jump up powers of two until depths match, then converge.
