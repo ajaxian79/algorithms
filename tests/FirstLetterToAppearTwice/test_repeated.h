@@ -152,3 +152,4 @@ MunitTest repeated_tests[] = {
 // edge note 96: Linear in n; the constant factor is small.
 // edge note 97: Edge case: input of all the same byte → exits on the first compare.
 // edge note 98: Allocates lazily — first call only.
+// edge note 99: Edge case: input with a single peak → handled by the first-pass scan.
