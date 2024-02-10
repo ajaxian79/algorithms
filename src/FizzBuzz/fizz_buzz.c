@@ -1,0 +1,46 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#include "fizz_buzz.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+static char* dup_str(const char* s) {
+    size_t n = strlen(s);
+    char* out = malloc(n + 1);
+    if (!out) return NULL;
+    memcpy(out, s, n + 1);
+    return out;
+}
+
+char** fizz_buzz(int n, int* return_size) {
+    if (n <= 0) {
+        *return_size = 0;
+        return NULL;
+    }
+
+    char** out = malloc(sizeof(char*) * (size_t)n);
+    if (!out) {
+        *return_size = 0;
+        return NULL;
+    }
+
+    for (int i = 1; i <= n; i++) {
+        if (i % 15 == 0) {
+            out[i - 1] = dup_str("FizzBuzz");
+        } else if (i % 3 == 0) {
+            out[i - 1] = dup_str("Fizz");
+        } else if (i % 5 == 0) {
+            out[i - 1] = dup_str("Buzz");
+        } else {
+            char buf[16];
+            snprintf(buf, sizeof(buf), "%d", i);
+            out[i - 1] = dup_str(buf);
+        }
+    }
+    *return_size = n;
+    return out;
+}

@@ -1,0 +1,50 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_FIZZ_BUZZ_H
+#define ALGORITHMS_TEST_FIZZ_BUZZ_H
+
+#include <stdlib.h>
+#include <string.h>
+
+#include "../tests.h"
+#include "../../src/FizzBuzz/fizz_buzz.h"
+
+static void free_all(char** out, int n) {
+    for (int i = 0; i < n; i++) free(out[i]);
+    free(out);
+}
+
+static MunitResult test_fizz_buzz_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int n = 0;
+    char** out = fizz_buzz(15, &n);
+    munit_assert_int(n, ==, 15);
+    munit_assert_string_equal(out[0], "1");
+    munit_assert_string_equal(out[1], "2");
+    munit_assert_string_equal(out[2], "Fizz");
+    munit_assert_string_equal(out[3], "4");
+    munit_assert_string_equal(out[4], "Buzz");
+    munit_assert_string_equal(out[5], "Fizz");
+    munit_assert_string_equal(out[8], "Fizz");
+    munit_assert_string_equal(out[9], "Buzz");
+    munit_assert_string_equal(out[14], "FizzBuzz");
+    free_all(out, n);
+    return MUNIT_OK;
+}
+
+static MunitResult test_fizz_buzz_empty(const MunitParameter params[], void* user_data_or_fixture) {
+    int n = -1;
+    char** out = fizz_buzz(0, &n);
+    munit_assert_null(out);
+    munit_assert_int(n, ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest fizz_buzz_tests[] = {
+    {"/basic", test_fizz_buzz_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/empty", test_fizz_buzz_empty, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_FIZZ_BUZZ_H

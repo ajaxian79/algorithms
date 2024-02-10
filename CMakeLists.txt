@@ -25,6 +25,7 @@ add_executable(contains_duplicate src/ContainsDuplicate/main.c src/ContainsDupli
 add_executable(valid_anagram src/ValidAnagram/main.c src/ValidAnagram/valid_anagram.c)
 add_executable(move_zeroes src/MoveZeroes/main.c src/MoveZeroes/move_zeroes.c)
 add_executable(reverse_string src/ReverseString/main.c src/ReverseString/reverse_string.c)
+add_executable(fizz_buzz src/FizzBuzz/main.c src/FizzBuzz/fizz_buzz.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -44,7 +45,8 @@ add_executable(unittests
         src/ContainsDuplicate/contains_duplicate.c
         src/ValidAnagram/valid_anagram.c
         src/MoveZeroes/move_zeroes.c
-        src/ReverseString/reverse_string.c)
+        src/ReverseString/reverse_string.c
+        src/FizzBuzz/fizz_buzz.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -69,4 +71,5 @@ target_link_libraries(contains_duplicate PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-s
 target_link_libraries(valid_anagram PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(move_zeroes PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(reverse_string PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(fizz_buzz PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
