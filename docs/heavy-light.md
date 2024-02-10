@@ -35,3 +35,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 9
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 10
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
