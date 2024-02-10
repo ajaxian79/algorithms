@@ -14,6 +14,7 @@ add_executable(aoc2024_5 src/AoC2024_5/main.c src/AoC2024_5/logger.c src/AoC2024
 add_executable(reverse_integer src/ReverseInteger/main.c src/ReverseInteger/reverse_integer.c)
 add_executable(palindrome_number src/PalindromeNumber/main.c src/PalindromeNumber/palindrome_number.c)
 add_executable(roman_to_int src/RomanToInt/main.c src/RomanToInt/roman_to_int.c)
+add_executable(int_to_roman src/IntToRoman/main.c src/IntToRoman/int_to_roman.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -22,7 +23,8 @@ add_executable(unittests
         src/MedianOfTwoSortedArrays/median.c
         src/ReverseInteger/reverse_integer.c
         src/PalindromeNumber/palindrome_number.c
-        src/RomanToInt/roman_to_int.c)
+        src/RomanToInt/roman_to_int.c
+        src/IntToRoman/int_to_roman.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -36,4 +38,5 @@ target_link_libraries(aoc2024_5 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(reverse_integer PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(palindrome_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(roman_to_int PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(int_to_roman PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

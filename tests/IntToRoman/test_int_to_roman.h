@@ -1,0 +1,39 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_INT_TO_ROMAN_H
+#define ALGORITHMS_TEST_INT_TO_ROMAN_H
+
+#include <string.h>
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/IntToRoman/int_to_roman.h"
+
+static MunitResult test_int_to_roman_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* s;
+    s = int_to_roman(1);     munit_assert_string_equal(s, "I");        free(s);
+    s = int_to_roman(4);     munit_assert_string_equal(s, "IV");       free(s);
+    s = int_to_roman(9);     munit_assert_string_equal(s, "IX");       free(s);
+    s = int_to_roman(58);    munit_assert_string_equal(s, "LVIII");    free(s);
+    s = int_to_roman(1994);  munit_assert_string_equal(s, "MCMXCIV");  free(s);
+    s = int_to_roman(2024);  munit_assert_string_equal(s, "MMXXIV");   free(s);
+    s = int_to_roman(3999);  munit_assert_string_equal(s, "MMMCMXCIX");free(s);
+    return MUNIT_OK;
+}
+
+static MunitResult test_int_to_roman_invalid(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_null(int_to_roman(0));
+    munit_assert_null(int_to_roman(-5));
+    munit_assert_null(int_to_roman(4000));
+    return MUNIT_OK;
+}
+
+MunitTest int_to_roman_tests[] = {
+    {"/basic", test_int_to_roman_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/invalid", test_int_to_roman_invalid, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_INT_TO_ROMAN_H

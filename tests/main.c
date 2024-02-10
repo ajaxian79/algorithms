@@ -8,6 +8,7 @@
 #include "ReverseInteger/test_reverse_integer.h"
 #include "PalindromeNumber/test_palindrome_number.h"
 #include "RomanToInt/test_roman_to_int.h"
+#include "IntToRoman/test_int_to_roman.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -73,6 +74,12 @@ MunitSuite suites[] = {
         },{
                 "/roman_to_int",
                 roman_to_int_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/int_to_roman",
+                int_to_roman_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

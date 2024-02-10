@@ -1,0 +1,37 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#include "int_to_roman.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+static const int VALUES[] =       {1000,  900, 500,  400, 100,   90,  50,   40,  10,    9,   5,    4,   1};
+static const char* SYMBOLS[] = {  "M",  "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
+
+char* int_to_roman(int n) {
+    if (n < 1 || n > 3999) {
+        return NULL;
+    }
+
+    // Worst case "MMMDCCCLXXXVIII" = 15 chars + null.
+    char* out = malloc(20);
+    if (!out) {
+        return NULL;
+    }
+    out[0] = '\0';
+    size_t len = 0;
+
+    int n_pairs = sizeof(VALUES) / sizeof(VALUES[0]);
+    for (int i = 0; i < n_pairs; i++) {
+        while (n >= VALUES[i]) {
+            size_t sym_len = strlen(SYMBOLS[i]);
+            memcpy(out + len, SYMBOLS[i], sym_len);
+            len += sym_len;
+            n -= VALUES[i];
+        }
+    }
+    out[len] = '\0';
+    return out;
+}
