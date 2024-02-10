@@ -17,6 +17,7 @@ add_executable(roman_to_int src/RomanToInt/main.c src/RomanToInt/roman_to_int.c)
 add_executable(int_to_roman src/IntToRoman/main.c src/IntToRoman/int_to_roman.c)
 add_executable(lcp src/LongestCommonPrefix/main.c src/LongestCommonPrefix/lcp.c)
 add_executable(valid_parens src/ValidParentheses/main.c src/ValidParentheses/valid_parens.c)
+add_executable(plus_one src/PlusOne/main.c src/PlusOne/plus_one.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -28,7 +29,8 @@ add_executable(unittests
         src/RomanToInt/roman_to_int.c
         src/IntToRoman/int_to_roman.c
         src/LongestCommonPrefix/lcp.c
-        src/ValidParentheses/valid_parens.c)
+        src/ValidParentheses/valid_parens.c
+        src/PlusOne/plus_one.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -45,4 +47,5 @@ target_link_libraries(roman_to_int PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(int_to_roman PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(lcp PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(valid_parens PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(plus_one PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

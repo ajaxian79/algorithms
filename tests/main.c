@@ -11,6 +11,7 @@
 #include "IntToRoman/test_int_to_roman.h"
 #include "LongestCommonPrefix/test_lcp.h"
 #include "ValidParentheses/test_valid_parens.h"
+#include "PlusOne/test_plus_one.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -94,6 +95,12 @@ MunitSuite suites[] = {
         },{
                 "/valid_parens",
                 valid_parens_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/plus_one",
+                plus_one_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
