@@ -12,6 +12,7 @@
 #include "LongestCommonPrefix/test_lcp.h"
 #include "ValidParentheses/test_valid_parens.h"
 #include "PlusOne/test_plus_one.h"
+#include "ClimbStairs/test_climb_stairs.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -101,6 +102,12 @@ MunitSuite suites[] = {
         },{
                 "/plus_one",
                 plus_one_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/climb_stairs",
+                climb_stairs_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
