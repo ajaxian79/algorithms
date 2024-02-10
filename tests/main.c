@@ -7,6 +7,7 @@
 #include "MedianOfTwoSortedArrays/test_median.h"
 #include "ReverseInteger/test_reverse_integer.h"
 #include "PalindromeNumber/test_palindrome_number.h"
+#include "RomanToInt/test_roman_to_int.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -66,6 +67,12 @@ MunitSuite suites[] = {
         },{
                 "/palindrome_number",
                 palindrome_number_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/roman_to_int",
+                roman_to_int_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
