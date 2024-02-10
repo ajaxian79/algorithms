@@ -18,6 +18,7 @@
 #include "ContainsDuplicate/test_contains_duplicate.h"
 #include "ValidAnagram/test_valid_anagram.h"
 #include "MoveZeroes/test_move_zeroes.h"
+#include "ReverseString/test_reverse_string.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -143,6 +144,12 @@ MunitSuite suites[] = {
         },{
                 "/move_zeroes",
                 move_zeroes_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/reverse_string",
+                reverse_string_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
