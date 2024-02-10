@@ -6,6 +6,7 @@
 #include "FirstLetterToAppearTwice/test_repeated.h"
 #include "MedianOfTwoSortedArrays/test_median.h"
 #include "ReverseInteger/test_reverse_integer.h"
+#include "PalindromeNumber/test_palindrome_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -59,6 +60,12 @@ MunitSuite suites[] = {
         },{
                 "/reverse_int",
                 reverse_int_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/palindrome_number",
+                palindrome_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
