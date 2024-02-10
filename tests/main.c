@@ -9,6 +9,7 @@
 #include "PalindromeNumber/test_palindrome_number.h"
 #include "RomanToInt/test_roman_to_int.h"
 #include "IntToRoman/test_int_to_roman.h"
+#include "LongestCommonPrefix/test_lcp.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -80,6 +81,12 @@ MunitSuite suites[] = {
         },{
                 "/int_to_roman",
                 int_to_roman_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/lcp",
+                lcp_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
