@@ -17,6 +17,7 @@
 #include "MajorityElement/test_majority_element.h"
 #include "ContainsDuplicate/test_contains_duplicate.h"
 #include "ValidAnagram/test_valid_anagram.h"
+#include "MoveZeroes/test_move_zeroes.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -136,6 +137,12 @@ MunitSuite suites[] = {
         },{
                 "/valid_anagram",
                 valid_anagram_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/move_zeroes",
+                move_zeroes_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

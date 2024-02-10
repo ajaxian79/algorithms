@@ -1,0 +1,40 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_MOVE_ZEROES_H
+#define ALGORITHMS_TEST_MOVE_ZEROES_H
+
+#include "../tests.h"
+#include "../../src/MoveZeroes/move_zeroes.h"
+
+static MunitResult test_move_zeroes_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    int a[] = {0, 1, 0, 3, 12};
+    move_zeroes(a, 5);
+    int expected_a[] = {1, 3, 12, 0, 0};
+    for (int i = 0; i < 5; i++) munit_assert_int(a[i], ==, expected_a[i]);
+
+    int b[] = {0};
+    move_zeroes(b, 1);
+    munit_assert_int(b[0], ==, 0);
+
+    int c[] = {1, 2, 3};
+    move_zeroes(c, 3);
+    munit_assert_int(c[0], ==, 1);
+    munit_assert_int(c[1], ==, 2);
+    munit_assert_int(c[2], ==, 3);
+
+    int d[] = {0, 0, 0, 1};
+    move_zeroes(d, 4);
+    int expected_d[] = {1, 0, 0, 0};
+    for (int i = 0; i < 4; i++) munit_assert_int(d[i], ==, expected_d[i]);
+
+    return MUNIT_OK;
+}
+
+MunitTest move_zeroes_tests[] = {
+    {"/basic", test_move_zeroes_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MOVE_ZEROES_H
