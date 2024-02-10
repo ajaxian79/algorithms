@@ -20,6 +20,7 @@ add_executable(valid_parens src/ValidParentheses/main.c src/ValidParentheses/val
 add_executable(plus_one src/PlusOne/main.c src/PlusOne/plus_one.c)
 add_executable(climb_stairs src/ClimbStairs/main.c src/ClimbStairs/climb_stairs.c)
 add_executable(single_number src/SingleNumber/main.c src/SingleNumber/single_number.c)
+add_executable(majority_element src/MajorityElement/main.c src/MajorityElement/majority_element.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -34,7 +35,8 @@ add_executable(unittests
         src/ValidParentheses/valid_parens.c
         src/PlusOne/plus_one.c
         src/ClimbStairs/climb_stairs.c
-        src/SingleNumber/single_number.c)
+        src/SingleNumber/single_number.c
+        src/MajorityElement/majority_element.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -54,4 +56,5 @@ target_link_libraries(valid_parens PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(plus_one PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(climb_stairs PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(single_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(majority_element PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
