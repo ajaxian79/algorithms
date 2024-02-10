@@ -11,12 +11,14 @@ add_executable(aoc2024_2 src/AoC2024_2/main.c src/Aoc2024_2/report.c src/Aoc2024
 add_executable(aoc2024_3 src/AoC2024_3/main.c src/AoC2024_3/scanner.c src/AoC2024_3/parser.c src/AoC2024_3/logger.c src/AoC2024_3/program.c)
 add_executable(aoc2024_4 src/AoC2024_4/main.c src/AoC2024_4/logger.c src/AoC2024_4/gameboard.c)
 add_executable(aoc2024_5 src/AoC2024_5/main.c src/AoC2024_5/logger.c src/AoC2024_5/rule_check.c)
+add_executable(reverse_integer src/ReverseInteger/main.c src/ReverseInteger/reverse_integer.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
         src/TwoSum/twosum.c
         src/FirstLetterToAppearTwice/repeated.c
-        src/MedianOfTwoSortedArrays/median.c)
+        src/MedianOfTwoSortedArrays/median.c
+        src/ReverseInteger/reverse_integer.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -27,4 +29,5 @@ target_link_libraries(aoc2024_2 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(aoc2024_3 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(aoc2024_4 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(aoc2024_5 PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(reverse_integer PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

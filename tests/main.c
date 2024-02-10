@@ -5,6 +5,7 @@
 #include "TwoSum/test_twosum.h"
 #include "FirstLetterToAppearTwice/test_repeated.h"
 #include "MedianOfTwoSortedArrays/test_median.h"
+#include "ReverseInteger/test_reverse_integer.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -55,6 +56,12 @@ MunitSuite suites[] = {
                 NULL, /* suites */
                 1, /* iterations */
                 MUNIT_SUITE_OPTION_NONE /* options */
+        },{
+                "/reverse_int",
+                reverse_int_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
         },
         { NULL, NULL, NULL, 0, MUNIT_SUITE_OPTION_NONE }
 };
