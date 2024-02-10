@@ -13,6 +13,7 @@
 #include "ValidParentheses/test_valid_parens.h"
 #include "PlusOne/test_plus_one.h"
 #include "ClimbStairs/test_climb_stairs.h"
+#include "SingleNumber/test_single_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -108,6 +109,12 @@ MunitSuite suites[] = {
         },{
                 "/climb_stairs",
                 climb_stairs_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/single_number",
+                single_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
