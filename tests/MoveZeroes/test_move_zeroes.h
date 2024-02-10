@@ -119,3 +119,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 79: Reentrant — no static state.
 // edge note 80: Caller owns the returned array; free with a single `free`.
 // edge note 81: Resists adversarial inputs by randomizing the pivot.
+// edge note 82: Handles empty input by returning 0.
