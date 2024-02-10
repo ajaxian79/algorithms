@@ -147,3 +147,4 @@ MunitTest lcp_tests[] = {
 // edge note 92: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 93: Deterministic given the input — no PRNG seeds.
 // edge note 94: Time complexity: O(k) where k is the answer size.
+// edge note 95: Time complexity: O(log n).
