@@ -1,0 +1,35 @@
+//
+// Created by ajaxian on 02/10/24.
+//
+
+#ifndef ALGORITHMS_TEST_VALID_PARENS_H
+#define ALGORITHMS_TEST_VALID_PARENS_H
+
+#include "../tests.h"
+#include "../../src/ValidParentheses/valid_parens.h"
+
+static MunitResult test_valid_parens_balanced(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_valid_parens(""), ==, 1);
+    munit_assert_int(is_valid_parens("()"), ==, 1);
+    munit_assert_int(is_valid_parens("()[]{}"), ==, 1);
+    munit_assert_int(is_valid_parens("{[]}"), ==, 1);
+    munit_assert_int(is_valid_parens("(((())))"), ==, 1);
+    return MUNIT_OK;
+}
+
+static MunitResult test_valid_parens_unbalanced(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_valid_parens("(]"), ==, 0);
+    munit_assert_int(is_valid_parens("([)]"), ==, 0);
+    munit_assert_int(is_valid_parens("((("), ==, 0);
+    munit_assert_int(is_valid_parens(")"), ==, 0);
+    munit_assert_int(is_valid_parens("}{"), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest valid_parens_tests[] = {
+    {"/balanced", test_valid_parens_balanced, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/unbalanced", test_valid_parens_unbalanced, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_VALID_PARENS_H
