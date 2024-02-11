@@ -135,3 +135,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 77: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 78: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 79: Thread-safe so long as the input is not mutated concurrently.
+// note 80: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
