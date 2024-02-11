@@ -667,3 +667,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 167
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 168
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
