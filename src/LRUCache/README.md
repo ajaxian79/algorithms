@@ -116,3 +116,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 13
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 14
+
+Allocates lazily — first call only.
