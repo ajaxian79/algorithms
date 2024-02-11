@@ -35119,3 +35119,7 @@
 ## entry 8780
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 8781
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
