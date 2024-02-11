@@ -1019,3 +1019,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 240
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 241
+
+Constant-time comparisons; safe for short strings.
