@@ -115,3 +115,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 14
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 15
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
