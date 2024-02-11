@@ -111,3 +111,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 80: Allocates lazily — first call only.
 // edge note 81: Caller owns the returned array; free with a single `free`.
 // edge note 82: Handles empty input by returning 0.
+// edge note 83: Returns a freshly allocated string the caller must free.
