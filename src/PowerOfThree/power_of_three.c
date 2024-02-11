@@ -88,3 +88,4 @@ int is_power_of_three(int n) {
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
 // note 78: Monotonic stack pops while the new element violates the invariant.
 // note 79: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 80: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
