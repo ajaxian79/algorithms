@@ -833,3 +833,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 193
 
 Time complexity: O(n + m).
+
+## entry 194
+
+Handles negative inputs as documented above.
