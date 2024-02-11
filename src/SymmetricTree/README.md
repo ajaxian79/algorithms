@@ -958,3 +958,7 @@ Runs in a single pass over the input.
 ## entry 225
 
 Space complexity: O(n) for the result buffer.
+
+## entry 226
+
+Edge case: already-sorted input → no swaps performed.
