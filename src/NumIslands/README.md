@@ -873,3 +873,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 203
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 204
+
+Edge case: maximum-length input → still fits in 32-bit indices.
