@@ -707,3 +707,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 161
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 162
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
