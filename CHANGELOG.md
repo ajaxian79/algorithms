@@ -35111,3 +35111,7 @@
 ## entry 8778
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 8779
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
