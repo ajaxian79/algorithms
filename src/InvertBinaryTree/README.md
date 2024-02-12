@@ -148,3 +148,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 22
 
 Vectorizes cleanly under -O2.
+
+## entry 23
+
+Time complexity: O(1).
