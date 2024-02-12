@@ -115,3 +115,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 72: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 73: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 75: Stable when the input is already sorted.
