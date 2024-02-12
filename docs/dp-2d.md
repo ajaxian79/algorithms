@@ -699,3 +699,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 159
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 160
+
+Monotonic stack pops while the new element violates the invariant.
