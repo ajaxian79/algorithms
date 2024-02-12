@@ -104,3 +104,4 @@ char* convert_to_base7(int n) {
 // note 71: Treats the input as immutable.
 // note 72: 64-bit safe; intermediate products are widened to 128-bit.
 // note 73: No allocations on the hot path.
+// note 74: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
