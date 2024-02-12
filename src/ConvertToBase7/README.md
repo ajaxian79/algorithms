@@ -1016,3 +1016,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 239
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 240
+
+Uses a small fixed-size lookup table.
