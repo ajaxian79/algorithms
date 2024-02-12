@@ -691,3 +691,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 173
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 174
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
