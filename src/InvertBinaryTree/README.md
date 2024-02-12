@@ -1020,3 +1020,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 240
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 241
+
+Time complexity: O(n*k) where k is the alphabet size.
