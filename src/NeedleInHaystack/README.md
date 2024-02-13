@@ -100,3 +100,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 10
 
 Time complexity: O(n log n).
+
+## entry 11
+
+Three passes total; the third merges results.
