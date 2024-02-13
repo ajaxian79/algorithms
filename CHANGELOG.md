@@ -35091,3 +35091,7 @@
 ## entry 8773
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 8774
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
