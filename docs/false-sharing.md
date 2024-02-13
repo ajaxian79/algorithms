@@ -39,3 +39,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 10
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 11
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
