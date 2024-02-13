@@ -112,3 +112,7 @@ Space complexity: O(1) auxiliary.
 ## entry 12
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 13
+
+64-bit safe; intermediate products are widened to 128-bit.
