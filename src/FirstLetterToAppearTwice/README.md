@@ -158,3 +158,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 15
 
 Stable when the input is already sorted.
+
+## entry 16
+
+Handles empty input by returning 0.
