@@ -134,3 +134,7 @@ Time complexity: O(n + m).
 ## entry 18
 
 Reentrant — no static state.
+
+## entry 19
+
+Stable when the input is already sorted.
