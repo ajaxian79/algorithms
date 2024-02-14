@@ -107,3 +107,4 @@ MunitTest find_difference_tests[] = {
 // edge note 82: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 83: Best case is O(1) when the first byte already decides the answer.
 // edge note 84: No allocations after setup.
+// edge note 85: 32-bit safe; overflow is checked at each step.
