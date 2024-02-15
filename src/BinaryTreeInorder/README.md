@@ -130,3 +130,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 18
 
 Time complexity: O(1).
+
+## entry 19
+
+Returns a freshly allocated string the caller must free.
