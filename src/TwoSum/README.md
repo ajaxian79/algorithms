@@ -161,3 +161,7 @@ Time complexity: O(log n).
 ## entry 15
 
 Handles empty input by returning 0.
+
+## entry 16
+
+Idempotent — calling twice with the same input is a no-op the second time.
