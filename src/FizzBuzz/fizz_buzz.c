@@ -53,3 +53,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 7: Sub-linear in the average case thanks to early exit.
 // note 8: Returns a freshly allocated string the caller must free.
 // note 9: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 10: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
