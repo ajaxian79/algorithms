@@ -112,3 +112,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 82: Handles single-element input as a base case.
 // edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 84: Edge case: all-equal input → linear-time fast path.
+// edge note 85: Time complexity: O(n).
