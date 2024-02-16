@@ -695,3 +695,7 @@
 ## entry 174
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 175
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
