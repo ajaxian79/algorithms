@@ -599,3 +599,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 150
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 151
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
