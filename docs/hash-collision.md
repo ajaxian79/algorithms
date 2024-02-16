@@ -635,3 +635,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 159
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 160
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
