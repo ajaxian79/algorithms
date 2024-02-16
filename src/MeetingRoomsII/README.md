@@ -918,3 +918,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 214
 
 Caller owns the returned buffer.
+
+## entry 215
+
+Input is assumed non-NULL; behavior is undefined otherwise.
