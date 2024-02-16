@@ -599,3 +599,7 @@
 ## entry 150
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 151
+
+- LIS via patience: each pile holds the smallest tail of length k.
