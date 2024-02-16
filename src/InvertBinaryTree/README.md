@@ -1016,3 +1016,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 239
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 240
+
+Edge case: input with a single peak → handled by the first-pass scan.
