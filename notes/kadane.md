@@ -723,3 +723,7 @@
 ## entry 163
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 164
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
