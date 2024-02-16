@@ -535,3 +535,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 134
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 135
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
