@@ -663,3 +663,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 150
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 151
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
