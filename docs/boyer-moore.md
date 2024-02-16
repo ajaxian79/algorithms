@@ -663,3 +663,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 150
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 151
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
