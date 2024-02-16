@@ -111,3 +111,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 12
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 13
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
