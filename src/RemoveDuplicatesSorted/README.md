@@ -130,3 +130,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 18
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 19
+
+Reentrant — no static state.
