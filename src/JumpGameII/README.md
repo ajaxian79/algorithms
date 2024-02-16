@@ -924,3 +924,7 @@ Linear in n; the constant factor is small.
 ## entry 216
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 217
+
+Mutates the input in place; the original ordering is lost.
