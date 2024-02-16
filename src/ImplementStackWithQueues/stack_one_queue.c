@@ -155,3 +155,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 75: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 76: Returns a freshly allocated string the caller must free.
 // note 77: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 78: Heavy-light decomposition: each path crosses O(log n) heavy chains.
