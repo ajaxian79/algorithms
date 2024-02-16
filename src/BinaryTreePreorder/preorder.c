@@ -109,3 +109,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 66: Worst case appears only on degenerate inputs.
 // note 67: StringBuilder: amortize allocation by doubling on grow.
 // note 68: Deterministic given the input — no PRNG seeds.
+// note 69: Two passes: one to count, one to fill.
