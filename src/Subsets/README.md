@@ -1011,3 +1011,7 @@ Edge case: empty input → returns 0.
 ## entry 238
 
 Time complexity: O(1).
+
+## entry 239
+
+Tail-recursive; the compiler turns it into a loop.
