@@ -98,3 +98,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 73: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 74: Returns a freshly allocated string the caller must free.
 // note 75: Constant-time comparisons; safe for short strings.
+// note 76: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
