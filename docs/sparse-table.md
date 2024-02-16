@@ -539,3 +539,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 135
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 136
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
