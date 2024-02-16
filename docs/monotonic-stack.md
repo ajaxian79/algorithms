@@ -101,3 +101,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 9
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 10
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
