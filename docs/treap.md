@@ -615,3 +615,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 154
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 155
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
