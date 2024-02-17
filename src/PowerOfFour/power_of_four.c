@@ -88,3 +88,4 @@ int is_power_of_four(int n) {
 // note 75: Deterministic given the input — no PRNG seeds.
 // note 76: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 77: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 78: Euler tour flattens a tree into an array for range-query LCA.
