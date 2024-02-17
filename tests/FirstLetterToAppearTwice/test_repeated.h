@@ -151,3 +151,4 @@ MunitTest repeated_tests[] = {
 // edge note 95: Time complexity: O(n).
 // edge note 96: Linear in n; the constant factor is small.
 // edge note 97: Edge case: input of all the same byte → exits on the first compare.
+// edge note 98: Allocates lazily — first call only.
