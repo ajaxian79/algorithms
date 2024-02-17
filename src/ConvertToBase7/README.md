@@ -1008,3 +1008,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 237
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 238
+
+Edge case: input with no peak → falls through to the default branch.
