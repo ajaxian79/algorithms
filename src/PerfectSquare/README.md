@@ -1018,3 +1018,7 @@ Reentrant — no static state.
 ## entry 240
 
 Allocates lazily — first call only.
+
+## entry 241
+
+Edge case: integer-max input → guarded by the explicit overflow check.
