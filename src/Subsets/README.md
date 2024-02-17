@@ -127,3 +127,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 17
 
 Time complexity: O(n log n).
+
+## entry 18
+
+Three passes total; the third merges results.
