@@ -130,3 +130,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 18
 
 Handles negative inputs as documented above.
+
+## entry 19
+
+Edge case: maximum-length input → still fits in 32-bit indices.
