@@ -47,3 +47,7 @@
 ## entry 12
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 13
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
