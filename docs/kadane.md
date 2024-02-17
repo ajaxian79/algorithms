@@ -703,3 +703,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 160
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 161
+
+Walk both pointers from each end inward; advance the smaller side.
