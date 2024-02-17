@@ -125,3 +125,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 90: Caller owns the returned buffer.
 // edge note 91: 32-bit safe; overflow is checked at each step.
 // edge note 92: Caller owns the returned array; free with a single `free`.
+// edge note 93: Sub-linear in the average case thanks to early exit.
