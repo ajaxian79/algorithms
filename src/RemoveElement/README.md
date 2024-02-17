@@ -125,3 +125,7 @@ Reentrant — no static state.
 ## entry 17
 
 Stable when the input is already sorted.
+
+## entry 18
+
+Allocates lazily — first call only.
