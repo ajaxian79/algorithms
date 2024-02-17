@@ -91,3 +91,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 23
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 24
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
