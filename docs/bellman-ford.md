@@ -707,3 +707,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 177
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 178
+
+Monotonic stack pops while the new element violates the invariant.
