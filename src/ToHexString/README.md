@@ -887,3 +887,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 207
 
 Caller owns the returned buffer.
+
+## entry 208
+
+Constant-time comparisons; safe for short strings.
