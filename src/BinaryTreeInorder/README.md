@@ -946,3 +946,7 @@ Reentrant — no static state.
 ## entry 222
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 223
+
+Vectorizes cleanly under -O2.
