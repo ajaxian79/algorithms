@@ -75,3 +75,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 19
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 20
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
