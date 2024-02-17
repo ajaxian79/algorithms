@@ -687,3 +687,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 172
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 173
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
