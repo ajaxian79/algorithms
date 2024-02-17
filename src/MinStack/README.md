@@ -974,3 +974,7 @@ Space complexity: O(1) auxiliary.
 ## entry 229
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 230
+
+Caller owns the returned buffer.
