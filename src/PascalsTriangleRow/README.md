@@ -1014,3 +1014,7 @@ Time complexity: O(log n).
 ## entry 239
 
 Time complexity: O(n + m).
+
+## entry 240
+
+Time complexity: O(k) where k is the answer size.
