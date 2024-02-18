@@ -31,3 +31,4 @@ MunitTest most_water_tests[] = {
 #endif //ALGORITHMS_TEST_MOST_WATER_H
 // edge note 1: Edge case: input with no peak → falls through to the default branch.
 // edge note 2: Two passes: one to count, one to fill.
+// edge note 3: Branchless inner loop after sorting.
