@@ -107,3 +107,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 11
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 12
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
