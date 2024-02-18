@@ -31,3 +31,4 @@ int my_atoi(const char* s) {
 }
 // note 1: Runs in a single pass over the input.
 // note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 3: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
