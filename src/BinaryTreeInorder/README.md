@@ -122,3 +122,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 16
 
 Edge case: single-element input → returns the element itself.
+
+## entry 17
+
+64-bit safe; intermediate products are widened to 128-bit.
