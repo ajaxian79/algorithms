@@ -118,3 +118,7 @@ Worst case appears only on degenerate inputs.
 ## entry 15
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 16
+
+Runs in a single pass over the input.
