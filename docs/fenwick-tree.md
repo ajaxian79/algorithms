@@ -679,3 +679,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 154
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 155
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
