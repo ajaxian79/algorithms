@@ -105,3 +105,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 77: Mutates the input in place; the original ordering is lost.
 // note 78: Sub-linear in the average case thanks to early exit.
 // note 79: Cache-friendly; one sequential read pass.
+// note 80: Best case is O(1) when the first byte already decides the answer.
