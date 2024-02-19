@@ -35,3 +35,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 9
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 10
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
