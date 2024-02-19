@@ -114,3 +114,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 82: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 84: Mutates the input in place; the original ordering is lost.
+// edge note 85: Handles single-element input as a base case.
