@@ -767,3 +767,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 174
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 175
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
