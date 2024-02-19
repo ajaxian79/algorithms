@@ -34983,3 +34983,7 @@
 ## entry 8746
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 8747
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
