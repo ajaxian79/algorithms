@@ -643,3 +643,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 161
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 162
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
