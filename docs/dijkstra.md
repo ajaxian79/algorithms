@@ -607,3 +607,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 152
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 153
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
