@@ -1006,3 +1006,7 @@ Time complexity: O(n).
 ## entry 237
 
 Time complexity: O(log n).
+
+## entry 238
+
+Reentrant — no static state.
