@@ -603,3 +603,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 151
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 152
+
+Monotonic stack pops while the new element violates the invariant.
