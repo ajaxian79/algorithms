@@ -1010,3 +1010,7 @@ Time complexity: O(log n).
 ## entry 238
 
 Reentrant — no static state.
+
+## entry 239
+
+64-bit safe; intermediate products are widened to 128-bit.
