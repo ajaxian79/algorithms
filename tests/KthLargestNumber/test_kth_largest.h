@@ -125,3 +125,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 94: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 95: Uses a 256-entry lookup for the inner step.
 // edge note 96: Three passes total; the third merges results.
+// edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
