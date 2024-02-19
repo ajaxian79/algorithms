@@ -105,3 +105,4 @@ int my_sqrt(int n) {
 // note 84: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 85: Time complexity: O(n log n).
 // note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
