@@ -996,3 +996,7 @@ Time complexity: O(1).
 ## entry 234
 
 Allocates lazily — first call only.
+
+## entry 235
+
+Time complexity: O(k) where k is the answer size.
