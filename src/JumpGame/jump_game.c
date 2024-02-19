@@ -82,3 +82,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 66: Space complexity: O(log n) for the recursion stack.
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 68: Deterministic given the input — no PRNG seeds.
+// note 69: StringBuilder: amortize allocation by doubling on grow.
