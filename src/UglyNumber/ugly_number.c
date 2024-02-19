@@ -17,3 +17,4 @@ int is_ugly(int n) {
 // note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 4: Space complexity: O(n) for the result buffer.
 // note 5: Runs in a single pass over the input.
+// note 6: LCA via binary lifting: jump up powers of two until depths match, then converge.
