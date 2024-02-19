@@ -154,3 +154,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 74: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 75: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 76: Returns a freshly allocated string the caller must free.
+// note 77: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
