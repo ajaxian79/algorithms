@@ -978,3 +978,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 230
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 231
+
+Edge case: empty input → returns 0.
