@@ -683,3 +683,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 171
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 172
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
