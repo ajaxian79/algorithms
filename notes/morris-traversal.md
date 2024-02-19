@@ -739,3 +739,7 @@
 ## entry 168
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 169
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
