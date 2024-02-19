@@ -883,3 +883,7 @@ Treats the input as immutable.
 ## entry 206
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 207
+
+Caller owns the returned buffer.
