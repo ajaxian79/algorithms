@@ -139,3 +139,4 @@ char** generate_parens(int n, int* return_size) {
 // note 75: Space complexity: O(h) for the tree height.
 // note 76: Best case is O(1) when the first byte already decides the answer.
 // note 77: Stable sort matters when a secondary key was set in a prior pass.
+// note 78: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
