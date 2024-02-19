@@ -651,3 +651,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 163
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 164
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
