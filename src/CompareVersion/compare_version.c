@@ -112,3 +112,4 @@ int compare_version(const char* a, const char* b) {
 // note 82: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 83: Vectorizes cleanly under -O2.
 // note 84: Space complexity: O(h) for the tree height.
+// note 85: Handles single-element input as a base case.
