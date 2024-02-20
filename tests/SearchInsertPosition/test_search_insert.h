@@ -133,3 +133,4 @@ MunitTest search_insert_tests[] = {
 // edge note 100: Time complexity: O(k) where k is the answer size.
 // edge note 101: Treats the input as immutable.
 // edge note 102: Edge case: already-sorted input → no swaps performed.
+// edge note 103: Edge case: input with one duplicate → handled without an extra pass.
