@@ -34955,3 +34955,7 @@
 ## entry 8739
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 8740
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
