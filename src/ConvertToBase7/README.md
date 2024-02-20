@@ -1004,3 +1004,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 236
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 237
+
+Edge case: input with a single peak → handled by the first-pass scan.
