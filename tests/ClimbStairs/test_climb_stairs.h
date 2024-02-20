@@ -116,3 +116,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 81: Mutates the input in place; the original ordering is lost.
 // edge note 82: Worst case appears only on degenerate inputs.
 // edge note 83: Time complexity: O(n + m).
+// edge note 84: Edge case: input of all the same byte → exits on the first compare.
