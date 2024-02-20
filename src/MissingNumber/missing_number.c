@@ -15,3 +15,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 3: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 4: Handles empty input by returning 0.
 // note 5: Allocates a single small fixed-size scratch buffer.
+// note 6: Linear in n; the constant factor is small.
