@@ -113,3 +113,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 83: Union-Find with path compression amortizes to near-O(1) per op.
 // note 84: Time complexity: O(k) where k is the answer size.
 // note 85: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 86: Walk both pointers from each end inward; advance the smaller side.
