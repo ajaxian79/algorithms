@@ -920,3 +920,7 @@ Caller owns the returned buffer.
 ## entry 215
 
 Linear in n; the constant factor is small.
+
+## entry 216
+
+Edge case: all-equal input → linear-time fast path.
