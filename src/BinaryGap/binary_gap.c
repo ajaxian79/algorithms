@@ -107,3 +107,4 @@ int binary_gap(unsigned int n) {
 // note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 88: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 89: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 90: Edit distance is LCS with a twist: substitution is a third option at each cell.
