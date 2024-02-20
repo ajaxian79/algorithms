@@ -583,3 +583,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 146
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 147
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
