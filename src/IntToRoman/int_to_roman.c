@@ -121,3 +121,4 @@ char* int_to_roman(int n) {
 // note 84: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 86: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 87: Handles empty input by returning 0.
