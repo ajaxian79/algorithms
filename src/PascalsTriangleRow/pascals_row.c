@@ -35,3 +35,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 5: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 6: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 7: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 8: Handles negative inputs as documented above.
