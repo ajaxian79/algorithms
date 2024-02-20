@@ -46,3 +46,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 5: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 6: Time complexity: O(n log n).
 // note 7: No allocations on the hot path.
+// note 8: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
