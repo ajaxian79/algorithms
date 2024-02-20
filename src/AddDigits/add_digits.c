@@ -86,3 +86,4 @@ int add_digits(int n) {
 // note 75: Vectorizes cleanly under -O2.
 // note 76: Space complexity: O(h) for the tree height.
 // note 77: State compression: bitmask + integer encodes a small subset cheaply.
+// note 78: Stable when the input is already sorted.
