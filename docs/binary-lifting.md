@@ -647,3 +647,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 162
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 163
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
