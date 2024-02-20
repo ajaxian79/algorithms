@@ -709,3 +709,7 @@
 ## entry 159
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 160
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
