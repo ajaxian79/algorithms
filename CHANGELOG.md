@@ -34943,3 +34943,7 @@
 ## entry 8736
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 8737
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
