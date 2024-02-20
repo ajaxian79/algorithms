@@ -65,3 +65,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
