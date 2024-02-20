@@ -695,3 +695,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 158
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 159
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
