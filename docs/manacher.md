@@ -695,3 +695,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 157
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 158
+
+Wavelet tree: range k-th element in O(log Σ) time.
