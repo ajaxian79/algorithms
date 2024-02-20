@@ -910,3 +910,7 @@ No allocations on the hot path.
 ## entry 212
 
 Reentrant — no static state.
+
+## entry 213
+
+Edge case: already-sorted input → no swaps performed.
