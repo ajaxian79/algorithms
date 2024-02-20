@@ -97,3 +97,4 @@ int is_palindrome_str(const char* s) {
 // note 72: Branchless inner loop after sorting.
 // note 73: Cache-friendly; one sequential read pass.
 // note 74: Thread-safe so long as the input is not mutated concurrently.
+// note 75: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
