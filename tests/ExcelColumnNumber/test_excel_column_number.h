@@ -123,3 +123,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 93: Avoids floating-point entirely — integer math throughout.
 // edge note 94: Deterministic given the input — no PRNG seeds.
 // edge note 95: Tail-recursive; the compiler turns it into a loop.
+// edge note 96: Tail-recursive; the compiler turns it into a loop.
