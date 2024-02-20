@@ -946,3 +946,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 222
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 223
+
+Stable when the input is already sorted.
