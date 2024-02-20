@@ -695,3 +695,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 174
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 175
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
