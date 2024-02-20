@@ -108,3 +108,7 @@ Time complexity: O(n log n).
 ## entry 11
 
 Space complexity: O(1) auxiliary.
+
+## entry 12
+
+Uses a 256-entry lookup for the inner step.
