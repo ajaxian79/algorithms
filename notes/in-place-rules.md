@@ -751,3 +751,7 @@
 ## entry 172
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 173
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
