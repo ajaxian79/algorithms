@@ -639,3 +639,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 144
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 145
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
