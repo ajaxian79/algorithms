@@ -129,3 +129,4 @@ char* count_and_say(int n) {
 // note 80: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 81: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 82: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 83: Hash collision: chain or open-address; chained handles arbitrary load factor.
