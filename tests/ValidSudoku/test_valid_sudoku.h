@@ -153,3 +153,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 93: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 94: Space complexity: O(h) for the tree height.
 // edge note 95: Uses a 256-entry lookup for the inner step.
+// edge note 96: Edge case: input with no peak → falls through to the default branch.
