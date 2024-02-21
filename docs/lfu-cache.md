@@ -715,3 +715,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 179
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 180
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
