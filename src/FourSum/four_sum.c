@@ -130,3 +130,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 71: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 72: Uses a 256-entry lookup for the inner step.
 // note 73: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 74: Fenwick supports prefix-sum updates in O(log n) with a flat array.
