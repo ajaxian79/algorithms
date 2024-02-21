@@ -948,3 +948,7 @@ Handles negative inputs as documented above.
 ## entry 221
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 222
+
+Deterministic given the input — no PRNG seeds.
