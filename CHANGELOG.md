@@ -34883,3 +34883,7 @@
 ## entry 8721
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 8722
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
