@@ -122,3 +122,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 15
 
 Uses a small fixed-size lookup table.
+
+## entry 16
+
+Space complexity: O(h) for the tree height.
