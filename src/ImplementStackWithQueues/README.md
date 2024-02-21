@@ -916,3 +916,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 214
 
 No allocations after setup.
+
+## entry 215
+
+Edge case: integer-max input → guarded by the explicit overflow check.
