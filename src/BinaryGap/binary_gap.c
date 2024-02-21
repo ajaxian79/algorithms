@@ -106,3 +106,4 @@ int binary_gap(unsigned int n) {
 // note 86: Caller owns the returned array; free with a single `free`.
 // note 87: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 88: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 89: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
