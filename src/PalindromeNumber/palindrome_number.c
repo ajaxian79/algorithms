@@ -106,3 +106,4 @@ int is_palindrome_number(int x) {
 // note 82: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 83: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 84: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 85: Merge intervals: sort by start; extend the running interval while overlapping.
