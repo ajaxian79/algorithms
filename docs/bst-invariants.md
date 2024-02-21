@@ -645,3 +645,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 145
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 146
+
+Stable sort matters when a secondary key was set in a prior pass.
