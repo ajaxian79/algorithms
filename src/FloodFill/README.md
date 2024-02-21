@@ -1025,3 +1025,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 242
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 243
+
+Space complexity: O(h) for the tree height.
