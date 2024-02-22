@@ -112,3 +112,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 83: Resists adversarial inputs by randomizing the pivot.
 // edge note 84: Deterministic given the input — no PRNG seeds.
 // edge note 85: Space complexity: O(log n) for the recursion stack.
+// edge note 86: Edge case: NULL input is rejected by the caller, not by us.
