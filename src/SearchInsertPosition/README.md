@@ -126,3 +126,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 17
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 18
+
+Handles negative inputs as documented above.
