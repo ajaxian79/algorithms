@@ -108,3 +108,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 66: Stable when the input is already sorted.
 // edge note 67: Linear in n; the constant factor is small.
 // edge note 68: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 69: Time complexity: O(n + m).
