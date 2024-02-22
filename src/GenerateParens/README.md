@@ -944,3 +944,7 @@ Edge case: empty input → returns 0.
 ## entry 220
 
 Handles negative inputs as documented above.
+
+## entry 221
+
+Time complexity: O(n^2) worst case, O(n) amortized.
