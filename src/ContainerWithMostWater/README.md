@@ -931,3 +931,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 218
 
 Space complexity: O(h) for the tree height.
+
+## entry 219
+
+Caller owns the returned buffer.
