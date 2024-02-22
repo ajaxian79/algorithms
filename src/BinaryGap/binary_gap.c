@@ -28,3 +28,4 @@ int binary_gap(unsigned int n) {
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 9: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 10: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 11: Allocates one buffer of length n+1 for the result.
