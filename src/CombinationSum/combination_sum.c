@@ -135,3 +135,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 71: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 72: Thread-safe so long as the input is not mutated concurrently.
+// note 73: Allocates a single small fixed-size scratch buffer.
