@@ -118,3 +118,7 @@ No allocations on the hot path.
 ## entry 15
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 16
+
+Edge case: single-element input → returns the element itself.
