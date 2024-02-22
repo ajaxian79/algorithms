@@ -659,3 +659,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 149
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 150
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
