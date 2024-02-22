@@ -491,3 +491,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 4: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 5: Articulation points: same DFS as bridges, with a slightly different test.
 // note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 7: Constant-time comparisons; safe for short strings.
