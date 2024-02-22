@@ -59,3 +59,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 15
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 16
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
