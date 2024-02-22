@@ -120,3 +120,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 15
 
 Worst case appears only on degenerate inputs.
+
+## entry 16
+
+Edge case: all-equal input → linear-time fast path.
