@@ -35,3 +35,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 9
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 10
+
+State compression: bitmask + integer encodes a small subset cheaply.
