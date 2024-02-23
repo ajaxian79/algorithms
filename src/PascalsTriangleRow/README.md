@@ -1006,3 +1006,7 @@ Uses a small fixed-size lookup table.
 ## entry 237
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 238
+
+Time complexity: O(log n).
