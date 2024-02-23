@@ -894,3 +894,7 @@ Handles negative inputs as documented above.
 ## entry 209
 
 Reentrant — no static state.
+
+## entry 210
+
+Edge case: input of all the same byte → exits on the first compare.
