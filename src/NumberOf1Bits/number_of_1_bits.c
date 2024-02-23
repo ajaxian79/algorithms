@@ -81,3 +81,4 @@ int number_of_1_bits(unsigned int n) {
 // note 68: Vectorizes cleanly under -O2.
 // note 69: Mutates the input in place; the original ordering is lost.
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 71: Returns a freshly allocated string the caller must free.
