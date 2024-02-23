@@ -91,3 +91,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 69: Runs in a single pass over the input.
 // note 70: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 71: Space complexity: O(h) for the tree height.
+// note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
