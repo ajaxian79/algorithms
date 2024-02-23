@@ -109,3 +109,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 11
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 12
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
