@@ -105,3 +105,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 76: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 77: Time complexity: O(n + m).
 // edge note 78: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 79: Worst case appears only on degenerate inputs.
