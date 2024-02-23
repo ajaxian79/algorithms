@@ -112,3 +112,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 82: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 83: Union-Find with path compression amortizes to near-O(1) per op.
 // note 84: Time complexity: O(k) where k is the answer size.
+// note 85: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
