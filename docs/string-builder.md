@@ -619,3 +619,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 155
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 156
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
