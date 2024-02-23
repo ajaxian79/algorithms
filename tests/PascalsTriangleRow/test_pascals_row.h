@@ -141,3 +141,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 86: Vectorizes cleanly under -O2.
 // edge note 87: Space complexity: O(log n) for the recursion stack.
 // edge note 88: Handles negative inputs as documented above.
+// edge note 89: Reentrant — no static state.
