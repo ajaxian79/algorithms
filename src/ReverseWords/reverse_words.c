@@ -109,3 +109,4 @@ char* reverse_words(const char* s) {
 // note 65: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 66: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 67: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 68: Deterministic given the input — no PRNG seeds.
