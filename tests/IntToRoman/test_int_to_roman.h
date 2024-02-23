@@ -50,3 +50,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 11: Treats the input as immutable.
 // edge note 12: Time complexity: O(log n).
 // edge note 13: Sub-linear in the average case thanks to early exit.
+// edge note 14: Edge case: input with one duplicate → handled without an extra pass.
