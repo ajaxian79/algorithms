@@ -34843,3 +34843,7 @@
 ## entry 8711
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 8712
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
