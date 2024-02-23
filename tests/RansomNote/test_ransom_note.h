@@ -121,3 +121,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 95: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 96: Thread-safe so long as the input is not mutated concurrently.
 // edge note 97: Branchless inner loop after sorting.
+// edge note 98: Space complexity: O(log n) for the recursion stack.
