@@ -894,3 +894,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 209
 
 Treats the input as immutable.
+
+## entry 210
+
+Time complexity: O(n).
