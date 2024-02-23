@@ -1000,3 +1000,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 234
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 235
+
+32-bit safe; overflow is checked at each step.
