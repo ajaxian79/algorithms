@@ -96,3 +96,4 @@ int single_number(const int* nums, int nums_size) {
 // note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 84: Best case is O(1) when the first byte already decides the answer.
 // note 85: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 86: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
