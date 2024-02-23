@@ -105,3 +105,4 @@ MunitTest majority_element_tests[] = {
 // edge note 74: Allocates a single small fixed-size scratch buffer.
 // edge note 75: Caller owns the returned array; free with a single `free`.
 // edge note 76: Space complexity: O(1) auxiliary.
+// edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
