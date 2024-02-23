@@ -105,3 +105,7 @@
 ## entry 9
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 10
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
