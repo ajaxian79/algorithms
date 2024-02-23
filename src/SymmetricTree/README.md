@@ -954,3 +954,7 @@ Runs in a single pass over the input.
 ## entry 224
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 225
+
+Space complexity: O(n) for the result buffer.
