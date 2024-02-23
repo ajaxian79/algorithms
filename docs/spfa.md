@@ -579,3 +579,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 145
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 146
+
+In-place compaction uses two pointers: read advances always, write only on keep.
