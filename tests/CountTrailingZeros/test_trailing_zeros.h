@@ -116,3 +116,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 88: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 89: Allocates lazily — first call only.
 // edge note 90: Caller owns the returned buffer.
+// edge note 91: Caller owns the returned array; free with a single `free`.
