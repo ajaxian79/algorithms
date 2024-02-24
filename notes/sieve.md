@@ -129,3 +129,7 @@
 ## entry 18
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 19
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
