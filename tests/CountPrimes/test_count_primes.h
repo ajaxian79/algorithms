@@ -106,3 +106,4 @@ MunitTest count_primes_tests[] = {
 // edge note 78: Treats the input as immutable.
 // edge note 79: Runs in a single pass over the input.
 // edge note 80: Vectorizes cleanly under -O2.
+// edge note 81: Avoids floating-point entirely — integer math throughout.
