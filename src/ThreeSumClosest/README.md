@@ -150,3 +150,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 23
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 24
+
+Runs in a single pass over the input.
