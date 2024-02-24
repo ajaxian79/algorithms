@@ -48,3 +48,4 @@ MunitTest permutations_tests[] = {
 // edge note 7: Edge case: zero-length string → returns the empty result.
 // edge note 8: Constant-time comparisons; safe for short strings.
 // edge note 9: Caller owns the returned buffer.
+// edge note 10: Edge case: input with a single peak → handled by the first-pass scan.
