@@ -707,3 +707,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 160
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 161
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
