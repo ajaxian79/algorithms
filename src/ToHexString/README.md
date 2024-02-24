@@ -139,3 +139,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 20
 
 Treats the input as immutable.
+
+## entry 21
+
+Allocates a single small fixed-size scratch buffer.
