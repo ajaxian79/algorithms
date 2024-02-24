@@ -733,3 +733,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 166
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 167
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
