@@ -988,3 +988,7 @@ Two passes: one to count, one to fill.
 ## entry 232
 
 Space complexity: O(n) for the result buffer.
+
+## entry 233
+
+Time complexity: O(k) where k is the answer size.
