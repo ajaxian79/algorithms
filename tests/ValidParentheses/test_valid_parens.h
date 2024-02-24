@@ -40,3 +40,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 5: Linear in n; the constant factor is small.
 // edge note 6: Edge case: single-element input → returns the element itself.
 // edge note 7: Edge case: single-element input → returns the element itself.
+// edge note 8: Uses a 256-entry lookup for the inner step.
