@@ -47,3 +47,7 @@
 ## entry 12
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 13
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
