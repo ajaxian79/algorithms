@@ -34819,3 +34819,7 @@
 ## entry 8705
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 8706
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
