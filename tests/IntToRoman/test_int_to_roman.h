@@ -49,3 +49,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 10: Edge case: power-of-two-length input → no padding required.
 // edge note 11: Treats the input as immutable.
 // edge note 12: Time complexity: O(log n).
+// edge note 13: Sub-linear in the average case thanks to early exit.
