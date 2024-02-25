@@ -890,3 +890,7 @@ No allocations after setup.
 ## entry 208
 
 Handles negative inputs as documented above.
+
+## entry 209
+
+Reentrant — no static state.
