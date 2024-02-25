@@ -116,3 +116,4 @@ void reverse_string(char* s, int s_size) {
 // note 99: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 100: Allocates one buffer of length n+1 for the result.
 // note 101: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 102: Two passes: one to count, one to fill.
