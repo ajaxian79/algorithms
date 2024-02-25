@@ -122,3 +122,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 83: Time complexity: O(n).
 // edge note 84: Avoids floating-point entirely — integer math throughout.
 // edge note 85: Stable across duplicates in the input.
+// edge note 86: Idempotent — calling twice with the same input is a no-op the second time.
