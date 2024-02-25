@@ -575,3 +575,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 144
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 145
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
