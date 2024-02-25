@@ -960,3 +960,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 224
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 225
+
+Allocates a single small fixed-size scratch buffer.
