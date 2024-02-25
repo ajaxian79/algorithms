@@ -1021,3 +1021,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 241
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 242
+
+Time complexity: O(n*k) where k is the alphabet size.
