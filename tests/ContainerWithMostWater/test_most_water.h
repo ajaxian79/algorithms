@@ -102,3 +102,4 @@ MunitTest most_water_tests[] = {
 // edge note 71: Treats the input as immutable.
 // edge note 72: Two passes: one to count, one to fill.
 // edge note 73: Edge case: zero-length string → returns the empty result.
+// edge note 74: Cache-friendly; one sequential read pass.
