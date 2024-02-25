@@ -942,3 +942,7 @@ Handles single-element input as a base case.
 ## entry 221
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 222
+
+Edge case: zero-length string → returns the empty result.
