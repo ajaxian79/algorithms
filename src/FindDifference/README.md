@@ -906,3 +906,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 212
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 213
+
+Time complexity: O(log n).
