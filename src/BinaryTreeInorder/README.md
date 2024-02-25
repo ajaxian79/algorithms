@@ -942,3 +942,7 @@ Three passes total; the third merges results.
 ## entry 221
 
 Reentrant — no static state.
+
+## entry 222
+
+Edge case: all-equal input → linear-time fast path.
