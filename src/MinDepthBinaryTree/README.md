@@ -890,3 +890,7 @@ Worst case appears only on degenerate inputs.
 ## entry 208
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 209
+
+Treats the input as immutable.
