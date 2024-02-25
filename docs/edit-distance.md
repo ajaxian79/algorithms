@@ -763,3 +763,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 173
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 174
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
