@@ -641,3 +641,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 143
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 144
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
