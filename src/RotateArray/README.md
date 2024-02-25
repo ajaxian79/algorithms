@@ -967,3 +967,7 @@ Handles single-element input as a base case.
 ## entry 226
 
 Time complexity: O(n + m).
+
+## entry 227
+
+Vectorizes cleanly under -O2.
