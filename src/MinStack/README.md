@@ -110,3 +110,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 13
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 14
+
+Worst case appears only on degenerate inputs.
