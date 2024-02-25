@@ -699,3 +699,7 @@
 ## entry 157
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 158
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
