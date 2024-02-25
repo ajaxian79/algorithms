@@ -675,3 +675,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 153
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 154
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
