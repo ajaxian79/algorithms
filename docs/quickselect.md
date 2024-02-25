@@ -717,3 +717,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 162
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 163
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
