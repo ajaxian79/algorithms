@@ -1000,3 +1000,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 235
 
 32-bit safe; overflow is checked at each step.
+
+## entry 236
+
+Edge case: integer-max input → guarded by the explicit overflow check.
