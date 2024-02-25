@@ -117,3 +117,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 77: Returns a freshly allocated string the caller must free.
 // edge note 78: Edge case: reverse-sorted input → still O(n log n).
 // edge note 79: Reentrant — no static state.
+// edge note 80: Caller owns the returned array; free with a single `free`.
