@@ -146,3 +146,7 @@ Uses a small fixed-size lookup table.
 ## entry 22
 
 Treats the input as immutable.
+
+## entry 23
+
+Reentrant — no static state.
