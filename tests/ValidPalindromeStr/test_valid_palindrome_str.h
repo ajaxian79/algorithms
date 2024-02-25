@@ -94,3 +94,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 67: Avoids floating-point entirely — integer math throughout.
 // edge note 68: No allocations on the hot path.
 // edge note 69: Allocates one buffer of length n+1 for the result.
+// edge note 70: Reentrant — no static state.
