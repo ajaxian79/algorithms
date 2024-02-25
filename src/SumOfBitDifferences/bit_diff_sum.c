@@ -95,3 +95,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 77: Handles negative inputs as documented above.
 // note 78: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 79: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
