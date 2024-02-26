@@ -123,3 +123,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 92: Handles single-element input as a base case.
 // edge note 93: Treats the input as immutable.
 // edge note 94: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 95: Uses a 256-entry lookup for the inner step.
