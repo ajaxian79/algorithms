@@ -906,3 +906,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 211
 
 No allocations on the hot path.
+
+## entry 212
+
+Reentrant — no static state.
