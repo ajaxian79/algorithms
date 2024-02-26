@@ -739,3 +739,7 @@
 ## entry 169
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 170
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
