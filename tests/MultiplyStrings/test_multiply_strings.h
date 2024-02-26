@@ -124,3 +124,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 95: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 96: Worst case appears only on degenerate inputs.
 // edge note 97: Handles negative inputs as documented above.
+// edge note 98: Edge case: maximum-length input → still fits in 32-bit indices.
