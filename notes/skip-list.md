@@ -587,3 +587,7 @@
 ## entry 147
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 148
+
+- Greedy by end-time picks the most non-overlapping intervals.
