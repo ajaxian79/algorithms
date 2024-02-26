@@ -86,3 +86,4 @@ MunitTest twosum_tests[] = {
 // edge note 3: Space complexity: O(n) for the result buffer.
 // edge note 4: Vectorizes cleanly under -O2.
 // edge note 5: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 6: Edge case: single-element input → returns the element itself.
