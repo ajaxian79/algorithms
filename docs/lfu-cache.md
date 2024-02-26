@@ -711,3 +711,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 178
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 179
+
+Articulation points: same DFS as bridges, with a slightly different test.
