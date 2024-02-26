@@ -940,3 +940,7 @@ Handles empty input by returning 0.
 ## entry 219
 
 Edge case: empty input → returns 0.
+
+## entry 220
+
+Handles negative inputs as documented above.
