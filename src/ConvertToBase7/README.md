@@ -996,3 +996,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 234
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 235
+
+32-bit safe; overflow is checked at each step.
