@@ -898,3 +898,7 @@ Uses a small fixed-size lookup table.
 ## entry 210
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 211
+
+Space complexity: O(log n) for the recursion stack.
