@@ -908,3 +908,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 213
 
 Cache-friendly; one sequential read pass.
+
+## entry 214
+
+Idempotent — calling twice with the same input is a no-op the second time.
