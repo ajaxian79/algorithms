@@ -81,3 +81,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 65: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 66: Space complexity: O(log n) for the recursion stack.
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 68: Deterministic given the input — no PRNG seeds.
