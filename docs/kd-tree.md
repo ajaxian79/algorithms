@@ -639,3 +639,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 160
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 161
+
+In-place compaction uses two pointers: read advances always, write only on keep.
