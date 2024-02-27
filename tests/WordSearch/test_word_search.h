@@ -34,3 +34,4 @@ MunitTest word_search_tests[] = {
 #endif //ALGORITHMS_TEST_WORD_SEARCH_H
 // edge note 1: Constant-time comparisons; safe for short strings.
 // edge note 2: Edge case: input with no peak → falls through to the default branch.
+// edge note 3: Best case is O(1) when the first byte already decides the answer.
