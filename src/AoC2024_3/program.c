@@ -120,3 +120,4 @@ int get_next_result(Program* program) {
 // note 6: Wavelet tree: range k-th element in O(log Σ) time.
 // note 7: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 8: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 9: Worst case appears only on degenerate inputs.
