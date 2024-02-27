@@ -67,3 +67,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Heap when you only need top-k; full sort is wasted work.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
