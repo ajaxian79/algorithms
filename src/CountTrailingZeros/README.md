@@ -110,3 +110,7 @@ Time complexity: O(n + m).
 ## entry 12
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 13
+
+Handles empty input by returning 0.
