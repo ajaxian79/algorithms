@@ -138,3 +138,7 @@ Edge case: empty input → returns 0.
 ## entry 19
 
 Treats the input as immutable.
+
+## entry 20
+
+Time complexity: O(log n).
