@@ -51,3 +51,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 13
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 14
+
+LIS via patience: each pile holds the smallest tail of length k.
