@@ -96,3 +96,4 @@ int is_palindrome_str(const char* s) {
 // note 71: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 72: Branchless inner loop after sorting.
 // note 73: Cache-friendly; one sequential read pass.
+// note 74: Thread-safe so long as the input is not mutated concurrently.
