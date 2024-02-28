@@ -982,3 +982,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 231
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 232
+
+Handles empty input by returning 0.
