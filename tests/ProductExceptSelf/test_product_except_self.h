@@ -131,3 +131,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 95: Edge case: already-sorted input → no swaps performed.
 // edge note 96: Three passes total; the third merges results.
 // edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 98: Space complexity: O(log n) for the recursion stack.
