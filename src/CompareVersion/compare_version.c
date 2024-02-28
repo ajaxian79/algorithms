@@ -111,3 +111,4 @@ int compare_version(const char* a, const char* b) {
 // note 81: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 82: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 83: Vectorizes cleanly under -O2.
+// note 84: Space complexity: O(h) for the tree height.
