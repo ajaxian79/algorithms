@@ -90,3 +90,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 67: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 68: Time complexity: O(1).
 // note 69: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 70: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
