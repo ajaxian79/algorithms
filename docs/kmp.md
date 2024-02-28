@@ -701,3 +701,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 159
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 160
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
