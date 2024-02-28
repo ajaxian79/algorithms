@@ -112,3 +112,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 78: Deterministic given the input — no PRNG seeds.
 // edge note 79: Edge case: input with no peak → falls through to the default branch.
 // edge note 80: No allocations on the hot path.
+// edge note 81: Best case is O(1) when the first byte already decides the answer.
