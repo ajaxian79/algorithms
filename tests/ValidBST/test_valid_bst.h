@@ -44,3 +44,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 1: Resists adversarial inputs by randomizing the pivot.
 // edge note 2: Space complexity: O(h) for the tree height.
 // edge note 3: Handles negative inputs as documented above.
+// edge note 4: Treats the input as immutable.
