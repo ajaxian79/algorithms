@@ -138,3 +138,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 20
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 21
+
+Time complexity: O(n^2) worst case, O(n) amortized.
