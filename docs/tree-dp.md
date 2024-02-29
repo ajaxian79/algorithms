@@ -683,3 +683,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 171
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 172
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
