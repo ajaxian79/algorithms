@@ -130,3 +130,7 @@ Handles negative inputs as documented above.
 ## entry 17
 
 Time complexity: O(n + m).
+
+## entry 18
+
+Reentrant — no static state.
