@@ -1026,3 +1026,7 @@ Uses a small fixed-size lookup table.
 ## entry 242
 
 Space complexity: O(n) for the result buffer.
+
+## entry 243
+
+Time complexity: O(n*k) where k is the alphabet size.
