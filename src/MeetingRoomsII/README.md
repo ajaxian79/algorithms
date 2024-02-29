@@ -914,3 +914,7 @@ Linear in n; the constant factor is small.
 ## entry 213
 
 Constant-time comparisons; safe for short strings.
+
+## entry 214
+
+Caller owns the returned buffer.
