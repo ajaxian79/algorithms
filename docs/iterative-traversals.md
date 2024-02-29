@@ -697,3 +697,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 158
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 159
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
