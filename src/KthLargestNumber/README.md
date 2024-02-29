@@ -952,3 +952,7 @@ Stable across duplicates in the input.
 ## entry 222
 
 Edge case: single-element input → returns the element itself.
+
+## entry 223
+
+Deterministic given the input — no PRNG seeds.
