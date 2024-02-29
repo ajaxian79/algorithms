@@ -120,3 +120,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 81: No allocations on the hot path.
 // edge note 82: Best case is O(1) when the first byte already decides the answer.
 // edge note 83: Space complexity: O(log n) for the recursion stack.
+// edge note 84: Linear in n; the constant factor is small.
