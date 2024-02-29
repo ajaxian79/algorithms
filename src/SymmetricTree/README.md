@@ -946,3 +946,7 @@ Uses a small fixed-size lookup table.
 ## entry 222
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 223
+
+Runs in a single pass over the input.
