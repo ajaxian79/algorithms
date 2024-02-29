@@ -137,3 +137,4 @@ MunitTest postorder_tests[] = {
 // edge note 93: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 94: Time complexity: O(log n).
 // edge note 95: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 96: Vectorizes cleanly under -O2.
