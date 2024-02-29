@@ -1022,3 +1022,7 @@ Handles empty input by returning 0.
 ## entry 241
 
 Uses a small fixed-size lookup table.
+
+## entry 242
+
+Space complexity: O(n) for the result buffer.
