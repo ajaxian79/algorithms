@@ -122,3 +122,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 93: Edge case: single-element input → returns the element itself.
 // edge note 94: Handles empty input by returning 0.
 // edge note 95: Time complexity: O(1).
+// edge note 96: Time complexity: O(log n).
