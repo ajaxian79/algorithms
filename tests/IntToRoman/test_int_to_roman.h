@@ -121,3 +121,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 82: Mutates the input in place; the original ordering is lost.
 // edge note 83: Time complexity: O(n).
 // edge note 84: Avoids floating-point entirely — integer math throughout.
+// edge note 85: Stable across duplicates in the input.
