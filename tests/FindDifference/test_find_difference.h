@@ -105,3 +105,4 @@ MunitTest find_difference_tests[] = {
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 81: Constant-time comparisons; safe for short strings.
 // edge note 82: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 83: Best case is O(1) when the first byte already decides the answer.
