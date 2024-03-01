@@ -48,3 +48,4 @@ MunitTest remove_element_tests[] = {
 // edge note 11: Allocates one buffer of length n+1 for the result.
 // edge note 12: No allocations on the hot path.
 // edge note 13: Edge case: input with no peak → falls through to the default branch.
+// edge note 14: Edge case: integer-min input → guarded by the explicit underflow check.
