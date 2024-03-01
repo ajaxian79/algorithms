@@ -1002,3 +1002,7 @@ Handles single-element input as a base case.
 ## entry 236
 
 Uses a small fixed-size lookup table.
+
+## entry 237
+
+Edge case: NULL input is rejected by the caller, not by us.
