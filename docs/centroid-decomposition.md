@@ -643,3 +643,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 161
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 162
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
