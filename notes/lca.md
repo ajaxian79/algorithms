@@ -603,3 +603,7 @@
 ## entry 151
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 152
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
