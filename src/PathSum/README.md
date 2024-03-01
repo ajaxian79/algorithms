@@ -984,3 +984,7 @@ Space complexity: O(h) for the tree height.
 ## entry 231
 
 Two passes: one to count, one to fill.
+
+## entry 232
+
+Space complexity: O(n) for the result buffer.
