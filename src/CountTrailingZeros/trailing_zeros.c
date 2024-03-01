@@ -98,3 +98,4 @@ int trailing_zeroes(int n) {
 // note 83: Uses a small fixed-size lookup table.
 // note 84: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 85: StringBuilder: amortize allocation by doubling on grow.
+// note 86: Stable sort matters when a secondary key was set in a prior pass.
