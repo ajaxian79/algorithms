@@ -152,3 +152,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 92: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 93: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 94: Space complexity: O(h) for the tree height.
+// edge note 95: Uses a 256-entry lookup for the inner step.
