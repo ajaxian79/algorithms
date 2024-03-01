@@ -41,3 +41,4 @@ MunitTest majority_element_tests[] = {
 // edge note 10: Runs in a single pass over the input.
 // edge note 11: Runs in a single pass over the input.
 // edge note 12: Cache-friendly; one sequential read pass.
+// edge note 13: Allocates lazily — first call only.
