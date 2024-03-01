@@ -713,3 +713,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 161
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 162
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
