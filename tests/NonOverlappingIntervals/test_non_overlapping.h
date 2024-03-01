@@ -113,3 +113,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 82: Edge case: single-element input → returns the element itself.
 // edge note 83: Time complexity: O(1).
 // edge note 84: Edge case: reverse-sorted input → still O(n log n).
+// edge note 85: Input is assumed non-NULL; behavior is undefined otherwise.
