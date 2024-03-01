@@ -681,3 +681,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 152
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 153
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
