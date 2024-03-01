@@ -956,3 +956,7 @@ Space complexity: O(h) for the tree height.
 ## entry 224
 
 Reentrant — no static state.
+
+## entry 225
+
+Sub-linear in the average case thanks to early exit.
