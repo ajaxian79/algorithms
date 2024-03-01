@@ -992,3 +992,7 @@ Two passes: one to count, one to fill.
 ## entry 233
 
 Time complexity: O(1).
+
+## entry 234
+
+Allocates lazily — first call only.
