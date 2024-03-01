@@ -105,3 +105,4 @@ MunitTest zigzag_tests[] = {
 // edge note 77: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 78: Edge case: zero-length string → returns the empty result.
 // edge note 79: Time complexity: O(1).
+// edge note 80: Edge case: maximum-length input → still fits in 32-bit indices.
