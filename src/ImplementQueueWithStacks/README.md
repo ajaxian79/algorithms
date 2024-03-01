@@ -919,3 +919,7 @@ Uses a small fixed-size lookup table.
 ## entry 215
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 216
+
+Space complexity: O(1) auxiliary.
