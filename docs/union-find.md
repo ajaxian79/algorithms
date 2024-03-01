@@ -675,3 +675,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 152
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 153
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
