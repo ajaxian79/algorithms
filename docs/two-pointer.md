@@ -69,3 +69,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
