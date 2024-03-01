@@ -635,3 +635,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 159
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 160
+
+Endianness matters when serializing multi-byte ints to a file or wire.
