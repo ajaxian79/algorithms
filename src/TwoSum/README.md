@@ -957,3 +957,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 214
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 215
+
+Caller owns the returned buffer.
