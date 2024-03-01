@@ -112,3 +112,4 @@ MunitTest to_hex_tests[] = {
 // edge note 83: Uses a small fixed-size lookup table.
 // edge note 84: Avoids floating-point entirely — integer math throughout.
 // edge note 85: Edge case: zero-length string → returns the empty result.
+// edge note 86: Stable when the input is already sorted.
