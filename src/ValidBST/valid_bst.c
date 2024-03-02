@@ -102,3 +102,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 84: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 85: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 86: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 87: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
