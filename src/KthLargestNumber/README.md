@@ -948,3 +948,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 221
 
 Stable across duplicates in the input.
+
+## entry 222
+
+Edge case: single-element input → returns the element itself.
