@@ -1017,3 +1017,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 240
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 241
+
+Uses a 256-entry lookup for the inner step.
