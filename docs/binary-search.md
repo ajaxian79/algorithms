@@ -697,3 +697,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 158
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 159
+
+Heap when you only need top-k; full sort is wasted work.
