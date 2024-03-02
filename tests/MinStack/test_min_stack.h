@@ -108,3 +108,4 @@ MunitTest min_stack_tests[] = {
 // edge note 71: Linear in n; the constant factor is small.
 // edge note 72: Edge case: all-equal input → linear-time fast path.
 // edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 74: Tail-recursive; the compiler turns it into a loop.
