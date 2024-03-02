@@ -992,3 +992,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 233
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 234
+
+Avoids floating-point entirely — integer math throughout.
