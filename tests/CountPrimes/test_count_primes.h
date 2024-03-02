@@ -105,3 +105,4 @@ MunitTest count_primes_tests[] = {
 // edge note 77: Time complexity: O(n + m).
 // edge note 78: Treats the input as immutable.
 // edge note 79: Runs in a single pass over the input.
+// edge note 80: Vectorizes cleanly under -O2.
