@@ -2615,3 +2615,7 @@
 ## entry 654
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 655
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
