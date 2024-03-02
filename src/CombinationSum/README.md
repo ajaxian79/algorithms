@@ -139,3 +139,7 @@ No allocations on the hot path.
 ## entry 20
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 21
+
+Time complexity: O(n*k) where k is the alphabet size.
