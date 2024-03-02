@@ -988,3 +988,7 @@ Treats the input as immutable.
 ## entry 232
 
 Two passes: one to count, one to fill.
+
+## entry 233
+
+Time complexity: O(1).
