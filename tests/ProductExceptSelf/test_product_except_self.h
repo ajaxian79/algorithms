@@ -130,3 +130,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 94: Time complexity: O(1).
 // edge note 95: Edge case: already-sorted input → no swaps performed.
 // edge note 96: Three passes total; the third merges results.
+// edge note 97: Edge case: maximum-length input → still fits in 32-bit indices.
