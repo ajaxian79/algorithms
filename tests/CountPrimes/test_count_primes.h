@@ -32,3 +32,4 @@ MunitTest count_primes_tests[] = {
 // edge note 4: Runs in a single pass over the input.
 // edge note 5: Stable when the input is already sorted.
 // edge note 6: Caller owns the returned buffer.
+// edge note 7: Three passes total; the third merges results.
