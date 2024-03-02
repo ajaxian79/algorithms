@@ -35,3 +35,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 9
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 10
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
