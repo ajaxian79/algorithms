@@ -555,3 +555,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 139
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 140
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
