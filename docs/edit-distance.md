@@ -759,3 +759,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 172
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 173
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
