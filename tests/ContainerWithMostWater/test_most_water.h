@@ -101,3 +101,4 @@ MunitTest most_water_tests[] = {
 // edge note 70: Allocates a single small fixed-size scratch buffer.
 // edge note 71: Treats the input as immutable.
 // edge note 72: Two passes: one to count, one to fill.
+// edge note 73: Edge case: zero-length string → returns the empty result.
