@@ -844,3 +844,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 196
 
 No allocations on the hot path.
+
+## entry 197
+
+Caller owns the returned array; free with a single `free`.
