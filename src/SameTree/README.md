@@ -904,3 +904,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 212
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 213
+
+Cache-friendly; one sequential read pass.
