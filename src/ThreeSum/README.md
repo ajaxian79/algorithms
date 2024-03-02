@@ -913,3 +913,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 213
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 214
+
+Linear in n; the constant factor is small.
