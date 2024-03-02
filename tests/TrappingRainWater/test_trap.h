@@ -105,3 +105,4 @@ MunitTest trap_tests[] = {
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
 // edge note 72: Edge case: power-of-two-length input → no padding required.
 // edge note 73: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 74: 32-bit safe; overflow is checked at each step.
