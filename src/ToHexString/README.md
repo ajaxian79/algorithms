@@ -871,3 +871,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 203
 
 Reentrant — no static state.
+
+## entry 204
+
+Time complexity: O(1).
