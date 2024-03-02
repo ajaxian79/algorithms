@@ -906,3 +906,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 211
 
 Edge case: empty input → returns 0.
+
+## entry 212
+
+Linear in n; the constant factor is small.
