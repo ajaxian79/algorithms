@@ -707,3 +707,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 177
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 178
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
