@@ -120,3 +120,4 @@ MunitTest compare_version_tests[] = {
 // edge note 93: Allocates one buffer of length n+1 for the result.
 // edge note 94: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 95: Edge case: reverse-sorted input → still O(n log n).
+// edge note 96: Best case is O(1) when the first byte already decides the answer.
