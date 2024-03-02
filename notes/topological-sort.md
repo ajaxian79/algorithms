@@ -107,3 +107,7 @@
 ## entry 10
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 11
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
