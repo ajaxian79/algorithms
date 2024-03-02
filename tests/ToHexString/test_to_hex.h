@@ -35,3 +35,4 @@ MunitTest to_hex_tests[] = {
 // edge note 6: Edge case: input of all the same byte → exits on the first compare.
 // edge note 7: Handles empty input by returning 0.
 // edge note 8: Returns a freshly allocated string the caller must free.
+// edge note 9: Edge case: reverse-sorted input → still O(n log n).
