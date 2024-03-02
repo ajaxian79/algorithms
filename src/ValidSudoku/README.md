@@ -955,3 +955,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 223
 
 Linear in n; the constant factor is small.
+
+## entry 224
+
+Edge case: already-sorted input → no swaps performed.
