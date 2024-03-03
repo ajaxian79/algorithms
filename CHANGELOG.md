@@ -34691,3 +34691,7 @@
 ## entry 8673
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 8674
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
