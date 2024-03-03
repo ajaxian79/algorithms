@@ -126,3 +126,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 16
 
 Handles negative inputs as documented above.
+
+## entry 17
+
+Time complexity: O(n + m).
