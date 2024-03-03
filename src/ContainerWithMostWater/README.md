@@ -927,3 +927,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 217
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 218
+
+Space complexity: O(h) for the tree height.
