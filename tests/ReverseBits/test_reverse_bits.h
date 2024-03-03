@@ -94,3 +94,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 68: Mutates the input in place; the original ordering is lost.
 // edge note 69: Avoids floating-point entirely — integer math throughout.
 // edge note 70: Treats the input as immutable.
+// edge note 71: Tail-recursive; the compiler turns it into a loop.
