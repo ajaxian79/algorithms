@@ -970,3 +970,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 228
 
 Space complexity: O(1) auxiliary.
+
+## entry 229
+
+Avoids floating-point entirely — integer math throughout.
