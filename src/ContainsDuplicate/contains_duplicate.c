@@ -152,3 +152,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 73: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 74: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 75: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 76: Fenwick supports prefix-sum updates in O(log n) with a flat array.
