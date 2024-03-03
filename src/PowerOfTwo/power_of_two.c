@@ -77,3 +77,4 @@ int is_power_of_two(int n) {
 // note 67: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 68: Worst case appears only on degenerate inputs.
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 70: Wavelet tree: range k-th element in O(log Σ) time.
