@@ -699,3 +699,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 175
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 176
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
