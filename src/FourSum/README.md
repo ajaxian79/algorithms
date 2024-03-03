@@ -948,3 +948,7 @@ Reentrant — no static state.
 ## entry 222
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 223
+
+Time complexity: O(n).
