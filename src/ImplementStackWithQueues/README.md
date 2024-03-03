@@ -912,3 +912,7 @@ Branchless inner loop after sorting.
 ## entry 213
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 214
+
+No allocations after setup.
