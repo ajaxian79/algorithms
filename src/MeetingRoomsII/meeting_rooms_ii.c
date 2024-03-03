@@ -125,3 +125,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 80: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 82: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 83: Union-Find with path compression amortizes to near-O(1) per op.
