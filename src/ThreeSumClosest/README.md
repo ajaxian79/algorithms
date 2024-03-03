@@ -974,3 +974,7 @@ Three passes total; the third merges results.
 ## entry 229
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 230
+
+Input is assumed non-NULL; behavior is undefined otherwise.
