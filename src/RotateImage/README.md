@@ -989,3 +989,7 @@ Time complexity: O(n log n).
 ## entry 232
 
 Vectorizes cleanly under -O2.
+
+## entry 233
+
+Handles empty input by returning 0.
