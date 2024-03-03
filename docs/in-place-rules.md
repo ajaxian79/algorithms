@@ -817,3 +817,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 189
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 190
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
