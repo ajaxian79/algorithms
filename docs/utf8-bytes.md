@@ -51,3 +51,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 13
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 14
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
