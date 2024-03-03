@@ -591,3 +591,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 148
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 149
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
