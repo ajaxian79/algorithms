@@ -87,3 +87,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 22
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 23
+
+Interval DP: solve all `[l, r]` ranges from short to long.
