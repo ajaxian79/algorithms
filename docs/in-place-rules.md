@@ -813,3 +813,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 188
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 189
+
+Euler tour flattens a tree into an array for range-query LCA.
