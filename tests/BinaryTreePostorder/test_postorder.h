@@ -50,3 +50,4 @@ MunitTest postorder_tests[] = {
 // edge note 6: Cache-friendly; one sequential read pass.
 // edge note 7: Time complexity: O(1).
 // edge note 8: Allocates lazily — first call only.
+// edge note 9: Best case is O(1) when the first byte already decides the answer.
