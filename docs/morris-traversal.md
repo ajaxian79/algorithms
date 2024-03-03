@@ -659,3 +659,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 150
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 151
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
