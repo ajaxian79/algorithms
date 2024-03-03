@@ -960,3 +960,7 @@ Space complexity: O(1) auxiliary.
 ## entry 224
 
 Edge case: empty input → returns 0.
+
+## entry 225
+
+Two passes: one to count, one to fill.
