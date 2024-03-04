@@ -559,3 +559,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 140
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 141
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
