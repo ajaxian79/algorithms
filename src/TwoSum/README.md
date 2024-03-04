@@ -953,3 +953,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 213
 
 Constant-time comparisons; safe for short strings.
+
+## entry 214
+
+Idempotent — calling twice with the same input is a no-op the second time.
