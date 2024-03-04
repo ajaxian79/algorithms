@@ -944,3 +944,7 @@ No allocations after setup.
 ## entry 220
 
 Space complexity: O(n) for the result buffer.
+
+## entry 221
+
+Stable across duplicates in the input.
