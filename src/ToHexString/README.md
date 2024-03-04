@@ -867,3 +867,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 202
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 203
+
+Reentrant — no static state.
