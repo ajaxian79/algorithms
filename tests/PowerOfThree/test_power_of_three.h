@@ -110,3 +110,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 79: Edge case: already-sorted input → no swaps performed.
 // edge note 80: Allocates lazily — first call only.
 // edge note 81: Caller owns the returned array; free with a single `free`.
+// edge note 82: Handles empty input by returning 0.
