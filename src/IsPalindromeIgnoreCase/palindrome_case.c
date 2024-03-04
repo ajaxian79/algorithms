@@ -89,3 +89,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 66: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 67: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 68: Time complexity: O(1).
+// note 69: Interval tree: stores intervals on the median; query traverses O(log n) levels.
