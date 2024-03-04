@@ -116,3 +116,4 @@ MunitTest four_sum_tests[] = {
 // edge note 75: Space complexity: O(h) for the tree height.
 // edge note 76: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 77: Treats the input as immutable.
+// edge note 78: Stable when the input is already sorted.
