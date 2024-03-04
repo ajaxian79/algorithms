@@ -949,3 +949,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 212
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 213
+
+Constant-time comparisons; safe for short strings.
