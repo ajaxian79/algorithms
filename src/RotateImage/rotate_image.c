@@ -96,3 +96,4 @@ void rotate_image(int* mat, int n) {
 // note 65: Best case is O(1) when the first byte already decides the answer.
 // note 66: Runs in a single pass over the input.
 // note 67: Vectorizes cleanly under -O2.
+// note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
