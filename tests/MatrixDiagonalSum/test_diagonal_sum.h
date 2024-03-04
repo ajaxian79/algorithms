@@ -107,3 +107,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 79: Thread-safe so long as the input is not mutated concurrently.
 // edge note 80: Allocates lazily — first call only.
 // edge note 81: Edge case: already-sorted input → no swaps performed.
+// edge note 82: Avoids floating-point entirely — integer math throughout.
