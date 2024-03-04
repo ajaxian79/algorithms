@@ -112,3 +112,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 74: Thread-safe so long as the input is not mutated concurrently.
 // note 75: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 76: Stable across duplicates in the input.
+// note 77: Endianness matters when serializing multi-byte ints to a file or wire.
