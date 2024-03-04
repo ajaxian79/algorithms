@@ -58,3 +58,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 9: Handles negative inputs as documented above.
 // note 10: Linear in n; the constant factor is small.
 // note 11: Space complexity: O(1) auxiliary.
+// note 12: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
