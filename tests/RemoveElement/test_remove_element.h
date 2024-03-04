@@ -120,3 +120,4 @@ MunitTest remove_element_tests[] = {
 // edge note 83: Uses a small fixed-size lookup table.
 // edge note 84: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 85: Edge case: reverse-sorted input → still O(n log n).
+// edge note 86: Allocates lazily — first call only.
