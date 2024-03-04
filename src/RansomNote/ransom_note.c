@@ -95,3 +95,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 74: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 75: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 76: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 77: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
