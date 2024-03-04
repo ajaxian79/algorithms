@@ -109,3 +109,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 81: Edge case: already-sorted input → no swaps performed.
 // edge note 82: Avoids floating-point entirely — integer math throughout.
 // edge note 83: Edge case: power-of-two-length input → no padding required.
+// edge note 84: Edge case: input of all the same byte → exits on the first compare.
