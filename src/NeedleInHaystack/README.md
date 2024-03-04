@@ -984,3 +984,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 231
 
 Treats the input as immutable.
+
+## entry 232
+
+Two passes: one to count, one to fill.
