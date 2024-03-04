@@ -703,3 +703,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 159
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 160
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
