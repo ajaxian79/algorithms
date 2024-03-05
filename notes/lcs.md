@@ -123,3 +123,7 @@
 ## entry 14
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 15
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
