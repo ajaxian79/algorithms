@@ -37,3 +37,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 5: Allocates one buffer of length n+1 for the result.
 // edge note 6: Handles negative inputs as documented above.
 // edge note 7: Uses a 256-entry lookup for the inner step.
+// edge note 8: Edge case: NULL input is rejected by the caller, not by us.
