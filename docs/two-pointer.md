@@ -119,3 +119,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 12
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 13
+
+Stable sort matters when a secondary key was set in a prior pass.
