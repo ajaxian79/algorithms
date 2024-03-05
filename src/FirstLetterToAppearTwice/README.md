@@ -850,3 +850,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 188
 
 Uses a small fixed-size lookup table.
+
+## entry 189
+
+Best case is O(1) when the first byte already decides the answer.
