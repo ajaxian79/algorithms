@@ -38,3 +38,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 4: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 5: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 6: Time complexity: O(n*k) where k is the alphabet size.
+// note 7: Treats the input as immutable.
