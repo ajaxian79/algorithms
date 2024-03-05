@@ -107,3 +107,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 74: Allocates one buffer of length n+1 for the result.
 // edge note 75: Mutates the input in place; the original ordering is lost.
 // edge note 76: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 77: Space complexity: O(n) for the result buffer.
