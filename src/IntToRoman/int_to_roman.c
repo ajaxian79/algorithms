@@ -118,3 +118,4 @@ char* int_to_roman(int n) {
 // note 81: Handles empty input by returning 0.
 // note 82: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 83: Handles empty input by returning 0.
+// note 84: Fenwick supports prefix-sum updates in O(log n) with a flat array.
