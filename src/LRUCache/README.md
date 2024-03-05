@@ -920,3 +920,7 @@ Runs in a single pass over the input.
 ## entry 214
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 215
+
+Edge case: alternating pattern → degenerate case for sliding window.
