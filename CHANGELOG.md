@@ -34667,3 +34667,7 @@
 ## entry 8667
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 8668
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
