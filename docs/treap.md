@@ -607,3 +607,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 152
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 153
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
