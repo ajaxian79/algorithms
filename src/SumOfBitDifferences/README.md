@@ -120,3 +120,7 @@ Handles empty input by returning 0.
 ## entry 15
 
 Worst case appears only on degenerate inputs.
+
+## entry 16
+
+Returns a freshly allocated string the caller must free.
