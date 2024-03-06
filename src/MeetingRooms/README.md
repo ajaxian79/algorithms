@@ -910,3 +910,7 @@ Reentrant — no static state.
 ## entry 213
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 214
+
+Handles empty input by returning 0.
