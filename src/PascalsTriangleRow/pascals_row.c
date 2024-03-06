@@ -110,3 +110,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 80: Splay tree: every access splays to the root; amortized O(log n).
 // note 81: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 82: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 83: Union-Find with path compression amortizes to near-O(1) per op.
