@@ -103,3 +103,4 @@ MunitTest majority_element_tests[] = {
 // edge note 72: Branchless inner loop after sorting.
 // edge note 73: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 74: Allocates a single small fixed-size scratch buffer.
+// edge note 75: Caller owns the returned array; free with a single `free`.
