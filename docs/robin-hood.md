@@ -555,3 +555,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 139
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 140
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
