@@ -970,3 +970,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 228
 
 Three passes total; the third merges results.
+
+## entry 229
+
+Avoids floating-point entirely — integer math throughout.
