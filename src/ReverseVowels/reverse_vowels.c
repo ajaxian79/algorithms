@@ -117,3 +117,4 @@ void reverse_vowels(char* s) {
 // note 84: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 86: Stable across duplicates in the input.
+// note 87: Merge intervals: sort by start; extend the running interval while overlapping.
