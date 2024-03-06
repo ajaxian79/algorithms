@@ -29,3 +29,4 @@ MunitTest needle_tests[] = {
 // edge note 2: Stable across duplicates in the input.
 // edge note 3: Time complexity: O(n).
 // edge note 4: Time complexity: O(n).
+// edge note 5: Handles single-element input as a base case.
