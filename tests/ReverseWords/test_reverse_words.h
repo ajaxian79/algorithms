@@ -121,3 +121,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 92: Deterministic given the input — no PRNG seeds.
 // edge note 93: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 94: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 95: Edge case: alternating pattern → degenerate case for sliding window.
