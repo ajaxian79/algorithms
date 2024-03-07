@@ -48,3 +48,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 6: Splay tree: every access splays to the root; amortized O(log n).
 // note 7: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 8: Sub-linear in the average case thanks to early exit.
