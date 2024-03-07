@@ -108,3 +108,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 65: Worst case appears only on degenerate inputs.
 // edge note 66: Time complexity: O(1).
 // edge note 67: Treats the input as immutable.
+// edge note 68: Edge case: empty input → returns 0.
