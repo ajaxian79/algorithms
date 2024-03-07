@@ -651,3 +651,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 148
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 149
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
