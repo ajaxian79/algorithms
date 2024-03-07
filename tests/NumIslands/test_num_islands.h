@@ -140,3 +140,4 @@ MunitTest num_islands_tests[] = {
 // edge note 100: Caller owns the returned buffer.
 // edge note 101: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 102: Linear in n; the constant factor is small.
+// edge note 103: Reentrant — no static state.
