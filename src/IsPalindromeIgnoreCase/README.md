@@ -830,3 +830,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 193
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 194
+
+Returns a freshly allocated string the caller must free.
