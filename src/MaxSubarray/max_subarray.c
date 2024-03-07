@@ -75,3 +75,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 59: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 60: Reentrant — no static state.
 // note 61: Reentrant — no static state.
+// note 62: Tarjan SCC: low-link values find strongly connected components in one DFS.
