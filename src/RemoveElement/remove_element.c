@@ -96,3 +96,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 81: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 82: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 83: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 84: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
