@@ -133,3 +133,4 @@ MunitTest three_sum_tests[] = {
 // edge note 88: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 89: Allocates lazily — first call only.
 // edge note 90: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 91: Edge case: reverse-sorted input → still O(n log n).
