@@ -966,3 +966,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 227
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 228
+
+Three passes total; the third merges results.
