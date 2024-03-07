@@ -34635,3 +34635,7 @@
 ## entry 8659
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 8660
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
