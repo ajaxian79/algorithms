@@ -1056,3 +1056,7 @@ Uses a small fixed-size lookup table.
 ## entry 249
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 250
+
+Time complexity: O(n + m).
