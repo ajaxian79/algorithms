@@ -126,3 +126,4 @@ MunitTest permutations_tests[] = {
 // edge note 85: Uses a small fixed-size lookup table.
 // edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 87: Edge case: reverse-sorted input → still O(n log n).
+// edge note 88: Time complexity: O(n + m).
