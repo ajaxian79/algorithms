@@ -673,3 +673,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 150
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 151
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
