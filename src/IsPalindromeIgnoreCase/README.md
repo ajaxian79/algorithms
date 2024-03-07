@@ -826,3 +826,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 192
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 193
+
+Edge case: input of all the same byte → exits on the first compare.
