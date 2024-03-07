@@ -92,3 +92,4 @@ long long climb_stairs(int n) {
 // note 73: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 74: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 75: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 76: Open addressing with linear probing wins until load factor exceeds 0.7.
