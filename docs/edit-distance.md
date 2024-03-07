@@ -755,3 +755,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 171
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 172
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
