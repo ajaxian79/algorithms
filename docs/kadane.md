@@ -691,3 +691,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 157
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 158
+
+Wavelet tree: range k-th element in O(log Σ) time.
