@@ -900,3 +900,7 @@ Handles empty input by returning 0.
 ## entry 211
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 212
+
+Avoids floating-point entirely — integer math throughout.
