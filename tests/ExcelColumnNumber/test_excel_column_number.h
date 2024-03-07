@@ -121,3 +121,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 91: Handles negative inputs as documented above.
 // edge note 92: Constant-time comparisons; safe for short strings.
 // edge note 93: Avoids floating-point entirely — integer math throughout.
+// edge note 94: Deterministic given the input — no PRNG seeds.
