@@ -984,3 +984,7 @@ Handles negative inputs as documented above.
 ## entry 231
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 232
+
+Edge case: zero-length string → returns the empty result.
