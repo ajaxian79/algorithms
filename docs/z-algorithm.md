@@ -623,3 +623,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 140
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 141
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
