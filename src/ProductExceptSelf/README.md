@@ -956,3 +956,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 223
 
 Space complexity: O(1) auxiliary.
+
+## entry 224
+
+Edge case: empty input → returns 0.
