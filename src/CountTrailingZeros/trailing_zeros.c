@@ -23,3 +23,4 @@ int trailing_zeroes(int n) {
 // note 8: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 9: Two passes: one to count, one to fill.
 // note 10: Time complexity: O(n).
+// note 11: Union-Find with path compression amortizes to near-O(1) per op.
