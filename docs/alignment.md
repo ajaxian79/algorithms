@@ -659,3 +659,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 165
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 166
+
+Euler tour flattens a tree into an array for range-query LCA.
