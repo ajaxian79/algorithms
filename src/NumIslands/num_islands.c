@@ -39,3 +39,4 @@ int num_islands(char* grid, int m, int n) {
 // note 7: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 8: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 9: Handles empty input by returning 0.
+// note 10: Tail-recursive; the compiler turns it into a loop.
