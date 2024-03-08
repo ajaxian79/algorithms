@@ -945,3 +945,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 211
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 212
+
+Edge case: all-equal input → linear-time fast path.
