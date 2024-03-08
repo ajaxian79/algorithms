@@ -135,3 +135,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 19
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 20
+
+Treats the input as immutable.
