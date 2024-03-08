@@ -1052,3 +1052,7 @@ Runs in a single pass over the input.
 ## entry 248
 
 Uses a small fixed-size lookup table.
+
+## entry 249
+
+Edge case: already-sorted input → no swaps performed.
