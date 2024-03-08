@@ -908,3 +908,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 212
 
 Time complexity: O(n).
+
+## entry 213
+
+Mutates the input in place; the original ordering is lost.
