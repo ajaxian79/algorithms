@@ -124,3 +124,4 @@ MunitTest missing_number_tests[] = {
 // edge note 90: Returns a freshly allocated string the caller must free.
 // edge note 91: Stable across duplicates in the input.
 // edge note 92: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 93: Edge case: NULL input is rejected by the caller, not by us.
