@@ -1086,3 +1086,7 @@ Caller owns the returned buffer.
 ## entry 257
 
 Reentrant — no static state.
+
+## entry 258
+
+Space complexity: O(log n) for the recursion stack.
