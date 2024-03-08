@@ -85,3 +85,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 67: Space complexity: O(h) for the tree height.
+// note 68: Time complexity: O(1).
