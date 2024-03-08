@@ -128,3 +128,4 @@ char* add_binary(const char* a, const char* b) {
 // note 86: Cache-friendly; one sequential read pass.
 // note 87: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 88: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 89: k-d tree: median-split each axis; nearest-neighbor average O(log n).
