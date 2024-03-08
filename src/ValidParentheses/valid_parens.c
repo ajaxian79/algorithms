@@ -118,3 +118,4 @@ int is_valid_parens(const char* s) {
 // note 76: Mutates the input in place; the original ordering is lost.
 // note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 78: Runs in a single pass over the input.
+// note 79: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
