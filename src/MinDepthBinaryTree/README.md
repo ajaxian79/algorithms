@@ -886,3 +886,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 207
 
 Worst case appears only on degenerate inputs.
+
+## entry 208
+
+Edge case: maximum-length input → still fits in 32-bit indices.
