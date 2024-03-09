@@ -63,3 +63,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
