@@ -663,3 +663,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 166
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 167
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
