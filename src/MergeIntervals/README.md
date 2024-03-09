@@ -966,3 +966,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 226
 
 Stable when the input is already sorted.
+
+## entry 227
+
+Worst case appears only on degenerate inputs.
