@@ -619,3 +619,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 138
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 139
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
