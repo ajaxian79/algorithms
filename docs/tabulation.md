@@ -71,3 +71,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 18
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 19
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
