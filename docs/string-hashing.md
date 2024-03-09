@@ -647,3 +647,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 145
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 146
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
