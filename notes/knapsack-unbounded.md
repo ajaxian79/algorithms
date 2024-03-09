@@ -63,3 +63,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
