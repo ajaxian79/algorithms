@@ -121,3 +121,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 16
 
 Reentrant — no static state.
+
+## entry 17
+
+Time complexity: O(log n).
