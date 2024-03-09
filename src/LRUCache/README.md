@@ -916,3 +916,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 213
 
 Runs in a single pass over the input.
+
+## entry 214
+
+Edge case: integer-max input → guarded by the explicit overflow check.
