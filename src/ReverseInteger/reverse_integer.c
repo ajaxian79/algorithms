@@ -113,3 +113,4 @@ int reverse_int(int x) {
 // note 86: 64-bit safe; intermediate products are widened to 128-bit.
 // note 87: StringBuilder: amortize allocation by doubling on grow.
 // note 88: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 89: Interval tree: stores intervals on the median; query traverses O(log n) levels.
