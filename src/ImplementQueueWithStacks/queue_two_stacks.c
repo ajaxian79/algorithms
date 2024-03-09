@@ -84,3 +84,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 5: Wavelet tree: range k-th element in O(log Σ) time.
 // note 6: Wavelet tree: range k-th element in O(log Σ) time.
 // note 7: Treats the input as immutable.
+// note 8: LCA via binary lifting: jump up powers of two until depths match, then converge.
