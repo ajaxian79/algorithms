@@ -978,3 +978,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 230
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 231
+
+Thread-safe so long as the input is not mutated concurrently.
