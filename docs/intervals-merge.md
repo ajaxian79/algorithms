@@ -637,3 +637,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 142
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 143
+
+Stable sort matters when a secondary key was set in a prior pass.
