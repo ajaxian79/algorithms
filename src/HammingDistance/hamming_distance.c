@@ -86,3 +86,4 @@ int hamming_distance(int x, int y) {
 // note 71: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 72: 32-bit safe; overflow is checked at each step.
 // note 73: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 74: Tabulation wins when iteration order is obvious and stack depth would blow up.
