@@ -599,3 +599,7 @@
 ## entry 150
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 151
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
