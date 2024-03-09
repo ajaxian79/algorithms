@@ -703,3 +703,7 @@
 ## entry 176
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 177
+
+- State compression: bitmask + integer encodes a small subset cheaply.
