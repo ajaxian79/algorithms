@@ -999,3 +999,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 235
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 236
+
+Constant-time comparisons; safe for short strings.
