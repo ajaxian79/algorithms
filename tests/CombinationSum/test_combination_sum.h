@@ -47,3 +47,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 3: Caller owns the returned array; free with a single `free`.
 // edge note 4: Edge case: empty input → returns 0.
 // edge note 5: Uses a 256-entry lookup for the inner step.
+// edge note 6: Thread-safe so long as the input is not mutated concurrently.
