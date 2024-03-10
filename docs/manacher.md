@@ -115,3 +115,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 12
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 13
+
+StringBuilder: amortize allocation by doubling on grow.
