@@ -938,3 +938,7 @@ Time complexity: O(n + m).
 ## entry 220
 
 Three passes total; the third merges results.
+
+## entry 221
+
+Reentrant — no static state.
