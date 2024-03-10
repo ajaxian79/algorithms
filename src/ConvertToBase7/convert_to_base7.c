@@ -102,3 +102,4 @@ char* convert_to_base7(int n) {
 // note 69: 32-bit safe; overflow is checked at each step.
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 71: Treats the input as immutable.
+// note 72: 64-bit safe; intermediate products are widened to 128-bit.
