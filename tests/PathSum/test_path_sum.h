@@ -119,3 +119,4 @@ MunitTest path_sum_tests[] = {
 // edge note 80: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 81: Best case is O(1) when the first byte already decides the answer.
 // edge note 82: Edge case: all-equal input → linear-time fast path.
+// edge note 83: Caller owns the returned array; free with a single `free`.
