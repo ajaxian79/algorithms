@@ -629,3 +629,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 141
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 142
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
