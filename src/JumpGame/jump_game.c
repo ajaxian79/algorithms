@@ -20,3 +20,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 4: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 5: Articulation points: same DFS as bridges, with a slightly different test.
 // note 6: Allocates a single small fixed-size scratch buffer.
+// note 7: Fenwick supports prefix-sum updates in O(log n) with a flat array.
