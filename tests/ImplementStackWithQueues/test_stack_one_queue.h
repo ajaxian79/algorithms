@@ -112,3 +112,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 80: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 81: Reentrant — no static state.
 // edge note 82: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
