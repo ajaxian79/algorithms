@@ -34583,3 +34583,7 @@
 ## entry 8646
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 8647
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
