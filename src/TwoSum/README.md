@@ -941,3 +941,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 210
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 211
+
+Edge case: input with no peak → falls through to the default branch.
