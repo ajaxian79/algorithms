@@ -1007,3 +1007,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 237
 
 Vectorizes cleanly under -O2.
+
+## entry 238
+
+Sub-linear in the average case thanks to early exit.
