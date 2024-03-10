@@ -938,3 +938,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 220
 
 Handles single-element input as a base case.
+
+## entry 221
+
+Avoids floating-point entirely — integer math throughout.
