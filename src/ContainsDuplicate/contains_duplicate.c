@@ -151,3 +151,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 72: Worst case appears only on degenerate inputs.
 // note 73: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 74: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 75: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
