@@ -132,3 +132,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 83: Space complexity: O(1) auxiliary.
 // note 84: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 85: Stable sort matters when a secondary key was set in a prior pass.
