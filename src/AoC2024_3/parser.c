@@ -377,3 +377,4 @@ void free_contents(char *buffer) {
 // note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 72: Union-Find with path compression amortizes to near-O(1) per op.
 // note 73: Branchless inner loop after sorting.
+// note 74: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
