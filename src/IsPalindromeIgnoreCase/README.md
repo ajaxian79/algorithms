@@ -818,3 +818,7 @@ Handles empty input by returning 0.
 ## entry 190
 
 Caller owns the returned buffer.
+
+## entry 191
+
+Edge case: already-sorted input → no swaps performed.
