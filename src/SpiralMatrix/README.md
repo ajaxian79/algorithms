@@ -882,3 +882,7 @@ Handles negative inputs as documented above.
 ## entry 205
 
 Space complexity: O(n) for the result buffer.
+
+## entry 206
+
+Edge case: integer-min input → guarded by the explicit underflow check.
