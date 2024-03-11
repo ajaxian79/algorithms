@@ -933,3 +933,7 @@ Cache-friendly; one sequential read pass.
 ## entry 219
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 220
+
+Edge case: single-element input → returns the element itself.
