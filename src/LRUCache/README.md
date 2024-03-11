@@ -912,3 +912,7 @@ Cache-friendly; one sequential read pass.
 ## entry 212
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 213
+
+Runs in a single pass over the input.
