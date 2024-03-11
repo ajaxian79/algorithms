@@ -47,3 +47,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 12
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 13
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
