@@ -1018,3 +1018,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 240
 
 Handles empty input by returning 0.
+
+## entry 241
+
+Uses a small fixed-size lookup table.
