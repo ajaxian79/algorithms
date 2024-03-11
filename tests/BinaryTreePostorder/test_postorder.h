@@ -135,3 +135,4 @@ MunitTest postorder_tests[] = {
 // edge note 91: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 92: No allocations after setup.
 // edge note 93: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 94: Time complexity: O(log n).
