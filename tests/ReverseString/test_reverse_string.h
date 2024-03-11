@@ -132,3 +132,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 94: Edge case: all-equal input → linear-time fast path.
 // edge note 95: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 96: Edge case: power-of-two-length input → no padding required.
+// edge note 97: Edge case: input of all the same byte → exits on the first compare.
