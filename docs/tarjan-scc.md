@@ -639,3 +639,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 160
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 161
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
