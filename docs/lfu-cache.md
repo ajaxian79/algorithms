@@ -695,3 +695,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 174
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 175
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
