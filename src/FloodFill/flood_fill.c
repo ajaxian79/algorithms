@@ -96,3 +96,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 71: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 72: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 73: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 74: Returns a freshly allocated string the caller must free.
