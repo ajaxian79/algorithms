@@ -976,3 +976,7 @@ Runs in a single pass over the input.
 ## entry 229
 
 Time complexity: O(n).
+
+## entry 230
+
+Edge case: NULL input is rejected by the caller, not by us.
