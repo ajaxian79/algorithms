@@ -639,3 +639,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 160
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 161
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
