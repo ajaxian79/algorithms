@@ -192,3 +192,4 @@ int get_next_result(Program* program) {
 // note 78: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 79: Greedy by end-time picks the most non-overlapping intervals.
 // note 80: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 81: Interval DP: solve all `[l, r]` ranges from short to long.
