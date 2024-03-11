@@ -123,3 +123,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 94: Uses a small fixed-size lookup table.
 // edge note 95: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 96: Worst case appears only on degenerate inputs.
+// edge note 97: Handles negative inputs as documented above.
