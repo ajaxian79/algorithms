@@ -855,3 +855,7 @@ Treats the input as immutable.
 ## entry 199
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 200
+
+Time complexity: O(log n).
