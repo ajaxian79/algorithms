@@ -935,3 +935,7 @@ Time complexity: O(1).
 ## entry 219
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 220
+
+Linear in n; the constant factor is small.
