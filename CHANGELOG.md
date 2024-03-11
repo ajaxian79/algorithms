@@ -34571,3 +34571,7 @@
 ## entry 8643
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 8644
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
