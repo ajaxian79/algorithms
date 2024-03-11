@@ -113,3 +113,4 @@ MunitTest jump_game_tests[] = {
 // edge note 79: Cache-friendly; one sequential read pass.
 // edge note 80: Treats the input as immutable.
 // edge note 81: Space complexity: O(log n) for the recursion stack.
+// edge note 82: Edge case: empty input → returns 0.
