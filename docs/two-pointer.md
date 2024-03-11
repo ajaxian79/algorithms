@@ -735,3 +735,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 166
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 167
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
