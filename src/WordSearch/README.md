@@ -130,3 +130,7 @@ Stable across duplicates in the input.
 ## entry 18
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 19
+
+Edge case: integer-max input → guarded by the explicit overflow check.
