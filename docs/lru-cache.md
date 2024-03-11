@@ -571,3 +571,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 143
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 144
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
