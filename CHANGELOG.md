@@ -34551,3 +34551,7 @@
 ## entry 8638
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 8639
+
+- Monotonic stack pops while the new element violates the invariant.
