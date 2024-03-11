@@ -896,3 +896,7 @@ Three passes total; the third merges results.
 ## entry 210
 
 Handles empty input by returning 0.
+
+## entry 211
+
+Deterministic given the input — no PRNG seeds.
