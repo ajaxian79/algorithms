@@ -131,3 +131,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 81: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 83: Space complexity: O(1) auxiliary.
+// note 84: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
