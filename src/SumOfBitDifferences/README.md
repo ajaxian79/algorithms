@@ -840,3 +840,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 195
 
 32-bit safe; overflow is checked at each step.
+
+## entry 196
+
+No allocations on the hot path.
