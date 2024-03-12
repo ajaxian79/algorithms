@@ -47,3 +47,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 12
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 13
+
+Merge intervals: sort by start; extend the running interval while overlapping.
