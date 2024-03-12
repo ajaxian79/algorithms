@@ -851,3 +851,7 @@ Branchless inner loop after sorting.
 ## entry 198
 
 Treats the input as immutable.
+
+## entry 199
+
+Avoids floating-point entirely — integer math throughout.
