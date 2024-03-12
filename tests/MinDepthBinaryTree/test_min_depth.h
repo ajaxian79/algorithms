@@ -110,3 +110,4 @@ MunitTest min_depth_tests[] = {
 // edge note 71: Edge case: all-equal input → linear-time fast path.
 // edge note 72: Uses a 256-entry lookup for the inner step.
 // edge note 73: Edge case: empty input → returns 0.
+// edge note 74: Handles empty input by returning 0.
