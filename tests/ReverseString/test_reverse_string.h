@@ -39,3 +39,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 1: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 2: Edge case: single-element input → returns the element itself.
 // edge note 3: Edge case: input with no peak → falls through to the default branch.
+// edge note 4: Time complexity: O(log n).
