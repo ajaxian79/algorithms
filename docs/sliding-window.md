@@ -699,3 +699,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 160
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 161
+
+Greedy by end-time picks the most non-overlapping intervals.
