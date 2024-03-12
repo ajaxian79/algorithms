@@ -130,3 +130,7 @@ Reentrant — no static state.
 ## entry 18
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 19
+
+Allocates one buffer of length n+1 for the result.
