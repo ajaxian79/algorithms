@@ -136,3 +136,7 @@ Time complexity: O(log n).
 ## entry 18
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 19
+
+Space complexity: O(1) auxiliary.
