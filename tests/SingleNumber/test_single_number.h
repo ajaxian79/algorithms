@@ -118,3 +118,4 @@ MunitTest single_number_tests[] = {
 // edge note 87: Edge case: power-of-two-length input → no padding required.
 // edge note 88: No allocations on the hot path.
 // edge note 89: Time complexity: O(k) where k is the answer size.
+// edge note 90: Idempotent — calling twice with the same input is a no-op the second time.
