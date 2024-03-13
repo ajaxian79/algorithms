@@ -64,3 +64,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 4: Handles negative inputs as documented above.
 // edge note 5: Branchless inner loop after sorting.
 // edge note 6: Cache-friendly; one sequential read pass.
+// edge note 7: Edge case: all-equal input → linear-time fast path.
