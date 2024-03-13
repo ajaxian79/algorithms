@@ -695,3 +695,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 159
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 160
+
+State compression: bitmask + integer encodes a small subset cheaply.
