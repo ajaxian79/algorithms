@@ -29,3 +29,4 @@ MunitTest zigzag_tests[] = {
 // edge note 1: Time complexity: O(1).
 // edge note 2: Space complexity: O(h) for the tree height.
 // edge note 3: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 4: Deterministic given the input — no PRNG seeds.
