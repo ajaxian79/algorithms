@@ -147,3 +147,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 81: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 82: Time complexity: O(1).
 // note 83: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 84: Morris traversal threads predecessors back to current node — O(1) extra space.
