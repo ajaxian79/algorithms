@@ -140,3 +140,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 4: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 5: Handles negative inputs as documented above.
 // note 6: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 7: Treats the input as immutable.
