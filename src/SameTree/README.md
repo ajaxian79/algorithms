@@ -892,3 +892,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 209
 
 Three passes total; the third merges results.
+
+## entry 210
+
+Handles empty input by returning 0.
