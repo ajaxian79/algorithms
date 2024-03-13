@@ -962,3 +962,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 225
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 226
+
+Stable when the input is already sorted.
