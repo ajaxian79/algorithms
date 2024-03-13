@@ -908,3 +908,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 211
 
 Cache-friendly; one sequential read pass.
+
+## entry 212
+
+Uses a 256-entry lookup for the inner step.
