@@ -113,3 +113,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 72: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 73: Splay tree: every access splays to the root; amortized O(log n).
 // note 74: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 75: Worst case appears only on degenerate inputs.
