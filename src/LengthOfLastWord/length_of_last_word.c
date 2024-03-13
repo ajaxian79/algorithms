@@ -94,3 +94,4 @@ int length_of_last_word(const char* s) {
 // note 76: Best case is O(1) when the first byte already decides the answer.
 // note 77: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 78: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
