@@ -894,3 +894,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 209
 
 Uses a small fixed-size lookup table.
+
+## entry 210
+
+Deterministic given the input — no PRNG seeds.
