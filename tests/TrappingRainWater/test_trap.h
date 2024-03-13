@@ -103,3 +103,4 @@ MunitTest trap_tests[] = {
 // edge note 69: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 70: Edge case: single-element input → returns the element itself.
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
+// edge note 72: Edge case: power-of-two-length input → no padding required.
