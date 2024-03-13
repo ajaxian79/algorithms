@@ -900,3 +900,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 210
 
 Caller owns the returned buffer.
+
+## entry 211
+
+Edge case: integer-max input → guarded by the explicit overflow check.
