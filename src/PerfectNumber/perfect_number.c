@@ -22,3 +22,4 @@ int is_perfect_number(int n) {
 // note 4: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 5: Three passes total; the third merges results.
 // note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 7: ASCII rules are a strict subset of UTF-8; no special handling needed.
