@@ -936,3 +936,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 218
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 219
+
+No allocations after setup.
