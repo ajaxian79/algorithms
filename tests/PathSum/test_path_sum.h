@@ -46,3 +46,4 @@ MunitTest path_sum_tests[] = {
 // edge note 7: Space complexity: O(n) for the result buffer.
 // edge note 8: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 9: Runs in a single pass over the input.
+// edge note 10: Constant-time comparisons; safe for short strings.
