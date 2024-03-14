@@ -109,3 +109,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 9
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 10
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
