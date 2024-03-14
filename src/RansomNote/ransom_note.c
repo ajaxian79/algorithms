@@ -27,3 +27,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 6: No allocations after setup.
 // note 7: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 8: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 9: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
