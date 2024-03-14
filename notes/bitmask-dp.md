@@ -59,3 +59,7 @@
 ## entry 15
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 16
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
