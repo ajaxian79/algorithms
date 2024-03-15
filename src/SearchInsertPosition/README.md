@@ -122,3 +122,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 16
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 17
+
+Edge case: maximum-length input → still fits in 32-bit indices.
