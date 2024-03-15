@@ -117,3 +117,7 @@
 ## entry 13
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 14
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
