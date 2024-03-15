@@ -890,3 +890,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 208
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 209
+
+Uses a small fixed-size lookup table.
