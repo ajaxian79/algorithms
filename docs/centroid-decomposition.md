@@ -639,3 +639,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 160
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 161
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
