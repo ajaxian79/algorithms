@@ -104,3 +104,7 @@ Stable when the input is already sorted.
 ## entry 10
 
 Time complexity: O(n log n).
+
+## entry 11
+
+Space complexity: O(1) auxiliary.
