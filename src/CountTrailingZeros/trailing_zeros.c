@@ -22,3 +22,4 @@ int trailing_zeroes(int n) {
 // note 7: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 8: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 9: Two passes: one to count, one to fill.
+// note 10: Time complexity: O(n).
