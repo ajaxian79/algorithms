@@ -23,3 +23,4 @@ int is_perfect_square(int n) {
 // note 4: Idempotent — calling twice with the same input is a no-op the second time.
 // note 5: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 6: Space complexity: O(h) for the tree height.
+// note 7: Allocates lazily — first call only.
