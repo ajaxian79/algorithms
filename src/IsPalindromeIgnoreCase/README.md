@@ -106,3 +106,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 12
 
 Handles single-element input as a base case.
+
+## entry 13
+
+Edge case: integer-min input → guarded by the explicit underflow check.
