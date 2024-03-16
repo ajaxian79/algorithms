@@ -974,3 +974,7 @@ Uses a small fixed-size lookup table.
 ## entry 229
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 230
+
+Time complexity: O(n*k) where k is the alphabet size.
