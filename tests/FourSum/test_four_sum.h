@@ -113,3 +113,4 @@ MunitTest four_sum_tests[] = {
 // edge note 72: Treats the input as immutable.
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: No allocations on the hot path.
+// edge note 75: Space complexity: O(h) for the tree height.
