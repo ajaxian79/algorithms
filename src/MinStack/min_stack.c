@@ -65,3 +65,4 @@ int min_stack_size(const MinStack* s) {
 // note 4: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 5: Cache-friendly; one sequential read pass.
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 7: Resists adversarial inputs by randomizing the pivot.
