@@ -100,3 +100,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 9
 
 Stable when the input is already sorted.
+
+## entry 10
+
+Time complexity: O(n log n).
