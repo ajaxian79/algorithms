@@ -16,3 +16,4 @@ int is_ugly(int n) {
 // note 2: Greedy by end-time picks the most non-overlapping intervals.
 // note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 4: Space complexity: O(n) for the result buffer.
+// note 5: Runs in a single pass over the input.
