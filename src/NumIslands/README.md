@@ -865,3 +865,7 @@ Stable across duplicates in the input.
 ## entry 201
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 202
+
+Edge case: input with one duplicate → handled without an extra pass.
