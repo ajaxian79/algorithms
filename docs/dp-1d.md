@@ -699,3 +699,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 158
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 159
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
