@@ -625,3 +625,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 140
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 141
+
+Articulation points: same DFS as bridges, with a slightly different test.
