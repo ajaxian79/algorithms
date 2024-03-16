@@ -101,3 +101,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 10
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 11
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
