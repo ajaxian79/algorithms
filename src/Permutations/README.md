@@ -112,3 +112,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 13
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 14
+
+Returns a freshly allocated string the caller must free.
