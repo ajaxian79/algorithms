@@ -65,3 +65,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Union-Find with path compression amortizes to near-O(1) per op.
