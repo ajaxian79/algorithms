@@ -1009,3 +1009,7 @@ Runs in a single pass over the input.
 ## entry 238
 
 Worst case appears only on degenerate inputs.
+
+## entry 239
+
+Time complexity: O(n^2) worst case, O(n) amortized.
