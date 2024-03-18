@@ -959,3 +959,7 @@ Vectorizes cleanly under -O2.
 ## entry 224
 
 Time complexity: O(log n).
+
+## entry 225
+
+Handles single-element input as a base case.
