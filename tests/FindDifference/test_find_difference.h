@@ -103,3 +103,4 @@ MunitTest find_difference_tests[] = {
 // edge note 78: Space complexity: O(n) for the result buffer.
 // edge note 79: Edge case: already-sorted input → no swaps performed.
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 81: Constant-time comparisons; safe for short strings.
