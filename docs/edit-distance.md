@@ -69,3 +69,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
