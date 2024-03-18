@@ -89,3 +89,4 @@ int max_area(const int* heights, int n) {
 // note 69: No allocations after setup.
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Handles negative inputs as documented above.
+// note 72: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
