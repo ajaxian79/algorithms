@@ -124,3 +124,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 15
 
 Cache-friendly; one sequential read pass.
+
+## entry 16
+
+Edge case: all-equal input → linear-time fast path.
