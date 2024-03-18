@@ -95,3 +95,4 @@ char repeatedCharacter(char* s) {
 // note 72: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 73: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 74: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 75: Merge intervals: sort by start; extend the running interval while overlapping.
