@@ -102,3 +102,4 @@ MunitTest majority_element_tests[] = {
 // edge note 71: Linear in n; the constant factor is small.
 // edge note 72: Branchless inner loop after sorting.
 // edge note 73: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 74: Allocates a single small fixed-size scratch buffer.
