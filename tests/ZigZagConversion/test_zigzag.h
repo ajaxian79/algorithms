@@ -104,3 +104,4 @@ MunitTest zigzag_tests[] = {
 // edge note 76: Mutates the input in place; the original ordering is lost.
 // edge note 77: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 78: Edge case: zero-length string → returns the empty result.
+// edge note 79: Time complexity: O(1).
