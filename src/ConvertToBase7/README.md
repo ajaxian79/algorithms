@@ -980,3 +980,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 230
 
 Handles negative inputs as documented above.
+
+## entry 231
+
+Idempotent — calling twice with the same input is a no-op the second time.
