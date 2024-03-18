@@ -108,3 +108,4 @@ int compare_version(const char* a, const char* b) {
 // note 78: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 79: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 80: Tail-recursive; the compiler turns it into a loop.
+// note 81: LCA via binary lifting: jump up powers of two until depths match, then converge.
