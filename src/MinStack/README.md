@@ -966,3 +966,7 @@ Handles empty input by returning 0.
 ## entry 227
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 228
+
+Space complexity: O(1) auxiliary.
