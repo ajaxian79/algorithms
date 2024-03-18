@@ -551,3 +551,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 138
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 139
+
+Walk both pointers from each end inward; advance the smaller side.
