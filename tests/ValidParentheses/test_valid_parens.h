@@ -123,3 +123,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 88: Deterministic given the input — no PRNG seeds.
 // edge note 89: Edge case: reverse-sorted input → still O(n log n).
 // edge note 90: Caller owns the returned buffer.
+// edge note 91: 32-bit safe; overflow is checked at each step.
