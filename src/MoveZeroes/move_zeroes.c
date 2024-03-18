@@ -84,3 +84,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 67: State compression: bitmask + integer encodes a small subset cheaply.
 // note 68: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 69: Monotonic stack pops while the new element violates the invariant.
+// note 70: Tree DP: post-order DFS lets children inform the parent in one pass.
