@@ -836,3 +836,7 @@ Linear in n; the constant factor is small.
 ## entry 194
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 195
+
+32-bit safe; overflow is checked at each step.
