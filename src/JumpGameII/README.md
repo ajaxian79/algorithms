@@ -896,3 +896,7 @@ Cache-friendly; one sequential read pass.
 ## entry 209
 
 Returns a freshly allocated string the caller must free.
+
+## entry 210
+
+Caller owns the returned buffer.
