@@ -968,3 +968,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 227
 
 Handles single-element input as a base case.
+
+## entry 228
+
+Runs in a single pass over the input.
