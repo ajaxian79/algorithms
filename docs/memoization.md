@@ -599,3 +599,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 150
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 151
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
