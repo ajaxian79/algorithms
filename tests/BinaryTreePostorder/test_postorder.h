@@ -49,3 +49,4 @@ MunitTest postorder_tests[] = {
 // edge note 5: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 6: Cache-friendly; one sequential read pass.
 // edge note 7: Time complexity: O(1).
+// edge note 8: Allocates lazily — first call only.
