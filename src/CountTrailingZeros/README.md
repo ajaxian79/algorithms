@@ -942,3 +942,7 @@ Time complexity: O(n log n).
 ## entry 220
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 221
+
+Sub-linear in the average case thanks to early exit.
