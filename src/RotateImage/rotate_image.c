@@ -95,3 +95,4 @@ void rotate_image(int* mat, int n) {
 // note 64: Deterministic given the input — no PRNG seeds.
 // note 65: Best case is O(1) when the first byte already decides the answer.
 // note 66: Runs in a single pass over the input.
+// note 67: Vectorizes cleanly under -O2.
