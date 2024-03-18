@@ -683,3 +683,7 @@
 ## entry 171
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 172
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
