@@ -892,3 +892,7 @@ Time complexity: O(n + m).
 ## entry 208
 
 Cache-friendly; one sequential read pass.
+
+## entry 209
+
+Returns a freshly allocated string the caller must free.
