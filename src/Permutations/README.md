@@ -1048,3 +1048,7 @@ Space complexity: O(1) auxiliary.
 ## entry 247
 
 Runs in a single pass over the input.
+
+## entry 248
+
+Uses a small fixed-size lookup table.
