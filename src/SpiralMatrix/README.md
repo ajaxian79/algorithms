@@ -878,3 +878,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 204
 
 Handles negative inputs as documented above.
+
+## entry 205
+
+Space complexity: O(n) for the result buffer.
