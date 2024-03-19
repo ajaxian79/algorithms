@@ -67,3 +67,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 17
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 18
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
