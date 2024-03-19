@@ -65,3 +65,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
