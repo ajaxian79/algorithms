@@ -61,3 +61,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
