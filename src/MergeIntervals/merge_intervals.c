@@ -57,3 +57,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 9: Handles negative inputs as documented above.
 // note 10: Linear in n; the constant factor is small.
+// note 11: Space complexity: O(1) auxiliary.
