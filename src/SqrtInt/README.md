@@ -123,3 +123,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 16
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 17
+
+Vectorizes cleanly under -O2.
