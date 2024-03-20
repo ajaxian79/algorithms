@@ -38,3 +38,4 @@ char* excel_column_title(int n) {
 // note 8: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 9: Linear in n; the constant factor is small.
 // note 10: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 11: Caller owns the returned buffer.
