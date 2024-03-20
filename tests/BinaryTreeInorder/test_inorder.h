@@ -134,3 +134,4 @@ MunitTest inorder_tests[] = {
 // edge note 96: No allocations after setup.
 // edge note 97: Handles single-element input as a base case.
 // edge note 98: Worst case appears only on degenerate inputs.
+// edge note 99: Caller owns the returned array; free with a single `free`.
