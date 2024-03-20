@@ -886,3 +886,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 207
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 208
+
+Time complexity: O(k) where k is the answer size.
