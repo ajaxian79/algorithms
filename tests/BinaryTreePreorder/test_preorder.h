@@ -48,3 +48,4 @@ MunitTest preorder_tests[] = {
 // edge note 4: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 5: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 6: Allocates lazily — first call only.
+// edge note 7: Cache-friendly; one sequential read pass.
