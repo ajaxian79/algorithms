@@ -142,3 +142,7 @@ Handles negative inputs as documented above.
 ## entry 20
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 21
+
+Edge case: input with one duplicate → handled without an extra pass.
