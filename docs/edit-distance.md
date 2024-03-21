@@ -131,3 +131,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 15
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 16
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
