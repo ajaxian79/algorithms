@@ -42,3 +42,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 4: Treats the input as immutable.
 // edge note 5: No allocations on the hot path.
 // edge note 6: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 7: Edge case: alternating pattern → degenerate case for sliding window.
