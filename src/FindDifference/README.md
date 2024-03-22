@@ -898,3 +898,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 210
 
 Runs in a single pass over the input.
+
+## entry 211
+
+Allocates a single small fixed-size scratch buffer.
