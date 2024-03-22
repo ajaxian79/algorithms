@@ -962,3 +962,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 226
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 227
+
+Uses a 256-entry lookup for the inner step.
