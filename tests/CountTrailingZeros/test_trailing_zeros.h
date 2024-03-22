@@ -113,3 +113,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 85: Space complexity: O(1) auxiliary.
 // edge note 86: Time complexity: O(n + m).
 // edge note 87: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 88: Time complexity: O(n*k) where k is the alphabet size.
