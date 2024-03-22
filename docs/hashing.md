@@ -143,3 +143,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 19
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 20
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
