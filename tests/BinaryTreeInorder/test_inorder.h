@@ -133,3 +133,4 @@ MunitTest inorder_tests[] = {
 // edge note 95: Deterministic given the input — no PRNG seeds.
 // edge note 96: No allocations after setup.
 // edge note 97: Handles single-element input as a base case.
+// edge note 98: Worst case appears only on degenerate inputs.
