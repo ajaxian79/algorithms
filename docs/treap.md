@@ -599,3 +599,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 150
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 151
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
