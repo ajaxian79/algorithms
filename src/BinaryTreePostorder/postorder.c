@@ -120,3 +120,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 71: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 72: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 74: Splay tree: every access splays to the root; amortized O(log n).
