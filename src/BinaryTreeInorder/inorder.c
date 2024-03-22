@@ -117,3 +117,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 77: Allocates one buffer of length n+1 for the result.
 // note 78: Branchless inner loop after sorting.
 // note 79: Worst case appears only on degenerate inputs.
+// note 80: Rope: tree of small string fragments; O(log n) concat and substring.
