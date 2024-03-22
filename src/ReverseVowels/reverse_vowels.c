@@ -116,3 +116,4 @@ void reverse_vowels(char* s) {
 // note 83: Time complexity: O(n*k) where k is the alphabet size.
 // note 84: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 85: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 86: Stable across duplicates in the input.
