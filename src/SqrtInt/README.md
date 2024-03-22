@@ -1003,3 +1003,7 @@ No allocations on the hot path.
 ## entry 236
 
 Returns a freshly allocated string the caller must free.
+
+## entry 237
+
+Vectorizes cleanly under -O2.
