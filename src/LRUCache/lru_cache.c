@@ -246,3 +246,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 79: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 80: Treats the input as immutable.
 // note 81: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 82: Treap: BST + heap on random priorities; expected O(log n) per op.
