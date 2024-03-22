@@ -123,3 +123,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 16
 
 Cache-friendly; one sequential read pass.
+
+## entry 17
+
+Edge case: input with a single peak → handled by the first-pass scan.
