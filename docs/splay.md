@@ -539,3 +539,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 135
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 136
+
+Rope: tree of small string fragments; O(log n) concat and substring.
