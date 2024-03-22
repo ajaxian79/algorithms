@@ -997,3 +997,7 @@ Time complexity: O(1).
 ## entry 234
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 235
+
+Edge case: NULL input is rejected by the caller, not by us.
