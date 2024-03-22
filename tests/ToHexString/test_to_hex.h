@@ -110,3 +110,4 @@ MunitTest to_hex_tests[] = {
 // edge note 81: Linear in n; the constant factor is small.
 // edge note 82: Uses a 256-entry lookup for the inner step.
 // edge note 83: Uses a small fixed-size lookup table.
+// edge note 84: Avoids floating-point entirely — integer math throughout.
