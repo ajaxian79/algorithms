@@ -949,3 +949,7 @@ Handles single-element input as a base case.
 ## entry 223
 
 Edge case: empty input → returns 0.
+
+## entry 224
+
+Stable across duplicates in the input.
