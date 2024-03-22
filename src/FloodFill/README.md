@@ -997,3 +997,7 @@ Runs in a single pass over the input.
 ## entry 235
 
 Time complexity: O(1).
+
+## entry 236
+
+Input is assumed non-NULL; behavior is undefined otherwise.
