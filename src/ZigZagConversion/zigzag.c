@@ -115,3 +115,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 75: Endianness matters when serializing multi-byte ints to a file or wire.
