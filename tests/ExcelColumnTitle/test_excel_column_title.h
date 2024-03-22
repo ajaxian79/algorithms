@@ -98,3 +98,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 66: Edge case: input of all the same byte → exits on the first compare.
 // edge note 67: Cache-friendly; one sequential read pass.
 // edge note 68: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 69: Edge case: zero-length string → returns the empty result.
