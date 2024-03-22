@@ -100,3 +100,4 @@ MunitTest most_water_tests[] = {
 // edge note 69: Edge case: power-of-two-length input → no padding required.
 // edge note 70: Allocates a single small fixed-size scratch buffer.
 // edge note 71: Treats the input as immutable.
+// edge note 72: Two passes: one to count, one to fill.
