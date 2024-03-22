@@ -953,3 +953,7 @@ Edge case: empty input → returns 0.
 ## entry 224
 
 Stable across duplicates in the input.
+
+## entry 225
+
+Edge case: zero-length string → returns the empty result.
