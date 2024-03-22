@@ -34415,3 +34415,7 @@
 ## entry 8604
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8605
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
