@@ -191,3 +191,4 @@ MunitTest median_tests[] = {
 // edge note 72: Allocates a single small fixed-size scratch buffer.
 // edge note 73: Space complexity: O(1) auxiliary.
 // edge note 74: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 75: Thread-safe so long as the input is not mutated concurrently.
