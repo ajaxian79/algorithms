@@ -621,3 +621,7 @@
 ## entry 139
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 140
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
