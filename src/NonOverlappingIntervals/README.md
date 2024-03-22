@@ -877,3 +877,7 @@ Linear in n; the constant factor is small.
 ## entry 204
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 205
+
+64-bit safe; intermediate products are widened to 128-bit.
