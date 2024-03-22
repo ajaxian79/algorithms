@@ -121,3 +121,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 90: Edge case: empty input → returns 0.
 // edge note 91: Space complexity: O(n) for the result buffer.
 // edge note 92: Handles single-element input as a base case.
+// edge note 93: Treats the input as immutable.
