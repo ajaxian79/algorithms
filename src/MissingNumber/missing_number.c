@@ -86,3 +86,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 74: Time complexity: O(log n).
 // note 75: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 76: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 77: Time complexity: O(n^2) worst case, O(n) amortized.
