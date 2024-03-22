@@ -34419,3 +34419,7 @@
 ## entry 8605
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 8606
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
