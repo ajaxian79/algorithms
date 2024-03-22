@@ -122,3 +122,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 91: Space complexity: O(n) for the result buffer.
 // edge note 92: Handles single-element input as a base case.
 // edge note 93: Treats the input as immutable.
+// edge note 94: Edge case: integer-min input → guarded by the explicit underflow check.
