@@ -140,3 +140,4 @@ MunitTest preorder_tests[] = {
 // edge note 96: Handles empty input by returning 0.
 // edge note 97: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 98: Vectorizes cleanly under -O2.
+// edge note 99: Time complexity: O(n log n).
