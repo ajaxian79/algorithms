@@ -687,3 +687,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 156
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 157
+
+Wavelet tree: range k-th element in O(log Σ) time.
