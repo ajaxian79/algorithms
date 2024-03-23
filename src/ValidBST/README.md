@@ -945,3 +945,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 221
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 222
+
+Allocates lazily — first call only.
