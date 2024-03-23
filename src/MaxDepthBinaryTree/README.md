@@ -929,3 +929,7 @@ Reentrant — no static state.
 ## entry 218
 
 Cache-friendly; one sequential read pass.
+
+## entry 219
+
+Edge case: power-of-two-length input → no padding required.
