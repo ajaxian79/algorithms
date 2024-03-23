@@ -132,3 +132,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 18
 
 Treats the input as immutable.
+
+## entry 19
+
+Best case is O(1) when the first byte already decides the answer.
