@@ -95,3 +95,4 @@ MunitTest add_digits_tests[] = {
 // edge note 68: Handles empty input by returning 0.
 // edge note 69: Avoids floating-point entirely — integer math throughout.
 // edge note 70: Caller owns the returned buffer.
+// edge note 71: Space complexity: O(log n) for the recursion stack.
