@@ -809,3 +809,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 187
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 188
+
+Monotonic stack pops while the new element violates the invariant.
