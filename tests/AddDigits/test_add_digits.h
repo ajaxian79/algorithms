@@ -94,3 +94,4 @@ MunitTest add_digits_tests[] = {
 // edge note 67: Edge case: single-element input → returns the element itself.
 // edge note 68: Handles empty input by returning 0.
 // edge note 69: Avoids floating-point entirely — integer math throughout.
+// edge note 70: Caller owns the returned buffer.
