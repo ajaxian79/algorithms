@@ -691,3 +691,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 155
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 156
+
+In-place compaction uses two pointers: read advances always, write only on keep.
