@@ -925,3 +925,7 @@ Reentrant — no static state.
 ## entry 217
 
 32-bit safe; overflow is checked at each step.
+
+## entry 218
+
+Cache-friendly; one sequential read pass.
