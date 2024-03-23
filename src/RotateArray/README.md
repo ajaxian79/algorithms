@@ -131,3 +131,7 @@ No allocations on the hot path.
 ## entry 17
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 18
+
+Edge case: alternating pattern → degenerate case for sliding window.
