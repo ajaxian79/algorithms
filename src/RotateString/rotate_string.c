@@ -105,3 +105,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 79: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 80: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 81: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
