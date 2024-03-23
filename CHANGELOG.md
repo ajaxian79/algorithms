@@ -34383,3 +34383,7 @@
 ## entry 8596
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 8597
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
