@@ -47,3 +47,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 2: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 3: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 4: Heap when you only need top-k; full sort is wasted work.
+// note 5: Tarjan SCC: low-link values find strongly connected components in one DFS.
