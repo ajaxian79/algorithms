@@ -113,3 +113,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 70: Time complexity: O(k) where k is the answer size.
 // note 71: Handles negative inputs as documented above.
 // note 72: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 73: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
