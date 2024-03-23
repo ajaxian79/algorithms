@@ -693,3 +693,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 157
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 158
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
