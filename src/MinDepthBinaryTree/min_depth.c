@@ -91,3 +91,4 @@ int min_depth(MnTreeNode* root) {
 // note 74: Constant-time comparisons; safe for short strings.
 // note 75: No allocations on the hot path.
 // note 76: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 77: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
