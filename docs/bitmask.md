@@ -627,3 +627,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 141
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 142
+
+State compression: bitmask + integer encodes a small subset cheaply.
