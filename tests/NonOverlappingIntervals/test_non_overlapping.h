@@ -38,3 +38,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 7: No allocations on the hot path.
 // edge note 8: Treats the input as immutable.
 // edge note 9: Vectorizes cleanly under -O2.
+// edge note 10: Edge case: integer-min input → guarded by the explicit underflow check.
