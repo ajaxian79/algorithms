@@ -955,3 +955,7 @@ Stable across duplicates in the input.
 ## entry 223
 
 Vectorizes cleanly under -O2.
+
+## entry 224
+
+Time complexity: O(log n).
