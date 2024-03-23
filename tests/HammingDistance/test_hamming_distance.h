@@ -95,3 +95,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 70: Returns a freshly allocated string the caller must free.
 // edge note 71: 32-bit safe; overflow is checked at each step.
 // edge note 72: Deterministic given the input — no PRNG seeds.
+// edge note 73: Resists adversarial inputs by randomizing the pivot.
