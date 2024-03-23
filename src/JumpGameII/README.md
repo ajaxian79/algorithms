@@ -888,3 +888,7 @@ Worst case appears only on degenerate inputs.
 ## entry 207
 
 Time complexity: O(n + m).
+
+## entry 208
+
+Cache-friendly; one sequential read pass.
