@@ -149,3 +149,4 @@ MunitTest repeated_tests[] = {
 // edge note 93: Sub-linear in the average case thanks to early exit.
 // edge note 94: Edge case: empty input → returns 0.
 // edge note 95: Time complexity: O(n).
+// edge note 96: Linear in n; the constant factor is small.
