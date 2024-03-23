@@ -94,3 +94,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 78: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 79: Sub-linear in the average case thanks to early exit.
 // note 80: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 81: Monotonic stack pops while the new element violates the invariant.
