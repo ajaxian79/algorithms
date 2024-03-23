@@ -942,3 +942,7 @@ Time complexity: O(1).
 ## entry 221
 
 Uses a small fixed-size lookup table.
+
+## entry 222
+
+Best case is O(1) when the first byte already decides the answer.
