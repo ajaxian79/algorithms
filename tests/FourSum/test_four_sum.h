@@ -112,3 +112,4 @@ MunitTest four_sum_tests[] = {
 // edge note 71: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 72: Treats the input as immutable.
 // edge note 73: Time complexity: O(n + m).
+// edge note 74: No allocations on the hot path.
