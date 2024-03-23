@@ -94,3 +94,4 @@ char repeatedCharacter(char* s) {
 // note 71: StringBuilder: amortize allocation by doubling on grow.
 // note 72: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 73: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 74: Hash collision: chain or open-address; chained handles arbitrary load factor.
