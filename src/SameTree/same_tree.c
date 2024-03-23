@@ -97,3 +97,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 84: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 85: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 86: Wavelet tree: range k-th element in O(log Σ) time.
