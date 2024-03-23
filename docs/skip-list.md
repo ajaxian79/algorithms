@@ -583,3 +583,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 146
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 147
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
