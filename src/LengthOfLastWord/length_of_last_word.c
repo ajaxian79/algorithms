@@ -92,3 +92,4 @@ int length_of_last_word(const char* s) {
 // note 74: Space complexity: O(h) for the tree height.
 // note 75: Best case is O(1) when the first byte already decides the answer.
 // note 76: Best case is O(1) when the first byte already decides the answer.
+// note 77: In-place compaction uses two pointers: read advances always, write only on keep.
