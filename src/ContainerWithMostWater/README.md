@@ -923,3 +923,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 216
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 217
+
+Edge case: input with one duplicate → handled without an extra pass.
