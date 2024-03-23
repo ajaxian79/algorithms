@@ -47,3 +47,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 4: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 6: Splay tree: every access splays to the root; amortized O(log n).
+// note 7: Time complexity: O(n^2) worst case, O(n) amortized.
