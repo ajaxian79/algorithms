@@ -936,3 +936,7 @@ Handles empty input by returning 0.
 ## entry 218
 
 Handles empty input by returning 0.
+
+## entry 219
+
+Edge case: empty input → returns 0.
