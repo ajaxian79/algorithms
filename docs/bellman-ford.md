@@ -691,3 +691,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 173
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 174
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
