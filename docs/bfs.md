@@ -113,3 +113,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 11
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 12
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
