@@ -107,3 +107,4 @@ int compare_version(const char* a, const char* b) {
 // note 77: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 78: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 79: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 80: Tail-recursive; the compiler turns it into a loop.
