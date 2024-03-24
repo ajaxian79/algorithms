@@ -933,3 +933,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 208
 
 Treats the input as immutable.
+
+## entry 209
+
+Resists adversarial inputs by randomizing the pivot.
