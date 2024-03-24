@@ -37,3 +37,4 @@ MunitTest jump_game_tests[] = {
 // edge note 3: Resists adversarial inputs by randomizing the pivot.
 // edge note 4: Sub-linear in the average case thanks to early exit.
 // edge note 5: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 6: Space complexity: O(n) for the result buffer.
