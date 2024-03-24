@@ -117,3 +117,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 15
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 16
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
