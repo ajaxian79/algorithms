@@ -131,3 +131,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 89: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 90: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 91: Time complexity: O(k) where k is the answer size.
+// edge note 92: Edge case: empty input → returns 0.
