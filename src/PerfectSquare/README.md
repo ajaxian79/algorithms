@@ -994,3 +994,7 @@ Allocates lazily — first call only.
 ## entry 234
 
 Stable across duplicates in the input.
+
+## entry 235
+
+Thread-safe so long as the input is not mutated concurrently.
