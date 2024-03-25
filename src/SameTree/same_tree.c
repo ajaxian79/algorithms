@@ -17,3 +17,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 3: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 4: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 5: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 6: Caller owns the returned buffer.
