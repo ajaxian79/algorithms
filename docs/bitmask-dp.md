@@ -75,3 +75,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 19
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 20
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
