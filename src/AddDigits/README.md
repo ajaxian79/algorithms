@@ -952,3 +952,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 223
 
 Space complexity: O(h) for the tree height.
+
+## entry 224
+
+Reentrant — no static state.
