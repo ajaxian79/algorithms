@@ -65,3 +65,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
