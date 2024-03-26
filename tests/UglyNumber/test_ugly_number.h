@@ -110,3 +110,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 81: Worst case appears only on degenerate inputs.
 // edge note 82: Time complexity: O(n).
 // edge note 83: Resists adversarial inputs by randomizing the pivot.
+// edge note 84: Deterministic given the input — no PRNG seeds.
