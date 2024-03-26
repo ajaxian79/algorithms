@@ -59,3 +59,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 9: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 10: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 11: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 12: Worst case appears only on degenerate inputs.
