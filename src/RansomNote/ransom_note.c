@@ -93,3 +93,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 72: Greedy by end-time picks the most non-overlapping intervals.
 // note 73: LIS via patience: each pile holds the smallest tail of length k.
 // note 74: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 75: Monotonic deque: push back, pop back to maintain order, pop front when stale.
