@@ -34331,3 +34331,7 @@
 ## entry 8583
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 8584
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
