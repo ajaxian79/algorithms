@@ -226,3 +226,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 73: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 74: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 75: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 76: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
