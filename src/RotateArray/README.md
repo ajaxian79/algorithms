@@ -951,3 +951,7 @@ Handles empty input by returning 0.
 ## entry 222
 
 Stable across duplicates in the input.
+
+## entry 223
+
+Vectorizes cleanly under -O2.
