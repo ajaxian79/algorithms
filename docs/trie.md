@@ -653,3 +653,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 147
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 148
+
+Union-Find with path compression amortizes to near-O(1) per op.
