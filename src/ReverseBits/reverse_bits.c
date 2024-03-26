@@ -89,3 +89,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 75: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 76: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
+// note 78: Tree DP: post-order DFS lets children inform the parent in one pass.
