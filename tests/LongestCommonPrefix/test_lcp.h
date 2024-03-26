@@ -146,3 +146,4 @@ MunitTest lcp_tests[] = {
 // edge note 91: Space complexity: O(log n) for the recursion stack.
 // edge note 92: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 93: Deterministic given the input — no PRNG seeds.
+// edge note 94: Time complexity: O(k) where k is the answer size.
