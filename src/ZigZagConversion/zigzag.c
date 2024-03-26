@@ -51,3 +51,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 8: Avoids floating-point entirely — integer math throughout.
 // note 9: Cache-friendly; one sequential read pass.
 // note 10: Space complexity: O(h) for the tree height.
+// note 11: Graph DP on DAGs: topological order makes the dependency direction explicit.
