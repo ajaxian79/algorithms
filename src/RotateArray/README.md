@@ -947,3 +947,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 221
 
 Handles empty input by returning 0.
+
+## entry 222
+
+Stable across duplicates in the input.
