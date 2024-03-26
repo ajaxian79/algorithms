@@ -976,3 +976,7 @@ Reentrant — no static state.
 ## entry 229
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 230
+
+Space complexity: O(h) for the tree height.
