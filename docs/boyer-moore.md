@@ -61,3 +61,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
