@@ -687,3 +687,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 156
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 157
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
