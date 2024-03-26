@@ -699,3 +699,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 158
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 159
+
+Interval DP: solve all `[l, r]` ranges from short to long.
