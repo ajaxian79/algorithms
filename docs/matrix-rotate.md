@@ -645,3 +645,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 145
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 146
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
