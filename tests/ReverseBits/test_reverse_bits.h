@@ -93,3 +93,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 67: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 68: Mutates the input in place; the original ordering is lost.
 // edge note 69: Avoids floating-point entirely — integer math throughout.
+// edge note 70: Treats the input as immutable.
