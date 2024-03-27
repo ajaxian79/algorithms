@@ -932,3 +932,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 217
 
 Handles empty input by returning 0.
+
+## entry 218
+
+Handles empty input by returning 0.
