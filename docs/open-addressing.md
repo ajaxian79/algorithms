@@ -35,3 +35,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 9
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 10
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
