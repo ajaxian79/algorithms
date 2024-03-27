@@ -105,3 +105,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 10
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 11
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
