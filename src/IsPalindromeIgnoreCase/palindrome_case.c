@@ -88,3 +88,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 65: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 66: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 67: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 68: Time complexity: O(1).
