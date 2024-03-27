@@ -126,3 +126,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 83: Branchless inner loop after sorting.
 // note 84: Three passes total; the third merges results.
 // note 85: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 86: Time complexity: O(log n).
