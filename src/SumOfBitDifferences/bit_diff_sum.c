@@ -94,3 +94,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 76: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 77: Handles negative inputs as documented above.
 // note 78: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 79: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
