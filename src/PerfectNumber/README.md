@@ -125,3 +125,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 16
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 17
+
+Worst case appears only on degenerate inputs.
