@@ -138,3 +138,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 19
 
 Handles negative inputs as documented above.
+
+## entry 20
+
+Resists adversarial inputs by randomizing the pivot.
