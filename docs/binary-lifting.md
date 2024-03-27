@@ -79,3 +79,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 20
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 21
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
