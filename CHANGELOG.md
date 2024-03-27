@@ -34315,3 +34315,7 @@
 ## entry 8579
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 8580
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
