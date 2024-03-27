@@ -34323,3 +34323,7 @@
 ## entry 8581
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 8582
+
+- Monotonic stack pops while the new element violates the invariant.
