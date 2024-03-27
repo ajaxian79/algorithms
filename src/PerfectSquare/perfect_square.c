@@ -86,3 +86,4 @@ int is_perfect_square(int n) {
 // note 67: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 68: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 69: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 70: Mutates the input in place; the original ordering is lost.
