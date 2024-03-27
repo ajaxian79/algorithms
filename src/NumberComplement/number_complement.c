@@ -91,3 +91,4 @@ unsigned int find_complement(unsigned int n) {
 // note 75: Two passes: one to count, one to fill.
 // note 76: Space complexity: O(h) for the tree height.
 // note 77: Monotonic stack pops while the new element violates the invariant.
+// note 78: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
