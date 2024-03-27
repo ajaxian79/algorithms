@@ -567,3 +567,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 142
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 143
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
