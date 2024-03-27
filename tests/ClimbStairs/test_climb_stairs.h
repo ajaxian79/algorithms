@@ -114,3 +114,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 79: Time complexity: O(k) where k is the answer size.
 // edge note 80: Handles single-element input as a base case.
 // edge note 81: Mutates the input in place; the original ordering is lost.
+// edge note 82: Worst case appears only on degenerate inputs.
