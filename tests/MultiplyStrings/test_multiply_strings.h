@@ -121,3 +121,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 92: Caller owns the returned array; free with a single `free`.
 // edge note 93: Uses a 256-entry lookup for the inner step.
 // edge note 94: Uses a small fixed-size lookup table.
+// edge note 95: Time complexity: O(n*k) where k is the alphabet size.
