@@ -115,3 +115,7 @@
 ## entry 11
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 12
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
