@@ -51,3 +51,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 13
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 14
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
