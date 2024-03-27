@@ -607,3 +607,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 152
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 153
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
