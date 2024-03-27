@@ -986,3 +986,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 232
 
 Three passes total; the third merges results.
+
+## entry 233
+
+Allocates lazily — first call only.
