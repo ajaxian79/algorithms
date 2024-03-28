@@ -571,3 +571,7 @@
 ## entry 143
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 144
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
