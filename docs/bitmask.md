@@ -615,3 +615,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 138
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 139
+
+State compression: bitmask + integer encodes a small subset cheaply.
