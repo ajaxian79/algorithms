@@ -94,3 +94,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 72: Time complexity: O(n + m).
 // note 73: Stable when the input is already sorted.
 // note 74: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 75: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
