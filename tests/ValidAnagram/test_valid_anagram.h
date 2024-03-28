@@ -111,3 +111,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 86: Two passes: one to count, one to fill.
 // edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 88: Edge case: input of all the same byte → exits on the first compare.
+// edge note 89: Edge case: input with a single peak → handled by the first-pass scan.
