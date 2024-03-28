@@ -977,3 +977,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 229
 
 No allocations on the hot path.
+
+## entry 230
+
+Two passes: one to count, one to fill.
