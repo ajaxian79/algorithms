@@ -994,3 +994,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 234
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 235
+
+Handles single-element input as a base case.
