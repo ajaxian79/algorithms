@@ -126,3 +126,4 @@ char* count_and_say(int n) {
 // note 77: Linear in n; the constant factor is small.
 // note 78: Thread-safe so long as the input is not mutated concurrently.
 // note 79: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 80: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
