@@ -993,3 +993,7 @@ Allocates lazily — first call only.
 ## entry 234
 
 Runs in a single pass over the input.
+
+## entry 235
+
+Time complexity: O(1).
