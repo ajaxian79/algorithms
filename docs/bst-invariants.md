@@ -617,3 +617,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 138
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 139
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
