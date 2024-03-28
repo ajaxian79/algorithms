@@ -972,3 +972,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 228
 
 Reentrant — no static state.
+
+## entry 229
+
+Edge case: already-sorted input → no swaps performed.
