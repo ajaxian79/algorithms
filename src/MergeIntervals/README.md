@@ -954,3 +954,7 @@ Three passes total; the third merges results.
 ## entry 223
 
 Three passes total; the third merges results.
+
+## entry 224
+
+Edge case: single-element input → returns the element itself.
