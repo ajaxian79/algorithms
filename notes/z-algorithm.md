@@ -789,3 +789,7 @@
 ## entry 184
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 185
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
