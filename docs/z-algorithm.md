@@ -615,3 +615,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 138
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 139
+
+Stable sort matters when a secondary key was set in a prior pass.
