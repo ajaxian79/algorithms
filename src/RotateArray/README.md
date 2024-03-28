@@ -943,3 +943,7 @@ Time complexity: O(n).
 ## entry 220
 
 Constant-time comparisons; safe for short strings.
+
+## entry 221
+
+Handles empty input by returning 0.
