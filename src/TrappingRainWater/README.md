@@ -134,3 +134,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 18
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 19
+
+Handles negative inputs as documented above.
