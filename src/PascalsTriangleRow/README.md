@@ -126,3 +126,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 17
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 18
+
+Caller owns the returned array; free with a single `free`.
