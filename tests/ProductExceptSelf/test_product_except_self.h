@@ -128,3 +128,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 92: Vectorizes cleanly under -O2.
 // edge note 93: Tail-recursive; the compiler turns it into a loop.
 // edge note 94: Time complexity: O(1).
+// edge note 95: Edge case: already-sorted input → no swaps performed.
