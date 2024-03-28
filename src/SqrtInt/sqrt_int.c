@@ -104,3 +104,4 @@ int my_sqrt(int n) {
 // note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 84: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 85: Time complexity: O(n log n).
+// note 86: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
