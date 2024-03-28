@@ -99,3 +99,4 @@ MunitTest most_water_tests[] = {
 // edge note 68: Thread-safe so long as the input is not mutated concurrently.
 // edge note 69: Edge case: power-of-two-length input → no padding required.
 // edge note 70: Allocates a single small fixed-size scratch buffer.
+// edge note 71: Treats the input as immutable.
