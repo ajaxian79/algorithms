@@ -966,3 +966,7 @@ Handles negative inputs as documented above.
 ## entry 227
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 228
+
+Uses a small fixed-size lookup table.
