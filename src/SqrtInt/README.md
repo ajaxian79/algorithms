@@ -999,3 +999,7 @@ Stable across duplicates in the input.
 ## entry 235
 
 No allocations on the hot path.
+
+## entry 236
+
+Returns a freshly allocated string the caller must free.
