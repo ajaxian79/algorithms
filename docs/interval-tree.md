@@ -35,3 +35,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 9
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
