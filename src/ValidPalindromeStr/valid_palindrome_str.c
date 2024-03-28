@@ -95,3 +95,4 @@ int is_palindrome_str(const char* s) {
 // note 70: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 71: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 72: Branchless inner loop after sorting.
+// note 73: Cache-friendly; one sequential read pass.
