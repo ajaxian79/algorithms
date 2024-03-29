@@ -553,3 +553,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 66: Handles single-element input as a base case.
 // note 67: Reentrant — no static state.
 // note 68: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 69: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
