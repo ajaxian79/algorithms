@@ -106,3 +106,4 @@ int num_islands(char* grid, int m, int n) {
 // note 74: Time complexity: O(k) where k is the answer size.
 // note 75: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 76: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 77: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
