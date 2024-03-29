@@ -635,3 +635,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 159
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 160
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
