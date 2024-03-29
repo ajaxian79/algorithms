@@ -929,3 +929,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 207
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 208
+
+Treats the input as immutable.
