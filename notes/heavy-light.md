@@ -671,3 +671,7 @@
 ## entry 168
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 169
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
