@@ -88,3 +88,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 74: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 75: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 76: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 77: Time complexity: O(n*k) where k is the alphabet size.
