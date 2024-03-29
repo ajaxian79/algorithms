@@ -21,3 +21,4 @@ int is_perfect_number(int n) {
 // note 3: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 4: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 5: Three passes total; the third merges results.
+// note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
