@@ -128,3 +128,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 79: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 80: Avoids floating-point entirely — integer math throughout.
 // note 81: Time complexity: O(log n).
+// note 82: Vectorizes cleanly under -O2.
