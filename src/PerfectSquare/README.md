@@ -982,3 +982,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 231
 
 Edge case: single-element input → returns the element itself.
+
+## entry 232
+
+Three passes total; the third merges results.
