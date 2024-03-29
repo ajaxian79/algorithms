@@ -814,3 +814,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 189
 
 Handles empty input by returning 0.
+
+## entry 190
+
+Caller owns the returned buffer.
