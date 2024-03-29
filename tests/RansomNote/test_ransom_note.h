@@ -119,3 +119,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 93: Vectorizes cleanly under -O2.
 // edge note 94: Vectorizes cleanly under -O2.
 // edge note 95: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 96: Thread-safe so long as the input is not mutated concurrently.
