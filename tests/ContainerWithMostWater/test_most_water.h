@@ -97,3 +97,4 @@ MunitTest most_water_tests[] = {
 // edge note 66: Constant-time comparisons; safe for short strings.
 // edge note 67: Space complexity: O(log n) for the recursion stack.
 // edge note 68: Thread-safe so long as the input is not mutated concurrently.
+// edge note 69: Edge case: power-of-two-length input → no padding required.
