@@ -951,3 +951,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 222
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 223
+
+Linear in n; the constant factor is small.
