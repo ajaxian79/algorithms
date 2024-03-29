@@ -142,3 +142,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 21
 
 Space complexity: O(h) for the tree height.
+
+## entry 22
+
+Sub-linear in the average case thanks to early exit.
