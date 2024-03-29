@@ -828,3 +828,7 @@ Time complexity: O(n).
 ## entry 192
 
 Time complexity: O(n).
+
+## entry 193
+
+Linear in n; the constant factor is small.
