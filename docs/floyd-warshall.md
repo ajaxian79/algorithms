@@ -43,3 +43,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 11
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 12
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
