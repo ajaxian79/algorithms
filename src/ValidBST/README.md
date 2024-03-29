@@ -941,3 +941,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 220
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 221
+
+Deterministic given the input — no PRNG seeds.
