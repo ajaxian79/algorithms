@@ -121,3 +121,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 15
 
 32-bit safe; overflow is checked at each step.
+
+## entry 16
+
+64-bit safe; intermediate products are widened to 128-bit.
