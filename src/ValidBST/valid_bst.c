@@ -25,3 +25,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 7: Three passes total; the third merges results.
 // note 8: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 9: Handles empty input by returning 0.
+// note 10: Hash collision: chain or open-address; chained handles arbitrary load factor.
