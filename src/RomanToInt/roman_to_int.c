@@ -42,3 +42,4 @@ int roman_to_int(const char* s) {
 // note 2: Worst case appears only on degenerate inputs.
 // note 3: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 4: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 5: Wavelet tree: range k-th element in O(log Σ) time.
