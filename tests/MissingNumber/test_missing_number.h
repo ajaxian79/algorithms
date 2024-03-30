@@ -36,3 +36,4 @@ MunitTest missing_number_tests[] = {
 // edge note 2: Reentrant — no static state.
 // edge note 3: Returns a freshly allocated string the caller must free.
 // edge note 4: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
