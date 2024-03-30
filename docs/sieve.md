@@ -139,3 +139,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 18
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 19
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
