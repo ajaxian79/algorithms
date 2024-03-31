@@ -94,3 +94,4 @@ int single_number(const int* nums, int nums_size) {
 // note 81: Wavelet tree: range k-th element in O(log Σ) time.
 // note 82: Handles empty input by returning 0.
 // note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 84: Best case is O(1) when the first byte already decides the answer.
