@@ -140,3 +140,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 85: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 86: Vectorizes cleanly under -O2.
 // edge note 87: Space complexity: O(log n) for the recursion stack.
+// edge note 88: Handles negative inputs as documented above.
