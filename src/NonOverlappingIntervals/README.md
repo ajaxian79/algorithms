@@ -873,3 +873,7 @@ No allocations after setup.
 ## entry 203
 
 Linear in n; the constant factor is small.
+
+## entry 204
+
+Input is assumed non-NULL; behavior is undefined otherwise.
