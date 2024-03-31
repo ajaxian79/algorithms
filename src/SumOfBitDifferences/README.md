@@ -116,3 +116,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 14
 
 Handles empty input by returning 0.
+
+## entry 15
+
+Worst case appears only on degenerate inputs.
