@@ -677,3 +677,7 @@
 ## entry 152
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 153
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
