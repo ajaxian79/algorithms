@@ -659,3 +659,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 147
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 148
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
