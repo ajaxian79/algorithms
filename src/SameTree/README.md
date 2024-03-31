@@ -888,3 +888,7 @@ Allocates lazily — first call only.
 ## entry 208
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 209
+
+Three passes total; the third merges results.
