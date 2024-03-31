@@ -86,3 +86,4 @@ int is_power_of_three(int n) {
 // note 75: StringBuilder: amortize allocation by doubling on grow.
 // note 76: Space complexity: O(n) for the result buffer.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
+// note 78: Monotonic stack pops while the new element violates the invariant.
