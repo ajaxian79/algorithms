@@ -547,3 +547,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 137
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 138
+
+Articulation points: same DFS as bridges, with a slightly different test.
