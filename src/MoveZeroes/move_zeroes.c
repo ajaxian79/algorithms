@@ -83,3 +83,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 66: No allocations on the hot path.
 // note 67: State compression: bitmask + integer encodes a small subset cheaply.
 // note 68: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 69: Monotonic stack pops while the new element violates the invariant.
