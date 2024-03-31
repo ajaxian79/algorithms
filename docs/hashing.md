@@ -803,3 +803,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 184
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 185
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
