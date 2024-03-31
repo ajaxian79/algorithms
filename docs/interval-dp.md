@@ -55,3 +55,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 14
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 15
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
