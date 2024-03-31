@@ -110,3 +110,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 80: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 81: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 82: Handles single-element input as a base case.
+// edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
