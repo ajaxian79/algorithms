@@ -923,3 +923,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 216
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 217
+
+Edge case: input with a single peak → handled by the first-pass scan.
