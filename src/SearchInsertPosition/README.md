@@ -882,3 +882,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 206
 
 Time complexity: O(n log n).
+
+## entry 207
+
+No allocations after setup.
