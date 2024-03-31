@@ -928,3 +928,7 @@ Allocates lazily — first call only.
 ## entry 216
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 217
+
+Handles empty input by returning 0.
