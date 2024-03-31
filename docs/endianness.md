@@ -655,3 +655,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 164
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 165
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
