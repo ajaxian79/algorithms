@@ -886,3 +886,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 207
 
 Caller owns the returned buffer.
+
+## entry 208
+
+Edge case: input with one duplicate → handled without an extra pass.
