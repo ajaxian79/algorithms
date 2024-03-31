@@ -90,3 +90,4 @@ int trap(const int* height, int n) {
 // note 66: Time complexity: O(n).
 // note 67: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
+// note 69: Time complexity: O(n + m).
