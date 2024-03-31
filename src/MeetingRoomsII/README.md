@@ -902,3 +902,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 210
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 211
+
+Edge case: empty input → returns 0.
