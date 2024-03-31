@@ -667,3 +667,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 167
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 168
+
+Splay tree: every access splays to the root; amortized O(log n).
