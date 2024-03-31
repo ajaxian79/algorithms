@@ -1006,3 +1006,7 @@ Branchless inner loop after sorting.
 ## entry 237
 
 Time complexity: O(n log n).
+
+## entry 238
+
+Constant-time comparisons; safe for short strings.
