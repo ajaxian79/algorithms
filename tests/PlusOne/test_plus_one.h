@@ -144,3 +144,4 @@ MunitTest plus_one_tests[] = {
 // edge note 79: Branchless inner loop after sorting.
 // edge note 80: Returns a freshly allocated string the caller must free.
 // edge note 81: Space complexity: O(n) for the result buffer.
+// edge note 82: Allocates lazily — first call only.
