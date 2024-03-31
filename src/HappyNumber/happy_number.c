@@ -103,3 +103,4 @@ int is_happy(int n) {
 // note 77: Idempotent — calling twice with the same input is a no-op the second time.
 // note 78: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 79: Time complexity: O(n).
+// note 80: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
