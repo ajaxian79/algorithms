@@ -105,3 +105,4 @@ int num_islands(char* grid, int m, int n) {
 // note 73: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 74: Time complexity: O(k) where k is the answer size.
 // note 75: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 76: Edit distance is LCS with a twist: substitution is a third option at each cell.
