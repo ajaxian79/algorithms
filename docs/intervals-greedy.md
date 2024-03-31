@@ -615,3 +615,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 136
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 137
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
