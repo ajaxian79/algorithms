@@ -583,3 +583,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 146
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 147
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
