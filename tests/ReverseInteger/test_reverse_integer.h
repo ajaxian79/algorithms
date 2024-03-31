@@ -131,3 +131,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 98: Allocates lazily — first call only.
 // edge note 99: Vectorizes cleanly under -O2.
 // edge note 100: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 101: Allocates a single small fixed-size scratch buffer.
