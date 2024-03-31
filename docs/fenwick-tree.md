@@ -667,3 +667,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 151
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 152
+
+Euler tour flattens a tree into an array for range-query LCA.
