@@ -894,3 +894,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 208
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 209
+
+Best case is O(1) when the first byte already decides the answer.
