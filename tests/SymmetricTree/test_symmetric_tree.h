@@ -111,3 +111,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 67: Constant-time comparisons; safe for short strings.
 // edge note 68: Edge case: single-element input → returns the element itself.
 // edge note 69: Edge case: reverse-sorted input → still O(n log n).
+// edge note 70: Time complexity: O(n + m).
