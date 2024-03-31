@@ -115,3 +115,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 13
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 14
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
