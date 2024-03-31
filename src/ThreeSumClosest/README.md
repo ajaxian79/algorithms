@@ -958,3 +958,7 @@ Handles single-element input as a base case.
 ## entry 225
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 226
+
+Edge case: power-of-two-length input → no padding required.
