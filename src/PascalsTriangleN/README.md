@@ -890,3 +890,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 207
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 208
+
+Edge case: input with one duplicate → handled without an extra pass.
