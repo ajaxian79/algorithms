@@ -932,3 +932,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 217
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 218
+
+Idempotent — calling twice with the same input is a no-op the second time.
