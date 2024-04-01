@@ -134,3 +134,4 @@ MunitTest postorder_tests[] = {
 // edge note 90: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 91: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 92: No allocations after setup.
+// edge note 93: Edge case: alternating pattern → degenerate case for sliding window.
