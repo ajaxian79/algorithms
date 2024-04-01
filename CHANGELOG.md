@@ -34207,3 +34207,7 @@
 ## entry 8552
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 8553
+
+- Walk both pointers from each end inward; advance the smaller side.
