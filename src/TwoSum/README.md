@@ -925,3 +925,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 206
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 207
+
+Best case is O(1) when the first byte already decides the answer.
