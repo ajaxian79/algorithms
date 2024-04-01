@@ -34199,3 +34199,7 @@
 ## entry 8550
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 8551
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
