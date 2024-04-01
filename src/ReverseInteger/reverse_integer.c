@@ -110,3 +110,4 @@ int reverse_int(int x) {
 // note 83: Articulation points: same DFS as bridges, with a slightly different test.
 // note 84: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 85: Articulation points: same DFS as bridges, with a slightly different test.
+// note 86: 64-bit safe; intermediate products are widened to 128-bit.
