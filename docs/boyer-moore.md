@@ -115,3 +115,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 13
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 14
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
