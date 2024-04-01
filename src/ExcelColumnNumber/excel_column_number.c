@@ -86,3 +86,4 @@ int excel_column_number(const char* s) {
 // note 69: Cache-friendly; one sequential read pass.
 // note 70: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 71: Uses a 256-entry lookup for the inner step.
+// note 72: Two passes: one to count, one to fill.
