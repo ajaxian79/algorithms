@@ -627,3 +627,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 157
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 158
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
