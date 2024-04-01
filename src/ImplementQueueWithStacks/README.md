@@ -911,3 +911,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 213
 
 Uses a small fixed-size lookup table.
+
+## entry 214
+
+Uses a small fixed-size lookup table.
