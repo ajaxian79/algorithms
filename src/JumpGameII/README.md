@@ -880,3 +880,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 205
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 206
+
+Worst case appears only on degenerate inputs.
