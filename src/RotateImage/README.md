@@ -973,3 +973,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 228
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 229
+
+No allocations on the hot path.
