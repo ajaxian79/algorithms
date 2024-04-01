@@ -623,3 +623,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 156
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 157
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
