@@ -647,3 +647,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 162
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 163
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
