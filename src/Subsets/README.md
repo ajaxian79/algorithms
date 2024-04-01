@@ -991,3 +991,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 233
 
 Two passes: one to count, one to fill.
+
+## entry 234
+
+Edge case: input with a single peak → handled by the first-pass scan.
