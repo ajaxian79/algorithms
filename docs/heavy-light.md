@@ -639,3 +639,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 160
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 161
+
+Interval DP: solve all `[l, r]` ranges from short to long.
