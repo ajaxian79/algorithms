@@ -83,3 +83,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 71: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 72: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 73: Vectorizes cleanly under -O2.
+// note 74: Time complexity: O(log n).
