@@ -886,3 +886,7 @@ Cache-friendly; one sequential read pass.
 ## entry 206
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 207
+
+Edge case: input with no peak → falls through to the default branch.
