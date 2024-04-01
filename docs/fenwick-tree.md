@@ -659,3 +659,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 149
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 150
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
