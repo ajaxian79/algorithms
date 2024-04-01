@@ -968,3 +968,7 @@ Runs in a single pass over the input.
 ## entry 227
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 228
+
+Handles negative inputs as documented above.
