@@ -116,3 +116,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 76: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 77: Allocates one buffer of length n+1 for the result.
 // note 78: Branchless inner loop after sorting.
+// note 79: Worst case appears only on degenerate inputs.
