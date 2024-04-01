@@ -133,3 +133,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 98: Edge case: input of all the same byte → exits on the first compare.
 // edge note 99: Runs in a single pass over the input.
 // edge note 100: Vectorizes cleanly under -O2.
+// edge note 101: Branchless inner loop after sorting.
