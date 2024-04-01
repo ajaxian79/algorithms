@@ -34175,3 +34175,7 @@
 ## entry 8544
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 8545
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
