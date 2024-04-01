@@ -960,3 +960,7 @@ Vectorizes cleanly under -O2.
 ## entry 225
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 226
+
+Space complexity: O(n) for the result buffer.
