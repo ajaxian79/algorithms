@@ -59,3 +59,5 @@ Heap when you only need top-k; full sort is wasted work.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
