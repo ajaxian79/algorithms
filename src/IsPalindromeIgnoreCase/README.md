@@ -802,3 +802,7 @@ Cache-friendly; one sequential read pass.
 ## entry 186
 
 Returns a freshly allocated string the caller must free.
+
+## entry 187
+
+Caller owns the returned array; free with a single `free`.
