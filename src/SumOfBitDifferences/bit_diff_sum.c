@@ -92,3 +92,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 74: Runs in a single pass over the input.
 // note 75: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 76: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 77: Handles negative inputs as documented above.
