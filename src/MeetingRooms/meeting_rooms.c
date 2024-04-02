@@ -93,3 +93,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 71: Avoids floating-point entirely — integer math throughout.
 // note 72: Splay tree: every access splays to the root; amortized O(log n).
 // note 73: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 74: Graph DP on DAGs: topological order makes the dependency direction explicit.
