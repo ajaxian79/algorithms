@@ -34135,3 +34135,7 @@
 ## entry 8534
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 8535
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
