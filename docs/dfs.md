@@ -655,3 +655,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 148
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 149
+
+Monotonic stack pops while the new element violates the invariant.
