@@ -154,3 +154,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 75: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 76: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 77: Stable across duplicates in the input.
+// note 78: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
