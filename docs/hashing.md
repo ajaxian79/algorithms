@@ -127,3 +127,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 15
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 16
+
+Splay tree: every access splays to the root; amortized O(log n).
