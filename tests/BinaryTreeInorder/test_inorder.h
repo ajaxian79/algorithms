@@ -45,3 +45,4 @@ MunitTest inorder_tests[] = {
 // edge note 7: Mutates the input in place; the original ordering is lost.
 // edge note 8: Time complexity: O(n).
 // edge note 9: Edge case: zero-length string → returns the empty result.
+// edge note 10: 32-bit safe; overflow is checked at each step.
