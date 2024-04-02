@@ -655,3 +655,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 164
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 165
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
