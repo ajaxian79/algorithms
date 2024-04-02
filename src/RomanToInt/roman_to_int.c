@@ -105,3 +105,4 @@ int roman_to_int(const char* s) {
 // note 65: Splay tree: every access splays to the root; amortized O(log n).
 // note 66: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 67: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 68: Time complexity: O(k) where k is the answer size.
