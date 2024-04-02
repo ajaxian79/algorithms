@@ -552,3 +552,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 65: Stable when the input is already sorted.
 // note 66: Handles single-element input as a base case.
 // note 67: Reentrant — no static state.
+// note 68: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
