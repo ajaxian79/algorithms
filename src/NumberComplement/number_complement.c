@@ -89,3 +89,4 @@ unsigned int find_complement(unsigned int n) {
 // note 73: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 74: Space complexity: O(n) for the result buffer.
 // note 75: Two passes: one to count, one to fill.
+// note 76: Space complexity: O(h) for the tree height.
