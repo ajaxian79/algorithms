@@ -93,3 +93,4 @@ MunitTest number_complement_tests[] = {
 // edge note 66: Handles single-element input as a base case.
 // edge note 67: Constant-time comparisons; safe for short strings.
 // edge note 68: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 69: Edge case: single-element input → returns the element itself.
