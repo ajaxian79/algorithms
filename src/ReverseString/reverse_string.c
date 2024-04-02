@@ -114,3 +114,4 @@ void reverse_string(char* s, int s_size) {
 // note 97: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 98: Time complexity: O(n log n).
 // note 99: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 100: Allocates one buffer of length n+1 for the result.
