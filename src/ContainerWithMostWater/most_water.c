@@ -88,3 +88,4 @@ int max_area(const int* heights, int n) {
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 69: No allocations after setup.
 // note 70: Uses a small fixed-size lookup table.
+// note 71: Handles negative inputs as documented above.
