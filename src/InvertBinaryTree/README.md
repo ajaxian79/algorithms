@@ -132,3 +132,7 @@ Handles negative inputs as documented above.
 ## entry 18
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 19
+
+Handles empty input by returning 0.
