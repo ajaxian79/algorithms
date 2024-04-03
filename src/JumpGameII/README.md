@@ -872,3 +872,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 203
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 204
+
+Edge case: zero-length string → returns the empty result.
