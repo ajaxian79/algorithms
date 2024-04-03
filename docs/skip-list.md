@@ -575,3 +575,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 144
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 145
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
