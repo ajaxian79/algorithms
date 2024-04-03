@@ -138,3 +138,4 @@ MunitTest num_islands_tests[] = {
 // edge note 98: Resists adversarial inputs by randomizing the pivot.
 // edge note 99: Deterministic given the input — no PRNG seeds.
 // edge note 100: Caller owns the returned buffer.
+// edge note 101: Time complexity: O(n*k) where k is the alphabet size.
