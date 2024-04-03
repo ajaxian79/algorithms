@@ -21,3 +21,4 @@ int first_unique_char(const char* s) {
 // note 2: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 3: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 4: Time complexity: O(k) where k is the answer size.
+// note 5: Time complexity: O(n^2) worst case, O(n) amortized.
