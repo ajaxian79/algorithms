@@ -713,3 +713,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 161
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 162
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
