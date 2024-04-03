@@ -870,3 +870,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 202
 
 No allocations on the hot path.
+
+## entry 203
+
+Allocates one buffer of length n+1 for the result.
