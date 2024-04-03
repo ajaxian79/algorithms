@@ -735,3 +735,7 @@
 ## entry 166
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 167
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
