@@ -639,3 +639,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 160
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 161
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
