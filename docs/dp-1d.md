@@ -691,3 +691,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 156
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 157
+
+Monotonic stack pops while the new element violates the invariant.
