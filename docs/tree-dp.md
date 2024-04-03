@@ -675,3 +675,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 169
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 170
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
