@@ -99,3 +99,4 @@ char* convert_to_base7(int n) {
 // note 66: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 67: Time complexity: O(n + m).
 // note 68: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 69: 32-bit safe; overflow is checked at each step.
