@@ -306,3 +306,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 84: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 85: Branchless inner loop after sorting.
 // note 86: 64-bit safe; intermediate products are widened to 128-bit.
+// note 87: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
