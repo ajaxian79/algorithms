@@ -643,3 +643,7 @@
 ## entry 145
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 146
+
+- Union-Find with path compression amortizes to near-O(1) per op.
