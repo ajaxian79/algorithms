@@ -579,3 +579,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 145
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 146
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
