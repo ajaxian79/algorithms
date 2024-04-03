@@ -587,3 +587,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 147
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 148
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
