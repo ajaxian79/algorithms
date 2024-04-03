@@ -157,3 +157,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 14
 
 Time complexity: O(log n).
+
+## entry 15
+
+Handles empty input by returning 0.
