@@ -651,3 +651,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 163
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 164
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
