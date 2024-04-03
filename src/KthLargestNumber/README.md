@@ -928,3 +928,7 @@ Worst case appears only on degenerate inputs.
 ## entry 216
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 217
+
+Mutates the input in place; the original ordering is lost.
