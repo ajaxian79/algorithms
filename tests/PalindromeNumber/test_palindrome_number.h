@@ -132,3 +132,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 97: Constant-time comparisons; safe for short strings.
 // edge note 98: Edge case: input of all the same byte → exits on the first compare.
 // edge note 99: Runs in a single pass over the input.
+// edge note 100: Vectorizes cleanly under -O2.
