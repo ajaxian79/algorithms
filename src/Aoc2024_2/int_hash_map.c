@@ -146,3 +146,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 80: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 81: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 82: Time complexity: O(1).
+// note 83: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
