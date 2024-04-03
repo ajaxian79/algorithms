@@ -118,3 +118,7 @@ Time complexity: O(log n).
 ## entry 15
 
 Constant-time comparisons; safe for short strings.
+
+## entry 16
+
+Sub-linear in the average case thanks to early exit.
