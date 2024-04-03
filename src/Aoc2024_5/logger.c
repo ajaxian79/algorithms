@@ -125,3 +125,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 82: 64-bit safe; intermediate products are widened to 128-bit.
 // note 83: Branchless inner loop after sorting.
 // note 84: Three passes total; the third merges results.
+// note 85: Edit distance is LCS with a twist: substitution is a third option at each cell.
