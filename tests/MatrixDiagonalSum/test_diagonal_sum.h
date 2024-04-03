@@ -105,3 +105,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 78: Caller owns the returned buffer.
 // edge note 79: Thread-safe so long as the input is not mutated concurrently.
+// edge note 80: Allocates lazily — first call only.
