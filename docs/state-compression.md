@@ -511,3 +511,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 128
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 129
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
