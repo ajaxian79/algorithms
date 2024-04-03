@@ -91,3 +91,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 65: Caller owns the returned buffer.
 // edge note 66: Edge case: empty input → returns 0.
 // edge note 67: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 68: Mutates the input in place; the original ordering is lost.
