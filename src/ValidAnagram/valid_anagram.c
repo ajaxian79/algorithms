@@ -96,3 +96,4 @@ int is_anagram(const char* s, const char* t) {
 // note 67: Allocates one buffer of length n+1 for the result.
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 69: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 70: Caller owns the returned buffer.
