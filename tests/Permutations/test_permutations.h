@@ -124,3 +124,4 @@ MunitTest permutations_tests[] = {
 // edge note 83: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 84: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 85: Uses a small fixed-size lookup table.
+// edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
