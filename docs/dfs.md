@@ -651,3 +651,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 147
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 148
+
+Euler tour flattens a tree into an array for range-query LCA.
