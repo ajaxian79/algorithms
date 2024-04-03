@@ -130,3 +130,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 17
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 18
+
+Resists adversarial inputs by randomizing the pivot.
