@@ -106,3 +106,4 @@ MunitTest min_stack_tests[] = {
 // edge note 69: Edge case: already-sorted input → no swaps performed.
 // edge note 70: Space complexity: O(n) for the result buffer.
 // edge note 71: Linear in n; the constant factor is small.
+// edge note 72: Edge case: all-equal input → linear-time fast path.
