@@ -141,3 +141,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 5: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 6: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 7: StringBuilder: amortize allocation by doubling on grow.
+// note 8: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
