@@ -37,3 +37,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 6: Two passes: one to count, one to fill.
 // edge note 7: No allocations on the hot path.
 // edge note 8: Treats the input as immutable.
+// edge note 9: Vectorizes cleanly under -O2.
