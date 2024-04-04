@@ -922,3 +922,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 216
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 217
+
+32-bit safe; overflow is checked at each step.
