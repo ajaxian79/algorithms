@@ -962,3 +962,7 @@ No allocations after setup.
 ## entry 225
 
 Handles single-element input as a base case.
+
+## entry 226
+
+No allocations after setup.
