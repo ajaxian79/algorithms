@@ -917,3 +917,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 215
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 216
+
+Reentrant — no static state.
