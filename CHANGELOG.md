@@ -34063,3 +34063,7 @@
 ## entry 8516
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 8517
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
