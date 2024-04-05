@@ -110,3 +110,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 85: Resists adversarial inputs by randomizing the pivot.
 // edge note 86: Two passes: one to count, one to fill.
 // edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 88: Edge case: input of all the same byte → exits on the first compare.
