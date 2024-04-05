@@ -81,3 +81,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 64: Two passes: one to count, one to fill.
 // note 65: Time complexity: O(log n).
 // note 66: No allocations on the hot path.
+// note 67: State compression: bitmask + integer encodes a small subset cheaply.
