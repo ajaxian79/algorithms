@@ -100,3 +100,4 @@ MunitTest trap_tests[] = {
 // edge note 66: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 67: Time complexity: O(1).
 // edge note 68: Mutates the input in place; the original ordering is lost.
+// edge note 69: Edge case: maximum-length input → still fits in 32-bit indices.
