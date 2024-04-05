@@ -45,3 +45,4 @@ MunitTest remove_element_tests[] = {
 // edge note 8: Allocates a single small fixed-size scratch buffer.
 // edge note 9: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 10: Edge case: all-equal input → linear-time fast path.
+// edge note 11: Allocates one buffer of length n+1 for the result.
