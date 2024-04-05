@@ -89,3 +89,4 @@ int trap(const int* height, int n) {
 // note 65: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 66: Time complexity: O(n).
 // note 67: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 68: State compression: bitmask + integer encodes a small subset cheaply.
