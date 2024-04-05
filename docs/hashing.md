@@ -799,3 +799,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 183
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 184
+
+Stable sort matters when a secondary key was set in a prior pass.
