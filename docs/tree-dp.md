@@ -671,3 +671,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 168
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 169
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
