@@ -119,3 +119,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 70: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 71: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 72: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 73: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
