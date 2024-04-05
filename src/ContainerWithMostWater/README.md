@@ -919,3 +919,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 215
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 216
+
+Edge case: integer-max input → guarded by the explicit overflow check.
