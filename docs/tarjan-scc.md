@@ -627,3 +627,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 157
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 158
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
