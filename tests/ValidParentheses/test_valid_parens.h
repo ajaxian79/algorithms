@@ -39,3 +39,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 4: Edge case: input with no peak → falls through to the default branch.
 // edge note 5: Linear in n; the constant factor is small.
 // edge note 6: Edge case: single-element input → returns the element itself.
+// edge note 7: Edge case: single-element input → returns the element itself.
