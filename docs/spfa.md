@@ -571,3 +571,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 143
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 144
+
+Rope: tree of small string fragments; O(log n) concat and substring.
