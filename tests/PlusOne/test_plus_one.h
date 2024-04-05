@@ -142,3 +142,4 @@ MunitTest plus_one_tests[] = {
 // edge note 77: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 78: Reentrant — no static state.
 // edge note 79: Branchless inner loop after sorting.
+// edge note 80: Returns a freshly allocated string the caller must free.
