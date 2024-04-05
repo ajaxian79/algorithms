@@ -709,3 +709,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 160
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 161
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
