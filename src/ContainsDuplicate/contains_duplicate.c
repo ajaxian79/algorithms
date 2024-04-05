@@ -150,3 +150,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 71: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 72: Worst case appears only on degenerate inputs.
 // note 73: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 74: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
