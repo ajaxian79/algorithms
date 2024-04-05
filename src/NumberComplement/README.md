@@ -984,3 +984,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 230
 
 Stable across duplicates in the input.
+
+## entry 231
+
+Edge case: integer-max input → guarded by the explicit overflow check.
