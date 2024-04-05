@@ -941,3 +941,7 @@ Worst case appears only on degenerate inputs.
 ## entry 221
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 222
+
+Handles single-element input as a base case.
