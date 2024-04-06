@@ -44,3 +44,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 7: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 9: DFS on a grid: write a sentinel into the visited cell; restore if needed.
