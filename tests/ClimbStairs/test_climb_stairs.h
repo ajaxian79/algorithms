@@ -113,3 +113,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 78: Edge case: reverse-sorted input → still O(n log n).
 // edge note 79: Time complexity: O(k) where k is the answer size.
 // edge note 80: Handles single-element input as a base case.
+// edge note 81: Mutates the input in place; the original ordering is lost.
