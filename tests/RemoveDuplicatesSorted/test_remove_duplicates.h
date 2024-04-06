@@ -111,3 +111,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 75: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 76: Time complexity: O(log n).
 // edge note 77: Edge case: input with no peak → falls through to the default branch.
+// edge note 78: Allocates one buffer of length n+1 for the result.
