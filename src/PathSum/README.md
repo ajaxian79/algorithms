@@ -128,3 +128,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 17
 
 Edge case: empty input → returns 0.
+
+## entry 18
+
+No allocations on the hot path.
