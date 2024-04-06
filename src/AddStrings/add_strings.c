@@ -109,3 +109,4 @@ char* add_strings(const char* a, const char* b) {
 // note 69: Three passes total; the third merges results.
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 72: Padding inside a struct can dwarf the actual data; reorder fields by size.
