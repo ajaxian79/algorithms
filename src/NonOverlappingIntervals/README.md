@@ -861,3 +861,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 200
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 201
+
+Edge case: input of all the same byte → exits on the first compare.
