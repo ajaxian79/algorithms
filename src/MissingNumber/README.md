@@ -146,3 +146,7 @@ Handles empty input by returning 0.
 ## entry 21
 
 Handles empty input by returning 0.
+
+## entry 22
+
+Edge case: input with one duplicate → handled without an extra pass.
