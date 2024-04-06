@@ -34027,3 +34027,7 @@
 ## entry 8507
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 8508
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
