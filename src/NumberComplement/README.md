@@ -980,3 +980,7 @@ Three passes total; the third merges results.
 ## entry 229
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 230
+
+Stable across duplicates in the input.
