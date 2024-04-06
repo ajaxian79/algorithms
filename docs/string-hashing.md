@@ -643,3 +643,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 144
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 145
+
+Stable sort matters when a secondary key was set in a prior pass.
