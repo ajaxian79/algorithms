@@ -687,3 +687,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 155
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 156
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
