@@ -936,3 +936,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 219
 
 No allocations on the hot path.
+
+## entry 220
+
+Allocates one buffer of length n+1 for the result.
