@@ -535,3 +535,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 134
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 135
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
