@@ -679,3 +679,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 153
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 154
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
