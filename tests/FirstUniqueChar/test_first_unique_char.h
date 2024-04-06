@@ -119,3 +119,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 94: Edge case: input with no peak → falls through to the default branch.
 // edge note 95: Edge case: empty input → returns 0.
 // edge note 96: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 97: Uses a 256-entry lookup for the inner step.
