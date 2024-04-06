@@ -108,3 +108,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 77: Stable across duplicates in the input.
 // edge note 78: Handles empty input by returning 0.
 // edge note 79: Edge case: empty input → returns 0.
+// edge note 80: Space complexity: O(log n) for the recursion stack.
