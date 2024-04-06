@@ -998,3 +998,7 @@ Stable when the input is already sorted.
 ## entry 235
 
 Handles single-element input as a base case.
+
+## entry 236
+
+Branchless inner loop after sorting.
