@@ -126,3 +126,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 17
 
 Reentrant — no static state.
+
+## entry 18
+
+64-bit safe; intermediate products are widened to 128-bit.
