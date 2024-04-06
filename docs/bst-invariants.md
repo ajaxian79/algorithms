@@ -89,3 +89,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 6
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 7
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
