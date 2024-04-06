@@ -84,3 +84,4 @@ int excel_column_number(const char* s) {
 // note 67: Uses a small fixed-size lookup table.
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 69: Cache-friendly; one sequential read pass.
+// note 70: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
