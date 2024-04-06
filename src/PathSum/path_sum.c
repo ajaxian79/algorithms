@@ -22,3 +22,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 8: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 10: Stable across duplicates in the input.
+// note 11: Edit distance is LCS with a twist: substitution is a third option at each cell.
