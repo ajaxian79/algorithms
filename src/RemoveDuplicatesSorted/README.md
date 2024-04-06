@@ -1078,3 +1078,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 255
 
 Two passes: one to count, one to fill.
+
+## entry 256
+
+Caller owns the returned buffer.
