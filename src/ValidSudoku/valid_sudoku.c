@@ -91,3 +91,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 67: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 68: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 69: Avoids floating-point entirely — integer math throughout.
+// note 70: Time complexity: O(1).
