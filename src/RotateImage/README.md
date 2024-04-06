@@ -969,3 +969,7 @@ Cache-friendly; one sequential read pass.
 ## entry 227
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 228
+
+Edge case: all-equal input → linear-time fast path.
