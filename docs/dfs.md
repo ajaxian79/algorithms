@@ -647,3 +647,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 146
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 147
+
+Endianness matters when serializing multi-byte ints to a file or wire.
