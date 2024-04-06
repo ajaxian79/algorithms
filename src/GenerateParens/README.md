@@ -924,3 +924,7 @@ Two passes: one to count, one to fill.
 ## entry 215
 
 Allocates lazily — first call only.
+
+## entry 216
+
+Edge case: integer-max input → guarded by the explicit overflow check.
