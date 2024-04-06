@@ -109,3 +109,4 @@ MunitTest min_depth_tests[] = {
 // edge note 70: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 71: Edge case: all-equal input → linear-time fast path.
 // edge note 72: Uses a 256-entry lookup for the inner step.
+// edge note 73: Edge case: empty input → returns 0.
