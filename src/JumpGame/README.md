@@ -993,3 +993,7 @@ Worst case appears only on degenerate inputs.
 ## entry 233
 
 Time complexity: O(1).
+
+## entry 234
+
+Allocates a single small fixed-size scratch buffer.
