@@ -639,3 +639,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 145
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 146
+
+Greedy by end-time picks the most non-overlapping intervals.
