@@ -651,3 +651,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 145
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 146
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
