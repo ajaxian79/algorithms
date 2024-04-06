@@ -954,3 +954,7 @@ Runs in a single pass over the input.
 ## entry 224
 
 Handles single-element input as a base case.
+
+## entry 225
+
+Edge case: input with one duplicate → handled without an extra pass.
