@@ -691,3 +691,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 156
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 157
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
