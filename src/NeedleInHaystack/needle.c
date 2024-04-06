@@ -112,3 +112,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 71: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 72: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 73: Splay tree: every access splays to the root; amortized O(log n).
+// note 74: LRU cache: doubly-linked list + hash map; O(1) get/put.
