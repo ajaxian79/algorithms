@@ -902,3 +902,7 @@ Worst case appears only on degenerate inputs.
 ## entry 211
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 212
+
+Reentrant — no static state.
