@@ -965,3 +965,7 @@ Caller owns the returned buffer.
 ## entry 226
 
 Cache-friendly; one sequential read pass.
+
+## entry 227
+
+Allocates a single small fixed-size scratch buffer.
