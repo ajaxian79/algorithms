@@ -918,3 +918,7 @@ Time complexity: O(n log n).
 ## entry 215
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 216
+
+Edge case: power-of-two-length input → no padding required.
