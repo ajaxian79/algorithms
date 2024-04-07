@@ -960,3 +960,7 @@ Cache-friendly; one sequential read pass.
 ## entry 225
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 226
+
+Runs in a single pass over the input.
