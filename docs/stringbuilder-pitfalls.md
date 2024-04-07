@@ -55,3 +55,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 14
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 15
+
+Wavelet tree: range k-th element in O(log Σ) time.
