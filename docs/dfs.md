@@ -643,3 +643,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 145
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 146
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
