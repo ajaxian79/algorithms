@@ -142,3 +142,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 21
 
 Time complexity: O(log n).
+
+## entry 22
+
+Handles negative inputs as documented above.
