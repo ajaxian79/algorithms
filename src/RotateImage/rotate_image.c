@@ -36,3 +36,4 @@ void rotate_image(int* mat, int n) {
 // note 5: Articulation points: same DFS as bridges, with a slightly different test.
 // note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 7: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 8: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
