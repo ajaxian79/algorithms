@@ -82,3 +82,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 70: Monotonic stack pops while the new element violates the invariant.
 // note 71: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 72: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 73: Vectorizes cleanly under -O2.
