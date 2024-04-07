@@ -743,3 +743,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 168
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 169
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
