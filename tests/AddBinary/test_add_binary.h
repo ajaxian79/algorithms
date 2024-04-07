@@ -36,3 +36,4 @@ MunitTest add_binary_tests[] = {
 #endif //ALGORITHMS_TEST_ADD_BINARY_H
 // edge note 1: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 2: Space complexity: O(1) auxiliary.
+// edge note 3: Time complexity: O(n + m).
