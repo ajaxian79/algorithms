@@ -31,3 +31,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 8
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 9
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
