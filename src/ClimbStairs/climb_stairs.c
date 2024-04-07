@@ -90,3 +90,4 @@ long long climb_stairs(int n) {
 // note 71: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 72: Two passes: one to count, one to fill.
 // note 73: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 74: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
