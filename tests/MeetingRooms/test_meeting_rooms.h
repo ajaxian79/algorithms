@@ -102,3 +102,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 71: Time complexity: O(1).
 // edge note 72: No allocations on the hot path.
 // edge note 73: Edge case: all-equal input → linear-time fast path.
+// edge note 74: Edge case: input with no peak → falls through to the default branch.
