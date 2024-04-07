@@ -651,3 +651,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 163
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 164
+
+Articulation points: same DFS as bridges, with a slightly different test.
