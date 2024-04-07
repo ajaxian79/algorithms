@@ -671,3 +671,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 168
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 169
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
