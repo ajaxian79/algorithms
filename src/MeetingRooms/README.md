@@ -898,3 +898,7 @@ Caller owns the returned buffer.
 ## entry 210
 
 Worst case appears only on degenerate inputs.
+
+## entry 211
+
+Edge case: input with a single peak → handled by the first-pass scan.
