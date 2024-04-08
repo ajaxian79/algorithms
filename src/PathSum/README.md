@@ -960,3 +960,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 225
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 226
+
+Mutates the input in place; the original ordering is lost.
