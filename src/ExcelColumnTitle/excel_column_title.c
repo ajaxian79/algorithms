@@ -110,3 +110,4 @@ char* excel_column_title(int n) {
 // note 80: Treats the input as immutable.
 // note 81: 64-bit safe; intermediate products are widened to 128-bit.
 // note 82: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 83: Stable sort matters when a secondary key was set in a prior pass.
