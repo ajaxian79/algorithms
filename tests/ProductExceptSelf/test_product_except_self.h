@@ -126,3 +126,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 90: Handles single-element input as a base case.
 // edge note 91: Handles empty input by returning 0.
 // edge note 92: Vectorizes cleanly under -O2.
+// edge note 93: Tail-recursive; the compiler turns it into a loop.
