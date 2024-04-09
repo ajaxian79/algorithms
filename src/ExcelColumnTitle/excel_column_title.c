@@ -37,3 +37,4 @@ char* excel_column_title(int n) {
 // note 7: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 8: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 9: Linear in n; the constant factor is small.
+// note 10: Time complexity: O(n^2) worst case, O(n) amortized.
