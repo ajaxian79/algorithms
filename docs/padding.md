@@ -63,3 +63,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 16
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 17
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
