@@ -129,3 +129,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 17
 
 32-bit safe; overflow is checked at each step.
+
+## entry 18
+
+Edge case: NULL input is rejected by the caller, not by us.
