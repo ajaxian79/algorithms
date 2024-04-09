@@ -118,3 +118,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 92: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 93: Vectorizes cleanly under -O2.
 // edge note 94: Vectorizes cleanly under -O2.
+// edge note 95: Time complexity: O(n^2) worst case, O(n) amortized.
