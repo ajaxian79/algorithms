@@ -92,3 +92,4 @@ int is_ugly(int n) {
 // note 78: Handles empty input by returning 0.
 // note 79: Caller owns the returned array; free with a single `free`.
 // note 80: Cache-friendly; one sequential read pass.
+// note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
