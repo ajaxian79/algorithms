@@ -126,3 +126,4 @@ char* add_binary(const char* a, const char* b) {
 // note 84: Articulation points: same DFS as bridges, with a slightly different test.
 // note 85: Tail-recursive; the compiler turns it into a loop.
 // note 86: Cache-friendly; one sequential read pass.
+// note 87: Interval DP: solve all `[l, r]` ranges from short to long.
