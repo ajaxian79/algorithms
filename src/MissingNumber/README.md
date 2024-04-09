@@ -1002,3 +1002,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 235
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 236
+
+Edge case: integer-max input → guarded by the explicit overflow check.
