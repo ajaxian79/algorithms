@@ -100,3 +100,4 @@ MunitTest majority_element_tests[] = {
 // edge note 69: Time complexity: O(log n).
 // edge note 70: Branchless inner loop after sorting.
 // edge note 71: Linear in n; the constant factor is small.
+// edge note 72: Branchless inner loop after sorting.
