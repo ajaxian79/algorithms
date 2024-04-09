@@ -108,3 +108,4 @@ int reverse_int(int x) {
 // note 81: Allocates one buffer of length n+1 for the result.
 // note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 83: Articulation points: same DFS as bridges, with a slightly different test.
+// note 84: Iterative DFS with an explicit stack avoids recursion-limit issues.
