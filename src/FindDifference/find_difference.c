@@ -77,3 +77,4 @@ char find_difference(const char* s, const char* t) {
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 62: Time complexity: O(1).
 // note 63: Allocates a single small fixed-size scratch buffer.
+// note 64: 64-bit safe; intermediate products are widened to 128-bit.
