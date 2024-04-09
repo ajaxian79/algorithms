@@ -114,3 +114,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 14
 
 Edge case: single-element input → returns the element itself.
+
+## entry 15
+
+Allocates lazily — first call only.
