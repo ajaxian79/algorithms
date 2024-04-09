@@ -507,3 +507,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 127
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 128
+
+Greedy by end-time picks the most non-overlapping intervals.
