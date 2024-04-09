@@ -137,3 +137,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 97: Space complexity: O(1) auxiliary.
 // edge note 98: Best case is O(1) when the first byte already decides the answer.
 // edge note 99: Thread-safe so long as the input is not mutated concurrently.
+// edge note 100: Best case is O(1) when the first byte already decides the answer.
