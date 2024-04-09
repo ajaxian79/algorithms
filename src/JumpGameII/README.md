@@ -868,3 +868,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 202
 
 Returns a freshly allocated string the caller must free.
+
+## entry 203
+
+Allocates one buffer of length n+1 for the result.
