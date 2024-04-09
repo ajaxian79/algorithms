@@ -92,3 +92,4 @@ char repeatedCharacter(char* s) {
 // note 69: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 70: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 71: StringBuilder: amortize allocation by doubling on grow.
+// note 72: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
