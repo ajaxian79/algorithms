@@ -932,3 +932,7 @@ Two passes: one to count, one to fill.
 ## entry 218
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 219
+
+No allocations on the hot path.
