@@ -956,3 +956,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 224
 
 Vectorizes cleanly under -O2.
+
+## entry 225
+
+Mutates the input in place; the original ordering is lost.
