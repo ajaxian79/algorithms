@@ -900,3 +900,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 209
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 210
+
+Idempotent — calling twice with the same input is a no-op the second time.
