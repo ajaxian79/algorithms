@@ -89,3 +89,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 63: Tail-recursive; the compiler turns it into a loop.
 // edge note 64: Allocates a single small fixed-size scratch buffer.
 // edge note 65: Caller owns the returned buffer.
+// edge note 66: Edge case: empty input → returns 0.
