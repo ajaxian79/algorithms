@@ -85,3 +85,4 @@ MunitTest needle_tests[] = {
 // edge note 58: Allocates lazily — first call only.
 // edge note 59: Deterministic given the input — no PRNG seeds.
 // edge note 60: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 61: Reentrant — no static state.
