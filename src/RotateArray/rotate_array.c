@@ -91,3 +91,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 66: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 67: Thread-safe so long as the input is not mutated concurrently.
 // note 68: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 69: DFS on a grid: write a sentinel into the visited cell; restore if needed.
