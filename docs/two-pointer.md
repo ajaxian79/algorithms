@@ -723,3 +723,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 163
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 164
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
