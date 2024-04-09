@@ -978,3 +978,7 @@ Time complexity: O(n).
 ## entry 230
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 231
+
+Edge case: single-element input → returns the element itself.
