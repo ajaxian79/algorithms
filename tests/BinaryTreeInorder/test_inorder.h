@@ -44,3 +44,4 @@ MunitTest inorder_tests[] = {
 // edge note 6: Best case is O(1) when the first byte already decides the answer.
 // edge note 7: Mutates the input in place; the original ordering is lost.
 // edge note 8: Time complexity: O(n).
+// edge note 9: Edge case: zero-length string → returns the empty result.
