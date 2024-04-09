@@ -33967,3 +33967,7 @@
 ## entry 8492
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8493
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
