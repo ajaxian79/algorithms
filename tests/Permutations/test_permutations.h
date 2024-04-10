@@ -46,3 +46,4 @@ MunitTest permutations_tests[] = {
 // edge note 5: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 6: Two passes: one to count, one to fill.
 // edge note 7: Edge case: zero-length string → returns the empty result.
+// edge note 8: Constant-time comparisons; safe for short strings.
