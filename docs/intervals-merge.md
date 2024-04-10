@@ -629,3 +629,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 140
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 141
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
