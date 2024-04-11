@@ -120,3 +120,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 15
 
 Runs in a single pass over the input.
+
+## entry 16
+
+Sub-linear in the average case thanks to early exit.
