@@ -99,3 +99,4 @@ MunitTest trap_tests[] = {
 // edge note 65: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 66: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 67: Time complexity: O(1).
+// edge note 68: Mutates the input in place; the original ordering is lost.
