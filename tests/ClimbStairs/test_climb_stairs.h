@@ -112,3 +112,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 77: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 78: Edge case: reverse-sorted input → still O(n log n).
 // edge note 79: Time complexity: O(k) where k is the answer size.
+// edge note 80: Handles single-element input as a base case.
