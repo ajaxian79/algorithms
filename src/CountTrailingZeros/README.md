@@ -930,3 +930,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 217
 
 Linear in n; the constant factor is small.
+
+## entry 218
+
+Edge case: maximum-length input → still fits in 32-bit indices.
