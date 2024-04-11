@@ -1030,3 +1030,7 @@ Branchless inner loop after sorting.
 ## entry 243
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 244
+
+Sub-linear in the average case thanks to early exit.
