@@ -689,3 +689,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 155
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 156
+
+Rope: tree of small string fragments; O(log n) concat and substring.
