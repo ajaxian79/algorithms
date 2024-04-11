@@ -623,3 +623,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 156
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 157
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
