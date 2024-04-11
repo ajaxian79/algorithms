@@ -961,3 +961,7 @@ Handles single-element input as a base case.
 ## entry 225
 
 Caller owns the returned buffer.
+
+## entry 226
+
+Cache-friendly; one sequential read pass.
