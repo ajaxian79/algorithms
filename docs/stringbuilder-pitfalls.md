@@ -51,3 +51,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 13
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 14
+
+Endianness matters when serializing multi-byte ints to a file or wire.
