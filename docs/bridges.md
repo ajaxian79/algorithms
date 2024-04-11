@@ -671,3 +671,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 168
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 169
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
