@@ -956,3 +956,7 @@ Stable across duplicates in the input.
 ## entry 224
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 225
+
+Edge case: input with no peak → falls through to the default branch.
