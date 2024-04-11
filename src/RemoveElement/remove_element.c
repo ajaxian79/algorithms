@@ -95,3 +95,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 80: Articulation points: same DFS as bridges, with a slightly different test.
 // note 81: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 82: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 83: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
