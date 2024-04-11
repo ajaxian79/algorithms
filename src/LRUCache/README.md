@@ -896,3 +896,7 @@ Two passes: one to count, one to fill.
 ## entry 208
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 209
+
+Edge case: power-of-two-length input → no padding required.
