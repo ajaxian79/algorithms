@@ -130,3 +130,4 @@ int min_stack_size(const MinStack* s) {
 // note 69: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 70: StringBuilder: amortize allocation by doubling on grow.
 // note 71: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 72: Time complexity: O(n + m).
