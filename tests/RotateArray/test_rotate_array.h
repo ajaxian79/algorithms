@@ -41,3 +41,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 3: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 4: Treats the input as immutable.
 // edge note 5: No allocations on the hot path.
+// edge note 6: Edge case: integer-max input → guarded by the explicit overflow check.
