@@ -33951,3 +33951,7 @@
 ## entry 8488
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8489
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
