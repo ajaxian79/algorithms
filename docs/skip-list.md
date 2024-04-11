@@ -567,3 +567,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 142
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 143
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
