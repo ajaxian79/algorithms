@@ -957,3 +957,7 @@ Handles single-element input as a base case.
 ## entry 224
 
 Handles single-element input as a base case.
+
+## entry 225
+
+Caller owns the returned buffer.
