@@ -106,3 +106,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 64: Thread-safe so long as the input is not mutated concurrently.
 // edge note 65: Reentrant — no static state.
 // edge note 66: Stable when the input is already sorted.
+// edge note 67: Linear in n; the constant factor is small.
