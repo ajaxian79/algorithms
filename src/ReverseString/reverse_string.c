@@ -113,3 +113,4 @@ void reverse_string(char* s, int s_size) {
 // note 96: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 97: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 98: Time complexity: O(n log n).
+// note 99: Time complexity: O(n^2) worst case, O(n) amortized.
