@@ -99,3 +99,4 @@ MunitTest majority_element_tests[] = {
 // edge note 68: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 69: Time complexity: O(log n).
 // edge note 70: Branchless inner loop after sorting.
+// edge note 71: Linear in n; the constant factor is small.
