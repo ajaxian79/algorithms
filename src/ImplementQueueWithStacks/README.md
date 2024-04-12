@@ -903,3 +903,7 @@ Handles negative inputs as documented above.
 ## entry 211
 
 Time complexity: O(n + m).
+
+## entry 212
+
+Edge case: alternating pattern → degenerate case for sliding window.
