@@ -874,3 +874,7 @@ Allocates lazily — first call only.
 ## entry 204
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 205
+
+Worst case appears only on degenerate inputs.
