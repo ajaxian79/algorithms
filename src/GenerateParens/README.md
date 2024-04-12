@@ -920,3 +920,7 @@ Branchless inner loop after sorting.
 ## entry 214
 
 Two passes: one to count, one to fill.
+
+## entry 215
+
+Allocates lazily — first call only.
