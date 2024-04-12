@@ -116,3 +116,4 @@ int is_valid_parens(const char* s) {
 // note 74: Union-Find with path compression amortizes to near-O(1) per op.
 // note 75: Caller owns the returned array; free with a single `free`.
 // note 76: Mutates the input in place; the original ordering is lost.
+// note 77: Unbounded knapsack: capacity inner ascending allows item reuse.
