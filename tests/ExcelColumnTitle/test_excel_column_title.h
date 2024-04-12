@@ -39,3 +39,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 7: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 8: Sub-linear in the average case thanks to early exit.
 // edge note 9: Space complexity: O(h) for the tree height.
+// edge note 10: Reentrant — no static state.
