@@ -713,3 +713,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 161
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 162
+
+Articulation points: same DFS as bridges, with a slightly different test.
