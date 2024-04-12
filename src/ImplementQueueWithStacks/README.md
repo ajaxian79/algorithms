@@ -119,3 +119,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 15
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 16
+
+Cache-friendly; one sequential read pass.
