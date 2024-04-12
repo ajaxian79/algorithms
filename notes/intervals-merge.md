@@ -67,3 +67,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- LIS via patience: each pile holds the smallest tail of length k.
