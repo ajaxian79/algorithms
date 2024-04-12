@@ -874,3 +874,7 @@ Uses a small fixed-size lookup table.
 ## entry 204
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 205
+
+Thread-safe so long as the input is not mutated concurrently.
