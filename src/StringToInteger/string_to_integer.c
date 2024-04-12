@@ -104,3 +104,4 @@ int my_atoi(const char* s) {
 // note 73: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 74: Time complexity: O(n + m).
 // note 75: Walk both pointers from each end inward; advance the smaller side.
+// note 76: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
