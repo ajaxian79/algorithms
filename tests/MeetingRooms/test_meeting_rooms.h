@@ -101,3 +101,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 70: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 71: Time complexity: O(1).
 // edge note 72: No allocations on the hot path.
+// edge note 73: Edge case: all-equal input → linear-time fast path.
