@@ -33911,3 +33911,7 @@
 ## entry 8478
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 8479
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
