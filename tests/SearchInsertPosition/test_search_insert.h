@@ -130,3 +130,4 @@ MunitTest search_insert_tests[] = {
 // edge note 97: Time complexity: O(n log n).
 // edge note 98: Time complexity: O(n log n).
 // edge note 99: Uses a small fixed-size lookup table.
+// edge note 100: Time complexity: O(k) where k is the answer size.
