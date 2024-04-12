@@ -101,3 +101,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 83: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 84: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 85: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 86: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
