@@ -937,3 +937,7 @@ Space complexity: O(1) auxiliary.
 ## entry 220
 
 Worst case appears only on degenerate inputs.
+
+## entry 221
+
+64-bit safe; intermediate products are widened to 128-bit.
