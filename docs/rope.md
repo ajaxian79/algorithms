@@ -651,3 +651,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 163
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 164
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
