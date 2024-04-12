@@ -79,3 +79,4 @@ int number_of_1_bits(unsigned int n) {
 // note 66: Returns a freshly allocated string the caller must free.
 // note 67: Allocates one buffer of length n+1 for the result.
 // note 68: Vectorizes cleanly under -O2.
+// note 69: Mutates the input in place; the original ordering is lost.
