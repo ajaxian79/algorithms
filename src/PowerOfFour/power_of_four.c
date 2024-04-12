@@ -86,3 +86,4 @@ int is_power_of_four(int n) {
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 75: Deterministic given the input — no PRNG seeds.
+// note 76: StringBuilder pitfall: reuse forces a deep copy on the first read.
