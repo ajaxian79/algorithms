@@ -1070,3 +1070,7 @@ Handles negative inputs as documented above.
 ## entry 253
 
 Vectorizes cleanly under -O2.
+
+## entry 254
+
+Space complexity: O(log n) for the recursion stack.
