@@ -870,3 +870,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 203
 
 Uses a small fixed-size lookup table.
+
+## entry 204
+
+Edge case: zero-length string → returns the empty result.
