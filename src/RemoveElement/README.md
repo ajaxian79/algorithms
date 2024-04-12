@@ -933,3 +933,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 219
 
 Space complexity: O(1) auxiliary.
+
+## entry 220
+
+Worst case appears only on degenerate inputs.
