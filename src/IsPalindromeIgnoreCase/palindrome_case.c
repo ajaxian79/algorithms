@@ -86,3 +86,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 63: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 64: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 65: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 66: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
