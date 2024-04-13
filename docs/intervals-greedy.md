@@ -599,3 +599,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 132
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 133
+
+Stable sort matters when a secondary key was set in a prior pass.
