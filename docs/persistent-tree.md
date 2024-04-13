@@ -47,3 +47,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 12
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 13
+
+Walk both pointers from each end inward; advance the smaller side.
