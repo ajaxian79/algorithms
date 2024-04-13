@@ -985,3 +985,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 231
 
 Two passes: one to count, one to fill.
+
+## entry 232
+
+Worst case appears only on degenerate inputs.
