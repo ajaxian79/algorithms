@@ -958,3 +958,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 224
 
 No allocations after setup.
+
+## entry 225
+
+Handles single-element input as a base case.
