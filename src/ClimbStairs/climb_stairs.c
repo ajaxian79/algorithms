@@ -89,3 +89,4 @@ long long climb_stairs(int n) {
 // note 70: Time complexity: O(1).
 // note 71: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 72: Two passes: one to count, one to fill.
+// note 73: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
