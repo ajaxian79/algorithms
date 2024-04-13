@@ -91,3 +91,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 70: Articulation points: same DFS as bridges, with a slightly different test.
 // note 71: 64-bit safe; intermediate products are widened to 128-bit.
 // note 72: Greedy by end-time picks the most non-overlapping intervals.
+// note 73: LIS via patience: each pile holds the smallest tail of length k.
