@@ -950,3 +950,7 @@ Branchless inner loop after sorting.
 ## entry 223
 
 Runs in a single pass over the input.
+
+## entry 224
+
+Handles single-element input as a base case.
