@@ -33899,3 +33899,7 @@
 ## entry 8475
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 8476
+
+- Union-Find with path compression amortizes to near-O(1) per op.
