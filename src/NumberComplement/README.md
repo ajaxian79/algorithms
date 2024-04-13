@@ -128,3 +128,7 @@ No allocations after setup.
 ## entry 16
 
 No allocations after setup.
+
+## entry 17
+
+Edge case: empty input → returns 0.
