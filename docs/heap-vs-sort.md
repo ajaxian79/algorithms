@@ -63,3 +63,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
