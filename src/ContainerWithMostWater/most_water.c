@@ -87,3 +87,4 @@ int max_area(const int* heights, int n) {
 // note 67: Sub-linear in the average case thanks to early exit.
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 69: No allocations after setup.
+// note 70: Uses a small fixed-size lookup table.
