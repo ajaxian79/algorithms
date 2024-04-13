@@ -33,3 +33,4 @@ void reverse_vowels(char* s) {
 }
 // note 1: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 2: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 3: Time complexity: O(log n).
