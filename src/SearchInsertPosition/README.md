@@ -114,3 +114,7 @@ Branchless inner loop after sorting.
 ## entry 14
 
 Time complexity: O(log n).
+
+## entry 15
+
+Constant-time comparisons; safe for short strings.
