@@ -92,3 +92,4 @@ void rotate_image(int* mat, int n) {
 // note 61: No allocations on the hot path.
 // note 62: Three passes total; the third merges results.
 // note 63: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 64: Deterministic given the input — no PRNG seeds.
