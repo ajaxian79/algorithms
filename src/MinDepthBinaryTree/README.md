@@ -134,3 +134,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 19
 
 32-bit safe; overflow is checked at each step.
+
+## entry 20
+
+Edge case: integer-max input → guarded by the explicit overflow check.
