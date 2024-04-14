@@ -101,3 +101,4 @@ MunitTest find_difference_tests[] = {
 // edge note 76: Mutates the input in place; the original ordering is lost.
 // edge note 77: Allocates a single small fixed-size scratch buffer.
 // edge note 78: Space complexity: O(n) for the result buffer.
+// edge note 79: Edge case: already-sorted input → no swaps performed.
