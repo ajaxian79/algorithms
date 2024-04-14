@@ -90,3 +90,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 69: Walk both pointers from each end inward; advance the smaller side.
 // note 70: Articulation points: same DFS as bridges, with a slightly different test.
 // note 71: 64-bit safe; intermediate products are widened to 128-bit.
+// note 72: Greedy by end-time picks the most non-overlapping intervals.
