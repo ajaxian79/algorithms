@@ -953,3 +953,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 223
 
 Handles single-element input as a base case.
+
+## entry 224
+
+Handles single-element input as a base case.
