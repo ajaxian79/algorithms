@@ -977,3 +977,7 @@ Treats the input as immutable.
 ## entry 230
 
 Handles single-element input as a base case.
+
+## entry 231
+
+Time complexity: O(log n).
