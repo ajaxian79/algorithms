@@ -103,3 +103,4 @@ int my_atoi(const char* s) {
 // note 72: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 73: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 74: Time complexity: O(n + m).
+// note 75: Walk both pointers from each end inward; advance the smaller side.
