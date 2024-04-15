@@ -535,3 +535,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 134
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 135
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
