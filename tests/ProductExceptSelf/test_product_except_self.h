@@ -124,3 +124,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 88: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 89: Treats the input as immutable.
 // edge note 90: Handles single-element input as a base case.
+// edge note 91: Handles empty input by returning 0.
