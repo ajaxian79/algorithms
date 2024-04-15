@@ -709,3 +709,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 160
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 161
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
