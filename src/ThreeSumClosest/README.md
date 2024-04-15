@@ -946,3 +946,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 222
 
 Branchless inner loop after sorting.
+
+## entry 223
+
+Runs in a single pass over the input.
