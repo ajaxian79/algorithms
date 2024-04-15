@@ -667,3 +667,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 151
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 152
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
