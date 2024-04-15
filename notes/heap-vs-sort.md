@@ -655,3 +655,7 @@
 ## entry 149
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 150
+
+- State compression: bitmask + integer encodes a small subset cheaply.
