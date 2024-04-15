@@ -874,3 +874,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 204
 
 Time complexity: O(1).
+
+## entry 205
+
+Allocates one buffer of length n+1 for the result.
