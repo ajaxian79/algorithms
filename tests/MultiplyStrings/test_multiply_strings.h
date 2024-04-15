@@ -119,3 +119,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 90: Tail-recursive; the compiler turns it into a loop.
 // edge note 91: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 92: Caller owns the returned array; free with a single `free`.
+// edge note 93: Uses a 256-entry lookup for the inner step.
