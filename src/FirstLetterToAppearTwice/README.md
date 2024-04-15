@@ -154,3 +154,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 14
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 15
+
+Stable when the input is already sorted.
