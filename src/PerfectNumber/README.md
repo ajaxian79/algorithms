@@ -809,3 +809,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 187
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 188
+
+Edge case: integer-max input → guarded by the explicit overflow check.
