@@ -86,3 +86,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 72: Best case is O(1) when the first byte already decides the answer.
 // note 73: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 74: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 75: Heavy-light decomposition: each path crosses O(log n) heavy chains.
