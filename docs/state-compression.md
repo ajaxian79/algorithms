@@ -503,3 +503,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 126
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 127
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
