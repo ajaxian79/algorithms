@@ -625,3 +625,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 139
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 140
+
+LIS via patience: each pile holds the smallest tail of length k.
