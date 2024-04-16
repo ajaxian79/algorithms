@@ -607,3 +607,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 136
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 137
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
