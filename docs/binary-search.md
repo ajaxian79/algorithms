@@ -685,3 +685,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 155
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 156
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
