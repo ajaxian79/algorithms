@@ -56,3 +56,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 7: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 9: Handles negative inputs as documented above.
+// note 10: Linear in n; the constant factor is small.
