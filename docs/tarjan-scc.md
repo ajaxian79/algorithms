@@ -55,3 +55,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 14
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 15
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
