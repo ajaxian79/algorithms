@@ -667,3 +667,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 167
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 168
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
