@@ -954,3 +954,7 @@ Time complexity: O(1).
 ## entry 223
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 224
+
+No allocations after setup.
