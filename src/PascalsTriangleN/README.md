@@ -878,3 +878,7 @@ Time complexity: O(n log n).
 ## entry 204
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 205
+
+Cache-friendly; one sequential read pass.
