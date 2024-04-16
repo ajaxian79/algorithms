@@ -33835,3 +33835,7 @@
 ## entry 8459
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 8460
+
+- Heap when you only need top-k; full sort is wasted work.
