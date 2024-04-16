@@ -63,3 +63,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 16
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 17
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
