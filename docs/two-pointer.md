@@ -719,3 +719,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 162
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 163
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
