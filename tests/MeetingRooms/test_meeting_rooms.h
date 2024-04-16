@@ -100,3 +100,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 69: Edge case: input of all the same byte → exits on the first compare.
 // edge note 70: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 71: Time complexity: O(1).
+// edge note 72: No allocations on the hot path.
