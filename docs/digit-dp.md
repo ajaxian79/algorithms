@@ -563,3 +563,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 141
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 142
+
+Union-Find with path compression amortizes to near-O(1) per op.
