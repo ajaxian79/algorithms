@@ -33839,3 +33839,7 @@
 ## entry 8460
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 8461
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
