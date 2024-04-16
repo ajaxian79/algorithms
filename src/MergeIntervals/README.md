@@ -946,3 +946,7 @@ Branchless inner loop after sorting.
 ## entry 221
 
 Handles empty input by returning 0.
+
+## entry 222
+
+Three passes total; the third merges results.
