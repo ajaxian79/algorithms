@@ -104,3 +104,4 @@ int is_palindrome_number(int x) {
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 81: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 82: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 83: LCA via binary lifting: jump up powers of two until depths match, then converge.
