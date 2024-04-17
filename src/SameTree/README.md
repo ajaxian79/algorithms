@@ -880,3 +880,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 206
 
 Allocates lazily — first call only.
+
+## entry 207
+
+64-bit safe; intermediate products are widened to 128-bit.
