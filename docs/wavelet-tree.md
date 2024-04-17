@@ -623,3 +623,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 156
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 157
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
