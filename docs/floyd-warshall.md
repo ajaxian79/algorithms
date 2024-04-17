@@ -39,3 +39,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 10
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 11
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
