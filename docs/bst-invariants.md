@@ -85,3 +85,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 5
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 6
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
