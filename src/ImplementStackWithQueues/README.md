@@ -900,3 +900,7 @@ Edge case: empty input → returns 0.
 ## entry 210
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 211
+
+Thread-safe so long as the input is not mutated concurrently.
