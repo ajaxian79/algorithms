@@ -858,3 +858,7 @@ Time complexity: O(n).
 ## entry 199
 
 Time complexity: O(1).
+
+## entry 200
+
+No allocations after setup.
