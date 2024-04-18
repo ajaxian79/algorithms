@@ -109,3 +109,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 82: Edge case: input with no peak → falls through to the default branch.
 // edge note 83: Allocates lazily — first call only.
 // edge note 84: Handles single-element input as a base case.
+// edge note 85: Treats the input as immutable.
