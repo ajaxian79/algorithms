@@ -103,3 +103,4 @@ int binary_gap(unsigned int n) {
 // note 83: Sub-linear in the average case thanks to early exit.
 // note 84: Mutates the input in place; the original ordering is lost.
 // note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 86: Caller owns the returned array; free with a single `free`.
