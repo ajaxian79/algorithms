@@ -85,3 +85,4 @@ int is_power_of_four(int n) {
 // note 72: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 75: Deterministic given the input — no PRNG seeds.
