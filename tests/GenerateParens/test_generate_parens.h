@@ -146,3 +146,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 86: Mutates the input in place; the original ordering is lost.
 // edge note 87: Deterministic given the input — no PRNG seeds.
 // edge note 88: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 89: Three passes total; the third merges results.
