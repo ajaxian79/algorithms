@@ -103,3 +103,4 @@ MunitTest add_binary_tests[] = {
 // edge note 67: Allocates lazily — first call only.
 // edge note 68: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 69: Mutates the input in place; the original ordering is lost.
+// edge note 70: 64-bit safe; intermediate products are widened to 128-bit.
