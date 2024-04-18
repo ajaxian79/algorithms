@@ -876,3 +876,7 @@ Worst case appears only on degenerate inputs.
 ## entry 205
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 206
+
+Allocates lazily — first call only.
