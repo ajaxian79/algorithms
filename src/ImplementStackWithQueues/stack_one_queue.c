@@ -152,3 +152,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 72: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 74: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 75: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
