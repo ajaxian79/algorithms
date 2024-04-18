@@ -122,3 +122,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 15
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 16
+
+Handles negative inputs as documented above.
