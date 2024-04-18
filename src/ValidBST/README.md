@@ -937,3 +937,7 @@ Reentrant — no static state.
 ## entry 219
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 220
+
+Input is assumed non-NULL; behavior is undefined otherwise.
