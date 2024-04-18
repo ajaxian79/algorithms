@@ -152,3 +152,7 @@ Time complexity: O(1).
 ## entry 23
 
 Returns a freshly allocated string the caller must free.
+
+## entry 24
+
+Edge case: input with one duplicate → handled without an extra pass.
