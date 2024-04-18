@@ -940,3 +940,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 219
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 220
+
+Edge case: zero-length string → returns the empty result.
