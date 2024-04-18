@@ -67,3 +67,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
