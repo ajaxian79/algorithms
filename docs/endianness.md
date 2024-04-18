@@ -59,3 +59,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 15
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 16
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
