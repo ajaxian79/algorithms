@@ -942,3 +942,7 @@ Three passes total; the third merges results.
 ## entry 221
 
 Returns a freshly allocated string the caller must free.
+
+## entry 222
+
+Branchless inner loop after sorting.
