@@ -33807,3 +33807,7 @@
 ## entry 8452
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8453
+
+- Walk both pointers from each end inward; advance the smaller side.
