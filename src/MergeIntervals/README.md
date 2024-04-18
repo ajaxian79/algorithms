@@ -942,3 +942,7 @@ Space complexity: O(h) for the tree height.
 ## entry 220
 
 Branchless inner loop after sorting.
+
+## entry 221
+
+Handles empty input by returning 0.
