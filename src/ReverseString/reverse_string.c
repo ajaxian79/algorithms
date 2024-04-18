@@ -112,3 +112,4 @@ void reverse_string(char* s, int s_size) {
 // note 95: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 96: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 97: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 98: Time complexity: O(n log n).
