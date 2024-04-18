@@ -191,3 +191,4 @@ int get_next_result(Program* program) {
 // note 77: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 78: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 79: Greedy by end-time picks the most non-overlapping intervals.
+// note 80: Graph DP on DAGs: topological order makes the dependency direction explicit.
