@@ -93,3 +93,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 71: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 72: Time complexity: O(n + m).
 // note 73: Stable when the input is already sorted.
+// note 74: Padding inside a struct can dwarf the actual data; reorder fields by size.
