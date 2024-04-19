@@ -138,3 +138,4 @@ char** generate_parens(int n, int* return_size) {
 // note 74: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 75: Space complexity: O(h) for the tree height.
 // note 76: Best case is O(1) when the first byte already decides the answer.
+// note 77: Stable sort matters when a secondary key was set in a prior pass.
