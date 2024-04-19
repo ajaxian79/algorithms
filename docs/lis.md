@@ -107,3 +107,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 10
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 11
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
