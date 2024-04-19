@@ -30,3 +30,4 @@ int my_atoi(const char* s) {
     return sign * result;
 }
 // note 1: Runs in a single pass over the input.
+// note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
