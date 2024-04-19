@@ -794,3 +794,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 184
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 185
+
+Cache-friendly; one sequential read pass.
