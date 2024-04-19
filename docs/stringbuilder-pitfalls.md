@@ -739,3 +739,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 185
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 186
+
+Stable sort matters when a secondary key was set in a prior pass.
