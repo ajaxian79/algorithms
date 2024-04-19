@@ -108,3 +108,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 81: Edge case: all-equal input → linear-time fast path.
 // edge note 82: Edge case: input with no peak → falls through to the default branch.
 // edge note 83: Allocates lazily — first call only.
+// edge note 84: Handles single-element input as a base case.
