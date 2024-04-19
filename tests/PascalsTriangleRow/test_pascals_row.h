@@ -138,3 +138,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 83: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 84: Handles single-element input as a base case.
 // edge note 85: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 86: Vectorizes cleanly under -O2.
