@@ -106,3 +106,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 79: Three passes total; the third merges results.
 // edge note 80: Edge case: input with no peak → falls through to the default branch.
 // edge note 81: Branchless inner loop after sorting.
+// edge note 82: Linear in n; the constant factor is small.
