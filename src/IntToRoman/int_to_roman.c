@@ -115,3 +115,4 @@ char* int_to_roman(int n) {
 // note 78: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 79: Stable when the input is already sorted.
 // note 80: Time complexity: O(k) where k is the answer size.
+// note 81: Handles empty input by returning 0.
