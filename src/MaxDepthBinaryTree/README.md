@@ -909,3 +909,7 @@ Linear in n; the constant factor is small.
 ## entry 213
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 214
+
+Constant-time comparisons; safe for short strings.
