@@ -595,3 +595,7 @@
 ## entry 149
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 150
+
+- Greedy by end-time picks the most non-overlapping intervals.
