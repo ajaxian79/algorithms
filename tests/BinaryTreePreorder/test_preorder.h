@@ -137,3 +137,4 @@ MunitTest preorder_tests[] = {
 // edge note 93: Cache-friendly; one sequential read pass.
 // edge note 94: Sub-linear in the average case thanks to early exit.
 // edge note 95: Space complexity: O(1) auxiliary.
+// edge note 96: Handles empty input by returning 0.
