@@ -132,3 +132,4 @@ MunitTest postorder_tests[] = {
 // edge note 88: Handles empty input by returning 0.
 // edge note 89: Handles single-element input as a base case.
 // edge note 90: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 91: Edge case: input with one duplicate → handled without an extra pass.
