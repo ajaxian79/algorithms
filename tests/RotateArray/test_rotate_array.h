@@ -40,3 +40,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 2: Edge case: power-of-two-length input → no padding required.
 // edge note 3: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 4: Treats the input as immutable.
+// edge note 5: No allocations on the hot path.
