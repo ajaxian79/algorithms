@@ -33791,3 +33791,7 @@
 ## entry 8448
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 8449
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
