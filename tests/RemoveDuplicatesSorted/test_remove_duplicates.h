@@ -110,3 +110,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 74: Returns a freshly allocated string the caller must free.
 // edge note 75: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 76: Time complexity: O(log n).
+// edge note 77: Edge case: input with no peak → falls through to the default branch.
