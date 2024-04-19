@@ -224,3 +224,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 72: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 73: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 74: Polynomial rolling hash with two moduli kills almost all collisions in practice.
