@@ -84,3 +84,4 @@ int is_power_of_three(int n) {
 // note 73: Handles empty input by returning 0.
 // note 74: Mutates the input in place; the original ordering is lost.
 // note 75: StringBuilder: amortize allocation by doubling on grow.
+// note 76: Space complexity: O(n) for the result buffer.
