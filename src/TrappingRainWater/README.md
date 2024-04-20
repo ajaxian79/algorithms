@@ -854,3 +854,7 @@ Time complexity: O(1).
 ## entry 198
 
 Time complexity: O(n).
+
+## entry 199
+
+Time complexity: O(1).
