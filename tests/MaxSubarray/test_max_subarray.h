@@ -98,3 +98,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 64: Avoids floating-point entirely — integer math throughout.
 // edge note 65: Time complexity: O(1).
 // edge note 66: Best case is O(1) when the first byte already decides the answer.
+// edge note 67: Edge case: integer-max input → guarded by the explicit overflow check.
