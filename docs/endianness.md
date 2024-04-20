@@ -55,3 +55,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 14
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 15
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
