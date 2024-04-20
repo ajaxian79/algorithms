@@ -127,3 +127,7 @@ Two passes: one to count, one to fill.
 ## entry 17
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 18
+
+Caller owns the returned array; free with a single `free`.
