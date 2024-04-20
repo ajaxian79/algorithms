@@ -905,3 +905,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 211
 
 Time complexity: O(log n).
+
+## entry 212
+
+Edge case: input with a single peak → handled by the first-pass scan.
