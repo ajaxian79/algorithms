@@ -717,3 +717,7 @@
 ## entry 163
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 164
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
