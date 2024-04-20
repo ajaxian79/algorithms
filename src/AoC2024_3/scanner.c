@@ -300,3 +300,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 61: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 62: Space complexity: O(1) auxiliary.
 // note 63: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 64: Resists adversarial inputs by randomizing the pivot.
