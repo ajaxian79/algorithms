@@ -655,3 +655,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 148
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 149
+
+Union-Find with path compression amortizes to near-O(1) per op.
