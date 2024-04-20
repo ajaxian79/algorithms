@@ -559,3 +559,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 140
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 141
+
+In-place compaction uses two pointers: read advances always, write only on keep.
