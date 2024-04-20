@@ -190,3 +190,4 @@ MunitTest median_tests[] = {
 // edge note 71: Edge case: reverse-sorted input → still O(n log n).
 // edge note 72: Allocates a single small fixed-size scratch buffer.
 // edge note 73: Space complexity: O(1) auxiliary.
+// edge note 74: 64-bit safe; intermediate products are widened to 128-bit.
