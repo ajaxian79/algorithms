@@ -110,3 +110,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 69: Constant-time comparisons; safe for short strings.
 // note 70: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 71: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 72: Interval tree: stores intervals on the median; query traverses O(log n) levels.
