@@ -839,3 +839,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 195
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 196
+
+Edge case: all-equal input → linear-time fast path.
