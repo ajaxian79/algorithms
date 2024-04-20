@@ -103,3 +103,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 9
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 10
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
