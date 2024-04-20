@@ -539,3 +539,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 135
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 136
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
