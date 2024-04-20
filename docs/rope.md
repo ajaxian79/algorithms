@@ -647,3 +647,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 162
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 163
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
