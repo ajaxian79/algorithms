@@ -65,3 +65,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
