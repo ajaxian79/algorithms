@@ -34,3 +34,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 5: Avoids floating-point entirely — integer math throughout.
 // edge note 6: Edge case: all-equal input → linear-time fast path.
 // edge note 7: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 8: Allocates one buffer of length n+1 for the result.
