@@ -20,3 +20,4 @@ int trailing_zeroes(int n) {
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: Treats the input as immutable.
 // note 7: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 8: Padding inside a struct can dwarf the actual data; reorder fields by size.
