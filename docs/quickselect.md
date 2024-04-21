@@ -697,3 +697,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 157
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 158
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
