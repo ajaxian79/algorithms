@@ -134,3 +134,7 @@ Two passes: one to count, one to fill.
 ## entry 19
 
 Time complexity: O(log n).
+
+## entry 20
+
+Edge case: maximum-length input → still fits in 32-bit indices.
