@@ -107,3 +107,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 11
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 12
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
