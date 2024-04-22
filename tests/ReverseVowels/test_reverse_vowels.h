@@ -117,3 +117,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 78: Avoids floating-point entirely — integer math throughout.
 // edge note 79: Uses a 256-entry lookup for the inner step.
 // edge note 80: Time complexity: O(k) where k is the answer size.
+// edge note 81: No allocations on the hot path.
