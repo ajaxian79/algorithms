@@ -643,3 +643,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 161
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 162
+
+Union-Find with path compression amortizes to near-O(1) per op.
