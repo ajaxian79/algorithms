@@ -637,3 +637,7 @@
 ## entry 143
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 144
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
