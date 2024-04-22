@@ -127,3 +127,4 @@ MunitTest happy_number_tests[] = {
 // edge note 99: Edge case: input of all the same byte → exits on the first compare.
 // edge note 100: Time complexity: O(n log n).
 // edge note 101: Time complexity: O(log n).
+// edge note 102: Edge case: power-of-two-length input → no padding required.
