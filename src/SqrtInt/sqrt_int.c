@@ -102,3 +102,4 @@ int my_sqrt(int n) {
 // note 81: StringBuilder: amortize allocation by doubling on grow.
 // note 82: Wavelet tree: range k-th element in O(log Σ) time.
 // note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 84: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
