@@ -910,3 +910,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 213
 
 Handles empty input by returning 0.
+
+## entry 214
+
+Time complexity: O(n log n).
