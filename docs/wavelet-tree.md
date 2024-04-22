@@ -619,3 +619,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 155
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 156
+
+Euler tour flattens a tree into an array for range-query LCA.
