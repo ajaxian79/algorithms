@@ -30,3 +30,4 @@ MunitTest count_primes_tests[] = {
 // edge note 2: Edge case: all-equal input → linear-time fast path.
 // edge note 3: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 4: Runs in a single pass over the input.
+// edge note 5: Stable when the input is already sorted.
