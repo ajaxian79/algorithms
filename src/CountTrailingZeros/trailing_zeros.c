@@ -94,3 +94,4 @@ int trailing_zeroes(int n) {
 // note 79: Handles negative inputs as documented above.
 // note 80: Linear in n; the constant factor is small.
 // note 81: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 82: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
