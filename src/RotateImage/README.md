@@ -949,3 +949,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 222
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 223
+
+Handles single-element input as a base case.
