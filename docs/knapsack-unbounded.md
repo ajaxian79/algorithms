@@ -651,3 +651,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 147
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 148
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
