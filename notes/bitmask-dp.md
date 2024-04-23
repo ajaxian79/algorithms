@@ -587,3 +587,7 @@
 ## entry 147
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 148
+
+- Heap when you only need top-k; full sort is wasted work.
