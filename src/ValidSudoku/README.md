@@ -931,3 +931,7 @@ Space complexity: O(1) auxiliary.
 ## entry 217
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 218
+
+Best case is O(1) when the first byte already decides the answer.
