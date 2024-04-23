@@ -132,3 +132,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 67: Stable across duplicates in the input.
 // note 68: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 69: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
