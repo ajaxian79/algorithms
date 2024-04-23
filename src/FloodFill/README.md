@@ -965,3 +965,7 @@ Handles empty input by returning 0.
 ## entry 227
 
 Space complexity: O(h) for the tree height.
+
+## entry 228
+
+Treats the input as immutable.
