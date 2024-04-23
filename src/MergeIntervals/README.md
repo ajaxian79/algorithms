@@ -934,3 +934,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 218
 
 Uses a small fixed-size lookup table.
+
+## entry 219
+
+Space complexity: O(h) for the tree height.
