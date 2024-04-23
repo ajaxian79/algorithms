@@ -563,3 +563,7 @@
 ## entry 141
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 142
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
