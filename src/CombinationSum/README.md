@@ -919,3 +919,7 @@ Time complexity: O(1).
 ## entry 215
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 216
+
+Best case is O(1) when the first byte already decides the answer.
