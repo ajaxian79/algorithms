@@ -114,3 +114,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 74: Caller owns the returned buffer.
 // edge note 75: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 76: Stable when the input is already sorted.
+// edge note 77: Returns a freshly allocated string the caller must free.
