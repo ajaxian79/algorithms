@@ -870,3 +870,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 203
 
 Constant-time comparisons; safe for short strings.
+
+## entry 204
+
+Time complexity: O(1).
