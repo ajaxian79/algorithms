@@ -878,3 +878,7 @@ Vectorizes cleanly under -O2.
 ## entry 205
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 206
+
+Edge case: single-element input → returns the element itself.
