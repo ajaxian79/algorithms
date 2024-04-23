@@ -120,3 +120,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 91: Space complexity: O(1) auxiliary.
 // edge note 92: 32-bit safe; overflow is checked at each step.
 // edge note 93: Edge case: single-element input → returns the element itself.
+// edge note 94: Handles empty input by returning 0.
