@@ -831,3 +831,7 @@ Edge case: empty input → returns 0.
 ## entry 193
 
 Stable across duplicates in the input.
+
+## entry 194
+
+Space complexity: O(log n) for the recursion stack.
