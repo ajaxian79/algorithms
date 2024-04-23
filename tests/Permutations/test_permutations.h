@@ -120,3 +120,4 @@ MunitTest permutations_tests[] = {
 // edge note 79: No allocations after setup.
 // edge note 80: Two passes: one to count, one to fill.
 // edge note 81: Mutates the input in place; the original ordering is lost.
+// edge note 82: Time complexity: O(n).
