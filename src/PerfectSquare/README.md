@@ -974,3 +974,7 @@ Time complexity: O(n).
 ## entry 229
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 230
+
+Resists adversarial inputs by randomizing the pivot.
