@@ -912,3 +912,7 @@ Stable across duplicates in the input.
 ## entry 212
 
 Allocates lazily — first call only.
+
+## entry 213
+
+Branchless inner loop after sorting.
