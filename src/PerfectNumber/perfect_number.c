@@ -99,3 +99,4 @@ int is_perfect_number(int n) {
 // note 81: Caller owns the returned array; free with a single `free`.
 // note 82: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 83: Time complexity: O(log n).
+// note 84: Tree DP: post-order DFS lets children inform the parent in one pass.
