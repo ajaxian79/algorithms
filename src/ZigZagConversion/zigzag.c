@@ -113,3 +113,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Runs in a single pass over the input.
 // note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 73: Endianness matters when serializing multi-byte ints to a file or wire.
