@@ -835,3 +835,7 @@ Stable across duplicates in the input.
 ## entry 194
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 195
+
+Edge case: maximum-length input → still fits in 32-bit indices.
