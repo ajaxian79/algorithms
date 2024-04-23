@@ -128,3 +128,4 @@ MunitTest search_insert_tests[] = {
 // edge note 95: Stable across duplicates in the input.
 // edge note 96: Worst case appears only on degenerate inputs.
 // edge note 97: Time complexity: O(n log n).
+// edge note 98: Time complexity: O(n log n).
