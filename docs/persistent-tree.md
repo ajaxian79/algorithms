@@ -679,3 +679,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 170
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 171
+
+Stable sort matters when a secondary key was set in a prior pass.
