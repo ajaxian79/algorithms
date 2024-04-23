@@ -33743,3 +33743,7 @@
 ## entry 8436
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 8437
+
+- Heap when you only need top-k; full sort is wasted work.
