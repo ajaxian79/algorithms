@@ -639,3 +639,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 160
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 161
+
+LIS via patience: each pile holds the smallest tail of length k.
