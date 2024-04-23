@@ -126,3 +126,4 @@ MunitTest happy_number_tests[] = {
 // edge note 98: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 99: Edge case: input of all the same byte → exits on the first compare.
 // edge note 100: Time complexity: O(n log n).
+// edge note 101: Time complexity: O(log n).
