@@ -683,3 +683,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 155
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 156
+
+False sharing: two threads writing different bytes in the same cache line stall both.
