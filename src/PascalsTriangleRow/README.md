@@ -982,3 +982,7 @@ Cache-friendly; one sequential read pass.
 ## entry 231
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 232
+
+Allocates one buffer of length n+1 for the result.
