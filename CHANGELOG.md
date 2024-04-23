@@ -33731,3 +33731,7 @@
 ## entry 8433
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 8434
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
