@@ -563,3 +563,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 141
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 142
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
