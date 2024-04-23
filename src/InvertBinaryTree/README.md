@@ -996,3 +996,7 @@ No allocations on the hot path.
 ## entry 234
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 235
+
+Sub-linear in the average case thanks to early exit.
