@@ -849,3 +849,7 @@ Linear in n; the constant factor is small.
 ## entry 197
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 198
+
+Time complexity: O(log n).
