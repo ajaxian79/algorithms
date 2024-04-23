@@ -731,3 +731,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 165
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 166
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
