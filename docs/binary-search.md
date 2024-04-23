@@ -681,3 +681,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 154
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 155
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
