@@ -956,3 +956,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 224
 
 Cache-friendly; one sequential read pass.
+
+## entry 225
+
+Edge case: integer-max input → guarded by the explicit overflow check.
