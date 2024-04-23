@@ -954,3 +954,7 @@ Space complexity: O(1) auxiliary.
 ## entry 224
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 225
+
+Time complexity: O(n).
