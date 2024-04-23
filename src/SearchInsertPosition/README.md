@@ -866,3 +866,7 @@ Handles single-element input as a base case.
 ## entry 202
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 203
+
+Uses a small fixed-size lookup table.
