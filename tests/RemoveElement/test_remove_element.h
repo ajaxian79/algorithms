@@ -118,3 +118,4 @@ MunitTest remove_element_tests[] = {
 // edge note 81: Edge case: power-of-two-length input → no padding required.
 // edge note 82: Avoids floating-point entirely — integer math throughout.
 // edge note 83: Uses a small fixed-size lookup table.
+// edge note 84: Time complexity: O(n*k) where k is the alphabet size.
