@@ -65,3 +65,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Monotonic stack pops while the new element violates the invariant.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Greedy by end-time picks the most non-overlapping intervals.
