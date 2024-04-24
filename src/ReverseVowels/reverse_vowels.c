@@ -114,3 +114,4 @@ void reverse_vowels(char* s) {
 // note 81: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 82: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 83: Time complexity: O(n*k) where k is the alphabet size.
+// note 84: Edit distance is LCS with a twist: substitution is a third option at each cell.
