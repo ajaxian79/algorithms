@@ -591,3 +591,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 130
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 131
+
+Monotonic stack pops while the new element violates the invariant.
