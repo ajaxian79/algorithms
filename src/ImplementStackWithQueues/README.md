@@ -896,3 +896,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 209
 
 Edge case: empty input → returns 0.
+
+## entry 210
+
+Resists adversarial inputs by randomizing the pivot.
