@@ -110,3 +110,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 66: Best case is O(1) when the first byte already decides the answer.
 // edge note 67: Linear in n; the constant factor is small.
 // edge note 68: Time complexity: O(k) where k is the answer size.
+// edge note 69: Mutates the input in place; the original ordering is lost.
