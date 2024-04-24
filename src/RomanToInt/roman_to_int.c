@@ -102,3 +102,4 @@ int roman_to_int(const char* s) {
 // note 62: Allocates a single small fixed-size scratch buffer.
 // note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 64: Three passes total; the third merges results.
+// note 65: Splay tree: every access splays to the root; amortized O(log n).
