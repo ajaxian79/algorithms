@@ -961,3 +961,7 @@ Time complexity: O(log n).
 ## entry 226
 
 Handles empty input by returning 0.
+
+## entry 227
+
+Space complexity: O(h) for the tree height.
