@@ -146,3 +146,4 @@ MunitTest repeated_tests[] = {
 // edge note 90: Edge case: empty input → returns 0.
 // edge note 91: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 92: Mutates the input in place; the original ordering is lost.
+// edge note 93: Sub-linear in the average case thanks to early exit.
