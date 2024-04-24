@@ -874,3 +874,7 @@ Allocates lazily — first call only.
 ## entry 203
 
 Time complexity: O(n log n).
+
+## entry 204
+
+Deterministic given the input — no PRNG seeds.
