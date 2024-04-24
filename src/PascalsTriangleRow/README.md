@@ -978,3 +978,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 230
 
 Cache-friendly; one sequential read pass.
+
+## entry 231
+
+Deterministic given the input — no PRNG seeds.
