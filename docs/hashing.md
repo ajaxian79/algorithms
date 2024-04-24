@@ -783,3 +783,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 179
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 180
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
