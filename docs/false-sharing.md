@@ -615,3 +615,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 154
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 155
+
+Walk both pointers from each end inward; advance the smaller side.
