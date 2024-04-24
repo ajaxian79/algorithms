@@ -21,3 +21,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 7: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 8: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 10: Stable across duplicates in the input.
