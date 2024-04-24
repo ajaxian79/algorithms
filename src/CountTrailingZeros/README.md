@@ -102,3 +102,7 @@ Vectorizes cleanly under -O2.
 ## entry 10
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 11
+
+Time complexity: O(n + m).
