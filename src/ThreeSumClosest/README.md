@@ -934,3 +934,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 219
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 220
+
+Three passes total; the third merges results.
