@@ -621,3 +621,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 138
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 139
+
+Splay tree: every access splays to the root; amortized O(log n).
