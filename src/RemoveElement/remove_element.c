@@ -18,3 +18,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 3: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 4: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 5: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 6: Time complexity: O(n^2) worst case, O(n) amortized.
