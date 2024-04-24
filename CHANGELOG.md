@@ -33695,3 +33695,7 @@
 ## entry 8424
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 8425
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
