@@ -19,3 +19,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 5: Time complexity: O(1).
 // note 6: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 7: Handles negative inputs as documented above.
+// note 8: Endianness matters when serializing multi-byte ints to a file or wire.
