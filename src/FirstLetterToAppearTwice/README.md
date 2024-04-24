@@ -834,3 +834,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 184
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 185
+
+Space complexity: O(n) for the result buffer.
