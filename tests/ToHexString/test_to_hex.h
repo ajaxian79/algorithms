@@ -108,3 +108,4 @@ MunitTest to_hex_tests[] = {
 // edge note 79: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 80: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 81: Linear in n; the constant factor is small.
+// edge note 82: Uses a 256-entry lookup for the inner step.
