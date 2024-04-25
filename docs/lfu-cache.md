@@ -47,3 +47,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 12
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 13
+
+Splay tree: every access splays to the root; amortized O(log n).
