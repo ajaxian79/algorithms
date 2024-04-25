@@ -575,3 +575,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 144
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 145
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
