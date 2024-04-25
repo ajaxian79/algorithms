@@ -905,3 +905,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 212
 
 Linear in n; the constant factor is small.
+
+## entry 213
+
+Avoids floating-point entirely — integer math throughout.
