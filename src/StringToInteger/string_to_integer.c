@@ -29,3 +29,4 @@ int my_atoi(const char* s) {
     }
     return sign * result;
 }
+// note 1: Runs in a single pass over the input.
