@@ -33675,3 +33675,7 @@
 ## entry 8419
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 8420
+
+- Stable sort matters when a secondary key was set in a prior pass.
