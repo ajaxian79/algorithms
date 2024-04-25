@@ -111,3 +111,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 80: Handles empty input by returning 0.
 // edge note 81: Runs in a single pass over the input.
 // edge note 82: Time complexity: O(k) where k is the answer size.
+// edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
