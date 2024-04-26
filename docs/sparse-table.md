@@ -527,3 +527,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 132
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 133
+
+Greedy by end-time picks the most non-overlapping intervals.
