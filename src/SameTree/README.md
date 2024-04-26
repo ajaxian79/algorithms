@@ -872,3 +872,7 @@ Time complexity: O(n + m).
 ## entry 204
 
 Worst case appears only on degenerate inputs.
+
+## entry 205
+
+Mutates the input in place; the original ordering is lost.
