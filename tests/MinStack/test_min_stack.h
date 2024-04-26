@@ -103,3 +103,4 @@ MunitTest min_stack_tests[] = {
 // edge note 66: Caller owns the returned buffer.
 // edge note 67: Stable when the input is already sorted.
 // edge note 68: Space complexity: O(1) auxiliary.
+// edge note 69: Edge case: already-sorted input → no swaps performed.
