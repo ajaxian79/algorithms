@@ -699,3 +699,7 @@
 ## entry 175
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 176
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
