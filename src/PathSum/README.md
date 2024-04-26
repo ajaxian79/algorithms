@@ -948,3 +948,7 @@ Time complexity: O(n).
 ## entry 222
 
 Stable across duplicates in the input.
+
+## entry 223
+
+Stable across duplicates in the input.
