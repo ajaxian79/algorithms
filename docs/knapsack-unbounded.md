@@ -647,3 +647,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 146
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 147
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
