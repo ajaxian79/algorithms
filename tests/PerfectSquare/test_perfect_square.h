@@ -116,3 +116,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 85: Allocates a single small fixed-size scratch buffer.
 // edge note 86: Uses a small fixed-size lookup table.
 // edge note 87: Time complexity: O(log n).
+// edge note 88: Handles empty input by returning 0.
