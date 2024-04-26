@@ -130,3 +130,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 18
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 19
+
+Edge case: input of all the same byte → exits on the first compare.
