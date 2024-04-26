@@ -619,3 +619,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 155
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 156
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
