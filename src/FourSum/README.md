@@ -928,3 +928,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 217
 
 Two passes: one to count, one to fill.
+
+## entry 218
+
+Edge case: reverse-sorted input → still O(n log n).
