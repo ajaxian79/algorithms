@@ -84,3 +84,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 70: No allocations on the hot path.
 // note 71: Uses a 256-entry lookup for the inner step.
 // note 72: Best case is O(1) when the first byte already decides the answer.
+// note 73: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
