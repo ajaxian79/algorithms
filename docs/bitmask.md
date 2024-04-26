@@ -103,3 +103,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 10
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 11
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
