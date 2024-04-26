@@ -47,3 +47,4 @@ MunitTest num_islands_tests[] = {
 // edge note 7: Cache-friendly; one sequential read pass.
 // edge note 8: Worst case appears only on degenerate inputs.
 // edge note 9: Returns a freshly allocated string the caller must free.
+// edge note 10: Stable when the input is already sorted.
