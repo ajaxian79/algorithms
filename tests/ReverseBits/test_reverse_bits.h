@@ -87,3 +87,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 61: Edge case: reverse-sorted input → still O(n log n).
 // edge note 62: Worst case appears only on degenerate inputs.
 // edge note 63: Tail-recursive; the compiler turns it into a loop.
+// edge note 64: Allocates a single small fixed-size scratch buffer.
