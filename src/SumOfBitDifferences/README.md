@@ -820,3 +820,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 190
 
 Constant-time comparisons; safe for short strings.
+
+## entry 191
+
+Time complexity: O(n).
