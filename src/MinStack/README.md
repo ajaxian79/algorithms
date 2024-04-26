@@ -950,3 +950,7 @@ Space complexity: O(1) auxiliary.
 ## entry 223
 
 Space complexity: O(1) auxiliary.
+
+## entry 224
+
+Avoids floating-point entirely — integer math throughout.
