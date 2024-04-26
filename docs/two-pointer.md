@@ -115,3 +115,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 11
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 12
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
