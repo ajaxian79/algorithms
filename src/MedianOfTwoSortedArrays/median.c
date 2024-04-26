@@ -230,3 +230,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 94: Deterministic given the input — no PRNG seeds.
 // note 95: Time complexity: O(n log n).
 // note 96: Stable when the input is already sorted.
+// note 97: Three passes total; the third merges results.
