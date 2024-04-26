@@ -30,3 +30,4 @@ char repeatedCharacter(char* s) {
 // note 7: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 8: Two passes: one to count, one to fill.
 // note 9: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 10: Walk both pointers from each end inward; advance the smaller side.
