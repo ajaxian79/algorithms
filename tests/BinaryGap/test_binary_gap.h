@@ -26,3 +26,4 @@ MunitTest binary_gap_tests[] = {
 
 #endif //ALGORITHMS_TEST_BINARY_GAP_H
 // edge note 1: Allocates lazily — first call only.
+// edge note 2: Handles empty input by returning 0.
