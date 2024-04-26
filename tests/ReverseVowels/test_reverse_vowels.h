@@ -45,3 +45,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 6: Time complexity: O(1).
 // edge note 7: Thread-safe so long as the input is not mutated concurrently.
 // edge note 8: Branchless inner loop after sorting.
+// edge note 9: No allocations on the hot path.
