@@ -555,3 +555,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 139
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 140
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
