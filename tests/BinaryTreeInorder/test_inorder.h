@@ -130,3 +130,4 @@ MunitTest inorder_tests[] = {
 // edge note 92: Space complexity: O(h) for the tree height.
 // edge note 93: Time complexity: O(log n).
 // edge note 94: Time complexity: O(n log n).
+// edge note 95: Deterministic given the input — no PRNG seeds.
