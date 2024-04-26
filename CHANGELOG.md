@@ -33667,3 +33667,7 @@
 ## entry 8417
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 8418
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
