@@ -145,3 +145,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 79: Two passes: one to count, one to fill.
 // note 80: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 81: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 82: Time complexity: O(1).
