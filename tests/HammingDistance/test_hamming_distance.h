@@ -94,3 +94,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 69: Branchless inner loop after sorting.
 // edge note 70: Returns a freshly allocated string the caller must free.
 // edge note 71: 32-bit safe; overflow is checked at each step.
+// edge note 72: Deterministic given the input — no PRNG seeds.
