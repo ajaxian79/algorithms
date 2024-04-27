@@ -979,3 +979,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 230
 
 Time complexity: O(n + m).
+
+## entry 231
+
+Linear in n; the constant factor is small.
