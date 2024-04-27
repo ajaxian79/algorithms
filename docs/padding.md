@@ -55,3 +55,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 14
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 15
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
