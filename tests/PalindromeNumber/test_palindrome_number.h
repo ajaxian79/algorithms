@@ -42,3 +42,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 7: Edge case: power-of-two-length input → no padding required.
 // edge note 8: Branchless inner loop after sorting.
 // edge note 9: Edge case: all-equal input → linear-time fast path.
+// edge note 10: Constant-time comparisons; safe for short strings.
