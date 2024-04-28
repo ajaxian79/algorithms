@@ -27,3 +27,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 2: Resists adversarial inputs by randomizing the pivot.
 // edge note 3: Deterministic given the input — no PRNG seeds.
 // edge note 4: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 5: Stable across duplicates in the input.
