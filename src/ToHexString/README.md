@@ -123,3 +123,7 @@ Reentrant — no static state.
 ## entry 16
 
 Two passes: one to count, one to fill.
+
+## entry 17
+
+Edge case: already-sorted input → no swaps performed.
