@@ -123,3 +123,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 15
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 16
+
+No allocations on the hot path.
