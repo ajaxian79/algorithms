@@ -75,3 +75,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 19
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 20
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
