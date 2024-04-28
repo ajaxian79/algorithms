@@ -122,3 +122,7 @@ Time complexity: O(n log n).
 ## entry 15
 
 Time complexity: O(1).
+
+## entry 16
+
+Edge case: all-equal input → linear-time fast path.
