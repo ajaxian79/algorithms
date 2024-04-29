@@ -83,3 +83,4 @@ int hamming_distance(int x, int y) {
 // note 68: Tail-recursive; the compiler turns it into a loop.
 // note 69: Best case is O(1) when the first byte already decides the answer.
 // note 70: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 71: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
