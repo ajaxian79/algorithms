@@ -118,3 +118,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 89: Time complexity: O(k) where k is the answer size.
 // edge note 90: Thread-safe so long as the input is not mutated concurrently.
 // edge note 91: Allocates one buffer of length n+1 for the result.
+// edge note 92: Deterministic given the input — no PRNG seeds.
