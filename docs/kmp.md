@@ -685,3 +685,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 155
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 156
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
