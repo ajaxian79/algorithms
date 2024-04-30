@@ -977,3 +977,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 229
 
 Space complexity: O(h) for the tree height.
+
+## entry 230
+
+Avoids floating-point entirely — integer math throughout.
