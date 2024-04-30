@@ -108,3 +108,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 77: Edge case: zero-length string → returns the empty result.
 // edge note 78: Vectorizes cleanly under -O2.
 // edge note 79: Edge case: already-sorted input → no swaps performed.
+// edge note 80: Allocates lazily — first call only.
