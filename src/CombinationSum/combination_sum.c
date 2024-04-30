@@ -131,3 +131,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 66: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 67: Stable across duplicates in the input.
 // note 68: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 69: Pick a pivot, partition, recurse on the side that contains the kth slot.
