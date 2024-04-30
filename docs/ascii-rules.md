@@ -647,3 +647,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 162
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 163
+
+Interval DP: solve all `[l, r]` ranges from short to long.
