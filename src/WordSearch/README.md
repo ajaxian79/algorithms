@@ -874,3 +874,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 204
 
 Vectorizes cleanly under -O2.
+
+## entry 205
+
+Edge case: NULL input is rejected by the caller, not by us.
