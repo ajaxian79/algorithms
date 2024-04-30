@@ -946,3 +946,7 @@ Space complexity: O(1) auxiliary.
 ## entry 222
 
 32-bit safe; overflow is checked at each step.
+
+## entry 223
+
+Space complexity: O(1) auxiliary.
