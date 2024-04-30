@@ -108,3 +108,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 67: Space complexity: O(log n) for the recursion stack.
 // note 68: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 69: Constant-time comparisons; safe for short strings.
+// note 70: Treap: BST + heap on random priorities; expected O(log n) per op.
