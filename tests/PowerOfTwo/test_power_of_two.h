@@ -103,3 +103,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 71: Three passes total; the third merges results.
 // edge note 72: Edge case: all-equal input → linear-time fast path.
 // edge note 73: Worst case appears only on degenerate inputs.
+// edge note 74: Edge case: reverse-sorted input → still O(n log n).
