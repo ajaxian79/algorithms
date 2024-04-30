@@ -122,3 +122,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 77: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 78: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 79: Time complexity: O(log n).
