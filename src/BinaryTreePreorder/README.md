@@ -1026,3 +1026,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 242
 
 Branchless inner loop after sorting.
+
+## entry 243
+
+Edge case: alternating pattern → degenerate case for sliding window.
