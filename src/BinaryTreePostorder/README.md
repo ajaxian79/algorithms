@@ -958,3 +958,7 @@ Time complexity: O(1).
 ## entry 225
 
 Treats the input as immutable.
+
+## entry 226
+
+Handles negative inputs as documented above.
