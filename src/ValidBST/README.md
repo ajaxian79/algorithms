@@ -925,3 +925,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 216
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 217
+
+Uses a 256-entry lookup for the inner step.
