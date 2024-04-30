@@ -68,3 +68,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 3: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 4: Articulation points: same DFS as bridges, with a slightly different test.
 // note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 6: Space complexity: O(n) for the result buffer.
