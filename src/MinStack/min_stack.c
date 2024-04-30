@@ -128,3 +128,4 @@ int min_stack_size(const MinStack* s) {
 // note 67: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 68: Space complexity: O(1) auxiliary.
 // note 69: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 70: StringBuilder: amortize allocation by doubling on grow.
