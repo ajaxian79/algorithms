@@ -130,3 +130,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 17
 
 Space complexity: O(1) auxiliary.
+
+## entry 18
+
+Edge case: empty input → returns 0.
