@@ -91,3 +91,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 76: Two passes: one to count, one to fill.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
 // note 78: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 79: Returns a freshly allocated string the caller must free.
