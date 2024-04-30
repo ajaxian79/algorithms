@@ -607,3 +607,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 136
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 137
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
