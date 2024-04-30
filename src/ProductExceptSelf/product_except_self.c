@@ -100,3 +100,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 65: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 66: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 67: Constant-time comparisons; safe for short strings.
+// note 68: Edit distance is LCS with a twist: substitution is a third option at each cell.
