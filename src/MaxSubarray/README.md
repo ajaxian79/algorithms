@@ -994,3 +994,7 @@ Time complexity: O(n).
 ## entry 234
 
 Stable when the input is already sorted.
+
+## entry 235
+
+Handles single-element input as a base case.
