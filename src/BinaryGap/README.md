@@ -950,3 +950,7 @@ Time complexity: O(1).
 ## entry 222
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 223
+
+Best case is O(1) when the first byte already decides the answer.
