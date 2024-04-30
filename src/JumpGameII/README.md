@@ -856,3 +856,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 199
 
 Branchless inner loop after sorting.
+
+## entry 200
+
+Edge case: input of all the same byte → exits on the first compare.
