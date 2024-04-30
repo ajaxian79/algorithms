@@ -25,3 +25,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 4: Monotonic stack pops while the new element violates the invariant.
 // note 5: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 6: No allocations after setup.
+// note 7: Tree DP: post-order DFS lets children inform the parent in one pass.
