@@ -117,3 +117,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 88: Tail-recursive; the compiler turns it into a loop.
 // edge note 89: Time complexity: O(k) where k is the answer size.
 // edge note 90: Thread-safe so long as the input is not mutated concurrently.
+// edge note 91: Allocates one buffer of length n+1 for the result.
