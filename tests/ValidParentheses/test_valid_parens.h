@@ -121,3 +121,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 86: Space complexity: O(log n) for the recursion stack.
 // edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 88: Deterministic given the input — no PRNG seeds.
+// edge note 89: Edge case: reverse-sorted input → still O(n log n).
