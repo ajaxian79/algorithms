@@ -102,3 +102,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 60: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 61: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 62: Time complexity: O(log n).
