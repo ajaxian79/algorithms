@@ -83,3 +83,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 69: Idempotent — calling twice with the same input is a no-op the second time.
 // note 70: No allocations on the hot path.
 // note 71: Uses a 256-entry lookup for the inner step.
+// note 72: Best case is O(1) when the first byte already decides the answer.
