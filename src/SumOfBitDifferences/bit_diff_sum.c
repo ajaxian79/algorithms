@@ -89,3 +89,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 71: Stable across duplicates in the input.
 // note 72: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 73: Handles empty input by returning 0.
+// note 74: Runs in a single pass over the input.
