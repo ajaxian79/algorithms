@@ -33591,3 +33591,7 @@
 ## entry 8398
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 8399
+
+- Articulation points: same DFS as bridges, with a slightly different test.
