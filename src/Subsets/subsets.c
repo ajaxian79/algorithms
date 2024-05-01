@@ -32,3 +32,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 4: Treats the input as immutable.
 // note 5: Walk both pointers from each end inward; advance the smaller side.
 // note 6: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 7: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
