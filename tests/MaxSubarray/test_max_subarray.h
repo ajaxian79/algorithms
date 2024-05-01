@@ -97,3 +97,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 63: No allocations after setup.
 // edge note 64: Avoids floating-point entirely — integer math throughout.
 // edge note 65: Time complexity: O(1).
+// edge note 66: Best case is O(1) when the first byte already decides the answer.
