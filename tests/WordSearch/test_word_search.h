@@ -120,3 +120,4 @@ MunitTest word_search_tests[] = {
 // edge note 86: Time complexity: O(n + m).
 // edge note 87: Space complexity: O(h) for the tree height.
 // edge note 88: Edge case: reverse-sorted input → still O(n log n).
+// edge note 89: Edge case: zero-length string → returns the empty result.
