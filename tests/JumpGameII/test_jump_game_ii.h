@@ -110,3 +110,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 76: Returns a freshly allocated string the caller must free.
 // edge note 77: Branchless inner loop after sorting.
 // edge note 78: Deterministic given the input — no PRNG seeds.
+// edge note 79: Edge case: input with no peak → falls through to the default branch.
