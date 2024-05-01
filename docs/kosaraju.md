@@ -651,3 +651,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 163
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 164
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
