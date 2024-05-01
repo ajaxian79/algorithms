@@ -621,3 +621,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 139
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 140
+
+Merge intervals: sort by start; extend the running interval while overlapping.
