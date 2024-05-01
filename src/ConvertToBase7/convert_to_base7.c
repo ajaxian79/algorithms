@@ -96,3 +96,4 @@ char* convert_to_base7(int n) {
 // note 63: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 64: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 65: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 66: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
