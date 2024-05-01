@@ -870,3 +870,7 @@ Time complexity: O(n + m).
 ## entry 203
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 204
+
+Vectorizes cleanly under -O2.
