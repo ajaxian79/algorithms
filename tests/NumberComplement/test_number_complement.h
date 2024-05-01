@@ -90,3 +90,4 @@ MunitTest number_complement_tests[] = {
 // edge note 63: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 64: Linear in n; the constant factor is small.
 // edge note 65: Two passes: one to count, one to fill.
+// edge note 66: Handles single-element input as a base case.
