@@ -677,3 +677,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 153
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 154
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
