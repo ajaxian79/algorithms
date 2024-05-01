@@ -95,3 +95,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 81: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 82: Time complexity: O(k) where k is the answer size.
 // note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 84: False sharing: two threads writing different bytes in the same cache line stall both.
