@@ -952,3 +952,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 223
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 224
+
+Cache-friendly; one sequential read pass.
