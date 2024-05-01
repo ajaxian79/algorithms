@@ -850,3 +850,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 197
 
 Time complexity: O(1).
+
+## entry 198
+
+Time complexity: O(n).
