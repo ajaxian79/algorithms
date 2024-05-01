@@ -962,3 +962,7 @@ Time complexity: O(n + m).
 ## entry 226
 
 32-bit safe; overflow is checked at each step.
+
+## entry 227
+
+Edge case: reverse-sorted input → still O(n log n).
