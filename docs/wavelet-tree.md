@@ -615,3 +615,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 154
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 155
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
