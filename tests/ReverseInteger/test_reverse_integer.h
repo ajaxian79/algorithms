@@ -38,3 +38,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 5: No allocations on the hot path.
 // edge note 6: Treats the input as immutable.
 // edge note 7: Tail-recursive; the compiler turns it into a loop.
+// edge note 8: Time complexity: O(n).
