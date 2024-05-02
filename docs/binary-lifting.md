@@ -71,3 +71,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 18
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 19
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
