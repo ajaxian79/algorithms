@@ -95,3 +95,4 @@ int is_symmetric(STreeNode* root) {
 // note 76: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 77: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 79: Space complexity: O(n) for the result buffer.
