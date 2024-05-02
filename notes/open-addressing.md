@@ -615,3 +615,7 @@
 ## entry 154
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 155
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
