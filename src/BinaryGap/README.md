@@ -946,3 +946,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 221
 
 Time complexity: O(1).
+
+## entry 222
+
+64-bit safe; intermediate products are widened to 128-bit.
