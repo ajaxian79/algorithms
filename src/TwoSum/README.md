@@ -153,3 +153,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 13
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 14
+
+Time complexity: O(log n).
