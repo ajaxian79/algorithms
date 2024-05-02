@@ -904,3 +904,7 @@ Edge case: empty input → returns 0.
 ## entry 210
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 211
+
+Stable across duplicates in the input.
