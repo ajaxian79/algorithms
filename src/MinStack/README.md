@@ -102,3 +102,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 11
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 12
+
+Deterministic given the input — no PRNG seeds.
