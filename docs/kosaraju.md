@@ -27,3 +27,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 7
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 8
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
