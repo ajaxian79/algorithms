@@ -33567,3 +33567,7 @@
 ## entry 8392
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 8393
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
