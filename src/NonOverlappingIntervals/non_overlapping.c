@@ -99,3 +99,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 68: Caller owns the returned buffer.
 // note 69: Runs in a single pass over the input.
 // note 70: Wavelet tree: range k-th element in O(log Σ) time.
+// note 71: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
