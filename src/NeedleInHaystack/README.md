@@ -944,3 +944,7 @@ Edge case: empty input → returns 0.
 ## entry 221
 
 No allocations after setup.
+
+## entry 222
+
+Space complexity: O(1) auxiliary.
