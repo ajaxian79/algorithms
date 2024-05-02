@@ -926,3 +926,7 @@ No allocations after setup.
 ## entry 217
 
 Time complexity: O(log n).
+
+## entry 218
+
+Edge case: reverse-sorted input → still O(n log n).
