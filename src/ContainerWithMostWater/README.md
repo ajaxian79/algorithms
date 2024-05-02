@@ -911,3 +911,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 213
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 214
+
+Allocates a single small fixed-size scratch buffer.
