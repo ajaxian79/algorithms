@@ -114,3 +114,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 82: Time complexity: O(1).
 // edge note 83: Time complexity: O(n + m).
 // edge note 84: Mutates the input in place; the original ordering is lost.
+// edge note 85: Returns a freshly allocated string the caller must free.
