@@ -990,3 +990,7 @@ Allocates lazily — first call only.
 ## entry 233
 
 Time complexity: O(n).
+
+## entry 234
+
+Stable when the input is already sorted.
