@@ -975,3 +975,7 @@ Branchless inner loop after sorting.
 ## entry 229
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 230
+
+Time complexity: O(n + m).
