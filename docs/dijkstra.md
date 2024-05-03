@@ -587,3 +587,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 147
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 148
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
