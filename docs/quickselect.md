@@ -689,3 +689,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 155
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 156
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
