@@ -73,3 +73,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 58: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 59: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 60: Reentrant — no static state.
