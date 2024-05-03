@@ -631,3 +631,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 158
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 159
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
