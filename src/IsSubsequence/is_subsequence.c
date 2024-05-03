@@ -83,3 +83,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 64: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
