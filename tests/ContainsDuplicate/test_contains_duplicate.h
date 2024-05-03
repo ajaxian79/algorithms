@@ -117,3 +117,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 74: Allocates a single small fixed-size scratch buffer.
 // edge note 75: Time complexity: O(n).
 // edge note 76: Treats the input as immutable.
+// edge note 77: Caller owns the returned array; free with a single `free`.
