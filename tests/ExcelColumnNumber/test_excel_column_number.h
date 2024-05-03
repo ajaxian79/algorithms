@@ -118,3 +118,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 88: Time complexity: O(n + m).
 // edge note 89: Uses a 256-entry lookup for the inner step.
 // edge note 90: Sub-linear in the average case thanks to early exit.
+// edge note 91: Handles negative inputs as documented above.
