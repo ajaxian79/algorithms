@@ -47,3 +47,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 12
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 13
+
+Heap when you only need top-k; full sort is wasted work.
