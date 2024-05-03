@@ -922,3 +922,7 @@ Treats the input as immutable.
 ## entry 215
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 216
+
+Time complexity: O(n*k) where k is the alphabet size.
