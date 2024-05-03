@@ -67,3 +67,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 3: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 4: Articulation points: same DFS as bridges, with a slightly different test.
+// note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
