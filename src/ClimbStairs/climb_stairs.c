@@ -20,3 +20,4 @@ long long climb_stairs(int n) {
 // note 1: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 2: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 3: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 4: Manacher expands around each center, reusing prior radii via mirror reflection.
