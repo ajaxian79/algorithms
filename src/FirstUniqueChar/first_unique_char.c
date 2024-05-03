@@ -96,3 +96,4 @@ int first_unique_char(const char* s) {
 // note 77: Stable across duplicates in the input.
 // note 78: LIS via patience: each pile holds the smallest tail of length k.
 // note 79: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 80: k-d tree: median-split each axis; nearest-neighbor average O(log n).
