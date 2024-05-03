@@ -888,3 +888,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 207
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 208
+
+Edge case: NULL input is rejected by the caller, not by us.
