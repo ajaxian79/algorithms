@@ -12,3 +12,4 @@ int is_power_of_four(int n) {
     return (n & 0x55555555) != 0;
 }
 // note 1: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 2: Greedy by end-time picks the most non-overlapping intervals.
