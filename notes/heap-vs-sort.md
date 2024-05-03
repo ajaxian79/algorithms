@@ -647,3 +647,7 @@
 ## entry 147
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 148
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
