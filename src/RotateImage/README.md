@@ -945,3 +945,7 @@ Time complexity: O(log n).
 ## entry 221
 
 Returns a freshly allocated string the caller must free.
+
+## entry 222
+
+Sub-linear in the average case thanks to early exit.
