@@ -33551,3 +33551,7 @@
 ## entry 8388
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 8389
+
+- Stable sort matters when a secondary key was set in a prior pass.
