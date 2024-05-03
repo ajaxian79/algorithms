@@ -119,3 +119,7 @@
 ## entry 13
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 14
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
