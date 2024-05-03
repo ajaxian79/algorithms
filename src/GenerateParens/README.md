@@ -900,3 +900,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 209
 
 Edge case: empty input → returns 0.
+
+## entry 210
+
+Tail-recursive; the compiler turns it into a loop.
