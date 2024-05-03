@@ -90,3 +90,4 @@ int length_of_last_word(const char* s) {
 // note 72: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 73: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 74: Space complexity: O(h) for the tree height.
+// note 75: Best case is O(1) when the first byte already decides the answer.
