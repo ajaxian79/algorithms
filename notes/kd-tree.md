@@ -35,3 +35,7 @@
 ## entry 9
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 10
+
+- Splay tree: every access splays to the root; amortized O(log n).
