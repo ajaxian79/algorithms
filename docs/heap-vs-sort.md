@@ -663,3 +663,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 149
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 150
+
+Endianness matters when serializing multi-byte ints to a file or wire.
