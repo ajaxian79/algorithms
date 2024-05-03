@@ -575,3 +575,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 144
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 145
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
