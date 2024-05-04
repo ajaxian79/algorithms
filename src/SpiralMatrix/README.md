@@ -862,3 +862,7 @@ Uses a small fixed-size lookup table.
 ## entry 200
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 201
+
+Time complexity: O(n*k) where k is the alphabet size.
