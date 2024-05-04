@@ -571,3 +571,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 143
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 144
+
+StringBuilder: amortize allocation by doubling on grow.
