@@ -129,3 +129,7 @@ Three passes total; the third merges results.
 ## entry 17
 
 Space complexity: O(1) auxiliary.
+
+## entry 18
+
+Idempotent — calling twice with the same input is a no-op the second time.
