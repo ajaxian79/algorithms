@@ -96,3 +96,4 @@ char* to_hex_string(int n) {
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 65: Heap when you only need top-k; full sort is wasted work.
+// note 66: Polynomial rolling hash with two moduli kills almost all collisions in practice.
