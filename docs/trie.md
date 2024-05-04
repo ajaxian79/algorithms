@@ -641,3 +641,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 144
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 145
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
