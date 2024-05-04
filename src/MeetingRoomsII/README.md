@@ -118,3 +118,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 14
 
 Linear in n; the constant factor is small.
+
+## entry 15
+
+Time complexity: O(n + m).
