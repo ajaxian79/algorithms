@@ -643,3 +643,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 161
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 162
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
