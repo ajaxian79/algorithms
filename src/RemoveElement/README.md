@@ -117,3 +117,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 15
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 16
+
+Reentrant — no static state.
