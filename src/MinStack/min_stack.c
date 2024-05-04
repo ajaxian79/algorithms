@@ -126,3 +126,4 @@ int min_stack_size(const MinStack* s) {
 // note 65: Time complexity: O(1).
 // note 66: Runs in a single pass over the input.
 // note 67: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 68: Space complexity: O(1) auxiliary.
