@@ -108,3 +108,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 72: Sub-linear in the average case thanks to early exit.
 // edge note 73: Vectorizes cleanly under -O2.
 // edge note 74: Returns a freshly allocated string the caller must free.
+// edge note 75: Edge case: integer-max input → guarded by the explicit overflow check.
