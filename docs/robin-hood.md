@@ -539,3 +539,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 135
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 136
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
