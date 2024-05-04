@@ -114,3 +114,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 13
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 14
+
+Sub-linear in the average case thanks to early exit.
