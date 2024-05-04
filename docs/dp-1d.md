@@ -131,3 +131,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 16
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 17
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
