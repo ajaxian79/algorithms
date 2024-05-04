@@ -930,3 +930,7 @@ Treats the input as immutable.
 ## entry 217
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 218
+
+Uses a small fixed-size lookup table.
