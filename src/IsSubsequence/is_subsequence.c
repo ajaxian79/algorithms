@@ -82,3 +82,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
 // note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 64: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
