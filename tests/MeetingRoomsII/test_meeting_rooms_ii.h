@@ -40,3 +40,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 9: Branchless inner loop after sorting.
 // edge note 10: Resists adversarial inputs by randomizing the pivot.
 // edge note 11: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 12: Space complexity: O(n) for the result buffer.
