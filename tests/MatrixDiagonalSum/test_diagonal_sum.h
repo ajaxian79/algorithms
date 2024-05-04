@@ -103,3 +103,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 75: Linear in n; the constant factor is small.
 // edge note 76: Uses a 256-entry lookup for the inner step.
 // edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 78: Caller owns the returned buffer.
