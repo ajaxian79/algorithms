@@ -563,3 +563,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 141
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 142
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
