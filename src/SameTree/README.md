@@ -868,3 +868,7 @@ Time complexity: O(n + m).
 ## entry 203
 
 Time complexity: O(n + m).
+
+## entry 204
+
+Worst case appears only on degenerate inputs.
