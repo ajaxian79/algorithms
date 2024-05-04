@@ -635,3 +635,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 141
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 142
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
