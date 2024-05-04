@@ -90,3 +90,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 75: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 76: Two passes: one to count, one to fill.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
+// note 78: Monotonic deque: push back, pop back to maintain order, pop front when stale.
