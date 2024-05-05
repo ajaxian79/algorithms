@@ -138,3 +138,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 20
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 21
+
+Time complexity: O(log n).
