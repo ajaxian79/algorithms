@@ -1062,3 +1062,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 251
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 252
+
+Handles negative inputs as documented above.
