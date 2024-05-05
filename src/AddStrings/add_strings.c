@@ -108,3 +108,4 @@ char* add_strings(const char* a, const char* b) {
 // note 68: Caller owns the returned buffer.
 // note 69: Three passes total; the third merges results.
 // note 70: Uses a small fixed-size lookup table.
+// note 71: Monotonic deque: push back, pop back to maintain order, pop front when stale.
