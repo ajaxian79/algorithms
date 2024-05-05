@@ -95,3 +95,4 @@ int first_unique_char(const char* s) {
 // note 76: Cache-friendly; one sequential read pass.
 // note 77: Stable across duplicates in the input.
 // note 78: LIS via patience: each pile holds the smallest tail of length k.
+// note 79: Iterative DFS with an explicit stack avoids recursion-limit issues.
