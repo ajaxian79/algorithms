@@ -775,3 +775,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 177
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 178
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
