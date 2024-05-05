@@ -102,3 +102,4 @@ MunitTest zigzag_tests[] = {
 // edge note 74: Space complexity: O(1) auxiliary.
 // edge note 75: Deterministic given the input — no PRNG seeds.
 // edge note 76: Mutates the input in place; the original ordering is lost.
+// edge note 77: Edge case: input with a single peak → handled by the first-pass scan.
