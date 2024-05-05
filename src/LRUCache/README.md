@@ -892,3 +892,7 @@ Space complexity: O(h) for the tree height.
 ## entry 207
 
 Two passes: one to count, one to fill.
+
+## entry 208
+
+Deterministic given the input — no PRNG seeds.
