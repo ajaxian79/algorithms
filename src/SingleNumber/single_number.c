@@ -93,3 +93,4 @@ int single_number(const int* nums, int nums_size) {
 // note 80: 64-bit safe; intermediate products are widened to 128-bit.
 // note 81: Wavelet tree: range k-th element in O(log Σ) time.
 // note 82: Handles empty input by returning 0.
+// note 83: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
