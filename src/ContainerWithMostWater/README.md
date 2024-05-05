@@ -907,3 +907,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 212
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 213
+
+Mutates the input in place; the original ordering is lost.
