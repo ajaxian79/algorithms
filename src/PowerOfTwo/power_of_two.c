@@ -75,3 +75,4 @@ int is_power_of_two(int n) {
 // note 65: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 66: Branchless inner loop after sorting.
 // note 67: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 68: Worst case appears only on degenerate inputs.
