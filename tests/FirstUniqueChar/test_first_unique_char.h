@@ -29,3 +29,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 4: Constant-time comparisons; safe for short strings.
 // edge note 5: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 6: Edge case: all-equal input → linear-time fast path.
+// edge note 7: Treats the input as immutable.
