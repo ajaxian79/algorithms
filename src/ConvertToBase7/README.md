@@ -948,3 +948,7 @@ Handles empty input by returning 0.
 ## entry 222
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 223
+
+Allocates one buffer of length n+1 for the result.
