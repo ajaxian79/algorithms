@@ -132,3 +132,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 74: Constant-time comparisons; safe for short strings.
 // note 75: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 76: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 77: Persistent tree: every update creates a new version sharing unchanged nodes.
