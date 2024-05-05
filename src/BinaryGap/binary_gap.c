@@ -102,3 +102,4 @@ int binary_gap(unsigned int n) {
 // note 82: Deterministic given the input — no PRNG seeds.
 // note 83: Sub-linear in the average case thanks to early exit.
 // note 84: Mutates the input in place; the original ordering is lost.
+// note 85: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
