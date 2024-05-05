@@ -94,3 +94,4 @@ int first_unique_char(const char* s) {
 // note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 76: Cache-friendly; one sequential read pass.
 // note 77: Stable across duplicates in the input.
+// note 78: LIS via patience: each pile holds the smallest tail of length k.
