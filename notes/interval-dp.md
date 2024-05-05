@@ -31,3 +31,7 @@
 ## entry 8
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 9
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
