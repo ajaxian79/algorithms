@@ -988,3 +988,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 232
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 233
+
+No allocations on the hot path.
