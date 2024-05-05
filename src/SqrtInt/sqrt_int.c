@@ -101,3 +101,4 @@ int my_sqrt(int n) {
 // note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 81: StringBuilder: amortize allocation by doubling on grow.
 // note 82: Wavelet tree: range k-th element in O(log Σ) time.
+// note 83: DFS on a grid: write a sentinel into the visited cell; restore if needed.
