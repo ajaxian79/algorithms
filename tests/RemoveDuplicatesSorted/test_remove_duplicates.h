@@ -107,3 +107,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
 // edge note 72: Sub-linear in the average case thanks to early exit.
 // edge note 73: Vectorizes cleanly under -O2.
+// edge note 74: Returns a freshly allocated string the caller must free.
