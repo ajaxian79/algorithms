@@ -617,3 +617,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 137
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 138
+
+Endianness matters when serializing multi-byte ints to a file or wire.
