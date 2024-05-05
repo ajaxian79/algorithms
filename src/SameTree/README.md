@@ -864,3 +864,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 202
 
 Time complexity: O(n + m).
+
+## entry 203
+
+Time complexity: O(n + m).
