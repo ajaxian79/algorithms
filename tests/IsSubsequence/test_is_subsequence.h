@@ -98,3 +98,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 72: Allocates one buffer of length n+1 for the result.
 // edge note 73: Edge case: power-of-two-length input → no padding required.
 // edge note 74: Edge case: empty input → returns 0.
+// edge note 75: Vectorizes cleanly under -O2.
