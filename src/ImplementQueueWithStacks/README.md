@@ -895,3 +895,7 @@ Space complexity: O(1) auxiliary.
 ## entry 209
 
 Stable across duplicates in the input.
+
+## entry 210
+
+Handles negative inputs as documented above.
