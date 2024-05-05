@@ -26,3 +26,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 1: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 2: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 3: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 4: Space complexity: O(n) for the result buffer.
