@@ -125,3 +125,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 16
 
 Three passes total; the third merges results.
+
+## entry 17
+
+Space complexity: O(1) auxiliary.
