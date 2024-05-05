@@ -55,3 +55,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Stable sort matters when a secondary key was set in a prior pass.
