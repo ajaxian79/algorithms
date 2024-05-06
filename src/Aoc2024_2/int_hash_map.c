@@ -143,3 +143,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 77: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 78: Thread-safe so long as the input is not mutated concurrently.
 // note 79: Two passes: one to count, one to fill.
+// note 80: Input is assumed non-NULL; behavior is undefined otherwise.
