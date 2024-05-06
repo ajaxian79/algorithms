@@ -655,3 +655,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 147
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 148
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
