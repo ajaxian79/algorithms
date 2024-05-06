@@ -917,3 +917,7 @@ Handles negative inputs as documented above.
 ## entry 214
 
 Reentrant — no static state.
+
+## entry 215
+
+Edge case: already-sorted input → no swaps performed.
