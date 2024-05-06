@@ -919,3 +919,7 @@ Stable across duplicates in the input.
 ## entry 214
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 215
+
+Space complexity: O(h) for the tree height.
