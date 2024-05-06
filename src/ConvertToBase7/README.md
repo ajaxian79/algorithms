@@ -944,3 +944,7 @@ Three passes total; the third merges results.
 ## entry 221
 
 Handles empty input by returning 0.
+
+## entry 222
+
+Edge case: input with one duplicate → handled without an extra pass.
