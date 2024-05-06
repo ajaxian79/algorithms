@@ -123,3 +123,4 @@ MunitTest happy_number_tests[] = {
 // edge note 95: Edge case: input with no peak → falls through to the default branch.
 // edge note 96: Branchless inner loop after sorting.
 // edge note 97: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 98: Edge case: input with a single peak → handled by the first-pass scan.
