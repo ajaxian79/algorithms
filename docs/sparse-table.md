@@ -519,3 +519,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 130
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 131
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
