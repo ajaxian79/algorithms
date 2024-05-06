@@ -681,3 +681,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 154
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 155
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
