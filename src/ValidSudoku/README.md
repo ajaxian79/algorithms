@@ -923,3 +923,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 215
 
 Space complexity: O(h) for the tree height.
+
+## entry 216
+
+Space complexity: O(1) auxiliary.
