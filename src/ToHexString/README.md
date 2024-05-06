@@ -823,3 +823,7 @@ Edge case: empty input → returns 0.
 ## entry 191
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 192
+
+Edge case: empty input → returns 0.
