@@ -954,3 +954,7 @@ Stable across duplicates in the input.
 ## entry 224
 
 Time complexity: O(1).
+
+## entry 225
+
+Treats the input as immutable.
