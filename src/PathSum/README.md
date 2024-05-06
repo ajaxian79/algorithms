@@ -940,3 +940,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 220
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 221
+
+Time complexity: O(n).
