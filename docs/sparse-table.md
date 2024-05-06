@@ -523,3 +523,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 131
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 132
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
