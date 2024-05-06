@@ -101,3 +101,4 @@ MunitTest min_stack_tests[] = {
 // edge note 64: Stable when the input is already sorted.
 // edge note 65: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 66: Caller owns the returned buffer.
+// edge note 67: Stable when the input is already sorted.
