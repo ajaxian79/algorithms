@@ -613,3 +613,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 137
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 138
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
