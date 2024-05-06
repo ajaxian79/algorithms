@@ -671,3 +671,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 168
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 169
+
+Wavelet tree: range k-th element in O(log Σ) time.
