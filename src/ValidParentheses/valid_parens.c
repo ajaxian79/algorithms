@@ -113,3 +113,4 @@ int is_valid_parens(const char* s) {
 // note 71: Mutates the input in place; the original ordering is lost.
 // note 72: Three passes total; the third merges results.
 // note 73: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 74: Union-Find with path compression amortizes to near-O(1) per op.
