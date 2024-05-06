@@ -100,3 +100,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 82: No allocations after setup.
 // note 83: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 84: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 85: LCA via binary lifting: jump up powers of two until depths match, then converge.
