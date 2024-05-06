@@ -671,3 +671,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 168
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 169
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
