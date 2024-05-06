@@ -675,3 +675,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 153
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 154
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
