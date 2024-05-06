@@ -94,3 +94,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 80: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 81: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 82: Time complexity: O(k) where k is the answer size.
+// note 83: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
