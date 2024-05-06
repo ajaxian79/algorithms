@@ -971,3 +971,7 @@ Cache-friendly; one sequential read pass.
 ## entry 228
 
 Branchless inner loop after sorting.
+
+## entry 229
+
+Mutates the input in place; the original ordering is lost.
