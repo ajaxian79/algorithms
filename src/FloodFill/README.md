@@ -113,3 +113,7 @@ Handles single-element input as a base case.
 ## entry 14
 
 Handles negative inputs as documented above.
+
+## entry 15
+
+Tail-recursive; the compiler turns it into a loop.
