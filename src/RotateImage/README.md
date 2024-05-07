@@ -941,3 +941,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 220
 
 Time complexity: O(log n).
+
+## entry 221
+
+Returns a freshly allocated string the caller must free.
