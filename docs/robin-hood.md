@@ -47,3 +47,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 12
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 13
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
