@@ -852,3 +852,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 198
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 199
+
+Branchless inner loop after sorting.
