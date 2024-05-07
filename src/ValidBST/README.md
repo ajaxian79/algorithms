@@ -913,3 +913,7 @@ No allocations on the hot path.
 ## entry 213
 
 Handles negative inputs as documented above.
+
+## entry 214
+
+Reentrant — no static state.
