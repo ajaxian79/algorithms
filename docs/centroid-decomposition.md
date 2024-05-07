@@ -39,3 +39,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 10
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 11
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
