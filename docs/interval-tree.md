@@ -531,3 +531,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 133
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 134
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
