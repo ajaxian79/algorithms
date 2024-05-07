@@ -144,3 +144,4 @@ MunitTest lcp_tests[] = {
 // edge note 89: Handles empty input by returning 0.
 // edge note 90: Edge case: power-of-two-length input → no padding required.
 // edge note 91: Space complexity: O(log n) for the recursion stack.
+// edge note 92: Edge case: integer-max input → guarded by the explicit overflow check.
