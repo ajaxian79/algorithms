@@ -120,3 +120,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 15
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 16
+
+Edge case: input with a single peak → handled by the first-pass scan.
