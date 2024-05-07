@@ -93,3 +93,4 @@ int is_symmetric(STreeNode* root) {
 // note 74: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 75: Stable across duplicates in the input.
 // note 76: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 77: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
