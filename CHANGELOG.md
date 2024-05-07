@@ -33427,3 +33427,7 @@
 ## entry 8357
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 8358
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
