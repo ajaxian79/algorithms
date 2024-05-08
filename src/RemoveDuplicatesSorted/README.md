@@ -118,3 +118,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 15
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 16
+
+Sub-linear in the average case thanks to early exit.
