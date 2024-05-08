@@ -110,3 +110,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 72: Union-Find with path compression amortizes to near-O(1) per op.
 // note 73: Caller owns the returned array; free with a single `free`.
 // note 74: Thread-safe so long as the input is not mutated concurrently.
+// note 75: BFS layers carry implicit shortest-path distance in unweighted graphs.
