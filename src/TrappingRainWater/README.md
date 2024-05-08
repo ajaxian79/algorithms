@@ -846,3 +846,7 @@ Time complexity: O(n log n).
 ## entry 196
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 197
+
+Time complexity: O(1).
