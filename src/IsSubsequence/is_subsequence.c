@@ -81,3 +81,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 61: Space complexity: O(h) for the tree height.
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
 // note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 64: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
