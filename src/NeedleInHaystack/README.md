@@ -940,3 +940,7 @@ Linear in n; the constant factor is small.
 ## entry 220
 
 Edge case: empty input → returns 0.
+
+## entry 221
+
+No allocations after setup.
