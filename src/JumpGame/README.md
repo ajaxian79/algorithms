@@ -969,3 +969,7 @@ Cache-friendly; one sequential read pass.
 ## entry 227
 
 Handles single-element input as a base case.
+
+## entry 228
+
+Edge case: reverse-sorted input → still O(n log n).
