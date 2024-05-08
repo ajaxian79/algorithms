@@ -127,3 +127,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 68: Space complexity: O(n) for the result buffer.
 // note 69: Time complexity: O(n + m).
 // note 70: StringBuilder: amortize allocation by doubling on grow.
+// note 71: Rope: tree of small string fragments; O(log n) concat and substring.
