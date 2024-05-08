@@ -627,3 +627,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 157
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 158
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
