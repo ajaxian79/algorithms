@@ -631,3 +631,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 142
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 143
+
+State compression: bitmask + integer encodes a small subset cheaply.
