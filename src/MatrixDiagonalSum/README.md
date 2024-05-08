@@ -126,3 +126,7 @@ Handles single-element input as a base case.
 ## entry 17
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 18
+
+Edge case: integer-max input → guarded by the explicit overflow check.
