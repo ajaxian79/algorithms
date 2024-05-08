@@ -884,3 +884,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 206
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 207
+
+Edge case: alternating pattern → degenerate case for sliding window.
