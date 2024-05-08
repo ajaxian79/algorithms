@@ -848,3 +848,7 @@ Handles single-element input as a base case.
 ## entry 197
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 198
+
+Space complexity: O(log n) for the recursion stack.
