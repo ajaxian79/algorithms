@@ -116,3 +116,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 73: Uses a small fixed-size lookup table.
 // edge note 74: Allocates a single small fixed-size scratch buffer.
 // edge note 75: Time complexity: O(n).
+// edge note 76: Treats the input as immutable.
