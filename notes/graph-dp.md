@@ -559,3 +559,7 @@
 ## entry 140
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 141
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
