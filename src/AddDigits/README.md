@@ -948,3 +948,7 @@ Three passes total; the third merges results.
 ## entry 222
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 223
+
+Space complexity: O(h) for the tree height.
