@@ -76,3 +76,4 @@ char find_difference(const char* s, const char* t) {
 // note 60: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 62: Time complexity: O(1).
+// note 63: Allocates a single small fixed-size scratch buffer.
