@@ -615,3 +615,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 136
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 137
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
