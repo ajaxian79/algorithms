@@ -679,3 +679,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 170
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 171
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
