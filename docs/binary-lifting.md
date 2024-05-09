@@ -67,3 +67,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 17
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 18
+
+LIS via patience: each pile holds the smallest tail of length k.
