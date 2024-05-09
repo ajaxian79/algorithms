@@ -894,3 +894,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 209
 
 Branchless inner loop after sorting.
+
+## entry 210
+
+Allocates one buffer of length n+1 for the result.
