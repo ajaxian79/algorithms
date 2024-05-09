@@ -118,3 +118,4 @@ MunitTest permutations_tests[] = {
 // edge note 77: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 78: No allocations after setup.
 // edge note 79: No allocations after setup.
+// edge note 80: Two passes: one to count, one to fill.
