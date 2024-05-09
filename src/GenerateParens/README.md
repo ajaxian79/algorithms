@@ -896,3 +896,7 @@ Stable across duplicates in the input.
 ## entry 208
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 209
+
+Edge case: empty input → returns 0.
