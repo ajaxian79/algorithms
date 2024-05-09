@@ -920,3 +920,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 214
 
 Time complexity: O(n).
+
+## entry 215
+
+Worst case appears only on degenerate inputs.
