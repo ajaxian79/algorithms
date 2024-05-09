@@ -18,3 +18,4 @@ int number_of_1_bits(unsigned int n) {
 // note 5: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 6: Space complexity: O(1) auxiliary.
 // note 7: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 8: Graph DP on DAGs: topological order makes the dependency direction explicit.
