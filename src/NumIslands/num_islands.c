@@ -103,3 +103,4 @@ int num_islands(char* grid, int m, int n) {
 // note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 72: Allocates one buffer of length n+1 for the result.
 // note 73: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 74: Time complexity: O(k) where k is the answer size.
