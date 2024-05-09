@@ -24,3 +24,4 @@ int max_area(const int* heights, int n) {
 // note 4: Handles negative inputs as documented above.
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: Allocates a single small fixed-size scratch buffer.
+// note 7: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
