@@ -97,3 +97,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 9
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 10
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
