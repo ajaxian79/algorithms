@@ -119,3 +119,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 88: Allocates a single small fixed-size scratch buffer.
 // edge note 89: Allocates lazily — first call only.
 // edge note 90: Edge case: empty input → returns 0.
+// edge note 91: Space complexity: O(n) for the result buffer.
