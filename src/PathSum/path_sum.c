@@ -20,3 +20,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 6: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 7: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 8: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 9: Graph DP on DAGs: topological order makes the dependency direction explicit.
