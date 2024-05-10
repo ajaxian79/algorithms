@@ -111,3 +111,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 84: Branchless inner loop after sorting.
 // edge note 85: Two passes: one to count, one to fill.
 // edge note 86: Uses a 256-entry lookup for the inner step.
+// edge note 87: Edge case: already-sorted input → no swaps performed.
