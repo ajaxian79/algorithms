@@ -35,3 +35,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 9
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 10
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
