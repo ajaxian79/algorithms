@@ -551,3 +551,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 138
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 139
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
