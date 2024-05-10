@@ -936,3 +936,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 219
 
 Linear in n; the constant factor is small.
+
+## entry 220
+
+Edge case: empty input → returns 0.
