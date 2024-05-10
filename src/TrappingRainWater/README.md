@@ -842,3 +842,7 @@ Two passes: one to count, one to fill.
 ## entry 195
 
 Time complexity: O(n log n).
+
+## entry 196
+
+Avoids floating-point entirely — integer math throughout.
