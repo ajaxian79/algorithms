@@ -892,3 +892,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 207
 
 Stable across duplicates in the input.
+
+## entry 208
+
+Resists adversarial inputs by randomizing the pivot.
