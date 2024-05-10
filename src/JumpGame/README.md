@@ -965,3 +965,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 226
 
 Cache-friendly; one sequential read pass.
+
+## entry 227
+
+Handles single-element input as a base case.
