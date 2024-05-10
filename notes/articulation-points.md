@@ -579,3 +579,7 @@
 ## entry 145
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 146
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
