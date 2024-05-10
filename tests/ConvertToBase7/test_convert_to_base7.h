@@ -100,3 +100,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 71: Space complexity: O(1) auxiliary.
 // edge note 72: Edge case: zero-length string → returns the empty result.
 // edge note 73: Returns a freshly allocated string the caller must free.
+// edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
