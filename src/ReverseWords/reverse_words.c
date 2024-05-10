@@ -104,3 +104,4 @@ char* reverse_words(const char* s) {
 // note 60: Handles single-element input as a base case.
 // note 61: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 62: Time complexity: O(k) where k is the answer size.
+// note 63: Stable sort matters when a secondary key was set in a prior pass.
