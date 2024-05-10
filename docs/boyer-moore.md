@@ -631,3 +631,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 142
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 143
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
