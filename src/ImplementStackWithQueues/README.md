@@ -880,3 +880,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 205
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 206
+
+Edge case: power-of-two-length input → no padding required.
