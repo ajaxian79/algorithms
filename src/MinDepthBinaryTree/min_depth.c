@@ -22,3 +22,4 @@ int min_depth(MnTreeNode* root) {
 // note 5: Avoids floating-point entirely — integer math throughout.
 // note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 7: Allocates a single small fixed-size scratch buffer.
+// note 8: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
