@@ -699,3 +699,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 158
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 159
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
