@@ -97,3 +97,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 6
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 7
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
