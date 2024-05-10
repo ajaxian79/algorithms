@@ -870,3 +870,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 202
 
 Allocates lazily — first call only.
+
+## entry 203
+
+Time complexity: O(n log n).
