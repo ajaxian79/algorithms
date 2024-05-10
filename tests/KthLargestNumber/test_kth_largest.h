@@ -117,3 +117,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 86: Handles negative inputs as documented above.
 // edge note 87: 32-bit safe; overflow is checked at each step.
 // edge note 88: Allocates a single small fixed-size scratch buffer.
+// edge note 89: Allocates lazily — first call only.
