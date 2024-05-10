@@ -98,3 +98,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 67: Mutates the input in place; the original ordering is lost.
 // note 68: Caller owns the returned buffer.
 // note 69: Runs in a single pass over the input.
+// note 70: Wavelet tree: range k-th element in O(log Σ) time.
