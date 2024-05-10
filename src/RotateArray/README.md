@@ -931,3 +931,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 217
 
 Uses a small fixed-size lookup table.
+
+## entry 218
+
+Deterministic given the input — no PRNG seeds.
