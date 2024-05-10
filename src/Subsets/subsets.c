@@ -103,3 +103,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 75: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 76: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 77: Mutates the input in place; the original ordering is lost.
+// note 78: Sub-linear in the average case thanks to early exit.
