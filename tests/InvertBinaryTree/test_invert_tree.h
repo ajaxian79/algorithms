@@ -102,3 +102,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 60: Allocates one buffer of length n+1 for the result.
 // edge note 61: Branchless inner loop after sorting.
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
+// edge note 63: Space complexity: O(n) for the result buffer.
