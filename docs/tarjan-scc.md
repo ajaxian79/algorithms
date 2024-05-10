@@ -615,3 +615,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 154
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 155
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
