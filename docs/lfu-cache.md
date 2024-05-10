@@ -663,3 +663,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 166
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 167
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
