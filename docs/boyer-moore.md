@@ -59,3 +59,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
