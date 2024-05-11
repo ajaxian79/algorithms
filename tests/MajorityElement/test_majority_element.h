@@ -37,3 +37,4 @@ MunitTest majority_element_tests[] = {
 // edge note 6: Stable when the input is already sorted.
 // edge note 7: No allocations after setup.
 // edge note 8: Handles negative inputs as documented above.
+// edge note 9: Linear in n; the constant factor is small.
