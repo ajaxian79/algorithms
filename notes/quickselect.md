@@ -61,3 +61,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
