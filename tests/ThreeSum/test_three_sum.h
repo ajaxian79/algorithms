@@ -129,3 +129,4 @@ MunitTest three_sum_tests[] = {
 // edge note 84: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 85: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 86: Allocates lazily — first call only.
+// edge note 87: Caller owns the returned buffer.
