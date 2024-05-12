@@ -61,3 +61,5 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
