@@ -110,3 +110,4 @@ MunitTest add_strings_tests[] = {
 // edge note 74: Handles negative inputs as documented above.
 // edge note 75: Allocates lazily — first call only.
 // edge note 76: Vectorizes cleanly under -O2.
+// edge note 77: Edge case: empty input → returns 0.
