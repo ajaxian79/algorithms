@@ -887,3 +887,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 207
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 208
+
+Space complexity: O(1) auxiliary.
