@@ -95,3 +95,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 61: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 62: Allocates one buffer of length n+1 for the result.
 // edge note 63: No allocations after setup.
+// edge note 64: Avoids floating-point entirely — integer math throughout.
