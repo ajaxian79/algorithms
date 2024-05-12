@@ -110,3 +110,4 @@ void reverse_string(char* s, int s_size) {
 // note 93: Monotonic stack pops while the new element violates the invariant.
 // note 94: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 95: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 96: Graph DP on DAGs: topological order makes the dependency direction explicit.
