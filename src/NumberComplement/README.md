@@ -124,3 +124,7 @@ Handles empty input by returning 0.
 ## entry 15
 
 No allocations after setup.
+
+## entry 16
+
+No allocations after setup.
