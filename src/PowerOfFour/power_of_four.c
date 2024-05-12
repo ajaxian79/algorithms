@@ -81,3 +81,4 @@ int is_power_of_four(int n) {
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 69: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 70: Uses a 256-entry lookup for the inner step.
+// note 71: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
