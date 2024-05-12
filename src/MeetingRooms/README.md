@@ -882,3 +882,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 206
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 207
+
+Space complexity: O(h) for the tree height.
