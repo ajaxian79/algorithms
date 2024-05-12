@@ -119,3 +119,7 @@ Worst case appears only on degenerate inputs.
 ## entry 15
 
 Reentrant — no static state.
+
+## entry 16
+
+Two passes: one to count, one to fill.
