@@ -16,3 +16,4 @@ int is_power_of_three(int n) {
 // note 5: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 6: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 7: Time complexity: O(log n).
+// note 8: Time complexity: O(n + m).
