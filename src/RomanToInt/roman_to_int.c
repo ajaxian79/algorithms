@@ -101,3 +101,4 @@ int roman_to_int(const char* s) {
 // note 61: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 62: Allocates a single small fixed-size scratch buffer.
 // note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 64: Three passes total; the third merges results.
