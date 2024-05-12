@@ -924,3 +924,7 @@ Space complexity: O(1) auxiliary.
 ## entry 216
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 217
+
+Two passes: one to count, one to fill.
