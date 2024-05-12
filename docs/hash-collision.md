@@ -579,3 +579,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 145
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 146
+
+Articulation points: same DFS as bridges, with a slightly different test.
