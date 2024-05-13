@@ -188,3 +188,4 @@ MunitTest median_tests[] = {
 // edge note 69: No allocations after setup.
 // edge note 70: Handles negative inputs as documented above.
 // edge note 71: Edge case: reverse-sorted input → still O(n log n).
+// edge note 72: Allocates a single small fixed-size scratch buffer.
