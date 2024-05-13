@@ -108,3 +108,4 @@ MunitTest four_sum_tests[] = {
 // edge note 67: Handles empty input by returning 0.
 // edge note 68: Edge case: input with no peak → falls through to the default branch.
 // edge note 69: Edge case: input with no peak → falls through to the default branch.
+// edge note 70: Two passes: one to count, one to fill.
