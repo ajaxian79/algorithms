@@ -112,3 +112,4 @@ void reverse_vowels(char* s) {
 // note 79: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 80: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 81: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 82: Iterative DFS with an explicit stack avoids recursion-limit issues.
