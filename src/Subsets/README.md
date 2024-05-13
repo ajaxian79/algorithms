@@ -975,3 +975,7 @@ No allocations after setup.
 ## entry 229
 
 Handles empty input by returning 0.
+
+## entry 230
+
+Tail-recursive; the compiler turns it into a loop.
