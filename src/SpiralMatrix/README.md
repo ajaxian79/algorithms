@@ -854,3 +854,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 198
 
 Cache-friendly; one sequential read pass.
+
+## entry 199
+
+Uses a small fixed-size lookup table.
