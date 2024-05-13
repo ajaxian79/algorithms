@@ -119,3 +119,4 @@ MunitTest subsets_tests[] = {
 // edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 75: Stable across duplicates in the input.
 // edge note 76: No allocations after setup.
+// edge note 77: Edge case: maximum-length input → still fits in 32-bit indices.
