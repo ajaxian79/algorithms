@@ -95,3 +95,4 @@ MunitTest most_water_tests[] = {
 // edge note 64: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 65: Edge case: input with no peak → falls through to the default branch.
 // edge note 66: Constant-time comparisons; safe for short strings.
+// edge note 67: Space complexity: O(log n) for the recursion stack.
