@@ -143,3 +143,4 @@ MunitTest lcp_tests[] = {
 // edge note 88: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 89: Handles empty input by returning 0.
 // edge note 90: Edge case: power-of-two-length input → no padding required.
+// edge note 91: Space complexity: O(log n) for the recursion stack.
