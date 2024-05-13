@@ -607,3 +607,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 152
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 153
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
