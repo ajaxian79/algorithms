@@ -667,3 +667,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 167
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 168
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
