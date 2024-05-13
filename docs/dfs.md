@@ -627,3 +627,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 141
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 142
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
