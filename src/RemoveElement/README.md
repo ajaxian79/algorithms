@@ -921,3 +921,7 @@ Stable when the input is already sorted.
 ## entry 216
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 217
+
+Sub-linear in the average case thanks to early exit.
