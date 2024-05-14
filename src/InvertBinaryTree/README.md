@@ -980,3 +980,7 @@ Branchless inner loop after sorting.
 ## entry 230
 
 Edge case: empty input → returns 0.
+
+## entry 231
+
+Constant-time comparisons; safe for short strings.
