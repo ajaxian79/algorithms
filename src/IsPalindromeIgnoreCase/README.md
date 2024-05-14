@@ -102,3 +102,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 11
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 12
+
+Handles single-element input as a base case.
