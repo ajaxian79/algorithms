@@ -61,3 +61,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
