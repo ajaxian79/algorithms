@@ -57,3 +57,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
