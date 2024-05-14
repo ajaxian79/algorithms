@@ -866,3 +866,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 201
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 202
+
+Allocates lazily — first call only.
