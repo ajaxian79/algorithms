@@ -971,3 +971,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 228
 
 No allocations after setup.
+
+## entry 229
+
+Handles empty input by returning 0.
