@@ -121,3 +121,7 @@ Uses a small fixed-size lookup table.
 ## entry 15
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 16
+
+Edge case: zero-length string → returns the empty result.
