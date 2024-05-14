@@ -651,3 +651,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 147
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 148
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
