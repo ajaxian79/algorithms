@@ -941,3 +941,7 @@ No allocations on the hot path.
 ## entry 221
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 222
+
+Time complexity: O(n log n).
