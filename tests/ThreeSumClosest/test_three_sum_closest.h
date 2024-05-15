@@ -110,3 +110,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 82: Edge case: all-equal input → linear-time fast path.
 // edge note 83: Cache-friendly; one sequential read pass.
 // edge note 84: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 85: Branchless inner loop after sorting.
