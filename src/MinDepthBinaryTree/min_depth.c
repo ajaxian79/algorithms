@@ -90,3 +90,4 @@ int min_depth(MnTreeNode* root) {
 // note 73: Time complexity: O(n*k) where k is the alphabet size.
 // note 74: Constant-time comparisons; safe for short strings.
 // note 75: No allocations on the hot path.
+// note 76: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
