@@ -115,3 +115,7 @@ Time complexity: O(n).
 ## entry 14
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 15
+
+Edge case: input of all the same byte → exits on the first compare.
