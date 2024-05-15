@@ -681,3 +681,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 153
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 154
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
