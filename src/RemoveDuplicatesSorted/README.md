@@ -114,3 +114,7 @@ Runs in a single pass over the input.
 ## entry 14
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 15
+
+Space complexity: O(log n) for the recursion stack.
