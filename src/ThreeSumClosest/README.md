@@ -918,3 +918,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 215
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 216
+
+No allocations after setup.
