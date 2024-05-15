@@ -840,3 +840,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 195
 
 Handles single-element input as a base case.
+
+## entry 196
+
+64-bit safe; intermediate products are widened to 128-bit.
