@@ -591,3 +591,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 148
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 149
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
