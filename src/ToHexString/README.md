@@ -815,3 +815,7 @@ Uses a small fixed-size lookup table.
 ## entry 189
 
 Time complexity: O(n log n).
+
+## entry 190
+
+Edge case: empty input → returns 0.
