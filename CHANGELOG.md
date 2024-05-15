@@ -33319,3 +33319,7 @@
 ## entry 8330
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 8331
+
+- Splay tree: every access splays to the root; amortized O(log n).
