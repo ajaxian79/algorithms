@@ -647,3 +647,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 146
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 147
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
