@@ -559,3 +559,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 140
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 141
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
