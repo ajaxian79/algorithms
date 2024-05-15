@@ -112,3 +112,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 72: Uses a 256-entry lookup for the inner step.
 // edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 74: Caller owns the returned buffer.
+// edge note 75: Edge case: integer-min input → guarded by the explicit underflow check.
