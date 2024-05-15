@@ -599,3 +599,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 134
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 135
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
