@@ -846,3 +846,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 197
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 198
+
+Cache-friendly; one sequential read pass.
