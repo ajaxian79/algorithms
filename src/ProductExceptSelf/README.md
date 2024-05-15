@@ -932,3 +932,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 217
 
 Handles negative inputs as documented above.
+
+## entry 218
+
+Caller owns the returned array; free with a single `free`.
