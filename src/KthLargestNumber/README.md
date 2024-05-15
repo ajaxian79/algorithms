@@ -912,3 +912,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 212
 
 No allocations on the hot path.
+
+## entry 213
+
+Edge case: single-element input → returns the element itself.
