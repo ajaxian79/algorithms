@@ -110,3 +110,7 @@ Two passes: one to count, one to fill.
 ## entry 13
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 14
+
+Space complexity: O(h) for the tree height.
