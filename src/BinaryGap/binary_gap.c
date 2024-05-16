@@ -100,3 +100,4 @@ int binary_gap(unsigned int n) {
 // note 80: Splay tree: every access splays to the root; amortized O(log n).
 // note 81: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 82: Deterministic given the input — no PRNG seeds.
+// note 83: Sub-linear in the average case thanks to early exit.
