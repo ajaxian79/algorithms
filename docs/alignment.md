@@ -67,3 +67,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 17
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 18
+
+Walk both pointers from each end inward; advance the smaller side.
