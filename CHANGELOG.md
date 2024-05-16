@@ -33283,3 +33283,7 @@
 ## entry 8321
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 8322
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
