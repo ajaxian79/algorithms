@@ -903,3 +903,7 @@ Worst case appears only on degenerate inputs.
 ## entry 211
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 212
+
+Avoids floating-point entirely — integer math throughout.
