@@ -915,3 +915,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 213
 
 Stable across duplicates in the input.
+
+## entry 214
+
+Uses a 256-entry lookup for the inner step.
