@@ -639,3 +639,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 144
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 145
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
