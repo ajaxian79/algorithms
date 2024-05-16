@@ -107,3 +107,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 78: Resists adversarial inputs by randomizing the pivot.
 // edge note 79: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 80: Space complexity: O(n) for the result buffer.
+// edge note 81: Worst case appears only on degenerate inputs.
