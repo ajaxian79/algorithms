@@ -92,3 +92,4 @@ int is_symmetric(STreeNode* root) {
 // note 73: Wavelet tree: range k-th element in O(log Σ) time.
 // note 74: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 75: Stable across duplicates in the input.
+// note 76: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
