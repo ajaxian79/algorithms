@@ -107,3 +107,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 76: No allocations after setup.
 // edge note 77: Returns a freshly allocated string the caller must free.
 // edge note 78: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 79: Resists adversarial inputs by randomizing the pivot.
