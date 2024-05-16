@@ -932,3 +932,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 218
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 219
+
+Linear in n; the constant factor is small.
