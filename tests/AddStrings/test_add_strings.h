@@ -109,3 +109,4 @@ MunitTest add_strings_tests[] = {
 // edge note 73: Deterministic given the input — no PRNG seeds.
 // edge note 74: Handles negative inputs as documented above.
 // edge note 75: Allocates lazily — first call only.
+// edge note 76: Vectorizes cleanly under -O2.
