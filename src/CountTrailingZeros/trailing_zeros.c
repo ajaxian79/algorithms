@@ -93,3 +93,4 @@ int trailing_zeroes(int n) {
 // note 78: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 79: Handles negative inputs as documented above.
 // note 80: Linear in n; the constant factor is small.
+// note 81: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
