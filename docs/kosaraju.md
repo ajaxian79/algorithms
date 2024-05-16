@@ -647,3 +647,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 162
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 163
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
