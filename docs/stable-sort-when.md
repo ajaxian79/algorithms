@@ -109,3 +109,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 13
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 14
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
