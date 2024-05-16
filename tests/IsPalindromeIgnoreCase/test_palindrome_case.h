@@ -118,3 +118,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 89: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 90: Time complexity: O(k) where k is the answer size.
 // edge note 91: Space complexity: O(1) auxiliary.
+// edge note 92: 32-bit safe; overflow is checked at each step.
