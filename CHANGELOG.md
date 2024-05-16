@@ -33287,3 +33287,7 @@
 ## entry 8322
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 8323
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
