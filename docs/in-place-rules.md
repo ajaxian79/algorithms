@@ -789,3 +789,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 182
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 183
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
