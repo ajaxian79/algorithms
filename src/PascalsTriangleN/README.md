@@ -862,3 +862,7 @@ Caller owns the returned buffer.
 ## entry 200
 
 Space complexity: O(n) for the result buffer.
+
+## entry 201
+
+Edge case: input with one duplicate → handled without an extra pass.
