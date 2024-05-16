@@ -583,3 +583,7 @@
 ## entry 146
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 147
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
