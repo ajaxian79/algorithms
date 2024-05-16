@@ -82,3 +82,4 @@ int max_depth(MdTreeNode* root) {
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 70: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 71: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
