@@ -119,3 +119,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 84: Handles single-element input as a base case.
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Space complexity: O(log n) for the recursion stack.
+// edge note 87: Edge case: integer-min input → guarded by the explicit underflow check.
