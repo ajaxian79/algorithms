@@ -623,3 +623,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 140
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 141
+
+False sharing: two threads writing different bytes in the same cache line stall both.
