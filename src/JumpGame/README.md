@@ -125,3 +125,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 16
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 17
+
+32-bit safe; overflow is checked at each step.
