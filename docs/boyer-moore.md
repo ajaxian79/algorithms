@@ -111,3 +111,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 12
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 13
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
