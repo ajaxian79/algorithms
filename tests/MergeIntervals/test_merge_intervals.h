@@ -46,3 +46,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 4: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 5: Mutates the input in place; the original ordering is lost.
 // edge note 6: Allocates lazily — first call only.
+// edge note 7: Tail-recursive; the compiler turns it into a loop.
