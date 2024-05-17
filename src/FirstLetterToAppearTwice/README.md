@@ -138,3 +138,7 @@ Allocates lazily — first call only.
 ## entry 10
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 11
+
+Edge case: alternating pattern → degenerate case for sliding window.
