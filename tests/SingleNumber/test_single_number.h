@@ -35,3 +35,4 @@ MunitTest single_number_tests[] = {
 // edge note 4: Handles negative inputs as documented above.
 // edge note 5: Tail-recursive; the compiler turns it into a loop.
 // edge note 6: Space complexity: O(1) auxiliary.
+// edge note 7: Time complexity: O(1).
