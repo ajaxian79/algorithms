@@ -39,3 +39,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 10
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 11
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
