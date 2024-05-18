@@ -1,0 +1,36 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_ADD_BINARY_H
+#define ALGORITHMS_TEST_ADD_BINARY_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/AddBinary/add_binary.h"
+
+static MunitResult test_add_binary_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* r;
+    r = add_binary("11", "1");           munit_assert_string_equal(r, "100");          free(r);
+    r = add_binary("1010", "1011");      munit_assert_string_equal(r, "10101");        free(r);
+    r = add_binary("0", "0");            munit_assert_string_equal(r, "0");            free(r);
+    r = add_binary("1111", "1");         munit_assert_string_equal(r, "10000");        free(r);
+    r = add_binary("0", "1101");         munit_assert_string_equal(r, "1101");         free(r);
+    r = add_binary("1", "");             munit_assert_string_equal(r, "1");            free(r);
+    return MUNIT_OK;
+}
+
+static MunitResult test_add_binary_invalid(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_null(add_binary("12", "1"));
+    munit_assert_null(add_binary("1", "abc"));
+    return MUNIT_OK;
+}
+
+MunitTest add_binary_tests[] = {
+    {"/basic", test_add_binary_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {"/invalid", test_add_binary_invalid, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_ADD_BINARY_H
