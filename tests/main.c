@@ -24,6 +24,7 @@
 #include "PowerOfTwo/test_power_of_two.h"
 #include "PowerOfThree/test_power_of_three.h"
 #include "PowerOfFour/test_power_of_four.h"
+#include "ReverseWords/test_reverse_words.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -185,6 +186,12 @@ MunitSuite suites[] = {
         },{
                 "/power_of_four",
                 power_of_four_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/reverse_words",
+                reverse_words_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

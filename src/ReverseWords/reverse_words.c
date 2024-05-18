@@ -1,0 +1,44 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#include "reverse_words.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+static char* empty_string(void) {
+    char* out = malloc(1);
+    if (out) out[0] = '\0';
+    return out;
+}
+
+char* reverse_words(const char* s) {
+    if (s == NULL) return empty_string();
+    size_t n = strlen(s);
+    if (n == 0) return empty_string();
+
+    char* out = malloc(n + 1);
+    if (!out) return NULL;
+    size_t out_len = 0;
+
+    int end = (int)n;  // exclusive
+    while (end > 0) {
+        // Skip trailing whitespace at this end position.
+        while (end > 0 && s[end - 1] == ' ') end--;
+        if (end == 0) break;
+
+        // Find the start of the word.
+        int start = end;
+        while (start > 0 && s[start - 1] != ' ') start--;
+
+        if (out_len > 0) out[out_len++] = ' ';
+        memcpy(out + out_len, s + start, (size_t)(end - start));
+        out_len += (size_t)(end - start);
+
+        end = start;
+    }
+
+    out[out_len] = '\0';
+    return out;
+}

@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_REVERSE_WORDS_H
+#define ALGORITHMS_TEST_REVERSE_WORDS_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/ReverseWords/reverse_words.h"
+
+static MunitResult test_reverse_words_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* r;
+    r = reverse_words("the sky is blue");      munit_assert_string_equal(r, "blue is sky the");        free(r);
+    r = reverse_words("  hello world  ");       munit_assert_string_equal(r, "world hello");            free(r);
+    r = reverse_words("a good   example");      munit_assert_string_equal(r, "example good a");         free(r);
+    r = reverse_words("");                      munit_assert_string_equal(r, "");                       free(r);
+    r = reverse_words("   ");                   munit_assert_string_equal(r, "");                       free(r);
+    r = reverse_words("single");                munit_assert_string_equal(r, "single");                 free(r);
+    return MUNIT_OK;
+}
+
+MunitTest reverse_words_tests[] = {
+    {"/basic", test_reverse_words_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_REVERSE_WORDS_H
