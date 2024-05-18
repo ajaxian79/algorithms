@@ -21,6 +21,7 @@
 #include "ReverseString/test_reverse_string.h"
 #include "FizzBuzz/test_fizz_buzz.h"
 #include "CountPrimes/test_count_primes.h"
+#include "PowerOfTwo/test_power_of_two.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -164,6 +165,12 @@ MunitSuite suites[] = {
         },{
                 "/count_primes",
                 count_primes_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/power_of_two",
+                power_of_two_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,32 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_POWER_OF_TWO_H
+#define ALGORITHMS_TEST_POWER_OF_TWO_H
+
+#include "../tests.h"
+#include "../../src/PowerOfTwo/power_of_two.h"
+
+static MunitResult test_power_of_two_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_power_of_two(1), ==, 1);
+    munit_assert_int(is_power_of_two(2), ==, 1);
+    munit_assert_int(is_power_of_two(4), ==, 1);
+    munit_assert_int(is_power_of_two(16), ==, 1);
+    munit_assert_int(is_power_of_two(1024), ==, 1);
+    munit_assert_int(is_power_of_two(1073741824), ==, 1);
+
+    munit_assert_int(is_power_of_two(0), ==, 0);
+    munit_assert_int(is_power_of_two(3), ==, 0);
+    munit_assert_int(is_power_of_two(218), ==, 0);
+    munit_assert_int(is_power_of_two(-1), ==, 0);
+    munit_assert_int(is_power_of_two(-16), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest power_of_two_tests[] = {
+    {"/basic", test_power_of_two_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_POWER_OF_TWO_H
