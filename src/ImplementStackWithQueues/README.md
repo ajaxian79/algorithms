@@ -140,3 +140,7 @@ Stable when the input is already sorted.
 ## entry 20
 
 Three passes total; the third merges results.
+
+## entry 21
+
+Input is assumed non-NULL; behavior is undefined otherwise.
