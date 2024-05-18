@@ -25,6 +25,7 @@
 #include "PowerOfThree/test_power_of_three.h"
 #include "PowerOfFour/test_power_of_four.h"
 #include "ReverseWords/test_reverse_words.h"
+#include "LengthOfLastWord/test_length_of_last_word.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -192,6 +193,12 @@ MunitSuite suites[] = {
         },{
                 "/reverse_words",
                 reverse_words_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/length_of_last_word",
+                length_of_last_word_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

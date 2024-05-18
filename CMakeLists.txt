@@ -31,6 +31,7 @@ add_executable(power_of_two src/PowerOfTwo/main.c src/PowerOfTwo/power_of_two.c)
 add_executable(power_of_three src/PowerOfThree/main.c src/PowerOfThree/power_of_three.c)
 add_executable(power_of_four src/PowerOfFour/main.c src/PowerOfFour/power_of_four.c)
 add_executable(reverse_words src/ReverseWords/main.c src/ReverseWords/reverse_words.c)
+add_executable(length_of_last_word src/LengthOfLastWord/main.c src/LengthOfLastWord/length_of_last_word.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -56,7 +57,8 @@ add_executable(unittests
         src/PowerOfTwo/power_of_two.c
         src/PowerOfThree/power_of_three.c
         src/PowerOfFour/power_of_four.c
-        src/ReverseWords/reverse_words.c)
+        src/ReverseWords/reverse_words.c
+        src/LengthOfLastWord/length_of_last_word.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -87,4 +89,5 @@ target_link_libraries(power_of_two PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>
 target_link_libraries(power_of_three PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(power_of_four PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(reverse_words PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(length_of_last_word PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
