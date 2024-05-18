@@ -1,0 +1,28 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_ZIGZAG_H
+#define ALGORITHMS_TEST_ZIGZAG_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/ZigZagConversion/zigzag.h"
+
+static MunitResult test_zigzag_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* r;
+    r = zigzag_convert("PAYPALISHIRING", 3); munit_assert_string_equal(r, "PAHNAPLSIIGYIR");      free(r);
+    r = zigzag_convert("PAYPALISHIRING", 4); munit_assert_string_equal(r, "PINALSIGYAHRPI");      free(r);
+    r = zigzag_convert("A", 1);              munit_assert_string_equal(r, "A");                   free(r);
+    r = zigzag_convert("AB", 1);             munit_assert_string_equal(r, "AB");                  free(r);
+    r = zigzag_convert("ABC", 2);            munit_assert_string_equal(r, "ACB");                 free(r);
+    return MUNIT_OK;
+}
+
+MunitTest zigzag_tests[] = {
+    {"/basic", test_zigzag_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_ZIGZAG_H

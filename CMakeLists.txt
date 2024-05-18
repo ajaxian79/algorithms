@@ -37,6 +37,7 @@ add_executable(add_strings src/AddStrings/main.c src/AddStrings/add_strings.c)
 add_executable(multiply_strings src/MultiplyStrings/main.c src/MultiplyStrings/multiply_strings.c)
 add_executable(valid_palindrome_str src/ValidPalindromeStr/main.c src/ValidPalindromeStr/valid_palindrome_str.c)
 add_executable(count_and_say src/CountAndSay/main.c src/CountAndSay/count_and_say.c)
+add_executable(zigzag src/ZigZagConversion/main.c src/ZigZagConversion/zigzag.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -68,7 +69,8 @@ add_executable(unittests
         src/AddStrings/add_strings.c
         src/MultiplyStrings/multiply_strings.c
         src/ValidPalindromeStr/valid_palindrome_str.c
-        src/CountAndSay/count_and_say.c)
+        src/CountAndSay/count_and_say.c
+        src/ZigZagConversion/zigzag.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -105,4 +107,5 @@ target_link_libraries(add_strings PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,
 target_link_libraries(multiply_strings PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(valid_palindrome_str PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(count_and_say PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(zigzag PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
