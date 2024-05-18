@@ -104,3 +104,7 @@ Time complexity: O(log n).
 ## entry 11
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 12
+
+Edge case: integer-max input → guarded by the explicit overflow check.
