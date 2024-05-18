@@ -29,6 +29,7 @@
 #include "AddBinary/test_add_binary.h"
 #include "AddStrings/test_add_strings.h"
 #include "MultiplyStrings/test_multiply_strings.h"
+#include "ValidPalindromeStr/test_valid_palindrome_str.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -220,6 +221,12 @@ MunitSuite suites[] = {
         },{
                 "/multiply_strings",
                 multiply_strings_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/valid_palindrome_str",
+                valid_palindrome_str_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
