@@ -32,6 +32,7 @@
 #include "ValidPalindromeStr/test_valid_palindrome_str.h"
 #include "CountAndSay/test_count_and_say.h"
 #include "ZigZagConversion/test_zigzag.h"
+#include "StringToInteger/test_string_to_integer.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -241,6 +242,12 @@ MunitSuite suites[] = {
         },{
                 "/zigzag",
                 zigzag_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/my_atoi",
+                my_atoi_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#include "string_to_integer.h"
+
+#include <ctype.h>
+#include <limits.h>
+#include <stddef.h>
+
+int my_atoi(const char* s) {
+    if (s == NULL) return 0;
+    while (*s == ' ') s++;
+
+    int sign = 1;
+    if (*s == '+' || *s == '-') {
+        if (*s == '-') sign = -1;
+        s++;
+    }
+
+    int result = 0;
+    while (*s >= '0' && *s <= '9') {
+        int digit = *s - '0';
+        if (result > (INT_MAX - digit) / 10) {
+            return sign == 1 ? INT_MAX : INT_MIN;
+        }
+        result = result * 10 + digit;
+        s++;
+    }
+    return sign * result;
+}
