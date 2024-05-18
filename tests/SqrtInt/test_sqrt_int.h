@@ -114,3 +114,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 86: Handles empty input by returning 0.
 // edge note 87: Resists adversarial inputs by randomizing the pivot.
 // edge note 88: Stable when the input is already sorted.
+// edge note 89: Tail-recursive; the compiler turns it into a loop.
