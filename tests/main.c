@@ -27,6 +27,7 @@
 #include "ReverseWords/test_reverse_words.h"
 #include "LengthOfLastWord/test_length_of_last_word.h"
 #include "AddBinary/test_add_binary.h"
+#include "AddStrings/test_add_strings.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -206,6 +207,12 @@ MunitSuite suites[] = {
         },{
                 "/add_binary",
                 add_binary_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/add_strings",
+                add_strings_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
