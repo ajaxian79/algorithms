@@ -34,6 +34,7 @@
 #include "ZigZagConversion/test_zigzag.h"
 #include "StringToInteger/test_string_to_integer.h"
 #include "CompareVersion/test_compare_version.h"
+#include "ExcelColumnNumber/test_excel_column_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -255,6 +256,12 @@ MunitSuite suites[] = {
         },{
                 "/compare_version",
                 compare_version_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/excel_column_number",
+                excel_column_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
