@@ -927,3 +927,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 216
 
 Space complexity: O(n) for the result buffer.
+
+## entry 217
+
+Uses a small fixed-size lookup table.
