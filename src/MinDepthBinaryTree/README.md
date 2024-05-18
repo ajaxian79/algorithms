@@ -130,3 +130,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 18
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 19
+
+32-bit safe; overflow is checked at each step.
