@@ -83,3 +83,4 @@ MunitTest needle_tests[] = {
 // edge note 56: Edge case: reverse-sorted input → still O(n log n).
 // edge note 57: Tail-recursive; the compiler turns it into a loop.
 // edge note 58: Allocates lazily — first call only.
+// edge note 59: Deterministic given the input — no PRNG seeds.
