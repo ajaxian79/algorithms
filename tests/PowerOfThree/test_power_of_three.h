@@ -1,0 +1,31 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_POWER_OF_THREE_H
+#define ALGORITHMS_TEST_POWER_OF_THREE_H
+
+#include "../tests.h"
+#include "../../src/PowerOfThree/power_of_three.h"
+
+static MunitResult test_power_of_three_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_power_of_three(1), ==, 1);
+    munit_assert_int(is_power_of_three(3), ==, 1);
+    munit_assert_int(is_power_of_three(9), ==, 1);
+    munit_assert_int(is_power_of_three(27), ==, 1);
+    munit_assert_int(is_power_of_three(243), ==, 1);
+    munit_assert_int(is_power_of_three(1162261467), ==, 1);
+
+    munit_assert_int(is_power_of_three(0), ==, 0);
+    munit_assert_int(is_power_of_three(2), ==, 0);
+    munit_assert_int(is_power_of_three(45), ==, 0);
+    munit_assert_int(is_power_of_three(-3), ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest power_of_three_tests[] = {
+    {"/basic", test_power_of_three_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_POWER_OF_THREE_H

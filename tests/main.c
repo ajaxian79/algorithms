@@ -22,6 +22,7 @@
 #include "FizzBuzz/test_fizz_buzz.h"
 #include "CountPrimes/test_count_primes.h"
 #include "PowerOfTwo/test_power_of_two.h"
+#include "PowerOfThree/test_power_of_three.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -171,6 +172,12 @@ MunitSuite suites[] = {
         },{
                 "/power_of_two",
                 power_of_two_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/power_of_three",
+                power_of_three_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
