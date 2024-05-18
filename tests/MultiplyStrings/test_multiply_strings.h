@@ -1,0 +1,29 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#ifndef ALGORITHMS_TEST_MULTIPLY_STRINGS_H
+#define ALGORITHMS_TEST_MULTIPLY_STRINGS_H
+
+#include <stdlib.h>
+
+#include "../tests.h"
+#include "../../src/MultiplyStrings/multiply_strings.h"
+
+static MunitResult test_multiply_strings_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    char* r;
+    r = multiply_strings("2", "3");                       munit_assert_string_equal(r, "6");                              free(r);
+    r = multiply_strings("123", "456");                   munit_assert_string_equal(r, "56088");                          free(r);
+    r = multiply_strings("0", "12345");                   munit_assert_string_equal(r, "0");                              free(r);
+    r = multiply_strings("12345", "0");                   munit_assert_string_equal(r, "0");                              free(r);
+    r = multiply_strings("999", "999");                   munit_assert_string_equal(r, "998001");                         free(r);
+    r = multiply_strings("498828660196", "840477629533"); munit_assert_string_equal(r, "419254329864656431168468");      free(r);
+    return MUNIT_OK;
+}
+
+MunitTest multiply_strings_tests[] = {
+    {"/basic", test_multiply_strings_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_MULTIPLY_STRINGS_H

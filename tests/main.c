@@ -28,6 +28,7 @@
 #include "LengthOfLastWord/test_length_of_last_word.h"
 #include "AddBinary/test_add_binary.h"
 #include "AddStrings/test_add_strings.h"
+#include "MultiplyStrings/test_multiply_strings.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -213,6 +214,12 @@ MunitSuite suites[] = {
         },{
                 "/add_strings",
                 add_strings_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/multiply_strings",
+                multiply_strings_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

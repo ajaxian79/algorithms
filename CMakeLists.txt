@@ -34,6 +34,7 @@ add_executable(reverse_words src/ReverseWords/main.c src/ReverseWords/reverse_wo
 add_executable(length_of_last_word src/LengthOfLastWord/main.c src/LengthOfLastWord/length_of_last_word.c)
 add_executable(add_binary src/AddBinary/main.c src/AddBinary/add_binary.c)
 add_executable(add_strings src/AddStrings/main.c src/AddStrings/add_strings.c)
+add_executable(multiply_strings src/MultiplyStrings/main.c src/MultiplyStrings/multiply_strings.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -62,7 +63,8 @@ add_executable(unittests
         src/ReverseWords/reverse_words.c
         src/LengthOfLastWord/length_of_last_word.c
         src/AddBinary/add_binary.c
-        src/AddStrings/add_strings.c)
+        src/AddStrings/add_strings.c
+        src/MultiplyStrings/multiply_strings.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -96,4 +98,5 @@ target_link_libraries(reverse_words PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static
 target_link_libraries(length_of_last_word PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(add_binary PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(add_strings PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(multiply_strings PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

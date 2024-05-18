@@ -1,0 +1,50 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#include "multiply_strings.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+char* multiply_strings(const char* a, const char* b) {
+    if (a == NULL || b == NULL) return NULL;
+    size_t la = strlen(a);
+    size_t lb = strlen(b);
+    if (la == 0 || lb == 0) return NULL;
+
+    if ((la == 1 && a[0] == '0') || (lb == 1 && b[0] == '0')) {
+        char* z = malloc(2);
+        if (z) { z[0] = '0'; z[1] = '\0'; }
+        return z;
+    }
+
+    int* digits = calloc(la + lb, sizeof(int));
+    if (!digits) return NULL;
+
+    for (int i = (int)la - 1; i >= 0; i--) {
+        int da = a[i] - '0';
+        if (da < 0 || da > 9) { free(digits); return NULL; }
+        for (int j = (int)lb - 1; j >= 0; j--) {
+            int db = b[j] - '0';
+            if (db < 0 || db > 9) { free(digits); return NULL; }
+            int slot = i + j + 1;
+            int sum = digits[slot] + da * db;
+            digits[slot] = sum % 10;
+            digits[slot - 1] += sum / 10;
+        }
+    }
+
+    // Skip leading zero(es).
+    size_t start = 0;
+    while (start < la + lb - 1 && digits[start] == 0) start++;
+
+    size_t out_len = la + lb - start;
+    char* out = malloc(out_len + 1);
+    if (!out) { free(digits); return NULL; }
+    for (size_t i = 0; i < out_len; i++) out[i] = (char)('0' + digits[start + i]);
+    out[out_len] = '\0';
+
+    free(digits);
+    return out;
+}
