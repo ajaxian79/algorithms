@@ -20,6 +20,7 @@
 #include "MoveZeroes/test_move_zeroes.h"
 #include "ReverseString/test_reverse_string.h"
 #include "FizzBuzz/test_fizz_buzz.h"
+#include "CountPrimes/test_count_primes.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -157,6 +158,12 @@ MunitSuite suites[] = {
         },{
                 "/fizz_buzz",
                 fizz_buzz_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/count_primes",
+                count_primes_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

@@ -1,0 +1,28 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#include "count_primes.h"
+
+#include <stdlib.h>
+#include <string.h>
+
+int count_primes(int n) {
+    if (n < 2) return 0;
+
+    char* composite = calloc((size_t)n, sizeof(char));
+    if (!composite) return 0;
+
+    int count = 0;
+    for (int i = 2; i < n; i++) {
+        if (composite[i]) continue;
+        count++;
+        if ((long long)i * i >= n) continue;
+        for (long long j = (long long)i * i; j < n; j += i) {
+            composite[j] = 1;
+        }
+    }
+
+    free(composite);
+    return count;
+}
