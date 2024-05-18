@@ -1,0 +1,49 @@
+//
+// Created by ajaxian on 05/18/24.
+//
+
+#include "count_and_say.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+static char* next_term(const char* s) {
+    size_t n = strlen(s);
+    // Worst-case bound: each digit becomes "<count><digit>" so length doubles.
+    char* out = malloc(n * 2 + 1);
+    if (!out) return NULL;
+    size_t out_len = 0;
+
+    size_t i = 0;
+    while (i < n) {
+        size_t j = i + 1;
+        while (j < n && s[j] == s[i]) j++;
+        int count = (int)(j - i);
+        char buf[32];
+        int written = snprintf(buf, sizeof(buf), "%d", count);
+        memcpy(out + out_len, buf, (size_t)written);
+        out_len += (size_t)written;
+        out[out_len++] = s[i];
+        i = j;
+    }
+    out[out_len] = '\0';
+    return out;
+}
+
+char* count_and_say(int n) {
+    if (n < 1) return NULL;
+
+    char* current = malloc(2);
+    if (!current) return NULL;
+    current[0] = '1';
+    current[1] = '\0';
+
+    for (int i = 1; i < n; i++) {
+        char* next = next_term(current);
+        free(current);
+        if (!next) return NULL;
+        current = next;
+    }
+    return current;
+}
