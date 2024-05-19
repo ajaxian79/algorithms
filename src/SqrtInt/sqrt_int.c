@@ -100,3 +100,4 @@ int my_sqrt(int n) {
 // note 79: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 81: StringBuilder: amortize allocation by doubling on grow.
+// note 82: Wavelet tree: range k-th element in O(log Σ) time.
