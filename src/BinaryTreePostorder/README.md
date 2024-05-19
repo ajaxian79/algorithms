@@ -938,3 +938,7 @@ Handles empty input by returning 0.
 ## entry 220
 
 Uses a small fixed-size lookup table.
+
+## entry 221
+
+Allocates lazily — first call only.
