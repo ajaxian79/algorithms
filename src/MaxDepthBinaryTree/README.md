@@ -885,3 +885,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 207
 
 Time complexity: O(n + m).
+
+## entry 208
+
+Space complexity: O(log n) for the recursion stack.
