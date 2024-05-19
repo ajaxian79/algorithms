@@ -581,3 +581,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 129
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 130
+
+Heap when you only need top-k; full sort is wasted work.
