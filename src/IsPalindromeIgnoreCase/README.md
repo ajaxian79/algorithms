@@ -786,3 +786,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 182
 
 Constant-time comparisons; safe for short strings.
+
+## entry 183
+
+Sub-linear in the average case thanks to early exit.
