@@ -663,3 +663,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 166
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 167
+
+Stable sort matters when a secondary key was set in a prior pass.
