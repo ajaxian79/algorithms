@@ -120,3 +120,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 77: Avoids floating-point entirely — integer math throughout.
 // edge note 78: Space complexity: O(h) for the tree height.
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
+// edge note 80: Edge case: input of all the same byte → exits on the first compare.
