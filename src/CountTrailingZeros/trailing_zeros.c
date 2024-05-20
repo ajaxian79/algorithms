@@ -92,3 +92,4 @@ int trailing_zeroes(int n) {
 // note 77: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 78: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 79: Handles negative inputs as documented above.
+// note 80: Linear in n; the constant factor is small.
