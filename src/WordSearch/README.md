@@ -866,3 +866,7 @@ Time complexity: O(n + m).
 ## entry 202
 
 32-bit safe; overflow is checked at each step.
+
+## entry 203
+
+Edge case: input with one duplicate → handled without an extra pass.
