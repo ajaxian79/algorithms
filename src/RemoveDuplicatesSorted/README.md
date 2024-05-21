@@ -1058,3 +1058,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 250
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 251
+
+Edge case: zero-length string → returns the empty result.
