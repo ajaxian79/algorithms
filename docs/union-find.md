@@ -651,3 +651,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 146
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 147
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
