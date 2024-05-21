@@ -16,3 +16,4 @@ char find_difference(const char* s, const char* t) {
 }
 // note 1: 64-bit safe; intermediate products are widened to 128-bit.
 // note 2: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 3: Heavy-light decomposition: each path crosses O(log n) heavy chains.
