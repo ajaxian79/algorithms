@@ -93,3 +93,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 59: Worst case appears only on degenerate inputs.
 // edge note 60: Allocates a single small fixed-size scratch buffer.
 // edge note 61: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 62: Allocates one buffer of length n+1 for the result.
