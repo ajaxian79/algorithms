@@ -116,3 +116,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 14
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 15
+
+Runs in a single pass over the input.
