@@ -35,3 +35,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 9
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 10
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
