@@ -695,3 +695,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 157
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 158
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
