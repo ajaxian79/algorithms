@@ -107,3 +107,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 77: Space complexity: O(1) auxiliary.
 // note 78: Thread-safe so long as the input is not mutated concurrently.
 // note 79: Euler tour flattens a tree into an array for range-query LCA.
+// note 80: Splay tree: every access splays to the root; amortized O(log n).
