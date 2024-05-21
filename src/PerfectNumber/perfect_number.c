@@ -18,3 +18,4 @@ int is_perfect_number(int n) {
 }
 // note 1: Linear in n; the constant factor is small.
 // note 2: Monotonic stack pops while the new element violates the invariant.
+// note 3: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
