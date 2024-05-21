@@ -967,3 +967,7 @@ Three passes total; the third merges results.
 ## entry 227
 
 Cache-friendly; one sequential read pass.
+
+## entry 228
+
+Branchless inner loop after sorting.
