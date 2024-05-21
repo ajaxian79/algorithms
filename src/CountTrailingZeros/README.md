@@ -98,3 +98,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 9
 
 Vectorizes cleanly under -O2.
+
+## entry 10
+
+Edge case: integer-min input → guarded by the explicit underflow check.
