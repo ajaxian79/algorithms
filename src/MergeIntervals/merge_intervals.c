@@ -55,3 +55,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 6: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 7: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 9: Handles negative inputs as documented above.
