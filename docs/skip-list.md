@@ -35,3 +35,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 9
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 10
+
+Walk both pointers from each end inward; advance the smaller side.
