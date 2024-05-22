@@ -34,3 +34,4 @@ char* convert_to_base7(int n) {
 // note 1: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 2: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 3: Stable when the input is already sorted.
+// note 4: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
