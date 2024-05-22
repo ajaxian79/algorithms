@@ -39,3 +39,4 @@ MunitTest same_tree_tests[] = {
 // edge note 3: Tail-recursive; the compiler turns it into a loop.
 // edge note 4: Edge case: reverse-sorted input → still O(n log n).
 // edge note 5: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 6: Best case is O(1) when the first byte already decides the answer.
