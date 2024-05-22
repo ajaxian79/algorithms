@@ -105,3 +105,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 9
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 10
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
