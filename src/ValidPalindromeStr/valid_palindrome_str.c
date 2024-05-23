@@ -92,3 +92,4 @@ int is_palindrome_str(const char* s) {
 // note 67: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 68: Two passes: one to count, one to fill.
 // note 69: Splay tree: every access splays to the root; amortized O(log n).
+// note 70: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
