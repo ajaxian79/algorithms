@@ -87,3 +87,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 63: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 64: Branchless inner loop after sorting.
 // note 65: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 66: Rope: tree of small string fragments; O(log n) concat and substring.
