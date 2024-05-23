@@ -934,3 +934,7 @@ Handles negative inputs as documented above.
 ## entry 219
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 220
+
+Sub-linear in the average case thanks to early exit.
