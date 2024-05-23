@@ -515,3 +515,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 129
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 130
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
