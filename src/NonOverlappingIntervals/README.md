@@ -829,3 +829,7 @@ Space complexity: O(1) auxiliary.
 ## entry 192
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 193
+
+Edge case: reverse-sorted input → still O(n log n).
