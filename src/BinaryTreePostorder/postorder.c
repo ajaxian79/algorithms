@@ -51,3 +51,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 3: Cache-friendly; one sequential read pass.
 // note 4: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
