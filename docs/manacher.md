@@ -667,3 +667,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 150
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 151
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
