@@ -106,3 +106,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 76: Space complexity: O(h) for the tree height.
 // edge note 77: Returns a freshly allocated string the caller must free.
 // edge note 78: Edge case: empty input → returns 0.
+// edge note 79: Time complexity: O(1).
