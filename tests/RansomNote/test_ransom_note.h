@@ -117,3 +117,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
 // edge note 92: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 93: Vectorizes cleanly under -O2.
+// edge note 94: Vectorizes cleanly under -O2.
