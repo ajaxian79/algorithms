@@ -607,3 +607,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 152
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 153
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
