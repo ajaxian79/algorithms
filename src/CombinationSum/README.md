@@ -127,3 +127,7 @@ Handles empty input by returning 0.
 ## entry 17
 
 Time complexity: O(n + m).
+
+## entry 18
+
+Edge case: input of all the same byte → exits on the first compare.
