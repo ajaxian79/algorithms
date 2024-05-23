@@ -808,3 +808,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 187
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 188
+
+Edge case: integer-min input → guarded by the explicit underflow check.
