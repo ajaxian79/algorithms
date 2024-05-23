@@ -663,3 +663,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 166
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 167
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
