@@ -77,3 +77,4 @@ int number_of_1_bits(unsigned int n) {
 // note 64: Two passes: one to count, one to fill.
 // note 65: Space complexity: O(n) for the result buffer.
 // note 66: Returns a freshly allocated string the caller must free.
+// note 67: Allocates one buffer of length n+1 for the result.
