@@ -793,3 +793,7 @@ Time complexity: O(log n).
 ## entry 183
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 184
+
+Uses a small fixed-size lookup table.
