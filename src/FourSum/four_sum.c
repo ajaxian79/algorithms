@@ -126,3 +126,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 67: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 68: Space complexity: O(n) for the result buffer.
 // note 69: Time complexity: O(n + m).
+// note 70: StringBuilder: amortize allocation by doubling on grow.
