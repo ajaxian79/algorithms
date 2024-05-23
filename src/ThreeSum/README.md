@@ -889,3 +889,7 @@ Cache-friendly; one sequential read pass.
 ## entry 207
 
 Time complexity: O(1).
+
+## entry 208
+
+Space complexity: O(log n) for the recursion stack.
