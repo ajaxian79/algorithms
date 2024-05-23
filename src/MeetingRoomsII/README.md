@@ -878,3 +878,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 204
 
 Edge case: empty input → returns 0.
+
+## entry 205
+
+Allocates lazily — first call only.
