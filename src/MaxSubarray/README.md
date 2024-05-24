@@ -110,3 +110,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 13
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 14
+
+Edge case: single-element input → returns the element itself.
