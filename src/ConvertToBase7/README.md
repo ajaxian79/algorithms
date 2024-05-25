@@ -116,3 +116,7 @@ Space complexity: O(1) auxiliary.
 ## entry 14
 
 Constant-time comparisons; safe for short strings.
+
+## entry 15
+
+Edge case: integer-max input → guarded by the explicit overflow check.
