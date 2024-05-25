@@ -65,3 +65,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
