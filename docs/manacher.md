@@ -63,3 +63,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
