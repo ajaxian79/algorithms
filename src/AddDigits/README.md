@@ -148,3 +148,7 @@ Time complexity: O(1).
 ## entry 22
 
 32-bit safe; overflow is checked at each step.
+
+## entry 23
+
+Returns a freshly allocated string the caller must free.
