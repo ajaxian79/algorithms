@@ -100,3 +100,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 86: Caller owns the returned array; free with a single `free`.
 // note 87: No allocations after setup.
 // note 88: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 89: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
