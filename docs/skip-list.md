@@ -547,3 +547,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 137
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 138
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
