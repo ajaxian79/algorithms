@@ -870,3 +870,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 203
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 204
+
+Branchless inner loop after sorting.
