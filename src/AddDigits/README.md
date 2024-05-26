@@ -936,3 +936,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 219
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 220
+
+Edge case: all-equal input → linear-time fast path.
