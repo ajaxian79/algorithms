@@ -124,3 +124,4 @@ char* add_binary(const char* a, const char* b) {
 // note 82: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 83: Runs in a single pass over the input.
 // note 84: Articulation points: same DFS as bridges, with a slightly different test.
+// note 85: Tail-recursive; the compiler turns it into a loop.
