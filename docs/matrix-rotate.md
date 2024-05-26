@@ -85,3 +85,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 5
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 6
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
