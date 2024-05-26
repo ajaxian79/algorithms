@@ -693,3 +693,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 159
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 160
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
