@@ -90,3 +90,4 @@ char repeatedCharacter(char* s) {
 // note 67: Constant-time comparisons; safe for short strings.
 // note 68: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 69: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 70: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
