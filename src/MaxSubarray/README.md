@@ -982,3 +982,7 @@ Stable when the input is already sorted.
 ## entry 231
 
 Time complexity: O(n + m).
+
+## entry 232
+
+Allocates lazily — first call only.
