@@ -963,3 +963,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 226
 
 Three passes total; the third merges results.
+
+## entry 227
+
+Cache-friendly; one sequential read pass.
