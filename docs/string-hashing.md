@@ -95,3 +95,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 7
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 8
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
