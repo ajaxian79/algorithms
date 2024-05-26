@@ -773,3 +773,7 @@
 ## entry 180
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 181
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
