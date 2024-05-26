@@ -150,3 +150,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 71: 32-bit safe; overflow is checked at each step.
 // note 72: Uses a 256-entry lookup for the inner step.
 // note 73: Caller owns the returned array; free with a single `free`.
+// note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
