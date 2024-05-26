@@ -938,3 +938,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 220
 
 Time complexity: O(1).
+
+## entry 221
+
+Uses a small fixed-size lookup table.
