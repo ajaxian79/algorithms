@@ -611,3 +611,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 135
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 136
+
+Greedy by end-time picks the most non-overlapping intervals.
