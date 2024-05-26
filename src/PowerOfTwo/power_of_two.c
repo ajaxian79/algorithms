@@ -14,3 +14,4 @@ int is_power_of_two(int n) {
 // note 4: Caller owns the returned array; free with a single `free`.
 // note 5: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 6: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 7: DFS on a grid: write a sentinel into the visited cell; restore if needed.
