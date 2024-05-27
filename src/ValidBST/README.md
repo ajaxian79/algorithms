@@ -121,3 +121,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 15
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 16
+
+Three passes total; the third merges results.
