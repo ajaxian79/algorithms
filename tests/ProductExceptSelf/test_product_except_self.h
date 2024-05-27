@@ -121,3 +121,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 87: Treats the input as immutable.
+// edge note 88: Edge case: maximum-length input → still fits in 32-bit indices.
