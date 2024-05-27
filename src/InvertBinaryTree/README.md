@@ -976,3 +976,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 229
 
 Branchless inner loop after sorting.
+
+## entry 230
+
+Edge case: empty input → returns 0.
