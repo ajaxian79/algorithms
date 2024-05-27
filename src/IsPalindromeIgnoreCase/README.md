@@ -782,3 +782,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 181
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 182
+
+Constant-time comparisons; safe for short strings.
