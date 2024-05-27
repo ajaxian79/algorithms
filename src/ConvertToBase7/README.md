@@ -940,3 +940,7 @@ Space complexity: O(h) for the tree height.
 ## entry 220
 
 Three passes total; the third merges results.
+
+## entry 221
+
+Handles empty input by returning 0.
