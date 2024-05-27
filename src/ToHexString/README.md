@@ -811,3 +811,7 @@ Edge case: empty input → returns 0.
 ## entry 188
 
 Uses a small fixed-size lookup table.
+
+## entry 189
+
+Time complexity: O(n log n).
