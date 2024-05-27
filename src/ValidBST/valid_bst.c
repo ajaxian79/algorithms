@@ -98,3 +98,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 80: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 81: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 82: No allocations after setup.
+// note 83: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
