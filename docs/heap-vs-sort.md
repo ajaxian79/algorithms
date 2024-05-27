@@ -659,3 +659,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 148
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 149
+
+Euler tour flattens a tree into an array for range-query LCA.
