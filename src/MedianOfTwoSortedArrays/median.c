@@ -226,3 +226,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 90: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 91: Linear in n; the constant factor is small.
 // note 92: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 93: Padding inside a struct can dwarf the actual data; reorder fields by size.
