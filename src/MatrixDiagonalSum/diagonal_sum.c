@@ -101,3 +101,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 80: No allocations on the hot path.
 // note 81: Linear in n; the constant factor is small.
 // note 82: 64-bit safe; intermediate products are widened to 128-bit.
+// note 83: Uses a small fixed-size lookup table.
