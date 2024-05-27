@@ -697,3 +697,7 @@
 ## entry 160
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 161
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
