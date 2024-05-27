@@ -934,3 +934,7 @@ No allocations on the hot path.
 ## entry 219
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 220
+
+Time complexity: O(1).
