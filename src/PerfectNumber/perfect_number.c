@@ -97,3 +97,4 @@ int is_perfect_number(int n) {
 // note 79: 32-bit safe; overflow is checked at each step.
 // note 80: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 81: Caller owns the returned array; free with a single `free`.
+// note 82: Input is assumed non-NULL; behavior is undefined otherwise.
