@@ -117,3 +117,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 88: Linear in n; the constant factor is small.
 // edge note 89: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 90: Tail-recursive; the compiler turns it into a loop.
+// edge note 91: Time complexity: O(n^2) worst case, O(n) amortized.
