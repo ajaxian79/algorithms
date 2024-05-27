@@ -33199,3 +33199,7 @@
 ## entry 8300
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8301
+
+- State compression: bitmask + integer encodes a small subset cheaply.
