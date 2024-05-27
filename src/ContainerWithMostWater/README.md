@@ -895,3 +895,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 209
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 210
+
+Worst case appears only on degenerate inputs.
