@@ -856,3 +856,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 200
 
 32-bit safe; overflow is checked at each step.
+
+## entry 201
+
+Returns a freshly allocated string the caller must free.
