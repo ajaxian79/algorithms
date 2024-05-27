@@ -611,3 +611,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 153
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 154
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
