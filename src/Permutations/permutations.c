@@ -130,3 +130,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 86: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 87: Wavelet tree: range k-th element in O(log Σ) time.
+// note 88: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
