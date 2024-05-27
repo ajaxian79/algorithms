@@ -99,3 +99,4 @@ MunitTest find_difference_tests[] = {
 // edge note 74: Edge case: power-of-two-length input → no padding required.
 // edge note 75: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 76: Mutates the input in place; the original ordering is lost.
+// edge note 77: Allocates a single small fixed-size scratch buffer.
