@@ -663,3 +663,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 149
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 150
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
