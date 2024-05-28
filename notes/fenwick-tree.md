@@ -601,3 +601,7 @@
 ## entry 134
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 135
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
