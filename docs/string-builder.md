@@ -579,3 +579,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 145
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 146
+
+LIS via patience: each pile holds the smallest tail of length k.
