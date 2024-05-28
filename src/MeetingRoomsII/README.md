@@ -870,3 +870,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 202
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 203
+
+Edge case: reverse-sorted input → still O(n log n).
