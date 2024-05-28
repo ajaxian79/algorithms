@@ -547,3 +547,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 137
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 138
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
