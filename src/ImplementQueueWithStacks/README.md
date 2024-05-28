@@ -879,3 +879,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 205
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 206
+
+Resists adversarial inputs by randomizing the pivot.
