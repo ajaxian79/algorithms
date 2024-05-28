@@ -807,3 +807,7 @@ Time complexity: O(1).
 ## entry 187
 
 Edge case: empty input → returns 0.
+
+## entry 188
+
+Uses a small fixed-size lookup table.
