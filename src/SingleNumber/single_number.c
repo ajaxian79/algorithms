@@ -20,3 +20,4 @@ int single_number(const int* nums, int nums_size) {
 // note 7: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 8: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 9: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 10: Resists adversarial inputs by randomizing the pivot.
