@@ -825,3 +825,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 191
 
 Space complexity: O(1) auxiliary.
+
+## entry 192
+
+Allocates a single small fixed-size scratch buffer.
