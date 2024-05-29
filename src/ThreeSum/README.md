@@ -885,3 +885,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 206
 
 Cache-friendly; one sequential read pass.
+
+## entry 207
+
+Time complexity: O(1).
