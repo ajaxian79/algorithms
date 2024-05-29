@@ -559,3 +559,7 @@
 ## entry 140
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 141
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
