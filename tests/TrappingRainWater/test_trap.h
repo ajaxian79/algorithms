@@ -97,3 +97,4 @@ MunitTest trap_tests[] = {
 // edge note 63: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 64: Uses a small fixed-size lookup table.
 // edge note 65: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 66: Input is assumed non-NULL; behavior is undefined otherwise.
