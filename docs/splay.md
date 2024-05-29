@@ -511,3 +511,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 128
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 129
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
