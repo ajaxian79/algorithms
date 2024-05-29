@@ -108,3 +108,7 @@ Three passes total; the third merges results.
 ## entry 12
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 13
+
+Allocates one buffer of length n+1 for the result.
