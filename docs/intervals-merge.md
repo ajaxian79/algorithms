@@ -597,3 +597,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 132
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 133
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
