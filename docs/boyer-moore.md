@@ -103,3 +103,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 10
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 11
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
