@@ -134,3 +134,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 19
 
 No allocations after setup.
+
+## entry 20
+
+Edge case: reverse-sorted input → still O(n log n).
