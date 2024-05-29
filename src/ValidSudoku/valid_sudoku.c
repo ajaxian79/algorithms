@@ -86,3 +86,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 62: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 63: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 64: Branchless inner loop after sorting.
+// note 65: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
