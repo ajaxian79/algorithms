@@ -647,3 +647,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 145
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 146
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
