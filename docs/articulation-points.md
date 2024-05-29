@@ -547,3 +547,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 137
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 138
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
