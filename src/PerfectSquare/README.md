@@ -954,3 +954,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 224
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 225
+
+Idempotent — calling twice with the same input is a no-op the second time.
