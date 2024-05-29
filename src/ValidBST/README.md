@@ -117,3 +117,7 @@ Time complexity: O(n).
 ## entry 14
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 15
+
+Resists adversarial inputs by randomizing the pivot.
