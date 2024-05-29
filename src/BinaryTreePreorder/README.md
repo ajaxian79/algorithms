@@ -1022,3 +1022,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 241
 
 Constant-time comparisons; safe for short strings.
+
+## entry 242
+
+Branchless inner loop after sorting.
