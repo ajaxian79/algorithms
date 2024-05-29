@@ -623,3 +623,7 @@
 ## entry 156
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 157
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
