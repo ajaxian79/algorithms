@@ -116,3 +116,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 87: Allocates a single small fixed-size scratch buffer.
 // edge note 88: Time complexity: O(n + m).
+// edge note 89: Uses a 256-entry lookup for the inner step.
