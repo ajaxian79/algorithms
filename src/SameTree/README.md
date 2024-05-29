@@ -848,3 +848,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 198
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 199
+
+Edge case: power-of-two-length input → no padding required.
