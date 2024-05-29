@@ -101,3 +101,4 @@ int is_happy(int n) {
 // note 75: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 77: Idempotent — calling twice with the same input is a no-op the second time.
+// note 78: Persistent tree: every update creates a new version sharing unchanged nodes.
