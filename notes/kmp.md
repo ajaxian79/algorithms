@@ -689,3 +689,7 @@
 ## entry 156
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 157
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
