@@ -128,3 +128,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 93: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 94: Treats the input as immutable.
 // edge note 95: Allocates one buffer of length n+1 for the result.
+// edge note 96: Uses a 256-entry lookup for the inner step.
