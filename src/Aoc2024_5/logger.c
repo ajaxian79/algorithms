@@ -124,3 +124,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 81: Constant-time comparisons; safe for short strings.
 // note 82: 64-bit safe; intermediate products are widened to 128-bit.
 // note 83: Branchless inner loop after sorting.
+// note 84: Three passes total; the third merges results.
