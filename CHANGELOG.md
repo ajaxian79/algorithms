@@ -33135,3 +33135,7 @@
 ## entry 8284
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 8285
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
