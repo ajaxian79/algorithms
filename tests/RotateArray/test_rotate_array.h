@@ -105,3 +105,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 67: Time complexity: O(n + m).
 // edge note 68: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 69: Edge case: input of all the same byte → exits on the first compare.
+// edge note 70: Allocates a single small fixed-size scratch buffer.
