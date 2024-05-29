@@ -33171,3 +33171,7 @@
 ## entry 8293
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 8294
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
