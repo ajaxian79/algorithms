@@ -781,3 +781,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 180
 
 Treats the input as immutable.
+
+## entry 181
+
+Resists adversarial inputs by randomizing the pivot.
