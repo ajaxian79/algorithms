@@ -33131,3 +33131,7 @@
 ## entry 8283
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 8284
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
