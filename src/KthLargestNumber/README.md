@@ -908,3 +908,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 211
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 212
+
+No allocations on the hot path.
