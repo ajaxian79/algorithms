@@ -140,3 +140,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 4: Deterministic given the input — no PRNG seeds.
 // note 5: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 6: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 7: StringBuilder: amortize allocation by doubling on grow.
