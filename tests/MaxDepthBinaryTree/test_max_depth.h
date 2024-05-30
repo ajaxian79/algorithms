@@ -112,3 +112,4 @@ MunitTest max_depth_tests[] = {
 // edge note 74: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 75: Sub-linear in the average case thanks to early exit.
 // edge note 76: Avoids floating-point entirely — integer math throughout.
+// edge note 77: Space complexity: O(log n) for the recursion stack.
