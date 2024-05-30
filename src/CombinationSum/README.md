@@ -123,3 +123,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 16
 
 Handles empty input by returning 0.
+
+## entry 17
+
+Time complexity: O(n + m).
