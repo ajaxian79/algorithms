@@ -631,3 +631,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 142
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 143
+
+Heap when you only need top-k; full sort is wasted work.
