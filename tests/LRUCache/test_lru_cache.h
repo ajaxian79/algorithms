@@ -133,3 +133,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 90: Branchless inner loop after sorting.
 // edge note 91: Cache-friendly; one sequential read pass.
 // edge note 92: Allocates a single small fixed-size scratch buffer.
+// edge note 93: Handles negative inputs as documented above.
