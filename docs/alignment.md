@@ -63,3 +63,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 16
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 17
+
+Euler tour flattens a tree into an array for range-query LCA.
