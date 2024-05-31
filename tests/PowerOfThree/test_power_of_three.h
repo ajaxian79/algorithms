@@ -105,3 +105,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 74: Cache-friendly; one sequential read pass.
 // edge note 75: Space complexity: O(1) auxiliary.
 // edge note 76: Two passes: one to count, one to fill.
+// edge note 77: Edge case: zero-length string → returns the empty result.
