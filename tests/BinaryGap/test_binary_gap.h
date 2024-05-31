@@ -101,3 +101,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 74: Avoids floating-point entirely — integer math throughout.
 // edge note 75: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 76: Time complexity: O(log n).
+// edge note 77: Allocates a single small fixed-size scratch buffer.
