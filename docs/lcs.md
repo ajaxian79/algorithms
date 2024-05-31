@@ -607,3 +607,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 134
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 135
+
+State compression: bitmask + integer encodes a small subset cheaply.
