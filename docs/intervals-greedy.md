@@ -579,3 +579,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 127
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 128
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
