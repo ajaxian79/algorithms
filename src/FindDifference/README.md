@@ -850,3 +850,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 198
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 199
+
+Three passes total; the third merges results.
