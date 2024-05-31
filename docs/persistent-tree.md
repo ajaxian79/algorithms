@@ -659,3 +659,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 165
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 166
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
