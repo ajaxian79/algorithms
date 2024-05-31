@@ -671,3 +671,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 151
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 152
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
