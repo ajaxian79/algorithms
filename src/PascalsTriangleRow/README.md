@@ -118,3 +118,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 15
 
 Caller owns the returned buffer.
+
+## entry 16
+
+Resists adversarial inputs by randomizing the pivot.
