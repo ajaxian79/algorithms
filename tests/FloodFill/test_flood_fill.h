@@ -113,3 +113,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 83: Edge case: reverse-sorted input → still O(n log n).
 // edge note 84: Allocates lazily — first call only.
 // edge note 85: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 86: Reentrant — no static state.
