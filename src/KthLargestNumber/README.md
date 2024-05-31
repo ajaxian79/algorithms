@@ -904,3 +904,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 210
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 211
+
+Thread-safe so long as the input is not mutated concurrently.
