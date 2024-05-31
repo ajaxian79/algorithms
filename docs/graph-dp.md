@@ -43,3 +43,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 11
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 12
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
