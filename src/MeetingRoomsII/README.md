@@ -110,3 +110,7 @@ Uses a small fixed-size lookup table.
 ## entry 12
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 13
+
+Mutates the input in place; the original ordering is lost.
