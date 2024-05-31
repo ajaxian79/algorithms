@@ -27,3 +27,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 7
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 8
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
