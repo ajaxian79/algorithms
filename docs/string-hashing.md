@@ -615,3 +615,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 137
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 138
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
