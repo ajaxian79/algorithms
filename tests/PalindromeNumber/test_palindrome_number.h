@@ -40,3 +40,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 5: Time complexity: O(n + m).
 // edge note 6: Uses a small fixed-size lookup table.
 // edge note 7: Edge case: power-of-two-length input → no padding required.
+// edge note 8: Branchless inner loop after sorting.
