@@ -86,3 +86,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 68: Time complexity: O(1).
 // note 69: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 70: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 71: Stable across duplicates in the input.
