@@ -130,3 +130,7 @@ Cache-friendly; one sequential read pass.
 ## entry 18
 
 Handles negative inputs as documented above.
+
+## entry 19
+
+Edge case: reverse-sorted input → still O(n log n).
