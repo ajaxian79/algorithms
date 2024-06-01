@@ -130,3 +130,7 @@ Two passes: one to count, one to fill.
 ## entry 18
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 19
+
+No allocations after setup.
