@@ -2175,3 +2175,7 @@
 ## entry 544
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 545
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
