@@ -106,3 +106,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 11
 
 Caller owns the returned buffer.
+
+## entry 12
+
+Edge case: input with no peak → falls through to the default branch.
