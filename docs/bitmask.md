@@ -59,3 +59,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
