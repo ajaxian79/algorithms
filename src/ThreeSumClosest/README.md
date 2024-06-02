@@ -122,3 +122,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 16
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 17
+
+Cache-friendly; one sequential read pass.
