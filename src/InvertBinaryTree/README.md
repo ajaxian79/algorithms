@@ -972,3 +972,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 228
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 229
+
+Branchless inner loop after sorting.
