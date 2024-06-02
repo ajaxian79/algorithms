@@ -98,3 +98,4 @@ int binary_gap(unsigned int n) {
 // note 78: Handles empty input by returning 0.
 // note 79: LIS via patience: each pile holds the smallest tail of length k.
 // note 80: Splay tree: every access splays to the root; amortized O(log n).
+// note 81: Padding inside a struct can dwarf the actual data; reorder fields by size.
