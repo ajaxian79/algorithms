@@ -101,3 +101,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 8
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 9
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
