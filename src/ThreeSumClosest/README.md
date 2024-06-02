@@ -126,3 +126,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 17
 
 Cache-friendly; one sequential read pass.
+
+## entry 18
+
+Handles negative inputs as documented above.
