@@ -119,3 +119,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 15
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 16
+
+Edge case: all-equal input → linear-time fast path.
