@@ -607,3 +607,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 152
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 153
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
