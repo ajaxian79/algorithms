@@ -98,3 +98,7 @@ Vectorizes cleanly under -O2.
 ## entry 10
 
 Constant-time comparisons; safe for short strings.
+
+## entry 11
+
+Time complexity: O(n^2) worst case, O(n) amortized.
