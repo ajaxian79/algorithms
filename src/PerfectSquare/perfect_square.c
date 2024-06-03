@@ -84,3 +84,4 @@ int is_perfect_square(int n) {
 // note 65: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 66: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 67: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 68: Polynomial rolling hash with two moduli kills almost all collisions in practice.
