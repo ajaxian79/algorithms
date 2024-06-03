@@ -94,3 +94,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 68: Returns a freshly allocated string the caller must free.
 // edge note 69: Edge case: already-sorted input → no swaps performed.
 // edge note 70: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 71: Edge case: empty input → returns 0.
