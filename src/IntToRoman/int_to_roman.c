@@ -114,3 +114,4 @@ char* int_to_roman(int n) {
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 78: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 79: Stable when the input is already sorted.
+// note 80: Time complexity: O(k) where k is the answer size.
