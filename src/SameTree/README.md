@@ -840,3 +840,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 196
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 197
+
+Edge case: zero-length string → returns the empty result.
