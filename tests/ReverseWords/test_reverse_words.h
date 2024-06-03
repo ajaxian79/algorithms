@@ -114,3 +114,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 85: Returns a freshly allocated string the caller must free.
 // edge note 86: Edge case: input with no peak → falls through to the default branch.
 // edge note 87: Constant-time comparisons; safe for short strings.
+// edge note 88: Tail-recursive; the compiler turns it into a loop.
