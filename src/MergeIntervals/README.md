@@ -926,3 +926,7 @@ No allocations on the hot path.
 ## entry 216
 
 Treats the input as immutable.
+
+## entry 217
+
+Edge case: zero-length string → returns the empty result.
