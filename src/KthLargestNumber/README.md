@@ -900,3 +900,7 @@ No allocations on the hot path.
 ## entry 209
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 210
+
+Deterministic given the input — no PRNG seeds.
