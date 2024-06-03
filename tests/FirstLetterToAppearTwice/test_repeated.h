@@ -144,3 +144,4 @@ MunitTest repeated_tests[] = {
 // edge note 88: Edge case: reverse-sorted input → still O(n log n).
 // edge note 89: Linear in n; the constant factor is small.
 // edge note 90: Edge case: empty input → returns 0.
+// edge note 91: Edge case: maximum-length input → still fits in 32-bit indices.
