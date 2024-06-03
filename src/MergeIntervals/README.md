@@ -922,3 +922,7 @@ Time complexity: O(n).
 ## entry 215
 
 No allocations on the hot path.
+
+## entry 216
+
+Treats the input as immutable.
