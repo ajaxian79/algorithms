@@ -1054,3 +1054,7 @@ No allocations on the hot path.
 ## entry 249
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 250
+
+Mutates the input in place; the original ordering is lost.
