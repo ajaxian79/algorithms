@@ -132,3 +132,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 89: Mutates the input in place; the original ordering is lost.
 // edge note 90: Branchless inner loop after sorting.
 // edge note 91: Cache-friendly; one sequential read pass.
+// edge note 92: Allocates a single small fixed-size scratch buffer.
