@@ -920,3 +920,7 @@ Allocates lazily — first call only.
 ## entry 214
 
 No allocations after setup.
+
+## entry 215
+
+Returns a freshly allocated string the caller must free.
