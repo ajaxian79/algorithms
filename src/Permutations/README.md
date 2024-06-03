@@ -1016,3 +1016,7 @@ Linear in n; the constant factor is small.
 ## entry 239
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 240
+
+Edge case: integer-min input → guarded by the explicit underflow check.
