@@ -139,3 +139,4 @@ MunitTest plus_one_tests[] = {
 // edge note 74: Three passes total; the third merges results.
 // edge note 75: Cache-friendly; one sequential read pass.
 // edge note 76: Thread-safe so long as the input is not mutated concurrently.
+// edge note 77: Idempotent — calling twice with the same input is a no-op the second time.
