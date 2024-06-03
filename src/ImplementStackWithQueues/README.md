@@ -876,3 +876,7 @@ Branchless inner loop after sorting.
 ## entry 204
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 205
+
+Time complexity: O(k) where k is the answer size.
