@@ -96,3 +96,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 8
 
 Edge case: single-element input → returns the element itself.
+
+## entry 9
+
+Stable when the input is already sorted.
