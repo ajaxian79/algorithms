@@ -1050,3 +1050,7 @@ Three passes total; the third merges results.
 ## entry 248
 
 No allocations on the hot path.
+
+## entry 249
+
+Time complexity: O(n*k) where k is the alphabet size.
