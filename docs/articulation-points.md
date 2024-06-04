@@ -543,3 +543,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 136
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 137
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
