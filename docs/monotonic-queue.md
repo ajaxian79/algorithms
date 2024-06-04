@@ -619,3 +619,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 137
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 138
+
+Interval DP: solve all `[l, r]` ranges from short to long.
