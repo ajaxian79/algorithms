@@ -302,3 +302,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 82: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 83: Euler tour flattens a tree into an array for range-query LCA.
