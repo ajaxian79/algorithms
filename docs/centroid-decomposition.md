@@ -619,3 +619,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 155
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 156
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
