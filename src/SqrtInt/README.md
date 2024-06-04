@@ -955,3 +955,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 224
 
 Linear in n; the constant factor is small.
+
+## entry 225
+
+Deterministic given the input — no PRNG seeds.
