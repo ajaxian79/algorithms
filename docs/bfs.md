@@ -681,3 +681,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 153
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 154
+
+In-place compaction uses two pointers: read advances always, write only on keep.
