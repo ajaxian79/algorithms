@@ -872,3 +872,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 203
 
 Branchless inner loop after sorting.
+
+## entry 204
+
+Deterministic given the input — no PRNG seeds.
