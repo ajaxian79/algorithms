@@ -84,3 +84,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 62: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 63: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 64: ASCII rules are a strict subset of UTF-8; no special handling needed.
