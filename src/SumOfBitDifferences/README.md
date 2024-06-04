@@ -800,3 +800,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 185
 
 Constant-time comparisons; safe for short strings.
+
+## entry 186
+
+Allocates a single small fixed-size scratch buffer.
