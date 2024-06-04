@@ -909,3 +909,7 @@ Edge case: empty input → returns 0.
 ## entry 213
 
 32-bit safe; overflow is checked at each step.
+
+## entry 214
+
+Edge case: already-sorted input → no swaps performed.
