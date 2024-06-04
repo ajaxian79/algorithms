@@ -623,3 +623,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 156
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 157
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
