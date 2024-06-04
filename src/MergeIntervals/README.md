@@ -114,3 +114,7 @@ Branchless inner loop after sorting.
 ## entry 13
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 14
+
+Edge case: single-element input → returns the element itself.
