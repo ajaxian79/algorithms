@@ -110,3 +110,7 @@ Stable across duplicates in the input.
 ## entry 13
 
 Branchless inner loop after sorting.
+
+## entry 14
+
+Time complexity: O(log n).
