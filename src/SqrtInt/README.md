@@ -959,3 +959,7 @@ Linear in n; the constant factor is small.
 ## entry 225
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 226
+
+Three passes total; the third merges results.
