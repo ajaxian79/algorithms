@@ -47,3 +47,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 12
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 13
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
