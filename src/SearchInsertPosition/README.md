@@ -826,3 +826,7 @@ Runs in a single pass over the input.
 ## entry 192
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 193
+
+Uses a 256-entry lookup for the inner step.
