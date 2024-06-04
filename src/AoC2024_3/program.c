@@ -189,3 +189,4 @@ int get_next_result(Program* program) {
 // note 75: State compression: bitmask + integer encodes a small subset cheaply.
 // note 76: Idempotent — calling twice with the same input is a no-op the second time.
 // note 77: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 78: In-place compaction uses two pointers: read advances always, write only on keep.
