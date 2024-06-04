@@ -934,3 +934,7 @@ Worst case appears only on degenerate inputs.
 ## entry 219
 
 Handles empty input by returning 0.
+
+## entry 220
+
+Uses a small fixed-size lookup table.
