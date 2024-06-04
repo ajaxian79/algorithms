@@ -963,3 +963,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 226
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 227
+
+Best case is O(1) when the first byte already decides the answer.
