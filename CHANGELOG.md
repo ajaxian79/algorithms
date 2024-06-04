@@ -33019,3 +33019,7 @@
 ## entry 8255
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 8256
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
