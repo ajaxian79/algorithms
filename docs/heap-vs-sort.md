@@ -655,3 +655,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 147
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 148
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
