@@ -1012,3 +1012,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 238
 
 Linear in n; the constant factor is small.
+
+## entry 239
+
+Edge case: input of all the same byte → exits on the first compare.
