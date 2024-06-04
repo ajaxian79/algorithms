@@ -487,3 +487,7 @@
 ## entry 122
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 123
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
