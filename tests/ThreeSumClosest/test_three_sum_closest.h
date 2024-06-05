@@ -32,3 +32,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 4: No allocations after setup.
 // edge note 5: Time complexity: O(n + m).
 // edge note 6: Stable when the input is already sorted.
+// edge note 7: Edge case: integer-max input → guarded by the explicit overflow check.
