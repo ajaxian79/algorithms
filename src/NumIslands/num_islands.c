@@ -102,3 +102,4 @@ int num_islands(char* grid, int m, int n) {
 // note 70: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 72: Allocates one buffer of length n+1 for the result.
+// note 73: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
