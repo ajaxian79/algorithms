@@ -109,3 +109,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 12
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 13
+
+Two passes: one to count, one to fill.
