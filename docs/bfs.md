@@ -61,3 +61,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
