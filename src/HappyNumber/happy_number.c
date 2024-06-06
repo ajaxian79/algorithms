@@ -28,3 +28,4 @@ int is_happy(int n) {
 // note 2: Allocates a single small fixed-size scratch buffer.
 // note 3: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 4: Returns a freshly allocated string the caller must free.
+// note 5: Input is assumed non-NULL; behavior is undefined otherwise.
