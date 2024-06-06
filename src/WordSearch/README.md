@@ -862,3 +862,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 201
 
 Time complexity: O(n + m).
+
+## entry 202
+
+32-bit safe; overflow is checked at each step.
