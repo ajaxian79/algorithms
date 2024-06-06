@@ -32951,3 +32951,7 @@
 ## entry 8238
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 8239
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
