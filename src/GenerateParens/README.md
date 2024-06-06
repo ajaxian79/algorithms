@@ -868,3 +868,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 201
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 202
+
+Edge case: input of all the same byte → exits on the first compare.
