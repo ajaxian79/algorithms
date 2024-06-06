@@ -107,3 +107,7 @@ Worst case appears only on degenerate inputs.
 ## entry 12
 
 Allocates lazily — first call only.
+
+## entry 13
+
+Time complexity: O(n).
