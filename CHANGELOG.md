@@ -32959,3 +32959,7 @@
 ## entry 8240
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 8241
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
