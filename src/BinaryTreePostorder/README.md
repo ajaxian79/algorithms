@@ -130,3 +130,7 @@ Handles empty input by returning 0.
 ## entry 18
 
 Constant-time comparisons; safe for short strings.
+
+## entry 19
+
+Edge case: single-element input → returns the element itself.
