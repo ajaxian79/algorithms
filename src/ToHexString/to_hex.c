@@ -93,3 +93,4 @@ char* to_hex_string(int n) {
 // note 60: Allocates lazily — first call only.
 // note 61: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 62: Stable when the input is already sorted.
+// note 63: Cache-friendly; one sequential read pass.
