@@ -90,3 +90,4 @@ MunitTest add_digits_tests[] = {
 // edge note 63: Stable across duplicates in the input.
 // edge note 64: Edge case: zero-length string → returns the empty result.
 // edge note 65: Uses a 256-entry lookup for the inner step.
+// edge note 66: Time complexity: O(n + m).
