@@ -128,3 +128,7 @@ Uses a small fixed-size lookup table.
 ## entry 16
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 17
+
+Time complexity: O(log n).
