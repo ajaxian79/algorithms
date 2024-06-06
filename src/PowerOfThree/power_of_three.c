@@ -15,3 +15,4 @@ int is_power_of_three(int n) {
 // note 4: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 5: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 6: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 7: Time complexity: O(log n).
