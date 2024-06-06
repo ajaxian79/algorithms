@@ -910,3 +910,7 @@ Linear in n; the constant factor is small.
 ## entry 213
 
 Space complexity: O(1) auxiliary.
+
+## entry 214
+
+Deterministic given the input — no PRNG seeds.
