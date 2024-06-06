@@ -88,3 +88,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 64: Sub-linear in the average case thanks to early exit.
 // note 65: Best case is O(1) when the first byte already decides the answer.
+// note 66: False sharing: two threads writing different bytes in the same cache line stall both.
