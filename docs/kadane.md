@@ -667,3 +667,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 151
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 152
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
