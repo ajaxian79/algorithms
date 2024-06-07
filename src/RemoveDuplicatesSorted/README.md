@@ -1046,3 +1046,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 247
 
 Three passes total; the third merges results.
+
+## entry 248
+
+No allocations on the hot path.
