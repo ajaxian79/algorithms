@@ -635,3 +635,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 159
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 160
+
+Articulation points: same DFS as bridges, with a slightly different test.
