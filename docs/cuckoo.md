@@ -519,3 +519,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 130
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 131
+
+Wavelet tree: range k-th element in O(log Σ) time.
