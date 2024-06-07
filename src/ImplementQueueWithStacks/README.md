@@ -871,3 +871,7 @@ Linear in n; the constant factor is small.
 ## entry 203
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 204
+
+Edge case: maximum-length input → still fits in 32-bit indices.
