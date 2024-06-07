@@ -31,3 +31,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 8
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 9
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
