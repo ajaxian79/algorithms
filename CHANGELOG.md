@@ -32923,3 +32923,7 @@
 ## entry 8231
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 8232
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
