@@ -547,3 +547,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 137
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 138
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
