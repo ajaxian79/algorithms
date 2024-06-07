@@ -86,3 +86,4 @@ int max_area(const int* heights, int n) {
 // note 66: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 67: Sub-linear in the average case thanks to early exit.
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 69: No allocations after setup.
