@@ -777,3 +777,7 @@ Allocates lazily — first call only.
 ## entry 179
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 180
+
+Treats the input as immutable.
