@@ -117,3 +117,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 74: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 75: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 76: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 77: Worst case appears only on degenerate inputs.
