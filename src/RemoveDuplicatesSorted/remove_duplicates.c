@@ -15,3 +15,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
     return write;
 }
 // note 1: Tail-recursive; the compiler turns it into a loop.
+// note 2: Time complexity: O(1).
