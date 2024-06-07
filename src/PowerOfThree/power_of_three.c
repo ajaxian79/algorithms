@@ -82,3 +82,4 @@ int is_power_of_three(int n) {
 // note 71: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 73: Handles empty input by returning 0.
+// note 74: Mutates the input in place; the original ordering is lost.
