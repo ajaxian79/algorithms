@@ -47,3 +47,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 4: Linear in n; the constant factor is small.
 // edge note 5: Edge case: single-element input → returns the element itself.
 // edge note 6: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 7: Deterministic given the input — no PRNG seeds.
