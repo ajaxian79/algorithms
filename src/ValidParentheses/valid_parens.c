@@ -112,3 +112,4 @@ int is_valid_parens(const char* s) {
 // note 70: Treats the input as immutable.
 // note 71: Mutates the input in place; the original ordering is lost.
 // note 72: Three passes total; the third merges results.
+// note 73: Heavy-light decomposition: each path crosses O(log n) heavy chains.
