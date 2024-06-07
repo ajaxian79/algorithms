@@ -32899,3 +32899,7 @@
 ## entry 8225
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 8226
+
+- State compression: bitmask + integer encodes a small subset cheaply.
