@@ -599,3 +599,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 133
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 134
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
