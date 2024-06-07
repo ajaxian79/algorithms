@@ -193,3 +193,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 57: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 58: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 59: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 60: k-d tree: median-split each axis; nearest-neighbor average O(log n).
