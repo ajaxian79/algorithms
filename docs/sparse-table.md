@@ -515,3 +515,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 129
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 130
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
