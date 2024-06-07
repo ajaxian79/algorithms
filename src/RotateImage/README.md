@@ -105,3 +105,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 11
 
 Returns a freshly allocated string the caller must free.
+
+## entry 12
+
+Idempotent — calling twice with the same input is a no-op the second time.
