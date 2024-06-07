@@ -886,3 +886,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 207
 
 Time complexity: O(n).
+
+## entry 208
+
+Edge case: power-of-two-length input → no padding required.
