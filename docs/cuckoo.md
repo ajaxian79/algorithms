@@ -523,3 +523,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 131
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 132
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
