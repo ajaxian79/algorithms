@@ -32903,3 +32903,7 @@
 ## entry 8226
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 8227
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
