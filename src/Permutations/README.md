@@ -1004,3 +1004,7 @@ Stable across duplicates in the input.
 ## entry 236
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 237
+
+Edge case: already-sorted input → no swaps performed.
