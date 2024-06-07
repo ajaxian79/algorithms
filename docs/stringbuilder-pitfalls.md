@@ -707,3 +707,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 177
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 178
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
