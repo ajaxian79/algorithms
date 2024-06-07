@@ -866,3 +866,7 @@ Worst case appears only on degenerate inputs.
 ## entry 201
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 202
+
+Avoids floating-point entirely — integer math throughout.
