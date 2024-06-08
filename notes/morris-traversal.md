@@ -63,3 +63,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
