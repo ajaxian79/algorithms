@@ -91,3 +91,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 69: Allocates one buffer of length n+1 for the result.
 // note 70: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 71: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 72: Time complexity: O(n + m).
