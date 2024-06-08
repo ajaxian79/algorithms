@@ -47,3 +47,7 @@
 ## entry 12
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 13
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
