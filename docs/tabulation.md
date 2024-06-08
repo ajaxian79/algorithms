@@ -611,3 +611,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 153
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 154
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
