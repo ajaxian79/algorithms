@@ -547,3 +547,7 @@
 ## entry 137
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 138
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
