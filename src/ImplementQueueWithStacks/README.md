@@ -111,3 +111,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 13
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 14
+
+64-bit safe; intermediate products are widened to 128-bit.
