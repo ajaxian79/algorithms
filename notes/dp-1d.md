@@ -61,3 +61,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- Heap when you only need top-k; full sort is wasted work.
