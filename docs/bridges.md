@@ -651,3 +651,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 163
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 164
+
+Heap when you only need top-k; full sort is wasted work.
