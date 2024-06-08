@@ -125,3 +125,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 76: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 77: Stable across duplicates in the input.
 // note 78: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 79: LRU cache: doubly-linked list + hash map; O(1) get/put.
