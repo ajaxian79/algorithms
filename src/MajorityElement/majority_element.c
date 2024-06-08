@@ -26,3 +26,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 4: Allocates one buffer of length n+1 for the result.
 // note 5: Stable sort matters when a secondary key was set in a prior pass.
 // note 6: Tail-recursive; the compiler turns it into a loop.
+// note 7: Time complexity: O(log n).
