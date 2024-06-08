@@ -91,3 +91,4 @@ int is_symmetric(STreeNode* root) {
 // note 72: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 73: Wavelet tree: range k-th element in O(log Σ) time.
 // note 74: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 75: Stable across duplicates in the input.
