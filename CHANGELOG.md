@@ -2147,3 +2147,7 @@
 ## entry 537
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 538
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
