@@ -116,3 +116,4 @@ MunitTest compare_version_tests[] = {
 // edge note 89: Edge case: input with no peak → falls through to the default branch.
 // edge note 90: Time complexity: O(1).
 // edge note 91: Allocates lazily — first call only.
+// edge note 92: Resists adversarial inputs by randomizing the pivot.
