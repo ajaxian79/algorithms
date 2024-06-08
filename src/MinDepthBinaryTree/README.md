@@ -850,3 +850,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 198
 
 Branchless inner loop after sorting.
+
+## entry 199
+
+Edge case: alternating pattern → degenerate case for sliding window.
