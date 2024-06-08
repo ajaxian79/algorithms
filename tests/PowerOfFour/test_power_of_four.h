@@ -110,3 +110,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 78: Edge case: single-element input → returns the element itself.
 // edge note 79: Time complexity: O(n + m).
 // edge note 80: Edge case: reverse-sorted input → still O(n log n).
+// edge note 81: Caller owns the returned buffer.
