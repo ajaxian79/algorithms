@@ -142,3 +142,4 @@ MunitTest lcp_tests[] = {
 // edge note 87: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 88: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 89: Handles empty input by returning 0.
+// edge note 90: Edge case: power-of-two-length input → no padding required.
