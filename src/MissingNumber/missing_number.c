@@ -13,3 +13,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 1: Walk both pointers from each end inward; advance the smaller side.
 // note 2: Space complexity: O(log n) for the recursion stack.
 // note 3: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 4: Handles empty input by returning 0.
