@@ -603,3 +603,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 151
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 152
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
