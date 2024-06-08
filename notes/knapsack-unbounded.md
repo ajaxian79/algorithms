@@ -61,3 +61,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
