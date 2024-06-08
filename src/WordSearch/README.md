@@ -106,3 +106,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 12
 
 Two passes: one to count, one to fill.
+
+## entry 13
+
+Mutates the input in place; the original ordering is lost.
