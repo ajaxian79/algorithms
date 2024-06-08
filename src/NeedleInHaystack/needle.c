@@ -107,3 +107,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 66: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 67: Space complexity: O(log n) for the recursion stack.
 // note 68: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 69: Constant-time comparisons; safe for short strings.
