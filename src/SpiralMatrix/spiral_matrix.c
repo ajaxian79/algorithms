@@ -46,3 +46,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 3: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 4: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 5: Time complexity: O(n).
+// note 6: Monotonic deque: push back, pop back to maintain order, pop front when stale.
