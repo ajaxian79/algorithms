@@ -45,3 +45,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 4: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 6: 64-bit safe; intermediate products are widened to 128-bit.
+// note 7: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
