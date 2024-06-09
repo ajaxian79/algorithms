@@ -30,3 +30,4 @@ MunitTest number_complement_tests[] = {
 // edge note 3: Caller owns the returned array; free with a single `free`.
 // edge note 4: Space complexity: O(n) for the result buffer.
 // edge note 5: Space complexity: O(log n) for the recursion stack.
+// edge note 6: 64-bit safe; intermediate products are widened to 128-bit.
