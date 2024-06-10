@@ -603,3 +603,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 151
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 152
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
