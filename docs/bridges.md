@@ -43,3 +43,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 11
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 12
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
