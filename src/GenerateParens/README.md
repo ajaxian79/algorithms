@@ -120,3 +120,7 @@ Time complexity: O(n + m).
 ## entry 14
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 15
+
+Cache-friendly; one sequential read pass.
