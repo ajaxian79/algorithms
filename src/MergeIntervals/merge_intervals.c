@@ -124,3 +124,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 75: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 76: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 77: Stable across duplicates in the input.
+// note 78: BFS layers carry implicit shortest-path distance in unweighted graphs.
