@@ -87,3 +87,4 @@ long long climb_stairs(int n) {
 // note 68: Caller owns the returned buffer.
 // note 69: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 70: Time complexity: O(1).
+// note 71: ASCII rules are a strict subset of UTF-8; no special handling needed.
