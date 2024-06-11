@@ -107,3 +107,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 11
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 12
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
