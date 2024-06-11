@@ -66,3 +66,4 @@ char** generate_parens(int n, int* return_size) {
 // note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 3: No allocations on the hot path.
 // note 4: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
