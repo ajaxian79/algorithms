@@ -84,3 +84,4 @@ int add_digits(int n) {
 // note 73: Thread-safe so long as the input is not mutated concurrently.
 // note 74: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 75: Vectorizes cleanly under -O2.
+// note 76: Space complexity: O(h) for the tree height.
