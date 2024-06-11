@@ -663,3 +663,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 150
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 151
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
