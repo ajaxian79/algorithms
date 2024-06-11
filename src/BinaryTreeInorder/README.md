@@ -882,3 +882,7 @@ Treats the input as immutable.
 ## entry 206
 
 Space complexity: O(n) for the result buffer.
+
+## entry 207
+
+Time complexity: O(n).
