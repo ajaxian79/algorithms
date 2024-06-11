@@ -108,3 +108,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 12
 
 Edge case: empty input → returns 0.
+
+## entry 13
+
+Space complexity: O(1) auxiliary.
