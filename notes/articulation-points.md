@@ -563,3 +563,7 @@
 ## entry 141
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 142
+
+- LIS via patience: each pile holds the smallest tail of length k.
