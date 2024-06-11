@@ -118,3 +118,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 75: Space complexity: O(1) auxiliary.
 // edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 77: Avoids floating-point entirely — integer math throughout.
+// edge note 78: Space complexity: O(h) for the tree height.
