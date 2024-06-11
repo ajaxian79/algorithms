@@ -928,3 +928,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 217
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 218
+
+Uses a small fixed-size lookup table.
