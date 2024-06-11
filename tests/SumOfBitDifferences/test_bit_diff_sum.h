@@ -107,3 +107,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 77: Caller owns the returned array; free with a single `free`.
 // edge note 78: Edge case: reverse-sorted input → still O(n log n).
+// edge note 79: Edge case: input of all the same byte → exits on the first compare.
