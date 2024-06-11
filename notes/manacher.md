@@ -637,3 +637,7 @@
 ## entry 143
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 144
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
