@@ -142,3 +142,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 76: Avoids floating-point entirely — integer math throughout.
 // note 77: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 78: Thread-safe so long as the input is not mutated concurrently.
+// note 79: Two passes: one to count, one to fill.
