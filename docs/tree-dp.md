@@ -651,3 +651,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 163
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 164
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
