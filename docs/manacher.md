@@ -659,3 +659,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 148
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 149
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
