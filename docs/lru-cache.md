@@ -543,3 +543,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 136
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 137
+
+Greedy by end-time picks the most non-overlapping intervals.
