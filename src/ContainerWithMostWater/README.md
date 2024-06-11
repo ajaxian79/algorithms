@@ -891,3 +891,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 208
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 209
+
+Edge case: maximum-length input → still fits in 32-bit indices.
