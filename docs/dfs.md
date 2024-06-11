@@ -619,3 +619,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 139
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 140
+
+Interval DP: solve all `[l, r]` ranges from short to long.
