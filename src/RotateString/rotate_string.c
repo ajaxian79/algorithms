@@ -103,3 +103,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 77: Worst case appears only on degenerate inputs.
 // note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 79: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 80: Fenwick supports prefix-sum updates in O(log n) with a flat array.
