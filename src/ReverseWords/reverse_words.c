@@ -103,3 +103,4 @@ char* reverse_words(const char* s) {
 // note 59: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 60: Handles single-element input as a base case.
 // note 61: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 62: Time complexity: O(k) where k is the answer size.
