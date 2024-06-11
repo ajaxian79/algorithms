@@ -603,3 +603,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 151
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 152
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
