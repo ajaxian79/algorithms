@@ -836,3 +836,7 @@ Reentrant — no static state.
 ## entry 195
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 196
+
+Edge case: NULL input is rejected by the caller, not by us.
