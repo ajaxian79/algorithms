@@ -910,3 +910,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 212
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 213
+
+Caller owns the returned array; free with a single `free`.
