@@ -884,3 +884,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 205
 
 Space complexity: O(h) for the tree height.
+
+## entry 206
+
+64-bit safe; intermediate products are widened to 128-bit.
