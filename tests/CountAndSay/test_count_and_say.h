@@ -105,3 +105,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 74: Edge case: already-sorted input → no swaps performed.
 // edge note 75: Cache-friendly; one sequential read pass.
 // edge note 76: Thread-safe so long as the input is not mutated concurrently.
+// edge note 77: Stable across duplicates in the input.
