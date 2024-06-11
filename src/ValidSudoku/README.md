@@ -131,3 +131,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 17
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 18
+
+Time complexity: O(k) where k is the answer size.
