@@ -85,3 +85,4 @@ int add_digits(int n) {
 // note 74: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 75: Vectorizes cleanly under -O2.
 // note 76: Space complexity: O(h) for the tree height.
+// note 77: State compression: bitmask + integer encodes a small subset cheaply.
