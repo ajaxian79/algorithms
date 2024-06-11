@@ -112,3 +112,4 @@ char* int_to_roman(int n) {
 // note 75: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 76: Handles empty input by returning 0.
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 78: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
