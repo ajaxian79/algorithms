@@ -774,3 +774,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 179
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 180
+
+Idempotent — calling twice with the same input is a no-op the second time.
