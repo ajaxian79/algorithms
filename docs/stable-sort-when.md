@@ -689,3 +689,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 158
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 159
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
