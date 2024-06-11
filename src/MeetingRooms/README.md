@@ -862,3 +862,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 201
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 202
+
+Edge case: input with one duplicate → handled without an extra pass.
