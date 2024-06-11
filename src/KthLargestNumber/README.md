@@ -124,3 +124,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 15
 
 Uses a small fixed-size lookup table.
+
+## entry 16
+
+Edge case: input with a single peak → handled by the first-pass scan.
