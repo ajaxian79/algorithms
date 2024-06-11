@@ -846,3 +846,7 @@ Treats the input as immutable.
 ## entry 197
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 198
+
+Time complexity: O(n*k) where k is the alphabet size.
