@@ -105,3 +105,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 12
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 13
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
