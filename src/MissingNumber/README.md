@@ -126,3 +126,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 16
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 17
+
+Stable across duplicates in the input.
