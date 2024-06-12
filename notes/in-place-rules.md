@@ -99,3 +99,7 @@
 ## entry 9
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
