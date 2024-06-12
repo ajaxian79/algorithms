@@ -43,3 +43,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 11
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 12
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
