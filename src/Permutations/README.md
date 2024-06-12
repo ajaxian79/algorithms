@@ -1000,3 +1000,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 235
 
 Stable across duplicates in the input.
+
+## entry 236
+
+Caller owns the returned array; free with a single `free`.
