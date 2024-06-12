@@ -599,3 +599,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 150
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 151
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
