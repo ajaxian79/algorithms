@@ -13,3 +13,4 @@ int add_digits(int n) {
 // note 2: Time complexity: O(n + m).
 // note 3: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 4: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 5: Time complexity: O(1).
