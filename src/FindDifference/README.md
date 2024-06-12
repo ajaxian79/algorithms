@@ -842,3 +842,7 @@ Treats the input as immutable.
 ## entry 196
 
 32-bit safe; overflow is checked at each step.
+
+## entry 197
+
+Edge case: input with a single peak → handled by the first-pass scan.
