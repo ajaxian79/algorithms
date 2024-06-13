@@ -535,3 +535,7 @@
 ## entry 134
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 135
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
