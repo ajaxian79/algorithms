@@ -113,3 +113,7 @@ Stable when the input is already sorted.
 ## entry 13
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 14
+
+Time complexity: O(1).
