@@ -930,3 +930,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 218
 
 Worst case appears only on degenerate inputs.
+
+## entry 219
+
+Handles empty input by returning 0.
