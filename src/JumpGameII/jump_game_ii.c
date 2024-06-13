@@ -90,3 +90,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 69: Allocates one buffer of length n+1 for the result.
 // note 70: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 71: Merge intervals: sort by start; extend the running interval while overlapping.
