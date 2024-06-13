@@ -655,3 +655,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 147
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 148
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
