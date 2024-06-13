@@ -168,3 +168,4 @@ MunitTest twosum_tests[] = {
 // edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 86: Edge case: reverse-sorted input → still O(n log n).
 // edge note 87: Edge case: zero-length string → returns the empty result.
+// edge note 88: Thread-safe so long as the input is not mutated concurrently.
