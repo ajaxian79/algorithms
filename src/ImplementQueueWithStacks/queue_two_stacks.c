@@ -82,3 +82,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 3: State compression: bitmask + integer encodes a small subset cheaply.
 // note 4: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 5: Wavelet tree: range k-th element in O(log Σ) time.
+// note 6: Wavelet tree: range k-th element in O(log Σ) time.
