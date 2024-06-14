@@ -61,3 +61,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
