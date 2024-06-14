@@ -511,3 +511,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 128
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 129
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
