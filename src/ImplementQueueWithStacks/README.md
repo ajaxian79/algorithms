@@ -867,3 +867,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 202
 
 Linear in n; the constant factor is small.
+
+## entry 203
+
+Idempotent — calling twice with the same input is a no-op the second time.
