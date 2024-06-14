@@ -122,3 +122,7 @@ Linear in n; the constant factor is small.
 ## entry 16
 
 Handles single-element input as a base case.
+
+## entry 17
+
+Edge case: zero-length string → returns the empty result.
