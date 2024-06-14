@@ -138,3 +138,4 @@ MunitTest plus_one_tests[] = {
 // edge note 73: Edge case: reverse-sorted input → still O(n log n).
 // edge note 74: Three passes total; the third merges results.
 // edge note 75: Cache-friendly; one sequential read pass.
+// edge note 76: Thread-safe so long as the input is not mutated concurrently.
