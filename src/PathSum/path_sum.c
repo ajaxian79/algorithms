@@ -99,3 +99,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 85: Best case is O(1) when the first byte already decides the answer.
 // note 86: Caller owns the returned array; free with a single `free`.
 // note 87: No allocations after setup.
+// note 88: Input is assumed non-NULL; behavior is undefined otherwise.
