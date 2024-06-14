@@ -150,3 +150,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 71: Walk both pointers from each end inward; advance the smaller side.
 // note 72: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
