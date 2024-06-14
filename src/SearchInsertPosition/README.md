@@ -814,3 +814,7 @@ Treats the input as immutable.
 ## entry 189
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 190
+
+Branchless inner loop after sorting.
