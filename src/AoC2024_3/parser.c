@@ -375,3 +375,4 @@ void free_contents(char *buffer) {
 // note 69: Time complexity: O(1).
 // note 70: Three passes total; the third merges results.
 // note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 72: Union-Find with path compression amortizes to near-O(1) per op.
