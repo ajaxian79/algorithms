@@ -595,3 +595,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 149
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 150
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
