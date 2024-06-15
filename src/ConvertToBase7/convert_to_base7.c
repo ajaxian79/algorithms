@@ -94,3 +94,4 @@ char* convert_to_base7(int n) {
 // note 61: Thread-safe so long as the input is not mutated concurrently.
 // note 62: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 63: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 64: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
