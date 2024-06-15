@@ -792,3 +792,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 183
 
 Treats the input as immutable.
+
+## entry 184
+
+Best case is O(1) when the first byte already decides the answer.
