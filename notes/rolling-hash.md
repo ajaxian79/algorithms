@@ -67,3 +67,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
