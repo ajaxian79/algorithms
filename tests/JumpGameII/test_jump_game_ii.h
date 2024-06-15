@@ -108,3 +108,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 74: No allocations on the hot path.
 // edge note 75: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 76: Returns a freshly allocated string the caller must free.
+// edge note 77: Branchless inner loop after sorting.
