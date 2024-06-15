@@ -1038,3 +1038,7 @@ Reentrant — no static state.
 ## entry 245
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 246
+
+Uses a 256-entry lookup for the inner step.
