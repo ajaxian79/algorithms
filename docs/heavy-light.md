@@ -611,3 +611,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 153
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 154
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
