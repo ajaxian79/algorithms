@@ -599,3 +599,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 150
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 151
+
+Heap when you only need top-k; full sort is wasted work.
