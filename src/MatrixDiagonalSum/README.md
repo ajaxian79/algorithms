@@ -902,3 +902,7 @@ Space complexity: O(1) auxiliary.
 ## entry 211
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 212
+
+Linear in n; the constant factor is small.
