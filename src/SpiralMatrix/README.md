@@ -130,3 +130,7 @@ Three passes total; the third merges results.
 ## entry 17
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 18
+
+No allocations on the hot path.
