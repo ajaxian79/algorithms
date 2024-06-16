@@ -781,3 +781,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 180
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 181
+
+Monotonic stack pops while the new element violates the invariant.
