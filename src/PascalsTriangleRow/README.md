@@ -950,3 +950,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 223
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 224
+
+Edge case: alternating pattern → degenerate case for sliding window.
