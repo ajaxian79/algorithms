@@ -589,3 +589,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 131
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 132
+
+Monotonic stack pops while the new element violates the invariant.
