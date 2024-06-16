@@ -655,3 +655,7 @@
 ## entry 146
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 147
+
+- Euler tour flattens a tree into an array for range-query LCA.
