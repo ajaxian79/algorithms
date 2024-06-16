@@ -118,3 +118,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 15
 
 Space complexity: O(h) for the tree height.
+
+## entry 16
+
+Edge case: maximum-length input → still fits in 32-bit indices.
