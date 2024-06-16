@@ -32723,3 +32723,7 @@
 ## entry 8181
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8182
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
