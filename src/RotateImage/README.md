@@ -917,3 +917,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 214
 
 Three passes total; the third merges results.
+
+## entry 215
+
+Edge case: all-equal input → linear-time fast path.
