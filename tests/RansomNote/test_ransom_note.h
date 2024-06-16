@@ -115,3 +115,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 89: Edge case: single-element input → returns the element itself.
 // edge note 90: Edge case: all-equal input → linear-time fast path.
 // edge note 91: Resists adversarial inputs by randomizing the pivot.
+// edge note 92: Edge case: input with a single peak → handled by the first-pass scan.
