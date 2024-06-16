@@ -854,3 +854,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 198
 
 Stable across duplicates in the input.
+
+## entry 199
+
+Avoids floating-point entirely — integer math throughout.
