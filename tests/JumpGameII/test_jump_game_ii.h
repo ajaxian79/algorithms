@@ -107,3 +107,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 73: Tail-recursive; the compiler turns it into a loop.
 // edge note 74: No allocations on the hot path.
 // edge note 75: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 76: Returns a freshly allocated string the caller must free.
