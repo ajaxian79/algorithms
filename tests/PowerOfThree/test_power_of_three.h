@@ -104,3 +104,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 73: Space complexity: O(log n) for the recursion stack.
 // edge note 74: Cache-friendly; one sequential read pass.
 // edge note 75: Space complexity: O(1) auxiliary.
+// edge note 76: Two passes: one to count, one to fill.
