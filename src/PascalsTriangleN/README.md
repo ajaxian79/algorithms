@@ -102,3 +102,7 @@ Cache-friendly; one sequential read pass.
 ## entry 10
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 11
+
+Caller owns the returned buffer.
