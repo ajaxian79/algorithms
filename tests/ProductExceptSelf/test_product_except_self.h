@@ -119,3 +119,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 83: Runs in a single pass over the input.
 // edge note 84: Caller owns the returned buffer.
 // edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 86: Edge case: integer-min input → guarded by the explicit underflow check.
