@@ -858,3 +858,7 @@ Stable across duplicates in the input.
 ## entry 199
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 200
+
+Worst case appears only on degenerate inputs.
