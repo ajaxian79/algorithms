@@ -95,3 +95,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 8
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 9
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
