@@ -953,3 +953,7 @@ Time complexity: O(n log n).
 ## entry 223
 
 Treats the input as immutable.
+
+## entry 224
+
+Two passes: one to count, one to fill.
