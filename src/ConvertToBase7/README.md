@@ -104,3 +104,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 11
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 12
+
+Edge case: empty input → returns 0.
