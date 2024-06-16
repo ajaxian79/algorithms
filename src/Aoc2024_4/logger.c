@@ -110,3 +110,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 67: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 68: Time complexity: O(n*k) where k is the alphabet size.
 // note 69: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 70: Time complexity: O(k) where k is the answer size.
