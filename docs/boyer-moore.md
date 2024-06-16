@@ -619,3 +619,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 139
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 140
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
