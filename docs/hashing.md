@@ -767,3 +767,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 175
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 176
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
