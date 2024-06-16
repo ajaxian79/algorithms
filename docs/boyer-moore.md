@@ -623,3 +623,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 140
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 141
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
