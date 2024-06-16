@@ -949,3 +949,7 @@ Allocates lazily — first call only.
 ## entry 222
 
 Time complexity: O(n log n).
+
+## entry 223
+
+Treats the input as immutable.
