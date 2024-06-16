@@ -107,3 +107,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 9
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 10
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
