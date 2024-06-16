@@ -32719,3 +32719,7 @@
 ## entry 8180
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 8181
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
