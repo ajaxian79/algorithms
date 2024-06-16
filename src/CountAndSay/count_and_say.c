@@ -124,3 +124,4 @@ char* count_and_say(int n) {
 // note 75: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 76: Walk both pointers from each end inward; advance the smaller side.
 // note 77: Linear in n; the constant factor is small.
+// note 78: Thread-safe so long as the input is not mutated concurrently.
