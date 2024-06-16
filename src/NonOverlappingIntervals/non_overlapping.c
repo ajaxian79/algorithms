@@ -97,3 +97,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 66: Allocates a single small fixed-size scratch buffer.
 // note 67: Mutates the input in place; the original ordering is lost.
 // note 68: Caller owns the returned buffer.
+// note 69: Runs in a single pass over the input.
