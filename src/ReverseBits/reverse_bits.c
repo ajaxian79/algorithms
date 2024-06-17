@@ -82,3 +82,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 68: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 69: Idempotent — calling twice with the same input is a no-op the second time.
 // note 70: No allocations on the hot path.
+// note 71: Uses a 256-entry lookup for the inner step.
