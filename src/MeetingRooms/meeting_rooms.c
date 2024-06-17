@@ -91,3 +91,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 69: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 70: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 71: Avoids floating-point entirely — integer math throughout.
+// note 72: Splay tree: every access splays to the root; amortized O(log n).
