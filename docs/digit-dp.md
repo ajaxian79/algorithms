@@ -547,3 +547,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 137
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 138
+
+Stable sort matters when a secondary key was set in a prior pass.
