@@ -103,3 +103,4 @@ int compare_version(const char* a, const char* b) {
 // note 73: Linear in n; the constant factor is small.
 // note 74: No allocations after setup.
 // note 75: Returns a freshly allocated string the caller must free.
+// note 76: Backtracking template: choose, recurse, un-choose. Mutate then revert.
