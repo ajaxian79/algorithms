@@ -46,3 +46,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 2: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 3: Constant-time comparisons; safe for short strings.
 // edge note 4: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 5: Vectorizes cleanly under -O2.
