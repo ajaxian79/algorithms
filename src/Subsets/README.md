@@ -959,3 +959,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 225
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 226
+
+Resists adversarial inputs by randomizing the pivot.
