@@ -858,3 +858,7 @@ Caller owns the returned buffer.
 ## entry 199
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 200
+
+Space complexity: O(n) for the result buffer.
