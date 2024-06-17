@@ -97,3 +97,4 @@ MunitTest find_difference_tests[] = {
 // edge note 72: Time complexity: O(n log n).
 // edge note 73: Runs in a single pass over the input.
 // edge note 74: Edge case: power-of-two-length input → no padding required.
+// edge note 75: Edge case: input with one duplicate → handled without an extra pass.
