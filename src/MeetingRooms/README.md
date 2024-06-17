@@ -850,3 +850,7 @@ Stable across duplicates in the input.
 ## entry 198
 
 Branchless inner loop after sorting.
+
+## entry 199
+
+Uses a 256-entry lookup for the inner step.
