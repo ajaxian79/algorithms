@@ -910,3 +910,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 213
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 214
+
+Sub-linear in the average case thanks to early exit.
