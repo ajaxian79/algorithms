@@ -821,3 +821,7 @@ Two passes: one to count, one to fill.
 ## entry 190
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 191
+
+Space complexity: O(1) auxiliary.
