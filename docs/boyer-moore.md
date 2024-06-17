@@ -615,3 +615,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 138
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 139
+
+Euler tour flattens a tree into an array for range-query LCA.
