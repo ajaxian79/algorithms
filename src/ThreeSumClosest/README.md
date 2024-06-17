@@ -906,3 +906,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 212
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 213
+
+Avoids floating-point entirely — integer math throughout.
