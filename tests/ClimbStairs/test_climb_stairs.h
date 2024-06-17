@@ -107,3 +107,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 72: Sub-linear in the average case thanks to early exit.
 // edge note 73: Time complexity: O(n).
 // edge note 74: Cache-friendly; one sequential read pass.
+// edge note 75: Runs in a single pass over the input.
