@@ -183,3 +183,5 @@ Space complexity: O(n) for the result buffer.
 Time complexity: O(n).
 
 Returns a freshly allocated string the caller must free.
+
+Three passes total; the third merges results.
