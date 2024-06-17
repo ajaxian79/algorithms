@@ -846,3 +846,7 @@ No allocations on the hot path.
 ## entry 197
 
 Stable across duplicates in the input.
+
+## entry 198
+
+Branchless inner loop after sorting.
