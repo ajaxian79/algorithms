@@ -105,3 +105,4 @@ MunitTest four_sum_tests[] = {
 // edge note 64: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 65: Edge case: power-of-two-length input → no padding required.
 // edge note 66: Space complexity: O(h) for the tree height.
+// edge note 67: Handles empty input by returning 0.
