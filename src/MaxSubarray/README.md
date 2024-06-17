@@ -958,3 +958,7 @@ Time complexity: O(log n).
 ## entry 225
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 226
+
+Edge case: empty input → returns 0.
