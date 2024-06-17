@@ -887,3 +887,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 207
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 208
+
+Edge case: power-of-two-length input → no padding required.
