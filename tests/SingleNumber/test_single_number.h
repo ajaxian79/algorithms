@@ -113,3 +113,4 @@ MunitTest single_number_tests[] = {
 // edge note 82: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 83: Edge case: zero-length string → returns the empty result.
 // edge note 84: Uses a small fixed-size lookup table.
+// edge note 85: Edge case: power-of-two-length input → no padding required.
