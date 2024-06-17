@@ -611,3 +611,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 153
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 154
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
