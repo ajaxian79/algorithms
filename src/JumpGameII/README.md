@@ -828,3 +828,7 @@ Time complexity: O(n + m).
 ## entry 192
 
 Handles single-element input as a base case.
+
+## entry 193
+
+Edge case: NULL input is rejected by the caller, not by us.
