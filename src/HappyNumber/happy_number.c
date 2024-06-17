@@ -99,3 +99,4 @@ int is_happy(int n) {
 // note 73: Tail-recursive; the compiler turns it into a loop.
 // note 74: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 75: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
