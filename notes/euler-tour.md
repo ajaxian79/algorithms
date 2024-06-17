@@ -531,3 +531,7 @@
 ## entry 133
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 134
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
