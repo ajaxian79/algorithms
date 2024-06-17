@@ -952,3 +952,7 @@ Linear in n; the constant factor is small.
 ## entry 222
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 223
+
+Allocates a single small fixed-size scratch buffer.
