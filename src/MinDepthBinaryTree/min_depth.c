@@ -89,3 +89,4 @@ int min_depth(MnTreeNode* root) {
 // note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 73: Time complexity: O(n*k) where k is the alphabet size.
 // note 74: Constant-time comparisons; safe for short strings.
+// note 75: No allocations on the hot path.
