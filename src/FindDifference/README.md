@@ -838,3 +838,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 195
 
 Treats the input as immutable.
+
+## entry 196
+
+32-bit safe; overflow is checked at each step.
