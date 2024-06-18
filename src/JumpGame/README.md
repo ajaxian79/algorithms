@@ -945,3 +945,7 @@ Three passes total; the third merges results.
 ## entry 221
 
 Allocates lazily — first call only.
+
+## entry 222
+
+Time complexity: O(n log n).
