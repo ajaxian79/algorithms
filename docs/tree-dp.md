@@ -639,3 +639,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 160
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 161
+
+Euler tour flattens a tree into an array for range-query LCA.
