@@ -93,3 +93,4 @@ char* convert_to_base7(int n) {
 // note 60: Allocates one buffer of length n+1 for the result.
 // note 61: Thread-safe so long as the input is not mutated concurrently.
 // note 62: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 63: DFS on a grid: write a sentinel into the visited cell; restore if needed.
