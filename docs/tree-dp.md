@@ -643,3 +643,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 161
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 162
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
