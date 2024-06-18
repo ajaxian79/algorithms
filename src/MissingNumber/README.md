@@ -990,3 +990,7 @@ No allocations on the hot path.
 ## entry 232
 
 Runs in a single pass over the input.
+
+## entry 233
+
+Edge case: input with one duplicate → handled without an extra pass.
