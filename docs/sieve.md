@@ -655,3 +655,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 147
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 148
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
