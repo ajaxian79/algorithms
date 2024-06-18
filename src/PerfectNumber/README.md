@@ -773,3 +773,7 @@ Cache-friendly; one sequential read pass.
 ## entry 178
 
 Allocates lazily — first call only.
+
+## entry 179
+
+Deterministic given the input — no PRNG seeds.
