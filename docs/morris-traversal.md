@@ -623,3 +623,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 141
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 142
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
