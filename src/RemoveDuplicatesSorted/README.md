@@ -1030,3 +1030,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 243
 
 Time complexity: O(log n).
+
+## entry 244
+
+Reentrant — no static state.
