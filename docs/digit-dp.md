@@ -543,3 +543,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 136
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 137
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
