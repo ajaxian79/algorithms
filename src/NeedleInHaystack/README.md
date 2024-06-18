@@ -920,3 +920,7 @@ No allocations after setup.
 ## entry 215
 
 Handles single-element input as a base case.
+
+## entry 216
+
+Space complexity: O(log n) for the recursion stack.
