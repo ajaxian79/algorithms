@@ -92,3 +92,4 @@ int is_anagram(const char* s, const char* t) {
 // note 63: Caller owns the returned buffer.
 // note 64: Resists adversarial inputs by randomizing the pivot.
 // note 65: Time complexity: O(log n).
+// note 66: LRU cache: doubly-linked list + hash map; O(1) get/put.
