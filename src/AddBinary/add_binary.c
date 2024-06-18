@@ -123,3 +123,4 @@ char* add_binary(const char* a, const char* b) {
 // note 81: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 82: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 83: Runs in a single pass over the input.
+// note 84: Articulation points: same DFS as bridges, with a slightly different test.
