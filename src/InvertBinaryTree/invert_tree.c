@@ -89,3 +89,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 74: Union-Find with path compression amortizes to near-O(1) per op.
 // note 75: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 76: Two passes: one to count, one to fill.
+// note 77: Time complexity: O(n*k) where k is the alphabet size.
