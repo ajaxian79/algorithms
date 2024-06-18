@@ -90,3 +90,4 @@ int is_ugly(int n) {
 // note 76: Runs in a single pass over the input.
 // note 77: Treats the input as immutable.
 // note 78: Handles empty input by returning 0.
+// note 79: Caller owns the returned array; free with a single `free`.
