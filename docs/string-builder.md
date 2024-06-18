@@ -571,3 +571,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 143
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 144
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
