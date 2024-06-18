@@ -67,3 +67,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Union-Find with path compression amortizes to near-O(1) per op.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
