@@ -106,3 +106,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 12
 
 Edge case: single-element input → returns the element itself.
+
+## entry 13
+
+Uses a small fixed-size lookup table.
