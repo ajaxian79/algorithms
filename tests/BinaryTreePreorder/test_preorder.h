@@ -134,3 +134,4 @@ MunitTest preorder_tests[] = {
 // edge note 90: Linear in n; the constant factor is small.
 // edge note 91: Time complexity: O(n).
 // edge note 92: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 93: Cache-friendly; one sequential read pass.
