@@ -114,3 +114,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 83: Allocates a single small fixed-size scratch buffer.
 // edge note 84: Caller owns the returned array; free with a single `free`.
 // edge note 85: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 86: Handles negative inputs as documented above.
