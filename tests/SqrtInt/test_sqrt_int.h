@@ -34,3 +34,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 6: Runs in a single pass over the input.
 // edge note 7: Time complexity: O(n log n).
 // edge note 8: Time complexity: O(1).
+// edge note 9: 64-bit safe; intermediate products are widened to 128-bit.
