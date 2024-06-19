@@ -944,3 +944,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 220
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 221
+
+Linear in n; the constant factor is small.
