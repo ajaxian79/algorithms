@@ -32,3 +32,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 5: Uses a small fixed-size lookup table.
 // edge note 6: Tail-recursive; the compiler turns it into a loop.
 // edge note 7: Uses a 256-entry lookup for the inner step.
+// edge note 8: Allocates lazily — first call only.
