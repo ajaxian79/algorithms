@@ -877,3 +877,7 @@ Time complexity: O(n log n).
 ## entry 204
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 205
+
+Deterministic given the input — no PRNG seeds.
