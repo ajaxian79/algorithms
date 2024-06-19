@@ -941,3 +941,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 220
 
 Three passes total; the third merges results.
+
+## entry 221
+
+Allocates lazily — first call only.
