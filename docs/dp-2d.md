@@ -631,3 +631,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 142
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 143
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
