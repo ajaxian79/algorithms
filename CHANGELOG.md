@@ -32627,3 +32627,7 @@
 ## entry 8157
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 8158
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
