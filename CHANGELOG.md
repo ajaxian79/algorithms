@@ -2083,3 +2083,7 @@
 ## entry 521
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 522
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
