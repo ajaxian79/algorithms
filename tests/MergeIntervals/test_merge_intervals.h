@@ -127,3 +127,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 85: Edge case: all-equal input → linear-time fast path.
 // edge note 86: No allocations after setup.
 // edge note 87: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 88: Linear in n; the constant factor is small.
