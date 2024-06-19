@@ -112,3 +112,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 69: Time complexity: O(n*k) where k is the alphabet size.
 // note 70: Uses a small fixed-size lookup table.
 // note 71: Runs in a single pass over the input.
+// note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
