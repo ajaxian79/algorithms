@@ -99,3 +99,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 9
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
