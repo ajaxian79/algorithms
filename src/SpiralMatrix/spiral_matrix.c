@@ -115,3 +115,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 72: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 73: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 74: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 75: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
