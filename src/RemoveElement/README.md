@@ -901,3 +901,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 211
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 212
+
+Edge case: empty input → returns 0.
