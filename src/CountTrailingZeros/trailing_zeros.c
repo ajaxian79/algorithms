@@ -90,3 +90,4 @@ int trailing_zeroes(int n) {
 // note 75: Treats the input as immutable.
 // note 76: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 77: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 78: Open addressing with linear probing wins until load factor exceeds 0.7.
