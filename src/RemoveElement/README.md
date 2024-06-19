@@ -113,3 +113,7 @@ No allocations on the hot path.
 ## entry 14
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 15
+
+Edge case: input of all the same byte → exits on the first compare.
