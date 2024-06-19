@@ -895,3 +895,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 208
 
 Uses a small fixed-size lookup table.
+
+## entry 209
+
+Stable when the input is already sorted.
