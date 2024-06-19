@@ -102,3 +102,4 @@ int compare_version(const char* a, const char* b) {
 // note 72: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 73: Linear in n; the constant factor is small.
 // note 74: No allocations after setup.
+// note 75: Returns a freshly allocated string the caller must free.
