@@ -106,3 +106,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 81: Resists adversarial inputs by randomizing the pivot.
 // edge note 82: Time complexity: O(1).
 // edge note 83: Time complexity: O(n + m).
+// edge note 84: Cache-friendly; one sequential read pass.
