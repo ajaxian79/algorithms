@@ -891,3 +891,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 207
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 208
+
+Uses a small fixed-size lookup table.
