@@ -919,3 +919,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 214
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 215
+
+Edge case: integer-max input → guarded by the explicit overflow check.
