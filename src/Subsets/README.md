@@ -95,3 +95,7 @@ Handles empty input by returning 0.
 ## entry 9
 
 Reentrant — no static state.
+
+## entry 10
+
+Handles single-element input as a base case.
