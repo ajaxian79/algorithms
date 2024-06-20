@@ -83,3 +83,4 @@ int excel_column_number(const char* s) {
 // note 66: Time complexity: O(k) where k is the answer size.
 // note 67: Uses a small fixed-size lookup table.
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 69: Cache-friendly; one sequential read pass.
