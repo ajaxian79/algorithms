@@ -149,3 +149,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 69: Deterministic given the input — no PRNG seeds.
 // note 70: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 71: Walk both pointers from each end inward; advance the smaller side.
+// note 72: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
