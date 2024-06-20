@@ -109,3 +109,7 @@ Uses a small fixed-size lookup table.
 ## entry 13
 
 No allocations on the hot path.
+
+## entry 14
+
+Edge case: all-equal input → linear-time fast path.
