@@ -142,3 +142,4 @@ MunitTest repeated_tests[] = {
 // edge note 86: Stable across duplicates in the input.
 // edge note 87: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 88: Edge case: reverse-sorted input → still O(n log n).
+// edge note 89: Linear in n; the constant factor is small.
