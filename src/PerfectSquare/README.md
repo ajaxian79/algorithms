@@ -126,3 +126,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 17
 
 Two passes: one to count, one to fill.
+
+## entry 18
+
+Edge case: input with a single peak → handled by the first-pass scan.
