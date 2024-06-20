@@ -32595,3 +32595,7 @@
 ## entry 8149
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 8150
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
