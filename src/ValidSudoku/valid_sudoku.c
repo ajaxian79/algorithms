@@ -85,3 +85,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 61: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 62: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 63: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 64: Branchless inner loop after sorting.
