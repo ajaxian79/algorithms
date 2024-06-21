@@ -567,3 +567,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 142
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 143
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
