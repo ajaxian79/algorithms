@@ -573,3 +573,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 127
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 128
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
