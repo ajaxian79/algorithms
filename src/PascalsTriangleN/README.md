@@ -854,3 +854,7 @@ Three passes total; the third merges results.
 ## entry 198
 
 Caller owns the returned buffer.
+
+## entry 199
+
+64-bit safe; intermediate products are widened to 128-bit.
