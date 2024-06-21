@@ -567,3 +567,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 142
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 143
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
