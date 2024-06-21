@@ -89,3 +89,4 @@ int trailing_zeroes(int n) {
 // note 74: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 75: Treats the input as immutable.
 // note 76: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 77: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
