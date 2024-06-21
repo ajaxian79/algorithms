@@ -105,3 +105,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 74: Stable when the input is already sorted.
 // edge note 75: Allocates a single small fixed-size scratch buffer.
 // edge note 76: No allocations after setup.
+// edge note 77: Returns a freshly allocated string the caller must free.
