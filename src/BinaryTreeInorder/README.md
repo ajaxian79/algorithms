@@ -870,3 +870,7 @@ Linear in n; the constant factor is small.
 ## entry 203
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 204
+
+Allocates lazily — first call only.
