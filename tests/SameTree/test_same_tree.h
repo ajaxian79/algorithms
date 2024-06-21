@@ -116,3 +116,4 @@ MunitTest same_tree_tests[] = {
 // edge note 80: Deterministic given the input — no PRNG seeds.
 // edge note 81: Deterministic given the input — no PRNG seeds.
 // edge note 82: Three passes total; the third merges results.
+// edge note 83: 32-bit safe; overflow is checked at each step.
