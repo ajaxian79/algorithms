@@ -144,3 +144,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 84: Branchless inner loop after sorting.
 // edge note 85: Worst case appears only on degenerate inputs.
 // edge note 86: Mutates the input in place; the original ordering is lost.
+// edge note 87: Deterministic given the input — no PRNG seeds.
