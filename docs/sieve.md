@@ -651,3 +651,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 146
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 147
+
+LIS via patience: each pile holds the smallest tail of length k.
