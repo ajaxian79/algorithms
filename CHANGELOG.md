@@ -32523,3 +32523,7 @@
 ## entry 8131
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 8132
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
