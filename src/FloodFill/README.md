@@ -109,3 +109,7 @@ Handles single-element input as a base case.
 ## entry 13
 
 32-bit safe; overflow is checked at each step.
+
+## entry 14
+
+Handles negative inputs as documented above.
