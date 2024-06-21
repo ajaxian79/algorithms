@@ -107,3 +107,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 70: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 72: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 73: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
