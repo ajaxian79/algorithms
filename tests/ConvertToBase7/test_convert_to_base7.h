@@ -98,3 +98,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 69: Tail-recursive; the compiler turns it into a loop.
 // edge note 70: Avoids floating-point entirely — integer math throughout.
 // edge note 71: Space complexity: O(1) auxiliary.
+// edge note 72: Edge case: zero-length string → returns the empty result.
