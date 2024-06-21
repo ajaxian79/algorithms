@@ -864,3 +864,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 201
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 202
+
+Edge case: input with a single peak → handled by the first-pass scan.
