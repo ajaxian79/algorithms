@@ -32495,3 +32495,7 @@
 ## entry 8124
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 8125
+
+- Greedy by end-time picks the most non-overlapping intervals.
