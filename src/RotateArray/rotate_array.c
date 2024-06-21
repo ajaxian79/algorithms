@@ -86,3 +86,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 61: Cache-friendly; one sequential read pass.
 // note 62: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 64: Sub-linear in the average case thanks to early exit.
