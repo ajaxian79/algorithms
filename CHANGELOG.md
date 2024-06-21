@@ -2075,3 +2075,7 @@
 ## entry 519
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 520
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
