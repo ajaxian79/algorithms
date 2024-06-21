@@ -80,3 +80,4 @@ int hamming_distance(int x, int y) {
 // note 65: Handles negative inputs as documented above.
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 67: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 68: Tail-recursive; the compiler turns it into a loop.
