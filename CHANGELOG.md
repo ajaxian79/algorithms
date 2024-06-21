@@ -32547,3 +32547,7 @@
 ## entry 8137
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 8138
+
+- Wavelet tree: range k-th element in O(log Σ) time.
