@@ -611,3 +611,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 136
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 137
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
