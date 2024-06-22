@@ -911,3 +911,7 @@ Edge case: empty input → returns 0.
 ## entry 212
 
 Cache-friendly; one sequential read pass.
+
+## entry 213
+
+Space complexity: O(n) for the result buffer.
