@@ -551,3 +551,7 @@
 ## entry 138
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 139
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
