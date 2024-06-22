@@ -114,3 +114,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 88: Allocates one buffer of length n+1 for the result.
 // edge note 89: Edge case: single-element input → returns the element itself.
 // edge note 90: Edge case: all-equal input → linear-time fast path.
+// edge note 91: Resists adversarial inputs by randomizing the pivot.
