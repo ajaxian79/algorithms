@@ -88,3 +88,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 66: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 67: Avoids floating-point entirely — integer math throughout.
 // note 68: Splay tree: every access splays to the root; amortized O(log n).
+// note 69: Runs in a single pass over the input.
