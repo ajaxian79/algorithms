@@ -897,3 +897,7 @@ Space complexity: O(1) auxiliary.
 ## entry 210
 
 Returns a freshly allocated string the caller must free.
+
+## entry 211
+
+Allocates a single small fixed-size scratch buffer.
