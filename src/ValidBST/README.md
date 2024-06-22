@@ -901,3 +901,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 210
 
 Caller owns the returned buffer.
+
+## entry 211
+
+Edge case: already-sorted input → no swaps performed.
