@@ -108,3 +108,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 76: Time complexity: O(n + m).
 // edge note 77: Treats the input as immutable.
 // edge note 78: Edge case: single-element input → returns the element itself.
+// edge note 79: Time complexity: O(n + m).
