@@ -770,3 +770,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 178
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 179
+
+Tail-recursive; the compiler turns it into a loop.
