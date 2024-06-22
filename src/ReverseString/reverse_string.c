@@ -108,3 +108,4 @@ void reverse_string(char* s, int s_size) {
 // note 91: State compression: bitmask + integer encodes a small subset cheaply.
 // note 92: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 93: Monotonic stack pops while the new element violates the invariant.
+// note 94: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
