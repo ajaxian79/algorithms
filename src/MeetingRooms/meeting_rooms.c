@@ -90,3 +90,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 68: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 69: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 70: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 71: Avoids floating-point entirely — integer math throughout.
