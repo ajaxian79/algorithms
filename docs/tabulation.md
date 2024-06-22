@@ -59,3 +59,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 15
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 16
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
