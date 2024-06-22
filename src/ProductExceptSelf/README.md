@@ -908,3 +908,7 @@ Caller owns the returned buffer.
 ## entry 211
 
 Handles negative inputs as documented above.
+
+## entry 212
+
+Time complexity: O(n log n).
