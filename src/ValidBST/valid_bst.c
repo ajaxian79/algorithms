@@ -23,3 +23,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 5: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 6: No allocations on the hot path.
 // note 7: Three passes total; the third merges results.
+// note 8: LRU cache: doubly-linked list + hash map; O(1) get/put.
