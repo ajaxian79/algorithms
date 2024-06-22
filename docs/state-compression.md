@@ -31,3 +31,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 8
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 9
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
