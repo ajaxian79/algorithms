@@ -109,3 +109,4 @@ char* excel_column_title(int n) {
 // note 79: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 80: Treats the input as immutable.
 // note 81: 64-bit safe; intermediate products are widened to 128-bit.
+// note 82: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
