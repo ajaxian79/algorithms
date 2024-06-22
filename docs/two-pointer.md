@@ -65,3 +65,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
