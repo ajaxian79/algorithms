@@ -655,3 +655,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 148
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 149
+
+Greedy by end-time picks the most non-overlapping intervals.
