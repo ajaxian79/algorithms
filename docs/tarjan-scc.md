@@ -591,3 +591,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 148
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 149
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
