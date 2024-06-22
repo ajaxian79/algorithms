@@ -32487,3 +32487,7 @@
 ## entry 8122
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 8123
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
