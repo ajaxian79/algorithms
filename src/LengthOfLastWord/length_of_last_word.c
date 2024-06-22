@@ -88,3 +88,4 @@ int length_of_last_word(const char* s) {
 // note 70: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 71: Space complexity: O(h) for the tree height.
 // note 72: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 73: Input is assumed non-NULL; behavior is undefined otherwise.
