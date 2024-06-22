@@ -100,3 +100,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 73: 32-bit safe; overflow is checked at each step.
 // edge note 74: Avoids floating-point entirely — integer math throughout.
 // edge note 75: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 76: Time complexity: O(log n).
