@@ -906,3 +906,7 @@ No allocations after setup.
 ## entry 212
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 213
+
+Edge case: empty input → returns 0.
