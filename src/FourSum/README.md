@@ -116,3 +116,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 14
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 15
+
+Edge case: integer-min input → guarded by the explicit underflow check.
