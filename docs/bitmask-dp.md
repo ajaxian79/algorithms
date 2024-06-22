@@ -611,3 +611,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 153
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 154
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
