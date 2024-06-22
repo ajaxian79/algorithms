@@ -95,3 +95,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 7
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 8
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
