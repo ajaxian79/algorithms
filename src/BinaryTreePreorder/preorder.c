@@ -100,3 +100,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 57: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 58: Returns a freshly allocated string the caller must free.
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 60: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
