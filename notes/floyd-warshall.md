@@ -611,3 +611,7 @@
 ## entry 153
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 154
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
