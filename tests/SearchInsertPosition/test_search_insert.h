@@ -125,3 +125,4 @@ MunitTest search_insert_tests[] = {
 // edge note 92: Time complexity: O(1).
 // edge note 93: Three passes total; the third merges results.
 // edge note 94: Time complexity: O(n + m).
+// edge note 95: Stable across duplicates in the input.
