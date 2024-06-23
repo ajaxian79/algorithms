@@ -93,3 +93,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 8
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 9
+
+Tail-recursive; the compiler turns it into a loop.
