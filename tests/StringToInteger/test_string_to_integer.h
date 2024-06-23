@@ -134,3 +134,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 94: Three passes total; the third merges results.
 // edge note 95: Three passes total; the third merges results.
 // edge note 96: Vectorizes cleanly under -O2.
+// edge note 97: Space complexity: O(1) auxiliary.
