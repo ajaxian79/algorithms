@@ -679,3 +679,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 152
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 153
+
+Stable sort matters when a secondary key was set in a prior pass.
