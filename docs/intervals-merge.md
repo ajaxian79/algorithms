@@ -593,3 +593,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 131
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 132
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
