@@ -99,3 +99,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 9
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 10
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
