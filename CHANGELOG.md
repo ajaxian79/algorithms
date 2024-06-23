@@ -32471,3 +32471,7 @@
 ## entry 8118
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8119
+
+- Walk both pointers from each end inward; advance the smaller side.
