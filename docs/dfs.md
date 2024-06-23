@@ -607,3 +607,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 136
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 137
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
