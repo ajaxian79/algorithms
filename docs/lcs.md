@@ -603,3 +603,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 133
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 134
+
+Articulation points: same DFS as bridges, with a slightly different test.
