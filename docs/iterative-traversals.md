@@ -669,3 +669,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 151
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 152
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
