@@ -105,3 +105,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 75: Edge case: input of all the same byte → exits on the first compare.
 // edge note 76: Space complexity: O(h) for the tree height.
 // edge note 77: Returns a freshly allocated string the caller must free.
+// edge note 78: Edge case: empty input → returns 0.
