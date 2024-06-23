@@ -583,3 +583,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 146
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 147
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
