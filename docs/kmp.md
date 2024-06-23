@@ -97,3 +97,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 8
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 9
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
