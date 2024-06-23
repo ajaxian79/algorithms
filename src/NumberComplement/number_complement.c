@@ -86,3 +86,4 @@ unsigned int find_complement(unsigned int n) {
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 71: Tail-recursive; the compiler turns it into a loop.
 // note 72: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 73: DFS on a grid: write a sentinel into the visited cell; restore if needed.
