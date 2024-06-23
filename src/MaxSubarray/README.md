@@ -946,3 +946,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 222
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 223
+
+Time complexity: O(1).
