@@ -788,3 +788,7 @@ Handles negative inputs as documented above.
 ## entry 182
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 183
+
+Treats the input as immutable.
