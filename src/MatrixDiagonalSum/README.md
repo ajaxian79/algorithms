@@ -898,3 +898,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 210
 
 Space complexity: O(1) auxiliary.
+
+## entry 211
+
+Edge case: input with one duplicate → handled without an extra pass.
