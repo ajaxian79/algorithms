@@ -607,3 +607,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 152
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 153
+
+Stable sort matters when a secondary key was set in a prior pass.
