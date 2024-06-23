@@ -761,3 +761,7 @@
 ## entry 177
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 178
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
