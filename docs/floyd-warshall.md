@@ -31,3 +31,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 8
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 9
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
