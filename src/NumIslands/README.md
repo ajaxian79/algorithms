@@ -117,3 +117,7 @@ Reentrant — no static state.
 ## entry 14
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 15
+
+32-bit safe; overflow is checked at each step.
