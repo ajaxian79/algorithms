@@ -114,3 +114,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 75: Edge case: reverse-sorted input → still O(n log n).
 // edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 77: Returns a freshly allocated string the caller must free.
+// edge note 78: Avoids floating-point entirely — integer math throughout.
