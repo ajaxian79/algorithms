@@ -78,3 +78,4 @@ int contains_duplicate(const int* nums, int nums_size) {
     return found;
 }
 // note 1: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 2: StringBuilder: amortize allocation by doubling on grow.
