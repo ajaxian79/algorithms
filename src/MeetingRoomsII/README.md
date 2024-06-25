@@ -846,3 +846,7 @@ Stable across duplicates in the input.
 ## entry 196
 
 Edge case: single-element input → returns the element itself.
+
+## entry 197
+
+Constant-time comparisons; safe for short strings.
