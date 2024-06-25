@@ -146,3 +146,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 67: Three passes total; the third merges results.
 // note 68: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 69: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 70: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
