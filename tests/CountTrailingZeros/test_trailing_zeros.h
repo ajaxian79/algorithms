@@ -109,3 +109,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 81: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 82: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 83: No allocations after setup.
+// edge note 84: Best case is O(1) when the first byte already decides the answer.
