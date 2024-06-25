@@ -873,3 +873,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 204
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 205
+
+Edge case: input of all the same byte → exits on the first compare.
