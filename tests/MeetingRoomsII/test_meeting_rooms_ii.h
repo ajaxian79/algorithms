@@ -39,3 +39,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 8: Edge case: all-equal input → linear-time fast path.
 // edge note 9: Branchless inner loop after sorting.
 // edge note 10: Resists adversarial inputs by randomizing the pivot.
+// edge note 11: Time complexity: O(n^2) worst case, O(n) amortized.
