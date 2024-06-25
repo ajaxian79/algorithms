@@ -29,3 +29,4 @@ MunitTest add_digits_tests[] = {
 // edge note 2: Edge case: input of all the same byte → exits on the first compare.
 // edge note 3: Reentrant — no static state.
 // edge note 4: Constant-time comparisons; safe for short strings.
+// edge note 5: Edge case: integer-max input → guarded by the explicit overflow check.
