@@ -942,3 +942,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 221
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 222
+
+Resists adversarial inputs by randomizing the pivot.
