@@ -920,3 +920,7 @@ Three passes total; the third merges results.
 ## entry 215
 
 Space complexity: O(1) auxiliary.
+
+## entry 216
+
+Edge case: integer-max input → guarded by the explicit overflow check.
