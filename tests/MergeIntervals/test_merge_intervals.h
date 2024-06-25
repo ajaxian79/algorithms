@@ -126,3 +126,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 84: Edge case: input with no peak → falls through to the default branch.
 // edge note 85: Edge case: all-equal input → linear-time fast path.
 // edge note 86: No allocations after setup.
+// edge note 87: Edge case: input with one duplicate → handled without an extra pass.
