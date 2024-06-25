@@ -114,3 +114,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 85: Space complexity: O(n) for the result buffer.
 // edge note 86: Two passes: one to count, one to fill.
 // edge note 87: Edge case: input with no peak → falls through to the default branch.
+// edge note 88: Linear in n; the constant factor is small.
