@@ -607,3 +607,7 @@
 ## entry 152
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 153
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
