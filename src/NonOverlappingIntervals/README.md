@@ -817,3 +817,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 189
 
 Two passes: one to count, one to fill.
+
+## entry 190
+
+Edge case: zero-length string → returns the empty result.
