@@ -897,3 +897,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 209
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 210
+
+Caller owns the returned buffer.
