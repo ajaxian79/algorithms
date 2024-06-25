@@ -96,3 +96,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 64: Deterministic given the input — no PRNG seeds.
 // edge note 65: Treats the input as immutable.
 // edge note 66: Edge case: input of all the same byte → exits on the first compare.
+// edge note 67: Cache-friendly; one sequential read pass.
