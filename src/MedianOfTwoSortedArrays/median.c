@@ -224,3 +224,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 88: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 89: Reentrant — no static state.
 // note 90: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 91: Linear in n; the constant factor is small.
