@@ -106,3 +106,7 @@ Worst case appears only on degenerate inputs.
 ## entry 12
 
 Stable across duplicates in the input.
+
+## entry 13
+
+Branchless inner loop after sorting.
