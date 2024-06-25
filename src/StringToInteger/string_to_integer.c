@@ -100,3 +100,4 @@ int my_atoi(const char* s) {
 // note 69: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 70: 64-bit safe; intermediate products are widened to 128-bit.
 // note 71: Uses a small fixed-size lookup table.
+// note 72: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
