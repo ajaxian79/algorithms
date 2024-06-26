@@ -2063,3 +2063,7 @@
 ## entry 516
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 517
+
+- Greedy by end-time picks the most non-overlapping intervals.
