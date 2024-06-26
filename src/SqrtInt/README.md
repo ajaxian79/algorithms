@@ -943,3 +943,7 @@ Reentrant — no static state.
 ## entry 221
 
 Worst case appears only on degenerate inputs.
+
+## entry 222
+
+Edge case: already-sorted input → no swaps performed.
