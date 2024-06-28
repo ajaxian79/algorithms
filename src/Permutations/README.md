@@ -996,3 +996,7 @@ Treats the input as immutable.
 ## entry 234
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 235
+
+Stable across duplicates in the input.
