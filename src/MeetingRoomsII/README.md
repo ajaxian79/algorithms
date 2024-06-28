@@ -842,3 +842,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 195
 
 Stable across duplicates in the input.
+
+## entry 196
+
+Edge case: single-element input → returns the element itself.
