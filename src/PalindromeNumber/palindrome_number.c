@@ -102,3 +102,4 @@ int is_palindrome_number(int x) {
 // note 78: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 79: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 81: Backtracking template: choose, recurse, un-choose. Mutate then revert.
