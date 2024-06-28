@@ -98,3 +98,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 78: Avoids floating-point entirely — integer math throughout.
 // note 79: Thread-safe so long as the input is not mutated concurrently.
+// note 80: No allocations on the hot path.
