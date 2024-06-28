@@ -673,3 +673,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 152
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 153
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
