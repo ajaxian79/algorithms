@@ -51,3 +51,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 13
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 14
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
