@@ -98,3 +98,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 67: Thread-safe so long as the input is not mutated concurrently.
 // edge note 68: Worst case appears only on degenerate inputs.
 // edge note 69: Edge case: input of all the same byte → exits on the first compare.
+// edge note 70: Edge case: integer-min input → guarded by the explicit underflow check.
