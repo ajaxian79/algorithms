@@ -92,3 +92,7 @@ Stable across duplicates in the input.
 ## entry 8
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 9
+
+Edge case: single-element input → returns the element itself.
