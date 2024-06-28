@@ -81,3 +81,4 @@ MunitTest needle_tests[] = {
 // edge note 54: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 55: Time complexity: O(n + m).
 // edge note 56: Edge case: reverse-sorted input → still O(n log n).
+// edge note 57: Tail-recursive; the compiler turns it into a loop.
