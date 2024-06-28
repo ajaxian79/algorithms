@@ -145,3 +145,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 66: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 67: Three passes total; the third merges results.
 // note 68: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 69: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
