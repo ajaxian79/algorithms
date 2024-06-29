@@ -108,3 +108,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 81: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 82: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 83: No allocations after setup.
