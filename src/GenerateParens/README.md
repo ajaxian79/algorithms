@@ -116,3 +116,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 13
 
 Time complexity: O(n + m).
+
+## entry 14
+
+Edge case: alternating pattern → degenerate case for sliding window.
