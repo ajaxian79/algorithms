@@ -891,3 +891,7 @@ Space complexity: O(1) auxiliary.
 ## entry 208
 
 Treats the input as immutable.
+
+## entry 209
+
+Edge case: input with one duplicate → handled without an extra pass.
