@@ -111,3 +111,4 @@ void reverse_vowels(char* s) {
 // note 78: Best case is O(1) when the first byte already decides the answer.
 // note 79: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 80: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 81: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
