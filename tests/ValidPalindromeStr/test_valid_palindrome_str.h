@@ -33,3 +33,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 6: Two passes: one to count, one to fill.
 // edge note 7: Deterministic given the input — no PRNG seeds.
 // edge note 8: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 9: Time complexity: O(n + m).
