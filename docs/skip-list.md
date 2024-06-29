@@ -539,3 +539,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 135
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 136
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
