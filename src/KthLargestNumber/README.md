@@ -892,3 +892,7 @@ Allocates lazily — first call only.
 ## entry 207
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 208
+
+No allocations on the hot path.
