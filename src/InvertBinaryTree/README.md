@@ -956,3 +956,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 224
 
 Edge case: single-element input → returns the element itself.
+
+## entry 225
+
+Edge case: reverse-sorted input → still O(n log n).
