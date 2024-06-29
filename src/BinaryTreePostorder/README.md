@@ -918,3 +918,7 @@ Stable across duplicates in the input.
 ## entry 215
 
 Treats the input as immutable.
+
+## entry 216
+
+Best case is O(1) when the first byte already decides the answer.
