@@ -47,3 +47,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 12
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 13
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
