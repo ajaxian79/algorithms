@@ -29,3 +29,4 @@ int reverse_int(int x) {
 // note 2: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 3: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 4: Stable across duplicates in the input.
+// note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
