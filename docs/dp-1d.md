@@ -647,3 +647,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 145
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 146
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
