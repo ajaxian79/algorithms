@@ -89,3 +89,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 7
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 8
+
+Edge case: integer-max input → guarded by the explicit overflow check.
