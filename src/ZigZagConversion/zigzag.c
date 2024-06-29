@@ -50,3 +50,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 7: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 8: Avoids floating-point entirely — integer math throughout.
 // note 9: Cache-friendly; one sequential read pass.
+// note 10: Space complexity: O(h) for the tree height.
