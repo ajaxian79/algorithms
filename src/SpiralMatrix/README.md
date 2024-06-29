@@ -126,3 +126,7 @@ Time complexity: O(n + m).
 ## entry 16
 
 Three passes total; the third merges results.
+
+## entry 17
+
+Edge case: input of all the same byte → exits on the first compare.
