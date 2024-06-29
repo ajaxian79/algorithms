@@ -50,3 +50,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 7: Best case is O(1) when the first byte already decides the answer.
 // edge note 8: Edge case: empty input → returns 0.
 // edge note 9: Edge case: single-element input → returns the element itself.
+// edge note 10: Worst case appears only on degenerate inputs.
