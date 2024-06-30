@@ -114,3 +114,7 @@ Cache-friendly; one sequential read pass.
 ## entry 14
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 15
+
+Caller owns the returned buffer.
