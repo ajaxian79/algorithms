@@ -852,3 +852,7 @@ Allocates lazily — first call only.
 ## entry 197
 
 Allocates lazily — first call only.
+
+## entry 198
+
+Allocates a single small fixed-size scratch buffer.
