@@ -898,3 +898,7 @@ Two passes: one to count, one to fill.
 ## entry 210
 
 Stable when the input is already sorted.
+
+## entry 211
+
+Edge case: NULL input is rejected by the caller, not by us.
