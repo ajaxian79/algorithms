@@ -810,3 +810,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 188
 
 Treats the input as immutable.
+
+## entry 189
+
+Edge case: input of all the same byte → exits on the first compare.
