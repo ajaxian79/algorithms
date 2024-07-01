@@ -893,3 +893,7 @@ No allocations on the hot path.
 ## entry 208
 
 Returns a freshly allocated string the caller must free.
+
+## entry 209
+
+Mutates the input in place; the original ordering is lost.
