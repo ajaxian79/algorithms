@@ -82,3 +82,4 @@ int is_perfect_square(int n) {
 // note 63: Handles negative inputs as documented above.
 // note 64: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 65: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 66: Morris traversal threads predecessors back to current node — O(1) extra space.
