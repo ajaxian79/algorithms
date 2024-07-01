@@ -32371,3 +32371,7 @@
 ## entry 8093
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 8094
+
+- Euler tour flattens a tree into an array for range-query LCA.
