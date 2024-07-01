@@ -547,3 +547,7 @@
 ## entry 137
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 138
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
