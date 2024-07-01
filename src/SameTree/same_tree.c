@@ -91,3 +91,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 78: Thread-safe so long as the input is not mutated concurrently.
 // note 79: State compression: bitmask + integer encodes a small subset cheaply.
+// note 80: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
