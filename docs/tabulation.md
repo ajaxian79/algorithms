@@ -603,3 +603,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 151
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 152
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
