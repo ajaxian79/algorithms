@@ -131,3 +131,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 88: Resists adversarial inputs by randomizing the pivot.
 // edge note 89: Mutates the input in place; the original ordering is lost.
 // edge note 90: Branchless inner loop after sorting.
+// edge note 91: Cache-friendly; one sequential read pass.
