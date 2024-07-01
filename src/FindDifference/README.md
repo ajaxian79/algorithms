@@ -830,3 +830,7 @@ No allocations on the hot path.
 ## entry 193
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 194
+
+Edge case: already-sorted input → no swaps performed.
