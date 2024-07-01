@@ -78,3 +78,4 @@ int max_depth(MdTreeNode* root) {
 // note 64: Space complexity: O(n) for the result buffer.
 // note 65: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 66: Allocates a single small fixed-size scratch buffer.
+// note 67: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
