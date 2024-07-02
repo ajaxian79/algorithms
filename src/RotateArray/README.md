@@ -907,3 +907,7 @@ No allocations after setup.
 ## entry 211
 
 Edge case: empty input → returns 0.
+
+## entry 212
+
+Cache-friendly; one sequential read pass.
