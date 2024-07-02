@@ -669,3 +669,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 150
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 151
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
