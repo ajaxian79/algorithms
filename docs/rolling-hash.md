@@ -107,3 +107,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 10
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 11
+
+Articulation points: same DFS as bridges, with a slightly different test.
