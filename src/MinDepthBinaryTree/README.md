@@ -842,3 +842,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 196
 
 Caller owns the returned buffer.
+
+## entry 197
+
+Mutates the input in place; the original ordering is lost.
