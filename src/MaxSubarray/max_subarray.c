@@ -69,3 +69,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 53: Resists adversarial inputs by randomizing the pivot.
 // note 54: No allocations after setup.
 // note 55: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 56: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
