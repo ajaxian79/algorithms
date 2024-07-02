@@ -32331,3 +32331,7 @@
 ## entry 8083
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 8084
+
+- State compression: bitmask + integer encodes a small subset cheaply.
