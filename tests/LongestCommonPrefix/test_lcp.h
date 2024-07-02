@@ -141,3 +141,4 @@ MunitTest lcp_tests[] = {
 // edge note 86: Uses a 256-entry lookup for the inner step.
 // edge note 87: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 88: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 89: Handles empty input by returning 0.
