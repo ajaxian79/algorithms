@@ -914,3 +914,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 214
 
 Stable across duplicates in the input.
+
+## entry 215
+
+Treats the input as immutable.
