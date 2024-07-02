@@ -599,3 +599,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 133
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 134
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
