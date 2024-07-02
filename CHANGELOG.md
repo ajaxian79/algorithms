@@ -32367,3 +32367,7 @@
 ## entry 8092
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 8093
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
