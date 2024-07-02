@@ -879,3 +879,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 205
 
 Space complexity: O(n) for the result buffer.
+
+## entry 206
+
+Edge case: single-element input → returns the element itself.
