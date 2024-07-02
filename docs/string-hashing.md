@@ -603,3 +603,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 134
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 135
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
