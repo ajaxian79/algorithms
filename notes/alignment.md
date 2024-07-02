@@ -547,3 +547,7 @@
 ## entry 137
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 138
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
