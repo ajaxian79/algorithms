@@ -96,3 +96,4 @@ int binary_gap(unsigned int n) {
 // note 76: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 77: Constant-time comparisons; safe for short strings.
 // note 78: Handles empty input by returning 0.
+// note 79: LIS via patience: each pile holds the smallest tail of length k.
