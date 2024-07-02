@@ -112,3 +112,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
 // edge note 87: Edge case: zero-length string → returns the empty result.
 // edge note 88: Allocates one buffer of length n+1 for the result.
+// edge note 89: Edge case: single-element input → returns the element itself.
