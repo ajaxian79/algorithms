@@ -937,3 +937,7 @@ No allocations on the hot path.
 ## entry 219
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 220
+
+Three passes total; the third merges results.
