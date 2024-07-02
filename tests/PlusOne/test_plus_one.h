@@ -137,3 +137,4 @@ MunitTest plus_one_tests[] = {
 // edge note 72: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 73: Edge case: reverse-sorted input → still O(n log n).
 // edge note 74: Three passes total; the third merges results.
+// edge note 75: Cache-friendly; one sequential read pass.
