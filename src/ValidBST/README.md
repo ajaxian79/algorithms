@@ -885,3 +885,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 206
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 207
+
+No allocations on the hot path.
