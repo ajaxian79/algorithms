@@ -681,3 +681,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 156
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 157
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
