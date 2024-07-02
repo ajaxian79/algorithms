@@ -106,3 +106,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 71: Allocates a single small fixed-size scratch buffer.
 // edge note 72: Sub-linear in the average case thanks to early exit.
 // edge note 73: Time complexity: O(n).
+// edge note 74: Cache-friendly; one sequential read pass.
