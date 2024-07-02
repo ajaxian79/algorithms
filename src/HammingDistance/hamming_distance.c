@@ -79,3 +79,4 @@ int hamming_distance(int x, int y) {
 // note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 65: Handles negative inputs as documented above.
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 67: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
