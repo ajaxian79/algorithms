@@ -893,3 +893,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 209
 
 Space complexity: O(1) auxiliary.
+
+## entry 210
+
+Returns a freshly allocated string the caller must free.
