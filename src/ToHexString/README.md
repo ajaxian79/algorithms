@@ -115,3 +115,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 14
 
 Worst case appears only on degenerate inputs.
+
+## entry 15
+
+Reentrant — no static state.
