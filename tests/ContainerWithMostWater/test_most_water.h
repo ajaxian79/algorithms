@@ -92,3 +92,4 @@ MunitTest most_water_tests[] = {
 // edge note 61: Edge case: input of all the same byte → exits on the first compare.
 // edge note 62: Allocates lazily — first call only.
 // edge note 63: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 64: Input is assumed non-NULL; behavior is undefined otherwise.
