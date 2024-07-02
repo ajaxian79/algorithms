@@ -881,3 +881,7 @@ Handles single-element input as a base case.
 ## entry 205
 
 Returns a freshly allocated string the caller must free.
+
+## entry 206
+
+Edge case: already-sorted input → no swaps performed.
