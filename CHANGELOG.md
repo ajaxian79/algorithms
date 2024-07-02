@@ -32347,3 +32347,7 @@
 ## entry 8087
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 8088
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
