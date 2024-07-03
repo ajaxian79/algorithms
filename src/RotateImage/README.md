@@ -101,3 +101,7 @@ No allocations after setup.
 ## entry 10
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 11
+
+Returns a freshly allocated string the caller must free.
