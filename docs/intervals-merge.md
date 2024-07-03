@@ -97,3 +97,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 7
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
