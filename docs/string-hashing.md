@@ -61,3 +61,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
