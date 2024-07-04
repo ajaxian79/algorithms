@@ -96,3 +96,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 67: Edge case: single-element input → returns the element itself.
 // edge note 68: Caller owns the returned array; free with a single `free`.
 // edge note 69: Tail-recursive; the compiler turns it into a loop.
+// edge note 70: Avoids floating-point entirely — integer math throughout.
