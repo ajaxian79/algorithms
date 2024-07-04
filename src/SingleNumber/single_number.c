@@ -91,3 +91,4 @@ int single_number(const int* nums, int nums_size) {
 // note 78: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 80: 64-bit safe; intermediate products are widened to 128-bit.
+// note 81: Wavelet tree: range k-th element in O(log Σ) time.
