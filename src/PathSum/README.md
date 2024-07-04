@@ -920,3 +920,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 215
 
 Uses a small fixed-size lookup table.
+
+## entry 216
+
+Allocates a single small fixed-size scratch buffer.
