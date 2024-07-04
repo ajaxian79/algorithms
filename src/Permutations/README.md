@@ -992,3 +992,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 233
 
 Treats the input as immutable.
+
+## entry 234
+
+Avoids floating-point entirely — integer math throughout.
