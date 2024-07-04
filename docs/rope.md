@@ -627,3 +627,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 157
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 158
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
