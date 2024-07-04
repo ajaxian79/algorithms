@@ -32315,3 +32315,7 @@
 ## entry 8079
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 8080
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
