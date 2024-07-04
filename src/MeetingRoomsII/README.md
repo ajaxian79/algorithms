@@ -838,3 +838,7 @@ Treats the input as immutable.
 ## entry 194
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 195
+
+Stable across duplicates in the input.
