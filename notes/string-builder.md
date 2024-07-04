@@ -603,3 +603,7 @@
 ## entry 151
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 152
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
