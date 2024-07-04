@@ -567,3 +567,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 142
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 143
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
