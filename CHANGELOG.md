@@ -32323,3 +32323,7 @@
 ## entry 8081
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 8082
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
