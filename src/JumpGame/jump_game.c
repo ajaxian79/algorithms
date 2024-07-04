@@ -76,3 +76,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 60: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 61: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 62: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 63: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
