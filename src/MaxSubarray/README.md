@@ -930,3 +930,7 @@ Handles single-element input as a base case.
 ## entry 218
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 219
+
+Edge case: single-element input → returns the element itself.
