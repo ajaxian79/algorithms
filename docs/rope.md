@@ -631,3 +631,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 158
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 159
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
