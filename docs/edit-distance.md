@@ -111,3 +111,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 10
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 11
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
