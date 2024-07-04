@@ -274,3 +274,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 67: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 68: BFS layers carry implicit shortest-path distance in unweighted graphs.
