@@ -930,3 +930,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 218
 
 No allocations on the hot path.
+
+## entry 219
+
+Edge case: reverse-sorted input → still O(n log n).
