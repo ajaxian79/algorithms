@@ -297,3 +297,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 58: Time complexity: O(k) where k is the answer size.
 // note 59: Treats the input as immutable.
 // note 60: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 61: Fenwick supports prefix-sum updates in O(log n) with a flat array.
