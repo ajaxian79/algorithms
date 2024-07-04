@@ -599,3 +599,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 132
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 133
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
