@@ -627,3 +627,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 141
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 142
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
