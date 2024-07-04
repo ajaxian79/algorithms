@@ -85,3 +85,4 @@ int length_of_last_word(const char* s) {
 // note 67: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 68: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 69: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 70: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
