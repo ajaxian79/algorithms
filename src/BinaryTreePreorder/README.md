@@ -114,3 +114,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 14
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 15
+
+Space complexity: O(h) for the tree height.
