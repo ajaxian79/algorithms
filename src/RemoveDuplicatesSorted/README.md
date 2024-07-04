@@ -1022,3 +1022,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 241
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 242
+
+Edge case: maximum-length input → still fits in 32-bit indices.
