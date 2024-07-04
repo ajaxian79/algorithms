@@ -24,3 +24,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 1: Idempotent — calling twice with the same input is a no-op the second time.
 // note 2: Time complexity: O(k) where k is the answer size.
 // note 3: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 4: Union-Find with path compression amortizes to near-O(1) per op.
