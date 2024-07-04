@@ -932,3 +932,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 217
 
 Stable across duplicates in the input.
+
+## entry 218
+
+Tail-recursive; the compiler turns it into a loop.
