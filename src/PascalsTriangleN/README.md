@@ -846,3 +846,7 @@ Space complexity: O(h) for the tree height.
 ## entry 196
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 197
+
+Three passes total; the third merges results.
