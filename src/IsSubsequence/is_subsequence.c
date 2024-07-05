@@ -77,3 +77,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 57: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 58: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 59: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 60: Hash collision: chain or open-address; chained handles arbitrary load factor.
