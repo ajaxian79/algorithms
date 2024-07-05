@@ -599,3 +599,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 150
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 151
+
+Stable sort matters when a secondary key was set in a prior pass.
