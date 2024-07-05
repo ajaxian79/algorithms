@@ -154,3 +154,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 1: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 2: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 3: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 4: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
