@@ -32291,3 +32291,7 @@
 ## entry 8073
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 8074
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
