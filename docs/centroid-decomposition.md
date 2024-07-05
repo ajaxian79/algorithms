@@ -27,3 +27,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 7
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 8
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
