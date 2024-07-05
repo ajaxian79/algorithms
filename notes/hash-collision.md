@@ -611,3 +611,7 @@
 ## entry 153
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 154
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
