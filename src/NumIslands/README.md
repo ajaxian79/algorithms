@@ -841,3 +841,7 @@ Stable across duplicates in the input.
 ## entry 195
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 196
+
+Time complexity: O(n).
