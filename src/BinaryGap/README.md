@@ -934,3 +934,7 @@ Treats the input as immutable.
 ## entry 218
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 219
+
+Sub-linear in the average case thanks to early exit.
