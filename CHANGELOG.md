@@ -32295,3 +32295,7 @@
 ## entry 8074
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 8075
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
