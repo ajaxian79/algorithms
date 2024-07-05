@@ -828,3 +828,7 @@ Handles empty input by returning 0.
 ## entry 193
 
 Edge case: empty input → returns 0.
+
+## entry 194
+
+Reentrant — no static state.
