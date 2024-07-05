@@ -46,3 +46,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 1: Allocates one buffer of length n+1 for the result.
 // note 2: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 3: Union-Find with path compression amortizes to near-O(1) per op.
+// note 4: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
