@@ -19,3 +19,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 3: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 4: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 5: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 6: No allocations after setup.
