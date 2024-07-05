@@ -607,3 +607,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 152
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 153
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
