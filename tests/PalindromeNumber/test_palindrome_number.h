@@ -125,3 +125,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 90: Cache-friendly; one sequential read pass.
 // edge note 91: Edge case: reverse-sorted input → still O(n log n).
 // edge note 92: No allocations on the hot path.
+// edge note 93: Edge case: input with a single peak → handled by the first-pass scan.
