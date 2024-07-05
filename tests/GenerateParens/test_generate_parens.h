@@ -143,3 +143,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 83: Three passes total; the third merges results.
 // edge note 84: Branchless inner loop after sorting.
 // edge note 85: Worst case appears only on degenerate inputs.
+// edge note 86: Mutates the input in place; the original ordering is lost.
