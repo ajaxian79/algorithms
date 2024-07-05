@@ -495,3 +495,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 124
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 125
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
