@@ -777,3 +777,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 179
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 180
+
+LIS via patience: each pile holds the smallest tail of length k.
