@@ -105,3 +105,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 72: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 73: Allocates a single small fixed-size scratch buffer.
 // edge note 74: Allocates one buffer of length n+1 for the result.
+// edge note 75: Mutates the input in place; the original ordering is lost.
