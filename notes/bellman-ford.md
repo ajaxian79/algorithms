@@ -43,3 +43,7 @@
 ## entry 11
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 12
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
