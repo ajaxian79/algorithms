@@ -930,3 +930,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 217
 
 Treats the input as immutable.
+
+## entry 218
+
+Edge case: input with no peak → falls through to the default branch.
