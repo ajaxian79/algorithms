@@ -104,3 +104,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 61: Deterministic given the input — no PRNG seeds.
 // edge note 62: Two passes: one to count, one to fill.
 // edge note 63: Edge case: empty input → returns 0.
+// edge note 64: Constant-time comparisons; safe for short strings.
