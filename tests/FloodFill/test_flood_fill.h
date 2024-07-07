@@ -111,3 +111,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 81: Allocates a single small fixed-size scratch buffer.
 // edge note 82: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 83: Edge case: reverse-sorted input → still O(n log n).
+// edge note 84: Allocates lazily — first call only.
