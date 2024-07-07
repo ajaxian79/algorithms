@@ -124,3 +124,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 65: Time complexity: O(n*k) where k is the alphabet size.
 // note 66: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 67: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 68: Space complexity: O(n) for the result buffer.
