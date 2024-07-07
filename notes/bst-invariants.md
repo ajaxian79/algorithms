@@ -625,3 +625,7 @@
 ## entry 141
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 142
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
