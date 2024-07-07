@@ -32247,3 +32247,7 @@
 ## entry 8062
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 8063
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
