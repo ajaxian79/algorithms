@@ -105,3 +105,7 @@ Vectorizes cleanly under -O2.
 ## entry 12
 
 Handles single-element input as a base case.
+
+## entry 13
+
+32-bit safe; overflow is checked at each step.
