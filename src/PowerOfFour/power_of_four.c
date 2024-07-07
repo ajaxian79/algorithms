@@ -78,3 +78,4 @@ int is_power_of_four(int n) {
 // note 65: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 67: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
