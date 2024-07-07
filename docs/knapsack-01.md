@@ -685,3 +685,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 154
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 155
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
