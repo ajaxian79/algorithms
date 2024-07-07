@@ -88,3 +88,4 @@ MunitTest add_digits_tests[] = {
 // edge note 61: Thread-safe so long as the input is not mutated concurrently.
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
 // edge note 63: Stable across duplicates in the input.
+// edge note 64: Edge case: zero-length string → returns the empty result.
