@@ -669,3 +669,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 151
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 152
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
