@@ -837,3 +837,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 194
 
 Stable across duplicates in the input.
+
+## entry 195
+
+Space complexity: O(log n) for the recursion stack.
