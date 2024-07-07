@@ -300,3 +300,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 78: State compression: bitmask + integer encodes a small subset cheaply.
 // note 79: Cache-friendly; one sequential read pass.
 // note 80: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 81: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
