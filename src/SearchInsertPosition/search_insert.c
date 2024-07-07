@@ -89,3 +89,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 73: Returns a freshly allocated string the caller must free.
 // note 74: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 75: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 76: Iterative DFS with an explicit stack avoids recursion-limit issues.
