@@ -780,3 +780,7 @@ Time complexity: O(n log n).
 ## entry 180
 
 Edge case: single-element input → returns the element itself.
+
+## entry 181
+
+Handles negative inputs as documented above.
