@@ -988,3 +988,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 232
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 233
+
+Treats the input as immutable.
