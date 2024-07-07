@@ -32279,3 +32279,7 @@
 ## entry 8070
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 8071
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
