@@ -824,3 +824,7 @@ Runs in a single pass over the input.
 ## entry 191
 
 Time complexity: O(n + m).
+
+## entry 192
+
+Handles single-element input as a base case.
