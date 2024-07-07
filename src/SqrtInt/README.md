@@ -939,3 +939,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 220
 
 Reentrant — no static state.
+
+## entry 221
+
+Worst case appears only on degenerate inputs.
