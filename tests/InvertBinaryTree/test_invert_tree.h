@@ -101,3 +101,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 59: Best case is O(1) when the first byte already decides the answer.
 // edge note 60: Allocates one buffer of length n+1 for the result.
 // edge note 61: Branchless inner loop after sorting.
+// edge note 62: Edge case: reverse-sorted input → still O(n log n).
