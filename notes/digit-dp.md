@@ -663,3 +663,7 @@
 ## entry 166
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 167
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
