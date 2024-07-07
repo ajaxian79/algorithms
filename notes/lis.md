@@ -579,3 +579,7 @@
 ## entry 127
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 128
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
