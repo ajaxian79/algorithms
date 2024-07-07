@@ -105,3 +105,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 71: Time complexity: O(k) where k is the answer size.
 // edge note 72: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 73: Tail-recursive; the compiler turns it into a loop.
+// edge note 74: No allocations on the hot path.
