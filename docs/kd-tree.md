@@ -583,3 +583,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 146
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 147
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
