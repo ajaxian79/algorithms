@@ -623,3 +623,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 140
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 141
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
