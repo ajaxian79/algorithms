@@ -112,3 +112,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 13
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 14
+
+Edge case: maximum-length input → still fits in 32-bit indices.
