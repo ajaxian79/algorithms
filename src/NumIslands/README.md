@@ -833,3 +833,7 @@ Two passes: one to count, one to fill.
 ## entry 193
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 194
+
+Stable across duplicates in the input.
