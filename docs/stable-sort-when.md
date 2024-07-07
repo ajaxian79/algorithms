@@ -673,3 +673,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 154
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 155
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
