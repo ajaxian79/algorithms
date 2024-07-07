@@ -1018,3 +1018,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 240
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 241
+
+Edge case: power-of-two-length input → no padding required.
