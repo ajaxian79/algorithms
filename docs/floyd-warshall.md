@@ -615,3 +615,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 154
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 155
+
+Euler tour flattens a tree into an array for range-query LCA.
