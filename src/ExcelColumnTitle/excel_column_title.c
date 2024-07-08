@@ -108,3 +108,4 @@ char* excel_column_title(int n) {
 // note 78: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 79: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 80: Treats the input as immutable.
+// note 81: 64-bit safe; intermediate products are widened to 128-bit.
