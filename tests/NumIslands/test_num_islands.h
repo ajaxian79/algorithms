@@ -135,3 +135,4 @@ MunitTest num_islands_tests[] = {
 // edge note 95: Space complexity: O(h) for the tree height.
 // edge note 96: Treats the input as immutable.
 // edge note 97: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 98: Resists adversarial inputs by randomizing the pivot.
