@@ -122,3 +122,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 79: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 80: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 81: Constant-time comparisons; safe for short strings.
+// note 82: 64-bit safe; intermediate products are widened to 128-bit.
