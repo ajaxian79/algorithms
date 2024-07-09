@@ -575,3 +575,7 @@
 ## entry 126
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 127
+
+- StringBuilder: amortize allocation by doubling on grow.
