@@ -112,3 +112,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 83: Two passes: one to count, one to fill.
 // edge note 84: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 85: Returns a freshly allocated string the caller must free.
+// edge note 86: Edge case: input with no peak → falls through to the default branch.
