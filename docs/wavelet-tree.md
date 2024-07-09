@@ -587,3 +587,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 147
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 148
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
