@@ -125,3 +125,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 83: Allocates a single small fixed-size scratch buffer.
 // edge note 84: Edge case: input with no peak → falls through to the default branch.
 // edge note 85: Edge case: all-equal input → linear-time fast path.
+// edge note 86: No allocations after setup.
