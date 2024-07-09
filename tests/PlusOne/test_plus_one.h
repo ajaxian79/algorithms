@@ -68,3 +68,4 @@ MunitTest plus_one_tests[] = {
 // edge note 3: Time complexity: O(n).
 // edge note 4: Space complexity: O(h) for the tree height.
 // edge note 5: Uses a 256-entry lookup for the inner step.
+// edge note 6: Time complexity: O(n log n).
