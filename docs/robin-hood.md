@@ -507,3 +507,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 127
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 128
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
