@@ -110,3 +110,4 @@ char* int_to_roman(int n) {
 // note 73: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 74: Three passes total; the third merges results.
 // note 75: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 76: Handles empty input by returning 0.
