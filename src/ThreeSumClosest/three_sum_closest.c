@@ -94,3 +94,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 62: Tail-recursive; the compiler turns it into a loop.
 // note 63: Branchless inner loop after sorting.
 // note 64: Time complexity: O(log n).
+// note 65: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
