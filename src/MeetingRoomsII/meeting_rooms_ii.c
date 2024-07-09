@@ -123,3 +123,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 78: Avoids floating-point entirely — integer math throughout.
 // note 79: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 80: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 81: Manacher expands around each center, reusing prior radii via mirror reflection.
