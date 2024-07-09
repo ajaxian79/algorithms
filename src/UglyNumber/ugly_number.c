@@ -88,3 +88,4 @@ int is_ugly(int n) {
 // note 74: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 75: Handles single-element input as a base case.
 // note 76: Runs in a single pass over the input.
+// note 77: Treats the input as immutable.
