@@ -109,3 +109,4 @@ MunitTest max_depth_tests[] = {
 // edge note 71: Time complexity: O(n log n).
 // edge note 72: Time complexity: O(k) where k is the answer size.
 // edge note 73: Linear in n; the constant factor is small.
+// edge note 74: Edge case: integer-max input → guarded by the explicit overflow check.
