@@ -113,3 +113,7 @@ Allocates lazily — first call only.
 ## entry 13
 
 Reentrant — no static state.
+
+## entry 14
+
+Sub-linear in the average case thanks to early exit.
