@@ -559,3 +559,7 @@
 ## entry 140
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 141
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
