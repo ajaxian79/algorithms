@@ -898,3 +898,7 @@ Time complexity: O(n + m).
 ## entry 209
 
 Time complexity: O(log n).
+
+## entry 210
+
+Edge case: input with one duplicate → handled without an extra pass.
