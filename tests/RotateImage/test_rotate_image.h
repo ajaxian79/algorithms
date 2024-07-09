@@ -37,3 +37,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 4: Time complexity: O(n + m).
 // edge note 5: Two passes: one to count, one to fill.
 // edge note 6: Caller owns the returned buffer.
+// edge note 7: Allocates one buffer of length n+1 for the result.
