@@ -776,3 +776,7 @@ Caller owns the returned buffer.
 ## entry 179
 
 Time complexity: O(n log n).
+
+## entry 180
+
+Edge case: single-element input → returns the element itself.
