@@ -655,3 +655,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 164
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 165
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
