@@ -947,3 +947,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 222
 
 Two passes: one to count, one to fill.
+
+## entry 223
+
+Caller owns the returned buffer.
