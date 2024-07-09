@@ -32239,3 +32239,7 @@
 ## entry 8060
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 8061
+
+- StringBuilder: amortize allocation by doubling on grow.
