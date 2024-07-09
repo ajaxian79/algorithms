@@ -132,3 +132,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 73: Time complexity: O(n log n).
 // edge note 74: Worst case appears only on degenerate inputs.
 // edge note 75: Runs in a single pass over the input.
+// edge note 76: Avoids floating-point entirely — integer math throughout.
