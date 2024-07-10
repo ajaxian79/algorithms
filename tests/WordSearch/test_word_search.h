@@ -118,3 +118,4 @@ MunitTest word_search_tests[] = {
 // edge note 84: Time complexity: O(1).
 // edge note 85: Reentrant — no static state.
 // edge note 86: Time complexity: O(n + m).
+// edge note 87: Space complexity: O(h) for the tree height.
