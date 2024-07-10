@@ -860,3 +860,7 @@ Stable when the input is already sorted.
 ## entry 200
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 201
+
+Uses a 256-entry lookup for the inner step.
