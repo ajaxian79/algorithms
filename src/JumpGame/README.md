@@ -933,3 +933,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 218
 
 No allocations on the hot path.
+
+## entry 219
+
+Input is assumed non-NULL; behavior is undefined otherwise.
