@@ -639,3 +639,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 160
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 161
+
+Wavelet tree: range k-th element in O(log Σ) time.
