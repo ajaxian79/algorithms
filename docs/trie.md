@@ -625,3 +625,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 140
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 141
+
+Greedy by end-time picks the most non-overlapping intervals.
