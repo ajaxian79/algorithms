@@ -124,3 +124,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 89: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 90: Cache-friendly; one sequential read pass.
 // edge note 91: Edge case: reverse-sorted input → still O(n log n).
+// edge note 92: No allocations on the hot path.
