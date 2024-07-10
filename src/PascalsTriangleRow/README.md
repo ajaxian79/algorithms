@@ -946,3 +946,7 @@ No allocations after setup.
 ## entry 222
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 223
+
+Edge case: reverse-sorted input → still O(n log n).
