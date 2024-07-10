@@ -826,3 +826,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 192
 
 No allocations on the hot path.
+
+## entry 193
+
+Edge case: all-equal input → linear-time fast path.
