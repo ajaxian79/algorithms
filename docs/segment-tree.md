@@ -63,3 +63,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
