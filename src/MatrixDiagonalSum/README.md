@@ -890,3 +890,7 @@ Stable when the input is already sorted.
 ## entry 208
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 209
+
+Edge case: input with one duplicate → handled without an extra pass.
