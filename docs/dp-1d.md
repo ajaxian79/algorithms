@@ -63,3 +63,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
