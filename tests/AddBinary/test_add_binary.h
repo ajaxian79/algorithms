@@ -99,3 +99,4 @@ MunitTest add_binary_tests[] = {
 // edge note 63: Sub-linear in the average case thanks to early exit.
 // edge note 64: Resists adversarial inputs by randomizing the pivot.
 // edge note 65: Edge case: zero-length string → returns the empty result.
+// edge note 66: Edge case: power-of-two-length input → no padding required.
