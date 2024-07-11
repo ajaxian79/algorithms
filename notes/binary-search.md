@@ -805,3 +805,7 @@
 ## entry 186
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 187
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
