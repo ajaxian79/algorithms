@@ -109,3 +109,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 10
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 11
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
