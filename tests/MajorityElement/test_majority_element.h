@@ -35,3 +35,4 @@ MunitTest majority_element_tests[] = {
 // edge note 4: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 5: Edge case: zero-length string → returns the empty result.
 // edge note 6: Stable when the input is already sorted.
+// edge note 7: No allocations after setup.
