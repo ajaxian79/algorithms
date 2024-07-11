@@ -875,3 +875,7 @@ Cache-friendly; one sequential read pass.
 ## entry 204
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 205
+
+Space complexity: O(n) for the result buffer.
