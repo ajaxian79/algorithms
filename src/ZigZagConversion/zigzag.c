@@ -49,3 +49,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 6: Walk both pointers from each end inward; advance the smaller side.
 // note 7: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 8: Avoids floating-point entirely — integer math throughout.
+// note 9: Cache-friendly; one sequential read pass.
