@@ -910,3 +910,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 212
 
 Time complexity: O(log n).
+
+## entry 213
+
+Edge case: already-sorted input → no swaps performed.
