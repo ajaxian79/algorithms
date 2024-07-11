@@ -101,3 +101,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 75: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 76: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 77: Worst case appears only on degenerate inputs.
+// note 78: k-d tree: median-split each axis; nearest-neighbor average O(log n).
