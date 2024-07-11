@@ -563,3 +563,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 141
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 142
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
