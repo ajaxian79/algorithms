@@ -842,3 +842,7 @@ Stable across duplicates in the input.
 ## entry 195
 
 Space complexity: O(h) for the tree height.
+
+## entry 196
+
+Best case is O(1) when the first byte already decides the answer.
