@@ -842,3 +842,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 196
 
 No allocations on the hot path.
+
+## entry 197
+
+Stable across duplicates in the input.
