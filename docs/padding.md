@@ -611,3 +611,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 153
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 154
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
