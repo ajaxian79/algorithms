@@ -623,3 +623,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 156
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 157
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
