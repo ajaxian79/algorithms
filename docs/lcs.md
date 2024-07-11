@@ -95,3 +95,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 6
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 7
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
