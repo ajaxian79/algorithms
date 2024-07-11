@@ -567,3 +567,7 @@
 ## entry 142
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 143
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
