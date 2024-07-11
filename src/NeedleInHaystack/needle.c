@@ -104,3 +104,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 63: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 64: Time complexity: O(n*k) where k is the alphabet size.
 // note 65: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 66: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
