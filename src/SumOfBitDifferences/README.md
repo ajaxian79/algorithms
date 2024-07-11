@@ -772,3 +772,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 178
 
 Caller owns the returned buffer.
+
+## entry 179
+
+Time complexity: O(n log n).
