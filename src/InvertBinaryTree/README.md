@@ -120,3 +120,7 @@ No allocations after setup.
 ## entry 15
 
 Stable when the input is already sorted.
+
+## entry 16
+
+Edge case: single-element input → returns the element itself.
