@@ -603,3 +603,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 151
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 152
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
