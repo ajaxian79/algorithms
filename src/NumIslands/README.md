@@ -829,3 +829,7 @@ No allocations on the hot path.
 ## entry 192
 
 Two passes: one to count, one to fill.
+
+## entry 193
+
+Edge case: integer-max input → guarded by the explicit overflow check.
