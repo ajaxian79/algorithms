@@ -115,3 +115,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 72: Handles single-element input as a base case.
 // edge note 73: Uses a small fixed-size lookup table.
 // edge note 74: Allocates a single small fixed-size scratch buffer.
+// edge note 75: Time complexity: O(n).
