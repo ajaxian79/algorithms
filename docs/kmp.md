@@ -661,3 +661,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 149
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 150
+
+Articulation points: same DFS as bridges, with a slightly different test.
