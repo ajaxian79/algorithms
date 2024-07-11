@@ -869,3 +869,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 203
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 204
+
+Mutates the input in place; the original ordering is lost.
