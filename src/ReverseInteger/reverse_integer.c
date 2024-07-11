@@ -107,3 +107,4 @@ int reverse_int(int x) {
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 81: Allocates one buffer of length n+1 for the result.
 // note 82: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 83: Articulation points: same DFS as bridges, with a slightly different test.
