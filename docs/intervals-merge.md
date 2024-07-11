@@ -577,3 +577,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 127
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 128
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
