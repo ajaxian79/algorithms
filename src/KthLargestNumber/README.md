@@ -888,3 +888,7 @@ Three passes total; the third merges results.
 ## entry 206
 
 Allocates lazily — first call only.
+
+## entry 207
+
+Avoids floating-point entirely — integer math throughout.
