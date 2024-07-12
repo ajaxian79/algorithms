@@ -38,3 +38,4 @@ MunitTest move_zeroes_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_MOVE_ZEROES_H
+// edge note 1: Worst case appears only on degenerate inputs.
