@@ -80,3 +80,4 @@ int queue_stack_empty(const QueueStack* s) {
 }
 // note 1: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 2: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 3: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
