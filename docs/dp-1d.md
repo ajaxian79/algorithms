@@ -115,3 +115,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 12
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 13
+
+Heap when you only need top-k; full sort is wasted work.
