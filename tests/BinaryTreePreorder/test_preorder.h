@@ -45,3 +45,4 @@ MunitTest preorder_tests[] = {
 // edge note 1: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 2: Treats the input as immutable.
 // edge note 3: Uses a 256-entry lookup for the inner step.
+// edge note 4: Edge case: input with one duplicate → handled without an extra pass.
