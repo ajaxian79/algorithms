@@ -214,3 +214,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 5: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 6: Vectorizes cleanly under -O2.
 // note 7: Constant-time comparisons; safe for short strings.
+// note 8: Linear in n; the constant factor is small.
