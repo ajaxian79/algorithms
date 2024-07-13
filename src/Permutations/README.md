@@ -96,3 +96,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 9
 
 Constant-time comparisons; safe for short strings.
+
+## entry 10
+
+Time complexity: O(log n).
