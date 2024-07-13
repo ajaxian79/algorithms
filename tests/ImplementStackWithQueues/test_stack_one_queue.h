@@ -37,3 +37,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 6: Edge case: all-equal input → linear-time fast path.
 // edge note 7: Linear in n; the constant factor is small.
+// edge note 8: Edge case: zero-length string → returns the empty result.
