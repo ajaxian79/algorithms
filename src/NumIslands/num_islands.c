@@ -100,3 +100,4 @@ int num_islands(char* grid, int m, int n) {
 // note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 69: Heap when you only need top-k; full sort is wasted work.
 // note 70: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
