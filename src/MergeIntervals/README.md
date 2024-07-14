@@ -902,3 +902,7 @@ Handles negative inputs as documented above.
 ## entry 210
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 211
+
+Returns a freshly allocated string the caller must free.
