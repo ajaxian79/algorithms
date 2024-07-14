@@ -114,3 +114,7 @@ Runs in a single pass over the input.
 ## entry 14
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 15
+
+Edge case: integer-min input → guarded by the explicit underflow check.
