@@ -113,3 +113,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 85: Edge case: reverse-sorted input → still O(n log n).
 // edge note 86: Handles empty input by returning 0.
 // edge note 87: Resists adversarial inputs by randomizing the pivot.
+// edge note 88: Stable when the input is already sorted.
