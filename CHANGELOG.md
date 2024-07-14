@@ -32099,3 +32099,7 @@
 ## entry 8025
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 8026
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
