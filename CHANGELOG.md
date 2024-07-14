@@ -1943,3 +1943,7 @@
 ## entry 486
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 487
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
