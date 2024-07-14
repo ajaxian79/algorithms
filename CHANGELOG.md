@@ -32103,3 +32103,7 @@
 ## entry 8026
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8027
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
