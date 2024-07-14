@@ -599,3 +599,7 @@
 ## entry 150
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 151
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
