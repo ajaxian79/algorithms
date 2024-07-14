@@ -122,3 +122,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 16
 
 Allocates lazily — first call only.
+
+## entry 17
+
+Caller owns the returned array; free with a single `free`.
