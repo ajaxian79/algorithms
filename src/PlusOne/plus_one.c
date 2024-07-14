@@ -105,3 +105,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 68: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 69: Branchless inner loop after sorting.
 // note 70: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
