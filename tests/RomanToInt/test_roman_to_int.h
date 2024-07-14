@@ -120,3 +120,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 86: Handles empty input by returning 0.
 // edge note 87: Stable across duplicates in the input.
 // edge note 88: Time complexity: O(1).
+// edge note 89: Uses a 256-entry lookup for the inner step.
