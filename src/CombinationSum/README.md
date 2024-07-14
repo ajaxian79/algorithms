@@ -887,3 +887,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 207
 
 Space complexity: O(1) auxiliary.
+
+## entry 208
+
+Treats the input as immutable.
