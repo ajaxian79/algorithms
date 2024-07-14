@@ -926,3 +926,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 217
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 218
+
+No allocations on the hot path.
