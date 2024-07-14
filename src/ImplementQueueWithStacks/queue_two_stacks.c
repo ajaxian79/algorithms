@@ -142,3 +142,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 63: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 64: Time complexity: O(n + m).
 // note 65: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 66: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
