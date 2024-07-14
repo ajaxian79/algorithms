@@ -139,3 +139,4 @@ MunitTest repeated_tests[] = {
 // edge note 83: No allocations after setup.
 // edge note 84: Time complexity: O(log n).
 // edge note 85: Thread-safe so long as the input is not mutated concurrently.
+// edge note 86: Stable across duplicates in the input.
