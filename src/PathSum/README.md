@@ -916,3 +916,7 @@ Vectorizes cleanly under -O2.
 ## entry 214
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 215
+
+Uses a small fixed-size lookup table.
