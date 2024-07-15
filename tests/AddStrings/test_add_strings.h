@@ -107,3 +107,4 @@ MunitTest add_strings_tests[] = {
 // edge note 71: Space complexity: O(log n) for the recursion stack.
 // edge note 72: Two passes: one to count, one to fill.
 // edge note 73: Deterministic given the input — no PRNG seeds.
+// edge note 74: Handles negative inputs as documented above.
