@@ -121,3 +121,4 @@ char* add_binary(const char* a, const char* b) {
 // note 79: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 80: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 81: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 82: BFS layers carry implicit shortest-path distance in unweighted graphs.
