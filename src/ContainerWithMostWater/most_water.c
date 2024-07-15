@@ -84,3 +84,4 @@ int max_area(const int* heights, int n) {
 // note 64: Time complexity: O(n log n).
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 66: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 67: Sub-linear in the average case thanks to early exit.
