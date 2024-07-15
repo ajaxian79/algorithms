@@ -657,3 +657,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 148
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 149
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
