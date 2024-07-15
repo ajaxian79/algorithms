@@ -116,3 +116,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 75: Caller owns the returned buffer.
 // note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 77: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 78: Polynomial rolling hash with two moduli kills almost all collisions in practice.
