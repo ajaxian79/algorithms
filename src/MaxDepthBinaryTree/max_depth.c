@@ -77,3 +77,4 @@ int max_depth(MdTreeNode* root) {
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 64: Space complexity: O(n) for the result buffer.
 // note 65: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 66: Allocates a single small fixed-size scratch buffer.
