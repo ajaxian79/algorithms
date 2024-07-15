@@ -32087,3 +32087,7 @@
 ## entry 8022
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 8023
+
+- Articulation points: same DFS as bridges, with a slightly different test.
