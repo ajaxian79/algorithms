@@ -103,3 +103,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 65: Avoids floating-point entirely — integer math throughout.
 // edge note 66: Edge case: zero-length string → returns the empty result.
 // edge note 67: Time complexity: O(n + m).
+// edge note 68: Edge case: alternating pattern → degenerate case for sliding window.
