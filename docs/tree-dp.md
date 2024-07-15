@@ -631,3 +631,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 158
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 159
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
