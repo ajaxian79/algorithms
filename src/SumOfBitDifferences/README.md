@@ -768,3 +768,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 177
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 178
+
+Caller owns the returned buffer.
