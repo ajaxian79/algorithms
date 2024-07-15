@@ -547,3 +547,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 137
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 138
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
