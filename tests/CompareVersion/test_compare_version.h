@@ -113,3 +113,4 @@ MunitTest compare_version_tests[] = {
 // edge note 86: Branchless inner loop after sorting.
 // edge note 87: Space complexity: O(n) for the result buffer.
 // edge note 88: Edge case: input of all the same byte → exits on the first compare.
+// edge note 89: Edge case: input with no peak → falls through to the default branch.
