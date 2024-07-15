@@ -222,3 +222,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 69: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 70: Avoids floating-point entirely — integer math throughout.
 // note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 72: Tabulation wins when iteration order is obvious and stack depth would blow up.
