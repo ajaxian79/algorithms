@@ -105,3 +105,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 69: Edge case: empty input → returns 0.
 // edge note 70: Runs in a single pass over the input.
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
+// edge note 72: Sub-linear in the average case thanks to early exit.
