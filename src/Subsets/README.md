@@ -931,3 +931,7 @@ Stable when the input is already sorted.
 ## entry 218
 
 Reentrant — no static state.
+
+## entry 219
+
+Mutates the input in place; the original ordering is lost.
