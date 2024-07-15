@@ -826,3 +826,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 191
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 192
+
+Edge case: maximum-length input → still fits in 32-bit indices.
