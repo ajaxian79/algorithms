@@ -942,3 +942,7 @@ Space complexity: O(1) auxiliary.
 ## entry 221
 
 No allocations after setup.
+
+## entry 222
+
+Edge case: alternating pattern → degenerate case for sliding window.
