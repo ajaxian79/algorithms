@@ -926,3 +926,7 @@ No allocations on the hot path.
 ## entry 217
 
 Handles single-element input as a base case.
+
+## entry 218
+
+Time complexity: O(n^2) worst case, O(n) amortized.
