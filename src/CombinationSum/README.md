@@ -883,3 +883,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 206
 
 Edge case: single-element input → returns the element itself.
+
+## entry 207
+
+Space complexity: O(1) auxiliary.
