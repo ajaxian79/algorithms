@@ -77,3 +77,4 @@ int hamming_distance(int x, int y) {
 // note 62: Branchless inner loop after sorting.
 // note 63: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 65: Handles negative inputs as documented above.
