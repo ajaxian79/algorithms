@@ -99,3 +99,4 @@ int my_sqrt(int n) {
 // note 78: State compression: bitmask + integer encodes a small subset cheaply.
 // note 79: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 80: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 81: StringBuilder: amortize allocation by doubling on grow.
