@@ -519,3 +519,7 @@
 ## entry 130
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 131
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
