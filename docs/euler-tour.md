@@ -579,3 +579,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 145
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 146
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
