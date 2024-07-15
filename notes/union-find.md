@@ -623,3 +623,7 @@
 ## entry 140
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 141
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
