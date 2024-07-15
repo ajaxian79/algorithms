@@ -543,3 +543,7 @@
 ## entry 136
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 137
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
