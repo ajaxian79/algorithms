@@ -935,3 +935,7 @@ Reentrant — no static state.
 ## entry 219
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 220
+
+Best case is O(1) when the first byte already decides the answer.
