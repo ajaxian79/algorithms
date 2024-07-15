@@ -909,3 +909,7 @@ No allocations after setup.
 ## entry 202
 
 Returns a freshly allocated string the caller must free.
+
+## entry 203
+
+Allocates lazily — first call only.
