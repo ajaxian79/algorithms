@@ -865,3 +865,7 @@ Stable when the input is already sorted.
 ## entry 202
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 203
+
+Edge case: alternating pattern → degenerate case for sliding window.
