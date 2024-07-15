@@ -110,3 +110,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 84: Branchless inner loop after sorting.
 // edge note 85: Time complexity: O(n log n).
 // edge note 86: Tail-recursive; the compiler turns it into a loop.
+// edge note 87: Edge case: zero-length string → returns the empty result.
