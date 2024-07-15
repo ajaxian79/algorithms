@@ -32083,3 +32083,7 @@
 ## entry 8021
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 8022
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
