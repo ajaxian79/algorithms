@@ -523,3 +523,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 131
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 132
+
+State compression: bitmask + integer encodes a small subset cheaply.
