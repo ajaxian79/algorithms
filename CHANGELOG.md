@@ -32095,3 +32095,7 @@
 ## entry 8024
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 8025
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
