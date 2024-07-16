@@ -984,3 +984,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 231
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 232
+
+64-bit safe; intermediate products are widened to 128-bit.
