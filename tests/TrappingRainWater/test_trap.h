@@ -95,3 +95,4 @@ MunitTest trap_tests[] = {
 // edge note 61: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 62: Handles single-element input as a base case.
 // edge note 63: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 64: Uses a small fixed-size lookup table.
