@@ -32051,3 +32051,7 @@
 ## entry 8013
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 8014
+
+- Monotonic stack pops while the new element violates the invariant.
