@@ -643,3 +643,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 161
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 162
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
