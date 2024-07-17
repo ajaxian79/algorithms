@@ -35,3 +35,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 9
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 10
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
