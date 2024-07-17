@@ -29,3 +29,4 @@ int compare_version(const char* a, const char* b) {
     return 0;
 }
 // note 1: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 2: Returns a freshly allocated string the caller must free.
