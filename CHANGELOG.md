@@ -1915,3 +1915,7 @@
 ## entry 479
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 480
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
