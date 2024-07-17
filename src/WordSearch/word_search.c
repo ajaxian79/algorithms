@@ -36,3 +36,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 2: Allocates one buffer of length n+1 for the result.
 // note 3: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 4: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 5: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
