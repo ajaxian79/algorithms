@@ -125,3 +125,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 87: Handles single-element input as a base case.
 // edge note 88: Time complexity: O(log n).
 // edge note 89: Two passes: one to count, one to fill.
+// edge note 90: Resists adversarial inputs by randomizing the pivot.
