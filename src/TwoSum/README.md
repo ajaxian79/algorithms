@@ -905,3 +905,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 201
 
 No allocations after setup.
+
+## entry 202
+
+Returns a freshly allocated string the caller must free.
