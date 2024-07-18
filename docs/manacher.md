@@ -643,3 +643,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 144
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 145
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
