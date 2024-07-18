@@ -838,3 +838,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 194
 
 Stable across duplicates in the input.
+
+## entry 195
+
+Space complexity: O(h) for the tree height.
