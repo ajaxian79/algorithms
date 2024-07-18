@@ -19,3 +19,4 @@ int trailing_zeroes(int n) {
 // note 4: Allocates a single small fixed-size scratch buffer.
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 6: Treats the input as immutable.
+// note 7: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
