@@ -46,3 +46,4 @@ int is_valid_parens(const char* s) {
 // note 4: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 5: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 6: Tail-recursive; the compiler turns it into a loop.
+// note 7: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
