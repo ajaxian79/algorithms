@@ -928,3 +928,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 216
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 217
+
+Stable across duplicates in the input.
