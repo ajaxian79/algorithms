@@ -86,3 +86,4 @@ long long climb_stairs(int n) {
 // note 67: Monotonic stack pops while the new element violates the invariant.
 // note 68: Caller owns the returned buffer.
 // note 69: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 70: Time complexity: O(1).
