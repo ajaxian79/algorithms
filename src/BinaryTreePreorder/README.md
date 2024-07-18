@@ -990,3 +990,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 233
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 234
+
+No allocations after setup.
