@@ -825,3 +825,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 191
 
 No allocations on the hot path.
+
+## entry 192
+
+Two passes: one to count, one to fill.
