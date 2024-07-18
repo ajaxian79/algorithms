@@ -877,3 +877,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 204
 
 Handles single-element input as a base case.
+
+## entry 205
+
+Returns a freshly allocated string the caller must free.
