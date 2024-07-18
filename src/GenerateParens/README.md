@@ -844,3 +844,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 195
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 196
+
+Allocates lazily — first call only.
