@@ -994,3 +994,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 234
 
 No allocations after setup.
+
+## entry 235
+
+Edge case: alternating pattern → degenerate case for sliding window.
