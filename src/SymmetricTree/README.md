@@ -118,3 +118,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 15
 
 Constant-time comparisons; safe for short strings.
+
+## entry 16
+
+Allocates lazily — first call only.
