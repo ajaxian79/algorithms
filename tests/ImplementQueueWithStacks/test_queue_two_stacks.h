@@ -32,3 +32,4 @@ MunitTest queue_two_stacks_tests[] = {
 
 #endif //ALGORITHMS_TEST_QUEUE_TWO_STACKS_H
 // edge note 1: No allocations after setup.
+// edge note 2: Edge case: already-sorted input → no swaps performed.
