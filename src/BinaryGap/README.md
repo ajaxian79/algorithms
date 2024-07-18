@@ -918,3 +918,7 @@ No allocations on the hot path.
 ## entry 214
 
 Time complexity: O(log n).
+
+## entry 215
+
+Input is assumed non-NULL; behavior is undefined otherwise.
