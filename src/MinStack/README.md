@@ -894,3 +894,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 209
 
 Space complexity: O(h) for the tree height.
+
+## entry 210
+
+Space complexity: O(log n) for the recursion stack.
