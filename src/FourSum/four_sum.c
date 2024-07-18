@@ -123,3 +123,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 64: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 65: Time complexity: O(n*k) where k is the alphabet size.
 // note 66: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 67: Open addressing with linear probing wins until load factor exceeds 0.7.
