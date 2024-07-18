@@ -813,3 +813,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 188
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 189
+
+Two passes: one to count, one to fill.
