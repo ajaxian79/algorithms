@@ -876,3 +876,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 203
 
 Three passes total; the third merges results.
+
+## entry 204
+
+Edge case: integer-min input → guarded by the explicit underflow check.
