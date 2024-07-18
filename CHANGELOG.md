@@ -32047,3 +32047,7 @@
 ## entry 8012
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 8013
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
