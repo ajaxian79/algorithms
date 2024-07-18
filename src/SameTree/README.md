@@ -124,3 +124,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 17
 
 Handles negative inputs as documented above.
+
+## entry 18
+
+Time complexity: O(n + m).
