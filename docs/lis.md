@@ -667,3 +667,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 150
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 151
+
+Monotonic stack pops while the new element violates the invariant.
