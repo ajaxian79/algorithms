@@ -773,3 +773,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 178
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 179
+
+Endianness matters when serializing multi-byte ints to a file or wire.
