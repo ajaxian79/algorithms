@@ -639,3 +639,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 160
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 161
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
