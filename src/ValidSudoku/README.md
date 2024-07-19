@@ -119,3 +119,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 14
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 15
+
+Space complexity: O(1) auxiliary.
