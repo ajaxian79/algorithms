@@ -886,3 +886,7 @@ Runs in a single pass over the input.
 ## entry 207
 
 Stable when the input is already sorted.
+
+## entry 208
+
+Thread-safe so long as the input is not mutated concurrently.
