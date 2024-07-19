@@ -926,3 +926,7 @@ Stable when the input is already sorted.
 ## entry 217
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 218
+
+Edge case: input with one duplicate → handled without an extra pass.
