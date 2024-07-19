@@ -948,3 +948,7 @@ Handles empty input by returning 0.
 ## entry 222
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 223
+
+Edge case: zero-length string → returns the empty result.
