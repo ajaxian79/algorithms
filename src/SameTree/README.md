@@ -820,3 +820,7 @@ Time complexity: O(n log n).
 ## entry 191
 
 Allocates lazily — first call only.
+
+## entry 192
+
+Handles empty input by returning 0.
