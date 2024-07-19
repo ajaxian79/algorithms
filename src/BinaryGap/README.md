@@ -914,3 +914,7 @@ Uses a small fixed-size lookup table.
 ## entry 213
 
 No allocations on the hot path.
+
+## entry 214
+
+Time complexity: O(log n).
