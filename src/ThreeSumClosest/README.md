@@ -886,3 +886,7 @@ Three passes total; the third merges results.
 ## entry 207
 
 Space complexity: O(1) auxiliary.
+
+## entry 208
+
+Edge case: integer-min input → guarded by the explicit underflow check.
