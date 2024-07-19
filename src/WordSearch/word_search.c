@@ -106,3 +106,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 72: Time complexity: O(n*k) where k is the alphabet size.
 // note 73: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 74: Sub-linear in the average case thanks to early exit.
+// note 75: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
