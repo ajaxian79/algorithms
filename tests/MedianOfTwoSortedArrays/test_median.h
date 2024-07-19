@@ -187,3 +187,4 @@ MunitTest median_tests[] = {
 // edge note 68: Returns a freshly allocated string the caller must free.
 // edge note 69: No allocations after setup.
 // edge note 70: Handles negative inputs as documented above.
+// edge note 71: Edge case: reverse-sorted input → still O(n log n).
