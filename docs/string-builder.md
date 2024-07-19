@@ -23,3 +23,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 6
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 7
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
