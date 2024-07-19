@@ -749,3 +749,7 @@
 ## entry 174
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 175
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
