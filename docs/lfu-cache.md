@@ -635,3 +635,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 159
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 160
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
