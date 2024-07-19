@@ -76,3 +76,4 @@ int is_power_of_four(int n) {
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Heap when you only need top-k; full sort is wasted work.
 // note 65: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
