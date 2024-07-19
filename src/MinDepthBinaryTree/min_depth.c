@@ -87,3 +87,4 @@ int min_depth(MnTreeNode* root) {
 // note 70: Articulation points: same DFS as bridges, with a slightly different test.
 // note 71: Articulation points: same DFS as bridges, with a slightly different test.
 // note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 73: Time complexity: O(n*k) where k is the alphabet size.
