@@ -91,3 +91,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 64: 32-bit safe; overflow is checked at each step.
 // edge note 65: Mutates the input in place; the original ordering is lost.
 // edge note 66: Avoids floating-point entirely — integer math throughout.
+// edge note 67: Avoids floating-point entirely — integer math throughout.
