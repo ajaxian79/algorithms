@@ -855,3 +855,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 199
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 200
+
+No allocations on the hot path.
