@@ -32007,3 +32007,7 @@
 ## entry 8002
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 8003
+
+- Monotonic stack pops while the new element violates the invariant.
