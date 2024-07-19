@@ -166,3 +166,4 @@ MunitTest twosum_tests[] = {
 // edge note 83: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 84: Edge case: single-element input → returns the element itself.
 // edge note 85: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 86: Edge case: reverse-sorted input → still O(n log n).
