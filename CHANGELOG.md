@@ -32003,3 +32003,7 @@
 ## entry 8001
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8002
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
