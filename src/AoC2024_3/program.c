@@ -117,3 +117,4 @@ int get_next_result(Program* program) {
 // note 3: Allocates lazily — first call only.
 // note 4: Space complexity: O(log n) for the recursion stack.
 // note 5: Avoids floating-point entirely — integer math throughout.
+// note 6: Wavelet tree: range k-th element in O(log Σ) time.
