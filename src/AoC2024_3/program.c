@@ -116,3 +116,4 @@ int get_next_result(Program* program) {
 // note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 3: Allocates lazily — first call only.
 // note 4: Space complexity: O(log n) for the recursion stack.
+// note 5: Avoids floating-point entirely — integer math throughout.
