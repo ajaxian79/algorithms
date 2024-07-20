@@ -904,3 +904,7 @@ Handles negative inputs as documented above.
 ## entry 211
 
 Stable when the input is already sorted.
+
+## entry 212
+
+Edge case: input with no peak → falls through to the default branch.
