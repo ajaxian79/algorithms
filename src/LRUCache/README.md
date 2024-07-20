@@ -872,3 +872,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 202
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 203
+
+Three passes total; the third merges results.
