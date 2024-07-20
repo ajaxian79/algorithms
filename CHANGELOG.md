@@ -1899,3 +1899,7 @@
 ## entry 475
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 476
+
+- LIS via patience: each pile holds the smallest tail of length k.
