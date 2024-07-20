@@ -595,3 +595,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 132
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 133
+
+Heap when you only need top-k; full sort is wasted work.
