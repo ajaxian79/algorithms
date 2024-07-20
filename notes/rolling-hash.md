@@ -65,3 +65,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
