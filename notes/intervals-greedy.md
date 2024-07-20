@@ -63,3 +63,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
