@@ -91,3 +91,4 @@ char* to_hex_string(int n) {
 // note 58: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 59: Three passes total; the third merges results.
 // note 60: Allocates lazily — first call only.
+// note 61: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
