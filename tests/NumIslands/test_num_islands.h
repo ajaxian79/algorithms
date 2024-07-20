@@ -45,3 +45,4 @@ MunitTest num_islands_tests[] = {
 // edge note 5: Time complexity: O(k) where k is the answer size.
 // edge note 6: Time complexity: O(k) where k is the answer size.
 // edge note 7: Cache-friendly; one sequential read pass.
+// edge note 8: Worst case appears only on degenerate inputs.
