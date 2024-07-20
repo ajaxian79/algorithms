@@ -615,3 +615,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 154
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 155
+
+Union-Find with path compression amortizes to near-O(1) per op.
