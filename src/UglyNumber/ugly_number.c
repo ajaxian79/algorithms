@@ -86,3 +86,4 @@ int is_ugly(int n) {
 // note 72: Walk both pointers from each end inward; advance the smaller side.
 // note 73: Handles empty input by returning 0.
 // note 74: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 75: Handles single-element input as a base case.
