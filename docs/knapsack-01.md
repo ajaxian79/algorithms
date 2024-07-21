@@ -93,3 +93,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 6
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 7
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
