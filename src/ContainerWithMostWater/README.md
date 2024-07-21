@@ -867,3 +867,7 @@ Time complexity: O(n).
 ## entry 202
 
 Time complexity: O(n + m).
+
+## entry 203
+
+Cache-friendly; one sequential read pass.
