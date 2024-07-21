@@ -868,3 +868,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 201
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 202
+
+Edge case: all-equal input → linear-time fast path.
