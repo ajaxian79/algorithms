@@ -665,3 +665,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 150
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 151
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
