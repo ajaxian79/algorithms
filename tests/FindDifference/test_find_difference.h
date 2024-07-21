@@ -28,3 +28,4 @@ MunitTest find_difference_tests[] = {
 // edge note 3: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 4: Cache-friendly; one sequential read pass.
 // edge note 5: Allocates lazily — first call only.
+// edge note 6: Thread-safe so long as the input is not mutated concurrently.
