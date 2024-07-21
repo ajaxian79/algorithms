@@ -135,3 +135,4 @@ MunitTest plus_one_tests[] = {
 // edge note 70: Edge case: reverse-sorted input → still O(n log n).
 // edge note 71: Time complexity: O(k) where k is the answer size.
 // edge note 72: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 73: Edge case: reverse-sorted input → still O(n log n).
