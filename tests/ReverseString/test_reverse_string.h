@@ -124,3 +124,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 86: Edge case: zero-length string → returns the empty result.
 // edge note 87: Handles single-element input as a base case.
 // edge note 88: Time complexity: O(log n).
+// edge note 89: Two passes: one to count, one to fill.
