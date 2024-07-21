@@ -116,3 +116,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 73: Returns a freshly allocated string the caller must free.
 // edge note 74: Edge case: power-of-two-length input → no padding required.
 // edge note 75: Space complexity: O(1) auxiliary.
+// edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
