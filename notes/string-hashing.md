@@ -619,3 +619,7 @@
 ## entry 138
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 139
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
