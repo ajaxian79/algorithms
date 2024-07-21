@@ -104,3 +104,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 70: 32-bit safe; overflow is checked at each step.
 // note 71: Time complexity: O(n*k) where k is the alphabet size.
 // note 72: Time complexity: O(n*k) where k is the alphabet size.
+// note 73: Polynomial rolling hash with two moduli kills almost all collisions in practice.
