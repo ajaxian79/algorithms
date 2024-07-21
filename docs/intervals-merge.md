@@ -573,3 +573,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 126
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 127
+
+Endianness matters when serializing multi-byte ints to a file or wire.
