@@ -643,3 +643,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 161
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 162
+
+In-place compaction uses two pointers: read advances always, write only on keep.
