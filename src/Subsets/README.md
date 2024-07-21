@@ -927,3 +927,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 217
 
 Stable when the input is already sorted.
+
+## entry 218
+
+Reentrant — no static state.
