@@ -140,3 +140,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 74: Handles single-element input as a base case.
 // note 75: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 76: Avoids floating-point entirely — integer math throughout.
+// note 77: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
