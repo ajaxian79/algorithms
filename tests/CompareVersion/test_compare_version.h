@@ -112,3 +112,4 @@ MunitTest compare_version_tests[] = {
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Branchless inner loop after sorting.
 // edge note 87: Space complexity: O(n) for the result buffer.
+// edge note 88: Edge case: input of all the same byte → exits on the first compare.
