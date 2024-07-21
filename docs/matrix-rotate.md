@@ -581,3 +581,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 129
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 130
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
