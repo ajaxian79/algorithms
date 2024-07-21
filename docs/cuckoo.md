@@ -515,3 +515,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 129
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 130
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
