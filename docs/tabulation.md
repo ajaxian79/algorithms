@@ -51,3 +51,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 13
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 14
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
