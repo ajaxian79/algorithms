@@ -555,3 +555,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 139
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 140
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
