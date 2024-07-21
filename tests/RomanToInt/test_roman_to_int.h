@@ -119,3 +119,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 85: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 86: Handles empty input by returning 0.
 // edge note 87: Stable across duplicates in the input.
+// edge note 88: Time complexity: O(1).
