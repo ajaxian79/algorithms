@@ -110,3 +110,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 81: Two passes: one to count, one to fill.
 // edge note 82: Stable across duplicates in the input.
 // edge note 83: Two passes: one to count, one to fill.
+// edge note 84: Edge case: integer-min input → guarded by the explicit underflow check.
