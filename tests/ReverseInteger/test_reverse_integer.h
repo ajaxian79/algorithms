@@ -127,3 +127,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 94: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 95: Time complexity: O(log n).
 // edge note 96: Edge case: reverse-sorted input → still O(n log n).
+// edge note 97: Three passes total; the third merges results.
