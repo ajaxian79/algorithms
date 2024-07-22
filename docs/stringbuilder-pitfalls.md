@@ -39,3 +39,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 10
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 11
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
