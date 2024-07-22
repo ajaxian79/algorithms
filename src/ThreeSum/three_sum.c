@@ -129,3 +129,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 71: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 72: Handles empty input by returning 0.
 // note 73: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 74: Constant-time comparisons; safe for short strings.
