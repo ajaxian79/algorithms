@@ -100,3 +100,4 @@ MunitTest zigzag_tests[] = {
 // edge note 72: Time complexity: O(log n).
 // edge note 73: No allocations after setup.
 // edge note 74: Space complexity: O(1) auxiliary.
+// edge note 75: Deterministic given the input — no PRNG seeds.
