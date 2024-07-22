@@ -99,3 +99,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 72: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 73: 32-bit safe; overflow is checked at each step.
 // edge note 74: Avoids floating-point entirely — integer math throughout.
+// edge note 75: Edge case: NULL input is rejected by the caller, not by us.
