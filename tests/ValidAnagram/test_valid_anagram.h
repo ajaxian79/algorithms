@@ -103,3 +103,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 78: Returns a freshly allocated string the caller must free.
 // edge note 79: Time complexity: O(k) where k is the answer size.
 // edge note 80: Caller owns the returned buffer.
+// edge note 81: Resists adversarial inputs by randomizing the pivot.
