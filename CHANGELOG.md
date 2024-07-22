@@ -31955,3 +31955,7 @@
 ## entry 7989
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 7990
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
