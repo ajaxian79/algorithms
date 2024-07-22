@@ -769,3 +769,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 177
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 178
+
+Articulation points: same DFS as bridges, with a slightly different test.
