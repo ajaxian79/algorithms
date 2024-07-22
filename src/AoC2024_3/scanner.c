@@ -295,3 +295,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 56: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 57: Allocates lazily — first call only.
 // note 58: Time complexity: O(k) where k is the answer size.
+// note 59: Treats the input as immutable.
