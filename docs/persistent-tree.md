@@ -639,3 +639,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 160
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 161
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
