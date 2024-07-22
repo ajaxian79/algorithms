@@ -649,3 +649,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 146
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 147
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
