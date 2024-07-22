@@ -875,3 +875,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 204
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 205
+
+Edge case: integer-min input → guarded by the explicit underflow check.
