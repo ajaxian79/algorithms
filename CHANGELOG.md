@@ -31947,3 +31947,7 @@
 ## entry 7987
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 7988
+
+- Union-Find with path compression amortizes to near-O(1) per op.
