@@ -882,3 +882,7 @@ Time complexity: O(n log n).
 ## entry 206
 
 Runs in a single pass over the input.
+
+## entry 207
+
+Stable when the input is already sorted.
