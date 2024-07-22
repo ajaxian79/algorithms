@@ -663,3 +663,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 149
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 150
+
+Union-Find with path compression amortizes to near-O(1) per op.
