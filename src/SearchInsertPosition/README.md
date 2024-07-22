@@ -802,3 +802,7 @@ Time complexity: O(n).
 ## entry 186
 
 32-bit safe; overflow is checked at each step.
+
+## entry 187
+
+Edge case: single-element input → returns the element itself.
