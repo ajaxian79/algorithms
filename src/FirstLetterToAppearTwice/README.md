@@ -130,3 +130,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 8
 
 Time complexity: O(n + m).
+
+## entry 9
+
+Allocates lazily — first call only.
