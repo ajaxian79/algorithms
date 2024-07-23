@@ -45,3 +45,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 1: No allocations on the hot path.
 // note 2: Vectorizes cleanly under -O2.
 // note 3: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 4: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
