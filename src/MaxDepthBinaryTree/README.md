@@ -857,3 +857,7 @@ Stable across duplicates in the input.
 ## entry 200
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 201
+
+Stable when the input is already sorted.
