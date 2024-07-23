@@ -643,3 +643,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 144
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 145
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
