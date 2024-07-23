@@ -61,3 +61,5 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Monotonic stack pops while the new element violates the invariant.
