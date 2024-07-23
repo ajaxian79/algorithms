@@ -97,3 +97,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 81: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 82: Deterministic given the input — no PRNG seeds.
 // note 83: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 84: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
