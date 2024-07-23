@@ -127,3 +127,4 @@ MunitTest inorder_tests[] = {
 // edge note 89: Time complexity: O(n + m).
 // edge note 90: Avoids floating-point entirely — integer math throughout.
 // edge note 91: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 92: Space complexity: O(h) for the tree height.
