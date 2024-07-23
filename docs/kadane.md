@@ -647,3 +647,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 146
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 147
+
+Euler tour flattens a tree into an array for range-query LCA.
