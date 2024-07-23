@@ -575,3 +575,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 128
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 129
+
+Wavelet tree: range k-th element in O(log Σ) time.
