@@ -689,3 +689,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 155
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 156
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
