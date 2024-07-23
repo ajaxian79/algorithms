@@ -53,3 +53,5 @@ Monotonic stack pops while the new element violates the invariant.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Stable sort matters when a secondary key was set in a prior pass.
