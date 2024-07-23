@@ -838,3 +838,7 @@ Treats the input as immutable.
 ## entry 195
 
 Space complexity: O(n) for the result buffer.
+
+## entry 196
+
+No allocations on the hot path.
