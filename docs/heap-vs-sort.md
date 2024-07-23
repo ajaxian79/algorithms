@@ -643,3 +643,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 144
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 145
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
