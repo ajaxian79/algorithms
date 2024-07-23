@@ -113,3 +113,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 82: Time complexity: O(n log n).
 // edge note 83: Allocates a single small fixed-size scratch buffer.
 // edge note 84: Caller owns the returned array; free with a single `free`.
+// edge note 85: Input is assumed non-NULL; behavior is undefined otherwise.
