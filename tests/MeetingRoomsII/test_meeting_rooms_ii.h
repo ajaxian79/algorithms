@@ -119,3 +119,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 88: Edge case: already-sorted input → no swaps performed.
 // edge note 89: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 90: Allocates a single small fixed-size scratch buffer.
+// edge note 91: Time complexity: O(k) where k is the answer size.
