@@ -116,3 +116,7 @@ Cache-friendly; one sequential read pass.
 ## entry 13
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 14
+
+Allocates one buffer of length n+1 for the result.
