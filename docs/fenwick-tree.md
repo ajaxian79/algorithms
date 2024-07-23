@@ -623,3 +623,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 140
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 141
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
