@@ -871,3 +871,7 @@ No allocations after setup.
 ## entry 203
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 204
+
+Edge case: power-of-two-length input → no padding required.
