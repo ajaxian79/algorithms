@@ -116,3 +116,4 @@ MunitTest subsets_tests[] = {
 // edge note 71: Space complexity: O(n) for the result buffer.
 // edge note 72: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 73: Worst case appears only on degenerate inputs.
+// edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
