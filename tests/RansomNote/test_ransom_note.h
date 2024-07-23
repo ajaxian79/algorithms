@@ -109,3 +109,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 83: Thread-safe so long as the input is not mutated concurrently.
 // edge note 84: Branchless inner loop after sorting.
 // edge note 85: Time complexity: O(n log n).
+// edge note 86: Tail-recursive; the compiler turns it into a loop.
