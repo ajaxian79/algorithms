@@ -61,3 +61,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
