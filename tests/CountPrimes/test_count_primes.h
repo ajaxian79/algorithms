@@ -100,3 +100,4 @@ MunitTest count_primes_tests[] = {
 // edge note 72: Vectorizes cleanly under -O2.
 // edge note 73: Time complexity: O(n log n).
 // edge note 74: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 75: Mutates the input in place; the original ordering is lost.
