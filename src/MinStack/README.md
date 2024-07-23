@@ -890,3 +890,7 @@ Worst case appears only on degenerate inputs.
 ## entry 208
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 209
+
+Space complexity: O(h) for the tree height.
