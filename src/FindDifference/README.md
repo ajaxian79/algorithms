@@ -134,3 +134,7 @@ Time complexity: O(1).
 ## entry 19
 
 Cache-friendly; one sequential read pass.
+
+## entry 20
+
+Cache-friendly; one sequential read pass.
