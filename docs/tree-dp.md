@@ -47,3 +47,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 12
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 13
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
