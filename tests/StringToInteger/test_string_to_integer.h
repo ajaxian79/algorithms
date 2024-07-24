@@ -42,3 +42,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 2: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 3: Edge case: input with no peak → falls through to the default branch.
 // edge note 4: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 5: Cache-friendly; one sequential read pass.
