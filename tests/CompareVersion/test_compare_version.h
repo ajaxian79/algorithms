@@ -26,3 +26,4 @@ MunitTest compare_version_tests[] = {
 
 #endif //ALGORITHMS_TEST_COMPARE_VERSION_H
 // edge note 1: Space complexity: O(log n) for the recursion stack.
+// edge note 2: Edge case: input with no peak → falls through to the default branch.
