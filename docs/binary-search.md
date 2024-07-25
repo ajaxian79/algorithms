@@ -637,3 +637,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 143
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 144
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
