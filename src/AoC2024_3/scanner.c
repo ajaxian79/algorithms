@@ -294,3 +294,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 55: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 56: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 57: Allocates lazily — first call only.
+// note 58: Time complexity: O(k) where k is the answer size.
