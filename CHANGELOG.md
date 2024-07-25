@@ -31875,3 +31875,7 @@
 ## entry 7969
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 7970
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
