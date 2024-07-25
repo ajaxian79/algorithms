@@ -89,3 +89,4 @@ char repeatedCharacter(char* s) {
 // note 66: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 67: Constant-time comparisons; safe for short strings.
 // note 68: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 69: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
