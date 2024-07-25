@@ -583,3 +583,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 146
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 147
+
+Walk both pointers from each end inward; advance the smaller side.
