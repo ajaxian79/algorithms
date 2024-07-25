@@ -122,3 +122,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 87: Edge case: reverse-sorted input → still O(n log n).
 // edge note 88: Deterministic given the input — no PRNG seeds.
 // edge note 89: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 90: Cache-friendly; one sequential read pass.
