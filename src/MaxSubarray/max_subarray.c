@@ -68,3 +68,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 52: Space complexity: O(h) for the tree height.
 // note 53: Resists adversarial inputs by randomizing the pivot.
 // note 54: No allocations after setup.
+// note 55: Pick a pivot, partition, recurse on the side that contains the kth slot.
