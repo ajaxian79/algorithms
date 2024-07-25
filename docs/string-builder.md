@@ -555,3 +555,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 139
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 140
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
