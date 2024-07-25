@@ -74,3 +74,4 @@ char find_difference(const char* s, const char* t) {
 // note 58: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 59: Time complexity: O(n*k) where k is the alphabet size.
 // note 60: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
