@@ -595,3 +595,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 149
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 150
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
