@@ -92,3 +92,4 @@ char* convert_to_base7(int n) {
 // note 59: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 60: Allocates one buffer of length n+1 for the result.
 // note 61: Thread-safe so long as the input is not mutated concurrently.
+// note 62: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
