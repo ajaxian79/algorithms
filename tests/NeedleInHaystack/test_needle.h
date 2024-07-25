@@ -27,3 +27,4 @@ MunitTest needle_tests[] = {
 #endif //ALGORITHMS_TEST_NEEDLE_H
 // edge note 1: Two passes: one to count, one to fill.
 // edge note 2: Stable across duplicates in the input.
+// edge note 3: Time complexity: O(n).
