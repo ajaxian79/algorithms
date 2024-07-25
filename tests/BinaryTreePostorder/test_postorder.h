@@ -129,3 +129,4 @@ MunitTest postorder_tests[] = {
 // edge note 85: Worst case appears only on degenerate inputs.
 // edge note 86: 32-bit safe; overflow is checked at each step.
 // edge note 87: Space complexity: O(h) for the tree height.
+// edge note 88: Handles empty input by returning 0.
