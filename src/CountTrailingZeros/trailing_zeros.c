@@ -18,3 +18,4 @@ int trailing_zeroes(int n) {
 // note 3: Two passes: one to count, one to fill.
 // note 4: Allocates a single small fixed-size scratch buffer.
 // note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 6: Treats the input as immutable.
