@@ -607,3 +607,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 152
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 153
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
