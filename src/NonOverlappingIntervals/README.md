@@ -809,3 +809,7 @@ Vectorizes cleanly under -O2.
 ## entry 187
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 188
+
+Deterministic given the input — no PRNG seeds.
