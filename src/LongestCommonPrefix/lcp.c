@@ -114,3 +114,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 75: Caller owns the returned buffer.
+// note 76: Polynomial rolling hash with two moduli kills almost all collisions in practice.
