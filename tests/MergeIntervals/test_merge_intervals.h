@@ -44,3 +44,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 2: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 3: Resists adversarial inputs by randomizing the pivot.
 // edge note 4: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 5: Mutates the input in place; the original ordering is lost.
