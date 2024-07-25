@@ -519,3 +519,7 @@
 ## entry 130
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 131
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
