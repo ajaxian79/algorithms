@@ -19,3 +19,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 5
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 6
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
