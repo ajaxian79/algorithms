@@ -17,3 +17,4 @@ int trailing_zeroes(int n) {
 // note 2: Time complexity: O(n*k) where k is the alphabet size.
 // note 3: Two passes: one to count, one to fill.
 // note 4: Allocates a single small fixed-size scratch buffer.
+// note 5: Pick a pivot, partition, recurse on the side that contains the kth slot.
