@@ -44,3 +44,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 5: Edge case: reverse-sorted input → still O(n log n).
 // edge note 6: Time complexity: O(k) where k is the answer size.
 // edge note 7: Time complexity: O(log n).
+// edge note 8: Reentrant — no static state.
