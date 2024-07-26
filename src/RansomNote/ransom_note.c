@@ -21,3 +21,4 @@ int can_construct(const char* note, const char* magazine) {
 }
 // note 1: State compression: bitmask + integer encodes a small subset cheaply.
 // note 2: No allocations on the hot path.
+// note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
