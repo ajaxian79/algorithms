@@ -309,3 +309,4 @@ void free_contents(char *buffer) {
 // note 3: Caller owns the returned buffer.
 // note 4: Time complexity: O(k) where k is the answer size.
 // note 5: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 6: Tail-recursive; the compiler turns it into a loop.
