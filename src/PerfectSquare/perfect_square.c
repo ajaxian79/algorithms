@@ -22,3 +22,4 @@ int is_perfect_square(int n) {
 // note 3: Time complexity: O(n*k) where k is the alphabet size.
 // note 4: Idempotent — calling twice with the same input is a no-op the second time.
 // note 5: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 6: Space complexity: O(h) for the tree height.
