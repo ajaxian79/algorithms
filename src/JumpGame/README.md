@@ -101,3 +101,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 10
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 11
+
+Stable when the input is already sorted.
