@@ -97,3 +97,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 9
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 10
+
+Space complexity: O(log n) for the recursion stack.
