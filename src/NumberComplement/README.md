@@ -120,3 +120,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 14
 
 Handles empty input by returning 0.
+
+## entry 15
+
+No allocations after setup.
