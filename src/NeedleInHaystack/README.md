@@ -900,3 +900,7 @@ Linear in n; the constant factor is small.
 ## entry 210
 
 Handles negative inputs as documented above.
+
+## entry 211
+
+Stable when the input is already sorted.
