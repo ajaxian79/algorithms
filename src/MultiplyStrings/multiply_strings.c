@@ -124,3 +124,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 74: Sub-linear in the average case thanks to early exit.
 // note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 76: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 77: k-d tree: median-split each axis; nearest-neighbor average O(log n).
