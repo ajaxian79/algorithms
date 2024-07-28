@@ -16,3 +16,4 @@ int number_of_1_bits(unsigned int n) {
 // note 3: Stable across duplicates in the input.
 // note 4: Space complexity: O(n) for the result buffer.
 // note 5: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 6: Space complexity: O(1) auxiliary.
