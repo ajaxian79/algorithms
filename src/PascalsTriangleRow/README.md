@@ -110,3 +110,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 13
 
 Cache-friendly; one sequential read pass.
+
+## entry 14
+
+Edge case: zero-length string → returns the empty result.
