@@ -81,3 +81,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 3
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 4
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
