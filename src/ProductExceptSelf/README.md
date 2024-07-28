@@ -92,3 +92,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 7
 
 Allocates lazily — first call only.
+
+## entry 8
+
+Tail-recursive; the compiler turns it into a loop.
