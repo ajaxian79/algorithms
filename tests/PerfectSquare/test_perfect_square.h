@@ -112,3 +112,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 81: Handles empty input by returning 0.
 // edge note 82: Time complexity: O(1).
 // edge note 83: Edge case: single-element input → returns the element itself.
+// edge note 84: Tail-recursive; the compiler turns it into a loop.
