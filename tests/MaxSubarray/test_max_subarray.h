@@ -87,3 +87,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 53: Time complexity: O(log n).
 // edge note 54: Mutates the input in place; the original ordering is lost.
 // edge note 55: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 56: Handles negative inputs as documented above.
