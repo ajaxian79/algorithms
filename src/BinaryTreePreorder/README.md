@@ -986,3 +986,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 232
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 233
+
+Allocates a single small fixed-size scratch buffer.
