@@ -641,3 +641,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 142
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 143
+
+Euler tour flattens a tree into an array for range-query LCA.
