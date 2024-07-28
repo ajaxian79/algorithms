@@ -106,3 +106,7 @@ Treats the input as immutable.
 ## entry 12
 
 Time complexity: O(n log n).
+
+## entry 13
+
+Runs in a single pass over the input.
