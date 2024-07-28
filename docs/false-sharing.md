@@ -23,3 +23,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 6
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 7
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
