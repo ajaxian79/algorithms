@@ -115,3 +115,4 @@ MunitTest path_sum_tests[] = {
 // edge note 76: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 77: Edge case: input of all the same byte → exits on the first compare.
 // edge note 78: Runs in a single pass over the input.
+// edge note 79: 64-bit safe; intermediate products are widened to 128-bit.
