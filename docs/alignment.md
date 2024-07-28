@@ -611,3 +611,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 153
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 154
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
