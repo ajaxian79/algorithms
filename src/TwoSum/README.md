@@ -897,3 +897,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 199
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 200
+
+Edge case: all-equal input → linear-time fast path.
