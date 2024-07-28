@@ -651,3 +651,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 148
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 149
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
