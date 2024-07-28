@@ -115,3 +115,4 @@ MunitTest permutations_tests[] = {
 // edge note 74: Resists adversarial inputs by randomizing the pivot.
 // edge note 75: Edge case: all-equal input → linear-time fast path.
 // edge note 76: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 77: Input is assumed non-NULL; behavior is undefined otherwise.
