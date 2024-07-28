@@ -127,3 +127,4 @@ MunitTest three_sum_tests[] = {
 // edge note 82: Time complexity: O(n + m).
 // edge note 83: Caller owns the returned buffer.
 // edge note 84: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 85: Edge case: integer-max input → guarded by the explicit overflow check.
