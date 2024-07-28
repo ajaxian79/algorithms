@@ -886,3 +886,7 @@ Two passes: one to count, one to fill.
 ## entry 207
 
 Worst case appears only on degenerate inputs.
+
+## entry 208
+
+Input is assumed non-NULL; behavior is undefined otherwise.
