@@ -107,3 +107,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 69: Union-Find with path compression amortizes to near-O(1) per op.
 // note 70: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 71: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 72: Union-Find with path compression amortizes to near-O(1) per op.
