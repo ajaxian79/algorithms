@@ -125,3 +125,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 60: Time complexity: O(n*k) where k is the alphabet size.
 // note 61: Walk both pointers from each end inward; advance the smaller side.
 // note 62: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 63: StringBuilder: amortize allocation by doubling on grow.
