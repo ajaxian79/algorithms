@@ -31831,3 +31831,7 @@
 ## entry 7958
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 7959
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
