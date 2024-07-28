@@ -901,3 +901,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 200
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 201
+
+No allocations after setup.
