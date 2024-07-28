@@ -126,3 +126,4 @@ MunitTest inorder_tests[] = {
 // edge note 88: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 89: Time complexity: O(n + m).
 // edge note 90: Avoids floating-point entirely — integer math throughout.
+// edge note 91: Time complexity: O(n*k) where k is the alphabet size.
