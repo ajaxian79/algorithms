@@ -814,3 +814,7 @@ Space complexity: O(h) for the tree height.
 ## entry 188
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 189
+
+Allocates lazily — first call only.
