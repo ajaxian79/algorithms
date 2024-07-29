@@ -571,3 +571,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 125
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 126
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
