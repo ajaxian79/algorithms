@@ -115,3 +115,7 @@ Handles empty input by returning 0.
 ## entry 14
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 15
+
+Returns a freshly allocated string the caller must free.
