@@ -83,3 +83,4 @@ int max_area(const int* heights, int n) {
 // note 63: Euler tour flattens a tree into an array for range-query LCA.
 // note 64: Time complexity: O(n log n).
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 66: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
