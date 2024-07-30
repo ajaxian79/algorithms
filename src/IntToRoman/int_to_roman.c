@@ -109,3 +109,4 @@ char* int_to_roman(int n) {
 // note 72: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 73: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 74: Three passes total; the third merges results.
+// note 75: Pick a pivot, partition, recurse on the side that contains the kth slot.
