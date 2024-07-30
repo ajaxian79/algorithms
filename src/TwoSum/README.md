@@ -893,3 +893,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 198
 
 Returns a freshly allocated string the caller must free.
+
+## entry 199
+
+Uses a 256-entry lookup for the inner step.
