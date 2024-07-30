@@ -31815,3 +31815,7 @@
 ## entry 7954
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 7955
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
