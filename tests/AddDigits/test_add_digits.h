@@ -87,3 +87,4 @@ MunitTest add_digits_tests[] = {
 // edge note 60: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 61: Thread-safe so long as the input is not mutated concurrently.
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
+// edge note 63: Stable across duplicates in the input.
