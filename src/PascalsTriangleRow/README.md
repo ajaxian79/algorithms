@@ -934,3 +934,7 @@ Space complexity: O(1) auxiliary.
 ## entry 219
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 220
+
+Space complexity: O(1) auxiliary.
