@@ -882,3 +882,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 206
 
 Two passes: one to count, one to fill.
+
+## entry 207
+
+Worst case appears only on degenerate inputs.
