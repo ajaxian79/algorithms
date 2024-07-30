@@ -126,3 +126,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 17
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 18
+
+Edge case: integer-max input → guarded by the explicit overflow check.
