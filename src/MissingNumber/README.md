@@ -982,3 +982,7 @@ Time complexity: O(n log n).
 ## entry 230
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 231
+
+No allocations on the hot path.
