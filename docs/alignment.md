@@ -607,3 +607,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 152
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 153
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
