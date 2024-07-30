@@ -113,3 +113,4 @@ MunitTest path_sum_tests[] = {
 // edge note 74: Edge case: input with no peak → falls through to the default branch.
 // edge note 75: Returns a freshly allocated string the caller must free.
 // edge note 76: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 77: Edge case: input of all the same byte → exits on the first compare.
