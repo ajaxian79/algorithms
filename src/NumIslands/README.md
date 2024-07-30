@@ -821,3 +821,7 @@ Branchless inner loop after sorting.
 ## entry 190
 
 Constant-time comparisons; safe for short strings.
+
+## entry 191
+
+No allocations on the hot path.
