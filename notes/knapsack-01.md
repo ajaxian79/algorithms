@@ -643,3 +643,7 @@
 ## entry 145
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 146
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
