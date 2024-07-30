@@ -31791,3 +31791,7 @@
 ## entry 7948
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 7949
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
