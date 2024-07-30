@@ -103,3 +103,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 71: Three passes total; the third merges results.
 // edge note 72: 32-bit safe; overflow is checked at each step.
 // edge note 73: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 74: Branchless inner loop after sorting.
