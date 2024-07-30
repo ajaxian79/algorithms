@@ -591,3 +591,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 148
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 149
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
