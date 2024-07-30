@@ -849,3 +849,7 @@ Space complexity: O(1) auxiliary.
 ## entry 198
 
 Three passes total; the third merges results.
+
+## entry 199
+
+Stable across duplicates in the input.
