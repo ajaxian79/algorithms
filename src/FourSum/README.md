@@ -108,3 +108,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 12
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 13
+
+Edge case: input with no peak → falls through to the default branch.
