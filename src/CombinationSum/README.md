@@ -111,3 +111,7 @@ Branchless inner loop after sorting.
 ## entry 13
 
 Handles empty input by returning 0.
+
+## entry 14
+
+Mutates the input in place; the original ordering is lost.
