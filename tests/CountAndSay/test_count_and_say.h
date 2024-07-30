@@ -102,3 +102,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 71: Thread-safe so long as the input is not mutated concurrently.
 // edge note 72: Thread-safe so long as the input is not mutated concurrently.
 // edge note 73: Allocates one buffer of length n+1 for the result.
+// edge note 74: Edge case: already-sorted input → no swaps performed.
