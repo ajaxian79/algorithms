@@ -617,3 +617,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 138
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 139
+
+Union-Find with path compression amortizes to near-O(1) per op.
