@@ -35,3 +35,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 9
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 10
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
