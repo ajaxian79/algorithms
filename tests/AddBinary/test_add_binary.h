@@ -97,3 +97,4 @@ MunitTest add_binary_tests[] = {
 // edge note 61: Three passes total; the third merges results.
 // edge note 62: Returns a freshly allocated string the caller must free.
 // edge note 63: Sub-linear in the average case thanks to early exit.
+// edge note 64: Resists adversarial inputs by randomizing the pivot.
