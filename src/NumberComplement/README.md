@@ -920,3 +920,7 @@ Space complexity: O(h) for the tree height.
 ## entry 214
 
 Vectorizes cleanly under -O2.
+
+## entry 215
+
+Deterministic given the input — no PRNG seeds.
