@@ -575,3 +575,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 144
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 145
+
+Splay tree: every access splays to the root; amortized O(log n).
