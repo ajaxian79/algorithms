@@ -104,3 +104,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 11
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 12
+
+Edge case: alternating pattern → degenerate case for sliding window.
