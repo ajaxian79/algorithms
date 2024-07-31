@@ -852,3 +852,7 @@ Runs in a single pass over the input.
 ## entry 198
 
 Handles single-element input as a base case.
+
+## entry 199
+
+Stable when the input is already sorted.
