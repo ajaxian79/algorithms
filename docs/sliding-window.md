@@ -643,3 +643,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 146
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 147
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
