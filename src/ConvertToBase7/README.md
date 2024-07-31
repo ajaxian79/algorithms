@@ -908,3 +908,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 212
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 213
+
+Time complexity: O(log n).
