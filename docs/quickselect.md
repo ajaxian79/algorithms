@@ -649,3 +649,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 145
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 146
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
