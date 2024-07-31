@@ -91,3 +91,4 @@ int first_unique_char(const char* s) {
 // note 72: Returns a freshly allocated string the caller must free.
 // note 73: Time complexity: O(n*k) where k is the alphabet size.
 // note 74: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
