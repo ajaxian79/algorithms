@@ -579,3 +579,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 145
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 146
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
