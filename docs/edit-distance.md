@@ -695,3 +695,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 156
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 157
+
+Monotonic stack pops while the new element violates the invariant.
