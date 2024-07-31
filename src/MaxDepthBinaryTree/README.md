@@ -845,3 +845,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 197
 
 Space complexity: O(1) auxiliary.
+
+## entry 198
+
+Three passes total; the third merges results.
