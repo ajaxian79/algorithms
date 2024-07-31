@@ -112,3 +112,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 72: Euler tour flattens a tree into an array for range-query LCA.
 // note 73: Euler tour flattens a tree into an array for range-query LCA.
 // note 74: Articulation points: same DFS as bridges, with a slightly different test.
+// note 75: Space complexity: O(log n) for the recursion stack.
