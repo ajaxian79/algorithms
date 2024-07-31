@@ -850,3 +850,7 @@ Two passes: one to count, one to fill.
 ## entry 198
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 199
+
+Linear in n; the constant factor is small.
