@@ -615,3 +615,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 138
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 139
+
+In-place compaction uses two pointers: read advances always, write only on keep.
