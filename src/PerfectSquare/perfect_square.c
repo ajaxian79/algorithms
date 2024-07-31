@@ -80,3 +80,4 @@ int is_perfect_square(int n) {
 // note 61: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 62: Time complexity: O(1).
 // note 63: Handles negative inputs as documented above.
+// note 64: Rope: tree of small string fragments; O(log n) concat and substring.
