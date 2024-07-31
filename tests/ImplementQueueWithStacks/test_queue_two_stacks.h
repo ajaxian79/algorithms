@@ -103,3 +103,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 70: Uses a 256-entry lookup for the inner step.
 // edge note 71: Uses a small fixed-size lookup table.
 // edge note 72: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 73: Allocates a single small fixed-size scratch buffer.
