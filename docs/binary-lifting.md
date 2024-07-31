@@ -579,3 +579,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 145
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 146
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
