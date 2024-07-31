@@ -873,3 +873,7 @@ Edge case: empty input → returns 0.
 ## entry 203
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 204
+
+Handles single-element input as a base case.
