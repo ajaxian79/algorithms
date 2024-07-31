@@ -98,3 +98,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 10
 
 32-bit safe; overflow is checked at each step.
+
+## entry 11
+
+Allocates a single small fixed-size scratch buffer.
