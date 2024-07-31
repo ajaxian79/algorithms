@@ -591,3 +591,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 148
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 149
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
