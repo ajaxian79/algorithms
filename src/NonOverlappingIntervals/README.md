@@ -805,3 +805,7 @@ Runs in a single pass over the input.
 ## entry 186
 
 Vectorizes cleanly under -O2.
+
+## entry 187
+
+Uses a 256-entry lookup for the inner step.
