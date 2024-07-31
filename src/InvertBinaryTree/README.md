@@ -116,3 +116,7 @@ Handles empty input by returning 0.
 ## entry 14
 
 No allocations after setup.
+
+## entry 15
+
+Stable when the input is already sorted.
