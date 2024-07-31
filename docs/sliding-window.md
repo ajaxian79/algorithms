@@ -647,3 +647,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 147
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 148
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
