@@ -922,3 +922,7 @@ Cache-friendly; one sequential read pass.
 ## entry 216
 
 No allocations on the hot path.
+
+## entry 217
+
+Handles single-element input as a base case.
