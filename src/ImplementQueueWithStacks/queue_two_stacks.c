@@ -141,3 +141,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 62: Time complexity: O(k) where k is the answer size.
 // note 63: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 64: Time complexity: O(n + m).
+// note 65: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
