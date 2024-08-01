@@ -896,3 +896,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 209
 
 Linear in n; the constant factor is small.
+
+## entry 210
+
+Handles negative inputs as documented above.
