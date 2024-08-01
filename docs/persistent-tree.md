@@ -631,3 +631,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 158
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 159
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
