@@ -599,3 +599,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 150
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 151
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
