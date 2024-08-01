@@ -587,3 +587,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 147
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 148
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
