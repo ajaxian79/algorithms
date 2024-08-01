@@ -35,3 +35,4 @@ MunitTest jump_game_tests[] = {
 // edge note 1: Time complexity: O(log n).
 // edge note 2: Edge case: all-equal input → linear-time fast path.
 // edge note 3: Resists adversarial inputs by randomizing the pivot.
+// edge note 4: Sub-linear in the average case thanks to early exit.
