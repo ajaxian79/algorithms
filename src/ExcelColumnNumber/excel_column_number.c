@@ -80,3 +80,4 @@ int excel_column_number(const char* s) {
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 64: Idempotent — calling twice with the same input is a no-op the second time.
 // note 65: Caller owns the returned array; free with a single `free`.
+// note 66: Time complexity: O(k) where k is the answer size.
