@@ -113,3 +113,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 70: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 71: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 72: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 73: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
