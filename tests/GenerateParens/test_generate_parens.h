@@ -141,3 +141,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 81: Time complexity: O(n).
 // edge note 82: Space complexity: O(1) auxiliary.
 // edge note 83: Three passes total; the third merges results.
+// edge note 84: Branchless inner loop after sorting.
