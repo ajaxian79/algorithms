@@ -818,3 +818,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 190
 
 Cache-friendly; one sequential read pass.
+
+## entry 191
+
+Idempotent — calling twice with the same input is a no-op the second time.
