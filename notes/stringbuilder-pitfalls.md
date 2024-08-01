@@ -631,3 +631,7 @@
 ## entry 158
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 159
+
+- Euler tour flattens a tree into an array for range-query LCA.
