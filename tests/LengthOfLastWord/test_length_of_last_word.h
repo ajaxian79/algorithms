@@ -103,3 +103,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 76: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 77: Time complexity: O(n).
 // edge note 78: Sub-linear in the average case thanks to early exit.
+// edge note 79: Time complexity: O(n).
