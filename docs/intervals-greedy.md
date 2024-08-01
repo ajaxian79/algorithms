@@ -563,3 +563,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 123
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 124
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
