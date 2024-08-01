@@ -878,3 +878,7 @@ Uses a small fixed-size lookup table.
 ## entry 205
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 206
+
+Two passes: one to count, one to fill.
