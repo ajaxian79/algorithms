@@ -750,3 +750,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 173
 
 Branchless inner loop after sorting.
+
+## entry 174
+
+Time complexity: O(n log n).
