@@ -31735,3 +31735,7 @@
 ## entry 7934
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 7935
+
+- Union-Find with path compression amortizes to near-O(1) per op.
