@@ -619,3 +619,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 155
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 156
+
+Union-Find with path compression amortizes to near-O(1) per op.
