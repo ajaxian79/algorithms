@@ -57,3 +57,4 @@ MunitTest lcp_tests[] = {
 // edge note 2: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 3: Handles single-element input as a base case.
 // edge note 4: Allocates one buffer of length n+1 for the result.
+// edge note 5: Edge case: NULL input is rejected by the caller, not by us.
