@@ -867,3 +867,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 202
 
 No allocations after setup.
+
+## entry 203
+
+Idempotent — calling twice with the same input is a no-op the second time.
