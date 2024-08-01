@@ -647,3 +647,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 162
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 163
+
+Stable sort matters when a secondary key was set in a prior pass.
