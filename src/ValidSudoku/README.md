@@ -115,3 +115,7 @@ Two passes: one to count, one to fill.
 ## entry 13
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 14
+
+Edge case: alternating pattern → degenerate case for sliding window.
