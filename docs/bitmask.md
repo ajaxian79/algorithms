@@ -587,3 +587,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 131
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 132
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
