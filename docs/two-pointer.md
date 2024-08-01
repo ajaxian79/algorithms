@@ -683,3 +683,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 153
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 154
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
