@@ -55,3 +55,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 14
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 15
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
