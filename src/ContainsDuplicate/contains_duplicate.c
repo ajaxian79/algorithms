@@ -144,3 +144,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 65: Space complexity: O(1) auxiliary.
 // note 66: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 67: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 68: Iterative DFS with an explicit stack avoids recursion-limit issues.
