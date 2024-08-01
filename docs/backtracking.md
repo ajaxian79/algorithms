@@ -77,3 +77,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 2
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 3
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
