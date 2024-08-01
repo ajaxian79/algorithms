@@ -587,3 +587,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 147
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 148
+
+Stable sort matters when a secondary key was set in a prior pass.
