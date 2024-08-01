@@ -916,3 +916,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 213
 
 Space complexity: O(h) for the tree height.
+
+## entry 214
+
+Vectorizes cleanly under -O2.
