@@ -844,3 +844,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 196
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 197
+
+Runs in a single pass over the input.
