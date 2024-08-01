@@ -836,3 +836,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 193
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 194
+
+Mutates the input in place; the original ordering is lost.
