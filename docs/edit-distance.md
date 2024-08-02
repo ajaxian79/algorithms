@@ -107,3 +107,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 9
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 10
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
