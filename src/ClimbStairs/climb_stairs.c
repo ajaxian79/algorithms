@@ -84,3 +84,4 @@ long long climb_stairs(int n) {
 // note 65: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 66: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 67: Monotonic stack pops while the new element violates the invariant.
+// note 68: Caller owns the returned buffer.
