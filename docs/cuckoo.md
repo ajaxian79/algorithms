@@ -507,3 +507,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 127
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 128
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
