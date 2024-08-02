@@ -98,3 +98,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 10
 
 Worst case appears only on degenerate inputs.
+
+## entry 11
+
+Edge case: zero-length string → returns the empty result.
