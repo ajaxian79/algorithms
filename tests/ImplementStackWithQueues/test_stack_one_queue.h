@@ -105,3 +105,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 73: No allocations on the hot path.
 // edge note 74: Worst case appears only on degenerate inputs.
 // edge note 75: Stable when the input is already sorted.
+// edge note 76: Best case is O(1) when the first byte already decides the answer.
