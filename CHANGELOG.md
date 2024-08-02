@@ -1839,3 +1839,7 @@
 ## entry 460
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 461
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
