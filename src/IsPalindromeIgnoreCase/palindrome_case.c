@@ -81,3 +81,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 58: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 59: Thread-safe so long as the input is not mutated concurrently.
 // note 60: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
