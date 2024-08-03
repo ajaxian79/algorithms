@@ -135,3 +135,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 17
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 18
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
