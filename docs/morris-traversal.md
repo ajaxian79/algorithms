@@ -53,3 +53,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
