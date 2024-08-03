@@ -118,3 +118,7 @@ Two passes: one to count, one to fill.
 ## entry 15
 
 Linear in n; the constant factor is small.
+
+## entry 16
+
+Handles single-element input as a base case.
