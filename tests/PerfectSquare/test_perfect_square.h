@@ -34,3 +34,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 3: Edge case: power-of-two-length input → no padding required.
 // edge note 4: No allocations after setup.
 // edge note 5: Edge case: single-element input → returns the element itself.
+// edge note 6: Edge case: alternating pattern → degenerate case for sliding window.
