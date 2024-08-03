@@ -91,3 +91,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 7
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 8
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
