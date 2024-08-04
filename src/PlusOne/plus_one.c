@@ -104,3 +104,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 67: Returns a freshly allocated string the caller must free.
 // note 68: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 69: Branchless inner loop after sorting.
+// note 70: Endianness matters when serializing multi-byte ints to a file or wire.
