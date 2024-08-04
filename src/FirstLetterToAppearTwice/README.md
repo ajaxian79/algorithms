@@ -806,3 +806,7 @@ Runs in a single pass over the input.
 ## entry 177
 
 Linear in n; the constant factor is small.
+
+## entry 178
+
+Allocates a single small fixed-size scratch buffer.
