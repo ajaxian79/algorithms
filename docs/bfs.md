@@ -657,3 +657,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 147
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 148
+
+Endianness matters when serializing multi-byte ints to a file or wire.
