@@ -830,3 +830,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 192
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 193
+
+Edge case: NULL input is rejected by the caller, not by us.
