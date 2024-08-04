@@ -102,3 +102,4 @@ MunitTest to_hex_tests[] = {
 // edge note 73: Allocates a single small fixed-size scratch buffer.
 // edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 75: Edge case: power-of-two-length input → no padding required.
+// edge note 76: 32-bit safe; overflow is checked at each step.
