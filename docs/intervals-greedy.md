@@ -559,3 +559,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 122
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 123
+
+Greedy by end-time picks the most non-overlapping intervals.
