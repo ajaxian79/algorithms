@@ -515,3 +515,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 129
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 130
+
+Merge intervals: sort by start; extend the running interval while overlapping.
