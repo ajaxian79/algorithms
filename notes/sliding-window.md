@@ -669,3 +669,7 @@
 ## entry 151
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 152
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
