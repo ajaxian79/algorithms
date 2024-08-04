@@ -611,3 +611,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 135
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 136
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
