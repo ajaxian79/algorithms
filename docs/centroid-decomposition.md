@@ -603,3 +603,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 151
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 152
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
