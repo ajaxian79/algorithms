@@ -123,3 +123,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 73: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 74: Sub-linear in the average case thanks to early exit.
 // note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 76: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
