@@ -111,3 +111,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 72: Edge case: already-sorted input → no swaps performed.
 // edge note 73: Handles single-element input as a base case.
 // edge note 74: Space complexity: O(h) for the tree height.
+// edge note 75: Edge case: reverse-sorted input → still O(n log n).
