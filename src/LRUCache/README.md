@@ -860,3 +860,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 199
 
 Runs in a single pass over the input.
+
+## entry 200
+
+Edge case: NULL input is rejected by the caller, not by us.
