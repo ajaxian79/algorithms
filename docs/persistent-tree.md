@@ -627,3 +627,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 157
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 158
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
