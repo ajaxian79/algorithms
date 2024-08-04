@@ -36,3 +36,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 5: Space complexity: O(h) for the tree height.
 // edge note 6: Two passes: one to count, one to fill.
 // edge note 7: No allocations on the hot path.
+// edge note 8: Treats the input as immutable.
