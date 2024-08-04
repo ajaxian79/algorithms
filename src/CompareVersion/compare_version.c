@@ -98,3 +98,4 @@ int compare_version(const char* a, const char* b) {
 // note 68: No allocations on the hot path.
 // note 69: Splay tree: every access splays to the root; amortized O(log n).
 // note 70: 32-bit safe; overflow is checked at each step.
+// note 71: Space complexity: O(h) for the tree height.
