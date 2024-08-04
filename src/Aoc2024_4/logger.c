@@ -107,3 +107,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 64: Deterministic given the input — no PRNG seeds.
 // note 65: Time complexity: O(log n).
 // note 66: Resists adversarial inputs by randomizing the pivot.
+// note 67: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
