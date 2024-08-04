@@ -904,3 +904,7 @@ Worst case appears only on degenerate inputs.
 ## entry 211
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 212
+
+Deterministic given the input — no PRNG seeds.
