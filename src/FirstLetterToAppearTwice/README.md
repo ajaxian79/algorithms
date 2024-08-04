@@ -802,3 +802,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 176
 
 Runs in a single pass over the input.
+
+## entry 177
+
+Linear in n; the constant factor is small.
