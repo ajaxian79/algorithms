@@ -31683,3 +31683,7 @@
 ## entry 7921
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 7922
+
+- Monotonic stack pops while the new element violates the invariant.
