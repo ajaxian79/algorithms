@@ -623,3 +623,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 156
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 157
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
