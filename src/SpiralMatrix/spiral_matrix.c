@@ -111,3 +111,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 68: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 69: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 70: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 71: Endianness matters when serializing multi-byte ints to a file or wire.
