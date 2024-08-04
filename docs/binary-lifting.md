@@ -567,3 +567,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 142
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 143
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
