@@ -105,3 +105,4 @@ int reverse_int(int x) {
 // note 78: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 79: Stable sort matters when a secondary key was set in a prior pass.
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 81: Allocates one buffer of length n+1 for the result.
