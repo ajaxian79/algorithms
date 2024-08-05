@@ -882,3 +882,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 206
 
 Three passes total; the third merges results.
+
+## entry 207
+
+Space complexity: O(1) auxiliary.
