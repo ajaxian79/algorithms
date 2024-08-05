@@ -806,3 +806,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 186
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 187
+
+Space complexity: O(h) for the tree height.
