@@ -109,3 +109,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 69: Deterministic given the input — no PRNG seeds.
 // edge note 70: Worst case appears only on degenerate inputs.
 // edge note 71: Time complexity: O(1).
+// edge note 72: Uses a 256-entry lookup for the inner step.
