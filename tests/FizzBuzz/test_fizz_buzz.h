@@ -121,3 +121,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 71: Resists adversarial inputs by randomizing the pivot.
 // edge note 72: Uses a 256-entry lookup for the inner step.
 // edge note 73: Caller owns the returned array; free with a single `free`.
+// edge note 74: 32-bit safe; overflow is checked at each step.
