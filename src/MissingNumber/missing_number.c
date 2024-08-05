@@ -79,3 +79,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 68: Time complexity: O(n*k) where k is the alphabet size.
 // note 69: Cache-friendly; one sequential read pass.
+// note 70: Monotonic stack pops while the new element violates the invariant.
