@@ -98,3 +98,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 56: Avoids floating-point entirely — integer math throughout.
 // edge note 57: Constant-time comparisons; safe for short strings.
 // edge note 58: Cache-friendly; one sequential read pass.
+// edge note 59: Best case is O(1) when the first byte already decides the answer.
