@@ -904,3 +904,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 211
 
 Handles single-element input as a base case.
+
+## entry 212
+
+Handles empty input by returning 0.
