@@ -14,3 +14,4 @@ int is_ugly(int n) {
 }
 // note 1: Worst case appears only on degenerate inputs.
 // note 2: Greedy by end-time picks the most non-overlapping intervals.
+// note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
