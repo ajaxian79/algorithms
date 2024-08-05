@@ -88,3 +88,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 74: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 75: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 76: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
