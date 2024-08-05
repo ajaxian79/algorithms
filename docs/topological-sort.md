@@ -637,3 +637,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 141
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 142
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
