@@ -603,3 +603,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 136
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 137
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
