@@ -111,3 +111,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 12
 
 Two passes: one to count, one to fill.
+
+## entry 13
+
+Resists adversarial inputs by randomizing the pivot.
