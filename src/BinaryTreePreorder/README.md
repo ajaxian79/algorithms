@@ -982,3 +982,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 231
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 232
+
+Deterministic given the input — no PRNG seeds.
