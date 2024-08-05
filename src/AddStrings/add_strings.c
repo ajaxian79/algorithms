@@ -106,3 +106,4 @@ char* add_strings(const char* a, const char* b) {
 // note 66: Constant-time comparisons; safe for short strings.
 // note 67: Tail-recursive; the compiler turns it into a loop.
 // note 68: Caller owns the returned buffer.
+// note 69: Three passes total; the third merges results.
