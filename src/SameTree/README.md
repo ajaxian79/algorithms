@@ -120,3 +120,7 @@ Linear in n; the constant factor is small.
 ## entry 16
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 17
+
+Handles negative inputs as documented above.
