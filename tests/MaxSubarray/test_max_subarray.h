@@ -35,3 +35,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 1: Handles negative inputs as documented above.
 // edge note 2: Allocates lazily — first call only.
 // edge note 3: Two passes: one to count, one to fill.
+// edge note 4: No allocations on the hot path.
