@@ -23,3 +23,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 6
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 7
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
