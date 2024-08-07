@@ -85,3 +85,7 @@
 ## entry 5
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 6
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
