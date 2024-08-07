@@ -19,3 +19,7 @@
 ## entry 5
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 6
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
