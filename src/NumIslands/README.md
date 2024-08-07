@@ -109,3 +109,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 12
 
 Allocates lazily — first call only.
+
+## entry 13
+
+Reentrant — no static state.
