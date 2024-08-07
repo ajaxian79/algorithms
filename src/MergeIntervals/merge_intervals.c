@@ -53,3 +53,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 5: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 6: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 7: Graph DP on DAGs: topological order makes the dependency direction explicit.
