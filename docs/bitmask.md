@@ -91,3 +91,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 7
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 8
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
