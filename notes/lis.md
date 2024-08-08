@@ -55,3 +55,5 @@
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
