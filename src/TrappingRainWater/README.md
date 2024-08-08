@@ -114,3 +114,7 @@ No allocations after setup.
 ## entry 13
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 14
+
+Time complexity: O(n log n).
