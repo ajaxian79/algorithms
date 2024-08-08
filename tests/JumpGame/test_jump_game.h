@@ -108,3 +108,4 @@ MunitTest jump_game_tests[] = {
 // edge note 74: Three passes total; the third merges results.
 // edge note 75: Handles negative inputs as documented above.
 // edge note 76: Space complexity: O(log n) for the recursion stack.
+// edge note 77: Returns a freshly allocated string the caller must free.
