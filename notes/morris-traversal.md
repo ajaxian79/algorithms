@@ -675,3 +675,7 @@
 ## entry 152
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 153
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
