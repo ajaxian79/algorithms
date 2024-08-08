@@ -31647,3 +31647,7 @@
 ## entry 7912
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 7913
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
