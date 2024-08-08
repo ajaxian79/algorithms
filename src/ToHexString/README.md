@@ -791,3 +791,7 @@ Uses a small fixed-size lookup table.
 ## entry 183
 
 Branchless inner loop after sorting.
+
+## entry 184
+
+Edge case: reverse-sorted input → still O(n log n).
