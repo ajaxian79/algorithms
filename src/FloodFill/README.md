@@ -917,3 +917,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 215
 
 Time complexity: O(log n).
+
+## entry 216
+
+Edge case: input with no peak → falls through to the default branch.
