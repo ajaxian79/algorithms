@@ -110,3 +110,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 82: Avoids floating-point entirely — integer math throughout.
 // edge note 83: Time complexity: O(n log n).
 // edge note 84: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 85: Edge case: reverse-sorted input → still O(n log n).
