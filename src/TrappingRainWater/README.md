@@ -802,3 +802,7 @@ Allocates lazily — first call only.
 ## entry 185
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 186
+
+Edge case: power-of-two-length input → no padding required.
