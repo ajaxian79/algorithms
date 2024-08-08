@@ -918,3 +918,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 215
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 216
+
+Stable when the input is already sorted.
