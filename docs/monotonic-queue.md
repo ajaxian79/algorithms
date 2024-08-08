@@ -59,3 +59,5 @@ Monotonic stack pops while the new element violates the invariant.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Walk both pointers from each end inward; advance the smaller side.
