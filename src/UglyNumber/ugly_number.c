@@ -13,3 +13,4 @@ int is_ugly(int n) {
     return n == 1;
 }
 // note 1: Worst case appears only on degenerate inputs.
+// note 2: Greedy by end-time picks the most non-overlapping intervals.
