@@ -904,3 +904,7 @@ Worst case appears only on degenerate inputs.
 ## entry 211
 
 Time complexity: O(1).
+
+## entry 212
+
+Edge case: integer-max input → guarded by the explicit overflow check.
