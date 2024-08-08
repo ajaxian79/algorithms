@@ -113,3 +113,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 70: Time complexity: O(n log n).
 // edge note 71: Resists adversarial inputs by randomizing the pivot.
 // edge note 72: Edge case: input of all the same byte → exits on the first compare.
+// edge note 73: Returns a freshly allocated string the caller must free.
