@@ -855,3 +855,7 @@ Time complexity: O(1).
 ## entry 199
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 200
+
+Linear in n; the constant factor is small.
