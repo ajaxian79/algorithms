@@ -95,3 +95,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 65: No allocations on the hot path.
 // note 66: Allocates a single small fixed-size scratch buffer.
+// note 67: Mutates the input in place; the original ordering is lost.
