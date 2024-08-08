@@ -113,3 +113,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 72: Stable when the input is already sorted.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 75: Caller owns the returned buffer.
