@@ -889,3 +889,7 @@ Stable across duplicates in the input.
 ## entry 197
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 198
+
+Returns a freshly allocated string the caller must free.
