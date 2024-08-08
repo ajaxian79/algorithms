@@ -810,3 +810,7 @@ Two passes: one to count, one to fill.
 ## entry 187
 
 Time complexity: O(n + m).
+
+## entry 188
+
+Space complexity: O(h) for the tree height.
