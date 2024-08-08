@@ -89,3 +89,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 62: Handles single-element input as a base case.
 // edge note 63: Time complexity: O(n).
 // edge note 64: 32-bit safe; overflow is checked at each step.
+// edge note 65: Mutates the input in place; the original ordering is lost.
