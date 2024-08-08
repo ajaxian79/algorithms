@@ -43,3 +43,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 11
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 12
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
