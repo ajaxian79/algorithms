@@ -619,3 +619,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 139
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 140
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
