@@ -569,3 +569,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 126
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 127
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
