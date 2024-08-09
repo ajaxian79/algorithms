@@ -645,3 +645,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 145
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 146
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
