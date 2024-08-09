@@ -499,3 +499,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 125
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 126
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
