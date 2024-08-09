@@ -118,3 +118,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 15
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 16
+
+32-bit safe; overflow is checked at each step.
