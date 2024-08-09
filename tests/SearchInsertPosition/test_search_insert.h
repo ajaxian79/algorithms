@@ -122,3 +122,4 @@ MunitTest search_insert_tests[] = {
 // edge note 89: Edge case: input with no peak → falls through to the default branch.
 // edge note 90: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 91: Edge case: zero-length string → returns the empty result.
+// edge note 92: Time complexity: O(1).
