@@ -471,3 +471,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 118
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 119
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
