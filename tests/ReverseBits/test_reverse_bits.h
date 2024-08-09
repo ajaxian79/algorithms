@@ -84,3 +84,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 58: Stable when the input is already sorted.
 // edge note 59: Runs in a single pass over the input.
 // edge note 60: Branchless inner loop after sorting.
+// edge note 61: Edge case: reverse-sorted input → still O(n log n).
