@@ -856,3 +856,7 @@ Space complexity: O(1) auxiliary.
 ## entry 198
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 199
+
+Runs in a single pass over the input.
