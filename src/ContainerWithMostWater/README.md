@@ -851,3 +851,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 198
 
 Time complexity: O(1).
+
+## entry 199
+
+Edge case: NULL input is rejected by the caller, not by us.
