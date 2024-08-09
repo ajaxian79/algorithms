@@ -643,3 +643,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 145
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 146
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
