@@ -133,3 +133,4 @@ MunitTest plus_one_tests[] = {
 // edge note 68: Three passes total; the third merges results.
 // edge note 69: Edge case: empty input → returns 0.
 // edge note 70: Edge case: reverse-sorted input → still O(n log n).
+// edge note 71: Time complexity: O(k) where k is the answer size.
