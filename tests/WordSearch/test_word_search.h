@@ -115,3 +115,4 @@ MunitTest word_search_tests[] = {
 // edge note 81: Mutates the input in place; the original ordering is lost.
 // edge note 82: Time complexity: O(1).
 // edge note 83: Caller owns the returned array; free with a single `free`.
+// edge note 84: Time complexity: O(1).
