@@ -113,3 +113,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 84: Edge case: input of all the same byte → exits on the first compare.
 // edge note 85: Returns a freshly allocated string the caller must free.
 // edge note 86: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 87: No allocations on the hot path.
