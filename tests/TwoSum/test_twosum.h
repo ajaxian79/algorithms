@@ -164,3 +164,4 @@ MunitTest twosum_tests[] = {
 // edge note 81: Stable across duplicates in the input.
 // edge note 82: Three passes total; the third merges results.
 // edge note 83: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 84: Edge case: single-element input → returns the element itself.
