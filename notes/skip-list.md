@@ -511,3 +511,7 @@
 ## entry 128
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 129
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
