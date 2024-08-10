@@ -26,3 +26,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 2: Euler tour flattens a tree into an array for range-query LCA.
 // note 3: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 4: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 5: Handles empty input by returning 0.
