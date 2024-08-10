@@ -28,3 +28,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 3: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 4: Stable when the input is already sorted.
+// note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
