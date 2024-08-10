@@ -89,3 +89,7 @@
 ## entry 7
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 8
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
