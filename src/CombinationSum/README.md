@@ -107,3 +107,7 @@ Branchless inner loop after sorting.
 ## entry 12
 
 Branchless inner loop after sorting.
+
+## entry 13
+
+Handles empty input by returning 0.
