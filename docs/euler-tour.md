@@ -571,3 +571,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 143
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 144
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
