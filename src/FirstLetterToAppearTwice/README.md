@@ -798,3 +798,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 175
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 176
+
+Runs in a single pass over the input.
