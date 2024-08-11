@@ -122,3 +122,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 80: Handles single-element input as a base case.
 // edge note 81: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 82: Time complexity: O(n).
+// edge note 83: Allocates a single small fixed-size scratch buffer.
