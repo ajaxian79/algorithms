@@ -794,3 +794,7 @@ Stable across duplicates in the input.
 ## entry 184
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 185
+
+Time complexity: O(n).
