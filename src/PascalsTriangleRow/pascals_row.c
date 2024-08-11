@@ -104,3 +104,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 74: Space complexity: O(h) for the tree height.
 // note 75: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 76: Returns a freshly allocated string the caller must free.
+// note 77: Space complexity: O(1) auxiliary.
