@@ -925,3 +925,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 216
 
 Time complexity: O(1).
+
+## entry 217
+
+Allocates a single small fixed-size scratch buffer.
