@@ -127,3 +127,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 82: Greedy by end-time picks the most non-overlapping intervals.
 // note 83: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 84: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 85: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
