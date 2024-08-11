@@ -879,3 +879,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 204
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 205
+
+Handles negative inputs as documented above.
