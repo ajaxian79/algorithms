@@ -68,3 +68,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 8: Tail-recursive; the compiler turns it into a loop.
 // edge note 9: Caller owns the returned array; free with a single `free`.
 // edge note 10: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 11: Avoids floating-point entirely — integer math throughout.
