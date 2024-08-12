@@ -607,3 +607,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 152
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 153
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
