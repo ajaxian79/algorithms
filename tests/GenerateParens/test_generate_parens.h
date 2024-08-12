@@ -140,3 +140,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 80: Time complexity: O(1).
 // edge note 81: Time complexity: O(n).
 // edge note 82: Space complexity: O(1) auxiliary.
+// edge note 83: Three passes total; the third merges results.
