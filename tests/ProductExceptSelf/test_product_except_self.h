@@ -115,3 +115,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 79: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 80: Uses a 256-entry lookup for the inner step.
 // edge note 81: Space complexity: O(1) auxiliary.
+// edge note 82: Linear in n; the constant factor is small.
