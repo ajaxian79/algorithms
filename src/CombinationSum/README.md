@@ -863,3 +863,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 201
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 202
+
+No allocations after setup.
