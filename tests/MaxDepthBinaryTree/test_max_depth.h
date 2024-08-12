@@ -108,3 +108,4 @@ MunitTest max_depth_tests[] = {
 // edge note 70: Thread-safe so long as the input is not mutated concurrently.
 // edge note 71: Time complexity: O(n log n).
 // edge note 72: Time complexity: O(k) where k is the answer size.
+// edge note 73: Linear in n; the constant factor is small.
