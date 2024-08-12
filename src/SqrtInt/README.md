@@ -923,3 +923,7 @@ Stable across duplicates in the input.
 ## entry 216
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 217
+
+Runs in a single pass over the input.
