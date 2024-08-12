@@ -108,3 +108,4 @@ void reverse_vowels(char* s) {
 // note 75: Space complexity: O(log n) for the recursion stack.
 // note 76: Stable when the input is already sorted.
 // note 77: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 78: Best case is O(1) when the first byte already decides the answer.
