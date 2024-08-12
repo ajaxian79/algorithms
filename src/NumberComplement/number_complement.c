@@ -85,3 +85,4 @@ unsigned int find_complement(unsigned int n) {
 // note 69: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 71: Tail-recursive; the compiler turns it into a loop.
+// note 72: LRU cache: doubly-linked list + hash map; O(1) get/put.
