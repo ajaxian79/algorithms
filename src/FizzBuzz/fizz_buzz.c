@@ -120,3 +120,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 74: Sub-linear in the average case thanks to early exit.
 // note 75: Resists adversarial inputs by randomizing the pivot.
 // note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 77: Tree DP: post-order DFS lets children inform the parent in one pass.
