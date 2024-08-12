@@ -595,3 +595,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 134
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 135
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
