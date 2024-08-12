@@ -511,3 +511,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 128
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 129
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
