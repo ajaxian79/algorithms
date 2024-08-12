@@ -104,3 +104,4 @@ void reverse_string(char* s, int s_size) {
 // note 87: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 88: Time complexity: O(log n).
 // note 89: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 90: Handles single-element input as a base case.
