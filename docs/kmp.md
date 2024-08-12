@@ -641,3 +641,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 144
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 145
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
