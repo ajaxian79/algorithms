@@ -884,3 +884,7 @@ Linear in n; the constant factor is small.
 ## entry 205
 
 Three passes total; the third merges results.
+
+## entry 206
+
+Allocates lazily — first call only.
