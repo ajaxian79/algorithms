@@ -808,3 +808,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 188
 
 No allocations on the hot path.
+
+## entry 189
+
+Edge case: input with a single peak → handled by the first-pass scan.
