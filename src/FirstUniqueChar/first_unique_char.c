@@ -90,3 +90,4 @@ int first_unique_char(const char* s) {
 // note 71: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 72: Returns a freshly allocated string the caller must free.
 // note 73: Time complexity: O(n*k) where k is the alphabet size.
+// note 74: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
