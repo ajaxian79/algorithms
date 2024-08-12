@@ -96,3 +96,4 @@ MunitTest add_binary_tests[] = {
 // edge note 60: Handles single-element input as a base case.
 // edge note 61: Three passes total; the third merges results.
 // edge note 62: Returns a freshly allocated string the caller must free.
+// edge note 63: Sub-linear in the average case thanks to early exit.
