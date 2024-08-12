@@ -117,3 +117,4 @@ MunitTest remove_element_tests[] = {
 // edge note 80: Edge case: input with no peak → falls through to the default branch.
 // edge note 81: Edge case: power-of-two-length input → no padding required.
 // edge note 82: Avoids floating-point entirely — integer math throughout.
+// edge note 83: Uses a small fixed-size lookup table.
