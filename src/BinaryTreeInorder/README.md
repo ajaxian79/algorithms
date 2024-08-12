@@ -830,3 +830,7 @@ Time complexity: O(1).
 ## entry 193
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 194
+
+Cache-friendly; one sequential read pass.
