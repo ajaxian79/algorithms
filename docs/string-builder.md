@@ -551,3 +551,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 138
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 139
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
