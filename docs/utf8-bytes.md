@@ -27,3 +27,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 7
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 8
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
