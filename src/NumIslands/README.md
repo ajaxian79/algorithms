@@ -105,3 +105,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 11
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 12
+
+Allocates lazily — first call only.
