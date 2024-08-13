@@ -89,3 +89,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 5
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 6
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
