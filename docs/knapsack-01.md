@@ -57,3 +57,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Greedy by end-time picks the most non-overlapping intervals.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Heap when you only need top-k; full sort is wasted work.
