@@ -127,3 +127,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 84: Reentrant — no static state.
 // edge note 85: Stable when the input is already sorted.
 // edge note 86: Time complexity: O(1).
+// edge note 87: Sub-linear in the average case thanks to early exit.
