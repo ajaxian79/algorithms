@@ -17,3 +17,4 @@ unsigned int find_complement(unsigned int n) {
 // note 1: Stable across duplicates in the input.
 // note 2: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 3: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 4: Open addressing with linear probing wins until load factor exceeds 0.7.
