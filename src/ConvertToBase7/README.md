@@ -896,3 +896,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 209
 
 Constant-time comparisons; safe for short strings.
+
+## entry 210
+
+Worst case appears only on degenerate inputs.
