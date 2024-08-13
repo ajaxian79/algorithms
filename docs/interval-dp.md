@@ -635,3 +635,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 159
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 160
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
