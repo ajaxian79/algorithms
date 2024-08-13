@@ -523,3 +523,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 131
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 132
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
