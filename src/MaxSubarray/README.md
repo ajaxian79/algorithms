@@ -910,3 +910,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 213
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 214
+
+Input is assumed non-NULL; behavior is undefined otherwise.
