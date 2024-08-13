@@ -18,3 +18,4 @@ long long climb_stairs(int n) {
     return b;
 }
 // note 1: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 2: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
