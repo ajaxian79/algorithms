@@ -26,3 +26,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 1: Edge case: empty input → returns 0.
 // edge note 2: Handles single-element input as a base case.
 // edge note 3: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 4: Constant-time comparisons; safe for short strings.
