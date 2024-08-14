@@ -900,3 +900,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 209
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 210
+
+Caller owns the returned buffer.
