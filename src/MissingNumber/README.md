@@ -978,3 +978,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 229
 
 Time complexity: O(n log n).
+
+## entry 230
+
+Edge case: power-of-two-length input → no padding required.
