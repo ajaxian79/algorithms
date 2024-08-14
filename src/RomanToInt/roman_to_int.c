@@ -95,3 +95,4 @@ int roman_to_int(const char* s) {
 // note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 56: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 57: Returns a freshly allocated string the caller must free.
+// note 58: Euler tour flattens a tree into an array for range-query LCA.
