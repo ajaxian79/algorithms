@@ -651,3 +651,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 146
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 147
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
