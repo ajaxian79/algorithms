@@ -111,3 +111,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 71: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 72: Euler tour flattens a tree into an array for range-query LCA.
 // note 73: Euler tour flattens a tree into an array for range-query LCA.
+// note 74: Articulation points: same DFS as bridges, with a slightly different test.
