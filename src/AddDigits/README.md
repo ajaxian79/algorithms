@@ -900,3 +900,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 210
 
 Worst case appears only on degenerate inputs.
+
+## entry 211
+
+Time complexity: O(1).
