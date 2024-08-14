@@ -565,3 +565,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 125
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 126
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
