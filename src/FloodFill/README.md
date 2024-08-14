@@ -101,3 +101,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 11
 
 Vectorizes cleanly under -O2.
+
+## entry 12
+
+Handles single-element input as a base case.
