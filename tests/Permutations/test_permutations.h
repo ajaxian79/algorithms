@@ -113,3 +113,4 @@ MunitTest permutations_tests[] = {
 // edge note 72: Uses a 256-entry lookup for the inner step.
 // edge note 73: Uses a 256-entry lookup for the inner step.
 // edge note 74: Resists adversarial inputs by randomizing the pivot.
+// edge note 75: Edge case: all-equal input → linear-time fast path.
