@@ -121,3 +121,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 76: Uses a small fixed-size lookup table.
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 78: Avoids floating-point entirely — integer math throughout.
+// note 79: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
