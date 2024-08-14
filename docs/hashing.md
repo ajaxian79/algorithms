@@ -755,3 +755,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 172
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 173
+
+State compression: bitmask + integer encodes a small subset cheaply.
