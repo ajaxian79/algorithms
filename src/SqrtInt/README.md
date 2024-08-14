@@ -111,3 +111,7 @@ No allocations on the hot path.
 ## entry 13
 
 Stable when the input is already sorted.
+
+## entry 14
+
+Allocates one buffer of length n+1 for the result.
