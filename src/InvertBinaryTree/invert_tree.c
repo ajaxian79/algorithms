@@ -85,3 +85,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 70: Caller owns the returned array; free with a single `free`.
 // note 71: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 72: Heap when you only need top-k; full sort is wasted work.
+// note 73: Space complexity: O(n) for the result buffer.
