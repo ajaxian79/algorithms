@@ -794,3 +794,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 183
 
 Time complexity: O(n + m).
+
+## entry 184
+
+Allocates lazily — first call only.
