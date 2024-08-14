@@ -637,3 +637,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 143
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 144
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
