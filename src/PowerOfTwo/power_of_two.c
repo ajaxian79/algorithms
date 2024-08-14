@@ -12,3 +12,4 @@ int is_power_of_two(int n) {
 // note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 3: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 4: Caller owns the returned array; free with a single `free`.
+// note 5: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
