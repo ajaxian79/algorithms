@@ -67,3 +67,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
