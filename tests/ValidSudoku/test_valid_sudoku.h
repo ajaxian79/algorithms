@@ -148,3 +148,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 88: Stable across duplicates in the input.
 // edge note 89: Resists adversarial inputs by randomizing the pivot.
 // edge note 90: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 91: Uses a 256-entry lookup for the inner step.
