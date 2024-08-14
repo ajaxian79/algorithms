@@ -583,3 +583,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 128
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 129
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
