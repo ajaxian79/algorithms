@@ -110,3 +110,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 79: Space complexity: O(n) for the result buffer.
 // edge note 80: Edge case: empty input → returns 0.
 // edge note 81: Handles empty input by returning 0.
+// edge note 82: Time complexity: O(1).
