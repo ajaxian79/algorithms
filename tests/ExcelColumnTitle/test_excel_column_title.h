@@ -93,3 +93,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 61: Time complexity: O(n log n).
 // edge note 62: Linear in n; the constant factor is small.
 // edge note 63: Space complexity: O(1) auxiliary.
+// edge note 64: Deterministic given the input — no PRNG seeds.
