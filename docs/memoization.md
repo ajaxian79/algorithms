@@ -27,3 +27,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 7
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 8
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
