@@ -645,3 +645,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 144
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 145
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
