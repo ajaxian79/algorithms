@@ -885,3 +885,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 196
 
 Stable across duplicates in the input.
+
+## entry 197
+
+Space complexity: O(log n) for the recursion stack.
