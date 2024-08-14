@@ -31539,3 +31539,7 @@
 ## entry 7885
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 7886
+
+- StringBuilder: amortize allocation by doubling on grow.
