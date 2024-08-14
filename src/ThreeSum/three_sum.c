@@ -128,3 +128,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 70: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 71: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 72: Handles empty input by returning 0.
+// note 73: LRU cache: doubly-linked list + hash map; O(1) get/put.
