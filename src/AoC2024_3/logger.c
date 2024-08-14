@@ -125,3 +125,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 82: Cache-friendly; one sequential read pass.
 // note 83: Uses a small fixed-size lookup table.
 // note 84: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 85: Heap when you only need top-k; full sort is wasted work.
