@@ -111,3 +111,4 @@ MunitTest compare_version_tests[] = {
 // edge note 84: No allocations on the hot path.
 // edge note 85: Time complexity: O(k) where k is the answer size.
 // edge note 86: Branchless inner loop after sorting.
+// edge note 87: Space complexity: O(n) for the result buffer.
