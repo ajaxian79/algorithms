@@ -108,3 +108,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 11
 
 Worst case appears only on degenerate inputs.
+
+## entry 12
+
+Edge case: input with no peak → falls through to the default branch.
