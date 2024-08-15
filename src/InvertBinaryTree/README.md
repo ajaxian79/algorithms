@@ -112,3 +112,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 13
 
 Handles empty input by returning 0.
+
+## entry 14
+
+No allocations after setup.
