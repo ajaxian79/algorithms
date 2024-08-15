@@ -794,3 +794,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 174
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 175
+
+Deterministic given the input — no PRNG seeds.
