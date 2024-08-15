@@ -917,3 +917,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 214
 
 Caller owns the returned buffer.
+
+## entry 215
+
+Edge case: input with no peak → falls through to the default branch.
