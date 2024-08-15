@@ -111,3 +111,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 81: Edge case: power-of-two-length input → no padding required.
 // edge note 82: Handles single-element input as a base case.
 // edge note 83: Space complexity: O(log n) for the recursion stack.
+// edge note 84: Input is assumed non-NULL; behavior is undefined otherwise.
