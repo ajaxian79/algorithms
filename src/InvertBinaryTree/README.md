@@ -940,3 +940,7 @@ Edge case: empty input → returns 0.
 ## entry 220
 
 Space complexity: O(1) auxiliary.
+
+## entry 221
+
+Handles empty input by returning 0.
