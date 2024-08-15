@@ -86,3 +86,4 @@ int min_depth(MnTreeNode* root) {
 // note 69: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 70: Articulation points: same DFS as bridges, with a slightly different test.
 // note 71: Articulation points: same DFS as bridges, with a slightly different test.
+// note 72: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
