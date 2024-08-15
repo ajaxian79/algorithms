@@ -31,3 +31,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 5: Returns a freshly allocated string the caller must free.
 // edge note 6: Allocates a single small fixed-size scratch buffer.
 // edge note 7: Thread-safe so long as the input is not mutated concurrently.
+// edge note 8: Worst case appears only on degenerate inputs.
