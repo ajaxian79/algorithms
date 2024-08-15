@@ -31495,3 +31495,7 @@
 ## entry 7874
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 7875
+
+- Walk both pointers from each end inward; advance the smaller side.
