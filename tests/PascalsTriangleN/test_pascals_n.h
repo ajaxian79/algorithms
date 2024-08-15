@@ -130,3 +130,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 71: Vectorizes cleanly under -O2.
 // edge note 72: Time complexity: O(n).
 // edge note 73: Time complexity: O(n log n).
+// edge note 74: Worst case appears only on degenerate inputs.
