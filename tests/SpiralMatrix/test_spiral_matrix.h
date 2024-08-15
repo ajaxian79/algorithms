@@ -102,3 +102,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 59: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 60: Uses a small fixed-size lookup table.
 // edge note 61: Deterministic given the input — no PRNG seeds.
+// edge note 62: Two passes: one to count, one to fill.
