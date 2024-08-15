@@ -19,3 +19,7 @@
 ## entry 5
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 6
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
