@@ -51,3 +51,4 @@ char* count_and_say(int n) {
 // note 2: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 3: Handles empty input by returning 0.
 // note 4: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 5: Time complexity: O(n).
