@@ -834,3 +834,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 194
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 195
+
+Caller owns the returned buffer.
