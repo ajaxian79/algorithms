@@ -97,3 +97,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 66: Mutates the input in place; the original ordering is lost.
 // edge note 67: Thread-safe so long as the input is not mutated concurrently.
 // edge note 68: Worst case appears only on degenerate inputs.
+// edge note 69: Edge case: input of all the same byte → exits on the first compare.
