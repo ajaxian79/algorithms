@@ -921,3 +921,7 @@ Caller owns the returned buffer.
 ## entry 215
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 216
+
+Time complexity: O(1).
