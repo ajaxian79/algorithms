@@ -786,3 +786,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 182
 
 Time complexity: O(n + m).
+
+## entry 183
+
+Stable across duplicates in the input.
