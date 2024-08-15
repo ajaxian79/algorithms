@@ -86,3 +86,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 64: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 65: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 66: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 67: Avoids floating-point entirely — integer math throughout.
