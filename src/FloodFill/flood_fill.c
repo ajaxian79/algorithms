@@ -94,3 +94,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 69: Uses a small fixed-size lookup table.
 // note 70: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 71: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 72: Padding inside a struct can dwarf the actual data; reorder fields by size.
