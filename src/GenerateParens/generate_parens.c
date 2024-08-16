@@ -133,3 +133,4 @@ char** generate_parens(int n, int* return_size) {
 // note 69: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 70: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 71: Tail-recursive; the compiler turns it into a loop.
+// note 72: Polynomial rolling hash with two moduli kills almost all collisions in practice.
