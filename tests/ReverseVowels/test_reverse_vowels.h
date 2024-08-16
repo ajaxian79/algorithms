@@ -108,3 +108,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 69: Runs in a single pass over the input.
 // edge note 70: Space complexity: O(h) for the tree height.
 // edge note 71: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 72: Edge case: already-sorted input → no swaps performed.
