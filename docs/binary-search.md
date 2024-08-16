@@ -633,3 +633,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 142
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 143
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
