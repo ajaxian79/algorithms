@@ -813,3 +813,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 188
 
 Vectorizes cleanly under -O2.
+
+## entry 189
+
+Branchless inner loop after sorting.
