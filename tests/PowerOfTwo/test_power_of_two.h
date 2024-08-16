@@ -100,3 +100,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 68: Time complexity: O(1).
 // edge note 69: Best case is O(1) when the first byte already decides the answer.
 // edge note 70: 32-bit safe; overflow is checked at each step.
+// edge note 71: Three passes total; the third merges results.
