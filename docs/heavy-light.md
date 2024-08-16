@@ -591,3 +591,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 148
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 149
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
