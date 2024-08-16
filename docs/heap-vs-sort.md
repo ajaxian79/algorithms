@@ -635,3 +635,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 142
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 143
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
