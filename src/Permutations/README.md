@@ -972,3 +972,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 228
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 229
+
+Edge case: already-sorted input → no swaps performed.
