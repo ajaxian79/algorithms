@@ -817,3 +817,7 @@ Vectorizes cleanly under -O2.
 ## entry 189
 
 Branchless inner loop after sorting.
+
+## entry 190
+
+Constant-time comparisons; safe for short strings.
