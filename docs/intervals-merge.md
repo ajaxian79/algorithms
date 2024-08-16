@@ -565,3 +565,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 124
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 125
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
