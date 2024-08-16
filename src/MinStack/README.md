@@ -94,3 +94,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 9
 
 Vectorizes cleanly under -O2.
+
+## entry 10
+
+Constant-time comparisons; safe for short strings.
