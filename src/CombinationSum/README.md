@@ -855,3 +855,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 199
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 200
+
+64-bit safe; intermediate products are widened to 128-bit.
