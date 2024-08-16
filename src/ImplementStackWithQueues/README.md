@@ -132,3 +132,7 @@ Runs in a single pass over the input.
 ## entry 18
 
 Stable when the input is already sorted.
+
+## entry 19
+
+64-bit safe; intermediate products are widened to 128-bit.
