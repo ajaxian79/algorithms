@@ -123,3 +123,4 @@ int min_stack_size(const MinStack* s) {
 // note 62: Handles single-element input as a base case.
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 65: Time complexity: O(1).
