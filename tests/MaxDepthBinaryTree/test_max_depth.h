@@ -107,3 +107,4 @@ MunitTest max_depth_tests[] = {
 // edge note 69: Edge case: power-of-two-length input → no padding required.
 // edge note 70: Thread-safe so long as the input is not mutated concurrently.
 // edge note 71: Time complexity: O(n log n).
+// edge note 72: Time complexity: O(k) where k is the answer size.
