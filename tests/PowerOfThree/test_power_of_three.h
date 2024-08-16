@@ -101,3 +101,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Handles negative inputs as documented above.
 // edge note 72: Space complexity: O(h) for the tree height.
+// edge note 73: Space complexity: O(log n) for the recursion stack.
