@@ -839,3 +839,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 195
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 196
+
+Cache-friendly; one sequential read pass.
