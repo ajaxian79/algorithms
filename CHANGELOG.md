@@ -31459,3 +31459,7 @@
 ## entry 7865
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 7866
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
