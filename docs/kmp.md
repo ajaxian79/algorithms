@@ -621,3 +621,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 139
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 140
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
