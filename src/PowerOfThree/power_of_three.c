@@ -80,3 +80,4 @@ int is_power_of_three(int n) {
 // note 69: 64-bit safe; intermediate products are widened to 128-bit.
 // note 70: Avoids floating-point entirely — integer math throughout.
 // note 71: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
