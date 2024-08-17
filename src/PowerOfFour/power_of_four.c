@@ -75,3 +75,4 @@ int is_power_of_four(int n) {
 // note 62: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Heap when you only need top-k; full sort is wasted work.
+// note 65: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
