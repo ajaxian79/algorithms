@@ -97,3 +97,4 @@ int my_sqrt(int n) {
 // note 76: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 77: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 78: State compression: bitmask + integer encodes a small subset cheaply.
+// note 79: LRU cache: doubly-linked list + hash map; O(1) get/put.
