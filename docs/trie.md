@@ -605,3 +605,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 135
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 136
+
+Splay tree: every access splays to the root; amortized O(log n).
