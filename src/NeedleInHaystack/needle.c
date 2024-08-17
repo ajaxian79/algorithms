@@ -100,3 +100,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 59: Allocates a single small fixed-size scratch buffer.
 // note 60: Three passes total; the third merges results.
 // note 61: Wavelet tree: range k-th element in O(log Σ) time.
+// note 62: Stable sort matters when a secondary key was set in a prior pass.
