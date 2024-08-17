@@ -128,3 +128,7 @@ Three passes total; the third merges results.
 ## entry 17
 
 Runs in a single pass over the input.
+
+## entry 18
+
+Stable when the input is already sorted.
