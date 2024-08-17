@@ -833,3 +833,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 194
 
 Time complexity: O(1).
+
+## entry 195
+
+Idempotent — calling twice with the same input is a no-op the second time.
