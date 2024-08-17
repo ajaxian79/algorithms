@@ -583,3 +583,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 146
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 147
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
