@@ -43,3 +43,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 7: Stable when the input is already sorted.
 // edge note 8: Time complexity: O(n log n).
 // edge note 9: Reentrant — no static state.
+// edge note 10: Avoids floating-point entirely — integer math throughout.
