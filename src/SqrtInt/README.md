@@ -915,3 +915,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 214
 
 Treats the input as immutable.
+
+## entry 215
+
+Stable across duplicates in the input.
