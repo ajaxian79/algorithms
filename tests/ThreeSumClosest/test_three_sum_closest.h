@@ -107,3 +107,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 79: Allocates a single small fixed-size scratch buffer.
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 81: Linear in n; the constant factor is small.
+// edge note 82: Edge case: all-equal input → linear-time fast path.
