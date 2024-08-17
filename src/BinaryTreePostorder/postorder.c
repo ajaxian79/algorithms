@@ -117,3 +117,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 69: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 70: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 71: DFS on a grid: write a sentinel into the visited cell; restore if needed.
