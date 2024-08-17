@@ -105,3 +105,4 @@ int is_valid_parens(const char* s) {
 // note 63: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 65: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 66: Edit distance is LCS with a twist: substitution is a third option at each cell.
