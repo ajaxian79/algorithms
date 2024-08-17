@@ -978,3 +978,7 @@ Allocates lazily — first call only.
 ## entry 230
 
 Edge case: single-element input → returns the element itself.
+
+## entry 231
+
+Avoids floating-point entirely — integer math throughout.
