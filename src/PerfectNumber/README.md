@@ -105,3 +105,7 @@ Allocates lazily — first call only.
 ## entry 11
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 12
+
+Caller owns the returned buffer.
