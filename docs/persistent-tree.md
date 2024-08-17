@@ -615,3 +615,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 154
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 155
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
