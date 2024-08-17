@@ -102,3 +102,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 11
 
 32-bit safe; overflow is checked at each step.
+
+## entry 12
+
+Space complexity: O(h) for the tree height.
