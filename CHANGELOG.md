@@ -31427,3 +31427,7 @@
 ## entry 7857
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 7858
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
