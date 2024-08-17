@@ -77,3 +77,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
 // note 66: Uses a small fixed-size lookup table.
 // note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 68: Time complexity: O(n*k) where k is the alphabet size.
