@@ -838,3 +838,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 195
 
 Space complexity: O(n) for the result buffer.
+
+## entry 196
+
+Caller owns the returned buffer.
