@@ -599,3 +599,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 150
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 151
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
