@@ -527,3 +527,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 132
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 133
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
