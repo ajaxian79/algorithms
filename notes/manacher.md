@@ -59,3 +59,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
