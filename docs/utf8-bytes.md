@@ -503,3 +503,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 126
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 127
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
