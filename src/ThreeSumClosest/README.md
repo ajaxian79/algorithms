@@ -878,3 +878,7 @@ Time complexity: O(n).
 ## entry 205
 
 Returns a freshly allocated string the caller must free.
+
+## entry 206
+
+Three passes total; the third merges results.
