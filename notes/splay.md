@@ -523,3 +523,7 @@
 ## entry 131
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 132
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
