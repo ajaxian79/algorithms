@@ -94,3 +94,7 @@ Time complexity: O(n).
 ## entry 9
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 10
+
+Worst case appears only on degenerate inputs.
