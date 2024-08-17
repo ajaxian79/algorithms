@@ -919,3 +919,7 @@ Treats the input as immutable.
 ## entry 215
 
 Stable across duplicates in the input.
+
+## entry 216
+
+Allocates one buffer of length n+1 for the result.
