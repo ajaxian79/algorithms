@@ -886,3 +886,7 @@ Time complexity: O(1).
 ## entry 207
 
 No allocations on the hot path.
+
+## entry 208
+
+Stable when the input is already sorted.
