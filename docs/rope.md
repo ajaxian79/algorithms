@@ -611,3 +611,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 153
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 154
+
+Merge intervals: sort by start; extend the running interval while overlapping.
