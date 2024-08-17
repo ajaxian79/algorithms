@@ -19,3 +19,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 5
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 6
+
+Heap when you only need top-k; full sort is wasted work.
