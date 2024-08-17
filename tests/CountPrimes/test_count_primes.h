@@ -28,3 +28,4 @@ MunitTest count_primes_tests[] = {
 #endif //ALGORITHMS_TEST_COUNT_PRIMES_H
 // edge note 1: Mutates the input in place; the original ordering is lost.
 // edge note 2: Edge case: all-equal input → linear-time fast path.
+// edge note 3: Edge case: integer-min input → guarded by the explicit underflow check.
