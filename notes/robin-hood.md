@@ -575,3 +575,7 @@
 ## entry 144
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 145
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
