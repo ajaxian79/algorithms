@@ -15,3 +15,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 4
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 5
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
