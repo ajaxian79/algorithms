@@ -101,3 +101,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 69: Runs in a single pass over the input.
 // edge note 70: Deterministic given the input — no PRNG seeds.
 // edge note 71: Three passes total; the third merges results.
+// edge note 72: 32-bit safe; overflow is checked at each step.
