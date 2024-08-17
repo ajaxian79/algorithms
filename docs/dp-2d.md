@@ -619,3 +619,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 139
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 140
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
