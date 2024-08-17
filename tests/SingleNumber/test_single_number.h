@@ -110,3 +110,4 @@ MunitTest single_number_tests[] = {
 // edge note 79: Treats the input as immutable.
 // edge note 80: Edge case: input of all the same byte → exits on the first compare.
 // edge note 81: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 82: Edge case: input with one duplicate → handled without an extra pass.
