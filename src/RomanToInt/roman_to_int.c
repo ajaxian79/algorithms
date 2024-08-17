@@ -94,3 +94,4 @@ int roman_to_int(const char* s) {
 // note 54: Space complexity: O(n) for the result buffer.
 // note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 56: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 57: Returns a freshly allocated string the caller must free.
