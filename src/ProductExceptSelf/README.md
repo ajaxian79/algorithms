@@ -892,3 +892,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 207
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 208
+
+Space complexity: O(log n) for the recursion stack.
