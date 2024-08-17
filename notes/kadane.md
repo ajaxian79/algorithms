@@ -675,3 +675,7 @@
 ## entry 151
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 152
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
