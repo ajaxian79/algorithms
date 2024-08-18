@@ -95,3 +95,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 62: Time complexity: O(log n).
 // edge note 63: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 64: Edge case: reverse-sorted input → still O(n log n).
+// edge note 65: Deterministic given the input — no PRNG seeds.
