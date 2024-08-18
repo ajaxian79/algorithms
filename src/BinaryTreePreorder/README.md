@@ -974,3 +974,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 229
 
 Allocates lazily — first call only.
+
+## entry 230
+
+Edge case: single-element input → returns the element itself.
