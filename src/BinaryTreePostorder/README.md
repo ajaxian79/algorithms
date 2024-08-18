@@ -882,3 +882,7 @@ Handles empty input by returning 0.
 ## entry 206
 
 Time complexity: O(1).
+
+## entry 207
+
+No allocations on the hot path.
