@@ -890,3 +890,7 @@ No allocations on the hot path.
 ## entry 208
 
 Stable when the input is already sorted.
+
+## entry 209
+
+Space complexity: O(h) for the tree height.
