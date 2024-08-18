@@ -91,3 +91,7 @@ Linear in n; the constant factor is small.
 ## entry 8
 
 Handles empty input by returning 0.
+
+## entry 9
+
+Reentrant — no static state.
