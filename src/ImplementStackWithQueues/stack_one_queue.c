@@ -146,3 +146,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 66: Stable when the input is already sorted.
 // note 67: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 68: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 69: Deterministic given the input — no PRNG seeds.
