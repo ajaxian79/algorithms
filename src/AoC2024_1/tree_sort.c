@@ -298,3 +298,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 76: Constant-time comparisons; safe for short strings.
 // note 77: Cache-friendly; one sequential read pass.
 // note 78: State compression: bitmask + integer encodes a small subset cheaply.
+// note 79: Cache-friendly; one sequential read pass.
