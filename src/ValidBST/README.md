@@ -865,3 +865,7 @@ Space complexity: O(1) auxiliary.
 ## entry 201
 
 Linear in n; the constant factor is small.
+
+## entry 202
+
+Edge case: empty input → returns 0.
