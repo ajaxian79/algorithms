@@ -549,3 +549,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 62: StringBuilder: amortize allocation by doubling on grow.
 // note 63: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 64: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 65: Stable when the input is already sorted.
