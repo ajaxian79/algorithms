@@ -579,3 +579,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 145
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 146
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
