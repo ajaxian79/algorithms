@@ -108,3 +108,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 81: Time complexity: O(k) where k is the answer size.
 // edge note 82: No allocations after setup.
 // edge note 83: Caller owns the returned array; free with a single `free`.
+// edge note 84: Branchless inner loop after sorting.
