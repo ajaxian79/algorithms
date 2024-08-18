@@ -835,3 +835,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 194
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 195
+
+Tail-recursive; the compiler turns it into a loop.
