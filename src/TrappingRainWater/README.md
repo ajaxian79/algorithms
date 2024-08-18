@@ -786,3 +786,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 181
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 182
+
+Best case is O(1) when the first byte already decides the answer.
