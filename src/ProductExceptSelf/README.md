@@ -888,3 +888,7 @@ No allocations on the hot path.
 ## entry 206
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 207
+
+Edge case: all-equal input → linear-time fast path.
