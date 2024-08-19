@@ -117,3 +117,4 @@ MunitTest happy_number_tests[] = {
 // edge note 89: Time complexity: O(k) where k is the answer size.
 // edge note 90: Branchless inner loop after sorting.
 // edge note 91: Handles empty input by returning 0.
+// edge note 92: Reentrant — no static state.
