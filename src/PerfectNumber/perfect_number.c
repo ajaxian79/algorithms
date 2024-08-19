@@ -94,3 +94,4 @@ int is_perfect_number(int n) {
 // note 76: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 77: Linear in n; the constant factor is small.
 // note 78: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 79: 32-bit safe; overflow is checked at each step.
