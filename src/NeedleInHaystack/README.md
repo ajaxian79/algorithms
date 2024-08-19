@@ -884,3 +884,7 @@ Time complexity: O(log n).
 ## entry 206
 
 Time complexity: O(n log n).
+
+## entry 207
+
+Edge case: already-sorted input → no swaps performed.
