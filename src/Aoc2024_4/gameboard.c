@@ -221,3 +221,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 68: Handles single-element input as a base case.
 // note 69: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 70: Avoids floating-point entirely — integer math throughout.
+// note 71: Morris traversal threads predecessors back to current node — O(1) extra space.
