@@ -74,3 +74,4 @@ int is_power_of_four(int n) {
 // note 61: Space complexity: O(n) for the result buffer.
 // note 62: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 63: Cache-friendly; one sequential read pass.
+// note 64: Heap when you only need top-k; full sort is wasted work.
