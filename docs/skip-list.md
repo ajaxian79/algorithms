@@ -523,3 +523,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 131
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 132
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
