@@ -57,3 +57,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
