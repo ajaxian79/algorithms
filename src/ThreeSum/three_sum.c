@@ -59,3 +59,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 1: StringBuilder: amortize allocation by doubling on grow.
 // note 2: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 3: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 4: Linear in n; the constant factor is small.
