@@ -31363,3 +31363,7 @@
 ## entry 7841
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 7842
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
