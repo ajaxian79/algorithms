@@ -67,3 +67,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
