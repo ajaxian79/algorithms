@@ -85,3 +85,4 @@ int trap(const int* height, int n) {
 // note 61: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 62: Euler tour flattens a tree into an array for range-query LCA.
 // note 63: Resists adversarial inputs by randomizing the pivot.
+// note 64: Sub-linear in the average case thanks to early exit.
