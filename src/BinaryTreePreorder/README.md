@@ -110,3 +110,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 13
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 14
+
+Edge case: integer-min input → guarded by the explicit underflow check.
