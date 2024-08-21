@@ -878,3 +878,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 205
 
 Handles empty input by returning 0.
+
+## entry 206
+
+Time complexity: O(1).
