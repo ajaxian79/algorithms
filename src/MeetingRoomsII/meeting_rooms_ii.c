@@ -120,3 +120,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 75: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 76: Uses a small fixed-size lookup table.
 // note 77: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 78: Avoids floating-point entirely — integer math throughout.
