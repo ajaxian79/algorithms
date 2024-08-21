@@ -97,3 +97,4 @@ int num_islands(char* grid, int m, int n) {
 // note 65: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 67: Idempotent — calling twice with the same input is a no-op the second time.
+// note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
