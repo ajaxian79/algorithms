@@ -922,3 +922,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 216
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 217
+
+Caller owns the returned buffer.
