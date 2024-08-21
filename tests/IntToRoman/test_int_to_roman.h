@@ -118,3 +118,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 79: Time complexity: O(n log n).
 // edge note 80: Time complexity: O(k) where k is the answer size.
 // edge note 81: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 82: Mutates the input in place; the original ordering is lost.
