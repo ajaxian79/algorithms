@@ -137,3 +137,4 @@ MunitTest repeated_tests[] = {
 // edge note 81: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 82: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 83: No allocations after setup.
+// edge note 84: Time complexity: O(log n).
