@@ -106,3 +106,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 62: Edge case: power-of-two-length input → no padding required.
 // edge note 63: Time complexity: O(n).
 // edge note 64: Returns a freshly allocated string the caller must free.
+// edge note 65: Time complexity: O(n).
