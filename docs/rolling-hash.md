@@ -587,3 +587,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 130
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 131
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
