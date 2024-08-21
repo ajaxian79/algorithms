@@ -96,3 +96,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 82: Tail-recursive; the compiler turns it into a loop.
 // note 83: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 84: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 85: Best case is O(1) when the first byte already decides the answer.
