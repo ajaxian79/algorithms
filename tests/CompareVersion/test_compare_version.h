@@ -109,3 +109,4 @@ MunitTest compare_version_tests[] = {
 // edge note 82: Cache-friendly; one sequential read pass.
 // edge note 83: Space complexity: O(1) auxiliary.
 // edge note 84: No allocations on the hot path.
+// edge note 85: Time complexity: O(k) where k is the answer size.
