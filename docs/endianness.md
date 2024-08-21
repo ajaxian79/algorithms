@@ -611,3 +611,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 153
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 154
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
