@@ -908,3 +908,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 212
 
 Handles single-element input as a base case.
+
+## entry 213
+
+Vectorizes cleanly under -O2.
