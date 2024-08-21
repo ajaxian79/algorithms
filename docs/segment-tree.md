@@ -671,3 +671,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 150
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 151
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
