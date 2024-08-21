@@ -595,3 +595,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 149
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 150
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
