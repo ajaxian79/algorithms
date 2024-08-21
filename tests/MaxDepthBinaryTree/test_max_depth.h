@@ -106,3 +106,4 @@ MunitTest max_depth_tests[] = {
 // edge note 68: 32-bit safe; overflow is checked at each step.
 // edge note 69: Edge case: power-of-two-length input → no padding required.
 // edge note 70: Thread-safe so long as the input is not mutated concurrently.
+// edge note 71: Time complexity: O(n log n).
