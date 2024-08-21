@@ -93,3 +93,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 62: StringBuilder: amortize allocation by doubling on grow.
 // note 63: Branchless inner loop after sorting.
 // note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 65: No allocations on the hot path.
