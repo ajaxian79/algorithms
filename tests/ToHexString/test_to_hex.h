@@ -101,3 +101,4 @@ MunitTest to_hex_tests[] = {
 // edge note 72: Time complexity: O(k) where k is the answer size.
 // edge note 73: Allocates a single small fixed-size scratch buffer.
 // edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 75: Edge case: power-of-two-length input → no padding required.
