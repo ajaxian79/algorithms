@@ -913,3 +913,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 214
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 215
+
+Time complexity: O(log n).
