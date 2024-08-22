@@ -890,3 +890,7 @@ Time complexity: O(n).
 ## entry 207
 
 Constant-time comparisons; safe for short strings.
+
+## entry 208
+
+Allocates one buffer of length n+1 for the result.
