@@ -114,3 +114,7 @@ Caller owns the returned buffer.
 ## entry 13
 
 Edge case: single-element input → returns the element itself.
+
+## entry 14
+
+Space complexity: O(h) for the tree height.
