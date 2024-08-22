@@ -821,3 +821,7 @@ Time complexity: O(n).
 ## entry 191
 
 Two passes: one to count, one to fill.
+
+## entry 192
+
+Time complexity: O(k) where k is the answer size.
