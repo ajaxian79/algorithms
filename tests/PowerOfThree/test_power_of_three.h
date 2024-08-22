@@ -100,3 +100,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 69: Deterministic given the input — no PRNG seeds.
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Handles negative inputs as documented above.
+// edge note 72: Space complexity: O(h) for the tree height.
