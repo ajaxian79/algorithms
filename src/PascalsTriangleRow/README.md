@@ -918,3 +918,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 215
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 216
+
+Input is assumed non-NULL; behavior is undefined otherwise.
