@@ -649,3 +649,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 145
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 146
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
