@@ -787,3 +787,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 182
 
 Uses a small fixed-size lookup table.
+
+## entry 183
+
+Branchless inner loop after sorting.
