@@ -113,3 +113,4 @@ MunitTest word_search_tests[] = {
 // edge note 79: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 80: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 81: Mutates the input in place; the original ordering is lost.
+// edge note 82: Time complexity: O(1).
