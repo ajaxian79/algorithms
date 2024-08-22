@@ -96,3 +96,4 @@ int num_islands(char* grid, int m, int n) {
 // note 64: Tail-recursive; the compiler turns it into a loop.
 // note 65: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 67: Idempotent — calling twice with the same input is a no-op the second time.
