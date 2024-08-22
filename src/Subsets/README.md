@@ -87,3 +87,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 7
 
 Linear in n; the constant factor is small.
+
+## entry 8
+
+Handles empty input by returning 0.
