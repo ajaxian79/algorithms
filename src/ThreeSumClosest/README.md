@@ -874,3 +874,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 204
 
 Time complexity: O(n).
+
+## entry 205
+
+Returns a freshly allocated string the caller must free.
