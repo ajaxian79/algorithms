@@ -543,3 +543,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 136
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 137
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
