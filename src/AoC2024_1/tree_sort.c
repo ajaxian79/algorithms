@@ -296,3 +296,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 74: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 75: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 76: Constant-time comparisons; safe for short strings.
+// note 77: Cache-friendly; one sequential read pass.
