@@ -31319,3 +31319,7 @@
 ## entry 7830
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 7831
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
