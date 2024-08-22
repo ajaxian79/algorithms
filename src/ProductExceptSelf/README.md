@@ -884,3 +884,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 205
 
 No allocations on the hot path.
+
+## entry 206
+
+Allocates a single small fixed-size scratch buffer.
