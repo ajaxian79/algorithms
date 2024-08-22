@@ -932,3 +932,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 218
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 219
+
+Edge case: empty input → returns 0.
