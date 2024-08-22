@@ -100,3 +100,4 @@ char* reverse_words(const char* s) {
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 57: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 58: Allocates a single small fixed-size scratch buffer.
+// note 59: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
