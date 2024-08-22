@@ -555,3 +555,7 @@
 ## entry 139
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 140
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
