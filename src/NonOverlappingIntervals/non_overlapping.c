@@ -92,3 +92,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 61: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 62: StringBuilder: amortize allocation by doubling on grow.
 // note 63: Branchless inner loop after sorting.
+// note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
