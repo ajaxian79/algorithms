@@ -121,3 +121,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 72: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 73: Time complexity: O(n log n).
 // note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 75: Fenwick supports prefix-sum updates in O(log n) with a flat array.
