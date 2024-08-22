@@ -880,3 +880,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 204
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 205
+
+No allocations on the hot path.
