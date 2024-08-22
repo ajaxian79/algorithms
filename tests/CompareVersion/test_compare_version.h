@@ -108,3 +108,4 @@ MunitTest compare_version_tests[] = {
 // edge note 81: Reentrant — no static state.
 // edge note 82: Cache-friendly; one sequential read pass.
 // edge note 83: Space complexity: O(1) auxiliary.
+// edge note 84: No allocations on the hot path.
