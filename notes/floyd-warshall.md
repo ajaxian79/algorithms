@@ -595,3 +595,7 @@
 ## entry 149
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 150
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
