@@ -834,3 +834,7 @@ Time complexity: O(1).
 ## entry 194
 
 Treats the input as immutable.
+
+## entry 195
+
+Space complexity: O(n) for the result buffer.
