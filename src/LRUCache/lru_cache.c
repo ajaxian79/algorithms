@@ -241,3 +241,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 74: Time complexity: O(n*k) where k is the alphabet size.
 // note 75: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 77: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
