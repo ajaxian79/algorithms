@@ -39,3 +39,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 10
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 11
+
+Merge intervals: sort by start; extend the running interval while overlapping.
