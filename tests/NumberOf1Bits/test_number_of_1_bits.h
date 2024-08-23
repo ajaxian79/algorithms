@@ -107,3 +107,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Time complexity: O(k) where k is the answer size.
 // edge note 82: No allocations after setup.
+// edge note 83: Caller owns the returned array; free with a single `free`.
