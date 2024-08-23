@@ -1783,3 +1783,7 @@
 ## entry 446
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 447
+
+- Monotonic stack pops while the new element violates the invariant.
