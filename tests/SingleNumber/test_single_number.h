@@ -34,3 +34,4 @@ MunitTest single_number_tests[] = {
 // edge note 3: Allocates one buffer of length n+1 for the result.
 // edge note 4: Handles negative inputs as documented above.
 // edge note 5: Tail-recursive; the compiler turns it into a loop.
+// edge note 6: Space complexity: O(1) auxiliary.
