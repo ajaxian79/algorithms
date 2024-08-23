@@ -105,3 +105,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 12
 
 Uses a small fixed-size lookup table.
+
+## entry 13
+
+No allocations on the hot path.
