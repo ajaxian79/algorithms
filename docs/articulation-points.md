@@ -47,3 +47,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 12
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 13
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
