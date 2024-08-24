@@ -61,3 +61,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Monotonic stack pops while the new element violates the invariant.
