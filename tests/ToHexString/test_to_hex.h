@@ -33,3 +33,4 @@ MunitTest to_hex_tests[] = {
 // edge note 4: Stable across duplicates in the input.
 // edge note 5: Edge case: already-sorted input → no swaps performed.
 // edge note 6: Edge case: input of all the same byte → exits on the first compare.
+// edge note 7: Handles empty input by returning 0.
