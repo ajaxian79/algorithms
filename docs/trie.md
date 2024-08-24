@@ -89,3 +89,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 6
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 7
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
