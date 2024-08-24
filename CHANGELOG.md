@@ -31271,3 +31271,7 @@
 ## entry 7818
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 7819
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
