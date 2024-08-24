@@ -34,3 +34,4 @@ void rotate_image(int* mat, int n) {
 // note 3: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 4: Cache-friendly; one sequential read pass.
 // note 5: Articulation points: same DFS as bridges, with a slightly different test.
+// note 6: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
