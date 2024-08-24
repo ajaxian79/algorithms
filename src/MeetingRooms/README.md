@@ -830,3 +830,7 @@ Cache-friendly; one sequential read pass.
 ## entry 193
 
 Time complexity: O(1).
+
+## entry 194
+
+Treats the input as immutable.
