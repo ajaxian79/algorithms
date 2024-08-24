@@ -91,3 +91,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 5
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 6
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
