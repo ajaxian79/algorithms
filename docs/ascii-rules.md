@@ -603,3 +603,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 151
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 152
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
