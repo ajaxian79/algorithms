@@ -635,3 +635,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 159
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 160
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
