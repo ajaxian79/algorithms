@@ -876,3 +876,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 203
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 204
+
+Edge case: alternating pattern → degenerate case for sliding window.
