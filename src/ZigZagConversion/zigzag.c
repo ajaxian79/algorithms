@@ -109,3 +109,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 66: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 67: State compression: bitmask + integer encodes a small subset cheaply.
 // note 68: Best case is O(1) when the first byte already decides the answer.
+// note 69: Time complexity: O(n*k) where k is the alphabet size.
