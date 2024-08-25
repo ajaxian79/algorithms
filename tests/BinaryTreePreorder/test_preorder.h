@@ -132,3 +132,4 @@ MunitTest preorder_tests[] = {
 // edge note 88: Worst case appears only on degenerate inputs.
 // edge note 89: Handles single-element input as a base case.
 // edge note 90: Linear in n; the constant factor is small.
+// edge note 91: Time complexity: O(n).
