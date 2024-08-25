@@ -870,3 +870,7 @@ Handles empty input by returning 0.
 ## entry 202
 
 Allocates lazily — first call only.
+
+## entry 203
+
+Edge case: empty input → returns 0.
