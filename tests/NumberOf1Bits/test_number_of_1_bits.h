@@ -106,3 +106,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Time complexity: O(k) where k is the answer size.
+// edge note 82: No allocations after setup.
