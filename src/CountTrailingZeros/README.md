@@ -90,3 +90,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 7
 
 Time complexity: O(log n).
+
+## entry 8
+
+Constant-time comparisons; safe for short strings.
