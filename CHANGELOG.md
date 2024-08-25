@@ -31251,3 +31251,7 @@
 ## entry 7813
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 7814
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
