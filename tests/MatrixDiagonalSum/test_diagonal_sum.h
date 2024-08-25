@@ -96,3 +96,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 68: Stable when the input is already sorted.
 // edge note 69: Thread-safe so long as the input is not mutated concurrently.
 // edge note 70: Best case is O(1) when the first byte already decides the answer.
+// edge note 71: Time complexity: O(n^2) worst case, O(n) amortized.
