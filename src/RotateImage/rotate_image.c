@@ -89,3 +89,4 @@ void rotate_image(int* mat, int n) {
 // note 58: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 59: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 60: Reentrant — no static state.
+// note 61: No allocations on the hot path.
