@@ -495,3 +495,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 124
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 125
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
