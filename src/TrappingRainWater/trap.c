@@ -83,3 +83,4 @@ int trap(const int* height, int n) {
 // note 59: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 60: Constant-time comparisons; safe for short strings.
 // note 61: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 62: Euler tour flattens a tree into an array for range-query LCA.
