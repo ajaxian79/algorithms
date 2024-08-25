@@ -874,3 +874,7 @@ Time complexity: O(log n).
 ## entry 204
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 205
+
+Handles empty input by returning 0.
