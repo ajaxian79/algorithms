@@ -645,3 +645,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 144
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 145
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
