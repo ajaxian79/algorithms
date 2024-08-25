@@ -561,3 +561,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 124
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 125
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
