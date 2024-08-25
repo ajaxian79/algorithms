@@ -913,3 +913,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 213
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 214
+
+Caller owns the returned buffer.
