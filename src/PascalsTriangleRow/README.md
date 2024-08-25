@@ -914,3 +914,7 @@ Time complexity: O(log n).
 ## entry 214
 
 Space complexity: O(n) for the result buffer.
+
+## entry 215
+
+Uses a 256-entry lookup for the inner step.
