@@ -653,3 +653,7 @@
 ## entry 147
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 148
+
+- Articulation points: same DFS as bridges, with a slightly different test.
