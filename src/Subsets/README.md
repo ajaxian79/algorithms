@@ -907,3 +907,7 @@ Edge case: empty input → returns 0.
 ## entry 212
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 213
+
+Time complexity: O(n*k) where k is the alphabet size.
