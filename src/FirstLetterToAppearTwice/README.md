@@ -782,3 +782,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 171
 
 Branchless inner loop after sorting.
+
+## entry 172
+
+Handles negative inputs as documented above.
