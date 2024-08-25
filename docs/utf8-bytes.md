@@ -491,3 +491,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 123
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 124
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
