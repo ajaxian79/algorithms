@@ -601,3 +601,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 134
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 135
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
