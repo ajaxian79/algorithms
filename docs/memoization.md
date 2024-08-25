@@ -555,3 +555,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 139
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 140
+
+Euler tour flattens a tree into an array for range-query LCA.
