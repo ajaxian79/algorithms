@@ -910,3 +910,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 213
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 214
+
+32-bit safe; overflow is checked at each step.
