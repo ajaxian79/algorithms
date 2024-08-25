@@ -101,3 +101,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 63: Resists adversarial inputs by randomizing the pivot.
 // edge note 64: Edge case: reverse-sorted input → still O(n log n).
 // edge note 65: Avoids floating-point entirely — integer math throughout.
+// edge note 66: Edge case: zero-length string → returns the empty result.
