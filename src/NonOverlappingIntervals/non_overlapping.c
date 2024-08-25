@@ -91,3 +91,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 60: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 61: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 62: StringBuilder: amortize allocation by doubling on grow.
+// note 63: Branchless inner loop after sorting.
