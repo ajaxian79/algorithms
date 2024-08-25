@@ -872,3 +872,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 202
 
 32-bit safe; overflow is checked at each step.
+
+## entry 203
+
+Allocates one buffer of length n+1 for the result.
