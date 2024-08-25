@@ -95,3 +95,4 @@ MunitTest add_binary_tests[] = {
 // edge note 59: Vectorizes cleanly under -O2.
 // edge note 60: Handles single-element input as a base case.
 // edge note 61: Three passes total; the third merges results.
+// edge note 62: Returns a freshly allocated string the caller must free.
