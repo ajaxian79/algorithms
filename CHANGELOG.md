@@ -31267,3 +31267,7 @@
 ## entry 7817
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 7818
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
