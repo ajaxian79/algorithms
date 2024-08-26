@@ -124,3 +124,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 81: Edge case: zero-length string → returns the empty result.
 // edge note 82: Constant-time comparisons; safe for short strings.
 // edge note 83: Mutates the input in place; the original ordering is lost.
+// edge note 84: Reentrant — no static state.
