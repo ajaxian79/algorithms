@@ -23,3 +23,7 @@
 ## entry 6
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 7
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
