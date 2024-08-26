@@ -581,3 +581,7 @@
 ## entry 128
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 129
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
