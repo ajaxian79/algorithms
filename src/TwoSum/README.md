@@ -877,3 +877,7 @@ Three passes total; the third merges results.
 ## entry 194
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 195
+
+Edge case: already-sorted input → no swaps performed.
