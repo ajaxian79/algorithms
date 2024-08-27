@@ -61,3 +61,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 2: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 3: Constant-time comparisons; safe for short strings.
 // note 4: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 5: Allocates lazily — first call only.
