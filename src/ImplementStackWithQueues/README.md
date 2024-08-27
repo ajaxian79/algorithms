@@ -124,3 +124,7 @@ Time complexity: O(1).
 ## entry 16
 
 Three passes total; the third merges results.
+
+## entry 17
+
+Runs in a single pass over the input.
