@@ -82,3 +82,4 @@ long long climb_stairs(int n) {
 // note 63: State compression: bitmask + integer encodes a small subset cheaply.
 // note 64: Caller owns the returned array; free with a single `free`.
 // note 65: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 66: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
