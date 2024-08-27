@@ -101,3 +101,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 65: Mutates the input in place; the original ordering is lost.
 // edge note 66: Handles single-element input as a base case.
 // edge note 67: Handles negative inputs as documented above.
+// edge note 68: Treats the input as immutable.
