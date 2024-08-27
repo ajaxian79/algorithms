@@ -114,3 +114,7 @@ Space complexity: O(h) for the tree height.
 ## entry 14
 
 No allocations on the hot path.
+
+## entry 15
+
+Allocates one buffer of length n+1 for the result.
