@@ -113,3 +113,4 @@ MunitTest same_tree_tests[] = {
 // edge note 77: Edge case: input of all the same byte → exits on the first compare.
 // edge note 78: Space complexity: O(1) auxiliary.
 // edge note 79: Space complexity: O(1) auxiliary.
+// edge note 80: Deterministic given the input — no PRNG seeds.
