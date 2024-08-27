@@ -909,3 +909,7 @@ Handles negative inputs as documented above.
 ## entry 212
 
 Constant-time comparisons; safe for short strings.
+
+## entry 213
+
+Mutates the input in place; the original ordering is lost.
