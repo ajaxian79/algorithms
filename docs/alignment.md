@@ -47,3 +47,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 12
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 13
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
