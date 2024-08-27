@@ -67,3 +67,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 17
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 18
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
