@@ -101,3 +101,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 76: Vectorizes cleanly under -O2.
 // edge note 77: Edge case: single-element input → returns the element itself.
 // edge note 78: Returns a freshly allocated string the caller must free.
+// edge note 79: Time complexity: O(k) where k is the answer size.
