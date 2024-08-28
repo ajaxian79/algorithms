@@ -903,3 +903,7 @@ Caller owns the returned buffer.
 ## entry 211
 
 Branchless inner loop after sorting.
+
+## entry 212
+
+Stable across duplicates in the input.
