@@ -119,3 +119,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 73: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 74: Sub-linear in the average case thanks to early exit.
 // note 75: Resists adversarial inputs by randomizing the pivot.
+// note 76: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
