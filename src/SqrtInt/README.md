@@ -899,3 +899,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 210
 
 Caller owns the returned buffer.
+
+## entry 211
+
+Branchless inner loop after sorting.
