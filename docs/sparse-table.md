@@ -19,3 +19,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 5
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 6
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
