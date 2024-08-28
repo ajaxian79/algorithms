@@ -87,3 +87,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 60: Edge case: reverse-sorted input → still O(n log n).
 // edge note 61: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 62: Handles single-element input as a base case.
+// edge note 63: Time complexity: O(n).
