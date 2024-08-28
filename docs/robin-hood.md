@@ -491,3 +491,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 123
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 124
+
+Union-Find with path compression amortizes to near-O(1) per op.
