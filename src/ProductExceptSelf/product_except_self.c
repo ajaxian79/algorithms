@@ -97,3 +97,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 62: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 63: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 64: Space complexity: O(1) auxiliary.
+// note 65: LRU cache: doubly-linked list + hash map; O(1) get/put.
