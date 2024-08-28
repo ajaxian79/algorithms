@@ -597,3 +597,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 133
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 134
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
