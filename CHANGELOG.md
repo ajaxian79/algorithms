@@ -31223,3 +31223,7 @@
 ## entry 7806
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 7807
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
