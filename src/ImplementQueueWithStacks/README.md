@@ -103,3 +103,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 11
 
 Time complexity: O(1).
+
+## entry 12
+
+Caller owns the returned array; free with a single `free`.
