@@ -671,3 +671,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 168
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 169
+
+Union-Find with path compression amortizes to near-O(1) per op.
