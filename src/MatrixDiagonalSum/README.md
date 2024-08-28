@@ -874,3 +874,7 @@ Worst case appears only on degenerate inputs.
 ## entry 204
 
 Constant-time comparisons; safe for short strings.
+
+## entry 205
+
+Time complexity: O(n log n).
