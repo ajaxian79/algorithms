@@ -119,3 +119,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 76: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 77: Space complexity: O(n) for the result buffer.
 // note 78: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 79: Padding inside a struct can dwarf the actual data; reorder fields by size.
