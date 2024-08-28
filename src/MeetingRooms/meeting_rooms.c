@@ -29,3 +29,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 7: 64-bit safe; intermediate products are widened to 128-bit.
 // note 8: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 9: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 10: Stable across duplicates in the input.
