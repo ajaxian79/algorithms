@@ -667,3 +667,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 167
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 168
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
