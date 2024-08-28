@@ -834,3 +834,7 @@ Worst case appears only on degenerate inputs.
 ## entry 194
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 195
+
+Space complexity: O(n) for the result buffer.
