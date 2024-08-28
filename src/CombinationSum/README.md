@@ -851,3 +851,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 198
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 199
+
+Edge case: reverse-sorted input → still O(n log n).
