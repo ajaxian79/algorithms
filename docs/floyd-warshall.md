@@ -599,3 +599,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 150
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 151
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
