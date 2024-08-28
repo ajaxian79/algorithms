@@ -106,3 +106,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 63: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 64: Deterministic given the input — no PRNG seeds.
 // note 65: Time complexity: O(log n).
+// note 66: Resists adversarial inputs by randomizing the pivot.
