@@ -31203,3 +31203,7 @@
 ## entry 7801
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 7802
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
