@@ -463,3 +463,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 116
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 117
+
+StringBuilder: amortize allocation by doubling on grow.
