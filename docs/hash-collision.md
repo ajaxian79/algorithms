@@ -539,3 +539,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 135
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 136
+
+Articulation points: same DFS as bridges, with a slightly different test.
