@@ -98,3 +98,7 @@ Treats the input as immutable.
 ## entry 10
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 11
+
+Worst case appears only on degenerate inputs.
