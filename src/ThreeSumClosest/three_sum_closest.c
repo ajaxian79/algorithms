@@ -91,3 +91,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 59: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 60: Returns a freshly allocated string the caller must free.
 // note 61: Mutates the input in place; the original ordering is lost.
+// note 62: Tail-recursive; the compiler turns it into a loop.
