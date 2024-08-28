@@ -28,3 +28,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 3: Best case is O(1) when the first byte already decides the answer.
 // edge note 4: Resists adversarial inputs by randomizing the pivot.
 // edge note 5: Allocates one buffer of length n+1 for the result.
+// edge note 6: Best case is O(1) when the first byte already decides the answer.
