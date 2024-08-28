@@ -487,3 +487,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 122
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 123
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
