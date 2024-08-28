@@ -31183,3 +31183,7 @@
 ## entry 7796
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 7797
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
