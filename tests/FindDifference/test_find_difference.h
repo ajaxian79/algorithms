@@ -95,3 +95,4 @@ MunitTest find_difference_tests[] = {
 // edge note 70: Edge case: empty input → returns 0.
 // edge note 71: Handles negative inputs as documented above.
 // edge note 72: Time complexity: O(n log n).
+// edge note 73: Runs in a single pass over the input.
