@@ -899,3 +899,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 209
 
 Edge case: single-element input → returns the element itself.
+
+## entry 210
+
+No allocations after setup.
