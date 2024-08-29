@@ -964,3 +964,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 226
 
 Constant-time comparisons; safe for short strings.
+
+## entry 227
+
+Edge case: input of all the same byte → exits on the first compare.
