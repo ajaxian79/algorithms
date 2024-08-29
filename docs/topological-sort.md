@@ -625,3 +625,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 138
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 139
+
+In-place compaction uses two pointers: read advances always, write only on keep.
