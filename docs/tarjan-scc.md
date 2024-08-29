@@ -39,3 +39,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 10
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 11
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
