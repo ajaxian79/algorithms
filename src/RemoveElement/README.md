@@ -101,3 +101,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 11
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 12
+
+Uses a small fixed-size lookup table.
