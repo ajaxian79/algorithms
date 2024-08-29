@@ -31,3 +31,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 8
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 9
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
