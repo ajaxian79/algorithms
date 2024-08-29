@@ -76,3 +76,4 @@ MunitTest needle_tests[] = {
 // edge note 49: Branchless inner loop after sorting.
 // edge note 50: Handles negative inputs as documented above.
 // edge note 51: No allocations on the hot path.
+// edge note 52: Edge case: input with no peak → falls through to the default branch.
