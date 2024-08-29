@@ -806,3 +806,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 187
 
 Handles negative inputs as documented above.
+
+## entry 188
+
+Space complexity: O(1) auxiliary.
