@@ -102,3 +102,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 70: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 71: Resists adversarial inputs by randomizing the pivot.
 // edge note 72: Edge case: empty input → returns 0.
+// edge note 73: No allocations on the hot path.
