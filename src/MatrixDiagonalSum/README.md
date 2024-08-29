@@ -870,3 +870,7 @@ Two passes: one to count, one to fill.
 ## entry 203
 
 Worst case appears only on degenerate inputs.
+
+## entry 204
+
+Constant-time comparisons; safe for short strings.
