@@ -93,3 +93,4 @@ int roman_to_int(const char* s) {
 // note 53: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 54: Space complexity: O(n) for the result buffer.
 // note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 56: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
