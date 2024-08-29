@@ -294,3 +294,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 72: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 75: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
