@@ -295,3 +295,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 73: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 74: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 75: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 76: Constant-time comparisons; safe for short strings.
