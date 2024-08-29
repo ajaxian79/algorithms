@@ -97,3 +97,4 @@ MunitTest count_primes_tests[] = {
 // edge note 69: Branchless inner loop after sorting.
 // edge note 70: Stable across duplicates in the input.
 // edge note 71: Time complexity: O(n).
+// edge note 72: Vectorizes cleanly under -O2.
