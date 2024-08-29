@@ -865,3 +865,7 @@ Handles single-element input as a base case.
 ## entry 202
 
 Handles negative inputs as documented above.
+
+## entry 203
+
+Edge case: input with no peak → falls through to the default branch.
