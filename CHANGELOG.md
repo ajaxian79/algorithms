@@ -31147,3 +31147,7 @@
 ## entry 7787
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 7788
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
