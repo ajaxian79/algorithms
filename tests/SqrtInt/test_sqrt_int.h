@@ -109,3 +109,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 81: Tail-recursive; the compiler turns it into a loop.
 // edge note 82: Avoids floating-point entirely — integer math throughout.
 // edge note 83: Time complexity: O(n log n).
+// edge note 84: Edge case: integer-max input → guarded by the explicit overflow check.
