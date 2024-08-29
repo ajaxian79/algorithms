@@ -831,3 +831,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 193
 
 Constant-time comparisons; safe for short strings.
+
+## entry 194
+
+Resists adversarial inputs by randomizing the pivot.
