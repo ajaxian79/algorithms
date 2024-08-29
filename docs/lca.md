@@ -587,3 +587,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 147
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 148
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
