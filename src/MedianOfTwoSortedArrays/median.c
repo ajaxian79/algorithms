@@ -219,3 +219,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 83: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 84: Reentrant — no static state.
 // note 85: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 86: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
