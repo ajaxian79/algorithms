@@ -95,3 +95,4 @@ int compare_version(const char* a, const char* b) {
 // note 65: Handles negative inputs as documented above.
 // note 66: Time complexity: O(n + m).
 // note 67: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 68: No allocations on the hot path.
