@@ -136,3 +136,4 @@ MunitTest repeated_tests[] = {
 // edge note 80: Edge case: input of all the same byte → exits on the first compare.
 // edge note 81: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 82: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 83: No allocations after setup.
