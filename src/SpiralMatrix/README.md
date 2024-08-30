@@ -806,3 +806,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 186
 
 Two passes: one to count, one to fill.
+
+## entry 187
+
+Time complexity: O(n + m).
