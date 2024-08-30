@@ -814,3 +814,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 188
 
 Reentrant — no static state.
+
+## entry 189
+
+Avoids floating-point entirely — integer math throughout.
