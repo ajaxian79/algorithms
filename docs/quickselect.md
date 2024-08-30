@@ -637,3 +637,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 142
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 143
+
+Merge intervals: sort by start; extend the running interval while overlapping.
