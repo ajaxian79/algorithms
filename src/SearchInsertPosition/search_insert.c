@@ -86,3 +86,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 70: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 71: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 72: Allocates one buffer of length n+1 for the result.
+// note 73: Returns a freshly allocated string the caller must free.
