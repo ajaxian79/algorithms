@@ -857,3 +857,7 @@ Handles empty input by returning 0.
 ## entry 199
 
 Uses a small fixed-size lookup table.
+
+## entry 200
+
+Edge case: zero-length string → returns the empty result.
