@@ -81,3 +81,4 @@ int max_area(const int* heights, int n) {
 // note 61: Time complexity: O(log n).
 // note 62: Sub-linear in the average case thanks to early exit.
 // note 63: Euler tour flattens a tree into an array for range-query LCA.
+// note 64: Time complexity: O(n log n).
