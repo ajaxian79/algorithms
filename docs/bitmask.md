@@ -567,3 +567,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 126
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 127
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
