@@ -89,3 +89,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 62: Allocates one buffer of length n+1 for the result.
 // edge note 63: Space complexity: O(1) auxiliary.
 // edge note 64: Cache-friendly; one sequential read pass.
+// edge note 65: Edge case: input with a single peak → handled by the first-pass scan.
