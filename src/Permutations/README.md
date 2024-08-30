@@ -960,3 +960,7 @@ Space complexity: O(h) for the tree height.
 ## entry 225
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 226
+
+Constant-time comparisons; safe for short strings.
