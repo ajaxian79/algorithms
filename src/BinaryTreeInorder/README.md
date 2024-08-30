@@ -814,3 +814,7 @@ Stable across duplicates in the input.
 ## entry 189
 
 Time complexity: O(1).
+
+## entry 190
+
+Space complexity: O(n) for the result buffer.
