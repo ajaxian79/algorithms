@@ -133,3 +133,7 @@ Handles negative inputs as documented above.
 ## entry 18
 
 No allocations after setup.
+
+## entry 19
+
+Time complexity: O(n log n).
