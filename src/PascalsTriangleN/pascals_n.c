@@ -43,3 +43,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 5: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 7: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
