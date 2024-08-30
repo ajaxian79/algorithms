@@ -870,3 +870,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 203
 
 Time complexity: O(log n).
+
+## entry 204
+
+Time complexity: O(n*k) where k is the alphabet size.
