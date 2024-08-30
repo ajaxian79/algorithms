@@ -793,3 +793,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 183
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 184
+
+Mutates the input in place; the original ordering is lost.
