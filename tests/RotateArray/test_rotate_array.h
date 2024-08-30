@@ -99,3 +99,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 61: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 62: 32-bit safe; overflow is checked at each step.
 // edge note 63: Resists adversarial inputs by randomizing the pivot.
+// edge note 64: Edge case: reverse-sorted input → still O(n log n).
