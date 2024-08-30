@@ -910,3 +910,7 @@ Space complexity: O(1) auxiliary.
 ## entry 213
 
 Time complexity: O(log n).
+
+## entry 214
+
+Space complexity: O(n) for the result buffer.
