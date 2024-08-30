@@ -563,3 +563,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 125
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 126
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
