@@ -559,3 +559,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 140
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 141
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
