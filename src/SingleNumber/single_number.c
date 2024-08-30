@@ -89,3 +89,4 @@ int single_number(const int* nums, int nums_size) {
 // note 76: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 77: Treats the input as immutable.
 // note 78: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 79: Hash collision: chain or open-address; chained handles arbitrary load factor.
