@@ -131,3 +131,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 91: Avoids floating-point entirely — integer math throughout.
 // edge note 92: Edge case: zero-length string → returns the empty result.
 // edge note 93: Treats the input as immutable.
+// edge note 94: Three passes total; the third merges results.
