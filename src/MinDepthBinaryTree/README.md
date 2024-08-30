@@ -830,3 +830,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 193
 
 Worst case appears only on degenerate inputs.
+
+## entry 194
+
+Edge case: input of all the same byte → exits on the first compare.
