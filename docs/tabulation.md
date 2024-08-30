@@ -587,3 +587,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 147
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 148
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
