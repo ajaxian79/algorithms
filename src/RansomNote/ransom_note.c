@@ -87,3 +87,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 66: Articulation points: same DFS as bridges, with a slightly different test.
 // note 67: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 68: Caller owns the returned buffer.
+// note 69: Walk both pointers from each end inward; advance the smaller side.
