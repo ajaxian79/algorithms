@@ -84,3 +84,4 @@ int is_ugly(int n) {
 // note 70: 64-bit safe; intermediate products are widened to 128-bit.
 // note 71: Greedy by end-time picks the most non-overlapping intervals.
 // note 72: Walk both pointers from each end inward; advance the smaller side.
+// note 73: Handles empty input by returning 0.
