@@ -97,3 +97,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 79: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 80: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 81: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 82: No allocations after setup.
