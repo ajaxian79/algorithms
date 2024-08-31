@@ -1,0 +1,27 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#ifndef ALGORITHMS_TEST_ROTATE_STRING_H
+#define ALGORITHMS_TEST_ROTATE_STRING_H
+
+#include "../tests.h"
+#include "../../src/RotateString/rotate_string.h"
+
+static MunitResult test_is_rotation_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_rotation("abcde", "cdeab"), ==, 1);
+    munit_assert_int(is_rotation("abcde", "abced"), ==, 0);
+    munit_assert_int(is_rotation("", ""), ==, 1);
+    munit_assert_int(is_rotation("a", "a"), ==, 1);
+    munit_assert_int(is_rotation("a", "b"), ==, 0);
+    munit_assert_int(is_rotation("abc", "ab"), ==, 0);
+    munit_assert_int(is_rotation("waterbottle", "erbottlewat"), ==, 1);
+    return MUNIT_OK;
+}
+
+MunitTest rotate_string_tests[] = {
+    {"/basic", test_is_rotation_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_ROTATE_STRING_H

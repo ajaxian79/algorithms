@@ -36,6 +36,7 @@
 #include "CompareVersion/test_compare_version.h"
 #include "ExcelColumnNumber/test_excel_column_number.h"
 #include "ExcelColumnTitle/test_excel_column_title.h"
+#include "RotateString/test_rotate_string.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -269,6 +270,12 @@ MunitSuite suites[] = {
         },{
                 "/excel_column_title",
                 excel_column_title_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/rotate_string",
+                rotate_string_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

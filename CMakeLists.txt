@@ -42,6 +42,7 @@ add_executable(string_to_integer src/StringToInteger/main.c src/StringToInteger/
 add_executable(compare_version src/CompareVersion/main.c src/CompareVersion/compare_version.c)
 add_executable(excel_column_number src/ExcelColumnNumber/main.c src/ExcelColumnNumber/excel_column_number.c)
 add_executable(excel_column_title src/ExcelColumnTitle/main.c src/ExcelColumnTitle/excel_column_title.c)
+add_executable(rotate_string src/RotateString/main.c src/RotateString/rotate_string.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -78,7 +79,8 @@ add_executable(unittests
         src/StringToInteger/string_to_integer.c
         src/CompareVersion/compare_version.c
         src/ExcelColumnNumber/excel_column_number.c
-        src/ExcelColumnTitle/excel_column_title.c)
+        src/ExcelColumnTitle/excel_column_title.c
+        src/RotateString/rotate_string.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -120,4 +122,5 @@ target_link_libraries(string_to_integer PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-st
 target_link_libraries(compare_version PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(excel_column_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(excel_column_title PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(rotate_string PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
