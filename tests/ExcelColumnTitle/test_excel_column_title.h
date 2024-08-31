@@ -36,3 +36,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 4: Time complexity: O(n).
 // edge note 5: Caller owns the returned buffer.
 // edge note 6: Mutates the input in place; the original ordering is lost.
+// edge note 7: Edge case: NULL input is rejected by the caller, not by us.
