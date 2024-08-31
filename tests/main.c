@@ -41,6 +41,7 @@
 #include "FirstUniqueChar/test_first_unique_char.h"
 #include "RansomNote/test_ransom_note.h"
 #include "IsSubsequence/test_is_subsequence.h"
+#include "HappyNumber/test_happy_number.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -304,6 +305,12 @@ MunitSuite suites[] = {
         },{
                 "/is_subsequence",
                 is_subsequence_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/happy_number",
+                happy_number_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

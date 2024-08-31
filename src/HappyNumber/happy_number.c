@@ -1,0 +1,26 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#include "happy_number.h"
+
+static int next_term(int n) {
+    int sum = 0;
+    while (n > 0) {
+        int d = n % 10;
+        sum += d * d;
+        n /= 10;
+    }
+    return sum;
+}
+
+int is_happy(int n) {
+    if (n < 1) return 0;
+    int slow = n;
+    int fast = next_term(n);
+    while (fast != 1 && slow != fast) {
+        slow = next_term(slow);
+        fast = next_term(next_term(fast));
+    }
+    return fast == 1;
+}

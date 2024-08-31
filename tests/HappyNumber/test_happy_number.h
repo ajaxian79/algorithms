@@ -1,0 +1,28 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#ifndef ALGORITHMS_TEST_HAPPY_NUMBER_H
+#define ALGORITHMS_TEST_HAPPY_NUMBER_H
+
+#include "../tests.h"
+#include "../../src/HappyNumber/happy_number.h"
+
+static MunitResult test_is_happy_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_happy(1),   ==, 1);
+    munit_assert_int(is_happy(7),   ==, 1);
+    munit_assert_int(is_happy(10),  ==, 1);
+    munit_assert_int(is_happy(19),  ==, 1);
+    munit_assert_int(is_happy(2),   ==, 0);
+    munit_assert_int(is_happy(4),   ==, 0);
+    munit_assert_int(is_happy(0),   ==, 0);
+    munit_assert_int(is_happy(-1),  ==, 0);
+    return MUNIT_OK;
+}
+
+MunitTest happy_number_tests[] = {
+    {"/basic", test_is_happy_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_HAPPY_NUMBER_H
