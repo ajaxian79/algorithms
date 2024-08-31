@@ -1,0 +1,25 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#ifndef ALGORITHMS_TEST_HAMMING_DISTANCE_H
+#define ALGORITHMS_TEST_HAMMING_DISTANCE_H
+
+#include "../tests.h"
+#include "../../src/HammingDistance/hamming_distance.h"
+
+static MunitResult test_hamming_distance_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(hamming_distance(1, 4), ==, 2);
+    munit_assert_int(hamming_distance(3, 1), ==, 1);
+    munit_assert_int(hamming_distance(0, 0), ==, 0);
+    munit_assert_int(hamming_distance(0, -1), ==, 32);
+    munit_assert_int(hamming_distance(0xFFFF, 0x0000), ==, 16);
+    return MUNIT_OK;
+}
+
+MunitTest hamming_distance_tests[] = {
+    {"/basic", test_hamming_distance_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_HAMMING_DISTANCE_H

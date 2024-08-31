@@ -49,6 +49,7 @@ add_executable(ransom_note src/RansomNote/main.c src/RansomNote/ransom_note.c)
 add_executable(is_subsequence src/IsSubsequence/main.c src/IsSubsequence/is_subsequence.c)
 add_executable(happy_number src/HappyNumber/main.c src/HappyNumber/happy_number.c)
 add_executable(ugly_number src/UglyNumber/main.c src/UglyNumber/ugly_number.c)
+add_executable(hamming_distance src/HammingDistance/main.c src/HammingDistance/hamming_distance.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -92,7 +93,8 @@ add_executable(unittests
         src/RansomNote/ransom_note.c
         src/IsSubsequence/is_subsequence.c
         src/HappyNumber/happy_number.c
-        src/UglyNumber/ugly_number.c)
+        src/UglyNumber/ugly_number.c
+        src/HammingDistance/hamming_distance.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -141,4 +143,5 @@ target_link_libraries(ransom_note PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,
 target_link_libraries(is_subsequence PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(happy_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(ugly_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(hamming_distance PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

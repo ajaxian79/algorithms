@@ -43,6 +43,7 @@
 #include "IsSubsequence/test_is_subsequence.h"
 #include "HappyNumber/test_happy_number.h"
 #include "UglyNumber/test_ugly_number.h"
+#include "HammingDistance/test_hamming_distance.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -318,6 +319,12 @@ MunitSuite suites[] = {
         },{
                 "/ugly_number",
                 ugly_number_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/hamming_distance",
+                hamming_distance_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
