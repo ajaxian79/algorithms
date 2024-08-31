@@ -37,6 +37,7 @@
 #include "ExcelColumnNumber/test_excel_column_number.h"
 #include "ExcelColumnTitle/test_excel_column_title.h"
 #include "RotateString/test_rotate_string.h"
+#include "ReverseVowels/test_reverse_vowels.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -276,6 +277,12 @@ MunitSuite suites[] = {
         },{
                 "/rotate_string",
                 rotate_string_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/reverse_vowels",
+                reverse_vowels_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

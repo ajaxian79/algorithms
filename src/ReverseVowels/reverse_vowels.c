@@ -1,0 +1,33 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#include "reverse_vowels.h"
+
+#include <stddef.h>
+#include <string.h>
+
+static int is_vowel(char c) {
+    switch (c) {
+        case 'a': case 'e': case 'i': case 'o': case 'u':
+        case 'A': case 'E': case 'I': case 'O': case 'U':
+            return 1;
+        default:
+            return 0;
+    }
+}
+
+void reverse_vowels(char* s) {
+    if (s == NULL) return;
+    int left = 0;
+    int right = (int)strlen(s) - 1;
+    while (left < right) {
+        while (left < right && !is_vowel(s[left])) left++;
+        while (left < right && !is_vowel(s[right])) right--;
+        char tmp = s[left];
+        s[left] = s[right];
+        s[right] = tmp;
+        left++;
+        right--;
+    }
+}
