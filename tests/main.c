@@ -45,6 +45,7 @@
 #include "UglyNumber/test_ugly_number.h"
 #include "HammingDistance/test_hamming_distance.h"
 #include "NumberOf1Bits/test_number_of_1_bits.h"
+#include "ReverseBits/test_reverse_bits.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -332,6 +333,12 @@ MunitSuite suites[] = {
         },{
                 "/number_of_1_bits",
                 number_of_1_bits_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/reverse_bits",
+                reverse_bits_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

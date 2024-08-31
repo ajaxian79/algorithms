@@ -1,0 +1,14 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#include "reverse_bits.h"
+
+unsigned int reverse_bits(unsigned int n) {
+    n = (n >> 16) | (n << 16);
+    n = ((n & 0xFF00FF00u) >> 8)  | ((n & 0x00FF00FFu) << 8);
+    n = ((n & 0xF0F0F0F0u) >> 4)  | ((n & 0x0F0F0F0Fu) << 4);
+    n = ((n & 0xCCCCCCCCu) >> 2)  | ((n & 0x33333333u) << 2);
+    n = ((n & 0xAAAAAAAAu) >> 1)  | ((n & 0x55555555u) << 1);
+    return n;
+}
