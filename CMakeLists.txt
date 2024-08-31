@@ -41,6 +41,7 @@ add_executable(zigzag src/ZigZagConversion/main.c src/ZigZagConversion/zigzag.c)
 add_executable(string_to_integer src/StringToInteger/main.c src/StringToInteger/string_to_integer.c)
 add_executable(compare_version src/CompareVersion/main.c src/CompareVersion/compare_version.c)
 add_executable(excel_column_number src/ExcelColumnNumber/main.c src/ExcelColumnNumber/excel_column_number.c)
+add_executable(excel_column_title src/ExcelColumnTitle/main.c src/ExcelColumnTitle/excel_column_title.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -76,7 +77,8 @@ add_executable(unittests
         src/ZigZagConversion/zigzag.c
         src/StringToInteger/string_to_integer.c
         src/CompareVersion/compare_version.c
-        src/ExcelColumnNumber/excel_column_number.c)
+        src/ExcelColumnNumber/excel_column_number.c
+        src/ExcelColumnTitle/excel_column_title.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -117,4 +119,5 @@ target_link_libraries(zigzag PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimal
 target_link_libraries(string_to_integer PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(compare_version PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(excel_column_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(excel_column_title PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
