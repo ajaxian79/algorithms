@@ -1,0 +1,26 @@
+//
+// Created by ajaxian on 08/31/24.
+//
+
+#ifndef ALGORITHMS_TEST_IS_SUBSEQUENCE_H
+#define ALGORITHMS_TEST_IS_SUBSEQUENCE_H
+
+#include "../tests.h"
+#include "../../src/IsSubsequence/is_subsequence.h"
+
+static MunitResult test_is_subsequence_basic(const MunitParameter params[], void* user_data_or_fixture) {
+    munit_assert_int(is_subsequence("abc", "ahbgdc"), ==, 1);
+    munit_assert_int(is_subsequence("axc", "ahbgdc"), ==, 0);
+    munit_assert_int(is_subsequence("", "anything"), ==, 1);
+    munit_assert_int(is_subsequence("", ""), ==, 1);
+    munit_assert_int(is_subsequence("abc", ""), ==, 0);
+    munit_assert_int(is_subsequence("abc", "abc"), ==, 1);
+    return MUNIT_OK;
+}
+
+MunitTest is_subsequence_tests[] = {
+    {"/basic", test_is_subsequence_basic, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL},
+    {NULL, NULL, NULL, NULL, MUNIT_TEST_OPTION_NONE, NULL}
+};
+
+#endif //ALGORITHMS_TEST_IS_SUBSEQUENCE_H

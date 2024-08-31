@@ -40,6 +40,7 @@
 #include "ReverseVowels/test_reverse_vowels.h"
 #include "FirstUniqueChar/test_first_unique_char.h"
 #include "RansomNote/test_ransom_note.h"
+#include "IsSubsequence/test_is_subsequence.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -297,6 +298,12 @@ MunitSuite suites[] = {
         },{
                 "/ransom_note",
                 ransom_note_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/is_subsequence",
+                is_subsequence_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

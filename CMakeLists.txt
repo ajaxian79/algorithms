@@ -46,6 +46,7 @@ add_executable(rotate_string src/RotateString/main.c src/RotateString/rotate_str
 add_executable(reverse_vowels src/ReverseVowels/main.c src/ReverseVowels/reverse_vowels.c)
 add_executable(first_unique_char src/FirstUniqueChar/main.c src/FirstUniqueChar/first_unique_char.c)
 add_executable(ransom_note src/RansomNote/main.c src/RansomNote/ransom_note.c)
+add_executable(is_subsequence src/IsSubsequence/main.c src/IsSubsequence/is_subsequence.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -86,7 +87,8 @@ add_executable(unittests
         src/RotateString/rotate_string.c
         src/ReverseVowels/reverse_vowels.c
         src/FirstUniqueChar/first_unique_char.c
-        src/RansomNote/ransom_note.c)
+        src/RansomNote/ransom_note.c
+        src/IsSubsequence/is_subsequence.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -132,4 +134,5 @@ target_link_libraries(rotate_string PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static
 target_link_libraries(reverse_vowels PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(first_unique_char PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(ransom_note PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(is_subsequence PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
