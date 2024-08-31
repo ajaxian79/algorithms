@@ -44,6 +44,7 @@ add_executable(excel_column_number src/ExcelColumnNumber/main.c src/ExcelColumnN
 add_executable(excel_column_title src/ExcelColumnTitle/main.c src/ExcelColumnTitle/excel_column_title.c)
 add_executable(rotate_string src/RotateString/main.c src/RotateString/rotate_string.c)
 add_executable(reverse_vowels src/ReverseVowels/main.c src/ReverseVowels/reverse_vowels.c)
+add_executable(first_unique_char src/FirstUniqueChar/main.c src/FirstUniqueChar/first_unique_char.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -82,7 +83,8 @@ add_executable(unittests
         src/ExcelColumnNumber/excel_column_number.c
         src/ExcelColumnTitle/excel_column_title.c
         src/RotateString/rotate_string.c
-        src/ReverseVowels/reverse_vowels.c)
+        src/ReverseVowels/reverse_vowels.c
+        src/FirstUniqueChar/first_unique_char.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -126,4 +128,5 @@ target_link_libraries(excel_column_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-
 target_link_libraries(excel_column_title PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(rotate_string PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(reverse_vowels PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(first_unique_char PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
