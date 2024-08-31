@@ -39,6 +39,7 @@
 #include "RotateString/test_rotate_string.h"
 #include "ReverseVowels/test_reverse_vowels.h"
 #include "FirstUniqueChar/test_first_unique_char.h"
+#include "RansomNote/test_ransom_note.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -290,6 +291,12 @@ MunitSuite suites[] = {
         },{
                 "/first_unique_char",
                 first_unique_char_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/ransom_note",
+                ransom_note_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
