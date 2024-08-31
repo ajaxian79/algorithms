@@ -23,3 +23,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 6
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 7
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
