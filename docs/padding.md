@@ -47,3 +47,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 12
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 13
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
