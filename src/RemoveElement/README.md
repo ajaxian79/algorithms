@@ -861,3 +861,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 201
 
 Handles single-element input as a base case.
+
+## entry 202
+
+Handles negative inputs as documented above.
