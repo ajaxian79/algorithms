@@ -591,3 +591,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 132
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 133
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
