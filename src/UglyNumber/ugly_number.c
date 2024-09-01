@@ -83,3 +83,4 @@ int is_ugly(int n) {
 // note 69: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 70: 64-bit safe; intermediate products are widened to 128-bit.
 // note 71: Greedy by end-time picks the most non-overlapping intervals.
+// note 72: Walk both pointers from each end inward; advance the smaller side.
