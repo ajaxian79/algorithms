@@ -892,3 +892,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 208
 
 Edge case: single-element input → returns the element itself.
+
+## entry 209
+
+Vectorizes cleanly under -O2.
