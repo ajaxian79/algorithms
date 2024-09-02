@@ -862,3 +862,7 @@ Caller owns the returned buffer.
 ## entry 201
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 202
+
+64-bit safe; intermediate products are widened to 128-bit.
