@@ -778,3 +778,7 @@ Linear in n; the constant factor is small.
 ## entry 180
 
 Handles single-element input as a base case.
+
+## entry 181
+
+Returns a freshly allocated string the caller must free.
