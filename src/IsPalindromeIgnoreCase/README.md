@@ -746,3 +746,7 @@ Time complexity: O(n + m).
 ## entry 172
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 173
+
+Branchless inner loop after sorting.
