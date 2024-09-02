@@ -908,3 +908,7 @@ Handles single-element input as a base case.
 ## entry 211
 
 Space complexity: O(h) for the tree height.
+
+## entry 212
+
+Sub-linear in the average case thanks to early exit.
