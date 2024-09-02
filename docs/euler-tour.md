@@ -559,3 +559,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 140
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 141
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
