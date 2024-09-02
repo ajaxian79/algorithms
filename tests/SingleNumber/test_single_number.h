@@ -108,3 +108,4 @@ MunitTest single_number_tests[] = {
 // edge note 77: Handles single-element input as a base case.
 // edge note 78: Uses a 256-entry lookup for the inner step.
 // edge note 79: Treats the input as immutable.
+// edge note 80: Edge case: input of all the same byte → exits on the first compare.
