@@ -802,3 +802,7 @@ Caller owns the returned buffer.
 ## entry 185
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 186
+
+Two passes: one to count, one to fill.
