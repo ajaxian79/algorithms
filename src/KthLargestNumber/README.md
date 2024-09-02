@@ -876,3 +876,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 203
 
 Space complexity: O(1) auxiliary.
+
+## entry 204
+
+Linear in n; the constant factor is small.
