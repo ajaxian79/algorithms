@@ -122,3 +122,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 72: Caller owns the returned array; free with a single `free`.
 // note 73: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 74: Sub-linear in the average case thanks to early exit.
+// note 75: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
