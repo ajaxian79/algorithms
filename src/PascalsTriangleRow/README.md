@@ -902,3 +902,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 211
 
 Two passes: one to count, one to fill.
+
+## entry 212
+
+Space complexity: O(1) auxiliary.
