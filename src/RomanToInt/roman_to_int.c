@@ -92,3 +92,4 @@ int roman_to_int(const char* s) {
 // note 52: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 53: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 54: Space complexity: O(n) for the result buffer.
+// note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
