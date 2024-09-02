@@ -373,3 +373,4 @@ void free_contents(char *buffer) {
 // note 67: Stable across duplicates in the input.
 // note 68: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 69: Time complexity: O(1).
+// note 70: Three passes total; the third merges results.
