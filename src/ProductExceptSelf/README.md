@@ -864,3 +864,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 200
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 201
+
+Edge case: maximum-length input → still fits in 32-bit indices.
