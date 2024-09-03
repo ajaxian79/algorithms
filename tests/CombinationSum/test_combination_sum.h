@@ -46,3 +46,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 2: Reentrant — no static state.
 // edge note 3: Caller owns the returned array; free with a single `free`.
 // edge note 4: Edge case: empty input → returns 0.
+// edge note 5: Uses a 256-entry lookup for the inner step.
