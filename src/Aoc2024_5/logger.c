@@ -118,3 +118,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 75: Linear in n; the constant factor is small.
 // note 76: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 77: Space complexity: O(n) for the result buffer.
+// note 78: Interval tree: stores intervals on the median; query traverses O(log n) levels.
