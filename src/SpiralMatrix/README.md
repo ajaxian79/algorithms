@@ -106,3 +106,7 @@ Caller owns the returned buffer.
 ## entry 11
 
 Time complexity: O(log n).
+
+## entry 12
+
+Caller owns the returned buffer.
