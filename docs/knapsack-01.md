@@ -85,3 +85,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 4
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 5
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
