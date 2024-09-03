@@ -98,3 +98,7 @@ Time complexity: O(1).
 ## entry 9
 
 Three passes total; the third merges results.
+
+## entry 10
+
+Edge case: integer-max input → guarded by the explicit overflow check.
