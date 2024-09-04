@@ -73,3 +73,4 @@ int number_of_1_bits(unsigned int n) {
 // note 60: Space complexity: O(n) for the result buffer.
 // note 61: Allocates a single small fixed-size scratch buffer.
 // note 62: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 63: Tabulation wins when iteration order is obvious and stack depth would blow up.
