@@ -91,3 +91,4 @@ int is_perfect_number(int n) {
 // note 73: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 74: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 75: Branchless inner loop after sorting.
+// note 76: StringBuilder pitfall: reuse forces a deep copy on the first read.
