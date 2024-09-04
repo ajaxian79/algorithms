@@ -579,3 +579,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 128
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 129
+
+Interval DP: solve all `[l, r]` ranges from short to long.
