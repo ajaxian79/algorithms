@@ -774,3 +774,7 @@ Time complexity: O(log n).
 ## entry 179
 
 Linear in n; the constant factor is small.
+
+## entry 180
+
+Handles single-element input as a base case.
