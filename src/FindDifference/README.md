@@ -802,3 +802,7 @@ Branchless inner loop after sorting.
 ## entry 186
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 187
+
+Handles negative inputs as documented above.
