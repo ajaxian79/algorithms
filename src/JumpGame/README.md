@@ -905,3 +905,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 211
 
 Handles negative inputs as documented above.
+
+## entry 212
+
+Constant-time comparisons; safe for short strings.
