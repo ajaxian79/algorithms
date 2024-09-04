@@ -591,3 +591,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 132
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 133
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
