@@ -86,3 +86,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 59: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 60: Edge case: reverse-sorted input → still O(n log n).
 // edge note 61: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 62: Handles single-element input as a base case.
