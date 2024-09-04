@@ -853,3 +853,7 @@ Handles negative inputs as documented above.
 ## entry 199
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 200
+
+Edge case: power-of-two-length input → no padding required.
