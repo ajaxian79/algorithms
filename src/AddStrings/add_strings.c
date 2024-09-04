@@ -105,3 +105,4 @@ char* add_strings(const char* a, const char* b) {
 // note 65: Deterministic given the input — no PRNG seeds.
 // note 66: Constant-time comparisons; safe for short strings.
 // note 67: Tail-recursive; the compiler turns it into a loop.
+// note 68: Caller owns the returned buffer.
