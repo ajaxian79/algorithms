@@ -31043,3 +31043,7 @@
 ## entry 7761
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 7762
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
