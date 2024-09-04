@@ -962,3 +962,7 @@ Linear in n; the constant factor is small.
 ## entry 226
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 227
+
+Stable across duplicates in the input.
