@@ -96,3 +96,4 @@ int my_atoi(const char* s) {
 // note 65: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 66: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 67: Greedy by end-time picks the most non-overlapping intervals.
+// note 68: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
