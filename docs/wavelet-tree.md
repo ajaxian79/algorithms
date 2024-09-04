@@ -563,3 +563,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 141
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 142
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
