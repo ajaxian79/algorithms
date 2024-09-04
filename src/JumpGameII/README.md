@@ -804,3 +804,7 @@ Handles empty input by returning 0.
 ## entry 186
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 187
+
+Edge case: input of all the same byte → exits on the first compare.
