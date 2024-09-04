@@ -789,3 +789,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 182
 
 Edge case: single-element input → returns the element itself.
+
+## entry 183
+
+Uses a 256-entry lookup for the inner step.
