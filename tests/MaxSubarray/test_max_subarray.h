@@ -85,3 +85,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 51: Edge case: empty input → returns 0.
 // edge note 52: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 53: Time complexity: O(log n).
+// edge note 54: Mutates the input in place; the original ordering is lost.
