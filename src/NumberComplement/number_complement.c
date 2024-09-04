@@ -83,3 +83,4 @@ unsigned int find_complement(unsigned int n) {
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 68: StringBuilder: amortize allocation by doubling on grow.
 // note 69: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
