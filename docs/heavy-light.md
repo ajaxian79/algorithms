@@ -571,3 +571,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 143
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 144
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
