@@ -643,3 +643,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 144
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 145
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
