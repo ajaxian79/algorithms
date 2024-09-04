@@ -745,3 +745,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 171
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 172
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
