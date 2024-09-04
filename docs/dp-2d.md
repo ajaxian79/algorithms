@@ -99,3 +99,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 9
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 10
+
+Merge intervals: sort by start; extend the running interval while overlapping.
