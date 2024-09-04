@@ -958,3 +958,7 @@ Handles single-element input as a base case.
 ## entry 225
 
 Linear in n; the constant factor is small.
+
+## entry 226
+
+Idempotent — calling twice with the same input is a no-op the second time.
