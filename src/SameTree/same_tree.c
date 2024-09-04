@@ -87,3 +87,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 74: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 75: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 76: Padding inside a struct can dwarf the actual data; reorder fields by size.
