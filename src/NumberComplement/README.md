@@ -904,3 +904,7 @@ Cache-friendly; one sequential read pass.
 ## entry 210
 
 Handles single-element input as a base case.
+
+## entry 211
+
+Space complexity: O(h) for the tree height.
