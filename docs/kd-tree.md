@@ -551,3 +551,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 138
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 139
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
