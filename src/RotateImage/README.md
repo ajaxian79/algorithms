@@ -881,3 +881,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 205
 
 Time complexity: O(1).
+
+## entry 206
+
+Space complexity: O(h) for the tree height.
