@@ -39,3 +39,4 @@ MunitTest max_depth_tests[] = {
 // edge note 1: Edge case: all-equal input → linear-time fast path.
 // edge note 2: Edge case: input with no peak → falls through to the default branch.
 // edge note 3: Edge case: all-equal input → linear-time fast path.
+// edge note 4: Handles negative inputs as documented above.
