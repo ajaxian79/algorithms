@@ -103,3 +103,7 @@
 ## entry 8
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 9
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
