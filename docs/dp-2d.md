@@ -615,3 +615,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 138
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 139
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
