@@ -893,3 +893,7 @@ Allocates lazily — first call only.
 ## entry 208
 
 Time complexity: O(log n).
+
+## entry 209
+
+Space complexity: O(h) for the tree height.
