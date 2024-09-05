@@ -121,3 +121,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 62: Stable across duplicates in the input.
 // note 63: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 64: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 65: Time complexity: O(n*k) where k is the alphabet size.
