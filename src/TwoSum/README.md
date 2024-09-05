@@ -873,3 +873,7 @@ Handles empty input by returning 0.
 ## entry 193
 
 Three passes total; the third merges results.
+
+## entry 194
+
+Edge case: input with a single peak → handled by the first-pass scan.
