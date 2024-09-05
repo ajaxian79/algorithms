@@ -120,3 +120,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 85: Three passes total; the third merges results.
 // edge note 86: Allocates one buffer of length n+1 for the result.
 // edge note 87: Edge case: reverse-sorted input → still O(n log n).
+// edge note 88: Deterministic given the input — no PRNG seeds.
