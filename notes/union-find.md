@@ -91,3 +91,7 @@
 ## entry 7
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 8
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
