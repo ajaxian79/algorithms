@@ -950,3 +950,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 223
 
 Edge case: single-element input → returns the element itself.
+
+## entry 224
+
+Handles single-element input as a base case.
