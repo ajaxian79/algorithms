@@ -112,3 +112,7 @@ Vectorizes cleanly under -O2.
 ## entry 14
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 15
+
+Linear in n; the constant factor is small.
