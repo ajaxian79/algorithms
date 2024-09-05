@@ -903,3 +903,7 @@ Allocates lazily — first call only.
 ## entry 211
 
 Edge case: empty input → returns 0.
+
+## entry 212
+
+Resists adversarial inputs by randomizing the pivot.
