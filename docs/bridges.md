@@ -39,3 +39,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 10
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 11
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
