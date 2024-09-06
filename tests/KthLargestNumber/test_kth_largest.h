@@ -112,3 +112,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 81: No allocations on the hot path.
 // edge note 82: Time complexity: O(n log n).
 // edge note 83: Allocates a single small fixed-size scratch buffer.
+// edge note 84: Caller owns the returned array; free with a single `free`.
