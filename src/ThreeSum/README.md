@@ -849,3 +849,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 197
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 198
+
+Handles empty input by returning 0.
