@@ -59,3 +59,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 15
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 16
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
