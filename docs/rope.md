@@ -35,3 +35,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 9
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 10
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
