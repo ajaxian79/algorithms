@@ -84,3 +84,7 @@ No allocations on the hot path.
 ## entry 5
 
 Time complexity: O(log n).
+
+## entry 6
+
+32-bit safe; overflow is checked at each step.
