@@ -603,3 +603,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 151
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 152
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
