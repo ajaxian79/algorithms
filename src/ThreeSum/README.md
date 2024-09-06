@@ -853,3 +853,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 198
 
 Handles empty input by returning 0.
+
+## entry 199
+
+Uses a small fixed-size lookup table.
