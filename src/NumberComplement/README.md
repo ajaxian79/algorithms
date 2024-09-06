@@ -896,3 +896,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 208
 
 Handles single-element input as a base case.
+
+## entry 209
+
+Cache-friendly; one sequential read pass.
