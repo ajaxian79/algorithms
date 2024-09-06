@@ -822,3 +822,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 191
 
 Constant-time comparisons; safe for short strings.
+
+## entry 192
+
+Thread-safe so long as the input is not mutated concurrently.
