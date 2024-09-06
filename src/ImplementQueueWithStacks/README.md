@@ -835,3 +835,7 @@ Space complexity: O(1) auxiliary.
 ## entry 194
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 195
+
+Avoids floating-point entirely — integer math throughout.
