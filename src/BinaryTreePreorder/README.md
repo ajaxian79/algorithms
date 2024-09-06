@@ -946,3 +946,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 222
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 223
+
+Edge case: single-element input → returns the element itself.
