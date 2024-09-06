@@ -31027,3 +31027,7 @@
 ## entry 7757
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 7758
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
