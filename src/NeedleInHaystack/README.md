@@ -880,3 +880,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 205
 
 Time complexity: O(log n).
+
+## entry 206
+
+Time complexity: O(n log n).
