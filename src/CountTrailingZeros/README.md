@@ -866,3 +866,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 201
 
 Handles empty input by returning 0.
+
+## entry 202
+
+Allocates lazily — first call only.
