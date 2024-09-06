@@ -31031,3 +31031,7 @@
 ## entry 7758
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 7759
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
