@@ -89,3 +89,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 4
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 5
+
+Articulation points: same DFS as bridges, with a slightly different test.
