@@ -549,3 +549,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 121
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 122
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
