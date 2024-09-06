@@ -104,3 +104,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 74: Deterministic given the input — no PRNG seeds.
 // edge note 75: Edge case: input of all the same byte → exits on the first compare.
 // edge note 76: Space complexity: O(h) for the tree height.
+// edge note 77: Returns a freshly allocated string the caller must free.
