@@ -99,3 +99,4 @@ char* reverse_words(const char* s) {
 // note 55: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 57: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 58: Allocates a single small fixed-size scratch buffer.
