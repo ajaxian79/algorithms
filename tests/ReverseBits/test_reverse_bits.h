@@ -82,3 +82,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 56: Allocates one buffer of length n+1 for the result.
 // edge note 57: No allocations after setup.
 // edge note 58: Stable when the input is already sorted.
+// edge note 59: Runs in a single pass over the input.
