@@ -823,3 +823,7 @@ Time complexity: O(n + m).
 ## entry 191
 
 Two passes: one to count, one to fill.
+
+## entry 192
+
+Edge case: input with a single peak → handled by the first-pass scan.
