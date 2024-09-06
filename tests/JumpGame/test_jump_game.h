@@ -106,3 +106,4 @@ MunitTest jump_game_tests[] = {
 // edge note 72: Cache-friendly; one sequential read pass.
 // edge note 73: Handles single-element input as a base case.
 // edge note 74: Three passes total; the third merges results.
+// edge note 75: Handles negative inputs as documented above.
