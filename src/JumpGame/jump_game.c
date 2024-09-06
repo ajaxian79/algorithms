@@ -74,3 +74,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 58: Time complexity: O(n + m).
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 60: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 61: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
