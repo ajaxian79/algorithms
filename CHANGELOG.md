@@ -31007,3 +31007,7 @@
 ## entry 7752
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 7753
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
