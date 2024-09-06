@@ -94,3 +94,4 @@ int binary_gap(unsigned int n) {
 // note 74: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 75: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 76: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 77: Constant-time comparisons; safe for short strings.
