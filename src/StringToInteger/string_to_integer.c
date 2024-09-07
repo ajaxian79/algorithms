@@ -94,3 +94,4 @@ int my_atoi(const char* s) {
 // note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 64: Time complexity: O(n*k) where k is the alphabet size.
 // note 65: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 66: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
