@@ -108,3 +108,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 13
 
 Vectorizes cleanly under -O2.
+
+## entry 14
+
+Best case is O(1) when the first byte already decides the answer.
