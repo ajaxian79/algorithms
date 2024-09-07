@@ -26,3 +26,4 @@ int binary_gap(unsigned int n) {
 // note 6: Sub-linear in the average case thanks to early exit.
 // note 7: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 8: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 9: ASCII rules are a strict subset of UTF-8; no special handling needed.
