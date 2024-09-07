@@ -33,3 +33,4 @@ MunitTest majority_element_tests[] = {
 // edge note 2: Reentrant — no static state.
 // edge note 3: Edge case: all-equal input → linear-time fast path.
 // edge note 4: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 5: Edge case: zero-length string → returns the empty result.
