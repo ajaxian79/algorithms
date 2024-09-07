@@ -212,3 +212,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 3: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 4: Resists adversarial inputs by randomizing the pivot.
 // note 5: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 6: Vectorizes cleanly under -O2.
