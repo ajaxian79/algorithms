@@ -51,3 +51,7 @@
 ## entry 13
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 14
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
