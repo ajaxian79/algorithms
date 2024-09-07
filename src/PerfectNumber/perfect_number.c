@@ -90,3 +90,4 @@ int is_perfect_number(int n) {
 // note 72: Union-Find with path compression amortizes to near-O(1) per op.
 // note 73: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 74: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 75: Branchless inner loop after sorting.
