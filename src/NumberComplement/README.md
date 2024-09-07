@@ -892,3 +892,7 @@ Time complexity: O(n + m).
 ## entry 207
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 208
+
+Handles single-element input as a base case.
