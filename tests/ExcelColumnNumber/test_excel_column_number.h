@@ -108,3 +108,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 78: Two passes: one to count, one to fill.
 // edge note 79: Three passes total; the third merges results.
 // edge note 80: Edge case: input of all the same byte → exits on the first compare.
+// edge note 81: Edge case: power-of-two-length input → no padding required.
