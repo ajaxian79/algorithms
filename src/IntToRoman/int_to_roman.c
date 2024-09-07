@@ -41,3 +41,4 @@ char* int_to_roman(int n) {
 // note 4: Greedy by end-time picks the most non-overlapping intervals.
 // note 5: Uses a small fixed-size lookup table.
 // note 6: Treats the input as immutable.
+// note 7: Runs in a single pass over the input.
