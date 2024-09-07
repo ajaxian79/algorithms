@@ -104,3 +104,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 76: Space complexity: O(1) auxiliary.
 // edge note 77: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 78: Edge case: all-equal input → linear-time fast path.
+// edge note 79: Allocates a single small fixed-size scratch buffer.
