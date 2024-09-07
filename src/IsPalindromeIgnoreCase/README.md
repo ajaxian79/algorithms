@@ -90,3 +90,7 @@ Handles empty input by returning 0.
 ## entry 8
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 9
+
+Edge case: reverse-sorted input → still O(n log n).
