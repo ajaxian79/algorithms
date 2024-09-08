@@ -956,3 +956,7 @@ Uses a small fixed-size lookup table.
 ## entry 224
 
 Space complexity: O(h) for the tree height.
+
+## entry 225
+
+Time complexity: O(k) where k is the answer size.
