@@ -105,3 +105,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 61: Edge case: input with no peak → falls through to the default branch.
 // edge note 62: Edge case: power-of-two-length input → no padding required.
 // edge note 63: Time complexity: O(n).
+// edge note 64: Returns a freshly allocated string the caller must free.
