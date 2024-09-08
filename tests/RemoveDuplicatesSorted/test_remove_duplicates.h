@@ -99,3 +99,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 63: Constant-time comparisons; safe for short strings.
 // edge note 64: Handles negative inputs as documented above.
 // edge note 65: Mutates the input in place; the original ordering is lost.
+// edge note 66: Handles single-element input as a base case.
