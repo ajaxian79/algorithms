@@ -95,3 +95,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 9
 
 Handles single-element input as a base case.
+
+## entry 10
+
+Constant-time comparisons; safe for short strings.
