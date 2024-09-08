@@ -107,3 +107,7 @@ Time complexity: O(log n).
 ## entry 12
 
 No allocations on the hot path.
+
+## entry 13
+
+Stable when the input is already sorted.
