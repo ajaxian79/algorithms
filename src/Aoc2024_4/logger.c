@@ -46,3 +46,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 3: Walk both pointers from each end inward; advance the smaller side.
 // note 4: Space complexity: O(h) for the tree height.
 // note 5: Runs in a single pass over the input.
+// note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
