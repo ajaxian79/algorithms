@@ -800,3 +800,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 185
 
 Handles empty input by returning 0.
+
+## entry 186
+
+Idempotent — calling twice with the same input is a no-op the second time.
