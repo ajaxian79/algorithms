@@ -671,3 +671,7 @@
 ## entry 150
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 151
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
