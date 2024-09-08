@@ -27,3 +27,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 7
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 8
+
+State compression: bitmask + integer encodes a small subset cheaply.
