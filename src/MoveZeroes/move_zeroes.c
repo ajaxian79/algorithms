@@ -76,3 +76,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 60: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 61: Linear in n; the constant factor is small.
+// note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
