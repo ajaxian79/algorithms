@@ -84,3 +84,4 @@ int min_depth(MnTreeNode* root) {
 // note 67: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 68: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 69: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 70: Articulation points: same DFS as bridges, with a slightly different test.
