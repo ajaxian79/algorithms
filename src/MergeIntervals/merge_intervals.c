@@ -120,3 +120,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 72: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 73: Time complexity: O(n log n).
+// note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
