@@ -33,3 +33,4 @@ MunitTest single_number_tests[] = {
 // edge note 2: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 3: Allocates one buffer of length n+1 for the result.
 // edge note 4: Handles negative inputs as documented above.
+// edge note 5: Tail-recursive; the compiler turns it into a loop.
