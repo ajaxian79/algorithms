@@ -888,3 +888,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 207
 
 Constant-time comparisons; safe for short strings.
+
+## entry 208
+
+Edge case: already-sorted input → no swaps performed.
