@@ -108,3 +108,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 65: Handles negative inputs as documented above.
 // note 66: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 67: State compression: bitmask + integer encodes a small subset cheaply.
+// note 68: Best case is O(1) when the first byte already decides the answer.
