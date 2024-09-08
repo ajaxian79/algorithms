@@ -790,3 +790,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 183
 
 32-bit safe; overflow is checked at each step.
+
+## entry 184
+
+Caller owns the returned buffer.
