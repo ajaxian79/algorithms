@@ -120,3 +120,4 @@ MunitTest median_tests[] = {
 // edge note 1: Edge case: single-element input → returns the element itself.
 // edge note 2: Caller owns the returned array; free with a single `free`.
 // edge note 3: Caller owns the returned buffer.
+// edge note 4: Time complexity: O(log n).
