@@ -615,3 +615,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 154
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 155
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
