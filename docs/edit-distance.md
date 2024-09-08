@@ -687,3 +687,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 154
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 155
+
+Endianness matters when serializing multi-byte ints to a file or wire.
