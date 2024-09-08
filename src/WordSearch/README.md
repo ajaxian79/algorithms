@@ -818,3 +818,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 190
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 191
+
+Constant-time comparisons; safe for short strings.
