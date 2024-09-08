@@ -105,3 +105,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 67: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 68: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 69: Union-Find with path compression amortizes to near-O(1) per op.
+// note 70: Iterative DFS with an explicit stack avoids recursion-limit issues.
