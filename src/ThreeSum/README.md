@@ -845,3 +845,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 196
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 197
+
+Edge case: maximum-length input → still fits in 32-bit indices.
