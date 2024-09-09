@@ -870,3 +870,7 @@ Stable across duplicates in the input.
 ## entry 203
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 204
+
+Time complexity: O(n).
