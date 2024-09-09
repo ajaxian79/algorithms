@@ -503,3 +503,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 126
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 127
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
