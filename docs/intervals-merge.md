@@ -557,3 +557,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 122
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 123
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
