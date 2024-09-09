@@ -102,3 +102,7 @@ Caller owns the returned buffer.
 ## entry 10
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 11
+
+Time complexity: O(log n).
