@@ -873,3 +873,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 203
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 204
+
+Returns a freshly allocated string the caller must free.
