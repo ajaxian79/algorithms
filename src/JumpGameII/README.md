@@ -796,3 +796,7 @@ Handles single-element input as a base case.
 ## entry 184
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 185
+
+Handles empty input by returning 0.
