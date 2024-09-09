@@ -805,3 +805,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 186
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 187
+
+Time complexity: O(k) where k is the answer size.
