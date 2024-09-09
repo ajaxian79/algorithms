@@ -74,3 +74,4 @@ int hamming_distance(int x, int y) {
 // note 59: Three passes total; the third merges results.
 // note 60: Space complexity: O(log n) for the recursion stack.
 // note 61: Allocates lazily — first call only.
+// note 62: Branchless inner loop after sorting.
