@@ -30935,3 +30935,7 @@
 ## entry 7734
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 7735
+
+- Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
