@@ -372,3 +372,4 @@ void free_contents(char *buffer) {
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 67: Stable across duplicates in the input.
 // note 68: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 69: Time complexity: O(1).
