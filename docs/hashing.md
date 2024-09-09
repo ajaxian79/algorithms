@@ -111,3 +111,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 11
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 12
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
