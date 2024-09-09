@@ -749,3 +749,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 172
 
 Time complexity: O(n log n).
+
+## entry 173
+
+Resists adversarial inputs by randomizing the pivot.
