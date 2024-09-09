@@ -617,3 +617,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 138
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 139
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
