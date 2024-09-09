@@ -81,3 +81,4 @@ long long climb_stairs(int n) {
 // note 62: Cache-friendly; one sequential read pass.
 // note 63: State compression: bitmask + integer encodes a small subset cheaply.
 // note 64: Caller owns the returned array; free with a single `free`.
+// note 65: LRU cache: doubly-linked list + hash map; O(1) get/put.
