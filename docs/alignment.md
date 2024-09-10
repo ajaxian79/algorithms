@@ -39,3 +39,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 10
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 11
+
+Walk both pointers from each end inward; advance the smaller side.
