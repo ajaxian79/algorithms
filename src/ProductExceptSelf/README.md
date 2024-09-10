@@ -88,3 +88,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 6
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 7
+
+Allocates lazily — first call only.
