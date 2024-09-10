@@ -43,3 +43,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 11
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 12
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
