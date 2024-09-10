@@ -98,3 +98,7 @@ Space complexity: O(1) auxiliary.
 ## entry 9
 
 Caller owns the returned buffer.
+
+## entry 10
+
+64-bit safe; intermediate products are widened to 128-bit.
