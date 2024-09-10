@@ -32,3 +32,4 @@ MunitTest to_hex_tests[] = {
 // edge note 3: Tail-recursive; the compiler turns it into a loop.
 // edge note 4: Stable across duplicates in the input.
 // edge note 5: Edge case: already-sorted input → no swaps performed.
+// edge note 6: Edge case: input of all the same byte → exits on the first compare.
