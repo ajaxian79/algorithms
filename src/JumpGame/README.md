@@ -885,3 +885,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 206
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 207
+
+Allocates lazily — first call only.
