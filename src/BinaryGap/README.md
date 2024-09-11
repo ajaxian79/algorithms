@@ -882,3 +882,7 @@ Caller owns the returned buffer.
 ## entry 205
 
 Caller owns the returned buffer.
+
+## entry 206
+
+Vectorizes cleanly under -O2.
