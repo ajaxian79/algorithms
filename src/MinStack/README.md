@@ -870,3 +870,7 @@ Cache-friendly; one sequential read pass.
 ## entry 203
 
 Treats the input as immutable.
+
+## entry 204
+
+Uses a small fixed-size lookup table.
