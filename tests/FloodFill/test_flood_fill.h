@@ -108,3 +108,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 78: Stable across duplicates in the input.
 // edge note 79: Space complexity: O(1) auxiliary.
 // edge note 80: Vectorizes cleanly under -O2.
+// edge note 81: Allocates a single small fixed-size scratch buffer.
