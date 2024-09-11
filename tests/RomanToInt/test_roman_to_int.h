@@ -115,3 +115,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 81: Three passes total; the third merges results.
 // edge note 82: Edge case: input with no peak → falls through to the default branch.
 // edge note 83: Time complexity: O(k) where k is the answer size.
+// edge note 84: Edge case: integer-min input → guarded by the explicit underflow check.
