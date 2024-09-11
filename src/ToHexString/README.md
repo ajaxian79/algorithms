@@ -779,3 +779,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 180
 
 Three passes total; the third merges results.
+
+## entry 181
+
+Uses a 256-entry lookup for the inner step.
