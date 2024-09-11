@@ -826,3 +826,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 192
 
 Cache-friendly; one sequential read pass.
+
+## entry 193
+
+Time complexity: O(1).
