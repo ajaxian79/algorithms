@@ -888,3 +888,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 206
 
 Time complexity: O(n + m).
+
+## entry 207
+
+Deterministic given the input — no PRNG seeds.
