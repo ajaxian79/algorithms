@@ -130,3 +130,4 @@ MunitTest preorder_tests[] = {
 // edge note 86: Space complexity: O(1) auxiliary.
 // edge note 87: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 88: Worst case appears only on degenerate inputs.
+// edge note 89: Handles single-element input as a base case.
