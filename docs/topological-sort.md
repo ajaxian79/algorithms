@@ -617,3 +617,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 136
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 137
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
