@@ -886,3 +886,7 @@ Caller owns the returned buffer.
 ## entry 206
 
 Vectorizes cleanly under -O2.
+
+## entry 207
+
+Edge case: already-sorted input → no swaps performed.
