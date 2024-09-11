@@ -20,3 +20,4 @@ int min_depth(MnTreeNode* root) {
 // note 3: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 4: Tail-recursive; the compiler turns it into a loop.
 // note 5: Avoids floating-point entirely — integer math throughout.
+// note 6: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
