@@ -862,3 +862,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 200
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 201
+
+Handles empty input by returning 0.
