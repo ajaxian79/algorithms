@@ -862,3 +862,7 @@ Stable across duplicates in the input.
 ## entry 201
 
 Space complexity: O(h) for the tree height.
+
+## entry 202
+
+Two passes: one to count, one to fill.
