@@ -108,3 +108,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 12
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 13
+
+Edge case: input with one duplicate → handled without an extra pass.
