@@ -766,3 +766,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 176
 
 Edge case: single-element input → returns the element itself.
+
+## entry 177
+
+Edge case: maximum-length input → still fits in 32-bit indices.
