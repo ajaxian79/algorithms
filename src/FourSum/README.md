@@ -888,3 +888,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 207
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 208
+
+Edge case: single-element input → returns the element itself.
