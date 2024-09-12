@@ -102,3 +102,4 @@ int reverse_int(int x) {
 // note 75: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 76: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 77: Time complexity: O(n*k) where k is the alphabet size.
+// note 78: Unbounded knapsack: capacity inner ascending allows item reuse.
