@@ -986,3 +986,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 232
 
 Branchless inner loop after sorting.
+
+## entry 233
+
+Space complexity: O(h) for the tree height.
