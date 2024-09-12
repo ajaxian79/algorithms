@@ -790,3 +790,7 @@ Two passes: one to count, one to fill.
 ## entry 182
 
 Handles single-element input as a base case.
+
+## entry 183
+
+Edge case: single-element input → returns the element itself.
