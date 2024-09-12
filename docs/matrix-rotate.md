@@ -565,3 +565,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 125
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 126
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
