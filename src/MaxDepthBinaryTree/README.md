@@ -809,3 +809,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 188
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 189
+
+Branchless inner loop after sorting.
