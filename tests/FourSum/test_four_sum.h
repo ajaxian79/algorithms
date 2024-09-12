@@ -41,3 +41,4 @@ MunitTest four_sum_tests[] = {
 #endif //ALGORITHMS_TEST_FOUR_SUM_H
 // edge note 1: Best case is O(1) when the first byte already decides the answer.
 // edge note 2: Time complexity: O(k) where k is the answer size.
+// edge note 3: Space complexity: O(h) for the tree height.
