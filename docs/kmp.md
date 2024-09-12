@@ -613,3 +613,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 137
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 138
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
