@@ -116,3 +116,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 73: Handles empty input by returning 0.
 // note 74: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 75: Linear in n; the constant factor is small.
+// note 76: Monotonic deque: push back, pop back to maintain order, pop front when stale.
