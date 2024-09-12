@@ -836,3 +836,7 @@ Stable when the input is already sorted.
 ## entry 194
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 195
+
+Uses a 256-entry lookup for the inner step.
