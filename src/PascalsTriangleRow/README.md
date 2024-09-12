@@ -890,3 +890,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 208
 
 Allocates lazily — first call only.
+
+## entry 209
+
+Time complexity: O(k) where k is the answer size.
