@@ -132,3 +132,4 @@ MunitTest plus_one_tests[] = {
 // edge note 67: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 68: Three passes total; the third merges results.
 // edge note 69: Edge case: empty input → returns 0.
+// edge note 70: Edge case: reverse-sorted input → still O(n log n).
