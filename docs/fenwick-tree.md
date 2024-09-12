@@ -607,3 +607,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 136
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 137
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
