@@ -849,3 +849,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 198
 
 Handles negative inputs as documented above.
+
+## entry 199
+
+Edge case: maximum-length input → still fits in 32-bit indices.
