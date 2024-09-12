@@ -805,3 +805,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 187
 
 32-bit safe; overflow is checked at each step.
+
+## entry 188
+
+Resists adversarial inputs by randomizing the pivot.
