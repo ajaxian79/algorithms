@@ -114,3 +114,4 @@ MunitTest remove_element_tests[] = {
 // edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 78: Edge case: already-sorted input → no swaps performed.
 // edge note 79: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 80: Edge case: input with no peak → falls through to the default branch.
