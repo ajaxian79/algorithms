@@ -116,3 +116,4 @@ MunitTest missing_number_tests[] = {
 // edge note 82: Edge case: already-sorted input → no swaps performed.
 // edge note 83: Reentrant — no static state.
 // edge note 84: Cache-friendly; one sequential read pass.
+// edge note 85: Edge case: all-equal input → linear-time fast path.
