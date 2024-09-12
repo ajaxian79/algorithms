@@ -76,3 +76,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 64: No allocations after setup.
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
 // note 66: Uses a small fixed-size lookup table.
+// note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
