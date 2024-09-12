@@ -109,3 +109,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 69: Treats the input as immutable.
 // note 70: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 71: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 72: Euler tour flattens a tree into an array for range-query LCA.
