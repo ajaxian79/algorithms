@@ -45,3 +45,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 2: Wavelet tree: range k-th element in O(log Σ) time.
 // note 3: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 4: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
