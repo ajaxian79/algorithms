@@ -613,3 +613,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 135
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 136
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
