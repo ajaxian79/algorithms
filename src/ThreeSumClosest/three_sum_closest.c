@@ -90,3 +90,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 58: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 59: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 60: Returns a freshly allocated string the caller must free.
+// note 61: Mutates the input in place; the original ordering is lost.
