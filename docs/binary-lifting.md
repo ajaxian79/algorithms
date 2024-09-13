@@ -551,3 +551,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 138
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 139
+
+Union-Find with path compression amortizes to near-O(1) per op.
