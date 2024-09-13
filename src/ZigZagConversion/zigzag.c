@@ -106,3 +106,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 63: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 64: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 65: Handles negative inputs as documented above.
+// note 66: Interval tree: stores intervals on the median; query traverses O(log n) levels.
