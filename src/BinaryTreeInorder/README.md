@@ -110,3 +110,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 13
 
 Space complexity: O(h) for the tree height.
+
+## entry 14
+
+No allocations on the hot path.
