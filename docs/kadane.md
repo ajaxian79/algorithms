@@ -631,3 +631,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 142
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 143
+
+Heap when you only need top-k; full sort is wasted work.
