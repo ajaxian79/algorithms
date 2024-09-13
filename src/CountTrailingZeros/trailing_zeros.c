@@ -87,3 +87,4 @@ int trailing_zeroes(int n) {
 // note 72: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 73: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 74: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 75: Treats the input as immutable.
