@@ -886,3 +886,7 @@ No allocations on the hot path.
 ## entry 207
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 208
+
+Allocates lazily — first call only.
