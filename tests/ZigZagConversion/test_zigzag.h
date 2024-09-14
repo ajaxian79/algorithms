@@ -99,3 +99,4 @@ MunitTest zigzag_tests[] = {
 // edge note 71: Edge case: already-sorted input → no swaps performed.
 // edge note 72: Time complexity: O(log n).
 // edge note 73: No allocations after setup.
+// edge note 74: Space complexity: O(1) auxiliary.
