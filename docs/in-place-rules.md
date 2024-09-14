@@ -53,3 +53,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+Heap when you only need top-k; full sort is wasted work.
