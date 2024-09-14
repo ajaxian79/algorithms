@@ -599,3 +599,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 132
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 133
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
