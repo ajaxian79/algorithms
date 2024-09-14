@@ -75,3 +75,4 @@ int max_depth(MdTreeNode* root) {
 // note 61: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 62: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 64: Space complexity: O(n) for the result buffer.
