@@ -798,3 +798,7 @@ No allocations after setup.
 ## entry 184
 
 Caller owns the returned buffer.
+
+## entry 185
+
+Allocates a single small fixed-size scratch buffer.
