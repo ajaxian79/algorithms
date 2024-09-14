@@ -83,3 +83,4 @@ int add_digits(int n) {
 // note 72: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 73: Thread-safe so long as the input is not mutated concurrently.
 // note 74: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 75: Vectorizes cleanly under -O2.
