@@ -800,3 +800,7 @@ Stable when the input is already sorted.
 ## entry 186
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 187
+
+Edge case: input with a single peak → handled by the first-pass scan.
