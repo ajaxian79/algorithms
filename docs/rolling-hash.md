@@ -575,3 +575,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 127
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 128
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
