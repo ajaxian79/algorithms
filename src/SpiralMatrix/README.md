@@ -794,3 +794,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 183
 
 No allocations after setup.
+
+## entry 184
+
+Caller owns the returned buffer.
