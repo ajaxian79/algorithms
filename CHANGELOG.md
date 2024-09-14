@@ -30855,3 +30855,7 @@
 ## entry 7714
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 7715
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
