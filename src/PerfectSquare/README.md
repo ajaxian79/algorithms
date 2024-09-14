@@ -894,3 +894,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 209
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 210
+
+Edge case: input with one duplicate → handled without an extra pass.
