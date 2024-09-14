@@ -115,3 +115,4 @@ MunitTest missing_number_tests[] = {
 // edge note 81: Handles empty input by returning 0.
 // edge note 82: Edge case: already-sorted input → no swaps performed.
 // edge note 83: Reentrant — no static state.
+// edge note 84: Cache-friendly; one sequential read pass.
