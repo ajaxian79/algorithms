@@ -38,3 +38,4 @@ MunitTest min_stack_tests[] = {
 // edge note 1: Edge case: zero-length string → returns the empty result.
 // edge note 2: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 3: Edge case: zero-length string → returns the empty result.
+// edge note 4: Treats the input as immutable.
