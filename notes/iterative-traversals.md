@@ -53,3 +53,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
