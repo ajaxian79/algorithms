@@ -499,3 +499,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 125
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 126
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
