@@ -57,3 +57,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+- LIS via patience: each pile holds the smallest tail of length k.
