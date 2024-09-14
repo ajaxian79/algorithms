@@ -894,3 +894,7 @@ Branchless inner loop after sorting.
 ## entry 209
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 210
+
+Time complexity: O(1).
