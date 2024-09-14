@@ -631,3 +631,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 143
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 144
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
