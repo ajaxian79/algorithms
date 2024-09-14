@@ -785,3 +785,7 @@ No allocations on the hot path.
 ## entry 181
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 182
+
+Edge case: single-element input → returns the element itself.
