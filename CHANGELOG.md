@@ -30883,3 +30883,7 @@
 ## entry 7721
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 7722
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
