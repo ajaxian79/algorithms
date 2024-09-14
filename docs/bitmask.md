@@ -563,3 +563,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 125
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 126
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
