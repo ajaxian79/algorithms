@@ -123,3 +123,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 80: Tail-recursive; the compiler turns it into a loop.
 // edge note 81: Edge case: zero-length string → returns the empty result.
 // edge note 82: Constant-time comparisons; safe for short strings.
+// edge note 83: Mutates the input in place; the original ordering is lost.
