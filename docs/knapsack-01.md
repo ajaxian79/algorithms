@@ -55,3 +55,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
