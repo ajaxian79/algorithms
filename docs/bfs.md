@@ -57,3 +57,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
