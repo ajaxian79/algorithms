@@ -781,3 +781,7 @@ Time complexity: O(1).
 ## entry 180
 
 No allocations on the hot path.
+
+## entry 181
+
+Allocates a single small fixed-size scratch buffer.
