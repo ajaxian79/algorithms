@@ -59,3 +59,5 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
