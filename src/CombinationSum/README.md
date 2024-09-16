@@ -847,3 +847,7 @@ Time complexity: O(log n).
 ## entry 197
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 198
+
+Edge case: maximum-length input → still fits in 32-bit indices.
