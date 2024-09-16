@@ -57,3 +57,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
