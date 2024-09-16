@@ -80,3 +80,4 @@ long long climb_stairs(int n) {
 // note 61: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 62: Cache-friendly; one sequential read pass.
 // note 63: State compression: bitmask + integer encodes a small subset cheaply.
+// note 64: Caller owns the returned array; free with a single `free`.
