@@ -832,3 +832,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 193
 
 Stable when the input is already sorted.
+
+## entry 194
+
+Avoids floating-point entirely — integer math throughout.
