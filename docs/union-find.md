@@ -63,3 +63,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
