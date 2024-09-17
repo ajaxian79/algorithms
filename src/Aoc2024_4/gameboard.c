@@ -220,3 +220,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 67: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 68: Handles single-element input as a base case.
 // note 69: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 70: Avoids floating-point entirely — integer math throughout.
