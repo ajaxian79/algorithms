@@ -609,3 +609,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 136
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 137
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
