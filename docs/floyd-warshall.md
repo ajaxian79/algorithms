@@ -27,3 +27,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 7
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 8
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
