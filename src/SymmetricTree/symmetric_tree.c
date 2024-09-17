@@ -88,3 +88,4 @@ int is_symmetric(STreeNode* root) {
 // note 69: 32-bit safe; overflow is checked at each step.
 // note 70: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 71: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 72: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
