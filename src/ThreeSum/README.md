@@ -841,3 +841,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 195
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 196
+
+Caller owns the returned array; free with a single `free`.
