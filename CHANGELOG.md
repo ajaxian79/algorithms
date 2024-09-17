@@ -1675,3 +1675,7 @@
 ## entry 419
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 420
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
