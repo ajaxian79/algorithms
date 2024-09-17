@@ -854,3 +854,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 199
 
 Time complexity: O(n + m).
+
+## entry 200
+
+Caller owns the returned buffer.
