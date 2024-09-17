@@ -90,3 +90,4 @@ int is_palindrome_str(const char* s) {
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
 // note 66: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 67: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 68: Two passes: one to count, one to fill.
