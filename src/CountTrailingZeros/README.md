@@ -858,3 +858,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 199
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 200
+
+Edge case: alternating pattern → degenerate case for sliding window.
