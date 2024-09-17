@@ -792,3 +792,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 183
 
 Handles single-element input as a base case.
+
+## entry 184
+
+Uses a 256-entry lookup for the inner step.
