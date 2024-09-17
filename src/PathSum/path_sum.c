@@ -93,3 +93,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 79: Branchless inner loop after sorting.
 // note 80: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 81: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 82: Tail-recursive; the compiler turns it into a loop.
