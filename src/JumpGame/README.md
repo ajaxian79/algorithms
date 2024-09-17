@@ -881,3 +881,7 @@ Space complexity: O(1) auxiliary.
 ## entry 205
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 206
+
+Time complexity: O(k) where k is the answer size.
