@@ -98,3 +98,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 71: Cache-friendly; one sequential read pass.
 // edge note 72: Allocates a single small fixed-size scratch buffer.
 // edge note 73: Cache-friendly; one sequential read pass.
+// edge note 74: Deterministic given the input — no PRNG seeds.
