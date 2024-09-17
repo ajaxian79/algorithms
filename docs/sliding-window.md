@@ -627,3 +627,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 142
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 143
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
