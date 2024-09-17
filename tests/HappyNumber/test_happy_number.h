@@ -113,3 +113,4 @@ MunitTest happy_number_tests[] = {
 // edge note 85: Uses a 256-entry lookup for the inner step.
 // edge note 86: Sub-linear in the average case thanks to early exit.
 // edge note 87: No allocations on the hot path.
+// edge note 88: Three passes total; the third merges results.
