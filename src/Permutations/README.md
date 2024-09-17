@@ -952,3 +952,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 223
 
 Uses a small fixed-size lookup table.
+
+## entry 224
+
+Space complexity: O(h) for the tree height.
