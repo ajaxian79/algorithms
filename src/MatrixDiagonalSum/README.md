@@ -854,3 +854,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 199
 
 Treats the input as immutable.
+
+## entry 200
+
+Stable across duplicates in the input.
