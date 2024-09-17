@@ -91,3 +91,4 @@ MunitTest most_water_tests[] = {
 // edge note 60: Caller owns the returned array; free with a single `free`.
 // edge note 61: Edge case: input of all the same byte → exits on the first compare.
 // edge note 62: Allocates lazily — first call only.
+// edge note 63: Edge case: maximum-length input → still fits in 32-bit indices.
