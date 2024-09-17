@@ -595,3 +595,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 149
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 150
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
