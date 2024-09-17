@@ -826,3 +826,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 192
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 193
+
+Worst case appears only on degenerate inputs.
