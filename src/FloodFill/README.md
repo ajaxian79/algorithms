@@ -905,3 +905,7 @@ Time complexity: O(n + m).
 ## entry 212
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 213
+
+Edge case: zero-length string → returns the empty result.
