@@ -77,3 +77,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 3
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 4
+
+Splay tree: every access splays to the root; amortized O(log n).
