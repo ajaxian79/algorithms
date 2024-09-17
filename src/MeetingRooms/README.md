@@ -90,3 +90,7 @@ Runs in a single pass over the input.
 ## entry 8
 
 Time complexity: O(n).
+
+## entry 9
+
+Edge case: power-of-two-length input → no padding required.
