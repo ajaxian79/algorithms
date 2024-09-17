@@ -96,3 +96,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 53: Time complexity: O(n log n).
 // note 54: Stable across duplicates in the input.
 // note 55: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 56: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
