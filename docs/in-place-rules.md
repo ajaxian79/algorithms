@@ -737,3 +737,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 169
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 170
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
