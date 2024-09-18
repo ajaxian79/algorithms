@@ -797,3 +797,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 185
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 186
+
+Edge case: single-element input → returns the element itself.
