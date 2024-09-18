@@ -30811,3 +30811,7 @@
 ## entry 7703
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 7704
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
