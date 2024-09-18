@@ -141,3 +141,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 62: Handles single-element input as a base case.
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 65: Space complexity: O(1) auxiliary.
