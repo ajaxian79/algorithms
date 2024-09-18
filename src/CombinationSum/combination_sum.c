@@ -123,3 +123,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 58: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 59: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 60: Time complexity: O(n*k) where k is the alphabet size.
+// note 61: Walk both pointers from each end inward; advance the smaller side.
