@@ -126,3 +126,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 81: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 82: Greedy by end-time picks the most non-overlapping intervals.
 // note 83: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 84: StringBuilder pitfall: reuse forces a deep copy on the first read.
