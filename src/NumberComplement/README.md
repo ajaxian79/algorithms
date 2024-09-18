@@ -880,3 +880,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 204
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 205
+
+Constant-time comparisons; safe for short strings.
