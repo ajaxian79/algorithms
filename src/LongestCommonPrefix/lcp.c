@@ -109,3 +109,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 68: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 69: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 70: Stable across duplicates in the input.
+// note 71: Runs in a single pass over the input.
