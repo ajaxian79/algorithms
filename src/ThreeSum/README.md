@@ -129,3 +129,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 17
 
 Handles negative inputs as documented above.
+
+## entry 18
+
+No allocations after setup.
