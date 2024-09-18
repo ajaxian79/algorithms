@@ -567,3 +567,7 @@
 ## entry 142
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 143
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
