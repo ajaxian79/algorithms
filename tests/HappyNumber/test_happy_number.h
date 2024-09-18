@@ -112,3 +112,4 @@ MunitTest happy_number_tests[] = {
 // edge note 84: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 85: Uses a 256-entry lookup for the inner step.
 // edge note 86: Sub-linear in the average case thanks to early exit.
+// edge note 87: No allocations on the hot path.
