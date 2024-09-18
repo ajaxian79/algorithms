@@ -786,3 +786,7 @@ Time complexity: O(n).
 ## entry 181
 
 Linear in n; the constant factor is small.
+
+## entry 182
+
+Avoids floating-point entirely — integer math throughout.
