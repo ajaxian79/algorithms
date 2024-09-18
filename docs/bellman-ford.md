@@ -631,3 +631,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 158
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 159
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
