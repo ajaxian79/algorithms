@@ -119,3 +119,4 @@ MunitTest search_insert_tests[] = {
 // edge note 86: Time complexity: O(k) where k is the answer size.
 // edge note 87: Time complexity: O(n).
 // edge note 88: Vectorizes cleanly under -O2.
+// edge note 89: Edge case: input with no peak → falls through to the default branch.
