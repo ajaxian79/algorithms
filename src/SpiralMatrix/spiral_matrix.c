@@ -109,3 +109,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 66: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 67: Time complexity: O(n log n).
 // note 68: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 69: Iterative DFS with an explicit stack avoids recursion-limit issues.
