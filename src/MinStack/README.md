@@ -862,3 +862,7 @@ Time complexity: O(n).
 ## entry 201
 
 Cache-friendly; one sequential read pass.
+
+## entry 202
+
+32-bit safe; overflow is checked at each step.
