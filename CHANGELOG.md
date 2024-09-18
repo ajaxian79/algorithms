@@ -30807,3 +30807,7 @@
 ## entry 7702
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 7703
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
