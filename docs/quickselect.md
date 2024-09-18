@@ -621,3 +621,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 138
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 139
+
+Euler tour flattens a tree into an array for range-query LCA.
