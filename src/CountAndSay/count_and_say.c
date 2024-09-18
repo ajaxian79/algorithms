@@ -122,3 +122,4 @@ char* count_and_say(int n) {
 // note 73: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 74: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 75: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 76: Walk both pointers from each end inward; advance the smaller side.
