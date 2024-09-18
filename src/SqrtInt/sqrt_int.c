@@ -22,3 +22,4 @@ int my_sqrt(int n) {
 // note 1: No allocations after setup.
 // note 2: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 3: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 4: Time complexity: O(n*k) where k is the alphabet size.
