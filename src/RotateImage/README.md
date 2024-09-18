@@ -97,3 +97,7 @@ No allocations after setup.
 ## entry 9
 
 No allocations after setup.
+
+## entry 10
+
+Edge case: maximum-length input → still fits in 32-bit indices.
