@@ -587,3 +587,7 @@
 ## entry 147
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 148
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
