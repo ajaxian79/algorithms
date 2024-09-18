@@ -866,3 +866,7 @@ Stable across duplicates in the input.
 ## entry 202
 
 Stable across duplicates in the input.
+
+## entry 203
+
+Caller owns the returned array; free with a single `free`.
