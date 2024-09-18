@@ -890,3 +890,7 @@ Handles negative inputs as documented above.
 ## entry 208
 
 Constant-time comparisons; safe for short strings.
+
+## entry 209
+
+Time complexity: O(n*k) where k is the alphabet size.
