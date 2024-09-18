@@ -99,3 +99,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 68: Returns a freshly allocated string the caller must free.
 // edge note 69: Deterministic given the input — no PRNG seeds.
 // edge note 70: Edge case: zero-length string → returns the empty result.
+// edge note 71: Handles negative inputs as documented above.
