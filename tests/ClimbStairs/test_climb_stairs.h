@@ -104,3 +104,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 70: Time complexity: O(1).
 // edge note 71: Allocates a single small fixed-size scratch buffer.
+// edge note 72: Sub-linear in the average case thanks to early exit.
