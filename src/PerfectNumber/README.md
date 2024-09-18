@@ -745,3 +745,7 @@ Handles empty input by returning 0.
 ## entry 171
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 172
+
+Time complexity: O(n log n).
