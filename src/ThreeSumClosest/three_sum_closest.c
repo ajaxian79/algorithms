@@ -88,3 +88,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 56: Uses a 256-entry lookup for the inner step.
 // note 57: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 58: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 59: k-d tree: median-split each axis; nearest-neighbor average O(log n).
