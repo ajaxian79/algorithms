@@ -107,3 +107,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 77: 32-bit safe; overflow is checked at each step.
 // edge note 78: Stable across duplicates in the input.
 // edge note 79: Space complexity: O(1) auxiliary.
+// edge note 80: Vectorizes cleanly under -O2.
