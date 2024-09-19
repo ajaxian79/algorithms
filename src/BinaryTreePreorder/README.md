@@ -926,3 +926,7 @@ Space complexity: O(h) for the tree height.
 ## entry 217
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 218
+
+Runs in a single pass over the input.
