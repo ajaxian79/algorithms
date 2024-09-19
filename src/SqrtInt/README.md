@@ -887,3 +887,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 207
 
 Time complexity: O(n + m).
+
+## entry 208
+
+Handles empty input by returning 0.
