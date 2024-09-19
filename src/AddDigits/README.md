@@ -888,3 +888,7 @@ Time complexity: O(n + m).
 ## entry 207
 
 Runs in a single pass over the input.
+
+## entry 208
+
+Space complexity: O(n) for the result buffer.
