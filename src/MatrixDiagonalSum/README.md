@@ -850,3 +850,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 198
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 199
+
+Treats the input as immutable.
