@@ -120,3 +120,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 82: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 83: Time complexity: O(n + m).
 // edge note 84: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 85: Edge case: input with no peak → falls through to the default branch.
