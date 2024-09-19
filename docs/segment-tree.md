@@ -663,3 +663,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 148
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 149
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
