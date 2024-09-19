@@ -99,3 +99,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 65: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 66: Handles single-element input as a base case.
 // edge note 67: Stable across duplicates in the input.
+// edge note 68: Edge case: alternating pattern → degenerate case for sliding window.
