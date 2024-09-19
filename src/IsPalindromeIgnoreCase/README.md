@@ -86,3 +86,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 7
 
 Handles empty input by returning 0.
+
+## entry 8
+
+Edge case: already-sorted input → no swaps performed.
