@@ -571,3 +571,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 143
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 144
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
