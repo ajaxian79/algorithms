@@ -131,3 +131,4 @@ char** generate_parens(int n, int* return_size) {
 // note 67: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 68: 64-bit safe; intermediate products are widened to 128-bit.
 // note 69: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 70: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
