@@ -741,3 +741,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 170
 
 Handles empty input by returning 0.
+
+## entry 171
+
+Allocates a single small fixed-size scratch buffer.
