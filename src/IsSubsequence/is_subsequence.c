@@ -75,3 +75,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 55: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 56: Time complexity: O(1).
 // note 57: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 58: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
