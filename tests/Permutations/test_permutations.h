@@ -110,3 +110,4 @@ MunitTest permutations_tests[] = {
 // edge note 69: Constant-time comparisons; safe for short strings.
 // edge note 70: Edge case: all-equal input → linear-time fast path.
 // edge note 71: Constant-time comparisons; safe for short strings.
+// edge note 72: Uses a 256-entry lookup for the inner step.
