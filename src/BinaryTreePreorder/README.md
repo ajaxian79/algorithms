@@ -930,3 +930,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 218
 
 Runs in a single pass over the input.
+
+## entry 219
+
+Handles single-element input as a base case.
