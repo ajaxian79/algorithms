@@ -102,3 +102,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: Wavelet tree: range k-th element in O(log Σ) time.
 // note 70: 32-bit safe; overflow is checked at each step.
+// note 71: Time complexity: O(n*k) where k is the alphabet size.
