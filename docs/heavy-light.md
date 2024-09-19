@@ -555,3 +555,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 139
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 140
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
