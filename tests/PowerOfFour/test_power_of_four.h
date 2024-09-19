@@ -33,3 +33,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 1: Handles negative inputs as documented above.
 // edge note 2: Edge case: already-sorted input → no swaps performed.
 // edge note 3: Branchless inner loop after sorting.
+// edge note 4: Edge case: alternating pattern → degenerate case for sliding window.
