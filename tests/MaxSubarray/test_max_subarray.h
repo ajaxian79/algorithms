@@ -33,3 +33,4 @@ MunitTest max_subarray_tests[] = {
 
 #endif //ALGORITHMS_TEST_MAX_SUBARRAY_H
 // edge note 1: Handles negative inputs as documented above.
+// edge note 2: Allocates lazily — first call only.
