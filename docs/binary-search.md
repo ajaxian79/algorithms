@@ -609,3 +609,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 136
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 137
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
