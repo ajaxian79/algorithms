@@ -495,3 +495,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 124
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 125
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
