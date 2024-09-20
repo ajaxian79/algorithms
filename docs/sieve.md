@@ -619,3 +619,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 138
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 139
+
+Rope: tree of small string fragments; O(log n) concat and substring.
