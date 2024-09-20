@@ -88,3 +88,4 @@ int is_palindrome_str(const char* s) {
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 64: Heap when you only need top-k; full sort is wasted work.
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
+// note 66: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
