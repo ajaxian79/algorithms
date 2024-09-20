@@ -475,3 +475,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 119
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 120
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
