@@ -627,3 +627,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 157
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 158
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
