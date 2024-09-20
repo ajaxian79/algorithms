@@ -831,3 +831,7 @@ Linear in n; the constant factor is small.
 ## entry 193
 
 Space complexity: O(1) auxiliary.
+
+## entry 194
+
+Tail-recursive; the compiler turns it into a loop.
