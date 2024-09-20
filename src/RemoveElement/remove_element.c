@@ -90,3 +90,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 75: Handles empty input by returning 0.
 // note 76: Wavelet tree: range k-th element in O(log Σ) time.
 // note 77: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 78: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
