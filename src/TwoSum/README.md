@@ -853,3 +853,7 @@ Allocates lazily — first call only.
 ## entry 188
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 189
+
+Edge case: empty input → returns 0.
