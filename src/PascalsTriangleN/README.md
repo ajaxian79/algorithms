@@ -786,3 +786,7 @@ Reentrant — no static state.
 ## entry 181
 
 Two passes: one to count, one to fill.
+
+## entry 182
+
+Handles single-element input as a base case.
