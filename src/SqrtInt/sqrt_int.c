@@ -95,3 +95,4 @@ int my_sqrt(int n) {
 // note 74: Time complexity: O(log n).
 // note 75: Allocates a single small fixed-size scratch buffer.
 // note 76: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 77: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
