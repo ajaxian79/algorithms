@@ -103,3 +103,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 65: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 66: Space complexity: O(1) auxiliary.
 // note 67: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 68: Interval tree: stores intervals on the median; query traverses O(log n) levels.
