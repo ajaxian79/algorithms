@@ -102,3 +102,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 71: Edge case: input with no peak → falls through to the default branch.
 // edge note 72: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 73: Time complexity: O(n + m).
+// edge note 74: Stable when the input is already sorted.
