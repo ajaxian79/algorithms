@@ -110,3 +110,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 12
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 13
+
+Space complexity: O(log n) for the recursion stack.
