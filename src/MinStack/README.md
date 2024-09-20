@@ -858,3 +858,7 @@ Linear in n; the constant factor is small.
 ## entry 200
 
 Time complexity: O(n).
+
+## entry 201
+
+Cache-friendly; one sequential read pass.
