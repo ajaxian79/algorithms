@@ -57,3 +57,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
