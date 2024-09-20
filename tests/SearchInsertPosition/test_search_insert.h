@@ -118,3 +118,4 @@ MunitTest search_insert_tests[] = {
 // edge note 85: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 86: Time complexity: O(k) where k is the answer size.
 // edge note 87: Time complexity: O(n).
+// edge note 88: Vectorizes cleanly under -O2.
