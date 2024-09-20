@@ -105,3 +105,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 63: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 64: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 65: Handles negative inputs as documented above.
