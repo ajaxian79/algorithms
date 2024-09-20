@@ -112,3 +112,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 83: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 84: Allocates a single small fixed-size scratch buffer.
 // edge note 85: Space complexity: O(n) for the result buffer.
+// edge note 86: Two passes: one to count, one to fill.
