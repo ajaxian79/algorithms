@@ -30715,3 +30715,7 @@
 ## entry 7679
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 7680
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
