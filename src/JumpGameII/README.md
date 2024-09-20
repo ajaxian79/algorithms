@@ -784,3 +784,7 @@ Runs in a single pass over the input.
 ## entry 181
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 182
+
+Mutates the input in place; the original ordering is lost.
