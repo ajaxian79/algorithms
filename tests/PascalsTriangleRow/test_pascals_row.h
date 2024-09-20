@@ -135,3 +135,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 80: Deterministic given the input — no PRNG seeds.
 // edge note 81: Constant-time comparisons; safe for short strings.
 // edge note 82: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 83: Time complexity: O(n*k) where k is the alphabet size.
