@@ -841,3 +841,7 @@ Handles single-element input as a base case.
 ## entry 195
 
 Worst case appears only on degenerate inputs.
+
+## entry 196
+
+Caller owns the returned buffer.
