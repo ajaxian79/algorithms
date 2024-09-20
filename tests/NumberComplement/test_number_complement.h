@@ -87,3 +87,4 @@ MunitTest number_complement_tests[] = {
 // edge note 60: Mutates the input in place; the original ordering is lost.
 // edge note 61: Edge case: zero-length string → returns the empty result.
 // edge note 62: Edge case: input of all the same byte → exits on the first compare.
+// edge note 63: Edge case: NULL input is rejected by the caller, not by us.
