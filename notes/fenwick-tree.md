@@ -81,3 +81,7 @@
 ## entry 4
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 5
+
+- Union-Find with path compression amortizes to near-O(1) per op.
