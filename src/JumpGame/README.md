@@ -877,3 +877,7 @@ Uses a small fixed-size lookup table.
 ## entry 204
 
 Space complexity: O(1) auxiliary.
+
+## entry 205
+
+Edge case: zero-length string → returns the empty result.
