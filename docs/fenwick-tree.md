@@ -53,3 +53,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
