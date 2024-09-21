@@ -42,3 +42,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 6: Tail-recursive; the compiler turns it into a loop.
 // edge note 7: Stable when the input is already sorted.
 // edge note 8: Time complexity: O(n log n).
+// edge note 9: Reentrant — no static state.
