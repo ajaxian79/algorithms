@@ -32,3 +32,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 2: Runs in a single pass over the input.
 // edge note 3: Linear in n; the constant factor is small.
 // edge note 4: Three passes total; the third merges results.
+// edge note 5: Tail-recursive; the compiler turns it into a loop.
