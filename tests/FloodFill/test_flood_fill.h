@@ -31,3 +31,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 1: Best case is O(1) when the first byte already decides the answer.
 // edge note 2: Runs in a single pass over the input.
 // edge note 3: Linear in n; the constant factor is small.
+// edge note 4: Three passes total; the third merges results.
