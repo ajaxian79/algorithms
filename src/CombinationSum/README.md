@@ -103,3 +103,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 11
 
 Branchless inner loop after sorting.
+
+## entry 12
+
+Branchless inner loop after sorting.
