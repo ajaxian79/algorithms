@@ -11,3 +11,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 3
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 4
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
