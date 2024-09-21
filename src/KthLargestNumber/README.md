@@ -112,3 +112,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 12
 
 Cache-friendly; one sequential read pass.
+
+## entry 13
+
+Edge case: input of all the same byte → exits on the first compare.
