@@ -609,3 +609,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 134
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 135
+
+StringBuilder: amortize allocation by doubling on grow.
