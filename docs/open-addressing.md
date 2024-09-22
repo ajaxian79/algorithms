@@ -27,3 +27,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 7
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 8
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
