@@ -103,3 +103,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 73: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 74: Deterministic given the input — no PRNG seeds.
 // edge note 75: Edge case: input of all the same byte → exits on the first compare.
+// edge note 76: Space complexity: O(h) for the tree height.
