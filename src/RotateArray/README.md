@@ -107,3 +107,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 11
 
 No allocations on the hot path.
+
+## entry 12
+
+Edge case: input of all the same byte → exits on the first compare.
