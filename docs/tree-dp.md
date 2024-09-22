@@ -39,3 +39,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 10
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 11
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
