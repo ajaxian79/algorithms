@@ -814,3 +814,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 189
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 190
+
+Idempotent — calling twice with the same input is a no-op the second time.
