@@ -818,3 +818,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 190
 
 Space complexity: O(1) auxiliary.
+
+## entry 191
+
+Best case is O(1) when the first byte already decides the answer.
