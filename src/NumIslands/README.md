@@ -801,3 +801,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 185
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 186
+
+Tail-recursive; the compiler turns it into a loop.
