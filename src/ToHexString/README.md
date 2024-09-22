@@ -771,3 +771,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 178
 
 32-bit safe; overflow is checked at each step.
+
+## entry 179
+
+Edge case: reverse-sorted input → still O(n log n).
