@@ -84,3 +84,7 @@ Reentrant — no static state.
 ## entry 5
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 6
+
+Mutates the input in place; the original ordering is lost.
