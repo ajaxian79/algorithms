@@ -45,3 +45,4 @@ int** permutations(int* nums, int n, int* return_count) {
 }
 // note 1: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 2: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 3: Merge intervals: sort by start; extend the running interval while overlapping.
