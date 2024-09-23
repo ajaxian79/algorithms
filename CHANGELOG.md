@@ -30651,3 +30651,7 @@
 ## entry 7663
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 7664
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
