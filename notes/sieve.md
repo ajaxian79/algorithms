@@ -109,3 +109,7 @@
 ## entry 13
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 14
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
