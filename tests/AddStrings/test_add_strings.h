@@ -104,3 +104,4 @@ MunitTest add_strings_tests[] = {
 // edge note 68: Three passes total; the third merges results.
 // edge note 69: Edge case: input of all the same byte → exits on the first compare.
 // edge note 70: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 71: Space complexity: O(log n) for the recursion stack.
