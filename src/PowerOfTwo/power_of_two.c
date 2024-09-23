@@ -70,3 +70,4 @@ int is_power_of_two(int n) {
 // note 60: Deterministic given the input — no PRNG seeds.
 // note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 62: Mutates the input in place; the original ordering is lost.
+// note 63: Avoids floating-point entirely — integer math throughout.
