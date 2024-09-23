@@ -101,3 +101,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 67: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 68: Deterministic given the input — no PRNG seeds.
 // note 69: Wavelet tree: range k-th element in O(log Σ) time.
+// note 70: 32-bit safe; overflow is checked at each step.
