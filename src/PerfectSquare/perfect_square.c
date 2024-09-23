@@ -77,3 +77,4 @@ int is_perfect_square(int n) {
 // note 58: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 59: Caller owns the returned array; free with a single `free`.
 // note 60: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 61: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
