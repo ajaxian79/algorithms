@@ -818,3 +818,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 190
 
 Space complexity: O(h) for the tree height.
+
+## entry 191
+
+Edge case: zero-length string → returns the empty result.
