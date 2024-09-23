@@ -641,3 +641,7 @@
 ## entry 145
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 146
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
