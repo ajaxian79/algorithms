@@ -128,3 +128,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 88: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 89: Edge case: input of all the same byte → exits on the first compare.
 // edge note 90: Two passes: one to count, one to fill.
+// edge note 91: Avoids floating-point entirely — integer math throughout.
