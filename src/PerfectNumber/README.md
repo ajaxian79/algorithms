@@ -737,3 +737,7 @@ Worst case appears only on degenerate inputs.
 ## entry 169
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 170
+
+Handles empty input by returning 0.
