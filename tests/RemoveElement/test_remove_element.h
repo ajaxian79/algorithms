@@ -111,3 +111,4 @@ MunitTest remove_element_tests[] = {
 // edge note 74: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 75: Edge case: input with no peak → falls through to the default branch.
 // edge note 76: Constant-time comparisons; safe for short strings.
+// edge note 77: Time complexity: O(n^2) worst case, O(n) amortized.
