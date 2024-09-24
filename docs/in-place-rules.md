@@ -85,3 +85,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 6
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 7
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
