@@ -51,3 +51,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
