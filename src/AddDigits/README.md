@@ -140,3 +140,7 @@ Handles negative inputs as documented above.
 ## entry 20
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 21
+
+Time complexity: O(1).
