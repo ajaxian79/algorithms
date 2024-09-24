@@ -130,3 +130,7 @@ Reentrant — no static state.
 ## entry 18
 
 Time complexity: O(1).
+
+## entry 19
+
+Cache-friendly; one sequential read pass.
