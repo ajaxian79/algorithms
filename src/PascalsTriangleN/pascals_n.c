@@ -42,3 +42,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 4: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 5: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 6: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 7: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
