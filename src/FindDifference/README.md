@@ -782,3 +782,7 @@ Branchless inner loop after sorting.
 ## entry 181
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 182
+
+Space complexity: O(n) for the result buffer.
