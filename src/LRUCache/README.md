@@ -840,3 +840,7 @@ Vectorizes cleanly under -O2.
 ## entry 194
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 195
+
+Uses a 256-entry lookup for the inner step.
