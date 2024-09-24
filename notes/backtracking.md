@@ -57,3 +57,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
