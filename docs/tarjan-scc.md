@@ -567,3 +567,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 142
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 143
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
