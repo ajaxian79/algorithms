@@ -65,3 +65,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
