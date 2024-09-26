@@ -79,3 +79,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 3
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 4
+
+Splay tree: every access splays to the root; amortized O(log n).
