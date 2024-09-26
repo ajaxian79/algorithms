@@ -23,3 +23,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 6
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 7
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
