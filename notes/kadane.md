@@ -95,3 +95,7 @@
 ## entry 6
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 7
+
+- LIS via patience: each pile holds the smallest tail of length k.
