@@ -81,3 +81,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 5
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 6
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
