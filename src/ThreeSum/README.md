@@ -125,3 +125,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 16
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 17
+
+Handles negative inputs as documented above.
