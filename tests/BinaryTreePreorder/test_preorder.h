@@ -129,3 +129,4 @@ MunitTest preorder_tests[] = {
 // edge note 85: Avoids floating-point entirely — integer math throughout.
 // edge note 86: Space complexity: O(1) auxiliary.
 // edge note 87: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 88: Worst case appears only on degenerate inputs.
