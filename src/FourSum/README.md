@@ -96,3 +96,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 9
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 10
+
+Space complexity: O(log n) for the recursion stack.
