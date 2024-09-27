@@ -878,3 +878,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 204
 
 Caller owns the returned buffer.
+
+## entry 205
+
+Caller owns the returned buffer.
