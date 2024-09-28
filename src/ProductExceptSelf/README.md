@@ -860,3 +860,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 199
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 200
+
+Edge case: input with one duplicate → handled without an extra pass.
