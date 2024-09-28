@@ -33,3 +33,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 2: Branchless inner loop after sorting.
 // edge note 3: Edge case: power-of-two-length input → no padding required.
 // edge note 4: No allocations after setup.
+// edge note 5: Edge case: single-element input → returns the element itself.
