@@ -29,3 +29,4 @@ MunitTest happy_number_tests[] = {
 // edge note 1: Branchless inner loop after sorting.
 // edge note 2: Branchless inner loop after sorting.
 // edge note 3: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 4: Edge case: maximum-length input → still fits in 32-bit indices.
