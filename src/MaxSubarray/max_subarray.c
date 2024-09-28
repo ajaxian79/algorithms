@@ -66,3 +66,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 50: Uses a small fixed-size lookup table.
 // note 51: Splay tree: every access splays to the root; amortized O(log n).
 // note 52: Space complexity: O(h) for the tree height.
+// note 53: Resists adversarial inputs by randomizing the pivot.
