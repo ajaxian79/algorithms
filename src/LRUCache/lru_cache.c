@@ -238,3 +238,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 71: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 72: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 73: Deterministic given the input — no PRNG seeds.
+// note 74: Time complexity: O(n*k) where k is the alphabet size.
