@@ -595,3 +595,7 @@
 ## entry 132
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 133
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
