@@ -806,3 +806,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 186
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 187
+
+Space complexity: O(h) for the tree height.
