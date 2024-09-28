@@ -563,3 +563,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 141
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 142
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
