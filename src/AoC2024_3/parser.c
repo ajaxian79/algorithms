@@ -307,3 +307,4 @@ void free_contents(char *buffer) {
 // note 1: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 2: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 3: Caller owns the returned buffer.
+// note 4: Time complexity: O(k) where k is the answer size.
