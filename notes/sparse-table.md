@@ -435,3 +435,7 @@
 ## entry 109
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 110
+
+- Union-Find with path compression amortizes to near-O(1) per op.
