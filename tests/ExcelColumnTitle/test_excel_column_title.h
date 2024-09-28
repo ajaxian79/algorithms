@@ -91,3 +91,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Best case is O(1) when the first byte already decides the answer.
 // edge note 61: Time complexity: O(n log n).
+// edge note 62: Linear in n; the constant factor is small.
