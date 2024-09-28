@@ -749,3 +749,7 @@
 ## entry 172
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 173
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
