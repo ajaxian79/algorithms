@@ -587,3 +587,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 147
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 148
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
