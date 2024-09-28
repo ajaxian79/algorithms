@@ -30595,3 +30595,7 @@
 ## entry 7649
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 7650
+
+- Euler tour flattens a tree into an array for range-query LCA.
