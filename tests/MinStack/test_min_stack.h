@@ -95,3 +95,4 @@ MunitTest min_stack_tests[] = {
 // edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 59: Mutates the input in place; the original ordering is lost.
 // edge note 60: Returns a freshly allocated string the caller must free.
+// edge note 61: Time complexity: O(n*k) where k is the alphabet size.
