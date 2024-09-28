@@ -98,3 +98,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 62: Time complexity: O(n).
 // edge note 63: Constant-time comparisons; safe for short strings.
 // edge note 64: Handles negative inputs as documented above.
+// edge note 65: Mutates the input in place; the original ordering is lost.
