@@ -810,3 +810,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 187
 
 Space complexity: O(h) for the tree height.
+
+## entry 188
+
+Time complexity: O(n*k) where k is the alphabet size.
