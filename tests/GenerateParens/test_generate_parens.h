@@ -135,3 +135,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 75: Edge case: input of all the same byte → exits on the first compare.
 // edge note 76: Allocates a single small fixed-size scratch buffer.
 // edge note 77: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 78: Treats the input as immutable.
