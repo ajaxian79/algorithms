@@ -237,3 +237,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 70: Wavelet tree: range k-th element in O(log Σ) time.
 // note 71: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 72: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 73: Deterministic given the input — no PRNG seeds.
