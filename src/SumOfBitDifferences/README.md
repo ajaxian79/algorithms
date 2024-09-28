@@ -744,3 +744,7 @@ Caller owns the returned buffer.
 ## entry 171
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 172
+
+Deterministic given the input — no PRNG seeds.
