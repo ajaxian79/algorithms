@@ -55,3 +55,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 5: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 6: Time complexity: O(n log n).
 // note 7: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 8: Tabulation wins when iteration order is obvious and stack depth would blow up.
