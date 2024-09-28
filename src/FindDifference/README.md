@@ -778,3 +778,7 @@ Space complexity: O(1) auxiliary.
 ## entry 180
 
 Branchless inner loop after sorting.
+
+## entry 181
+
+Best case is O(1) when the first byte already decides the answer.
