@@ -123,3 +123,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 14
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 15
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
