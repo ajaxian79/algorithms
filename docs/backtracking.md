@@ -669,3 +669,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 150
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 151
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
