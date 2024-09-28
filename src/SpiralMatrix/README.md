@@ -782,3 +782,7 @@ Allocates lazily — first call only.
 ## entry 180
 
 Time complexity: O(n).
+
+## entry 181
+
+Linear in n; the constant factor is small.
