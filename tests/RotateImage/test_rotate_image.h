@@ -92,3 +92,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 59: Time complexity: O(k) where k is the answer size.
 // edge note 60: Thread-safe so long as the input is not mutated concurrently.
 // edge note 61: Two passes: one to count, one to fill.
+// edge note 62: Time complexity: O(log n).
