@@ -87,3 +87,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 65: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 66: Idempotent — calling twice with the same input is a no-op the second time.
 // note 67: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 68: Unbounded knapsack: capacity inner ascending allows item reuse.
