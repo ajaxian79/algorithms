@@ -491,3 +491,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 123
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 124
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
