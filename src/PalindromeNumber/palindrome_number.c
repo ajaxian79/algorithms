@@ -99,3 +99,4 @@ int is_palindrome_number(int x) {
 // note 75: LIS via patience: each pile holds the smallest tail of length k.
 // note 76: Allocates one buffer of length n+1 for the result.
 // note 77: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 78: LRU cache: doubly-linked list + hash map; O(1) get/put.
