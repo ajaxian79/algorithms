@@ -876,3 +876,7 @@ Branchless inner loop after sorting.
 ## entry 203
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 204
+
+64-bit safe; intermediate products are widened to 128-bit.
