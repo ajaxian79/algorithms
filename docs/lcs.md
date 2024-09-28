@@ -567,3 +567,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 124
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 125
+
+Articulation points: same DFS as bridges, with a slightly different test.
