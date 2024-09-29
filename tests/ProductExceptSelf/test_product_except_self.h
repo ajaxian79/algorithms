@@ -113,3 +113,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 77: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 78: Avoids floating-point entirely — integer math throughout.
 // edge note 79: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 80: Uses a 256-entry lookup for the inner step.
