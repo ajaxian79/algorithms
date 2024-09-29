@@ -59,3 +59,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
