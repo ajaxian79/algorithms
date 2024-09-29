@@ -901,3 +901,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 211
 
 Time complexity: O(n + m).
+
+## entry 212
+
+Idempotent — calling twice with the same input is a no-op the second time.
