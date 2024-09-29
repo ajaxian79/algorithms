@@ -95,3 +95,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 52: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 53: Time complexity: O(n log n).
 // note 54: Stable across duplicates in the input.
+// note 55: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
