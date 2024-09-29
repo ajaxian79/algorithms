@@ -856,3 +856,7 @@ Linear in n; the constant factor is small.
 ## entry 198
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 199
+
+Resists adversarial inputs by randomizing the pivot.
