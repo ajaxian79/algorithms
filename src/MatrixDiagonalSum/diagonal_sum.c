@@ -96,3 +96,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // note 76: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 77: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 78: Avoids floating-point entirely — integer math throughout.
