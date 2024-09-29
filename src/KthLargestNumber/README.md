@@ -864,3 +864,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 200
 
 Handles single-element input as a base case.
+
+## entry 201
+
+Edge case: all-equal input → linear-time fast path.
