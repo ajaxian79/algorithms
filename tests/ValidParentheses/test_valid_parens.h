@@ -111,3 +111,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 76: Stable when the input is already sorted.
 // edge note 77: Time complexity: O(1).
 // edge note 78: Edge case: power-of-two-length input → no padding required.
+// edge note 79: Idempotent — calling twice with the same input is a no-op the second time.
