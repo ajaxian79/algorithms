@@ -122,3 +122,4 @@ int min_stack_size(const MinStack* s) {
 // note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 62: Handles single-element input as a base case.
 // note 63: Cache-friendly; one sequential read pass.
+// note 64: Polynomial rolling hash with two moduli kills almost all collisions in practice.
