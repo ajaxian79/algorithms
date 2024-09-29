@@ -67,3 +67,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
