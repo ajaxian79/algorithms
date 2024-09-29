@@ -118,3 +118,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 68: Edge case: already-sorted input → no swaps performed.
 // edge note 69: 32-bit safe; overflow is checked at each step.
 // edge note 70: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 71: Resists adversarial inputs by randomizing the pivot.
