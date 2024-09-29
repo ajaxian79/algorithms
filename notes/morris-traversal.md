@@ -61,3 +61,5 @@
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
