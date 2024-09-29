@@ -824,3 +824,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 190
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 191
+
+Edge case: empty input → returns 0.
