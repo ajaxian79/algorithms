@@ -561,3 +561,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 124
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 125
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
