@@ -519,3 +519,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 130
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 131
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
