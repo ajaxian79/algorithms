@@ -778,3 +778,7 @@ Stable when the input is already sorted.
 ## entry 179
 
 Allocates lazily — first call only.
+
+## entry 180
+
+Time complexity: O(n).
