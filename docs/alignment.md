@@ -571,3 +571,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 143
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 144
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
