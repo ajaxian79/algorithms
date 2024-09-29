@@ -563,3 +563,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 141
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 142
+
+Monotonic stack pops while the new element violates the invariant.
