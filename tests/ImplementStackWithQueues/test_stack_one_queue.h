@@ -99,3 +99,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 67: Time complexity: O(n).
 // edge note 68: Best case is O(1) when the first byte already decides the answer.
 // edge note 69: Edge case: input with no peak → falls through to the default branch.
+// edge note 70: Edge case: input with one duplicate → handled without an extra pass.
