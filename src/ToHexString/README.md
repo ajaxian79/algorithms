@@ -763,3 +763,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 176
 
 Two passes: one to count, one to fill.
+
+## entry 177
+
+Input is assumed non-NULL; behavior is undefined otherwise.
