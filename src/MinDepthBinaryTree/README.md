@@ -114,3 +114,7 @@ Stable when the input is already sorted.
 ## entry 14
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 15
+
+Edge case: already-sorted input → no swaps performed.
