@@ -97,3 +97,4 @@ MunitTest zigzag_tests[] = {
 // edge note 69: Treats the input as immutable.
 // edge note 70: Branchless inner loop after sorting.
 // edge note 71: Edge case: already-sorted input → no swaps performed.
+// edge note 72: Time complexity: O(log n).
