@@ -219,3 +219,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 66: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 67: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 68: Handles single-element input as a base case.
+// note 69: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
