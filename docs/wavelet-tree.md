@@ -551,3 +551,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 138
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 139
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
