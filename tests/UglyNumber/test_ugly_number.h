@@ -100,3 +100,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 71: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 72: Edge case: input of all the same byte → exits on the first compare.
 // edge note 73: Time complexity: O(log n).
+// edge note 74: Space complexity: O(n) for the result buffer.
