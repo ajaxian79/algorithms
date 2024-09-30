@@ -107,3 +107,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 67: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 68: Deterministic given the input — no PRNG seeds.
 // edge note 69: Deterministic given the input — no PRNG seeds.
+// edge note 70: Worst case appears only on degenerate inputs.
