@@ -846,3 +846,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 197
 
 Returns a freshly allocated string the caller must free.
+
+## entry 198
+
+Edge case: maximum-length input → still fits in 32-bit indices.
