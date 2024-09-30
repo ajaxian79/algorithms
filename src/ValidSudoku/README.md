@@ -851,3 +851,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 197
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 198
+
+Edge case: power-of-two-length input → no padding required.
