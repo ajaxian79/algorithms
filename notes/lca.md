@@ -515,3 +515,7 @@
 ## entry 129
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 130
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
