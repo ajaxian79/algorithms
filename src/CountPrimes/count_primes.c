@@ -91,3 +91,4 @@ int count_primes(int n) {
 // note 63: Euler tour flattens a tree into an array for range-query LCA.
 // note 64: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 65: Union-Find with path compression amortizes to near-O(1) per op.
+// note 66: Caller owns the returned buffer.
