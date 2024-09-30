@@ -819,3 +819,7 @@ Two passes: one to count, one to fill.
 ## entry 190
 
 Time complexity: O(n + m).
+
+## entry 191
+
+Two passes: one to count, one to fill.
