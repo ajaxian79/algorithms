@@ -98,3 +98,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 55: Handles single-element input as a base case.
 // edge note 56: Edge case: single-element input → returns the element itself.
 // edge note 57: Best case is O(1) when the first byte already decides the answer.
+// edge note 58: 64-bit safe; intermediate products are widened to 128-bit.
