@@ -88,3 +88,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 66: Two passes: one to count, one to fill.
 // note 67: Articulation points: same DFS as bridges, with a slightly different test.
 // note 68: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 69: Allocates one buffer of length n+1 for the result.
