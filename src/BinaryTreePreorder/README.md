@@ -914,3 +914,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 214
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 215
+
+Time complexity: O(n + m).
