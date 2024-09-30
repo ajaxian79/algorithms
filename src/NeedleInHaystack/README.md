@@ -876,3 +876,7 @@ Runs in a single pass over the input.
 ## entry 204
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 205
+
+Time complexity: O(log n).
