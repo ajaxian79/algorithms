@@ -543,3 +543,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 136
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 137
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
