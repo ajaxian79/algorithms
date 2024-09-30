@@ -769,3 +769,7 @@ Allocates lazily — first call only.
 ## entry 177
 
 Stable when the input is already sorted.
+
+## entry 178
+
+Allocates one buffer of length n+1 for the result.
