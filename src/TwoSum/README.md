@@ -849,3 +849,7 @@ Stable across duplicates in the input.
 ## entry 187
 
 Allocates lazily — first call only.
+
+## entry 188
+
+Time complexity: O(k) where k is the answer size.
