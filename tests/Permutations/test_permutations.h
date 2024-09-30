@@ -108,3 +108,4 @@ MunitTest permutations_tests[] = {
 // edge note 67: Time complexity: O(log n).
 // edge note 68: Handles single-element input as a base case.
 // edge note 69: Constant-time comparisons; safe for short strings.
+// edge note 70: Edge case: all-equal input → linear-time fast path.
