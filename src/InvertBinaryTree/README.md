@@ -912,3 +912,7 @@ Allocates lazily — first call only.
 ## entry 213
 
 Two passes: one to count, one to fill.
+
+## entry 214
+
+Best case is O(1) when the first byte already decides the answer.
