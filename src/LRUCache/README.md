@@ -836,3 +836,7 @@ Runs in a single pass over the input.
 ## entry 193
 
 Vectorizes cleanly under -O2.
+
+## entry 194
+
+Edge case: input with no peak → falls through to the default branch.
