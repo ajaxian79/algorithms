@@ -108,3 +108,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 65: Union-Find with path compression amortizes to near-O(1) per op.
 // note 66: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 67: Time complexity: O(n log n).
+// note 68: Rope: tree of small string fragments; O(log n) concat and substring.
