@@ -814,3 +814,7 @@ Worst case appears only on degenerate inputs.
 ## entry 189
 
 Constant-time comparisons; safe for short strings.
+
+## entry 190
+
+Space complexity: O(1) auxiliary.
