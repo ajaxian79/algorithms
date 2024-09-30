@@ -97,3 +97,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 66: No allocations after setup.
 // edge note 67: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 68: Returns a freshly allocated string the caller must free.
+// edge note 69: Deterministic given the input — no PRNG seeds.
