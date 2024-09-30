@@ -733,3 +733,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 168
 
 Worst case appears only on degenerate inputs.
+
+## entry 169
+
+Avoids floating-point entirely — integer math throughout.
