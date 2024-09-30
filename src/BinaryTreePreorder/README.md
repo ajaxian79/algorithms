@@ -918,3 +918,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 215
 
 Time complexity: O(n + m).
+
+## entry 216
+
+Space complexity: O(h) for the tree height.
