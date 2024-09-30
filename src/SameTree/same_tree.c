@@ -85,3 +85,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 71: Allocates lazily — first call only.
 // note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 73: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 74: BFS layers carry implicit shortest-path distance in unweighted graphs.
