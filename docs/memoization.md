@@ -535,3 +535,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 134
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 135
+
+Euler tour flattens a tree into an array for range-query LCA.
