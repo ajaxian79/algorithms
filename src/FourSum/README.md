@@ -884,3 +884,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 206
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 207
+
+Time complexity: O(n*k) where k is the alphabet size.
