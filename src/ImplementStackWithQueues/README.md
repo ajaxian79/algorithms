@@ -820,3 +820,7 @@ Stable when the input is already sorted.
 ## entry 190
 
 Linear in n; the constant factor is small.
+
+## entry 191
+
+Thread-safe so long as the input is not mutated concurrently.
