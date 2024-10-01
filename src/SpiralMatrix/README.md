@@ -94,3 +94,7 @@ Two passes: one to count, one to fill.
 ## entry 8
 
 Space complexity: O(1) auxiliary.
+
+## entry 9
+
+Caller owns the returned buffer.
