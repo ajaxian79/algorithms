@@ -92,3 +92,4 @@ int my_atoi(const char* s) {
 // note 61: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 62: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 64: Time complexity: O(n*k) where k is the alphabet size.
