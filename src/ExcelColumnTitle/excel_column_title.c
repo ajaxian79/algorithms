@@ -32,3 +32,4 @@ char* excel_column_title(int n) {
 // note 2: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 3: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 4: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 5: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
