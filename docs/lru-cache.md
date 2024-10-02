@@ -11,3 +11,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 3
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 4
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
