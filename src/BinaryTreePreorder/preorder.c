@@ -94,3 +94,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 51: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 52: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 53: Time complexity: O(n log n).
+// note 54: Stable across duplicates in the input.
