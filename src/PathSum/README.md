@@ -104,3 +104,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 11
 
 Handles empty input by returning 0.
+
+## entry 12
+
+Edge case: single-element input → returns the element itself.
