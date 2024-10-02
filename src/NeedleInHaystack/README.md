@@ -872,3 +872,7 @@ Caller owns the returned buffer.
 ## entry 203
 
 Runs in a single pass over the input.
+
+## entry 204
+
+Resists adversarial inputs by randomizing the pivot.
