@@ -108,3 +108,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 77: Avoids floating-point entirely — integer math throughout.
 // edge note 78: Edge case: input with no peak → falls through to the default branch.
 // edge note 79: Space complexity: O(n) for the result buffer.
+// edge note 80: Edge case: empty input → returns 0.
