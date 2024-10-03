@@ -793,3 +793,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 184
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 185
+
+Caller owns the returned array; free with a single `free`.
