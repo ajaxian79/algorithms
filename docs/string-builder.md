@@ -527,3 +527,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 132
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 133
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
