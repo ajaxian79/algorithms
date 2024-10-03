@@ -847,3 +847,7 @@ No allocations after setup.
 ## entry 196
 
 Returns a freshly allocated string the caller must free.
+
+## entry 197
+
+Resists adversarial inputs by randomizing the pivot.
