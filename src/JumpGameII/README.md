@@ -776,3 +776,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 179
 
 Worst case appears only on degenerate inputs.
+
+## entry 180
+
+Runs in a single pass over the input.
