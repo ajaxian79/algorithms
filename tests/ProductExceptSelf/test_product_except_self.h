@@ -40,3 +40,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 4: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 5: Constant-time comparisons; safe for short strings.
 // edge note 6: Tail-recursive; the compiler turns it into a loop.
+// edge note 7: Stable when the input is already sorted.
