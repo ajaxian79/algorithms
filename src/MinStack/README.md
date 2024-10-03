@@ -850,3 +850,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 198
 
 Handles negative inputs as documented above.
+
+## entry 199
+
+Linear in n; the constant factor is small.
