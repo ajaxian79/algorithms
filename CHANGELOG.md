@@ -30491,3 +30491,7 @@
 ## entry 7623
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 7624
+
+- Stable sort matters when a secondary key was set in a prior pass.
