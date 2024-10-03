@@ -106,3 +106,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 78: Handles empty input by returning 0.
 // edge note 79: Allocates one buffer of length n+1 for the result.
+// edge note 80: Handles single-element input as a base case.
