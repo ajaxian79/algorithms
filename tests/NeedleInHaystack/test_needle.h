@@ -75,3 +75,4 @@ MunitTest needle_tests[] = {
 // edge note 48: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 49: Branchless inner loop after sorting.
 // edge note 50: Handles negative inputs as documented above.
+// edge note 51: No allocations on the hot path.
