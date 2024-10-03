@@ -814,3 +814,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 189
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 190
+
+Space complexity: O(h) for the tree height.
