@@ -111,3 +111,4 @@ MunitTest path_sum_tests[] = {
 // edge note 72: Handles single-element input as a base case.
 // edge note 73: Time complexity: O(n).
 // edge note 74: Edge case: input with no peak → falls through to the default branch.
+// edge note 75: Returns a freshly allocated string the caller must free.
