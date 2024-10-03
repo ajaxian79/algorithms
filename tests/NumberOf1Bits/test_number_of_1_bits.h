@@ -101,3 +101,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 74: Avoids floating-point entirely — integer math throughout.
 // edge note 75: Space complexity: O(1) auxiliary.
 // edge note 76: 32-bit safe; overflow is checked at each step.
+// edge note 77: Allocates one buffer of length n+1 for the result.
