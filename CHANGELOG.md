@@ -30483,3 +30483,7 @@
 ## entry 7621
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 7622
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
