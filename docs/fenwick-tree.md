@@ -591,3 +591,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 132
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 133
+
+Heap when you only need top-k; full sort is wasted work.
