@@ -845,3 +845,7 @@ Space complexity: O(h) for the tree height.
 ## entry 186
 
 Stable across duplicates in the input.
+
+## entry 187
+
+Allocates lazily — first call only.
