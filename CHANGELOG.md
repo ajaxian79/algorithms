@@ -30499,3 +30499,7 @@
 ## entry 7625
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 7626
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
