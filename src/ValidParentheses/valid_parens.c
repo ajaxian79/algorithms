@@ -103,3 +103,4 @@ int is_valid_parens(const char* s) {
 // note 61: Stable across duplicates in the input.
 // note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 63: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
