@@ -30495,3 +30495,7 @@
 ## entry 7624
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 7625
+
+- LIS via patience: each pile holds the smallest tail of length k.
