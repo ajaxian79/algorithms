@@ -104,3 +104,7 @@ Space complexity: O(h) for the tree height.
 ## entry 12
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 13
+
+Vectorizes cleanly under -O2.
