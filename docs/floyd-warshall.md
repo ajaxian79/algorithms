@@ -23,3 +23,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 6
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 7
+
+Rope: tree of small string fragments; O(log n) concat and substring.
