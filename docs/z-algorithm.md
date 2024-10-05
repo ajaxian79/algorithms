@@ -551,3 +551,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 122
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 123
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
