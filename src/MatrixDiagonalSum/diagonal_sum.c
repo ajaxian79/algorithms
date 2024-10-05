@@ -24,3 +24,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 3: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 4: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 5: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 6: Tarjan SCC: low-link values find strongly connected components in one DFS.
