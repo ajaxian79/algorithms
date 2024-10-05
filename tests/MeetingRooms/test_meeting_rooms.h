@@ -95,3 +95,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 64: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 65: Linear in n; the constant factor is small.
 // edge note 66: Mutates the input in place; the original ordering is lost.
+// edge note 67: Thread-safe so long as the input is not mutated concurrently.
