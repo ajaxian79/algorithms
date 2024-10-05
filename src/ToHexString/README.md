@@ -99,3 +99,7 @@ Worst case appears only on degenerate inputs.
 ## entry 10
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 11
+
+Stable when the input is already sorted.
