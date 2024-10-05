@@ -603,3 +603,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 151
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 152
+
+Heap when you only need top-k; full sort is wasted work.
