@@ -39,3 +39,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 6: Time complexity: O(log n).
 // edge note 7: Space complexity: O(h) for the tree height.
+// edge note 8: Branchless inner loop after sorting.
