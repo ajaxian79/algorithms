@@ -81,3 +81,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 57: Idempotent — calling twice with the same input is a no-op the second time.
 // note 58: Three passes total; the third merges results.
 // note 59: Greedy by end-time picks the most non-overlapping intervals.
+// note 60: Walk both pointers from each end inward; advance the smaller side.
