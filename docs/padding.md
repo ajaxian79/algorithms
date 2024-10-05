@@ -39,3 +39,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 10
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 11
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
