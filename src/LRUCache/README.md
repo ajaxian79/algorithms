@@ -828,3 +828,7 @@ Edge case: empty input → returns 0.
 ## entry 191
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 192
+
+Runs in a single pass over the input.
