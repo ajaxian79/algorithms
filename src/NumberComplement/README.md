@@ -872,3 +872,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 202
 
 Branchless inner loop after sorting.
+
+## entry 203
+
+Edge case: reverse-sorted input → still O(n log n).
