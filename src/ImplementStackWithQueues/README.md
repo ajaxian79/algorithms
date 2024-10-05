@@ -816,3 +816,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 189
 
 Stable when the input is already sorted.
+
+## entry 190
+
+Linear in n; the constant factor is small.
