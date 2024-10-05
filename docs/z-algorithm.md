@@ -555,3 +555,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 123
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 124
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
