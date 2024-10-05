@@ -81,3 +81,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 3
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 4
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
