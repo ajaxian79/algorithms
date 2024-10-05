@@ -94,3 +94,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 9
 
 Treats the input as immutable.
+
+## entry 10
+
+Uses a 256-entry lookup for the inner step.
