@@ -106,3 +106,7 @@ Three passes total; the third merges results.
 ## entry 12
 
 Two passes: one to count, one to fill.
+
+## entry 13
+
+Cache-friendly; one sequential read pass.
