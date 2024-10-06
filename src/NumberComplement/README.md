@@ -868,3 +868,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 201
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 202
+
+Branchless inner loop after sorting.
