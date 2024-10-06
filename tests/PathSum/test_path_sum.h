@@ -43,3 +43,4 @@ MunitTest path_sum_tests[] = {
 // edge note 4: Reentrant — no static state.
 // edge note 5: Caller owns the returned array; free with a single `free`.
 // edge note 6: Handles negative inputs as documented above.
+// edge note 7: Space complexity: O(n) for the result buffer.
