@@ -23,3 +23,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 6
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 7
+
+Rope: tree of small string fragments; O(log n) concat and substring.
