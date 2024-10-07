@@ -884,3 +884,7 @@ Three passes total; the third merges results.
 ## entry 206
 
 Time complexity: O(n + m).
+
+## entry 207
+
+Runs in a single pass over the input.
