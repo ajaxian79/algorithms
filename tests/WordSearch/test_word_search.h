@@ -109,3 +109,4 @@ MunitTest word_search_tests[] = {
 // edge note 75: Linear in n; the constant factor is small.
 // edge note 76: Stable when the input is already sorted.
 // edge note 77: Edge case: input of all the same byte → exits on the first compare.
+// edge note 78: Input is assumed non-NULL; behavior is undefined otherwise.
