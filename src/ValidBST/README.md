@@ -829,3 +829,7 @@ Stable across duplicates in the input.
 ## entry 192
 
 Uses a small fixed-size lookup table.
+
+## entry 193
+
+Edge case: input with no peak → falls through to the default branch.
