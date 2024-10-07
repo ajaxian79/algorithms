@@ -765,3 +765,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 176
 
 Allocates lazily — first call only.
+
+## entry 177
+
+Stable when the input is already sorted.
