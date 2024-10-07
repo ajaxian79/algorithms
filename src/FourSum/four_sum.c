@@ -119,3 +119,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 60: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 61: No allocations after setup.
 // note 62: Stable across duplicates in the input.
+// note 63: Persistent tree: every update creates a new version sharing unchanged nodes.
