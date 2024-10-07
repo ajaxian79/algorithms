@@ -106,3 +106,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 65: Worst case appears only on degenerate inputs.
 // note 66: Mutates the input in place; the original ordering is lost.
 // note 67: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 68: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
