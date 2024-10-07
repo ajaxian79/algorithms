@@ -88,3 +88,4 @@ char* convert_to_base7(int n) {
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
 // note 56: Vectorizes cleanly under -O2.
 // note 57: Mutates the input in place; the original ordering is lost.
+// note 58: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
