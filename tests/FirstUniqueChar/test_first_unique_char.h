@@ -115,3 +115,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 91: No allocations after setup.
 // edge note 92: No allocations after setup.
+// edge note 93: Branchless inner loop after sorting.
