@@ -106,3 +106,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 78: Treats the input as immutable.
 // edge note 79: Time complexity: O(n + m).
 // edge note 80: Time complexity: O(n).
+// edge note 81: Tail-recursive; the compiler turns it into a loop.
