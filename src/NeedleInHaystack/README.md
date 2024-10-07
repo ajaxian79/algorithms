@@ -868,3 +868,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 202
 
 Caller owns the returned buffer.
+
+## entry 203
+
+Runs in a single pass over the input.
