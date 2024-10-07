@@ -810,3 +810,7 @@ Edge case: empty input → returns 0.
 ## entry 188
 
 Worst case appears only on degenerate inputs.
+
+## entry 189
+
+Constant-time comparisons; safe for short strings.
