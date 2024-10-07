@@ -94,3 +94,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 76: Caller owns the returned array; free with a single `free`.
 // note 77: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 78: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 79: ASCII rules are a strict subset of UTF-8; no special handling needed.
