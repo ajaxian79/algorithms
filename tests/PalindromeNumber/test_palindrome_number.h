@@ -117,3 +117,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 82: Returns a freshly allocated string the caller must free.
 // edge note 83: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 84: Edge case: already-sorted input → no swaps performed.
+// edge note 85: Three passes total; the third merges results.
