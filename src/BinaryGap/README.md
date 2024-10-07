@@ -874,3 +874,7 @@ Three passes total; the third merges results.
 ## entry 203
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 204
+
+Caller owns the returned buffer.
