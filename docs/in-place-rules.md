@@ -721,3 +721,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 165
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 166
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
