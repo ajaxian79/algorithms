@@ -774,3 +774,7 @@ Vectorizes cleanly under -O2.
 ## entry 178
 
 Vectorizes cleanly under -O2.
+
+## entry 179
+
+Time complexity: O(n log n).
