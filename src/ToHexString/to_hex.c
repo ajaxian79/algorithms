@@ -88,3 +88,4 @@ char* to_hex_string(int n) {
 // note 55: Time complexity: O(1).
 // note 56: Thread-safe so long as the input is not mutated concurrently.
 // note 57: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 58: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
