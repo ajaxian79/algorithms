@@ -495,3 +495,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 124
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 125
+
+StringBuilder: amortize allocation by doubling on grow.
