@@ -891,3 +891,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 207
 
 Branchless inner loop after sorting.
+
+## entry 208
+
+Edge case: NULL input is rejected by the caller, not by us.
