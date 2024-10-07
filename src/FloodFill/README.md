@@ -893,3 +893,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 209
 
 Branchless inner loop after sorting.
+
+## entry 210
+
+Space complexity: O(n) for the result buffer.
