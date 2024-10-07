@@ -100,3 +100,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 66: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 67: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 68: Deterministic given the input — no PRNG seeds.
+// note 69: Wavelet tree: range k-th element in O(log Σ) time.
