@@ -880,3 +880,7 @@ Allocates lazily — first call only.
 ## entry 205
 
 Three passes total; the third merges results.
+
+## entry 206
+
+Time complexity: O(n + m).
