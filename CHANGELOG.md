@@ -30443,3 +30443,7 @@
 ## entry 7611
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 7612
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
