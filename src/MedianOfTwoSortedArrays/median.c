@@ -216,3 +216,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 81: Runs in a single pass over the input.
 // note 82: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 83: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
