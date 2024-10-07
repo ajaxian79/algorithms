@@ -92,3 +92,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 63: Runs in a single pass over the input.
 // edge note 64: Time complexity: O(k) where k is the answer size.
 // edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 66: Three passes total; the third merges results.
