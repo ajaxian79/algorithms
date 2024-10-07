@@ -122,3 +122,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 77: Time complexity: O(1).
 // note 78: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 79: Allocates lazily — first call only.
+// note 80: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
