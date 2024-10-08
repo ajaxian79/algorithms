@@ -810,3 +810,7 @@ Edge case: empty input → returns 0.
 ## entry 188
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 189
+
+Edge case: input with a single peak → handled by the first-pass scan.
