@@ -583,3 +583,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 146
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 147
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
