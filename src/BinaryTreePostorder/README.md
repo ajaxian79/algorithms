@@ -846,3 +846,7 @@ Handles single-element input as a base case.
 ## entry 197
 
 Caller owns the returned buffer.
+
+## entry 198
+
+Constant-time comparisons; safe for short strings.
