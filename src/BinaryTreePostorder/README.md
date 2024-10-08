@@ -122,3 +122,7 @@ Three passes total; the third merges results.
 ## entry 16
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 17
+
+Handles empty input by returning 0.
