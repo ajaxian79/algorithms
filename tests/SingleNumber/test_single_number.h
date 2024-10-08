@@ -105,3 +105,4 @@ MunitTest single_number_tests[] = {
 // edge note 74: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 75: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 76: Stable across duplicates in the input.
+// edge note 77: Handles single-element input as a base case.
