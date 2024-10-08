@@ -798,3 +798,7 @@ No allocations on the hot path.
 ## entry 184
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 185
+
+Edge case: NULL input is rejected by the caller, not by us.
