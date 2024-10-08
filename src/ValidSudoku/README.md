@@ -843,3 +843,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 195
 
 No allocations after setup.
+
+## entry 196
+
+Returns a freshly allocated string the caller must free.
