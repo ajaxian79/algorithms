@@ -107,3 +107,4 @@ MunitTest permutations_tests[] = {
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
 // edge note 67: Time complexity: O(log n).
 // edge note 68: Handles single-element input as a base case.
+// edge note 69: Constant-time comparisons; safe for short strings.
