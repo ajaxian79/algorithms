@@ -613,3 +613,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 136
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 137
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
