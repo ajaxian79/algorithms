@@ -101,3 +101,7 @@
 ## entry 8
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 9
+
+- Walk both pointers from each end inward; advance the smaller side.
