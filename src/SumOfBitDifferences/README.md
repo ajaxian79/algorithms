@@ -732,3 +732,7 @@ Time complexity: O(log n).
 ## entry 168
 
 Handles empty input by returning 0.
+
+## entry 169
+
+Time complexity: O(log n).
