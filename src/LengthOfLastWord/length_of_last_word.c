@@ -81,3 +81,4 @@ int length_of_last_word(const char* s) {
 // note 63: Allocates lazily — first call only.
 // note 64: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 65: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 66: Space complexity: O(n) for the result buffer.
