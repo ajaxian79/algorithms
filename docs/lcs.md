@@ -563,3 +563,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 123
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 124
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
