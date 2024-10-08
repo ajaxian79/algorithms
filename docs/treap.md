@@ -515,3 +515,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 129
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 130
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
