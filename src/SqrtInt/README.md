@@ -879,3 +879,7 @@ Reentrant — no static state.
 ## entry 205
 
 Edge case: single-element input → returns the element itself.
+
+## entry 206
+
+Mutates the input in place; the original ordering is lost.
