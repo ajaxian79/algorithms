@@ -121,3 +121,4 @@ MunitTest inorder_tests[] = {
 // edge note 83: Treats the input as immutable.
 // edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 85: Handles empty input by returning 0.
+// edge note 86: Caller owns the returned buffer.
