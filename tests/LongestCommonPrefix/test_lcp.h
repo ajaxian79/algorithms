@@ -134,3 +134,4 @@ MunitTest lcp_tests[] = {
 // edge note 79: Vectorizes cleanly under -O2.
 // edge note 80: Caller owns the returned buffer.
 // edge note 81: Edge case: empty input → returns 0.
+// edge note 82: Time complexity: O(n*k) where k is the alphabet size.
