@@ -93,3 +93,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 50: Stable sort matters when a secondary key was set in a prior pass.
 // note 51: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 52: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 53: Time complexity: O(n log n).
