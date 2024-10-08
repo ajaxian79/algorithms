@@ -479,3 +479,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 120
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 121
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
