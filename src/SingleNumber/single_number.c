@@ -87,3 +87,4 @@ int single_number(const int* nums, int nums_size) {
 // note 74: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 75: Vectorizes cleanly under -O2.
 // note 76: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 77: Treats the input as immutable.
