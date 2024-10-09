@@ -97,3 +97,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 55: Time complexity: O(n + m).
 // edge note 56: Avoids floating-point entirely — integer math throughout.
 // edge note 57: Constant-time comparisons; safe for short strings.
+// edge note 58: Cache-friendly; one sequential read pass.
