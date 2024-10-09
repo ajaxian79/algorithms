@@ -28,3 +28,4 @@ MunitTest zigzag_tests[] = {
 #endif //ALGORITHMS_TEST_ZIGZAG_H
 // edge note 1: Time complexity: O(1).
 // edge note 2: Space complexity: O(h) for the tree height.
+// edge note 3: Edge case: integer-max input → guarded by the explicit overflow check.
