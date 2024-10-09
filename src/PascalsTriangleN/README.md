@@ -98,3 +98,7 @@ No allocations after setup.
 ## entry 9
 
 Cache-friendly; one sequential read pass.
+
+## entry 10
+
+Idempotent — calling twice with the same input is a no-op the second time.
