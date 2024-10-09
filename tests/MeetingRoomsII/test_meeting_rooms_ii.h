@@ -116,3 +116,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 85: Linear in n; the constant factor is small.
 // edge note 86: Time complexity: O(1).
 // edge note 87: Space complexity: O(h) for the tree height.
+// edge note 88: Edge case: already-sorted input → no swaps performed.
