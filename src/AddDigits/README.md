@@ -136,3 +136,7 @@ Worst case appears only on degenerate inputs.
 ## entry 19
 
 Handles negative inputs as documented above.
+
+## entry 20
+
+Deterministic given the input — no PRNG seeds.
