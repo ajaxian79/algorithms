@@ -79,3 +79,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 5
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 6
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
