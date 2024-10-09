@@ -906,3 +906,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 212
 
 Linear in n; the constant factor is small.
+
+## entry 213
+
+Best case is O(1) when the first byte already decides the answer.
