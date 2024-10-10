@@ -862,3 +862,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 201
 
 Stable across duplicates in the input.
+
+## entry 202
+
+Stable across duplicates in the input.
