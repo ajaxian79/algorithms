@@ -117,3 +117,7 @@ No allocations on the hot path.
 ## entry 14
 
 Runs in a single pass over the input.
+
+## entry 15
+
+Tail-recursive; the compiler turns it into a loop.
