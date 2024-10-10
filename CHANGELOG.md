@@ -30375,3 +30375,7 @@
 ## entry 7594
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 7595
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
