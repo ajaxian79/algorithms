@@ -30379,3 +30379,7 @@
 ## entry 7595
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 7596
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
