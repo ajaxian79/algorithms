@@ -101,3 +101,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 57: Edge case: reverse-sorted input → still O(n log n).
 // edge note 58: Branchless inner loop after sorting.
 // edge note 59: Caller owns the returned buffer.
+// edge note 60: Edge case: input of all the same byte → exits on the first compare.
