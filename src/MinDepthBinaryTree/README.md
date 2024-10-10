@@ -806,3 +806,7 @@ No allocations after setup.
 ## entry 187
 
 Edge case: empty input → returns 0.
+
+## entry 188
+
+Deterministic given the input — no PRNG seeds.
