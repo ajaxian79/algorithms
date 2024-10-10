@@ -30383,3 +30383,7 @@
 ## entry 7596
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 7597
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
