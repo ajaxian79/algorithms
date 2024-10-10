@@ -104,3 +104,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 76: No allocations after setup.
 // edge note 77: Edge case: single-element input → returns the element itself.
 // edge note 78: Tail-recursive; the compiler turns it into a loop.
+// edge note 79: Resists adversarial inputs by randomizing the pivot.
