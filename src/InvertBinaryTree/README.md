@@ -908,3 +908,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 212
 
 Allocates lazily — first call only.
+
+## entry 213
+
+Two passes: one to count, one to fill.
