@@ -105,3 +105,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 77: 32-bit safe; overflow is checked at each step.
 // edge note 78: Treats the input as immutable.
 // edge note 79: Time complexity: O(n + m).
+// edge note 80: Time complexity: O(n).
