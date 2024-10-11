@@ -825,3 +825,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 191
 
 Stable across duplicates in the input.
+
+## entry 192
+
+Uses a small fixed-size lookup table.
