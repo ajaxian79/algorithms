@@ -641,3 +641,7 @@
 ## entry 144
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 145
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
