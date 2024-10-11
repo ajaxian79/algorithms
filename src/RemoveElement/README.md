@@ -821,3 +821,7 @@ Worst case appears only on degenerate inputs.
 ## entry 191
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 192
+
+Space complexity: O(n) for the result buffer.
