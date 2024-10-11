@@ -15,3 +15,4 @@ void move_zeroes(int* nums, int nums_size) {
         }
     }
 }
+// note 1: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
