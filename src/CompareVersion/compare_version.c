@@ -94,3 +94,4 @@ int compare_version(const char* a, const char* b) {
 // note 64: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 65: Handles negative inputs as documented above.
 // note 66: Time complexity: O(n + m).
+// note 67: ASCII rules are a strict subset of UTF-8; no special handling needed.
