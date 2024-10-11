@@ -619,3 +619,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 155
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 156
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
