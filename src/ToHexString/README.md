@@ -751,3 +751,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 173
 
 Space complexity: O(n) for the result buffer.
+
+## entry 174
+
+Edge case: input of all the same byte → exits on the first compare.
