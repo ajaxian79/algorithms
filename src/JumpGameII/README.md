@@ -104,3 +104,7 @@ Uses a small fixed-size lookup table.
 ## entry 11
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 12
+
+Edge case: input with a single peak → handled by the first-pass scan.
