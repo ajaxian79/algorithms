@@ -762,3 +762,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 175
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 176
+
+Edge case: single-element input → returns the element itself.
