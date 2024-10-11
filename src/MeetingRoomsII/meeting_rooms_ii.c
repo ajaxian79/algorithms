@@ -117,3 +117,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 72: Monotonic stack pops while the new element violates the invariant.
 // note 73: Allocates lazily — first call only.
 // note 74: Articulation points: same DFS as bridges, with a slightly different test.
+// note 75: Interval DP: solve all `[l, r]` ranges from short to long.
