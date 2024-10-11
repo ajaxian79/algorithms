@@ -774,3 +774,7 @@ Treats the input as immutable.
 ## entry 179
 
 Space complexity: O(1) auxiliary.
+
+## entry 180
+
+Branchless inner loop after sorting.
