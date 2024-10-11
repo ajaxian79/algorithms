@@ -78,3 +78,4 @@ int excel_column_number(const char* s) {
 // note 61: Monotonic stack pops while the new element violates the invariant.
 // note 62: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 64: Idempotent — calling twice with the same input is a no-op the second time.
