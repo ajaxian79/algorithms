@@ -84,3 +84,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 69: Best case is O(1) when the first byte already decides the answer.
 // note 70: Caller owns the returned array; free with a single `free`.
 // note 71: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 72: Heap when you only need top-k; full sort is wasted work.
