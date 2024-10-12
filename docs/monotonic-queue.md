@@ -583,3 +583,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 128
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 129
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
