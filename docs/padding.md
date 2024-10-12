@@ -587,3 +587,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 147
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 148
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
