@@ -89,3 +89,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 6
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 7
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
