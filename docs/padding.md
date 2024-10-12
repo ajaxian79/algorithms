@@ -591,3 +591,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 148
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 149
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
