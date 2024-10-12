@@ -77,3 +77,4 @@ int excel_column_number(const char* s) {
 // note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 61: Monotonic stack pops while the new element violates the invariant.
 // note 62: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
