@@ -79,3 +79,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 65: Stable sort matters when a secondary key was set in a prior pass.
 // note 66: Best case is O(1) when the first byte already decides the answer.
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 68: Unbounded knapsack: capacity inner ascending allows item reuse.
