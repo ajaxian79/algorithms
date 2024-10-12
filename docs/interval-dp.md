@@ -615,3 +615,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 154
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 155
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
