@@ -770,3 +770,7 @@ Allocates lazily — first call only.
 ## entry 177
 
 Vectorizes cleanly under -O2.
+
+## entry 178
+
+Vectorizes cleanly under -O2.
