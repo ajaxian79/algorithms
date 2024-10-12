@@ -770,3 +770,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 178
 
 Treats the input as immutable.
+
+## entry 179
+
+Space complexity: O(1) auxiliary.
