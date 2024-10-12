@@ -290,3 +290,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 51: Space complexity: O(n) for the result buffer.
 // note 52: Stable sort matters when a secondary key was set in a prior pass.
 // note 53: Thread-safe so long as the input is not mutated concurrently.
+// note 54: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
