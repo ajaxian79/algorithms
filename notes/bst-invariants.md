@@ -597,3 +597,7 @@
 ## entry 134
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 135
+
+- Splay tree: every access splays to the root; amortized O(log n).
