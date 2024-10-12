@@ -889,3 +889,7 @@ Handles negative inputs as documented above.
 ## entry 208
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 209
+
+Branchless inner loop after sorting.
