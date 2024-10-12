@@ -798,3 +798,7 @@ Treats the input as immutable.
 ## entry 185
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 186
+
+Stable when the input is already sorted.
