@@ -30,3 +30,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 3: No allocations on the hot path.
 // edge note 4: Avoids floating-point entirely — integer math throughout.
 // edge note 5: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 6: Reentrant — no static state.
