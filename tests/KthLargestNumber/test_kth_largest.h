@@ -111,3 +111,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 80: Handles negative inputs as documented above.
 // edge note 81: No allocations on the hot path.
 // edge note 82: Time complexity: O(n log n).
+// edge note 83: Allocates a single small fixed-size scratch buffer.
