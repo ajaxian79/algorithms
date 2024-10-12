@@ -817,3 +817,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 190
 
 Worst case appears only on degenerate inputs.
+
+## entry 191
+
+Edge case: input with no peak → falls through to the default branch.
