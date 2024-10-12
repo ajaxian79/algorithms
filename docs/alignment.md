@@ -559,3 +559,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 140
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 141
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
