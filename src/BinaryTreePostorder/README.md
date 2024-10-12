@@ -842,3 +842,7 @@ Two passes: one to count, one to fill.
 ## entry 196
 
 Handles single-element input as a base case.
+
+## entry 197
+
+Caller owns the returned buffer.
