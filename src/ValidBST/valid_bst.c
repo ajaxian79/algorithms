@@ -93,3 +93,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 75: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 76: Caller owns the returned array; free with a single `free`.
 // note 77: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 78: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
