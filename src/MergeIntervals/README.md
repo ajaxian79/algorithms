@@ -90,3 +90,7 @@ No allocations after setup.
 ## entry 7
 
 Handles empty input by returning 0.
+
+## entry 8
+
+Time complexity: O(1).
