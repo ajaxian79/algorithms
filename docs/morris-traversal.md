@@ -575,3 +575,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 129
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 130
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
