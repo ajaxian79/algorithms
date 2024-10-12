@@ -810,3 +810,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 188
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 189
+
+Time complexity: O(k) where k is the answer size.
