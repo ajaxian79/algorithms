@@ -840,3 +840,7 @@ Handles single-element input as a base case.
 ## entry 194
 
 Time complexity: O(n).
+
+## entry 195
+
+Time complexity: O(n*k) where k is the alphabet size.
