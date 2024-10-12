@@ -579,3 +579,7 @@
 ## entry 129
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 130
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
