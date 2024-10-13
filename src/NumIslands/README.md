@@ -101,3 +101,7 @@ Handles single-element input as a base case.
 ## entry 10
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 11
+
+Edge case: input with a single peak → handled by the first-pass scan.
