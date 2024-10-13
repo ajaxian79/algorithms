@@ -623,3 +623,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 139
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 140
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
