@@ -80,3 +80,4 @@ int max_area(const int* heights, int n) {
 // note 60: Greedy by end-time picks the most non-overlapping intervals.
 // note 61: Time complexity: O(log n).
 // note 62: Sub-linear in the average case thanks to early exit.
+// note 63: Euler tour flattens a tree into an array for range-query LCA.
