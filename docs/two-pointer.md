@@ -59,3 +59,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
