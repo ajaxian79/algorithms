@@ -26,3 +26,4 @@ int is_happy(int n) {
 }
 // note 1: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 2: Allocates a single small fixed-size scratch buffer.
+// note 3: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
