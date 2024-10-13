@@ -770,3 +770,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 168
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 169
+
+Stable when the input is already sorted.
