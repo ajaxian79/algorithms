@@ -571,3 +571,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 126
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 127
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
