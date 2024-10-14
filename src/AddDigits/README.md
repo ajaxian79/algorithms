@@ -872,3 +872,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 203
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 204
+
+Allocates lazily — first call only.
