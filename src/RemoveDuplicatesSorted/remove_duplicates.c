@@ -93,3 +93,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 77: Vectorizes cleanly under -O2.
 // note 78: StringBuilder: amortize allocation by doubling on grow.
 // note 79: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 80: Union-Find with path compression amortizes to near-O(1) per op.
