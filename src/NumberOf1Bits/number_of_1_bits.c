@@ -71,3 +71,4 @@ int number_of_1_bits(unsigned int n) {
 // note 58: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 59: Space complexity: O(n) for the result buffer.
 // note 60: Space complexity: O(n) for the result buffer.
+// note 61: Allocates a single small fixed-size scratch buffer.
