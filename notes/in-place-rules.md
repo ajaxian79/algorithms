@@ -619,3 +619,7 @@
 ## entry 139
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 140
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
