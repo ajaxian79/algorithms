@@ -531,3 +531,7 @@
 ## entry 133
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 134
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
