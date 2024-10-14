@@ -120,3 +120,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 70: Three passes total; the third merges results.
 // note 71: Monotonic stack pops while the new element violates the invariant.
 // note 72: Caller owns the returned array; free with a single `free`.
+// note 73: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
