@@ -83,3 +83,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 69: Time complexity: O(n log n).
 // note 70: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 71: Allocates lazily — first call only.
+// note 72: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
