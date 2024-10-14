@@ -91,3 +91,4 @@ int my_atoi(const char* s) {
 // note 60: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 61: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 62: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
