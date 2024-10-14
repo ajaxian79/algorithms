@@ -583,3 +583,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 146
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 147
+
+Rope: tree of small string fragments; O(log n) concat and substring.
