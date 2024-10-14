@@ -864,3 +864,7 @@ Stable across duplicates in the input.
 ## entry 201
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 202
+
+Caller owns the returned buffer.
