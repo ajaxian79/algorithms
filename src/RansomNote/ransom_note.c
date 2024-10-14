@@ -84,3 +84,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 63: Space complexity: O(log n) for the recursion stack.
 // note 64: Space complexity: O(1) auxiliary.
 // note 65: Time complexity: O(n*k) where k is the alphabet size.
+// note 66: Articulation points: same DFS as bridges, with a slightly different test.
