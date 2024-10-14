@@ -758,3 +758,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 175
 
 Handles negative inputs as documented above.
+
+## entry 176
+
+Edge case: input with a single peak → handled by the first-pass scan.
