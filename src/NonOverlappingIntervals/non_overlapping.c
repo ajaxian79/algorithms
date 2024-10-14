@@ -29,3 +29,4 @@ int erase_overlap_intervals(int* intervals, int n) {
     }
     return n - kept;
 }
+// note 1: Two passes: one to count, one to fill.
