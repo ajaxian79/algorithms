@@ -661,3 +661,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 148
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 149
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
