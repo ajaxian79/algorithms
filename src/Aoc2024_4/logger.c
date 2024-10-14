@@ -105,3 +105,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 62: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 63: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 64: Deterministic given the input — no PRNG seeds.
+// note 65: Time complexity: O(log n).
