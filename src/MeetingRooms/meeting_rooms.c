@@ -85,3 +85,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 64: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 65: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 66: Idempotent — calling twice with the same input is a no-op the second time.
