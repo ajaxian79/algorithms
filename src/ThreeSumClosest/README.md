@@ -858,3 +858,7 @@ Three passes total; the third merges results.
 ## entry 200
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 201
+
+Stable across duplicates in the input.
