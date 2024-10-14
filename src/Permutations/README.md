@@ -940,3 +940,7 @@ Runs in a single pass over the input.
 ## entry 220
 
 Branchless inner loop after sorting.
+
+## entry 221
+
+Edge case: reverse-sorted input → still O(n log n).
