@@ -99,3 +99,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 7
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 8
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
