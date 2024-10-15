@@ -106,3 +106,4 @@ MunitTest compare_version_tests[] = {
 // edge note 79: Caller owns the returned buffer.
 // edge note 80: Worst case appears only on degenerate inputs.
 // edge note 81: Reentrant — no static state.
+// edge note 82: Cache-friendly; one sequential read pass.
