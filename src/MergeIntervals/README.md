@@ -850,3 +850,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 197
 
 Handles empty input by returning 0.
+
+## entry 198
+
+Sub-linear in the average case thanks to early exit.
