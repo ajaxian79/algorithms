@@ -559,3 +559,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 140
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 141
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
