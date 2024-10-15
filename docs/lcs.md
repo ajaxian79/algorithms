@@ -559,3 +559,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 122
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 123
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
