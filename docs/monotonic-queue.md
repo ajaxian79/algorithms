@@ -55,3 +55,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
