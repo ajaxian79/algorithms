@@ -491,3 +491,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 123
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 124
+
+Greedy by end-time picks the most non-overlapping intervals.
