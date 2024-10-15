@@ -111,3 +111,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 75: Stable when the input is already sorted.
 // edge note 76: Time complexity: O(n).
 // edge note 77: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 78: Avoids floating-point entirely — integer math throughout.
