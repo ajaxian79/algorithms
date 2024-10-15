@@ -545,3 +545,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 120
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 121
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
