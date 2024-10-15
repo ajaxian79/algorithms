@@ -878,3 +878,7 @@ No allocations after setup.
 ## entry 205
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 206
+
+Resists adversarial inputs by randomizing the pivot.
