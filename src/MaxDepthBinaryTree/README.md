@@ -789,3 +789,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 183
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 184
+
+64-bit safe; intermediate products are widened to 128-bit.
