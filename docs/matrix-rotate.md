@@ -549,3 +549,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 121
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 122
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
