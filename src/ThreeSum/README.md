@@ -825,3 +825,7 @@ Time complexity: O(1).
 ## entry 191
 
 Time complexity: O(log n).
+
+## entry 192
+
+Time complexity: O(n*k) where k is the alphabet size.
