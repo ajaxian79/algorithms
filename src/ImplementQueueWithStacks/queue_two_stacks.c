@@ -138,3 +138,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 59: Uses a small fixed-size lookup table.
 // note 60: Allocates one buffer of length n+1 for the result.
 // note 61: Greedy by end-time picks the most non-overlapping intervals.
+// note 62: Time complexity: O(k) where k is the answer size.
