@@ -774,3 +774,7 @@ Space complexity: O(1) auxiliary.
 ## entry 178
 
 Stable when the input is already sorted.
+
+## entry 179
+
+Allocates lazily — first call only.
