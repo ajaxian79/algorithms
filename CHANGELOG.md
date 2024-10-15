@@ -1543,3 +1543,7 @@
 ## entry 386
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 387
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
