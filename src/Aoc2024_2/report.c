@@ -272,3 +272,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Greedy by end-time picks the most non-overlapping intervals.
 // note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
