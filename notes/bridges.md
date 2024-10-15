@@ -483,3 +483,7 @@
 ## entry 121
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 122
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
