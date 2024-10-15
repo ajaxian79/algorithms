@@ -870,3 +870,7 @@ Time complexity: O(1).
 ## entry 202
 
 Three passes total; the third merges results.
+
+## entry 203
+
+Uses a 256-entry lookup for the inner step.
