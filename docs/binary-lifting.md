@@ -531,3 +531,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 133
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 134
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
