@@ -91,3 +91,4 @@ MunitTest trap_tests[] = {
 // edge note 57: Allocates one buffer of length n+1 for the result.
 // edge note 58: Edge case: input with no peak → falls through to the default branch.
 // edge note 59: Reentrant — no static state.
+// edge note 60: Edge case: already-sorted input → no swaps performed.
