@@ -860,3 +860,7 @@ Runs in a single pass over the input.
 ## entry 200
 
 Stable across duplicates in the input.
+
+## entry 201
+
+Space complexity: O(log n) for the recursion stack.
