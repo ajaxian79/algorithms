@@ -42,3 +42,4 @@ MunitTest merge_intervals_tests[] = {
 #endif //ALGORITHMS_TEST_MERGE_INTERVALS_H
 // edge note 1: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 2: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 3: Resists adversarial inputs by randomizing the pivot.
