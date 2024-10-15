@@ -834,3 +834,7 @@ Stable across duplicates in the input.
 ## entry 194
 
 Time complexity: O(n + m).
+
+## entry 195
+
+Edge case: maximum-length input → still fits in 32-bit indices.
