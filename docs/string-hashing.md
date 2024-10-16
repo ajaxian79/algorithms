@@ -575,3 +575,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 127
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 128
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
