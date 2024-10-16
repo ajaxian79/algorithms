@@ -71,3 +71,4 @@ char find_difference(const char* s, const char* t) {
 // note 55: Handles empty input by returning 0.
 // note 56: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 57: Caller owns the returned buffer.
+// note 58: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
