@@ -567,3 +567,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 142
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 143
+
+Rope: tree of small string fragments; O(log n) concat and substring.
