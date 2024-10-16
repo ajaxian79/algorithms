@@ -98,3 +98,4 @@ char* reverse_words(const char* s) {
 // note 54: StringBuilder: amortize allocation by doubling on grow.
 // note 55: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 57: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
