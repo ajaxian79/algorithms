@@ -812,3 +812,7 @@ Handles empty input by returning 0.
 ## entry 188
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 189
+
+Stable when the input is already sorted.
