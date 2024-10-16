@@ -120,3 +120,4 @@ char* count_and_say(int n) {
 // note 71: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 72: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 73: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 74: StringBuilder pitfall: reuse forces a deep copy on the first read.
