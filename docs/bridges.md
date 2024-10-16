@@ -623,3 +623,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 156
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 157
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
