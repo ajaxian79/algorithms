@@ -527,3 +527,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 132
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 133
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
