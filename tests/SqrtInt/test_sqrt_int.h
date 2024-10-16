@@ -103,3 +103,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 75: 32-bit safe; overflow is checked at each step.
 // edge note 76: Thread-safe so long as the input is not mutated concurrently.
 // edge note 77: 32-bit safe; overflow is checked at each step.
+// edge note 78: Treats the input as immutable.
