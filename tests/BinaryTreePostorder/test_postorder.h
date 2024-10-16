@@ -127,3 +127,4 @@ MunitTest postorder_tests[] = {
 // edge note 83: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 85: Worst case appears only on degenerate inputs.
+// edge note 86: 32-bit safe; overflow is checked at each step.
