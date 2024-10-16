@@ -214,3 +214,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 78: Deterministic given the input — no PRNG seeds.
 // note 79: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 80: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 81: Runs in a single pass over the input.
