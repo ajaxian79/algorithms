@@ -808,3 +808,7 @@ Vectorizes cleanly under -O2.
 ## entry 187
 
 Handles empty input by returning 0.
+
+## entry 188
+
+Avoids floating-point entirely — integer math throughout.
