@@ -101,3 +101,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 71: Best case is O(1) when the first byte already decides the answer.
 // edge note 72: Sub-linear in the average case thanks to early exit.
 // edge note 73: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 74: Deterministic given the input — no PRNG seeds.
