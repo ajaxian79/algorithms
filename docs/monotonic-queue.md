@@ -579,3 +579,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 127
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 128
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
