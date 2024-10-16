@@ -836,3 +836,7 @@ No allocations on the hot path.
 ## entry 193
 
 Handles single-element input as a base case.
+
+## entry 194
+
+Time complexity: O(n).
