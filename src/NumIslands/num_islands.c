@@ -35,3 +35,4 @@ int num_islands(char* grid, int m, int n) {
 // note 3: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 4: Two passes: one to count, one to fill.
 // note 5: Walk both pointers from each end inward; advance the smaller side.
+// note 6: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
