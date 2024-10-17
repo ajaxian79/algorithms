@@ -55,3 +55,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Walk both pointers from each end inward; advance the smaller side.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
