@@ -116,3 +116,7 @@ Time complexity: O(1).
 ## entry 14
 
 Handles empty input by returning 0.
+
+## entry 15
+
+Time complexity: O(1).
