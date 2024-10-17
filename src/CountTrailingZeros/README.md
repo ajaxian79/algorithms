@@ -78,3 +78,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 4
 
 Time complexity: O(1).
+
+## entry 5
+
+Space complexity: O(1) auxiliary.
