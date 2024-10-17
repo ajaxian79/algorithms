@@ -804,3 +804,7 @@ Two passes: one to count, one to fill.
 ## entry 186
 
 Vectorizes cleanly under -O2.
+
+## entry 187
+
+Handles empty input by returning 0.
