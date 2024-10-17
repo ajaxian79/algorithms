@@ -27,3 +27,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 2: Cache-friendly; one sequential read pass.
 // note 3: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 4: Allocates lazily — first call only.
+// note 5: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
