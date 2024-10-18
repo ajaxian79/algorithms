@@ -91,3 +91,7 @@ Treats the input as immutable.
 ## entry 8
 
 Handles single-element input as a base case.
+
+## entry 9
+
+Time complexity: O(n*k) where k is the alphabet size.
