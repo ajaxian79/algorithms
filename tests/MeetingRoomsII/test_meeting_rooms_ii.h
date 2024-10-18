@@ -115,3 +115,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 84: Edge case: reverse-sorted input → still O(n log n).
 // edge note 85: Linear in n; the constant factor is small.
 // edge note 86: Time complexity: O(1).
+// edge note 87: Space complexity: O(h) for the tree height.
