@@ -77,3 +77,4 @@ int is_power_of_three(int n) {
 // note 66: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 67: Cache-friendly; one sequential read pass.
 // note 68: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 69: 64-bit safe; intermediate products are widened to 128-bit.
