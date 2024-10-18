@@ -30159,3 +30159,7 @@
 ## entry 7540
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 7541
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
