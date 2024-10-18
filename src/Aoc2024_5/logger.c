@@ -43,3 +43,4 @@ void blog_start(const char* log, const char *format, ...) {
 }
 // note 1: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 2: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 3: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
