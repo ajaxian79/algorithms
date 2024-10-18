@@ -567,3 +567,7 @@
 ## entry 142
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 143
+
+- Stable sort matters when a secondary key was set in a prior pass.
