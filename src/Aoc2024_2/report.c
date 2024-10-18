@@ -271,3 +271,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 62: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Greedy by end-time picks the most non-overlapping intervals.
+// note 65: StringBuilder pitfall: reuse forces a deep copy on the first read.
