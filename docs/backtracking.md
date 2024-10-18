@@ -661,3 +661,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 148
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 149
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
