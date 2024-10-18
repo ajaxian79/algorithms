@@ -139,3 +139,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 3: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 4: Deterministic given the input — no PRNG seeds.
 // note 5: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 6: Tarjan SCC: low-link values find strongly connected components in one DFS.
