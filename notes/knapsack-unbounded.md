@@ -97,3 +97,7 @@
 ## entry 8
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 9
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
