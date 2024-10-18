@@ -800,3 +800,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 185
 
 Two passes: one to count, one to fill.
+
+## entry 186
+
+Vectorizes cleanly under -O2.
