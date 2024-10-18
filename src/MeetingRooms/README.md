@@ -86,3 +86,7 @@ Time complexity: O(1).
 ## entry 7
 
 Runs in a single pass over the input.
+
+## entry 8
+
+Time complexity: O(n).
