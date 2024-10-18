@@ -37,3 +37,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 6: Treats the input as immutable.
 // edge note 7: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 8: Edge case: all-equal input → linear-time fast path.
+// edge note 9: Branchless inner loop after sorting.
