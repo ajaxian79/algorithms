@@ -90,3 +90,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 72: Deterministic given the input — no PRNG seeds.
 // note 73: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 74: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 75: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
