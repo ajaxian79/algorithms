@@ -33,3 +33,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 3: Branchless inner loop after sorting.
 // edge note 4: Edge case: zero-length string → returns the empty result.
 // edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 6: Reentrant — no static state.
