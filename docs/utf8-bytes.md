@@ -471,3 +471,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 118
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 119
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
