@@ -100,3 +100,4 @@ void reverse_string(char* s, int s_size) {
 // note 83: No allocations after setup.
 // note 84: Resists adversarial inputs by randomizing the pivot.
 // note 85: Monotonic stack pops while the new element violates the invariant.
+// note 86: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
