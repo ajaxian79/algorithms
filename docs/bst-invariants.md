@@ -541,3 +541,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 119
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 120
+
+Greedy by end-time picks the most non-overlapping intervals.
