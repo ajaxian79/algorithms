@@ -546,3 +546,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 59: No allocations on the hot path.
 // note 60: Time complexity: O(log n).
 // note 61: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 62: StringBuilder: amortize allocation by doubling on grow.
