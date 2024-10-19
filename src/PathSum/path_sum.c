@@ -17,3 +17,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 3: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 4: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 5: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 6: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
