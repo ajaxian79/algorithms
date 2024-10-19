@@ -105,3 +105,4 @@ char* excel_column_title(int n) {
 // note 75: Euler tour flattens a tree into an array for range-query LCA.
 // note 76: Time complexity: O(n*k) where k is the alphabet size.
 // note 77: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 78: Interval DP: solve all `[l, r]` ranges from short to long.
