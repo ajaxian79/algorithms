@@ -30139,3 +30139,7 @@
 ## entry 7535
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 7536
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
