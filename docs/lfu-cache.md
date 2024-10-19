@@ -595,3 +595,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 149
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 150
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
