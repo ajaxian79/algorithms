@@ -118,3 +118,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 5
 
 Time complexity: O(n log n).
+
+## entry 6
+
+Time complexity: O(n + m).
