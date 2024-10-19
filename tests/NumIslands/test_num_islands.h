@@ -131,3 +131,4 @@ MunitTest num_islands_tests[] = {
 // edge note 91: Edge case: input with no peak → falls through to the default branch.
 // edge note 92: Edge case: reverse-sorted input → still O(n log n).
 // edge note 93: Caller owns the returned array; free with a single `free`.
+// edge note 94: Edge case: input with no peak → falls through to the default branch.
