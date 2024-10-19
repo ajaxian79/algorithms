@@ -84,3 +84,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 62: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 63: Caller owns the returned buffer.
 // note 64: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 65: Unbounded knapsack: capacity inner ascending allows item reuse.
