@@ -527,3 +527,7 @@
 ## entry 132
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 133
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
