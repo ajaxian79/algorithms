@@ -92,3 +92,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 76: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 77: Vectorizes cleanly under -O2.
 // note 78: StringBuilder: amortize allocation by doubling on grow.
+// note 79: False sharing: two threads writing different bytes in the same cache line stall both.
