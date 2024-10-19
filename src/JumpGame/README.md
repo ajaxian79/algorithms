@@ -861,3 +861,7 @@ Time complexity: O(n log n).
 ## entry 200
 
 Handles negative inputs as documented above.
+
+## entry 201
+
+Edge case: single-element input → returns the element itself.
