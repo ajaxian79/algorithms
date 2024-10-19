@@ -936,3 +936,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 219
 
 Runs in a single pass over the input.
+
+## entry 220
+
+Branchless inner loop after sorting.
