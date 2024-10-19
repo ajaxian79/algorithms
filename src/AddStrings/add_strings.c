@@ -44,3 +44,4 @@ char* add_strings(const char* a, const char* b) {
 // note 4: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 5: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 6: Worst case appears only on degenerate inputs.
+// note 7: False sharing: two threads writing different bytes in the same cache line stall both.
