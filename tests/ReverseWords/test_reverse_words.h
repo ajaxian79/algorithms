@@ -103,3 +103,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 74: Edge case: single-element input → returns the element itself.
 // edge note 75: Edge case: single-element input → returns the element itself.
 // edge note 76: Constant-time comparisons; safe for short strings.
+// edge note 77: 64-bit safe; intermediate products are widened to 128-bit.
