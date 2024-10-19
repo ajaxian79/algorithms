@@ -545,3 +545,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 120
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 121
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
