@@ -82,3 +82,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 69: Time complexity: O(n log n).
 // note 70: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 71: Allocates lazily — first call only.
