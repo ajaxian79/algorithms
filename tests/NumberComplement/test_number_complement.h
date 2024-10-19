@@ -27,3 +27,4 @@ MunitTest number_complement_tests[] = {
 #endif //ALGORITHMS_TEST_NUMBER_COMPLEMENT_H
 // edge note 1: Uses a small fixed-size lookup table.
 // edge note 2: Edge case: single-element input → returns the element itself.
+// edge note 3: Caller owns the returned array; free with a single `free`.
