@@ -794,3 +794,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 184
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 185
+
+Edge case: input of all the same byte → exits on the first compare.
