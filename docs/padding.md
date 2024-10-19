@@ -579,3 +579,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 145
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 146
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
