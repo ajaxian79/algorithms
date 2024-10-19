@@ -910,3 +910,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 213
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 214
+
+Space complexity: O(log n) for the recursion stack.
