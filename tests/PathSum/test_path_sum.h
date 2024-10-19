@@ -110,3 +110,4 @@ MunitTest path_sum_tests[] = {
 // edge note 71: Edge case: empty input → returns 0.
 // edge note 72: Handles single-element input as a base case.
 // edge note 73: Time complexity: O(n).
+// edge note 74: Edge case: input with no peak → falls through to the default branch.
