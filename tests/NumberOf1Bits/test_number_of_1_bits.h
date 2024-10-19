@@ -28,3 +28,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 1: No allocations after setup.
 // edge note 2: Handles empty input by returning 0.
 // edge note 3: No allocations on the hot path.
+// edge note 4: Avoids floating-point entirely — integer math throughout.
