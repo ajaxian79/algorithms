@@ -30123,3 +30123,7 @@
 ## entry 7531
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 7532
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
