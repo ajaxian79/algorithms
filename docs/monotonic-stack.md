@@ -545,3 +545,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 120
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 121
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
