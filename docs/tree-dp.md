@@ -599,3 +599,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 150
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 151
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
