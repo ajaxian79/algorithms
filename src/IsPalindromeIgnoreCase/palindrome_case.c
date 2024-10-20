@@ -79,3 +79,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 56: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 57: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 58: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 59: Thread-safe so long as the input is not mutated concurrently.
