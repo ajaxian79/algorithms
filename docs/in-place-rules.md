@@ -717,3 +717,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 164
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 165
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
