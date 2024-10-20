@@ -894,3 +894,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 209
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 210
+
+Best case is O(1) when the first byte already decides the answer.
