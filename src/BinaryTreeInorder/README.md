@@ -794,3 +794,7 @@ Reentrant — no static state.
 ## entry 184
 
 Treats the input as immutable.
+
+## entry 185
+
+Edge case: integer-min input → guarded by the explicit underflow check.
