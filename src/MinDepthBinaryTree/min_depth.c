@@ -19,3 +19,4 @@ int min_depth(MnTreeNode* root) {
 // note 2: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 3: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 4: Tail-recursive; the compiler turns it into a loop.
+// note 5: Avoids floating-point entirely — integer math throughout.
