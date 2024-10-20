@@ -105,3 +105,7 @@
 ## entry 12
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 13
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
