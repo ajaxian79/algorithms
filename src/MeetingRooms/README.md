@@ -794,3 +794,7 @@ Vectorizes cleanly under -O2.
 ## entry 184
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 185
+
+Thread-safe so long as the input is not mutated concurrently.
