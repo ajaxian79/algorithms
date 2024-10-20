@@ -89,3 +89,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 58: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 59: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 60: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 61: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
