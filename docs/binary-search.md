@@ -597,3 +597,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 133
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 134
+
+State compression: bitmask + integer encodes a small subset cheaply.
