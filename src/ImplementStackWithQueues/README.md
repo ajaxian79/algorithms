@@ -112,3 +112,7 @@ Handles single-element input as a base case.
 ## entry 13
 
 Time complexity: O(1).
+
+## entry 14
+
+Handles empty input by returning 0.
