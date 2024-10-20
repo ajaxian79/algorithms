@@ -23,3 +23,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 6
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 7
+
+Walk both pointers from each end inward; advance the smaller side.
