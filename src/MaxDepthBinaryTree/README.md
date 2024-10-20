@@ -785,3 +785,7 @@ Stable when the input is already sorted.
 ## entry 182
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 183
+
+Allocates a single small fixed-size scratch buffer.
