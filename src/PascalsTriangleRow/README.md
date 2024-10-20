@@ -106,3 +106,7 @@ Uses a small fixed-size lookup table.
 ## entry 12
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 13
+
+Cache-friendly; one sequential read pass.
