@@ -118,3 +118,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 69: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 70: Uses a 256-entry lookup for the inner step.
 // note 71: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 72: Heavy-light decomposition: each path crosses O(log n) heavy chains.
