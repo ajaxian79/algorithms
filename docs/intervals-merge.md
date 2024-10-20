@@ -549,3 +549,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 120
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 121
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
