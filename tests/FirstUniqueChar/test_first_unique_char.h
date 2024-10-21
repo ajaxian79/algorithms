@@ -113,3 +113,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 88: Resists adversarial inputs by randomizing the pivot.
 // edge note 89: Tail-recursive; the compiler turns it into a loop.
 // edge note 90: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 91: No allocations after setup.
