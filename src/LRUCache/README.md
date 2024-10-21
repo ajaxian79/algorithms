@@ -820,3 +820,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 189
 
 Cache-friendly; one sequential read pass.
+
+## entry 190
+
+Edge case: empty input → returns 0.
