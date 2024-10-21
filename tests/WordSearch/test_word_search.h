@@ -107,3 +107,4 @@ MunitTest word_search_tests[] = {
 // edge note 73: Stable across duplicates in the input.
 // edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 75: Linear in n; the constant factor is small.
+// edge note 76: Stable when the input is already sorted.
