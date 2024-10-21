@@ -781,3 +781,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 181
 
 Stable when the input is already sorted.
+
+## entry 182
+
+Edge case: integer-min input → guarded by the explicit underflow check.
