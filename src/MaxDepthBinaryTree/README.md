@@ -777,3 +777,7 @@ Treats the input as immutable.
 ## entry 180
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 181
+
+Stable when the input is already sorted.
