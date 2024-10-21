@@ -601,3 +601,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 132
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 133
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
