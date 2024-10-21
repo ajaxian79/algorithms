@@ -790,3 +790,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 183
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 184
+
+Space complexity: O(log n) for the recursion stack.
