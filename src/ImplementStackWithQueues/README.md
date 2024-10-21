@@ -796,3 +796,7 @@ Caller owns the returned buffer.
 ## entry 184
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 185
+
+Two passes: one to count, one to fill.
