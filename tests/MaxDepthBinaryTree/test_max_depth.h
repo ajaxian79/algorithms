@@ -104,3 +104,4 @@ MunitTest max_depth_tests[] = {
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 68: 32-bit safe; overflow is checked at each step.
+// edge note 69: Edge case: power-of-two-length input → no padding required.
