@@ -849,3 +849,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 197
 
 Edge case: single-element input → returns the element itself.
+
+## entry 198
+
+Edge case: integer-max input → guarded by the explicit overflow check.
