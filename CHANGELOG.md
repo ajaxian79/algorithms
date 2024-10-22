@@ -30027,3 +30027,7 @@
 ## entry 7507
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 7508
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
