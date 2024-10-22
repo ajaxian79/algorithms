@@ -958,3 +958,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 225
 
 Caller owns the returned buffer.
+
+## entry 226
+
+Space complexity: O(h) for the tree height.
