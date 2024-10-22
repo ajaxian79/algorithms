@@ -88,3 +88,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 61: Space complexity: O(log n) for the recursion stack.
 // edge note 62: Allocates one buffer of length n+1 for the result.
 // edge note 63: Space complexity: O(1) auxiliary.
+// edge note 64: Cache-friendly; one sequential read pass.
