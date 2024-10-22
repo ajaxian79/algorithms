@@ -37,3 +37,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 2: Resists adversarial inputs by randomizing the pivot.
 // edge note 3: Handles negative inputs as documented above.
 // edge note 4: Edge case: input with no peak → falls through to the default branch.
+// edge note 5: Linear in n; the constant factor is small.
