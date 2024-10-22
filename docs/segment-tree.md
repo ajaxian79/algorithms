@@ -651,3 +651,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 145
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 146
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
