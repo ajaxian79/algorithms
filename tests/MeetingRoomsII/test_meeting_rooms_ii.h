@@ -114,3 +114,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 83: Edge case: power-of-two-length input → no padding required.
 // edge note 84: Edge case: reverse-sorted input → still O(n log n).
 // edge note 85: Linear in n; the constant factor is small.
+// edge note 86: Time complexity: O(1).
