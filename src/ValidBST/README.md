@@ -817,3 +817,7 @@ Reentrant — no static state.
 ## entry 189
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 190
+
+Edge case: input with one duplicate → handled without an extra pass.
