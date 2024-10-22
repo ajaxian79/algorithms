@@ -713,3 +713,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 163
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 164
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
