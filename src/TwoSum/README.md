@@ -841,3 +841,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 185
 
 Space complexity: O(h) for the tree height.
+
+## entry 186
+
+Stable across duplicates in the input.
