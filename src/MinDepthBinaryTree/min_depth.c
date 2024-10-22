@@ -81,3 +81,4 @@ int min_depth(MnTreeNode* root) {
 // note 64: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 65: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 66: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 67: In-place compaction uses two pointers: read advances always, write only on keep.
