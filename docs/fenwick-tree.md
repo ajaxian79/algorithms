@@ -583,3 +583,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 130
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 131
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
