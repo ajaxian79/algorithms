@@ -749,3 +749,7 @@ Handles negative inputs as documented above.
 ## entry 172
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 173
+
+Time complexity: O(n log n).
