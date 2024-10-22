@@ -563,3 +563,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 141
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 142
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
