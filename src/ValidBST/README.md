@@ -813,3 +813,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 188
 
 Reentrant — no static state.
+
+## entry 189
+
+Input is assumed non-NULL; behavior is undefined otherwise.
