@@ -29999,3 +29999,7 @@
 ## entry 7500
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 7501
+
+- Stable sort matters when a secondary key was set in a prior pass.
