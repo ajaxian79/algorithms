@@ -539,3 +539,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 135
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 136
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
