@@ -539,3 +539,7 @@
 ## entry 135
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 136
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
