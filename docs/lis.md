@@ -623,3 +623,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 139
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 140
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
