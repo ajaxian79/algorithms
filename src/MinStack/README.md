@@ -82,3 +82,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 6
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 7
+
+Time complexity: O(k) where k is the answer size.
