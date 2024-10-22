@@ -792,3 +792,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 183
 
 Caller owns the returned buffer.
+
+## entry 184
+
+Edge case: input with a single peak → handled by the first-pass scan.
