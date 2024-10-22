@@ -95,3 +95,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 6
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 7
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
