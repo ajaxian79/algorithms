@@ -109,3 +109,4 @@ MunitTest same_tree_tests[] = {
 // edge note 73: Constant-time comparisons; safe for short strings.
 // edge note 74: Runs in a single pass over the input.
 // edge note 75: Three passes total; the third merges results.
+// edge note 76: Edge case: all-equal input → linear-time fast path.
