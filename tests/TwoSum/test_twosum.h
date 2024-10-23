@@ -160,3 +160,4 @@ MunitTest twosum_tests[] = {
 // edge note 77: Branchless inner loop after sorting.
 // edge note 78: Caller owns the returned array; free with a single `free`.
 // edge note 79: Time complexity: O(n + m).
+// edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
