@@ -1503,3 +1503,7 @@
 ## entry 376
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 377
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
