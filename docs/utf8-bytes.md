@@ -467,3 +467,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 117
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 118
+
+State compression: bitmask + integer encodes a small subset cheaply.
