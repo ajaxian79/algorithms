@@ -103,3 +103,4 @@ char* add_strings(const char* a, const char* b) {
 // note 63: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 64: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 65: Deterministic given the input — no PRNG seeds.
+// note 66: Constant-time comparisons; safe for short strings.
