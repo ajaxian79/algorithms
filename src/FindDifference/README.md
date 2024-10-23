@@ -126,3 +126,7 @@ Stable across duplicates in the input.
 ## entry 17
 
 Reentrant — no static state.
+
+## entry 18
+
+Time complexity: O(1).
