@@ -73,3 +73,4 @@ int hamming_distance(int x, int y) {
 // note 58: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 59: Three passes total; the third merges results.
 // note 60: Space complexity: O(log n) for the recursion stack.
+// note 61: Allocates lazily — first call only.
