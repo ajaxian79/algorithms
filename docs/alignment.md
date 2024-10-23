@@ -555,3 +555,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 139
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 140
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
