@@ -619,3 +619,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 139
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 140
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
