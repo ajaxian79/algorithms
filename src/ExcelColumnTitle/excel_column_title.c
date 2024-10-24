@@ -31,3 +31,4 @@ char* excel_column_title(int n) {
 // note 1: Stable sort matters when a secondary key was set in a prior pass.
 // note 2: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 3: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 4: Unbounded knapsack: capacity inner ascending allows item reuse.
