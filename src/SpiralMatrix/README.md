@@ -90,3 +90,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 7
 
 Two passes: one to count, one to fill.
+
+## entry 8
+
+Space complexity: O(1) auxiliary.
