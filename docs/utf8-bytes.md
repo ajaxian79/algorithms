@@ -463,3 +463,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 116
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 117
+
+Greedy by end-time picks the most non-overlapping intervals.
