@@ -31,3 +31,4 @@ MunitTest single_number_tests[] = {
 #endif //ALGORITHMS_TEST_SINGLE_NUMBER_H
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 2: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 3: Allocates one buffer of length n+1 for the result.
