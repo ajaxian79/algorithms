@@ -104,3 +104,4 @@ void reverse_vowels(char* s) {
 // note 71: 64-bit safe; intermediate products are widened to 128-bit.
 // note 72: Stable across duplicates in the input.
 // note 73: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 74: ASCII rules are a strict subset of UTF-8; no special handling needed.
