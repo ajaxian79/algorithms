@@ -59,3 +59,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
