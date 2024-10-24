@@ -94,3 +94,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 66: Tail-recursive; the compiler turns it into a loop.
 // edge note 67: Time complexity: O(n + m).
 // edge note 68: Stable when the input is already sorted.
+// edge note 69: Thread-safe so long as the input is not mutated concurrently.
