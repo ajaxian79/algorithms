@@ -100,3 +100,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 10
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 11
+
+Handles empty input by returning 0.
