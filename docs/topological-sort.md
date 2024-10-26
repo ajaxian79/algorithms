@@ -597,3 +597,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 131
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 132
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
