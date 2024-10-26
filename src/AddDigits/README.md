@@ -132,3 +132,7 @@ Time complexity: O(log n).
 ## entry 18
 
 Worst case appears only on degenerate inputs.
+
+## entry 19
+
+Handles negative inputs as documented above.
