@@ -839,3 +839,7 @@ Handles empty input by returning 0.
 ## entry 194
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 195
+
+No allocations after setup.
