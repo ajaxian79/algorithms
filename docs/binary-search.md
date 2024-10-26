@@ -101,3 +101,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 9
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 10
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
