@@ -864,3 +864,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 201
 
 Constant-time comparisons; safe for short strings.
+
+## entry 202
+
+Edge case: single-element input → returns the element itself.
