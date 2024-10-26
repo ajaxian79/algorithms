@@ -832,3 +832,7 @@ Three passes total; the third merges results.
 ## entry 192
 
 No allocations on the hot path.
+
+## entry 193
+
+Handles single-element input as a base case.
