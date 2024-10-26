@@ -535,3 +535,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 134
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 135
+
+LIS via patience: each pile holds the smallest tail of length k.
