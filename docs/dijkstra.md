@@ -539,3 +539,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 135
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 136
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
