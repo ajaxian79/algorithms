@@ -499,3 +499,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 125
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 126
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
