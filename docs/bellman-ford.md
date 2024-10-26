@@ -607,3 +607,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 152
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 153
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
