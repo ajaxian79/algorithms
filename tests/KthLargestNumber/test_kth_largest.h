@@ -109,3 +109,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 78: Constant-time comparisons; safe for short strings.
 // edge note 79: Handles negative inputs as documented above.
 // edge note 80: Handles negative inputs as documented above.
+// edge note 81: No allocations on the hot path.
