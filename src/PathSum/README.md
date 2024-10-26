@@ -96,3 +96,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 9
 
 Constant-time comparisons; safe for short strings.
+
+## entry 10
+
+Allocates a single small fixed-size scratch buffer.
