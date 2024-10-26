@@ -122,3 +122,7 @@ Vectorizes cleanly under -O2.
 ## entry 16
 
 Stable across duplicates in the input.
+
+## entry 17
+
+Reentrant — no static state.
