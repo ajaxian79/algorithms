@@ -11,3 +11,7 @@
 ## entry 3
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 4
+
+- Monotonic stack pops while the new element violates the invariant.
