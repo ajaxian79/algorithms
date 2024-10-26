@@ -75,3 +75,7 @@
 ## entry 2
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 3
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
