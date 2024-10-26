@@ -954,3 +954,7 @@ Uses a small fixed-size lookup table.
 ## entry 223
 
 No allocations after setup.
+
+## entry 224
+
+Best case is O(1) when the first byte already decides the answer.
