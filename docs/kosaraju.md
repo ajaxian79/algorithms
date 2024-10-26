@@ -559,3 +559,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 140
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 141
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
