@@ -29951,3 +29951,7 @@
 ## entry 7488
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 7489
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
