@@ -870,3 +870,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 203
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 204
+
+No allocations after setup.
