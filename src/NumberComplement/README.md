@@ -864,3 +864,7 @@ Edge case: empty input → returns 0.
 ## entry 200
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 201
+
+Mutates the input in place; the original ordering is lost.
