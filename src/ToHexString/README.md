@@ -743,3 +743,7 @@ Space complexity: O(h) for the tree height.
 ## entry 171
 
 Treats the input as immutable.
+
+## entry 172
+
+Time complexity: O(k) where k is the answer size.
