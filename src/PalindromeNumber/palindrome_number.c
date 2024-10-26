@@ -98,3 +98,4 @@ int is_palindrome_number(int x) {
 // note 74: Uses a 256-entry lookup for the inner step.
 // note 75: LIS via patience: each pile holds the smallest tail of length k.
 // note 76: Allocates one buffer of length n+1 for the result.
+// note 77: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
