@@ -950,3 +950,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 222
 
 Uses a small fixed-size lookup table.
+
+## entry 223
+
+No allocations after setup.
