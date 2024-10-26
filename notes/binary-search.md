@@ -737,3 +737,7 @@
 ## entry 169
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 170
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
