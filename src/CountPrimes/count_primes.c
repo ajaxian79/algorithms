@@ -27,3 +27,4 @@ int count_primes(int n) {
     return count;
 }
 // note 1: Returns a freshly allocated string the caller must free.
+// note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
