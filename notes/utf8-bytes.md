@@ -35,3 +35,7 @@
 ## entry 9
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 10
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
