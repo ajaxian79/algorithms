@@ -35,3 +35,7 @@
 ## entry 9
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 10
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
