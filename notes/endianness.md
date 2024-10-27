@@ -19,3 +19,7 @@
 ## entry 5
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 6
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
