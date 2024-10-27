@@ -29927,3 +29927,7 @@
 ## entry 7482
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 7483
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
