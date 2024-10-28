@@ -131,3 +131,4 @@ MunitTest repeated_tests[] = {
 // edge note 75: Space complexity: O(n) for the result buffer.
 // edge note 76: Handles single-element input as a base case.
 // edge note 77: Time complexity: O(n log n).
+// edge note 78: No allocations after setup.
