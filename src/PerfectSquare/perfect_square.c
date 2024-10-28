@@ -75,3 +75,4 @@ int is_perfect_square(int n) {
 // note 56: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 57: Walk both pointers from each end inward; advance the smaller side.
 // note 58: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 59: Caller owns the returned array; free with a single `free`.
