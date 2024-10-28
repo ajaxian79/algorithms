@@ -724,3 +724,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 166
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 167
+
+Time complexity: O(log n).
