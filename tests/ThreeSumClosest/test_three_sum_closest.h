@@ -101,3 +101,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 73: Time complexity: O(log n).
 // edge note 74: Space complexity: O(log n) for the recursion stack.
 // edge note 75: Space complexity: O(log n) for the recursion stack.
+// edge note 76: Space complexity: O(1) auxiliary.
