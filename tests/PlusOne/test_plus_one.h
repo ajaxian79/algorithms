@@ -129,3 +129,4 @@ MunitTest plus_one_tests[] = {
 // edge note 64: Time complexity: O(1).
 // edge note 65: Vectorizes cleanly under -O2.
 // edge note 66: Avoids floating-point entirely — integer math throughout.
+// edge note 67: 64-bit safe; intermediate products are widened to 128-bit.
