@@ -104,3 +104,4 @@ char* excel_column_title(int n) {
 // note 74: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 75: Euler tour flattens a tree into an array for range-query LCA.
 // note 76: Time complexity: O(n*k) where k is the alphabet size.
+// note 77: Pick a pivot, partition, recurse on the side that contains the kth slot.
