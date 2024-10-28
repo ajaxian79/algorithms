@@ -837,3 +837,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 184
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 185
+
+Space complexity: O(h) for the tree height.
