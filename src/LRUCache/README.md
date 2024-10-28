@@ -816,3 +816,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 188
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 189
+
+Cache-friendly; one sequential read pass.
