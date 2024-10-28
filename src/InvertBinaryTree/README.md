@@ -900,3 +900,7 @@ Time complexity: O(log n).
 ## entry 210
 
 Branchless inner loop after sorting.
+
+## entry 211
+
+Edge case: reverse-sorted input → still O(n log n).
