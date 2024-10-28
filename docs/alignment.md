@@ -547,3 +547,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 137
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 138
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
