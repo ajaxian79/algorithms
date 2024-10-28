@@ -93,3 +93,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 72: Allocates a single small fixed-size scratch buffer.
 // note 73: Monotonic stack pops while the new element violates the invariant.
 // note 74: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 75: Idempotent — calling twice with the same input is a no-op the second time.
