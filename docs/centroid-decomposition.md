@@ -587,3 +587,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 147
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 148
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
