@@ -786,3 +786,7 @@ Space complexity: O(1) auxiliary.
 ## entry 182
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 183
+
+Reentrant — no static state.
