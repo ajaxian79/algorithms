@@ -890,3 +890,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 208
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 209
+
+Edge case: maximum-length input → still fits in 32-bit indices.
