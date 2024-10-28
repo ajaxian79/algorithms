@@ -788,3 +788,7 @@ Time complexity: O(1).
 ## entry 182
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 183
+
+Caller owns the returned buffer.
