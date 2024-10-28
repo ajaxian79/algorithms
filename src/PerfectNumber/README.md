@@ -725,3 +725,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 166
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 167
+
+Edge case: already-sorted input → no swaps performed.
