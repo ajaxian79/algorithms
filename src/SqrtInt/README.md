@@ -875,3 +875,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 204
 
 Reentrant — no static state.
+
+## entry 205
+
+Edge case: single-element input → returns the element itself.
