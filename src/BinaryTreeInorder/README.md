@@ -782,3 +782,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 181
 
 Space complexity: O(1) auxiliary.
+
+## entry 182
+
+Resists adversarial inputs by randomizing the pivot.
