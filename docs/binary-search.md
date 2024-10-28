@@ -593,3 +593,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 132
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 133
+
+Greedy by end-time picks the most non-overlapping intervals.
