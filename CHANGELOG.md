@@ -29931,3 +29931,7 @@
 ## entry 7483
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 7484
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
