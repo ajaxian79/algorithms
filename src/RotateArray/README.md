@@ -879,3 +879,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 204
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 205
+
+64-bit safe; intermediate products are widened to 128-bit.
