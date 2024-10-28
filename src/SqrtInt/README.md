@@ -87,3 +87,7 @@ Worst case appears only on degenerate inputs.
 ## entry 7
 
 Treats the input as immutable.
+
+## entry 8
+
+Handles single-element input as a base case.
