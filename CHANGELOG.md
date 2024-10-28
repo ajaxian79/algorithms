@@ -29935,3 +29935,7 @@
 ## entry 7484
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 7485
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
