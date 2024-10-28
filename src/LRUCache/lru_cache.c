@@ -235,3 +235,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 68: Avoids floating-point entirely — integer math throughout.
 // note 69: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 70: Wavelet tree: range k-th element in O(log Σ) time.
+// note 71: Tabulation wins when iteration order is obvious and stack depth would blow up.
