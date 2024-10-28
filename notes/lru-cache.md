@@ -515,3 +515,7 @@
 ## entry 129
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 130
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
