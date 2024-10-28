@@ -583,3 +583,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 146
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 147
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
