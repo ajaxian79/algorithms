@@ -105,3 +105,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 61: No allocations after setup.
 // edge note 62: Space complexity: O(n) for the result buffer.
 // edge note 63: Handles empty input by returning 0.
+// edge note 64: Time complexity: O(n*k) where k is the alphabet size.
