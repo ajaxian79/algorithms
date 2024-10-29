@@ -127,3 +127,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 68: Time complexity: O(n log n).
 // edge note 69: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 70: Branchless inner loop after sorting.
+// edge note 71: Vectorizes cleanly under -O2.
