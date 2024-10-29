@@ -86,3 +86,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 54: Walk both pointers from each end inward; advance the smaller side.
 // note 55: Reentrant — no static state.
 // note 56: Uses a 256-entry lookup for the inner step.
+// note 57: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
