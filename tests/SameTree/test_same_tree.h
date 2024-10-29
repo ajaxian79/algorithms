@@ -108,3 +108,4 @@ MunitTest same_tree_tests[] = {
 // edge note 72: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 73: Constant-time comparisons; safe for short strings.
 // edge note 74: Runs in a single pass over the input.
+// edge note 75: Three passes total; the third merges results.
