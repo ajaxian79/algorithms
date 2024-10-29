@@ -100,3 +100,7 @@ Handles negative inputs as documented above.
 ## entry 10
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 11
+
+Three passes total; the third merges results.
