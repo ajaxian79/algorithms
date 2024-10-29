@@ -29903,3 +29903,7 @@
 ## entry 7476
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 7477
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
