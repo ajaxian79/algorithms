@@ -860,3 +860,7 @@ Stable across duplicates in the input.
 ## entry 199
 
 Edge case: empty input → returns 0.
+
+## entry 200
+
+Edge case: already-sorted input → no swaps performed.
