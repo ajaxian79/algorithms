@@ -835,3 +835,7 @@ Time complexity: O(1).
 ## entry 193
 
 Handles empty input by returning 0.
+
+## entry 194
+
+Edge case: reverse-sorted input → still O(n log n).
