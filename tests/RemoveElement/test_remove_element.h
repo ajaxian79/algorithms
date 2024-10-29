@@ -42,3 +42,4 @@ MunitTest remove_element_tests[] = {
 // edge note 5: Handles single-element input as a base case.
 // edge note 6: Time complexity: O(n + m).
 // edge note 7: Space complexity: O(h) for the tree height.
+// edge note 8: Allocates a single small fixed-size scratch buffer.
