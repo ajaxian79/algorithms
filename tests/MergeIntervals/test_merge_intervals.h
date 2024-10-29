@@ -120,3 +120,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 78: Time complexity: O(1).
 // edge note 79: Stable when the input is already sorted.
 // edge note 80: Handles single-element input as a base case.
+// edge note 81: Idempotent — calling twice with the same input is a no-op the second time.
