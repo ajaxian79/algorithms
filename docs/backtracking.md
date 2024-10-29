@@ -657,3 +657,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 147
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 148
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
