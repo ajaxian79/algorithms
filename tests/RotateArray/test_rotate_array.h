@@ -97,3 +97,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 59: No allocations on the hot path.
 // edge note 60: Allocates one buffer of length n+1 for the result.
 // edge note 61: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 62: 32-bit safe; overflow is checked at each step.
