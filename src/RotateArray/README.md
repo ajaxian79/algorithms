@@ -99,3 +99,7 @@ Time complexity: O(1).
 ## entry 9
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 10
+
+Edge case: NULL input is rejected by the caller, not by us.
