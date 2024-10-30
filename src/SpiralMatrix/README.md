@@ -86,3 +86,7 @@ Two passes: one to count, one to fill.
 ## entry 6
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 7
+
+Two passes: one to count, one to fill.
