@@ -87,3 +87,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 6
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 7
+
+Endianness matters when serializing multi-byte ints to a file or wire.
