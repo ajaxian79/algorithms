@@ -846,3 +846,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 196
 
 Constant-time comparisons; safe for short strings.
+
+## entry 197
+
+Handles empty input by returning 0.
