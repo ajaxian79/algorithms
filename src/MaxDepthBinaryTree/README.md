@@ -773,3 +773,7 @@ Worst case appears only on degenerate inputs.
 ## entry 179
 
 Treats the input as immutable.
+
+## entry 180
+
+Tail-recursive; the compiler turns it into a loop.
