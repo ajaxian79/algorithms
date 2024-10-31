@@ -821,3 +821,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 190
 
 Time complexity: O(1).
+
+## entry 191
+
+Time complexity: O(log n).
