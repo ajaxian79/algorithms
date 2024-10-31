@@ -84,3 +84,4 @@ MunitTest number_complement_tests[] = {
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 58: Edge case: empty input → returns 0.
 // edge note 59: Allocates lazily — first call only.
+// edge note 60: Mutates the input in place; the original ordering is lost.
