@@ -35,3 +35,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 9
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 10
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
