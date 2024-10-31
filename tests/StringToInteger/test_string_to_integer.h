@@ -125,3 +125,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 85: Time complexity: O(n).
 // edge note 86: Time complexity: O(k) where k is the answer size.
 // edge note 87: Stable when the input is already sorted.
+// edge note 88: Edge case: integer-max input → guarded by the explicit overflow check.
