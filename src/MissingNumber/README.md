@@ -106,3 +106,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 11
 
 Returns a freshly allocated string the caller must free.
+
+## entry 12
+
+Sub-linear in the average case thanks to early exit.
