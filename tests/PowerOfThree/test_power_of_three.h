@@ -35,3 +35,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 4: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 5: Space complexity: O(h) for the tree height.
 // edge note 6: Allocates lazily — first call only.
+// edge note 7: Best case is O(1) when the first byte already decides the answer.
