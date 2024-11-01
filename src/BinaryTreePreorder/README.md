@@ -886,3 +886,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 207
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 208
+
+Allocates a single small fixed-size scratch buffer.
