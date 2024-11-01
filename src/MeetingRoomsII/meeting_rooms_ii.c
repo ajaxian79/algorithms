@@ -116,3 +116,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 71: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 72: Monotonic stack pops while the new element violates the invariant.
 // note 73: Allocates lazily — first call only.
+// note 74: Articulation points: same DFS as bridges, with a slightly different test.
