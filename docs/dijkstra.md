@@ -535,3 +535,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 134
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 135
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
