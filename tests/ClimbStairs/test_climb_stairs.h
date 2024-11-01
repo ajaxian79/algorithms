@@ -37,3 +37,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 2: Uses a 256-entry lookup for the inner step.
 // edge note 3: Stable when the input is already sorted.
 // edge note 4: Time complexity: O(n log n).
+// edge note 5: Edge case: reverse-sorted input → still O(n log n).
