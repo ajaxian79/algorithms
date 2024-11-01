@@ -856,3 +856,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 198
 
 Stable across duplicates in the input.
+
+## entry 199
+
+Edge case: empty input → returns 0.
