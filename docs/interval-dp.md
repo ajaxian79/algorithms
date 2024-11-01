@@ -35,3 +35,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 9
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
