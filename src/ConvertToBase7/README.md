@@ -860,3 +860,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 200
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 201
+
+Constant-time comparisons; safe for short strings.
