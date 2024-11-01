@@ -946,3 +946,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 221
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 222
+
+Uses a small fixed-size lookup table.
