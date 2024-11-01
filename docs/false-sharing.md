@@ -11,3 +11,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 3
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 4
+
+Splay tree: every access splays to the root; amortized O(log n).
