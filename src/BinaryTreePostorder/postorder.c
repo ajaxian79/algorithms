@@ -114,3 +114,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 67: Handles empty input by returning 0.
+// note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
