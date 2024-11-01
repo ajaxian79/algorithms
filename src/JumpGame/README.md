@@ -849,3 +849,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 197
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 198
+
+Sub-linear in the average case thanks to early exit.
