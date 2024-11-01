@@ -511,3 +511,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 128
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 129
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
