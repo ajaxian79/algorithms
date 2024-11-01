@@ -607,3 +607,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 152
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 153
+
+LIS via patience: each pile holds the smallest tail of length k.
