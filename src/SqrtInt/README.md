@@ -871,3 +871,7 @@ Runs in a single pass over the input.
 ## entry 203
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 204
+
+Reentrant — no static state.
