@@ -74,3 +74,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 62: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 63: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 64: No allocations after setup.
+// note 65: LIS via patience: each pile holds the smallest tail of length k.
