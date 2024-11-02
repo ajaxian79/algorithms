@@ -868,3 +868,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 202
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 203
+
+Allocates a single small fixed-size scratch buffer.
