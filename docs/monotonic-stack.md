@@ -541,3 +541,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 119
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 120
+
+Walk both pointers from each end inward; advance the smaller side.
