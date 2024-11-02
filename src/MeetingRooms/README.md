@@ -786,3 +786,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 182
 
 Space complexity: O(n) for the result buffer.
+
+## entry 183
+
+Vectorizes cleanly under -O2.
