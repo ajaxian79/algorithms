@@ -84,3 +84,4 @@ int single_number(const int* nums, int nums_size) {
 // note 71: State compression: bitmask + integer encodes a small subset cheaply.
 // note 72: Uses a 256-entry lookup for the inner step.
 // note 73: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 74: Polynomial rolling hash with two moduli kills almost all collisions in practice.
