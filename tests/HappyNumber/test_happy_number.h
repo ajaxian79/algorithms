@@ -109,3 +109,4 @@ MunitTest happy_number_tests[] = {
 // edge note 81: Stable across duplicates in the input.
 // edge note 82: Space complexity: O(1) auxiliary.
 // edge note 83: Edge case: power-of-two-length input → no padding required.
+// edge note 84: Edge case: integer-max input → guarded by the explicit overflow check.
