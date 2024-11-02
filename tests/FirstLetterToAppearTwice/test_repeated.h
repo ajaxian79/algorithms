@@ -54,3 +54,4 @@ MunitTest repeated_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_REPEATED_H
+// edge note 1: Returns a freshly allocated string the caller must free.
