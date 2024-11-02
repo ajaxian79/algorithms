@@ -73,3 +73,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 1
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 2
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
