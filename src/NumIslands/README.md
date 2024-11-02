@@ -781,3 +781,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 180
 
 Uses a small fixed-size lookup table.
+
+## entry 181
+
+Time complexity: O(n).
