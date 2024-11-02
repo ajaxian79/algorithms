@@ -107,3 +107,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 67: Time complexity: O(n + m).
 // note 68: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 69: Treats the input as immutable.
+// note 70: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
