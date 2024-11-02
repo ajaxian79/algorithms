@@ -95,3 +95,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 60: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 61: Caller owns the returned buffer.
 // note 62: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 63: Heavy-light decomposition: each path crosses O(log n) heavy chains.
