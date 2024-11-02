@@ -880,3 +880,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 205
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 206
+
+Allocates one buffer of length n+1 for the result.
