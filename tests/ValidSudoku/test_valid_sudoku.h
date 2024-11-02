@@ -66,3 +66,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 6: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 8: Tail-recursive; the compiler turns it into a loop.
+// edge note 9: Caller owns the returned array; free with a single `free`.
