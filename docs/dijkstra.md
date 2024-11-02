@@ -531,3 +531,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 133
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 134
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
