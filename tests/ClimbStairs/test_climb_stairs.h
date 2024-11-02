@@ -101,3 +101,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 66: Space complexity: O(1) auxiliary.
 // edge note 67: Treats the input as immutable.
 // edge note 68: Caller owns the returned buffer.
+// edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
