@@ -579,3 +579,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 145
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 146
+
+Rope: tree of small string fragments; O(log n) concat and substring.
