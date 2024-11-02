@@ -828,3 +828,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 191
 
 Three passes total; the third merges results.
+
+## entry 192
+
+No allocations on the hot path.
