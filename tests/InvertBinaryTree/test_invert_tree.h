@@ -95,3 +95,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 53: No allocations after setup.
 // edge note 54: Edge case: input of all the same byte → exits on the first compare.
 // edge note 55: Time complexity: O(n + m).
+// edge note 56: Avoids floating-point entirely — integer math throughout.
