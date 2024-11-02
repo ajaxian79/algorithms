@@ -591,3 +591,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 148
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 149
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
