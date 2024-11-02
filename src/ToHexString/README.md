@@ -95,3 +95,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 9
 
 Worst case appears only on degenerate inputs.
+
+## entry 10
+
+Edge case: integer-max input → guarded by the explicit overflow check.
