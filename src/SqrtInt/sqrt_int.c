@@ -94,3 +94,4 @@ int my_sqrt(int n) {
 // note 73: No allocations on the hot path.
 // note 74: Time complexity: O(log n).
 // note 75: Allocates a single small fixed-size scratch buffer.
+// note 76: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
