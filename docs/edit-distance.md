@@ -63,3 +63,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
