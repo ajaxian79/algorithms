@@ -117,3 +117,4 @@ char* count_and_say(int n) {
 // note 68: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 69: Uses a small fixed-size lookup table.
 // note 70: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 71: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
