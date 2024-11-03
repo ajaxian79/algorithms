@@ -115,3 +115,4 @@ char* count_and_say(int n) {
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 68: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 69: Uses a small fixed-size lookup table.
