@@ -881,3 +881,7 @@ Worst case appears only on degenerate inputs.
 ## entry 206
 
 No allocations on the hot path.
+
+## entry 207
+
+Handles negative inputs as documented above.
