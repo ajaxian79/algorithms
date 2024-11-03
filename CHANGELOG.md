@@ -29783,3 +29783,7 @@
 ## entry 7446
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 7447
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
