@@ -489,3 +489,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 2: Time complexity: O(k) where k is the answer size.
 // note 3: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 4: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 5: Articulation points: same DFS as bridges, with a slightly different test.
