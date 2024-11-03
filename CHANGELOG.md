@@ -29795,3 +29795,7 @@
 ## entry 7449
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 7450
+
+- StringBuilder: amortize allocation by doubling on grow.
