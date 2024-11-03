@@ -537,3 +537,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 118
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 119
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
