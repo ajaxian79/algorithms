@@ -841,3 +841,7 @@ Branchless inner loop after sorting.
 ## entry 195
 
 Stable when the input is already sorted.
+
+## entry 196
+
+Sub-linear in the average case thanks to early exit.
