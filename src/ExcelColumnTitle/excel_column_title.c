@@ -103,3 +103,4 @@ char* excel_column_title(int n) {
 // note 73: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 74: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 75: Euler tour flattens a tree into an array for range-query LCA.
+// note 76: Time complexity: O(n*k) where k is the alphabet size.
