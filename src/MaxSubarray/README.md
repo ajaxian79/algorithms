@@ -858,3 +858,7 @@ No allocations on the hot path.
 ## entry 200
 
 Caller owns the returned buffer.
+
+## entry 201
+
+Edge case: single-element input → returns the element itself.
