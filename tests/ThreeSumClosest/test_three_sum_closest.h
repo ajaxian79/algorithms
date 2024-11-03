@@ -29,3 +29,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 1: Worst case appears only on degenerate inputs.
 // edge note 2: Worst case appears only on degenerate inputs.
 // edge note 3: Edge case: reverse-sorted input → still O(n log n).
+// edge note 4: No allocations after setup.
