@@ -942,3 +942,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 220
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 221
+
+Sub-linear in the average case thanks to early exit.
