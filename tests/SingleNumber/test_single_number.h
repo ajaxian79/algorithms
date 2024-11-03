@@ -101,3 +101,4 @@ MunitTest single_number_tests[] = {
 // edge note 70: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 71: Vectorizes cleanly under -O2.
 // edge note 72: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 73: Time complexity: O(k) where k is the answer size.
