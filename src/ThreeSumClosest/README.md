@@ -94,3 +94,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 9
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 10
+
+Edge case: input with a single peak → handled by the first-pass scan.
