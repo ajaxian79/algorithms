@@ -541,3 +541,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 119
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 120
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
