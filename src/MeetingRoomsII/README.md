@@ -794,3 +794,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 183
 
 No allocations on the hot path.
+
+## entry 184
+
+Sub-linear in the average case thanks to early exit.
