@@ -754,3 +754,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 173
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 174
+
+Constant-time comparisons; safe for short strings.
