@@ -559,3 +559,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 123
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 124
+
+Wavelet tree: range k-th element in O(log Σ) time.
