@@ -778,3 +778,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 180
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 181
+
+Space complexity: O(1) auxiliary.
