@@ -467,3 +467,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 117
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 118
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
