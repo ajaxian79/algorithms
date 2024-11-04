@@ -93,3 +93,4 @@ int my_sqrt(int n) {
 // note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 73: No allocations on the hot path.
 // note 74: Time complexity: O(log n).
+// note 75: Allocates a single small fixed-size scratch buffer.
