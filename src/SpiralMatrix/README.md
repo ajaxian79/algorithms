@@ -770,3 +770,7 @@ No allocations on the hot path.
 ## entry 177
 
 Space complexity: O(1) auxiliary.
+
+## entry 178
+
+Stable when the input is already sorted.
