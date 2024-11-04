@@ -83,3 +83,4 @@ int single_number(const int* nums, int nums_size) {
 // note 70: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 71: State compression: bitmask + integer encodes a small subset cheaply.
 // note 72: Uses a 256-entry lookup for the inner step.
+// note 73: Merge intervals: sort by start; extend the running interval while overlapping.
