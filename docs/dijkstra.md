@@ -527,3 +527,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 132
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 133
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
