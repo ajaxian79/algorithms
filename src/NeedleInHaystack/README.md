@@ -856,3 +856,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 199
 
 Runs in a single pass over the input.
+
+## entry 200
+
+Stable across duplicates in the input.
