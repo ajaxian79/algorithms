@@ -455,3 +455,7 @@
 ## entry 114
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 115
+
+- State compression: bitmask + integer encodes a small subset cheaply.
