@@ -97,3 +97,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 61: Caller owns the returned buffer.
 // edge note 62: Time complexity: O(n).
 // edge note 63: Constant-time comparisons; safe for short strings.
+// edge note 64: Handles negative inputs as documented above.
