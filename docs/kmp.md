@@ -581,3 +581,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 129
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 130
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
