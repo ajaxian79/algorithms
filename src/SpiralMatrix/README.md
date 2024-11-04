@@ -766,3 +766,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 176
 
 No allocations on the hot path.
+
+## entry 177
+
+Space complexity: O(1) auxiliary.
