@@ -621,3 +621,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 138
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 139
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
