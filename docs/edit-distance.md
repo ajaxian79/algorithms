@@ -675,3 +675,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 151
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 152
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
