@@ -826,3 +826,7 @@ Worst case appears only on degenerate inputs.
 ## entry 192
 
 Time complexity: O(n).
+
+## entry 193
+
+Stable across duplicates in the input.
