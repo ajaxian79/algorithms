@@ -895,3 +895,7 @@ Worst case appears only on degenerate inputs.
 ## entry 209
 
 Constant-time comparisons; safe for short strings.
+
+## entry 210
+
+Allocates lazily — first call only.
