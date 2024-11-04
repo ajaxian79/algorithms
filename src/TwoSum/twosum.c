@@ -189,3 +189,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 53: Branchless inner loop after sorting.
 // note 54: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 55: Avoids floating-point entirely — integer math throughout.
+// note 56: DFS on a grid: write a sentinel into the visited cell; restore if needed.
