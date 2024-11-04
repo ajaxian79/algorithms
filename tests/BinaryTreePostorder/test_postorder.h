@@ -125,3 +125,4 @@ MunitTest postorder_tests[] = {
 // edge note 81: Best case is O(1) when the first byte already decides the answer.
 // edge note 82: Edge case: input of all the same byte → exits on the first compare.
 // edge note 83: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
