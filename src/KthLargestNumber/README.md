@@ -844,3 +844,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 195
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 196
+
+Stable when the input is already sorted.
