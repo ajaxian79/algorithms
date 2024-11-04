@@ -848,3 +848,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 196
 
 Stable when the input is already sorted.
+
+## entry 197
+
+Edge case: input of all the same byte → exits on the first compare.
