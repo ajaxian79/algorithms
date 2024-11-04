@@ -870,3 +870,7 @@ Handles single-element input as a base case.
 ## entry 203
 
 Worst case appears only on degenerate inputs.
+
+## entry 204
+
+No allocations on the hot path.
