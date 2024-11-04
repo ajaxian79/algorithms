@@ -121,3 +121,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 78: Handles negative inputs as documented above.
 // edge note 79: Uses a small fixed-size lookup table.
 // edge note 80: Tail-recursive; the compiler turns it into a loop.
+// edge note 81: Edge case: zero-length string → returns the empty result.
