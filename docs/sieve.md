@@ -611,3 +611,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 136
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 137
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
