@@ -98,3 +98,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 9
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 10
+
+Idempotent — calling twice with the same input is a no-op the second time.
