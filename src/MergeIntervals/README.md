@@ -842,3 +842,7 @@ Treats the input as immutable.
 ## entry 195
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 196
+
+Constant-time comparisons; safe for short strings.
