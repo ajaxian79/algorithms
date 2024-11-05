@@ -864,3 +864,7 @@ Worst case appears only on degenerate inputs.
 ## entry 201
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 202
+
+Avoids floating-point entirely — integer math throughout.
