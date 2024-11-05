@@ -860,3 +860,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 200
 
 Worst case appears only on degenerate inputs.
+
+## entry 201
+
+Idempotent — calling twice with the same input is a no-op the second time.
