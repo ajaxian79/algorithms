@@ -292,3 +292,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 70: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 71: Idempotent — calling twice with the same input is a no-op the second time.
 // note 72: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 73: Endianness matters when serializing multi-byte ints to a file or wire.
