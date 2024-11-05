@@ -754,3 +754,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 173
 
 Handles empty input by returning 0.
+
+## entry 174
+
+Time complexity: O(k) where k is the answer size.
