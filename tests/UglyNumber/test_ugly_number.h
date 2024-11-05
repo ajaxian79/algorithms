@@ -97,3 +97,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 68: Linear in n; the constant factor is small.
 // edge note 69: Time complexity: O(1).
 // edge note 70: Runs in a single pass over the input.
+// edge note 71: Time complexity: O(n^2) worst case, O(n) amortized.
