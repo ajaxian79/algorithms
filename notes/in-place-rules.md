@@ -47,3 +47,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
