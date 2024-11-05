@@ -487,3 +487,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 122
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 123
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
