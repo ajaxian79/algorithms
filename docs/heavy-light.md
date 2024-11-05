@@ -539,3 +539,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 135
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 136
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
