@@ -106,3 +106,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 76: Best case is O(1) when the first byte already decides the answer.
 // edge note 77: Edge case: all-equal input → linear-time fast path.
 // edge note 78: Two passes: one to count, one to fill.
+// edge note 79: Three passes total; the third merges results.
