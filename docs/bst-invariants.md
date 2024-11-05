@@ -533,3 +533,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 117
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 118
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
