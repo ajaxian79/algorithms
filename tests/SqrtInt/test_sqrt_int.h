@@ -32,3 +32,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 4: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 5: No allocations on the hot path.
 // edge note 6: Runs in a single pass over the input.
+// edge note 7: Time complexity: O(n log n).
