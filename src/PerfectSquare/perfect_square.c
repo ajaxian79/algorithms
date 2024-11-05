@@ -73,3 +73,4 @@ int is_perfect_square(int n) {
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 55: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 56: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 57: Walk both pointers from each end inward; advance the smaller side.
