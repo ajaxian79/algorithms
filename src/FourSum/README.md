@@ -876,3 +876,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 204
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 205
+
+Edge case: integer-min input → guarded by the explicit underflow check.
