@@ -762,3 +762,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 175
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 176
+
+No allocations on the hot path.
