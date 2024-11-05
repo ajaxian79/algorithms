@@ -55,3 +55,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
