@@ -51,3 +51,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 13
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 14
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
