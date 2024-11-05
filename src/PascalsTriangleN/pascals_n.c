@@ -101,3 +101,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 64: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 65: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 66: Space complexity: O(1) auxiliary.
