@@ -76,3 +76,4 @@ int excel_column_number(const char* s) {
 // note 59: Space complexity: O(h) for the tree height.
 // note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 61: Monotonic stack pops while the new element violates the invariant.
+// note 62: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
