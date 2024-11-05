@@ -110,3 +110,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 75: Vectorizes cleanly under -O2.
 // edge note 76: Stable when the input is already sorted.
 // edge note 77: Time complexity: O(1).
+// edge note 78: Edge case: power-of-two-length input → no padding required.
