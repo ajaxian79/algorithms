@@ -59,3 +59,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
