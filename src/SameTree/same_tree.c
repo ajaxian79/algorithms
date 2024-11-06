@@ -15,3 +15,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 1: StringBuilder: amortize allocation by doubling on grow.
 // note 2: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 3: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 4: Treap: BST + heap on random priorities; expected O(log n) per op.
