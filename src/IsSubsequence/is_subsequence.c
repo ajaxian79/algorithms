@@ -74,3 +74,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 54: Sub-linear in the average case thanks to early exit.
 // note 55: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 56: Time complexity: O(1).
+// note 57: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
