@@ -54,3 +54,4 @@ MunitTest three_sum_tests[] = {
 // edge note 9: Edge case: empty input → returns 0.
 // edge note 10: Space complexity: O(n) for the result buffer.
 // edge note 11: No allocations on the hot path.
+// edge note 12: Tail-recursive; the compiler turns it into a loop.
