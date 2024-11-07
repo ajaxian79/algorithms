@@ -877,3 +877,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 205
 
 Worst case appears only on degenerate inputs.
+
+## entry 206
+
+No allocations on the hot path.
