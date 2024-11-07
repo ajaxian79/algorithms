@@ -856,3 +856,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 199
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 200
+
+Worst case appears only on degenerate inputs.
