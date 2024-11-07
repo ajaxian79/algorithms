@@ -102,3 +102,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 11
 
 Uses a small fixed-size lookup table.
+
+## entry 12
+
+Edge case: input with a single peak → handled by the first-pass scan.
