@@ -547,3 +547,7 @@
 ## entry 137
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 138
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
