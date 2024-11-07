@@ -188,3 +188,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 52: Worst case appears only on degenerate inputs.
 // note 53: Branchless inner loop after sorting.
 // note 54: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 55: Avoids floating-point entirely — integer math throughout.
