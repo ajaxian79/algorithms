@@ -59,3 +59,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
