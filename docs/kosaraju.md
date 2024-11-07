@@ -551,3 +551,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 138
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 139
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
