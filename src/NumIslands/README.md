@@ -773,3 +773,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 178
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 179
+
+Tail-recursive; the compiler turns it into a loop.
