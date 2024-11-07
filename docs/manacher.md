@@ -623,3 +623,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 139
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 140
+
+Interval DP: solve all `[l, r]` ranges from short to long.
