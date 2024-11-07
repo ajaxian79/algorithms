@@ -97,3 +97,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 65: Edge case: single-element input → returns the element itself.
 // edge note 66: Edge case: already-sorted input → no swaps performed.
 // edge note 67: Space complexity: O(log n) for the recursion stack.
+// edge note 68: Time complexity: O(1).
