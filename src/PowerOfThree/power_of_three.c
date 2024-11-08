@@ -13,3 +13,4 @@ int is_power_of_three(int n) {
 // note 2: Articulation points: same DFS as bridges, with a slightly different test.
 // note 3: Euler tour flattens a tree into an array for range-query LCA.
 // note 4: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 5: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
