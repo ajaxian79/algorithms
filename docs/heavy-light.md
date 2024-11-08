@@ -535,3 +535,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 134
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 135
+
+In-place compaction uses two pointers: read advances always, write only on keep.
