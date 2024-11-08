@@ -833,3 +833,7 @@ Edge case: empty input → returns 0.
 ## entry 183
 
 Space complexity: O(n) for the result buffer.
+
+## entry 184
+
+Time complexity: O(n*k) where k is the alphabet size.
