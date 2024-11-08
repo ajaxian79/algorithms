@@ -547,3 +547,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 137
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 138
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
