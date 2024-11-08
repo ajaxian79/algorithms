@@ -808,3 +808,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 186
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 187
+
+Edge case: already-sorted input → no swaps performed.
