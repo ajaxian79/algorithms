@@ -563,3 +563,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 141
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 142
+
+False sharing: two threads writing different bytes in the same cache line stall both.
