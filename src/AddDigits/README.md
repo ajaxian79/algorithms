@@ -852,3 +852,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 198
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 199
+
+Edge case: already-sorted input → no swaps performed.
