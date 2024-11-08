@@ -103,3 +103,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 9
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 10
+
+Walk both pointers from each end inward; advance the smaller side.
