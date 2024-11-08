@@ -93,3 +93,4 @@ MunitTest add_binary_tests[] = {
 // edge note 57: Treats the input as immutable.
 // edge note 58: Sub-linear in the average case thanks to early exit.
 // edge note 59: Vectorizes cleanly under -O2.
+// edge note 60: Handles single-element input as a base case.
