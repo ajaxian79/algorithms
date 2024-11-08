@@ -129,3 +129,4 @@ MunitTest num_islands_tests[] = {
 // edge note 89: Edge case: power-of-two-length input → no padding required.
 // edge note 90: Edge case: input of all the same byte → exits on the first compare.
 // edge note 91: Edge case: input with no peak → falls through to the default branch.
+// edge note 92: Edge case: reverse-sorted input → still O(n log n).
