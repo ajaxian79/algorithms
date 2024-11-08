@@ -888,3 +888,7 @@ Handles empty input by returning 0.
 ## entry 207
 
 Edge case: empty input → returns 0.
+
+## entry 208
+
+Time complexity: O(n + m).
