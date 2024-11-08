@@ -543,3 +543,7 @@
 ## entry 136
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 137
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
