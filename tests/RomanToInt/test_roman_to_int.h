@@ -112,3 +112,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 78: Edge case: all-equal input → linear-time fast path.
 // edge note 79: No allocations after setup.
 // edge note 80: Time complexity: O(n).
+// edge note 81: Three passes total; the third merges results.
