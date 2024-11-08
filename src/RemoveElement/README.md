@@ -801,3 +801,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 186
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 187
+
+Two passes: one to count, one to fill.
