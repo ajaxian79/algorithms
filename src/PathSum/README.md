@@ -880,3 +880,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 205
 
 Allocates lazily — first call only.
+
+## entry 206
+
+Time complexity: O(n^2) worst case, O(n) amortized.
