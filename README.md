@@ -181,3 +181,5 @@ Caller owns the returned buffer.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(n).
+
+Returns a freshly allocated string the caller must free.
