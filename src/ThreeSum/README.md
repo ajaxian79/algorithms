@@ -105,3 +105,7 @@ Vectorizes cleanly under -O2.
 ## entry 11
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 12
+
+Edge case: integer-min input → guarded by the explicit underflow check.
