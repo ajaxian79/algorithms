@@ -742,3 +742,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 171
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 172
+
+Treats the input as immutable.
