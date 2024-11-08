@@ -96,3 +96,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 69: Stable across duplicates in the input.
 // edge note 70: Caller owns the returned array; free with a single `free`.
 // edge note 71: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 72: Edge case: alternating pattern → degenerate case for sliding window.
