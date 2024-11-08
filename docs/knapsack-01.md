@@ -653,3 +653,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 146
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 147
+
+Stable sort matters when a secondary key was set in a prior pass.
