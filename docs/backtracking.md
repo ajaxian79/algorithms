@@ -649,3 +649,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 145
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 146
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
