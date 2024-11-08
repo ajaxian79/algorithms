@@ -619,3 +619,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 155
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 156
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
