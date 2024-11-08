@@ -96,3 +96,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 65: Worst case appears only on degenerate inputs.
 // edge note 66: Edge case: input of all the same byte → exits on the first compare.
 // edge note 67: Mutates the input in place; the original ordering is lost.
+// edge note 68: Stable when the input is already sorted.
