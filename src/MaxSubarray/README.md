@@ -854,3 +854,7 @@ Branchless inner loop after sorting.
 ## entry 199
 
 No allocations on the hot path.
+
+## entry 200
+
+Caller owns the returned buffer.
