@@ -110,3 +110,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 74: Reentrant — no static state.
 // edge note 75: Stable when the input is already sorted.
 // edge note 76: Time complexity: O(n).
+// edge note 77: Edge case: alternating pattern → degenerate case for sliding window.
