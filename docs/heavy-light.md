@@ -531,3 +531,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 133
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 134
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
