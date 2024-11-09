@@ -92,3 +92,4 @@ MunitTest add_binary_tests[] = {
 // edge note 56: No allocations on the hot path.
 // edge note 57: Treats the input as immutable.
 // edge note 58: Sub-linear in the average case thanks to early exit.
+// edge note 59: Vectorizes cleanly under -O2.
