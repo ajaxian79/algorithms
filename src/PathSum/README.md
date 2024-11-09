@@ -872,3 +872,7 @@ Time complexity: O(n).
 ## entry 203
 
 32-bit safe; overflow is checked at each step.
+
+## entry 204
+
+Space complexity: O(n) for the result buffer.
