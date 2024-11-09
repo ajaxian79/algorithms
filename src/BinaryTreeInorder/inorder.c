@@ -41,3 +41,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 1: StringBuilder: amortize allocation by doubling on grow.
 // note 2: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 3: Thread-safe so long as the input is not mutated concurrently.
+// note 4: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
