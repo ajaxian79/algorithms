@@ -798,3 +798,7 @@ Treats the input as immutable.
 ## entry 185
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 186
+
+Branchless inner loop after sorting.
