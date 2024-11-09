@@ -875,3 +875,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 203
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 204
+
+Edge case: power-of-two-length input → no padding required.
