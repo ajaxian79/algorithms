@@ -34,3 +34,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 2: Space complexity: O(log n) for the recursion stack.
 // edge note 3: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 4: Resists adversarial inputs by randomizing the pivot.
+// edge note 5: Allocates one buffer of length n+1 for the result.
