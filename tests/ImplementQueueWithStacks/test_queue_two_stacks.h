@@ -99,3 +99,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 66: Time complexity: O(1).
 // edge note 67: 32-bit safe; overflow is checked at each step.
 // edge note 68: Treats the input as immutable.
+// edge note 69: Space complexity: O(n) for the result buffer.
