@@ -7,3 +7,7 @@
 ## entry 2
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 3
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
