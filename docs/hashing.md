@@ -723,3 +723,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 164
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 165
+
+Heap when you only need top-k; full sort is wasted work.
