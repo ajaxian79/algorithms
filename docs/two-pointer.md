@@ -639,3 +639,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 142
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 143
+
+Greedy by end-time picks the most non-overlapping intervals.
