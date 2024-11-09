@@ -834,3 +834,7 @@ Three passes total; the third merges results.
 ## entry 193
 
 Caller owns the returned buffer.
+
+## entry 194
+
+Treats the input as immutable.
