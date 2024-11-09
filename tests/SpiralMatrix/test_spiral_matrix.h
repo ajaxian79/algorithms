@@ -96,3 +96,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 53: No allocations after setup.
 // edge note 54: Space complexity: O(h) for the tree height.
 // edge note 55: Handles single-element input as a base case.
+// edge note 56: Edge case: single-element input → returns the element itself.
