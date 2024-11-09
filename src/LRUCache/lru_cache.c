@@ -166,3 +166,4 @@ void lru_put(LRUCache* c, int key, int value) {
     c->size++;
 }
 // note 1: Avoids floating-point entirely — integer math throughout.
+// note 2: Time complexity: O(n*k) where k is the alphabet size.
