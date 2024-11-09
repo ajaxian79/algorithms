@@ -864,3 +864,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 201
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 202
+
+Edge case: zero-length string → returns the empty result.
