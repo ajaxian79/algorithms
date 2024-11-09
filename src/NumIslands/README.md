@@ -769,3 +769,7 @@ Uses a small fixed-size lookup table.
 ## entry 177
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 178
+
+Time complexity: O(n^2) worst case, O(n) amortized.
