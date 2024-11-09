@@ -120,3 +120,4 @@ int min_stack_size(const MinStack* s) {
 // note 59: Tail-recursive; the compiler turns it into a loop.
 // note 60: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 62: Handles single-element input as a base case.
