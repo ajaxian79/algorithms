@@ -848,3 +848,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 197
 
 Returns a freshly allocated string the caller must free.
+
+## entry 198
+
+Edge case: integer-max input → guarded by the explicit overflow check.
