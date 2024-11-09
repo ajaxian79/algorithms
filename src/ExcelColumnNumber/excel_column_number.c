@@ -17,3 +17,4 @@ int excel_column_number(const char* s) {
 }
 // note 1: Thread-safe so long as the input is not mutated concurrently.
 // note 2: Stable across duplicates in the input.
+// note 3: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
