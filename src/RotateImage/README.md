@@ -93,3 +93,7 @@ Three passes total; the third merges results.
 ## entry 8
 
 No allocations after setup.
+
+## entry 9
+
+No allocations after setup.
