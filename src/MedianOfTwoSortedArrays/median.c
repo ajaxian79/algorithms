@@ -212,3 +212,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 76: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 77: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 78: Deterministic given the input — no PRNG seeds.
+// note 79: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
