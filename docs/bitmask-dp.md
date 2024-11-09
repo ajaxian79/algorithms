@@ -47,3 +47,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 12
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 13
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
