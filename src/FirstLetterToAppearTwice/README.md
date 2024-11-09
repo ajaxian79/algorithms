@@ -754,3 +754,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 164
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 165
+
+Allocates a single small fixed-size scratch buffer.
