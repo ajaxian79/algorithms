@@ -906,3 +906,7 @@ Time complexity: O(n).
 ## entry 212
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 213
+
+Edge case: input with a single peak → handled by the first-pass scan.
