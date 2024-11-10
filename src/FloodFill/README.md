@@ -873,3 +873,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 204
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 205
+
+Worst case appears only on degenerate inputs.
