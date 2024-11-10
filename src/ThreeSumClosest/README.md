@@ -838,3 +838,7 @@ Three passes total; the third merges results.
 ## entry 195
 
 Treats the input as immutable.
+
+## entry 196
+
+Stable across duplicates in the input.
