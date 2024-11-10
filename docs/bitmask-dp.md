@@ -543,3 +543,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 136
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 137
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
