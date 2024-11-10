@@ -95,3 +95,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 68: Worst case appears only on degenerate inputs.
 // edge note 69: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 70: Stable across duplicates in the input.
+// edge note 71: Cache-friendly; one sequential read pass.
