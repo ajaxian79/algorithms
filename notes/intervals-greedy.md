@@ -609,3 +609,7 @@
 ## entry 135
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 136
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
