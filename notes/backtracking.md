@@ -495,3 +495,7 @@
 ## entry 107
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 108
+
+- Walk both pointers from each end inward; advance the smaller side.
