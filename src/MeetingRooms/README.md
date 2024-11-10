@@ -782,3 +782,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 181
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 182
+
+Space complexity: O(n) for the result buffer.
