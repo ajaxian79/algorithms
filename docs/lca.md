@@ -559,3 +559,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 140
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 141
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
