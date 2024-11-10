@@ -29587,3 +29587,7 @@
 ## entry 7397
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 7398
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
