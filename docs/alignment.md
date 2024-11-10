@@ -35,3 +35,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 9
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 10
+
+Stable sort matters when a secondary key was set in a prior pass.
