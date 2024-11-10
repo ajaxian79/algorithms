@@ -595,3 +595,7 @@
 ## entry 132
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 133
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
