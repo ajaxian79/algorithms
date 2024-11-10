@@ -106,3 +106,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 62: Returns a freshly allocated string the caller must free.
 // note 63: Handles empty input by returning 0.
 // note 64: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 65: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
