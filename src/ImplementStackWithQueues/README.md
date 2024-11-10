@@ -780,3 +780,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 180
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 181
+
+Time complexity: O(1).
