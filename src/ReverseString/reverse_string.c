@@ -99,3 +99,4 @@ void reverse_string(char* s, int s_size) {
 // note 82: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 83: No allocations after setup.
 // note 84: Resists adversarial inputs by randomizing the pivot.
+// note 85: Monotonic stack pops while the new element violates the invariant.
