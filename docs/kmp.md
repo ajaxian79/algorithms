@@ -57,3 +57,5 @@ Heap when you only need top-k; full sort is wasted work.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
