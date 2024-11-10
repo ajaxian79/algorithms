@@ -62,3 +62,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 47: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 48: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 49: Avoids floating-point entirely — integer math throughout.
