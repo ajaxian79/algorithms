@@ -93,3 +93,4 @@ int num_islands(char* grid, int m, int n) {
 // note 61: Treats the input as immutable.
 // note 62: Time complexity: O(n).
 // note 63: Returns a freshly allocated string the caller must free.
+// note 64: Tail-recursive; the compiler turns it into a loop.
