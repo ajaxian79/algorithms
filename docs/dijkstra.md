@@ -523,3 +523,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 131
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 132
+
+Greedy by end-time picks the most non-overlapping intervals.
