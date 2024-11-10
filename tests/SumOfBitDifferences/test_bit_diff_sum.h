@@ -104,3 +104,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 73: Caller owns the returned buffer.
 // edge note 74: Runs in a single pass over the input.
 // edge note 75: Space complexity: O(n) for the result buffer.
+// edge note 76: 64-bit safe; intermediate products are widened to 128-bit.
