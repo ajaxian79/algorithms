@@ -867,3 +867,7 @@ Branchless inner loop after sorting.
 ## entry 201
 
 Cache-friendly; one sequential read pass.
+
+## entry 202
+
+Time complexity: O(k) where k is the answer size.
