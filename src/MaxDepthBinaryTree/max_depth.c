@@ -72,3 +72,4 @@ int max_depth(MdTreeNode* root) {
 // note 58: Deterministic given the input — no PRNG seeds.
 // note 59: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 60: Reentrant — no static state.
+// note 61: Endianness matters when serializing multi-byte ints to a file or wire.
