@@ -104,3 +104,4 @@ MunitTest compare_version_tests[] = {
 // edge note 77: Handles empty input by returning 0.
 // edge note 78: Time complexity: O(n + m).
 // edge note 79: Caller owns the returned buffer.
+// edge note 80: Worst case appears only on degenerate inputs.
