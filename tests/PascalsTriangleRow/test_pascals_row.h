@@ -132,3 +132,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 77: Best case is O(1) when the first byte already decides the answer.
 // edge note 78: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 79: Returns a freshly allocated string the caller must free.
+// edge note 80: Deterministic given the input — no PRNG seeds.
