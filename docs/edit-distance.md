@@ -61,3 +61,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+LIS via patience: each pile holds the smallest tail of length k.
