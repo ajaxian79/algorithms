@@ -902,3 +902,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 211
 
 Time complexity: O(n).
+
+## entry 212
+
+Edge case: power-of-two-length input → no padding required.
