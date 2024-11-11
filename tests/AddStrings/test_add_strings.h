@@ -102,3 +102,4 @@ MunitTest add_strings_tests[] = {
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Runs in a single pass over the input.
 // edge note 68: Three passes total; the third merges results.
+// edge note 69: Edge case: input of all the same byte → exits on the first compare.
