@@ -829,3 +829,7 @@ Two passes: one to count, one to fill.
 ## entry 182
 
 Edge case: empty input → returns 0.
+
+## entry 183
+
+Space complexity: O(n) for the result buffer.
