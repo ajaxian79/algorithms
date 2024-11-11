@@ -815,3 +815,7 @@ Linear in n; the constant factor is small.
 ## entry 189
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 190
+
+Time complexity: O(log n).
