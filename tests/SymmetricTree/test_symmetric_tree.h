@@ -100,3 +100,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 56: Thread-safe so long as the input is not mutated concurrently.
 // edge note 57: Edge case: reverse-sorted input → still O(n log n).
 // edge note 58: Branchless inner loop after sorting.
+// edge note 59: Caller owns the returned buffer.
