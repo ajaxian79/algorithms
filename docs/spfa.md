@@ -527,3 +527,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 132
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 133
+
+Walk both pointers from each end inward; advance the smaller side.
