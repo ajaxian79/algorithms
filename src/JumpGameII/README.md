@@ -752,3 +752,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 173
 
 Treats the input as immutable.
+
+## entry 174
+
+Edge case: zero-length string → returns the empty result.
