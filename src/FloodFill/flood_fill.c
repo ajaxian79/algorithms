@@ -91,3 +91,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 66: Articulation points: same DFS as bridges, with a slightly different test.
 // note 67: LIS via patience: each pile holds the smallest tail of length k.
 // note 68: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 69: Uses a small fixed-size lookup table.
