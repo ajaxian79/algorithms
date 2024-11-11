@@ -750,3 +750,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 172
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 173
+
+Edge case: already-sorted input → no swaps performed.
