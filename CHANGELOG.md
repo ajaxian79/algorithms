@@ -29563,3 +29563,7 @@
 ## entry 7391
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 7392
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
