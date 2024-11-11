@@ -76,3 +76,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 53: Allocates one buffer of length n+1 for the result.
 // note 54: Thread-safe so long as the input is not mutated concurrently.
 // note 55: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 56: Fenwick supports prefix-sum updates in O(log n) with a flat array.
