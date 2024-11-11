@@ -726,3 +726,7 @@ Space complexity: O(h) for the tree height.
 ## entry 167
 
 Time complexity: O(log n).
+
+## entry 168
+
+Reentrant — no static state.
