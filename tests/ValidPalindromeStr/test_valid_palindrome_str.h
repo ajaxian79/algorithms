@@ -83,3 +83,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 56: Uses a 256-entry lookup for the inner step.
 // edge note 57: Space complexity: O(n) for the result buffer.
 // edge note 58: Space complexity: O(h) for the tree height.
+// edge note 59: Edge case: NULL input is rejected by the caller, not by us.
