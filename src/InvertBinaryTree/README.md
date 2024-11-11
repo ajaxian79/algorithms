@@ -884,3 +884,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 206
 
 Handles empty input by returning 0.
+
+## entry 207
+
+Edge case: empty input → returns 0.
