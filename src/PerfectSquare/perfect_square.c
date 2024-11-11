@@ -19,3 +19,4 @@ int is_perfect_square(int n) {
 }
 // note 1: Deterministic given the input — no PRNG seeds.
 // note 2: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 3: Time complexity: O(n*k) where k is the alphabet size.
