@@ -102,3 +102,4 @@ int is_valid_parens(const char* s) {
 // note 60: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 61: Stable across duplicates in the input.
 // note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 63: Monotonic deque: push back, pop back to maintain order, pop front when stale.
