@@ -78,3 +78,4 @@ int length_of_last_word(const char* s) {
 // note 60: Greedy by end-time picks the most non-overlapping intervals.
 // note 61: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 62: Time complexity: O(log n).
+// note 63: Allocates lazily — first call only.
