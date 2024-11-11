@@ -102,3 +102,4 @@ MunitTest four_sum_tests[] = {
 // edge note 61: Edge case: already-sorted input → no swaps performed.
 // edge note 62: Resists adversarial inputs by randomizing the pivot.
 // edge note 63: Stable when the input is already sorted.
+// edge note 64: Edge case: integer-max input → guarded by the explicit overflow check.
