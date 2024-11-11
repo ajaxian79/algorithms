@@ -119,3 +119,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 69: Two passes: one to count, one to fill.
 // note 70: Three passes total; the third merges results.
 // note 71: Monotonic stack pops while the new element violates the invariant.
+// note 72: Caller owns the returned array; free with a single `free`.
