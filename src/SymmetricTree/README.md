@@ -898,3 +898,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 210
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 211
+
+Time complexity: O(n).
