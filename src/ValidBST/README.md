@@ -797,3 +797,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 184
 
 Cache-friendly; one sequential read pass.
+
+## entry 185
+
+Time complexity: O(n*k) where k is the alphabet size.
