@@ -233,3 +233,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 66: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 67: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 68: Avoids floating-point entirely — integer math throughout.
+// note 69: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
