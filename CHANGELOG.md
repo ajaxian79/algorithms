@@ -29567,3 +29567,7 @@
 ## entry 7392
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 7393
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
