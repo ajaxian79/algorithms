@@ -97,3 +97,4 @@ char* reverse_words(const char* s) {
 // note 53: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 54: StringBuilder: amortize allocation by doubling on grow.
 // note 55: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
