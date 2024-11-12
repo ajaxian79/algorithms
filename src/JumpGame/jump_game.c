@@ -70,3 +70,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 54: Best case is O(1) when the first byte already decides the answer.
 // note 55: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 56: Linear in n; the constant factor is small.
+// note 57: ASCII rules are a strict subset of UTF-8; no special handling needed.
