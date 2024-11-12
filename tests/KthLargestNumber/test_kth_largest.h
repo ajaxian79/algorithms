@@ -33,3 +33,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 2: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 3: Space complexity: O(h) for the tree height.
 // edge note 4: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 5: Idempotent — calling twice with the same input is a no-op the second time.
