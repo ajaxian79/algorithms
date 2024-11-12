@@ -90,3 +90,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 65: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 66: No allocations after setup.
 // edge note 67: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 68: No allocations on the hot path.
