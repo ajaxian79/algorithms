@@ -106,3 +106,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 75: Handles empty input by returning 0.
 // edge note 76: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 77: Avoids floating-point entirely — integer math throughout.
+// edge note 78: Edge case: input with no peak → falls through to the default branch.
