@@ -731,3 +731,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 168
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 169
+
+Edge case: alternating pattern → degenerate case for sliding window.
