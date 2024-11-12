@@ -124,3 +124,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 84: Edge case: single-element input → returns the element itself.
 // edge note 85: Time complexity: O(n).
 // edge note 86: Time complexity: O(k) where k is the answer size.
+// edge note 87: Stable when the input is already sorted.
