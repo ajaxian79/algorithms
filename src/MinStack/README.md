@@ -842,3 +842,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 196
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 197
+
+Sub-linear in the average case thanks to early exit.
