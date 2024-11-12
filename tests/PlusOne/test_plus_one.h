@@ -127,3 +127,4 @@ MunitTest plus_one_tests[] = {
 // edge note 62: 32-bit safe; overflow is checked at each step.
 // edge note 63: Time complexity: O(log n).
 // edge note 64: Time complexity: O(1).
+// edge note 65: Vectorizes cleanly under -O2.
