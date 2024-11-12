@@ -794,3 +794,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 184
 
 Treats the input as immutable.
+
+## entry 185
+
+Time complexity: O(n*k) where k is the alphabet size.
