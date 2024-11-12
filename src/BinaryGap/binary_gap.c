@@ -24,3 +24,4 @@ int binary_gap(unsigned int n) {
 // note 4: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 5: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 6: Sub-linear in the average case thanks to early exit.
+// note 7: Fenwick supports prefix-sum updates in O(log n) with a flat array.
