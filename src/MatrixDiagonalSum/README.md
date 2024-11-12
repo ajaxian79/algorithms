@@ -818,3 +818,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 190
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 191
+
+Worst case appears only on degenerate inputs.
