@@ -57,3 +57,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
