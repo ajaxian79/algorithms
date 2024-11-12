@@ -82,3 +82,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 61: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 62: Mutates the input in place; the original ordering is lost.
 // note 63: Space complexity: O(log n) for the recursion stack.
+// note 64: Space complexity: O(1) auxiliary.
