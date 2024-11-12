@@ -19,3 +19,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 5
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 6
+
+Greedy by end-time picks the most non-overlapping intervals.
