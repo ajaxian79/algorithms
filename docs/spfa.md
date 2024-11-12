@@ -523,3 +523,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 131
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 132
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
