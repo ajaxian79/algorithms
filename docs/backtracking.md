@@ -645,3 +645,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 144
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 145
+
+State compression: bitmask + integer encodes a small subset cheaply.
