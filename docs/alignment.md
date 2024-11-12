@@ -543,3 +543,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 136
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 137
+
+Rope: tree of small string fragments; O(log n) concat and substring.
