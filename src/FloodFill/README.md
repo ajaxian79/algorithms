@@ -869,3 +869,7 @@ Worst case appears only on degenerate inputs.
 ## entry 203
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 204
+
+Deterministic given the input — no PRNG seeds.
