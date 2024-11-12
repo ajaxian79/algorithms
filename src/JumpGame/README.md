@@ -837,3 +837,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 194
 
 Branchless inner loop after sorting.
+
+## entry 195
+
+Stable when the input is already sorted.
