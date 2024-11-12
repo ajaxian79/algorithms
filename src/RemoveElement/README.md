@@ -93,3 +93,7 @@ Uses a small fixed-size lookup table.
 ## entry 9
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 10
+
+Tail-recursive; the compiler turns it into a loop.
