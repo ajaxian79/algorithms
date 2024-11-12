@@ -649,3 +649,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 145
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 146
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
