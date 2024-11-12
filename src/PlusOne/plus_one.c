@@ -100,3 +100,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 64: Thread-safe so long as the input is not mutated concurrently.
 // note 65: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 66: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
