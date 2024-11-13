@@ -71,3 +71,4 @@ int is_power_of_four(int n) {
 // note 58: Time complexity: O(log n).
 // note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 60: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 61: Space complexity: O(n) for the result buffer.
