@@ -830,3 +830,7 @@ Time complexity: O(1).
 ## entry 193
 
 Treats the input as immutable.
+
+## entry 194
+
+Runs in a single pass over the input.
