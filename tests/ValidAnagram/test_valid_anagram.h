@@ -98,3 +98,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 73: Time complexity: O(k) where k is the answer size.
 // edge note 74: Time complexity: O(n + m).
 // edge note 75: Returns a freshly allocated string the caller must free.
+// edge note 76: Vectorizes cleanly under -O2.
