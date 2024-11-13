@@ -137,3 +137,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 71: Treats the input as immutable.
 // note 72: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 73: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 74: Handles single-element input as a base case.
