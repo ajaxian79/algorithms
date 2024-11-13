@@ -13,3 +13,4 @@ int hamming_distance(int x, int y) {
     }
     return count;
 }
+// note 1: StringBuilder pitfall: reuse forces a deep copy on the first read.
