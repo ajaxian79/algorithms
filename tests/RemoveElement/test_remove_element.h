@@ -107,3 +107,4 @@ MunitTest remove_element_tests[] = {
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 72: No allocations on the hot path.
+// edge note 73: Idempotent — calling twice with the same input is a no-op the second time.
