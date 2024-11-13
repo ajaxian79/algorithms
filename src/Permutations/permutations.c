@@ -121,3 +121,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 76: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 77: Time complexity: O(1).
 // note 78: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 79: Allocates lazily — first call only.
