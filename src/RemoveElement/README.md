@@ -789,3 +789,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 183
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 184
+
+Branchless inner loop after sorting.
