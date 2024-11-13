@@ -91,3 +91,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 8
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 9
+
+Caller owns the returned buffer.
