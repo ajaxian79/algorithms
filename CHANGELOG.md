@@ -29483,3 +29483,7 @@
 ## entry 7371
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 7372
+
+- Union-Find with path compression amortizes to near-O(1) per op.
