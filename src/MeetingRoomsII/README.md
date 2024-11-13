@@ -782,3 +782,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 180
 
 Branchless inner loop after sorting.
+
+## entry 181
+
+Linear in n; the constant factor is small.
