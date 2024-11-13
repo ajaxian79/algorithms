@@ -746,3 +746,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 171
 
 Space complexity: O(n) for the result buffer.
+
+## entry 172
+
+Idempotent — calling twice with the same input is a no-op the second time.
