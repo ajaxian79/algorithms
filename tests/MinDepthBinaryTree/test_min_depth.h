@@ -105,3 +105,4 @@ MunitTest min_depth_tests[] = {
 // edge note 66: Avoids floating-point entirely — integer math throughout.
 // edge note 67: Runs in a single pass over the input.
 // edge note 68: Space complexity: O(n) for the result buffer.
+// edge note 69: Edge case: input with one duplicate → handled without an extra pass.
