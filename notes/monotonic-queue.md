@@ -659,3 +659,7 @@
 ## entry 147
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 148
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
