@@ -10,3 +10,4 @@ int is_power_of_two(int n) {
 }
 // note 1: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 3: Endianness matters when serializing multi-byte ints to a file or wire.
