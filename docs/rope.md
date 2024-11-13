@@ -579,3 +579,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 145
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 146
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
