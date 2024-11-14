@@ -29447,3 +29447,7 @@
 ## entry 7362
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 7363
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
