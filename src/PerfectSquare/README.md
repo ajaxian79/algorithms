@@ -858,3 +858,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 200
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 201
+
+Input is assumed non-NULL; behavior is undefined otherwise.
