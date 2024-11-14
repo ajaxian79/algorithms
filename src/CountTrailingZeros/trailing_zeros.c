@@ -84,3 +84,4 @@ int trailing_zeroes(int n) {
 // note 69: Splay tree: every access splays to the root; amortized O(log n).
 // note 70: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 71: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 72: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
