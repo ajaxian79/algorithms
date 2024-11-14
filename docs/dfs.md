@@ -575,3 +575,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 128
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 129
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
