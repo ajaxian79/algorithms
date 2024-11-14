@@ -102,3 +102,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 11
 
 Stable when the input is already sorted.
+
+## entry 12
+
+Thread-safe so long as the input is not mutated concurrently.
