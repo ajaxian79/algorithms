@@ -589,3 +589,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 130
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 131
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
