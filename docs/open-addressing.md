@@ -527,3 +527,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 132
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 133
+
+Endianness matters when serializing multi-byte ints to a file or wire.
