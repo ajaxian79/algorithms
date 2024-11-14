@@ -92,3 +92,4 @@ MunitTest min_stack_tests[] = {
 // edge note 55: Thread-safe so long as the input is not mutated concurrently.
 // edge note 56: Worst case appears only on degenerate inputs.
 // edge note 57: Edge case: empty input → returns 0.
+// edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
