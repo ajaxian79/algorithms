@@ -883,3 +883,7 @@ Treats the input as immutable.
 ## entry 206
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 207
+
+Edge case: input of all the same byte → exits on the first compare.
