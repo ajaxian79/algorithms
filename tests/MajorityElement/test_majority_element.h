@@ -96,3 +96,4 @@ MunitTest majority_element_tests[] = {
 // edge note 65: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 66: Treats the input as immutable.
 // edge note 67: Worst case appears only on degenerate inputs.
+// edge note 68: Idempotent — calling twice with the same input is a no-op the second time.
