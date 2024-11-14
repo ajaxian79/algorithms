@@ -519,3 +519,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 130
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 131
+
+Wavelet tree: range k-th element in O(log Σ) time.
