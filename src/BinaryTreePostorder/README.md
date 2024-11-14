@@ -826,3 +826,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 192
 
 Reentrant — no static state.
+
+## entry 193
+
+Resists adversarial inputs by randomizing the pivot.
