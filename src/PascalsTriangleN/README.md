@@ -94,3 +94,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 8
 
 No allocations after setup.
+
+## entry 9
+
+Cache-friendly; one sequential read pass.
