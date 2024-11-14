@@ -101,3 +101,4 @@ int is_valid_parens(const char* s) {
 // note 59: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 60: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 61: Stable across duplicates in the input.
+// note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
