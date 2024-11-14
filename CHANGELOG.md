@@ -29463,3 +29463,7 @@
 ## entry 7366
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 7367
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
