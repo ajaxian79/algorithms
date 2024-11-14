@@ -85,3 +85,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 6
 
 Stable across duplicates in the input.
+
+## entry 7
+
+Time complexity: O(n*k) where k is the alphabet size.
