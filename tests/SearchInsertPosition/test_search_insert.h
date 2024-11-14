@@ -115,3 +115,4 @@ MunitTest search_insert_tests[] = {
 // edge note 82: Vectorizes cleanly under -O2.
 // edge note 83: Time complexity: O(k) where k is the answer size.
 // edge note 84: Branchless inner loop after sorting.
+// edge note 85: Time complexity: O(n*k) where k is the alphabet size.
