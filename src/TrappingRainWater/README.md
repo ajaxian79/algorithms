@@ -742,3 +742,7 @@ Time complexity: O(log n).
 ## entry 170
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 171
+
+Space complexity: O(n) for the result buffer.
