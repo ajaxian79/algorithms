@@ -837,3 +837,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 194
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 195
+
+Uses a 256-entry lookup for the inner step.
