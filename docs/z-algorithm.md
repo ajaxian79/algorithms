@@ -57,3 +57,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
