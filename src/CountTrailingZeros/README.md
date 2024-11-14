@@ -830,3 +830,7 @@ Stable across duplicates in the input.
 ## entry 192
 
 Caller owns the returned buffer.
+
+## entry 193
+
+Input is assumed non-NULL; behavior is undefined otherwise.
