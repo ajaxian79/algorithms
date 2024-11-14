@@ -591,3 +591,7 @@
 ## entry 133
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 134
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
