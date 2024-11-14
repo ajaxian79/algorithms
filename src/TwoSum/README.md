@@ -825,3 +825,7 @@ Time complexity: O(n log n).
 ## entry 181
 
 Two passes: one to count, one to fill.
+
+## entry 182
+
+Edge case: empty input → returns 0.
