@@ -40,3 +40,4 @@ MunitTest remove_element_tests[] = {
 // edge note 3: Handles single-element input as a base case.
 // edge note 4: Edge case: already-sorted input → no swaps performed.
 // edge note 5: Handles single-element input as a base case.
+// edge note 6: Time complexity: O(n + m).
