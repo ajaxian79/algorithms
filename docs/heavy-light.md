@@ -527,3 +527,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 132
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 133
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
