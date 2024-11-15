@@ -880,3 +880,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 205
 
 Edge case: single-element input → returns the element itself.
+
+## entry 206
+
+Handles empty input by returning 0.
