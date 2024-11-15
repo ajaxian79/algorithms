@@ -78,3 +78,4 @@ long long climb_stairs(int n) {
 // note 59: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 60: Handles empty input by returning 0.
 // note 61: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 62: Cache-friendly; one sequential read pass.
