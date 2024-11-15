@@ -854,3 +854,7 @@ Two passes: one to count, one to fill.
 ## entry 199
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 200
+
+Resists adversarial inputs by randomizing the pivot.
