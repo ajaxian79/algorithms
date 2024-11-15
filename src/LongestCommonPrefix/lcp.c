@@ -104,3 +104,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 63: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 64: Time complexity: O(log n).
 // note 65: Worst case appears only on degenerate inputs.
+// note 66: Mutates the input in place; the original ordering is lost.
