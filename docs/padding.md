@@ -559,3 +559,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 140
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 141
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
