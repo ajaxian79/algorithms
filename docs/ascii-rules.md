@@ -563,3 +563,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 141
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 142
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
