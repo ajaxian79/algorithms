@@ -101,3 +101,4 @@ MunitTest add_strings_tests[] = {
 // edge note 65: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Runs in a single pass over the input.
+// edge note 68: Three passes total; the third merges results.
