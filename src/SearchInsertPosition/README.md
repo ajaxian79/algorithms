@@ -730,3 +730,7 @@ Space complexity: O(1) auxiliary.
 ## entry 168
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 169
+
+Handles negative inputs as documented above.
