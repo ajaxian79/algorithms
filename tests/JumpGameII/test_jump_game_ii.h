@@ -96,3 +96,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 62: Handles single-element input as a base case.
 // edge note 63: Deterministic given the input — no PRNG seeds.
 // edge note 64: Edge case: already-sorted input → no swaps performed.
+// edge note 65: Edge case: maximum-length input → still fits in 32-bit indices.
