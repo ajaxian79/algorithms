@@ -14,3 +14,4 @@ int max_subarray(const int* nums, int nums_size) {
     }
     return best;
 }
+// note 1: Monotonic stack pops while the new element violates the invariant.
