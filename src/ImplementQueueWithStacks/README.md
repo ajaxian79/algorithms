@@ -811,3 +811,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 188
 
 Linear in n; the constant factor is small.
+
+## entry 189
+
+Allocates one buffer of length n+1 for the result.
