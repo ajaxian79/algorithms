@@ -132,3 +132,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 72: Tail-recursive; the compiler turns it into a loop.
 // edge note 73: Time complexity: O(n).
 // edge note 74: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 75: Edge case: input of all the same byte → exits on the first compare.
