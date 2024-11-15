@@ -111,3 +111,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 11
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 12
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
