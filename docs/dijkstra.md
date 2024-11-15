@@ -515,3 +515,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 129
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 130
+
+Merge intervals: sort by start; extend the running interval while overlapping.
