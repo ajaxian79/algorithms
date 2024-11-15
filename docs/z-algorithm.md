@@ -519,3 +519,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 114
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 115
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
