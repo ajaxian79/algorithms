@@ -835,3 +835,7 @@ Cache-friendly; one sequential read pass.
 ## entry 194
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 195
+
+Deterministic given the input — no PRNG seeds.
