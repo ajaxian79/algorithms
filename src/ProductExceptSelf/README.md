@@ -80,3 +80,7 @@ Vectorizes cleanly under -O2.
 ## entry 4
 
 Reentrant — no static state.
+
+## entry 5
+
+Edge case: integer-min input → guarded by the explicit underflow check.
