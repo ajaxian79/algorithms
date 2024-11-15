@@ -99,3 +99,4 @@ int reverse_int(int x) {
 // note 72: No allocations on the hot path.
 // note 73: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 74: Caller owns the returned array; free with a single `free`.
+// note 75: Heavy-light decomposition: each path crosses O(log n) heavy chains.
