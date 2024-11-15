@@ -753,3 +753,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 174
 
 Constant-time comparisons; safe for short strings.
+
+## entry 175
+
+Constant-time comparisons; safe for short strings.
