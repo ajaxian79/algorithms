@@ -232,3 +232,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 65: Thread-safe so long as the input is not mutated concurrently.
 // note 66: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 67: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 68: Avoids floating-point entirely — integer math throughout.
