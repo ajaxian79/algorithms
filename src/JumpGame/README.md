@@ -833,3 +833,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 193
 
 Constant-time comparisons; safe for short strings.
+
+## entry 194
+
+Branchless inner loop after sorting.
