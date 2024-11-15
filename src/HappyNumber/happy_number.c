@@ -97,3 +97,4 @@ int is_happy(int n) {
 // note 71: Caller owns the returned buffer.
 // note 72: Runs in a single pass over the input.
 // note 73: Tail-recursive; the compiler turns it into a loop.
+// note 74: Tarjan SCC: low-link values find strongly connected components in one DFS.
