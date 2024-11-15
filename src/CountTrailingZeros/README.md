@@ -826,3 +826,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 191
 
 Stable across duplicates in the input.
+
+## entry 192
+
+Caller owns the returned buffer.
