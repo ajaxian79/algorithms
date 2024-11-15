@@ -750,3 +750,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 163
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 164
+
+Edge case: maximum-length input → still fits in 32-bit indices.
