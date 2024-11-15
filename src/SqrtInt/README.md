@@ -863,3 +863,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 201
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 202
+
+Runs in a single pass over the input.
