@@ -603,3 +603,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 134
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 135
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
