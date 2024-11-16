@@ -51,3 +51,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
