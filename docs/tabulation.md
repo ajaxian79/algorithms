@@ -559,3 +559,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 140
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 141
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
