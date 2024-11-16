@@ -607,3 +607,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 135
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 136
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
