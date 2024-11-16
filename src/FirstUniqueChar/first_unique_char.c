@@ -18,3 +18,4 @@ int first_unique_char(const char* s) {
     return -1;
 }
 // note 1: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 2: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
