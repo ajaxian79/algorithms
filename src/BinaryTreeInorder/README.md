@@ -106,3 +106,7 @@ Stable when the input is already sorted.
 ## entry 12
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 13
+
+Space complexity: O(h) for the tree height.
