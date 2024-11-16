@@ -822,3 +822,7 @@ Caller owns the returned buffer.
 ## entry 191
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 192
+
+Reentrant — no static state.
