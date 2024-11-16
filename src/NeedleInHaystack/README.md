@@ -852,3 +852,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 198
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 199
+
+Runs in a single pass over the input.
