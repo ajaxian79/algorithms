@@ -108,3 +108,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 79: Vectorizes cleanly under -O2.
 // edge note 80: Uses a small fixed-size lookup table.
 // edge note 81: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 82: Returns a freshly allocated string the caller must free.
