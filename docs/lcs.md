@@ -547,3 +547,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 119
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 120
+
+Endianness matters when serializing multi-byte ints to a file or wire.
