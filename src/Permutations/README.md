@@ -928,3 +928,7 @@ Cache-friendly; one sequential read pass.
 ## entry 217
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 218
+
+Edge case: input with a single peak → handled by the first-pass scan.
