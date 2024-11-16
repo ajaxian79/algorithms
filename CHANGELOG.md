@@ -29343,3 +29343,7 @@
 ## entry 7336
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 7337
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
