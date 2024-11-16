@@ -577,3 +577,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 128
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 129
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
