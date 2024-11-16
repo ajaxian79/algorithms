@@ -745,3 +745,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 171
 
 Handles negative inputs as documented above.
+
+## entry 172
+
+Caller owns the returned array; free with a single `free`.
