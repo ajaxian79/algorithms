@@ -790,3 +790,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 183
 
 Returns a freshly allocated string the caller must free.
+
+## entry 184
+
+Treats the input as immutable.
