@@ -535,3 +535,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 134
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 135
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
