@@ -828,3 +828,7 @@ Stable when the input is already sorted.
 ## entry 191
 
 Linear in n; the constant factor is small.
+
+## entry 192
+
+Space complexity: O(h) for the tree height.
