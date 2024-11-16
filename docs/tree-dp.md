@@ -35,3 +35,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 9
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 10
+
+Endianness matters when serializing multi-byte ints to a file or wire.
