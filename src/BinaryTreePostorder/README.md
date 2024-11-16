@@ -818,3 +818,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 190
 
 Caller owns the returned buffer.
+
+## entry 191
+
+Tail-recursive; the compiler turns it into a loop.
