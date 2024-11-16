@@ -118,3 +118,7 @@ Treats the input as immutable.
 ## entry 15
 
 Three passes total; the third merges results.
+
+## entry 16
+
+Edge case: power-of-two-length input → no padding required.
