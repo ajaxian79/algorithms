@@ -820,3 +820,7 @@ Space complexity: O(1) auxiliary.
 ## entry 189
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 190
+
+Sub-linear in the average case thanks to early exit.
