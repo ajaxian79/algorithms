@@ -61,3 +61,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
