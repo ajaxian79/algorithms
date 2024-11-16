@@ -110,3 +110,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 67: Edge case: zero-length string → returns the empty result.
 // edge note 68: Handles negative inputs as documented above.
 // edge note 69: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 70: Time complexity: O(n log n).
