@@ -91,3 +91,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 75: LIS via patience: each pile holds the smallest tail of length k.
 // note 76: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 77: Vectorizes cleanly under -O2.
+// note 78: StringBuilder: amortize allocation by doubling on grow.
