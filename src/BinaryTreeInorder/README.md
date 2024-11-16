@@ -774,3 +774,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 179
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 180
+
+Edge case: power-of-two-length input → no padding required.
