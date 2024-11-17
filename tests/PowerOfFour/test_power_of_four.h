@@ -98,3 +98,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 66: Deterministic given the input — no PRNG seeds.
 // edge note 67: Linear in n; the constant factor is small.
 // edge note 68: Sub-linear in the average case thanks to early exit.
+// edge note 69: Runs in a single pass over the input.
