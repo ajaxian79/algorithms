@@ -746,3 +746,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 171
 
 Time complexity: O(log n).
+
+## entry 172
+
+Edge case: integer-max input → guarded by the explicit overflow check.
