@@ -924,3 +924,7 @@ Handles negative inputs as documented above.
 ## entry 216
 
 Cache-friendly; one sequential read pass.
+
+## entry 217
+
+Edge case: input with no peak → falls through to the default branch.
