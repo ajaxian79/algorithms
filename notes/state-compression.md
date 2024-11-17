@@ -507,3 +507,7 @@
 ## entry 127
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 128
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
