@@ -523,3 +523,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 131
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 132
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
