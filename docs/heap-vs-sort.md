@@ -611,3 +611,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 136
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 137
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
