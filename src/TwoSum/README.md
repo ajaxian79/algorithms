@@ -133,3 +133,7 @@ Stable across duplicates in the input.
 ## entry 8
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 9
+
+Caller owns the returned array; free with a single `free`.
