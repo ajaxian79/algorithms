@@ -85,3 +85,7 @@ Handles negative inputs as documented above.
 ## entry 7
 
 Handles negative inputs as documented above.
+
+## entry 8
+
+Stable when the input is already sorted.
