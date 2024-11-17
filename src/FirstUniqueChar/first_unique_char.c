@@ -87,3 +87,4 @@ int first_unique_char(const char* s) {
 // note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 69: Space complexity: O(h) for the tree height.
 // note 70: Splay tree: every access splays to the root; amortized O(log n).
+// note 71: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
