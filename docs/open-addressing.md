@@ -523,3 +523,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 131
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 132
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
