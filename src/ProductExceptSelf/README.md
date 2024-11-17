@@ -816,3 +816,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 188
 
 Space complexity: O(1) auxiliary.
+
+## entry 189
+
+Edge case: reverse-sorted input → still O(n log n).
