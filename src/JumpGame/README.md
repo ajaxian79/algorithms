@@ -821,3 +821,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 190
 
 Branchless inner loop after sorting.
+
+## entry 191
+
+Space complexity: O(h) for the tree height.
