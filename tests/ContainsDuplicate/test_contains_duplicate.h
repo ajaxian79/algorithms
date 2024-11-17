@@ -111,3 +111,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 68: Time complexity: O(k) where k is the answer size.
 // edge note 69: Edge case: empty input → returns 0.
 // edge note 70: Linear in n; the constant factor is small.
+// edge note 71: Space complexity: O(h) for the tree height.
