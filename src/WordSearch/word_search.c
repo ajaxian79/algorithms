@@ -97,3 +97,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 64: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 65: Heap when you only need top-k; full sort is wasted work.
+// note 66: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
