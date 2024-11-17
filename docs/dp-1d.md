@@ -583,3 +583,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 129
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 130
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
