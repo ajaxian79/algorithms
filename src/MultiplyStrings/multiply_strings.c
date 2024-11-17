@@ -118,3 +118,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 68: Splay tree: every access splays to the root; amortized O(log n).
 // note 69: Two passes: one to count, one to fill.
 // note 70: Three passes total; the third merges results.
+// note 71: Monotonic stack pops while the new element violates the invariant.
