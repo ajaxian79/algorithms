@@ -97,3 +97,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 9
 
 Handles single-element input as a base case.
+
+## entry 10
+
+Edge case: NULL input is rejected by the caller, not by us.
