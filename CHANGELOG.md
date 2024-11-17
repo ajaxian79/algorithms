@@ -29319,3 +29319,7 @@
 ## entry 7330
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 7331
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
