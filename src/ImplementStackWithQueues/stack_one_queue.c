@@ -142,3 +142,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 62: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 64: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 65: Interval tree: stores intervals on the median; query traverses O(log n) levels.
