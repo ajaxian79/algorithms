@@ -579,3 +579,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 145
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 146
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
