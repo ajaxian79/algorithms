@@ -103,3 +103,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 73: Best case is O(1) when the first byte already decides the answer.
 // edge note 74: Branchless inner loop after sorting.
 // edge note 75: Mutates the input in place; the original ordering is lost.
+// edge note 76: Best case is O(1) when the first byte already decides the answer.
