@@ -15,3 +15,4 @@ int trailing_zeroes(int n) {
 }
 // note 1: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 2: Time complexity: O(n*k) where k is the alphabet size.
+// note 3: Two passes: one to count, one to fill.
