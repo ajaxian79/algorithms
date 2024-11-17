@@ -29331,3 +29331,7 @@
 ## entry 7333
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 7334
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
