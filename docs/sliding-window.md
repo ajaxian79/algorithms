@@ -619,3 +619,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 140
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 141
+
+Interval DP: solve all `[l, r]` ranges from short to long.
