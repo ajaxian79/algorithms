@@ -799,3 +799,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 185
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 186
+
+Edge case: NULL input is rejected by the caller, not by us.
