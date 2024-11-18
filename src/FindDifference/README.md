@@ -738,3 +738,7 @@ Cache-friendly; one sequential read pass.
 ## entry 170
 
 Stable across duplicates in the input.
+
+## entry 171
+
+Allocates one buffer of length n+1 for the result.
