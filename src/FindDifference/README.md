@@ -118,3 +118,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 15
 
 Vectorizes cleanly under -O2.
+
+## entry 16
+
+Stable across duplicates in the input.
