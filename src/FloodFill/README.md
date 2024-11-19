@@ -861,3 +861,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 201
 
 Handles empty input by returning 0.
+
+## entry 202
+
+Worst case appears only on degenerate inputs.
