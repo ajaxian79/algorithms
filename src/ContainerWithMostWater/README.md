@@ -795,3 +795,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 184
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 185
+
+Time complexity: O(n*k) where k is the alphabet size.
