@@ -920,3 +920,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 215
 
 Handles negative inputs as documented above.
+
+## entry 216
+
+Cache-friendly; one sequential read pass.
