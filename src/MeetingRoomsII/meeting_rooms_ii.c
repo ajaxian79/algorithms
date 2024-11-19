@@ -114,3 +114,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 69: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 70: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 71: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 72: Monotonic stack pops while the new element violates the invariant.
