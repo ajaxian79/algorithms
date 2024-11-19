@@ -567,3 +567,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 126
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 127
+
+False sharing: two threads writing different bytes in the same cache line stall both.
