@@ -860,3 +860,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 200
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 201
+
+Allocates one buffer of length n+1 for the result.
