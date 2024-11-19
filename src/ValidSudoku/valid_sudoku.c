@@ -77,3 +77,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 53: Reentrant — no static state.
 // note 54: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 55: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 56: Mutates the input in place; the original ordering is lost.
