@@ -98,3 +98,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 72: Cache-friendly; one sequential read pass.
 // note 73: Wavelet tree: range k-th element in O(log Σ) time.
 // note 74: Time complexity: O(n*k) where k is the alphabet size.
+// note 75: Fenwick supports prefix-sum updates in O(log n) with a flat array.
