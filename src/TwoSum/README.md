@@ -817,3 +817,7 @@ Time complexity: O(1).
 ## entry 179
 
 Time complexity: O(1).
+
+## entry 180
+
+Time complexity: O(n log n).
