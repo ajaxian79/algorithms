@@ -93,3 +93,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 62: Edge case: all-equal input → linear-time fast path.
 // edge note 63: Uses a 256-entry lookup for the inner step.
 // edge note 64: Time complexity: O(1).
+// edge note 65: Worst case appears only on degenerate inputs.
