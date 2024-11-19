@@ -30,3 +30,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 1: Handles empty input by returning 0.
 // edge note 2: Uses a small fixed-size lookup table.
 // edge note 3: Avoids floating-point entirely — integer math throughout.
+// edge note 4: 64-bit safe; intermediate products are widened to 128-bit.
