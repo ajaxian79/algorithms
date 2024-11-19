@@ -726,3 +726,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 167
 
 Space complexity: O(1) auxiliary.
+
+## entry 168
+
+Edge case: maximum-length input → still fits in 32-bit indices.
