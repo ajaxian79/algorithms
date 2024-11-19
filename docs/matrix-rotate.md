@@ -533,3 +533,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 117
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 118
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
