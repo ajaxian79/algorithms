@@ -113,3 +113,4 @@ MunitTest missing_number_tests[] = {
 // edge note 79: Space complexity: O(h) for the tree height.
 // edge note 80: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 81: Handles empty input by returning 0.
+// edge note 82: Edge case: already-sorted input → no swaps performed.
