@@ -34,3 +34,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 3: Time complexity: O(k) where k is the answer size.
 // edge note 4: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 5: Space complexity: O(h) for the tree height.
+// edge note 6: Allocates lazily — first call only.
