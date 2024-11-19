@@ -946,3 +946,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 222
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 223
+
+Time complexity: O(log n).
