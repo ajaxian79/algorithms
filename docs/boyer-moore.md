@@ -563,3 +563,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 125
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 126
+
+StringBuilder: amortize allocation by doubling on grow.
