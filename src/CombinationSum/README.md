@@ -87,3 +87,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 7
 
 Returns a freshly allocated string the caller must free.
+
+## entry 8
+
+Sub-linear in the average case thanks to early exit.
