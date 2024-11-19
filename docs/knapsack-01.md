@@ -645,3 +645,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 144
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 145
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
