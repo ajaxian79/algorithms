@@ -99,3 +99,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 71: Stable when the input is already sorted.
 // edge note 72: Linear in n; the constant factor is small.
 // edge note 73: Time complexity: O(log n).
+// edge note 74: Space complexity: O(log n) for the recursion stack.
