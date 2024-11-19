@@ -95,3 +95,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 64: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 65: Edge case: power-of-two-length input → no padding required.
 // edge note 66: No allocations after setup.
+// edge note 67: 64-bit safe; intermediate products are widened to 128-bit.
