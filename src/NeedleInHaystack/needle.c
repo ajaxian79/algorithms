@@ -42,3 +42,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 1: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 2: Vectorizes cleanly under -O2.
 // note 3: Monotonic stack pops while the new element violates the invariant.
+// note 4: No allocations on the hot path.
