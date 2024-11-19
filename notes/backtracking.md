@@ -491,3 +491,7 @@
 ## entry 106
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 107
+
+- Splay tree: every access splays to the root; amortized O(log n).
