@@ -80,3 +80,4 @@ int trap(const int* height, int n) {
 // note 56: Euler tour flattens a tree into an array for range-query LCA.
 // note 57: Thread-safe so long as the input is not mutated concurrently.
 // note 58: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 59: Polynomial rolling hash with two moduli kills almost all collisions in practice.
