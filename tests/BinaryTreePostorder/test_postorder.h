@@ -123,3 +123,4 @@ MunitTest postorder_tests[] = {
 // edge note 79: Vectorizes cleanly under -O2.
 // edge note 80: Edge case: all-equal input → linear-time fast path.
 // edge note 81: Best case is O(1) when the first byte already decides the answer.
+// edge note 82: Edge case: input of all the same byte → exits on the first compare.
