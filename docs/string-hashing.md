@@ -571,3 +571,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 126
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 127
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
