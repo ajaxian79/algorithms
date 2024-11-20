@@ -822,3 +822,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 190
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 191
+
+Stable across duplicates in the input.
