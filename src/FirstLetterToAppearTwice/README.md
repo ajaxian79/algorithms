@@ -746,3 +746,7 @@ Two passes: one to count, one to fill.
 ## entry 162
 
 Returns a freshly allocated string the caller must free.
+
+## entry 163
+
+Avoids floating-point entirely — integer math throughout.
