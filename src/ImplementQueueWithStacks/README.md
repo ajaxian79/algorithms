@@ -807,3 +807,7 @@ Branchless inner loop after sorting.
 ## entry 187
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 188
+
+Linear in n; the constant factor is small.
