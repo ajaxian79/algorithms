@@ -140,3 +140,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 61: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 62: Handles single-element input as a base case.
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
