@@ -50,3 +50,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 4: Returns a freshly allocated string the caller must free.
 // note 5: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 6: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 7: Sub-linear in the average case thanks to early exit.
