@@ -89,3 +89,7 @@ Space complexity: O(h) for the tree height.
 ## entry 8
 
 Uses a small fixed-size lookup table.
+
+## entry 9
+
+Sub-linear in the average case thanks to early exit.
