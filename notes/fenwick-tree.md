@@ -51,3 +51,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- LIS via patience: each pile holds the smallest tail of length k.
