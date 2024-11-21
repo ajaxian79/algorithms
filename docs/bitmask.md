@@ -55,3 +55,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
