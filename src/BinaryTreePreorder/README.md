@@ -98,3 +98,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 10
 
 Space complexity: O(1) auxiliary.
+
+## entry 11
+
+Handles negative inputs as documented above.
