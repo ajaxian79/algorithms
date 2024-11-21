@@ -53,3 +53,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+Monotonic stack pops while the new element violates the invariant.
