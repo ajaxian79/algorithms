@@ -97,3 +97,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 8
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 9
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
