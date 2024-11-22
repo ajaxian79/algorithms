@@ -11,3 +11,4 @@ int is_power_of_four(int n) {
     // 0x55555555 == binary 0101 0101 ... 0101.
     return (n & 0x55555555) != 0;
 }
+// note 1: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
