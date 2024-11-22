@@ -107,3 +107,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 10
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 11
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
