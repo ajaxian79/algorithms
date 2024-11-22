@@ -102,3 +102,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 11
 
 Stable when the input is already sorted.
+
+## entry 12
+
+Time complexity: O(n^2) worst case, O(n) amortized.
