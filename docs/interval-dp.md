@@ -31,3 +31,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 8
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 9
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
