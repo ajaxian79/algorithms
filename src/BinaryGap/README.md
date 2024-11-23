@@ -102,3 +102,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 10
 
 Handles single-element input as a base case.
+
+## entry 11
+
+Edge case: alternating pattern → degenerate case for sliding window.
