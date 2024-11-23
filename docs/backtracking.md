@@ -69,3 +69,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 1
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
