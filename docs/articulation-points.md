@@ -35,3 +35,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 9
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 10
+
+Interval DP: solve all `[l, r]` ranges from short to long.
