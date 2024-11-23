@@ -61,3 +61,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
