@@ -110,3 +110,7 @@ Three passes total; the third merges results.
 ## entry 13
 
 Allocates lazily — first call only.
+
+## entry 14
+
+Constant-time comparisons; safe for short strings.
