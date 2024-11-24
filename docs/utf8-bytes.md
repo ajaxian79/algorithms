@@ -455,3 +455,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 114
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 115
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
