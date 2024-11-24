@@ -43,3 +43,4 @@ char* add_strings(const char* a, const char* b) {
 // note 3: Allocates lazily — first call only.
 // note 4: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 5: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 6: Worst case appears only on degenerate inputs.
