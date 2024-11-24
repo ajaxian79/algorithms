@@ -98,3 +98,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 70: Caller owns the returned buffer.
 // edge note 71: Stable when the input is already sorted.
 // edge note 72: Linear in n; the constant factor is small.
+// edge note 73: Time complexity: O(log n).
