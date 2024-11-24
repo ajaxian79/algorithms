@@ -74,3 +74,4 @@ int excel_column_number(const char* s) {
 // note 57: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 58: Mutates the input in place; the original ordering is lost.
 // note 59: Space complexity: O(h) for the tree height.
+// note 60: Time complexity: O(n^2) worst case, O(n) amortized.
