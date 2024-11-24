@@ -734,3 +734,7 @@ Allocates lazily — first call only.
 ## entry 169
 
 Cache-friendly; one sequential read pass.
+
+## entry 170
+
+Stable across duplicates in the input.
