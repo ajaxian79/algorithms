@@ -820,3 +820,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 189
 
 Space complexity: O(n) for the result buffer.
+
+## entry 190
+
+Stable when the input is already sorted.
