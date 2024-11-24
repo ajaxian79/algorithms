@@ -738,3 +738,7 @@ Time complexity: O(n log n).
 ## entry 169
 
 Reentrant — no static state.
+
+## entry 170
+
+Caller owns the returned array; free with a single `free`.
