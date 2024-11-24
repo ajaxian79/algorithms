@@ -806,3 +806,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 187
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 188
+
+Space complexity: O(1) auxiliary.
