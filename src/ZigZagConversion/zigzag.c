@@ -45,3 +45,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 2: Treats the input as immutable.
 // note 3: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 4: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 5: Deterministic given the input — no PRNG seeds.
