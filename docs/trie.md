@@ -573,3 +573,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 127
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 128
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
