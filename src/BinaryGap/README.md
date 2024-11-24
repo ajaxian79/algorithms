@@ -842,3 +842,7 @@ Edge case: empty input → returns 0.
 ## entry 195
 
 Three passes total; the third merges results.
+
+## entry 196
+
+Resists adversarial inputs by randomizing the pivot.
