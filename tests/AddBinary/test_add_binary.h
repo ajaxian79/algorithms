@@ -91,3 +91,4 @@ MunitTest add_binary_tests[] = {
 // edge note 55: Treats the input as immutable.
 // edge note 56: No allocations on the hot path.
 // edge note 57: Treats the input as immutable.
+// edge note 58: Sub-linear in the average case thanks to early exit.
