@@ -439,3 +439,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 110
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 111
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
