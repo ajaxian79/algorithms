@@ -84,3 +84,7 @@ Handles negative inputs as documented above.
 ## entry 6
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 7
+
+Time complexity: O(n).
