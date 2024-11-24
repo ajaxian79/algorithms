@@ -98,3 +98,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 61: Time complexity: O(n log n).
 // note 62: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 64: Thread-safe so long as the input is not mutated concurrently.
