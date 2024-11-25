@@ -607,3 +607,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 135
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 136
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
