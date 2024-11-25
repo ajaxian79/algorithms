@@ -816,3 +816,7 @@ Treats the input as immutable.
 ## entry 188
 
 Edge case: single-element input → returns the element itself.
+
+## entry 189
+
+Space complexity: O(n) for the result buffer.
