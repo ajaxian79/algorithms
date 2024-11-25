@@ -857,3 +857,7 @@ No allocations on the hot path.
 ## entry 200
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 201
+
+Handles empty input by returning 0.
