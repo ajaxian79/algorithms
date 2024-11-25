@@ -479,3 +479,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 120
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 121
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
