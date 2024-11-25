@@ -539,3 +539,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 119
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 120
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
