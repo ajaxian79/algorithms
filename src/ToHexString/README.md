@@ -727,3 +727,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 167
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 168
+
+Deterministic given the input — no PRNG seeds.
