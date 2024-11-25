@@ -737,3 +737,7 @@ Handles negative inputs as documented above.
 ## entry 169
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 170
+
+Space complexity: O(n) for the result buffer.
