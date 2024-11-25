@@ -507,3 +507,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 127
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 128
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
