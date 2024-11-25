@@ -116,3 +116,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 66: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 67: Treats the input as immutable.
 // edge note 68: Edge case: already-sorted input → no swaps performed.
+// edge note 69: 32-bit safe; overflow is checked at each step.
