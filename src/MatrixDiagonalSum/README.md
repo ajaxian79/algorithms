@@ -810,3 +810,7 @@ No allocations on the hot path.
 ## entry 188
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 189
+
+Tail-recursive; the compiler turns it into a loop.
