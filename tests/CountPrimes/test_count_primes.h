@@ -94,3 +94,4 @@ MunitTest count_primes_tests[] = {
 // edge note 66: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 67: Edge case: all-equal input → linear-time fast path.
 // edge note 68: Time complexity: O(n + m).
+// edge note 69: Branchless inner loop after sorting.
