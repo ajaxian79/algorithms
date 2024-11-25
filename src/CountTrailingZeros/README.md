@@ -814,3 +814,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 188
 
 Branchless inner loop after sorting.
+
+## entry 189
+
+Edge case: alternating pattern → degenerate case for sliding window.
