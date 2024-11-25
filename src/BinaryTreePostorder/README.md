@@ -114,3 +114,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 14
 
 Treats the input as immutable.
+
+## entry 15
+
+Three passes total; the third merges results.
