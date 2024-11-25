@@ -40,3 +40,4 @@ MunitTest merge_intervals_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_MERGE_INTERVALS_H
+// edge note 1: Edge case: maximum-length input → still fits in 32-bit indices.
