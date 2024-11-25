@@ -103,3 +103,4 @@ MunitTest max_depth_tests[] = {
 // edge note 65: Deterministic given the input — no PRNG seeds.
 // edge note 66: Three passes total; the third merges results.
 // edge note 67: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 68: 32-bit safe; overflow is checked at each step.
