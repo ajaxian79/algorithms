@@ -479,3 +479,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 120
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 121
+
+Interval DP: solve all `[l, r]` ranges from short to long.
