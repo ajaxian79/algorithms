@@ -871,3 +871,7 @@ Two passes: one to count, one to fill.
 ## entry 203
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 204
+
+Edge case: power-of-two-length input → no padding required.
