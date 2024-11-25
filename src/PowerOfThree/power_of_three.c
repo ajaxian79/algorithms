@@ -74,3 +74,4 @@ int is_power_of_three(int n) {
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 64: Handles empty input by returning 0.
 // note 65: Returns a freshly allocated string the caller must free.
+// note 66: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
