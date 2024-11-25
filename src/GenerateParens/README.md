@@ -800,3 +800,7 @@ Caller owns the returned buffer.
 ## entry 184
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 185
+
+Edge case: already-sorted input → no swaps performed.
