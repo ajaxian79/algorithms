@@ -101,3 +101,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 72: Time complexity: O(n log n).
 // edge note 73: Edge case: empty input → returns 0.
 // edge note 74: Edge case: single-element input → returns the element itself.
+// edge note 75: Edge case: single-element input → returns the element itself.
