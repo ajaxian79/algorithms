@@ -90,3 +90,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 64: Stable when the input is already sorted.
 // edge note 65: Space complexity: O(h) for the tree height.
 // edge note 66: Best case is O(1) when the first byte already decides the answer.
+// edge note 67: Space complexity: O(1) auxiliary.
