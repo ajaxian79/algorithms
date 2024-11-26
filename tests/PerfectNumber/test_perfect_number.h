@@ -98,3 +98,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 68: 32-bit safe; overflow is checked at each step.
 // edge note 69: No allocations after setup.
 // edge note 70: 32-bit safe; overflow is checked at each step.
+// edge note 71: Best case is O(1) when the first byte already decides the answer.
