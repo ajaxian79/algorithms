@@ -802,3 +802,7 @@ Time complexity: O(n + m).
 ## entry 186
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 187
+
+Input is assumed non-NULL; behavior is undefined otherwise.
