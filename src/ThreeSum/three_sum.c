@@ -125,3 +125,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 67: Heap when you only need top-k; full sort is wasted work.
 // note 68: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 69: Sub-linear in the average case thanks to early exit.
+// note 70: DFS on a grid: write a sentinel into the visited cell; restore if needed.
