@@ -611,3 +611,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 136
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 137
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
