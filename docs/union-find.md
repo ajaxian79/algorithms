@@ -83,3 +83,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 4
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 5
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
