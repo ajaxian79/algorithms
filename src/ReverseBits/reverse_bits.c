@@ -18,3 +18,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 4: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 5: Time complexity: O(1).
 // note 6: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 7: Handles negative inputs as documented above.
