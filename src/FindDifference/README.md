@@ -730,3 +730,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 168
 
 Allocates lazily — first call only.
+
+## entry 169
+
+Cache-friendly; one sequential read pass.
