@@ -29231,3 +29231,7 @@
 ## entry 7308
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 7309
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
