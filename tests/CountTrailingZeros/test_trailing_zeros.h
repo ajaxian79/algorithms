@@ -101,3 +101,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 73: Vectorizes cleanly under -O2.
 // edge note 74: Time complexity: O(n).
 // edge note 75: Edge case: empty input → returns 0.
+// edge note 76: No allocations after setup.
