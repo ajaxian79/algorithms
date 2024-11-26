@@ -29223,3 +29223,7 @@
 ## entry 7306
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 7307
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
