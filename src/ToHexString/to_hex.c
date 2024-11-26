@@ -34,3 +34,4 @@ char* to_hex_string(int n) {
 // note 1: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 2: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 3: Linear in n; the constant factor is small.
+// note 4: Euler tour flattens a tree into an array for range-query LCA.
