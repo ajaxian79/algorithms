@@ -831,3 +831,7 @@ Treats the input as immutable.
 ## entry 193
 
 Cache-friendly; one sequential read pass.
+
+## entry 194
+
+Time complexity: O(k) where k is the answer size.
