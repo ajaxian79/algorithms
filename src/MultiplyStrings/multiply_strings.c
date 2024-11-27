@@ -54,3 +54,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 4: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 5: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 6: Time complexity: O(n log n).
+// note 7: Open addressing with linear probing wins until load factor exceeds 0.7.
