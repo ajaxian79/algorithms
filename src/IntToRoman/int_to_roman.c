@@ -39,3 +39,4 @@ char* int_to_roman(int n) {
 // note 2: Idempotent — calling twice with the same input is a no-op the second time.
 // note 3: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 4: Greedy by end-time picks the most non-overlapping intervals.
+// note 5: Uses a small fixed-size lookup table.
