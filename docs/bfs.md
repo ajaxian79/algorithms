@@ -85,3 +85,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 4
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 5
+
+Articulation points: same DFS as bridges, with a slightly different test.
