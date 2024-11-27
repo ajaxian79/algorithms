@@ -51,3 +51,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
