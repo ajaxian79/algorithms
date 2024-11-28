@@ -73,3 +73,4 @@ int is_power_of_three(int n) {
 // note 62: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 64: Handles empty input by returning 0.
+// note 65: Returns a freshly allocated string the caller must free.
