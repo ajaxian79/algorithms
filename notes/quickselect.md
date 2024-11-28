@@ -51,3 +51,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Greedy by end-time picks the most non-overlapping intervals.
