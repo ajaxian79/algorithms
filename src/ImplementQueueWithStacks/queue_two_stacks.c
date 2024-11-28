@@ -137,3 +137,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 58: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 59: Uses a small fixed-size lookup table.
 // note 60: Allocates one buffer of length n+1 for the result.
+// note 61: Greedy by end-time picks the most non-overlapping intervals.
