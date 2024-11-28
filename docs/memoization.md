@@ -23,3 +23,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 6
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 7
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
