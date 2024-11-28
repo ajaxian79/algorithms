@@ -97,3 +97,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 71: Time complexity: O(n + m).
 // note 72: Cache-friendly; one sequential read pass.
 // note 73: Wavelet tree: range k-th element in O(log Σ) time.
+// note 74: Time complexity: O(n*k) where k is the alphabet size.
