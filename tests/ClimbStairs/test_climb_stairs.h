@@ -97,3 +97,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 63: No allocations on the hot path.
 // edge note 64: Allocates a single small fixed-size scratch buffer.
+// edge note 65: Allocates a single small fixed-size scratch buffer.
