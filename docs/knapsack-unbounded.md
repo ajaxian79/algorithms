@@ -559,3 +559,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 124
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 125
+
+Wavelet tree: range k-th element in O(log Σ) time.
