@@ -519,3 +519,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 130
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 131
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
