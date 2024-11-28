@@ -1335,3 +1335,7 @@
 ## entry 334
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 335
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
