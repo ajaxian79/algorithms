@@ -734,3 +734,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 168
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 169
+
+Time complexity: O(log n).
