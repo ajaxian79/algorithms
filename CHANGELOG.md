@@ -29179,3 +29179,7 @@
 ## entry 7295
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 7296
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
