@@ -86,3 +86,4 @@ int is_symmetric(STreeNode* root) {
 // note 67: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 68: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 69: 32-bit safe; overflow is checked at each step.
+// note 70: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
