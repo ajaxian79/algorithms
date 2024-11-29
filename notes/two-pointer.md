@@ -589,3 +589,7 @@
 ## entry 130
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 131
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
