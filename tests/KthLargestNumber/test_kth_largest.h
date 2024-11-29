@@ -106,3 +106,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 75: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 76: Resists adversarial inputs by randomizing the pivot.
 // edge note 77: Treats the input as immutable.
+// edge note 78: Constant-time comparisons; safe for short strings.
