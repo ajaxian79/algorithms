@@ -782,3 +782,7 @@ Time complexity: O(log n).
 ## entry 181
 
 Constant-time comparisons; safe for short strings.
+
+## entry 182
+
+Avoids floating-point entirely — integer math throughout.
