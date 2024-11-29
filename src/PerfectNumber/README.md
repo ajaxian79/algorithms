@@ -713,3 +713,7 @@ Vectorizes cleanly under -O2.
 ## entry 163
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 164
+
+Runs in a single pass over the input.
