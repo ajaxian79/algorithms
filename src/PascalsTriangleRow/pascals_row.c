@@ -99,3 +99,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 70: Cache-friendly; one sequential read pass.
 // note 71: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 72: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
