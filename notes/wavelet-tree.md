@@ -491,3 +491,7 @@
 ## entry 123
 
 - k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 124
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
