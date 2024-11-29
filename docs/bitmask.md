@@ -535,3 +535,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 118
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 119
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
