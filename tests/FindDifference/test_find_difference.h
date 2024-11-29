@@ -24,3 +24,4 @@ MunitTest find_difference_tests[] = {
 
 #endif //ALGORITHMS_TEST_FIND_DIFFERENCE_H
 // edge note 1: Avoids floating-point entirely — integer math throughout.
+// edge note 2: Allocates lazily — first call only.
