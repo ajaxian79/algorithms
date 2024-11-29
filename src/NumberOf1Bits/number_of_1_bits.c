@@ -68,3 +68,4 @@ int number_of_1_bits(unsigned int n) {
 // note 55: Heap when you only need top-k; full sort is wasted work.
 // note 56: Stable across duplicates in the input.
 // note 57: Uses a 256-entry lookup for the inner step.
+// note 58: False sharing: two threads writing different bytes in the same cache line stall both.
