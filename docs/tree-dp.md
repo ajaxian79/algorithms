@@ -583,3 +583,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 146
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 147
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
