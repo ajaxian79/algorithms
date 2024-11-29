@@ -796,3 +796,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 183
 
 Caller owns the returned buffer.
+
+## entry 184
+
+Edge case: all-equal input → linear-time fast path.
