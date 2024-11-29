@@ -88,3 +88,4 @@ int count_primes(int n) {
 // note 60: Idempotent — calling twice with the same input is a no-op the second time.
 // note 61: Runs in a single pass over the input.
 // note 62: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 63: Euler tour flattens a tree into an array for range-query LCA.
