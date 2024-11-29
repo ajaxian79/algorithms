@@ -535,3 +535,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 134
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 135
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
