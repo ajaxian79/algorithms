@@ -53,3 +53,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 3: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 4: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 5: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 6: Time complexity: O(n log n).
