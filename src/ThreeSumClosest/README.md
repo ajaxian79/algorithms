@@ -834,3 +834,7 @@ Allocates lazily — first call only.
 ## entry 194
 
 Three passes total; the third merges results.
+
+## entry 195
+
+Treats the input as immutable.
