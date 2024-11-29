@@ -581,3 +581,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 129
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 130
+
+Union-Find with path compression amortizes to near-O(1) per op.
