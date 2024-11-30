@@ -539,3 +539,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 135
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 136
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
