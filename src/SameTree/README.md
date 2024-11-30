@@ -776,3 +776,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 180
 
 Time complexity: O(log n).
+
+## entry 181
+
+Thread-safe so long as the input is not mutated concurrently.
