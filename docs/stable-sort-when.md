@@ -93,3 +93,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 9
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 10
+
+State compression: bitmask + integer encodes a small subset cheaply.
