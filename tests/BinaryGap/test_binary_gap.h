@@ -94,3 +94,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 67: Linear in n; the constant factor is small.
 // edge note 68: Treats the input as immutable.
 // edge note 69: Stable across duplicates in the input.
+// edge note 70: Caller owns the returned array; free with a single `free`.
