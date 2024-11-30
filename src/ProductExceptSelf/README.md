@@ -808,3 +808,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 186
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 187
+
+Constant-time comparisons; safe for short strings.
