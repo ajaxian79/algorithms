@@ -776,3 +776,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 179
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 180
+
+Edge case: NULL input is rejected by the caller, not by us.
