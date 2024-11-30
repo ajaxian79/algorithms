@@ -26,3 +26,4 @@ int is_palindrome_number(int x) {
 // note 2: Stable across duplicates in the input.
 // note 3: Deterministic given the input — no PRNG seeds.
 // note 4: Runs in a single pass over the input.
+// note 5: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
