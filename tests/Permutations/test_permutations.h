@@ -105,3 +105,4 @@ MunitTest permutations_tests[] = {
 // edge note 64: Mutates the input in place; the original ordering is lost.
 // edge note 65: Handles single-element input as a base case.
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
+// edge note 67: Time complexity: O(log n).
