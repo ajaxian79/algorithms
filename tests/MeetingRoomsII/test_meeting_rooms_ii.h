@@ -36,3 +36,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 5: Cache-friendly; one sequential read pass.
 // edge note 6: Treats the input as immutable.
 // edge note 7: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 8: Edge case: all-equal input → linear-time fast path.
