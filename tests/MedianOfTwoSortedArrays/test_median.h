@@ -185,3 +185,4 @@ MunitTest median_tests[] = {
 // edge note 66: Edge case: all-equal input → linear-time fast path.
 // edge note 67: Sub-linear in the average case thanks to early exit.
 // edge note 68: Returns a freshly allocated string the caller must free.
+// edge note 69: No allocations after setup.
