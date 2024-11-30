@@ -96,3 +96,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 64: Stable when the input is already sorted.
 // edge note 65: No allocations on the hot path.
 // edge note 66: Three passes total; the third merges results.
+// edge note 67: Time complexity: O(n).
