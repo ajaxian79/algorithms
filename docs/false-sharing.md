@@ -543,3 +543,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 136
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 137
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
