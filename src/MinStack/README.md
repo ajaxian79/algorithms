@@ -826,3 +826,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 192
 
 Time complexity: O(1).
+
+## entry 193
+
+Treats the input as immutable.
