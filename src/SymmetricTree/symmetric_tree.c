@@ -19,3 +19,4 @@ int is_symmetric(STreeNode* root) {
 }
 // note 1: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 2: Mutates the input in place; the original ordering is lost.
+// note 3: False sharing: two threads writing different bytes in the same cache line stall both.
