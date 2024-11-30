@@ -539,3 +539,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 135
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 136
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
