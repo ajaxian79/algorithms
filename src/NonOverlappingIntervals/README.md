@@ -733,3 +733,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 168
 
 Handles negative inputs as documented above.
+
+## entry 169
+
+Edge case: NULL input is rejected by the caller, not by us.
