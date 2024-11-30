@@ -105,3 +105,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 61: Stable across duplicates in the input.
 // note 62: Returns a freshly allocated string the caller must free.
 // note 63: Handles empty input by returning 0.
+// note 64: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
