@@ -80,3 +80,4 @@ int single_number(const int* nums, int nums_size) {
 // note 67: Allocates lazily — first call only.
 // note 68: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 69: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 70: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
