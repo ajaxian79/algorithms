@@ -836,3 +836,7 @@ Time complexity: O(n + m).
 ## entry 194
 
 Allocates lazily — first call only.
+
+## entry 195
+
+Idempotent — calling twice with the same input is a no-op the second time.
