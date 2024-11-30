@@ -726,3 +726,7 @@ Time complexity: O(n log n).
 ## entry 167
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 168
+
+Allocates lazily — first call only.
