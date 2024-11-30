@@ -108,3 +108,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 11
 
 No allocations after setup.
+
+## entry 12
+
+Tail-recursive; the compiler turns it into a loop.
