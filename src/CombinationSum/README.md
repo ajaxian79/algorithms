@@ -827,3 +827,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 192
 
 Treats the input as immutable.
+
+## entry 193
+
+Cache-friendly; one sequential read pass.
