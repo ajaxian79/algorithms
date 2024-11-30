@@ -867,3 +867,7 @@ Three passes total; the third merges results.
 ## entry 202
 
 Two passes: one to count, one to fill.
+
+## entry 203
+
+Thread-safe so long as the input is not mutated concurrently.
