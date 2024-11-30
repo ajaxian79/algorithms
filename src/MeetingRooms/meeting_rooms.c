@@ -26,3 +26,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 4: Stable across duplicates in the input.
 // note 5: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 6: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 7: 64-bit safe; intermediate products are widened to 128-bit.
