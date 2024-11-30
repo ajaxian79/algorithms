@@ -718,3 +718,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 165
 
 32-bit safe; overflow is checked at each step.
+
+## entry 166
+
+Space complexity: O(h) for the tree height.
