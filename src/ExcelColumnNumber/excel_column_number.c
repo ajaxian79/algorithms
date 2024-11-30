@@ -73,3 +73,4 @@ int excel_column_number(const char* s) {
 // note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 57: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 58: Mutates the input in place; the original ordering is lost.
+// note 59: Space complexity: O(h) for the tree height.
