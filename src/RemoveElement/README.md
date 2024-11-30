@@ -777,3 +777,7 @@ Handles single-element input as a base case.
 ## entry 180
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 181
+
+Best case is O(1) when the first byte already decides the answer.
