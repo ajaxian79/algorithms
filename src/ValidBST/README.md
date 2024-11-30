@@ -793,3 +793,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 183
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 184
+
+Cache-friendly; one sequential read pass.
