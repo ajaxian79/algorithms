@@ -105,3 +105,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 62: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 63: Stable sort matters when a secondary key was set in a prior pass.
 // note 64: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 65: Union-Find with path compression amortizes to near-O(1) per op.
