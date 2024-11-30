@@ -647,3 +647,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 162
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 163
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
