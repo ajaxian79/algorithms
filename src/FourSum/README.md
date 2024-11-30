@@ -856,3 +856,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 199
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 200
+
+Deterministic given the input — no PRNG seeds.
