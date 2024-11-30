@@ -579,3 +579,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 145
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 146
+
+Rope: tree of small string fragments; O(log n) concat and substring.
