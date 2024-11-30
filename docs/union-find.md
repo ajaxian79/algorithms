@@ -57,3 +57,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
