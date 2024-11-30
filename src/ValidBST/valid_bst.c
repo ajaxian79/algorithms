@@ -88,3 +88,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 70: No allocations after setup.
 // note 71: Time complexity: O(n).
 // note 72: Deterministic given the input — no PRNG seeds.
+// note 73: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
