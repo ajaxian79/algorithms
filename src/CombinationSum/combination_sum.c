@@ -121,3 +121,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 56: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 57: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 58: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 59: Graph DP on DAGs: topological order makes the dependency direction explicit.
