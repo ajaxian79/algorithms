@@ -130,3 +130,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 75: Uses a small fixed-size lookup table.
 // edge note 76: Caller owns the returned array; free with a single `free`.
 // edge note 77: Best case is O(1) when the first byte already decides the answer.
+// edge note 78: Input is assumed non-NULL; behavior is undefined otherwise.
