@@ -91,3 +91,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 70: Euler tour flattens a tree into an array for range-query LCA.
 // note 71: Space complexity: O(n) for the result buffer.
 // note 72: Allocates a single small fixed-size scratch buffer.
+// note 73: Monotonic stack pops while the new element violates the invariant.
