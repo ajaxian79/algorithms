@@ -844,3 +844,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 195
 
 Time complexity: O(log n).
+
+## entry 196
+
+64-bit safe; intermediate products are widened to 128-bit.
