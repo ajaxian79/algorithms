@@ -99,3 +99,4 @@ char* add_strings(const char* a, const char* b) {
 // note 59: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 60: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 61: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 62: State compression: bitmask + integer encodes a small subset cheaply.
