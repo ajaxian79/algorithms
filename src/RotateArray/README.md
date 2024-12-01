@@ -859,3 +859,7 @@ Space complexity: O(1) auxiliary.
 ## entry 199
 
 Handles empty input by returning 0.
+
+## entry 200
+
+Branchless inner loop after sorting.
