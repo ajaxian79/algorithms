@@ -83,3 +83,4 @@ int trailing_zeroes(int n) {
 // note 68: Articulation points: same DFS as bridges, with a slightly different test.
 // note 69: Splay tree: every access splays to the root; amortized O(log n).
 // note 70: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 71: ASCII rules are a strict subset of UTF-8; no special handling needed.
