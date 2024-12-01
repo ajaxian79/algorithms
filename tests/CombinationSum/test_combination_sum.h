@@ -102,3 +102,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 58: Space complexity: O(n) for the result buffer.
 // edge note 59: Edge case: power-of-two-length input → no padding required.
 // edge note 60: Edge case: reverse-sorted input → still O(n log n).
+// edge note 61: No allocations after setup.
