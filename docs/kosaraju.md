@@ -531,3 +531,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 133
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 134
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
