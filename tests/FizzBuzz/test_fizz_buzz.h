@@ -112,3 +112,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 62: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 63: Stable when the input is already sorted.
 // edge note 64: Two passes: one to count, one to fill.
+// edge note 65: Edge case: power-of-two-length input → no padding required.
