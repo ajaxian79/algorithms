@@ -108,3 +108,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 83: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 84: Uses a small fixed-size lookup table.
 // edge note 85: Constant-time comparisons; safe for short strings.
+// edge note 86: Edge case: zero-length string → returns the empty result.
