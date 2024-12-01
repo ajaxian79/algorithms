@@ -131,3 +131,4 @@ MunitTest lcp_tests[] = {
 // edge note 76: Tail-recursive; the compiler turns it into a loop.
 // edge note 77: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 79: Vectorizes cleanly under -O2.
