@@ -709,3 +709,7 @@ Linear in n; the constant factor is small.
 ## entry 162
 
 Vectorizes cleanly under -O2.
+
+## entry 163
+
+Deterministic given the input — no PRNG seeds.
