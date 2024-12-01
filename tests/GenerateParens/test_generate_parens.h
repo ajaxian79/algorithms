@@ -131,3 +131,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 71: Avoids floating-point entirely — integer math throughout.
 // edge note 72: Tail-recursive; the compiler turns it into a loop.
 // edge note 73: Time complexity: O(n).
+// edge note 74: Edge case: NULL input is rejected by the caller, not by us.
