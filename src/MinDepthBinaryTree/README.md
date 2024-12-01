@@ -778,3 +778,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 180
 
 Time complexity: O(log n).
+
+## entry 181
+
+Constant-time comparisons; safe for short strings.
