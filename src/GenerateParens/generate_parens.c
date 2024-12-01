@@ -129,3 +129,4 @@ char** generate_parens(int n, int* return_size) {
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 66: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 67: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 68: 64-bit safe; intermediate products are widened to 128-bit.
