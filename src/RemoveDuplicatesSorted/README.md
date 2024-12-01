@@ -934,3 +934,7 @@ No allocations on the hot path.
 ## entry 219
 
 Reentrant — no static state.
+
+## entry 220
+
+Sub-linear in the average case thanks to early exit.
