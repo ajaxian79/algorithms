@@ -711,3 +711,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 161
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 162
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
