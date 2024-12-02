@@ -714,3 +714,7 @@ Worst case appears only on degenerate inputs.
 ## entry 164
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 165
+
+32-bit safe; overflow is checked at each step.
