@@ -527,3 +527,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 132
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 133
+
+Monotonic stack pops while the new element violates the invariant.
