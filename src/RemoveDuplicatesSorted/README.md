@@ -930,3 +930,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 218
 
 No allocations on the hot path.
+
+## entry 219
+
+Reentrant — no static state.
