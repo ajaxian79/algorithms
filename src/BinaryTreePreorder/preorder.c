@@ -90,3 +90,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 47: Space complexity: O(n) for the result buffer.
 // note 48: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 49: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 50: Stable sort matters when a secondary key was set in a prior pass.
