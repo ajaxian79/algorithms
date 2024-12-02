@@ -523,3 +523,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 131
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 132
+
+Rope: tree of small string fragments; O(log n) concat and substring.
