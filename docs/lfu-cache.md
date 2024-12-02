@@ -579,3 +579,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 145
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 146
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
