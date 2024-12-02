@@ -791,3 +791,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 183
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 184
+
+Edge case: input of all the same byte → exits on the first compare.
