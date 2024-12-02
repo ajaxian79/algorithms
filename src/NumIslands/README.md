@@ -761,3 +761,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 175
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 176
+
+Uses a small fixed-size lookup table.
