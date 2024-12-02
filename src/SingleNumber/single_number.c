@@ -16,3 +16,4 @@ int single_number(const int* nums, int nums_size) {
 // note 3: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 4: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 5: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 6: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
