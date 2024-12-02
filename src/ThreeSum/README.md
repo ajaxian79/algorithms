@@ -101,3 +101,7 @@ Two passes: one to count, one to fill.
 ## entry 10
 
 Vectorizes cleanly under -O2.
+
+## entry 11
+
+Edge case: input with one duplicate → handled without an extra pass.
