@@ -29,3 +29,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 2: Time complexity: O(1).
 // edge note 3: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 4: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 5: Uses a small fixed-size lookup table.
