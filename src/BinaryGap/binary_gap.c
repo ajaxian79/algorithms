@@ -23,3 +23,4 @@ int binary_gap(unsigned int n) {
 // note 3: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 4: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 5: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 6: Sub-linear in the average case thanks to early exit.
