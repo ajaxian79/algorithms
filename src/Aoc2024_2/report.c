@@ -11,43 +11,64 @@
 #include "int_hash_map.h"
 #include "report.h"
 
-int check_if_duplicate(HashMapNode **map, const Level *current);
 
-int check_if_follows_established_direction(const Level *current, const Level *prev,  int *direction);
+int check_distance_from_previous(const int *current, const int *prev);
+int check_if_follows_established_direction(const int *current, const int *prev, int *direction);
+int check_if_duplicate(HashMapNode **map, const int *current);
 
-int check_distance_from_previous(const Level *current, const Level *prev);
+void check_level(const Report *report, HashMapNode **map, int *direction, int skip, int *is_safe, int *index, int print);
 
 Report* read_report(FILE* file) {
   Report* report = malloc(sizeof(Report));
 
-  report->levels = NULL;
   report->next = NULL;
   report->count = 0;
+  report->levels[report->count] = 0;
+  int8_t done = 0;
 
-  Level* level = read_level(file);
-  Level* current = report->levels;
+  while(!feof(file) && !done) {
+    int c = fgetc(file);
 
-  while (level != NULL && level->end == 0) {
-    if (current == NULL) {
-      current = report->levels = level;
-    } else {
-      current->next = level;
-      level->prev = current;
-      current = level;
+    switch (c) {
+      case ' ':
+        report->count++;
+        report->levels[report->count] = 0;
+        break;
+
+      case '\n':
+      case '\r':
+        c = fgetc(file);
+
+        if (c != '\n' && c != '\r')
+          ungetc(c, file);
+        // Intentional Fall through to next case
+      case EOF:
+        report->count++;
+        report->levels[report->count] = 0;
+        done = 1;
+        break;
+
+      case '0':
+      case '1':
+      case '2':
+      case '3':
+      case '4':
+      case '5':
+      case '6':
+      case '7':
+      case '8':
+      case '9':
+        report->levels[report->count] *= 10;
+        report->levels[report->count] += c - '0';
+        break;
+
+      default:
+        break;
     }
 
-    level = read_level(file);
   }
 
-  if (level != NULL) {
-    report->count++;
-    if (current != NULL) {
-      current->next = level;
-      level->prev = current;
-    }
-  }
-
-  if (report->levels == NULL) {
+  if (report->count == 0) {
     free(report);
     report = NULL;
   }
@@ -56,59 +77,50 @@ Report* read_report(FILE* file) {
 }
 
 void free_report(Report* report) {
-  Level* current = report->levels;
-
-  while(current != NULL) {
-    Level* next = current->next;
-    free(current);
-    current = next;
-  }
+  if (report->next != NULL)
+    free_report(report->next);
+  free(report);
 }
-
 
 int is_safe(Report* report) {
   int is_safe = 1;
-  Level* current = report->levels;
 
   HashMapNode* map[MAP_SIZE];
+  int direction = 0;
   map_init(map);
 
-  int direction = 0;
-  int already_skipped = 0;
-
-  while(current != NULL) {
-    printf("%d ", current->value);
-
-    is_safe = check_if_duplicate(map, current);
-
-    if (is_safe)
-      is_safe = check_if_follows_established_direction(current, current->prev, &direction);
-
-    if (is_safe)
-      is_safe = check_distance_from_previous(current, current->prev);
-
-    if (is_safe == 0 && already_skipped == 0) {
-      int would_be_safe;
-
-      would_be_safe = check_if_duplicate(map, current->next);
-
-      if (would_be_safe)
-        would_be_safe = check_if_follows_established_direction(current->next, current->prev, &direction);
-
-      if (would_be_safe)
-        would_be_safe = check_distance_from_previous(current->next, current->prev);
-
-      if (would_be_safe == 1) {
-        is_safe = 1;
-        already_skipped = 1;
-      }
-    }
-
-    map_insert(map, current->value);
-    current = current->next;
+  for(int index = 0; index < report->count; index++) {
+    check_level(report, map, &direction, 0, &is_safe, &index, 1);
   }
 
   map_destroy(map);
+
+  if (is_safe == 0) {
+    for (int skip_index = 0; skip_index < report->count; skip_index++) {
+
+      is_safe = 1;
+      direction = 0;
+      map_init(map);
+
+      int diagnostics = 0;
+
+      if(diagnostics)
+        printf("\n");
+
+      for (int index = 0; index < report->count; index++) {
+        check_level(report, map, &direction, skip_index == index, &is_safe, &index, diagnostics);
+      }
+
+      if (diagnostics)
+        printf("\n");
+
+      map_destroy(map);
+
+      if (is_safe == 1)
+        break;
+
+    }
+  }
 
   if (is_safe == 1)
     printf("\t\tSafe");
@@ -120,10 +132,41 @@ int is_safe(Report* report) {
   return is_safe > 0;
 }
 
-int check_distance_from_previous(const Level *current, const Level *prev) {
+void check_level(const Report *report, HashMapNode **map, int *direction, int skip, int *is_safe, int *index, int print) {
+  const int* current_value= NULL;
+  const int* previous_value = NULL;
+
+  if ((*index) > 0)
+    previous_value = &report->levels[(*index) - 1];
+
+  if (skip == 1)
+    (*index)++;
+
+  if ((*index) >= report->count) {
+    return;
+  }
+
+  current_value = &report->levels[(*index)];
+
+  if (print)
+    printf("%d ", *current_value);
+
+  if ((*is_safe))
+    (*is_safe) = check_if_duplicate(map, current_value);
+
+  if ((*is_safe))
+    (*is_safe) = check_distance_from_previous(current_value, previous_value);
+
+  if ((*is_safe))
+    (*is_safe) = check_if_follows_established_direction(current_value, previous_value, direction);
+
+  map_insert(map, *current_value);
+}
+
+int check_distance_from_previous(const int *current, const int *prev) {
   int is_safe = 1;
   if (prev != NULL && current != NULL) {
-    int diff = abs(current->value - prev->value);
+    int diff = abs(*current - *prev);
 
     if (diff < 1 || diff > 3) {
       is_safe = 0;
@@ -132,16 +175,16 @@ int check_distance_from_previous(const Level *current, const Level *prev) {
   return is_safe;
 }
 
-int check_if_follows_established_direction(const Level *current, const Level *prev, int *direction) {
+int check_if_follows_established_direction(const int *current, const int *prev, int *direction) {
   int is_safe = 1;
   if (prev != NULL && current != NULL) {
-    if (prev->value < current->value) {
+    if (*prev < *current) {
       if (*direction == 0) {
         *direction = 1;
       } else if (*direction != 1) {
         is_safe = 0;
       }
-    } else if (prev->value > current->value) {
+    } else if (*prev > *current) {
       if (*direction == 0) {
         *direction = -1;
       } else if (*direction != -1) {
@@ -152,10 +195,10 @@ int check_if_follows_established_direction(const Level *current, const Level *pr
   return is_safe;
 }
 
-int check_if_duplicate(HashMapNode **map, const Level *current) {
+int check_if_duplicate(HashMapNode **map, const int *current) {
   int is_safe = 1;
   if (current != NULL) {
-    int seen_before = map_has_val(map, current->value);
+    int seen_before = map_has_val(map, *current);
 
     if (seen_before) {
       is_safe = 0;

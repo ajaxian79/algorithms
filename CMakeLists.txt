@@ -7,7 +7,7 @@ add_executable(twosum src/TwoSum/main.c src/TwoSum/twosum.c src/FirstLetterToApp
 add_executable(repeatedchar src/FirstLetterToAppearTwice/main.c src/FirstLetterToAppearTwice/repeated.c)
 add_executable(median src/MedianOfTwoSortedArrays/main.c src/MedianOfTwoSortedArrays/median.c)
 add_executable(aoc2024_1 src/AoC2024_1/main.c src/AoC2024_1/tree_sort.c)
-add_executable(aoc2024_2 src/AoC2024_2/main.c src/Aoc2024_2/level.c src/Aoc2024_2/report.c src/Aoc2024_2/int_hash_map.c)
+add_executable(aoc2024_2 src/AoC2024_2/main.c src/Aoc2024_2/report.c src/Aoc2024_2/int_hash_map.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
