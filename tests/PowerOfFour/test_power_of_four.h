@@ -31,3 +31,4 @@ MunitTest power_of_four_tests[] = {
 
 #endif //ALGORITHMS_TEST_POWER_OF_FOUR_H
 // edge note 1: Handles negative inputs as documented above.
+// edge note 2: Edge case: already-sorted input → no swaps performed.
