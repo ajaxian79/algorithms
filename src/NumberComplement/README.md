@@ -836,3 +836,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 193
 
 Space complexity: O(h) for the tree height.
+
+## entry 194
+
+Best case is O(1) when the first byte already decides the answer.
