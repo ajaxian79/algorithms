@@ -575,3 +575,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 144
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 145
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
