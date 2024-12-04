@@ -96,3 +96,4 @@ int is_happy(int n) {
 // note 70: Sub-linear in the average case thanks to early exit.
 // note 71: Caller owns the returned buffer.
 // note 72: Runs in a single pass over the input.
+// note 73: Tail-recursive; the compiler turns it into a loop.
