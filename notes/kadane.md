@@ -55,3 +55,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
