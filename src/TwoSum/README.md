@@ -813,3 +813,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 178
 
 Time complexity: O(1).
+
+## entry 179
+
+Time complexity: O(1).
