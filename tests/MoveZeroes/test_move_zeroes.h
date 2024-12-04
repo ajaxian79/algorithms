@@ -105,3 +105,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 65: Time complexity: O(n log n).
 // edge note 66: Linear in n; the constant factor is small.
 // edge note 67: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 68: Deterministic given the input — no PRNG seeds.
