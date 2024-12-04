@@ -89,3 +89,7 @@ Time complexity: O(n + m).
 ## entry 7
 
 Three passes total; the third merges results.
+
+## entry 8
+
+No allocations after setup.
