@@ -541,3 +541,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 118
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 119
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
