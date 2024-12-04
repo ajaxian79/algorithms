@@ -27,3 +27,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 7
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 8
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
