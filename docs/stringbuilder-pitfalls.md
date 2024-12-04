@@ -635,3 +635,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 159
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 160
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
