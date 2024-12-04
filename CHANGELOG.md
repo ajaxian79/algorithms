@@ -29051,3 +29051,7 @@
 ## entry 7263
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 7264
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
