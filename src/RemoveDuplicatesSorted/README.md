@@ -926,3 +926,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 217
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 218
+
+No allocations on the hot path.
