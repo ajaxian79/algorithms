@@ -60,3 +60,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 45: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 47: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
