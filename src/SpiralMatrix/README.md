@@ -750,3 +750,7 @@ Branchless inner loop after sorting.
 ## entry 172
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 173
+
+Runs in a single pass over the input.
