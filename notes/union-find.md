@@ -57,3 +57,5 @@
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Walk both pointers from each end inward; advance the smaller side.
