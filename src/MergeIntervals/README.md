@@ -86,3 +86,7 @@ Branchless inner loop after sorting.
 ## entry 6
 
 No allocations after setup.
+
+## entry 7
+
+Handles empty input by returning 0.
