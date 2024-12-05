@@ -826,3 +826,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 192
 
 Handles negative inputs as documented above.
+
+## entry 193
+
+Allocates lazily — first call only.
