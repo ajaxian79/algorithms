@@ -57,55 +57,42 @@ int getInstances(Gameboard* gameboard) {
 }
 
 
-static char* match = "XMAS";
-static int numDirections = 16;
+static char* match = "MAS"; //"XMAS";
+static int numDirections = 8;
 static int directions[] = {
-    -1,  0, // Left
-     1,  0, // Right
-     0, -1, // Up
-     0,  1, // Down
     -1, -1, // Up-Left Diag
+     1,  1, // Down-Right Diag
      1, -1, // Up-Right Diag
     -1,  1, // Down-Left Diag
-     1,  1, // Down-Right Diag
 };
 
 int evaluate(Gameboard *gameboard, int x, int y) {
   int accum = 0;
   char cur = getAt(gameboard, x, y);
 
-  if (cur == match[0]) {
-    int matchLength = (int)strlen(match);
-
+  if (cur == match[1]) {
     for(int currentDirection = 0; currentDirection < numDirections; currentDirection += 2) {
       int incX = directions[currentDirection];
       int incY = directions[currentDirection+1];
 
-      int matches = 1;
+      int matches = 0;
 
-      for(int checkX = 0, checkY = 0, matchPos = 0;
-          matchPos < matchLength;
-          checkX+=incX, checkY+=incY, matchPos+=1) {
-        char current = getAt(gameboard, x+checkX, y+checkY);
-        char supposedToBe = match[matchPos];
+      char prev = getAt(gameboard, x-incX, y-incY);
+      char next = getAt(gameboard, x+incX, y+incY);
 
-        if (incX == 1 && incY == 1) {
-          printf("Checking %c == %c at %d,%d\n", current, supposedToBe, x + checkX, y + checkY);
-        }
-
-        if (current != supposedToBe) {
-          matches = 0;
-          break;
-        }
+      if (prev == match[0] && next == match[2]) {
+        matches = 1;
       }
 
+      printf("Checking %c == %c at %d,%d\n", cur, match[1], x, y);
+      printf("\tChecking %c == %c at %d,%d\n", prev, match[0], x-incX, y-incY);
+      printf("\tChecking %c == %c at %d,%d\n", next, match[2], x+incX, y+incY);
+
       accum += matches;
-
     }
-
   }
 
-  return accum;
+  return accum == 2 ? 1 : 0;
 }
 
 void freeGameboard(Gameboard** gameboard) {
