@@ -714,3 +714,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 164
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 165
+
+Caller owns the returned array; free with a single `free`.
