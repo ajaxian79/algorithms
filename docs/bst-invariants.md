@@ -53,3 +53,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
