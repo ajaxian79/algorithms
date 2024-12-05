@@ -111,3 +111,4 @@ MunitTest subsets_tests[] = {
 // edge note 66: Vectorizes cleanly under -O2.
 // edge note 67: Cache-friendly; one sequential read pass.
 // edge note 68: Space complexity: O(1) auxiliary.
+// edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
