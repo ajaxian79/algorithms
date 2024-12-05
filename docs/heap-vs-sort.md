@@ -595,3 +595,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 132
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 133
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
