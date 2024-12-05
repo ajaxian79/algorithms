@@ -503,3 +503,7 @@
 ## entry 126
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 127
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
