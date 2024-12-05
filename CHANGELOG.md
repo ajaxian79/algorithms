@@ -29043,3 +29043,7 @@
 ## entry 7261
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 7262
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
