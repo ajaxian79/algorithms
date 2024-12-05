@@ -539,3 +539,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 135
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 136
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
