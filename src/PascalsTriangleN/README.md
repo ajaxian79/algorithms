@@ -730,3 +730,7 @@ Space complexity: O(1) auxiliary.
 ## entry 167
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 168
+
+Time complexity: O(n log n).
