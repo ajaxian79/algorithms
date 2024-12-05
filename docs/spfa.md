@@ -27,3 +27,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 7
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 8
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
