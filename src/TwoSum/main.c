@@ -1,8 +1,13 @@
 #include <stdio.h>
 
 #include "twosum.h"
+
+#ifdef __APPLE__
+#include <stdlib.h>
+#else
 #include <malloc.h>
 #include <stdio.h>
+#endif
 
 int main() {
 
