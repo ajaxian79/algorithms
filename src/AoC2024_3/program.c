@@ -25,6 +25,7 @@ Program* create_program() {
   program->current = program->head;
   program->tail = program->head;
   program->last_result = 0;
+  program->enabled = 1;
 
   return program;
 }
@@ -65,9 +66,34 @@ int program_is_at_start(Program* program) {
 }
 
 int get_next_result(Program* program) {
+  FILE* program_log = fopen("execution.log", "a");
   switch (program->current->type) {
     case MULTIPLY:
-      program->last_result = program->current->lArg.integer * program->current->rArg.integer;
+      if (program->enabled) {
+        program->last_result = program->current->lArg.integer * program->current->rArg.integer;
+        fprintf(program_log, "MUL %d * %d == %d",
+               program->current->lArg.integer,
+               program->current->rArg.integer,
+               program->last_result);
+      } else {
+        fprintf(program_log, "SKIP MUL %d * %d == %d",
+               program->current->lArg.integer,
+               program->current->rArg.integer,
+               program->current->lArg.integer * program->current->rArg.integer);
+        program->last_result = 0;
+      }
+      break;
+
+    case ENABLE:
+      fprintf(program_log, "ENABLE");
+      program->enabled = 1;
+      program->last_result = 0;
+      break;
+
+    case DISABLE:
+      fprintf(program_log, "DISABLE");
+      program->enabled = 0;
+      program->last_result = 0;
       break;
 
     default:
@@ -81,5 +107,7 @@ int get_next_result(Program* program) {
     program->current = program->head;
   }
 
+  fflush(program_log);
+  fclose(program_log);
   return program->last_result;
 }

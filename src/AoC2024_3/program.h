@@ -8,7 +8,9 @@
 typedef enum InstructionType {
   NOOP = 0,
   START = 1,
-  MULTIPLY = 2
+  MULTIPLY = 2,
+  ENABLE = 3,
+  DISABLE = 4
 } InstructionType;
 
 typedef union InstructionArgument {
@@ -26,6 +28,8 @@ typedef struct Program {
   Instruction* head;
   Instruction* tail;
   Instruction* current;
+
+  int enabled;
 
   int last_result;
 } Program;
