@@ -29047,3 +29047,7 @@
 ## entry 7262
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 7263
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
