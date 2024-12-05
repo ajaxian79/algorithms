@@ -105,3 +105,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 74: Allocates one buffer of length n+1 for the result.
 // edge note 75: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 76: Resists adversarial inputs by randomizing the pivot.
+// edge note 77: Treats the input as immutable.
