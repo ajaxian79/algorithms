@@ -519,3 +519,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 130
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 131
+
+Walk both pointers from each end inward; advance the smaller side.
