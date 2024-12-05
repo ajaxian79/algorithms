@@ -29019,3 +29019,7 @@
 ## entry 7255
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 7256
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
