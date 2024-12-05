@@ -7,10 +7,8 @@
 
 #include <stdio.h>
 
-#include "level.h"
-
 typedef struct Report {
-  Level* levels;
+  int levels[10];
   int count;
   struct Report* next;
 } Report;
