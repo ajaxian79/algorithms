@@ -5,6 +5,11 @@
 #include <stdio.h>
 
 #include "scanner.h"
+#include "parser.h"
+#include "program.h"
+#include "logger.h"
+
+#define EXECUTION_LOG "execution"
 
 int main(int argc, char* argv[]) {
   if (argc < 2) {
@@ -26,23 +31,14 @@ int main(int argc, char* argv[]) {
   int accum = 0;
   int result;
   int instructions_executed = 0;
-  FILE* program_log = fopen("execution.log", "w");
-  fprintf(program_log, "Executing...\n");
-  fflush(program_log);
-  fclose(program_log);
+  blog_start(EXECUTION_LOG, "Executing...\n");
 
   do {
-    program_log = fopen("execution.log", "a");
-    fprintf(program_log, "%d:\t", instructions_executed++);
-    fflush(program_log);
-    fclose(program_log);
+    blog(EXECUTION_LOG, "%d:\t", instructions_executed++);
 
     result = get_next_result(program);
 
-    program_log = fopen("execution.log", "a");
-    fprintf(program_log, "\t\t\t\t\t\t\t; Instruction Result: %d\n", result);
-    fflush(program_log);
-    fclose(program_log);
+    blog(EXECUTION_LOG, "\t\t\t\t\t\t\t; Instruction Result: %d\n", result);
 
     accum += result;
   } while(!program_is_at_start(program));

@@ -98,6 +98,7 @@ int get_next_result(Program* program) {
 
     default:
       // START, NOOP and any un implemented instructions
+      program->last_result = 0;
       break;
   }
 

@@ -2,11 +2,12 @@
 // Created by Blake Tullysmith on 12/3/24.
 //
 
+#include "scanner.h"
+
+#ifndef DISABLE_ALGORITHMS_SCANNER
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
-
-#include "scanner.h"
 
 typedef enum ScannerState {
   SEEKING_INSTRUCTION,
@@ -235,3 +236,4 @@ int peekNext(FILE *file) {
 int advance(FILE *file) { return fgetc(file); }
 
 bool scanComplete(FILE *file) { return !feof(file); }
+#endif

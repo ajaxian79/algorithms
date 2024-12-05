@@ -1,740 +1,819 @@
 Executing...
 0:								; Instruction Result: 0
-1:	MUL 117 * 325 == 38025							; Instruction Result: 38025
-2:	MUL 829 * 251 == 208079							; Instruction Result: 208079
-3:	MUL 17 * 183 == 3111							; Instruction Result: 3111
-4:	MUL 911 * 142 == 129362							; Instruction Result: 129362
-5:	MUL 199 * 484 == 96316							; Instruction Result: 96316
-6:	MUL 325 * 240 == 78000							; Instruction Result: 78000
-7:	MUL 920 * 723 == 665160							; Instruction Result: 665160
-8:	MUL 274 * 899 == 246326							; Instruction Result: 246326
-9:	MUL 664 * 836 == 555104							; Instruction Result: 555104
-10:	MUL 257 * 635 == 163195							; Instruction Result: 163195
-11:	DISABLE							; Instruction Result: 0
-12:	SKIP MUL 360 * 222 == 79920							; Instruction Result: 0
-13:	SKIP MUL 268 * 245 == 65660							; Instruction Result: 0
-14:	SKIP MUL 936 * 776 == 726336							; Instruction Result: 0
-15:	SKIP MUL 474 * 825 == 391050							; Instruction Result: 0
-16:	SKIP MUL 484 * 39 == 18876							; Instruction Result: 0
-17:	SKIP MUL 357 * 805 == 287385							; Instruction Result: 0
-18:	SKIP MUL 261 * 810 == 211410							; Instruction Result: 0
-19:	SKIP MUL 306 * 422 == 129132							; Instruction Result: 0
-20:	SKIP MUL 944 * 563 == 531472							; Instruction Result: 0
-21:	SKIP MUL 403 * 781 == 314743							; Instruction Result: 0
-22:	SKIP MUL 382 * 778 == 297196							; Instruction Result: 0
-23:	SKIP MUL 48 * 400 == 19200							; Instruction Result: 0
-24:	SKIP MUL 114 * 537 == 61218							; Instruction Result: 0
-25:	SKIP MUL 688 * 466 == 320608							; Instruction Result: 0
-26:	SKIP MUL 950 * 333 == 316350							; Instruction Result: 0
-27:	SKIP MUL 974 * 802 == 781148							; Instruction Result: 0
-28:	SKIP MUL 394 * 250 == 98500							; Instruction Result: 0
-29:	SKIP MUL 271 * 377 == 102167							; Instruction Result: 0
-30:	SKIP MUL 83 * 470 == 39010							; Instruction Result: 0
-31:	SKIP MUL 678 * 845 == 572910							; Instruction Result: 0
-32:	ENABLE							; Instruction Result: 0
-33:	MUL 958 * 48 == 45984							; Instruction Result: 45984
-34:	MUL 965 * 566 == 546190							; Instruction Result: 546190
-35:	MUL 926 * 836 == 774136							; Instruction Result: 774136
-36:	ENABLE							; Instruction Result: 0
-37:	MUL 465 * 920 == 427800							; Instruction Result: 427800
-38:	MUL 905 * 944 == 854320							; Instruction Result: 854320
-39:	MUL 738 * 782 == 577116							; Instruction Result: 577116
-40:	MUL 671 * 73 == 48983							; Instruction Result: 48983
-41:	MUL 981 * 305 == 299205							; Instruction Result: 299205
-42:	MUL 943 * 403 == 380029							; Instruction Result: 380029
-43:	MUL 177 * 608 == 107616							; Instruction Result: 107616
-44:	MUL 615 * 69 == 42435							; Instruction Result: 42435
-45:	MUL 273 * 327 == 89271							; Instruction Result: 89271
-46:	MUL 588 * 34 == 19992							; Instruction Result: 19992
-47:	MUL 476 * 402 == 191352							; Instruction Result: 191352
-48:	MUL 70 * 477 == 33390							; Instruction Result: 33390
-49:	MUL 826 * 769 == 635194							; Instruction Result: 635194
-50:	MUL 630 * 778 == 490140							; Instruction Result: 490140
-51:	MUL 757 * 817 == 618469							; Instruction Result: 618469
-52:	MUL 704 * 71 == 49984							; Instruction Result: 49984
-53:	MUL 880 * 91 == 80080							; Instruction Result: 80080
-54:	MUL 482 * 52 == 25064							; Instruction Result: 25064
-55:	MUL 451 * 632 == 285032							; Instruction Result: 285032
-56:	MUL 744 * 609 == 453096							; Instruction Result: 453096
-57:	MUL 851 * 817 == 695267							; Instruction Result: 695267
-58:	MUL 879 * 78 == 68562							; Instruction Result: 68562
-59:	MUL 955 * 80 == 76400							; Instruction Result: 76400
-60:	DISABLE							; Instruction Result: 0
-61:	SKIP MUL 11 * 257 == 2827							; Instruction Result: 0
-62:	SKIP MUL 755 * 926 == 699130							; Instruction Result: 0
-63:	SKIP MUL 822 * 333 == 273726							; Instruction Result: 0
-64:	SKIP MUL 944 * 27 == 25488							; Instruction Result: 0
-65:	DISABLE							; Instruction Result: 0
-66:	SKIP MUL 682 * 325 == 221650							; Instruction Result: 0
-67:	SKIP MUL 159 * 46 == 7314							; Instruction Result: 0
-68:	SKIP MUL 999 * 996 == 995004							; Instruction Result: 0
-69:	SKIP MUL 181 * 447 == 80907							; Instruction Result: 0
-70:	SKIP MUL 79 * 247 == 19513							; Instruction Result: 0
-71:	SKIP MUL 646 * 108 == 69768							; Instruction Result: 0
-72:	SKIP MUL 446 * 87 == 38802							; Instruction Result: 0
-73:	ENABLE							; Instruction Result: 0
-74:	MUL 769 * 704 == 541376							; Instruction Result: 541376
-75:	MUL 342 * 860 == 294120							; Instruction Result: 294120
-76:	MUL 297 * 907 == 269379							; Instruction Result: 269379
-77:	MUL 785 * 738 == 579330							; Instruction Result: 579330
-78:	MUL 22 * 569 == 12518							; Instruction Result: 12518
-79:	MUL 712 * 864 == 615168							; Instruction Result: 615168
-80:	ENABLE							; Instruction Result: 0
-81:	MUL 910 * 77 == 70070							; Instruction Result: 70070
-82:	MUL 148 * 162 == 23976							; Instruction Result: 23976
-83:	MUL 851 * 438 == 372738							; Instruction Result: 372738
-84:	MUL 318 * 433 == 137694							; Instruction Result: 137694
-85:	MUL 334 * 691 == 230794							; Instruction Result: 230794
-86:	MUL 16 * 725 == 11600							; Instruction Result: 11600
-87:	MUL 302 * 212 == 64024							; Instruction Result: 64024
-88:	MUL 749 * 290 == 217210							; Instruction Result: 217210
-89:	MUL 438 * 485 == 212430							; Instruction Result: 212430
-90:	MUL 155 * 334 == 51770							; Instruction Result: 51770
-91:	MUL 563 * 825 == 464475							; Instruction Result: 464475
-92:	MUL 40 * 124 == 4960							; Instruction Result: 4960
-93:	MUL 899 * 517 == 464783							; Instruction Result: 464783
-94:	MUL 343 * 252 == 86436							; Instruction Result: 86436
-95:	MUL 72 * 213 == 15336							; Instruction Result: 15336
-96:	MUL 935 * 677 == 632995							; Instruction Result: 632995
-97:	MUL 418 * 773 == 323114							; Instruction Result: 323114
-98:	MUL 299 * 393 == 117507							; Instruction Result: 117507
-99:	MUL 235 * 99 == 23265							; Instruction Result: 23265
-100:	MUL 755 * 736 == 555680							; Instruction Result: 555680
-101:	MUL 959 * 630 == 604170							; Instruction Result: 604170
-102:	MUL 390 * 582 == 226980							; Instruction Result: 226980
-103:	MUL 447 * 741 == 331227							; Instruction Result: 331227
-104:	MUL 856 * 87 == 74472							; Instruction Result: 74472
-105:	MUL 619 * 939 == 581241							; Instruction Result: 581241
-106:	MUL 237 * 787 == 186519							; Instruction Result: 186519
-107:	MUL 748 * 973 == 727804							; Instruction Result: 727804
-108:	MUL 61 * 599 == 36539							; Instruction Result: 36539
-109:	MUL 545 * 911 == 496495							; Instruction Result: 496495
-110:	MUL 145 * 677 == 98165							; Instruction Result: 98165
-111:	MUL 71 * 580 == 41180							; Instruction Result: 41180
-112:	MUL 989 * 226 == 223514							; Instruction Result: 223514
-113:	MUL 649 * 981 == 636669							; Instruction Result: 636669
-114:	MUL 384 * 957 == 367488							; Instruction Result: 367488
-115:	MUL 90 * 741 == 66690							; Instruction Result: 66690
-116:	MUL 874 * 34 == 29716							; Instruction Result: 29716
-117:	MUL 597 * 301 == 179697							; Instruction Result: 179697
-118:	MUL 874 * 920 == 804080							; Instruction Result: 804080
-119:	MUL 720 * 444 == 319680							; Instruction Result: 319680
-120:	DISABLE							; Instruction Result: 0
-121:	SKIP MUL 369 * 122 == 45018							; Instruction Result: 0
-122:	SKIP MUL 323 * 653 == 210919							; Instruction Result: 0
-123:	DISABLE							; Instruction Result: 0
-124:	SKIP MUL 22 * 35 == 770							; Instruction Result: 0
-125:	SKIP MUL 361 * 680 == 245480							; Instruction Result: 0
-126:	SKIP MUL 957 * 696 == 666072							; Instruction Result: 0
-127:	SKIP MUL 486 * 390 == 189540							; Instruction Result: 0
-128:	SKIP MUL 904 * 888 == 802752							; Instruction Result: 0
-129:	SKIP MUL 121 * 356 == 43076							; Instruction Result: 0
-130:	SKIP MUL 286 * 496 == 141856							; Instruction Result: 0
-131:	SKIP MUL 795 * 126 == 100170							; Instruction Result: 0
-132:	DISABLE							; Instruction Result: 0
-133:	SKIP MUL 274 * 833 == 228242							; Instruction Result: 0
-134:	SKIP MUL 751 * 302 == 226802							; Instruction Result: 0
-135:	SKIP MUL 706 * 87 == 61422							; Instruction Result: 0
-136:	SKIP MUL 783 * 984 == 770472							; Instruction Result: 0
-137:	SKIP MUL 168 * 887 == 149016							; Instruction Result: 0
-138:	SKIP MUL 750 * 257 == 192750							; Instruction Result: 0
-139:	SKIP MUL 392 * 217 == 85064							; Instruction Result: 0
-140:	SKIP MUL 990 * 616 == 609840							; Instruction Result: 0
-141:	SKIP MUL 580 * 340 == 197200							; Instruction Result: 0
-142:	SKIP MUL 674 * 55 == 37070							; Instruction Result: 0
-143:	SKIP MUL 697 * 276 == 192372							; Instruction Result: 0
-144:	SKIP MUL 7 * 647 == 4529							; Instruction Result: 0
-145:	DISABLE							; Instruction Result: 0
-146:	SKIP MUL 134 * 95 == 12730							; Instruction Result: 0
-147:	SKIP MUL 342 * 16 == 5472							; Instruction Result: 0
-148:	SKIP MUL 349 * 74 == 25826							; Instruction Result: 0
-149:	SKIP MUL 201 * 421 == 84621							; Instruction Result: 0
-150:	SKIP MUL 225 * 997 == 224325							; Instruction Result: 0
-151:	SKIP MUL 596 * 977 == 582292							; Instruction Result: 0
-152:	SKIP MUL 62 * 3 == 186							; Instruction Result: 0
-153:	SKIP MUL 71 * 292 == 20732							; Instruction Result: 0
-154:	SKIP MUL 174 * 534 == 92916							; Instruction Result: 0
-155:	SKIP MUL 632 * 674 == 425968							; Instruction Result: 0
-156:	SKIP MUL 171 * 886 == 151506							; Instruction Result: 0
-157:	SKIP MUL 377 * 649 == 244673							; Instruction Result: 0
-158:	SKIP MUL 486 * 49 == 23814							; Instruction Result: 0
-159:	SKIP MUL 189 * 478 == 90342							; Instruction Result: 0
-160:	SKIP MUL 501 * 233 == 116733							; Instruction Result: 0
-161:	SKIP MUL 950 * 491 == 466450							; Instruction Result: 0
-162:	SKIP MUL 802 * 155 == 124310							; Instruction Result: 0
-163:	SKIP MUL 656 * 363 == 238128							; Instruction Result: 0
-164:	SKIP MUL 290 * 337 == 97730							; Instruction Result: 0
-165:	SKIP MUL 51 * 638 == 32538							; Instruction Result: 0
-166:	SKIP MUL 87 * 608 == 52896							; Instruction Result: 0
-167:	SKIP MUL 116 * 583 == 67628							; Instruction Result: 0
-168:	SKIP MUL 934 * 503 == 469802							; Instruction Result: 0
-169:	SKIP MUL 458 * 43 == 19694							; Instruction Result: 0
-170:	SKIP MUL 61 * 244 == 14884							; Instruction Result: 0
-171:	SKIP MUL 179 * 386 == 69094							; Instruction Result: 0
-172:	DISABLE							; Instruction Result: 0
-173:	SKIP MUL 310 * 95 == 29450							; Instruction Result: 0
-174:	ENABLE							; Instruction Result: 0
-175:	MUL 199 * 244 == 48556							; Instruction Result: 48556
-176:	ENABLE							; Instruction Result: 0
-177:	MUL 715 * 542 == 387530							; Instruction Result: 387530
-178:	MUL 243 * 209 == 50787							; Instruction Result: 50787
-179:	MUL 235 * 191 == 44885							; Instruction Result: 44885
-180:	MUL 204 * 446 == 90984							; Instruction Result: 90984
-181:	MUL 739 * 161 == 118979							; Instruction Result: 118979
-182:	MUL 606 * 959 == 581154							; Instruction Result: 581154
-183:	MUL 941 * 267 == 251247							; Instruction Result: 251247
-184:	MUL 942 * 63 == 59346							; Instruction Result: 59346
-185:	ENABLE							; Instruction Result: 0
-186:	MUL 843 * 484 == 408012							; Instruction Result: 408012
-187:	DISABLE							; Instruction Result: 0
-188:	SKIP MUL 564 * 526 == 296664							; Instruction Result: 0
-189:	SKIP MUL 622 * 540 == 335880							; Instruction Result: 0
-190:	SKIP MUL 400 * 561 == 224400							; Instruction Result: 0
-191:	DISABLE							; Instruction Result: 0
-192:	SKIP MUL 64 * 295 == 18880							; Instruction Result: 0
-193:	SKIP MUL 239 * 553 == 132167							; Instruction Result: 0
-194:	SKIP MUL 238 * 969 == 230622							; Instruction Result: 0
-195:	SKIP MUL 454 * 343 == 155722							; Instruction Result: 0
-196:	SKIP MUL 390 * 586 == 228540							; Instruction Result: 0
-197:	SKIP MUL 74 * 208 == 15392							; Instruction Result: 0
-198:	SKIP MUL 230 * 839 == 192970							; Instruction Result: 0
-199:	DISABLE							; Instruction Result: 0
-200:	SKIP MUL 206 * 499 == 102794							; Instruction Result: 0
-201:	SKIP MUL 484 * 803 == 388652							; Instruction Result: 0
-202:	SKIP MUL 740 * 39 == 28860							; Instruction Result: 0
-203:	SKIP MUL 27 * 646 == 17442							; Instruction Result: 0
-204:	SKIP MUL 993 * 84 == 83412							; Instruction Result: 0
-205:	SKIP MUL 184 * 126 == 23184							; Instruction Result: 0
-206:	SKIP MUL 890 * 36 == 32040							; Instruction Result: 0
-207:	SKIP MUL 495 * 836 == 413820							; Instruction Result: 0
-208:	SKIP MUL 486 * 448 == 217728							; Instruction Result: 0
-209:	SKIP MUL 726 * 802 == 582252							; Instruction Result: 0
-210:	SKIP MUL 713 * 282 == 201066							; Instruction Result: 0
-211:	SKIP MUL 369 * 778 == 287082							; Instruction Result: 0
-212:	SKIP MUL 645 * 582 == 375390							; Instruction Result: 0
-213:	SKIP MUL 646 * 390 == 251940							; Instruction Result: 0
-214:	ENABLE							; Instruction Result: 0
-215:	MUL 783 * 801 == 627183							; Instruction Result: 627183
-216:	MUL 393 * 573 == 225189							; Instruction Result: 225189
-217:	MUL 920 * 302 == 277840							; Instruction Result: 277840
-218:	MUL 679 * 329 == 223391							; Instruction Result: 223391
-219:	MUL 833 * 762 == 634746							; Instruction Result: 634746
-220:	MUL 585 * 568 == 332280							; Instruction Result: 332280
-221:	MUL 698 * 887 == 619126							; Instruction Result: 619126
-222:	ENABLE							; Instruction Result: 0
-223:	MUL 713 * 408 == 290904							; Instruction Result: 290904
-224:	MUL 15 * 92 == 1380							; Instruction Result: 1380
-225:	MUL 841 * 490 == 412090							; Instruction Result: 412090
-226:	ENABLE							; Instruction Result: 0
-227:	MUL 124 * 658 == 81592							; Instruction Result: 81592
-228:	MUL 991 * 749 == 742259							; Instruction Result: 742259
-229:	MUL 746 * 929 == 693034							; Instruction Result: 693034
-230:	MUL 954 * 543 == 518022							; Instruction Result: 518022
-231:	MUL 607 * 408 == 247656							; Instruction Result: 247656
-232:	MUL 465 * 49 == 22785							; Instruction Result: 22785
-233:	MUL 935 * 437 == 408595							; Instruction Result: 408595
-234:	DISABLE							; Instruction Result: 0
-235:	SKIP MUL 509 * 38 == 19342							; Instruction Result: 0
-236:	SKIP MUL 980 * 337 == 330260							; Instruction Result: 0
-237:	ENABLE							; Instruction Result: 0
-238:	MUL 536 * 465 == 249240							; Instruction Result: 249240
-239:	MUL 534 * 315 == 168210							; Instruction Result: 168210
-240:	ENABLE							; Instruction Result: 0
-241:	MUL 644 * 668 == 430192							; Instruction Result: 430192
-242:	MUL 324 * 603 == 195372							; Instruction Result: 195372
-243:	ENABLE							; Instruction Result: 0
-244:	MUL 153 * 26 == 3978							; Instruction Result: 3978
-245:	MUL 186 * 252 == 46872							; Instruction Result: 46872
-246:	MUL 405 * 534 == 216270							; Instruction Result: 216270
-247:	MUL 996 * 519 == 516924							; Instruction Result: 516924
-248:	DISABLE							; Instruction Result: 0
-249:	SKIP MUL 426 * 711 == 302886							; Instruction Result: 0
-250:	SKIP MUL 89 * 834 == 74226							; Instruction Result: 0
-251:	SKIP MUL 330 * 473 == 156090							; Instruction Result: 0
-252:	SKIP MUL 729 * 170 == 123930							; Instruction Result: 0
-253:	SKIP MUL 136 * 171 == 23256							; Instruction Result: 0
-254:	SKIP MUL 650 * 140 == 91000							; Instruction Result: 0
-255:	SKIP MUL 215 * 81 == 17415							; Instruction Result: 0
-256:	SKIP MUL 2 * 321 == 642							; Instruction Result: 0
-257:	SKIP MUL 347 * 382 == 132554							; Instruction Result: 0
-258:	SKIP MUL 517 * 832 == 430144							; Instruction Result: 0
-259:	SKIP MUL 179 * 869 == 155551							; Instruction Result: 0
-260:	ENABLE							; Instruction Result: 0
-261:	MUL 659 * 454 == 299186							; Instruction Result: 299186
-262:	MUL 10 * 165 == 1650							; Instruction Result: 1650
-263:	MUL 422 * 149 == 62878							; Instruction Result: 62878
-264:	MUL 842 * 666 == 560772							; Instruction Result: 560772
-265:	MUL 884 * 29 == 25636							; Instruction Result: 25636
-266:	MUL 443 * 833 == 369019							; Instruction Result: 369019
-267:	MUL 248 * 50 == 12400							; Instruction Result: 12400
-268:	MUL 816 * 74 == 60384							; Instruction Result: 60384
-269:	MUL 287 * 583 == 167321							; Instruction Result: 167321
-270:	MUL 916 * 265 == 242740							; Instruction Result: 242740
-271:	MUL 565 * 495 == 279675							; Instruction Result: 279675
-272:	MUL 391 * 534 == 208794							; Instruction Result: 208794
-273:	MUL 222 * 430 == 95460							; Instruction Result: 95460
-274:	MUL 812 * 448 == 363776							; Instruction Result: 363776
-275:	MUL 339 * 529 == 179331							; Instruction Result: 179331
-276:	MUL 346 * 750 == 259500							; Instruction Result: 259500
-277:	MUL 274 * 115 == 31510							; Instruction Result: 31510
-278:	MUL 827 * 676 == 559052							; Instruction Result: 559052
-279:	MUL 726 * 201 == 145926							; Instruction Result: 145926
-280:	MUL 957 * 551 == 527307							; Instruction Result: 527307
-281:	MUL 693 * 392 == 271656							; Instruction Result: 271656
-282:	MUL 163 * 738 == 120294							; Instruction Result: 120294
-283:	MUL 928 * 181 == 167968							; Instruction Result: 167968
-284:	MUL 490 * 341 == 167090							; Instruction Result: 167090
-285:	MUL 79 * 842 == 66518							; Instruction Result: 66518
-286:	MUL 118 * 744 == 87792							; Instruction Result: 87792
-287:	ENABLE							; Instruction Result: 0
-288:	MUL 150 * 59 == 8850							; Instruction Result: 8850
-289:	MUL 123 * 997 == 122631							; Instruction Result: 122631
-290:	MUL 996 * 553 == 550788							; Instruction Result: 550788
-291:	MUL 799 * 235 == 187765							; Instruction Result: 187765
-292:	MUL 450 * 165 == 74250							; Instruction Result: 74250
-293:	MUL 416 * 829 == 344864							; Instruction Result: 344864
-294:	MUL 681 * 77 == 52437							; Instruction Result: 52437
-295:	MUL 566 * 968 == 547888							; Instruction Result: 547888
-296:	MUL 320 * 701 == 224320							; Instruction Result: 224320
-297:	MUL 84 * 690 == 57960							; Instruction Result: 57960
-298:	MUL 523 * 218 == 114014							; Instruction Result: 114014
-299:	MUL 975 * 325 == 316875							; Instruction Result: 316875
-300:	MUL 555 * 711 == 394605							; Instruction Result: 394605
-301:	DISABLE							; Instruction Result: 0
-302:	SKIP MUL 963 * 600 == 577800							; Instruction Result: 0
-303:	SKIP MUL 754 * 527 == 397358							; Instruction Result: 0
-304:	SKIP MUL 589 * 630 == 371070							; Instruction Result: 0
-305:	SKIP MUL 454 * 523 == 237442							; Instruction Result: 0
-306:	SKIP MUL 117 * 299 == 34983							; Instruction Result: 0
-307:	SKIP MUL 682 * 981 == 669042							; Instruction Result: 0
-308:	SKIP MUL 918 * 918 == 842724							; Instruction Result: 0
-309:	SKIP MUL 529 * 521 == 275609							; Instruction Result: 0
-310:	SKIP MUL 29 * 4 == 116							; Instruction Result: 0
-311:	SKIP MUL 922 * 126 == 116172							; Instruction Result: 0
-312:	SKIP MUL 156 * 757 == 118092							; Instruction Result: 0
-313:	SKIP MUL 582 * 926 == 538932							; Instruction Result: 0
-314:	SKIP MUL 729 * 833 == 607257							; Instruction Result: 0
-315:	SKIP MUL 455 * 185 == 84175							; Instruction Result: 0
-316:	SKIP MUL 494 * 904 == 446576							; Instruction Result: 0
-317:	SKIP MUL 701 * 981 == 687681							; Instruction Result: 0
-318:	SKIP MUL 43 * 116 == 4988							; Instruction Result: 0
-319:	SKIP MUL 33 * 461 == 15213							; Instruction Result: 0
-320:	SKIP MUL 269 * 237 == 63753							; Instruction Result: 0
-321:	SKIP MUL 865 * 880 == 761200							; Instruction Result: 0
-322:	DISABLE							; Instruction Result: 0
-323:	SKIP MUL 259 * 423 == 109557							; Instruction Result: 0
-324:	SKIP MUL 438 * 59 == 25842							; Instruction Result: 0
-325:	SKIP MUL 623 * 454 == 282842							; Instruction Result: 0
-326:	SKIP MUL 54 * 758 == 40932							; Instruction Result: 0
-327:	ENABLE							; Instruction Result: 0
-328:	MUL 156 * 345 == 53820							; Instruction Result: 53820
-329:	MUL 296 * 979 == 289784							; Instruction Result: 289784
-330:	MUL 207 * 298 == 61686							; Instruction Result: 61686
-331:	MUL 240 * 552 == 132480							; Instruction Result: 132480
-332:	MUL 434 * 728 == 315952							; Instruction Result: 315952
-333:	MUL 314 * 103 == 32342							; Instruction Result: 32342
-334:	MUL 278 * 666 == 185148							; Instruction Result: 185148
-335:	MUL 770 * 509 == 391930							; Instruction Result: 391930
-336:	MUL 460 * 916 == 421360							; Instruction Result: 421360
-337:	DISABLE							; Instruction Result: 0
-338:	SKIP MUL 796 * 995 == 792020							; Instruction Result: 0
-339:	DISABLE							; Instruction Result: 0
-340:	SKIP MUL 65 * 3 == 195							; Instruction Result: 0
-341:	SKIP MUL 862 * 120 == 103440							; Instruction Result: 0
-342:	SKIP MUL 243 * 135 == 32805							; Instruction Result: 0
-343:	ENABLE							; Instruction Result: 0
-344:	MUL 117 * 795 == 93015							; Instruction Result: 93015
-345:	MUL 427 * 900 == 384300							; Instruction Result: 384300
-346:	MUL 277 * 54 == 14958							; Instruction Result: 14958
-347:	MUL 398 * 993 == 395214							; Instruction Result: 395214
-348:	MUL 314 * 397 == 124658							; Instruction Result: 124658
-349:	MUL 452 * 25 == 11300							; Instruction Result: 11300
-350:	MUL 71 * 963 == 68373							; Instruction Result: 68373
-351:	MUL 53 * 54 == 2862							; Instruction Result: 2862
-352:	MUL 708 * 894 == 632952							; Instruction Result: 632952
-353:	MUL 320 * 139 == 44480							; Instruction Result: 44480
-354:	MUL 69 * 189 == 13041							; Instruction Result: 13041
-355:	DISABLE							; Instruction Result: 0
-356:	SKIP MUL 906 * 936 == 848016							; Instruction Result: 0
-357:	SKIP MUL 259 * 584 == 151256							; Instruction Result: 0
-358:	SKIP MUL 708 * 571 == 404268							; Instruction Result: 0
-359:	SKIP MUL 50 * 750 == 37500							; Instruction Result: 0
-360:	SKIP MUL 489 * 557 == 272373							; Instruction Result: 0
-361:	SKIP MUL 93 * 641 == 59613							; Instruction Result: 0
-362:	SKIP MUL 184 * 380 == 69920							; Instruction Result: 0
-363:	SKIP MUL 963 * 754 == 726102							; Instruction Result: 0
-364:	SKIP MUL 631 * 979 == 617749							; Instruction Result: 0
-365:	SKIP MUL 641 * 426 == 273066							; Instruction Result: 0
-366:	SKIP MUL 13 * 213 == 2769							; Instruction Result: 0
-367:	SKIP MUL 341 * 702 == 239382							; Instruction Result: 0
-368:	SKIP MUL 234 * 773 == 180882							; Instruction Result: 0
-369:	SKIP MUL 602 * 524 == 315448							; Instruction Result: 0
-370:	SKIP MUL 169 * 662 == 111878							; Instruction Result: 0
-371:	SKIP MUL 6 * 518 == 3108							; Instruction Result: 0
-372:	SKIP MUL 2 * 142 == 284							; Instruction Result: 0
-373:	SKIP MUL 12 * 883 == 10596							; Instruction Result: 0
-374:	ENABLE							; Instruction Result: 0
-375:	MUL 184 * 329 == 60536							; Instruction Result: 60536
-376:	MUL 691 * 847 == 585277							; Instruction Result: 585277
-377:	MUL 334 * 849 == 283566							; Instruction Result: 283566
-378:	MUL 566 * 562 == 318092							; Instruction Result: 318092
-379:	MUL 912 * 145 == 132240							; Instruction Result: 132240
-380:	MUL 218 * 373 == 81314							; Instruction Result: 81314
-381:	MUL 220 * 659 == 144980							; Instruction Result: 144980
-382:	MUL 65 * 632 == 41080							; Instruction Result: 41080
-383:	MUL 335 * 517 == 173195							; Instruction Result: 173195
-384:	MUL 989 * 445 == 440105							; Instruction Result: 440105
-385:	MUL 722 * 70 == 50540							; Instruction Result: 50540
-386:	MUL 488 * 411 == 200568							; Instruction Result: 200568
-387:	MUL 202 * 583 == 117766							; Instruction Result: 117766
-388:	ENABLE							; Instruction Result: 0
-389:	MUL 91 * 163 == 14833							; Instruction Result: 14833
-390:	MUL 415 * 153 == 63495							; Instruction Result: 63495
-391:	MUL 910 * 831 == 756210							; Instruction Result: 756210
-392:	ENABLE							; Instruction Result: 0
-393:	MUL 854 * 168 == 143472							; Instruction Result: 143472
-394:	MUL 544 * 146 == 79424							; Instruction Result: 79424
-395:	MUL 791 * 713 == 563983							; Instruction Result: 563983
-396:	MUL 722 * 357 == 257754							; Instruction Result: 257754
-397:	MUL 571 * 996 == 568716							; Instruction Result: 568716
-398:	MUL 674 * 399 == 268926							; Instruction Result: 268926
-399:	MUL 364 * 273 == 99372							; Instruction Result: 99372
-400:	MUL 842 * 237 == 199554							; Instruction Result: 199554
-401:	MUL 386 * 938 == 362068							; Instruction Result: 362068
-402:	MUL 795 * 812 == 645540							; Instruction Result: 645540
-403:	MUL 336 * 266 == 89376							; Instruction Result: 89376
-404:	MUL 301 * 465 == 139965							; Instruction Result: 139965
-405:	MUL 916 * 535 == 490060							; Instruction Result: 490060
-406:	MUL 195 * 161 == 31395							; Instruction Result: 31395
-407:	MUL 850 * 131 == 111350							; Instruction Result: 111350
-408:	MUL 564 * 805 == 454020							; Instruction Result: 454020
-409:	MUL 450 * 574 == 258300							; Instruction Result: 258300
-410:	MUL 811 * 64 == 51904							; Instruction Result: 51904
-411:	MUL 626 * 402 == 251652							; Instruction Result: 251652
-412:	DISABLE							; Instruction Result: 0
-413:	SKIP MUL 991 * 61 == 60451							; Instruction Result: 0
-414:	SKIP MUL 573 * 326 == 186798							; Instruction Result: 0
-415:	SKIP MUL 214 * 536 == 114704							; Instruction Result: 0
-416:	SKIP MUL 250 * 791 == 197750							; Instruction Result: 0
-417:	ENABLE							; Instruction Result: 0
-418:	MUL 402 * 879 == 353358							; Instruction Result: 353358
-419:	MUL 411 * 599 == 246189							; Instruction Result: 246189
-420:	DISABLE							; Instruction Result: 0
-421:	SKIP MUL 208 * 89 == 18512							; Instruction Result: 0
-422:	ENABLE							; Instruction Result: 0
-423:	MUL 201 * 648 == 130248							; Instruction Result: 130248
-424:	MUL 309 * 958 == 296022							; Instruction Result: 296022
-425:	MUL 5 * 81 == 405							; Instruction Result: 405
-426:	MUL 745 * 240 == 178800							; Instruction Result: 178800
-427:	MUL 993 * 109 == 108237							; Instruction Result: 108237
-428:	MUL 204 * 611 == 124644							; Instruction Result: 124644
-429:	MUL 461 * 547 == 252167							; Instruction Result: 252167
-430:	MUL 490 * 704 == 344960							; Instruction Result: 344960
-431:	MUL 531 * 461 == 244791							; Instruction Result: 244791
-432:	MUL 781 * 760 == 593560							; Instruction Result: 593560
-433:	MUL 551 * 640 == 352640							; Instruction Result: 352640
-434:	MUL 248 * 785 == 194680							; Instruction Result: 194680
-435:	MUL 175 * 52 == 9100							; Instruction Result: 9100
-436:	MUL 240 * 385 == 92400							; Instruction Result: 92400
-437:	MUL 844 * 722 == 609368							; Instruction Result: 609368
-438:	MUL 795 * 956 == 760020							; Instruction Result: 760020
-439:	MUL 845 * 908 == 767260							; Instruction Result: 767260
-440:	ENABLE							; Instruction Result: 0
-441:	MUL 350 * 941 == 329350							; Instruction Result: 329350
-442:	MUL 310 * 446 == 138260							; Instruction Result: 138260
-443:	DISABLE							; Instruction Result: 0
-444:	SKIP MUL 714 * 32 == 22848							; Instruction Result: 0
-445:	DISABLE							; Instruction Result: 0
-446:	SKIP MUL 525 * 322 == 169050							; Instruction Result: 0
-447:	DISABLE							; Instruction Result: 0
-448:	SKIP MUL 940 * 743 == 698420							; Instruction Result: 0
-449:	SKIP MUL 569 * 393 == 223617							; Instruction Result: 0
-450:	SKIP MUL 37 * 545 == 20165							; Instruction Result: 0
-451:	ENABLE							; Instruction Result: 0
-452:	MUL 596 * 354 == 210984							; Instruction Result: 210984
-453:	MUL 410 * 299 == 122590							; Instruction Result: 122590
-454:	MUL 953 * 745 == 709985							; Instruction Result: 709985
-455:	MUL 732 * 334 == 244488							; Instruction Result: 244488
-456:	MUL 751 * 328 == 246328							; Instruction Result: 246328
-457:	MUL 191 * 153 == 29223							; Instruction Result: 29223
-458:	MUL 595 * 904 == 537880							; Instruction Result: 537880
-459:	DISABLE							; Instruction Result: 0
-460:	SKIP MUL 952 * 727 == 692104							; Instruction Result: 0
-461:	SKIP MUL 471 * 971 == 457341							; Instruction Result: 0
-462:	ENABLE							; Instruction Result: 0
-463:	MUL 85 * 927 == 78795							; Instruction Result: 78795
-464:	MUL 536 * 740 == 396640							; Instruction Result: 396640
-465:	MUL 487 * 376 == 183112							; Instruction Result: 183112
-466:	MUL 184 * 719 == 132296							; Instruction Result: 132296
-467:	MUL 293 * 122 == 35746							; Instruction Result: 35746
-468:	MUL 544 * 91 == 49504							; Instruction Result: 49504
-469:	MUL 983 * 667 == 655661							; Instruction Result: 655661
-470:	MUL 708 * 478 == 338424							; Instruction Result: 338424
-471:	MUL 48 * 916 == 43968							; Instruction Result: 43968
-472:	MUL 469 * 29 == 13601							; Instruction Result: 13601
-473:	MUL 710 * 466 == 330860							; Instruction Result: 330860
-474:	MUL 855 * 660 == 564300							; Instruction Result: 564300
-475:	MUL 558 * 202 == 112716							; Instruction Result: 112716
-476:	MUL 851 * 103 == 87653							; Instruction Result: 87653
-477:	MUL 700 * 989 == 692300							; Instruction Result: 692300
-478:	MUL 311 * 964 == 299804							; Instruction Result: 299804
-479:	MUL 29 * 72 == 2088							; Instruction Result: 2088
-480:	MUL 829 * 823 == 682267							; Instruction Result: 682267
-481:	MUL 197 * 418 == 82346							; Instruction Result: 82346
-482:	MUL 628 * 50 == 31400							; Instruction Result: 31400
-483:	MUL 176 * 413 == 72688							; Instruction Result: 72688
-484:	MUL 804 * 92 == 73968							; Instruction Result: 73968
-485:	MUL 284 * 550 == 156200							; Instruction Result: 156200
-486:	MUL 342 * 336 == 114912							; Instruction Result: 114912
-487:	MUL 382 * 518 == 197876							; Instruction Result: 197876
-488:	MUL 395 * 313 == 123635							; Instruction Result: 123635
-489:	ENABLE							; Instruction Result: 0
-490:	MUL 652 * 359 == 234068							; Instruction Result: 234068
-491:	DISABLE							; Instruction Result: 0
-492:	SKIP MUL 343 * 652 == 223636							; Instruction Result: 0
-493:	SKIP MUL 677 * 743 == 503011							; Instruction Result: 0
-494:	SKIP MUL 71 * 412 == 29252							; Instruction Result: 0
-495:	SKIP MUL 345 * 160 == 55200							; Instruction Result: 0
-496:	SKIP MUL 958 * 675 == 646650							; Instruction Result: 0
-497:	SKIP MUL 752 * 30 == 22560							; Instruction Result: 0
-498:	SKIP MUL 567 * 702 == 398034							; Instruction Result: 0
-499:	SKIP MUL 725 * 160 == 116000							; Instruction Result: 0
-500:	SKIP MUL 327 * 488 == 159576							; Instruction Result: 0
-501:	SKIP MUL 836 * 535 == 447260							; Instruction Result: 0
-502:	SKIP MUL 135 * 48 == 6480							; Instruction Result: 0
-503:	SKIP MUL 646 * 10 == 6460							; Instruction Result: 0
-504:	SKIP MUL 247 * 681 == 168207							; Instruction Result: 0
-505:	SKIP MUL 712 * 270 == 192240							; Instruction Result: 0
-506:	SKIP MUL 543 * 760 == 412680							; Instruction Result: 0
-507:	SKIP MUL 991 * 653 == 647123							; Instruction Result: 0
-508:	SKIP MUL 445 * 300 == 133500							; Instruction Result: 0
-509:	SKIP MUL 782 * 558 == 436356							; Instruction Result: 0
-510:	SKIP MUL 981 * 18 == 17658							; Instruction Result: 0
-511:	SKIP MUL 814 * 71 == 57794							; Instruction Result: 0
-512:	SKIP MUL 185 * 23 == 4255							; Instruction Result: 0
-513:	SKIP MUL 358 * 551 == 197258							; Instruction Result: 0
-514:	ENABLE							; Instruction Result: 0
-515:	MUL 679 * 221 == 150059							; Instruction Result: 150059
-516:	MUL 903 * 901 == 813603							; Instruction Result: 813603
-517:	MUL 396 * 234 == 92664							; Instruction Result: 92664
-518:	MUL 569 * 364 == 207116							; Instruction Result: 207116
-519:	MUL 29 * 750 == 21750							; Instruction Result: 21750
-520:	MUL 188 * 408 == 76704							; Instruction Result: 76704
-521:	MUL 535 * 688 == 368080							; Instruction Result: 368080
-522:	MUL 180 * 183 == 32940							; Instruction Result: 32940
-523:	MUL 12 * 971 == 11652							; Instruction Result: 11652
-524:	MUL 400 * 368 == 147200							; Instruction Result: 147200
-525:	ENABLE							; Instruction Result: 0
-526:	MUL 976 * 889 == 867664							; Instruction Result: 867664
-527:	ENABLE							; Instruction Result: 0
-528:	MUL 126 * 680 == 85680							; Instruction Result: 85680
-529:	MUL 268 * 566 == 151688							; Instruction Result: 151688
-530:	MUL 656 * 119 == 78064							; Instruction Result: 78064
-531:	MUL 221 * 435 == 96135							; Instruction Result: 96135
-532:	MUL 17 * 637 == 10829							; Instruction Result: 10829
-533:	MUL 834 * 156 == 130104							; Instruction Result: 130104
-534:	MUL 373 * 272 == 101456							; Instruction Result: 101456
-535:	MUL 10 * 456 == 4560							; Instruction Result: 4560
-536:	ENABLE							; Instruction Result: 0
-537:	MUL 851 * 474 == 403374							; Instruction Result: 403374
-538:	ENABLE							; Instruction Result: 0
-539:	MUL 71 * 636 == 45156							; Instruction Result: 45156
-540:	MUL 423 * 604 == 255492							; Instruction Result: 255492
-541:	MUL 174 * 630 == 109620							; Instruction Result: 109620
-542:	MUL 891 * 319 == 284229							; Instruction Result: 284229
-543:	MUL 712 * 140 == 99680							; Instruction Result: 99680
-544:	MUL 892 * 613 == 546796							; Instruction Result: 546796
-545:	MUL 867 * 72 == 62424							; Instruction Result: 62424
-546:	MUL 435 * 420 == 182700							; Instruction Result: 182700
-547:	DISABLE							; Instruction Result: 0
-548:	SKIP MUL 613 * 816 == 500208							; Instruction Result: 0
-549:	SKIP MUL 567 * 155 == 87885							; Instruction Result: 0
-550:	SKIP MUL 584 * 474 == 276816							; Instruction Result: 0
-551:	SKIP MUL 855 * 798 == 682290							; Instruction Result: 0
-552:	SKIP MUL 833 * 981 == 817173							; Instruction Result: 0
-553:	SKIP MUL 805 * 83 == 66815							; Instruction Result: 0
-554:	SKIP MUL 797 * 555 == 442335							; Instruction Result: 0
-555:	SKIP MUL 320 * 806 == 257920							; Instruction Result: 0
-556:	SKIP MUL 43 * 38 == 1634							; Instruction Result: 0
-557:	SKIP MUL 459 * 389 == 178551							; Instruction Result: 0
-558:	SKIP MUL 937 * 21 == 19677							; Instruction Result: 0
-559:	SKIP MUL 942 * 10 == 9420							; Instruction Result: 0
-560:	SKIP MUL 437 * 636 == 277932							; Instruction Result: 0
-561:	SKIP MUL 509 * 95 == 48355							; Instruction Result: 0
-562:	SKIP MUL 522 * 855 == 446310							; Instruction Result: 0
-563:	SKIP MUL 109 * 507 == 55263							; Instruction Result: 0
-564:	SKIP MUL 442 * 773 == 341666							; Instruction Result: 0
-565:	DISABLE							; Instruction Result: 0
-566:	SKIP MUL 119 * 683 == 81277							; Instruction Result: 0
-567:	SKIP MUL 634 * 722 == 457748							; Instruction Result: 0
-568:	SKIP MUL 410 * 254 == 104140							; Instruction Result: 0
-569:	SKIP MUL 219 * 824 == 180456							; Instruction Result: 0
-570:	SKIP MUL 475 * 606 == 287850							; Instruction Result: 0
-571:	SKIP MUL 12 * 946 == 11352							; Instruction Result: 0
-572:	SKIP MUL 558 * 666 == 371628							; Instruction Result: 0
-573:	SKIP MUL 992 * 775 == 768800							; Instruction Result: 0
-574:	SKIP MUL 176 * 378 == 66528							; Instruction Result: 0
-575:	SKIP MUL 159 * 502 == 79818							; Instruction Result: 0
-576:	SKIP MUL 100 * 648 == 64800							; Instruction Result: 0
-577:	SKIP MUL 477 * 121 == 57717							; Instruction Result: 0
-578:	ENABLE							; Instruction Result: 0
-579:	MUL 340 * 143 == 48620							; Instruction Result: 48620
-580:	MUL 477 * 481 == 229437							; Instruction Result: 229437
-581:	MUL 694 * 893 == 619742							; Instruction Result: 619742
-582:	MUL 944 * 553 == 522032							; Instruction Result: 522032
-583:	MUL 134 * 98 == 13132							; Instruction Result: 13132
-584:	MUL 475 * 226 == 107350							; Instruction Result: 107350
-585:	MUL 430 * 522 == 224460							; Instruction Result: 224460
-586:	MUL 4 * 686 == 2744							; Instruction Result: 2744
-587:	MUL 956 * 959 == 916804							; Instruction Result: 916804
-588:	MUL 171 * 380 == 64980							; Instruction Result: 64980
-589:	MUL 628 * 469 == 294532							; Instruction Result: 294532
-590:	MUL 498 * 282 == 140436							; Instruction Result: 140436
-591:	MUL 104 * 486 == 50544							; Instruction Result: 50544
-592:	MUL 208 * 64 == 13312							; Instruction Result: 13312
-593:	MUL 534 * 749 == 399966							; Instruction Result: 399966
-594:	MUL 121 * 628 == 75988							; Instruction Result: 75988
-595:	MUL 743 * 224 == 166432							; Instruction Result: 166432
-596:	MUL 629 * 294 == 184926							; Instruction Result: 184926
-597:	MUL 711 * 684 == 486324							; Instruction Result: 486324
-598:	MUL 888 * 484 == 429792							; Instruction Result: 429792
-599:	MUL 263 * 259 == 68117							; Instruction Result: 68117
-600:	MUL 256 * 447 == 114432							; Instruction Result: 114432
-601:	DISABLE							; Instruction Result: 0
-602:	DISABLE							; Instruction Result: 0
-603:	SKIP MUL 911 * 196 == 178556							; Instruction Result: 0
-604:	ENABLE							; Instruction Result: 0
-605:	MUL 279 * 93 == 25947							; Instruction Result: 25947
-606:	MUL 182 * 162 == 29484							; Instruction Result: 29484
-607:	MUL 985 * 595 == 586075							; Instruction Result: 586075
-608:	MUL 312 * 743 == 231816							; Instruction Result: 231816
-609:	MUL 828 * 4 == 3312							; Instruction Result: 3312
-610:	MUL 925 * 463 == 428275							; Instruction Result: 428275
-611:	MUL 371 * 600 == 222600							; Instruction Result: 222600
-612:	MUL 939 * 641 == 601899							; Instruction Result: 601899
-613:	MUL 101 * 11 == 1111							; Instruction Result: 1111
-614:	DISABLE							; Instruction Result: 0
-615:	SKIP MUL 797 * 638 == 508486							; Instruction Result: 0
-616:	SKIP MUL 312 * 896 == 279552							; Instruction Result: 0
-617:	SKIP MUL 737 * 79 == 58223							; Instruction Result: 0
-618:	SKIP MUL 775 * 969 == 750975							; Instruction Result: 0
-619:	SKIP MUL 995 * 800 == 796000							; Instruction Result: 0
-620:	SKIP MUL 825 * 47 == 38775							; Instruction Result: 0
-621:	SKIP MUL 345 * 412 == 142140							; Instruction Result: 0
-622:	SKIP MUL 759 * 363 == 275517							; Instruction Result: 0
-623:	SKIP MUL 49 * 745 == 36505							; Instruction Result: 0
-624:	SKIP MUL 502 * 602 == 302204							; Instruction Result: 0
-625:	SKIP MUL 870 * 408 == 354960							; Instruction Result: 0
-626:	SKIP MUL 438 * 953 == 417414							; Instruction Result: 0
-627:	SKIP MUL 477 * 794 == 378738							; Instruction Result: 0
-628:	SKIP MUL 725 * 610 == 442250							; Instruction Result: 0
-629:	SKIP MUL 591 * 595 == 351645							; Instruction Result: 0
-630:	SKIP MUL 35 * 204 == 7140							; Instruction Result: 0
-631:	SKIP MUL 623 * 430 == 267890							; Instruction Result: 0
-632:	SKIP MUL 986 * 195 == 192270							; Instruction Result: 0
-633:	SKIP MUL 366 * 275 == 100650							; Instruction Result: 0
-634:	SKIP MUL 886 * 569 == 504134							; Instruction Result: 0
-635:	SKIP MUL 812 * 296 == 240352							; Instruction Result: 0
-636:	SKIP MUL 662 * 423 == 280026							; Instruction Result: 0
-637:	SKIP MUL 931 * 464 == 431984							; Instruction Result: 0
-638:	SKIP MUL 80 * 65 == 5200							; Instruction Result: 0
-639:	SKIP MUL 537 * 517 == 277629							; Instruction Result: 0
-640:	SKIP MUL 309 * 415 == 128235							; Instruction Result: 0
-641:	ENABLE							; Instruction Result: 0
-642:	MUL 97 * 261 == 25317							; Instruction Result: 25317
-643:	MUL 976 * 251 == 244976							; Instruction Result: 244976
-644:	MUL 929 * 486 == 451494							; Instruction Result: 451494
-645:	MUL 79 * 951 == 75129							; Instruction Result: 75129
-646:	MUL 156 * 577 == 90012							; Instruction Result: 90012
-647:	MUL 608 * 799 == 485792							; Instruction Result: 485792
-648:	MUL 103 * 54 == 5562							; Instruction Result: 5562
-649:	MUL 577 * 38 == 21926							; Instruction Result: 21926
-650:	MUL 100 * 110 == 11000							; Instruction Result: 11000
-651:	MUL 373 * 344 == 128312							; Instruction Result: 128312
-652:	MUL 476 * 880 == 418880							; Instruction Result: 418880
-653:	MUL 521 * 941 == 490261							; Instruction Result: 490261
-654:	MUL 636 * 681 == 433116							; Instruction Result: 433116
-655:	MUL 911 * 48 == 43728							; Instruction Result: 43728
-656:	MUL 925 * 246 == 227550							; Instruction Result: 227550
-657:	MUL 385 * 738 == 284130							; Instruction Result: 284130
-658:	MUL 991 * 663 == 657033							; Instruction Result: 657033
-659:	MUL 380 * 823 == 312740							; Instruction Result: 312740
-660:	MUL 790 * 442 == 349180							; Instruction Result: 349180
-661:	MUL 485 * 925 == 448625							; Instruction Result: 448625
-662:	MUL 760 * 526 == 399760							; Instruction Result: 399760
-663:	ENABLE							; Instruction Result: 0
-664:	MUL 687 * 303 == 208161							; Instruction Result: 208161
-665:	MUL 885 * 373 == 330105							; Instruction Result: 330105
-666:	MUL 538 * 642 == 345396							; Instruction Result: 345396
-667:	MUL 904 * 758 == 685232							; Instruction Result: 685232
-668:	MUL 72 * 737 == 53064							; Instruction Result: 53064
-669:	MUL 957 * 888 == 849816							; Instruction Result: 849816
-670:	MUL 125 * 773 == 96625							; Instruction Result: 96625
-671:	MUL 107 * 113 == 12091							; Instruction Result: 12091
-672:	MUL 816 * 499 == 407184							; Instruction Result: 407184
-673:	MUL 312 * 957 == 298584							; Instruction Result: 298584
-674:	MUL 35 * 722 == 25270							; Instruction Result: 25270
-675:	MUL 420 * 105 == 44100							; Instruction Result: 44100
-676:	MUL 236 * 347 == 81892							; Instruction Result: 81892
-677:	MUL 115 * 717 == 82455							; Instruction Result: 82455
-678:	MUL 995 * 8 == 7960							; Instruction Result: 7960
-679:	MUL 281 * 511 == 143591							; Instruction Result: 143591
-680:	MUL 218 * 447 == 97446							; Instruction Result: 97446
-681:	DISABLE							; Instruction Result: 0
-682:	SKIP MUL 856 * 826 == 707056							; Instruction Result: 0
-683:	SKIP MUL 791 * 178 == 140798							; Instruction Result: 0
-684:	SKIP MUL 355 * 579 == 205545							; Instruction Result: 0
-685:	DISABLE							; Instruction Result: 0
-686:	SKIP MUL 426 * 689 == 293514							; Instruction Result: 0
-687:	SKIP MUL 19 * 952 == 18088							; Instruction Result: 0
-688:	DISABLE							; Instruction Result: 0
-689:	SKIP MUL 331 * 69 == 22839							; Instruction Result: 0
-690:	SKIP MUL 181 * 101 == 18281							; Instruction Result: 0
-691:	SKIP MUL 628 * 267 == 167676							; Instruction Result: 0
-692:	SKIP MUL 521 * 898 == 467858							; Instruction Result: 0
-693:	SKIP MUL 476 * 329 == 156604							; Instruction Result: 0
-694:	SKIP MUL 362 * 495 == 179190							; Instruction Result: 0
-695:	SKIP MUL 245 * 39 == 9555							; Instruction Result: 0
-696:	SKIP MUL 185 * 370 == 68450							; Instruction Result: 0
-697:	SKIP MUL 622 * 439 == 273058							; Instruction Result: 0
-698:	SKIP MUL 943 * 965 == 909995							; Instruction Result: 0
-699:	SKIP MUL 965 * 299 == 288535							; Instruction Result: 0
-700:	SKIP MUL 29 * 612 == 17748							; Instruction Result: 0
-701:	SKIP MUL 43 * 652 == 28036							; Instruction Result: 0
-702:	SKIP MUL 752 * 988 == 742976							; Instruction Result: 0
-703:	SKIP MUL 401 * 151 == 60551							; Instruction Result: 0
-704:	SKIP MUL 745 * 699 == 520755							; Instruction Result: 0
-705:	SKIP MUL 77 * 216 == 16632							; Instruction Result: 0
-706:	SKIP MUL 916 * 810 == 741960							; Instruction Result: 0
-707:	SKIP MUL 647 * 373 == 241331							; Instruction Result: 0
-708:	SKIP MUL 356 * 323 == 114988							; Instruction Result: 0
-709:	SKIP MUL 659 * 65 == 42835							; Instruction Result: 0
-710:	SKIP MUL 163 * 188 == 30644							; Instruction Result: 0
-711:	SKIP MUL 653 * 216 == 141048							; Instruction Result: 0
-712:	SKIP MUL 347 * 271 == 94037							; Instruction Result: 0
-713:	SKIP MUL 828 * 838 == 693864							; Instruction Result: 0
-714:	SKIP MUL 70 * 426 == 29820							; Instruction Result: 0
-715:	SKIP MUL 276 * 626 == 172776							; Instruction Result: 0
-716:	SKIP MUL 450 * 217 == 97650							; Instruction Result: 0
-717:	SKIP MUL 201 * 755 == 151755							; Instruction Result: 0
-718:	SKIP MUL 119 * 516 == 61404							; Instruction Result: 0
-719:	SKIP MUL 738 * 634 == 467892							; Instruction Result: 0
-720:	SKIP MUL 830 * 590 == 489700							; Instruction Result: 0
-721:	ENABLE							; Instruction Result: 0
-722:	MUL 982 * 557 == 546974							; Instruction Result: 546974
-723:	MUL 522 * 576 == 300672							; Instruction Result: 300672
-724:	MUL 828 * 380 == 314640							; Instruction Result: 314640
-725:	MUL 629 * 665 == 418285							; Instruction Result: 418285
-726:	MUL 816 * 674 == 549984							; Instruction Result: 549984
-727:	MUL 833 * 343 == 285719							; Instruction Result: 285719
-728:	MUL 902 * 29 == 26158							; Instruction Result: 26158
-729:	MUL 698 * 182 == 127036							; Instruction Result: 127036
-730:	DISABLE							; Instruction Result: 0
-731:	SKIP MUL 420 * 273 == 114660							; Instruction Result: 0
-732:	SKIP MUL 786 * 927 == 728622							; Instruction Result: 0
-733:	SKIP MUL 945 * 741 == 700245							; Instruction Result: 0
-734:	SKIP MUL 395 * 39 == 15405							; Instruction Result: 0
-735:	ENABLE							; Instruction Result: 0
-736:	MUL 575 * 284 == 163300							; Instruction Result: 163300
-737:	MUL 210 * 669 == 140490							; Instruction Result: 140490
-738:	MUL 347 * 353 == 122491							; Instruction Result: 122491
+1:	MUL 382 * 128 == 48896							; Instruction Result: 48896
+2:	MUL 117 * 325 == 38025							; Instruction Result: 38025
+3:	MUL 829 * 251 == 208079							; Instruction Result: 208079
+4:	MUL 17 * 183 == 3111							; Instruction Result: 3111
+5:	MUL 911 * 142 == 129362							; Instruction Result: 129362
+6:	MUL 199 * 484 == 96316							; Instruction Result: 96316
+7:	MUL 325 * 240 == 78000							; Instruction Result: 78000
+8:	MUL 920 * 723 == 665160							; Instruction Result: 665160
+9:	MUL 274 * 899 == 246326							; Instruction Result: 246326
+10:	MUL 664 * 836 == 555104							; Instruction Result: 555104
+11:	MUL 257 * 635 == 163195							; Instruction Result: 163195
+12:	DISABLE							; Instruction Result: 0
+13:	SKIP MUL 360 * 222 == 79920							; Instruction Result: 0
+14:	SKIP MUL 268 * 245 == 65660							; Instruction Result: 0
+15:	SKIP MUL 936 * 776 == 726336							; Instruction Result: 0
+16:	SKIP MUL 474 * 825 == 391050							; Instruction Result: 0
+17:	SKIP MUL 484 * 39 == 18876							; Instruction Result: 0
+18:	SKIP MUL 357 * 805 == 287385							; Instruction Result: 0
+19:	SKIP MUL 261 * 810 == 211410							; Instruction Result: 0
+20:	SKIP MUL 306 * 422 == 129132							; Instruction Result: 0
+21:	SKIP MUL 944 * 563 == 531472							; Instruction Result: 0
+22:	SKIP MUL 47 * 642 == 30174							; Instruction Result: 0
+23:	SKIP MUL 403 * 781 == 314743							; Instruction Result: 0
+24:	SKIP MUL 382 * 778 == 297196							; Instruction Result: 0
+25:	SKIP MUL 48 * 400 == 19200							; Instruction Result: 0
+26:	SKIP MUL 114 * 537 == 61218							; Instruction Result: 0
+27:	SKIP MUL 688 * 466 == 320608							; Instruction Result: 0
+28:	SKIP MUL 950 * 333 == 316350							; Instruction Result: 0
+29:	SKIP MUL 974 * 802 == 781148							; Instruction Result: 0
+30:	SKIP MUL 394 * 250 == 98500							; Instruction Result: 0
+31:	SKIP MUL 271 * 377 == 102167							; Instruction Result: 0
+32:	SKIP MUL 569 * 753 == 428457							; Instruction Result: 0
+33:	SKIP MUL 83 * 470 == 39010							; Instruction Result: 0
+34:	SKIP MUL 678 * 845 == 572910							; Instruction Result: 0
+35:	ENABLE							; Instruction Result: 0
+36:	MUL 958 * 48 == 45984							; Instruction Result: 45984
+37:	MUL 965 * 566 == 546190							; Instruction Result: 546190
+38:	MUL 926 * 836 == 774136							; Instruction Result: 774136
+39:	ENABLE							; Instruction Result: 0
+40:	MUL 465 * 920 == 427800							; Instruction Result: 427800
+41:	MUL 905 * 944 == 854320							; Instruction Result: 854320
+42:	MUL 738 * 782 == 577116							; Instruction Result: 577116
+43:	MUL 671 * 73 == 48983							; Instruction Result: 48983
+44:	MUL 981 * 305 == 299205							; Instruction Result: 299205
+45:	MUL 943 * 403 == 380029							; Instruction Result: 380029
+46:	MUL 773 * 597 == 461481							; Instruction Result: 461481
+47:	MUL 177 * 608 == 107616							; Instruction Result: 107616
+48:	MUL 615 * 69 == 42435							; Instruction Result: 42435
+49:	MUL 273 * 327 == 89271							; Instruction Result: 89271
+50:	MUL 588 * 34 == 19992							; Instruction Result: 19992
+51:	MUL 476 * 402 == 191352							; Instruction Result: 191352
+52:	MUL 70 * 477 == 33390							; Instruction Result: 33390
+53:	MUL 826 * 769 == 635194							; Instruction Result: 635194
+54:	MUL 630 * 778 == 490140							; Instruction Result: 490140
+55:	MUL 757 * 817 == 618469							; Instruction Result: 618469
+56:	MUL 704 * 71 == 49984							; Instruction Result: 49984
+57:	MUL 880 * 91 == 80080							; Instruction Result: 80080
+58:	MUL 482 * 52 == 25064							; Instruction Result: 25064
+59:	MUL 451 * 632 == 285032							; Instruction Result: 285032
+60:	MUL 744 * 609 == 453096							; Instruction Result: 453096
+61:	MUL 851 * 817 == 695267							; Instruction Result: 695267
+62:	MUL 879 * 78 == 68562							; Instruction Result: 68562
+63:	MUL 955 * 80 == 76400							; Instruction Result: 76400
+64:	DISABLE							; Instruction Result: 0
+65:	SKIP MUL 11 * 257 == 2827							; Instruction Result: 0
+66:	SKIP MUL 755 * 926 == 699130							; Instruction Result: 0
+67:	SKIP MUL 822 * 333 == 273726							; Instruction Result: 0
+68:	SKIP MUL 944 * 27 == 25488							; Instruction Result: 0
+69:	DISABLE							; Instruction Result: 0
+70:	SKIP MUL 682 * 325 == 221650							; Instruction Result: 0
+71:	SKIP MUL 159 * 46 == 7314							; Instruction Result: 0
+72:	SKIP MUL 999 * 996 == 995004							; Instruction Result: 0
+73:	SKIP MUL 181 * 447 == 80907							; Instruction Result: 0
+74:	SKIP MUL 79 * 247 == 19513							; Instruction Result: 0
+75:	SKIP MUL 646 * 108 == 69768							; Instruction Result: 0
+76:	SKIP MUL 446 * 87 == 38802							; Instruction Result: 0
+77:	ENABLE							; Instruction Result: 0
+78:	MUL 769 * 704 == 541376							; Instruction Result: 541376
+79:	MUL 342 * 860 == 294120							; Instruction Result: 294120
+80:	MUL 297 * 907 == 269379							; Instruction Result: 269379
+81:	MUL 785 * 738 == 579330							; Instruction Result: 579330
+82:	MUL 22 * 569 == 12518							; Instruction Result: 12518
+83:	MUL 712 * 864 == 615168							; Instruction Result: 615168
+84:	ENABLE							; Instruction Result: 0
+85:	MUL 910 * 77 == 70070							; Instruction Result: 70070
+86:	MUL 148 * 162 == 23976							; Instruction Result: 23976
+87:	MUL 851 * 438 == 372738							; Instruction Result: 372738
+88:	MUL 318 * 433 == 137694							; Instruction Result: 137694
+89:	MUL 334 * 691 == 230794							; Instruction Result: 230794
+90:	MUL 16 * 725 == 11600							; Instruction Result: 11600
+91:	MUL 302 * 212 == 64024							; Instruction Result: 64024
+92:	MUL 749 * 290 == 217210							; Instruction Result: 217210
+93:	MUL 438 * 485 == 212430							; Instruction Result: 212430
+94:	MUL 155 * 334 == 51770							; Instruction Result: 51770
+95:	MUL 563 * 825 == 464475							; Instruction Result: 464475
+96:	MUL 0 * 0 == 0							; Instruction Result: 0
+97:	MUL 40 * 124 == 4960							; Instruction Result: 4960
+98:	MUL 899 * 517 == 464783							; Instruction Result: 464783
+99:	MUL 343 * 252 == 86436							; Instruction Result: 86436
+100:	MUL 72 * 213 == 15336							; Instruction Result: 15336
+101:	MUL 935 * 677 == 632995							; Instruction Result: 632995
+102:	MUL 418 * 773 == 323114							; Instruction Result: 323114
+103:	MUL 299 * 393 == 117507							; Instruction Result: 117507
+104:	MUL 235 * 99 == 23265							; Instruction Result: 23265
+105:	MUL 755 * 736 == 555680							; Instruction Result: 555680
+106:	MUL 959 * 630 == 604170							; Instruction Result: 604170
+107:	MUL 390 * 582 == 226980							; Instruction Result: 226980
+108:	MUL 447 * 741 == 331227							; Instruction Result: 331227
+109:	MUL 856 * 87 == 74472							; Instruction Result: 74472
+110:	MUL 0 * 0 == 0							; Instruction Result: 0
+111:	MUL 619 * 939 == 581241							; Instruction Result: 581241
+112:	MUL 237 * 787 == 186519							; Instruction Result: 186519
+113:	MUL 748 * 973 == 727804							; Instruction Result: 727804
+114:	MUL 464 * 286 == 132704							; Instruction Result: 132704
+115:	MUL 61 * 599 == 36539							; Instruction Result: 36539
+116:	MUL 0 * 0 == 0							; Instruction Result: 0
+117:	MUL 545 * 911 == 496495							; Instruction Result: 496495
+118:	MUL 145 * 677 == 98165							; Instruction Result: 98165
+119:	MUL 71 * 580 == 41180							; Instruction Result: 41180
+120:	MUL 989 * 226 == 223514							; Instruction Result: 223514
+121:	MUL 649 * 981 == 636669							; Instruction Result: 636669
+122:	MUL 384 * 957 == 367488							; Instruction Result: 367488
+123:	MUL 90 * 741 == 66690							; Instruction Result: 66690
+124:	MUL 874 * 34 == 29716							; Instruction Result: 29716
+125:	MUL 727 * 0 == 0							; Instruction Result: 0
+126:	MUL 597 * 301 == 179697							; Instruction Result: 179697
+127:	MUL 874 * 920 == 804080							; Instruction Result: 804080
+128:	MUL 720 * 444 == 319680							; Instruction Result: 319680
+129:	DISABLE							; Instruction Result: 0
+130:	SKIP MUL 369 * 122 == 45018							; Instruction Result: 0
+131:	SKIP MUL 323 * 653 == 210919							; Instruction Result: 0
+132:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+133:	DISABLE							; Instruction Result: 0
+134:	SKIP MUL 22 * 35 == 770							; Instruction Result: 0
+135:	SKIP MUL 361 * 680 == 245480							; Instruction Result: 0
+136:	SKIP MUL 957 * 696 == 666072							; Instruction Result: 0
+137:	SKIP MUL 486 * 390 == 189540							; Instruction Result: 0
+138:	SKIP MUL 904 * 888 == 802752							; Instruction Result: 0
+139:	SKIP MUL 121 * 356 == 43076							; Instruction Result: 0
+140:	SKIP MUL 286 * 496 == 141856							; Instruction Result: 0
+141:	SKIP MUL 795 * 126 == 100170							; Instruction Result: 0
+142:	DISABLE							; Instruction Result: 0
+143:	SKIP MUL 274 * 833 == 228242							; Instruction Result: 0
+144:	SKIP MUL 751 * 302 == 226802							; Instruction Result: 0
+145:	SKIP MUL 706 * 87 == 61422							; Instruction Result: 0
+146:	SKIP MUL 783 * 984 == 770472							; Instruction Result: 0
+147:	SKIP MUL 168 * 887 == 149016							; Instruction Result: 0
+148:	SKIP MUL 750 * 257 == 192750							; Instruction Result: 0
+149:	SKIP MUL 392 * 217 == 85064							; Instruction Result: 0
+150:	SKIP MUL 990 * 616 == 609840							; Instruction Result: 0
+151:	SKIP MUL 197 * 805 == 158585							; Instruction Result: 0
+152:	SKIP MUL 580 * 340 == 197200							; Instruction Result: 0
+153:	SKIP MUL 674 * 55 == 37070							; Instruction Result: 0
+154:	SKIP MUL 697 * 276 == 192372							; Instruction Result: 0
+155:	SKIP MUL 7 * 647 == 4529							; Instruction Result: 0
+156:	DISABLE							; Instruction Result: 0
+157:	SKIP MUL 686 * 704 == 482944							; Instruction Result: 0
+158:	SKIP MUL 134 * 95 == 12730							; Instruction Result: 0
+159:	SKIP MUL 931 * 0 == 0							; Instruction Result: 0
+160:	SKIP MUL 342 * 16 == 5472							; Instruction Result: 0
+161:	SKIP MUL 349 * 74 == 25826							; Instruction Result: 0
+162:	SKIP MUL 201 * 421 == 84621							; Instruction Result: 0
+163:	SKIP MUL 225 * 997 == 224325							; Instruction Result: 0
+164:	SKIP MUL 596 * 977 == 582292							; Instruction Result: 0
+165:	SKIP MUL 62 * 3 == 186							; Instruction Result: 0
+166:	SKIP MUL 71 * 292 == 20732							; Instruction Result: 0
+167:	SKIP MUL 174 * 534 == 92916							; Instruction Result: 0
+168:	SKIP MUL 632 * 674 == 425968							; Instruction Result: 0
+169:	SKIP MUL 171 * 886 == 151506							; Instruction Result: 0
+170:	SKIP MUL 377 * 649 == 244673							; Instruction Result: 0
+171:	SKIP MUL 987 * 0 == 0							; Instruction Result: 0
+172:	SKIP MUL 486 * 49 == 23814							; Instruction Result: 0
+173:	SKIP MUL 189 * 478 == 90342							; Instruction Result: 0
+174:	SKIP MUL 501 * 233 == 116733							; Instruction Result: 0
+175:	SKIP MUL 950 * 491 == 466450							; Instruction Result: 0
+176:	SKIP MUL 802 * 155 == 124310							; Instruction Result: 0
+177:	SKIP MUL 656 * 363 == 238128							; Instruction Result: 0
+178:	SKIP MUL 290 * 337 == 97730							; Instruction Result: 0
+179:	SKIP MUL 51 * 638 == 32538							; Instruction Result: 0
+180:	SKIP MUL 87 * 608 == 52896							; Instruction Result: 0
+181:	SKIP MUL 116 * 583 == 67628							; Instruction Result: 0
+182:	SKIP MUL 934 * 503 == 469802							; Instruction Result: 0
+183:	SKIP MUL 394 * 714 == 281316							; Instruction Result: 0
+184:	SKIP MUL 458 * 43 == 19694							; Instruction Result: 0
+185:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+186:	SKIP MUL 61 * 244 == 14884							; Instruction Result: 0
+187:	SKIP MUL 179 * 386 == 69094							; Instruction Result: 0
+188:	DISABLE							; Instruction Result: 0
+189:	SKIP MUL 310 * 95 == 29450							; Instruction Result: 0
+190:	ENABLE							; Instruction Result: 0
+191:	MUL 199 * 244 == 48556							; Instruction Result: 48556
+192:	ENABLE							; Instruction Result: 0
+193:	MUL 715 * 542 == 387530							; Instruction Result: 387530
+194:	MUL 243 * 209 == 50787							; Instruction Result: 50787
+195:	MUL 235 * 191 == 44885							; Instruction Result: 44885
+196:	MUL 0 * 0 == 0							; Instruction Result: 0
+197:	MUL 204 * 446 == 90984							; Instruction Result: 90984
+198:	MUL 739 * 161 == 118979							; Instruction Result: 118979
+199:	MUL 606 * 959 == 581154							; Instruction Result: 581154
+200:	MUL 941 * 267 == 251247							; Instruction Result: 251247
+201:	MUL 109 * 0 == 0							; Instruction Result: 0
+202:	MUL 942 * 63 == 59346							; Instruction Result: 59346
+203:	ENABLE							; Instruction Result: 0
+204:	MUL 843 * 484 == 408012							; Instruction Result: 408012
+205:	DISABLE							; Instruction Result: 0
+206:	SKIP MUL 564 * 526 == 296664							; Instruction Result: 0
+207:	SKIP MUL 622 * 540 == 335880							; Instruction Result: 0
+208:	SKIP MUL 400 * 561 == 224400							; Instruction Result: 0
+209:	SKIP MUL 996 * 939 == 935244							; Instruction Result: 0
+210:	DISABLE							; Instruction Result: 0
+211:	SKIP MUL 64 * 295 == 18880							; Instruction Result: 0
+212:	SKIP MUL 239 * 553 == 132167							; Instruction Result: 0
+213:	SKIP MUL 238 * 969 == 230622							; Instruction Result: 0
+214:	SKIP MUL 454 * 343 == 155722							; Instruction Result: 0
+215:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+216:	SKIP MUL 390 * 586 == 228540							; Instruction Result: 0
+217:	SKIP MUL 74 * 208 == 15392							; Instruction Result: 0
+218:	SKIP MUL 230 * 839 == 192970							; Instruction Result: 0
+219:	DISABLE							; Instruction Result: 0
+220:	SKIP MUL 206 * 499 == 102794							; Instruction Result: 0
+221:	SKIP MUL 243 * 908 == 220644							; Instruction Result: 0
+222:	SKIP MUL 484 * 803 == 388652							; Instruction Result: 0
+223:	SKIP MUL 740 * 39 == 28860							; Instruction Result: 0
+224:	SKIP MUL 27 * 646 == 17442							; Instruction Result: 0
+225:	SKIP MUL 993 * 84 == 83412							; Instruction Result: 0
+226:	SKIP MUL 184 * 126 == 23184							; Instruction Result: 0
+227:	SKIP MUL 890 * 36 == 32040							; Instruction Result: 0
+228:	SKIP MUL 495 * 836 == 413820							; Instruction Result: 0
+229:	SKIP MUL 486 * 448 == 217728							; Instruction Result: 0
+230:	SKIP MUL 726 * 802 == 582252							; Instruction Result: 0
+231:	SKIP MUL 713 * 282 == 201066							; Instruction Result: 0
+232:	SKIP MUL 69 * 0 == 0							; Instruction Result: 0
+233:	SKIP MUL 861 * 820 == 706020							; Instruction Result: 0
+234:	SKIP MUL 369 * 778 == 287082							; Instruction Result: 0
+235:	SKIP MUL 645 * 582 == 375390							; Instruction Result: 0
+236:	SKIP MUL 646 * 390 == 251940							; Instruction Result: 0
+237:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+238:	ENABLE							; Instruction Result: 0
+239:	MUL 783 * 801 == 627183							; Instruction Result: 627183
+240:	MUL 393 * 573 == 225189							; Instruction Result: 225189
+241:	MUL 920 * 302 == 277840							; Instruction Result: 277840
+242:	MUL 679 * 329 == 223391							; Instruction Result: 223391
+243:	MUL 833 * 762 == 634746							; Instruction Result: 634746
+244:	MUL 585 * 568 == 332280							; Instruction Result: 332280
+245:	MUL 698 * 887 == 619126							; Instruction Result: 619126
+246:	ENABLE							; Instruction Result: 0
+247:	MUL 713 * 408 == 290904							; Instruction Result: 290904
+248:	MUL 15 * 92 == 1380							; Instruction Result: 1380
+249:	MUL 841 * 490 == 412090							; Instruction Result: 412090
+250:	ENABLE							; Instruction Result: 0
+251:	MUL 124 * 658 == 81592							; Instruction Result: 81592
+252:	MUL 991 * 749 == 742259							; Instruction Result: 742259
+253:	MUL 746 * 929 == 693034							; Instruction Result: 693034
+254:	MUL 224 * 0 == 0							; Instruction Result: 0
+255:	MUL 954 * 543 == 518022							; Instruction Result: 518022
+256:	MUL 607 * 408 == 247656							; Instruction Result: 247656
+257:	MUL 465 * 49 == 22785							; Instruction Result: 22785
+258:	MUL 935 * 437 == 408595							; Instruction Result: 408595
+259:	DISABLE							; Instruction Result: 0
+260:	SKIP MUL 745 * 0 == 0							; Instruction Result: 0
+261:	SKIP MUL 509 * 38 == 19342							; Instruction Result: 0
+262:	SKIP MUL 980 * 337 == 330260							; Instruction Result: 0
+263:	ENABLE							; Instruction Result: 0
+264:	MUL 536 * 465 == 249240							; Instruction Result: 249240
+265:	MUL 534 * 315 == 168210							; Instruction Result: 168210
+266:	ENABLE							; Instruction Result: 0
+267:	MUL 644 * 668 == 430192							; Instruction Result: 430192
+268:	MUL 977 * 0 == 0							; Instruction Result: 0
+269:	MUL 324 * 603 == 195372							; Instruction Result: 195372
+270:	ENABLE							; Instruction Result: 0
+271:	MUL 707 * 0 == 0							; Instruction Result: 0
+272:	MUL 153 * 26 == 3978							; Instruction Result: 3978
+273:	MUL 0 * 0 == 0							; Instruction Result: 0
+274:	MUL 186 * 252 == 46872							; Instruction Result: 46872
+275:	MUL 405 * 534 == 216270							; Instruction Result: 216270
+276:	MUL 579 * 0 == 0							; Instruction Result: 0
+277:	MUL 996 * 519 == 516924							; Instruction Result: 516924
+278:	MUL 0 * 0 == 0							; Instruction Result: 0
+279:	DISABLE							; Instruction Result: 0
+280:	SKIP MUL 426 * 711 == 302886							; Instruction Result: 0
+281:	SKIP MUL 89 * 834 == 74226							; Instruction Result: 0
+282:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+283:	SKIP MUL 330 * 473 == 156090							; Instruction Result: 0
+284:	SKIP MUL 729 * 170 == 123930							; Instruction Result: 0
+285:	SKIP MUL 136 * 171 == 23256							; Instruction Result: 0
+286:	SKIP MUL 650 * 140 == 91000							; Instruction Result: 0
+287:	SKIP MUL 215 * 81 == 17415							; Instruction Result: 0
+288:	SKIP MUL 2 * 321 == 642							; Instruction Result: 0
+289:	SKIP MUL 347 * 382 == 132554							; Instruction Result: 0
+290:	SKIP MUL 517 * 832 == 430144							; Instruction Result: 0
+291:	SKIP MUL 179 * 869 == 155551							; Instruction Result: 0
+292:	SKIP MUL 695 * 438 == 304410							; Instruction Result: 0
+293:	ENABLE							; Instruction Result: 0
+294:	MUL 659 * 454 == 299186							; Instruction Result: 299186
+295:	MUL 10 * 165 == 1650							; Instruction Result: 1650
+296:	MUL 422 * 149 == 62878							; Instruction Result: 62878
+297:	MUL 842 * 666 == 560772							; Instruction Result: 560772
+298:	MUL 884 * 29 == 25636							; Instruction Result: 25636
+299:	MUL 443 * 833 == 369019							; Instruction Result: 369019
+300:	MUL 248 * 50 == 12400							; Instruction Result: 12400
+301:	MUL 816 * 74 == 60384							; Instruction Result: 60384
+302:	MUL 287 * 583 == 167321							; Instruction Result: 167321
+303:	MUL 916 * 265 == 242740							; Instruction Result: 242740
+304:	MUL 565 * 495 == 279675							; Instruction Result: 279675
+305:	MUL 391 * 534 == 208794							; Instruction Result: 208794
+306:	MUL 222 * 430 == 95460							; Instruction Result: 95460
+307:	MUL 812 * 448 == 363776							; Instruction Result: 363776
+308:	MUL 339 * 529 == 179331							; Instruction Result: 179331
+309:	MUL 0 * 0 == 0							; Instruction Result: 0
+310:	MUL 346 * 750 == 259500							; Instruction Result: 259500
+311:	MUL 274 * 115 == 31510							; Instruction Result: 31510
+312:	MUL 827 * 676 == 559052							; Instruction Result: 559052
+313:	MUL 726 * 201 == 145926							; Instruction Result: 145926
+314:	MUL 957 * 551 == 527307							; Instruction Result: 527307
+315:	MUL 693 * 392 == 271656							; Instruction Result: 271656
+316:	MUL 163 * 738 == 120294							; Instruction Result: 120294
+317:	MUL 928 * 181 == 167968							; Instruction Result: 167968
+318:	MUL 490 * 341 == 167090							; Instruction Result: 167090
+319:	MUL 79 * 842 == 66518							; Instruction Result: 66518
+320:	MUL 118 * 744 == 87792							; Instruction Result: 87792
+321:	ENABLE							; Instruction Result: 0
+322:	MUL 150 * 59 == 8850							; Instruction Result: 8850
+323:	MUL 123 * 997 == 122631							; Instruction Result: 122631
+324:	MUL 996 * 553 == 550788							; Instruction Result: 550788
+325:	MUL 799 * 235 == 187765							; Instruction Result: 187765
+326:	MUL 450 * 165 == 74250							; Instruction Result: 74250
+327:	MUL 416 * 829 == 344864							; Instruction Result: 344864
+328:	MUL 681 * 77 == 52437							; Instruction Result: 52437
+329:	MUL 566 * 968 == 547888							; Instruction Result: 547888
+330:	MUL 320 * 701 == 224320							; Instruction Result: 224320
+331:	MUL 84 * 690 == 57960							; Instruction Result: 57960
+332:	MUL 523 * 218 == 114014							; Instruction Result: 114014
+333:	MUL 975 * 325 == 316875							; Instruction Result: 316875
+334:	MUL 877 * 0 == 0							; Instruction Result: 0
+335:	MUL 555 * 711 == 394605							; Instruction Result: 394605
+336:	DISABLE							; Instruction Result: 0
+337:	SKIP MUL 963 * 600 == 577800							; Instruction Result: 0
+338:	SKIP MUL 754 * 527 == 397358							; Instruction Result: 0
+339:	SKIP MUL 589 * 630 == 371070							; Instruction Result: 0
+340:	SKIP MUL 454 * 523 == 237442							; Instruction Result: 0
+341:	SKIP MUL 117 * 299 == 34983							; Instruction Result: 0
+342:	SKIP MUL 682 * 981 == 669042							; Instruction Result: 0
+343:	SKIP MUL 918 * 918 == 842724							; Instruction Result: 0
+344:	SKIP MUL 529 * 521 == 275609							; Instruction Result: 0
+345:	SKIP MUL 29 * 4 == 116							; Instruction Result: 0
+346:	SKIP MUL 922 * 126 == 116172							; Instruction Result: 0
+347:	SKIP MUL 156 * 757 == 118092							; Instruction Result: 0
+348:	SKIP MUL 582 * 926 == 538932							; Instruction Result: 0
+349:	SKIP MUL 729 * 833 == 607257							; Instruction Result: 0
+350:	SKIP MUL 455 * 185 == 84175							; Instruction Result: 0
+351:	SKIP MUL 494 * 904 == 446576							; Instruction Result: 0
+352:	SKIP MUL 701 * 981 == 687681							; Instruction Result: 0
+353:	SKIP MUL 43 * 116 == 4988							; Instruction Result: 0
+354:	SKIP MUL 33 * 461 == 15213							; Instruction Result: 0
+355:	SKIP MUL 629 * 0 == 0							; Instruction Result: 0
+356:	SKIP MUL 269 * 237 == 63753							; Instruction Result: 0
+357:	SKIP MUL 865 * 880 == 761200							; Instruction Result: 0
+358:	DISABLE							; Instruction Result: 0
+359:	SKIP MUL 259 * 423 == 109557							; Instruction Result: 0
+360:	SKIP MUL 438 * 59 == 25842							; Instruction Result: 0
+361:	SKIP MUL 623 * 454 == 282842							; Instruction Result: 0
+362:	SKIP MUL 54 * 758 == 40932							; Instruction Result: 0
+363:	ENABLE							; Instruction Result: 0
+364:	MUL 156 * 345 == 53820							; Instruction Result: 53820
+365:	MUL 296 * 979 == 289784							; Instruction Result: 289784
+366:	MUL 207 * 298 == 61686							; Instruction Result: 61686
+367:	MUL 232 * 0 == 0							; Instruction Result: 0
+368:	MUL 240 * 552 == 132480							; Instruction Result: 132480
+369:	MUL 434 * 728 == 315952							; Instruction Result: 315952
+370:	MUL 314 * 103 == 32342							; Instruction Result: 32342
+371:	MUL 278 * 666 == 185148							; Instruction Result: 185148
+372:	MUL 0 * 0 == 0							; Instruction Result: 0
+373:	MUL 770 * 509 == 391930							; Instruction Result: 391930
+374:	MUL 460 * 916 == 421360							; Instruction Result: 421360
+375:	DISABLE							; Instruction Result: 0
+376:	SKIP MUL 796 * 995 == 792020							; Instruction Result: 0
+377:	DISABLE							; Instruction Result: 0
+378:	SKIP MUL 65 * 3 == 195							; Instruction Result: 0
+379:	SKIP MUL 862 * 120 == 103440							; Instruction Result: 0
+380:	SKIP MUL 243 * 135 == 32805							; Instruction Result: 0
+381:	ENABLE							; Instruction Result: 0
+382:	MUL 117 * 795 == 93015							; Instruction Result: 93015
+383:	MUL 427 * 900 == 384300							; Instruction Result: 384300
+384:	MUL 277 * 54 == 14958							; Instruction Result: 14958
+385:	MUL 398 * 993 == 395214							; Instruction Result: 395214
+386:	MUL 314 * 397 == 124658							; Instruction Result: 124658
+387:	MUL 452 * 25 == 11300							; Instruction Result: 11300
+388:	MUL 71 * 963 == 68373							; Instruction Result: 68373
+389:	MUL 53 * 54 == 2862							; Instruction Result: 2862
+390:	MUL 169 * 0 == 0							; Instruction Result: 0
+391:	MUL 708 * 894 == 632952							; Instruction Result: 632952
+392:	MUL 320 * 139 == 44480							; Instruction Result: 44480
+393:	MUL 69 * 189 == 13041							; Instruction Result: 13041
+394:	DISABLE							; Instruction Result: 0
+395:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+396:	SKIP MUL 906 * 936 == 848016							; Instruction Result: 0
+397:	SKIP MUL 259 * 584 == 151256							; Instruction Result: 0
+398:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+399:	SKIP MUL 708 * 571 == 404268							; Instruction Result: 0
+400:	SKIP MUL 50 * 750 == 37500							; Instruction Result: 0
+401:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+402:	SKIP MUL 489 * 557 == 272373							; Instruction Result: 0
+403:	SKIP MUL 93 * 641 == 59613							; Instruction Result: 0
+404:	SKIP MUL 184 * 380 == 69920							; Instruction Result: 0
+405:	SKIP MUL 963 * 754 == 726102							; Instruction Result: 0
+406:	SKIP MUL 82 * 608 == 49856							; Instruction Result: 0
+407:	SKIP MUL 631 * 979 == 617749							; Instruction Result: 0
+408:	SKIP MUL 641 * 426 == 273066							; Instruction Result: 0
+409:	SKIP MUL 640 * 544 == 348160							; Instruction Result: 0
+410:	SKIP MUL 13 * 213 == 2769							; Instruction Result: 0
+411:	SKIP MUL 341 * 702 == 239382							; Instruction Result: 0
+412:	SKIP MUL 234 * 773 == 180882							; Instruction Result: 0
+413:	SKIP MUL 602 * 524 == 315448							; Instruction Result: 0
+414:	SKIP MUL 169 * 662 == 111878							; Instruction Result: 0
+415:	SKIP MUL 6 * 518 == 3108							; Instruction Result: 0
+416:	SKIP MUL 2 * 142 == 284							; Instruction Result: 0
+417:	SKIP MUL 12 * 883 == 10596							; Instruction Result: 0
+418:	ENABLE							; Instruction Result: 0
+419:	MUL 184 * 329 == 60536							; Instruction Result: 60536
+420:	MUL 691 * 847 == 585277							; Instruction Result: 585277
+421:	MUL 334 * 849 == 283566							; Instruction Result: 283566
+422:	MUL 566 * 562 == 318092							; Instruction Result: 318092
+423:	MUL 544 * 0 == 0							; Instruction Result: 0
+424:	MUL 912 * 145 == 132240							; Instruction Result: 132240
+425:	MUL 218 * 373 == 81314							; Instruction Result: 81314
+426:	MUL 220 * 659 == 144980							; Instruction Result: 144980
+427:	MUL 0 * 0 == 0							; Instruction Result: 0
+428:	MUL 65 * 632 == 41080							; Instruction Result: 41080
+429:	MUL 335 * 517 == 173195							; Instruction Result: 173195
+430:	MUL 989 * 445 == 440105							; Instruction Result: 440105
+431:	MUL 722 * 70 == 50540							; Instruction Result: 50540
+432:	MUL 488 * 411 == 200568							; Instruction Result: 200568
+433:	MUL 202 * 583 == 117766							; Instruction Result: 117766
+434:	ENABLE							; Instruction Result: 0
+435:	MUL 91 * 163 == 14833							; Instruction Result: 14833
+436:	MUL 415 * 153 == 63495							; Instruction Result: 63495
+437:	MUL 910 * 831 == 756210							; Instruction Result: 756210
+438:	ENABLE							; Instruction Result: 0
+439:	MUL 854 * 168 == 143472							; Instruction Result: 143472
+440:	MUL 544 * 146 == 79424							; Instruction Result: 79424
+441:	MUL 791 * 713 == 563983							; Instruction Result: 563983
+442:	MUL 722 * 357 == 257754							; Instruction Result: 257754
+443:	MUL 571 * 996 == 568716							; Instruction Result: 568716
+444:	MUL 674 * 399 == 268926							; Instruction Result: 268926
+445:	MUL 364 * 273 == 99372							; Instruction Result: 99372
+446:	MUL 842 * 237 == 199554							; Instruction Result: 199554
+447:	MUL 386 * 938 == 362068							; Instruction Result: 362068
+448:	MUL 795 * 812 == 645540							; Instruction Result: 645540
+449:	MUL 336 * 266 == 89376							; Instruction Result: 89376
+450:	MUL 301 * 465 == 139965							; Instruction Result: 139965
+451:	MUL 916 * 535 == 490060							; Instruction Result: 490060
+452:	MUL 195 * 161 == 31395							; Instruction Result: 31395
+453:	MUL 850 * 131 == 111350							; Instruction Result: 111350
+454:	MUL 564 * 805 == 454020							; Instruction Result: 454020
+455:	MUL 450 * 574 == 258300							; Instruction Result: 258300
+456:	MUL 811 * 64 == 51904							; Instruction Result: 51904
+457:	MUL 626 * 402 == 251652							; Instruction Result: 251652
+458:	DISABLE							; Instruction Result: 0
+459:	SKIP MUL 991 * 61 == 60451							; Instruction Result: 0
+460:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+461:	SKIP MUL 573 * 326 == 186798							; Instruction Result: 0
+462:	SKIP MUL 457 * 0 == 0							; Instruction Result: 0
+463:	SKIP MUL 214 * 536 == 114704							; Instruction Result: 0
+464:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+465:	SKIP MUL 250 * 791 == 197750							; Instruction Result: 0
+466:	ENABLE							; Instruction Result: 0
+467:	MUL 402 * 879 == 353358							; Instruction Result: 353358
+468:	MUL 411 * 599 == 246189							; Instruction Result: 246189
+469:	DISABLE							; Instruction Result: 0
+470:	SKIP MUL 208 * 89 == 18512							; Instruction Result: 0
+471:	ENABLE							; Instruction Result: 0
+472:	MUL 201 * 648 == 130248							; Instruction Result: 130248
+473:	MUL 309 * 958 == 296022							; Instruction Result: 296022
+474:	MUL 5 * 81 == 405							; Instruction Result: 405
+475:	MUL 745 * 240 == 178800							; Instruction Result: 178800
+476:	MUL 993 * 109 == 108237							; Instruction Result: 108237
+477:	MUL 204 * 611 == 124644							; Instruction Result: 124644
+478:	MUL 461 * 547 == 252167							; Instruction Result: 252167
+479:	MUL 490 * 704 == 344960							; Instruction Result: 344960
+480:	MUL 531 * 461 == 244791							; Instruction Result: 244791
+481:	MUL 781 * 760 == 593560							; Instruction Result: 593560
+482:	MUL 551 * 640 == 352640							; Instruction Result: 352640
+483:	MUL 570 * 0 == 0							; Instruction Result: 0
+484:	MUL 248 * 785 == 194680							; Instruction Result: 194680
+485:	MUL 175 * 52 == 9100							; Instruction Result: 9100
+486:	MUL 240 * 385 == 92400							; Instruction Result: 92400
+487:	MUL 844 * 722 == 609368							; Instruction Result: 609368
+488:	MUL 795 * 956 == 760020							; Instruction Result: 760020
+489:	MUL 845 * 908 == 767260							; Instruction Result: 767260
+490:	ENABLE							; Instruction Result: 0
+491:	MUL 350 * 941 == 329350							; Instruction Result: 329350
+492:	MUL 310 * 446 == 138260							; Instruction Result: 138260
+493:	DISABLE							; Instruction Result: 0
+494:	SKIP MUL 714 * 32 == 22848							; Instruction Result: 0
+495:	DISABLE							; Instruction Result: 0
+496:	SKIP MUL 525 * 322 == 169050							; Instruction Result: 0
+497:	DISABLE							; Instruction Result: 0
+498:	SKIP MUL 940 * 743 == 698420							; Instruction Result: 0
+499:	SKIP MUL 569 * 393 == 223617							; Instruction Result: 0
+500:	SKIP MUL 37 * 545 == 20165							; Instruction Result: 0
+501:	ENABLE							; Instruction Result: 0
+502:	MUL 596 * 354 == 210984							; Instruction Result: 210984
+503:	MUL 410 * 299 == 122590							; Instruction Result: 122590
+504:	MUL 953 * 745 == 709985							; Instruction Result: 709985
+505:	MUL 732 * 334 == 244488							; Instruction Result: 244488
+506:	MUL 751 * 328 == 246328							; Instruction Result: 246328
+507:	MUL 191 * 153 == 29223							; Instruction Result: 29223
+508:	MUL 595 * 904 == 537880							; Instruction Result: 537880
+509:	DISABLE							; Instruction Result: 0
+510:	SKIP MUL 952 * 727 == 692104							; Instruction Result: 0
+511:	SKIP MUL 471 * 971 == 457341							; Instruction Result: 0
+512:	ENABLE							; Instruction Result: 0
+513:	MUL 0 * 0 == 0							; Instruction Result: 0
+514:	MUL 85 * 927 == 78795							; Instruction Result: 78795
+515:	MUL 536 * 740 == 396640							; Instruction Result: 396640
+516:	MUL 487 * 376 == 183112							; Instruction Result: 183112
+517:	MUL 184 * 719 == 132296							; Instruction Result: 132296
+518:	MUL 293 * 122 == 35746							; Instruction Result: 35746
+519:	MUL 544 * 91 == 49504							; Instruction Result: 49504
+520:	MUL 983 * 667 == 655661							; Instruction Result: 655661
+521:	MUL 708 * 478 == 338424							; Instruction Result: 338424
+522:	MUL 48 * 916 == 43968							; Instruction Result: 43968
+523:	MUL 469 * 29 == 13601							; Instruction Result: 13601
+524:	MUL 710 * 466 == 330860							; Instruction Result: 330860
+525:	MUL 855 * 660 == 564300							; Instruction Result: 564300
+526:	MUL 558 * 202 == 112716							; Instruction Result: 112716
+527:	MUL 851 * 103 == 87653							; Instruction Result: 87653
+528:	MUL 700 * 989 == 692300							; Instruction Result: 692300
+529:	MUL 311 * 964 == 299804							; Instruction Result: 299804
+530:	MUL 29 * 72 == 2088							; Instruction Result: 2088
+531:	MUL 829 * 823 == 682267							; Instruction Result: 682267
+532:	MUL 197 * 418 == 82346							; Instruction Result: 82346
+533:	MUL 628 * 50 == 31400							; Instruction Result: 31400
+534:	MUL 176 * 413 == 72688							; Instruction Result: 72688
+535:	MUL 804 * 92 == 73968							; Instruction Result: 73968
+536:	MUL 284 * 550 == 156200							; Instruction Result: 156200
+537:	MUL 342 * 336 == 114912							; Instruction Result: 114912
+538:	MUL 382 * 518 == 197876							; Instruction Result: 197876
+539:	MUL 395 * 313 == 123635							; Instruction Result: 123635
+540:	ENABLE							; Instruction Result: 0
+541:	MUL 652 * 359 == 234068							; Instruction Result: 234068
+542:	DISABLE							; Instruction Result: 0
+543:	SKIP MUL 343 * 652 == 223636							; Instruction Result: 0
+544:	SKIP MUL 677 * 743 == 503011							; Instruction Result: 0
+545:	SKIP MUL 71 * 412 == 29252							; Instruction Result: 0
+546:	SKIP MUL 345 * 160 == 55200							; Instruction Result: 0
+547:	SKIP MUL 958 * 675 == 646650							; Instruction Result: 0
+548:	SKIP MUL 752 * 30 == 22560							; Instruction Result: 0
+549:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+550:	ENABLE							; Instruction Result: 0
+551:	MUL 567 * 702 == 398034							; Instruction Result: 398034
+552:	MUL 725 * 160 == 116000							; Instruction Result: 116000
+553:	MUL 327 * 488 == 159576							; Instruction Result: 159576
+554:	MUL 836 * 535 == 447260							; Instruction Result: 447260
+555:	MUL 135 * 48 == 6480							; Instruction Result: 6480
+556:	MUL 646 * 10 == 6460							; Instruction Result: 6460
+557:	MUL 247 * 681 == 168207							; Instruction Result: 168207
+558:	MUL 712 * 270 == 192240							; Instruction Result: 192240
+559:	MUL 543 * 760 == 412680							; Instruction Result: 412680
+560:	MUL 991 * 653 == 647123							; Instruction Result: 647123
+561:	MUL 445 * 300 == 133500							; Instruction Result: 133500
+562:	MUL 782 * 558 == 436356							; Instruction Result: 436356
+563:	MUL 0 * 0 == 0							; Instruction Result: 0
+564:	MUL 981 * 18 == 17658							; Instruction Result: 17658
+565:	MUL 814 * 71 == 57794							; Instruction Result: 57794
+566:	MUL 185 * 23 == 4255							; Instruction Result: 4255
+567:	MUL 607 * 452 == 274364							; Instruction Result: 274364
+568:	MUL 358 * 551 == 197258							; Instruction Result: 197258
+569:	ENABLE							; Instruction Result: 0
+570:	MUL 679 * 221 == 150059							; Instruction Result: 150059
+571:	MUL 903 * 901 == 813603							; Instruction Result: 813603
+572:	MUL 396 * 234 == 92664							; Instruction Result: 92664
+573:	MUL 569 * 364 == 207116							; Instruction Result: 207116
+574:	MUL 29 * 750 == 21750							; Instruction Result: 21750
+575:	MUL 188 * 408 == 76704							; Instruction Result: 76704
+576:	MUL 535 * 688 == 368080							; Instruction Result: 368080
+577:	MUL 689 * 0 == 0							; Instruction Result: 0
+578:	MUL 180 * 183 == 32940							; Instruction Result: 32940
+579:	MUL 12 * 971 == 11652							; Instruction Result: 11652
+580:	MUL 400 * 368 == 147200							; Instruction Result: 147200
+581:	ENABLE							; Instruction Result: 0
+582:	MUL 976 * 889 == 867664							; Instruction Result: 867664
+583:	ENABLE							; Instruction Result: 0
+584:	MUL 126 * 680 == 85680							; Instruction Result: 85680
+585:	MUL 268 * 566 == 151688							; Instruction Result: 151688
+586:	MUL 656 * 119 == 78064							; Instruction Result: 78064
+587:	MUL 221 * 435 == 96135							; Instruction Result: 96135
+588:	MUL 17 * 637 == 10829							; Instruction Result: 10829
+589:	MUL 834 * 156 == 130104							; Instruction Result: 130104
+590:	MUL 373 * 272 == 101456							; Instruction Result: 101456
+591:	MUL 10 * 456 == 4560							; Instruction Result: 4560
+592:	MUL 376 * 562 == 211312							; Instruction Result: 211312
+593:	ENABLE							; Instruction Result: 0
+594:	MUL 851 * 474 == 403374							; Instruction Result: 403374
+595:	ENABLE							; Instruction Result: 0
+596:	MUL 71 * 636 == 45156							; Instruction Result: 45156
+597:	MUL 423 * 604 == 255492							; Instruction Result: 255492
+598:	MUL 174 * 630 == 109620							; Instruction Result: 109620
+599:	MUL 891 * 319 == 284229							; Instruction Result: 284229
+600:	MUL 712 * 140 == 99680							; Instruction Result: 99680
+601:	MUL 892 * 613 == 546796							; Instruction Result: 546796
+602:	MUL 867 * 72 == 62424							; Instruction Result: 62424
+603:	MUL 6 * 0 == 0							; Instruction Result: 0
+604:	MUL 435 * 420 == 182700							; Instruction Result: 182700
+605:	DISABLE							; Instruction Result: 0
+606:	SKIP MUL 613 * 816 == 500208							; Instruction Result: 0
+607:	SKIP MUL 567 * 155 == 87885							; Instruction Result: 0
+608:	SKIP MUL 584 * 474 == 276816							; Instruction Result: 0
+609:	SKIP MUL 855 * 798 == 682290							; Instruction Result: 0
+610:	SKIP MUL 833 * 981 == 817173							; Instruction Result: 0
+611:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+612:	SKIP MUL 423 * 608 == 257184							; Instruction Result: 0
+613:	SKIP MUL 805 * 83 == 66815							; Instruction Result: 0
+614:	SKIP MUL 797 * 555 == 442335							; Instruction Result: 0
+615:	SKIP MUL 478 * 15 == 7170							; Instruction Result: 0
+616:	SKIP MUL 320 * 806 == 257920							; Instruction Result: 0
+617:	SKIP MUL 43 * 38 == 1634							; Instruction Result: 0
+618:	SKIP MUL 459 * 389 == 178551							; Instruction Result: 0
+619:	SKIP MUL 937 * 21 == 19677							; Instruction Result: 0
+620:	SKIP MUL 942 * 10 == 9420							; Instruction Result: 0
+621:	SKIP MUL 437 * 636 == 277932							; Instruction Result: 0
+622:	SKIP MUL 509 * 95 == 48355							; Instruction Result: 0
+623:	SKIP MUL 522 * 855 == 446310							; Instruction Result: 0
+624:	SKIP MUL 109 * 507 == 55263							; Instruction Result: 0
+625:	SKIP MUL 442 * 773 == 341666							; Instruction Result: 0
+626:	SKIP MUL 350 * 0 == 0							; Instruction Result: 0
+627:	DISABLE							; Instruction Result: 0
+628:	SKIP MUL 119 * 683 == 81277							; Instruction Result: 0
+629:	SKIP MUL 634 * 722 == 457748							; Instruction Result: 0
+630:	SKIP MUL 410 * 254 == 104140							; Instruction Result: 0
+631:	SKIP MUL 219 * 824 == 180456							; Instruction Result: 0
+632:	SKIP MUL 475 * 606 == 287850							; Instruction Result: 0
+633:	SKIP MUL 12 * 946 == 11352							; Instruction Result: 0
+634:	SKIP MUL 558 * 666 == 371628							; Instruction Result: 0
+635:	SKIP MUL 992 * 775 == 768800							; Instruction Result: 0
+636:	SKIP MUL 176 * 378 == 66528							; Instruction Result: 0
+637:	SKIP MUL 159 * 502 == 79818							; Instruction Result: 0
+638:	SKIP MUL 100 * 648 == 64800							; Instruction Result: 0
+639:	SKIP MUL 477 * 121 == 57717							; Instruction Result: 0
+640:	ENABLE							; Instruction Result: 0
+641:	MUL 340 * 143 == 48620							; Instruction Result: 48620
+642:	MUL 477 * 481 == 229437							; Instruction Result: 229437
+643:	MUL 694 * 893 == 619742							; Instruction Result: 619742
+644:	MUL 944 * 553 == 522032							; Instruction Result: 522032
+645:	MUL 134 * 98 == 13132							; Instruction Result: 13132
+646:	MUL 475 * 226 == 107350							; Instruction Result: 107350
+647:	MUL 430 * 522 == 224460							; Instruction Result: 224460
+648:	MUL 4 * 686 == 2744							; Instruction Result: 2744
+649:	MUL 956 * 959 == 916804							; Instruction Result: 916804
+650:	MUL 171 * 380 == 64980							; Instruction Result: 64980
+651:	MUL 628 * 469 == 294532							; Instruction Result: 294532
+652:	MUL 498 * 282 == 140436							; Instruction Result: 140436
+653:	MUL 104 * 486 == 50544							; Instruction Result: 50544
+654:	MUL 264 * 0 == 0							; Instruction Result: 0
+655:	MUL 208 * 64 == 13312							; Instruction Result: 13312
+656:	MUL 534 * 749 == 399966							; Instruction Result: 399966
+657:	MUL 121 * 628 == 75988							; Instruction Result: 75988
+658:	MUL 743 * 224 == 166432							; Instruction Result: 166432
+659:	MUL 921 * 475 == 437475							; Instruction Result: 437475
+660:	MUL 954 * 0 == 0							; Instruction Result: 0
+661:	MUL 629 * 294 == 184926							; Instruction Result: 184926
+662:	MUL 711 * 684 == 486324							; Instruction Result: 486324
+663:	MUL 888 * 484 == 429792							; Instruction Result: 429792
+664:	MUL 263 * 259 == 68117							; Instruction Result: 68117
+665:	MUL 256 * 447 == 114432							; Instruction Result: 114432
+666:	DISABLE							; Instruction Result: 0
+667:	SKIP MUL 806 * 780 == 628680							; Instruction Result: 0
+668:	SKIP MUL 704 * 0 == 0							; Instruction Result: 0
+669:	DISABLE							; Instruction Result: 0
+670:	SKIP MUL 911 * 196 == 178556							; Instruction Result: 0
+671:	SKIP MUL 792 * 0 == 0							; Instruction Result: 0
+672:	ENABLE							; Instruction Result: 0
+673:	MUL 279 * 93 == 25947							; Instruction Result: 25947
+674:	MUL 182 * 162 == 29484							; Instruction Result: 29484
+675:	MUL 985 * 595 == 586075							; Instruction Result: 586075
+676:	MUL 312 * 743 == 231816							; Instruction Result: 231816
+677:	MUL 828 * 4 == 3312							; Instruction Result: 3312
+678:	MUL 925 * 463 == 428275							; Instruction Result: 428275
+679:	MUL 371 * 600 == 222600							; Instruction Result: 222600
+680:	ENABLE							; Instruction Result: 0
+681:	MUL 939 * 641 == 601899							; Instruction Result: 601899
+682:	MUL 101 * 11 == 1111							; Instruction Result: 1111
+683:	DISABLE							; Instruction Result: 0
+684:	SKIP MUL 797 * 638 == 508486							; Instruction Result: 0
+685:	SKIP MUL 312 * 896 == 279552							; Instruction Result: 0
+686:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+687:	SKIP MUL 737 * 79 == 58223							; Instruction Result: 0
+688:	SKIP MUL 775 * 969 == 750975							; Instruction Result: 0
+689:	SKIP MUL 995 * 800 == 796000							; Instruction Result: 0
+690:	SKIP MUL 825 * 47 == 38775							; Instruction Result: 0
+691:	SKIP MUL 345 * 412 == 142140							; Instruction Result: 0
+692:	SKIP MUL 477 * 312 == 148824							; Instruction Result: 0
+693:	SKIP MUL 759 * 363 == 275517							; Instruction Result: 0
+694:	SKIP MUL 49 * 745 == 36505							; Instruction Result: 0
+695:	SKIP MUL 502 * 602 == 302204							; Instruction Result: 0
+696:	SKIP MUL 870 * 408 == 354960							; Instruction Result: 0
+697:	SKIP MUL 438 * 953 == 417414							; Instruction Result: 0
+698:	SKIP MUL 477 * 794 == 378738							; Instruction Result: 0
+699:	SKIP MUL 725 * 610 == 442250							; Instruction Result: 0
+700:	SKIP MUL 0 * 0 == 0							; Instruction Result: 0
+701:	SKIP MUL 591 * 595 == 351645							; Instruction Result: 0
+702:	SKIP MUL 35 * 204 == 7140							; Instruction Result: 0
+703:	SKIP MUL 623 * 430 == 267890							; Instruction Result: 0
+704:	SKIP MUL 986 * 195 == 192270							; Instruction Result: 0
+705:	SKIP MUL 333 * 771 == 256743							; Instruction Result: 0
+706:	SKIP MUL 366 * 275 == 100650							; Instruction Result: 0
+707:	SKIP MUL 886 * 569 == 504134							; Instruction Result: 0
+708:	SKIP MUL 812 * 296 == 240352							; Instruction Result: 0
+709:	SKIP MUL 938 * 0 == 0							; Instruction Result: 0
+710:	SKIP MUL 662 * 423 == 280026							; Instruction Result: 0
+711:	SKIP MUL 931 * 464 == 431984							; Instruction Result: 0
+712:	SKIP MUL 80 * 65 == 5200							; Instruction Result: 0
+713:	SKIP MUL 537 * 517 == 277629							; Instruction Result: 0
+714:	SKIP MUL 309 * 415 == 128235							; Instruction Result: 0
+715:	ENABLE							; Instruction Result: 0
+716:	MUL 97 * 261 == 25317							; Instruction Result: 25317
+717:	MUL 976 * 251 == 244976							; Instruction Result: 244976
+718:	MUL 929 * 486 == 451494							; Instruction Result: 451494
+719:	MUL 79 * 951 == 75129							; Instruction Result: 75129
+720:	MUL 156 * 577 == 90012							; Instruction Result: 90012
+721:	MUL 608 * 799 == 485792							; Instruction Result: 485792
+722:	MUL 103 * 54 == 5562							; Instruction Result: 5562
+723:	MUL 577 * 38 == 21926							; Instruction Result: 21926
+724:	MUL 100 * 110 == 11000							; Instruction Result: 11000
+725:	MUL 373 * 344 == 128312							; Instruction Result: 128312
+726:	MUL 476 * 880 == 418880							; Instruction Result: 418880
+727:	MUL 521 * 941 == 490261							; Instruction Result: 490261
+728:	MUL 636 * 681 == 433116							; Instruction Result: 433116
+729:	MUL 911 * 48 == 43728							; Instruction Result: 43728
+730:	MUL 925 * 246 == 227550							; Instruction Result: 227550
+731:	MUL 385 * 738 == 284130							; Instruction Result: 284130
+732:	MUL 747 * 0 == 0							; Instruction Result: 0
+733:	MUL 991 * 663 == 657033							; Instruction Result: 657033
+734:	MUL 380 * 823 == 312740							; Instruction Result: 312740
+735:	MUL 790 * 442 == 349180							; Instruction Result: 349180
+736:	MUL 485 * 925 == 448625							; Instruction Result: 448625
+737:	MUL 760 * 526 == 399760							; Instruction Result: 399760
+738:	ENABLE							; Instruction Result: 0
+739:	MUL 687 * 303 == 208161							; Instruction Result: 208161
+740:	MUL 885 * 373 == 330105							; Instruction Result: 330105
+741:	MUL 538 * 642 == 345396							; Instruction Result: 345396
+742:	MUL 904 * 758 == 685232							; Instruction Result: 685232
+743:	MUL 72 * 737 == 53064							; Instruction Result: 53064
+744:	MUL 957 * 888 == 849816							; Instruction Result: 849816
+745:	MUL 125 * 773 == 96625							; Instruction Result: 96625
+746:	MUL 107 * 113 == 12091							; Instruction Result: 12091
+747:	MUL 816 * 499 == 407184							; Instruction Result: 407184
+748:	MUL 312 * 957 == 298584							; Instruction Result: 298584
+749:	MUL 35 * 722 == 25270							; Instruction Result: 25270
+750:	MUL 420 * 105 == 44100							; Instruction Result: 44100
+751:	MUL 236 * 347 == 81892							; Instruction Result: 81892
+752:	MUL 115 * 717 == 82455							; Instruction Result: 82455
+753:	MUL 995 * 8 == 7960							; Instruction Result: 7960
+754:	MUL 281 * 511 == 143591							; Instruction Result: 143591
+755:	MUL 218 * 447 == 97446							; Instruction Result: 97446
+756:	DISABLE							; Instruction Result: 0
+757:	SKIP MUL 856 * 826 == 707056							; Instruction Result: 0
+758:	SKIP MUL 791 * 178 == 140798							; Instruction Result: 0
+759:	SKIP MUL 355 * 579 == 205545							; Instruction Result: 0
+760:	DISABLE							; Instruction Result: 0
+761:	SKIP MUL 426 * 689 == 293514							; Instruction Result: 0
+762:	SKIP MUL 19 * 952 == 18088							; Instruction Result: 0
+763:	DISABLE							; Instruction Result: 0
+764:	SKIP MUL 331 * 69 == 22839							; Instruction Result: 0
+765:	SKIP MUL 181 * 101 == 18281							; Instruction Result: 0
+766:	SKIP MUL 628 * 267 == 167676							; Instruction Result: 0
+767:	SKIP MUL 521 * 898 == 467858							; Instruction Result: 0
+768:	SKIP MUL 476 * 329 == 156604							; Instruction Result: 0
+769:	SKIP MUL 362 * 495 == 179190							; Instruction Result: 0
+770:	SKIP MUL 245 * 39 == 9555							; Instruction Result: 0
+771:	SKIP MUL 185 * 370 == 68450							; Instruction Result: 0
+772:	SKIP MUL 622 * 439 == 273058							; Instruction Result: 0
+773:	SKIP MUL 943 * 965 == 909995							; Instruction Result: 0
+774:	SKIP MUL 965 * 299 == 288535							; Instruction Result: 0
+775:	SKIP MUL 29 * 612 == 17748							; Instruction Result: 0
+776:	SKIP MUL 43 * 652 == 28036							; Instruction Result: 0
+777:	SKIP MUL 752 * 988 == 742976							; Instruction Result: 0
+778:	SKIP MUL 401 * 151 == 60551							; Instruction Result: 0
+779:	SKIP MUL 745 * 699 == 520755							; Instruction Result: 0
+780:	SKIP MUL 77 * 216 == 16632							; Instruction Result: 0
+781:	SKIP MUL 916 * 810 == 741960							; Instruction Result: 0
+782:	SKIP MUL 647 * 373 == 241331							; Instruction Result: 0
+783:	SKIP MUL 356 * 323 == 114988							; Instruction Result: 0
+784:	SKIP MUL 659 * 65 == 42835							; Instruction Result: 0
+785:	SKIP MUL 163 * 188 == 30644							; Instruction Result: 0
+786:	SKIP MUL 653 * 216 == 141048							; Instruction Result: 0
+787:	SKIP MUL 187 * 460 == 86020							; Instruction Result: 0
+788:	SKIP MUL 347 * 271 == 94037							; Instruction Result: 0
+789:	SKIP MUL 828 * 838 == 693864							; Instruction Result: 0
+790:	SKIP MUL 70 * 426 == 29820							; Instruction Result: 0
+791:	SKIP MUL 203 * 314 == 63742							; Instruction Result: 0
+792:	SKIP MUL 276 * 626 == 172776							; Instruction Result: 0
+793:	SKIP MUL 450 * 217 == 97650							; Instruction Result: 0
+794:	SKIP MUL 201 * 755 == 151755							; Instruction Result: 0
+795:	SKIP MUL 119 * 516 == 61404							; Instruction Result: 0
+796:	SKIP MUL 738 * 634 == 467892							; Instruction Result: 0
+797:	SKIP MUL 830 * 590 == 489700							; Instruction Result: 0
+798:	ENABLE							; Instruction Result: 0
+799:	MUL 982 * 557 == 546974							; Instruction Result: 546974
+800:	MUL 522 * 576 == 300672							; Instruction Result: 300672
+801:	MUL 828 * 380 == 314640							; Instruction Result: 314640
+802:	MUL 629 * 665 == 418285							; Instruction Result: 418285
+803:	MUL 816 * 674 == 549984							; Instruction Result: 549984
+804:	MUL 833 * 343 == 285719							; Instruction Result: 285719
+805:	MUL 902 * 29 == 26158							; Instruction Result: 26158
+806:	MUL 698 * 182 == 127036							; Instruction Result: 127036
+807:	DISABLE							; Instruction Result: 0
+808:	SKIP MUL 420 * 273 == 114660							; Instruction Result: 0
+809:	SKIP MUL 786 * 927 == 728622							; Instruction Result: 0
+810:	SKIP MUL 945 * 741 == 700245							; Instruction Result: 0
+811:	SKIP MUL 395 * 39 == 15405							; Instruction Result: 0
+812:	ENABLE							; Instruction Result: 0
+813:	MUL 345 * 451 == 155595							; Instruction Result: 155595
+814:	MUL 575 * 284 == 163300							; Instruction Result: 163300
+815:	MUL 210 * 669 == 140490							; Instruction Result: 140490
+816:	MUL 347 * 353 == 122491							; Instruction Result: 122491
+817:								; Instruction Result: 0
