@@ -96,3 +96,4 @@ void reverse_string(char* s, int s_size) {
 // note 79: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 80: Handles empty input by returning 0.
 // note 81: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 82: Merge intervals: sort by start; extend the running interval while overlapping.
