@@ -107,3 +107,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 81: Edge case: input with no peak → falls through to the default branch.
 // edge note 82: Allocates one buffer of length n+1 for the result.
 // edge note 83: Thread-safe so long as the input is not mutated concurrently.
+// edge note 84: Branchless inner loop after sorting.
