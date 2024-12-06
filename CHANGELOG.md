@@ -29011,3 +29011,7 @@
 ## entry 7253
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 7254
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
