@@ -70,3 +70,4 @@ int max_depth(MdTreeNode* root) {
 // note 56: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 57: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 58: Deterministic given the input — no PRNG seeds.
+// note 59: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
