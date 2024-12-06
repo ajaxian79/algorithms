@@ -795,3 +795,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 184
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 185
+
+Idempotent — calling twice with the same input is a no-op the second time.
