@@ -832,3 +832,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 193
 
 Time complexity: O(n + m).
+
+## entry 194
+
+Allocates lazily — first call only.
