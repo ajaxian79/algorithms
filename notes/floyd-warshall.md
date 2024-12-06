@@ -567,3 +567,7 @@
 ## entry 142
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 143
+
+- Wavelet tree: range k-th element in O(log Σ) time.
