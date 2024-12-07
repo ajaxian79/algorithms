@@ -726,3 +726,7 @@ Two passes: one to count, one to fill.
 ## entry 166
 
 Space complexity: O(1) auxiliary.
+
+## entry 167
+
+Edge case: zero-length string → returns the empty result.
