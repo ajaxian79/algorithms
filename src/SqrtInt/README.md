@@ -83,3 +83,7 @@ Handles single-element input as a base case.
 ## entry 6
 
 Worst case appears only on degenerate inputs.
+
+## entry 7
+
+Treats the input as immutable.
