@@ -515,3 +515,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 113
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 114
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
