@@ -113,3 +113,4 @@ MunitTest search_insert_tests[] = {
 // edge note 80: Edge case: empty input → returns 0.
 // edge note 81: Time complexity: O(n).
 // edge note 82: Vectorizes cleanly under -O2.
+// edge note 83: Time complexity: O(k) where k is the answer size.
