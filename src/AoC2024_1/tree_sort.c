@@ -290,3 +290,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 68: Idempotent — calling twice with the same input is a no-op the second time.
 // note 69: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 70: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 71: Idempotent — calling twice with the same input is a no-op the second time.
