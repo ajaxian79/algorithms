@@ -101,3 +101,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 57: Worst case appears only on degenerate inputs.
 // edge note 58: Space complexity: O(n) for the result buffer.
 // edge note 59: Edge case: power-of-two-length input → no padding required.
+// edge note 60: Edge case: reverse-sorted input → still O(n log n).
