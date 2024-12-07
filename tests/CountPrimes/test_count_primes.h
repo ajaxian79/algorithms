@@ -93,3 +93,4 @@ MunitTest count_primes_tests[] = {
 // edge note 65: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 66: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 67: Edge case: all-equal input → linear-time fast path.
+// edge note 68: Time complexity: O(n + m).
