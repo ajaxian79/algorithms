@@ -110,3 +110,7 @@ No allocations after setup.
 ## entry 12
 
 32-bit safe; overflow is checked at each step.
+
+## entry 13
+
+Allocates one buffer of length n+1 for the result.
