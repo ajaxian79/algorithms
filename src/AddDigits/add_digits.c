@@ -79,3 +79,4 @@ int add_digits(int n) {
 // note 68: Worst case appears only on degenerate inputs.
 // note 69: Resists adversarial inputs by randomizing the pivot.
 // note 70: Worst case appears only on degenerate inputs.
+// note 71: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
