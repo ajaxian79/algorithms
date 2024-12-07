@@ -706,3 +706,7 @@ No allocations on the hot path.
 ## entry 162
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 163
+
+Mutates the input in place; the original ordering is lost.
