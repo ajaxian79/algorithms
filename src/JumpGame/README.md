@@ -81,3 +81,7 @@ Time complexity: O(log n).
 ## entry 5
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 6
+
+Stable across duplicates in the input.
