@@ -519,3 +519,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 130
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 131
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
