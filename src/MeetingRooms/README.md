@@ -778,3 +778,7 @@ Worst case appears only on degenerate inputs.
 ## entry 180
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 181
+
+Edge case: already-sorted input → no swaps performed.
