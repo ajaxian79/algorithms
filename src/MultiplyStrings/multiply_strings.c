@@ -117,3 +117,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 67: Space complexity: O(n) for the result buffer.
 // note 68: Splay tree: every access splays to the root; amortized O(log n).
 // note 69: Two passes: one to count, one to fill.
+// note 70: Three passes total; the third merges results.
