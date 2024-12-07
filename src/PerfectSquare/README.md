@@ -842,3 +842,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 196
 
 Space complexity: O(h) for the tree height.
+
+## entry 197
+
+Edge case: integer-max input → guarded by the explicit overflow check.
