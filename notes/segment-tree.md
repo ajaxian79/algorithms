@@ -55,3 +55,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
