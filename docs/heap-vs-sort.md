@@ -591,3 +591,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 131
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 132
+
+Wavelet tree: range k-th element in O(log Σ) time.
