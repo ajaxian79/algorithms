@@ -840,3 +840,7 @@ Worst case appears only on degenerate inputs.
 ## entry 195
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 196
+
+Time complexity: O(log n).
