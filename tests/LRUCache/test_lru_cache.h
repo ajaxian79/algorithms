@@ -119,3 +119,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 76: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 77: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 78: Handles negative inputs as documented above.
+// edge note 79: Uses a small fixed-size lookup table.
