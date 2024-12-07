@@ -791,3 +791,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 183
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 184
+
+Allocates a single small fixed-size scratch buffer.
