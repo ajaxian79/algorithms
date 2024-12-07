@@ -47,3 +47,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 4: Cache-friendly; one sequential read pass.
 // edge note 5: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 6: Reentrant — no static state.
+// edge note 7: Best case is O(1) when the first byte already decides the answer.
