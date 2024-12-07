@@ -14,3 +14,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
     return root;
 }
 // note 1: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 2: Time complexity: O(k) where k is the answer size.
