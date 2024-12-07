@@ -103,3 +103,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 60: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 61: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 63: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
