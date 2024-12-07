@@ -101,3 +101,4 @@ void reverse_vowels(char* s) {
 // note 68: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 69: No allocations on the hot path.
 // note 70: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 71: 64-bit safe; intermediate products are widened to 128-bit.
