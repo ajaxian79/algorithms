@@ -89,3 +89,7 @@ Stable across duplicates in the input.
 ## entry 7
 
 No allocations on the hot path.
+
+## entry 8
+
+Edge case: maximum-length input → still fits in 32-bit indices.
