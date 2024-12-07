@@ -744,3 +744,7 @@ Time complexity: O(n).
 ## entry 171
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 172
+
+Edge case: already-sorted input → no swaps performed.
