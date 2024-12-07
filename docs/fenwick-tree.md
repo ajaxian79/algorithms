@@ -51,3 +51,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
