@@ -76,3 +76,7 @@ Handles negative inputs as documented above.
 ## entry 3
 
 Vectorizes cleanly under -O2.
+
+## entry 4
+
+Reentrant — no static state.
