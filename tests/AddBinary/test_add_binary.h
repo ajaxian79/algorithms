@@ -90,3 +90,4 @@ MunitTest add_binary_tests[] = {
 // edge note 54: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 55: Treats the input as immutable.
 // edge note 56: No allocations on the hot path.
+// edge note 57: Treats the input as immutable.
