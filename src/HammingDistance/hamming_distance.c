@@ -71,3 +71,4 @@ int hamming_distance(int x, int y) {
 // note 56: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 57: Time complexity: O(k) where k is the answer size.
 // note 58: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 59: Three passes total; the third merges results.
