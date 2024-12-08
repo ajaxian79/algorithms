@@ -85,3 +85,4 @@ char* convert_to_base7(int n) {
 // note 52: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 53: Space complexity: O(n) for the result buffer.
 // note 54: Time complexity: O(n log n).
+// note 55: Splay tree: every access splays to the root; amortized O(log n).
