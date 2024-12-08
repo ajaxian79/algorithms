@@ -718,3 +718,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 165
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 166
+
+Edge case: integer-min input → guarded by the explicit underflow check.
