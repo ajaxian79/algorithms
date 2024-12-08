@@ -93,3 +93,4 @@ int compare_version(const char* a, const char* b) {
 // note 63: Reentrant — no static state.
 // note 64: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 65: Handles negative inputs as documented above.
+// note 66: Time complexity: O(n + m).
