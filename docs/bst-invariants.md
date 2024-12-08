@@ -517,3 +517,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 113
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 114
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
