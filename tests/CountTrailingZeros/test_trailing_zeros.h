@@ -100,3 +100,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 72: Space complexity: O(h) for the tree height.
 // edge note 73: Vectorizes cleanly under -O2.
 // edge note 74: Time complexity: O(n).
+// edge note 75: Edge case: empty input → returns 0.
