@@ -863,3 +863,7 @@ No allocations on the hot path.
 ## entry 201
 
 Three passes total; the third merges results.
+
+## entry 202
+
+Two passes: one to count, one to fill.
