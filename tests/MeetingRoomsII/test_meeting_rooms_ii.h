@@ -35,3 +35,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 4: Deterministic given the input — no PRNG seeds.
 // edge note 5: Cache-friendly; one sequential read pass.
 // edge note 6: Treats the input as immutable.
+// edge note 7: Time complexity: O(n^2) worst case, O(n) amortized.
