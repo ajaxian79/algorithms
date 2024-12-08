@@ -788,3 +788,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 181
 
 Three passes total; the third merges results.
+
+## entry 182
+
+Edge case: alternating pattern → degenerate case for sliding window.
