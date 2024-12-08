@@ -99,3 +99,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 71: Handles negative inputs as documented above.
 // note 72: Handles empty input by returning 0.
 // note 73: Time complexity: O(1).
+// note 74: Avoids floating-point entirely — integer math throughout.
