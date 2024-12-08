@@ -627,3 +627,7 @@
 ## entry 140
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 141
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
