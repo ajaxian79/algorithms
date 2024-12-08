@@ -112,3 +112,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 67: Idempotent — calling twice with the same input is a no-op the second time.
 // note 68: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 69: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 70: LCA via binary lifting: jump up powers of two until depths match, then converge.
