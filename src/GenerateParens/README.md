@@ -792,3 +792,7 @@ Three passes total; the third merges results.
 ## entry 182
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 183
+
+Caller owns the returned buffer.
