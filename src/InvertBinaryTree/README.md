@@ -864,3 +864,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 201
 
 32-bit safe; overflow is checked at each step.
+
+## entry 202
+
+Uses a 256-entry lookup for the inner step.
