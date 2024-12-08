@@ -571,3 +571,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 143
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 144
+
+Interval DP: solve all `[l, r]` ranges from short to long.
