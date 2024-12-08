@@ -12,7 +12,7 @@
 
 
 #include "logger.h"
-#define GAMEBOARD_LOG "parser"
+#define RULE_CHECK_LOG "parser"
 
 //#define DIAGNOSTICS
 
@@ -78,7 +78,7 @@ char* getToken(ParserContext* parserContext) {
 }
 
 void tokenize(FILE* file, Program* program) {
-  blog_start(GAMEBOARD_LOG, "Parsing...\n");
+  blog_start(RULE_CHECK_LOG, "Parsing...\n");
   ParserContext parserContext;
   parserContext.buffer = get_contents(file, &parserContext.length);
   parserContext.current = 0;
@@ -221,7 +221,7 @@ void tokenize(FILE* file, Program* program) {
       currentInstruction->lArg.integer = 0;
       currentInstruction->rArg.integer = 0;
     } else {
-      blog(GAMEBOARD_LOG, "Instruction: %s %d %d\n",
+      blog(RULE_CHECK_LOG, "Instruction: %s %d %d\n",
            getInstructionName(currentInstruction),
            currentInstruction->lArg.integer,
            currentInstruction->rArg.integer);
@@ -251,19 +251,19 @@ char *getInstructionName(const Instruction *instruction) {
 // Function to load file contents into a dynamically allocated buffer
 char *get_contents(FILE *file, size_t *out_length) {
   if (!file) {
-    blog(GAMEBOARD_LOG, "Invalid file pointer.\n");
+    blog(RULE_CHECK_LOG, "Invalid file pointer.\n");
     return NULL;
   }
 
   // Seek to the end of the file to determine its size
   if (fseek(file, 0, SEEK_END) != 0) {
-    blog(GAMEBOARD_LOG, "Failed to seek end of file\n");
+    blog(RULE_CHECK_LOG, "Failed to seek end of file\n");
     return NULL;
   }
 
   long length = ftell(file);
   if (length < 0) {
-    blog(GAMEBOARD_LOG, "Failed to get file length\n");
+    blog(RULE_CHECK_LOG, "Failed to get file length\n");
     return NULL;
   }
 
@@ -273,14 +273,14 @@ char *get_contents(FILE *file, size_t *out_length) {
   // Allocate memory for the file contents plus a null terminator
   char *buffer = (char *)malloc(length + 1);
   if (!buffer) {
-    blog(GAMEBOARD_LOG, "Failed to allocate memory\n");
+    blog(RULE_CHECK_LOG, "Failed to allocate memory\n");
     return NULL;
   }
 
   // Read the file into the buffer
   size_t read_size = fread(buffer, 1, length, file);
   if (read_size != (size_t)length) {
-    blog(GAMEBOARD_LOG, "Failed to read entire file\n");
+    blog(RULE_CHECK_LOG, "Failed to read entire file\n");
     free(buffer);
     return NULL;
   }
@@ -293,7 +293,7 @@ char *get_contents(FILE *file, size_t *out_length) {
     *out_length = length;
   }
 
-  blog(GAMEBOARD_LOG, "Loaded File\n");
+  blog(RULE_CHECK_LOG, "Loaded File\n");
 
   return buffer;
 }

@@ -14,7 +14,7 @@
 #include "gameboard.h"
 #include "logger.h"
 
-#define GAMEBOARD_LOG "gameboard"
+#define RULE_CHECK_LOG "gameboard"
 
 int evaluate(Gameboard *gameboard, int x, int y);
 
@@ -43,7 +43,7 @@ int getInstances(Gameboard* gameboard) {
   unsigned long width = getBoardWidth(gameboard);
   unsigned long height = gameboard->length/width;
 
-  blog_start(GAMEBOARD_LOG, "Width: %d, Height: %d", width, height);
+  blog_start(RULE_CHECK_LOG, "Width: %d, Height: %d", width, height);
 
   int accum = 0;
 
@@ -103,19 +103,19 @@ void freeGameboard(Gameboard** gameboard) {
 
 Gameboard* loadGameboard(FILE* file) {
   if (!file) {
-    blog(GAMEBOARD_LOG, "Invalid file pointer.\n");
+    blog(RULE_CHECK_LOG, "Invalid file pointer.\n");
     return NULL;
   }
 
   // Seek to the end of the file to determine its size
   if (fseek(file, 0, SEEK_END) != 0) {
-    blog(GAMEBOARD_LOG, "Failed to seek end of file\n");
+    blog(RULE_CHECK_LOG, "Failed to seek end of file\n");
     return NULL;
   }
 
   long length = ftell(file);
   if (length < 0) {
-    blog(GAMEBOARD_LOG, "Failed to get file length\n");
+    blog(RULE_CHECK_LOG, "Failed to get file length\n");
     return NULL;
   }
 
@@ -125,14 +125,14 @@ Gameboard* loadGameboard(FILE* file) {
   // Allocate memory for the file contents plus a null terminator
   char *buffer = (char *)malloc(length + 1);
   if (!buffer) {
-    blog(GAMEBOARD_LOG, "Failed to allocate memory\n");
+    blog(RULE_CHECK_LOG, "Failed to allocate memory\n");
     return NULL;
   }
 
   // Read the file into the buffer
   size_t read_size = fread(buffer, 1, length, file);
   if (read_size != (size_t)length) {
-    blog(GAMEBOARD_LOG, "Failed to read entire file\n");
+    blog(RULE_CHECK_LOG, "Failed to read entire file\n");
     free(buffer);
     return NULL;
   }
@@ -147,7 +147,7 @@ Gameboard* loadGameboard(FILE* file) {
   // Set the output length
   gameboard->length = length;
 
-  blog(GAMEBOARD_LOG, "Loaded File\n");
+  blog(RULE_CHECK_LOG, "Loaded File\n");
 
   return gameboard;
 }
