@@ -855,3 +855,7 @@ No allocations after setup.
 ## entry 198
 
 Space complexity: O(1) auxiliary.
+
+## entry 199
+
+Handles empty input by returning 0.
