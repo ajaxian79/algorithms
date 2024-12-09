@@ -116,3 +116,4 @@ char* add_binary(const char* a, const char* b) {
 // note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 75: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 76: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 77: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
