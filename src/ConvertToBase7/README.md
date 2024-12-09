@@ -836,3 +836,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 194
 
 Time complexity: O(n log n).
+
+## entry 195
+
+Idempotent — calling twice with the same input is a no-op the second time.
