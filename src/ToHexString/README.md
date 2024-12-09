@@ -723,3 +723,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 166
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 167
+
+Time complexity: O(n^2) worst case, O(n) amortized.
