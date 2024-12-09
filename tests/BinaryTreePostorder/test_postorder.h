@@ -122,3 +122,4 @@ MunitTest postorder_tests[] = {
 // edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 79: Vectorizes cleanly under -O2.
 // edge note 80: Edge case: all-equal input → linear-time fast path.
+// edge note 81: Best case is O(1) when the first byte already decides the answer.
