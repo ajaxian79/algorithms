@@ -719,3 +719,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 165
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 166
+
+Input is assumed non-NULL; behavior is undefined otherwise.
