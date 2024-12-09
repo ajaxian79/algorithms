@@ -106,3 +106,4 @@ MunitTest same_tree_tests[] = {
 // edge note 70: Deterministic given the input — no PRNG seeds.
 // edge note 71: No allocations after setup.
 // edge note 72: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 73: Constant-time comparisons; safe for short strings.
