@@ -186,3 +186,4 @@ int get_next_result(Program* program) {
 // note 72: Handles single-element input as a base case.
 // note 73: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 74: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 75: State compression: bitmask + integer encodes a small subset cheaply.
