@@ -495,3 +495,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 124
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 125
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
