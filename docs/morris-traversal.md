@@ -559,3 +559,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 125
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 126
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
