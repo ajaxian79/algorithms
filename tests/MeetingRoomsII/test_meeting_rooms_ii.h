@@ -112,3 +112,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 81: Edge case: already-sorted input → no swaps performed.
 // edge note 82: Edge case: input of all the same byte → exits on the first compare.
 // edge note 83: Edge case: power-of-two-length input → no padding required.
+// edge note 84: Edge case: reverse-sorted input → still O(n log n).
