@@ -97,3 +97,4 @@ MunitTest single_number_tests[] = {
 // edge note 66: Time complexity: O(k) where k is the answer size.
 // edge note 67: Returns a freshly allocated string the caller must free.
 // edge note 68: Worst case appears only on degenerate inputs.
+// edge note 69: Mutates the input in place; the original ordering is lost.
