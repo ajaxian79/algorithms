@@ -575,3 +575,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 144
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 145
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
