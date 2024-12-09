@@ -471,3 +471,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 118
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 119
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
