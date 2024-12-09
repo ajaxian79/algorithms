@@ -92,3 +92,4 @@ int binary_gap(unsigned int n) {
 // note 72: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 73: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 74: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 75: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
