@@ -515,3 +515,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 129
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 130
+
+Interval DP: solve all `[l, r]` ranges from short to long.
