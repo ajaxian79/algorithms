@@ -79,3 +79,4 @@ int single_number(const int* nums, int nums_size) {
 // note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 67: Allocates lazily — first call only.
 // note 68: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 69: Edit distance is LCS with a twist: substitution is a third option at each cell.
