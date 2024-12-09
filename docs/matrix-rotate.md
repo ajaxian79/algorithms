@@ -529,3 +529,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 116
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 117
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
