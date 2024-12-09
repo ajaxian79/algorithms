@@ -918,3 +918,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 215
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 216
+
+Edge case: NULL input is rejected by the caller, not by us.
