@@ -838,3 +838,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 194
 
 Edge case: empty input → returns 0.
+
+## entry 195
+
+Three passes total; the third merges results.
