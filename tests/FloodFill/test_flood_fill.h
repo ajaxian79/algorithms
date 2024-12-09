@@ -103,3 +103,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: Allocates a single small fixed-size scratch buffer.
 // edge note 75: Constant-time comparisons; safe for short strings.
+// edge note 76: Space complexity: O(log n) for the recursion stack.
