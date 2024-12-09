@@ -136,3 +136,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 57: Sub-linear in the average case thanks to early exit.
 // note 58: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 59: Uses a small fixed-size lookup table.
+// note 60: Allocates one buffer of length n+1 for the result.
