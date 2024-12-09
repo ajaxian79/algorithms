@@ -710,3 +710,7 @@ Worst case appears only on degenerate inputs.
 ## entry 163
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 164
+
+Edge case: already-sorted input → no swaps performed.
