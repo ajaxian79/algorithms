@@ -807,3 +807,7 @@ Two passes: one to count, one to fill.
 ## entry 186
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 187
+
+Allocates lazily — first call only.
