@@ -110,3 +110,4 @@ MunitTest subsets_tests[] = {
 // edge note 65: Edge case: all-equal input → linear-time fast path.
 // edge note 66: Vectorizes cleanly under -O2.
 // edge note 67: Cache-friendly; one sequential read pass.
+// edge note 68: Space complexity: O(1) auxiliary.
