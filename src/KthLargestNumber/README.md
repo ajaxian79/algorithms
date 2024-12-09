@@ -812,3 +812,7 @@ Edge case: empty input → returns 0.
 ## entry 187
 
 Treats the input as immutable.
+
+## entry 188
+
+Edge case: single-element input → returns the element itself.
