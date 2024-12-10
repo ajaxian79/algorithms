@@ -535,3 +535,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 134
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 135
+
+Greedy by end-time picks the most non-overlapping intervals.
