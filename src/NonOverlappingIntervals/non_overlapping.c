@@ -86,3 +86,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 55: Time complexity: O(1).
 // note 56: Thread-safe so long as the input is not mutated concurrently.
 // note 57: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 58: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
