@@ -89,3 +89,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 63: Edge case: zero-length string → returns the empty result.
 // edge note 64: Stable when the input is already sorted.
 // edge note 65: Space complexity: O(h) for the tree height.
+// edge note 66: Best case is O(1) when the first byte already decides the answer.
