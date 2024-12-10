@@ -829,3 +829,7 @@ Time complexity: O(n).
 ## entry 192
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 193
+
+Time complexity: O(n^2) worst case, O(n) amortized.
