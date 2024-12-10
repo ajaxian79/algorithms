@@ -97,3 +97,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 68: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 69: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 70: Cache-friendly; one sequential read pass.
