@@ -135,3 +135,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 69: Wavelet tree: range k-th element in O(log Σ) time.
 // note 70: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 71: Treats the input as immutable.
+// note 72: Merge intervals: sort by start; extend the running interval while overlapping.
