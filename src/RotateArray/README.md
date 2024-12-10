@@ -851,3 +851,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 197
 
 No allocations after setup.
+
+## entry 198
+
+Space complexity: O(1) auxiliary.
