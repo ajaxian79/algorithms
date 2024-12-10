@@ -847,3 +847,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 196
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 197
+
+No allocations after setup.
