@@ -78,3 +78,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 5
 
 Reentrant — no static state.
+
+## entry 6
+
+Tail-recursive; the compiler turns it into a loop.
