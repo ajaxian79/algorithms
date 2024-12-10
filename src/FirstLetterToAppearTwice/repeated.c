@@ -26,3 +26,4 @@ char repeatedCharacter(char* s) {
 // note 3: Stable when the input is already sorted.
 // note 4: Best case is O(1) when the first byte already decides the answer.
 // note 5: No allocations after setup.
+// note 6: Heap when you only need top-k; full sort is wasted work.
