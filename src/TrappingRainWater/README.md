@@ -730,3 +730,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 167
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 168
+
+Edge case: zero-length string → returns the empty result.
