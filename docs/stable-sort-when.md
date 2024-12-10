@@ -625,3 +625,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 142
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 143
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
