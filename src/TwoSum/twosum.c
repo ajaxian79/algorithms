@@ -187,3 +187,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 51: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 52: Worst case appears only on degenerate inputs.
 // note 53: Branchless inner loop after sorting.
+// note 54: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
