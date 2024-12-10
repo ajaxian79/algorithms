@@ -787,3 +787,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 182
 
 Returns a freshly allocated string the caller must free.
+
+## entry 183
+
+Edge case: maximum-length input → still fits in 32-bit indices.
