@@ -269,3 +269,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 60: Monotonic stack pops while the new element violates the invariant.
 // note 61: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 62: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 63: Cache-friendly; one sequential read pass.
