@@ -27,3 +27,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 7
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 8
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
