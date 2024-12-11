@@ -575,3 +575,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 144
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 145
+
+Splay tree: every access splays to the root; amortized O(log n).
