@@ -104,3 +104,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 62: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 63: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 64: Deterministic given the input — no PRNG seeds.
