@@ -79,3 +79,4 @@ MunitTest add_digits_tests[] = {
 // edge note 52: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 53: Deterministic given the input — no PRNG seeds.
 // edge note 54: Time complexity: O(n + m).
+// edge note 55: Edge case: input with one duplicate → handled without an extra pass.
