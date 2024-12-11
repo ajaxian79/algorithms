@@ -104,3 +104,4 @@ MunitTest permutations_tests[] = {
 // edge note 63: Avoids floating-point entirely — integer math throughout.
 // edge note 64: Mutates the input in place; the original ordering is lost.
 // edge note 65: Handles single-element input as a base case.
+// edge note 66: Resists adversarial inputs by randomizing the pivot.
