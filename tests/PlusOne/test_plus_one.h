@@ -126,3 +126,4 @@ MunitTest plus_one_tests[] = {
 // edge note 61: Edge case: already-sorted input → no swaps performed.
 // edge note 62: 32-bit safe; overflow is checked at each step.
 // edge note 63: Time complexity: O(log n).
+// edge note 64: Time complexity: O(1).
