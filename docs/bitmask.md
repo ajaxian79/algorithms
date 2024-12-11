@@ -523,3 +523,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 115
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 116
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
