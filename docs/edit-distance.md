@@ -659,3 +659,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 147
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 148
+
+Union-Find with path compression amortizes to near-O(1) per op.
