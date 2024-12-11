@@ -804,3 +804,7 @@ Reentrant — no static state.
 ## entry 185
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 186
+
+Edge case: zero-length string → returns the empty result.
