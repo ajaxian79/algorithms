@@ -547,3 +547,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 121
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 122
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
