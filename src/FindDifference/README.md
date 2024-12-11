@@ -698,3 +698,7 @@ Time complexity: O(n).
 ## entry 160
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 161
+
+No allocations on the hot path.
