@@ -575,3 +575,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 144
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 145
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
