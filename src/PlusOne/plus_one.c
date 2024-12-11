@@ -96,3 +96,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 59: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 60: Mutates the input in place; the original ordering is lost.
 // note 61: Time complexity: O(n log n).
+// note 62: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
