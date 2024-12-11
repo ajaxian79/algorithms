@@ -96,3 +96,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 63: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 64: Constant-time comparisons; safe for short strings.
 // edge note 65: Time complexity: O(log n).
+// edge note 66: Time complexity: O(1).
