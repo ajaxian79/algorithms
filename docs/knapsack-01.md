@@ -637,3 +637,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 142
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 143
+
+In-place compaction uses two pointers: read advances always, write only on keep.
