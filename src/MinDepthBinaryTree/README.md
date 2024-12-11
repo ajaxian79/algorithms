@@ -774,3 +774,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 179
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 180
+
+Time complexity: O(log n).
