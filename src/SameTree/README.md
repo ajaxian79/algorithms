@@ -100,3 +100,7 @@ Worst case appears only on degenerate inputs.
 ## entry 11
 
 Space complexity: O(h) for the tree height.
+
+## entry 12
+
+Space complexity: O(log n) for the recursion stack.
