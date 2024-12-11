@@ -886,3 +886,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 207
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 208
+
+Idempotent — calling twice with the same input is a no-op the second time.
