@@ -565,3 +565,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 125
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 126
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
