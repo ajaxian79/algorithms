@@ -797,3 +797,7 @@ Stable across duplicates in the input.
 ## entry 184
 
 No allocations on the hot path.
+
+## entry 185
+
+Edge case: integer-min input → guarded by the explicit underflow check.
