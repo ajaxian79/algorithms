@@ -770,3 +770,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 178
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 179
+
+Edge case: zero-length string → returns the empty result.
