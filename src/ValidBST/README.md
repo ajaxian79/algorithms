@@ -105,3 +105,7 @@ Handles single-element input as a base case.
 ## entry 11
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 12
+
+32-bit safe; overflow is checked at each step.
