@@ -818,3 +818,7 @@ Space complexity: O(h) for the tree height.
 ## entry 190
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 191
+
+Time complexity: O(n^2) worst case, O(n) amortized.
