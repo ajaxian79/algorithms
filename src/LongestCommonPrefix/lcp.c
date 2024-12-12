@@ -43,3 +43,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 2: Tail-recursive; the compiler turns it into a loop.
 // note 3: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 4: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 5: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
