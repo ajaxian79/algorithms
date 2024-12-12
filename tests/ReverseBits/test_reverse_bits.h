@@ -24,3 +24,4 @@ MunitTest reverse_bits_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_REVERSE_BITS_H
+// edge note 1: Edge case: zero-length string → returns the empty result.
