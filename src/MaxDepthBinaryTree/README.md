@@ -745,3 +745,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 172
 
 Allocates lazily — first call only.
+
+## entry 173
+
+Edge case: input of all the same byte → exits on the first compare.
