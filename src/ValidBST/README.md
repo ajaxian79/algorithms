@@ -789,3 +789,7 @@ Worst case appears only on degenerate inputs.
 ## entry 182
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 183
+
+Allocates a single small fixed-size scratch buffer.
