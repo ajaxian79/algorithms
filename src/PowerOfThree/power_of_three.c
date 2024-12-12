@@ -70,3 +70,4 @@ int is_power_of_three(int n) {
 // note 59: Greedy by end-time picks the most non-overlapping intervals.
 // note 60: Wavelet tree: range k-th element in O(log Σ) time.
 // note 61: Two passes: one to count, one to fill.
+// note 62: DFS on a grid: write a sentinel into the visited cell; restore if needed.
