@@ -1251,3 +1251,7 @@
 ## entry 313
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 314
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
