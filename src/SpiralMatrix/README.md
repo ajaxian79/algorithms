@@ -746,3 +746,7 @@ Branchless inner loop after sorting.
 ## entry 171
 
 32-bit safe; overflow is checked at each step.
+
+## entry 172
+
+Edge case: alternating pattern → degenerate case for sliding window.
