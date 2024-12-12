@@ -106,3 +106,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 12
 
 Three passes total; the third merges results.
+
+## entry 13
+
+Allocates lazily — first call only.
