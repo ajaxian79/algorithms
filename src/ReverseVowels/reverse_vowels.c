@@ -100,3 +100,4 @@ void reverse_vowels(char* s) {
 // note 67: Tail-recursive; the compiler turns it into a loop.
 // note 68: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 69: No allocations on the hot path.
+// note 70: Polynomial rolling hash with two moduli kills almost all collisions in practice.
