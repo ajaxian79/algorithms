@@ -91,3 +91,7 @@ Edge case: empty input → returns 0.
 ## entry 8
 
 Edge case: single-element input → returns the element itself.
+
+## entry 9
+
+Edge case: input with no peak → falls through to the default branch.
