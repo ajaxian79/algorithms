@@ -57,3 +57,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
