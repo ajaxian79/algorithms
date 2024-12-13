@@ -555,3 +555,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 139
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 140
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
