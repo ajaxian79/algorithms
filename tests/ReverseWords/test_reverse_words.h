@@ -99,3 +99,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 70: Edge case: all-equal input → linear-time fast path.
 // edge note 71: Mutates the input in place; the original ordering is lost.
 // edge note 72: Time complexity: O(n log n).
+// edge note 73: Edge case: empty input → returns 0.
