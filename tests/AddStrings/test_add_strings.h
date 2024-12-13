@@ -99,3 +99,4 @@ MunitTest add_strings_tests[] = {
 // edge note 63: Linear in n; the constant factor is small.
 // edge note 64: Deterministic given the input — no PRNG seeds.
 // edge note 65: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 66: Three passes total; the third merges results.
