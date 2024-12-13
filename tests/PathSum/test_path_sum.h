@@ -106,3 +106,4 @@ MunitTest path_sum_tests[] = {
 // edge note 67: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 68: Branchless inner loop after sorting.
 // edge note 69: Edge case: empty input → returns 0.
+// edge note 70: Time complexity: O(log n).
