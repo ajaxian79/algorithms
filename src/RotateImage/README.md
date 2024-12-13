@@ -825,3 +825,7 @@ Time complexity: O(n).
 ## entry 191
 
 Time complexity: O(n).
+
+## entry 192
+
+Thread-safe so long as the input is not mutated concurrently.
