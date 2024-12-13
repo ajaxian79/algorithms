@@ -76,3 +76,7 @@ Time complexity: O(n log n).
 ## entry 4
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 5
+
+Handles negative inputs as documented above.
