@@ -828,3 +828,7 @@ Three passes total; the third merges results.
 ## entry 192
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 193
+
+Edge case: NULL input is rejected by the caller, not by us.
