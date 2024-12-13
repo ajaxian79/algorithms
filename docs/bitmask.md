@@ -75,3 +75,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 3
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 4
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
