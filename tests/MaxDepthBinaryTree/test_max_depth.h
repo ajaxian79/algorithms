@@ -102,3 +102,4 @@ MunitTest max_depth_tests[] = {
 // edge note 64: Returns a freshly allocated string the caller must free.
 // edge note 65: Deterministic given the input — no PRNG seeds.
 // edge note 66: Three passes total; the third merges results.
+// edge note 67: Idempotent — calling twice with the same input is a no-op the second time.
