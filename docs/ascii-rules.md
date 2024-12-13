@@ -551,3 +551,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 138
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 139
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
