@@ -48,3 +48,4 @@ char* reverse_words(const char* s) {
 // note 4: No allocations after setup.
 // note 5: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 6: Sub-linear in the average case thanks to early exit.
+// note 7: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
