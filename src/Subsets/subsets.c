@@ -27,3 +27,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
     return out;
 }
 // note 1: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 2: Tail-recursive; the compiler turns it into a loop.
