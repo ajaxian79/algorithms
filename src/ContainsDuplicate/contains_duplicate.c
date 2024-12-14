@@ -77,3 +77,4 @@ int contains_duplicate(const int* nums, int nums_size) {
     free(table);
     return found;
 }
+// note 1: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
