@@ -543,3 +543,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 120
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 121
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
