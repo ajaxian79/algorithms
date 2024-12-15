@@ -511,3 +511,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 128
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 129
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
