@@ -621,3 +621,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 141
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 142
+
+Greedy by end-time picks the most non-overlapping intervals.
