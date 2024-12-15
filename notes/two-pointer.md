@@ -53,3 +53,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
