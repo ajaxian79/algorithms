@@ -28791,3 +28791,7 @@
 ## entry 7198
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 7199
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
