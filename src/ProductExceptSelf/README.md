@@ -800,3 +800,7 @@ Edge case: empty input → returns 0.
 ## entry 184
 
 Reentrant — no static state.
+
+## entry 185
+
+Tail-recursive; the compiler turns it into a loop.
