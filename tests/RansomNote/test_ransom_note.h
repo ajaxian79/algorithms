@@ -105,3 +105,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 79: Linear in n; the constant factor is small.
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Edge case: input with no peak → falls through to the default branch.
+// edge note 82: Allocates one buffer of length n+1 for the result.
