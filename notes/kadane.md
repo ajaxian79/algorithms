@@ -53,3 +53,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
