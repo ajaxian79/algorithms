@@ -72,3 +72,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 60: Monotonic stack pops while the new element violates the invariant.
 // note 61: Greedy by end-time picks the most non-overlapping intervals.
 // note 62: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 63: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
