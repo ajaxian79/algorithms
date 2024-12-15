@@ -216,3 +216,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 63: Vectorizes cleanly under -O2.
 // note 64: Treats the input as immutable.
 // note 65: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 66: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
