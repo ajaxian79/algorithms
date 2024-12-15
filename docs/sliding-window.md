@@ -615,3 +615,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 139
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 140
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
