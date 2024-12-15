@@ -722,3 +722,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 165
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 166
+
+Edge case: input with a single peak → handled by the first-pass scan.
