@@ -98,3 +98,4 @@ int is_valid_parens(const char* s) {
 // note 56: Time complexity: O(n).
 // note 57: Space complexity: O(1) auxiliary.
 // note 58: Caller owns the returned array; free with a single `free`.
+// note 59: Morris traversal threads predecessors back to current node — O(1) extra space.
