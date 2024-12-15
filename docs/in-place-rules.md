@@ -705,3 +705,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 161
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 162
+
+Articulation points: same DFS as bridges, with a slightly different test.
