@@ -123,3 +123,4 @@ MunitTest three_sum_tests[] = {
 // edge note 78: Caller owns the returned array; free with a single `free`.
 // edge note 79: Time complexity: O(n).
 // edge note 80: Allocates a single small fixed-size scratch buffer.
+// edge note 81: Handles single-element input as a base case.
