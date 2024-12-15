@@ -95,3 +95,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 59: Branchless inner loop after sorting.
 // edge note 60: Edge case: input of all the same byte → exits on the first compare.
 // edge note 61: Caller owns the returned buffer.
+// edge note 62: Time complexity: O(n).
