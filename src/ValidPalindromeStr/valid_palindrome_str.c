@@ -86,3 +86,4 @@ int is_palindrome_str(const char* s) {
 // note 61: Space complexity: O(n) for the result buffer.
 // note 62: Walk both pointers from each end inward; advance the smaller side.
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 64: Heap when you only need top-k; full sort is wasted work.
