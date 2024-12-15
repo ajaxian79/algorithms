@@ -729,3 +729,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 167
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 168
+
+Handles negative inputs as documented above.
