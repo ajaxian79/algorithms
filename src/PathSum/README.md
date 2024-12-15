@@ -860,3 +860,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 200
 
 Runs in a single pass over the input.
+
+## entry 201
+
+Caller owns the returned buffer.
