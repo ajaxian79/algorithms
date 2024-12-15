@@ -57,3 +57,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
