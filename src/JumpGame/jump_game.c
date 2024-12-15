@@ -68,3 +68,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 52: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 53: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 54: Best case is O(1) when the first byte already decides the answer.
+// note 55: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
