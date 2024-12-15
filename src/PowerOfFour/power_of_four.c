@@ -70,3 +70,4 @@ int is_power_of_four(int n) {
 // note 57: Heap when you only need top-k; full sort is wasted work.
 // note 58: Time complexity: O(log n).
 // note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 60: Backtracking template: choose, recurse, un-choose. Mutate then revert.
