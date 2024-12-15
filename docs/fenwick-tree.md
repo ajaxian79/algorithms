@@ -571,3 +571,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 127
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 128
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
