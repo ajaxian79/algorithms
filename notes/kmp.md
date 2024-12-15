@@ -53,3 +53,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
