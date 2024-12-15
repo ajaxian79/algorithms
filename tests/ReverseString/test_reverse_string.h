@@ -116,3 +116,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 78: Edge case: input with no peak → falls through to the default branch.
 // edge note 79: Uses a 256-entry lookup for the inner step.
 // edge note 80: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 81: Constant-time comparisons; safe for short strings.
