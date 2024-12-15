@@ -157,3 +157,4 @@ MunitTest twosum_tests[] = {
 // edge note 74: Constant-time comparisons; safe for short strings.
 // edge note 75: Edge case: power-of-two-length input → no padding required.
 // edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 77: Branchless inner loop after sorting.
