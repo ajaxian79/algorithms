@@ -760,3 +760,7 @@ No allocations on the hot path.
 ## entry 176
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 177
+
+Input is assumed non-NULL; behavior is undefined otherwise.
