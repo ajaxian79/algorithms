@@ -459,3 +459,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 115
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 116
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
