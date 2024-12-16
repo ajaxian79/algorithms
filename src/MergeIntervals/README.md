@@ -818,3 +818,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 189
 
 Handles empty input by returning 0.
+
+## entry 190
+
+Allocates lazily — first call only.
