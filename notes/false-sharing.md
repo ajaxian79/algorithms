@@ -487,3 +487,7 @@
 ## entry 122
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 123
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
