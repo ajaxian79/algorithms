@@ -856,3 +856,7 @@ No allocations on the hot path.
 ## entry 199
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 200
+
+Runs in a single pass over the input.
