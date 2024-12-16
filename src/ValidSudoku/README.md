@@ -803,3 +803,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 185
 
 Two passes: one to count, one to fill.
+
+## entry 186
+
+Edge case: integer-max input → guarded by the explicit overflow check.
