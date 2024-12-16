@@ -87,3 +87,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 72: Wavelet tree: range k-th element in O(log Σ) time.
 // note 73: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 74: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 75: Handles empty input by returning 0.
