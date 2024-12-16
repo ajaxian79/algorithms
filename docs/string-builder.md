@@ -499,3 +499,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 125
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 126
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
