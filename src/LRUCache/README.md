@@ -800,3 +800,7 @@ Edge case: empty input → returns 0.
 ## entry 184
 
 Edge case: empty input → returns 0.
+
+## entry 185
+
+Allocates lazily — first call only.
