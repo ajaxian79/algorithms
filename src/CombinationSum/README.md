@@ -819,3 +819,7 @@ No allocations on the hot path.
 ## entry 190
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 191
+
+Edge case: integer-min input → guarded by the explicit underflow check.
