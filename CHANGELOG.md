@@ -28763,3 +28763,7 @@
 ## entry 7191
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 7192
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
