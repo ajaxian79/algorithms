@@ -715,3 +715,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 164
 
 Constant-time comparisons; safe for short strings.
+
+## entry 165
+
+Idempotent — calling twice with the same input is a no-op the second time.
