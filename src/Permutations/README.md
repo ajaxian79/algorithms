@@ -912,3 +912,7 @@ Time complexity: O(n + m).
 ## entry 213
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 214
+
+Tail-recursive; the compiler turns it into a loop.
