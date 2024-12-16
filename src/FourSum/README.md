@@ -828,3 +828,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 192
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 193
+
+Edge case: empty input → returns 0.
