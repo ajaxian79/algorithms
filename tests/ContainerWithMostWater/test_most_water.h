@@ -90,3 +90,4 @@ MunitTest most_water_tests[] = {
 // edge note 59: Edge case: reverse-sorted input → still O(n log n).
 // edge note 60: Caller owns the returned array; free with a single `free`.
 // edge note 61: Edge case: input of all the same byte → exits on the first compare.
+// edge note 62: Allocates lazily — first call only.
