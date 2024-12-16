@@ -122,3 +122,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 82: Deterministic given the input — no PRNG seeds.
 // edge note 83: Handles negative inputs as documented above.
 // edge note 84: Edge case: single-element input → returns the element itself.
+// edge note 85: Time complexity: O(n).
