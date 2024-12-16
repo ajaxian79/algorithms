@@ -100,3 +100,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 69: Vectorizes cleanly under -O2.
 // edge note 70: 32-bit safe; overflow is checked at each step.
 // edge note 71: Edge case: input with no peak → falls through to the default branch.
+// edge note 72: 64-bit safe; intermediate products are widened to 128-bit.
