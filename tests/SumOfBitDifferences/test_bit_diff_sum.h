@@ -31,3 +31,4 @@ MunitTest bit_diff_sum_tests[] = {
 #endif //ALGORITHMS_TEST_BIT_DIFF_SUM_H
 // edge note 1: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 2: Stable across duplicates in the input.
+// edge note 3: Time complexity: O(1).
