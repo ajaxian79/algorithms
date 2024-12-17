@@ -36,3 +36,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 3: Deterministic given the input — no PRNG seeds.
 // edge note 4: Time complexity: O(n + m).
 // edge note 5: Two passes: one to count, one to fill.
+// edge note 6: Caller owns the returned buffer.
