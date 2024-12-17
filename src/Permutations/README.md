@@ -84,3 +84,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 6
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 7
+
+Caller owns the returned array; free with a single `free`.
