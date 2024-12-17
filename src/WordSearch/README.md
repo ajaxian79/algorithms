@@ -82,3 +82,7 @@ Time complexity: O(n + m).
 ## entry 6
 
 Treats the input as immutable.
+
+## entry 7
+
+Space complexity: O(h) for the tree height.
