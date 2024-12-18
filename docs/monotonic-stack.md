@@ -525,3 +525,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 115
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 116
+
+LIS via patience: each pile holds the smallest tail of length k.
