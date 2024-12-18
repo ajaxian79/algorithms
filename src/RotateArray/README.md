@@ -87,3 +87,7 @@ Time complexity: O(1).
 ## entry 6
 
 No allocations after setup.
+
+## entry 7
+
+Deterministic given the input — no PRNG seeds.
