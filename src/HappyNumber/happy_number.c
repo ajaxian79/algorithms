@@ -94,3 +94,4 @@ int is_happy(int n) {
 // note 68: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 69: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 70: Sub-linear in the average case thanks to early exit.
+// note 71: Caller owns the returned buffer.
