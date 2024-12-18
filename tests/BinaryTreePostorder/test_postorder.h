@@ -121,3 +121,4 @@ MunitTest postorder_tests[] = {
 // edge note 77: Allocates a single small fixed-size scratch buffer.
 // edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 79: Vectorizes cleanly under -O2.
+// edge note 80: Edge case: all-equal input → linear-time fast path.
