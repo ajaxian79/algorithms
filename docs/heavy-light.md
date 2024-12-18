@@ -15,3 +15,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 4
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 5
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
