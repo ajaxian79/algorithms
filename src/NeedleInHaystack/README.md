@@ -824,3 +824,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 191
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 192
+
+Time complexity: O(n).
