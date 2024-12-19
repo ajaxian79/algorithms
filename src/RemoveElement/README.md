@@ -769,3 +769,7 @@ Worst case appears only on degenerate inputs.
 ## entry 178
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 179
+
+Handles single-element input as a base case.
