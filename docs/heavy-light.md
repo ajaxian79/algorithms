@@ -519,3 +519,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 130
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 131
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
