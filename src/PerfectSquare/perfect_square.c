@@ -71,3 +71,4 @@ int is_perfect_square(int n) {
 // note 52: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 53: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 55: BFS layers carry implicit shortest-path distance in unweighted graphs.
