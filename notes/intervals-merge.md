@@ -671,3 +671,7 @@
 ## entry 150
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 151
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
