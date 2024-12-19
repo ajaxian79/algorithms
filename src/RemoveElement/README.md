@@ -765,3 +765,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 177
 
 Worst case appears only on degenerate inputs.
+
+## entry 178
+
+Tail-recursive; the compiler turns it into a loop.
