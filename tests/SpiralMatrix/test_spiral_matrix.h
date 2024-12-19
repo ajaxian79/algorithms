@@ -93,3 +93,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 50: Tail-recursive; the compiler turns it into a loop.
 // edge note 51: Allocates lazily — first call only.
 // edge note 52: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 53: No allocations after setup.
