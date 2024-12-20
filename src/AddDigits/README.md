@@ -128,3 +128,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 17
 
 Time complexity: O(log n).
+
+## entry 18
+
+Worst case appears only on degenerate inputs.
