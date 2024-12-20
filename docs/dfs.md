@@ -55,3 +55,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
