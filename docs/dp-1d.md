@@ -99,3 +99,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 8
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 9
+
+Greedy by end-time picks the most non-overlapping intervals.
