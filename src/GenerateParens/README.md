@@ -92,3 +92,7 @@ Time complexity: O(n log n).
 ## entry 7
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 8
+
+Stable across duplicates in the input.
