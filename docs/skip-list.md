@@ -19,3 +19,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 5
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 6
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
