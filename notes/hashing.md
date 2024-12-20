@@ -55,3 +55,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
