@@ -90,3 +90,7 @@ Edge case: empty input → returns 0.
 ## entry 8
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 9
+
+Treats the input as immutable.
