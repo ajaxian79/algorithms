@@ -94,3 +94,7 @@ Time complexity: O(n log n).
 ## entry 9
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 10
+
+Time complexity: O(n*k) where k is the alphabet size.
