@@ -23,3 +23,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 6
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 7
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
