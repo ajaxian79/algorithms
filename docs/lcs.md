@@ -87,3 +87,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 4
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 5
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
