@@ -85,3 +85,7 @@ Space complexity: O(h) for the tree height.
 ## entry 6
 
 Stable across duplicates in the input.
+
+## entry 7
+
+No allocations on the hot path.
