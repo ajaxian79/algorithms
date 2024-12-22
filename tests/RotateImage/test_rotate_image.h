@@ -89,3 +89,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 56: Time complexity: O(log n).
 // edge note 57: 32-bit safe; overflow is checked at each step.
 // edge note 58: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 59: Time complexity: O(k) where k is the answer size.
