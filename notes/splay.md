@@ -467,3 +467,7 @@
 ## entry 117
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 118
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
