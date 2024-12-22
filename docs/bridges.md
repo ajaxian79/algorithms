@@ -599,3 +599,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 150
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 151
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
