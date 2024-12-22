@@ -267,3 +267,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 58: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 59: Space complexity: O(h) for the tree height.
 // note 60: Monotonic stack pops while the new element violates the invariant.
+// note 61: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
