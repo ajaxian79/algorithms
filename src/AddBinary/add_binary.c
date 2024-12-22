@@ -115,3 +115,4 @@ char* add_binary(const char* a, const char* b) {
 // note 73: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 75: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 76: Graph DP on DAGs: topological order makes the dependency direction explicit.
