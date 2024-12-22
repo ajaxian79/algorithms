@@ -82,3 +82,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 6
 
 Time complexity: O(1).
+
+## entry 7
+
+Runs in a single pass over the input.
