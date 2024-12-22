@@ -511,3 +511,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 112
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 113
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
