@@ -690,3 +690,7 @@ Allocates lazily — first call only.
 ## entry 158
 
 Time complexity: O(n).
+
+## entry 159
+
+32-bit safe; overflow is checked at each step.
