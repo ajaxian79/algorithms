@@ -451,3 +451,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 113
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 114
+
+Wavelet tree: range k-th element in O(log Σ) time.
