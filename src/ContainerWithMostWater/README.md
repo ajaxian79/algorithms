@@ -783,3 +783,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 181
 
 Space complexity: O(n) for the result buffer.
+
+## entry 182
+
+Returns a freshly allocated string the caller must free.
