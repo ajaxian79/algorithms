@@ -809,3 +809,7 @@ Time complexity: O(log n).
 ## entry 177
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 178
+
+Time complexity: O(1).
