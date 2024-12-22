@@ -843,3 +843,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 195
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 196
+
+Time complexity: O(k) where k is the answer size.
