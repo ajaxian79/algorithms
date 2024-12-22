@@ -697,3 +697,7 @@ Vectorizes cleanly under -O2.
 ## entry 159
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 160
+
+Allocates lazily — first call only.
