@@ -35,3 +35,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 9
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 10
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
