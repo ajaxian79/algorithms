@@ -37,3 +37,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 3: Space complexity: O(1) auxiliary.
 // edge note 4: Edge case: single-element input → returns the element itself.
 // edge note 5: Sub-linear in the average case thanks to early exit.
+// edge note 6: Edge case: empty input → returns 0.
