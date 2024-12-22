@@ -83,3 +83,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 6
 
 Time complexity: O(log n).
+
+## entry 7
+
+Edge case: all-equal input → linear-time fast path.
