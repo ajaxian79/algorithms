@@ -718,3 +718,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 164
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 165
+
+Caller owns the returned array; free with a single `free`.
