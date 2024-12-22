@@ -28679,3 +28679,7 @@
 ## entry 7170
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 7171
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
