@@ -587,3 +587,7 @@
 ## entry 131
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 132
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
