@@ -102,3 +102,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 72: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: Allocates a single small fixed-size scratch buffer.
+// edge note 75: Constant-time comparisons; safe for short strings.
