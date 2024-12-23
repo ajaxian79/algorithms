@@ -503,3 +503,7 @@
 ## entry 126
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 127
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
