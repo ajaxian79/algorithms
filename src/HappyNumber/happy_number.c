@@ -93,3 +93,4 @@ int is_happy(int n) {
 // note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 68: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 69: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 70: Sub-linear in the average case thanks to early exit.
