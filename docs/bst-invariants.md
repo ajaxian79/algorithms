@@ -509,3 +509,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 111
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 112
+
+Heap when you only need top-k; full sort is wasted work.
