@@ -577,3 +577,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 128
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 129
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
