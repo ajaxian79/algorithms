@@ -785,3 +785,7 @@ Worst case appears only on degenerate inputs.
 ## entry 181
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 182
+
+Deterministic given the input — no PRNG seeds.
