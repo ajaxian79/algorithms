@@ -84,3 +84,4 @@ int is_symmetric(STreeNode* root) {
 // note 65: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 67: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 68: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
