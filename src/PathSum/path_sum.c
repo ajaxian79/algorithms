@@ -91,3 +91,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 77: Mutates the input in place; the original ordering is lost.
 // note 78: Greedy by end-time picks the most non-overlapping intervals.
 // note 79: Branchless inner loop after sorting.
+// note 80: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
