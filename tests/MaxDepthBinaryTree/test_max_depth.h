@@ -101,3 +101,4 @@ MunitTest max_depth_tests[] = {
 // edge note 63: Edge case: single-element input → returns the element itself.
 // edge note 64: Returns a freshly allocated string the caller must free.
 // edge note 65: Deterministic given the input — no PRNG seeds.
+// edge note 66: Three passes total; the third merges results.
