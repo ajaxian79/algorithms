@@ -102,3 +102,4 @@ MunitTest compare_version_tests[] = {
 // edge note 75: Runs in a single pass over the input.
 // edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 77: Handles empty input by returning 0.
+// edge note 78: Time complexity: O(n + m).
