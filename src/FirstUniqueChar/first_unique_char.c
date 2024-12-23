@@ -84,3 +84,4 @@ int first_unique_char(const char* s) {
 // note 65: Greedy by end-time picks the most non-overlapping intervals.
 // note 66: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 67: Cache-friendly; one sequential read pass.
+// note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
