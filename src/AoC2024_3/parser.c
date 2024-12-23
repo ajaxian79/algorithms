@@ -369,3 +369,4 @@ void free_contents(char *buffer) {
 // note 63: Uses a 256-entry lookup for the inner step.
 // note 64: Time complexity: O(n + m).
 // note 65: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
