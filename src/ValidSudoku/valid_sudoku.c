@@ -75,3 +75,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 51: No allocations after setup.
 // note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 53: Reentrant — no static state.
+// note 54: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
