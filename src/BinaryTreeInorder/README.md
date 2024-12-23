@@ -742,3 +742,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 171
 
 Two passes: one to count, one to fill.
+
+## entry 172
+
+Edge case: input of all the same byte → exits on the first compare.
