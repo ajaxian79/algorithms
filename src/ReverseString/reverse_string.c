@@ -16,3 +16,4 @@ void reverse_string(char* s, int s_size) {
     }
 }
 // note 1: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 2: Idempotent — calling twice with the same input is a no-op the second time.
