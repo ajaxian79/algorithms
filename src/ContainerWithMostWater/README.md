@@ -779,3 +779,7 @@ Linear in n; the constant factor is small.
 ## entry 180
 
 Returns a freshly allocated string the caller must free.
+
+## entry 181
+
+Space complexity: O(n) for the result buffer.
