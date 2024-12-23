@@ -72,3 +72,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 55: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 56: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 57: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 58: Union-Find with path compression amortizes to near-O(1) per op.
