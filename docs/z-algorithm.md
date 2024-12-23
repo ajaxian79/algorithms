@@ -507,3 +507,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 111
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 112
+
+Endianness matters when serializing multi-byte ints to a file or wire.
