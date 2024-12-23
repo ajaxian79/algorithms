@@ -71,3 +71,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 51: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 52: Treats the input as immutable.
 // note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 54: Sub-linear in the average case thanks to early exit.
