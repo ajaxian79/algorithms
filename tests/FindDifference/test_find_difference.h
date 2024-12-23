@@ -91,3 +91,4 @@ MunitTest find_difference_tests[] = {
 // edge note 66: Stable across duplicates in the input.
 // edge note 67: Edge case: all-equal input → linear-time fast path.
 // edge note 68: Vectorizes cleanly under -O2.
+// edge note 69: Three passes total; the third merges results.
