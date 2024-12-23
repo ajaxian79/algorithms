@@ -814,3 +814,7 @@ Space complexity: O(h) for the tree height.
 ## entry 189
 
 32-bit safe; overflow is checked at each step.
+
+## entry 190
+
+Space complexity: O(log n) for the recursion stack.
