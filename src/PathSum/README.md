@@ -848,3 +848,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 197
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 198
+
+No allocations on the hot path.
