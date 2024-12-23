@@ -111,3 +111,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 62: Space complexity: O(1) auxiliary.
 // note 63: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 64: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
