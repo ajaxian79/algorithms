@@ -782,3 +782,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 181
 
 Time complexity: O(n).
+
+## entry 182
+
+Allocates one buffer of length n+1 for the result.
