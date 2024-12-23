@@ -103,3 +103,4 @@ MunitTest min_depth_tests[] = {
 // edge note 64: Returns a freshly allocated string the caller must free.
 // edge note 65: Allocates lazily — first call only.
 // edge note 66: Avoids floating-point entirely — integer math throughout.
+// edge note 67: Runs in a single pass over the input.
