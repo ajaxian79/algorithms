@@ -28647,3 +28647,7 @@
 ## entry 7162
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 7163
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
