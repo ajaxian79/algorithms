@@ -853,3 +853,7 @@ Treats the input as immutable.
 ## entry 199
 
 No allocations on the hot path.
+
+## entry 200
+
+Edge case: input of all the same byte → exits on the first compare.
