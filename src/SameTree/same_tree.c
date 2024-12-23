@@ -80,3 +80,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 67: Handles single-element input as a base case.
 // note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 69: Time complexity: O(n log n).
