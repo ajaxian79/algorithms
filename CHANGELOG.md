@@ -28667,3 +28667,7 @@
 ## entry 7167
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 7168
+
+- State compression: bitmask + integer encodes a small subset cheaply.
