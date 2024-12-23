@@ -90,3 +90,7 @@ Treats the input as immutable.
 ## entry 7
 
 Edge case: single-element input → returns the element itself.
+
+## entry 8
+
+No allocations after setup.
