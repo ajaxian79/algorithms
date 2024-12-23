@@ -563,3 +563,7 @@
 ## entry 124
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 125
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
