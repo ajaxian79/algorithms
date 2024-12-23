@@ -804,3 +804,7 @@ Cache-friendly; one sequential read pass.
 ## entry 185
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 186
+
+Edge case: empty input → returns 0.
