@@ -51,3 +51,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
