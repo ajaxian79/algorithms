@@ -910,3 +910,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 213
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 214
+
+Edge case: input with one duplicate → handled without an extra pass.
