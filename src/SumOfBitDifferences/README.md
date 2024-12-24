@@ -696,3 +696,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 159
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 160
+
+Time complexity: O(n log n).
