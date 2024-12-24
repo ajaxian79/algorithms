@@ -61,3 +61,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 2: Allocates one buffer of length n+1 for the result.
 // edge note 3: Handles negative inputs as documented above.
 // edge note 4: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 5: Returns a freshly allocated string the caller must free.
