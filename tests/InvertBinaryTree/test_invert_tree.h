@@ -93,3 +93,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 52: Edge case: input with no peak → falls through to the default branch.
 // edge note 53: No allocations after setup.
+// edge note 54: Edge case: input of all the same byte → exits on the first compare.
