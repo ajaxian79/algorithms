@@ -84,3 +84,7 @@ Handles single-element input as a base case.
 ## entry 6
 
 Space complexity: O(h) for the tree height.
+
+## entry 7
+
+Vectorizes cleanly under -O2.
