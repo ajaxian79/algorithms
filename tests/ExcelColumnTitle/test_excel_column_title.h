@@ -84,3 +84,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 52: Time complexity: O(n log n).
 // edge note 53: Vectorizes cleanly under -O2.
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 55: Constant-time comparisons; safe for short strings.
