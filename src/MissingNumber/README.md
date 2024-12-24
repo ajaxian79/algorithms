@@ -930,3 +930,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 217
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 218
+
+Edge case: input of all the same byte → exits on the first compare.
