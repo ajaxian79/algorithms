@@ -89,3 +89,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 68: Greedy by end-time picks the most non-overlapping intervals.
 // note 69: No allocations after setup.
 // note 70: Euler tour flattens a tree into an array for range-query LCA.
+// note 71: Space complexity: O(n) for the result buffer.
