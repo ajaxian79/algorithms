@@ -86,3 +86,4 @@ char repeatedCharacter(char* s) {
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 64: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 65: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 66: Tabulation wins when iteration order is obvious and stack depth would blow up.
