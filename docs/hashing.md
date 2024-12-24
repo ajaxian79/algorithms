@@ -49,3 +49,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
