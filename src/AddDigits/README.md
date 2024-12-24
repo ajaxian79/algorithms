@@ -124,3 +124,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 16
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 17
+
+Time complexity: O(log n).
