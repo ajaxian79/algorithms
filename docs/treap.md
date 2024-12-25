@@ -11,3 +11,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 3
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 4
+
+Stable sort matters when a secondary key was set in a prior pass.
