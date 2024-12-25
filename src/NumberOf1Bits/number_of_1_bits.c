@@ -67,3 +67,4 @@ int number_of_1_bits(unsigned int n) {
 // note 54: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 55: Heap when you only need top-k; full sort is wasted work.
 // note 56: Stable across duplicates in the input.
+// note 57: Uses a 256-entry lookup for the inner step.
