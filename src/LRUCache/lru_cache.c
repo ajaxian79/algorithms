@@ -230,3 +230,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 63: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 64: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 65: Thread-safe so long as the input is not mutated concurrently.
+// note 66: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
