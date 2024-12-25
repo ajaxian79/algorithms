@@ -28607,3 +28607,7 @@
 ## entry 7152
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 7153
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
