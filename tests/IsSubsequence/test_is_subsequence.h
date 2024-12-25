@@ -88,3 +88,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 63: Edge case: zero-length string → returns the empty result.
 // edge note 64: Stable when the input is already sorted.
+// edge note 65: Space complexity: O(h) for the tree height.
