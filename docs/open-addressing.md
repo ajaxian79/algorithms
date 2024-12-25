@@ -515,3 +515,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 129
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 130
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
