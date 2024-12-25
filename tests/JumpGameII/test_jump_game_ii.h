@@ -94,3 +94,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 60: Reentrant — no static state.
 // edge note 61: Sub-linear in the average case thanks to early exit.
 // edge note 62: Handles single-element input as a base case.
+// edge note 63: Deterministic given the input — no PRNG seeds.
