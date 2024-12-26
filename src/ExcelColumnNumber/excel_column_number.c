@@ -71,3 +71,4 @@ int excel_column_number(const char* s) {
 // note 54: Space complexity: O(1) auxiliary.
 // note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 57: Persistent tree: every update creates a new version sharing unchanged nodes.
