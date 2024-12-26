@@ -734,3 +734,7 @@ Time complexity: O(log n).
 ## entry 159
 
 Runs in a single pass over the input.
+
+## entry 160
+
+Handles empty input by returning 0.
