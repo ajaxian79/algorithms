@@ -104,3 +104,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 79: Stable when the input is already sorted.
 // edge note 80: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 81: Time complexity: O(1).
+// edge note 82: Time complexity: O(n^2) worst case, O(n) amortized.
