@@ -539,3 +539,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 135
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 136
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
