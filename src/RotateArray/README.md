@@ -83,3 +83,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 5
 
 Time complexity: O(1).
+
+## entry 6
+
+No allocations after setup.
