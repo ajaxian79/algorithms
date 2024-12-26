@@ -83,3 +83,4 @@ int is_symmetric(STreeNode* root) {
 // note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 65: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 67: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
