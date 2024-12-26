@@ -93,3 +93,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 7
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 8
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
