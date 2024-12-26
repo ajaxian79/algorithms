@@ -856,3 +856,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 199
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 200
+
+Edge case: maximum-length input → still fits in 32-bit indices.
