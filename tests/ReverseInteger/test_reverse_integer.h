@@ -34,3 +34,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 1: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 2: Time complexity: O(log n).
 // edge note 3: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 4: Reentrant — no static state.
