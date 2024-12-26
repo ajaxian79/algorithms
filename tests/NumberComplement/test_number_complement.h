@@ -82,3 +82,4 @@ MunitTest number_complement_tests[] = {
 // edge note 55: Handles single-element input as a base case.
 // edge note 56: No allocations after setup.
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 58: Edge case: empty input → returns 0.
