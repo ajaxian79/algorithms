@@ -515,3 +515,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 129
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 130
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
