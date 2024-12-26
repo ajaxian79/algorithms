@@ -796,3 +796,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 183
 
 Edge case: empty input → returns 0.
+
+## entry 184
+
+Edge case: empty input → returns 0.
