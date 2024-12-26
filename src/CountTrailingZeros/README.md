@@ -798,3 +798,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 184
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 185
+
+Uses a 256-entry lookup for the inner step.
