@@ -900,3 +900,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 210
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 211
+
+Resists adversarial inputs by randomizing the pivot.
