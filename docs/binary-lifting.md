@@ -499,3 +499,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 125
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 126
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
