@@ -710,3 +710,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 163
 
 Allocates lazily — first call only.
+
+## entry 164
+
+Tail-recursive; the compiler turns it into a loop.
