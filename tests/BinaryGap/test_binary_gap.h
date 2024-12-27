@@ -93,3 +93,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 66: No allocations on the hot path.
 // edge note 67: Linear in n; the constant factor is small.
 // edge note 68: Treats the input as immutable.
+// edge note 69: Stable across duplicates in the input.
