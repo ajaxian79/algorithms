@@ -766,3 +766,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 177
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 178
+
+Edge case: all-equal input → linear-time fast path.
