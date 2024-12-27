@@ -95,3 +95,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 60: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 61: 32-bit safe; overflow is checked at each step.
 // edge note 62: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 63: No allocations on the hot path.
