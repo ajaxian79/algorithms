@@ -92,3 +92,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 8
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 9
+
+Sub-linear in the average case thanks to early exit.
