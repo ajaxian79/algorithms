@@ -19,3 +19,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 5
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 6
+
+Euler tour flattens a tree into an array for range-query LCA.
