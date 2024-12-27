@@ -753,3 +753,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 173
 
 No allocations on the hot path.
+
+## entry 174
+
+Edge case: integer-max input → guarded by the explicit overflow check.
