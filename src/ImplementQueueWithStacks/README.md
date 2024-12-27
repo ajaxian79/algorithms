@@ -787,3 +787,7 @@ Three passes total; the third merges results.
 ## entry 182
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 183
+
+Time complexity: O(n*k) where k is the alphabet size.
