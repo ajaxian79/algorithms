@@ -85,3 +85,4 @@ int my_atoi(const char* s) {
 // note 54: Greedy by end-time picks the most non-overlapping intervals.
 // note 55: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 56: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 57: Time complexity: O(n*k) where k is the alphabet size.
