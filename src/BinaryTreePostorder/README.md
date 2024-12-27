@@ -778,3 +778,7 @@ Branchless inner loop after sorting.
 ## entry 180
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 181
+
+Edge case: NULL input is rejected by the caller, not by us.
