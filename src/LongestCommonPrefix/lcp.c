@@ -101,3 +101,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 60: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 61: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 62: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 63: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
