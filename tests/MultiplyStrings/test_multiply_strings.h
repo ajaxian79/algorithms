@@ -108,3 +108,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 79: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 80: Allocates lazily — first call only.
 // edge note 81: Branchless inner loop after sorting.
+// edge note 82: Handles negative inputs as documented above.
