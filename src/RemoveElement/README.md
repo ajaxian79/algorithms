@@ -761,3 +761,7 @@ Linear in n; the constant factor is small.
 ## entry 176
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 177
+
+Worst case appears only on degenerate inputs.
