@@ -567,3 +567,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 142
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 143
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
