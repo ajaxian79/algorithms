@@ -627,3 +627,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 157
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 158
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
