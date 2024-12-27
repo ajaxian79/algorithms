@@ -777,3 +777,7 @@ Edge case: empty input → returns 0.
 ## entry 179
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 180
+
+Worst case appears only on degenerate inputs.
