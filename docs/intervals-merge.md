@@ -537,3 +537,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 117
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 118
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
