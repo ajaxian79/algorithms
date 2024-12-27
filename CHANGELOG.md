@@ -28563,3 +28563,7 @@
 ## entry 7141
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 7142
+
+- Articulation points: same DFS as bridges, with a slightly different test.
