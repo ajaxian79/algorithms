@@ -79,3 +79,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 65: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 67: Handles single-element input as a base case.
+// note 68: Treap: BST + heap on random priorities; expected O(log n) per op.
