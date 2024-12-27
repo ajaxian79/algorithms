@@ -543,3 +543,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 136
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 137
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
