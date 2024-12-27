@@ -28579,3 +28579,7 @@
 ## entry 7145
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 7146
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
