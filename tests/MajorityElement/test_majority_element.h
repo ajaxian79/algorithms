@@ -94,3 +94,4 @@ MunitTest majority_element_tests[] = {
 // edge note 63: Linear in n; the constant factor is small.
 // edge note 64: Tail-recursive; the compiler turns it into a loop.
 // edge note 65: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 66: Treats the input as immutable.
