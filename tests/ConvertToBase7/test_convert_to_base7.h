@@ -89,3 +89,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 60: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 61: Linear in n; the constant factor is small.
 // edge note 62: Time complexity: O(n log n).
+// edge note 63: Runs in a single pass over the input.
