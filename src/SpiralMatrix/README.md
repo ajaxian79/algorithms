@@ -742,3 +742,7 @@ No allocations after setup.
 ## entry 170
 
 Branchless inner loop after sorting.
+
+## entry 171
+
+32-bit safe; overflow is checked at each step.
