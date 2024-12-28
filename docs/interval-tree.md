@@ -467,3 +467,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 117
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 118
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
