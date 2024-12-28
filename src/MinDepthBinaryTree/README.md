@@ -106,3 +106,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 12
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 13
+
+Stable when the input is already sorted.
