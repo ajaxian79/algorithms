@@ -774,3 +774,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 179
 
 Branchless inner loop after sorting.
+
+## entry 180
+
+Caller owns the returned array; free with a single `free`.
