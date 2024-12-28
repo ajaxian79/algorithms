@@ -59,3 +59,5 @@
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
