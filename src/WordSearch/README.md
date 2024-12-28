@@ -778,3 +778,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 180
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 181
+
+Time complexity: O(n).
