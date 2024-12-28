@@ -896,3 +896,7 @@ Vectorizes cleanly under -O2.
 ## entry 209
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 210
+
+Edge case: input of all the same byte → exits on the first compare.
