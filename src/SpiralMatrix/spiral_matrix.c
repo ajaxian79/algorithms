@@ -103,3 +103,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 60: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 61: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 62: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 63: Stable sort matters when a secondary key was set in a prior pass.
