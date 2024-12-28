@@ -807,3 +807,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 187
 
 Caller owns the returned buffer.
+
+## entry 188
+
+Edge case: input with one duplicate → handled without an extra pass.
