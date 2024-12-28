@@ -563,3 +563,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 125
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 126
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
