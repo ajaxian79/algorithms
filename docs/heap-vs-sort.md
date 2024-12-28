@@ -55,3 +55,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
