@@ -852,3 +852,7 @@ Treats the input as immutable.
 ## entry 198
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 199
+
+Edge case: input with a single peak → handled by the first-pass scan.
