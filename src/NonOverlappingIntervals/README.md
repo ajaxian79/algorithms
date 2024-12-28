@@ -725,3 +725,7 @@ Linear in n; the constant factor is small.
 ## entry 166
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 167
+
+Allocates a single small fixed-size scratch buffer.
