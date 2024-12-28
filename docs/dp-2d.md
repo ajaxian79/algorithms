@@ -87,3 +87,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 6
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 7
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
