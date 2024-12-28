@@ -81,3 +81,7 @@ Space complexity: O(1) auxiliary.
 ## entry 6
 
 Handles negative inputs as documented above.
+
+## entry 7
+
+Handles negative inputs as documented above.
