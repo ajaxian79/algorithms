@@ -57,3 +57,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
