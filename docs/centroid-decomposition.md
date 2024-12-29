@@ -563,3 +563,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 141
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 142
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
