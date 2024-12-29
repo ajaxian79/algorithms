@@ -793,3 +793,7 @@ Stable across duplicates in the input.
 ## entry 183
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 184
+
+No allocations on the hot path.
