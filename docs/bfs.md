@@ -51,3 +51,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Walk both pointers from each end inward; advance the smaller side.
