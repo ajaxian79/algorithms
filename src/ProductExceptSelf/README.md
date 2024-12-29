@@ -72,3 +72,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 2
 
 Handles negative inputs as documented above.
+
+## entry 3
+
+Vectorizes cleanly under -O2.
