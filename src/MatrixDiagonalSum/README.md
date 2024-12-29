@@ -794,3 +794,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 184
 
 Stable when the input is already sorted.
+
+## entry 185
+
+Edge case: reverse-sorted input → still O(n log n).
