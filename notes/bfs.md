@@ -533,3 +533,7 @@
 ## entry 116
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 117
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
