@@ -127,3 +127,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 72: Edge case: reverse-sorted input → still O(n log n).
 // edge note 73: Handles single-element input as a base case.
 // edge note 74: Handles empty input by returning 0.
+// edge note 75: Uses a small fixed-size lookup table.
