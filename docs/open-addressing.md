@@ -507,3 +507,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 127
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 128
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
