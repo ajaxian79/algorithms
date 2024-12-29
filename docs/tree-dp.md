@@ -31,3 +31,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 8
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 9
+
+Wavelet tree: range k-th element in O(log Σ) time.
