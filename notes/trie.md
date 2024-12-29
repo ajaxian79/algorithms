@@ -573,3 +573,7 @@
 ## entry 126
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 127
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
