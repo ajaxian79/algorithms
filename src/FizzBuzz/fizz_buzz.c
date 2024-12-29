@@ -115,3 +115,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 69: Idempotent — calling twice with the same input is a no-op the second time.
 // note 70: Space complexity: O(h) for the tree height.
 // note 71: Heap when you only need top-k; full sort is wasted work.
+// note 72: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
