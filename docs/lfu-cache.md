@@ -567,3 +567,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 142
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 143
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
