@@ -95,3 +95,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 61: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 64: Fenwick supports prefix-sum updates in O(log n) with a flat array.
