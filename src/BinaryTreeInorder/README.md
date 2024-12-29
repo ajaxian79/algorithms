@@ -734,3 +734,7 @@ Allocates lazily — first call only.
 ## entry 169
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 170
+
+Space complexity: O(n) for the result buffer.
