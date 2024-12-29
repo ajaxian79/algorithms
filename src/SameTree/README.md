@@ -756,3 +756,7 @@ Handles single-element input as a base case.
 ## entry 175
 
 No allocations on the hot path.
+
+## entry 176
+
+Time complexity: O(k) where k is the answer size.
