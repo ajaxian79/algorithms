@@ -775,3 +775,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 179
 
 Linear in n; the constant factor is small.
+
+## entry 180
+
+Returns a freshly allocated string the caller must free.
