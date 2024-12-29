@@ -31,3 +31,4 @@ MunitTest perfect_square_tests[] = {
 #endif //ALGORITHMS_TEST_PERFECT_SQUARE_H
 // edge note 1: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 2: Branchless inner loop after sorting.
+// edge note 3: Edge case: power-of-two-length input → no padding required.
