@@ -28515,3 +28515,7 @@
 ## entry 7129
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 7130
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
