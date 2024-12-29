@@ -844,3 +844,7 @@ Handles single-element input as a base case.
 ## entry 196
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 197
+
+Allocates one buffer of length n+1 for the result.
