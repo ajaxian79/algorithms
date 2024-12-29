@@ -27,3 +27,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 7
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 8
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
