@@ -728,3 +728,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 167
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 168
+
+Time complexity: O(1).
