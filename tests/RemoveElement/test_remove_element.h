@@ -105,3 +105,4 @@ MunitTest remove_element_tests[] = {
 // edge note 68: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 69: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 70: Edge case: zero-length string → returns the empty result.
+// edge note 71: Edge case: input with one duplicate → handled without an extra pass.
