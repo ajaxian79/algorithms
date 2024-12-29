@@ -798,3 +798,7 @@ Stable when the input is already sorted.
 ## entry 185
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 186
+
+Edge case: integer-min input → guarded by the explicit underflow check.
