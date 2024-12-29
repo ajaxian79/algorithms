@@ -613,3 +613,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 136
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 137
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
