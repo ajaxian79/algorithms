@@ -82,3 +82,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 5
 
 Branchless inner loop after sorting.
+
+## entry 6
+
+No allocations after setup.
