@@ -128,3 +128,4 @@ MunitTest repeated_tests[] = {
 // edge note 72: Avoids floating-point entirely — integer math throughout.
 // edge note 73: 32-bit safe; overflow is checked at each step.
 // edge note 74: Time complexity: O(k) where k is the answer size.
+// edge note 75: Space complexity: O(n) for the result buffer.
