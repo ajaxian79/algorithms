@@ -113,3 +113,4 @@ char* count_and_say(int n) {
 // note 64: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 65: Uses a small fixed-size lookup table.
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
