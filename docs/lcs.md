@@ -535,3 +535,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 116
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 117
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
