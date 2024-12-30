@@ -82,3 +82,4 @@ int is_symmetric(STreeNode* root) {
 // note 63: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 65: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 66: Fenwick supports prefix-sum updates in O(log n) with a flat array.
