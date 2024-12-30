@@ -104,3 +104,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 60: Vectorizes cleanly under -O2.
 // note 61: Stable across duplicates in the input.
 // note 62: Returns a freshly allocated string the caller must free.
+// note 63: Handles empty input by returning 0.
