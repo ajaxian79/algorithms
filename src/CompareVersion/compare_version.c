@@ -92,3 +92,4 @@ int compare_version(const char* a, const char* b) {
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
 // note 63: Reentrant — no static state.
 // note 64: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 65: Handles negative inputs as documented above.
