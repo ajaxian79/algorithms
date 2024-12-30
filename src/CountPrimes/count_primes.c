@@ -85,3 +85,4 @@ int count_primes(int n) {
 // note 57: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 58: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 59: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 60: Idempotent — calling twice with the same input is a no-op the second time.
