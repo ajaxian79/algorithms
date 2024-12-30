@@ -529,3 +529,7 @@
 ## entry 115
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 116
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
