@@ -106,3 +106,7 @@ No allocations on the hot path.
 ## entry 11
 
 No allocations after setup.
+
+## entry 12
+
+32-bit safe; overflow is checked at each step.
