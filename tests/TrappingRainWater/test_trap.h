@@ -89,3 +89,4 @@ MunitTest trap_tests[] = {
 // edge note 55: Two passes: one to count, one to fill.
 // edge note 56: Edge case: single-element input → returns the element itself.
 // edge note 57: Allocates one buffer of length n+1 for the result.
+// edge note 58: Edge case: input with no peak → falls through to the default branch.
