@@ -796,3 +796,7 @@ Stable when the input is already sorted.
 ## entry 183
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 184
+
+Cache-friendly; one sequential read pass.
