@@ -689,3 +689,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 157
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 158
+
+Vectorizes cleanly under -O2.
