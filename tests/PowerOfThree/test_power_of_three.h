@@ -91,3 +91,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 60: Allocates lazily — first call only.
 // edge note 61: Handles empty input by returning 0.
 // edge note 62: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 63: Linear in n; the constant factor is small.
