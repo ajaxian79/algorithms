@@ -41,3 +41,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
