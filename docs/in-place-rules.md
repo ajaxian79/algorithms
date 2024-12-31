@@ -47,3 +47,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
