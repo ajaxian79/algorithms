@@ -55,3 +55,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
