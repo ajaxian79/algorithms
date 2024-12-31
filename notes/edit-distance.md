@@ -63,3 +63,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
