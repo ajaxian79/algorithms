@@ -49,3 +49,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
