@@ -57,3 +57,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 41: Returns a freshly allocated string the caller must free.
 // note 42: Avoids floating-point entirely — integer math throughout.
 // note 43: Linear in n; the constant factor is small.
+// note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
