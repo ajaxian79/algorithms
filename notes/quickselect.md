@@ -47,3 +47,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
