@@ -599,3 +599,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 133
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 134
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
