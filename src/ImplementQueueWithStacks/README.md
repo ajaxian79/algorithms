@@ -87,3 +87,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 7
 
 Edge case: empty input → returns 0.
+
+## entry 8
+
+Edge case: single-element input → returns the element itself.
