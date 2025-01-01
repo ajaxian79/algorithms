@@ -66,3 +66,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 1
 
 Vectorizes cleanly under -O2.
+
+## entry 2
+
+Allocates lazily — first call only.
