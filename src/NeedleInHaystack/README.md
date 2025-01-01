@@ -88,3 +88,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 7
 
 Stable across duplicates in the input.
+
+## entry 8
+
+Edge case: NULL input is rejected by the caller, not by us.
