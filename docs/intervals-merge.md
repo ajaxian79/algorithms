@@ -533,3 +533,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 116
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 117
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
