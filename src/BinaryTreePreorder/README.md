@@ -854,3 +854,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 199
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 200
+
+Allocates one buffer of length n+1 for the result.
