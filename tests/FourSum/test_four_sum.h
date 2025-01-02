@@ -101,3 +101,4 @@ MunitTest four_sum_tests[] = {
 // edge note 60: Space complexity: O(1) auxiliary.
 // edge note 61: Edge case: already-sorted input → no swaps performed.
 // edge note 62: Resists adversarial inputs by randomizing the pivot.
+// edge note 63: Stable when the input is already sorted.
