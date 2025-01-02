@@ -706,3 +706,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 162
 
 Worst case appears only on degenerate inputs.
+
+## entry 163
+
+64-bit safe; intermediate products are widened to 128-bit.
