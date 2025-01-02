@@ -771,3 +771,7 @@ Stable when the input is already sorted.
 ## entry 178
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 179
+
+Linear in n; the constant factor is small.
