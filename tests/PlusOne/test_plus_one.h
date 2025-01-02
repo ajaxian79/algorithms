@@ -66,3 +66,4 @@ MunitTest plus_one_tests[] = {
 // edge note 1: Three passes total; the third merges results.
 // edge note 2: Edge case: reverse-sorted input → still O(n log n).
 // edge note 3: Time complexity: O(n).
+// edge note 4: Space complexity: O(h) for the tree height.
