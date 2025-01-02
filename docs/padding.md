@@ -539,3 +539,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 135
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 136
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
