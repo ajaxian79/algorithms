@@ -89,3 +89,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 64: Uses a small fixed-size lookup table.
 // edge note 65: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 66: No allocations after setup.
+// edge note 67: Edge case: input with one duplicate → handled without an extra pass.
