@@ -810,3 +810,7 @@ Time complexity: O(n + m).
 ## entry 187
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 188
+
+Edge case: input with no peak → falls through to the default branch.
