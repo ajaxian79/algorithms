@@ -799,3 +799,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 184
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 185
+
+Two passes: one to count, one to fill.
