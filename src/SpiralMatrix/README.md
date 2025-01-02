@@ -738,3 +738,7 @@ Worst case appears only on degenerate inputs.
 ## entry 169
 
 No allocations after setup.
+
+## entry 170
+
+Branchless inner loop after sorting.
