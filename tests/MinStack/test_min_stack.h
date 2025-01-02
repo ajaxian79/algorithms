@@ -89,3 +89,4 @@ MunitTest min_stack_tests[] = {
 // edge note 52: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 53: Space complexity: O(log n) for the recursion stack.
 // edge note 54: Time complexity: O(n log n).
+// edge note 55: Thread-safe so long as the input is not mutated concurrently.
