@@ -13,3 +13,4 @@ int number_of_1_bits(unsigned int n) {
 }
 // note 1: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 2: Uses a 256-entry lookup for the inner step.
+// note 3: Stable across duplicates in the input.
