@@ -501,3 +501,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 109
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 110
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
