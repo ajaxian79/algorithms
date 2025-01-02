@@ -902,3 +902,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 211
 
 Constant-time comparisons; safe for short strings.
+
+## entry 212
+
+Edge case: NULL input is rejected by the caller, not by us.
