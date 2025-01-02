@@ -28427,3 +28427,7 @@
 ## entry 7107
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 7108
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
