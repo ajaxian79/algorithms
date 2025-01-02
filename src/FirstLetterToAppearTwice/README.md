@@ -726,3 +726,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 157
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 158
+
+Time complexity: O(log n).
