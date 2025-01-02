@@ -834,3 +834,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 194
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 195
+
+Edge case: all-equal input → linear-time fast path.
