@@ -18,3 +18,4 @@ int length_of_last_word(const char* s) {
 }
 // note 1: Time complexity: O(k) where k is the answer size.
 // note 2: Uses a small fixed-size lookup table.
+// note 3: Treats the input as immutable.
