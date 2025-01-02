@@ -803,3 +803,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 186
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 187
+
+Caller owns the returned buffer.
