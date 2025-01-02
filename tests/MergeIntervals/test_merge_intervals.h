@@ -118,3 +118,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 76: Tail-recursive; the compiler turns it into a loop.
 // edge note 77: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 78: Time complexity: O(1).
+// edge note 79: Stable when the input is already sorted.
