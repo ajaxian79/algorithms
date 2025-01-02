@@ -770,3 +770,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 178
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 179
+
+Branchless inner loop after sorting.
