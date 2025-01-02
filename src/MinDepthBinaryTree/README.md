@@ -762,3 +762,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 176
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 177
+
+Edge case: input with one duplicate → handled without an extra pass.
