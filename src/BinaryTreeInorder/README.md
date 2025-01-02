@@ -730,3 +730,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 168
 
 Allocates lazily — first call only.
+
+## entry 169
+
+Edge case: reverse-sorted input → still O(n log n).
