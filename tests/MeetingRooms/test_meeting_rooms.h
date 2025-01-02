@@ -32,3 +32,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 2: Tail-recursive; the compiler turns it into a loop.
 // edge note 3: Edge case: single-element input → returns the element itself.
+// edge note 4: Edge case: NULL input is rejected by the caller, not by us.
