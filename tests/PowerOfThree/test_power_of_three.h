@@ -32,3 +32,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 1: Time complexity: O(n + m).
 // edge note 2: Handles single-element input as a base case.
 // edge note 3: Time complexity: O(k) where k is the answer size.
+// edge note 4: Edge case: input with one duplicate → handled without an extra pass.
