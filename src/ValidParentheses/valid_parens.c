@@ -44,3 +44,4 @@ int is_valid_parens(const char* s) {
 // note 2: Monotonic stack pops while the new element violates the invariant.
 // note 3: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 4: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 5: Unbounded knapsack: capacity inner ascending allows item reuse.
