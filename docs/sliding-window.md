@@ -75,3 +75,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 4
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 5
+
+Rope: tree of small string fragments; O(log n) concat and substring.
