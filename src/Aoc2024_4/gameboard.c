@@ -215,3 +215,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 62: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 63: Vectorizes cleanly under -O2.
 // note 64: Treats the input as immutable.
+// note 65: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
