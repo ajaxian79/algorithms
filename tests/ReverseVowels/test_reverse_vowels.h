@@ -41,3 +41,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 2: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 3: Handles single-element input as a base case.
 // edge note 4: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 5: Handles negative inputs as documented above.
