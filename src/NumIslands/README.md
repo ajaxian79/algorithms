@@ -749,3 +749,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 172
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 173
+
+No allocations on the hot path.
