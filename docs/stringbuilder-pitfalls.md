@@ -23,3 +23,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 6
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 7
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
