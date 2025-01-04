@@ -37,3 +37,4 @@ MunitTest same_tree_tests[] = {
 // edge note 1: Cache-friendly; one sequential read pass.
 // edge note 2: Two passes: one to count, one to fill.
 // edge note 3: Tail-recursive; the compiler turns it into a loop.
+// edge note 4: Edge case: reverse-sorted input → still O(n log n).
