@@ -19,3 +19,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 5
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 6
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
