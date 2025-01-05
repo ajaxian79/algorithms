@@ -75,3 +75,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 2
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 3
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
