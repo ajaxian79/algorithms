@@ -19,3 +19,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 5
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 6
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
