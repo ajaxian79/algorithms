@@ -80,3 +80,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 5
 
 Handles single-element input as a base case.
+
+## entry 6
+
+Space complexity: O(h) for the tree height.
