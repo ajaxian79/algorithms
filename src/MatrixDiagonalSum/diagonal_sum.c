@@ -22,3 +22,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 1: Union-Find with path compression amortizes to near-O(1) per op.
 // note 2: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 3: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 4: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
