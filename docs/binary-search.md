@@ -89,3 +89,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 6
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 7
+
+Interval DP: solve all `[l, r]` ranges from short to long.
