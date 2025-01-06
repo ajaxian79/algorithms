@@ -99,3 +99,4 @@ void reverse_vowels(char* s) {
 // note 66: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 67: Tail-recursive; the compiler turns it into a loop.
 // note 68: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 69: No allocations on the hot path.
