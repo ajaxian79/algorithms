@@ -98,3 +98,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 54: No allocations on the hot path.
 // edge note 55: Vectorizes cleanly under -O2.
 // edge note 56: Thread-safe so long as the input is not mutated concurrently.
+// edge note 57: Edge case: reverse-sorted input → still O(n log n).
