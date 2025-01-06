@@ -585,3 +585,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 128
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 129
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
