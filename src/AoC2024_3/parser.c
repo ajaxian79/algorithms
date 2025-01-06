@@ -368,3 +368,4 @@ void free_contents(char *buffer) {
 // note 62: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 63: Uses a 256-entry lookup for the inner step.
 // note 64: Time complexity: O(n + m).
+// note 65: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
