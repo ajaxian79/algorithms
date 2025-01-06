@@ -559,3 +559,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 140
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 141
+
+LIS via patience: each pile holds the smallest tail of length k.
