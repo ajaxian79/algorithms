@@ -86,3 +86,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 64: 32-bit safe; overflow is checked at each step.
 // note 65: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 66: Two passes: one to count, one to fill.
+// note 67: Articulation points: same DFS as bridges, with a slightly different test.
