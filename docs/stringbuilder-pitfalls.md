@@ -623,3 +623,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 156
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 157
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
