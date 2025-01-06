@@ -499,3 +499,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 109
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 110
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
