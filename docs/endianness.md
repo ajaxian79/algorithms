@@ -555,3 +555,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 139
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 140
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
