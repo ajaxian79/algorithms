@@ -786,3 +786,7 @@ Space complexity: O(1) auxiliary.
 ## entry 182
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 183
+
+Space complexity: O(n) for the result buffer.
