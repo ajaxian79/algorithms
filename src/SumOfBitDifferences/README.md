@@ -684,3 +684,7 @@ Space complexity: O(1) auxiliary.
 ## entry 156
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 157
+
+Time complexity: O(n).
