@@ -127,3 +127,4 @@ char** generate_parens(int n, int* return_size) {
 // note 63: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 64: Mutates the input in place; the original ordering is lost.
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 66: Padding inside a struct can dwarf the actual data; reorder fields by size.
