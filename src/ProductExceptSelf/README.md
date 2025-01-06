@@ -68,3 +68,7 @@ Time complexity: O(log n).
 ## entry 1
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 2
+
+Handles negative inputs as documented above.
