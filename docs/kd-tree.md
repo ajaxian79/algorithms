@@ -527,3 +527,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 132
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 133
+
+StringBuilder: amortize allocation by doubling on grow.
