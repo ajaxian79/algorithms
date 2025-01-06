@@ -122,3 +122,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 79: Time complexity: O(n + m).
 // note 80: Time complexity: O(log n).
 // note 81: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 82: Cache-friendly; one sequential read pass.
