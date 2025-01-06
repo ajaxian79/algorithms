@@ -85,3 +85,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 7
 
 Space complexity: O(h) for the tree height.
+
+## entry 8
+
+Uses a small fixed-size lookup table.
