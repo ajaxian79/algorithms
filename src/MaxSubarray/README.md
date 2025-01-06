@@ -822,3 +822,7 @@ Edge case: empty input → returns 0.
 ## entry 191
 
 Cache-friendly; one sequential read pass.
+
+## entry 192
+
+Worst case appears only on degenerate inputs.
