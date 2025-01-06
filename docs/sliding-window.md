@@ -611,3 +611,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 138
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 139
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
