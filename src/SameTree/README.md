@@ -752,3 +752,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 174
 
 Handles single-element input as a base case.
+
+## entry 175
+
+No allocations on the hot path.
