@@ -80,3 +80,4 @@ int is_symmetric(STreeNode* root) {
 // note 61: Handles negative inputs as documented above.
 // note 62: Time complexity: O(n).
 // note 63: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
