@@ -81,3 +81,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 47: Vectorizes cleanly under -O2.
 // edge note 48: Worst case appears only on degenerate inputs.
 // edge note 49: Time complexity: O(n + m).
+// edge note 50: Edge case: reverse-sorted input → still O(n log n).
