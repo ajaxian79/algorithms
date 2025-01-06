@@ -799,3 +799,7 @@ Edge case: empty input → returns 0.
 ## entry 185
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 186
+
+Edge case: zero-length string → returns the empty result.
