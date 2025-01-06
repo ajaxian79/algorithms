@@ -545,3 +545,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 120
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 121
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
