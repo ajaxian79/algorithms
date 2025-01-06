@@ -88,3 +88,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 67: Stable sort matters when a secondary key was set in a prior pass.
 // note 68: Greedy by end-time picks the most non-overlapping intervals.
 // note 69: No allocations after setup.
+// note 70: Euler tour flattens a tree into an array for range-query LCA.
