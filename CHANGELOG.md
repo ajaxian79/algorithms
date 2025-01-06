@@ -28383,3 +28383,7 @@
 ## entry 7096
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 7097
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
