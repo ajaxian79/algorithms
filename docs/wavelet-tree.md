@@ -503,3 +503,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 126
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 127
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
