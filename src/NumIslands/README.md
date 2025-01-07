@@ -745,3 +745,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 171
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 172
+
+Input is assumed non-NULL; behavior is undefined otherwise.
