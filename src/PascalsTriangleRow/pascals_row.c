@@ -33,3 +33,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 3: Heap when you only need top-k; full sort is wasted work.
 // note 4: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 5: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 6: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
