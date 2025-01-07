@@ -778,3 +778,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 179
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 180
+
+Branchless inner loop after sorting.
