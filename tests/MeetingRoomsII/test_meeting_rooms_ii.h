@@ -110,3 +110,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 79: Edge case: zero-length string → returns the empty result.
 // edge note 80: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 81: Edge case: already-sorted input → no swaps performed.
+// edge note 82: Edge case: input of all the same byte → exits on the first compare.
