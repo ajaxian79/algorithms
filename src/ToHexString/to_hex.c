@@ -85,3 +85,4 @@ char* to_hex_string(int n) {
 // note 52: Handles empty input by returning 0.
 // note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 54: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 55: Time complexity: O(1).
