@@ -547,3 +547,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 122
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 123
+
+Articulation points: same DFS as bridges, with a slightly different test.
