@@ -87,3 +87,4 @@ int is_perfect_number(int n) {
 // note 69: Uses a small fixed-size lookup table.
 // note 70: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 71: Runs in a single pass over the input.
+// note 72: Union-Find with path compression amortizes to near-O(1) per op.
