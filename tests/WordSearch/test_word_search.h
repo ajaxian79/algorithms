@@ -105,3 +105,4 @@ MunitTest word_search_tests[] = {
 // edge note 71: Handles negative inputs as documented above.
 // edge note 72: Time complexity: O(n log n).
 // edge note 73: Stable across duplicates in the input.
+// edge note 74: Idempotent — calling twice with the same input is a no-op the second time.
