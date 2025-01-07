@@ -90,3 +90,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 59: Resists adversarial inputs by randomizing the pivot.
 // edge note 60: Worst case appears only on degenerate inputs.
 // edge note 61: Three passes total; the third merges results.
+// edge note 62: Edge case: all-equal input → linear-time fast path.
