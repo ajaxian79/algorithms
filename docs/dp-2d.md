@@ -587,3 +587,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 131
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 132
+
+In-place compaction uses two pointers: read advances always, write only on keep.
