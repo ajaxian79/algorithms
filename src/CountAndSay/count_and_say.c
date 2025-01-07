@@ -111,3 +111,4 @@ char* count_and_say(int n) {
 // note 62: Allocates a single small fixed-size scratch buffer.
 // note 63: StringBuilder: amortize allocation by doubling on grow.
 // note 64: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 65: Uses a small fixed-size lookup table.
