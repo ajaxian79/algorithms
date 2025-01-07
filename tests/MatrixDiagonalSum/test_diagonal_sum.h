@@ -92,3 +92,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 64: Edge case: zero-length string → returns the empty result.
 // edge note 65: Edge case: single-element input → returns the element itself.
 // edge note 66: Tail-recursive; the compiler turns it into a loop.
+// edge note 67: Time complexity: O(n + m).
