@@ -818,3 +818,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 190
 
 Runs in a single pass over the input.
+
+## entry 191
+
+Edge case: input with a single peak → handled by the first-pass scan.
