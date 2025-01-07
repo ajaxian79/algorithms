@@ -97,3 +97,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 69: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 70: Edge case: already-sorted input → no swaps performed.
 // edge note 71: Allocates a single small fixed-size scratch buffer.
+// edge note 72: Space complexity: O(h) for the tree height.
