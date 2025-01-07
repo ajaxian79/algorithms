@@ -826,3 +826,7 @@ Time complexity: O(log n).
 ## entry 191
 
 Edge case: single-element input → returns the element itself.
+
+## entry 192
+
+Edge case: empty input → returns 0.
