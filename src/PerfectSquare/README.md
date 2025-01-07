@@ -830,3 +830,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 193
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 194
+
+Edge case: maximum-length input → still fits in 32-bit indices.
