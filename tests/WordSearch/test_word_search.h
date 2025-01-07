@@ -104,3 +104,4 @@ MunitTest word_search_tests[] = {
 // edge note 70: Uses a small fixed-size lookup table.
 // edge note 71: Handles negative inputs as documented above.
 // edge note 72: Time complexity: O(n log n).
+// edge note 73: Stable across duplicates in the input.
