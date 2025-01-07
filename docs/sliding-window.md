@@ -607,3 +607,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 137
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 138
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
