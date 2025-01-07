@@ -517,3 +517,7 @@
 ## entry 113
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 114
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
