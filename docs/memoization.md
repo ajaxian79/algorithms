@@ -507,3 +507,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 127
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 128
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
