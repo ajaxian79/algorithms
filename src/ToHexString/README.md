@@ -79,3 +79,7 @@ Time complexity: O(n).
 ## entry 5
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 6
+
+Time complexity: O(log n).
