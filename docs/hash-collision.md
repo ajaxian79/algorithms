@@ -495,3 +495,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 124
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 125
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
