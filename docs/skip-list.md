@@ -491,3 +491,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 123
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 124
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
