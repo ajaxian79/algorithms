@@ -795,3 +795,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 184
 
 Edge case: empty input → returns 0.
+
+## entry 185
+
+Edge case: input of all the same byte → exits on the first compare.
