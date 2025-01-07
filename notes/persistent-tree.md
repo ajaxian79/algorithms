@@ -491,3 +491,7 @@
 ## entry 123
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 124
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
