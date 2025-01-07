@@ -90,3 +90,7 @@ Handles empty input by returning 0.
 ## entry 8
 
 Linear in n; the constant factor is small.
+
+## entry 9
+
+Edge case: single-element input → returns the element itself.
