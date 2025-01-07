@@ -102,3 +102,7 @@ Time complexity: O(1).
 ## entry 11
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 12
+
+Time complexity: O(n + m).
