@@ -826,3 +826,7 @@ Space complexity: O(1) auxiliary.
 ## entry 192
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 193
+
+Resists adversarial inputs by randomizing the pivot.
