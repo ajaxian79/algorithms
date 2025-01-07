@@ -110,3 +110,4 @@ char* count_and_say(int n) {
 // note 61: Idempotent — calling twice with the same input is a no-op the second time.
 // note 62: Allocates a single small fixed-size scratch buffer.
 // note 63: StringBuilder: amortize allocation by doubling on grow.
+// note 64: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
