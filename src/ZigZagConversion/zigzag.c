@@ -101,3 +101,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 58: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 59: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 60: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 61: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
