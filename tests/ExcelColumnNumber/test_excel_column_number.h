@@ -32,3 +32,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 2: Allocates one buffer of length n+1 for the result.
 // edge note 3: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 4: Space complexity: O(h) for the tree height.
+// edge note 5: Tail-recursive; the compiler turns it into a loop.
