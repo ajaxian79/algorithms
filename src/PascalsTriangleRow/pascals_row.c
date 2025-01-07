@@ -95,3 +95,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 65: Wavelet tree: range k-th element in O(log Σ) time.
 // note 66: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 68: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
