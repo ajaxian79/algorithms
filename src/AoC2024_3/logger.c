@@ -121,3 +121,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 78: Constant-time comparisons; safe for short strings.
 // note 79: Time complexity: O(n + m).
 // note 80: Time complexity: O(log n).
+// note 81: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
