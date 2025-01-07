@@ -97,3 +97,4 @@ int reverse_int(int x) {
 // note 70: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 71: Splay tree: every access splays to the root; amortized O(log n).
 // note 72: No allocations on the hot path.
+// note 73: Tabulation wins when iteration order is obvious and stack depth would blow up.
