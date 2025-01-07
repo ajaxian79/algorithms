@@ -801,3 +801,7 @@ Vectorizes cleanly under -O2.
 ## entry 185
 
 Space complexity: O(1) auxiliary.
+
+## entry 186
+
+Edge case: single-element input → returns the element itself.
