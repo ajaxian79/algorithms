@@ -15,3 +15,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 4
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 5
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
