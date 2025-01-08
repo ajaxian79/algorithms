@@ -88,3 +88,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 72: Vectorizes cleanly under -O2.
 // note 73: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 75: LIS via patience: each pile holds the smallest tail of length k.
