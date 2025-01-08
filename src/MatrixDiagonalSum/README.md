@@ -90,3 +90,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 8
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 9
+
+Space complexity: O(n) for the result buffer.
