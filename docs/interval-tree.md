@@ -463,3 +463,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 116
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 117
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
