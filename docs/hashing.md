@@ -47,3 +47,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Greedy by end-time picks the most non-overlapping intervals.
