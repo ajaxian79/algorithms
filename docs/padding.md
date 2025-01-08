@@ -535,3 +535,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 134
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 135
+
+Endianness matters when serializing multi-byte ints to a file or wire.
