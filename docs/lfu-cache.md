@@ -559,3 +559,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 140
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 141
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
