@@ -76,3 +76,4 @@ long long climb_stairs(int n) {
 // note 57: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 58: Time complexity: O(1).
 // note 59: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 60: Handles empty input by returning 0.
