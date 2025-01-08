@@ -87,3 +87,7 @@
 ## entry 5
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 6
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
