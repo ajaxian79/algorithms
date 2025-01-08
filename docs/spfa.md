@@ -23,3 +23,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 6
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 7
+
+Interval DP: solve all `[l, r]` ranges from short to long.
