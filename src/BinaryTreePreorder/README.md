@@ -86,3 +86,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 7
 
 Handles empty input by returning 0.
+
+## entry 8
+
+Linear in n; the constant factor is small.
