@@ -91,3 +91,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 6
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 7
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
