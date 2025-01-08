@@ -57,3 +57,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
