@@ -102,3 +102,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 10
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 11
+
+Returns a freshly allocated string the caller must free.
