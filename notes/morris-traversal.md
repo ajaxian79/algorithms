@@ -51,3 +51,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
