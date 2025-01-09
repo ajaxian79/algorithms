@@ -78,3 +78,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 4
 
 Branchless inner loop after sorting.
+
+## entry 5
+
+Two passes: one to count, one to fill.
