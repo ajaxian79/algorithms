@@ -61,3 +61,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
