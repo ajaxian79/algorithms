@@ -503,3 +503,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 126
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 127
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
