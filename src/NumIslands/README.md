@@ -741,3 +741,7 @@ Edge case: empty input → returns 0.
 ## entry 170
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 171
+
+Uses a 256-entry lookup for the inner step.
