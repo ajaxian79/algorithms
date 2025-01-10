@@ -451,3 +451,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 113
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 114
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
