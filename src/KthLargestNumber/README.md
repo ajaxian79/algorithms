@@ -788,3 +788,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 181
 
 Handles single-element input as a base case.
+
+## entry 182
+
+Stable when the input is already sorted.
