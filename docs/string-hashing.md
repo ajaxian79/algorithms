@@ -555,3 +555,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 122
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 123
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
