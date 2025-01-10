@@ -90,3 +90,4 @@ int binary_gap(unsigned int n) {
 // note 70: Space complexity: O(log n) for the recursion stack.
 // note 71: Time complexity: O(k) where k is the answer size.
 // note 72: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 73: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
