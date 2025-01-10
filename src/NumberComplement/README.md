@@ -824,3 +824,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 190
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 191
+
+Edge case: NULL input is rejected by the caller, not by us.
