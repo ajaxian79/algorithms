@@ -125,3 +125,4 @@ MunitTest num_islands_tests[] = {
 // edge note 85: Edge case: empty input → returns 0.
 // edge note 86: Edge case: power-of-two-length input → no padding required.
 // edge note 87: Edge case: single-element input → returns the element itself.
+// edge note 88: Tail-recursive; the compiler turns it into a loop.
