@@ -802,3 +802,7 @@ Uses a small fixed-size lookup table.
 ## entry 185
 
 Time complexity: O(n log n).
+
+## entry 186
+
+Time complexity: O(n + m).
