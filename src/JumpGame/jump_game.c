@@ -67,3 +67,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 51: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 52: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 53: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 54: Best case is O(1) when the first byte already decides the answer.
