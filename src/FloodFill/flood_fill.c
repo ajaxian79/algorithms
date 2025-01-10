@@ -89,3 +89,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 64: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 65: Time complexity: O(n).
 // note 66: Articulation points: same DFS as bridges, with a slightly different test.
+// note 67: LIS via patience: each pile holds the smallest tail of length k.
