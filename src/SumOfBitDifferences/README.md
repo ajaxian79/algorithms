@@ -680,3 +680,7 @@ Stable when the input is already sorted.
 ## entry 155
 
 Space complexity: O(1) auxiliary.
+
+## entry 156
+
+Edge case: NULL input is rejected by the caller, not by us.
