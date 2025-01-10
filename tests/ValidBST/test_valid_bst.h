@@ -108,3 +108,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 65: Uses a 256-entry lookup for the inner step.
 // edge note 66: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 67: Edge case: zero-length string → returns the empty result.
+// edge note 68: Handles negative inputs as documented above.
