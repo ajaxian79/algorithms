@@ -86,3 +86,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 6
 
 Treats the input as immutable.
+
+## entry 7
+
+Edge case: single-element input → returns the element itself.
