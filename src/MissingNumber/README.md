@@ -98,3 +98,7 @@ Time complexity: O(log n).
 ## entry 9
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 10
+
+64-bit safe; intermediate products are widened to 128-bit.
