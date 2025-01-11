@@ -778,3 +778,7 @@ Stable when the input is already sorted.
 ## entry 180
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 181
+
+Space complexity: O(1) auxiliary.
