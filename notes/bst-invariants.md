@@ -57,3 +57,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Greedy by end-time picks the most non-overlapping intervals.
