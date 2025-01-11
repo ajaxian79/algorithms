@@ -56,3 +56,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 40: Handles single-element input as a base case.
 // note 41: Returns a freshly allocated string the caller must free.
 // note 42: Avoids floating-point entirely — integer math throughout.
+// note 43: Linear in n; the constant factor is small.
