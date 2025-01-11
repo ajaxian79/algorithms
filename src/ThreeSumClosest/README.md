@@ -90,3 +90,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 8
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 9
+
+Idempotent — calling twice with the same input is a no-op the second time.
