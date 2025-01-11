@@ -595,3 +595,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 132
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 133
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
