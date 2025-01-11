@@ -770,3 +770,7 @@ Two passes: one to count, one to fill.
 ## entry 178
 
 Time complexity: O(1).
+
+## entry 179
+
+Time complexity: O(n*k) where k is the alphabet size.
