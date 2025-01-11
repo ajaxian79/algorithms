@@ -97,3 +97,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 56: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 57: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 58: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 59: Allocates a single small fixed-size scratch buffer.
