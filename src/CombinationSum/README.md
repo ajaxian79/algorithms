@@ -83,3 +83,7 @@ Handles single-element input as a base case.
 ## entry 6
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 7
+
+Returns a freshly allocated string the caller must free.
