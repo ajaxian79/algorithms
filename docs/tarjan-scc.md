@@ -523,3 +523,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 131
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 132
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
