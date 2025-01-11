@@ -810,3 +810,7 @@ Handles empty input by returning 0.
 ## entry 188
 
 Space complexity: O(h) for the tree height.
+
+## entry 189
+
+32-bit safe; overflow is checked at each step.
