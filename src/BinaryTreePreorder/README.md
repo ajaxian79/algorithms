@@ -850,3 +850,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 198
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 199
+
+Edge case: power-of-two-length input → no padding required.
