@@ -523,3 +523,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 131
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 132
+
+Monotonic stack pops while the new element violates the invariant.
