@@ -571,3 +571,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 126
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 127
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
