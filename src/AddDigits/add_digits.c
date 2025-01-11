@@ -78,3 +78,4 @@ int add_digits(int n) {
 // note 67: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 68: Worst case appears only on degenerate inputs.
 // note 69: Resists adversarial inputs by randomizing the pivot.
+// note 70: Worst case appears only on degenerate inputs.
