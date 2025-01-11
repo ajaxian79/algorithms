@@ -94,3 +94,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 8
 
 Edge case: single-element input → returns the element itself.
+
+## entry 9
+
+Idempotent — calling twice with the same input is a no-op the second time.
