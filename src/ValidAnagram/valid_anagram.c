@@ -89,3 +89,4 @@ int is_anagram(const char* s, const char* t) {
 // note 60: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 61: Heap when you only need top-k; full sort is wasted work.
 // note 62: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 63: Caller owns the returned buffer.
