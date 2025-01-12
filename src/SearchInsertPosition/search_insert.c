@@ -85,3 +85,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 69: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 70: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 71: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 72: Allocates one buffer of length n+1 for the result.
