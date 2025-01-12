@@ -848,3 +848,7 @@ Time complexity: O(n + m).
 ## entry 197
 
 Treats the input as immutable.
+
+## entry 198
+
+Uses a 256-entry lookup for the inner step.
