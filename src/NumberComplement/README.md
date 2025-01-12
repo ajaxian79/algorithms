@@ -816,3 +816,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 188
 
 Time complexity: O(log n).
+
+## entry 189
+
+Best case is O(1) when the first byte already decides the answer.
