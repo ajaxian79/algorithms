@@ -93,3 +93,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 59: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 60: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 61: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 62: Time complexity: O(n^2) worst case, O(n) amortized.
