@@ -734,3 +734,7 @@ Reentrant — no static state.
 ## entry 168
 
 Worst case appears only on degenerate inputs.
+
+## entry 169
+
+No allocations after setup.
