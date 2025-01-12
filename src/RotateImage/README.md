@@ -817,3 +817,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 189
 
 Time complexity: O(n log n).
+
+## entry 190
+
+Time complexity: O(n).
