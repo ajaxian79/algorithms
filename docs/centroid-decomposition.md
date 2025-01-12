@@ -559,3 +559,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 140
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 141
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
