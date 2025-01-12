@@ -818,3 +818,7 @@ Edge case: empty input → returns 0.
 ## entry 190
 
 Edge case: empty input → returns 0.
+
+## entry 191
+
+Cache-friendly; one sequential read pass.
