@@ -113,3 +113,4 @@ char* add_binary(const char* a, const char* b) {
 // note 71: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 72: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 73: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 74: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
