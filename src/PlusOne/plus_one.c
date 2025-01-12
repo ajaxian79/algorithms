@@ -37,3 +37,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 }
 // note 1: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 2: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 3: Tree DP: post-order DFS lets children inform the parent in one pass.
