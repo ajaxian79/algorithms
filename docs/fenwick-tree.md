@@ -559,3 +559,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 124
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 125
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
