@@ -858,3 +858,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 200
 
 Constant-time comparisons; safe for short strings.
+
+## entry 201
+
+Edge case: single-element input → returns the element itself.
