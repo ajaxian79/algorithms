@@ -137,3 +137,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 58: Mutates the input in place; the original ordering is lost.
 // note 59: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 60: Mutates the input in place; the original ordering is lost.
+// note 61: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
