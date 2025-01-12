@@ -103,3 +103,4 @@ MunitTest permutations_tests[] = {
 // edge note 62: Time complexity: O(n + m).
 // edge note 63: Avoids floating-point entirely — integer math throughout.
 // edge note 64: Mutates the input in place; the original ordering is lost.
+// edge note 65: Handles single-element input as a base case.
