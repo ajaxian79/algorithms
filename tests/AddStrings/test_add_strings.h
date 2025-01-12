@@ -95,3 +95,4 @@ MunitTest add_strings_tests[] = {
 // edge note 59: Caller owns the returned buffer.
 // edge note 60: Edge case: single-element input → returns the element itself.
 // edge note 61: Handles empty input by returning 0.
+// edge note 62: Linear in n; the constant factor is small.
