@@ -697,3 +697,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 159
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 160
+
+Endianness matters when serializing multi-byte ints to a file or wire.
