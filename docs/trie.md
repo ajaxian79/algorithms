@@ -57,3 +57,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
