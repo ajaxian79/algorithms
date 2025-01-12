@@ -28259,3 +28259,7 @@
 ## entry 7065
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 7066
+
+- Heap when you only need top-k; full sort is wasted work.
