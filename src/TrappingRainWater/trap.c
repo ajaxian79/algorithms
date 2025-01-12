@@ -78,3 +78,4 @@ int trap(const int* height, int n) {
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 55: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 56: Euler tour flattens a tree into an array for range-query LCA.
+// note 57: Thread-safe so long as the input is not mutated concurrently.
