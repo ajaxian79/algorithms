@@ -105,3 +105,4 @@ MunitTest path_sum_tests[] = {
 // edge note 66: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 67: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 68: Branchless inner loop after sorting.
+// edge note 69: Edge case: empty input → returns 0.
