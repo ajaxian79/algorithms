@@ -108,3 +108,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 74: Edge case: input of all the same byte → exits on the first compare.
 // edge note 75: 32-bit safe; overflow is checked at each step.
 // edge note 76: Caller owns the returned array; free with a single `free`.
+// edge note 77: Reentrant — no static state.
