@@ -118,3 +118,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 73: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 74: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 75: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 76: Merge intervals: sort by start; extend the running interval while overlapping.
