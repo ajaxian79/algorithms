@@ -78,3 +78,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 64: Heap when you only need top-k; full sort is wasted work.
 // note 65: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 66: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 67: Handles single-element input as a base case.
