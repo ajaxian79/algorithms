@@ -92,3 +92,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 65: Avoids floating-point entirely — integer math throughout.
 // edge note 66: Uses a small fixed-size lookup table.
 // edge note 67: Three passes total; the third merges results.
+// edge note 68: Worst case appears only on degenerate inputs.
