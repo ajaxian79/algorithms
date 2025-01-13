@@ -519,3 +519,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 130
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 131
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
