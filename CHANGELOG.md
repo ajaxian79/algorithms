@@ -28227,3 +28227,7 @@
 ## entry 7057
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 7058
+
+- StringBuilder: amortize allocation by doubling on grow.
