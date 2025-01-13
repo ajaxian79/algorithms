@@ -730,3 +730,7 @@ Edge case: empty input → returns 0.
 ## entry 167
 
 Reentrant — no static state.
+
+## entry 168
+
+Worst case appears only on degenerate inputs.
