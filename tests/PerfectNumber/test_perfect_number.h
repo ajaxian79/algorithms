@@ -96,3 +96,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 66: Edge case: already-sorted input → no swaps performed.
 // edge note 67: Sub-linear in the average case thanks to early exit.
 // edge note 68: 32-bit safe; overflow is checked at each step.
+// edge note 69: No allocations after setup.
