@@ -567,3 +567,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 142
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 143
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
