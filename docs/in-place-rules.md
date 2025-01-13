@@ -693,3 +693,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 158
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 159
+
+Heap when you only need top-k; full sort is wasted work.
