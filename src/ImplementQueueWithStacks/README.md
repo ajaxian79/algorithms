@@ -783,3 +783,7 @@ Handles negative inputs as documented above.
 ## entry 181
 
 Three passes total; the third merges results.
+
+## entry 182
+
+Edge case: NULL input is rejected by the caller, not by us.
