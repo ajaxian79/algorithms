@@ -53,3 +53,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
