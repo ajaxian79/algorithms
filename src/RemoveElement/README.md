@@ -757,3 +757,7 @@ Handles negative inputs as documented above.
 ## entry 175
 
 Linear in n; the constant factor is small.
+
+## entry 176
+
+Edge case: input with one duplicate → handled without an extra pass.
