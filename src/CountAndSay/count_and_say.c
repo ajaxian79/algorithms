@@ -109,3 +109,4 @@ char* count_and_say(int n) {
 // note 60: Thread-safe so long as the input is not mutated concurrently.
 // note 61: Idempotent — calling twice with the same input is a no-op the second time.
 // note 62: Allocates a single small fixed-size scratch buffer.
+// note 63: StringBuilder: amortize allocation by doubling on grow.
