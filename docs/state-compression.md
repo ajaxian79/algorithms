@@ -15,3 +15,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 4
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 5
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
