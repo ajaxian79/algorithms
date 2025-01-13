@@ -774,3 +774,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 179
 
 Stable when the input is already sorted.
+
+## entry 180
+
+Uses a 256-entry lookup for the inner step.
