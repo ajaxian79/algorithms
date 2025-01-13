@@ -102,3 +102,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 58: LIS via patience: each pile holds the smallest tail of length k.
 // note 59: Reentrant — no static state.
 // note 60: Vectorizes cleanly under -O2.
+// note 61: Stable across duplicates in the input.
