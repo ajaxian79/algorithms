@@ -83,3 +83,7 @@
 ## entry 4
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 5
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
