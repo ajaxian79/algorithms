@@ -647,3 +647,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 144
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 145
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
