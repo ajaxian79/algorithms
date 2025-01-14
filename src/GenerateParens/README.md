@@ -780,3 +780,7 @@ Cache-friendly; one sequential read pass.
 ## entry 179
 
 No allocations after setup.
+
+## entry 180
+
+Edge case: zero-length string → returns the empty result.
