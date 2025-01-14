@@ -36,3 +36,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 1: No allocations on the hot path.
 // edge note 2: Uses a 256-entry lookup for the inner step.
 // edge note 3: Stable when the input is already sorted.
+// edge note 4: Time complexity: O(n log n).
