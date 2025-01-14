@@ -81,3 +81,7 @@
 ## entry 3
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 4
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
