@@ -83,3 +83,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 61: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
 // note 63: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 64: Monotonic deque: push back, pop back to maintain order, pop front when stale.
