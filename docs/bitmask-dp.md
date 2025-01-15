@@ -27,3 +27,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 7
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 8
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
