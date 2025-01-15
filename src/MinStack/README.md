@@ -806,3 +806,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 187
 
 Handles empty input by returning 0.
+
+## entry 188
+
+Space complexity: O(h) for the tree height.
