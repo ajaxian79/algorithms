@@ -87,3 +87,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 5
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 6
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
