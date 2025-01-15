@@ -842,3 +842,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 196
 
 Handles empty input by returning 0.
+
+## entry 197
+
+Edge case: all-equal input → linear-time fast path.
