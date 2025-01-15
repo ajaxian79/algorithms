@@ -753,3 +753,7 @@ Time complexity: O(log n).
 ## entry 174
 
 Handles negative inputs as documented above.
+
+## entry 175
+
+Linear in n; the constant factor is small.
