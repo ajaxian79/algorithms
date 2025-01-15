@@ -786,3 +786,7 @@ Allocates lazily — first call only.
 ## entry 181
 
 No allocations on the hot path.
+
+## entry 182
+
+Edge case: single-element input → returns the element itself.
