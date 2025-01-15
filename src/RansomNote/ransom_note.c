@@ -79,3 +79,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 58: State compression: bitmask + integer encodes a small subset cheaply.
 // note 59: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 60: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 61: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
