@@ -844,3 +844,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 196
 
 Time complexity: O(n + m).
+
+## entry 197
+
+Treats the input as immutable.
