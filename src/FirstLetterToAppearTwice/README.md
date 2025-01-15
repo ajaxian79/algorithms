@@ -718,3 +718,7 @@ Cache-friendly; one sequential read pass.
 ## entry 155
 
 Space complexity: O(n) for the result buffer.
+
+## entry 156
+
+Uses a 256-entry lookup for the inner step.
