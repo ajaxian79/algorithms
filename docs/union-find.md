@@ -591,3 +591,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 131
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 132
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
