@@ -813,3 +813,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 188
 
 32-bit safe; overflow is checked at each step.
+
+## entry 189
+
+Time complexity: O(n log n).
