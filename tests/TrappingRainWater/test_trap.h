@@ -88,3 +88,4 @@ MunitTest trap_tests[] = {
 // edge note 54: Deterministic given the input — no PRNG seeds.
 // edge note 55: Two passes: one to count, one to fill.
 // edge note 56: Edge case: single-element input → returns the element itself.
+// edge note 57: Allocates one buffer of length n+1 for the result.
