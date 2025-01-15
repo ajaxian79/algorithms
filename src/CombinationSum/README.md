@@ -787,3 +787,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 182
 
 Edge case: empty input → returns 0.
+
+## entry 183
+
+Mutates the input in place; the original ordering is lost.
