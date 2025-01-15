@@ -102,3 +102,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 11
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 12
+
+Edge case: power-of-two-length input → no padding required.
