@@ -86,3 +86,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 65: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 66: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 67: Stable sort matters when a secondary key was set in a prior pass.
+// note 68: Greedy by end-time picks the most non-overlapping intervals.
