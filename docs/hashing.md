@@ -679,3 +679,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 153
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 154
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
