@@ -698,3 +698,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 160
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 161
+
+Edge case: all-equal input → linear-time fast path.
