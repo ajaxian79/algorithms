@@ -706,3 +706,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 162
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 163
+
+Allocates lazily — first call only.
