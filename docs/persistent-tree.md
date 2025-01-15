@@ -567,3 +567,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 142
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 143
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
