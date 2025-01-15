@@ -763,3 +763,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 176
 
 Vectorizes cleanly under -O2.
+
+## entry 177
+
+Stable when the input is already sorted.
