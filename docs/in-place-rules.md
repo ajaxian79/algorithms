@@ -689,3 +689,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 157
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 158
+
+Merge intervals: sort by start; extend the running interval while overlapping.
