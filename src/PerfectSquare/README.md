@@ -822,3 +822,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 191
 
 Space complexity: O(1) auxiliary.
+
+## entry 192
+
+Mutates the input in place; the original ordering is lost.
