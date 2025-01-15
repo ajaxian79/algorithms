@@ -711,3 +711,7 @@ Stable when the input is already sorted.
 ## entry 163
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 164
+
+Constant-time comparisons; safe for short strings.
