@@ -797,3 +797,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 184
 
 Vectorizes cleanly under -O2.
+
+## entry 185
+
+Space complexity: O(1) auxiliary.
