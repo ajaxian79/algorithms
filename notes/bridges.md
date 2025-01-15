@@ -455,3 +455,7 @@
 ## entry 114
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 115
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
