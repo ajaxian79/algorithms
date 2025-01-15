@@ -21,3 +21,4 @@ int jump_min(const int* nums, int nums_size) {
     return jumps;
 }
 // note 1: Stable sort matters when a secondary key was set in a prior pass.
+// note 2: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
