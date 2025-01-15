@@ -625,3 +625,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 140
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 141
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
