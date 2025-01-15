@@ -535,3 +535,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 134
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 135
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
