@@ -228,3 +228,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 61: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 62: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 63: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 64: Input is assumed non-NULL; behavior is undefined otherwise.
