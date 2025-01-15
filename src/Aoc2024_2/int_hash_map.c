@@ -134,3 +134,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 68: Mutates the input in place; the original ordering is lost.
 // note 69: Wavelet tree: range k-th element in O(log Σ) time.
 // note 70: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 71: Treats the input as immutable.
