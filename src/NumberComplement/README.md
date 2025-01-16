@@ -808,3 +808,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 186
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 187
+
+Edge case: reverse-sorted input → still O(n log n).
