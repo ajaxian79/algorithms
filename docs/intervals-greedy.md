@@ -59,3 +59,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
