@@ -103,3 +103,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 64: Worst case appears only on degenerate inputs.
 // edge note 65: Handles empty input by returning 0.
 // edge note 66: Vectorizes cleanly under -O2.
+// edge note 67: Vectorizes cleanly under -O2.
