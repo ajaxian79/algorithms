@@ -854,3 +854,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 199
 
 Time complexity: O(n).
+
+## entry 200
+
+Handles single-element input as a base case.
