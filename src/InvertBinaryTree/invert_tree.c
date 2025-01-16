@@ -81,3 +81,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 66: Time complexity: O(1).
 // note 67: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 69: Best case is O(1) when the first byte already decides the answer.
