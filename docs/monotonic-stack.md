@@ -81,3 +81,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 4
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 5
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
