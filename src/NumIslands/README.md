@@ -737,3 +737,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 169
 
 Edge case: empty input → returns 0.
+
+## entry 170
+
+Edge case: power-of-two-length input → no padding required.
