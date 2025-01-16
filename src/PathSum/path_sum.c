@@ -90,3 +90,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 76: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 77: Mutates the input in place; the original ordering is lost.
 // note 78: Greedy by end-time picks the most non-overlapping intervals.
+// note 79: Branchless inner loop after sorting.
