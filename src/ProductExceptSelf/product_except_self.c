@@ -93,3 +93,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 58: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 59: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 60: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 61: Caller owns the returned buffer.
