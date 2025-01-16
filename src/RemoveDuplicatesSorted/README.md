@@ -898,3 +898,7 @@ Caller owns the returned buffer.
 ## entry 210
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 211
+
+Constant-time comparisons; safe for short strings.
