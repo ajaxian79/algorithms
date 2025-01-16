@@ -79,3 +79,4 @@ int is_symmetric(STreeNode* root) {
 // note 60: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 61: Handles negative inputs as documented above.
 // note 62: Time complexity: O(n).
+// note 63: Treap: BST + heap on random priorities; expected O(log n) per op.
