@@ -91,3 +91,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 55: Uses a small fixed-size lookup table.
 // edge note 56: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 57: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 58: Time complexity: O(n log n).
