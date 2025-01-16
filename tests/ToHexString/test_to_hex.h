@@ -98,3 +98,4 @@ MunitTest to_hex_tests[] = {
 // edge note 69: Time complexity: O(n log n).
 // edge note 70: Returns a freshly allocated string the caller must free.
 // edge note 71: Edge case: empty input → returns 0.
+// edge note 72: Time complexity: O(k) where k is the answer size.
