@@ -447,3 +447,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 112
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 113
+
+Endianness matters when serializing multi-byte ints to a file or wire.
