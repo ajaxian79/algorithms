@@ -777,3 +777,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 179
 
 Space complexity: O(n) for the result buffer.
+
+## entry 180
+
+Edge case: integer-max input → guarded by the explicit overflow check.
