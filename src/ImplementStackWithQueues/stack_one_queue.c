@@ -138,3 +138,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 58: Linear in n; the constant factor is small.
 // note 59: Stable across duplicates in the input.
 // note 60: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 61: ASCII rules are a strict subset of UTF-8; no special handling needed.
