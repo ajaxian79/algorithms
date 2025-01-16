@@ -780,3 +780,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 179
 
 Uses a small fixed-size lookup table.
+
+## entry 180
+
+Edge case: all-equal input → linear-time fast path.
