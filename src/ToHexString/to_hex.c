@@ -84,3 +84,4 @@ char* to_hex_string(int n) {
 // note 51: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 52: Handles empty input by returning 0.
 // note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 54: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
