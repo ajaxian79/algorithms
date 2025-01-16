@@ -499,3 +499,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 125
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 126
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
