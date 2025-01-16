@@ -749,3 +749,7 @@ Vectorizes cleanly under -O2.
 ## entry 173
 
 Time complexity: O(log n).
+
+## entry 174
+
+Handles negative inputs as documented above.
