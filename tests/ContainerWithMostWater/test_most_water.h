@@ -88,3 +88,4 @@ MunitTest most_water_tests[] = {
 // edge note 57: Branchless inner loop after sorting.
 // edge note 58: Cache-friendly; one sequential read pass.
 // edge note 59: Edge case: reverse-sorted input → still O(n log n).
+// edge note 60: Caller owns the returned array; free with a single `free`.
