@@ -533,3 +533,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 117
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 118
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
