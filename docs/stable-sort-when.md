@@ -51,3 +51,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
