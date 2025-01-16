@@ -519,3 +519,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 130
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 131
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
