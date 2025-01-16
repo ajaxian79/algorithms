@@ -92,3 +92,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 56: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 57: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 58: Time complexity: O(n log n).
+// edge note 59: Branchless inner loop after sorting.
