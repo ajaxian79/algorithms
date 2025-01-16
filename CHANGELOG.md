@@ -28119,3 +28119,7 @@
 ## entry 7030
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 7031
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
