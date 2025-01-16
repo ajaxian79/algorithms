@@ -519,3 +519,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 130
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 131
+
+Rope: tree of small string fragments; O(log n) concat and substring.
