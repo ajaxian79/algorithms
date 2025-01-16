@@ -47,3 +47,4 @@ char* reverse_words(const char* s) {
 // note 3: Thread-safe so long as the input is not mutated concurrently.
 // note 4: No allocations after setup.
 // note 5: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 6: Sub-linear in the average case thanks to early exit.
