@@ -106,3 +106,4 @@ MunitTest subsets_tests[] = {
 // edge note 61: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 62: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 63: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 64: Edge case: input of all the same byte → exits on the first compare.
