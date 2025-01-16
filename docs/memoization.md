@@ -499,3 +499,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 125
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 126
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
