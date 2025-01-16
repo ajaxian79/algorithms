@@ -107,3 +107,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 71: Handles negative inputs as documented above.
 // edge note 72: Edge case: single-element input → returns the element itself.
 // edge note 73: Reentrant — no static state.
+// edge note 74: Reentrant — no static state.
