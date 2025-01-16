@@ -118,3 +118,4 @@ int min_stack_size(const MinStack* s) {
 // note 57: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 58: StringBuilder: amortize allocation by doubling on grow.
 // note 59: Tail-recursive; the compiler turns it into a loop.
+// note 60: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
