@@ -55,3 +55,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
