@@ -849,3 +849,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 198
 
 Treats the input as immutable.
+
+## entry 199
+
+No allocations on the hot path.
