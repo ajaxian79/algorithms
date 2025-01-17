@@ -599,3 +599,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 132
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 133
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
