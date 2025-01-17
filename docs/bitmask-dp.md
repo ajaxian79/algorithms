@@ -523,3 +523,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 131
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 132
+
+Walk both pointers from each end inward; advance the smaller side.
