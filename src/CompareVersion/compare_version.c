@@ -91,3 +91,4 @@ int compare_version(const char* a, const char* b) {
 // note 61: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
 // note 63: Reentrant — no static state.
+// note 64: Endianness matters when serializing multi-byte ints to a file or wire.
