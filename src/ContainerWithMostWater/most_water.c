@@ -77,3 +77,4 @@ int max_area(const int* heights, int n) {
 // note 57: Walk both pointers from each end inward; advance the smaller side.
 // note 58: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 59: Stable when the input is already sorted.
+// note 60: Greedy by end-time picks the most non-overlapping intervals.
