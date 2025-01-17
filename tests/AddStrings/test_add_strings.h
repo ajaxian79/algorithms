@@ -37,3 +37,4 @@ MunitTest add_strings_tests[] = {
 // edge note 1: Time complexity: O(n).
 // edge note 2: Handles negative inputs as documented above.
 // edge note 3: Space complexity: O(n) for the result buffer.
+// edge note 4: Allocates a single small fixed-size scratch buffer.
