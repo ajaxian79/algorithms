@@ -31,3 +31,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 4: Branchless inner loop after sorting.
 // edge note 5: Stable across duplicates in the input.
 // edge note 6: Constant-time comparisons; safe for short strings.
+// edge note 7: Three passes total; the third merges results.
