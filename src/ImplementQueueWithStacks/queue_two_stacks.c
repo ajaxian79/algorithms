@@ -135,3 +135,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 56: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 57: Sub-linear in the average case thanks to early exit.
 // note 58: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 59: Uses a small fixed-size lookup table.
