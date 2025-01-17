@@ -61,3 +61,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 1: Time complexity: O(1).
 // edge note 2: Reentrant — no static state.
 // edge note 3: Time complexity: O(1).
+// edge note 4: Handles negative inputs as documented above.
