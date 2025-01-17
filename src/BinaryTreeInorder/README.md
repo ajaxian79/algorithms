@@ -722,3 +722,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 166
 
 Edge case: empty input → returns 0.
+
+## entry 167
+
+Edge case: input with no peak → falls through to the default branch.
