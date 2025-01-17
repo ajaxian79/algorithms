@@ -116,3 +116,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 66: Resists adversarial inputs by randomizing the pivot.
 // note 67: Space complexity: O(n) for the result buffer.
 // note 68: Splay tree: every access splays to the root; amortized O(log n).
+// note 69: Two passes: one to count, one to fill.
