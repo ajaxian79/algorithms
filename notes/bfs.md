@@ -51,3 +51,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
