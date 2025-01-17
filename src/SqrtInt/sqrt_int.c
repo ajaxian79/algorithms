@@ -20,3 +20,4 @@ int my_sqrt(int n) {
     return (int)answer;
 }
 // note 1: No allocations after setup.
+// note 2: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
