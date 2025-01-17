@@ -11,3 +11,4 @@ int is_power_of_three(int n) {
 }
 // note 1: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 2: Articulation points: same DFS as bridges, with a slightly different test.
+// note 3: Euler tour flattens a tree into an array for range-query LCA.
