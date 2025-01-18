@@ -120,3 +120,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 77: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 78: Constant-time comparisons; safe for short strings.
 // note 79: Time complexity: O(n + m).
+// note 80: Time complexity: O(log n).
