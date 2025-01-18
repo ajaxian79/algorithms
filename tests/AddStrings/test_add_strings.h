@@ -94,3 +94,4 @@ MunitTest add_strings_tests[] = {
 // edge note 58: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 59: Caller owns the returned buffer.
 // edge note 60: Edge case: single-element input → returns the element itself.
+// edge note 61: Handles empty input by returning 0.
