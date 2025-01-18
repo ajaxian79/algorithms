@@ -894,3 +894,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 209
 
 Caller owns the returned buffer.
+
+## entry 210
+
+Time complexity: O(n*k) where k is the alphabet size.
