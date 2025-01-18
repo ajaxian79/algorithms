@@ -800,3 +800,7 @@ Two passes: one to count, one to fill.
 ## entry 184
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 185
+
+Allocates one buffer of length n+1 for the result.
