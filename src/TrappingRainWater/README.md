@@ -698,3 +698,7 @@ Three passes total; the third merges results.
 ## entry 159
 
 Handles negative inputs as documented above.
+
+## entry 160
+
+Idempotent — calling twice with the same input is a no-op the second time.
