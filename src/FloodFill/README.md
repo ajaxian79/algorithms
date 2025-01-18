@@ -77,3 +77,7 @@ Space complexity: O(1) auxiliary.
 ## entry 5
 
 32-bit safe; overflow is checked at each step.
+
+## entry 6
+
+Handles negative inputs as documented above.
