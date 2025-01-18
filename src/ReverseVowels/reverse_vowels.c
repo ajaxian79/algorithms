@@ -97,3 +97,4 @@ void reverse_vowels(char* s) {
 // note 64: Splay tree: every access splays to the root; amortized O(log n).
 // note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 66: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 67: Tail-recursive; the compiler turns it into a loop.
