@@ -83,3 +83,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 3
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 4
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
