@@ -102,3 +102,7 @@ Space complexity: O(1) auxiliary.
 ## entry 10
 
 No allocations on the hot path.
+
+## entry 11
+
+No allocations after setup.
