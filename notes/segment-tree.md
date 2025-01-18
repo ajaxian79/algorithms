@@ -51,3 +51,5 @@
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Walk both pointers from each end inward; advance the smaller side.
