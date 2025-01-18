@@ -808,3 +808,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 187
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 188
+
+Tail-recursive; the compiler turns it into a loop.
