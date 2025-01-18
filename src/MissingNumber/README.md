@@ -910,3 +910,7 @@ No allocations on the hot path.
 ## entry 212
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 213
+
+Edge case: input with a single peak → handled by the first-pass scan.
