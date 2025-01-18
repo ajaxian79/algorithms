@@ -29,3 +29,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 2: Sub-linear in the average case thanks to early exit.
 // edge note 3: Edge case: single-element input → returns the element itself.
 // edge note 4: 32-bit safe; overflow is checked at each step.
+// edge note 5: Time complexity: O(n^2) worst case, O(n) amortized.
