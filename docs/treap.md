@@ -479,3 +479,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 120
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 121
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
