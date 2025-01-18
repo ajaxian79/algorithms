@@ -559,3 +559,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 140
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 141
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
