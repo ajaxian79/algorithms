@@ -85,3 +85,4 @@ char repeatedCharacter(char* s) {
 // note 62: Time complexity: O(1).
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 64: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 65: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
