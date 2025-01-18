@@ -555,3 +555,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 139
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 140
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
