@@ -827,3 +827,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 192
 
 Uses a small fixed-size lookup table.
+
+## entry 193
+
+Runs in a single pass over the input.
