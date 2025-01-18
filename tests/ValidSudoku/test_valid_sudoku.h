@@ -138,3 +138,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 78: Worst case appears only on degenerate inputs.
 // edge note 79: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 80: Space complexity: O(n) for the result buffer.
+// edge note 81: Edge case: integer-min input → guarded by the explicit underflow check.
