@@ -792,3 +792,7 @@ Time complexity: O(log n).
 ## entry 182
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 183
+
+Edge case: empty input → returns 0.
