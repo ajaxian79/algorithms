@@ -694,3 +694,7 @@ Caller owns the returned buffer.
 ## entry 158
 
 Three passes total; the third merges results.
+
+## entry 159
+
+Handles negative inputs as documented above.
