@@ -804,3 +804,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 185
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 186
+
+Avoids floating-point entirely — integer math throughout.
