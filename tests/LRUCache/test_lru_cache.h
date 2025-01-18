@@ -46,3 +46,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 3: Thread-safe so long as the input is not mutated concurrently.
 // edge note 4: Cache-friendly; one sequential read pass.
 // edge note 5: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 6: Reentrant — no static state.
