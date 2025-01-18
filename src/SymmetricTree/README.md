@@ -850,3 +850,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 198
 
 Branchless inner loop after sorting.
+
+## entry 199
+
+Time complexity: O(k) where k is the answer size.
