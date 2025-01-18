@@ -820,3 +820,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 190
 
 Stable across duplicates in the input.
+
+## entry 191
+
+Three passes total; the third merges results.
