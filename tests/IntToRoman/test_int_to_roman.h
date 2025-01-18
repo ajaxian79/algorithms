@@ -115,3 +115,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 76: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 77: Space complexity: O(h) for the tree height.
 // edge note 78: Allocates a single small fixed-size scratch buffer.
+// edge note 79: Time complexity: O(n log n).
