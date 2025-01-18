@@ -569,3 +569,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 126
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 127
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
