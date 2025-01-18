@@ -547,3 +547,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 121
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 122
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
