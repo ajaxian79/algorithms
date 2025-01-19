@@ -209,3 +209,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 }
 // note 1: Heap when you only need top-k; full sort is wasted work.
 // note 2: 32-bit safe; overflow is checked at each step.
+// note 3: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
