@@ -96,3 +96,7 @@ Space complexity: O(h) for the tree height.
 ## entry 10
 
 Worst case appears only on degenerate inputs.
+
+## entry 11
+
+Space complexity: O(h) for the tree height.
