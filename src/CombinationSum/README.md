@@ -783,3 +783,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 181
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 182
+
+Edge case: empty input → returns 0.
