@@ -92,3 +92,4 @@ int num_islands(char* grid, int m, int n) {
 // note 60: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 61: Treats the input as immutable.
 // note 62: Time complexity: O(n).
+// note 63: Returns a freshly allocated string the caller must free.
