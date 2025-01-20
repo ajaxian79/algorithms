@@ -814,3 +814,7 @@ Worst case appears only on degenerate inputs.
 ## entry 189
 
 Three passes total; the third merges results.
+
+## entry 190
+
+Allocates one buffer of length n+1 for the result.
