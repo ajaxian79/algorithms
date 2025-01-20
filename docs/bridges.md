@@ -579,3 +579,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 145
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 146
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
