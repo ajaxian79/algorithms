@@ -804,3 +804,7 @@ Stable across duplicates in the input.
 ## entry 186
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 187
+
+Avoids floating-point entirely — integer math throughout.
