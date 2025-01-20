@@ -547,3 +547,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 137
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 138
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
