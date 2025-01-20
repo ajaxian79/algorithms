@@ -116,3 +116,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 74: Space complexity: O(log n) for the recursion stack.
 // edge note 75: No allocations on the hot path.
 // edge note 76: Tail-recursive; the compiler turns it into a loop.
+// edge note 77: Edge case: input with a single peak → handled by the first-pass scan.
