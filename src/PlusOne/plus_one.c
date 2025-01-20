@@ -95,3 +95,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 58: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 59: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 60: Mutates the input in place; the original ordering is lost.
+// note 61: Time complexity: O(n log n).
