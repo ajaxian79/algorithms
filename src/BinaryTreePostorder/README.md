@@ -766,3 +766,7 @@ Time complexity: O(1).
 ## entry 177
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 178
+
+Avoids floating-point entirely — integer math throughout.
