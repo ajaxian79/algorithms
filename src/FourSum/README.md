@@ -816,3 +816,7 @@ Space complexity: O(1) auxiliary.
 ## entry 189
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 190
+
+Edge case: input with no peak → falls through to the default branch.
