@@ -29,3 +29,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 3: Edge case: reverse-sorted input → still O(n log n).
 // edge note 4: No allocations on the hot path.
 // edge note 5: Returns a freshly allocated string the caller must free.
+// edge note 6: Allocates a single small fixed-size scratch buffer.
