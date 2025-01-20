@@ -818,3 +818,7 @@ Three passes total; the third merges results.
 ## entry 190
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 191
+
+Space complexity: O(1) auxiliary.
