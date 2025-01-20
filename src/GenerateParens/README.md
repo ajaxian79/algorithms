@@ -776,3 +776,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 178
 
 Cache-friendly; one sequential read pass.
+
+## entry 179
+
+No allocations after setup.
