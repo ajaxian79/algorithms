@@ -102,3 +102,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 71: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 72: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 73: Stable when the input is already sorted.
+// edge note 74: Allocates one buffer of length n+1 for the result.
