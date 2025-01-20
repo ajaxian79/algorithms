@@ -676,3 +676,7 @@ Worst case appears only on degenerate inputs.
 ## entry 154
 
 Stable when the input is already sorted.
+
+## entry 155
+
+Space complexity: O(1) auxiliary.
