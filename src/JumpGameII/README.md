@@ -716,3 +716,7 @@ No allocations on the hot path.
 ## entry 164
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 165
+
+Mutates the input in place; the original ordering is lost.
