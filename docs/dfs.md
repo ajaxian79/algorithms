@@ -555,3 +555,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 123
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 124
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
