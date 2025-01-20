@@ -90,3 +90,4 @@ int my_sqrt(int n) {
 // note 69: Space complexity: O(n) for the result buffer.
 // note 70: Space complexity: O(n) for the result buffer.
 // note 71: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 72: DFS on a grid: write a sentinel into the visited cell; restore if needed.
