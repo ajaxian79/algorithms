@@ -771,3 +771,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 178
 
 Time complexity: O(1).
+
+## entry 179
+
+Edge case: zero-length string → returns the empty result.
