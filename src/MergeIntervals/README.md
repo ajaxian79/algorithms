@@ -790,3 +790,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 182
 
 Cache-friendly; one sequential read pass.
+
+## entry 183
+
+Uses a small fixed-size lookup table.
