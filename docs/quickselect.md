@@ -577,3 +577,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 127
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 128
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
