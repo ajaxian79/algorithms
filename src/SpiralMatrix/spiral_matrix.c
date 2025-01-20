@@ -101,3 +101,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 58: Allocates lazily — first call only.
 // note 59: Idempotent — calling twice with the same input is a no-op the second time.
 // note 60: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 61: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
