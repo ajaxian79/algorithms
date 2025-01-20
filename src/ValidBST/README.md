@@ -765,3 +765,7 @@ Cache-friendly; one sequential read pass.
 ## entry 176
 
 Space complexity: O(n) for the result buffer.
+
+## entry 177
+
+Resists adversarial inputs by randomizing the pivot.
