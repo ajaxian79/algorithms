@@ -69,3 +69,4 @@ char find_difference(const char* s, const char* t) {
 // note 53: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 54: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 55: Handles empty input by returning 0.
+// note 56: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
