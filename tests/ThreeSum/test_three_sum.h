@@ -120,3 +120,4 @@ MunitTest three_sum_tests[] = {
 // edge note 75: Three passes total; the third merges results.
 // edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 77: Time complexity: O(log n).
+// edge note 78: Caller owns the returned array; free with a single `free`.
