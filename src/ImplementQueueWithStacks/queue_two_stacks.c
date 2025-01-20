@@ -133,3 +133,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 54: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 55: Deterministic given the input — no PRNG seeds.
 // note 56: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 57: Sub-linear in the average case thanks to early exit.
