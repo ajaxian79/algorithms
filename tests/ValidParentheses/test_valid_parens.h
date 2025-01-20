@@ -109,3 +109,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 74: No allocations on the hot path.
 // edge note 75: Vectorizes cleanly under -O2.
 // edge note 76: Stable when the input is already sorted.
+// edge note 77: Time complexity: O(1).
