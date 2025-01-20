@@ -134,3 +134,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 55: Deterministic given the input — no PRNG seeds.
 // note 56: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 57: Sub-linear in the average case thanks to early exit.
+// note 58: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
