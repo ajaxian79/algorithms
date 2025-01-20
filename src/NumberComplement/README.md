@@ -796,3 +796,7 @@ Runs in a single pass over the input.
 ## entry 183
 
 Two passes: one to count, one to fill.
+
+## entry 184
+
+Edge case: power-of-two-length input → no padding required.
