@@ -702,3 +702,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 161
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 162
+
+Edge case: input of all the same byte → exits on the first compare.
