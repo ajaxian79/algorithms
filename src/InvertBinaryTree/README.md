@@ -836,3 +836,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 194
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 195
+
+Allocates one buffer of length n+1 for the result.
