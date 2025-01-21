@@ -766,3 +766,7 @@ Three passes total; the third merges results.
 ## entry 176
 
 Handles single-element input as a base case.
+
+## entry 177
+
+Branchless inner loop after sorting.
