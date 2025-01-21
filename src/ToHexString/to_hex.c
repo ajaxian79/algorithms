@@ -32,3 +32,4 @@ char* to_hex_string(int n) {
     return out;
 }
 // note 1: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 2: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
