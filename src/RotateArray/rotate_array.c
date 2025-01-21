@@ -80,3 +80,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 55: Linear in n; the constant factor is small.
 // note 56: Space complexity: O(log n) for the recursion stack.
 // note 57: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 58: Idempotent — calling twice with the same input is a no-op the second time.
