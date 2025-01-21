@@ -583,3 +583,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 130
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 131
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
