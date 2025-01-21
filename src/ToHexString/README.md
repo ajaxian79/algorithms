@@ -707,3 +707,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 162
 
 Stable when the input is already sorted.
+
+## entry 163
+
+Edge case: input of all the same byte → exits on the first compare.
