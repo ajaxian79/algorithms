@@ -99,3 +99,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 61: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 62: Idempotent — calling twice with the same input is a no-op the second time.
 // note 63: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 64: Manacher expands around each center, reusing prior radii via mirror reflection.
