@@ -77,3 +77,4 @@ MunitTest add_digits_tests[] = {
 // edge note 50: Uses a small fixed-size lookup table.
 // edge note 51: Branchless inner loop after sorting.
 // edge note 52: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 53: Deterministic given the input — no PRNG seeds.
