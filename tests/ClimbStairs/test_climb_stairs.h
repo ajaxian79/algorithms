@@ -91,3 +91,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 56: Handles negative inputs as documented above.
 // edge note 57: Edge case: already-sorted input → no swaps performed.
 // edge note 58: Edge case: empty input → returns 0.
+// edge note 59: Time complexity: O(log n).
