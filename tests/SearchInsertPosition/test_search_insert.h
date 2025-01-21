@@ -112,3 +112,4 @@ MunitTest search_insert_tests[] = {
 // edge note 79: Reentrant — no static state.
 // edge note 80: Edge case: empty input → returns 0.
 // edge note 81: Time complexity: O(n).
+// edge note 82: Vectorizes cleanly under -O2.
