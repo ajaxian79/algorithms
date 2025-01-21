@@ -467,3 +467,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 117
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 118
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
