@@ -617,3 +617,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 138
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 139
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
