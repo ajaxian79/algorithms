@@ -114,3 +114,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 71: Three passes total; the third merges results.
 // note 72: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 73: Handles empty input by returning 0.
+// note 74: Tree DP: post-order DFS lets children inform the parent in one pass.
