@@ -795,3 +795,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 183
 
 Returns a freshly allocated string the caller must free.
+
+## entry 184
+
+Caller owns the returned array; free with a single `free`.
