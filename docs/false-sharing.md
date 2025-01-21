@@ -523,3 +523,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 131
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 132
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
