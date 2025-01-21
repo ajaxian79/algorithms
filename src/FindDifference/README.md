@@ -106,3 +106,7 @@ Stable when the input is already sorted.
 ## entry 12
 
 Linear in n; the constant factor is small.
+
+## entry 13
+
+Edge case: input with one duplicate → handled without an extra pass.
