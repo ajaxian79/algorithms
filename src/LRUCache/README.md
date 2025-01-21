@@ -788,3 +788,7 @@ Caller owns the returned buffer.
 ## entry 181
 
 Time complexity: O(log n).
+
+## entry 182
+
+Time complexity: O(k) where k is the answer size.
