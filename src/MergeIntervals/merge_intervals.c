@@ -115,3 +115,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 66: Linear in n; the constant factor is small.
 // note 67: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 68: StringBuilder: amortize allocation by doubling on grow.
+// note 69: In-place compaction uses two pointers: read advances always, write only on keep.
