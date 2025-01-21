@@ -69,3 +69,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 1
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 2
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
