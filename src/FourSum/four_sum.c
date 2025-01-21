@@ -117,3 +117,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 58: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 59: Space complexity: O(n) for the result buffer.
 // note 60: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 61: No allocations after setup.
