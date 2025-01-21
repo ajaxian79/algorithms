@@ -772,3 +772,7 @@ Three passes total; the third merges results.
 ## entry 177
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 178
+
+Cache-friendly; one sequential read pass.
