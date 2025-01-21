@@ -123,3 +123,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 64: Runs in a single pass over the input.
 // edge note 65: Treats the input as immutable.
 // edge note 66: Time complexity: O(n).
+// edge note 67: Best case is O(1) when the first byte already decides the answer.
