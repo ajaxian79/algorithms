@@ -515,3 +515,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 129
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 130
+
+Euler tour flattens a tree into an array for range-query LCA.
