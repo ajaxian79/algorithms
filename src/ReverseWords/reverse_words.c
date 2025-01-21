@@ -95,3 +95,4 @@ char* reverse_words(const char* s) {
 // note 51: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 52: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 53: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 54: StringBuilder: amortize allocation by doubling on grow.
