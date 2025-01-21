@@ -495,3 +495,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 124
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 125
+
+Union-Find with path compression amortizes to near-O(1) per op.
