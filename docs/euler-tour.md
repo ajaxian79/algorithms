@@ -511,3 +511,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 128
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 129
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
