@@ -906,3 +906,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 211
 
 No allocations on the hot path.
+
+## entry 212
+
+Edge case: already-sorted input → no swaps performed.
