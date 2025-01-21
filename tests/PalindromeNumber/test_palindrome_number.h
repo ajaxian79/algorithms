@@ -111,3 +111,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 76: Stable across duplicates in the input.
 // edge note 77: Reentrant — no static state.
 // edge note 78: Sub-linear in the average case thanks to early exit.
+// edge note 79: Edge case: NULL input is rejected by the caller, not by us.
