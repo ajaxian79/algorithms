@@ -106,3 +106,4 @@ MunitTest happy_number_tests[] = {
 // edge note 78: Treats the input as immutable.
 // edge note 79: Cache-friendly; one sequential read pass.
 // edge note 80: Branchless inner loop after sorting.
+// edge note 81: Stable across duplicates in the input.
