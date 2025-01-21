@@ -122,3 +122,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 63: Uses a 256-entry lookup for the inner step.
 // edge note 64: Runs in a single pass over the input.
 // edge note 65: Treats the input as immutable.
+// edge note 66: Time complexity: O(n).
