@@ -762,3 +762,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 176
 
 Time complexity: O(1).
+
+## entry 177
+
+Uses a 256-entry lookup for the inner step.
