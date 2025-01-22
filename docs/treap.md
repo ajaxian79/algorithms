@@ -463,3 +463,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 116
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 117
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
