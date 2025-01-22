@@ -91,3 +91,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 64: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 65: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 66: No allocations on the hot path.
+// edge note 67: Linear in n; the constant factor is small.
