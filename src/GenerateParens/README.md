@@ -768,3 +768,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 176
 
 Three passes total; the third merges results.
+
+## entry 177
+
+Deterministic given the input — no PRNG seeds.
