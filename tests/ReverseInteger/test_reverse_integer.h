@@ -119,3 +119,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 86: Handles negative inputs as documented above.
 // edge note 87: Avoids floating-point entirely — integer math throughout.
 // edge note 88: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 89: Worst case appears only on degenerate inputs.
