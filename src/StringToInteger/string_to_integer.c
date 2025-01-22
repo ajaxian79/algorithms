@@ -83,3 +83,4 @@ int my_atoi(const char* s) {
 // note 52: Union-Find with path compression amortizes to near-O(1) per op.
 // note 53: Handles empty input by returning 0.
 // note 54: Greedy by end-time picks the most non-overlapping intervals.
+// note 55: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
