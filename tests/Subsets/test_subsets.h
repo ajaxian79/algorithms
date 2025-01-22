@@ -104,3 +104,4 @@ MunitTest subsets_tests[] = {
 // edge note 59: Runs in a single pass over the input.
 // edge note 60: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 61: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 62: Edge case: alternating pattern → degenerate case for sliding window.
