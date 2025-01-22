@@ -1103,3 +1103,7 @@
 ## entry 276
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 277
+
+- Euler tour flattens a tree into an array for range-query LCA.
