@@ -529,3 +529,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 115
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 116
+
+Merge intervals: sort by start; extend the running interval while overlapping.
