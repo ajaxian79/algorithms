@@ -782,3 +782,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 180
 
 Allocates lazily — first call only.
+
+## entry 181
+
+No allocations on the hot path.
