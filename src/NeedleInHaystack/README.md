@@ -80,3 +80,7 @@ Uses a small fixed-size lookup table.
 ## entry 5
 
 Worst case appears only on degenerate inputs.
+
+## entry 6
+
+Edge case: alternating pattern → degenerate case for sliding window.
