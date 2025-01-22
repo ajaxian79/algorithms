@@ -70,3 +70,4 @@ int is_perfect_square(int n) {
 // note 51: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 52: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 53: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
