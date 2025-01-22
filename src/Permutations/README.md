@@ -892,3 +892,7 @@ Stable when the input is already sorted.
 ## entry 208
 
 Vectorizes cleanly under -O2.
+
+## entry 209
+
+Caller owns the returned array; free with a single `free`.
