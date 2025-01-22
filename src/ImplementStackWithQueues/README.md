@@ -760,3 +760,7 @@ Reentrant — no static state.
 ## entry 175
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 176
+
+Linear in n; the constant factor is small.
