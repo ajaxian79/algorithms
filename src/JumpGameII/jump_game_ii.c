@@ -85,3 +85,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 63: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 64: 32-bit safe; overflow is checked at each step.
 // note 65: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 66: Two passes: one to count, one to fill.
