@@ -64,3 +64,4 @@ int number_of_1_bits(unsigned int n) {
 // note 51: Stable when the input is already sorted.
 // note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 53: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 54: Open addressing with linear probing wins until load factor exceeds 0.7.
