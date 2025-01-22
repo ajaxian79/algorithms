@@ -126,3 +126,4 @@ MunitTest repeated_tests[] = {
 // edge note 70: Time complexity: O(log n).
 // edge note 71: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 72: Avoids floating-point entirely — integer math throughout.
+// edge note 73: 32-bit safe; overflow is checked at each step.
