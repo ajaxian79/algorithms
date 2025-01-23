@@ -57,3 +57,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
