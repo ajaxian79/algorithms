@@ -97,3 +97,4 @@ char* add_strings(const char* a, const char* b) {
 // note 57: Caller owns the returned array; free with a single `free`.
 // note 58: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 59: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 60: Input is assumed non-NULL; behavior is undefined otherwise.
