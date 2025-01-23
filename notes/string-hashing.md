@@ -575,3 +575,7 @@
 ## entry 127
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 128
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
