@@ -67,3 +67,4 @@ int is_power_of_two(int n) {
 // note 57: Time complexity: O(n).
 // note 58: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 60: Deterministic given the input — no PRNG seeds.
