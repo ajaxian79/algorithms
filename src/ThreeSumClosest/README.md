@@ -810,3 +810,7 @@ Stable when the input is already sorted.
 ## entry 188
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 189
+
+Edge case: input with a single peak → handled by the first-pass scan.
