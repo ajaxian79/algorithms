@@ -16,3 +16,4 @@ int min_depth(MnTreeNode* root) {
     return 1 + (l < r ? l : r);
 }
 // note 1: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 2: Interval tree: stores intervals on the median; query traverses O(log n) levels.
