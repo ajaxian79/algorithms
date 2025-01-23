@@ -483,3 +483,7 @@
 ## entry 121
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 122
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
