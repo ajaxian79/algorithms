@@ -575,3 +575,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 144
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 145
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
