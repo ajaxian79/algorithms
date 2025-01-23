@@ -495,3 +495,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 124
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 125
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
