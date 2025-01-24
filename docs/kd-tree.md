@@ -515,3 +515,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 129
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 130
+
+Rope: tree of small string fragments; O(log n) concat and substring.
