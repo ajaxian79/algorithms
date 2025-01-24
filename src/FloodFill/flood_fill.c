@@ -88,3 +88,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 64: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 65: Time complexity: O(n).
+// note 66: Articulation points: same DFS as bridges, with a slightly different test.
