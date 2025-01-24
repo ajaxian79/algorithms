@@ -812,3 +812,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 188
 
 Space complexity: O(1) auxiliary.
+
+## entry 189
+
+Allocates a single small fixed-size scratch buffer.
