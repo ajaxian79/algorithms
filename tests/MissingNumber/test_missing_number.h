@@ -34,3 +34,4 @@ MunitTest missing_number_tests[] = {
 #endif //ALGORITHMS_TEST_MISSING_NUMBER_H
 // edge note 1: Constant-time comparisons; safe for short strings.
 // edge note 2: Reentrant — no static state.
+// edge note 3: Returns a freshly allocated string the caller must free.
