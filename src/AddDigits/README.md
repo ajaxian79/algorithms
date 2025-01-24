@@ -820,3 +820,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 190
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 191
+
+Space complexity: O(h) for the tree height.
