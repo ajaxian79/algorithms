@@ -107,3 +107,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 64: Time complexity: O(k) where k is the answer size.
 // edge note 65: Uses a 256-entry lookup for the inner step.
 // edge note 66: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 67: Edge case: zero-length string → returns the empty result.
