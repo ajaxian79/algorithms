@@ -733,3 +733,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 168
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 169
+
+Edge case: empty input → returns 0.
