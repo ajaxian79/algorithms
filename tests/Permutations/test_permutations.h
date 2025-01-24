@@ -102,3 +102,4 @@ MunitTest permutations_tests[] = {
 // edge note 61: Edge case: all-equal input → linear-time fast path.
 // edge note 62: Time complexity: O(n + m).
 // edge note 63: Avoids floating-point entirely — integer math throughout.
+// edge note 64: Mutates the input in place; the original ordering is lost.
