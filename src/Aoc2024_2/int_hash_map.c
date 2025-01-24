@@ -67,3 +67,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 1: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 2: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 3: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 4: Euler tour flattens a tree into an array for range-query LCA.
