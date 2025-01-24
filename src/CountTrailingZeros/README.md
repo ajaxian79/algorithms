@@ -778,3 +778,7 @@ Vectorizes cleanly under -O2.
 ## entry 179
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 180
+
+Allocates lazily — first call only.
