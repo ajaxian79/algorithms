@@ -801,3 +801,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 185
 
 Space complexity: O(h) for the tree height.
+
+## entry 186
+
+Time complexity: O(n^2) worst case, O(n) amortized.
