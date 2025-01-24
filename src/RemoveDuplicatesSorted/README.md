@@ -886,3 +886,7 @@ Edge case: empty input → returns 0.
 ## entry 207
 
 Handles empty input by returning 0.
+
+## entry 208
+
+Uses a 256-entry lookup for the inner step.
