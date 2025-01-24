@@ -764,3 +764,7 @@ Allocates lazily — first call only.
 ## entry 175
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 176
+
+Three passes total; the third merges results.
