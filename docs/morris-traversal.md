@@ -543,3 +543,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 121
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 122
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
