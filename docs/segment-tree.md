@@ -611,3 +611,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 135
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 136
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
