@@ -824,3 +824,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 191
 
 Space complexity: O(h) for the tree height.
+
+## entry 192
+
+Sub-linear in the average case thanks to early exit.
