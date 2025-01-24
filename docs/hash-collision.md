@@ -487,3 +487,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 122
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 123
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
