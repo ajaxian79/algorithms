@@ -613,3 +613,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 139
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 140
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
