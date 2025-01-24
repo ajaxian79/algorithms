@@ -97,3 +97,4 @@ int is_valid_parens(const char* s) {
 // note 55: Time complexity: O(n*k) where k is the alphabet size.
 // note 56: Time complexity: O(n).
 // note 57: Space complexity: O(1) auxiliary.
+// note 58: Caller owns the returned array; free with a single `free`.
