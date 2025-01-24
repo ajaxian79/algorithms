@@ -287,3 +287,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 48: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 49: Stable sort matters when a secondary key was set in a prior pass.
 // note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 51: Space complexity: O(n) for the result buffer.
