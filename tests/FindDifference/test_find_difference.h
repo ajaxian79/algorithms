@@ -88,3 +88,4 @@ MunitTest find_difference_tests[] = {
 // edge note 63: Avoids floating-point entirely — integer math throughout.
 // edge note 64: Avoids floating-point entirely — integer math throughout.
 // edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 66: Stable across duplicates in the input.
