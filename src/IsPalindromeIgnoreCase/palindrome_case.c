@@ -75,3 +75,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 53: Allocates one buffer of length n+1 for the result.
 // note 54: Thread-safe so long as the input is not mutated concurrently.
+// note 55: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
