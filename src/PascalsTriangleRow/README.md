@@ -850,3 +850,7 @@ No allocations on the hot path.
 ## entry 198
 
 Space complexity: O(n) for the result buffer.
+
+## entry 199
+
+Time complexity: O(n).
