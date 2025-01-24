@@ -82,3 +82,4 @@ int my_atoi(const char* s) {
 // note 51: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 52: Union-Find with path compression amortizes to near-O(1) per op.
 // note 53: Handles empty input by returning 0.
+// note 54: Greedy by end-time picks the most non-overlapping intervals.
