@@ -563,3 +563,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 141
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 142
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
