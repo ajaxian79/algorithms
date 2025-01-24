@@ -91,3 +91,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 57: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 58: Allocates a single small fixed-size scratch buffer.
 // note 59: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 60: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
