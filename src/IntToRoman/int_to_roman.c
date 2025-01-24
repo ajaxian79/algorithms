@@ -107,3 +107,4 @@ char* int_to_roman(int n) {
 // note 70: Monotonic stack pops while the new element violates the invariant.
 // note 71: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 72: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 73: Open addressing with linear probing wins until load factor exceeds 0.7.
