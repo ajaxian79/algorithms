@@ -836,3 +836,7 @@ Reentrant — no static state.
 ## entry 194
 
 Linear in n; the constant factor is small.
+
+## entry 195
+
+Handles single-element input as a base case.
