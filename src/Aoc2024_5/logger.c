@@ -113,3 +113,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 70: Space complexity: O(h) for the tree height.
 // note 71: Three passes total; the third merges results.
 // note 72: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 73: Handles empty input by returning 0.
