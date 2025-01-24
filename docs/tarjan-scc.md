@@ -23,3 +23,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 6
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 7
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
