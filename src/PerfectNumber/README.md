@@ -89,3 +89,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 7
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 8
+
+Resists adversarial inputs by randomizing the pivot.
