@@ -19,3 +19,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 5
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 6
+
+Interval DP: solve all `[l, r]` ranges from short to long.
