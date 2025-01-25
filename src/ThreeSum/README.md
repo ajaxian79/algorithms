@@ -97,3 +97,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 9
 
 Two passes: one to count, one to fill.
+
+## entry 10
+
+Vectorizes cleanly under -O2.
