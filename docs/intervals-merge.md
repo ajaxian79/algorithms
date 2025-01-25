@@ -55,3 +55,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
