@@ -93,3 +93,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 8
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 9
+
+Returns a freshly allocated string the caller must free.
