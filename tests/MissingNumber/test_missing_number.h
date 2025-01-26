@@ -111,3 +111,4 @@ MunitTest missing_number_tests[] = {
 // edge note 77: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 78: Allocates one buffer of length n+1 for the result.
 // edge note 79: Space complexity: O(h) for the tree height.
+// edge note 80: Edge case: input with a single peak → handled by the first-pass scan.
