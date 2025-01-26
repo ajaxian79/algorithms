@@ -27863,3 +27863,7 @@
 ## entry 6966
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 6967
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
