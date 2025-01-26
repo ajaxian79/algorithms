@@ -102,3 +102,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 76: Best case is O(1) when the first byte already decides the answer.
 // edge note 77: Thread-safe so long as the input is not mutated concurrently.
 // edge note 78: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 79: Linear in n; the constant factor is small.
