@@ -741,3 +741,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 171
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 172
+
+Vectorizes cleanly under -O2.
