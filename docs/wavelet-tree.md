@@ -491,3 +491,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 123
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 124
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
