@@ -98,3 +98,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 70: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 71: Handles negative inputs as documented above.
 // note 72: Handles empty input by returning 0.
+// note 73: Time complexity: O(1).
