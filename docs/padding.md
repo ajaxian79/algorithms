@@ -31,3 +31,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 8
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 9
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
