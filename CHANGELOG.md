@@ -27843,3 +27843,7 @@
 ## entry 6961
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 6962
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
