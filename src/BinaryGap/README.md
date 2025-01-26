@@ -818,3 +818,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 189
 
 Linear in n; the constant factor is small.
+
+## entry 190
+
+Time complexity: O(log n).
