@@ -694,3 +694,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 159
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 160
+
+Caller owns the returned array; free with a single `free`.
