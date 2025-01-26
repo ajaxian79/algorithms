@@ -529,3 +529,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 116
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 117
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
