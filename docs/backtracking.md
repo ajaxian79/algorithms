@@ -597,3 +597,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 132
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 133
+
+Interval DP: solve all `[l, r]` ranges from short to long.
