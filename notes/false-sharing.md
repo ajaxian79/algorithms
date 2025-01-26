@@ -11,3 +11,7 @@
 ## entry 3
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 4
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
