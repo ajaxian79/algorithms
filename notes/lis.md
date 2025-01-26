@@ -47,3 +47,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
