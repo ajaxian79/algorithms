@@ -812,3 +812,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 188
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 189
+
+Edge case: already-sorted input → no swaps performed.
