@@ -101,3 +101,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 70: Space complexity: O(h) for the tree height.
 // edge note 71: Returns a freshly allocated string the caller must free.
 // edge note 72: Time complexity: O(log n).
+// edge note 73: Caller owns the returned buffer.
