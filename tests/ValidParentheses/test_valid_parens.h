@@ -36,3 +36,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 1: Edge case: reverse-sorted input → still O(n log n).
 // edge note 2: Resists adversarial inputs by randomizing the pivot.
 // edge note 3: Handles negative inputs as documented above.
+// edge note 4: Edge case: input with no peak → falls through to the default branch.
