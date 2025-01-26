@@ -55,3 +55,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Stable sort matters when a secondary key was set in a prior pass.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
