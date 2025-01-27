@@ -758,3 +758,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 175
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 176
+
+Edge case: all-equal input → linear-time fast path.
