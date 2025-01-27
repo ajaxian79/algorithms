@@ -74,3 +74,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 48: Caller owns the returned buffer.
 // edge note 49: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 50: Edge case: already-sorted input → no swaps performed.
+// edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
