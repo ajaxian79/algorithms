@@ -183,3 +183,4 @@ int get_next_result(Program* program) {
 // note 69: Linear in n; the constant factor is small.
 // note 70: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 71: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 72: Handles single-element input as a base case.
