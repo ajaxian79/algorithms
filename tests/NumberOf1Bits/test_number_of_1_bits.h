@@ -96,3 +96,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 69: Allocates a single small fixed-size scratch buffer.
 // edge note 70: Time complexity: O(n).
 // edge note 71: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 72: Space complexity: O(n) for the result buffer.
