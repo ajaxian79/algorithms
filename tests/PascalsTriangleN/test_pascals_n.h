@@ -121,3 +121,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 62: Avoids floating-point entirely — integer math throughout.
 // edge note 63: Uses a 256-entry lookup for the inner step.
 // edge note 64: Runs in a single pass over the input.
+// edge note 65: Treats the input as immutable.
