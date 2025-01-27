@@ -128,3 +128,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 68: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 69: Time complexity: O(n).
 // edge note 70: Time complexity: O(k) where k is the answer size.
+// edge note 71: Avoids floating-point entirely — integer math throughout.
