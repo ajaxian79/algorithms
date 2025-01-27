@@ -74,3 +74,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 51: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 53: Allocates one buffer of length n+1 for the result.
+// note 54: Thread-safe so long as the input is not mutated concurrently.
