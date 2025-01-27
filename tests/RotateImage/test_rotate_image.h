@@ -87,3 +87,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 54: Space complexity: O(h) for the tree height.
 // edge note 55: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 56: Time complexity: O(log n).
+// edge note 57: 32-bit safe; overflow is checked at each step.
