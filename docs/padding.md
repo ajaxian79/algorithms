@@ -511,3 +511,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 128
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 129
+
+Rope: tree of small string fragments; O(log n) concat and substring.
