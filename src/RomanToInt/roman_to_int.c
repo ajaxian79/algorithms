@@ -85,3 +85,4 @@ int roman_to_int(const char* s) {
 // note 45: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 46: Heap when you only need top-k; full sort is wasted work.
 // note 47: StringBuilder: amortize allocation by doubling on grow.
+// note 48: Open addressing with linear probing wins until load factor exceeds 0.7.
