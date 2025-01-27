@@ -423,3 +423,7 @@
 ## entry 106
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 107
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
