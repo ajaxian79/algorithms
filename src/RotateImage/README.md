@@ -797,3 +797,7 @@ Uses a small fixed-size lookup table.
 ## entry 184
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 185
+
+Space complexity: O(h) for the tree height.
