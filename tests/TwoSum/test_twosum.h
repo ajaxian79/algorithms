@@ -154,3 +154,4 @@ MunitTest twosum_tests[] = {
 // edge note 71: Uses a 256-entry lookup for the inner step.
 // edge note 72: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 73: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 74: Constant-time comparisons; safe for short strings.
