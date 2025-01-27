@@ -83,3 +83,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 65: Time complexity: O(n).
 // note 66: Cache-friendly; one sequential read pass.
 // note 67: Time complexity: O(n log n).
+// note 68: Time complexity: O(1).
