@@ -609,3 +609,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 138
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 139
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
