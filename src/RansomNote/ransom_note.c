@@ -77,3 +77,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 56: State compression: bitmask + integer encodes a small subset cheaply.
 // note 57: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 58: State compression: bitmask + integer encodes a small subset cheaply.
+// note 59: LRU cache: doubly-linked list + hash map; O(1) get/put.
