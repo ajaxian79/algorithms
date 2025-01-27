@@ -902,3 +902,7 @@ Uses a small fixed-size lookup table.
 ## entry 210
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 211
+
+No allocations on the hot path.
