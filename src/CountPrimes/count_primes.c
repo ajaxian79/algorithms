@@ -26,3 +26,4 @@ int count_primes(int n) {
     free(composite);
     return count;
 }
+// note 1: Returns a freshly allocated string the caller must free.
