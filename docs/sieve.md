@@ -583,3 +583,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 129
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 130
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
