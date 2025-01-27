@@ -776,3 +776,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 178
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 179
+
+Uses a small fixed-size lookup table.
