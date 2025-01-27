@@ -814,3 +814,7 @@ Time complexity: O(n + m).
 ## entry 189
 
 Edge case: empty input → returns 0.
+
+## entry 190
+
+Edge case: empty input → returns 0.
