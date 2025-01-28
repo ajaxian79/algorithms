@@ -838,3 +838,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 195
 
 Treats the input as immutable.
+
+## entry 196
+
+Allocates lazily — first call only.
