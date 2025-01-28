@@ -22,3 +22,4 @@ int binary_gap(unsigned int n) {
 // note 2: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 3: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 4: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 5: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
