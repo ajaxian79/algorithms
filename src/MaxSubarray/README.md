@@ -810,3 +810,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 188
 
 Time complexity: O(n + m).
+
+## entry 189
+
+Edge case: empty input → returns 0.
