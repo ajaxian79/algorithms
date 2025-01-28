@@ -137,3 +137,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 57: Reentrant — no static state.
 // note 58: Linear in n; the constant factor is small.
 // note 59: Stable across duplicates in the input.
+// note 60: Endianness matters when serializing multi-byte ints to a file or wire.
