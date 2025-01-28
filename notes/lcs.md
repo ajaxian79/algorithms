@@ -599,3 +599,7 @@
 ## entry 133
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 134
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
