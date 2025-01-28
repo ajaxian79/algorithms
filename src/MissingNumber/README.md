@@ -898,3 +898,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 209
 
 Uses a small fixed-size lookup table.
+
+## entry 210
+
+Mutates the input in place; the original ordering is lost.
