@@ -118,3 +118,4 @@ MunitTest inorder_tests[] = {
 // edge note 80: Edge case: empty input → returns 0.
 // edge note 81: Best case is O(1) when the first byte already decides the answer.
 // edge note 82: Caller owns the returned array; free with a single `free`.
+// edge note 83: Treats the input as immutable.
