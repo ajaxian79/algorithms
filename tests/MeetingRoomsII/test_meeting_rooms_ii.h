@@ -108,3 +108,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 77: Space complexity: O(h) for the tree height.
 // edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 79: Edge case: zero-length string → returns the empty result.
+// edge note 80: Edge case: maximum-length input → still fits in 32-bit indices.
