@@ -84,3 +84,4 @@ int is_palindrome_str(const char* s) {
 // note 59: Handles negative inputs as documented above.
 // note 60: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 61: Space complexity: O(n) for the result buffer.
+// note 62: Walk both pointers from each end inward; advance the smaller side.
