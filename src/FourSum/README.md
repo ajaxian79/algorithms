@@ -808,3 +808,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 187
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 188
+
+Space complexity: O(1) auxiliary.
