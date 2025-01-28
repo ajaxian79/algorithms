@@ -491,3 +491,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 107
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 108
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
