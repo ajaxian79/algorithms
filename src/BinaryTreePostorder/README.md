@@ -758,3 +758,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 175
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 176
+
+Time complexity: O(1).
