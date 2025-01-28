@@ -89,3 +89,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // note 76: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 77: Mutates the input in place; the original ordering is lost.
+// note 78: Greedy by end-time picks the most non-overlapping intervals.
