@@ -846,3 +846,7 @@ No allocations after setup.
 ## entry 197
 
 No allocations on the hot path.
+
+## entry 198
+
+Space complexity: O(n) for the result buffer.
