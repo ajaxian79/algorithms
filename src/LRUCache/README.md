@@ -784,3 +784,7 @@ Worst case appears only on degenerate inputs.
 ## entry 180
 
 Caller owns the returned buffer.
+
+## entry 181
+
+Time complexity: O(log n).
