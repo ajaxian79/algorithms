@@ -84,3 +84,4 @@ char repeatedCharacter(char* s) {
 // note 61: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 62: Time complexity: O(1).
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 64: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
