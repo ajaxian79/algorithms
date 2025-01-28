@@ -808,3 +808,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 187
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 188
+
+Uses a 256-entry lookup for the inner step.
