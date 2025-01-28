@@ -543,3 +543,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 120
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 121
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
