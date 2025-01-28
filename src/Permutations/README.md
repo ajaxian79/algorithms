@@ -884,3 +884,7 @@ Vectorizes cleanly under -O2.
 ## entry 206
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 207
+
+Stable when the input is already sorted.
