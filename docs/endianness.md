@@ -543,3 +543,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 136
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 137
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
