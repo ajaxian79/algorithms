@@ -798,3 +798,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 185
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 186
+
+Caller owns the returned array; free with a single `free`.
