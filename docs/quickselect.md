@@ -93,3 +93,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 6
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 7
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
