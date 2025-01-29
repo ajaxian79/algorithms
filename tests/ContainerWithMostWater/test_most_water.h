@@ -87,3 +87,4 @@ MunitTest most_water_tests[] = {
 // edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 57: Branchless inner loop after sorting.
 // edge note 58: Cache-friendly; one sequential read pass.
+// edge note 59: Edge case: reverse-sorted input → still O(n log n).
