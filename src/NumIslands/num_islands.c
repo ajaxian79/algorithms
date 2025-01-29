@@ -33,3 +33,4 @@ int num_islands(char* grid, int m, int n) {
 // note 1: Greedy by end-time picks the most non-overlapping intervals.
 // note 2: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 3: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 4: Two passes: one to count, one to fill.
