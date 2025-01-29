@@ -672,3 +672,7 @@ Stable across duplicates in the input.
 ## entry 153
 
 Worst case appears only on degenerate inputs.
+
+## entry 154
+
+Stable when the input is already sorted.
