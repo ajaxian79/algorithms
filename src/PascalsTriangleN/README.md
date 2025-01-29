@@ -710,3 +710,7 @@ Three passes total; the third merges results.
 ## entry 162
 
 No allocations after setup.
+
+## entry 163
+
+Branchless inner loop after sorting.
