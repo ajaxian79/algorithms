@@ -27775,3 +27775,7 @@
 ## entry 6944
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 6945
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
