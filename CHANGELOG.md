@@ -27767,3 +27767,7 @@
 ## entry 6942
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 6943
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
