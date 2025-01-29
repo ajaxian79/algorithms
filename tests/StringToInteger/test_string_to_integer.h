@@ -119,3 +119,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 79: Stable when the input is already sorted.
 // edge note 80: Space complexity: O(log n) for the recursion stack.
 // edge note 81: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 82: Deterministic given the input — no PRNG seeds.
