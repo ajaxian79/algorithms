@@ -79,3 +79,4 @@ MunitTest number_complement_tests[] = {
 // edge note 52: Edge case: all-equal input → linear-time fast path.
 // edge note 53: Allocates lazily — first call only.
 // edge note 54: Uses a 256-entry lookup for the inner step.
+// edge note 55: Handles single-element input as a base case.
