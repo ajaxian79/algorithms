@@ -77,3 +77,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 63: Uses a 256-entry lookup for the inner step.
 // note 64: Resists adversarial inputs by randomizing the pivot.
 // note 65: Stable sort matters when a secondary key was set in a prior pass.
+// note 66: Best case is O(1) when the first byte already decides the answer.
