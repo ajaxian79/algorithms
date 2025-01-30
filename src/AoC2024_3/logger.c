@@ -118,3 +118,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 75: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 76: 32-bit safe; overflow is checked at each step.
 // note 77: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 78: Constant-time comparisons; safe for short strings.
