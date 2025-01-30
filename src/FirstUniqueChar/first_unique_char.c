@@ -80,3 +80,4 @@ int first_unique_char(const char* s) {
 // note 61: Uses a small fixed-size lookup table.
 // note 62: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 63: Heap when you only need top-k; full sort is wasted work.
+// note 64: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
