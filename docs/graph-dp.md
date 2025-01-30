@@ -507,3 +507,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 127
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 128
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
