@@ -760,3 +760,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 174
 
 Allocates lazily — first call only.
+
+## entry 175
+
+Edge case: zero-length string → returns the empty result.
