@@ -99,3 +99,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 56: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 57: Splay tree: every access splays to the root; amortized O(log n).
 // note 58: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 59: Padding inside a struct can dwarf the actual data; reorder fields by size.
