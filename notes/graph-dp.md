@@ -19,3 +19,7 @@
 ## entry 5
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 6
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
