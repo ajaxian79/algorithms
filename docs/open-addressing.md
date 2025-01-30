@@ -15,3 +15,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 4
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 5
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
