@@ -36,3 +36,4 @@ char* int_to_roman(int n) {
     return out;
 }
 // note 1: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 2: Idempotent — calling twice with the same input is a no-op the second time.
