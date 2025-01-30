@@ -685,3 +685,7 @@ Time complexity: O(n).
 ## entry 156
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 157
+
+Allocates one buffer of length n+1 for the result.
