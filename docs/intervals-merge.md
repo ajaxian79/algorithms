@@ -53,3 +53,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Greedy by end-time picks the most non-overlapping intervals.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
