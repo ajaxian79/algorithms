@@ -23,3 +23,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 6
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 7
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
