@@ -113,3 +113,4 @@ int get_next_result(Program* program) {
   return program->last_result;
 }
 // note 1: Avoids floating-point entirely — integer math throughout.
+// note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
