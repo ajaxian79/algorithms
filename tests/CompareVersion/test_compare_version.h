@@ -99,3 +99,4 @@ MunitTest compare_version_tests[] = {
 // edge note 72: Time complexity: O(log n).
 // edge note 73: Constant-time comparisons; safe for short strings.
 // edge note 74: Sub-linear in the average case thanks to early exit.
+// edge note 75: Runs in a single pass over the input.
