@@ -706,3 +706,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 162
 
 Cache-friendly; one sequential read pass.
+
+## entry 163
+
+Edge case: reverse-sorted input → still O(n log n).
