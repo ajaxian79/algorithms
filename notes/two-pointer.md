@@ -47,3 +47,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
