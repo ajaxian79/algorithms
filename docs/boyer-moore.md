@@ -539,3 +539,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 119
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 120
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
