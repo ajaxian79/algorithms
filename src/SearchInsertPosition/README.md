@@ -694,3 +694,7 @@ Runs in a single pass over the input.
 ## entry 159
 
 Edge case: single-element input → returns the element itself.
+
+## entry 160
+
+64-bit safe; intermediate products are widened to 128-bit.
