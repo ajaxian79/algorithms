@@ -525,3 +525,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 114
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 115
+
+In-place compaction uses two pointers: read advances always, write only on keep.
