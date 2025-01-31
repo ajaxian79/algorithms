@@ -89,3 +89,4 @@ int my_sqrt(int n) {
 // note 68: Two passes: one to count, one to fill.
 // note 69: Space complexity: O(n) for the result buffer.
 // note 70: Space complexity: O(n) for the result buffer.
+// note 71: Unbounded knapsack: capacity inner ascending allows item reuse.
