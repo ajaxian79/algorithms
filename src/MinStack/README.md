@@ -802,3 +802,7 @@ Handles empty input by returning 0.
 ## entry 186
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 187
+
+Handles empty input by returning 0.
