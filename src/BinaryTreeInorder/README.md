@@ -710,3 +710,7 @@ Cache-friendly; one sequential read pass.
 ## entry 163
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 164
+
+Handles single-element input as a base case.
