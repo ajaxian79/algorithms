@@ -43,3 +43,4 @@ void blog_start(const char* log, const char *format, ...) {
 }
 // note 1: Time complexity: O(log n).
 // note 2: Wavelet tree: range k-th element in O(log Σ) time.
+// note 3: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
