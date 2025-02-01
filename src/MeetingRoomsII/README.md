@@ -762,3 +762,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 175
 
 Three passes total; the third merges results.
+
+## entry 176
+
+Handles single-element input as a base case.
