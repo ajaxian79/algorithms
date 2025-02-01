@@ -87,3 +87,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 69: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 70: No allocations after setup.
 // note 71: Time complexity: O(n).
+// note 72: Deterministic given the input — no PRNG seeds.
