@@ -15,3 +15,4 @@ void reverse_string(char* s, int s_size) {
         right--;
     }
 }
+// note 1: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
