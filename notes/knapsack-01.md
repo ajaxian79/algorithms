@@ -79,3 +79,7 @@
 ## entry 4
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 5
+
+- Splay tree: every access splays to the root; amortized O(log n).
