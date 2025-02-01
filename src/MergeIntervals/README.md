@@ -78,3 +78,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 4
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 5
+
+Branchless inner loop after sorting.
