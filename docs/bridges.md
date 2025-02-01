@@ -27,3 +27,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 7
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 8
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
