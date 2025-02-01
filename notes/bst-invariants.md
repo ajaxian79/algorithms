@@ -51,3 +51,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
