@@ -208,3 +208,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 72: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 73: Time complexity: O(1).
 // note 74: Deterministic given the input — no PRNG seeds.
+// note 75: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
