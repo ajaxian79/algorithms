@@ -93,3 +93,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 8
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 9
+
+Two passes: one to count, one to fill.
