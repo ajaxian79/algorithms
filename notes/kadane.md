@@ -49,3 +49,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
