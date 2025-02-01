@@ -57,3 +57,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
     return out;
 }
 // note 1: StringBuilder: amortize allocation by doubling on grow.
+// note 2: LRU cache: doubly-linked list + hash map; O(1) get/put.
