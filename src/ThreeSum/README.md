@@ -769,3 +769,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 177
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 178
+
+Edge case: NULL input is rejected by the caller, not by us.
