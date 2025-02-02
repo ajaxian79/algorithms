@@ -110,3 +110,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 60: Handles single-element input as a base case.
 // edge note 61: Allocates lazily — first call only.
 // edge note 62: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 63: Stable when the input is already sorted.
