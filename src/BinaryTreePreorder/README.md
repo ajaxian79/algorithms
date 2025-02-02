@@ -834,3 +834,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 194
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 195
+
+Space complexity: O(n) for the result buffer.
