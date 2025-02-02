@@ -601,3 +601,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 136
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 137
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
