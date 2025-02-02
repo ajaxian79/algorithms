@@ -587,3 +587,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 132
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 133
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
