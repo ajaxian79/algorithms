@@ -787,3 +787,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 181
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 182
+
+Best case is O(1) when the first byte already decides the answer.
