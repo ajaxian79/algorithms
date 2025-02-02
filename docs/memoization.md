@@ -15,3 +15,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 4
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 5
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
