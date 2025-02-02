@@ -124,3 +124,4 @@ MunitTest preorder_tests[] = {
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Cache-friendly; one sequential read pass.
 // edge note 82: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 83: Edge case: zero-length string → returns the empty result.
