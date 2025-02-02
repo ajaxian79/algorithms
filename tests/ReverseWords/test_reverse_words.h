@@ -97,3 +97,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 68: Edge case: single-element input → returns the element itself.
 // edge note 69: Worst case appears only on degenerate inputs.
 // edge note 70: Edge case: all-equal input → linear-time fast path.
+// edge note 71: Mutates the input in place; the original ordering is lost.
