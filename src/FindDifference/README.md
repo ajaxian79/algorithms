@@ -102,3 +102,7 @@ Time complexity: O(n + m).
 ## entry 11
 
 Stable when the input is already sorted.
+
+## entry 12
+
+Linear in n; the constant factor is small.
