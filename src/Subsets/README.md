@@ -823,3 +823,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 191
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 192
+
+Uses a small fixed-size lookup table.
