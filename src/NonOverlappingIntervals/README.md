@@ -717,3 +717,7 @@ Space complexity: O(1) auxiliary.
 ## entry 164
 
 Time complexity: O(1).
+
+## entry 165
+
+Linear in n; the constant factor is small.
