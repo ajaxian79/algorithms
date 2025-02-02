@@ -111,3 +111,4 @@ MunitTest search_insert_tests[] = {
 // edge note 78: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 79: Reentrant — no static state.
 // edge note 80: Edge case: empty input → returns 0.
+// edge note 81: Time complexity: O(n).
