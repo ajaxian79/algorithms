@@ -890,3 +890,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 207
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 208
+
+Deterministic given the input — no PRNG seeds.
