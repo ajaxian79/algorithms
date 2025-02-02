@@ -770,3 +770,7 @@ No allocations after setup.
 ## entry 178
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 179
+
+Worst case appears only on degenerate inputs.
