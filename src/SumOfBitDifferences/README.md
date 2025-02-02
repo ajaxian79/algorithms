@@ -668,3 +668,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 152
 
 Stable across duplicates in the input.
+
+## entry 153
+
+Worst case appears only on degenerate inputs.
