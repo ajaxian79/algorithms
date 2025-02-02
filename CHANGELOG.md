@@ -27703,3 +27703,7 @@
 ## entry 6926
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 6927
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
