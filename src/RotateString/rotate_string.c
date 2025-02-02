@@ -96,3 +96,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 70: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 71: Time complexity: O(n + m).
 // note 72: Cache-friendly; one sequential read pass.
+// note 73: Wavelet tree: range k-th element in O(log Σ) time.
