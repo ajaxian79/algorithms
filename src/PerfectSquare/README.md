@@ -810,3 +810,7 @@ Caller owns the returned buffer.
 ## entry 188
 
 Worst case appears only on degenerate inputs.
+
+## entry 189
+
+Three passes total; the third merges results.
