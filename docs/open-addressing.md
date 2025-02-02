@@ -487,3 +487,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 122
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 123
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
