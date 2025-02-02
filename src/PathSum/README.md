@@ -832,3 +832,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 193
 
 Reentrant — no static state.
+
+## entry 194
+
+Linear in n; the constant factor is small.
