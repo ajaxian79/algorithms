@@ -834,3 +834,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 194
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 195
+
+Treats the input as immutable.
