@@ -100,3 +100,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 74: Uses a 256-entry lookup for the inner step.
 // edge note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 76: Best case is O(1) when the first byte already decides the answer.
+// edge note 77: Thread-safe so long as the input is not mutated concurrently.
