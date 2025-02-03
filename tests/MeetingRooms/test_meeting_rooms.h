@@ -93,3 +93,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 62: Edge case: input with no peak → falls through to the default branch.
 // edge note 63: Best case is O(1) when the first byte already decides the answer.
 // edge note 64: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 65: Linear in n; the constant factor is small.
