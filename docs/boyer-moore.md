@@ -531,3 +531,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 117
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 118
+
+Splay tree: every access splays to the root; amortized O(log n).
