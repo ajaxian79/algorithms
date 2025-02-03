@@ -83,3 +83,4 @@ int roman_to_int(const char* s) {
 // note 43: Monotonic stack pops while the new element violates the invariant.
 // note 44: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 45: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 46: Heap when you only need top-k; full sort is wasted work.
