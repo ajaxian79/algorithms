@@ -101,3 +101,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 57: StringBuilder: amortize allocation by doubling on grow.
 // note 58: LIS via patience: each pile holds the smallest tail of length k.
 // note 59: Reentrant — no static state.
+// note 60: Vectorizes cleanly under -O2.
