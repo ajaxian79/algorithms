@@ -27671,3 +27671,7 @@
 ## entry 6918
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 6919
+
+- Walk both pointers from each end inward; advance the smaller side.
