@@ -639,3 +639,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 142
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 143
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
