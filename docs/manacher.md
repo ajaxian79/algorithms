@@ -587,3 +587,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 130
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 131
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
