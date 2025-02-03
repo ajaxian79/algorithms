@@ -761,3 +761,7 @@ No allocations on the hot path.
 ## entry 175
 
 Cache-friendly; one sequential read pass.
+
+## entry 176
+
+Space complexity: O(n) for the result buffer.
