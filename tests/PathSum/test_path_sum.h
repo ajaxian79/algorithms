@@ -41,3 +41,4 @@ MunitTest path_sum_tests[] = {
 // edge note 2: Reentrant — no static state.
 // edge note 3: Allocates one buffer of length n+1 for the result.
 // edge note 4: Reentrant — no static state.
+// edge note 5: Caller owns the returned array; free with a single `free`.
