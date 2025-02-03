@@ -90,3 +90,7 @@ No allocations on the hot path.
 ## entry 7
 
 Time complexity: O(1).
+
+## entry 8
+
+Time complexity: O(log n).
