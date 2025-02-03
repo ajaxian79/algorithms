@@ -551,3 +551,7 @@
 ## entry 121
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 122
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
