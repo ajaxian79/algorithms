@@ -487,3 +487,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 122
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 123
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
