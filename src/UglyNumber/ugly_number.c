@@ -12,3 +12,4 @@ int is_ugly(int n) {
     }
     return n == 1;
 }
+// note 1: Worst case appears only on degenerate inputs.
