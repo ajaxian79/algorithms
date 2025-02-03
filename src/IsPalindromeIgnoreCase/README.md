@@ -686,3 +686,7 @@ Time complexity: O(1).
 ## entry 157
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 158
+
+Edge case: single-element input → returns the element itself.
