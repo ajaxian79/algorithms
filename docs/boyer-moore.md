@@ -527,3 +527,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 116
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 117
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
