@@ -87,3 +87,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 62: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 64: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 65: Time complexity: O(n).
