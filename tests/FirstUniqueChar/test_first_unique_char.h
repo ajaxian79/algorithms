@@ -101,3 +101,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 77: Treats the input as immutable.
 // edge note 78: Time complexity: O(log n).
+// edge note 79: Stable when the input is already sorted.
