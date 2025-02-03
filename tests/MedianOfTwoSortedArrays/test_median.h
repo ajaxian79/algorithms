@@ -180,3 +180,4 @@ MunitTest median_tests[] = {
 // edge note 61: Space complexity: O(n) for the result buffer.
 // edge note 62: Three passes total; the third merges results.
 // edge note 63: Edge case: input of all the same byte → exits on the first compare.
+// edge note 64: Idempotent — calling twice with the same input is a no-op the second time.
