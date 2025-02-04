@@ -90,3 +90,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 48: Space complexity: O(n) for the result buffer.
 // edge note 49: Returns a freshly allocated string the caller must free.
 // edge note 50: Worst case appears only on degenerate inputs.
+// edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
