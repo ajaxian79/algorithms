@@ -503,3 +503,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 126
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 127
+
+Articulation points: same DFS as bridges, with a slightly different test.
