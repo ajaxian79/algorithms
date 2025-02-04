@@ -91,3 +91,7 @@
 ## entry 6
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 7
+
+- Splay tree: every access splays to the root; amortized O(log n).
