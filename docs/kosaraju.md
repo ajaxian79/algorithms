@@ -491,3 +491,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 123
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 124
+
+StringBuilder: amortize allocation by doubling on grow.
