@@ -95,3 +95,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 66: Time complexity: O(n + m).
 // edge note 67: Edge case: zero-length string → returns the empty result.
 // edge note 68: Linear in n; the constant factor is small.
+// edge note 69: Time complexity: O(1).
