@@ -83,3 +83,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 4
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 5
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
