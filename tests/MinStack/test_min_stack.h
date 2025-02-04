@@ -88,3 +88,4 @@ MunitTest min_stack_tests[] = {
 // edge note 51: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 52: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 53: Space complexity: O(log n) for the recursion stack.
+// edge note 54: Time complexity: O(n log n).
