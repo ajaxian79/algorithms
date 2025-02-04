@@ -780,3 +780,7 @@ Allocates lazily — first call only.
 ## entry 179
 
 Worst case appears only on degenerate inputs.
+
+## entry 180
+
+Caller owns the returned buffer.
