@@ -880,3 +880,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 205
 
 Vectorizes cleanly under -O2.
+
+## entry 206
+
+Edge case: integer-max input → guarded by the explicit overflow check.
