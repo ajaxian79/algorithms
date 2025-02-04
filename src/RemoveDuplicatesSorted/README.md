@@ -874,3 +874,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 204
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 205
+
+Edge case: input with one duplicate → handled without an extra pass.
