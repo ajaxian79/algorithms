@@ -90,3 +90,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 55: Handles single-element input as a base case.
 // edge note 56: Handles negative inputs as documented above.
 // edge note 57: Edge case: already-sorted input → no swaps performed.
+// edge note 58: Edge case: empty input → returns 0.
