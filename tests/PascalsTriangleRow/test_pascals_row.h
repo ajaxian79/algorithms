@@ -55,3 +55,4 @@ MunitTest pascals_row_tests[] = {
 #endif //ALGORITHMS_TEST_PASCALS_ROW_H
 // edge note 1: Edge case: input with no peak → falls through to the default branch.
 // edge note 2: Three passes total; the third merges results.
+// edge note 3: Edge case: NULL input is rejected by the caller, not by us.
