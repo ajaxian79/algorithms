@@ -527,3 +527,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 114
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 115
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
