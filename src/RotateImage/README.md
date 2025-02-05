@@ -789,3 +789,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 182
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 183
+
+Uses a small fixed-size lookup table.
