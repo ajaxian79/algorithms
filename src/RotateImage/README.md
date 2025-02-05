@@ -785,3 +785,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 181
 
 Constant-time comparisons; safe for short strings.
+
+## entry 182
+
+64-bit safe; intermediate products are widened to 128-bit.
