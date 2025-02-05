@@ -841,3 +841,7 @@ Space complexity: O(h) for the tree height.
 ## entry 196
 
 32-bit safe; overflow is checked at each step.
+
+## entry 197
+
+Edge case: input with no peak → falls through to the default branch.
