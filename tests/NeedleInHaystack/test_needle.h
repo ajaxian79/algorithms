@@ -25,3 +25,4 @@ MunitTest needle_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_NEEDLE_H
+// edge note 1: Two passes: one to count, one to fill.
