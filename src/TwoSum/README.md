@@ -121,3 +121,7 @@ Time complexity: O(1).
 ## entry 5
 
 Space complexity: O(h) for the tree height.
+
+## entry 6
+
+Handles empty input by returning 0.
