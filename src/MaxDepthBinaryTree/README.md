@@ -717,3 +717,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 165
 
 32-bit safe; overflow is checked at each step.
+
+## entry 166
+
+Resists adversarial inputs by randomizing the pivot.
