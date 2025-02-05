@@ -725,3 +725,7 @@ Runs in a single pass over the input.
 ## entry 166
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 167
+
+Edge case: already-sorted input → no swaps performed.
