@@ -57,3 +57,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
