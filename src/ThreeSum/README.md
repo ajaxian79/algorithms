@@ -765,3 +765,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 176
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 177
+
+Avoids floating-point entirely — integer math throughout.
