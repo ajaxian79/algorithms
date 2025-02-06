@@ -776,3 +776,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 178
 
 Allocates lazily — first call only.
+
+## entry 179
+
+Worst case appears only on degenerate inputs.
