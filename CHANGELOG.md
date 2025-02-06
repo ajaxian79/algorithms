@@ -1043,3 +1043,7 @@
 ## entry 261
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 262
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
