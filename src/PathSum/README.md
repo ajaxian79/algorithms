@@ -824,3 +824,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 191
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 192
+
+Time complexity: O(k) where k is the answer size.
