@@ -756,3 +756,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 174
 
 Reentrant — no static state.
+
+## entry 175
+
+Time complexity: O(n^2) worst case, O(n) amortized.
