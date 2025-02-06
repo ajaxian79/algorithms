@@ -531,3 +531,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 133
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 134
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
