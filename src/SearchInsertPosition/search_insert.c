@@ -83,3 +83,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 67: 32-bit safe; overflow is checked at each step.
 // note 68: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 69: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 70: LCA via binary lifting: jump up powers of two until depths match, then converge.
