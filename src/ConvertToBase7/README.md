@@ -800,3 +800,7 @@ No allocations after setup.
 ## entry 185
 
 No allocations on the hot path.
+
+## entry 186
+
+Edge case: input of all the same byte → exits on the first compare.
