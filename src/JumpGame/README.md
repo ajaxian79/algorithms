@@ -793,3 +793,7 @@ Linear in n; the constant factor is small.
 ## entry 183
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 184
+
+Vectorizes cleanly under -O2.
