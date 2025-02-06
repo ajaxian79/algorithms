@@ -756,3 +756,7 @@ No allocations after setup.
 ## entry 173
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 174
+
+Allocates lazily — first call only.
