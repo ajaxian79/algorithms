@@ -491,3 +491,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 123
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 124
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
