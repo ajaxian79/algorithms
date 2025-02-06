@@ -555,3 +555,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 139
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 140
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
