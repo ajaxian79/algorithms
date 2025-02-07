@@ -99,3 +99,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 73: Space complexity: O(1) auxiliary.
 // edge note 74: Uses a 256-entry lookup for the inner step.
 // edge note 75: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 76: Best case is O(1) when the first byte already decides the answer.
