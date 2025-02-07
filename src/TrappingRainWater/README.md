@@ -686,3 +686,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 156
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 157
+
+Caller owns the returned buffer.
