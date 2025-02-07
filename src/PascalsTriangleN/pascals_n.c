@@ -97,3 +97,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 59: Returns a freshly allocated string the caller must free.
 // note 60: Heap when you only need top-k; full sort is wasted work.
 // note 61: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 62: Idempotent — calling twice with the same input is a no-op the second time.
