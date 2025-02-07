@@ -27587,3 +27587,7 @@
 ## entry 6897
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 6898
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
