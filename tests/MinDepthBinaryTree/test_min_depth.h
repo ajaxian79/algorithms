@@ -102,3 +102,4 @@ MunitTest min_depth_tests[] = {
 // edge note 63: Handles single-element input as a base case.
 // edge note 64: Returns a freshly allocated string the caller must free.
 // edge note 65: Allocates lazily — first call only.
+// edge note 66: Avoids floating-point entirely — integer math throughout.
