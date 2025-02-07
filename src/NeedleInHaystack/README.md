@@ -76,3 +76,7 @@ Time complexity: O(n).
 ## entry 4
 
 Uses a small fixed-size lookup table.
+
+## entry 5
+
+Worst case appears only on degenerate inputs.
