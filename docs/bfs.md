@@ -589,3 +589,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 130
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 131
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
