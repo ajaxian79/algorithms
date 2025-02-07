@@ -463,3 +463,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 116
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 117
+
+Union-Find with path compression amortizes to near-O(1) per op.
