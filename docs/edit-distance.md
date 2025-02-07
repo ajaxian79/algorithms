@@ -631,3 +631,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 140
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 141
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
