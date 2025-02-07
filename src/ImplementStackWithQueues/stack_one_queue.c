@@ -135,3 +135,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 55: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 56: 32-bit safe; overflow is checked at each step.
 // note 57: Reentrant — no static state.
+// note 58: Linear in n; the constant factor is small.
