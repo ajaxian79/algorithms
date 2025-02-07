@@ -97,3 +97,4 @@ MunitTest to_hex_tests[] = {
 // edge note 68: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 69: Time complexity: O(n log n).
 // edge note 70: Returns a freshly allocated string the caller must free.
+// edge note 71: Edge case: empty input → returns 0.
