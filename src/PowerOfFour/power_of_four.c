@@ -66,3 +66,4 @@ int is_power_of_four(int n) {
 // note 53: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 54: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 55: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 56: Time complexity: O(1).
