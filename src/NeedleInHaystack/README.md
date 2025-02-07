@@ -788,3 +788,7 @@ Time complexity: O(n log n).
 ## entry 182
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 183
+
+Time complexity: O(k) where k is the answer size.
