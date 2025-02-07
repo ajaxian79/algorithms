@@ -96,3 +96,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 8
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 9
+
+Edge case: single-element input → returns the element itself.
