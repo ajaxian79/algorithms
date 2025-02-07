@@ -108,3 +108,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 73: Caller owns the returned array; free with a single `free`.
 // edge note 74: No allocations on the hot path.
 // edge note 75: Vectorizes cleanly under -O2.
+// edge note 76: Stable when the input is already sorted.
