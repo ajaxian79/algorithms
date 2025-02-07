@@ -690,3 +690,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 157
 
 Caller owns the returned buffer.
+
+## entry 158
+
+Three passes total; the third merges results.
