@@ -94,3 +94,4 @@ void reverse_string(char* s, int s_size) {
 // note 77: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 78: Avoids floating-point entirely — integer math throughout.
 // note 79: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 80: Handles empty input by returning 0.
