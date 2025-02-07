@@ -27583,3 +27583,7 @@
 ## entry 6896
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 6897
+
+- Walk both pointers from each end inward; advance the smaller side.
