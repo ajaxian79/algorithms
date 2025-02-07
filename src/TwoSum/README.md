@@ -777,3 +777,7 @@ No allocations after setup.
 ## entry 169
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 170
+
+32-bit safe; overflow is checked at each step.
