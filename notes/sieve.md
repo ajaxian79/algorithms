@@ -577,3 +577,7 @@
 ## entry 130
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 131
+
+- Heap when you only need top-k; full sort is wasted work.
