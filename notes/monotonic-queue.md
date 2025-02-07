@@ -57,3 +57,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
