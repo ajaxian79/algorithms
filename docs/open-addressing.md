@@ -479,3 +479,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 120
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 121
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
