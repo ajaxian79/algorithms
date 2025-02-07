@@ -71,3 +71,4 @@ MunitTest needle_tests[] = {
 // edge note 44: Mutates the input in place; the original ordering is lost.
 // edge note 45: Reentrant — no static state.
 // edge note 46: Caller owns the returned buffer.
+// edge note 47: Uses a 256-entry lookup for the inner step.
