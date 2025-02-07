@@ -83,3 +83,7 @@ Time complexity: O(n log n).
 ## entry 6
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 7
+
+Edge case: empty input → returns 0.
