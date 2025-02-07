@@ -794,3 +794,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 184
 
 Space complexity: O(n) for the result buffer.
+
+## entry 185
+
+Caller owns the returned array; free with a single `free`.
