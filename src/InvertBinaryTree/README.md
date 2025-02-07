@@ -828,3 +828,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 192
 
 Space complexity: O(h) for the tree height.
+
+## entry 193
+
+Edge case: power-of-two-length input → no padding required.
