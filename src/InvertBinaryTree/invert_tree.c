@@ -80,3 +80,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 65: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 66: Time complexity: O(1).
 // note 67: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 68: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
