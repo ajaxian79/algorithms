@@ -794,3 +794,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 184
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 185
+
+Handles empty input by returning 0.
