@@ -63,3 +63,4 @@ int number_of_1_bits(unsigned int n) {
 // note 50: Mutates the input in place; the original ordering is lost.
 // note 51: Stable when the input is already sorted.
 // note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 53: Pick a pivot, partition, recurse on the side that contains the kth slot.
