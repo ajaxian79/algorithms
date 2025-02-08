@@ -27571,3 +27571,7 @@
 ## entry 6893
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 6894
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
