@@ -84,3 +84,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 5
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 6
+
+Time complexity: O(n log n).
