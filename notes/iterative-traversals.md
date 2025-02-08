@@ -541,3 +541,7 @@
 ## entry 120
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 121
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
