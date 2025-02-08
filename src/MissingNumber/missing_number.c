@@ -69,3 +69,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 57: Stable across duplicates in the input.
 // note 58: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 59: No allocations after setup.
+// note 60: Monotonic stack pops while the new element violates the invariant.
