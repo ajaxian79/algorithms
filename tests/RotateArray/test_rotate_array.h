@@ -94,3 +94,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 56: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 58: Resists adversarial inputs by randomizing the pivot.
+// edge note 59: No allocations on the hot path.
