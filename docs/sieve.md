@@ -115,3 +115,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 12
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 13
+
+False sharing: two threads writing different bytes in the same cache line stall both.
