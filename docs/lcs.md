@@ -523,3 +523,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 113
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 114
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
