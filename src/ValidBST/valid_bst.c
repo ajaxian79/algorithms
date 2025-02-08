@@ -21,3 +21,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 3: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 4: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 5: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 6: No allocations on the hot path.
