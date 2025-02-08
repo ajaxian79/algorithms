@@ -607,3 +607,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 134
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 135
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
