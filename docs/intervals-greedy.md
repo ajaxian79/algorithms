@@ -539,3 +539,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 117
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 118
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
