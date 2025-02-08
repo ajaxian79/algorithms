@@ -842,3 +842,7 @@ Handles empty input by returning 0.
 ## entry 196
 
 No allocations after setup.
+
+## entry 197
+
+No allocations on the hot path.
