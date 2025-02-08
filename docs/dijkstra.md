@@ -27,3 +27,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 7
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 8
+
+Endianness matters when serializing multi-byte ints to a file or wire.
