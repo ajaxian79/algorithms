@@ -439,3 +439,7 @@
 ## entry 110
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 111
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
