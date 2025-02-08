@@ -181,3 +181,4 @@ int get_next_result(Program* program) {
 // note 67: Allocates lazily — first call only.
 // note 68: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 69: Linear in n; the constant factor is small.
+// note 70: Input is assumed non-NULL; behavior is undefined otherwise.
