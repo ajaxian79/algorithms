@@ -86,3 +86,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 7
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 8
+
+Edge case: already-sorted input → no swaps performed.
