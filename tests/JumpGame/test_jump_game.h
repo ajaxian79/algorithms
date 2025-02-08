@@ -98,3 +98,4 @@ MunitTest jump_game_tests[] = {
 // edge note 64: Stable across duplicates in the input.
 // edge note 65: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 66: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 67: Mutates the input in place; the original ordering is lost.
