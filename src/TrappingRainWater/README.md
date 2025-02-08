@@ -98,3 +98,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 9
 
 Space complexity: O(1) auxiliary.
+
+## entry 10
+
+No allocations on the hot path.
