@@ -25,3 +25,4 @@ int is_happy(int n) {
     return fast == 1;
 }
 // note 1: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 2: Allocates a single small fixed-size scratch buffer.
