@@ -459,3 +459,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 115
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 116
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
