@@ -451,3 +451,7 @@
 ## entry 113
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 114
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
