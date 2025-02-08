@@ -569,3 +569,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 125
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 126
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
