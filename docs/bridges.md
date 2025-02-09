@@ -571,3 +571,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 143
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 144
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
