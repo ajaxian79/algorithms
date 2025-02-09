@@ -593,3 +593,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 131
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 132
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
