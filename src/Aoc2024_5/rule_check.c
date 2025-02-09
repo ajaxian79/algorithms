@@ -544,3 +544,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 57: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 58: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 59: No allocations on the hot path.
+// note 60: Time complexity: O(log n).
