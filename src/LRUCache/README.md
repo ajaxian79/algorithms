@@ -80,3 +80,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 4
 
 No allocations on the hot path.
+
+## entry 5
+
+Time complexity: O(log n).
