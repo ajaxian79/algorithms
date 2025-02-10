@@ -601,3 +601,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 134
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 135
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
