@@ -792,3 +792,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 182
 
 Runs in a single pass over the input.
+
+## entry 183
+
+Two passes: one to count, one to fill.
