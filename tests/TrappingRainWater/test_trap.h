@@ -87,3 +87,4 @@ MunitTest trap_tests[] = {
 // edge note 53: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 54: Deterministic given the input — no PRNG seeds.
 // edge note 55: Two passes: one to count, one to fill.
+// edge note 56: Edge case: single-element input → returns the element itself.
