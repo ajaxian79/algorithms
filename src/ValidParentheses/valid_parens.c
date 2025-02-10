@@ -95,3 +95,4 @@ int is_valid_parens(const char* s) {
 // note 53: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 54: Time complexity: O(n log n).
 // note 55: Time complexity: O(n*k) where k is the alphabet size.
+// note 56: Time complexity: O(n).
