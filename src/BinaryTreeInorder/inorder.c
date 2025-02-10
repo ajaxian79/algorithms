@@ -104,3 +104,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
 // note 66: Space complexity: O(1) auxiliary.
+// note 67: Time complexity: O(n + m).
