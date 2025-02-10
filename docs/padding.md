@@ -499,3 +499,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 125
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 126
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
