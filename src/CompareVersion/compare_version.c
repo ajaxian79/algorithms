@@ -90,3 +90,4 @@ int compare_version(const char* a, const char* b) {
 // note 60: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 61: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 62: Splay tree: every access splays to the root; amortized O(log n).
+// note 63: Reentrant — no static state.
