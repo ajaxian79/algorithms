@@ -95,3 +95,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 68: Returns a freshly allocated string the caller must free.
 // edge note 69: Allocates a single small fixed-size scratch buffer.
 // edge note 70: Time complexity: O(n).
+// edge note 71: Time complexity: O(n*k) where k is the alphabet size.
