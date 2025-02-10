@@ -34,3 +34,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 1: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 2: Edge case: zero-length string → returns the empty result.
 // edge note 3: Deterministic given the input — no PRNG seeds.
+// edge note 4: Time complexity: O(n + m).
