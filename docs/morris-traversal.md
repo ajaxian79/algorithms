@@ -535,3 +535,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 119
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 120
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
