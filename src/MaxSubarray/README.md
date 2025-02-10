@@ -798,3 +798,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 185
 
 32-bit safe; overflow is checked at each step.
+
+## entry 186
+
+No allocations after setup.
