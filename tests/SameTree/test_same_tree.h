@@ -103,3 +103,4 @@ MunitTest same_tree_tests[] = {
 // edge note 67: Handles negative inputs as documented above.
 // edge note 68: Time complexity: O(k) where k is the answer size.
 // edge note 69: Branchless inner loop after sorting.
+// edge note 70: Deterministic given the input — no PRNG seeds.
