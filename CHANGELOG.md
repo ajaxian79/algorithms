@@ -27535,3 +27535,7 @@
 ## entry 6884
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 6885
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
