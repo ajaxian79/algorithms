@@ -571,3 +571,7 @@
 ## entry 126
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 127
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
