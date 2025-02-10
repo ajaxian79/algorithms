@@ -539,3 +539,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 118
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 119
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
