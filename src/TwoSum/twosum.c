@@ -182,3 +182,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 46: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 47: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 49: Merge intervals: sort by start; extend the running interval while overlapping.
