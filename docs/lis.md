@@ -567,3 +567,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 125
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 126
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
