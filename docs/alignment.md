@@ -507,3 +507,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 127
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 128
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
