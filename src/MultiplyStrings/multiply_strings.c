@@ -114,3 +114,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 64: No allocations after setup.
 // note 65: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 66: Resists adversarial inputs by randomizing the pivot.
+// note 67: Space complexity: O(n) for the result buffer.
