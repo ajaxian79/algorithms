@@ -535,3 +535,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 134
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 135
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
