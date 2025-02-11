@@ -483,3 +483,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 121
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 122
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
