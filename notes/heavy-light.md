@@ -527,3 +527,7 @@
 ## entry 132
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 133
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
