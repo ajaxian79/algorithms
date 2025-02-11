@@ -511,3 +511,7 @@
 ## entry 128
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 129
+
+- Euler tour flattens a tree into an array for range-query LCA.
