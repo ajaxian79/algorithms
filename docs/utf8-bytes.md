@@ -431,3 +431,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 108
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 109
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
