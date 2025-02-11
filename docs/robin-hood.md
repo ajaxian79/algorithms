@@ -447,3 +447,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 112
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 113
+
+In-place compaction uses two pointers: read advances always, write only on keep.
