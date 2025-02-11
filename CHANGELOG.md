@@ -27499,3 +27499,7 @@
 ## entry 6875
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 6876
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
