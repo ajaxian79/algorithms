@@ -61,3 +61,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
