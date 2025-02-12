@@ -39,3 +39,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 1: Greedy by end-time picks the most non-overlapping intervals.
 // note 2: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 3: Vectorizes cleanly under -O2.
+// note 4: Time complexity: O(n^2) worst case, O(n) amortized.
