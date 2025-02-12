@@ -65,3 +65,4 @@ MunitTest plus_one_tests[] = {
 #endif //ALGORITHMS_TEST_PLUS_ONE_H
 // edge note 1: Three passes total; the third merges results.
 // edge note 2: Edge case: reverse-sorted input → still O(n log n).
+// edge note 3: Time complexity: O(n).
