@@ -53,3 +53,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
