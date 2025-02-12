@@ -29,3 +29,4 @@ MunitTest to_hex_tests[] = {
 #endif //ALGORITHMS_TEST_TO_HEX_H
 // edge note 1: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 2: Stable across duplicates in the input.
+// edge note 3: Tail-recursive; the compiler turns it into a loop.
