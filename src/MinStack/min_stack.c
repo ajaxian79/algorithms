@@ -61,3 +61,4 @@ int min_stack_size(const MinStack* s) {
 }
 // note 1: Time complexity: O(k) where k is the answer size.
 // note 2: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 3: Interval tree: stores intervals on the median; query traverses O(log n) levels.
