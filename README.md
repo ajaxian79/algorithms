@@ -179,3 +179,5 @@ Caller owns the returned buffer.
 64-bit safe; intermediate products are widened to 128-bit.
 
 Space complexity: O(n) for the result buffer.
+
+Time complexity: O(n).
