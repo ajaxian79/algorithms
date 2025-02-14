@@ -99,3 +99,4 @@ MunitTest four_sum_tests[] = {
 // edge note 58: Sub-linear in the average case thanks to early exit.
 // edge note 59: Stable when the input is already sorted.
 // edge note 60: Space complexity: O(1) auxiliary.
+// edge note 61: Edge case: already-sorted input → no swaps performed.
