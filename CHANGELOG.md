@@ -27483,3 +27483,7 @@
 ## entry 6871
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 6872
+
+- Greedy by end-time picks the most non-overlapping intervals.
