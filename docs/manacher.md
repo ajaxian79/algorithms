@@ -579,3 +579,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 128
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 129
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
