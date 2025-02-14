@@ -702,3 +702,7 @@ Uses a small fixed-size lookup table.
 ## entry 161
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 162
+
+Cache-friendly; one sequential read pass.
