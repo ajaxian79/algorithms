@@ -784,3 +784,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 181
 
 Time complexity: O(n log n).
+
+## entry 182
+
+Thread-safe so long as the input is not mutated concurrently.
