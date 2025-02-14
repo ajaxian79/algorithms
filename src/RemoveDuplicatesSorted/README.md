@@ -862,3 +862,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 201
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 202
+
+Cache-friendly; one sequential read pass.
