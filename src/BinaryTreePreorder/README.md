@@ -830,3 +830,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 193
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 194
+
+Edge case: all-equal input → linear-time fast path.
