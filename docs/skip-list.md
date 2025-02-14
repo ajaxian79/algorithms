@@ -483,3 +483,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 121
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 122
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
