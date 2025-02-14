@@ -93,3 +93,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 59: Uses a 256-entry lookup for the inner step.
 // edge note 60: Reentrant — no static state.
 // edge note 61: Sub-linear in the average case thanks to early exit.
+// edge note 62: Handles single-element input as a base case.
