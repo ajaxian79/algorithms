@@ -87,3 +87,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 62: Returns a freshly allocated string the caller must free.
 // edge note 63: Time complexity: O(n).
 // edge note 64: Uses a small fixed-size lookup table.
+// edge note 65: Input is assumed non-NULL; behavior is undefined otherwise.
