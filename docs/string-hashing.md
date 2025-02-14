@@ -83,3 +83,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 4
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 5
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
