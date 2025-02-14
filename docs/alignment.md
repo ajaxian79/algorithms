@@ -503,3 +503,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 126
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 127
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
