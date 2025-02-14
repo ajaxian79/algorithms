@@ -103,3 +103,4 @@ MunitTest path_sum_tests[] = {
 // edge note 64: Space complexity: O(h) for the tree height.
 // edge note 65: Handles single-element input as a base case.
 // edge note 66: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 67: Edge case: maximum-length input → still fits in 32-bit indices.
