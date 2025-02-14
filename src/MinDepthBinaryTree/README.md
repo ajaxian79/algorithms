@@ -750,3 +750,7 @@ Time complexity: O(n).
 ## entry 173
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 174
+
+Cache-friendly; one sequential read pass.
