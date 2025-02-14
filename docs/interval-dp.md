@@ -563,3 +563,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 141
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 142
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
