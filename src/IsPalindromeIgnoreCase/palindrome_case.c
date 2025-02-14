@@ -72,3 +72,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 49: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 51: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
