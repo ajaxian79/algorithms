@@ -487,3 +487,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 122
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 123
+
+In-place compaction uses two pointers: read advances always, write only on keep.
