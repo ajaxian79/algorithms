@@ -539,3 +539,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 135
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 136
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
