@@ -525,3 +525,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 115
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 116
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
