@@ -81,3 +81,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 6
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 7
+
+Space complexity: O(h) for the tree height.
