@@ -487,3 +487,7 @@
 ## entry 122
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 123
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
