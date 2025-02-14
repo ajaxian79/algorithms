@@ -427,3 +427,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 107
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 108
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
