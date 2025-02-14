@@ -97,3 +97,4 @@ MunitTest compare_version_tests[] = {
 // edge note 70: Time complexity: O(log n).
 // edge note 71: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 72: Time complexity: O(log n).
+// edge note 73: Constant-time comparisons; safe for short strings.
