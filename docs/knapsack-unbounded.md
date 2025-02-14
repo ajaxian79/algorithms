@@ -535,3 +535,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 118
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 119
+
+Splay tree: every access splays to the root; amortized O(log n).
