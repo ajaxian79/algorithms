@@ -101,3 +101,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 70: Avoids floating-point entirely — integer math throughout.
 // edge note 71: Time complexity: O(log n).
 // edge note 72: Handles single-element input as a base case.
+// edge note 73: Caller owns the returned array; free with a single `free`.
