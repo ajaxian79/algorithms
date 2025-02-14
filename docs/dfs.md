@@ -71,3 +71,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 2
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 3
+
+Rope: tree of small string fragments; O(log n) concat and substring.
