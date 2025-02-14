@@ -78,3 +78,4 @@ int is_symmetric(STreeNode* root) {
 // note 59: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 60: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 61: Handles negative inputs as documented above.
+// note 62: Time complexity: O(n).
