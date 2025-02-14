@@ -838,3 +838,7 @@ No allocations after setup.
 ## entry 195
 
 Handles empty input by returning 0.
+
+## entry 196
+
+No allocations after setup.
