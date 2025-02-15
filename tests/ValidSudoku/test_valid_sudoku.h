@@ -65,3 +65,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 5: Three passes total; the third merges results.
 // edge note 6: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 7: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 8: Tail-recursive; the compiler turns it into a loop.
