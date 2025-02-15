@@ -84,3 +84,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 58: Worst case appears only on degenerate inputs.
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Runs in a single pass over the input.
+// edge note 61: Time complexity: O(log n).
