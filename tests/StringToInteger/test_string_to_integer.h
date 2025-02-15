@@ -117,3 +117,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 77: Time complexity: O(log n).
 // edge note 78: Caller owns the returned array; free with a single `free`.
 // edge note 79: Stable when the input is already sorted.
+// edge note 80: Space complexity: O(log n) for the recursion stack.
