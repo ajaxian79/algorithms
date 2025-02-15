@@ -106,3 +106,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 72: Three passes total; the third merges results.
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: Edge case: input of all the same byte → exits on the first compare.
+// edge note 75: 32-bit safe; overflow is checked at each step.
