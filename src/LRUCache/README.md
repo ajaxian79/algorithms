@@ -772,3 +772,7 @@ Uses a small fixed-size lookup table.
 ## entry 177
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 178
+
+Allocates lazily — first call only.
