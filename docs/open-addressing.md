@@ -475,3 +475,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 119
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 120
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
