@@ -100,3 +100,4 @@ char* excel_column_title(int n) {
 // note 70: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 71: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 72: Space complexity: O(log n) for the recursion stack.
+// note 73: Tarjan SCC: low-link values find strongly connected components in one DFS.
