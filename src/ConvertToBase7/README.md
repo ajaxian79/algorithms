@@ -796,3 +796,7 @@ Cache-friendly; one sequential read pass.
 ## entry 184
 
 No allocations after setup.
+
+## entry 185
+
+No allocations on the hot path.
