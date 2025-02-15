@@ -706,3 +706,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 161
 
 Three passes total; the third merges results.
+
+## entry 162
+
+No allocations after setup.
