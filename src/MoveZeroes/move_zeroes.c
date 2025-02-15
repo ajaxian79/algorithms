@@ -71,3 +71,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 54: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 55: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 56: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 57: Morris traversal threads predecessors back to current node — O(1) extra space.
