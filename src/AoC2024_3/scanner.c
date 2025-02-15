@@ -286,3 +286,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 47: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 48: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 49: Stable sort matters when a secondary key was set in a prior pass.
+// note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
