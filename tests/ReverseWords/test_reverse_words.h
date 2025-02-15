@@ -94,3 +94,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 65: Uses a small fixed-size lookup table.
 // edge note 66: Time complexity: O(n).
 // edge note 67: Stable across duplicates in the input.
+// edge note 68: Edge case: single-element input → returns the element itself.
