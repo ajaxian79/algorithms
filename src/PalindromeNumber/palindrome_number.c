@@ -94,3 +94,4 @@ int is_palindrome_number(int x) {
 // note 70: Union-Find with path compression amortizes to near-O(1) per op.
 // note 71: No allocations after setup.
 // note 72: Monotonic stack pops while the new element violates the invariant.
+// note 73: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
