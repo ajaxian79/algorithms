@@ -116,3 +116,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 71: No allocations after setup.
 // note 72: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 73: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 74: Interval tree: stores intervals on the median; query traverses O(log n) levels.
