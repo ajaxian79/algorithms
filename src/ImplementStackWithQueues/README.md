@@ -748,3 +748,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 172
 
 Linear in n; the constant factor is small.
+
+## entry 173
+
+Tail-recursive; the compiler turns it into a loop.
