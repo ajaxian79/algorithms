@@ -105,3 +105,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 69: Edge case: zero-length string → returns the empty result.
 // edge note 70: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 71: Handles negative inputs as documented above.
+// edge note 72: Edge case: single-element input → returns the element itself.
