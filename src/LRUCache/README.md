@@ -72,3 +72,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 2
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 3
+
+Idempotent — calling twice with the same input is a no-op the second time.
