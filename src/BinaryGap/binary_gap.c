@@ -88,3 +88,4 @@ int binary_gap(unsigned int n) {
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 69: Resists adversarial inputs by randomizing the pivot.
 // note 70: Space complexity: O(log n) for the recursion stack.
+// note 71: Time complexity: O(k) where k is the answer size.
