@@ -851,3 +851,7 @@ Caller owns the returned buffer.
 ## entry 198
 
 32-bit safe; overflow is checked at each step.
+
+## entry 199
+
+Space complexity: O(h) for the tree height.
