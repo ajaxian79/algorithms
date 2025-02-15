@@ -682,3 +682,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 155
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 156
+
+Edge case: already-sorted input → no swaps performed.
