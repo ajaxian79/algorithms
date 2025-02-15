@@ -80,3 +80,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 54: Vectorizes cleanly under -O2.
 // edge note 55: Runs in a single pass over the input.
+// edge note 56: Uses a 256-entry lookup for the inner step.
