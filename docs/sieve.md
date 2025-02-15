@@ -579,3 +579,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 128
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 129
+
+Splay tree: every access splays to the root; amortized O(log n).
