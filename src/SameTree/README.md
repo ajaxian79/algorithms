@@ -744,3 +744,7 @@ Space complexity: O(1) auxiliary.
 ## entry 172
 
 Runs in a single pass over the input.
+
+## entry 173
+
+Edge case: maximum-length input → still fits in 32-bit indices.
