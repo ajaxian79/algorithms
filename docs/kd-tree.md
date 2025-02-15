@@ -507,3 +507,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 127
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 128
+
+Merge intervals: sort by start; extend the running interval while overlapping.
