@@ -113,3 +113,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 75: Two passes: one to count, one to fill.
 // edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 77: Time complexity: O(n + m).
+// edge note 78: Edge case: input with no peak → falls through to the default branch.
