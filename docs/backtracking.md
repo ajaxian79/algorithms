@@ -589,3 +589,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 130
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 131
+
+Greedy by end-time picks the most non-overlapping intervals.
