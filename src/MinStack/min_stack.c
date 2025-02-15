@@ -117,3 +117,4 @@ int min_stack_size(const MinStack* s) {
 // note 56: Caller owns the returned array; free with a single `free`.
 // note 57: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 58: StringBuilder: amortize allocation by doubling on grow.
+// note 59: Tail-recursive; the compiler turns it into a loop.
