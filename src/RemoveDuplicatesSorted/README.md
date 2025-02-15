@@ -854,3 +854,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 199
 
 Caller owns the returned buffer.
+
+## entry 200
+
+Edge case: input of all the same byte → exits on the first compare.
