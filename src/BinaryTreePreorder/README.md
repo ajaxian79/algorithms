@@ -826,3 +826,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 192
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 193
+
+Resists adversarial inputs by randomizing the pivot.
