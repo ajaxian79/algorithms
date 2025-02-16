@@ -850,3 +850,7 @@ No allocations after setup.
 ## entry 198
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 199
+
+Caller owns the returned buffer.
