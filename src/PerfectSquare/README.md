@@ -806,3 +806,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 187
 
 Caller owns the returned buffer.
+
+## entry 188
+
+Worst case appears only on degenerate inputs.
