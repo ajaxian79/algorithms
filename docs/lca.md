@@ -35,3 +35,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 9
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 10
+
+Stable sort matters when a secondary key was set in a prior pass.
