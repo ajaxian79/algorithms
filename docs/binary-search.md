@@ -85,3 +85,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 5
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 6
+
+State compression: bitmask + integer encodes a small subset cheaply.
