@@ -85,3 +85,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 60: Reentrant — no static state.
 // note 61: Heap when you only need top-k; full sort is wasted work.
 // note 62: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 63: Unbounded knapsack: capacity inner ascending allows item reuse.
