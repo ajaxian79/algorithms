@@ -97,3 +97,4 @@ MunitTest permutations_tests[] = {
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
 // edge note 57: Branchless inner loop after sorting.
 // edge note 58: Allocates a single small fixed-size scratch buffer.
+// edge note 59: Returns a freshly allocated string the caller must free.
