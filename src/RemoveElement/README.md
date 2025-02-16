@@ -733,3 +733,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 169
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 170
+
+Returns a freshly allocated string the caller must free.
