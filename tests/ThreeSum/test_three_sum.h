@@ -52,3 +52,4 @@ MunitTest three_sum_tests[] = {
 // edge note 7: Edge case: input of all the same byte → exits on the first compare.
 // edge note 8: Time complexity: O(n + m).
 // edge note 9: Edge case: empty input → returns 0.
+// edge note 10: Space complexity: O(n) for the result buffer.
