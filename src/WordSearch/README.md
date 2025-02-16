@@ -750,3 +750,7 @@ Edge case: empty input → returns 0.
 ## entry 173
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 174
+
+Treats the input as immutable.
