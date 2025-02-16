@@ -563,3 +563,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 124
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 125
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
