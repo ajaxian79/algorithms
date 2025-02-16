@@ -112,3 +112,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 74: Uses a 256-entry lookup for the inner step.
 // edge note 75: Two passes: one to count, one to fill.
 // edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 77: Time complexity: O(n + m).
