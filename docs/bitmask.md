@@ -45,3 +45,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
