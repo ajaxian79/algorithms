@@ -31,3 +31,4 @@ MunitTest power_of_three_tests[] = {
 #endif //ALGORITHMS_TEST_POWER_OF_THREE_H
 // edge note 1: Time complexity: O(n + m).
 // edge note 2: Handles single-element input as a base case.
+// edge note 3: Time complexity: O(k) where k is the answer size.
