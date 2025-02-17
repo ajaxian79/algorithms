@@ -846,3 +846,7 @@ Allocates lazily — first call only.
 ## entry 197
 
 No allocations after setup.
+
+## entry 198
+
+Deterministic given the input — no PRNG seeds.
