@@ -80,3 +80,4 @@ int is_ugly(int n) {
 // note 66: Vectorizes cleanly under -O2.
 // note 67: Mutates the input in place; the original ordering is lost.
 // note 68: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 69: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
