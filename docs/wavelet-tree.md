@@ -479,3 +479,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 120
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 121
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
