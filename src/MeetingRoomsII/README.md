@@ -90,3 +90,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 7
 
 Caller owns the returned buffer.
+
+## entry 8
+
+Edge case: alternating pattern → degenerate case for sliding window.
