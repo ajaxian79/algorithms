@@ -842,3 +842,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 196
 
 Allocates lazily — first call only.
+
+## entry 197
+
+No allocations after setup.
