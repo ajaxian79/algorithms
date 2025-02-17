@@ -802,3 +802,7 @@ Allocates lazily — first call only.
 ## entry 186
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 187
+
+Caller owns the returned buffer.
