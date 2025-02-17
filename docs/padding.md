@@ -495,3 +495,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 124
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 125
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
