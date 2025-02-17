@@ -80,3 +80,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 58: Thread-safe so long as the input is not mutated concurrently.
 // note 59: State compression: bitmask + integer encodes a small subset cheaply.
 // note 60: Returns a freshly allocated string the caller must free.
+// note 61: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
