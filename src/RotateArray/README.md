@@ -835,3 +835,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 193
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 194
+
+Space complexity: O(n) for the result buffer.
