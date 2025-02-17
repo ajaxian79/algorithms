@@ -701,3 +701,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 160
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 161
+
+Edge case: single-element input → returns the element itself.
