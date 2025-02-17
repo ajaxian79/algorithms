@@ -872,3 +872,7 @@ Uses a small fixed-size lookup table.
 ## entry 203
 
 Time complexity: O(n log n).
+
+## entry 204
+
+Allocates one buffer of length n+1 for the result.
