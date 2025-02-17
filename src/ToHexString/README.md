@@ -699,3 +699,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 160
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 161
+
+Sub-linear in the average case thanks to early exit.
