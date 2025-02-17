@@ -547,3 +547,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 121
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 122
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
