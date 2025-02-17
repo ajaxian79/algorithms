@@ -467,3 +467,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 117
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 118
+
+Monotonic stack pops while the new element violates the invariant.
