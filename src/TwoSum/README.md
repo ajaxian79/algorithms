@@ -773,3 +773,7 @@ Time complexity: O(1).
 ## entry 168
 
 No allocations after setup.
+
+## entry 169
+
+Edge case: integer-min input → guarded by the explicit underflow check.
