@@ -698,3 +698,7 @@ Branchless inner loop after sorting.
 ## entry 160
 
 Uses a small fixed-size lookup table.
+
+## entry 161
+
+Tail-recursive; the compiler turns it into a loop.
