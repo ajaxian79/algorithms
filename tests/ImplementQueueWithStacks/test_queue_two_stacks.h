@@ -92,3 +92,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 59: Time complexity: O(1).
 // edge note 60: Uses a 256-entry lookup for the inner step.
 // edge note 61: Time complexity: O(1).
+// edge note 62: Best case is O(1) when the first byte already decides the answer.
