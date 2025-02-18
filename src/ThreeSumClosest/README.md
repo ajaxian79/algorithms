@@ -782,3 +782,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 181
 
 Reentrant — no static state.
+
+## entry 182
+
+Idempotent — calling twice with the same input is a no-op the second time.
