@@ -439,3 +439,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 110
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 111
+
+Union-Find with path compression amortizes to near-O(1) per op.
