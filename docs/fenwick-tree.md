@@ -83,3 +83,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 5
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 6
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
