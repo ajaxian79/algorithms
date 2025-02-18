@@ -116,3 +116,4 @@ MunitTest inorder_tests[] = {
 // edge note 78: Returns a freshly allocated string the caller must free.
 // edge note 79: Handles empty input by returning 0.
 // edge note 80: Edge case: empty input → returns 0.
+// edge note 81: Best case is O(1) when the first byte already decides the answer.
