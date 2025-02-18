@@ -103,3 +103,4 @@ MunitTest remove_element_tests[] = {
 // edge note 66: Cache-friendly; one sequential read pass.
 // edge note 67: Space complexity: O(h) for the tree height.
 // edge note 68: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 69: Edge case: input with one duplicate → handled without an extra pass.
