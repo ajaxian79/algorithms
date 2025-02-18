@@ -792,3 +792,7 @@ Two passes: one to count, one to fill.
 ## entry 183
 
 Cache-friendly; one sequential read pass.
+
+## entry 184
+
+No allocations after setup.
