@@ -752,3 +752,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 172
 
 No allocations after setup.
+
+## entry 173
+
+Edge case: input of all the same byte → exits on the first compare.
