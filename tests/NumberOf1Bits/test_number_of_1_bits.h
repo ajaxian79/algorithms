@@ -94,3 +94,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 67: Edge case: input with no peak → falls through to the default branch.
 // edge note 68: Returns a freshly allocated string the caller must free.
 // edge note 69: Allocates a single small fixed-size scratch buffer.
+// edge note 70: Time complexity: O(n).
