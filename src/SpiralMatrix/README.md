@@ -714,3 +714,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 163
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 164
+
+Runs in a single pass over the input.
