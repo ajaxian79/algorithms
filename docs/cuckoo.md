@@ -447,3 +447,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 112
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 113
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
