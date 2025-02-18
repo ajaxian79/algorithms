@@ -136,3 +136,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 }
 // note 1: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 2: Tail-recursive; the compiler turns it into a loop.
+// note 3: Treap: BST + heap on random priorities; expected O(log n) per op.
