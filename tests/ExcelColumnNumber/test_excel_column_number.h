@@ -99,3 +99,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 70: Three passes total; the third merges results.
 // edge note 71: Time complexity: O(n).
+// edge note 72: Mutates the input in place; the original ordering is lost.
