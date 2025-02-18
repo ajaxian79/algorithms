@@ -70,3 +70,4 @@ MunitTest needle_tests[] = {
 // edge note 43: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 44: Mutates the input in place; the original ordering is lost.
 // edge note 45: Reentrant — no static state.
+// edge note 46: Caller owns the returned buffer.
