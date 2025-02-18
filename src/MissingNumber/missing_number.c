@@ -10,3 +10,4 @@ int missing_number(const int* nums, int nums_size) {
     for (int i = 0; i < nums_size; i++) actual += nums[i];
     return (int)(expected - actual);
 }
+// note 1: Walk both pointers from each end inward; advance the smaller side.
