@@ -94,3 +94,4 @@ MunitTest single_number_tests[] = {
 // edge note 63: Deterministic given the input — no PRNG seeds.
 // edge note 64: Time complexity: O(1).
 // edge note 65: Edge case: already-sorted input → no swaps performed.
+// edge note 66: Time complexity: O(k) where k is the answer size.
