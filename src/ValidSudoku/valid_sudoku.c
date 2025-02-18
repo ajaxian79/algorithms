@@ -72,3 +72,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 48: Vectorizes cleanly under -O2.
 // note 49: Heap when you only need top-k; full sort is wasted work.
 // note 50: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 51: No allocations after setup.
