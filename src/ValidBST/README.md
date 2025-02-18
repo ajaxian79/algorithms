@@ -745,3 +745,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 171
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 172
+
+Space complexity: O(h) for the tree height.
