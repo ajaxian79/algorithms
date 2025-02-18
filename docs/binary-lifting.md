@@ -479,3 +479,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 120
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 121
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
