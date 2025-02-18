@@ -118,3 +118,4 @@ MunitTest three_sum_tests[] = {
 // edge note 73: Space complexity: O(h) for the tree height.
 // edge note 74: Avoids floating-point entirely — integer math throughout.
 // edge note 75: Three passes total; the third merges results.
+// edge note 76: Idempotent — calling twice with the same input is a no-op the second time.
