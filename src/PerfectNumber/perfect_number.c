@@ -85,3 +85,4 @@ int is_perfect_number(int n) {
 // note 67: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 68: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 69: Uses a small fixed-size lookup table.
+// note 70: Morris traversal threads predecessors back to current node — O(1) extra space.
