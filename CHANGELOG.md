@@ -27355,3 +27355,7 @@
 ## entry 6839
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 6840
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
