@@ -108,3 +108,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 65: Tail-recursive; the compiler turns it into a loop.
 // edge note 66: Edge case: reverse-sorted input → still O(n log n).
 // edge note 67: Space complexity: O(1) auxiliary.
+// edge note 68: Time complexity: O(k) where k is the answer size.
