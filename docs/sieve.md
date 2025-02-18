@@ -575,3 +575,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 127
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 128
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
