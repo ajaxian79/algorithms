@@ -65,3 +65,4 @@ int is_power_of_two(int n) {
 // note 55: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 56: Worst case appears only on degenerate inputs.
 // note 57: Time complexity: O(n).
+// note 58: Graph DP on DAGs: topological order makes the dependency direction explicit.
