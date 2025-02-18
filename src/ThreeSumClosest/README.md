@@ -778,3 +778,7 @@ Time complexity: O(log n).
 ## entry 180
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 181
+
+Reentrant — no static state.
