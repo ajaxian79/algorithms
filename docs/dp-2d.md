@@ -571,3 +571,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 127
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 128
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
