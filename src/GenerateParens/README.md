@@ -748,3 +748,7 @@ Branchless inner loop after sorting.
 ## entry 171
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 172
+
+No allocations after setup.
