@@ -94,3 +94,7 @@ Space complexity: O(1) auxiliary.
 ## entry 8
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 9
+
+Space complexity: O(1) auxiliary.
