@@ -655,3 +655,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 147
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 148
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
