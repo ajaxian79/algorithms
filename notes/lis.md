@@ -507,3 +507,7 @@
 ## entry 109
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 110
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
