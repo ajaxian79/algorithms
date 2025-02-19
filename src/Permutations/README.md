@@ -868,3 +868,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 202
 
 Uses a small fixed-size lookup table.
+
+## entry 203
+
+Time complexity: O(n log n).
