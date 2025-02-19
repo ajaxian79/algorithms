@@ -87,3 +87,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 44: Idempotent — calling twice with the same input is a no-op the second time.
 // note 45: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 46: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 47: Space complexity: O(n) for the result buffer.
