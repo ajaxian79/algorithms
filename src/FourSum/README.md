@@ -800,3 +800,7 @@ Time complexity: O(n).
 ## entry 185
 
 Branchless inner loop after sorting.
+
+## entry 186
+
+Mutates the input in place; the original ordering is lost.
