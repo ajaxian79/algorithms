@@ -90,3 +90,7 @@ Reentrant — no static state.
 ## entry 7
 
 Space complexity: O(1) auxiliary.
+
+## entry 8
+
+Input is assumed non-NULL; behavior is undefined otherwise.
