@@ -551,3 +551,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 122
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 123
+
+In-place compaction uses two pointers: read advances always, write only on keep.
