@@ -777,3 +777,7 @@ Reentrant — no static state.
 ## entry 179
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 180
+
+Edge case: already-sorted input → no swaps performed.
