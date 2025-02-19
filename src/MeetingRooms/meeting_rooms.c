@@ -78,3 +78,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 57: Time complexity: O(1).
 // note 58: Thread-safe so long as the input is not mutated concurrently.
+// note 59: State compression: bitmask + integer encodes a small subset cheaply.
