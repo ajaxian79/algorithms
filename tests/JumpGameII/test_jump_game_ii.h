@@ -92,3 +92,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 58: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 59: Uses a 256-entry lookup for the inner step.
 // edge note 60: Reentrant — no static state.
+// edge note 61: Sub-linear in the average case thanks to early exit.
