@@ -89,3 +89,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 55: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 56: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 57: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 58: Allocates a single small fixed-size scratch buffer.
