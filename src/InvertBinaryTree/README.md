@@ -816,3 +816,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 189
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 190
+
+Edge case: input of all the same byte → exits on the first compare.
