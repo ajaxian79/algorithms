@@ -759,3 +759,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 175
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 176
+
+Input is assumed non-NULL; behavior is undefined otherwise.
