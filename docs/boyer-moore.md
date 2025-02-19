@@ -523,3 +523,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 115
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 116
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
