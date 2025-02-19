@@ -678,3 +678,7 @@ Space complexity: O(h) for the tree height.
 ## entry 154
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 155
+
+Space complexity: O(log n) for the recursion stack.
