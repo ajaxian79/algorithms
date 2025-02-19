@@ -740,3 +740,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 171
 
 Space complexity: O(1) auxiliary.
+
+## entry 172
+
+Runs in a single pass over the input.
