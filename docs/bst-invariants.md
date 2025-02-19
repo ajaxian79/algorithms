@@ -501,3 +501,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 109
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 110
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
