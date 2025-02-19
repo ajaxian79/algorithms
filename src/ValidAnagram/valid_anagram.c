@@ -87,3 +87,4 @@ int is_anagram(const char* s, const char* t) {
 // note 58: Linear in n; the constant factor is small.
 // note 59: Time complexity: O(1).
 // note 60: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 61: Heap when you only need top-k; full sort is wasted work.
