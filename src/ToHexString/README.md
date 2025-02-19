@@ -695,3 +695,7 @@ No allocations after setup.
 ## entry 159
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 160
+
+Time complexity: O(n*k) where k is the alphabet size.
