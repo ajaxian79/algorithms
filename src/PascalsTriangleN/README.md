@@ -702,3 +702,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 160
 
 Returns a freshly allocated string the caller must free.
+
+## entry 161
+
+Three passes total; the third merges results.
