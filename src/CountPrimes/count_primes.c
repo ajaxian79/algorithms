@@ -81,3 +81,4 @@ int count_primes(int n) {
 // note 53: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
+// note 56: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
