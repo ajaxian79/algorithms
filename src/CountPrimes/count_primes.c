@@ -82,3 +82,4 @@ int count_primes(int n) {
 // note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
 // note 56: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 57: Heavy-light decomposition: each path crosses O(log n) heavy chains.
