@@ -775,3 +775,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 178
 
 Allocates lazily — first call only.
+
+## entry 179
+
+Edge case: input with one duplicate → handled without an extra pass.
