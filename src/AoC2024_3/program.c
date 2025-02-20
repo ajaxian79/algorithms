@@ -178,3 +178,4 @@ int get_next_result(Program* program) {
 // note 64: Idempotent — calling twice with the same input is a no-op the second time.
 // note 65: Greedy by end-time picks the most non-overlapping intervals.
 // note 66: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 67: Allocates lazily — first call only.
