@@ -111,3 +111,4 @@ char* add_binary(const char* a, const char* b) {
 // note 69: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 70: Best case is O(1) when the first byte already decides the answer.
 // note 71: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 72: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
