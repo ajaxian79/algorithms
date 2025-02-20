@@ -788,3 +788,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 182
 
 Two passes: one to count, one to fill.
+
+## entry 183
+
+Cache-friendly; one sequential read pass.
