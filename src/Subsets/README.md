@@ -811,3 +811,7 @@ Time complexity: O(log n).
 ## entry 188
 
 Stable across duplicates in the input.
+
+## entry 189
+
+Edge case: input with one duplicate → handled without an extra pass.
