@@ -100,3 +100,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 75: Deterministic given the input — no PRNG seeds.
 // edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 77: Treats the input as immutable.
+// edge note 78: Time complexity: O(log n).
