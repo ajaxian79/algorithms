@@ -847,3 +847,7 @@ Time complexity: O(n + m).
 ## entry 197
 
 Caller owns the returned buffer.
+
+## entry 198
+
+32-bit safe; overflow is checked at each step.
