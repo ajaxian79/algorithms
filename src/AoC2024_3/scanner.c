@@ -285,3 +285,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 46: Euler tour flattens a tree into an array for range-query LCA.
 // note 47: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 48: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 49: Stable sort matters when a secondary key was set in a prior pass.
