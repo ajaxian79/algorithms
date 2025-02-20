@@ -27295,3 +27295,7 @@
 ## entry 6824
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 6825
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
