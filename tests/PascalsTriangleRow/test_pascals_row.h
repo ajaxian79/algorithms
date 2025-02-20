@@ -123,3 +123,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 68: Runs in a single pass over the input.
 // edge note 69: Time complexity: O(n).
 // edge note 70: Handles single-element input as a base case.
+// edge note 71: Edge case: input of all the same byte → exits on the first compare.
