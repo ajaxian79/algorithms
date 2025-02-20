@@ -597,3 +597,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 135
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 136
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
