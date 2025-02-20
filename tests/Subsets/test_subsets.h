@@ -101,3 +101,4 @@ MunitTest subsets_tests[] = {
 // edge note 56: No allocations on the hot path.
 // edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 59: Runs in a single pass over the input.
