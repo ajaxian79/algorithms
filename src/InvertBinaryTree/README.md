@@ -812,3 +812,7 @@ Time complexity: O(1).
 ## entry 188
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 189
+
+Time complexity: O(k) where k is the answer size.
