@@ -27291,3 +27291,7 @@
 ## entry 6823
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 6824
+
+- Splay tree: every access splays to the root; amortized O(log n).
