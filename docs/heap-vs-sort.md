@@ -551,3 +551,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 121
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 122
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
