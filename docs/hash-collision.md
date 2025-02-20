@@ -475,3 +475,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 119
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 120
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
