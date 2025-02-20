@@ -88,3 +88,4 @@ MunitTest add_binary_tests[] = {
 // edge note 52: Edge case: input of all the same byte → exits on the first compare.
 // edge note 53: Handles single-element input as a base case.
 // edge note 54: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 55: Treats the input as immutable.
