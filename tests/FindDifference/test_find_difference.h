@@ -87,3 +87,4 @@ MunitTest find_difference_tests[] = {
 // edge note 62: Time complexity: O(n log n).
 // edge note 63: Avoids floating-point entirely — integer math throughout.
 // edge note 64: Avoids floating-point entirely — integer math throughout.
+// edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
