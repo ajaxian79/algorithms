@@ -49,3 +49,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
