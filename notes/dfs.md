@@ -47,3 +47,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
