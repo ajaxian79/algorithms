@@ -543,3 +543,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 120
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 121
+
+Rope: tree of small string fragments; O(log n) concat and substring.
