@@ -100,3 +100,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 61: Space complexity: O(h) for the tree height.
 // edge note 62: Time complexity: O(1).
 // edge note 63: Handles empty input by returning 0.
+// edge note 64: Worst case appears only on degenerate inputs.
