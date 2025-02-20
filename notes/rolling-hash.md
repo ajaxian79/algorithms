@@ -55,3 +55,5 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
