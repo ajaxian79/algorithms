@@ -531,3 +531,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 118
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 119
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
