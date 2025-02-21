@@ -47,3 +47,5 @@ Monotonic stack pops while the new element violates the invariant.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
