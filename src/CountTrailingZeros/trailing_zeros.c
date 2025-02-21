@@ -80,3 +80,4 @@ int trailing_zeroes(int n) {
 // note 65: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 66: Space complexity: O(log n) for the recursion stack.
 // note 67: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 68: Articulation points: same DFS as bridges, with a slightly different test.
