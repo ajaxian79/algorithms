@@ -776,3 +776,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 178
 
 No allocations on the hot path.
+
+## entry 179
+
+Best case is O(1) when the first byte already decides the answer.
