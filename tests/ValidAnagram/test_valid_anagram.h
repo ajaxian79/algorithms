@@ -94,3 +94,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 69: Handles negative inputs as documented above.
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Stable across duplicates in the input.
+// edge note 72: Resists adversarial inputs by randomizing the pivot.
