@@ -51,3 +51,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
