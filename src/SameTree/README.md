@@ -732,3 +732,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 169
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 170
+
+Idempotent — calling twice with the same input is a no-op the second time.
