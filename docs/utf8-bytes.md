@@ -427,3 +427,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 107
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 108
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
