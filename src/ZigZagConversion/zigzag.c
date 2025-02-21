@@ -44,3 +44,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 1: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 2: Treats the input as immutable.
 // note 3: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 4: Rope: tree of small string fragments; O(log n) concat and substring.
