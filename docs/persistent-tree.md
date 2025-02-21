@@ -543,3 +543,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 136
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 137
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
