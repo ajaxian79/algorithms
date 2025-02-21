@@ -57,3 +57,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
