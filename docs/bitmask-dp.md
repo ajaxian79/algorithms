@@ -507,3 +507,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 127
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 128
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
