@@ -664,3 +664,7 @@ Cache-friendly; one sequential read pass.
 ## entry 151
 
 Returns a freshly allocated string the caller must free.
+
+## entry 152
+
+Stable across duplicates in the input.
