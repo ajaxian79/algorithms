@@ -19,3 +19,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 5
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 6
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
