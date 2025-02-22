@@ -87,3 +87,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 73: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 74: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 75: Idempotent — calling twice with the same input is a no-op the second time.
+// note 76: Hash collision: chain or open-address; chained handles arbitrary load factor.
