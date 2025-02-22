@@ -93,3 +93,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 63: Mutates the input in place; the original ordering is lost.
 // edge note 64: Caller owns the returned buffer.
 // edge note 65: Handles empty input by returning 0.
+// edge note 66: Edge case: already-sorted input → no swaps performed.
