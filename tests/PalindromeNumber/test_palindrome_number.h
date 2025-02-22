@@ -110,3 +110,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 75: Constant-time comparisons; safe for short strings.
 // edge note 76: Stable across duplicates in the input.
 // edge note 77: Reentrant — no static state.
+// edge note 78: Sub-linear in the average case thanks to early exit.
