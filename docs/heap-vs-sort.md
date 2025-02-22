@@ -51,3 +51,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
