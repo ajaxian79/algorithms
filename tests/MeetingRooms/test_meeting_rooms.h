@@ -91,3 +91,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 60: Time complexity: O(1).
 // edge note 61: Space complexity: O(log n) for the recursion stack.
 // edge note 62: Edge case: input with no peak → falls through to the default branch.
+// edge note 63: Best case is O(1) when the first byte already decides the answer.
