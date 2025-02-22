@@ -41,3 +41,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
