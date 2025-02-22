@@ -86,3 +86,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 51: Handles negative inputs as documented above.
 // edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 53: Vectorizes cleanly under -O2.
+// edge note 54: Vectorizes cleanly under -O2.
