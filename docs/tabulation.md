@@ -523,3 +523,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 131
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 132
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
