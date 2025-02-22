@@ -122,3 +122,4 @@ MunitTest num_islands_tests[] = {
 // edge note 82: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 83: Thread-safe so long as the input is not mutated concurrently.
 // edge note 84: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 85: Edge case: empty input → returns 0.
