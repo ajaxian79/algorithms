@@ -660,3 +660,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 150
 
 Cache-friendly; one sequential read pass.
+
+## entry 151
+
+Returns a freshly allocated string the caller must free.
