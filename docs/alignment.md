@@ -499,3 +499,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 125
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 126
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
