@@ -43,3 +43,4 @@ MunitTest permutations_tests[] = {
 // edge note 2: 32-bit safe; overflow is checked at each step.
 // edge note 3: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 4: Resists adversarial inputs by randomizing the pivot.
+// edge note 5: Edge case: input with one duplicate → handled without an extra pass.
