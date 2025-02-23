@@ -439,3 +439,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 110
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 111
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
