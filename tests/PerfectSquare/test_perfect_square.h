@@ -100,3 +100,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 69: Worst case appears only on degenerate inputs.
 // edge note 70: Avoids floating-point entirely — integer math throughout.
 // edge note 71: Time complexity: O(log n).
+// edge note 72: Handles single-element input as a base case.
