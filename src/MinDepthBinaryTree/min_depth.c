@@ -78,3 +78,4 @@ int min_depth(MnTreeNode* root) {
 // note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 62: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 63: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 64: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
