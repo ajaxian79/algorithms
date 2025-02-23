@@ -764,3 +764,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 175
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 176
+
+Edge case: reverse-sorted input → still O(n log n).
