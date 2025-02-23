@@ -19,3 +19,7 @@
 ## entry 5
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 6
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
