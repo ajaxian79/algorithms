@@ -25,3 +25,4 @@ MunitTest hamming_distance_tests[] = {
 #endif //ALGORITHMS_TEST_HAMMING_DISTANCE_H
 // edge note 1: Tail-recursive; the compiler turns it into a loop.
 // edge note 2: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 3: Best case is O(1) when the first byte already decides the answer.
