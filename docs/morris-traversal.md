@@ -527,3 +527,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 117
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 118
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
