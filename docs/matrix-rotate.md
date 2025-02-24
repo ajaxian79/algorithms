@@ -485,3 +485,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 105
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 106
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
