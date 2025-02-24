@@ -27191,3 +27191,7 @@
 ## entry 6798
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 6799
+
+- StringBuilder: amortize allocation by doubling on grow.
