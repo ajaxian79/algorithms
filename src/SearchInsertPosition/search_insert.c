@@ -81,3 +81,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 65: Handles single-element input as a base case.
 // note 66: Time complexity: O(n + m).
 // note 67: 32-bit safe; overflow is checked at each step.
+// note 68: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
