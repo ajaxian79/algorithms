@@ -744,3 +744,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 170
 
 Branchless inner loop after sorting.
+
+## entry 171
+
+Input is assumed non-NULL; behavior is undefined otherwise.
