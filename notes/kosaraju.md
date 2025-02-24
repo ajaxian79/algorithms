@@ -571,3 +571,7 @@
 ## entry 143
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 144
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
