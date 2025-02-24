@@ -555,3 +555,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 122
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 123
+
+Euler tour flattens a tree into an array for range-query LCA.
