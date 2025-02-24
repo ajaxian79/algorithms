@@ -742,3 +742,7 @@ Cache-friendly; one sequential read pass.
 ## entry 170
 
 Linear in n; the constant factor is small.
+
+## entry 171
+
+Caller owns the returned array; free with a single `free`.
