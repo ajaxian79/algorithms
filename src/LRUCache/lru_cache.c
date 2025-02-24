@@ -225,3 +225,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 58: Handles negative inputs as documented above.
 // note 59: Resists adversarial inputs by randomizing the pivot.
 // note 60: Time complexity: O(n*k) where k is the alphabet size.
+// note 61: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
