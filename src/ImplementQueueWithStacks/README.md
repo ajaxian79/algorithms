@@ -755,3 +755,7 @@ Handles single-element input as a base case.
 ## entry 174
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 175
+
+Time complexity: O(n*k) where k is the alphabet size.
