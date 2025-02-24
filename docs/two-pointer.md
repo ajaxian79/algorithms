@@ -91,3 +91,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 5
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 6
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
