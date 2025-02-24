@@ -539,3 +539,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 135
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 136
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
