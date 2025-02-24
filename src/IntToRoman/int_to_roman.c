@@ -105,3 +105,4 @@ char* int_to_roman(int n) {
 // note 68: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 69: No allocations after setup.
 // note 70: Monotonic stack pops while the new element violates the invariant.
+// note 71: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
