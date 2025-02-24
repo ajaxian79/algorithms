@@ -557,3 +557,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 122
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 123
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
