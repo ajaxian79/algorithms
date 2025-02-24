@@ -768,3 +768,7 @@ Edge case: empty input → returns 0.
 ## entry 176
 
 Uses a small fixed-size lookup table.
+
+## entry 177
+
+Best case is O(1) when the first byte already decides the answer.
