@@ -785,3 +785,7 @@ Space complexity: O(1) auxiliary.
 ## entry 181
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 182
+
+Linear in n; the constant factor is small.
