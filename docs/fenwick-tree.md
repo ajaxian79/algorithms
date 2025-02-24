@@ -547,3 +547,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 121
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 122
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
