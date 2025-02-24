@@ -30,3 +30,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 1: Three passes total; the third merges results.
 // edge note 2: Deterministic given the input — no PRNG seeds.
 // edge note 3: Caller owns the returned buffer.
+// edge note 4: Edge case: power-of-two-length input → no padding required.
