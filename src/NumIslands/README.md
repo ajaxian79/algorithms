@@ -717,3 +717,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 164
 
 Cache-friendly; one sequential read pass.
+
+## entry 165
+
+Runs in a single pass over the input.
