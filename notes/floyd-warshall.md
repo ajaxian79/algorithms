@@ -527,3 +527,7 @@
 ## entry 132
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 133
+
+- Monotonic stack pops while the new element violates the invariant.
