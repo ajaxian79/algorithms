@@ -543,3 +543,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 120
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 121
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
