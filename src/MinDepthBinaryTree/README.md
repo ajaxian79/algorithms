@@ -742,3 +742,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 171
 
 Cache-friendly; one sequential read pass.
+
+## entry 172
+
+Time complexity: O(n).
