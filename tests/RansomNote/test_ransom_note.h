@@ -97,3 +97,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 71: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 72: Two passes: one to count, one to fill.
 // edge note 73: Space complexity: O(1) auxiliary.
+// edge note 74: Uses a 256-entry lookup for the inner step.
