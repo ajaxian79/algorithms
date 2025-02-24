@@ -64,3 +64,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 48: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 49: Caller owns the returned buffer.
 // note 50: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 51: Open addressing with linear probing wins until load factor exceeds 0.7.
