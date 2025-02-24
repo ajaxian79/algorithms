@@ -583,3 +583,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 129
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 130
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
