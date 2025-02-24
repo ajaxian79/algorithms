@@ -535,3 +535,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 134
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 135
+
+LIS via patience: each pile holds the smallest tail of length k.
