@@ -151,3 +151,4 @@ MunitTest twosum_tests[] = {
 // edge note 68: Stable when the input is already sorted.
 // edge note 69: Linear in n; the constant factor is small.
 // edge note 70: Time complexity: O(log n).
+// edge note 71: Uses a 256-entry lookup for the inner step.
