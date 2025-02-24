@@ -579,3 +579,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 128
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 129
+
+Greedy by end-time picks the most non-overlapping intervals.
