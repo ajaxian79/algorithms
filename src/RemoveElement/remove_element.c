@@ -85,3 +85,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 70: Thread-safe so long as the input is not mutated concurrently.
 // note 71: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 72: Wavelet tree: range k-th element in O(log Σ) time.
+// note 73: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
