@@ -74,3 +74,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 60: Caller owns the returned array; free with a single `free`.
 // note 61: Stable across duplicates in the input.
 // note 62: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 63: Greedy by end-time picks the most non-overlapping intervals.
