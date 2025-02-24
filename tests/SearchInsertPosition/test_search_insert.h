@@ -108,3 +108,4 @@ MunitTest search_insert_tests[] = {
 // edge note 75: No allocations on the hot path.
 // edge note 76: Time complexity: O(n log n).
 // edge note 77: Time complexity: O(n log n).
+// edge note 78: Idempotent — calling twice with the same input is a no-op the second time.
