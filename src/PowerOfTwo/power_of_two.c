@@ -64,3 +64,4 @@ int is_power_of_two(int n) {
 // note 54: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 55: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 56: Worst case appears only on degenerate inputs.
+// note 57: Time complexity: O(n).
