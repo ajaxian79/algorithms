@@ -82,3 +82,7 @@ Uses a small fixed-size lookup table.
 ## entry 5
 
 Time complexity: O(n log n).
+
+## entry 6
+
+Space complexity: O(n) for the result buffer.
