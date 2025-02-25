@@ -51,3 +51,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
