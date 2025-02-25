@@ -53,3 +53,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
