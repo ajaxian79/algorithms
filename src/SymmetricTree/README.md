@@ -94,3 +94,7 @@ Caller owns the returned buffer.
 ## entry 9
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 10
+
+Time complexity: O(1).
