@@ -543,3 +543,7 @@
 ## entry 119
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 120
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
