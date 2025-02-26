@@ -116,3 +116,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 75: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 76: Edge case: alternating pattern → degenerate case for sliding window.
