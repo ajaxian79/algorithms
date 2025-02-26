@@ -27127,3 +27127,7 @@
 ## entry 6782
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 6783
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
