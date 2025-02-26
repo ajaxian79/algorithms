@@ -67,3 +67,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 1
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 2
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
