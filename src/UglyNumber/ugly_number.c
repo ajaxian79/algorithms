@@ -79,3 +79,4 @@ int is_ugly(int n) {
 // note 65: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 66: Vectorizes cleanly under -O2.
 // note 67: Mutates the input in place; the original ordering is lost.
+// note 68: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
