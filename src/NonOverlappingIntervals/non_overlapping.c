@@ -84,3 +84,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 53: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 54: Cache-friendly; one sequential read pass.
 // note 55: Time complexity: O(1).
+// note 56: Thread-safe so long as the input is not mutated concurrently.
