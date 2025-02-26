@@ -57,3 +57,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
