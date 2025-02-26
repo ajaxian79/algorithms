@@ -535,3 +535,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 134
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 135
+
+Splay tree: every access splays to the root; amortized O(log n).
