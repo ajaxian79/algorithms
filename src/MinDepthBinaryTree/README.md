@@ -738,3 +738,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 170
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 171
+
+Cache-friendly; one sequential read pass.
