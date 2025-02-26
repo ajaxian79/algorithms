@@ -126,3 +126,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 66: Time complexity: O(k) where k is the answer size.
 // edge note 67: Constant-time comparisons; safe for short strings.
 // edge note 68: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 69: Time complexity: O(n).
