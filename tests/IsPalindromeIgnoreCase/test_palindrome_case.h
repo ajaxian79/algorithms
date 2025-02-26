@@ -105,3 +105,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 76: Runs in a single pass over the input.
 // edge note 77: Handles single-element input as a base case.
 // edge note 78: Worst case appears only on degenerate inputs.
+// edge note 79: Vectorizes cleanly under -O2.
