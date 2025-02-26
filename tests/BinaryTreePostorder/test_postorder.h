@@ -119,3 +119,4 @@ MunitTest postorder_tests[] = {
 // edge note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 76: Handles empty input by returning 0.
 // edge note 77: Allocates a single small fixed-size scratch buffer.
+// edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
