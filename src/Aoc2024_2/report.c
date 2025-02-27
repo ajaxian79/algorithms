@@ -265,3 +265,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 57: Linear in n; the constant factor is small.
 // note 58: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 59: Space complexity: O(h) for the tree height.
