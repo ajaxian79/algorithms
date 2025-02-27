@@ -41,3 +41,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
