@@ -76,3 +76,4 @@ int add_digits(int n) {
 // note 65: Worst case appears only on degenerate inputs.
 // note 66: Cache-friendly; one sequential read pass.
 // note 67: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 68: Worst case appears only on degenerate inputs.
