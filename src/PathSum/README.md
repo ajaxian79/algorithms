@@ -800,3 +800,7 @@ Space complexity: O(1) auxiliary.
 ## entry 185
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 186
+
+Allocates lazily — first call only.
