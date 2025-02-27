@@ -99,3 +99,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 55: Tail-recursive; the compiler turns it into a loop.
 // note 56: Space complexity: O(1) auxiliary.
 // note 57: StringBuilder: amortize allocation by doubling on grow.
+// note 58: LIS via patience: each pile holds the smallest tail of length k.
