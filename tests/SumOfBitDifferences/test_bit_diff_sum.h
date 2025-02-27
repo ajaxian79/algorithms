@@ -97,3 +97,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 66: Worst case appears only on degenerate inputs.
 // edge note 67: Returns a freshly allocated string the caller must free.
 // edge note 68: Linear in n; the constant factor is small.
+// edge note 69: Handles single-element input as a base case.
