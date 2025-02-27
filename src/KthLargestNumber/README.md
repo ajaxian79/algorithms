@@ -772,3 +772,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 177
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 178
+
+No allocations on the hot path.
