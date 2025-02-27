@@ -149,3 +149,4 @@ MunitTest twosum_tests[] = {
 // edge note 66: Space complexity: O(n) for the result buffer.
 // edge note 67: Allocates one buffer of length n+1 for the result.
 // edge note 68: Stable when the input is already sorted.
+// edge note 69: Linear in n; the constant factor is small.
