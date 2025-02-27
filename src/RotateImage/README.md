@@ -773,3 +773,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 178
 
 Reentrant — no static state.
+
+## entry 179
+
+Sub-linear in the average case thanks to early exit.
