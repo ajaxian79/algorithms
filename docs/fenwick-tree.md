@@ -539,3 +539,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 119
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 120
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
