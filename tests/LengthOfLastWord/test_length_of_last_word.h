@@ -86,3 +86,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 59: Edge case: reverse-sorted input → still O(n log n).
 // edge note 60: Space complexity: O(log n) for the recursion stack.
 // edge note 61: Handles empty input by returning 0.
+// edge note 62: Space complexity: O(n) for the result buffer.
