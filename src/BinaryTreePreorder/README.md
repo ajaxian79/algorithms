@@ -78,3 +78,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 5
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 6
+
+Edge case: input of all the same byte → exits on the first compare.
