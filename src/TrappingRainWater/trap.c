@@ -76,3 +76,4 @@ int trap(const int* height, int n) {
 // note 52: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 55: False sharing: two threads writing different bytes in the same cache line stall both.
