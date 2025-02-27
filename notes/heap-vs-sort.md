@@ -49,3 +49,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
