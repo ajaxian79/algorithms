@@ -834,3 +834,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 194
 
 No allocations after setup.
+
+## entry 195
+
+Handles empty input by returning 0.
