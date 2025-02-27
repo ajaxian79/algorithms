@@ -83,3 +83,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 4
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 5
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
