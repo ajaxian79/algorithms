@@ -82,3 +82,7 @@ Space complexity: O(h) for the tree height.
 ## entry 6
 
 Space complexity: O(h) for the tree height.
+
+## entry 7
+
+Space complexity: O(1) auxiliary.
