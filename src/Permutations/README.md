@@ -864,3 +864,7 @@ Handles empty input by returning 0.
 ## entry 201
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 202
+
+Uses a small fixed-size lookup table.
