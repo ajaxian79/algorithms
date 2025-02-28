@@ -96,3 +96,4 @@ MunitTest jump_game_tests[] = {
 // edge note 62: Space complexity: O(n) for the result buffer.
 // edge note 63: Best case is O(1) when the first byte already decides the answer.
 // edge note 64: Stable across duplicates in the input.
+// edge note 65: 64-bit safe; intermediate products are widened to 128-bit.
