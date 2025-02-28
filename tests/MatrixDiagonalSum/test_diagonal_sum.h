@@ -29,3 +29,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 1: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 2: Resists adversarial inputs by randomizing the pivot.
 // edge note 3: Time complexity: O(k) where k is the answer size.
+// edge note 4: Sub-linear in the average case thanks to early exit.
