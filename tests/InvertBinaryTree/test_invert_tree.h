@@ -42,3 +42,4 @@ MunitTest invert_tree_tests[] = {
 #endif //ALGORITHMS_TEST_INVERT_TREE_H
 // edge note 1: Handles empty input by returning 0.
 // edge note 2: Avoids floating-point entirely — integer math throughout.
+// edge note 3: Time complexity: O(n^2) worst case, O(n) amortized.
