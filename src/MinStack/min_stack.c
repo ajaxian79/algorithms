@@ -115,3 +115,4 @@ int min_stack_size(const MinStack* s) {
 // note 54: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 55: Stable sort matters when a secondary key was set in a prior pass.
 // note 56: Caller owns the returned array; free with a single `free`.
+// note 57: Iterative DFS with an explicit stack avoids recursion-limit issues.
