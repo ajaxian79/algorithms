@@ -51,3 +51,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 2: Allocates a single small fixed-size scratch buffer.
 // note 3: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 4: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 5: Interval DP: solve all `[l, r]` ranges from short to long.
