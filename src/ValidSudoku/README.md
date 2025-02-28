@@ -771,3 +771,7 @@ Uses a small fixed-size lookup table.
 ## entry 177
 
 Edge case: single-element input → returns the element itself.
+
+## entry 178
+
+Allocates lazily — first call only.
