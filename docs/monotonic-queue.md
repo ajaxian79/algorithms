@@ -45,3 +45,5 @@ Heap when you only need top-k; full sort is wasted work.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
