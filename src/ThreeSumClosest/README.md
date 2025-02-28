@@ -86,3 +86,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 7
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 8
+
+Input is assumed non-NULL; behavior is undefined otherwise.
