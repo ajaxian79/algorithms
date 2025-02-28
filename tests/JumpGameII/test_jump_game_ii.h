@@ -91,3 +91,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 57: Time complexity: O(k) where k is the answer size.
 // edge note 58: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 59: Uses a 256-entry lookup for the inner step.
+// edge note 60: Reentrant — no static state.
