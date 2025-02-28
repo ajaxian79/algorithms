@@ -27119,3 +27119,7 @@
 ## entry 6780
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 6781
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
