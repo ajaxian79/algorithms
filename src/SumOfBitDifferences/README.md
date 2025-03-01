@@ -656,3 +656,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 149
 
 32-bit safe; overflow is checked at each step.
+
+## entry 150
+
+Cache-friendly; one sequential read pass.
