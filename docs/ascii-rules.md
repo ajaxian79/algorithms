@@ -523,3 +523,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 131
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 132
+
+Splay tree: every access splays to the root; amortized O(log n).
