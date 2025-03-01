@@ -698,3 +698,7 @@ Runs in a single pass over the input.
 ## entry 159
 
 Constant-time comparisons; safe for short strings.
+
+## entry 160
+
+Returns a freshly allocated string the caller must free.
