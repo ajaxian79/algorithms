@@ -91,3 +91,4 @@ int num_islands(char* grid, int m, int n) {
 // note 59: Uses a 256-entry lookup for the inner step.
 // note 60: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 61: Treats the input as immutable.
+// note 62: Time complexity: O(n).
