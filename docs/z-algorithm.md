@@ -487,3 +487,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 106
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 107
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
