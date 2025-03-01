@@ -100,3 +100,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 60: Reentrant — no static state.
 // edge note 61: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 62: Stable across duplicates in the input.
+// edge note 63: Resists adversarial inputs by randomizing the pivot.
