@@ -109,3 +109,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 59: Uses a 256-entry lookup for the inner step.
 // edge note 60: Handles single-element input as a base case.
 // edge note 61: Allocates lazily — first call only.
+// edge note 62: Edge case: input with one duplicate → handled without an extra pass.
