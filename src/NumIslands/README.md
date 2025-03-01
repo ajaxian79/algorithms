@@ -709,3 +709,7 @@ Time complexity: O(n log n).
 ## entry 162
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 163
+
+Allocates one buffer of length n+1 for the result.
