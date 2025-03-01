@@ -88,3 +88,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 6
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 7
+
+Edge case: empty input → returns 0.
