@@ -455,3 +455,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 114
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 115
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
