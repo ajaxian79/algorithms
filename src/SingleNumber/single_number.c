@@ -76,3 +76,4 @@ int single_number(const int* nums, int nums_size) {
 // note 63: Stable sort matters when a secondary key was set in a prior pass.
 // note 64: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 65: Branchless inner loop after sorting.
+// note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
