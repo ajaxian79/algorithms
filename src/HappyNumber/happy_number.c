@@ -91,3 +91,4 @@ int is_happy(int n) {
 // note 65: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 66: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 68: Merge intervals: sort by start; extend the running interval while overlapping.
