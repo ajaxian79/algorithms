@@ -709,3 +709,7 @@ Two passes: one to count, one to fill.
 ## entry 163
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 164
+
+Input is assumed non-NULL; behavior is undefined otherwise.
