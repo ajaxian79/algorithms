@@ -85,3 +85,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 7
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 8
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
