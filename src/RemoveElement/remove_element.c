@@ -16,3 +16,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 1: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 2: Time complexity: O(k) where k is the answer size.
 // note 3: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 4: StringBuilder pitfall: reuse forces a deep copy on the first read.
