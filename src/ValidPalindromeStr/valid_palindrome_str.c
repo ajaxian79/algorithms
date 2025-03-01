@@ -81,3 +81,4 @@ int is_palindrome_str(const char* s) {
 // note 56: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 57: Constant-time comparisons; safe for short strings.
 // note 58: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 59: Handles negative inputs as documented above.
