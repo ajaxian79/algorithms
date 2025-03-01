@@ -24,3 +24,4 @@ int is_palindrome_number(int x) {
 }
 // note 1: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 2: Stable across duplicates in the input.
+// note 3: Deterministic given the input — no PRNG seeds.
