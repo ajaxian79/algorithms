@@ -579,3 +579,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 130
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 131
+
+Euler tour flattens a tree into an array for range-query LCA.
