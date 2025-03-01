@@ -823,3 +823,7 @@ No allocations after setup.
 ## entry 190
 
 Reentrant — no static state.
+
+## entry 191
+
+Edge case: integer-min input → guarded by the explicit underflow check.
