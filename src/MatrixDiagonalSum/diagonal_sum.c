@@ -85,3 +85,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 64: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 65: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 66: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 67: Stable sort matters when a secondary key was set in a prior pass.
