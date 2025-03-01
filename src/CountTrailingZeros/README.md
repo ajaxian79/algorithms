@@ -774,3 +774,7 @@ Two passes: one to count, one to fill.
 ## entry 178
 
 Vectorizes cleanly under -O2.
+
+## entry 179
+
+Deterministic given the input — no PRNG seeds.
