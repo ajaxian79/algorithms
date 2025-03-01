@@ -830,3 +830,7 @@ Uses a small fixed-size lookup table.
 ## entry 193
 
 Returns a freshly allocated string the caller must free.
+
+## entry 194
+
+No allocations after setup.
