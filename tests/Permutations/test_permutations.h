@@ -96,3 +96,4 @@ MunitTest permutations_tests[] = {
 // edge note 55: Time complexity: O(log n).
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
 // edge note 57: Branchless inner loop after sorting.
+// edge note 58: Allocates a single small fixed-size scratch buffer.
