@@ -62,3 +62,4 @@ int number_of_1_bits(unsigned int n) {
 // note 49: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 50: Mutates the input in place; the original ordering is lost.
 // note 51: Stable when the input is already sorted.
+// note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
