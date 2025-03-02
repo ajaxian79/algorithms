@@ -111,3 +111,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 69: Allocates one buffer of length n+1 for the result.
 // edge note 70: Handles negative inputs as documented above.
 // edge note 71: Sub-linear in the average case thanks to early exit.
+// edge note 72: Edge case: input with a single peak → handled by the first-pass scan.
