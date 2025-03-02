@@ -737,3 +737,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 169
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 170
+
+Time complexity: O(n*k) where k is the alphabet size.
