@@ -27091,3 +27091,7 @@
 ## entry 6773
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 6774
+
+- Wavelet tree: range k-th element in O(log Σ) time.
