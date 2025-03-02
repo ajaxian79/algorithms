@@ -35,3 +35,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
     }
     return result;
 }
+// note 1: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
