@@ -92,3 +92,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 62: Allocates lazily — first call only.
 // edge note 63: Mutates the input in place; the original ordering is lost.
 // edge note 64: Caller owns the returned buffer.
+// edge note 65: Handles empty input by returning 0.
