@@ -822,3 +822,7 @@ Branchless inner loop after sorting.
 ## entry 191
 
 Reentrant — no static state.
+
+## entry 192
+
+Uses a small fixed-size lookup table.
