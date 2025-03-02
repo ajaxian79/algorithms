@@ -87,3 +87,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 58: Allocates a single small fixed-size scratch buffer.
 // edge note 59: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 60: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 61: Linear in n; the constant factor is small.
