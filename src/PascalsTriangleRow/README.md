@@ -826,3 +826,7 @@ Reentrant — no static state.
 ## entry 192
 
 Uses a small fixed-size lookup table.
+
+## entry 193
+
+Returns a freshly allocated string the caller must free.
