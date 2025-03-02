@@ -769,3 +769,7 @@ Stable across duplicates in the input.
 ## entry 177
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 178
+
+Reentrant — no static state.
