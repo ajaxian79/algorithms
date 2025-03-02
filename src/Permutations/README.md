@@ -860,3 +860,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 200
 
 Handles empty input by returning 0.
+
+## entry 201
+
+Edge case: zero-length string → returns the empty result.
