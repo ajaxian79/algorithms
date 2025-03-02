@@ -693,3 +693,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 158
 
 Handles negative inputs as documented above.
+
+## entry 159
+
+Avoids floating-point entirely — integer math throughout.
