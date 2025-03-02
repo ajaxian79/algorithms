@@ -67,3 +67,4 @@ char find_difference(const char* s, const char* t) {
 // note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 52: Wavelet tree: range k-th element in O(log Σ) time.
 // note 53: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 54: Input is assumed non-NULL; behavior is undefined otherwise.
