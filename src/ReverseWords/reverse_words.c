@@ -93,3 +93,4 @@ char* reverse_words(const char* s) {
 // note 49: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 50: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 51: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 52: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
