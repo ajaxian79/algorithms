@@ -768,3 +768,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 176
 
 Constant-time comparisons; safe for short strings.
+
+## entry 177
+
+Allocates a single small fixed-size scratch buffer.
