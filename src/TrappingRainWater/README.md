@@ -674,3 +674,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 153
 
 Space complexity: O(h) for the tree height.
+
+## entry 154
+
+Sub-linear in the average case thanks to early exit.
