@@ -435,3 +435,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 109
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 110
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
