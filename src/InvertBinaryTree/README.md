@@ -808,3 +808,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 187
 
 Time complexity: O(1).
+
+## entry 188
+
+Time complexity: O(n*k) where k is the alphabet size.
