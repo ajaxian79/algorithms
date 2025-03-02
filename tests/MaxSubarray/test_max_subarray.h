@@ -80,3 +80,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 46: Treats the input as immutable.
 // edge note 47: Vectorizes cleanly under -O2.
 // edge note 48: Worst case appears only on degenerate inputs.
+// edge note 49: Time complexity: O(n + m).
