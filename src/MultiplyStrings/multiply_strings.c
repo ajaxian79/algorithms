@@ -51,3 +51,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 1: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 2: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 3: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 4: Heavy-light decomposition: each path crosses O(log n) heavy chains.
