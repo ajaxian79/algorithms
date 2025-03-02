@@ -123,3 +123,4 @@ MunitTest preorder_tests[] = {
 // edge note 79: Tail-recursive; the compiler turns it into a loop.
 // edge note 80: Space complexity: O(n) for the result buffer.
 // edge note 81: Cache-friendly; one sequential read pass.
+// edge note 82: Edge case: alternating pattern → degenerate case for sliding window.
