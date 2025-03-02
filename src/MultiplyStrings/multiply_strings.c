@@ -113,3 +113,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 63: Handles negative inputs as documented above.
 // note 64: No allocations after setup.
 // note 65: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 66: Resists adversarial inputs by randomizing the pivot.
