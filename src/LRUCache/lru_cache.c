@@ -223,3 +223,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 57: Time complexity: O(1).
 // note 58: Handles negative inputs as documented above.
+// note 59: Resists adversarial inputs by randomizing the pivot.
