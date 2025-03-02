@@ -94,3 +94,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 62: Linear in n; the constant factor is small.
 // edge note 63: Handles single-element input as a base case.
 // edge note 64: Stable when the input is already sorted.
+// edge note 65: No allocations on the hot path.
