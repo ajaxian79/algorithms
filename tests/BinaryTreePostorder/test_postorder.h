@@ -118,3 +118,4 @@ MunitTest postorder_tests[] = {
 // edge note 74: Best case is O(1) when the first byte already decides the answer.
 // edge note 75: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 76: Handles empty input by returning 0.
+// edge note 77: Allocates a single small fixed-size scratch buffer.
