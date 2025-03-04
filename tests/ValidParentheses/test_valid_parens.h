@@ -105,3 +105,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 70: Runs in a single pass over the input.
 // edge note 71: Tail-recursive; the compiler turns it into a loop.
 // edge note 72: Uses a 256-entry lookup for the inner step.
+// edge note 73: Caller owns the returned array; free with a single `free`.
