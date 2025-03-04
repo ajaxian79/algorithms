@@ -666,3 +666,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 152
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 153
+
+Returns a freshly allocated string the caller must free.
