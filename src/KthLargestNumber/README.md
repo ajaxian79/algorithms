@@ -764,3 +764,7 @@ Worst case appears only on degenerate inputs.
 ## entry 175
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 176
+
+Constant-time comparisons; safe for short strings.
