@@ -125,3 +125,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 66: Time complexity: O(k) where k is the answer size.
 // edge note 67: Constant-time comparisons; safe for short strings.
+// edge note 68: Edge case: input with one duplicate → handled without an extra pass.
