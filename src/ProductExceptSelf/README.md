@@ -756,3 +756,7 @@ Three passes total; the third merges results.
 ## entry 173
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 174
+
+Avoids floating-point entirely — integer math throughout.
