@@ -72,3 +72,4 @@ long long climb_stairs(int n) {
 // note 53: Space complexity: O(h) for the tree height.
 // note 54: Wavelet tree: range k-th element in O(log Σ) time.
 // note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 56: Handles single-element input as a base case.
