@@ -455,3 +455,7 @@
 ## entry 114
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 115
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
