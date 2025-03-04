@@ -86,3 +86,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 6
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 7
+
+Caller owns the returned buffer.
