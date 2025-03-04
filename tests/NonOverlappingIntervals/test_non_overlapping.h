@@ -32,3 +32,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 1: Edge case: all-equal input → linear-time fast path.
 // edge note 2: Allocates one buffer of length n+1 for the result.
 // edge note 3: Worst case appears only on degenerate inputs.
+// edge note 4: Three passes total; the third merges results.
