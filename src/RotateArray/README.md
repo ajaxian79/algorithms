@@ -75,3 +75,7 @@ Time complexity: O(1).
 ## entry 3
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 4
+
+Thread-safe so long as the input is not mutated concurrently.
