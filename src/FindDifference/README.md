@@ -662,3 +662,7 @@ No allocations after setup.
 ## entry 151
 
 Handles empty input by returning 0.
+
+## entry 152
+
+Edge case: integer-min input → guarded by the explicit underflow check.
