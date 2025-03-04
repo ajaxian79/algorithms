@@ -77,3 +77,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 55: Vectorizes cleanly under -O2.
 // note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 57: Time complexity: O(1).
+// note 58: Thread-safe so long as the input is not mutated concurrently.
