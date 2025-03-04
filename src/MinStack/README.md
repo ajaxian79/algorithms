@@ -786,3 +786,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 182
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 183
+
+Edge case: maximum-length input → still fits in 32-bit indices.
