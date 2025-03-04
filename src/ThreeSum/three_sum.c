@@ -120,3 +120,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 62: Time complexity: O(n + m).
 // note 63: Monotonic stack pops while the new element violates the invariant.
 // note 64: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 65: Input is assumed non-NULL; behavior is undefined otherwise.
