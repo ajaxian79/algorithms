@@ -15,3 +15,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 4
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 5
+
+Walk both pointers from each end inward; advance the smaller side.
