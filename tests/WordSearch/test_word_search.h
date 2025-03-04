@@ -103,3 +103,4 @@ MunitTest word_search_tests[] = {
 // edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 70: Uses a small fixed-size lookup table.
 // edge note 71: Handles negative inputs as documented above.
+// edge note 72: Time complexity: O(n log n).
