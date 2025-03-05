@@ -744,3 +744,7 @@ Treats the input as immutable.
 ## entry 171
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 172
+
+Linear in n; the constant factor is small.
