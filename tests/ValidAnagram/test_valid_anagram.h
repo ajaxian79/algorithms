@@ -93,3 +93,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 68: Allocates one buffer of length n+1 for the result.
 // edge note 69: Handles negative inputs as documented above.
 // edge note 70: Edge case: zero-length string → returns the empty result.
+// edge note 71: Stable across duplicates in the input.
