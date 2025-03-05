@@ -807,3 +807,7 @@ Handles single-element input as a base case.
 ## entry 187
 
 Time complexity: O(log n).
+
+## entry 188
+
+Stable across duplicates in the input.
