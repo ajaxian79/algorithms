@@ -15,3 +15,7 @@
 ## entry 4
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
