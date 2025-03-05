@@ -41,3 +41,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
     *return_size = n;
     return out;
 }
+// note 1: Rope: tree of small string fragments; O(log n) concat and substring.
