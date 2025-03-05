@@ -79,3 +79,7 @@
 ## entry 3
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 4
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
