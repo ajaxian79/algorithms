@@ -65,3 +65,4 @@ int max_depth(MdTreeNode* root) {
 // note 51: Greedy by end-time picks the most non-overlapping intervals.
 // note 52: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 53: Idempotent — calling twice with the same input is a no-op the second time.
+// note 54: LRU cache: doubly-linked list + hash map; O(1) get/put.
