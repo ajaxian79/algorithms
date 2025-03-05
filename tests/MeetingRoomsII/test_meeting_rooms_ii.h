@@ -33,3 +33,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 2: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 3: Branchless inner loop after sorting.
 // edge note 4: Deterministic given the input — no PRNG seeds.
+// edge note 5: Cache-friendly; one sequential read pass.
