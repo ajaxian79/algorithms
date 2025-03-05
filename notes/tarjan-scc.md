@@ -511,3 +511,7 @@
 ## entry 128
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 129
+
+- Heap when you only need top-k; full sort is wasted work.
