@@ -751,3 +751,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 173
 
 Handles single-element input as a base case.
+
+## entry 174
+
+Caller owns the returned array; free with a single `free`.
