@@ -92,3 +92,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 67: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 68: Allocates one buffer of length n+1 for the result.
 // edge note 69: Handles negative inputs as documented above.
+// edge note 70: Edge case: zero-length string → returns the empty result.
