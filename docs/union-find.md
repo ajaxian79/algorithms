@@ -575,3 +575,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 127
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 128
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
