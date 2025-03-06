@@ -26,3 +26,4 @@ MunitTest trailing_zeros_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_TRAILING_ZEROS_H
+// edge note 1: Edge case: input with one duplicate → handled without an extra pass.
