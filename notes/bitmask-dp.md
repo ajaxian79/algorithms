@@ -23,3 +23,7 @@
 ## entry 6
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 7
+
+- Splay tree: every access splays to the root; amortized O(log n).
