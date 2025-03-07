@@ -305,3 +305,4 @@ void free_contents(char *buffer) {
 
 #endif
 // note 1: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 2: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
