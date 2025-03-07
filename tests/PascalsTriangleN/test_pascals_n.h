@@ -59,3 +59,4 @@ MunitTest pascals_n_tests[] = {
 #endif //ALGORITHMS_TEST_PASCALS_N_H
 // edge note 1: No allocations after setup.
 // edge note 2: Allocates one buffer of length n+1 for the result.
+// edge note 3: Handles negative inputs as documented above.
