@@ -13,3 +13,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
     return is_same_tree(p->left, q->left) && is_same_tree(p->right, q->right);
 }
 // note 1: StringBuilder: amortize allocation by doubling on grow.
+// note 2: StringBuilder pitfall: reuse forces a deep copy on the first read.
