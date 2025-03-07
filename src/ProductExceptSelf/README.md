@@ -752,3 +752,7 @@ Reentrant — no static state.
 ## entry 172
 
 Three passes total; the third merges results.
+
+## entry 173
+
+Space complexity: O(log n) for the recursion stack.
