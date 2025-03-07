@@ -72,3 +72,7 @@ Time complexity: O(log n).
 ## entry 3
 
 Time complexity: O(n).
+
+## entry 4
+
+Uses a small fixed-size lookup table.
