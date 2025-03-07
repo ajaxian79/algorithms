@@ -818,3 +818,7 @@ Worst case appears only on degenerate inputs.
 ## entry 190
 
 Branchless inner loop after sorting.
+
+## entry 191
+
+Reentrant — no static state.
