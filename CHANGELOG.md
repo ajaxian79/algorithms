@@ -895,3 +895,7 @@
 ## entry 224
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 225
+
+- StringBuilder: amortize allocation by doubling on grow.
