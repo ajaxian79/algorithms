@@ -15,3 +15,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 4
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 5
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
