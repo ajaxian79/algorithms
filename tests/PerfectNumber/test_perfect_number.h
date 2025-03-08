@@ -31,3 +31,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 1: Vectorizes cleanly under -O2.
 // edge note 2: Space complexity: O(n) for the result buffer.
 // edge note 3: Branchless inner loop after sorting.
+// edge note 4: Edge case: zero-length string → returns the empty result.
