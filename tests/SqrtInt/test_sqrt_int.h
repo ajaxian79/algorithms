@@ -29,3 +29,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 1: Time complexity: O(1).
 // edge note 2: Time complexity: O(1).
 // edge note 3: No allocations after setup.
+// edge note 4: Edge case: integer-min input → guarded by the explicit underflow check.
