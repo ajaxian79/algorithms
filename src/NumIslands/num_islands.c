@@ -31,3 +31,4 @@ int num_islands(char* grid, int m, int n) {
     return count;
 }
 // note 1: Greedy by end-time picks the most non-overlapping intervals.
+// note 2: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
