@@ -72,3 +72,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 3
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 4
+
+Cache-friendly; one sequential read pass.
