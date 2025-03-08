@@ -74,3 +74,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 3
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 4
+
+Branchless inner loop after sorting.
