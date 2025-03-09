@@ -771,3 +771,7 @@ No allocations after setup.
 ## entry 178
 
 Time complexity: O(n + m).
+
+## entry 179
+
+Allocates lazily — first call only.
