@@ -51,3 +51,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
