@@ -673,3 +673,7 @@
 ## entry 153
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 154
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
