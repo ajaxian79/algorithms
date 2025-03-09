@@ -509,3 +509,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 110
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 111
+
+Euler tour flattens a tree into an array for range-query LCA.
