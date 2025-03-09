@@ -475,3 +475,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 119
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 120
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
