@@ -899,3 +899,7 @@
 ## entry 225
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 226
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
