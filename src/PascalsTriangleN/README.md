@@ -690,3 +690,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 157
 
 Runs in a single pass over the input.
+
+## entry 158
+
+64-bit safe; intermediate products are widened to 128-bit.
