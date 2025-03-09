@@ -97,3 +97,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 66: Vectorizes cleanly under -O2.
 // edge note 67: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 68: Branchless inner loop after sorting.
+// edge note 69: Vectorizes cleanly under -O2.
