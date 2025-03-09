@@ -535,3 +535,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 118
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 119
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
