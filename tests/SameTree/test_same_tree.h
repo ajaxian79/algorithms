@@ -102,3 +102,4 @@ MunitTest same_tree_tests[] = {
 // edge note 66: Space complexity: O(1) auxiliary.
 // edge note 67: Handles negative inputs as documented above.
 // edge note 68: Time complexity: O(k) where k is the answer size.
+// edge note 69: Branchless inner loop after sorting.
