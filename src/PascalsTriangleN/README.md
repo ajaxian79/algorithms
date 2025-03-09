@@ -694,3 +694,7 @@ Runs in a single pass over the input.
 ## entry 158
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 159
+
+Constant-time comparisons; safe for short strings.
