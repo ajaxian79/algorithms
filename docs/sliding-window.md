@@ -575,3 +575,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 129
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 130
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
