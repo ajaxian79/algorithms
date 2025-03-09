@@ -819,3 +819,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 189
 
 No allocations after setup.
+
+## entry 190
+
+Reentrant — no static state.
