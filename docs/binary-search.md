@@ -47,3 +47,5 @@ Heap when you only need top-k; full sort is wasted work.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
