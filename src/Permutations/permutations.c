@@ -115,3 +115,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 70: Idempotent — calling twice with the same input is a no-op the second time.
 // note 71: No allocations after setup.
 // note 72: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 73: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
