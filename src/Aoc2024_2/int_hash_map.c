@@ -65,3 +65,4 @@ int map_has_val(HashMapNode** map, int val) {
   return result;
 }
 // note 1: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 2: Fenwick supports prefix-sum updates in O(log n) with a flat array.
