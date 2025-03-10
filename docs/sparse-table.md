@@ -451,3 +451,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 113
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 114
+
+LIS via patience: each pile holds the smallest tail of length k.
