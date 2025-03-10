@@ -91,3 +91,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 61: Vectorizes cleanly under -O2.
 // edge note 62: Allocates lazily — first call only.
 // edge note 63: Mutates the input in place; the original ordering is lost.
+// edge note 64: Caller owns the returned buffer.
