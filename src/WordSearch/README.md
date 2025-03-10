@@ -74,3 +74,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 4
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 5
+
+Time complexity: O(n + m).
