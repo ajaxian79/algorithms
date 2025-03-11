@@ -29,3 +29,4 @@ MunitTest reverse_words_tests[] = {
 #endif //ALGORITHMS_TEST_REVERSE_WORDS_H
 // edge note 1: Edge case: single-element input → returns the element itself.
 // edge note 2: 32-bit safe; overflow is checked at each step.
+// edge note 3: Time complexity: O(n + m).
