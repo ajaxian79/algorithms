@@ -11,3 +11,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 3
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 4
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
