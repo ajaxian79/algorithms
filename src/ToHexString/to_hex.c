@@ -83,3 +83,4 @@ char* to_hex_string(int n) {
 // note 50: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 51: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 52: Handles empty input by returning 0.
+// note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
