@@ -531,3 +531,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 133
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 134
+
+Interval DP: solve all `[l, r]` ranges from short to long.
