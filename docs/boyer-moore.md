@@ -53,3 +53,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
