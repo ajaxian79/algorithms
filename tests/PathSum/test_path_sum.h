@@ -102,3 +102,4 @@ MunitTest path_sum_tests[] = {
 // edge note 63: Vectorizes cleanly under -O2.
 // edge note 64: Space complexity: O(h) for the tree height.
 // edge note 65: Handles single-element input as a base case.
+// edge note 66: Edge case: NULL input is rejected by the caller, not by us.
