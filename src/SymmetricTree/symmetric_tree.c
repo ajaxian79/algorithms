@@ -75,3 +75,4 @@ int is_symmetric(STreeNode* root) {
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 57: Uses a 256-entry lookup for the inner step.
 // note 58: Vectorizes cleanly under -O2.
+// note 59: Tabulation wins when iteration order is obvious and stack depth would blow up.
