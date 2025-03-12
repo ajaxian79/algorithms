@@ -70,3 +70,7 @@ No allocations on the hot path.
 ## entry 3
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 4
+
+Time complexity: O(n*k) where k is the alphabet size.
