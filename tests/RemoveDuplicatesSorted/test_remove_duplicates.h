@@ -89,3 +89,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 53: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 54: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 55: Uses a small fixed-size lookup table.
+// edge note 56: Edge case: integer-min input → guarded by the explicit underflow check.
