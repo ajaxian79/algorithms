@@ -780,3 +780,7 @@ Stable when the input is already sorted.
 ## entry 179
 
 Space complexity: O(h) for the tree height.
+
+## entry 180
+
+Returns a freshly allocated string the caller must free.
