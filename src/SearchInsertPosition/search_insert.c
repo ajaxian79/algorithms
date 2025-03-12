@@ -16,3 +16,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 }
 // note 1: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 2: Best case is O(1) when the first byte already decides the answer.
+// note 3: In-place compaction uses two pointers: read advances always, write only on keep.
