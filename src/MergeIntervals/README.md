@@ -762,3 +762,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 175
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 176
+
+Space complexity: O(h) for the tree height.
