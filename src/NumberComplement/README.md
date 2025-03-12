@@ -784,3 +784,7 @@ Space complexity: O(h) for the tree height.
 ## entry 180
 
 Returns a freshly allocated string the caller must free.
+
+## entry 181
+
+Allocates one buffer of length n+1 for the result.
