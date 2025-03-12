@@ -83,3 +83,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 68: Space complexity: O(1) auxiliary.
 // note 69: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 70: Thread-safe so long as the input is not mutated concurrently.
+// note 71: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
