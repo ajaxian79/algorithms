@@ -740,3 +740,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 170
 
 Treats the input as immutable.
+
+## entry 171
+
+Edge case: input with one duplicate → handled without an extra pass.
