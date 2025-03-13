@@ -796,3 +796,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 184
 
 Time complexity: O(log n).
+
+## entry 185
+
+Edge case: single-element input → returns the element itself.
