@@ -68,3 +68,4 @@ int hamming_distance(int x, int y) {
 // note 53: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 55: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 56: Backtracking template: choose, recurse, un-choose. Mutate then revert.
