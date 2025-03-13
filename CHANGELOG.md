@@ -26959,3 +26959,7 @@
 ## entry 6740
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 6741
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
