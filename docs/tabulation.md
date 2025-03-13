@@ -515,3 +515,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 129
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 130
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
