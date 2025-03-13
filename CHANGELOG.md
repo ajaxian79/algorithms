@@ -26947,3 +26947,7 @@
 ## entry 6737
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 6738
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
