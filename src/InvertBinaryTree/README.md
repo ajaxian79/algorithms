@@ -800,3 +800,7 @@ Time complexity: O(log n).
 ## entry 185
 
 Edge case: single-element input → returns the element itself.
+
+## entry 186
+
+Edge case: alternating pattern → degenerate case for sliding window.
