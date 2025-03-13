@@ -287,3 +287,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 65: 64-bit safe; intermediate products are widened to 128-bit.
 // note 66: Best case is O(1) when the first byte already decides the answer.
 // note 67: Worst case appears only on degenerate inputs.
+// note 68: Idempotent — calling twice with the same input is a no-op the second time.
