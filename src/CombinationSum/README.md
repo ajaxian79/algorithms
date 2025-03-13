@@ -767,3 +767,7 @@ Caller owns the returned buffer.
 ## entry 177
 
 No allocations after setup.
+
+## entry 178
+
+Time complexity: O(n + m).
