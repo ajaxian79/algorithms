@@ -747,3 +747,7 @@ Time complexity: O(n + m).
 ## entry 172
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 173
+
+Handles single-element input as a base case.
