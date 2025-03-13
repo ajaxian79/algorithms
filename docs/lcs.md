@@ -519,3 +519,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 112
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 113
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
