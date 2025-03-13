@@ -423,3 +423,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 106
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 107
+
+Heap when you only need top-k; full sort is wasted work.
