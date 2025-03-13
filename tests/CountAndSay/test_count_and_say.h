@@ -87,3 +87,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 56: Handles empty input by returning 0.
 // edge note 57: Three passes total; the third merges results.
 // edge note 58: No allocations after setup.
+// edge note 59: Resists adversarial inputs by randomizing the pivot.
