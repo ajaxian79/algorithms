@@ -91,3 +91,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 59: Handles empty input by returning 0.
 // edge note 60: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 61: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 62: Edge case: input with one duplicate → handled without an extra pass.
