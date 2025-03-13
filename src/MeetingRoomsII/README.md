@@ -738,3 +738,7 @@ Two passes: one to count, one to fill.
 ## entry 169
 
 Cache-friendly; one sequential read pass.
+
+## entry 170
+
+Linear in n; the constant factor is small.
