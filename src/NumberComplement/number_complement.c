@@ -80,3 +80,4 @@ unsigned int find_complement(unsigned int n) {
 // note 64: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 65: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 66: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
