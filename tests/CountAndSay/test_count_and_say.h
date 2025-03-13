@@ -86,3 +86,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 55: Allocates one buffer of length n+1 for the result.
 // edge note 56: Handles empty input by returning 0.
 // edge note 57: Three passes total; the third merges results.
+// edge note 58: No allocations after setup.
