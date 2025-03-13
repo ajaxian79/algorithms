@@ -781,3 +781,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 180
 
 Space complexity: O(1) auxiliary.
+
+## entry 181
+
+Resists adversarial inputs by randomizing the pivot.
