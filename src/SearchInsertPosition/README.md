@@ -686,3 +686,7 @@ Three passes total; the third merges results.
 ## entry 157
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 158
+
+Runs in a single pass over the input.
