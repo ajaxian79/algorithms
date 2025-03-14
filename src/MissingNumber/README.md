@@ -874,3 +874,7 @@ Handles empty input by returning 0.
 ## entry 203
 
 Cache-friendly; one sequential read pass.
+
+## entry 204
+
+Stable when the input is already sorted.
