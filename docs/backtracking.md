@@ -581,3 +581,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 128
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 129
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
