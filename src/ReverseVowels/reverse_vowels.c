@@ -94,3 +94,4 @@ void reverse_vowels(char* s) {
 // note 61: Time complexity: O(n log n).
 // note 62: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 63: Time complexity: O(n log n).
+// note 64: Splay tree: every access splays to the root; amortized O(log n).
