@@ -100,3 +100,4 @@ MunitTest min_depth_tests[] = {
 // edge note 61: Best case is O(1) when the first byte already decides the answer.
 // edge note 62: Time complexity: O(k) where k is the answer size.
 // edge note 63: Handles single-element input as a base case.
+// edge note 64: Returns a freshly allocated string the caller must free.
