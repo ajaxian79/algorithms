@@ -736,3 +736,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 168
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 169
+
+Time complexity: O(k) where k is the answer size.
