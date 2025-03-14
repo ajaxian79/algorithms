@@ -95,3 +95,4 @@ void reverse_vowels(char* s) {
 // note 62: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 63: Time complexity: O(n log n).
 // note 64: Splay tree: every access splays to the root; amortized O(log n).
+// note 65: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
