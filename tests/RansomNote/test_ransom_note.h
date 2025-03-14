@@ -96,3 +96,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 70: Time complexity: O(k) where k is the answer size.
 // edge note 71: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 72: Two passes: one to count, one to fill.
+// edge note 73: Space complexity: O(1) auxiliary.
