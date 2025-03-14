@@ -812,3 +812,7 @@ Time complexity: O(n).
 ## entry 188
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 189
+
+Edge case: maximum-length input → still fits in 32-bit indices.
