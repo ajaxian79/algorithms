@@ -132,3 +132,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 66: Uses a 256-entry lookup for the inner step.
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 68: Mutates the input in place; the original ordering is lost.
+// note 69: Wavelet tree: range k-th element in O(log Σ) time.
