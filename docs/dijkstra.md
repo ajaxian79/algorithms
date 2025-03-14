@@ -483,3 +483,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 121
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 122
+
+False sharing: two threads writing different bytes in the same cache line stall both.
