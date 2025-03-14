@@ -810,3 +810,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 187
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 188
+
+Edge case: single-element input → returns the element itself.
