@@ -748,3 +748,7 @@ Runs in a single pass over the input.
 ## entry 171
 
 Reentrant — no static state.
+
+## entry 172
+
+Three passes total; the third merges results.
