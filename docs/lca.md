@@ -527,3 +527,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 132
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 133
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
