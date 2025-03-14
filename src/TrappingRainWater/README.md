@@ -670,3 +670,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 152
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 153
+
+Space complexity: O(h) for the tree height.
