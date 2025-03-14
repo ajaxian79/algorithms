@@ -85,3 +85,7 @@ Time complexity: O(n + m).
 ## entry 6
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 7
+
+Idempotent — calling twice with the same input is a no-op the second time.
