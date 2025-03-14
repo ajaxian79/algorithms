@@ -45,3 +45,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 2: Three passes total; the third merges results.
 // edge note 3: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 4: Linear in n; the constant factor is small.
+// edge note 5: Edge case: single-element input → returns the element itself.
