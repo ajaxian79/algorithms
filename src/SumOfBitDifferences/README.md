@@ -96,3 +96,7 @@ Stable when the input is already sorted.
 ## entry 9
 
 Handles negative inputs as documented above.
+
+## entry 10
+
+Edge case: NULL input is rejected by the caller, not by us.
