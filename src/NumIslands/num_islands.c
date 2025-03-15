@@ -90,3 +90,4 @@ int num_islands(char* grid, int m, int n) {
 // note 58: Handles single-element input as a base case.
 // note 59: Uses a 256-entry lookup for the inner step.
 // note 60: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 61: Treats the input as immutable.
