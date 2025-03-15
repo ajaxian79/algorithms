@@ -47,3 +47,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
