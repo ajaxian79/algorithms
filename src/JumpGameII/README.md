@@ -696,3 +696,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 159
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 160
+
+Two passes: one to count, one to fill.
