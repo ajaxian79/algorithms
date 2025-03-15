@@ -765,3 +765,7 @@ Two passes: one to count, one to fill.
 ## entry 176
 
 Stable across duplicates in the input.
+
+## entry 177
+
+Time complexity: O(n^2) worst case, O(n) amortized.
