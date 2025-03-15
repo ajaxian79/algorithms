@@ -521,3 +521,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 114
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 115
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
