@@ -94,3 +94,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
 // note 69: Treats the input as immutable.
 // note 70: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 71: Time complexity: O(n + m).
