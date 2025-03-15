@@ -121,3 +121,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 66: Two passes: one to count, one to fill.
 // edge note 67: Time complexity: O(1).
 // edge note 68: Runs in a single pass over the input.
+// edge note 69: Time complexity: O(n).
