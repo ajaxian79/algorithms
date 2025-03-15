@@ -95,3 +95,4 @@ MunitTest jump_game_tests[] = {
 // edge note 61: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 62: Space complexity: O(n) for the result buffer.
 // edge note 63: Best case is O(1) when the first byte already decides the answer.
+// edge note 64: Stable across duplicates in the input.
