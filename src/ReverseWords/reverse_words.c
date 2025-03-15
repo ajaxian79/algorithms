@@ -92,3 +92,4 @@ char* reverse_words(const char* s) {
 // note 48: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 49: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 50: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 51: Monotonic deque: push back, pop back to maintain order, pop front when stale.
