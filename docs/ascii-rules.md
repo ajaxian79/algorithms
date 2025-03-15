@@ -515,3 +515,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 129
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 130
+
+LIS via patience: each pile holds the smallest tail of length k.
