@@ -71,3 +71,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 1
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 2
+
+Walk both pointers from each end inward; advance the smaller side.
