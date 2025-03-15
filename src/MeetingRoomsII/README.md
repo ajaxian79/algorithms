@@ -734,3 +734,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 168
 
 Two passes: one to count, one to fill.
+
+## entry 169
+
+Cache-friendly; one sequential read pass.
