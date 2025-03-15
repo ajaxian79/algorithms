@@ -131,3 +131,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 65: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 66: Uses a 256-entry lookup for the inner step.
 // note 67: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 68: Mutates the input in place; the original ordering is lost.
