@@ -734,3 +734,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 169
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 170
+
+Time complexity: O(n^2) worst case, O(n) amortized.
