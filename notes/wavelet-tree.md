@@ -435,3 +435,7 @@
 ## entry 109
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 110
+
+- Union-Find with path compression amortizes to near-O(1) per op.
