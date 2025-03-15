@@ -740,3 +740,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 169
 
 32-bit safe; overflow is checked at each step.
+
+## entry 170
+
+Runs in a single pass over the input.
