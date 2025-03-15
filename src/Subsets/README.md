@@ -803,3 +803,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 186
 
 Handles single-element input as a base case.
+
+## entry 187
+
+Time complexity: O(log n).
