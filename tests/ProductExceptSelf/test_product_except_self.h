@@ -103,3 +103,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 67: Edge case: reverse-sorted input → still O(n log n).
 // edge note 68: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 69: Edge case: zero-length string → returns the empty result.
+// edge note 70: 64-bit safe; intermediate products are widened to 128-bit.
