@@ -778,3 +778,7 @@ No allocations on the hot path.
 ## entry 180
 
 Stable across duplicates in the input.
+
+## entry 181
+
+Allocates one buffer of length n+1 for the result.
