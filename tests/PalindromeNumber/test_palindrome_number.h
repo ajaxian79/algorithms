@@ -109,3 +109,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 74: Edge case: reverse-sorted input → still O(n log n).
 // edge note 75: Constant-time comparisons; safe for short strings.
 // edge note 76: Stable across duplicates in the input.
+// edge note 77: Reentrant — no static state.
