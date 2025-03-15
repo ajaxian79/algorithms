@@ -567,3 +567,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 126
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 127
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
