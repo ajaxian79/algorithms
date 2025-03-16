@@ -51,3 +51,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
