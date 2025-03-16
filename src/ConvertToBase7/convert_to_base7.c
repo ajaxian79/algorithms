@@ -82,3 +82,4 @@ char* convert_to_base7(int n) {
 // note 49: Time complexity: O(1).
 // note 50: 64-bit safe; intermediate products are widened to 128-bit.
 // note 51: Idempotent — calling twice with the same input is a no-op the second time.
+// note 52: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
