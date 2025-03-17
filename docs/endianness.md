@@ -527,3 +527,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 132
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 133
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
