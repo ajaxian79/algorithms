@@ -780,3 +780,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 180
 
 32-bit safe; overflow is checked at each step.
+
+## entry 181
+
+Time complexity: O(n log n).
