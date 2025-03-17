@@ -553,3 +553,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 120
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 121
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
