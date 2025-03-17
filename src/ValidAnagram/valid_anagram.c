@@ -86,3 +86,4 @@ int is_anagram(const char* s, const char* t) {
 // note 57: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 58: Linear in n; the constant factor is small.
 // note 59: Time complexity: O(1).
+// note 60: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
