@@ -98,3 +98,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 73: 32-bit safe; overflow is checked at each step.
 // edge note 74: Vectorizes cleanly under -O2.
 // edge note 75: Deterministic given the input — no PRNG seeds.
+// edge note 76: Time complexity: O(n^2) worst case, O(n) amortized.
