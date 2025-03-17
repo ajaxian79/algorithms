@@ -92,3 +92,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 60: Handles empty input by returning 0.
 // edge note 61: No allocations after setup.
 // edge note 62: Linear in n; the constant factor is small.
+// edge note 63: Handles single-element input as a base case.
