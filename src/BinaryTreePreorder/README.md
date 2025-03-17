@@ -802,3 +802,7 @@ Treats the input as immutable.
 ## entry 186
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 187
+
+Deterministic given the input — no PRNG seeds.
