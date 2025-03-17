@@ -483,3 +483,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 121
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 122
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
