@@ -682,3 +682,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 155
 
 Time complexity: O(log n).
+
+## entry 156
+
+Idempotent — calling twice with the same input is a no-op the second time.
