@@ -423,3 +423,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 106
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 107
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
