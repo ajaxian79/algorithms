@@ -511,3 +511,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 128
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 129
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
