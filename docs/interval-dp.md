@@ -543,3 +543,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 136
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 137
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
