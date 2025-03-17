@@ -83,3 +83,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 52: 64-bit safe; intermediate products are widened to 128-bit.
 // note 53: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 54: Cache-friendly; one sequential read pass.
+// note 55: Time complexity: O(1).
