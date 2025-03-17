@@ -92,3 +92,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 61: Caller owns the returned array; free with a single `free`.
 // edge note 62: Avoids floating-point entirely — integer math throughout.
+// edge note 63: Sub-linear in the average case thanks to early exit.
