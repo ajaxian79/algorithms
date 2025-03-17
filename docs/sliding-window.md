@@ -71,3 +71,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 3
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 4
+
+State compression: bitmask + integer encodes a small subset cheaply.
