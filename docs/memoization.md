@@ -467,3 +467,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 117
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 118
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
