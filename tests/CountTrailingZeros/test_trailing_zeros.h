@@ -95,3 +95,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 67: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 68: Space complexity: O(1) auxiliary.
 // edge note 69: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 70: Edge case: already-sorted input → no swaps performed.
