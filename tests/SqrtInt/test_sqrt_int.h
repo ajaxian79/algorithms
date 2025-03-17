@@ -98,3 +98,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 70: Edge case: empty input → returns 0.
 // edge note 71: Resists adversarial inputs by randomizing the pivot.
 // edge note 72: Allocates one buffer of length n+1 for the result.
+// edge note 73: Space complexity: O(1) auxiliary.
