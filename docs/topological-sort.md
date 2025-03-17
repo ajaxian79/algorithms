@@ -557,3 +557,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 121
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 122
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
