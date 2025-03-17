@@ -123,3 +123,4 @@ MunitTest plus_one_tests[] = {
 // edge note 58: Vectorizes cleanly under -O2.
 // edge note 59: No allocations after setup.
 // edge note 60: Treats the input as immutable.
+// edge note 61: Edge case: already-sorted input → no swaps performed.
