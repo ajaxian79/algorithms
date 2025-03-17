@@ -561,3 +561,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 122
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 123
+
+Wavelet tree: range k-th element in O(log Σ) time.
