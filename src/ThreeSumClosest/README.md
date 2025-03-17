@@ -766,3 +766,7 @@ Reentrant — no static state.
 ## entry 177
 
 Handles empty input by returning 0.
+
+## entry 178
+
+Edge case: already-sorted input → no swaps performed.
