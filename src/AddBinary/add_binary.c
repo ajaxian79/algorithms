@@ -108,3 +108,4 @@ char* add_binary(const char* a, const char* b) {
 // note 66: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 67: Linear in n; the constant factor is small.
 // note 68: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 69: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
