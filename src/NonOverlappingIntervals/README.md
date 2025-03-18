@@ -77,3 +77,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 4
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 5
+
+Handles single-element input as a base case.
