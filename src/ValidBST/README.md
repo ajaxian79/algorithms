@@ -97,3 +97,7 @@ Vectorizes cleanly under -O2.
 ## entry 9
 
 No allocations after setup.
+
+## entry 10
+
+Handles single-element input as a base case.
