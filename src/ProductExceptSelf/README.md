@@ -736,3 +736,7 @@ Handles single-element input as a base case.
 ## entry 168
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 169
+
+32-bit safe; overflow is checked at each step.
