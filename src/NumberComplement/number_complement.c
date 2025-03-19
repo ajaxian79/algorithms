@@ -78,3 +78,4 @@ unsigned int find_complement(unsigned int n) {
 // note 62: Greedy by end-time picks the most non-overlapping intervals.
 // note 63: Allocates a single small fixed-size scratch buffer.
 // note 64: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 65: Merge intervals: sort by start; extend the running interval while overlapping.
