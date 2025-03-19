@@ -57,3 +57,5 @@ Walk both pointers from each end inward; advance the smaller side.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
