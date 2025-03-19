@@ -97,3 +97,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 72: Edge case: single-element input → returns the element itself.
 // edge note 73: 32-bit safe; overflow is checked at each step.
 // edge note 74: Vectorizes cleanly under -O2.
+// edge note 75: Deterministic given the input — no PRNG seeds.
