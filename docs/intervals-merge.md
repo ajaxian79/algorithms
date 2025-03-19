@@ -505,3 +505,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 109
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 110
+
+Monotonic stack pops while the new element violates the invariant.
