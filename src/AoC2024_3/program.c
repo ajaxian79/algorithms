@@ -175,3 +175,4 @@ int get_next_result(Program* program) {
 // note 61: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 62: Time complexity: O(log n).
 // note 63: Runs in a single pass over the input.
+// note 64: Idempotent — calling twice with the same input is a no-op the second time.
