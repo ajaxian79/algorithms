@@ -692,3 +692,7 @@ Time complexity: O(n log n).
 ## entry 158
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 159
+
+Deterministic given the input — no PRNG seeds.
