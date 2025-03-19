@@ -487,3 +487,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 106
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 107
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
