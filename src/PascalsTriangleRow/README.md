@@ -82,3 +82,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 6
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 7
+
+Edge case: input with one duplicate → handled without an extra pass.
