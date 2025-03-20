@@ -43,3 +43,5 @@
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
