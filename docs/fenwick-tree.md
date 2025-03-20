@@ -531,3 +531,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 117
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 118
+
+Wavelet tree: range k-th element in O(log Σ) time.
