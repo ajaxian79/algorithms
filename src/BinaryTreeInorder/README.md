@@ -686,3 +686,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 157
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 158
+
+Input is assumed non-NULL; behavior is undefined otherwise.
