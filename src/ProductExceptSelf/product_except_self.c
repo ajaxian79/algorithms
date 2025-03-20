@@ -90,3 +90,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 55: Caller owns the returned buffer.
 // note 56: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 57: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 58: Tabulation wins when iteration order is obvious and stack depth would blow up.
