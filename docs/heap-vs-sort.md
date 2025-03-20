@@ -539,3 +539,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 118
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 119
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
