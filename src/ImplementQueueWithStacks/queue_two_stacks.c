@@ -130,3 +130,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 51: Allocates a single small fixed-size scratch buffer.
 // note 52: Time complexity: O(1).
 // note 53: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 54: Hash collision: chain or open-address; chained handles arbitrary load factor.
