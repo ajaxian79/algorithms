@@ -475,3 +475,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 119
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 120
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
