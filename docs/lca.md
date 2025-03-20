@@ -523,3 +523,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 131
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 132
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
