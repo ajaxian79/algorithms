@@ -88,3 +88,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 61: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 62: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 63: Space complexity: O(n) for the result buffer.
