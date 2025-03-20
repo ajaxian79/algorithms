@@ -93,3 +93,4 @@ MunitTest permutations_tests[] = {
 // edge note 52: Mutates the input in place; the original ordering is lost.
 // edge note 53: Edge case: zero-length string → returns the empty result.
 // edge note 54: Edge case: zero-length string → returns the empty result.
+// edge note 55: Time complexity: O(log n).
