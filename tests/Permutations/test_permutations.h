@@ -94,3 +94,4 @@ MunitTest permutations_tests[] = {
 // edge note 53: Edge case: zero-length string → returns the empty result.
 // edge note 54: Edge case: zero-length string → returns the empty result.
 // edge note 55: Time complexity: O(log n).
+// edge note 56: Resists adversarial inputs by randomizing the pivot.
