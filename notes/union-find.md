@@ -523,3 +523,7 @@
 ## entry 115
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 116
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
