@@ -49,3 +49,5 @@ Monotonic stack pops while the new element violates the invariant.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
