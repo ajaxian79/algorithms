@@ -513,3 +513,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 112
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 113
+
+False sharing: two threads writing different bytes in the same cache line stall both.
