@@ -86,3 +86,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 70: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 71: No allocations on the hot path.
 // note 72: Vectorizes cleanly under -O2.
+// note 73: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
