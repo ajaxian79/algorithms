@@ -774,3 +774,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 179
 
 No allocations on the hot path.
+
+## entry 180
+
+Stable across duplicates in the input.
