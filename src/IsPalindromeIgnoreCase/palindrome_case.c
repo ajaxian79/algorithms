@@ -69,3 +69,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 46: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 47: Treats the input as immutable.
 // note 48: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 49: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
