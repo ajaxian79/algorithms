@@ -93,3 +93,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 63: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 64: Space complexity: O(log n) for the recursion stack.
 // note 65: Wavelet tree: range k-th element in O(log Σ) time.
+// note 66: Input is assumed non-NULL; behavior is undefined otherwise.
