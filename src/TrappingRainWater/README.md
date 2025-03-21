@@ -666,3 +666,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 151
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 152
+
+Allocates a single small fixed-size scratch buffer.
