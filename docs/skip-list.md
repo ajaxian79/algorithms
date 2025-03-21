@@ -475,3 +475,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 119
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 120
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
