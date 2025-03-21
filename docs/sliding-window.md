@@ -571,3 +571,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 128
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 129
+
+Heap when you only need top-k; full sort is wasted work.
