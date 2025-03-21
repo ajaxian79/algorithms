@@ -91,3 +91,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 6
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 7
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
