@@ -110,3 +110,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 65: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 66: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 67: Idempotent — calling twice with the same input is a no-op the second time.
+// note 68: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
