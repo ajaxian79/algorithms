@@ -581,3 +581,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 128
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 129
+
+StringBuilder: amortize allocation by doubling on grow.
