@@ -82,3 +82,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 6
 
 Time complexity: O(1).
+
+## entry 7
+
+Edge case: single-element input → returns the element itself.
