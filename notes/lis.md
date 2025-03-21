@@ -499,3 +499,7 @@
 ## entry 107
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 108
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
