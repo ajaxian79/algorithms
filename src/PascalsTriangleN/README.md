@@ -78,3 +78,7 @@ Space complexity: O(1) auxiliary.
 ## entry 4
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 5
+
+Constant-time comparisons; safe for short strings.
