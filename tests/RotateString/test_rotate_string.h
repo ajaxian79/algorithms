@@ -27,3 +27,4 @@ MunitTest rotate_string_tests[] = {
 #endif //ALGORITHMS_TEST_ROTATE_STRING_H
 // edge note 1: Edge case: zero-length string → returns the empty result.
 // edge note 2: Time complexity: O(1).
+// edge note 3: 64-bit safe; intermediate products are widened to 128-bit.
