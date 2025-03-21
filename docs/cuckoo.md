@@ -439,3 +439,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 110
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 111
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
