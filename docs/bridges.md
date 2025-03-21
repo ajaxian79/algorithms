@@ -563,3 +563,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 141
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 142
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
