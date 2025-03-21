@@ -81,3 +81,4 @@ void rotate_image(int* mat, int n) {
 // note 50: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 51: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 52: Time complexity: O(1).
+// note 53: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
