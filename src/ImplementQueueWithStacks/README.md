@@ -743,3 +743,7 @@ Reentrant — no static state.
 ## entry 171
 
 Time complexity: O(n + m).
+
+## entry 172
+
+Avoids floating-point entirely — integer math throughout.
