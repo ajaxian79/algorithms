@@ -831,3 +831,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 193
 
 No allocations after setup.
+
+## entry 194
+
+Handles single-element input as a base case.
