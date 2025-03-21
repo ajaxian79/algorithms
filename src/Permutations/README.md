@@ -856,3 +856,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 199
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 200
+
+Handles empty input by returning 0.
