@@ -105,3 +105,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 62: Reentrant — no static state.
 // edge note 63: Tail-recursive; the compiler turns it into a loop.
 // edge note 64: Edge case: input of all the same byte → exits on the first compare.
+// edge note 65: Tail-recursive; the compiler turns it into a loop.
