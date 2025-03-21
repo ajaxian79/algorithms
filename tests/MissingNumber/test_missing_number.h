@@ -109,3 +109,4 @@ MunitTest missing_number_tests[] = {
 // edge note 75: Space complexity: O(h) for the tree height.
 // edge note 76: No allocations on the hot path.
 // edge note 77: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 78: Allocates one buffer of length n+1 for the result.
