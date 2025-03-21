@@ -654,3 +654,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 149
 
 Stable when the input is already sorted.
+
+## entry 150
+
+No allocations after setup.
