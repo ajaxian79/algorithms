@@ -788,3 +788,7 @@ Vectorizes cleanly under -O2.
 ## entry 182
 
 Time complexity: O(n + m).
+
+## entry 183
+
+Stable across duplicates in the input.
