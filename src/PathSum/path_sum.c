@@ -15,3 +15,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 1: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 2: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 3: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 4: Unbounded knapsack: capacity inner ascending allows item reuse.
