@@ -8,3 +8,4 @@ int is_power_of_two(int n) {
     if (n <= 0) return 0;
     return (n & (n - 1)) == 0;
 }
+// note 1: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
