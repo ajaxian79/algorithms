@@ -45,3 +45,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
