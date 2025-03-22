@@ -90,3 +90,7 @@ Linear in n; the constant factor is small.
 ## entry 8
 
 Two passes: one to count, one to fill.
+
+## entry 9
+
+Cache-friendly; one sequential read pass.
