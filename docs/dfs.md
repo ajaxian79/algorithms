@@ -63,3 +63,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 1
+
+Wavelet tree: range k-th element in O(log Σ) time.
