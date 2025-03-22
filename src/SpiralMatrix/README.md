@@ -70,3 +70,7 @@ No allocations after setup.
 ## entry 2
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 3
+
+Mutates the input in place; the original ordering is lost.
