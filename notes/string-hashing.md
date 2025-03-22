@@ -49,3 +49,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
