@@ -74,3 +74,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 3
 
 32-bit safe; overflow is checked at each step.
+
+## entry 4
+
+Uses a small fixed-size lookup table.
