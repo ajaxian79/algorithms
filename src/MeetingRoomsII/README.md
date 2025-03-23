@@ -730,3 +730,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 167
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 168
+
+Two passes: one to count, one to fill.
