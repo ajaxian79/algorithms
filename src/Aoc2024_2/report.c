@@ -208,3 +208,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
   return is_safe;
 }
 // note 1: Heap when you only need top-k; full sort is wasted work.
+// note 2: 32-bit safe; overflow is checked at each step.
