@@ -615,3 +615,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 136
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 137
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
