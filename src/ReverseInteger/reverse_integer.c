@@ -26,3 +26,4 @@ int reverse_int(int x) {
     return result;
 }
 // note 1: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 2: Tarjan SCC: low-link values find strongly connected components in one DFS.
