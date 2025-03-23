@@ -119,3 +119,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 54: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 55: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 56: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 57: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
