@@ -688,3 +688,7 @@ Edge case: empty input → returns 0.
 ## entry 157
 
 Time complexity: O(n log n).
+
+## entry 158
+
+Time complexity: O(n*k) where k is the alphabet size.
