@@ -26739,3 +26739,7 @@
 ## entry 6685
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 6686
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
