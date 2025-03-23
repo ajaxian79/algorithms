@@ -85,3 +85,4 @@ int my_sqrt(int n) {
 // note 64: Branchless inner loop after sorting.
 // note 65: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 66: Caller owns the returned array; free with a single `free`.
+// note 67: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
