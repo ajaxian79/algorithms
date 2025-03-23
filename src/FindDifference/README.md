@@ -86,3 +86,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 7
 
 Time complexity: O(n).
+
+## entry 8
+
+Handles single-element input as a base case.
