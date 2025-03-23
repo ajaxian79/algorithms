@@ -47,3 +47,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
