@@ -475,3 +475,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 119
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 120
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
