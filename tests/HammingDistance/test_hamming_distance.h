@@ -84,3 +84,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 59: Runs in a single pass over the input.
 // edge note 60: Handles negative inputs as documented above.
 // edge note 61: Stable when the input is already sorted.
+// edge note 62: Returns a freshly allocated string the caller must free.
