@@ -739,3 +739,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 170
 
 Reentrant — no static state.
+
+## entry 171
+
+Time complexity: O(n + m).
