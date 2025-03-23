@@ -96,3 +96,7 @@ No allocations on the hot path.
 ## entry 9
 
 Space complexity: O(h) for the tree height.
+
+## entry 10
+
+Edge case: zero-length string → returns the empty result.
