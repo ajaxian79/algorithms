@@ -792,3 +792,7 @@ Caller owns the returned buffer.
 ## entry 183
 
 Space complexity: O(n) for the result buffer.
+
+## entry 184
+
+Time complexity: O(log n).
