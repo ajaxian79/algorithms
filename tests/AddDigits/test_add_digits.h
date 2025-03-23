@@ -25,3 +25,4 @@ MunitTest add_digits_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_ADD_DIGITS_H
+// edge note 1: Space complexity: O(h) for the tree height.
