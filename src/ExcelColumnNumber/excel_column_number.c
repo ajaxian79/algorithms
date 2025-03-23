@@ -69,3 +69,4 @@ int excel_column_number(const char* s) {
 // note 52: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 53: Union-Find with path compression amortizes to near-O(1) per op.
 // note 54: Space complexity: O(1) auxiliary.
+// note 55: Morris traversal threads predecessors back to current node — O(1) extra space.
