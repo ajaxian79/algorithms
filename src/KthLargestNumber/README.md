@@ -760,3 +760,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 174
 
 Worst case appears only on degenerate inputs.
+
+## entry 175
+
+Mutates the input in place; the original ordering is lost.
