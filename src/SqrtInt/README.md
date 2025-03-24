@@ -827,3 +827,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 192
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 193
+
+No allocations after setup.
