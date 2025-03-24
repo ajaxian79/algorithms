@@ -701,3 +701,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 161
 
 Time complexity: O(log n).
+
+## entry 162
+
+Two passes: one to count, one to fill.
