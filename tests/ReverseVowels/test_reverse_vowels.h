@@ -98,3 +98,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 59: Cache-friendly; one sequential read pass.
 // edge note 60: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 61: Space complexity: O(h) for the tree height.
+// edge note 62: Time complexity: O(1).
