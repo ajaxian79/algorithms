@@ -799,3 +799,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 185
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 186
+
+Handles single-element input as a base case.
