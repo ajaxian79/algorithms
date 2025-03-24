@@ -780,3 +780,7 @@ Cache-friendly; one sequential read pass.
 ## entry 180
 
 Returns a freshly allocated string the caller must free.
+
+## entry 181
+
+Vectorizes cleanly under -O2.
