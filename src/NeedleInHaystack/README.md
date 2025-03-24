@@ -776,3 +776,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 179
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 180
+
+32-bit safe; overflow is checked at each step.
