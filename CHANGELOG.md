@@ -26747,3 +26747,7 @@
 ## entry 6687
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 6688
+
+- Stable sort matters when a secondary key was set in a prior pass.
