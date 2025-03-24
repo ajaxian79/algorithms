@@ -826,3 +826,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 192
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 193
+
+64-bit safe; intermediate products are widened to 128-bit.
