@@ -611,3 +611,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 135
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 136
+
+Interval DP: solve all `[l, r]` ranges from short to long.
