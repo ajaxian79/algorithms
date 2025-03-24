@@ -784,3 +784,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 181
 
 Vectorizes cleanly under -O2.
+
+## entry 182
+
+Time complexity: O(n + m).
