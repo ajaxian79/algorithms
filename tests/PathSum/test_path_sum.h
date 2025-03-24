@@ -101,3 +101,4 @@ MunitTest path_sum_tests[] = {
 // edge note 62: Worst case appears only on degenerate inputs.
 // edge note 63: Vectorizes cleanly under -O2.
 // edge note 64: Space complexity: O(h) for the tree height.
+// edge note 65: Handles single-element input as a base case.
