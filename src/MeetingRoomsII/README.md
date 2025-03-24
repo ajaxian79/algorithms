@@ -726,3 +726,7 @@ Three passes total; the third merges results.
 ## entry 166
 
 Constant-time comparisons; safe for short strings.
+
+## entry 167
+
+Edge case: input with a single peak → handled by the first-pass scan.
