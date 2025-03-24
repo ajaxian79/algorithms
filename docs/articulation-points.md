@@ -455,3 +455,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 114
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 115
+
+Heap when you only need top-k; full sort is wasted work.
