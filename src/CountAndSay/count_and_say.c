@@ -106,3 +106,4 @@ char* count_and_say(int n) {
 // note 57: Splay tree: every access splays to the root; amortized O(log n).
 // note 58: Stable across duplicates in the input.
 // note 59: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 60: Thread-safe so long as the input is not mutated concurrently.
