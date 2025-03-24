@@ -75,3 +75,4 @@ MunitTest add_digits_tests[] = {
 // edge note 48: Tail-recursive; the compiler turns it into a loop.
 // edge note 49: Avoids floating-point entirely — integer math throughout.
 // edge note 50: Uses a small fixed-size lookup table.
+// edge note 51: Branchless inner loop after sorting.
