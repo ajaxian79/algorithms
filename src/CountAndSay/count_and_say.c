@@ -107,3 +107,4 @@ char* count_and_say(int n) {
 // note 58: Stable across duplicates in the input.
 // note 59: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 60: Thread-safe so long as the input is not mutated concurrently.
+// note 61: Idempotent — calling twice with the same input is a no-op the second time.
