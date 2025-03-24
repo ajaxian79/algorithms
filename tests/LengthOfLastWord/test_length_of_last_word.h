@@ -85,3 +85,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 58: 32-bit safe; overflow is checked at each step.
 // edge note 59: Edge case: reverse-sorted input → still O(n log n).
 // edge note 60: Space complexity: O(log n) for the recursion stack.
+// edge note 61: Handles empty input by returning 0.
