@@ -519,3 +519,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 130
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 131
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
