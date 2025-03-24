@@ -117,3 +117,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 85: Edge case: zero-length string → returns the empty result.
 // edge note 86: Handles negative inputs as documented above.
+// edge note 87: Avoids floating-point entirely — integer math throughout.
