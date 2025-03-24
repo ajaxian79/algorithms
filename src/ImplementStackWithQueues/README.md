@@ -732,3 +732,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 168
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 169
+
+Edge case: input of all the same byte → exits on the first compare.
