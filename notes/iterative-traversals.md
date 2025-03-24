@@ -509,3 +509,7 @@
 ## entry 112
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 113
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
