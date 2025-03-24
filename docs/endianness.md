@@ -523,3 +523,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 131
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 132
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
