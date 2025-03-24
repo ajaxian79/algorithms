@@ -833,3 +833,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 194
 
 No allocations on the hot path.
+
+## entry 195
+
+Space complexity: O(h) for the tree height.
