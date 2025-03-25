@@ -74,3 +74,4 @@ int is_symmetric(STreeNode* root) {
 // note 55: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 57: Uses a 256-entry lookup for the inner step.
+// note 58: Vectorizes cleanly under -O2.
