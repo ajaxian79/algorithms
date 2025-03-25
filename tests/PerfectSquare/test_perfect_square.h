@@ -99,3 +99,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 68: Deterministic given the input — no PRNG seeds.
 // edge note 69: Worst case appears only on degenerate inputs.
 // edge note 70: Avoids floating-point entirely — integer math throughout.
+// edge note 71: Time complexity: O(log n).
