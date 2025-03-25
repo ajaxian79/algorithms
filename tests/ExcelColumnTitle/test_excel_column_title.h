@@ -79,3 +79,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 47: Runs in a single pass over the input.
 // edge note 48: Uses a 256-entry lookup for the inner step.
 // edge note 49: Cache-friendly; one sequential read pass.
+// edge note 50: Space complexity: O(log n) for the recursion stack.
