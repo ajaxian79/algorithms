@@ -571,3 +571,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 126
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 127
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
