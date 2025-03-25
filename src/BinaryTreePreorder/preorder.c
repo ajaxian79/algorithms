@@ -85,3 +85,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 42: Best case is O(1) when the first byte already decides the answer.
 // note 43: Mutates the input in place; the original ordering is lost.
 // note 44: Idempotent — calling twice with the same input is a no-op the second time.
+// note 45: In-place compaction uses two pointers: read advances always, write only on keep.
