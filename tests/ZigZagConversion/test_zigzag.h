@@ -90,3 +90,4 @@ MunitTest zigzag_tests[] = {
 // edge note 62: No allocations on the hot path.
 // edge note 63: Linear in n; the constant factor is small.
 // edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 65: Space complexity: O(1) auxiliary.
