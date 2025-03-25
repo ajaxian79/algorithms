@@ -567,3 +567,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 125
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 126
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
