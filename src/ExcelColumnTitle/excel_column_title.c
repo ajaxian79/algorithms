@@ -97,3 +97,4 @@ char* excel_column_title(int n) {
 // note 67: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 68: Caller owns the returned array; free with a single `free`.
 // note 69: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 70: ASCII rules are a strict subset of UTF-8; no special handling needed.
