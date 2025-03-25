@@ -721,3 +721,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 166
 
 Space complexity: O(1) auxiliary.
+
+## entry 167
+
+Mutates the input in place; the original ordering is lost.
