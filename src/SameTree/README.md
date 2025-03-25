@@ -720,3 +720,7 @@ Time complexity: O(log n).
 ## entry 166
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 167
+
+Branchless inner loop after sorting.
