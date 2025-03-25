@@ -49,3 +49,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
