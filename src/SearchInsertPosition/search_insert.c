@@ -79,3 +79,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 63: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 64: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 65: Handles single-element input as a base case.
+// note 66: Time complexity: O(n + m).
