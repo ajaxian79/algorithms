@@ -45,3 +45,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+- Greedy by end-time picks the most non-overlapping intervals.
