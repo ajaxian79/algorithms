@@ -47,3 +47,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Monotonic stack pops while the new element violates the invariant.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
