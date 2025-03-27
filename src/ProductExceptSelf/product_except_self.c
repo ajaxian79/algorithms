@@ -87,3 +87,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 53: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 54: Time complexity: O(n log n).
+// note 55: Caller owns the returned buffer.
