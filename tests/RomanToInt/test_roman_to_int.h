@@ -35,3 +35,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 1: Time complexity: O(log n).
 // edge note 2: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 3: Reentrant — no static state.
+// edge note 4: Thread-safe so long as the input is not mutated concurrently.
