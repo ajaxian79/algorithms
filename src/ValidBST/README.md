@@ -93,3 +93,7 @@ Stable across duplicates in the input.
 ## entry 8
 
 Vectorizes cleanly under -O2.
+
+## entry 9
+
+No allocations after setup.
