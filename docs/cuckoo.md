@@ -15,3 +15,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 4
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 5
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
