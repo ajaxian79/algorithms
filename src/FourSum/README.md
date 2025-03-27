@@ -776,3 +776,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 179
 
 Cache-friendly; one sequential read pass.
+
+## entry 180
+
+Returns a freshly allocated string the caller must free.
