@@ -78,3 +78,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 5
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 6
+
+Avoids floating-point entirely — integer math throughout.
