@@ -49,3 +49,5 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
