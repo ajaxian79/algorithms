@@ -759,3 +759,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 174
 
 No allocations after setup.
+
+## entry 175
+
+Edge case: NULL input is rejected by the caller, not by us.
