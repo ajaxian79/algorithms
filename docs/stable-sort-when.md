@@ -585,3 +585,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 132
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 133
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
