@@ -682,3 +682,7 @@ Three passes total; the third merges results.
 ## entry 156
 
 Constant-time comparisons; safe for short strings.
+
+## entry 157
+
+Time complexity: O(n^2) worst case, O(n) amortized.
