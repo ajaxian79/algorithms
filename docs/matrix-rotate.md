@@ -465,3 +465,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 100
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 101
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
