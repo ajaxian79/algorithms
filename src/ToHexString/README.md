@@ -691,3 +691,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 158
 
 No allocations after setup.
+
+## entry 159
+
+Deterministic given the input — no PRNG seeds.
