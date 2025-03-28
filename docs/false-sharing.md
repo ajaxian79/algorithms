@@ -495,3 +495,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 124
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 125
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
