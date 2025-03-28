@@ -471,3 +471,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 118
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 119
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
