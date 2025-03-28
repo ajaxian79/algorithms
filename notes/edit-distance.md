@@ -533,3 +533,7 @@
 ## entry 115
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 116
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
