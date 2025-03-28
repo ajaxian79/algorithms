@@ -712,3 +712,7 @@ Stable when the input is already sorted.
 ## entry 164
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 165
+
+Time complexity: O(log n).
