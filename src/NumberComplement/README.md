@@ -776,3 +776,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 178
 
 Stable when the input is already sorted.
+
+## entry 179
+
+Space complexity: O(h) for the tree height.
