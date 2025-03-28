@@ -26639,3 +26639,7 @@
 ## entry 6660
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 6661
+
+- Wavelet tree: range k-th element in O(log Σ) time.
