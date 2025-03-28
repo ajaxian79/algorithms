@@ -807,3 +807,7 @@ Three passes total; the third merges results.
 ## entry 186
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 187
+
+Time complexity: O(n).
