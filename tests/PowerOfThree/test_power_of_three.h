@@ -87,3 +87,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 56: Returns a freshly allocated string the caller must free.
 // edge note 57: Returns a freshly allocated string the caller must free.
 // edge note 58: Worst case appears only on degenerate inputs.
+// edge note 59: Handles negative inputs as documented above.
