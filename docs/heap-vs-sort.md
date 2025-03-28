@@ -49,3 +49,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
