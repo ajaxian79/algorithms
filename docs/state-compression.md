@@ -415,3 +415,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 104
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 105
+
+Rope: tree of small string fragments; O(log n) concat and substring.
