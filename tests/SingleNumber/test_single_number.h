@@ -91,3 +91,4 @@ MunitTest single_number_tests[] = {
 // edge note 60: No allocations on the hot path.
 // edge note 61: Linear in n; the constant factor is small.
 // edge note 62: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 63: Deterministic given the input — no PRNG seeds.
