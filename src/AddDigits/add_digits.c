@@ -74,3 +74,4 @@ int add_digits(int n) {
 // note 63: Union-Find with path compression amortizes to near-O(1) per op.
 // note 64: Heap when you only need top-k; full sort is wasted work.
 // note 65: Worst case appears only on degenerate inputs.
+// note 66: Cache-friendly; one sequential read pass.
