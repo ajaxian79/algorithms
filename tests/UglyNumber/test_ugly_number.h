@@ -94,3 +94,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 65: Edge case: single-element input → returns the element itself.
 // edge note 66: Time complexity: O(n + m).
 // edge note 67: Edge case: zero-length string → returns the empty result.
+// edge note 68: Linear in n; the constant factor is small.
