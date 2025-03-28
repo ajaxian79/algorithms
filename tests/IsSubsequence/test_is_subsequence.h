@@ -24,3 +24,4 @@ MunitTest is_subsequence_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_IS_SUBSEQUENCE_H
+// edge note 1: 64-bit safe; intermediate products are widened to 128-bit.
