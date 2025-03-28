@@ -806,3 +806,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 187
 
 Three passes total; the third merges results.
+
+## entry 188
+
+Uses a small fixed-size lookup table.
