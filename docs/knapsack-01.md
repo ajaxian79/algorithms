@@ -601,3 +601,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 133
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 134
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
