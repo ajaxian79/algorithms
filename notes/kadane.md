@@ -587,3 +587,7 @@
 ## entry 129
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 130
+
+- Heap when you only need top-k; full sort is wasted work.
