@@ -729,3 +729,7 @@ Uses a small fixed-size lookup table.
 ## entry 167
 
 Vectorizes cleanly under -O2.
+
+## entry 168
+
+Constant-time comparisons; safe for short strings.
