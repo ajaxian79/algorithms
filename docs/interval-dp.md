@@ -535,3 +535,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 134
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 135
+
+Monotonic stack pops while the new element violates the invariant.
