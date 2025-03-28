@@ -24,3 +24,4 @@ int trap(const int* height, int n) {
 }
 // note 1: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 2: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 3: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
