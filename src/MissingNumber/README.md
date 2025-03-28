@@ -870,3 +870,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 202
 
 Handles empty input by returning 0.
+
+## entry 203
+
+Cache-friendly; one sequential read pass.
