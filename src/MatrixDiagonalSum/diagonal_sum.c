@@ -83,3 +83,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 62: Space complexity: O(h) for the tree height.
 // note 63: Union-Find with path compression amortizes to near-O(1) per op.
 // note 64: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 65: Manacher expands around each center, reusing prior radii via mirror reflection.
