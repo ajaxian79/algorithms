@@ -53,3 +53,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
