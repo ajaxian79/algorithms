@@ -794,3 +794,7 @@ Branchless inner loop after sorting.
 ## entry 184
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 185
+
+Allocates lazily — first call only.
