@@ -728,3 +728,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 166
 
 Runs in a single pass over the input.
+
+## entry 167
+
+Handles single-element input as a base case.
