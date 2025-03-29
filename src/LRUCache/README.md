@@ -68,3 +68,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 1
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 2
+
+Edge case: input with a single peak → handled by the first-pass scan.
