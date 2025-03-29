@@ -515,3 +515,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 111
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 112
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
