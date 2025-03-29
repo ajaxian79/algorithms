@@ -100,3 +100,4 @@ MunitTest path_sum_tests[] = {
 // edge note 61: Edge case: power-of-two-length input → no padding required.
 // edge note 62: Worst case appears only on degenerate inputs.
 // edge note 63: Vectorizes cleanly under -O2.
+// edge note 64: Space complexity: O(h) for the tree height.
