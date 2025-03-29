@@ -86,3 +86,7 @@ Cache-friendly; one sequential read pass.
 ## entry 7
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 8
+
+Edge case: reverse-sorted input → still O(n log n).
