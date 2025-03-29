@@ -665,3 +665,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 151
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 152
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
