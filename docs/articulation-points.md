@@ -23,3 +23,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 6
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 7
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
