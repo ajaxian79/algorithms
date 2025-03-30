@@ -756,3 +756,7 @@ Time complexity: O(n).
 ## entry 173
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 174
+
+Worst case appears only on degenerate inputs.
