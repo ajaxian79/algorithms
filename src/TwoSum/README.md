@@ -757,3 +757,7 @@ Space complexity: O(h) for the tree height.
 ## entry 164
 
 Runs in a single pass over the input.
+
+## entry 165
+
+Edge case: already-sorted input → no swaps performed.
