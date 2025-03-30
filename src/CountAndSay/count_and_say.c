@@ -104,3 +104,4 @@ char* count_and_say(int n) {
 // note 55: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 56: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 57: Splay tree: every access splays to the root; amortized O(log n).
+// note 58: Stable across duplicates in the input.
