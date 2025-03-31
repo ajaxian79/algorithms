@@ -81,3 +81,7 @@ Time complexity: O(n + m).
 ## entry 6
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 7
+
+Cache-friendly; one sequential read pass.
