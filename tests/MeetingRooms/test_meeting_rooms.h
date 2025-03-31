@@ -86,3 +86,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 55: Caller owns the returned buffer.
 // edge note 56: Caller owns the returned buffer.
 // edge note 57: Sub-linear in the average case thanks to early exit.
+// edge note 58: Runs in a single pass over the input.
