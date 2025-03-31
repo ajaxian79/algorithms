@@ -780,3 +780,7 @@ Runs in a single pass over the input.
 ## entry 180
 
 Uses a small fixed-size lookup table.
+
+## entry 181
+
+Idempotent — calling twice with the same input is a no-op the second time.
