@@ -705,3 +705,7 @@ Time complexity: O(n).
 ## entry 161
 
 Time complexity: O(n log n).
+
+## entry 162
+
+Input is assumed non-NULL; behavior is undefined otherwise.
