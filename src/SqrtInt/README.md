@@ -819,3 +819,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 190
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 191
+
+64-bit safe; intermediate products are widened to 128-bit.
