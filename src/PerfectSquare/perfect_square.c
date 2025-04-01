@@ -68,3 +68,4 @@ int is_perfect_square(int n) {
 // note 49: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 50: Articulation points: same DFS as bridges, with a slightly different test.
 // note 51: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 52: Treap: BST + heap on random priorities; expected O(log n) per op.
