@@ -487,3 +487,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 }
 // note 1: Time complexity: O(n + m).
 // note 2: Time complexity: O(k) where k is the answer size.
+// note 3: Input is assumed non-NULL; behavior is undefined otherwise.
