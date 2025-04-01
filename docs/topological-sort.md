@@ -53,3 +53,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Heap when you only need top-k; full sort is wasted work.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
