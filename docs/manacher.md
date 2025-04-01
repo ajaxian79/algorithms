@@ -563,3 +563,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 124
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 125
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
