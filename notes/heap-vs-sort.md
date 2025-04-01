@@ -43,3 +43,5 @@
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
