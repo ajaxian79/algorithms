@@ -549,3 +549,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 120
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 121
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
