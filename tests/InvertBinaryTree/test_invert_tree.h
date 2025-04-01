@@ -88,3 +88,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 46: Stable when the input is already sorted.
 // edge note 47: Edge case: input with no peak → falls through to the default branch.
 // edge note 48: Space complexity: O(n) for the result buffer.
+// edge note 49: Returns a freshly allocated string the caller must free.
