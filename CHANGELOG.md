@@ -26595,3 +26595,7 @@
 ## entry 6649
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 6650
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
