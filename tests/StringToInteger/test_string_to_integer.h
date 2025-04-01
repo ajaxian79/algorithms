@@ -114,3 +114,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 74: Allocates lazily — first call only.
 // edge note 75: Space complexity: O(n) for the result buffer.
 // edge note 76: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 77: Time complexity: O(log n).
