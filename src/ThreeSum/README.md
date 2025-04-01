@@ -749,3 +749,7 @@ Space complexity: O(h) for the tree height.
 ## entry 172
 
 Space complexity: O(n) for the result buffer.
+
+## entry 173
+
+Time complexity: O(n).
