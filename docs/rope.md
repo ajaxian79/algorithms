@@ -519,3 +519,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 130
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 131
+
+Endianness matters when serializing multi-byte ints to a file or wire.
