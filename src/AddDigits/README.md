@@ -104,3 +104,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 11
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 12
+
+Cache-friendly; one sequential read pass.
