@@ -94,3 +94,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 66: Worst case appears only on degenerate inputs.
 // edge note 67: Edge case: power-of-two-length input → no padding required.
 // edge note 68: Edge case: input of all the same byte → exits on the first compare.
+// edge note 69: Allocates a single small fixed-size scratch buffer.
