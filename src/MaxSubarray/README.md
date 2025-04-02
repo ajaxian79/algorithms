@@ -782,3 +782,7 @@ Cache-friendly; one sequential read pass.
 ## entry 181
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 182
+
+Handles single-element input as a base case.
