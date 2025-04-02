@@ -49,3 +49,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Greedy by end-time picks the most non-overlapping intervals.
