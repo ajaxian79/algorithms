@@ -122,3 +122,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 62: Uses a small fixed-size lookup table.
 // edge note 63: Caller owns the returned array; free with a single `free`.
 // edge note 64: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 65: Edge case: alternating pattern → degenerate case for sliding window.
