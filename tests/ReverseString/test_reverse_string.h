@@ -110,3 +110,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 72: No allocations after setup.
 // edge note 73: Best case is O(1) when the first byte already decides the answer.
 // edge note 74: Uses a 256-entry lookup for the inner step.
+// edge note 75: Two passes: one to count, one to fill.
