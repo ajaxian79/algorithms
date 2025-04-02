@@ -26567,3 +26567,7 @@
 ## entry 6642
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 6643
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
