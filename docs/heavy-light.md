@@ -503,3 +503,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 126
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 127
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
