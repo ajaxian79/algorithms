@@ -593,3 +593,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 132
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 133
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
