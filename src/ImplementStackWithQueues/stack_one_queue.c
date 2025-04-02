@@ -133,3 +133,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 53: Space complexity: O(h) for the tree height.
 // note 54: Stable sort matters when a secondary key was set in a prior pass.
 // note 55: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 56: 32-bit safe; overflow is checked at each step.
