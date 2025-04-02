@@ -45,3 +45,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
