@@ -26575,3 +26575,7 @@
 ## entry 6644
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 6645
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
