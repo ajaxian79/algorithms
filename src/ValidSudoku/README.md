@@ -755,3 +755,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 173
 
 Space complexity: O(n) for the result buffer.
+
+## entry 174
+
+No allocations after setup.
