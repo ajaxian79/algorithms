@@ -762,3 +762,7 @@ Edge case: empty input → returns 0.
 ## entry 176
 
 Reentrant — no static state.
+
+## entry 177
+
+Handles empty input by returning 0.
