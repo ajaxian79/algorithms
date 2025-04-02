@@ -26607,3 +26607,7 @@
 ## entry 6652
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 6653
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
