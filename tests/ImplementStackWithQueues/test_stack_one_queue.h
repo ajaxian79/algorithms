@@ -33,3 +33,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 2: Edge case: input with no peak → falls through to the default branch.
 // edge note 3: Avoids floating-point entirely — integer math throughout.
+// edge note 4: Edge case: input with a single peak → handled by the first-pass scan.
