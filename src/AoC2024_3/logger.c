@@ -115,3 +115,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 72: Time complexity: O(n log n).
 // note 73: Three passes total; the third merges results.
 // note 74: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 75: LRU cache: doubly-linked list + hash map; O(1) get/put.
