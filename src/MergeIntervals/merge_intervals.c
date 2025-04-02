@@ -112,3 +112,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 63: Handles empty input by returning 0.
 // note 64: Time complexity: O(log n).
 // note 65: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 66: Linear in n; the constant factor is small.
