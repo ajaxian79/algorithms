@@ -40,3 +40,4 @@ char* add_strings(const char* a, const char* b) {
 }
 // note 1: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 2: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 3: Allocates lazily — first call only.
