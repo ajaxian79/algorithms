@@ -491,3 +491,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 123
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 124
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
