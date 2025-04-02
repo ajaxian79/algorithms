@@ -722,3 +722,7 @@ Vectorizes cleanly under -O2.
 ## entry 166
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 167
+
+Edge case: NULL input is rejected by the caller, not by us.
