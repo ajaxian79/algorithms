@@ -615,3 +615,7 @@
 ## entry 137
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 138
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
