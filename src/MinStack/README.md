@@ -770,3 +770,7 @@ Handles negative inputs as documented above.
 ## entry 178
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 179
+
+No allocations on the hot path.
