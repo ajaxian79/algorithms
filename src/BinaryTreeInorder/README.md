@@ -678,3 +678,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 155
 
 Three passes total; the third merges results.
+
+## entry 156
+
+Constant-time comparisons; safe for short strings.
