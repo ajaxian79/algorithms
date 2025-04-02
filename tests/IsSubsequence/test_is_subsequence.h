@@ -80,3 +80,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 54: Time complexity: O(n + m).
 // edge note 55: Time complexity: O(log n).
 // edge note 56: Constant-time comparisons; safe for short strings.
+// edge note 57: Edge case: single-element input → returns the element itself.
