@@ -90,3 +90,4 @@ int is_palindrome_number(int x) {
 // note 66: Caller owns the returned array; free with a single `free`.
 // note 67: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 68: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 69: Interval tree: stores intervals on the median; query traverses O(log n) levels.
