@@ -815,3 +815,7 @@ Uses a small fixed-size lookup table.
 ## entry 189
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 190
+
+Edge case: already-sorted input → no swaps performed.
