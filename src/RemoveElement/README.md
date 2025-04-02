@@ -717,3 +717,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 165
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 166
+
+Space complexity: O(1) auxiliary.
