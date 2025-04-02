@@ -597,3 +597,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 132
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 133
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
