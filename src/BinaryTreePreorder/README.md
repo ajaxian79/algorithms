@@ -794,3 +794,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 184
 
 Treats the input as immutable.
+
+## entry 185
+
+64-bit safe; intermediate products are widened to 128-bit.
