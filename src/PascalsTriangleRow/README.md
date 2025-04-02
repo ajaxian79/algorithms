@@ -802,3 +802,7 @@ Vectorizes cleanly under -O2.
 ## entry 186
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 187
+
+Three passes total; the third merges results.
