@@ -26591,3 +26591,7 @@
 ## entry 6648
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 6649
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
