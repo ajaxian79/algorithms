@@ -674,3 +674,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 154
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 155
+
+Three passes total; the third merges results.
