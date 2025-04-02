@@ -98,3 +98,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 68: Edge case: already-sorted input → no swaps performed.
 // edge note 69: Reentrant — no static state.
 // edge note 70: Space complexity: O(log n) for the recursion stack.
+// edge note 71: 64-bit safe; intermediate products are widened to 128-bit.
