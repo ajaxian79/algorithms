@@ -862,3 +862,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 200
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 201
+
+Edge case: input with no peak → falls through to the default branch.
