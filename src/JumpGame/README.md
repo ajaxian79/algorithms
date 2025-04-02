@@ -773,3 +773,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 178
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 179
+
+Edge case: integer-min input → guarded by the explicit underflow check.
