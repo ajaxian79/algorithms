@@ -738,3 +738,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 170
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 171
+
+Edge case: NULL input is rejected by the caller, not by us.
