@@ -563,3 +563,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 124
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 125
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
