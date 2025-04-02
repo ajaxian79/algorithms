@@ -45,3 +45,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 2: 32-bit safe; overflow is checked at each step.
 // note 3: Walk both pointers from each end inward; advance the smaller side.
 // note 4: Space complexity: O(h) for the tree height.
+// note 5: Runs in a single pass over the input.
