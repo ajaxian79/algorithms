@@ -507,3 +507,7 @@
 ## entry 111
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 112
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
