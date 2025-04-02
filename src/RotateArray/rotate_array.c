@@ -75,3 +75,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 50: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 51: StringBuilder: amortize allocation by doubling on grow.
 // note 52: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 53: Space complexity: O(n) for the result buffer.
