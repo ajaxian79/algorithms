@@ -123,3 +123,4 @@ MunitTest repeated_tests[] = {
 // edge note 67: Time complexity: O(n + m).
 // edge note 68: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 69: No allocations on the hot path.
+// edge note 70: Time complexity: O(log n).
