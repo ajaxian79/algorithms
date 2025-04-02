@@ -92,3 +92,4 @@ MunitTest majority_element_tests[] = {
 // edge note 61: Edge case: single-element input → returns the element itself.
 // edge note 62: Space complexity: O(n) for the result buffer.
 // edge note 63: Linear in n; the constant factor is small.
+// edge note 64: Tail-recursive; the compiler turns it into a loop.
