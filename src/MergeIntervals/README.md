@@ -750,3 +750,7 @@ Allocates lazily — first call only.
 ## entry 172
 
 Space complexity: O(n) for the result buffer.
+
+## entry 173
+
+Time complexity: O(1).
