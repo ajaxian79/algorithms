@@ -54,3 +54,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 38: Handles single-element input as a base case.
 // note 39: Space complexity: O(h) for the tree height.
 // note 40: Handles single-element input as a base case.
+// note 41: Returns a freshly allocated string the caller must free.
