@@ -636,3 +636,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 144
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 145
+
+Input is assumed non-NULL; behavior is undefined otherwise.
