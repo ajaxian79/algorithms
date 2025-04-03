@@ -527,3 +527,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 132
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 133
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
