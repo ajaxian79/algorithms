@@ -769,3 +769,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 177
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 178
+
+Edge case: already-sorted input → no swaps performed.
