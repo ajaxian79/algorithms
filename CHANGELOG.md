@@ -26531,3 +26531,7 @@
 ## entry 6633
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 6634
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
