@@ -665,3 +665,7 @@ Treats the input as immutable.
 ## entry 151
 
 Handles empty input by returning 0.
+
+## entry 152
+
+Time complexity: O(n).
