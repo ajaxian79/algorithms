@@ -780,3 +780,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 180
 
 Time complexity: O(log n).
+
+## entry 181
+
+Allocates one buffer of length n+1 for the result.
