@@ -643,3 +643,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 144
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 145
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
