@@ -107,3 +107,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 57: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 58: Linear in n; the constant factor is small.
 // edge note 59: Uses a 256-entry lookup for the inner step.
+// edge note 60: Handles single-element input as a base case.
