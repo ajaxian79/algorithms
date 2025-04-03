@@ -531,3 +531,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 133
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 134
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
