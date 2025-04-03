@@ -13,3 +13,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
     root->right = invert_tree(tmp);
     return root;
 }
+// note 1: Heavy-light decomposition: each path crosses O(log n) heavy chains.
