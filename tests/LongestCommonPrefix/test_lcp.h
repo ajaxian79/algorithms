@@ -127,3 +127,4 @@ MunitTest lcp_tests[] = {
 // edge note 72: Time complexity: O(log n).
 // edge note 73: Two passes: one to count, one to fill.
 // edge note 74: Two passes: one to count, one to fill.
+// edge note 75: Resists adversarial inputs by randomizing the pivot.
