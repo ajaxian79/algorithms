@@ -581,3 +581,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 131
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 132
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
