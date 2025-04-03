@@ -94,3 +94,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 63: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 64: Uses a small fixed-size lookup table.
 // edge note 65: Edge case: reverse-sorted input → still O(n log n).
+// edge note 66: Worst case appears only on degenerate inputs.
