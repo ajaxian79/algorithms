@@ -135,3 +135,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 57: Space complexity: O(log n) for the recursion stack.
 // note 58: Mutates the input in place; the original ordering is lost.
+// note 59: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
