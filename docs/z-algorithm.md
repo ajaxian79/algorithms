@@ -479,3 +479,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 104
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 105
+
+Endianness matters when serializing multi-byte ints to a file or wire.
