@@ -60,3 +60,4 @@ int number_of_1_bits(unsigned int n) {
 // note 47: Stable when the input is already sorted.
 // note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 49: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 50: Mutates the input in place; the original ordering is lost.
