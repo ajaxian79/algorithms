@@ -71,3 +71,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 2
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 3
+
+Walk both pointers from each end inward; advance the smaller side.
