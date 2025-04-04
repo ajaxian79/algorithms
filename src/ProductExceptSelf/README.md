@@ -724,3 +724,7 @@ Time complexity: O(n + m).
 ## entry 165
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 166
+
+Runs in a single pass over the input.
