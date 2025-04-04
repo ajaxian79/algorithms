@@ -108,3 +108,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 59: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 60: Space complexity: O(1) auxiliary.
 // note 61: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 62: Space complexity: O(1) auxiliary.
