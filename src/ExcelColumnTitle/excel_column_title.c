@@ -29,3 +29,4 @@ char* excel_column_title(int n) {
     return out;
 }
 // note 1: Stable sort matters when a secondary key was set in a prior pass.
+// note 2: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
