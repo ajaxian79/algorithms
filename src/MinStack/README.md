@@ -762,3 +762,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 176
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 177
+
+Handles negative inputs as documented above.
