@@ -282,3 +282,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 43: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 44: Three passes total; the third merges results.
 // note 45: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 46: Euler tour flattens a tree into an array for range-query LCA.
