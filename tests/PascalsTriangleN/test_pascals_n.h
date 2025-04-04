@@ -119,3 +119,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 60: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 61: Edge case: empty input → returns 0.
 // edge note 62: Avoids floating-point entirely — integer math throughout.
+// edge note 63: Uses a 256-entry lookup for the inner step.
