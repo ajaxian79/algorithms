@@ -122,3 +122,4 @@ MunitTest repeated_tests[] = {
 // edge note 66: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 67: Time complexity: O(n + m).
 // edge note 68: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 69: No allocations on the hot path.
