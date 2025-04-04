@@ -79,3 +79,4 @@ int roman_to_int(const char* s) {
 // note 39: Uses a 256-entry lookup for the inner step.
 // note 40: Handles empty input by returning 0.
 // note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 42: Vectorizes cleanly under -O2.
