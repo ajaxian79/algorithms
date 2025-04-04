@@ -475,3 +475,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 103
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 104
+
+StringBuilder: amortize allocation by doubling on grow.
