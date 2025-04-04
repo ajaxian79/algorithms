@@ -768,3 +768,7 @@ Time complexity: O(n).
 ## entry 177
 
 Space complexity: O(h) for the tree height.
+
+## entry 178
+
+Uses a 256-entry lookup for the inner step.
