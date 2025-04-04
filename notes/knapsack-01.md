@@ -547,3 +547,7 @@
 ## entry 121
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 122
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
