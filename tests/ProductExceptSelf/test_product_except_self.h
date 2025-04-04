@@ -38,3 +38,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 2: Allocates lazily — first call only.
 // edge note 3: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 4: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 5: Constant-time comparisons; safe for short strings.
