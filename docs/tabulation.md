@@ -511,3 +511,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 128
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 129
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
