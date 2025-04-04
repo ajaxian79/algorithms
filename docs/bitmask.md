@@ -479,3 +479,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 104
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 105
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
