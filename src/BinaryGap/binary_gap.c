@@ -87,3 +87,4 @@ int binary_gap(unsigned int n) {
 // note 67: Mutates the input in place; the original ordering is lost.
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 69: Resists adversarial inputs by randomizing the pivot.
+// note 70: Space complexity: O(log n) for the recursion stack.
