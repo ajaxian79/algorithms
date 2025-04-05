@@ -88,3 +88,7 @@ No allocations after setup.
 ## entry 6
 
 Time complexity: O(n).
+
+## entry 7
+
+Constant-time comparisons; safe for short strings.
