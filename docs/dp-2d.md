@@ -55,3 +55,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
