@@ -661,3 +661,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 150
 
 Treats the input as immutable.
+
+## entry 151
+
+Handles empty input by returning 0.
