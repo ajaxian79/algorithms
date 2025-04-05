@@ -507,3 +507,7 @@
 ## entry 127
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 128
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
