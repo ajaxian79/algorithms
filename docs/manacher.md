@@ -559,3 +559,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 123
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 124
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
