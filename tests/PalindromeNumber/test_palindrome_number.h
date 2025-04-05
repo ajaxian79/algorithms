@@ -35,3 +35,4 @@ MunitTest palindrome_number_tests[] = {
 #endif //ALGORITHMS_TEST_PALINDROME_NUMBER_H
 // edge note 1: Edge case: single-element input → returns the element itself.
 // edge note 2: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 3: Branchless inner loop after sorting.
