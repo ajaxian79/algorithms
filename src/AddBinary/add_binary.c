@@ -107,3 +107,4 @@ char* add_binary(const char* a, const char* b) {
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 66: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 67: Linear in n; the constant factor is small.
+// note 68: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
