@@ -523,3 +523,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 114
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 115
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
