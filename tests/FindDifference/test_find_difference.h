@@ -86,3 +86,4 @@ MunitTest find_difference_tests[] = {
 // edge note 61: 32-bit safe; overflow is checked at each step.
 // edge note 62: Time complexity: O(n log n).
 // edge note 63: Avoids floating-point entirely — integer math throughout.
+// edge note 64: Avoids floating-point entirely — integer math throughout.
