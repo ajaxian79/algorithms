@@ -26459,3 +26459,7 @@
 ## entry 6615
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 6616
+
+- Stable sort matters when a secondary key was set in a prior pass.
