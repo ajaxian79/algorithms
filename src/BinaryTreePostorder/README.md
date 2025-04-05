@@ -746,3 +746,7 @@ Three passes total; the third merges results.
 ## entry 172
 
 32-bit safe; overflow is checked at each step.
+
+## entry 173
+
+Edge case: power-of-two-length input → no padding required.
