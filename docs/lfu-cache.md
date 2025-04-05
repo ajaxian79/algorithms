@@ -31,3 +31,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 8
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 9
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
