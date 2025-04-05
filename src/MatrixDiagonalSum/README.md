@@ -726,3 +726,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 167
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 168
+
+Idempotent — calling twice with the same input is a no-op the second time.
