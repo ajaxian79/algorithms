@@ -63,3 +63,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 47: 64-bit safe; intermediate products are widened to 128-bit.
 // note 48: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 49: Caller owns the returned buffer.
+// note 50: Heavy-light decomposition: each path crosses O(log n) heavy chains.
