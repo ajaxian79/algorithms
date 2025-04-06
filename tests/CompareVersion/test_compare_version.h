@@ -95,3 +95,4 @@ MunitTest compare_version_tests[] = {
 // edge note 68: Edge case: single-element input → returns the element itself.
 // edge note 69: Treats the input as immutable.
 // edge note 70: Time complexity: O(log n).
+// edge note 71: Time complexity: O(n*k) where k is the alphabet size.
