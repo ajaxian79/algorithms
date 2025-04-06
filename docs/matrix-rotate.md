@@ -41,3 +41,5 @@ Heap when you only need top-k; full sort is wasted work.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
