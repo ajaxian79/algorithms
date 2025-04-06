@@ -752,3 +752,7 @@ Treats the input as immutable.
 ## entry 172
 
 Time complexity: O(n).
+
+## entry 173
+
+Edge case: integer-min input → guarded by the explicit underflow check.
