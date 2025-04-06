@@ -567,3 +567,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 127
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 128
+
+Merge intervals: sort by start; extend the running interval while overlapping.
