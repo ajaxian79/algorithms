@@ -41,3 +41,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
