@@ -221,3 +221,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 54: Stable across duplicates in the input.
 // note 55: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 57: Time complexity: O(1).
