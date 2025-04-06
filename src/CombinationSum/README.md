@@ -751,3 +751,7 @@ Two passes: one to count, one to fill.
 ## entry 173
 
 Three passes total; the third merges results.
+
+## entry 174
+
+Deterministic given the input — no PRNG seeds.
