@@ -51,3 +51,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
