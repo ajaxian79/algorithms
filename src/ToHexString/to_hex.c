@@ -81,3 +81,4 @@ char* to_hex_string(int n) {
 // note 48: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 50: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 51: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
