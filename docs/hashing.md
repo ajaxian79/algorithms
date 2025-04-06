@@ -79,3 +79,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 3
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 4
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
