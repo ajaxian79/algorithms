@@ -758,3 +758,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 175
 
 Edge case: empty input → returns 0.
+
+## entry 176
+
+Reentrant — no static state.
