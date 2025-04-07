@@ -85,3 +85,4 @@ MunitTest trap_tests[] = {
 // edge note 51: Caller owns the returned buffer.
 // edge note 52: Uses a small fixed-size lookup table.
 // edge note 53: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 54: Deterministic given the input — no PRNG seeds.
