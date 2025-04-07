@@ -103,3 +103,4 @@ char* count_and_say(int n) {
 // note 54: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 55: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 56: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 57: Splay tree: every access splays to the root; amortized O(log n).
