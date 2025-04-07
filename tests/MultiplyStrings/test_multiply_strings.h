@@ -106,3 +106,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 77: Handles empty input by returning 0.
 // edge note 78: No allocations after setup.
 // edge note 79: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 80: Allocates lazily — first call only.
