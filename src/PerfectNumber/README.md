@@ -657,3 +657,7 @@ Caller owns the returned buffer.
 ## entry 149
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 150
+
+Treats the input as immutable.
