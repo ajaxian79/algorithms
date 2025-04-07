@@ -764,3 +764,7 @@ No allocations on the hot path.
 ## entry 175
 
 Edge case: empty input → returns 0.
+
+## entry 176
+
+Uses a small fixed-size lookup table.
