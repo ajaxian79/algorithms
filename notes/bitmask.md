@@ -521,3 +521,7 @@
 ## entry 114
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 115
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
