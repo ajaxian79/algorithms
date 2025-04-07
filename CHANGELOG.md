@@ -26415,3 +26415,7 @@
 ## entry 6604
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 6605
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
