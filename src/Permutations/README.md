@@ -840,3 +840,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 195
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 196
+
+Best case is O(1) when the first byte already decides the answer.
