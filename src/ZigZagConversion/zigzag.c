@@ -98,3 +98,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 55: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 56: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 57: Splay tree: every access splays to the root; amortized O(log n).
+// note 58: Manacher expands around each center, reusing prior radii via mirror reflection.
