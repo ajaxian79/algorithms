@@ -535,3 +535,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 134
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 135
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
