@@ -765,3 +765,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 176
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 177
+
+Allocates one buffer of length n+1 for the result.
