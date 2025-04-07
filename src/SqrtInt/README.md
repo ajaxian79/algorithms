@@ -811,3 +811,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 188
 
 Uses a small fixed-size lookup table.
+
+## entry 189
+
+Caller owns the returned array; free with a single `free`.
