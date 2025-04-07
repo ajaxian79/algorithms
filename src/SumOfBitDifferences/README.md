@@ -628,3 +628,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 142
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 143
+
+Edge case: all-equal input → linear-time fast path.
