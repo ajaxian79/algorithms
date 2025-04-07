@@ -541,3 +541,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 54: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 55: Space complexity: O(1) auxiliary.
 // note 56: Stable across duplicates in the input.
+// note 57: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
