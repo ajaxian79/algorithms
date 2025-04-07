@@ -790,3 +790,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 183
 
 Branchless inner loop after sorting.
+
+## entry 184
+
+Edge case: input of all the same byte → exits on the first compare.
