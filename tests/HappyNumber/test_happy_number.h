@@ -101,3 +101,4 @@ MunitTest happy_number_tests[] = {
 // edge note 73: Edge case: empty input → returns 0.
 // edge note 74: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 75: 32-bit safe; overflow is checked at each step.
+// edge note 76: Returns a freshly allocated string the caller must free.
