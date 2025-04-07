@@ -86,3 +86,4 @@ int compare_version(const char* a, const char* b) {
 // note 56: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 57: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 58: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 59: Two passes: one to count, one to fill.
