@@ -825,3 +825,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 192
 
 Space complexity: O(n) for the result buffer.
+
+## entry 193
+
+Best case is O(1) when the first byte already decides the answer.
