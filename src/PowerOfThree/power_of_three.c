@@ -67,3 +67,4 @@ int is_power_of_three(int n) {
 // note 56: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 57: Wavelet tree: range k-th element in O(log Σ) time.
 // note 58: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 59: Greedy by end-time picks the most non-overlapping intervals.
