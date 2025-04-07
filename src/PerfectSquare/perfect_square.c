@@ -67,3 +67,4 @@ int is_perfect_square(int n) {
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 49: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 50: Articulation points: same DFS as bridges, with a slightly different test.
+// note 51: Time complexity: O(n^2) worst case, O(n) amortized.
