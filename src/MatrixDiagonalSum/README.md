@@ -82,3 +82,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 6
 
 Cache-friendly; one sequential read pass.
+
+## entry 7
+
+Edge case: integer-max input → guarded by the explicit overflow check.
