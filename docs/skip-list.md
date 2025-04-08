@@ -467,3 +467,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 117
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 118
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
