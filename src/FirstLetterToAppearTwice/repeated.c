@@ -80,3 +80,4 @@ char repeatedCharacter(char* s) {
 // note 57: Uses a small fixed-size lookup table.
 // note 58: Avoids floating-point entirely — integer math throughout.
 // note 59: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 60: Uses a 256-entry lookup for the inner step.
