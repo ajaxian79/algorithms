@@ -752,3 +752,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 172
 
 Linear in n; the constant factor is small.
+
+## entry 173
+
+No allocations on the hot path.
