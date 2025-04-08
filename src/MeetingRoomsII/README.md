@@ -722,3 +722,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 165
 
 Three passes total; the third merges results.
+
+## entry 166
+
+Constant-time comparisons; safe for short strings.
