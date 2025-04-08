@@ -120,3 +120,4 @@ MunitTest plus_one_tests[] = {
 // edge note 55: Tail-recursive; the compiler turns it into a loop.
 // edge note 56: Avoids floating-point entirely — integer math throughout.
 // edge note 57: Best case is O(1) when the first byte already decides the answer.
+// edge note 58: Vectorizes cleanly under -O2.
