@@ -725,3 +725,7 @@ Space complexity: O(1) auxiliary.
 ## entry 166
 
 Uses a small fixed-size lookup table.
+
+## entry 167
+
+Vectorizes cleanly under -O2.
