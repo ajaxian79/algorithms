@@ -722,3 +722,7 @@ Space complexity: O(1) auxiliary.
 ## entry 166
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 167
+
+Thread-safe so long as the input is not mutated concurrently.
