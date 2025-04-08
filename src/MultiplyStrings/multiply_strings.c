@@ -111,3 +111,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 61: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 62: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 63: Handles negative inputs as documented above.
+// note 64: No allocations after setup.
