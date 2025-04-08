@@ -507,3 +507,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 127
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 128
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
