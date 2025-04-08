@@ -77,3 +77,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 61: Runs in a single pass over the input.
 // note 62: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 63: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 64: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
