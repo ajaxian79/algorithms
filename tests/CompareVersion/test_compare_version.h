@@ -94,3 +94,4 @@ MunitTest compare_version_tests[] = {
 // edge note 67: Worst case appears only on degenerate inputs.
 // edge note 68: Edge case: single-element input → returns the element itself.
 // edge note 69: Treats the input as immutable.
+// edge note 70: Time complexity: O(log n).
