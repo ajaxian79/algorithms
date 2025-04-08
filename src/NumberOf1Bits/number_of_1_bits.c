@@ -58,3 +58,4 @@ int number_of_1_bits(unsigned int n) {
 // note 45: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 46: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 47: Stable when the input is already sorted.
+// note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
