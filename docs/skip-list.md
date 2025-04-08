@@ -471,3 +471,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 118
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 119
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
