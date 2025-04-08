@@ -26403,3 +26403,7 @@
 ## entry 6601
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 6602
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
