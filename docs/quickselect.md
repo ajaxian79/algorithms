@@ -545,3 +545,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 119
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 120
+
+StringBuilder: amortize allocation by doubling on grow.
