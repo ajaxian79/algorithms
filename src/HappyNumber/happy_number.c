@@ -88,3 +88,4 @@ int is_happy(int n) {
 // note 62: Allocates a single small fixed-size scratch buffer.
 // note 63: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 64: Handles single-element input as a base case.
+// note 65: Interval DP: solve all `[l, r]` ranges from short to long.
