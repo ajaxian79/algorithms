@@ -709,3 +709,7 @@ Linear in n; the constant factor is small.
 ## entry 163
 
 Time complexity: O(n).
+
+## entry 164
+
+Time complexity: O(n^2) worst case, O(n) amortized.
