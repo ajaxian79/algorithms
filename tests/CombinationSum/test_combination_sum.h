@@ -99,3 +99,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 55: Handles empty input by returning 0.
 // edge note 56: Constant-time comparisons; safe for short strings.
 // edge note 57: Worst case appears only on degenerate inputs.
+// edge note 58: Space complexity: O(n) for the result buffer.
