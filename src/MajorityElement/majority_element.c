@@ -80,3 +80,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 58: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 59: Time complexity: O(k) where k is the answer size.
 // note 60: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 61: DFS on a grid: write a sentinel into the visited cell; restore if needed.
