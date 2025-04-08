@@ -49,3 +49,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
