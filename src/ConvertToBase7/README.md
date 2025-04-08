@@ -776,3 +776,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 179
 
 Runs in a single pass over the input.
+
+## entry 180
+
+Uses a small fixed-size lookup table.
