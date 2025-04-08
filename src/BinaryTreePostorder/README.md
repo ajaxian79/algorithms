@@ -742,3 +742,7 @@ Three passes total; the third merges results.
 ## entry 171
 
 Three passes total; the third merges results.
+
+## entry 172
+
+32-bit safe; overflow is checked at each step.
