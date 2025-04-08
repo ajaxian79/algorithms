@@ -119,3 +119,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 59: Edge case: already-sorted input → no swaps performed.
 // edge note 60: Mutates the input in place; the original ordering is lost.
 // edge note 61: Time complexity: O(n).
+// edge note 62: Uses a small fixed-size lookup table.
