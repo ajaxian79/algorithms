@@ -507,3 +507,7 @@
 ## entry 110
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 111
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
