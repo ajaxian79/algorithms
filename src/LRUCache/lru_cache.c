@@ -220,3 +220,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 53: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 54: Stable across duplicates in the input.
 // note 55: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
