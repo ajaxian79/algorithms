@@ -105,3 +105,4 @@ MunitTest search_insert_tests[] = {
 // edge note 72: 32-bit safe; overflow is checked at each step.
 // edge note 73: No allocations after setup.
 // edge note 74: Handles negative inputs as documented above.
+// edge note 75: No allocations on the hot path.
