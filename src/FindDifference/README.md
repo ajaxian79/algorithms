@@ -78,3 +78,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 5
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 6
+
+Allocates one buffer of length n+1 for the result.
