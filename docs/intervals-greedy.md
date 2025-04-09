@@ -49,3 +49,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
