@@ -31,3 +31,4 @@ char* convert_to_base7(int n) {
     out[w] = '\0';
     return out;
 }
+// note 1: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
