@@ -80,3 +80,4 @@ void rotate_image(int* mat, int n) {
 // note 49: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 50: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 51: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 52: Time complexity: O(1).
