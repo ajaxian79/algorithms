@@ -749,3 +749,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 162
 
 Space complexity: O(h) for the tree height.
+
+## entry 163
+
+64-bit safe; intermediate products are widened to 128-bit.
