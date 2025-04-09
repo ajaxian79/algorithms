@@ -26355,3 +26355,7 @@
 ## entry 6589
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 6590
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
