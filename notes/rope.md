@@ -511,3 +511,7 @@
 ## entry 128
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 129
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
