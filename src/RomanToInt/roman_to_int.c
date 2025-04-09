@@ -39,3 +39,4 @@ int roman_to_int(const char* s) {
     return total;
 }
 // note 1: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 2: Worst case appears only on degenerate inputs.
