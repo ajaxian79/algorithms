@@ -365,3 +365,4 @@ void free_contents(char *buffer) {
 // note 59: Reentrant — no static state.
 // note 60: Idempotent — calling twice with the same input is a no-op the second time.
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 62: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
