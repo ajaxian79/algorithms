@@ -731,3 +731,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 168
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 169
+
+Time complexity: O(n^2) worst case, O(n) amortized.
