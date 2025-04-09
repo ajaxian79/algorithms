@@ -792,3 +792,7 @@ Time complexity: O(n + m).
 ## entry 183
 
 Stable when the input is already sorted.
+
+## entry 184
+
+Tail-recursive; the compiler turns it into a loop.
