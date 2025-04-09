@@ -98,3 +98,4 @@ MunitTest min_depth_tests[] = {
 // edge note 59: Vectorizes cleanly under -O2.
 // edge note 60: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 61: Best case is O(1) when the first byte already decides the answer.
+// edge note 62: Time complexity: O(k) where k is the answer size.
