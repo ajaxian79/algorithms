@@ -85,3 +85,4 @@ int binary_gap(unsigned int n) {
 // note 65: Space complexity: O(1) auxiliary.
 // note 66: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 67: Mutates the input in place; the original ordering is lost.
+// note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
