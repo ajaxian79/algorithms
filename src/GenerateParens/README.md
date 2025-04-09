@@ -724,3 +724,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 165
 
 Space complexity: O(h) for the tree height.
+
+## entry 166
+
+Cache-friendly; one sequential read pass.
