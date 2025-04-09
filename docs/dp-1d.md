@@ -535,3 +535,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 117
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 118
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
