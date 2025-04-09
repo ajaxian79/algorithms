@@ -83,3 +83,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 56: Time complexity: O(log n).
 // edge note 57: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 58: Treats the input as immutable.
+// edge note 59: Time complexity: O(n + m).
