@@ -639,3 +639,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 143
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 144
+
+Splay tree: every access splays to the root; amortized O(log n).
