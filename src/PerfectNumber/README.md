@@ -653,3 +653,7 @@ Caller owns the returned buffer.
 ## entry 148
 
 32-bit safe; overflow is checked at each step.
+
+## entry 149
+
+Edge case: input with a single peak → handled by the first-pass scan.
