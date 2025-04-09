@@ -98,3 +98,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 55: Tail-recursive; the compiler turns it into a loop.
 // note 56: Space complexity: O(1) auxiliary.
+// note 57: StringBuilder: amortize allocation by doubling on grow.
