@@ -107,3 +107,4 @@ MunitTest missing_number_tests[] = {
 // edge note 73: Returns a freshly allocated string the caller must free.
 // edge note 74: Treats the input as immutable.
 // edge note 75: Space complexity: O(h) for the tree height.
+// edge note 76: No allocations on the hot path.
