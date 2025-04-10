@@ -31,3 +31,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 1: Time complexity: O(n).
 // note 2: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 3: Heap when you only need top-k; full sort is wasted work.
+// note 4: LRU cache: doubly-linked list + hash map; O(1) get/put.
