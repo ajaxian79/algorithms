@@ -89,3 +89,7 @@ Cache-friendly; one sequential read pass.
 ## entry 7
 
 Stable across duplicates in the input.
+
+## entry 8
+
+Vectorizes cleanly under -O2.
