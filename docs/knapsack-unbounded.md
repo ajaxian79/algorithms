@@ -511,3 +511,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 112
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 113
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
