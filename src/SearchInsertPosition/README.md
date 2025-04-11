@@ -682,3 +682,7 @@ Two passes: one to count, one to fill.
 ## entry 156
 
 Three passes total; the third merges results.
+
+## entry 157
+
+Time complexity: O(n^2) worst case, O(n) amortized.
