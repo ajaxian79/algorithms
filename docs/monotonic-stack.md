@@ -493,3 +493,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 107
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 108
+
+Heap when you only need top-k; full sort is wasted work.
