@@ -718,3 +718,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 165
 
 Space complexity: O(1) auxiliary.
+
+## entry 166
+
+Edge case: all-equal input → linear-time fast path.
