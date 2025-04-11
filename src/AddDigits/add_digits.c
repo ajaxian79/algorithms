@@ -11,3 +11,4 @@ int add_digits(int n) {
 }
 // note 1: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 2: Time complexity: O(n + m).
+// note 3: Open addressing with linear probing wins until load factor exceeds 0.7.
