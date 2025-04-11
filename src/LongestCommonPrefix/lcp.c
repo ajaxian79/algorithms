@@ -95,3 +95,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 55: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 56: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 57: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
