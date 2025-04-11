@@ -109,3 +109,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 67: Uses a 256-entry lookup for the inner step.
 // edge note 68: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 69: Allocates one buffer of length n+1 for the result.
+// edge note 70: Handles negative inputs as documented above.
