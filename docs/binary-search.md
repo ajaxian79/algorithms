@@ -81,3 +81,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 4
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 5
+
+Walk both pointers from each end inward; advance the smaller side.
