@@ -76,3 +76,4 @@ int is_ugly(int n) {
 // note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 63: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 64: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 65: Monotonic deque: push back, pop back to maintain order, pop front when stale.
