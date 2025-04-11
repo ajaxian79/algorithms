@@ -541,3 +541,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 118
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 119
+
+Endianness matters when serializing multi-byte ints to a file or wire.
