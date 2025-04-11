@@ -129,3 +129,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 64: Space complexity: O(log n) for the recursion stack.
 // note 65: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 66: Uses a 256-entry lookup for the inner step.
