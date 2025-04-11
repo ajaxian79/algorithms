@@ -89,3 +89,4 @@ int num_islands(char* grid, int m, int n) {
 // note 57: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 58: Handles single-element input as a base case.
 // note 59: Uses a 256-entry lookup for the inner step.
+// note 60: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
