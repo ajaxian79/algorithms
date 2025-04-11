@@ -810,3 +810,7 @@ Space complexity: O(h) for the tree height.
 ## entry 188
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 189
+
+Space complexity: O(h) for the tree height.
