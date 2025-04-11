@@ -718,3 +718,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 165
 
 Vectorizes cleanly under -O2.
+
+## entry 166
+
+Edge case: alternating pattern → degenerate case for sliding window.
