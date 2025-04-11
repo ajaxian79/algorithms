@@ -24,3 +24,4 @@ MunitTest valid_anagram_tests[] = {
 
 #endif //ALGORITHMS_TEST_VALID_ANAGRAM_H
 // edge note 1: Edge case: all-equal input → linear-time fast path.
+// edge note 2: Resists adversarial inputs by randomizing the pivot.
