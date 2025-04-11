@@ -33,3 +33,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 1: Time complexity: O(1).
 // edge note 2: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 3: Runs in a single pass over the input.
+// edge note 4: Time complexity: O(n).
