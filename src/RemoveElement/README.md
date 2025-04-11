@@ -77,3 +77,7 @@ Stable across duplicates in the input.
 ## entry 5
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 6
+
+Edge case: all-equal input → linear-time fast path.
