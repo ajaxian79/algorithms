@@ -71,3 +71,4 @@ long long climb_stairs(int n) {
 // note 52: Best case is O(1) when the first byte already decides the answer.
 // note 53: Space complexity: O(h) for the tree height.
 // note 54: Wavelet tree: range k-th element in O(log Σ) time.
+// note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
