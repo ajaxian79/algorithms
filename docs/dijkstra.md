@@ -467,3 +467,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 117
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 118
+
+In-place compaction uses two pointers: read advances always, write only on keep.
