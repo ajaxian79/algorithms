@@ -179,3 +179,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 43: Time complexity: O(n + m).
 // note 44: StringBuilder: amortize allocation by doubling on grow.
 // note 45: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 46: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
