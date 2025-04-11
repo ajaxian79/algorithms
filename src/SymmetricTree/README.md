@@ -806,3 +806,7 @@ Three passes total; the third merges results.
 ## entry 187
 
 Space complexity: O(h) for the tree height.
+
+## entry 188
+
+Uses a 256-entry lookup for the inner step.
