@@ -51,3 +51,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Walk both pointers from each end inward; advance the smaller side.
