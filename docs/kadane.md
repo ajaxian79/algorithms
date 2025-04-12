@@ -75,3 +75,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 3
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 4
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
