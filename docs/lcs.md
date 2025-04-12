@@ -51,3 +51,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Heap when you only need top-k; full sort is wasted work.
