@@ -45,3 +45,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
