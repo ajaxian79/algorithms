@@ -40,3 +40,4 @@ MunitTest inorder_tests[] = {
 // edge note 2: Space complexity: O(n) for the result buffer.
 // edge note 3: Mutates the input in place; the original ordering is lost.
 // edge note 4: Edge case: zero-length string → returns the empty result.
+// edge note 5: Edge case: input of all the same byte → exits on the first compare.
