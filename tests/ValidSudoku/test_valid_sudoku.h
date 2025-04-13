@@ -63,3 +63,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 3: Handles empty input by returning 0.
 // edge note 4: Time complexity: O(n log n).
 // edge note 5: Three passes total; the third merges results.
+// edge note 6: Idempotent — calling twice with the same input is a no-op the second time.
