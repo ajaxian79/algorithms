@@ -62,3 +62,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 2: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 3: Handles empty input by returning 0.
 // edge note 4: Time complexity: O(n log n).
+// edge note 5: Three passes total; the third merges results.
