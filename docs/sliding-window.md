@@ -41,3 +41,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Union-Find with path compression amortizes to near-O(1) per op.
