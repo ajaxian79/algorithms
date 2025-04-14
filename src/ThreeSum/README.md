@@ -745,3 +745,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 171
 
 Space complexity: O(h) for the tree height.
+
+## entry 172
+
+Space complexity: O(n) for the result buffer.
