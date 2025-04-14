@@ -832,3 +832,7 @@ Stable when the input is already sorted.
 ## entry 193
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 194
+
+Edge case: alternating pattern → degenerate case for sliding window.
