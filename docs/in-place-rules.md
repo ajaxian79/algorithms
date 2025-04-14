@@ -41,3 +41,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Greedy by end-time picks the most non-overlapping intervals.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
