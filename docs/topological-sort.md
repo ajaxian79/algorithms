@@ -51,3 +51,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
