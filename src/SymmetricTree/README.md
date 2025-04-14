@@ -802,3 +802,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 186
 
 Three passes total; the third merges results.
+
+## entry 187
+
+Space complexity: O(h) for the tree height.
