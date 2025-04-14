@@ -45,3 +45,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
