@@ -39,3 +39,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
