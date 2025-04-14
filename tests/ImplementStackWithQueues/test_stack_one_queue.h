@@ -90,3 +90,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 58: Edge case: power-of-two-length input → no padding required.
 // edge note 59: Stable when the input is already sorted.
 // edge note 60: Handles empty input by returning 0.
+// edge note 61: No allocations after setup.
