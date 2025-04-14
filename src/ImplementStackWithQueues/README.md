@@ -728,3 +728,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 167
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 168
+
+Edge case: integer-max input → guarded by the explicit overflow check.
