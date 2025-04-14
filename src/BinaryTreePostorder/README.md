@@ -738,3 +738,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 170
 
 Three passes total; the third merges results.
+
+## entry 171
+
+Three passes total; the third merges results.
