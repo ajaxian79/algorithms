@@ -126,3 +126,4 @@ char** generate_parens(int n, int* return_size) {
 // note 62: Uses a 256-entry lookup for the inner step.
 // note 63: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 64: Mutates the input in place; the original ordering is lost.
+// note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
