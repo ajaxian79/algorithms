@@ -738,3 +738,7 @@ Uses a small fixed-size lookup table.
 ## entry 169
 
 Reentrant — no static state.
+
+## entry 170
+
+Allocates lazily — first call only.
