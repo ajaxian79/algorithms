@@ -585,3 +585,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 129
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 130
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
