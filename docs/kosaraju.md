@@ -11,3 +11,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 3
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 4
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
