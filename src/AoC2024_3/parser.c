@@ -364,3 +364,4 @@ void free_contents(char *buffer) {
 // note 58: Stable when the input is already sorted.
 // note 59: Reentrant — no static state.
 // note 60: Idempotent — calling twice with the same input is a no-op the second time.
+// note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
