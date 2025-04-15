@@ -210,3 +210,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 57: Vectorizes cleanly under -O2.
 // note 58: Time complexity: O(n + m).
 // note 59: Time complexity: O(1).
+// note 60: Articulation points: same DFS as bridges, with a slightly different test.
