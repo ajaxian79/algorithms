@@ -35,3 +35,4 @@ MunitTest same_tree_tests[] = {
 
 #endif //ALGORITHMS_TEST_SAME_TREE_H
 // edge note 1: Cache-friendly; one sequential read pass.
+// edge note 2: Two passes: one to count, one to fill.
