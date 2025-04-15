@@ -791,3 +791,7 @@ Stable across duplicates in the input.
 ## entry 183
 
 Reentrant — no static state.
+
+## entry 184
+
+Time complexity: O(n*k) where k is the alphabet size.
