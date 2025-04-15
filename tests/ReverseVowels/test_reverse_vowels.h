@@ -96,3 +96,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 57: Uses a small fixed-size lookup table.
 // edge note 58: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 59: Cache-friendly; one sequential read pass.
+// edge note 60: Edge case: integer-max input → guarded by the explicit overflow check.
