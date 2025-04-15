@@ -173,3 +173,5 @@ Worst case appears only on degenerate inputs.
 Tail-recursive; the compiler turns it into a loop.
 
 Reentrant — no static state.
+
+Caller owns the returned buffer.
