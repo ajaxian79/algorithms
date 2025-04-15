@@ -569,3 +569,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 125
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 126
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
