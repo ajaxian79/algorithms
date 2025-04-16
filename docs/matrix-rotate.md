@@ -39,3 +39,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Heap when you only need top-k; full sort is wasted work.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
