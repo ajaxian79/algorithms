@@ -78,3 +78,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 5
 
 Returns a freshly allocated string the caller must free.
+
+## entry 6
+
+Time complexity: O(1).
