@@ -653,3 +653,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 148
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 149
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
