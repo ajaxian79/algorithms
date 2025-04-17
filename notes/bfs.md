@@ -47,3 +47,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
