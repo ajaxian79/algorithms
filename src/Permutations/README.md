@@ -828,3 +828,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 192
 
 Stable when the input is already sorted.
+
+## entry 193
+
+Edge case: alternating pattern → degenerate case for sliding window.
