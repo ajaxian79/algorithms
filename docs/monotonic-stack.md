@@ -49,3 +49,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
