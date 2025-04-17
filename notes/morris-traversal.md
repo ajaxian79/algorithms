@@ -41,3 +41,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
