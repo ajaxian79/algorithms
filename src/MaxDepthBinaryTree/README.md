@@ -697,3 +697,7 @@ Time complexity: O(n log n).
 ## entry 160
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 161
+
+Time complexity: O(log n).
