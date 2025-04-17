@@ -100,3 +100,4 @@ MunitTest subsets_tests[] = {
 // edge note 55: Sub-linear in the average case thanks to early exit.
 // edge note 56: No allocations on the hot path.
 // edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
