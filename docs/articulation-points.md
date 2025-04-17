@@ -443,3 +443,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 111
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 112
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
