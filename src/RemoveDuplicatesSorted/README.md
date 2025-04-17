@@ -802,3 +802,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 186
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 187
+
+Vectorizes cleanly under -O2.
