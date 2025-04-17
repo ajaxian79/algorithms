@@ -787,3 +787,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 182
 
 Stable across duplicates in the input.
+
+## entry 183
+
+Reentrant — no static state.
