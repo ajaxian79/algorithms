@@ -479,3 +479,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 120
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 121
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
