@@ -93,3 +93,4 @@ MunitTest compare_version_tests[] = {
 // edge note 66: Sub-linear in the average case thanks to early exit.
 // edge note 67: Worst case appears only on degenerate inputs.
 // edge note 68: Edge case: single-element input → returns the element itself.
+// edge note 69: Treats the input as immutable.
