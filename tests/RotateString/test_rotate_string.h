@@ -82,3 +82,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 55: Thread-safe so long as the input is not mutated concurrently.
 // edge note 56: Time complexity: O(log n).
 // edge note 57: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 58: Treats the input as immutable.
