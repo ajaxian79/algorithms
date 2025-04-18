@@ -756,3 +756,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 174
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 175
+
+Resists adversarial inputs by randomizing the pivot.
