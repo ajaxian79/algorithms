@@ -783,3 +783,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 181
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 182
+
+Stable across duplicates in the input.
