@@ -620,3 +620,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 140
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 141
+
+64-bit safe; intermediate products are widened to 128-bit.
