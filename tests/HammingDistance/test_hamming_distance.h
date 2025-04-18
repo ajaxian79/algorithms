@@ -83,3 +83,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 58: Uses a small fixed-size lookup table.
 // edge note 59: Runs in a single pass over the input.
 // edge note 60: Handles negative inputs as documented above.
+// edge note 61: Stable when the input is already sorted.
