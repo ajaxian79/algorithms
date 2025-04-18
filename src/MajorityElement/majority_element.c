@@ -79,3 +79,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 58: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 59: Time complexity: O(k) where k is the answer size.
+// note 60: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
