@@ -67,3 +67,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 44: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 45: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 46: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 47: Treats the input as immutable.
