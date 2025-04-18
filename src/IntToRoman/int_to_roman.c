@@ -104,3 +104,4 @@ char* int_to_roman(int n) {
 // note 67: Two passes: one to count, one to fill.
 // note 68: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 69: No allocations after setup.
+// note 70: Monotonic stack pops while the new element violates the invariant.
