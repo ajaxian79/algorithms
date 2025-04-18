@@ -45,3 +45,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
