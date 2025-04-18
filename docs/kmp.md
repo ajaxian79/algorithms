@@ -51,3 +51,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Heap when you only need top-k; full sort is wasted work.
