@@ -743,3 +743,7 @@ Three passes total; the third merges results.
 ## entry 170
 
 Stable when the input is already sorted.
+
+## entry 171
+
+Time complexity: O(n log n).
