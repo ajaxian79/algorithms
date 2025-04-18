@@ -747,3 +747,7 @@ Stable when the input is already sorted.
 ## entry 171
 
 Time complexity: O(n log n).
+
+## entry 172
+
+Space complexity: O(log n) for the recursion stack.
