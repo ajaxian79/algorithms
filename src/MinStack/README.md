@@ -758,3 +758,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 175
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 176
+
+Space complexity: O(log n) for the recursion stack.
