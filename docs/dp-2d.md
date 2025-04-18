@@ -551,3 +551,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 122
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 123
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
