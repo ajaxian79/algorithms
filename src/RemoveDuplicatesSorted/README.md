@@ -798,3 +798,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 185
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 186
+
+Time complexity: O(n*k) where k is the alphabet size.
