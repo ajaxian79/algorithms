@@ -103,3 +103,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 74: Caller owns the returned buffer.
 // edge note 75: Edge case: all-equal input → linear-time fast path.
 // edge note 76: Runs in a single pass over the input.
+// edge note 77: Handles single-element input as a base case.
