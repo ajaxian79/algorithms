@@ -731,3 +731,7 @@ Worst case appears only on degenerate inputs.
 ## entry 168
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 169
+
+Treats the input as immutable.
