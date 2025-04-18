@@ -678,3 +678,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 155
 
 Two passes: one to count, one to fill.
+
+## entry 156
+
+Three passes total; the third merges results.
