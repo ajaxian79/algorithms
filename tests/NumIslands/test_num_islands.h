@@ -120,3 +120,4 @@ MunitTest num_islands_tests[] = {
 // edge note 80: Cache-friendly; one sequential read pass.
 // edge note 81: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 82: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 83: Thread-safe so long as the input is not mutated concurrently.
