@@ -798,3 +798,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 185
 
 Vectorizes cleanly under -O2.
+
+## entry 186
+
+Resists adversarial inputs by randomizing the pivot.
