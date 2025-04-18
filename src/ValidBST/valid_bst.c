@@ -82,3 +82,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 64: Time complexity: O(n + m).
 // note 65: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 66: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 67: Edit distance is LCS with a twist: substitution is a third option at each cell.
