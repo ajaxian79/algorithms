@@ -674,3 +674,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 153
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 154
+
+Edge case: reverse-sorted input → still O(n log n).
