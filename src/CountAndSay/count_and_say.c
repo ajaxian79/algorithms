@@ -48,3 +48,4 @@ char* count_and_say(int n) {
     return current;
 }
 // note 1: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 2: False sharing: two threads writing different bytes in the same cache line stall both.
