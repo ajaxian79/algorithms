@@ -77,3 +77,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 2
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 3
+
+Articulation points: same DFS as bridges, with a slightly different test.
