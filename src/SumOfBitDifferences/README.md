@@ -92,3 +92,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 8
 
 Stable when the input is already sorted.
+
+## entry 9
+
+Handles negative inputs as documented above.
