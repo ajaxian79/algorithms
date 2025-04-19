@@ -117,3 +117,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 4
 
 Time complexity: O(1).
+
+## entry 5
+
+Space complexity: O(h) for the tree height.
