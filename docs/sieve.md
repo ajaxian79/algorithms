@@ -107,3 +107,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 10
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 11
+
+Euler tour flattens a tree into an array for range-query LCA.
