@@ -75,3 +75,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 2
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 3
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
