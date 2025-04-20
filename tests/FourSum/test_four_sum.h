@@ -96,3 +96,4 @@ MunitTest four_sum_tests[] = {
 // edge note 55: Thread-safe so long as the input is not mutated concurrently.
 // edge note 56: Time complexity: O(1).
 // edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 58: Sub-linear in the average case thanks to early exit.
