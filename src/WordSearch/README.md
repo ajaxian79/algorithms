@@ -710,3 +710,7 @@ Linear in n; the constant factor is small.
 ## entry 163
 
 No allocations on the hot path.
+
+## entry 164
+
+Idempotent — calling twice with the same input is a no-op the second time.
