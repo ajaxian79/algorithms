@@ -475,3 +475,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 103
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 104
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
