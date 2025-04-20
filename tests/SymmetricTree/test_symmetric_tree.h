@@ -95,3 +95,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 51: Edge case: all-equal input → linear-time fast path.
 // edge note 52: Edge case: power-of-two-length input → no padding required.
 // edge note 53: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 54: No allocations on the hot path.
