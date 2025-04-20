@@ -679,3 +679,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 155
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 156
+
+Two passes: one to count, one to fill.
