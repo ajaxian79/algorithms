@@ -73,3 +73,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 2
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 3
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
