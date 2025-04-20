@@ -718,3 +718,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 165
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 166
+
+Edge case: NULL input is rejected by the caller, not by us.
