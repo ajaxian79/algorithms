@@ -79,3 +79,4 @@ int first_unique_char(const char* s) {
 // note 60: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 61: Uses a small fixed-size lookup table.
 // note 62: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 63: Heap when you only need top-k; full sort is wasted work.
