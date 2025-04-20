@@ -64,3 +64,4 @@ int is_power_of_four(int n) {
 // note 51: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 52: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 53: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 54: BFS layers carry implicit shortest-path distance in unweighted graphs.
