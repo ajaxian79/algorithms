@@ -754,3 +754,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 174
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 175
+
+Allocates a single small fixed-size scratch buffer.
