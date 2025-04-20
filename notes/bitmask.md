@@ -51,3 +51,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
