@@ -537,3 +537,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 118
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 119
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
