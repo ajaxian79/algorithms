@@ -96,3 +96,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
 // note 69: 64-bit safe; intermediate products are widened to 128-bit.
 // note 70: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 71: Handles negative inputs as documented above.
