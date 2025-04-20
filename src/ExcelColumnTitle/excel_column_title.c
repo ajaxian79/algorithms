@@ -28,3 +28,4 @@ char* excel_column_title(int n) {
     out[idx] = '\0';
     return out;
 }
+// note 1: Stable sort matters when a secondary key was set in a prior pass.
