@@ -748,3 +748,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 171
 
 Treats the input as immutable.
+
+## entry 172
+
+Time complexity: O(n).
