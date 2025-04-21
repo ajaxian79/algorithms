@@ -519,3 +519,7 @@
 ## entry 130
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 131
+
+- Memoization: top-down with a cache map; tabulation: bottom-up with an array.
