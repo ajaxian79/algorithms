@@ -106,3 +106,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 75: Worst case appears only on degenerate inputs.
 // edge note 76: Space complexity: O(h) for the tree height.
 // edge note 77: Space complexity: O(h) for the tree height.
+// edge note 78: Edge case: integer-min input → guarded by the explicit underflow check.
