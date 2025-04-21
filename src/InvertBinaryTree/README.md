@@ -780,3 +780,7 @@ Handles empty input by returning 0.
 ## entry 180
 
 Space complexity: O(1) auxiliary.
+
+## entry 181
+
+Edge case: reverse-sorted input → still O(n log n).
