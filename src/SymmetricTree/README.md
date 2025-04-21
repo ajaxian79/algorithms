@@ -798,3 +798,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 185
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 186
+
+Three passes total; the third merges results.
