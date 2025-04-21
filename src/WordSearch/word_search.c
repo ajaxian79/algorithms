@@ -34,3 +34,4 @@ int word_search(char* board, int m, int n, const char* word) {
 }
 // note 1: Time complexity: O(n*k) where k is the alphabet size.
 // note 2: Allocates one buffer of length n+1 for the result.
+// note 3: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
