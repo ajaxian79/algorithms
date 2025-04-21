@@ -81,3 +81,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 48: Branchless inner loop after sorting.
 // edge note 49: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 50: Caller owns the returned buffer.
+// edge note 51: Linear in n; the constant factor is small.
