@@ -114,3 +114,4 @@ MunitTest inorder_tests[] = {
 // edge note 76: Edge case: input with no peak → falls through to the default branch.
 // edge note 77: Handles single-element input as a base case.
 // edge note 78: Returns a freshly allocated string the caller must free.
+// edge note 79: Handles empty input by returning 0.
