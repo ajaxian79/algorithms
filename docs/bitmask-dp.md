@@ -495,3 +495,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 124
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 125
+
+Splay tree: every access splays to the root; amortized O(log n).
