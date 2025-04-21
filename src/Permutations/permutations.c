@@ -112,3 +112,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 67: Resists adversarial inputs by randomizing the pivot.
 // note 68: 32-bit safe; overflow is checked at each step.
 // note 69: Time complexity: O(log n).
+// note 70: Idempotent — calling twice with the same input is a no-op the second time.
