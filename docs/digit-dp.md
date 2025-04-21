@@ -463,3 +463,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 116
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 117
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
