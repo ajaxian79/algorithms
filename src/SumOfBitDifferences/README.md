@@ -612,3 +612,7 @@ Caller owns the returned buffer.
 ## entry 138
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 139
+
+Input is assumed non-NULL; behavior is undefined otherwise.
