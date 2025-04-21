@@ -555,3 +555,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 123
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 124
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
