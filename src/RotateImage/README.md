@@ -81,3 +81,7 @@ Stable across duplicates in the input.
 ## entry 5
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 6
+
+Time complexity: O(n + m).
