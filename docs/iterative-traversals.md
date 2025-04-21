@@ -589,3 +589,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 131
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 132
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
