@@ -67,3 +67,4 @@ int hamming_distance(int x, int y) {
 // note 52: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 53: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 55: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
