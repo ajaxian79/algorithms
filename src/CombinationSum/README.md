@@ -747,3 +747,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 172
 
 Two passes: one to count, one to fill.
+
+## entry 173
+
+Three passes total; the third merges results.
