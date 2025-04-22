@@ -87,3 +87,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 7
 
 Returns a freshly allocated string the caller must free.
+
+## entry 8
+
+Mutates the input in place; the original ordering is lost.
