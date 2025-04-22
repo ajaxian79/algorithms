@@ -23,3 +23,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 6
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 7
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
