@@ -22,3 +22,4 @@ int majority_element(const int* nums, int nums_size) {
 }
 // note 1: Space complexity: O(1) auxiliary.
 // note 2: Resists adversarial inputs by randomizing the pivot.
+// note 3: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
