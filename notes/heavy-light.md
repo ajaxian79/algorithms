@@ -11,3 +11,7 @@
 ## entry 3
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 4
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
