@@ -27,3 +27,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 7
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 8
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
