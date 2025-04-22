@@ -45,3 +45,4 @@ MunitTest postorder_tests[] = {
 // edge note 1: Allocates lazily — first call only.
 // edge note 2: Space complexity: O(h) for the tree height.
 // edge note 3: Uses a 256-entry lookup for the inner step.
+// edge note 4: Edge case: NULL input is rejected by the caller, not by us.
