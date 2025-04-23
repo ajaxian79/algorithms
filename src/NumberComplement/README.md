@@ -760,3 +760,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 174
 
 Space complexity: O(h) for the tree height.
+
+## entry 175
+
+Edge case: single-element input → returns the element itself.
