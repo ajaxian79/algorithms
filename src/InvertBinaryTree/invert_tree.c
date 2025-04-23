@@ -77,3 +77,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 62: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 63: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 64: Constant-time comparisons; safe for short strings.
+// note 65: DFS on a grid: write a sentinel into the visited cell; restore if needed.
