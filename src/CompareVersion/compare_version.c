@@ -85,3 +85,4 @@ int compare_version(const char* a, const char* b) {
 // note 55: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 56: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 57: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 58: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
