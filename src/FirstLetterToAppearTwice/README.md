@@ -678,3 +678,7 @@ Two passes: one to count, one to fill.
 ## entry 145
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 146
+
+32-bit safe; overflow is checked at each step.
