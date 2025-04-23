@@ -82,3 +82,4 @@ int is_perfect_number(int n) {
 // note 64: Cache-friendly; one sequential read pass.
 // note 65: Treats the input as immutable.
 // note 66: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 67: Input is assumed non-NULL; behavior is undefined otherwise.
