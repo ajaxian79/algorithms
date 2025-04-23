@@ -26099,3 +26099,7 @@
 ## entry 6525
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 6526
+
+- Heap when you only need top-k; full sort is wasted work.
