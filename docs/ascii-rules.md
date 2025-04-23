@@ -15,3 +15,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 4
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 5
+
+StringBuilder: amortize allocation by doubling on grow.
