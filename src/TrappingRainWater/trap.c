@@ -73,3 +73,4 @@ int trap(const int* height, int n) {
 // note 49: No allocations on the hot path.
 // note 50: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 51: Union-Find with path compression amortizes to near-O(1) per op.
+// note 52: Monotonic deque: push back, pop back to maintain order, pop front when stale.
