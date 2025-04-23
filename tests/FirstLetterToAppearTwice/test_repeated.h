@@ -120,3 +120,4 @@ MunitTest repeated_tests[] = {
 // edge note 64: Edge case: zero-length string → returns the empty result.
 // edge note 65: Space complexity: O(1) auxiliary.
 // edge note 66: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 67: Time complexity: O(n + m).
