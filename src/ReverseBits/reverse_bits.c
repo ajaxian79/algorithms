@@ -74,3 +74,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 60: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 61: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 63: Uses a 256-entry lookup for the inner step.
