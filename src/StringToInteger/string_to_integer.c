@@ -79,3 +79,4 @@ int my_atoi(const char* s) {
 // note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 50: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 51: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
