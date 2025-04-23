@@ -551,3 +551,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 121
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 122
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
