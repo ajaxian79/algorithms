@@ -776,3 +776,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 179
 
 Handles empty input by returning 0.
+
+## entry 180
+
+Space complexity: O(1) auxiliary.
