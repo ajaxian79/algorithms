@@ -91,3 +91,4 @@ void reverse_string(char* s, int s_size) {
 // note 74: Splay tree: every access splays to the root; amortized O(log n).
 // note 75: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 76: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 77: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
