@@ -110,3 +110,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 61: Time complexity: O(k) where k is the answer size.
 // note 62: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 63: Handles empty input by returning 0.
+// note 64: Time complexity: O(log n).
