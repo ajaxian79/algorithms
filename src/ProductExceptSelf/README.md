@@ -720,3 +720,7 @@ No allocations on the hot path.
 ## entry 164
 
 Time complexity: O(n + m).
+
+## entry 165
+
+Avoids floating-point entirely — integer math throughout.
