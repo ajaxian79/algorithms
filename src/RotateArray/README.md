@@ -795,3 +795,7 @@ Linear in n; the constant factor is small.
 ## entry 183
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 184
+
+Space complexity: O(n) for the result buffer.
