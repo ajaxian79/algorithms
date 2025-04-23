@@ -475,3 +475,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 119
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 120
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
