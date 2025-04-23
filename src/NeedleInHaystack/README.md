@@ -752,3 +752,7 @@ Caller owns the returned buffer.
 ## entry 173
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 174
+
+Edge case: alternating pattern → degenerate case for sliding window.
