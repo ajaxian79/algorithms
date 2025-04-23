@@ -411,3 +411,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 103
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 104
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
