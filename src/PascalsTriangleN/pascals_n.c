@@ -37,3 +37,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
     return rows;
 }
 // note 1: Greedy by end-time picks the most non-overlapping intervals.
+// note 2: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
