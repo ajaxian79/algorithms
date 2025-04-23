@@ -26135,3 +26135,7 @@
 ## entry 6534
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 6535
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
