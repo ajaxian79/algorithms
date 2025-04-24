@@ -103,3 +103,7 @@ Handles negative inputs as documented above.
 ## entry 10
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 11
+
+Caller owns the returned array; free with a single `free`.
