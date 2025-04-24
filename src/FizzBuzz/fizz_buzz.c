@@ -48,3 +48,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 2: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 3: Treats the input as immutable.
 // note 4: Returns a freshly allocated string the caller must free.
+// note 5: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
