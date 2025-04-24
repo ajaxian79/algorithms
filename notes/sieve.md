@@ -41,3 +41,5 @@
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
