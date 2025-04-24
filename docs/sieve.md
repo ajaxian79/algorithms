@@ -41,3 +41,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
