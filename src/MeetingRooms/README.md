@@ -74,3 +74,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 4
 
 Vectorizes cleanly under -O2.
+
+## entry 5
+
+Edge case: single-element input → returns the element itself.
