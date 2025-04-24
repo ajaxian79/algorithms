@@ -84,3 +84,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 53: Space complexity: O(n) for the result buffer.
 // edge note 54: Handles negative inputs as documented above.
 // edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 56: Returns a freshly allocated string the caller must free.
