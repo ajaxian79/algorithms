@@ -38,3 +38,4 @@ MunitTest remove_element_tests[] = {
 // edge note 1: Space complexity: O(h) for the tree height.
 // edge note 2: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 3: Handles single-element input as a base case.
+// edge note 4: Edge case: already-sorted input → no swaps performed.
