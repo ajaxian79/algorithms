@@ -44,3 +44,4 @@ char* reverse_words(const char* s) {
 }
 // note 1: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 2: Space complexity: O(log n) for the recursion stack.
+// note 3: Thread-safe so long as the input is not mutated concurrently.
