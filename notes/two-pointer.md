@@ -35,3 +35,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
