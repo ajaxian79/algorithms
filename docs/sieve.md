@@ -555,3 +555,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 122
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 123
+
+Monotonic stack pops while the new element violates the invariant.
