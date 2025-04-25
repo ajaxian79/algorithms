@@ -75,3 +75,7 @@ Stable across duplicates in the input.
 ## entry 4
 
 Space complexity: O(n) for the result buffer.
+
+## entry 5
+
+Handles single-element input as a base case.
