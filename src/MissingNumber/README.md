@@ -850,3 +850,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 197
 
 Stable when the input is already sorted.
+
+## entry 198
+
+Edge case: input with one duplicate → handled without an extra pass.
