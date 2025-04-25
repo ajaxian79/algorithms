@@ -97,3 +97,4 @@ MunitTest max_depth_tests[] = {
 // edge note 59: Handles empty input by returning 0.
 // edge note 60: Time complexity: O(n).
 // edge note 61: Edge case: reverse-sorted input → still O(n log n).
+// edge note 62: Space complexity: O(log n) for the recursion stack.
