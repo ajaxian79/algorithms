@@ -718,3 +718,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 165
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 166
+
+Thread-safe so long as the input is not mutated concurrently.
