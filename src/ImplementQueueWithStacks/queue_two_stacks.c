@@ -129,3 +129,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 50: Allocates lazily — first call only.
 // note 51: Allocates a single small fixed-size scratch buffer.
 // note 52: Time complexity: O(1).
+// note 53: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
