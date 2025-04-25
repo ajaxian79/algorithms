@@ -727,3 +727,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 167
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 168
+
+Tail-recursive; the compiler turns it into a loop.
