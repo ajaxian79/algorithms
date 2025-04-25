@@ -638,3 +638,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 145
 
 Treats the input as immutable.
+
+## entry 146
+
+Input is assumed non-NULL; behavior is undefined otherwise.
