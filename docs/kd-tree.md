@@ -483,3 +483,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 121
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 122
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
