@@ -102,3 +102,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 68: Three passes total; the third merges results.
 // edge note 69: Edge case: input with no peak → falls through to the default branch.
 // edge note 70: Constant-time comparisons; safe for short strings.
+// edge note 71: Idempotent — calling twice with the same input is a no-op the second time.
