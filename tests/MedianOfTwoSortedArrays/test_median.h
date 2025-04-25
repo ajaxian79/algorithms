@@ -177,3 +177,4 @@ MunitTest median_tests[] = {
 // edge note 58: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 59: Edge case: all-equal input → linear-time fast path.
 // edge note 60: Two passes: one to count, one to fill.
+// edge note 61: Space complexity: O(n) for the result buffer.
