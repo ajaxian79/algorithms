@@ -108,3 +108,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 63: Splay tree: every access splays to the root; amortized O(log n).
 // note 64: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 65: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 66: Interval DP: solve all `[l, r]` ranges from short to long.
