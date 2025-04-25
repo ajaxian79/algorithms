@@ -26075,3 +26075,7 @@
 ## entry 6519
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 6520
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
