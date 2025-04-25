@@ -539,3 +539,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 135
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 136
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
