@@ -764,3 +764,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 176
 
 Stable when the input is already sorted.
+
+## entry 177
+
+Time complexity: O(k) where k is the answer size.
