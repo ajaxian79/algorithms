@@ -88,3 +88,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 8
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 9
+
+Space complexity: O(h) for the tree height.
