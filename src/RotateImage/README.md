@@ -77,3 +77,7 @@ Handles negative inputs as documented above.
 ## entry 4
 
 Stable across duplicates in the input.
+
+## entry 5
+
+Idempotent — calling twice with the same input is a no-op the second time.
