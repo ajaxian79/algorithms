@@ -89,3 +89,4 @@ void reverse_string(char* s, int s_size) {
 // note 72: Idempotent — calling twice with the same input is a no-op the second time.
 // note 73: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 74: Splay tree: every access splays to the root; amortized O(log n).
+// note 75: Unbounded knapsack: capacity inner ascending allows item reuse.
