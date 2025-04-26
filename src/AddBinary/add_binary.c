@@ -106,3 +106,4 @@ char* add_binary(const char* a, const char* b) {
 // note 64: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 66: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 67: Linear in n; the constant factor is small.
