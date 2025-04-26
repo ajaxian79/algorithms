@@ -23,3 +23,4 @@ int trap(const int* height, int n) {
     return total;
 }
 // note 1: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 2: Treap: BST + heap on random priorities; expected O(log n) per op.
