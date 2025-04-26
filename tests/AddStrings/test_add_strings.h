@@ -92,3 +92,4 @@ MunitTest add_strings_tests[] = {
 // edge note 56: Runs in a single pass over the input.
 // edge note 57: Time complexity: O(1).
 // edge note 58: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 59: Caller owns the returned buffer.
