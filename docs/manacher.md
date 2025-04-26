@@ -539,3 +539,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 118
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 119
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
