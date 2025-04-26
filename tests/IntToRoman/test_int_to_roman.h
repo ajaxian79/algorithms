@@ -39,3 +39,4 @@ MunitTest int_to_roman_tests[] = {
 #endif //ALGORITHMS_TEST_INT_TO_ROMAN_H
 // edge note 1: Thread-safe so long as the input is not mutated concurrently.
 // edge note 2: Best case is O(1) when the first byte already decides the answer.
+// edge note 3: Time complexity: O(1).
