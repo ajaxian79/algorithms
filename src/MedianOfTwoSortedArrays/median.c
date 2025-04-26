@@ -203,3 +203,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 67: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 68: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 69: Reentrant — no static state.
+// note 70: Allocates lazily — first call only.
