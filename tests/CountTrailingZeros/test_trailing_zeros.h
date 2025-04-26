@@ -92,3 +92,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 64: Allocates lazily — first call only.
 // edge note 65: No allocations on the hot path.
 // edge note 66: Caller owns the returned array; free with a single `free`.
+// edge note 67: Edge case: integer-max input → guarded by the explicit overflow check.
