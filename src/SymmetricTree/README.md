@@ -86,3 +86,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 7
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 8
+
+Caller owns the returned buffer.
