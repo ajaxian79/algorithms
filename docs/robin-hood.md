@@ -19,3 +19,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 5
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 6
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
