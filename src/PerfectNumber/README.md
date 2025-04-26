@@ -73,3 +73,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 3
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 4
+
+Caller owns the returned buffer.
