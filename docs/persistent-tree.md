@@ -11,3 +11,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 3
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 4
+
+Wavelet tree: range k-th element in O(log Σ) time.
