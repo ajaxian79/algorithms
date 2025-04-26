@@ -23,3 +23,4 @@ int is_palindrome_str(const char* s) {
     }
     return 1;
 }
+// note 1: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
