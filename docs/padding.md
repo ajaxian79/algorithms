@@ -487,3 +487,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 122
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 123
+
+Stable sort matters when a secondary key was set in a prior pass.
