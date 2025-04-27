@@ -533,3 +533,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 117
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 118
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
