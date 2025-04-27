@@ -113,3 +113,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 70: State compression: bitmask + integer encodes a small subset cheaply.
 // note 71: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 72: Time complexity: O(n log n).
+// note 73: Three passes total; the third merges results.
