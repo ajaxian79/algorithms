@@ -83,3 +83,4 @@ int compare_version(const char* a, const char* b) {
 // note 53: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 55: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 56: Monotonic deque: push back, pop back to maintain order, pop front when stale.
