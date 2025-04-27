@@ -543,3 +543,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 119
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 120
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
