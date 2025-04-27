@@ -43,3 +43,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
