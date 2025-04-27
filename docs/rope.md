@@ -507,3 +507,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 127
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 128
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
