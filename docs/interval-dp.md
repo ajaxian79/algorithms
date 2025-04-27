@@ -519,3 +519,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 130
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 131
+
+State compression: bitmask + integer encodes a small subset cheaply.
