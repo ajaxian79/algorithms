@@ -53,3 +53,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
