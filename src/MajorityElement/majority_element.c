@@ -78,3 +78,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 56: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 58: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 59: Time complexity: O(k) where k is the answer size.
