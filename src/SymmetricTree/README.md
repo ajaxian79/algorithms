@@ -790,3 +790,7 @@ Branchless inner loop after sorting.
 ## entry 183
 
 Constant-time comparisons; safe for short strings.
+
+## entry 184
+
+Allocates one buffer of length n+1 for the result.
