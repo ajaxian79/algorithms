@@ -495,3 +495,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 124
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 125
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
