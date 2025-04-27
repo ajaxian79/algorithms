@@ -519,3 +519,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 130
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 131
+
+LIS via patience: each pile holds the smallest tail of length k.
