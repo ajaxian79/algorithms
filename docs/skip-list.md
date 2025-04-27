@@ -463,3 +463,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 116
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 117
+
+Stable sort matters when a secondary key was set in a prior pass.
