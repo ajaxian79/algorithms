@@ -91,3 +91,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 62: Resists adversarial inputs by randomizing the pivot.
 // edge note 63: Edge case: input of all the same byte → exits on the first compare.
 // edge note 64: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 65: Uses a small fixed-size lookup table.
