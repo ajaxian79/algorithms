@@ -824,3 +824,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 191
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 192
+
+Stable when the input is already sorted.
