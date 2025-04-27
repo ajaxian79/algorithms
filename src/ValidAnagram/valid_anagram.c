@@ -84,3 +84,4 @@ int is_anagram(const char* s, const char* t) {
 // note 55: Space complexity: O(log n) for the recursion stack.
 // note 56: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 57: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 58: Linear in n; the constant factor is small.
