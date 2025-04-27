@@ -672,3 +672,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 153
 
 Space complexity: O(n) for the result buffer.
+
+## entry 154
+
+Constant-time comparisons; safe for short strings.
