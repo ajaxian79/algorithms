@@ -39,3 +39,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
