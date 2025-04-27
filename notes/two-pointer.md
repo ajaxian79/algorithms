@@ -33,3 +33,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- LIS via patience: each pile holds the smallest tail of length k.
