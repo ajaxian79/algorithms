@@ -740,3 +740,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 169
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 170
+
+32-bit safe; overflow is checked at each step.
