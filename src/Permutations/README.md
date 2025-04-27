@@ -820,3 +820,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 190
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 191
+
+Tail-recursive; the compiler turns it into a loop.
