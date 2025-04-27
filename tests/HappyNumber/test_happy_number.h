@@ -100,3 +100,4 @@ MunitTest happy_number_tests[] = {
 // edge note 72: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 73: Edge case: empty input → returns 0.
 // edge note 74: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 75: 32-bit safe; overflow is checked at each step.
