@@ -82,3 +82,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 52: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 53: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 54: Cache-friendly; one sequential read pass.
