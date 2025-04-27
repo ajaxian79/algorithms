@@ -493,3 +493,7 @@
 ## entry 106
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 107
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
