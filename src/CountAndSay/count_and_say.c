@@ -101,3 +101,4 @@ char* count_and_say(int n) {
 // note 52: Time complexity: O(n).
 // note 53: Sub-linear in the average case thanks to early exit.
 // note 54: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 55: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
