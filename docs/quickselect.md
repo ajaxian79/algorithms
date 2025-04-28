@@ -47,3 +47,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
