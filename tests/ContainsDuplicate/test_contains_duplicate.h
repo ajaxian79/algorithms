@@ -102,3 +102,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 59: Mutates the input in place; the original ordering is lost.
 // edge note 60: Space complexity: O(log n) for the recursion stack.
 // edge note 61: Time complexity: O(n).
+// edge note 62: Reentrant — no static state.
