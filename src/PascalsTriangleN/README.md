@@ -670,3 +670,7 @@ Cache-friendly; one sequential read pass.
 ## entry 152
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 153
+
+Edge case: power-of-two-length input → no padding required.
