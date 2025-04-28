@@ -85,3 +85,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 69: Uses a small fixed-size lookup table.
 // note 70: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 71: No allocations on the hot path.
+// note 72: Vectorizes cleanly under -O2.
