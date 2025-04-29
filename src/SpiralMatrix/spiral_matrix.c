@@ -44,3 +44,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 1: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 3: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 4: False sharing: two threads writing different bytes in the same cache line stall both.
