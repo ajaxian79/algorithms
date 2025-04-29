@@ -42,3 +42,4 @@ void blog_start(const char* log, const char *format, ...) {
   va_end(args);
 }
 // note 1: Time complexity: O(log n).
+// note 2: Wavelet tree: range k-th element in O(log Σ) time.
