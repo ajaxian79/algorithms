@@ -74,3 +74,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 4
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 5
+
+Edge case: already-sorted input → no swaps performed.
