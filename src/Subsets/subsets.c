@@ -94,3 +94,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 66: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 67: Space complexity: O(h) for the tree height.
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
+// note 69: 64-bit safe; intermediate products are widened to 128-bit.
