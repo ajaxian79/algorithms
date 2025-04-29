@@ -41,3 +41,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 }
 // note 1: Heap when you only need top-k; full sort is wasted work.
 // note 2: Tail-recursive; the compiler turns it into a loop.
+// note 3: LRU cache: doubly-linked list + hash map; O(1) get/put.
