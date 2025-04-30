@@ -403,3 +403,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 101
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 102
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
