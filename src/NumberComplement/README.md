@@ -84,3 +84,7 @@ Two passes: one to count, one to fill.
 ## entry 5
 
 No allocations after setup.
+
+## entry 6
+
+Time complexity: O(n).
