@@ -73,3 +73,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 4
 
 Stable across duplicates in the input.
+
+## entry 5
+
+Edge case: reverse-sorted input → still O(n log n).
