@@ -72,3 +72,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 58: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 60: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 61: Treap: BST + heap on random priorities; expected O(log n) per op.
