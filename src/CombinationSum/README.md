@@ -739,3 +739,7 @@ Time complexity: O(n).
 ## entry 170
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 171
+
+Caller owns the returned array; free with a single `free`.
