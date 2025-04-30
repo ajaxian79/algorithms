@@ -645,3 +645,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 146
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 147
+
+Caller owns the returned buffer.
