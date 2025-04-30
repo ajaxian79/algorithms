@@ -25951,3 +25951,7 @@
 ## entry 6488
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 6489
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
