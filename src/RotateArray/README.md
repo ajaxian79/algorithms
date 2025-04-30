@@ -791,3 +791,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 182
 
 Linear in n; the constant factor is small.
+
+## entry 183
+
+Mutates the input in place; the original ordering is lost.
