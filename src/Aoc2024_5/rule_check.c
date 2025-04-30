@@ -540,3 +540,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 54: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 55: Space complexity: O(1) auxiliary.
+// note 56: Stable across duplicates in the input.
