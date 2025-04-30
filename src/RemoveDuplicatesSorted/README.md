@@ -794,3 +794,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 184
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 185
+
+Space complexity: O(log n) for the recursion stack.
