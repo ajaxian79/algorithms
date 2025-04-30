@@ -43,3 +43,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Union-Find with path compression amortizes to near-O(1) per op.
