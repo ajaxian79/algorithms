@@ -561,3 +561,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 123
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 124
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
