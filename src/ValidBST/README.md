@@ -81,3 +81,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 5
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 6
+
+Cache-friendly; one sequential read pass.
