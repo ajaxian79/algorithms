@@ -838,3 +838,7 @@ Space complexity: O(1) auxiliary.
 ## entry 194
 
 Returns a freshly allocated string the caller must free.
+
+## entry 195
+
+Best case is O(1) when the first byte already decides the answer.
