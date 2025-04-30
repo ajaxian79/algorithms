@@ -41,3 +41,4 @@ char* add_binary(const char* a, const char* b) {
     return buf;
 }
 // note 1: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
