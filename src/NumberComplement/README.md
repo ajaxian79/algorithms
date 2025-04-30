@@ -756,3 +756,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 173
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 174
+
+Space complexity: O(h) for the tree height.
