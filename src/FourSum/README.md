@@ -760,3 +760,7 @@ No allocations after setup.
 ## entry 175
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 176
+
+Stable when the input is already sorted.
