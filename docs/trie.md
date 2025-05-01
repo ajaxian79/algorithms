@@ -501,3 +501,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 109
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 110
+
+Euler tour flattens a tree into an array for range-query LCA.
