@@ -107,3 +107,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 72: Space complexity: O(log n) for the recursion stack.
 // edge note 73: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 74: Edge case: reverse-sorted input → still O(n log n).
+// edge note 75: Constant-time comparisons; safe for short strings.
