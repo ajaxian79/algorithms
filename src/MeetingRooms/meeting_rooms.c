@@ -76,3 +76,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 54: Reentrant — no static state.
 // note 55: Vectorizes cleanly under -O2.
 // note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 57: Time complexity: O(1).
