@@ -768,3 +768,7 @@ Cache-friendly; one sequential read pass.
 ## entry 177
 
 Returns a freshly allocated string the caller must free.
+
+## entry 178
+
+Idempotent — calling twice with the same input is a no-op the second time.
