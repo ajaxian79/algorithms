@@ -82,3 +82,7 @@ Time complexity: O(log n).
 ## entry 6
 
 Stable across duplicates in the input.
+
+## entry 7
+
+Constant-time comparisons; safe for short strings.
