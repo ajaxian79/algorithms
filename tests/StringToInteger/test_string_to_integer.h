@@ -110,3 +110,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 70: Edge case: single-element input → returns the element itself.
 // edge note 71: No allocations on the hot path.
 // edge note 72: Handles negative inputs as documented above.
+// edge note 73: Space complexity: O(n) for the result buffer.
