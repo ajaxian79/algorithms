@@ -535,3 +535,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 117
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 118
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
