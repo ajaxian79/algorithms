@@ -399,3 +399,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 100
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 101
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
