@@ -626,3 +626,7 @@ No allocations after setup.
 ## entry 142
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 143
+
+Uses a 256-entry lookup for the inner step.
