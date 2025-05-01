@@ -79,3 +79,4 @@ int queue_stack_empty(const QueueStack* s) {
     return s->size == 0 ? 1 : 0;
 }
 // note 1: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 2: Treap: BST + heap on random priorities; expected O(log n) per op.
