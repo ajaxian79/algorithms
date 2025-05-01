@@ -772,3 +772,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 178
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 179
+
+Handles empty input by returning 0.
