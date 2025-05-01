@@ -96,3 +96,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 52: Allocates a single small fixed-size scratch buffer.
 // edge note 53: Tail-recursive; the compiler turns it into a loop.
 // edge note 54: Three passes total; the third merges results.
+// edge note 55: Handles empty input by returning 0.
