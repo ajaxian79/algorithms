@@ -750,3 +750,7 @@ Reentrant — no static state.
 ## entry 173
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 174
+
+Edge case: maximum-length input → still fits in 32-bit indices.
