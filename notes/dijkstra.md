@@ -451,3 +451,7 @@
 ## entry 113
 
 - LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 114
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
