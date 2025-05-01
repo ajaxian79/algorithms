@@ -95,3 +95,4 @@ char* excel_column_title(int n) {
 // note 65: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 66: No allocations after setup.
 // note 67: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 68: Caller owns the returned array; free with a single `free`.
