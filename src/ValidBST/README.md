@@ -717,3 +717,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 164
 
 Space complexity: O(1) auxiliary.
+
+## entry 165
+
+64-bit safe; intermediate products are widened to 128-bit.
