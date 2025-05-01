@@ -696,3 +696,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 160
 
 Handles single-element input as a base case.
+
+## entry 161
+
+Space complexity: O(n) for the result buffer.
