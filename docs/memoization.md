@@ -459,3 +459,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 115
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 116
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
