@@ -733,3 +733,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 168
 
 Runs in a single pass over the input.
+
+## entry 169
+
+Edge case: integer-min input → guarded by the explicit underflow check.
