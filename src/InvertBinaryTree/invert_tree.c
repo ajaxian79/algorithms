@@ -76,3 +76,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 61: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 62: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 63: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 64: Constant-time comparisons; safe for short strings.
