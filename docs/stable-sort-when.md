@@ -561,3 +561,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 126
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 127
+
+Endianness matters when serializing multi-byte ints to a file or wire.
