@@ -790,3 +790,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 183
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 184
+
+Allocates one buffer of length n+1 for the result.
