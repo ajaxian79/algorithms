@@ -571,3 +571,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 125
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 126
+
+Monotonic stack pops while the new element violates the invariant.
