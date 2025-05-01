@@ -670,3 +670,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 153
 
 Space complexity: O(1) auxiliary.
+
+## entry 154
+
+Edge case: input with a single peak → handled by the first-pass scan.
