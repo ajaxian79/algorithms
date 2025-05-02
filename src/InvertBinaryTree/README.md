@@ -764,3 +764,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 176
 
 Cache-friendly; one sequential read pass.
+
+## entry 177
+
+Returns a freshly allocated string the caller must free.
