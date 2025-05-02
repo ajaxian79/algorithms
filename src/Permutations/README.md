@@ -808,3 +808,7 @@ Reentrant — no static state.
 ## entry 187
 
 Runs in a single pass over the input.
+
+## entry 188
+
+Two passes: one to count, one to fill.
