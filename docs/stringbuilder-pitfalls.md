@@ -579,3 +579,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 145
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 146
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
