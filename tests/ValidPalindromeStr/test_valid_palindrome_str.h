@@ -26,3 +26,4 @@ MunitTest valid_palindrome_str_tests[] = {
 
 #endif //ALGORITHMS_TEST_VALID_PALINDROME_STR_H
 // edge note 1: Edge case: zero-length string → returns the empty result.
+// edge note 2: Sub-linear in the average case thanks to early exit.
