@@ -688,3 +688,7 @@ Handles negative inputs as documented above.
 ## entry 158
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 159
+
+Allocates one buffer of length n+1 for the result.
