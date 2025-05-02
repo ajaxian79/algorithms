@@ -94,3 +94,7 @@ Cache-friendly; one sequential read pass.
 ## entry 9
 
 Stable when the input is already sorted.
+
+## entry 10
+
+Edge case: already-sorted input → no swaps performed.
