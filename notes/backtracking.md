@@ -51,3 +51,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
