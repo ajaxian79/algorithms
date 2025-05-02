@@ -760,3 +760,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 175
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 176
+
+Cache-friendly; one sequential read pass.
