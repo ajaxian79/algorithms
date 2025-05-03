@@ -51,3 +51,5 @@ Monotonic stack pops while the new element violates the invariant.
 Greedy by end-time picks the most non-overlapping intervals.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
