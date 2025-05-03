@@ -71,3 +71,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 3
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 4
+
+Best case is O(1) when the first byte already decides the answer.
