@@ -37,3 +37,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
