@@ -49,3 +49,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
