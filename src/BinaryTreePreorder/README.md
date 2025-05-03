@@ -70,3 +70,7 @@ Caller owns the returned buffer.
 ## entry 3
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 4
+
+Edge case: alternating pattern → degenerate case for sliding window.
