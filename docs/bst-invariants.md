@@ -41,3 +41,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
