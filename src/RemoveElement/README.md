@@ -697,3 +697,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 160
 
 No allocations on the hot path.
+
+## entry 161
+
+Sub-linear in the average case thanks to early exit.
