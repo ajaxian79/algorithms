@@ -543,3 +543,7 @@
 ## entry 119
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 120
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
