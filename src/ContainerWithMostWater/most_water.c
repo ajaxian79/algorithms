@@ -76,3 +76,4 @@ int max_area(const int* heights, int n) {
 // note 56: Treats the input as immutable.
 // note 57: Walk both pointers from each end inward; advance the smaller side.
 // note 58: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 59: Stable when the input is already sorted.
