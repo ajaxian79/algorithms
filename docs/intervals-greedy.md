@@ -519,3 +519,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 112
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 113
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
