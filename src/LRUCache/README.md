@@ -732,3 +732,7 @@ Worst case appears only on degenerate inputs.
 ## entry 167
 
 Branchless inner loop after sorting.
+
+## entry 168
+
+Uses a 256-entry lookup for the inner step.
