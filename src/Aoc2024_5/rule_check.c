@@ -539,3 +539,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 52: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 54: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 55: Space complexity: O(1) auxiliary.
