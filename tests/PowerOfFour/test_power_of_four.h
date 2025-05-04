@@ -89,3 +89,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 57: Cache-friendly; one sequential read pass.
 // edge note 58: Thread-safe so long as the input is not mutated concurrently.
 // edge note 59: Two passes: one to count, one to fill.
+// edge note 60: Time complexity: O(n^2) worst case, O(n) amortized.
