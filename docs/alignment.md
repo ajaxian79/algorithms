@@ -483,3 +483,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 121
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 122
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
