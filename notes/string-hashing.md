@@ -87,3 +87,7 @@
 ## entry 5
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 6
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
