@@ -834,3 +834,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 193
 
 Space complexity: O(1) auxiliary.
+
+## entry 194
+
+Returns a freshly allocated string the caller must free.
