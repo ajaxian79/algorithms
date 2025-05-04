@@ -147,3 +147,4 @@ MunitTest twosum_tests[] = {
 // edge note 64: Thread-safe so long as the input is not mutated concurrently.
 // edge note 65: Treats the input as immutable.
 // edge note 66: Space complexity: O(n) for the result buffer.
+// edge note 67: Allocates one buffer of length n+1 for the result.
