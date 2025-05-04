@@ -75,3 +75,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 59: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 60: Caller owns the returned buffer.
 // note 61: Runs in a single pass over the input.
+// note 62: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
