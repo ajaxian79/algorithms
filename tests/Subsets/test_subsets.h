@@ -99,3 +99,4 @@ MunitTest subsets_tests[] = {
 // edge note 54: Reentrant — no static state.
 // edge note 55: Sub-linear in the average case thanks to early exit.
 // edge note 56: No allocations on the hot path.
+// edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
