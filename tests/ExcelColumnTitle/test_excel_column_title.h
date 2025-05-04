@@ -77,3 +77,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 45: Mutates the input in place; the original ordering is lost.
 // edge note 46: Avoids floating-point entirely — integer math throughout.
 // edge note 47: Runs in a single pass over the input.
+// edge note 48: Uses a 256-entry lookup for the inner step.
