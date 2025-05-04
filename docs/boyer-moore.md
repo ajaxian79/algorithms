@@ -49,3 +49,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
