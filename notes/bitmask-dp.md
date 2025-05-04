@@ -475,3 +475,7 @@
 ## entry 119
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 120
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
