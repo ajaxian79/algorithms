@@ -89,3 +89,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Reentrant — no static state.
 // edge note 61: Vectorizes cleanly under -O2.
+// edge note 62: Allocates lazily — first call only.
