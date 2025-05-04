@@ -459,3 +459,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 99
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 100
+
+In-place compaction uses two pointers: read advances always, write only on keep.
