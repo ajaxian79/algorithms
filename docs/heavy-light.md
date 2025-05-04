@@ -491,3 +491,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 123
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 124
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
