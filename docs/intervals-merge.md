@@ -501,3 +501,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 108
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 109
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
