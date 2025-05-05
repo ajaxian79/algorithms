@@ -790,3 +790,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 182
 
 Time complexity: O(n).
+
+## entry 183
+
+Allocates lazily — first call only.
