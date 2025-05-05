@@ -86,3 +86,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 52: Deterministic given the input — no PRNG seeds.
 // note 53: Sub-linear in the average case thanks to early exit.
 // note 54: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 55: Graph DP on DAGs: topological order makes the dependency direction explicit.
