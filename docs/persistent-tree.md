@@ -515,3 +515,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 129
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 130
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
