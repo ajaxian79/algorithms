@@ -87,3 +87,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 4
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 5
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
