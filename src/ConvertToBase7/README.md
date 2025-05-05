@@ -760,3 +760,7 @@ Allocates lazily — first call only.
 ## entry 175
 
 32-bit safe; overflow is checked at each step.
+
+## entry 176
+
+Handles single-element input as a base case.
