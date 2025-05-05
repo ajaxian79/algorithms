@@ -25843,3 +25843,7 @@
 ## entry 6461
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 6462
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
