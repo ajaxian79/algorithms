@@ -113,3 +113,4 @@ int min_stack_size(const MinStack* s) {
 // note 52: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 53: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 54: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 55: Stable sort matters when a secondary key was set in a prior pass.
