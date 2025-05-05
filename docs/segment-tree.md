@@ -583,3 +583,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 128
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 129
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
