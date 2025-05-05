@@ -767,3 +767,7 @@ Reentrant — no static state.
 ## entry 177
 
 Time complexity: O(log n).
+
+## entry 178
+
+Edge case: all-equal input → linear-time fast path.
