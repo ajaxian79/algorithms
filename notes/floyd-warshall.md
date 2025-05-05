@@ -495,3 +495,7 @@
 ## entry 124
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 125
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
