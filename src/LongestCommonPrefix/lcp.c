@@ -94,3 +94,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 53: Linear in n; the constant factor is small.
 // note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 55: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 56: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
