@@ -80,3 +80,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 64: Time complexity: O(n + m).
+// note 65: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
