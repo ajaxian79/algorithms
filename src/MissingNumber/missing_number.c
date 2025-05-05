@@ -65,3 +65,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 53: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 54: Space complexity: O(n) for the result buffer.
 // note 55: Time complexity: O(n).
+// note 56: Treap: BST + heap on random priorities; expected O(log n) per op.
