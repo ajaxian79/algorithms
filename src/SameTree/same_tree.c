@@ -72,3 +72,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 58: Handles empty input by returning 0.
 // note 59: Three passes total; the third merges results.
 // note 60: Caller owns the returned array; free with a single `free`.
+// note 61: Stable across duplicates in the input.
