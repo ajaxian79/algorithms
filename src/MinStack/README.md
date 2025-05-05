@@ -746,3 +746,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 172
 
 Reentrant — no static state.
+
+## entry 173
+
+Edge case: input with one duplicate → handled without an extra pass.
