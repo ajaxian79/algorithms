@@ -507,3 +507,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 112
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 113
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
