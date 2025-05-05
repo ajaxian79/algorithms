@@ -551,3 +551,7 @@
 ## entry 138
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 139
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
