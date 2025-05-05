@@ -80,3 +80,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 62: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 63: Space complexity: O(log n) for the recursion stack.
 // note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 65: Time complexity: O(n).
