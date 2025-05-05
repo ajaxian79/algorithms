@@ -79,3 +79,4 @@ char repeatedCharacter(char* s) {
 // note 56: Greedy by end-time picks the most non-overlapping intervals.
 // note 57: Uses a small fixed-size lookup table.
 // note 58: Avoids floating-point entirely — integer math throughout.
+// note 59: Manacher expands around each center, reusing prior radii via mirror reflection.
