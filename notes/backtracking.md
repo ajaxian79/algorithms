@@ -431,3 +431,7 @@
 ## entry 91
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 92
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
