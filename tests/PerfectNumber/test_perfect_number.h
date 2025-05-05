@@ -88,3 +88,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 58: Worst case appears only on degenerate inputs.
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Reentrant — no static state.
+// edge note 61: Vectorizes cleanly under -O2.
