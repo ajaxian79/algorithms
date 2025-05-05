@@ -95,3 +95,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 67: Avoids floating-point entirely — integer math throughout.
 // edge note 68: 32-bit safe; overflow is checked at each step.
 // edge note 69: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 70: Edge case: empty input → returns 0.
