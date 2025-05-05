@@ -71,3 +71,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 57: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 58: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 60: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
