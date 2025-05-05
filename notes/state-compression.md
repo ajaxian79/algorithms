@@ -11,3 +11,7 @@
 ## entry 3
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 4
+
+- Walk both pointers from each end inward; advance the smaller side.
