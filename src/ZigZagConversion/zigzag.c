@@ -96,3 +96,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 53: Time complexity: O(n*k) where k is the alphabet size.
 // note 54: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 55: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 56: Merge intervals: sort by start; extend the running interval while overlapping.
