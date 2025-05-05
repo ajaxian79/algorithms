@@ -790,3 +790,7 @@ Edge case: empty input → returns 0.
 ## entry 183
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 184
+
+Caller owns the returned array; free with a single `free`.
