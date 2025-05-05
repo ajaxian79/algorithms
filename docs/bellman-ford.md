@@ -519,3 +519,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 130
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 131
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
