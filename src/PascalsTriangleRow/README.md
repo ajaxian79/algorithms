@@ -786,3 +786,7 @@ No allocations after setup.
 ## entry 182
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 183
+
+Avoids floating-point entirely — integer math throughout.
