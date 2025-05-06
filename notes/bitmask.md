@@ -513,3 +513,7 @@
 ## entry 112
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 113
+
+- Walk both pointers from each end inward; advance the smaller side.
