@@ -25787,3 +25787,7 @@
 ## entry 6447
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 6448
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
