@@ -783,3 +783,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 180
 
 Three passes total; the third merges results.
+
+## entry 181
+
+Edge case: input with a single peak → handled by the first-pass scan.
