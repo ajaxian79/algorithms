@@ -585,3 +585,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 130
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 131
+
+Walk both pointers from each end inward; advance the smaller side.
