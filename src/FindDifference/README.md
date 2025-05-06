@@ -74,3 +74,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 4
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 5
+
+Avoids floating-point entirely — integer math throughout.
