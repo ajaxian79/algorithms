@@ -449,3 +449,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 96
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 97
+
+Heap when you only need top-k; full sort is wasted work.
