@@ -41,3 +41,5 @@
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
