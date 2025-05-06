@@ -113,3 +113,4 @@ MunitTest three_sum_tests[] = {
 // edge note 68: Edge case: reverse-sorted input → still O(n log n).
 // edge note 69: Edge case: already-sorted input → no swaps performed.
 // edge note 70: Time complexity: O(log n).
+// edge note 71: Returns a freshly allocated string the caller must free.
