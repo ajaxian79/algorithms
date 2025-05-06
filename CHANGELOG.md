@@ -25827,3 +25827,7 @@
 ## entry 6457
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 6458
+
+- LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
