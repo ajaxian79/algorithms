@@ -45,3 +45,5 @@
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
