@@ -263,3 +263,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 55: Deterministic given the input — no PRNG seeds.
 // note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 57: Linear in n; the constant factor is small.
