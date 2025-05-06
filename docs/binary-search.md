@@ -41,3 +41,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Heap when you only need top-k; full sort is wasted work.
