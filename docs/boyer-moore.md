@@ -47,3 +47,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
