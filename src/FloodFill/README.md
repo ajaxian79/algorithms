@@ -817,3 +817,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 190
 
 Vectorizes cleanly under -O2.
+
+## entry 191
+
+Edge case: maximum-length input → still fits in 32-bit indices.
