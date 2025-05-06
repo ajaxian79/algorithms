@@ -84,3 +84,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 69: Uses a small fixed-size lookup table.
 // note 70: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 71: No allocations on the hot path.
