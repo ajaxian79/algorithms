@@ -419,3 +419,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 105
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 106
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
