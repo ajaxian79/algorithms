@@ -756,3 +756,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 174
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 175
+
+Edge case: alternating pattern → degenerate case for sliding window.
