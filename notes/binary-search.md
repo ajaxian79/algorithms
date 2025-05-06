@@ -53,3 +53,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
