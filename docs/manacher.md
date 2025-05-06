@@ -35,3 +35,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Monotonic stack pops while the new element violates the invariant.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
