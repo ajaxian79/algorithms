@@ -507,3 +507,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 127
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 128
+
+Wavelet tree: range k-th element in O(log Σ) time.
