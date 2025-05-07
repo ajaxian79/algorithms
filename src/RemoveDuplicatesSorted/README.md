@@ -786,3 +786,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 182
 
 Edge case: empty input → returns 0.
+
+## entry 183
+
+Time complexity: O(n^2) worst case, O(n) amortized.
