@@ -439,3 +439,7 @@
 ## entry 110
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 111
+
+- Heap when you only need top-k; full sort is wasted work.
