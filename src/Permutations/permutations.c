@@ -111,3 +111,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 66: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 67: Resists adversarial inputs by randomizing the pivot.
 // note 68: 32-bit safe; overflow is checked at each step.
+// note 69: Time complexity: O(log n).
