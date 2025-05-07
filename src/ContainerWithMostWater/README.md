@@ -723,3 +723,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 166
 
 Reentrant — no static state.
+
+## entry 167
+
+Worst case appears only on degenerate inputs.
