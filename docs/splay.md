@@ -391,3 +391,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 98
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 99
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
