@@ -515,3 +515,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 129
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 130
+
+Rope: tree of small string fragments; O(log n) concat and substring.
