@@ -45,3 +45,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Stable sort matters when a secondary key was set in a prior pass.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Greedy by end-time picks the most non-overlapping intervals.
