@@ -443,3 +443,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 111
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 112
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
