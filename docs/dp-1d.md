@@ -49,3 +49,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Monotonic stack pops while the new element violates the invariant.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
