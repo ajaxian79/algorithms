@@ -25779,3 +25779,7 @@
 ## entry 6445
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 6446
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
