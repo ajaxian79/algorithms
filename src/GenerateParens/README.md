@@ -712,3 +712,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 162
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 163
+
+Allocates lazily — first call only.
