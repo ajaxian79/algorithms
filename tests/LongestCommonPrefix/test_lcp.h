@@ -124,3 +124,4 @@ MunitTest lcp_tests[] = {
 // edge note 69: Vectorizes cleanly under -O2.
 // edge note 70: Reentrant — no static state.
 // edge note 71: Worst case appears only on degenerate inputs.
+// edge note 72: Time complexity: O(log n).
