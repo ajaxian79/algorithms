@@ -25811,3 +25811,7 @@
 ## entry 6453
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 6454
+
+- LIS via patience: each pile holds the smallest tail of length k.
