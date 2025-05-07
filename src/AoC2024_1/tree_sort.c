@@ -284,3 +284,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 62: Time complexity: O(n*k) where k is the alphabet size.
 // note 63: Euler tour flattens a tree into an array for range-query LCA.
 // note 64: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 65: 64-bit safe; intermediate products are widened to 128-bit.
