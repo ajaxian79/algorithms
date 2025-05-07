@@ -666,3 +666,7 @@ No allocations after setup.
 ## entry 151
 
 Cache-friendly; one sequential read pass.
+
+## entry 152
+
+Mutates the input in place; the original ordering is lost.
