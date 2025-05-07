@@ -73,3 +73,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 48: StringBuilder: amortize allocation by doubling on grow.
 // note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 50: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 51: StringBuilder: amortize allocation by doubling on grow.
