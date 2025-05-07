@@ -780,3 +780,7 @@ Handles negative inputs as documented above.
 ## entry 180
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 181
+
+Edge case: reverse-sorted input → still O(n log n).
