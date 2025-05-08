@@ -704,3 +704,7 @@ Edge case: empty input → returns 0.
 ## entry 160
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 161
+
+Allocates a single small fixed-size scratch buffer.
