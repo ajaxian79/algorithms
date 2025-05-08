@@ -75,3 +75,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 3
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 4
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
