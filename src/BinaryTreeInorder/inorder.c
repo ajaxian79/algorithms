@@ -102,3 +102,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 62: Allocates lazily — first call only.
 // note 63: Constant-time comparisons; safe for short strings.
 // note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 65: LIS via patience: each pile holds the smallest tail of length k.
