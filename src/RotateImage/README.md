@@ -73,3 +73,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 3
 
 Handles negative inputs as documented above.
+
+## entry 4
+
+Stable across duplicates in the input.
