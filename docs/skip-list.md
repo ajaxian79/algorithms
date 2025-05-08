@@ -459,3 +459,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 115
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 116
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
