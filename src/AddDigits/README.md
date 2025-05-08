@@ -776,3 +776,7 @@ Uses a small fixed-size lookup table.
 ## entry 179
 
 Handles negative inputs as documented above.
+
+## entry 180
+
+Deterministic given the input — no PRNG seeds.
