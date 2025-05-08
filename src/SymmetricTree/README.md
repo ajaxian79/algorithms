@@ -782,3 +782,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 181
 
 Branchless inner loop after sorting.
+
+## entry 182
+
+64-bit safe; intermediate products are widened to 128-bit.
