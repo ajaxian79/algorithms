@@ -706,3 +706,7 @@ Two passes: one to count, one to fill.
 ## entry 162
 
 Linear in n; the constant factor is small.
+
+## entry 163
+
+No allocations on the hot path.
