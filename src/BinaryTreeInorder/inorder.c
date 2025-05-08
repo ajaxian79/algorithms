@@ -101,3 +101,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 61: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 62: Allocates lazily — first call only.
 // note 63: Constant-time comparisons; safe for short strings.
+// note 64: Interval tree: stores intervals on the median; query traverses O(log n) levels.
