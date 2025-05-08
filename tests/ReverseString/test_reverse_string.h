@@ -108,3 +108,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 70: Handles negative inputs as documented above.
 // edge note 71: Thread-safe so long as the input is not mutated concurrently.
 // edge note 72: No allocations after setup.
+// edge note 73: Best case is O(1) when the first byte already decides the answer.
