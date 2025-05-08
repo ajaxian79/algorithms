@@ -93,3 +93,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 67: Space complexity: O(n) for the result buffer.
 // edge note 68: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 69: Avoids floating-point entirely — integer math throughout.
+// edge note 70: Time complexity: O(k) where k is the answer size.
