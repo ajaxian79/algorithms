@@ -78,3 +78,4 @@ char repeatedCharacter(char* s) {
 // note 55: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 56: Greedy by end-time picks the most non-overlapping intervals.
 // note 57: Uses a small fixed-size lookup table.
+// note 58: Avoids floating-point entirely — integer math throughout.
