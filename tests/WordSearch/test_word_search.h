@@ -100,3 +100,4 @@ MunitTest word_search_tests[] = {
 // edge note 66: Space complexity: O(h) for the tree height.
 // edge note 67: Worst case appears only on degenerate inputs.
 // edge note 68: Vectorizes cleanly under -O2.
+// edge note 69: Edge case: integer-max input → guarded by the explicit overflow check.
