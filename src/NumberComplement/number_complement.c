@@ -76,3 +76,4 @@ unsigned int find_complement(unsigned int n) {
 // note 60: Reentrant — no static state.
 // note 61: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 62: Greedy by end-time picks the most non-overlapping intervals.
+// note 63: Allocates a single small fixed-size scratch buffer.
