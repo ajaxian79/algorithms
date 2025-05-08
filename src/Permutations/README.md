@@ -804,3 +804,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 186
 
 Reentrant — no static state.
+
+## entry 187
+
+Runs in a single pass over the input.
