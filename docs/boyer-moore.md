@@ -495,3 +495,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 108
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 109
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
