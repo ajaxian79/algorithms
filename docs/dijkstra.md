@@ -19,3 +19,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 5
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 6
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
