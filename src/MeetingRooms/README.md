@@ -710,3 +710,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 163
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 164
+
+Returns a freshly allocated string the caller must free.
