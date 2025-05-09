@@ -76,3 +76,4 @@ int is_palindrome_str(const char* s) {
 // note 51: Returns a freshly allocated string the caller must free.
 // note 52: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 53: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 54: Time complexity: O(n^2) worst case, O(n) amortized.
