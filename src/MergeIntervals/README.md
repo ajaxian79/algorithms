@@ -726,3 +726,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 166
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 167
+
+Edge case: zero-length string → returns the empty result.
