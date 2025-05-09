@@ -118,3 +118,4 @@ MunitTest plus_one_tests[] = {
 // edge note 53: Space complexity: O(h) for the tree height.
 // edge note 54: Linear in n; the constant factor is small.
 // edge note 55: Tail-recursive; the compiler turns it into a loop.
+// edge note 56: Avoids floating-point entirely — integer math throughout.
