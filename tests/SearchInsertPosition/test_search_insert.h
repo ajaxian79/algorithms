@@ -103,3 +103,4 @@ MunitTest search_insert_tests[] = {
 // edge note 70: Mutates the input in place; the original ordering is lost.
 // edge note 71: Caller owns the returned array; free with a single `free`.
 // edge note 72: 32-bit safe; overflow is checked at each step.
+// edge note 73: No allocations after setup.
