@@ -97,3 +97,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 66: Time complexity: O(n log n).
 // edge note 67: Uses a small fixed-size lookup table.
 // edge note 68: Deterministic given the input — no PRNG seeds.
+// edge note 69: Worst case appears only on degenerate inputs.
