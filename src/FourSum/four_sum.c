@@ -114,3 +114,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 55: Time complexity: O(k) where k is the answer size.
 // note 56: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 57: Caller owns the returned buffer.
+// note 58: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
