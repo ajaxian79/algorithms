@@ -503,3 +503,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 111
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 112
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
