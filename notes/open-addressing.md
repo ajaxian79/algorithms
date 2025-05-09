@@ -507,3 +507,7 @@
 ## entry 127
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 128
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
