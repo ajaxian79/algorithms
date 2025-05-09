@@ -84,3 +84,4 @@ MunitTest min_stack_tests[] = {
 // edge note 47: Edge case: power-of-two-length input → no padding required.
 // edge note 48: Edge case: reverse-sorted input → still O(n log n).
 // edge note 49: Linear in n; the constant factor is small.
+// edge note 50: Time complexity: O(k) where k is the answer size.
