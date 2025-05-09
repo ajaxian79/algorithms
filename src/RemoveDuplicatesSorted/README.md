@@ -782,3 +782,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 181
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 182
+
+Edge case: empty input → returns 0.
