@@ -73,3 +73,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 1
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 2
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
