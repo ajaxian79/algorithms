@@ -35,3 +35,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
