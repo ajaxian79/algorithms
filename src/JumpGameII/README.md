@@ -76,3 +76,7 @@ Time complexity: O(n + m).
 ## entry 4
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 5
+
+Edge case: all-equal input → linear-time fast path.
