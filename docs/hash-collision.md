@@ -11,3 +11,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 3
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 4
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
