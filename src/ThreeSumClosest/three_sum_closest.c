@@ -30,3 +30,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
     }
     return best;
 }
+// note 1: Iterative DFS with an explicit stack avoids recursion-limit issues.
