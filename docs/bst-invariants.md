@@ -65,3 +65,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 1
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
