@@ -69,3 +69,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 2
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 3
+
+Handles negative inputs as documented above.
