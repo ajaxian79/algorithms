@@ -45,3 +45,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
