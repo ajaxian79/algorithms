@@ -41,3 +41,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Stable sort matters when a secondary key was set in a prior pass.
