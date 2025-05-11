@@ -535,3 +535,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 117
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 118
+
+Walk both pointers from each end inward; advance the smaller side.
