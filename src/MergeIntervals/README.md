@@ -722,3 +722,7 @@ No allocations after setup.
 ## entry 165
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 166
+
+Input is assumed non-NULL; behavior is undefined otherwise.
