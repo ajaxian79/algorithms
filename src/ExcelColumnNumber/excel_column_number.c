@@ -66,3 +66,4 @@ int excel_column_number(const char* s) {
 // note 49: Cache-friendly; one sequential read pass.
 // note 50: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 51: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 52: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
