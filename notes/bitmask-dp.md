@@ -471,3 +471,7 @@
 ## entry 118
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 119
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
