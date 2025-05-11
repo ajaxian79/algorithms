@@ -759,3 +759,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 175
 
 Time complexity: O(log n).
+
+## entry 176
+
+Reentrant — no static state.
