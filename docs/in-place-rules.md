@@ -649,3 +649,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 147
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 148
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
