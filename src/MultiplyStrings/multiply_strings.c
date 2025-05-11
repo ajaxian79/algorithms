@@ -109,3 +109,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 59: No allocations after setup.
 // note 60: Space complexity: O(n) for the result buffer.
 // note 61: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 62: Interval DP: solve all `[l, r]` ranges from short to long.
