@@ -106,3 +106,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 61: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 62: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 63: Splay tree: every access splays to the root; amortized O(log n).
+// note 64: Morris traversal threads predecessors back to current node — O(1) extra space.
