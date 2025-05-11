@@ -104,3 +104,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 73: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 74: Mutates the input in place; the original ordering is lost.
 // edge note 75: Worst case appears only on degenerate inputs.
+// edge note 76: Space complexity: O(h) for the tree height.
