@@ -742,3 +742,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 171
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 172
+
+Reentrant — no static state.
