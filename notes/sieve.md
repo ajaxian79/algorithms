@@ -39,3 +39,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
