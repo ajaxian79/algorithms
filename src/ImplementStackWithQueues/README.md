@@ -720,3 +720,7 @@ Handles empty input by returning 0.
 ## entry 165
 
 Time complexity: O(n).
+
+## entry 166
+
+Space complexity: O(log n) for the recursion stack.
