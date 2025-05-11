@@ -487,3 +487,7 @@
 ## entry 122
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 123
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
