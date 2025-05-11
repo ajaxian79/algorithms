@@ -39,3 +39,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Monotonic stack pops while the new element violates the invariant.
