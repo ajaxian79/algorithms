@@ -88,3 +88,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Cache-friendly; one sequential read pass.
 // edge note 58: Thread-safe so long as the input is not mutated concurrently.
+// edge note 59: Two passes: one to count, one to fill.
