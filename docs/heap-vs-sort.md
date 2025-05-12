@@ -45,3 +45,5 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
