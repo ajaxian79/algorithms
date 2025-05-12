@@ -535,3 +535,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 134
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 135
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
