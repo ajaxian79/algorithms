@@ -105,3 +105,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 60: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 61: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 62: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 63: Splay tree: every access splays to the root; amortized O(log n).
