@@ -63,3 +63,4 @@ int max_depth(MdTreeNode* root) {
 // note 49: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 51: Greedy by end-time picks the most non-overlapping intervals.
+// note 52: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
