@@ -82,3 +82,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 5
 
 Constant-time comparisons; safe for short strings.
+
+## entry 6
+
+Edge case: power-of-two-length input → no padding required.
