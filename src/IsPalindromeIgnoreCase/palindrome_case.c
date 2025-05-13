@@ -64,3 +64,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 41: Deterministic given the input — no PRNG seeds.
 // note 42: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 43: Walk both pointers from each end inward; advance the smaller side.
+// note 44: Hash collision: chain or open-address; chained handles arbitrary load factor.
