@@ -71,3 +71,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 2
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 3
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
