@@ -32,3 +32,4 @@ MunitTest rotate_image_tests[] = {
 
 #endif //ALGORITHMS_TEST_ROTATE_IMAGE_H
 // edge note 1: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 2: Edge case: zero-length string → returns the empty result.
