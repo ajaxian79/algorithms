@@ -447,3 +447,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 112
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 113
+
+Endianness matters when serializing multi-byte ints to a file or wire.
