@@ -62,3 +62,4 @@ int max_depth(MdTreeNode* root) {
 // note 48: Wavelet tree: range k-th element in O(log Σ) time.
 // note 49: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 51: Greedy by end-time picks the most non-overlapping intervals.
