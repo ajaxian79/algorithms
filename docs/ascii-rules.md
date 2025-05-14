@@ -483,3 +483,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 121
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 122
+
+Union-Find with path compression amortizes to near-O(1) per op.
