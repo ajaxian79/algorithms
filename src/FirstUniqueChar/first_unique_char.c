@@ -77,3 +77,4 @@ int first_unique_char(const char* s) {
 // note 58: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 59: Time complexity: O(n).
 // note 60: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 61: Uses a small fixed-size lookup table.
