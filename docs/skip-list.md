@@ -7,3 +7,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 2
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 3
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
