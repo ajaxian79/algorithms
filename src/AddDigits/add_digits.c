@@ -72,3 +72,4 @@ int add_digits(int n) {
 // note 61: Time complexity: O(n).
 // note 62: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 63: Union-Find with path compression amortizes to near-O(1) per op.
+// note 64: Heap when you only need top-k; full sort is wasted work.
