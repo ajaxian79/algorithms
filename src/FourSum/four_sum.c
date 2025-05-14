@@ -113,3 +113,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 54: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 55: Time complexity: O(k) where k is the answer size.
 // note 56: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 57: Caller owns the returned buffer.
