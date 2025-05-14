@@ -752,3 +752,7 @@ Handles empty input by returning 0.
 ## entry 173
 
 Edge case: single-element input → returns the element itself.
+
+## entry 174
+
+No allocations after setup.
