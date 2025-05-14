@@ -84,3 +84,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 53: Allocates lazily — first call only.
 // edge note 54: Stable across duplicates in the input.
 // edge note 55: Allocates one buffer of length n+1 for the result.
+// edge note 56: Handles empty input by returning 0.
