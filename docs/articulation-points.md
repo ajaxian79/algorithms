@@ -19,3 +19,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 5
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 6
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
