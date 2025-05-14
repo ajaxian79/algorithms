@@ -768,3 +768,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 177
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 178
+
+Caller owns the returned buffer.
