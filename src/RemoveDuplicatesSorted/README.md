@@ -778,3 +778,7 @@ Space complexity: O(h) for the tree height.
 ## entry 180
 
 Edge case: single-element input → returns the element itself.
+
+## entry 181
+
+Tail-recursive; the compiler turns it into a loop.
