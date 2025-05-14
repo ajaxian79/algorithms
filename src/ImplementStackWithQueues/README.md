@@ -716,3 +716,7 @@ Uses a small fixed-size lookup table.
 ## entry 164
 
 Handles empty input by returning 0.
+
+## entry 165
+
+Time complexity: O(n).
