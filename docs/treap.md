@@ -439,3 +439,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 110
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 111
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
