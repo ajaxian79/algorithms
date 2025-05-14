@@ -714,3 +714,7 @@ Time complexity: O(n log n).
 ## entry 164
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 165
+
+Vectorizes cleanly under -O2.
