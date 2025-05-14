@@ -715,3 +715,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 164
 
 Space complexity: O(h) for the tree height.
+
+## entry 165
+
+Edge case: single-element input → returns the element itself.
