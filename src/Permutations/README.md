@@ -800,3 +800,7 @@ Caller owns the returned buffer.
 ## entry 185
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 186
+
+Reentrant — no static state.
