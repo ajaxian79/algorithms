@@ -700,3 +700,7 @@ Edge case: empty input → returns 0.
 ## entry 159
 
 Edge case: empty input → returns 0.
+
+## entry 160
+
+Edge case: input of all the same byte → exits on the first compare.
