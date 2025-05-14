@@ -100,3 +100,4 @@ MunitTest remove_element_tests[] = {
 // edge note 63: Deterministic given the input — no PRNG seeds.
 // edge note 64: Reentrant — no static state.
 // edge note 65: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 66: Cache-friendly; one sequential read pass.
