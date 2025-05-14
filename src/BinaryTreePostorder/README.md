@@ -730,3 +730,7 @@ Handles empty input by returning 0.
 ## entry 168
 
 Space complexity: O(n) for the result buffer.
+
+## entry 169
+
+Edge case: all-equal input → linear-time fast path.
