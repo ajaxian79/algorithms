@@ -79,3 +79,4 @@ int count_primes(int n) {
 // note 51: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 52: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 53: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
