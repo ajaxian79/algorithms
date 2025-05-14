@@ -772,3 +772,7 @@ Handles single-element input as a base case.
 ## entry 178
 
 Uses a small fixed-size lookup table.
+
+## entry 179
+
+Handles negative inputs as documented above.
