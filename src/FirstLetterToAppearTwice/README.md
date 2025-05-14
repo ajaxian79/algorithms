@@ -662,3 +662,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 141
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 142
+
+Linear in n; the constant factor is small.
