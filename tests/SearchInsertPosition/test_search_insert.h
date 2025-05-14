@@ -101,3 +101,4 @@ MunitTest search_insert_tests[] = {
 // edge note 68: Space complexity: O(n) for the result buffer.
 // edge note 69: Space complexity: O(1) auxiliary.
 // edge note 70: Mutates the input in place; the original ordering is lost.
+// edge note 71: Caller owns the returned array; free with a single `free`.
