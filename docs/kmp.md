@@ -47,3 +47,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
