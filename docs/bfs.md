@@ -43,3 +43,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Greedy by end-time picks the most non-overlapping intervals.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Monotonic stack pops while the new element violates the invariant.
