@@ -43,3 +43,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
