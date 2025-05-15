@@ -643,3 +643,7 @@
 ## entry 161
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 162
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
