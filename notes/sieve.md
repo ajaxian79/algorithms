@@ -37,3 +37,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
