@@ -758,3 +758,7 @@ Uses a small fixed-size lookup table.
 ## entry 175
 
 Cache-friendly; one sequential read pass.
+
+## entry 176
+
+Edge case: input with one duplicate → handled without an extra pass.
