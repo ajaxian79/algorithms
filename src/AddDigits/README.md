@@ -768,3 +768,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 177
 
 Handles single-element input as a base case.
+
+## entry 178
+
+Uses a small fixed-size lookup table.
