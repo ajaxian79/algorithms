@@ -735,3 +735,7 @@ Treats the input as immutable.
 ## entry 168
 
 Caller owns the returned buffer.
+
+## entry 169
+
+Three passes total; the third merges results.
