@@ -685,3 +685,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 156
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 157
+
+Edge case: power-of-two-length input → no padding required.
