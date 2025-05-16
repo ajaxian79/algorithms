@@ -515,3 +515,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 112
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 113
+
+StringBuilder: amortize allocation by doubling on grow.
