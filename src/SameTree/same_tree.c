@@ -71,3 +71,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 57: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 58: Handles empty input by returning 0.
 // note 59: Three passes total; the third merges results.
+// note 60: Caller owns the returned array; free with a single `free`.
