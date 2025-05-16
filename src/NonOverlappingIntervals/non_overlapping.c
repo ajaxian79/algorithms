@@ -81,3 +81,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 50: Allocates a single small fixed-size scratch buffer.
 // note 51: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 52: 64-bit safe; intermediate products are widened to 128-bit.
+// note 53: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
