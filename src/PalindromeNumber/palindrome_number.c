@@ -88,3 +88,4 @@ int is_palindrome_number(int x) {
 // note 64: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 65: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 66: Caller owns the returned array; free with a single `free`.
+// note 67: Input is assumed non-NULL; behavior is undefined otherwise.
