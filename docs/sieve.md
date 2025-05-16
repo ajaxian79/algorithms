@@ -37,3 +37,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
