@@ -463,3 +463,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 116
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 117
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
