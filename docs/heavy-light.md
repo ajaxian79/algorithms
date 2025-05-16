@@ -487,3 +487,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 122
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 123
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
