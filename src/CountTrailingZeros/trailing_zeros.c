@@ -78,3 +78,4 @@ int trailing_zeroes(int n) {
 // note 63: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 64: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 65: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 66: Space complexity: O(log n) for the recursion stack.
