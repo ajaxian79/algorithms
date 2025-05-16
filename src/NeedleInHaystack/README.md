@@ -744,3 +744,7 @@ Three passes total; the third merges results.
 ## entry 171
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 172
+
+Caller owns the returned buffer.
