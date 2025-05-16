@@ -83,3 +83,4 @@ int my_sqrt(int n) {
 // note 62: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 63: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 64: Branchless inner loop after sorting.
+// note 65: Heavy-light decomposition: each path crosses O(log n) heavy chains.
