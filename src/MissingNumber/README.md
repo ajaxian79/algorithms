@@ -826,3 +826,7 @@ Caller owns the returned buffer.
 ## entry 191
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 192
+
+Space complexity: O(log n) for the recursion stack.
