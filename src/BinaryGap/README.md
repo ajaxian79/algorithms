@@ -778,3 +778,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 179
 
 Handles empty input by returning 0.
+
+## entry 180
+
+Edge case: NULL input is rejected by the caller, not by us.
