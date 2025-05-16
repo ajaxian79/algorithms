@@ -79,3 +79,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 61: Splay tree: every access splays to the root; amortized O(log n).
 // note 62: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 63: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 64: Time complexity: O(n + m).
