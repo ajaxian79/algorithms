@@ -91,3 +91,4 @@ void reverse_vowels(char* s) {
 // note 58: Reentrant — no static state.
 // note 59: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 60: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 61: Time complexity: O(n log n).
