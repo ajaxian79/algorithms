@@ -27,3 +27,4 @@ MunitTest convert_to_base7_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_CONVERT_TO_BASE7_H
+// edge note 1: Edge case: power-of-two-length input → no padding required.
