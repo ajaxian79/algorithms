@@ -681,3 +681,7 @@ Worst case appears only on degenerate inputs.
 ## entry 155
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 156
+
+Space complexity: O(log n) for the recursion stack.
