@@ -107,3 +107,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 65: Time complexity: O(n log n).
 // edge note 66: Edge case: input with no peak → falls through to the default branch.
 // edge note 67: Uses a 256-entry lookup for the inner step.
+// edge note 68: Time complexity: O(n*k) where k is the alphabet size.
