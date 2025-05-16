@@ -722,3 +722,7 @@ Vectorizes cleanly under -O2.
 ## entry 165
 
 No allocations after setup.
+
+## entry 166
+
+Edge case: maximum-length input → still fits in 32-bit indices.
