@@ -89,3 +89,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 57: Handles negative inputs as documented above.
 // edge note 58: Space complexity: O(n) for the result buffer.
 // edge note 59: Handles empty input by returning 0.
+// edge note 60: Edge case: NULL input is rejected by the caller, not by us.
