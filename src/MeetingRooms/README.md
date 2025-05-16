@@ -706,3 +706,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 162
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 163
+
+Edge case: maximum-length input → still fits in 32-bit indices.
