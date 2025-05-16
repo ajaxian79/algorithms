@@ -93,3 +93,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 54: Tail-recursive; the compiler turns it into a loop.
 // edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 56: Edge case: single-element input → returns the element itself.
+// edge note 57: Uses a small fixed-size lookup table.
