@@ -135,3 +135,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 75: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 76: Handles single-element input as a base case.
 // edge note 77: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 78: Worst case appears only on degenerate inputs.
