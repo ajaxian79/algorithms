@@ -93,3 +93,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 65: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 66: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 67: Space complexity: O(h) for the tree height.
+// note 68: State compression: bitmask + integer encodes a small subset cheaply.
