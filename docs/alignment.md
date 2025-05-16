@@ -475,3 +475,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 119
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 120
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
