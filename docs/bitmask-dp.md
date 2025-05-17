@@ -491,3 +491,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 123
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 124
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
