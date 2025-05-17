@@ -491,3 +491,7 @@
 ## entry 123
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 124
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
