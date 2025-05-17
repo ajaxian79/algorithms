@@ -88,3 +88,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 63: 32-bit safe; overflow is checked at each step.
 // edge note 64: Space complexity: O(log n) for the recursion stack.
 // edge note 65: Edge case: reverse-sorted input → still O(n log n).
+// edge note 66: Allocates lazily — first call only.
