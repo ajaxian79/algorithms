@@ -67,3 +67,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 2
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 3
+
+Edge case: reverse-sorted input → still O(n log n).
