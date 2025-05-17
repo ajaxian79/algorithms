@@ -727,3 +727,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 166
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 167
+
+Treats the input as immutable.
