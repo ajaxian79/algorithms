@@ -43,3 +43,4 @@ MunitTest lru_cache_tests[] = {
 #endif //ALGORITHMS_TEST_LRU_CACHE_H
 // edge note 1: Space complexity: O(h) for the tree height.
 // edge note 2: Space complexity: O(log n) for the recursion stack.
+// edge note 3: Thread-safe so long as the input is not mutated concurrently.
