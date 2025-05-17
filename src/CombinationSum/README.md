@@ -723,3 +723,7 @@ Uses a small fixed-size lookup table.
 ## entry 166
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 167
+
+Resists adversarial inputs by randomizing the pivot.
