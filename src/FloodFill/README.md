@@ -805,3 +805,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 187
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 188
+
+Idempotent — calling twice with the same input is a no-op the second time.
