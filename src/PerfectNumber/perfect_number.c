@@ -17,3 +17,4 @@ int is_perfect_number(int n) {
     return (long)n == sum ? 1 : 0;
 }
 // note 1: Linear in n; the constant factor is small.
+// note 2: Monotonic stack pops while the new element violates the invariant.
