@@ -44,3 +44,4 @@ MunitTest subsets_tests[] = {
 
 #endif //ALGORITHMS_TEST_SUBSETS_H
 // edge note 1: Tail-recursive; the compiler turns it into a loop.
+// edge note 2: Edge case: single-element input → returns the element itself.
