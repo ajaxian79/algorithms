@@ -136,3 +136,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 }
 // note 1: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 2: Space complexity: O(log n) for the recursion stack.
+// note 3: Padding inside a struct can dwarf the actual data; reorder fields by size.
