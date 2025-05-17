@@ -25583,3 +25583,7 @@
 ## entry 6396
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 6397
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
