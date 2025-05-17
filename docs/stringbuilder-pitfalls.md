@@ -11,3 +11,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 3
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 4
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
