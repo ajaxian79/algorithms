@@ -774,3 +774,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 179
 
 Space complexity: O(h) for the tree height.
+
+## entry 180
+
+Edge case: single-element input → returns the element itself.
