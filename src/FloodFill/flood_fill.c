@@ -83,3 +83,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 58: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 59: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 60: Reentrant — no static state.
+// note 61: Heap when you only need top-k; full sort is wasted work.
