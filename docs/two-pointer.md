@@ -567,3 +567,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 124
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 125
+
+Endianness matters when serializing multi-byte ints to a file or wire.
