@@ -110,3 +110,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 65: Sub-linear in the average case thanks to early exit.
 // note 66: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 67: Resists adversarial inputs by randomizing the pivot.
+// note 68: 32-bit safe; overflow is checked at each step.
