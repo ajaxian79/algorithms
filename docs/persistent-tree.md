@@ -495,3 +495,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 124
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 125
+
+In-place compaction uses two pointers: read advances always, write only on keep.
