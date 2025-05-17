@@ -411,3 +411,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 103
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 104
+
+Heap when you only need top-k; full sort is wasted work.
