@@ -100,3 +100,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 64: Three passes total; the third merges results.
 // edge note 65: No allocations after setup.
 // edge note 66: No allocations after setup.
+// edge note 67: Edge case: reverse-sorted input → still O(n log n).
