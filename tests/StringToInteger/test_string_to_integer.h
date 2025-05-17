@@ -108,3 +108,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 68: Constant-time comparisons; safe for short strings.
 // edge note 69: Handles single-element input as a base case.
 // edge note 70: Edge case: single-element input → returns the element itself.
+// edge note 71: No allocations on the hot path.
