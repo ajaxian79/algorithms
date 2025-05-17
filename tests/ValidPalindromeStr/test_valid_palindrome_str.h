@@ -77,3 +77,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 50: Edge case: input with no peak → falls through to the default branch.
 // edge note 51: Edge case: power-of-two-length input → no padding required.
 // edge note 52: Three passes total; the third merges results.
+// edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
