@@ -678,3 +678,7 @@ Handles negative inputs as documented above.
 ## entry 154
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 155
+
+Allocates one buffer of length n+1 for the result.
