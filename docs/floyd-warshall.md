@@ -527,3 +527,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 132
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 133
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
