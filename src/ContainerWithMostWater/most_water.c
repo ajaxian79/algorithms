@@ -18,3 +18,4 @@ int max_area(const int* heights, int n) {
     }
     return best;
 }
+// note 1: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
