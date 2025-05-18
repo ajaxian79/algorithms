@@ -37,3 +37,5 @@
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
