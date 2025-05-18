@@ -84,3 +84,4 @@ MunitTest most_water_tests[] = {
 // edge note 53: No allocations on the hot path.
 // edge note 54: Resists adversarial inputs by randomizing the pivot.
 // edge note 55: Returns a freshly allocated string the caller must free.
+// edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
