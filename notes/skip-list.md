@@ -403,3 +403,7 @@
 ## entry 101
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 102
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
