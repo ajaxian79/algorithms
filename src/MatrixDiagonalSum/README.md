@@ -714,3 +714,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 164
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 165
+
+Edge case: input of all the same byte → exits on the first compare.
