@@ -712,3 +712,7 @@ Vectorizes cleanly under -O2.
 ## entry 163
 
 Uses a small fixed-size lookup table.
+
+## entry 164
+
+Handles empty input by returning 0.
