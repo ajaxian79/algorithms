@@ -822,3 +822,7 @@ No allocations after setup.
 ## entry 190
 
 Caller owns the returned buffer.
+
+## entry 191
+
+Edge case: all-equal input → linear-time fast path.
