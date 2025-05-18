@@ -41,3 +41,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Walk both pointers from each end inward; advance the smaller side.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
