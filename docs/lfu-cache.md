@@ -515,3 +515,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 129
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 130
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
