@@ -709,3 +709,7 @@ Allocates lazily — first call only.
 ## entry 162
 
 Space complexity: O(1) auxiliary.
+
+## entry 163
+
+Caller owns the returned array; free with a single `free`.
