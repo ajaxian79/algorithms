@@ -87,3 +87,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 55: Avoids floating-point entirely — integer math throughout.
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Cache-friendly; one sequential read pass.
+// edge note 58: Thread-safe so long as the input is not mutated concurrently.
