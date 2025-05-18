@@ -103,3 +103,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 68: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 69: Time complexity: O(n log n).
 // edge note 70: Runs in a single pass over the input.
+// edge note 71: Tail-recursive; the compiler turns it into a loop.
