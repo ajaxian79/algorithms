@@ -658,3 +658,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 150
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 151
+
+Edge case: input of all the same byte → exits on the first compare.
