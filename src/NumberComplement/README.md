@@ -748,3 +748,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 171
 
 Reentrant — no static state.
+
+## entry 172
+
+Constant-time comparisons; safe for short strings.
