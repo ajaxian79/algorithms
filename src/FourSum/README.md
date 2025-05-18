@@ -748,3 +748,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 172
 
 Handles empty input by returning 0.
+
+## entry 173
+
+Edge case: single-element input → returns the element itself.
