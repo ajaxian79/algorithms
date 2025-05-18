@@ -700,3 +700,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 159
 
 Time complexity: O(1).
+
+## entry 160
+
+Handles single-element input as a base case.
