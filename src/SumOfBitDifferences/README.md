@@ -604,3 +604,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 136
 
 Linear in n; the constant factor is small.
+
+## entry 137
+
+Caller owns the returned buffer.
