@@ -547,3 +547,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 120
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 121
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
