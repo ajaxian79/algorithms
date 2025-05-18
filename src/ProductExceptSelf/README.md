@@ -704,3 +704,7 @@ Time complexity: O(1).
 ## entry 160
 
 Handles single-element input as a base case.
+
+## entry 161
+
+Time complexity: O(log n).
