@@ -78,3 +78,7 @@ Vectorizes cleanly under -O2.
 ## entry 5
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 6
+
+Cache-friendly; one sequential read pass.
