@@ -718,3 +718,7 @@ Handles negative inputs as documented above.
 ## entry 164
 
 Vectorizes cleanly under -O2.
+
+## entry 165
+
+No allocations after setup.
