@@ -782,3 +782,7 @@ No allocations after setup.
 ## entry 181
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 182
+
+Caller owns the returned array; free with a single `free`.
