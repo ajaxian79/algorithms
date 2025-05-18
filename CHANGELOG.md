@@ -25551,3 +25551,7 @@
 ## entry 6388
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 6389
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
