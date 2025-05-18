@@ -89,3 +89,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 62: Avoids floating-point entirely — integer math throughout.
 // edge note 63: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 64: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 65: Time complexity: O(k) where k is the answer size.
