@@ -511,3 +511,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 128
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 129
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
