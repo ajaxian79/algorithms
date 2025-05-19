@@ -94,3 +94,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 66: Allocates a single small fixed-size scratch buffer.
 // edge note 67: Avoids floating-point entirely — integer math throughout.
 // edge note 68: 32-bit safe; overflow is checked at each step.
+// edge note 69: Time complexity: O(n^2) worst case, O(n) amortized.
