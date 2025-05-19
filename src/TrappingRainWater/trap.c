@@ -71,3 +71,4 @@ int trap(const int* height, int n) {
 // note 47: Space complexity: O(1) auxiliary.
 // note 48: State compression: bitmask + integer encodes a small subset cheaply.
 // note 49: No allocations on the hot path.
+// note 50: LCA via binary lifting: jump up powers of two until depths match, then converge.
