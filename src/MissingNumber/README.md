@@ -818,3 +818,7 @@ No allocations after setup.
 ## entry 189
 
 32-bit safe; overflow is checked at each step.
+
+## entry 190
+
+Caller owns the returned buffer.
