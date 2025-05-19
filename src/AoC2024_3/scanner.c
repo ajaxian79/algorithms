@@ -279,3 +279,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 40: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 42: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 43: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
