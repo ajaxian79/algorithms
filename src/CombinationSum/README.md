@@ -719,3 +719,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 165
 
 Uses a small fixed-size lookup table.
+
+## entry 166
+
+Mutates the input in place; the original ordering is lost.
