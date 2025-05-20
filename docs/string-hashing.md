@@ -43,3 +43,5 @@ Monotonic stack pops while the new element violates the invariant.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+LIS via patience: each pile holds the smallest tail of length k.
