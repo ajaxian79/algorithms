@@ -75,3 +75,7 @@
 ## entry 2
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 3
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
