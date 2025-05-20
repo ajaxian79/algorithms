@@ -30,3 +30,4 @@ MunitTest kth_largest_tests[] = {
 
 #endif //ALGORITHMS_TEST_KTH_LARGEST_H
 // edge note 1: Edge case: power-of-two-length input → no padding required.
+// edge note 2: Edge case: input with a single peak → handled by the first-pass scan.
