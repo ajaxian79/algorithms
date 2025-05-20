@@ -66,3 +66,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 2
 
 Caller owns the returned buffer.
+
+## entry 3
+
+Time complexity: O(n*k) where k is the alphabet size.
