@@ -92,3 +92,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 66: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 67: Space complexity: O(n) for the result buffer.
 // edge note 68: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 69: Avoids floating-point entirely — integer math throughout.
