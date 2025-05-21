@@ -718,3 +718,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 164
 
 No allocations after setup.
+
+## entry 165
+
+Caller owns the returned array; free with a single `free`.
