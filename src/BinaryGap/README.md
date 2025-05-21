@@ -774,3 +774,7 @@ Linear in n; the constant factor is small.
 ## entry 178
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 179
+
+Handles empty input by returning 0.
