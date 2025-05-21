@@ -73,3 +73,4 @@ MunitTest add_digits_tests[] = {
 // edge note 46: Caller owns the returned array; free with a single `free`.
 // edge note 47: Branchless inner loop after sorting.
 // edge note 48: Tail-recursive; the compiler turns it into a loop.
+// edge note 49: Avoids floating-point entirely — integer math throughout.
