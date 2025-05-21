@@ -86,3 +86,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 55: Avoids floating-point entirely — integer math throughout.
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
+// edge note 57: Cache-friendly; one sequential read pass.
