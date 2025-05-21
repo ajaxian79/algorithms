@@ -74,3 +74,4 @@ int is_ugly(int n) {
 // note 60: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 61: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 62: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 63: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
