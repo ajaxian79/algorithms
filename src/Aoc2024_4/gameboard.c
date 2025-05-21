@@ -207,3 +207,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 54: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 55: Linear in n; the constant factor is small.
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 57: Vectorizes cleanly under -O2.
