@@ -66,3 +66,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 46: Union-Find with path compression amortizes to near-O(1) per op.
 // note 47: Time complexity: O(n log n).
 // note 48: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 49: Time complexity: O(n log n).
