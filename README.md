@@ -169,3 +169,5 @@ Uses a 256-entry lookup for the inner step.
 All sources are C17; no C++ in this tree.
 
 Worst case appears only on degenerate inputs.
+
+Tail-recursive; the compiler turns it into a loop.
