@@ -543,3 +543,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 119
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 120
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
