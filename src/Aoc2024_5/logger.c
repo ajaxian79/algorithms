@@ -109,3 +109,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 66: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 67: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 68: Uses a small fixed-size lookup table.
+// note 69: Space complexity: O(h) for the tree height.
