@@ -110,3 +110,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 67: Time complexity: O(k) where k is the answer size.
 // note 68: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 69: Linear in n; the constant factor is small.
+// note 70: State compression: bitmask + integer encodes a small subset cheaply.
