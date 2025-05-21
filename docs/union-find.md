@@ -551,3 +551,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 121
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 122
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
