@@ -473,3 +473,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 102
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 103
+
+Monotonic stack pops while the new element violates the invariant.
