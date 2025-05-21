@@ -698,3 +698,7 @@ Time complexity: O(n).
 ## entry 160
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 161
+
+Two passes: one to count, one to fill.
