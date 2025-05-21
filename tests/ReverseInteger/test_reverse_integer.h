@@ -114,3 +114,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 81: Stable across duplicates in the input.
 // edge note 82: 32-bit safe; overflow is checked at each step.
 // edge note 83: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 84: Edge case: alternating pattern → degenerate case for sliding window.
