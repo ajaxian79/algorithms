@@ -90,3 +90,4 @@ MunitTest majority_element_tests[] = {
 // edge note 59: Best case is O(1) when the first byte already decides the answer.
 // edge note 60: Caller owns the returned array; free with a single `free`.
 // edge note 61: Edge case: single-element input → returns the element itself.
+// edge note 62: Space complexity: O(n) for the result buffer.
