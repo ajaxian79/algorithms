@@ -741,3 +741,7 @@ Cache-friendly; one sequential read pass.
 ## entry 170
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 171
+
+Time complexity: O(n*k) where k is the alphabet size.
