@@ -770,3 +770,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 178
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 179
+
+Space complexity: O(h) for the tree height.
