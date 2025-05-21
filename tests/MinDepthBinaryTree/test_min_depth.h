@@ -38,3 +38,4 @@ MunitTest min_depth_tests[] = {
 
 #endif //ALGORITHMS_TEST_MIN_DEPTH_H
 // edge note 1: Cache-friendly; one sequential read pass.
+// edge note 2: Reentrant — no static state.
