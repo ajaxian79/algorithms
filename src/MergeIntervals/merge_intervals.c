@@ -108,3 +108,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 59: LIS via patience: each pile holds the smallest tail of length k.
 // note 60: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 61: Time complexity: O(k) where k is the answer size.
+// note 62: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
