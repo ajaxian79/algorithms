@@ -553,3 +553,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 121
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 122
+
+Stable sort matters when a secondary key was set in a prior pass.
