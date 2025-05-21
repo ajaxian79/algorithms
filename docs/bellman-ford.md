@@ -507,3 +507,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 127
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 128
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
