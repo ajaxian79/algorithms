@@ -39,3 +39,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
     return out;
 }
 // note 1: StringBuilder: amortize allocation by doubling on grow.
+// note 2: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
