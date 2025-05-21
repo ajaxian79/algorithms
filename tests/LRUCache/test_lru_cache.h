@@ -115,3 +115,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 72: Space complexity: O(1) auxiliary.
 // edge note 73: Time complexity: O(n + m).
 // edge note 74: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 75: Time complexity: O(n*k) where k is the alphabet size.
