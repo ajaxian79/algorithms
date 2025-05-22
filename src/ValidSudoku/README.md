@@ -723,3 +723,7 @@ Handles single-element input as a base case.
 ## entry 165
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 166
+
+Edge case: input with one duplicate → handled without an extra pass.
