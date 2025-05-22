@@ -499,3 +499,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 110
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 111
+
+State compression: bitmask + integer encodes a small subset cheaply.
