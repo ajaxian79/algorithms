@@ -25479,3 +25479,7 @@
 ## entry 6370
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 6371
+
+- Greedy by end-time picks the most non-overlapping intervals.
