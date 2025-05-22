@@ -658,3 +658,7 @@ Time complexity: O(n + m).
 ## entry 149
 
 32-bit safe; overflow is checked at each step.
+
+## entry 150
+
+No allocations after setup.
