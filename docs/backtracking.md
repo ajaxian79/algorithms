@@ -43,3 +43,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
