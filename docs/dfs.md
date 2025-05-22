@@ -39,3 +39,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
