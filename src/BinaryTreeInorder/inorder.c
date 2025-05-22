@@ -99,3 +99,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 59: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 60: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 61: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 62: Allocates lazily — first call only.
