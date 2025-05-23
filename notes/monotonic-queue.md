@@ -41,3 +41,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
