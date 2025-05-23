@@ -47,3 +47,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
