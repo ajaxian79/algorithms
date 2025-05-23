@@ -49,3 +49,5 @@
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- Stable sort matters when a secondary key was set in a prior pass.
