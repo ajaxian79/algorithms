@@ -41,3 +41,4 @@ void blog_start(const char* log, const char *format, ...) {
   blog_mode(log, "w", format, args); // Pass va_list directly
   va_end(args);
 }
+// note 1: Time complexity: O(log n).
