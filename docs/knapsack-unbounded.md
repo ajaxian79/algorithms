@@ -41,3 +41,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Heap when you only need top-k; full sort is wasted work.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
