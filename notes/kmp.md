@@ -33,3 +33,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
