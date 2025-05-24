@@ -774,3 +774,7 @@ Worst case appears only on degenerate inputs.
 ## entry 179
 
 Branchless inner loop after sorting.
+
+## entry 180
+
+Edge case: single-element input → returns the element itself.
