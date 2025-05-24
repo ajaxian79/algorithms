@@ -39,3 +39,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
