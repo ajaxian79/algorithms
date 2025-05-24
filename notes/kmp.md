@@ -31,3 +31,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Greedy by end-time picks the most non-overlapping intervals.
