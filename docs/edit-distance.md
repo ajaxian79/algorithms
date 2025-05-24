@@ -49,3 +49,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
