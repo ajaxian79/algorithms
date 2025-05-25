@@ -74,3 +74,4 @@ int length_of_last_word(const char* s) {
 // note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 57: Caller owns the returned array; free with a single `free`.
 // note 58: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 59: StringBuilder pitfall: reuse forces a deep copy on the first read.
