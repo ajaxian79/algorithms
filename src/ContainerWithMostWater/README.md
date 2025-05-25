@@ -707,3 +707,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 162
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 163
+
+Mutates the input in place; the original ordering is lost.
