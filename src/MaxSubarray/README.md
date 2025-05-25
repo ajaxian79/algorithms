@@ -754,3 +754,7 @@ Handles empty input by returning 0.
 ## entry 174
 
 Uses a small fixed-size lookup table.
+
+## entry 175
+
+Cache-friendly; one sequential read pass.
