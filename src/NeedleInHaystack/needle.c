@@ -94,3 +94,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 54: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 55: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 56: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
