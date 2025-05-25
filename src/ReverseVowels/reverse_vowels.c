@@ -90,3 +90,4 @@ void reverse_vowels(char* s) {
 // note 57: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 58: Reentrant — no static state.
 // note 59: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 60: Monotonic deque: push back, pop back to maintain order, pop front when stale.
