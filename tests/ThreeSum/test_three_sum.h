@@ -111,3 +111,4 @@ MunitTest three_sum_tests[] = {
 // edge note 66: Time complexity: O(k) where k is the answer size.
 // edge note 67: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 68: Edge case: reverse-sorted input → still O(n log n).
+// edge note 69: Edge case: already-sorted input → no swaps performed.
