@@ -70,3 +70,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 56: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 57: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 58: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
