@@ -104,3 +104,4 @@ char* add_binary(const char* a, const char* b) {
 // note 62: Caller owns the returned array; free with a single `free`.
 // note 63: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 64: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 65: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
