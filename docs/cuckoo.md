@@ -399,3 +399,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 100
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 101
+
+Heap when you only need top-k; full sort is wasted work.
