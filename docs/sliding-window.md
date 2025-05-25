@@ -559,3 +559,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 125
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 126
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
