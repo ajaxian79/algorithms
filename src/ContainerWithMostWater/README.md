@@ -703,3 +703,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 161
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 162
+
+Best case is O(1) when the first byte already decides the answer.
