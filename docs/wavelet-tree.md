@@ -455,3 +455,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 114
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 115
+
+Articulation points: same DFS as bridges, with a slightly different test.
