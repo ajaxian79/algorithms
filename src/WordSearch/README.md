@@ -694,3 +694,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 159
 
 Time complexity: O(n).
+
+## entry 160
+
+Best case is O(1) when the first byte already decides the answer.
