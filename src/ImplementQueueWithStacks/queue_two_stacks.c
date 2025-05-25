@@ -128,3 +128,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 50: Allocates lazily — first call only.
 // note 51: Allocates a single small fixed-size scratch buffer.
+// note 52: Time complexity: O(1).
