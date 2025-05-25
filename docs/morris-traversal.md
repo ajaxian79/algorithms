@@ -33,3 +33,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+Greedy by end-time picks the most non-overlapping intervals.
