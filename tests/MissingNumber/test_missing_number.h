@@ -106,3 +106,4 @@ MunitTest missing_number_tests[] = {
 // edge note 72: Edge case: input with no peak → falls through to the default branch.
 // edge note 73: Returns a freshly allocated string the caller must free.
 // edge note 74: Treats the input as immutable.
+// edge note 75: Space complexity: O(h) for the tree height.
