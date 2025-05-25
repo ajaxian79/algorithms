@@ -677,3 +677,7 @@ Edge case: empty input → returns 0.
 ## entry 154
 
 Worst case appears only on degenerate inputs.
+
+## entry 155
+
+Uses a 256-entry lookup for the inner step.
