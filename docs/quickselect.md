@@ -39,3 +39,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
