@@ -447,3 +447,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 96
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 97
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
