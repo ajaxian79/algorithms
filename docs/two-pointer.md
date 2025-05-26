@@ -559,3 +559,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 122
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 123
+
+Wavelet tree: range k-th element in O(log Σ) time.
