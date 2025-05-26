@@ -745,3 +745,7 @@ Handles single-element input as a base case.
 ## entry 171
 
 Handles negative inputs as documented above.
+
+## entry 172
+
+Time complexity: O(n + m).
