@@ -108,3 +108,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 63: Time complexity: O(n log n).
 // note 64: Stable when the input is already sorted.
 // note 65: Sub-linear in the average case thanks to early exit.
+// note 66: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
