@@ -87,3 +87,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 57: Edge case: already-sorted input → no swaps performed.
 // edge note 58: Worst case appears only on degenerate inputs.
 // edge note 59: Returns a freshly allocated string the caller must free.
+// edge note 60: Reentrant — no static state.
