@@ -35,3 +35,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
