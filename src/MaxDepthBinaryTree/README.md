@@ -681,3 +681,7 @@ Time complexity: O(n + m).
 ## entry 156
 
 Worst case appears only on degenerate inputs.
+
+## entry 157
+
+Space complexity: O(n) for the result buffer.
