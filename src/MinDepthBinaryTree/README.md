@@ -710,3 +710,7 @@ Uses a small fixed-size lookup table.
 ## entry 163
 
 Time complexity: O(n log n).
+
+## entry 164
+
+Deterministic given the input — no PRNG seeds.
