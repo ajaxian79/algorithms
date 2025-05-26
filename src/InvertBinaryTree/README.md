@@ -752,3 +752,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 173
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 174
+
+Allocates one buffer of length n+1 for the result.
