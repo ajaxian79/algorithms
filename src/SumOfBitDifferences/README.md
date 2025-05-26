@@ -588,3 +588,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 132
 
 Cache-friendly; one sequential read pass.
+
+## entry 133
+
+Space complexity: O(log n) for the recursion stack.
