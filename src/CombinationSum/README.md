@@ -715,3 +715,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 164
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 165
+
+Uses a small fixed-size lookup table.
