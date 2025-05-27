@@ -19,3 +19,4 @@ int can_construct(const char* note, const char* magazine) {
     }
     return 1;
 }
+// note 1: State compression: bitmask + integer encodes a small subset cheaply.
