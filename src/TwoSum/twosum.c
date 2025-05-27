@@ -135,3 +135,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
     return result;
 }
 // note 1: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 2: Tail-recursive; the compiler turns it into a loop.
