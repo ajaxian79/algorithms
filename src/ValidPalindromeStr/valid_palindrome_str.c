@@ -74,3 +74,4 @@ int is_palindrome_str(const char* s) {
 // note 49: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 50: Vectorizes cleanly under -O2.
 // note 51: Returns a freshly allocated string the caller must free.
+// note 52: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
