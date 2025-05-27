@@ -28,3 +28,4 @@ MunitTest perfect_number_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PERFECT_NUMBER_H
+// edge note 1: Vectorizes cleanly under -O2.
