@@ -71,3 +71,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 2
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 3
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
