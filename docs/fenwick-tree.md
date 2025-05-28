@@ -511,3 +511,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 112
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 113
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
