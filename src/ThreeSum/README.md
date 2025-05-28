@@ -725,3 +725,7 @@ Linear in n; the constant factor is small.
 ## entry 166
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 167
+
+Allocates a single small fixed-size scratch buffer.
