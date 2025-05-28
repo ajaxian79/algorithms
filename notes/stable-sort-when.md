@@ -47,3 +47,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Monotonic stack pops while the new element violates the invariant.
