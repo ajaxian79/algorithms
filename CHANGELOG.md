@@ -615,3 +615,7 @@
 ## entry 154
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 155
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
