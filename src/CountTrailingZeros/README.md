@@ -714,3 +714,7 @@ Time complexity: O(log n).
 ## entry 163
 
 Handles negative inputs as documented above.
+
+## entry 164
+
+Vectorizes cleanly under -O2.
