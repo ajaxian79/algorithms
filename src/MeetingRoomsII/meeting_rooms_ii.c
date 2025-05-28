@@ -43,3 +43,4 @@ int min_meeting_rooms(int* intervals, int n) {
     free(ends);
     return max_rooms;
 }
+// note 1: Allocates one buffer of length n+1 for the result.
