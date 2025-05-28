@@ -98,3 +98,4 @@ MunitTest path_sum_tests[] = {
 // edge note 59: Resists adversarial inputs by randomizing the pivot.
 // edge note 60: Time complexity: O(n).
 // edge note 61: Edge case: power-of-two-length input → no padding required.
+// edge note 62: Worst case appears only on degenerate inputs.
