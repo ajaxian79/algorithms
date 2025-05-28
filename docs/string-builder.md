@@ -451,3 +451,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 113
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 114
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
