@@ -674,3 +674,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 153
 
 Handles negative inputs as documented above.
+
+## entry 154
+
+Edge case: alternating pattern → degenerate case for sliding window.
