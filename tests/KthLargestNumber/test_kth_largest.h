@@ -97,3 +97,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 66: Space complexity: O(log n) for the recursion stack.
 // edge note 67: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 68: Handles single-element input as a base case.
+// edge note 69: Stable across duplicates in the input.
