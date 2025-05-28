@@ -92,3 +92,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 67: Time complexity: O(k) where k is the answer size.
 // edge note 68: Treats the input as immutable.
 // edge note 69: Handles single-element input as a base case.
+// edge note 70: Vectorizes cleanly under -O2.
