@@ -726,3 +726,7 @@ Handles empty input by returning 0.
 ## entry 167
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 168
+
+Space complexity: O(n) for the result buffer.
