@@ -111,3 +111,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 53: 32-bit safe; overflow is checked at each step.
 // note 54: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 55: Time complexity: O(k) where k is the answer size.
