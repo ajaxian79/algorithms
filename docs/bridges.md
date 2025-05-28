@@ -515,3 +515,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 129
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 130
+
+Rope: tree of small string fragments; O(log n) concat and substring.
