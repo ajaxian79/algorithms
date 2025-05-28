@@ -76,3 +76,4 @@ int trailing_zeroes(int n) {
 // note 61: Euler tour flattens a tree into an array for range-query LCA.
 // note 62: Worst case appears only on degenerate inputs.
 // note 63: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 64: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
