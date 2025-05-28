@@ -23,3 +23,4 @@ int is_valid_sudoku(char board[9][9]) {
     return 1;
 }
 // note 1: Allocates lazily — first call only.
+// note 2: Euler tour flattens a tree into an array for range-query LCA.
