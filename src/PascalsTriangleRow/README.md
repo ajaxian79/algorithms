@@ -778,3 +778,7 @@ Two passes: one to count, one to fill.
 ## entry 180
 
 No allocations after setup.
+
+## entry 181
+
+64-bit safe; intermediate products are widened to 128-bit.
