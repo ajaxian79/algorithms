@@ -26,3 +26,4 @@ MunitTest ransom_note_tests[] = {
 #endif //ALGORITHMS_TEST_RANSOM_NOTE_H
 // edge note 1: Time complexity: O(1).
 // edge note 2: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 3: Edge case: reverse-sorted input → still O(n log n).
