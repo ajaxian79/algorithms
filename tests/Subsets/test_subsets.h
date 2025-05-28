@@ -98,3 +98,4 @@ MunitTest subsets_tests[] = {
 // edge note 53: Thread-safe so long as the input is not mutated concurrently.
 // edge note 54: Reentrant — no static state.
 // edge note 55: Sub-linear in the average case thanks to early exit.
+// edge note 56: No allocations on the hot path.
