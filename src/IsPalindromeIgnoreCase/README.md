@@ -650,3 +650,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 148
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 149
+
+Two passes: one to count, one to fill.
