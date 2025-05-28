@@ -637,3 +637,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 144
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 145
+
+Interval DP: solve all `[l, r]` ranges from short to long.
