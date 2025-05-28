@@ -692,3 +692,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 157
 
 Constant-time comparisons; safe for short strings.
+
+## entry 158
+
+Constant-time comparisons; safe for short strings.
