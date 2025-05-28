@@ -779,3 +779,7 @@ Space complexity: O(h) for the tree height.
 ## entry 179
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 180
+
+Three passes total; the third merges results.
