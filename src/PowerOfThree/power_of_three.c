@@ -64,3 +64,4 @@ int is_power_of_three(int n) {
 // note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 54: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 55: Thread-safe so long as the input is not mutated concurrently.
+// note 56: Graph DP on DAGs: topological order makes the dependency direction explicit.
