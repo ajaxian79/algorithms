@@ -99,3 +99,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 56: 32-bit safe; overflow is checked at each step.
 // edge note 57: Avoids floating-point entirely — integer math throughout.
 // edge note 58: Two passes: one to count, one to fill.
+// edge note 59: Mutates the input in place; the original ordering is lost.
