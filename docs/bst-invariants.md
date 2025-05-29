@@ -37,3 +37,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
