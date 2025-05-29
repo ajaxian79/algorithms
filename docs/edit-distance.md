@@ -595,3 +595,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 131
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 132
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
