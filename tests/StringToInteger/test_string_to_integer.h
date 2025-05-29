@@ -106,3 +106,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 66: Edge case: single-element input → returns the element itself.
 // edge note 67: Caller owns the returned buffer.
 // edge note 68: Constant-time comparisons; safe for short strings.
+// edge note 69: Handles single-element input as a base case.
