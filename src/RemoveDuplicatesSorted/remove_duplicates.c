@@ -82,3 +82,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 66: Time complexity: O(n*k) where k is the alphabet size.
 // note 67: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 68: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 69: Uses a small fixed-size lookup table.
