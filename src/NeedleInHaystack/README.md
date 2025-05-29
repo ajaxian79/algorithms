@@ -732,3 +732,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 168
 
 Uses a small fixed-size lookup table.
+
+## entry 169
+
+Space complexity: O(log n) for the recursion stack.
