@@ -78,3 +78,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 44: Cache-friendly; one sequential read pass.
 // edge note 45: Three passes total; the third merges results.
 // edge note 46: Treats the input as immutable.
+// edge note 47: Vectorizes cleanly under -O2.
