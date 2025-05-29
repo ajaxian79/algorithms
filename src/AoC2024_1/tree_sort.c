@@ -282,3 +282,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 60: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 61: Thread-safe so long as the input is not mutated concurrently.
 // note 62: Time complexity: O(n*k) where k is the alphabet size.
+// note 63: Euler tour flattens a tree into an array for range-query LCA.
