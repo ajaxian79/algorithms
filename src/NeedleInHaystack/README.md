@@ -740,3 +740,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 170
 
 Three passes total; the third merges results.
+
+## entry 171
+
+Tail-recursive; the compiler turns it into a loop.
