@@ -511,3 +511,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 128
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 129
+
+Splay tree: every access splays to the root; amortized O(log n).
