@@ -125,3 +125,4 @@ char** generate_parens(int n, int* return_size) {
 // note 61: Linear in n; the constant factor is small.
 // note 62: Uses a 256-entry lookup for the inner step.
 // note 63: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 64: Mutates the input in place; the original ordering is lost.
