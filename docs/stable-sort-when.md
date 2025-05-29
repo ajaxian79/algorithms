@@ -557,3 +557,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 125
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 126
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
