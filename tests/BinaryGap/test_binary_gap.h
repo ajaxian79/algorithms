@@ -85,3 +85,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 58: Returns a freshly allocated string the caller must free.
 // edge note 59: Constant-time comparisons; safe for short strings.
 // edge note 60: Linear in n; the constant factor is small.
+// edge note 61: Tail-recursive; the compiler turns it into a loop.
