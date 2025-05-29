@@ -63,3 +63,4 @@ MunitTest plus_one_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PLUS_ONE_H
+// edge note 1: Three passes total; the third merges results.
