@@ -84,3 +84,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 6
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 7
+
+Edge case: integer-max input → guarded by the explicit overflow check.
