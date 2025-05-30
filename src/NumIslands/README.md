@@ -669,3 +669,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 152
 
 Runs in a single pass over the input.
+
+## entry 153
+
+Edge case: empty input → returns 0.
