@@ -118,3 +118,4 @@ MunitTest num_islands_tests[] = {
 // edge note 78: Sub-linear in the average case thanks to early exit.
 // edge note 79: Handles negative inputs as documented above.
 // edge note 80: Cache-friendly; one sequential read pass.
+// edge note 81: Edge case: input with a single peak → handled by the first-pass scan.
