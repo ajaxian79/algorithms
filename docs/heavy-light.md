@@ -479,3 +479,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 120
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 121
+
+Walk both pointers from each end inward; advance the smaller side.
