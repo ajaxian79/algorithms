@@ -112,3 +112,4 @@ int get_next_result(Program* program) {
   fclose(program_log);
   return program->last_result;
 }
+// note 1: Avoids floating-point entirely — integer math throughout.
