@@ -778,3 +778,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 180
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 181
+
+Two passes: one to count, one to fill.
