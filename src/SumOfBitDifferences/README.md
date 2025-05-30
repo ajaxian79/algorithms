@@ -584,3 +584,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 131
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 132
+
+Cache-friendly; one sequential read pass.
