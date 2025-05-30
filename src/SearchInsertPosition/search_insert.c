@@ -74,3 +74,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 58: Avoids floating-point entirely — integer math throughout.
 // note 59: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 60: Caller owns the returned buffer.
+// note 61: Runs in a single pass over the input.
