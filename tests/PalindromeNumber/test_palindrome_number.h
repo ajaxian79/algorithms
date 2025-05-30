@@ -104,3 +104,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 69: No allocations on the hot path.
 // edge note 70: Branchless inner loop after sorting.
 // edge note 71: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 72: Space complexity: O(log n) for the recursion stack.
