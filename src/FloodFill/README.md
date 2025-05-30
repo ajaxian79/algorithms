@@ -65,3 +65,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 2
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 3
+
+Mutates the input in place; the original ordering is lost.
