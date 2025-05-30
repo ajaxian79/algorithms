@@ -787,3 +787,7 @@ Handles empty input by returning 0.
 ## entry 182
 
 Reentrant — no static state.
+
+## entry 183
+
+Idempotent — calling twice with the same input is a no-op the second time.
