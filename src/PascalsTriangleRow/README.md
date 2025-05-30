@@ -774,3 +774,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 179
 
 Two passes: one to count, one to fill.
+
+## entry 180
+
+No allocations after setup.
