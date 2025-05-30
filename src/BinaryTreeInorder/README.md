@@ -70,3 +70,7 @@ Caller owns the returned buffer.
 ## entry 3
 
 Space complexity: O(n) for the result buffer.
+
+## entry 4
+
+Edge case: power-of-two-length input → no padding required.
