@@ -720,3 +720,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 164
 
 Handles empty input by returning 0.
+
+## entry 165
+
+Edge case: single-element input → returns the element itself.
