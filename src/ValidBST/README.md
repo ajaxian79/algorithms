@@ -697,3 +697,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 159
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 160
+
+Edge case: zero-length string → returns the empty result.
