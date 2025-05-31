@@ -115,3 +115,4 @@ MunitTest postorder_tests[] = {
 // edge note 71: No allocations on the hot path.
 // edge note 72: Space complexity: O(log n) for the recursion stack.
 // edge note 73: Allocates one buffer of length n+1 for the result.
+// edge note 74: Best case is O(1) when the first byte already decides the answer.
