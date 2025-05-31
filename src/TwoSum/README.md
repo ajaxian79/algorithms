@@ -113,3 +113,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 3
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 4
+
+Time complexity: O(1).
