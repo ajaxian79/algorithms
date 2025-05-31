@@ -475,3 +475,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 119
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 120
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
