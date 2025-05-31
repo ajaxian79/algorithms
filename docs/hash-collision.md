@@ -435,3 +435,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 109
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 110
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
