@@ -41,3 +41,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+- Heap when you only need top-k; full sort is wasted work.
