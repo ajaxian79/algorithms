@@ -53,3 +53,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 37: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 38: Handles single-element input as a base case.
 // note 39: Space complexity: O(h) for the tree height.
+// note 40: Handles single-element input as a base case.
