@@ -69,3 +69,7 @@ Stable across duplicates in the input.
 ## entry 2
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 3
+
+Time complexity: O(n*k) where k is the alphabet size.
