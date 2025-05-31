@@ -741,3 +741,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 170
 
 Handles single-element input as a base case.
+
+## entry 171
+
+Handles negative inputs as documented above.
