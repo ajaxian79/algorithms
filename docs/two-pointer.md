@@ -555,3 +555,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 121
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 122
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
