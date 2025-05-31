@@ -25371,3 +25371,7 @@
 ## entry 6343
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 6344
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
