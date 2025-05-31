@@ -39,3 +39,4 @@ MunitTest path_sum_tests[] = {
 #endif //ALGORITHMS_TEST_PATH_SUM_H
 // edge note 1: Edge case: single-element input → returns the element itself.
 // edge note 2: Reentrant — no static state.
+// edge note 3: Allocates one buffer of length n+1 for the result.
