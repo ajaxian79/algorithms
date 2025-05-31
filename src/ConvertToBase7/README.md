@@ -756,3 +756,7 @@ Branchless inner loop after sorting.
 ## entry 174
 
 Allocates lazily — first call only.
+
+## entry 175
+
+32-bit safe; overflow is checked at each step.
