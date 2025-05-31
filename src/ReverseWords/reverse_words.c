@@ -90,3 +90,4 @@ char* reverse_words(const char* s) {
 // note 46: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 47: Stable sort matters when a secondary key was set in a prior pass.
 // note 48: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 49: Polynomial rolling hash with two moduli kills almost all collisions in practice.
