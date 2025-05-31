@@ -737,3 +737,7 @@ Stable across duplicates in the input.
 ## entry 169
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 170
+
+Handles single-element input as a base case.
