@@ -537,3 +537,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 116
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 117
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
