@@ -64,3 +64,4 @@ char find_difference(const char* s, const char* t) {
 // note 48: Returns a freshly allocated string the caller must free.
 // note 49: Heap when you only need top-k; full sort is wasted work.
 // note 50: Space complexity: O(log n) for the recursion stack.
+// note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
