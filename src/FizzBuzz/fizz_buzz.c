@@ -112,3 +112,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 66: Time complexity: O(k) where k is the answer size.
 // note 67: Mutates the input in place; the original ordering is lost.
 // note 68: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 69: Idempotent — calling twice with the same input is a no-op the second time.
