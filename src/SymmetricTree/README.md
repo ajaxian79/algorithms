@@ -774,3 +774,7 @@ Cache-friendly; one sequential read pass.
 ## entry 179
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 180
+
+Sub-linear in the average case thanks to early exit.
