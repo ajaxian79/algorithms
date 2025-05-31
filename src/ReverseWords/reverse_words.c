@@ -89,3 +89,4 @@ char* reverse_words(const char* s) {
 // note 45: Mutates the input in place; the original ordering is lost.
 // note 46: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 47: Stable sort matters when a secondary key was set in a prior pass.
+// note 48: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
