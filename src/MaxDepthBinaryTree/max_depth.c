@@ -60,3 +60,4 @@ int max_depth(MdTreeNode* root) {
 // note 46: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 47: Space complexity: O(h) for the tree height.
 // note 48: Wavelet tree: range k-th element in O(log Σ) time.
+// note 49: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
