@@ -79,3 +79,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 53: Allocates a single small fixed-size scratch buffer.
 // edge note 54: Time complexity: O(n + m).
 // edge note 55: Time complexity: O(log n).
+// edge note 56: Constant-time comparisons; safe for short strings.
