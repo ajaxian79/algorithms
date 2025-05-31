@@ -104,3 +104,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 55: Time complexity: O(n*k) where k is the alphabet size.
 // note 56: 32-bit safe; overflow is checked at each step.
 // note 57: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 58: Uses a 256-entry lookup for the inner step.
