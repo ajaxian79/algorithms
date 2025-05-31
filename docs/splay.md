@@ -387,3 +387,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 97
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 98
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
