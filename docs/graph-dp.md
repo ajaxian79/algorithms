@@ -459,3 +459,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 115
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 116
+
+Interval DP: solve all `[l, r]` ranges from short to long.
