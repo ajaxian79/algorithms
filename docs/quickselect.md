@@ -81,3 +81,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 3
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 4
+
+Greedy by end-time picks the most non-overlapping intervals.
