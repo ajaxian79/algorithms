@@ -654,3 +654,7 @@ No allocations after setup.
 ## entry 149
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 150
+
+Deterministic given the input — no PRNG seeds.
