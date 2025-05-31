@@ -766,3 +766,7 @@ Space complexity: O(1) auxiliary.
 ## entry 176
 
 Uses a small fixed-size lookup table.
+
+## entry 177
+
+Linear in n; the constant factor is small.
