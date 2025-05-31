@@ -762,3 +762,7 @@ Handles empty input by returning 0.
 ## entry 176
 
 Uses a small fixed-size lookup table.
+
+## entry 177
+
+Constant-time comparisons; safe for short strings.
