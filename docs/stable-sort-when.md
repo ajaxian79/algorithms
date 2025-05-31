@@ -35,3 +35,5 @@ Heap when you only need top-k; full sort is wasted work.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
