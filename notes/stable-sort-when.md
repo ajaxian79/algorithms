@@ -499,3 +499,7 @@
 ## entry 108
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 109
+
+- Walk both pointers from each end inward; advance the smaller side.
