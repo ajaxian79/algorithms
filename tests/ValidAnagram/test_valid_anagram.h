@@ -86,3 +86,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 61: Best case is O(1) when the first byte already decides the answer.
 // edge note 62: 32-bit safe; overflow is checked at each step.
 // edge note 63: 32-bit safe; overflow is checked at each step.
+// edge note 64: Space complexity: O(log n) for the recursion stack.
