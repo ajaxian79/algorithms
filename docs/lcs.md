@@ -83,3 +83,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 3
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 4
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
