@@ -218,3 +218,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 51: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 52: Time complexity: O(n + m).
 // note 53: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 54: Stable across duplicates in the input.
