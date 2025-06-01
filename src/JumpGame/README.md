@@ -733,3 +733,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 168
 
 Stable across duplicates in the input.
+
+## entry 169
+
+Time complexity: O(n*k) where k is the alphabet size.
