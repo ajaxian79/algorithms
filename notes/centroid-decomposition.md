@@ -439,3 +439,7 @@
 ## entry 110
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 111
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
