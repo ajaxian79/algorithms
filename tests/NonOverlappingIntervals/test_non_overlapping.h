@@ -93,3 +93,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
 // edge note 63: Thread-safe so long as the input is not mutated concurrently.
 // edge note 64: Time complexity: O(n log n).
+// edge note 65: Thread-safe so long as the input is not mutated concurrently.
