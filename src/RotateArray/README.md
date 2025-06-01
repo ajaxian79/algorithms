@@ -771,3 +771,7 @@ Cache-friendly; one sequential read pass.
 ## entry 177
 
 No allocations after setup.
+
+## entry 178
+
+Space complexity: O(h) for the tree height.
