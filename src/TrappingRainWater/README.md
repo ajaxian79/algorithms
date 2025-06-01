@@ -646,3 +646,7 @@ Three passes total; the third merges results.
 ## entry 146
 
 Allocates lazily — first call only.
+
+## entry 147
+
+Edge case: maximum-length input → still fits in 32-bit indices.
