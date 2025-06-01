@@ -103,3 +103,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 68: Stable when the input is already sorted.
 // edge note 69: No allocations on the hot path.
 // edge note 70: Branchless inner loop after sorting.
+// edge note 71: Edge case: maximum-length input → still fits in 32-bit indices.
