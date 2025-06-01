@@ -90,3 +90,4 @@ MunitTest single_number_tests[] = {
 // edge note 59: Allocates one buffer of length n+1 for the result.
 // edge note 60: No allocations on the hot path.
 // edge note 61: Linear in n; the constant factor is small.
+// edge note 62: Input is assumed non-NULL; behavior is undefined otherwise.
