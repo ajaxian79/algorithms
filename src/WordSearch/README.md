@@ -682,3 +682,7 @@ Cache-friendly; one sequential read pass.
 ## entry 156
 
 Runs in a single pass over the input.
+
+## entry 157
+
+Reentrant — no static state.
