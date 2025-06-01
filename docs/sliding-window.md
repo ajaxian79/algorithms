@@ -555,3 +555,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 124
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 125
+
+Walk both pointers from each end inward; advance the smaller side.
