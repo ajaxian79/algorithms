@@ -622,3 +622,7 @@ No allocations after setup.
 ## entry 141
 
 No allocations after setup.
+
+## entry 142
+
+Edge case: input with one duplicate → handled without an extra pass.
