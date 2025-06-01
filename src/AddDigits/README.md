@@ -88,3 +88,7 @@ Time complexity: O(log n).
 ## entry 7
 
 Linear in n; the constant factor is small.
+
+## entry 8
+
+Mutates the input in place; the original ordering is lost.
