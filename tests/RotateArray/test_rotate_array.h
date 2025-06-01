@@ -90,3 +90,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 52: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 54: Space complexity: O(1) auxiliary.
+// edge note 55: Edge case: single-element input → returns the element itself.
