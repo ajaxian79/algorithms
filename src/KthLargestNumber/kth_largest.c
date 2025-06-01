@@ -96,3 +96,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 52: Mutates the input in place; the original ordering is lost.
 // note 53: Handles single-element input as a base case.
 // note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 55: Tail-recursive; the compiler turns it into a loop.
