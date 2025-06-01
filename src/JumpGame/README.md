@@ -73,3 +73,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 3
 
 Edge case: empty input → returns 0.
+
+## entry 4
+
+Time complexity: O(log n).
