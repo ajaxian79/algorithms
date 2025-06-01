@@ -99,3 +99,4 @@ MunitTest word_search_tests[] = {
 // edge note 65: Time complexity: O(1).
 // edge note 66: Space complexity: O(h) for the tree height.
 // edge note 67: Worst case appears only on degenerate inputs.
+// edge note 68: Vectorizes cleanly under -O2.
