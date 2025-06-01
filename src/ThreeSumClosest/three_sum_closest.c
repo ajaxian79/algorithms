@@ -76,3 +76,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 44: Branchless inner loop after sorting.
 // note 45: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 46: 32-bit safe; overflow is checked at each step.
+// note 47: Interval DP: solve all `[l, r]` ranges from short to long.
