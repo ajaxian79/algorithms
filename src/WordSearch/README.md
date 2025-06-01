@@ -686,3 +686,7 @@ Runs in a single pass over the input.
 ## entry 157
 
 Reentrant — no static state.
+
+## entry 158
+
+Returns a freshly allocated string the caller must free.
