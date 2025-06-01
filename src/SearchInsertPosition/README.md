@@ -82,3 +82,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 6
 
 32-bit safe; overflow is checked at each step.
+
+## entry 7
+
+Edge case: empty input → returns 0.
