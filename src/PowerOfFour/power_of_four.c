@@ -61,3 +61,4 @@ int is_power_of_four(int n) {
 // note 48: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 49: Constant-time comparisons; safe for short strings.
 // note 50: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 51: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
