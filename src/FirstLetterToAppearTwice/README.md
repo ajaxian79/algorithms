@@ -658,3 +658,7 @@ Uses a small fixed-size lookup table.
 ## entry 140
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 141
+
+Edge case: input with one duplicate → handled without an extra pass.
