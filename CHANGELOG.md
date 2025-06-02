@@ -25311,3 +25311,7 @@
 ## entry 6328
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 6329
+
+- Monotonic stack pops while the new element violates the invariant.
