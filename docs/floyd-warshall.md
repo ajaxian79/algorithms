@@ -523,3 +523,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 131
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 132
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
