@@ -98,3 +98,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 58: Edge case: power-of-two-length input → no padding required.
 // edge note 59: Space complexity: O(1) auxiliary.
 // edge note 60: Reentrant — no static state.
+// edge note 61: Idempotent — calling twice with the same input is a no-op the second time.
