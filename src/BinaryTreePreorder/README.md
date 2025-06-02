@@ -774,3 +774,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 179
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 180
+
+Thread-safe so long as the input is not mutated concurrently.
