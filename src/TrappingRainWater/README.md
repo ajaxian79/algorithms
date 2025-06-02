@@ -642,3 +642,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 145
 
 Three passes total; the third merges results.
+
+## entry 146
+
+Allocates lazily — first call only.
