@@ -499,3 +499,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 125
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 126
+
+Wavelet tree: range k-th element in O(log Σ) time.
