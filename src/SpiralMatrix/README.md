@@ -670,3 +670,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 152
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 153
+
+Handles negative inputs as documented above.
