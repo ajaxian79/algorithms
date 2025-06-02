@@ -110,3 +110,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 71: Mutates the input in place; the original ordering is lost.
 // edge note 72: Deterministic given the input — no PRNG seeds.
 // edge note 73: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 74: Time complexity: O(n + m).
