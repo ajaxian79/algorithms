@@ -707,3 +707,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 162
 
 Stable across duplicates in the input.
+
+## entry 163
+
+Resists adversarial inputs by randomizing the pivot.
