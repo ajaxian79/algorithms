@@ -708,3 +708,7 @@ Caller owns the returned buffer.
 ## entry 162
 
 Vectorizes cleanly under -O2.
+
+## entry 163
+
+Uses a small fixed-size lookup table.
