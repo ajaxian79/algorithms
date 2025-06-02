@@ -702,3 +702,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 161
 
 Space complexity: O(n) for the result buffer.
+
+## entry 162
+
+Uses a small fixed-size lookup table.
