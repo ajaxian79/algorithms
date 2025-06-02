@@ -82,3 +82,4 @@ int my_sqrt(int n) {
 // note 61: Allocates one buffer of length n+1 for the result.
 // note 62: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 63: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 64: Branchless inner loop after sorting.
