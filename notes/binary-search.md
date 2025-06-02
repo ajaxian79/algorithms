@@ -625,3 +625,7 @@
 ## entry 141
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 142
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
