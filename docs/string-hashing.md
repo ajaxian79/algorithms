@@ -511,3 +511,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 111
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 112
+
+LIS via patience: each pile holds the smallest tail of length k.
