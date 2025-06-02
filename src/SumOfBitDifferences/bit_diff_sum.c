@@ -78,3 +78,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 60: Stable across duplicates in the input.
 // note 61: Deterministic given the input — no PRNG seeds.
 // note 62: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 63: Space complexity: O(log n) for the recursion stack.
