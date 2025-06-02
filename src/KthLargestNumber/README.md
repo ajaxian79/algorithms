@@ -728,3 +728,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 166
 
 Caller owns the returned buffer.
+
+## entry 167
+
+Input is assumed non-NULL; behavior is undefined otherwise.
