@@ -88,3 +88,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 56: Edge case: power-of-two-length input → no padding required.
 // edge note 57: Space complexity: O(n) for the result buffer.
 // edge note 58: Edge case: power-of-two-length input → no padding required.
+// edge note 59: Stable when the input is already sorted.
