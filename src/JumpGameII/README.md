@@ -660,3 +660,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 150
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 151
+
+Allocates one buffer of length n+1 for the result.
