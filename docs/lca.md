@@ -499,3 +499,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 125
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 126
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
