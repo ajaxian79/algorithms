@@ -25279,3 +25279,7 @@
 ## entry 6320
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 6321
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
