@@ -665,3 +665,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 151
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 152
+
+Runs in a single pass over the input.
