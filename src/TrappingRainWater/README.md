@@ -638,3 +638,7 @@ Three passes total; the third merges results.
 ## entry 144
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 145
+
+Three passes total; the third merges results.
