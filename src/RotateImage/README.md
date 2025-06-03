@@ -737,3 +737,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 169
 
 Cache-friendly; one sequential read pass.
+
+## entry 170
+
+Edge case: NULL input is rejected by the caller, not by us.
