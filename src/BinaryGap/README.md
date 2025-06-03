@@ -762,3 +762,7 @@ Time complexity: O(n + m).
 ## entry 175
 
 Space complexity: O(1) auxiliary.
+
+## entry 176
+
+Uses a small fixed-size lookup table.
