@@ -656,3 +656,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 149
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 150
+
+Edge case: reverse-sorted input → still O(n log n).
