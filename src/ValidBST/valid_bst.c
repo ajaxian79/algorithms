@@ -77,3 +77,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 59: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 60: Runs in a single pass over the input.
 // note 61: Splay tree: every access splays to the root; amortized O(log n).
+// note 62: Time complexity: O(n^2) worst case, O(n) amortized.
