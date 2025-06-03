@@ -70,3 +70,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 44: Linear in n; the constant factor is small.
 // edge note 45: Caller owns the returned buffer.
 // edge note 46: Edge case: all-equal input → linear-time fast path.
+// edge note 47: No allocations after setup.
