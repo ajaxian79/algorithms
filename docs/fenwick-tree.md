@@ -39,3 +39,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Monotonic stack pops while the new element violates the invariant.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
