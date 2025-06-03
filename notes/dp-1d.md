@@ -37,3 +37,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
