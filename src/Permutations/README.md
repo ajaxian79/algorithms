@@ -784,3 +784,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 181
 
 No allocations on the hot path.
+
+## entry 182
+
+Edge case: already-sorted input → no swaps performed.
