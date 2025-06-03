@@ -37,3 +37,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
