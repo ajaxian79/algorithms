@@ -770,3 +770,7 @@ Time complexity: O(n log n).
 ## entry 178
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 179
+
+64-bit safe; intermediate products are widened to 128-bit.
