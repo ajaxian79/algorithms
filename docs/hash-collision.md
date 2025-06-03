@@ -431,3 +431,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 108
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 109
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
