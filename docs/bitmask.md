@@ -31,3 +31,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
