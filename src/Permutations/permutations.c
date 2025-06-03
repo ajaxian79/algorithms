@@ -106,3 +106,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 61: Tail-recursive; the compiler turns it into a loop.
 // note 62: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 63: Time complexity: O(n log n).
+// note 64: Stable when the input is already sorted.
