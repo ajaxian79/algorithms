@@ -493,3 +493,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 107
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 108
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
