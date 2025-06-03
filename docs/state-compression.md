@@ -379,3 +379,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 95
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 96
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
