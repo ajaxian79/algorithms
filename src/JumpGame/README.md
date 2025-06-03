@@ -729,3 +729,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 167
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 168
+
+Stable across duplicates in the input.
