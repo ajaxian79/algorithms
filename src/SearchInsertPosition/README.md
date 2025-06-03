@@ -654,3 +654,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 149
 
 Time complexity: O(1).
+
+## entry 150
+
+Resists adversarial inputs by randomizing the pivot.
