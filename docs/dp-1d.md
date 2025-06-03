@@ -43,3 +43,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
