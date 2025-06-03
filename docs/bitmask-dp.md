@@ -483,3 +483,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 121
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 122
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
