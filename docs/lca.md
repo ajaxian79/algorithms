@@ -495,3 +495,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 124
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 125
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
