@@ -685,3 +685,7 @@ Time complexity: O(1).
 ## entry 157
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 158
+
+Vectorizes cleanly under -O2.
