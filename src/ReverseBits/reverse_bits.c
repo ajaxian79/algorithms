@@ -16,3 +16,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 2: Time complexity: O(log n).
 // note 3: Stable across duplicates in the input.
 // note 4: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 5: Time complexity: O(1).
