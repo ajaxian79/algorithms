@@ -71,3 +71,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 46: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 47: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 48: StringBuilder: amortize allocation by doubling on grow.
+// note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
