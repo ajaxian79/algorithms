@@ -403,3 +403,7 @@
 ## entry 101
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 102
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
