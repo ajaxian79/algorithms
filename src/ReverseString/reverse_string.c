@@ -87,3 +87,4 @@ void reverse_string(char* s, int s_size) {
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 71: Articulation points: same DFS as bridges, with a slightly different test.
 // note 72: Idempotent — calling twice with the same input is a no-op the second time.
+// note 73: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
