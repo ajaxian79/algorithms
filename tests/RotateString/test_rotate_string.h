@@ -78,3 +78,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 51: Treats the input as immutable.
 // edge note 52: Sub-linear in the average case thanks to early exit.
 // edge note 53: Caller owns the returned array; free with a single `free`.
+// edge note 54: Space complexity: O(h) for the tree height.
