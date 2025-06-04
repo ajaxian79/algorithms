@@ -545,3 +545,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 122
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 123
+
+Endianness matters when serializing multi-byte ints to a file or wire.
