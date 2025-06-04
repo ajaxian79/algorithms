@@ -694,3 +694,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 159
 
 Space complexity: O(h) for the tree height.
+
+## entry 160
+
+Edge case: NULL input is rejected by the caller, not by us.
