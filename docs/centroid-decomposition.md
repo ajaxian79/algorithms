@@ -523,3 +523,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 131
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 132
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
