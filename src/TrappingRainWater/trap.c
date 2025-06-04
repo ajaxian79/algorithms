@@ -70,3 +70,4 @@ int trap(const int* height, int n) {
 // note 46: Tail-recursive; the compiler turns it into a loop.
 // note 47: Space complexity: O(1) auxiliary.
 // note 48: State compression: bitmask + integer encodes a small subset cheaply.
+// note 49: No allocations on the hot path.
