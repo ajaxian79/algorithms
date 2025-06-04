@@ -725,3 +725,7 @@ Handles empty input by returning 0.
 ## entry 156
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 157
+
+Allocates a single small fixed-size scratch buffer.
