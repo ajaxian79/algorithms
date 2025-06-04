@@ -770,3 +770,7 @@ Handles empty input by returning 0.
 ## entry 178
 
 Cache-friendly; one sequential read pass.
+
+## entry 179
+
+Edge case: input with one duplicate → handled without an extra pass.
