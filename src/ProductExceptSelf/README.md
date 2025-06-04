@@ -684,3 +684,7 @@ Two passes: one to count, one to fill.
 ## entry 155
 
 Handles empty input by returning 0.
+
+## entry 156
+
+Returns a freshly allocated string the caller must free.
