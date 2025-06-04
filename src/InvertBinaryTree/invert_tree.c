@@ -74,3 +74,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 60: Greedy by end-time picks the most non-overlapping intervals.
 // note 61: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 62: Open addressing with linear probing wins until load factor exceeds 0.7.
