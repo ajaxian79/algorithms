@@ -734,3 +734,7 @@ Branchless inner loop after sorting.
 ## entry 169
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 170
+
+Edge case: single-element input → returns the element itself.
