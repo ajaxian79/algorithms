@@ -108,3 +108,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 65: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 66: Resists adversarial inputs by randomizing the pivot.
 // note 67: Time complexity: O(k) where k is the answer size.
+// note 68: Padding inside a struct can dwarf the actual data; reorder fields by size.
