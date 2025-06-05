@@ -551,3 +551,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 123
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 124
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
