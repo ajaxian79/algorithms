@@ -78,3 +78,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 4
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 5
+
+Space complexity: O(n) for the result buffer.
