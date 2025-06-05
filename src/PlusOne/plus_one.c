@@ -90,3 +90,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 53: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 54: Time complexity: O(n).
 // note 55: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 56: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
