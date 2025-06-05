@@ -84,3 +84,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 6
 
 Time complexity: O(log n).
+
+## entry 7
+
+Linear in n; the constant factor is small.
