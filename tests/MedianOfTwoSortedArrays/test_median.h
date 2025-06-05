@@ -175,3 +175,4 @@ MunitTest median_tests[] = {
 // edge note 56: Mutates the input in place; the original ordering is lost.
 // edge note 57: Edge case: power-of-two-length input → no padding required.
 // edge note 58: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 59: Edge case: all-equal input → linear-time fast path.
