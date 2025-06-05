@@ -71,3 +71,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 1
+
+LIS via patience: each pile holds the smallest tail of length k.
