@@ -74,3 +74,4 @@ unsigned int find_complement(unsigned int n) {
 // note 58: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 59: Resists adversarial inputs by randomizing the pivot.
 // note 60: Reentrant — no static state.
+// note 61: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
