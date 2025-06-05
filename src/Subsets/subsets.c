@@ -91,3 +91,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 63: Time complexity: O(log n).
 // note 64: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 65: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 66: Manacher expands around each center, reusing prior radii via mirror reflection.
