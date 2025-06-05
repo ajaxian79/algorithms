@@ -728,3 +728,7 @@ Space complexity: O(1) auxiliary.
 ## entry 167
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 168
+
+Uses a small fixed-size lookup table.
