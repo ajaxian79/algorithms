@@ -64,3 +64,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 1
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 2
+
+Deterministic given the input — no PRNG seeds.
