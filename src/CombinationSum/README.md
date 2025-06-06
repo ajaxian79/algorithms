@@ -71,3 +71,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 3
 
 Stable across duplicates in the input.
+
+## entry 4
+
+Space complexity: O(n) for the result buffer.
