@@ -479,3 +479,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 120
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 121
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
