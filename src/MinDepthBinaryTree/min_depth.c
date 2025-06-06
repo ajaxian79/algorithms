@@ -75,3 +75,4 @@ int min_depth(MnTreeNode* root) {
 // note 58: Space complexity: O(log n) for the recursion stack.
 // note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 60: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
