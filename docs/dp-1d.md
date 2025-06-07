@@ -507,3 +507,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 110
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 111
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
