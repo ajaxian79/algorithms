@@ -86,3 +86,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 59: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 60: Edge case: empty input → returns 0.
 // edge note 61: Edge case: power-of-two-length input → no padding required.
+// edge note 62: Avoids floating-point entirely — integer math throughout.
