@@ -99,3 +99,4 @@ char* count_and_say(int n) {
 // note 50: Greedy by end-time picks the most non-overlapping intervals.
 // note 51: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 52: Time complexity: O(n).
+// note 53: Sub-linear in the average case thanks to early exit.
