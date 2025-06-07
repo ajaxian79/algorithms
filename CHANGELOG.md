@@ -25159,3 +25159,7 @@
 ## entry 6290
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 6291
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
