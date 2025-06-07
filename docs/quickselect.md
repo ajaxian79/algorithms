@@ -517,3 +517,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 112
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 113
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
