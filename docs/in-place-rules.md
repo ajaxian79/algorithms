@@ -629,3 +629,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 142
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 143
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
