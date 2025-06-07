@@ -115,3 +115,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 56: Allocates a single small fixed-size scratch buffer.
 // edge note 57: Edge case: input with no peak → falls through to the default branch.
 // edge note 58: Three passes total; the third merges results.
+// edge note 59: Edge case: power-of-two-length input → no padding required.
