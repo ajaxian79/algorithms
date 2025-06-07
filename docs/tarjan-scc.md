@@ -475,3 +475,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 119
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 120
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
