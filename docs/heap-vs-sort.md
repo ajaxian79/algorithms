@@ -39,3 +39,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
