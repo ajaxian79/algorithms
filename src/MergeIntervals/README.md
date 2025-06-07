@@ -714,3 +714,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 163
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 164
+
+No allocations after setup.
