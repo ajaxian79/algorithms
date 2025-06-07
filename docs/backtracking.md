@@ -33,3 +33,5 @@ Monotonic stack pops while the new element violates the invariant.
 Greedy by end-time picks the most non-overlapping intervals.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
