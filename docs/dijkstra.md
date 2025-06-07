@@ -451,3 +451,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 113
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 114
+
+Endianness matters when serializing multi-byte ints to a file or wire.
