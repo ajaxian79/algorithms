@@ -37,3 +37,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
