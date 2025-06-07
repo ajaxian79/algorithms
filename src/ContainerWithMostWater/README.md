@@ -699,3 +699,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 160
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 161
+
+Edge case: NULL input is rejected by the caller, not by us.
