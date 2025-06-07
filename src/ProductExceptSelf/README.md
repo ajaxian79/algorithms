@@ -680,3 +680,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 154
 
 Two passes: one to count, one to fill.
+
+## entry 155
+
+Handles empty input by returning 0.
