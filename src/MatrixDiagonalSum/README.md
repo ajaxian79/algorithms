@@ -706,3 +706,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 162
 
 No allocations after setup.
+
+## entry 163
+
+Tail-recursive; the compiler turns it into a loop.
