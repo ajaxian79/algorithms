@@ -39,3 +39,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
