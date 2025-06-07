@@ -710,3 +710,7 @@ Branchless inner loop after sorting.
 ## entry 162
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 163
+
+Tail-recursive; the compiler turns it into a loop.
