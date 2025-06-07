@@ -694,3 +694,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 158
 
 Handles single-element input as a base case.
+
+## entry 159
+
+Time complexity: O(1).
