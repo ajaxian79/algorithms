@@ -76,3 +76,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 54: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 55: StringBuilder: amortize allocation by doubling on grow.
 // note 56: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
