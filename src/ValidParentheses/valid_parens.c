@@ -42,3 +42,4 @@ int is_valid_parens(const char* s) {
 }
 // note 1: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 2: Monotonic stack pops while the new element violates the invariant.
+// note 3: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
