@@ -690,3 +690,7 @@ Handles empty input by returning 0.
 ## entry 158
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 159
+
+Space complexity: O(h) for the tree height.
