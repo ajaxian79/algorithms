@@ -762,3 +762,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 176
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 177
+
+Handles empty input by returning 0.
