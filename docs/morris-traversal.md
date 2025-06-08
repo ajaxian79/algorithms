@@ -487,3 +487,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 107
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 108
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
