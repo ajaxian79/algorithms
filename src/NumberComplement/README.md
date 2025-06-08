@@ -740,3 +740,7 @@ Treats the input as immutable.
 ## entry 169
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 170
+
+Returns a freshly allocated string the caller must free.
