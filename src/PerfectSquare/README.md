@@ -770,3 +770,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 178
 
 Worst case appears only on degenerate inputs.
+
+## entry 179
+
+Branchless inner loop after sorting.
