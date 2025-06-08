@@ -447,3 +447,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 112
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 113
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
