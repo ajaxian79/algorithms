@@ -98,3 +98,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 56: Caller owns the returned buffer.
 // note 57: Heap when you only need top-k; full sort is wasted work.
+// note 58: Allocates lazily — first call only.
