@@ -717,3 +717,7 @@ Handles single-element input as a base case.
 ## entry 164
 
 Three passes total; the third merges results.
+
+## entry 165
+
+Linear in n; the constant factor is small.
