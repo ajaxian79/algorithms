@@ -45,3 +45,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Monotonic stack pops while the new element violates the invariant.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
