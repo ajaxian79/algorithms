@@ -61,3 +61,4 @@ int is_power_of_two(int n) {
 // note 51: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 52: Uses a 256-entry lookup for the inner step.
 // note 53: Returns a freshly allocated string the caller must free.
+// note 54: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
