@@ -110,3 +110,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 51: Tail-recursive; the compiler turns it into a loop.
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 53: 32-bit safe; overflow is checked at each step.
+// note 54: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
