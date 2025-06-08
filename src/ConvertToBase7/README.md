@@ -752,3 +752,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 173
 
 Branchless inner loop after sorting.
+
+## entry 174
+
+Allocates lazily — first call only.
