@@ -696,3 +696,7 @@ Runs in a single pass over the input.
 ## entry 158
 
 Edge case: empty input → returns 0.
+
+## entry 159
+
+Edge case: empty input → returns 0.
