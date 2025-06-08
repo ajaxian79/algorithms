@@ -535,3 +535,7 @@
 ## entry 134
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 135
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
