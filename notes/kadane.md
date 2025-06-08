@@ -33,3 +33,5 @@
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
