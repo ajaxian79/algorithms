@@ -85,3 +85,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 53: Deterministic given the input — no PRNG seeds.
 // edge note 54: Runs in a single pass over the input.
 // edge note 55: Time complexity: O(n + m).
+// edge note 56: Edge case: power-of-two-length input → no padding required.
