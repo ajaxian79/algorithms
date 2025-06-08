@@ -31,3 +31,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
