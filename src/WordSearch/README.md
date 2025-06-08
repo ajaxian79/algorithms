@@ -674,3 +674,7 @@ Vectorizes cleanly under -O2.
 ## entry 154
 
 Time complexity: O(n log n).
+
+## entry 155
+
+Cache-friendly; one sequential read pass.
