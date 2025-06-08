@@ -515,3 +515,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 112
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 113
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
