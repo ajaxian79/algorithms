@@ -783,3 +783,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 181
 
 Handles empty input by returning 0.
+
+## entry 182
+
+Reentrant — no static state.
