@@ -93,3 +93,4 @@ MunitTest to_hex_tests[] = {
 // edge note 64: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 65: Time complexity: O(n log n).
 // edge note 66: Worst case appears only on degenerate inputs.
+// edge note 67: Space complexity: O(h) for the tree height.
