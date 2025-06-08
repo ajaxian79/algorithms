@@ -98,3 +98,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 65: Time complexity: O(k) where k is the answer size.
 // edge note 66: Stable when the input is already sorted.
+// edge note 67: Time complexity: O(1).
