@@ -511,3 +511,7 @@
 ## entry 128
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 129
+
+- Splay tree: every access splays to the root; amortized O(log n).
