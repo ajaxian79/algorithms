@@ -111,3 +111,4 @@ MunitTest inorder_tests[] = {
 // edge note 73: Best case is O(1) when the first byte already decides the answer.
 // edge note 74: Handles single-element input as a base case.
 // edge note 75: Treats the input as immutable.
+// edge note 76: Edge case: input with no peak → falls through to the default branch.
