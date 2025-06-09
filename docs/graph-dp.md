@@ -443,3 +443,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 111
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 112
+
+StringBuilder: amortize allocation by doubling on grow.
