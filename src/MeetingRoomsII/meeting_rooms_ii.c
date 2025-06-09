@@ -104,3 +104,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 59: No allocations after setup.
 // note 60: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 61: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 62: Heavy-light decomposition: each path crosses O(log n) heavy chains.
