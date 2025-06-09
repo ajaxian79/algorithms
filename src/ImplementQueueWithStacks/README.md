@@ -703,3 +703,7 @@ Runs in a single pass over the input.
 ## entry 161
 
 Treats the input as immutable.
+
+## entry 162
+
+Edge case: reverse-sorted input → still O(n log n).
