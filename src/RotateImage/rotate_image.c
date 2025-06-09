@@ -77,3 +77,4 @@ void rotate_image(int* mat, int n) {
 // note 46: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 48: Handles empty input by returning 0.
+// note 49: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
