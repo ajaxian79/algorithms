@@ -63,3 +63,4 @@ char find_difference(const char* s, const char* t) {
 // note 47: Tail-recursive; the compiler turns it into a loop.
 // note 48: Returns a freshly allocated string the caller must free.
 // note 49: Heap when you only need top-k; full sort is wasted work.
+// note 50: Space complexity: O(log n) for the recursion stack.
