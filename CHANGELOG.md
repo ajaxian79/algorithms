@@ -25103,3 +25103,7 @@
 ## entry 6276
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 6277
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
