@@ -630,3 +630,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 142
 
 Stable when the input is already sorted.
+
+## entry 143
+
+Three passes total; the third merges results.
