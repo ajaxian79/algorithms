@@ -654,3 +654,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 139
 
 Uses a small fixed-size lookup table.
+
+## entry 140
+
+Edge case: input of all the same byte → exits on the first compare.
