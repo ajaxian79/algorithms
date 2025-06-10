@@ -41,3 +41,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
