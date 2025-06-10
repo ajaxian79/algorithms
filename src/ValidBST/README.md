@@ -681,3 +681,7 @@ Time complexity: O(log n).
 ## entry 155
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 156
+
+Constant-time comparisons; safe for short strings.
