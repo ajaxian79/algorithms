@@ -96,3 +96,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 60: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 61: Worst case appears only on degenerate inputs.
 // edge note 62: Time complexity: O(log n).
+// edge note 63: Allocates lazily — first call only.
