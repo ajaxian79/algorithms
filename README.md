@@ -165,3 +165,5 @@ Time complexity: O(1).
 Handles single-element input as a base case.
 
 Uses a 256-entry lookup for the inner step.
+
+All sources are C17; no C++ in this tree.
