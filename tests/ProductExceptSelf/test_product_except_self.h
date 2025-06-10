@@ -35,3 +35,4 @@ MunitTest product_except_self_tests[] = {
 
 #endif //ALGORITHMS_TEST_PRODUCT_EXCEPT_SELF_H
 // edge note 1: Stable when the input is already sorted.
+// edge note 2: Allocates lazily — first call only.
