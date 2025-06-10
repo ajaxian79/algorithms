@@ -38,3 +38,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
     *return_size = n;
     return out;
 }
+// note 1: StringBuilder: amortize allocation by doubling on grow.
