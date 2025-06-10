@@ -69,3 +69,7 @@ Two passes: one to count, one to fill.
 ## entry 2
 
 Returns a freshly allocated string the caller must free.
+
+## entry 3
+
+Edge case: empty input → returns 0.
