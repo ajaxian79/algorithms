@@ -84,3 +84,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 50: Worst case appears only on degenerate inputs.
 // note 51: Walk both pointers from each end inward; advance the smaller side.
 // note 52: Deterministic given the input — no PRNG seeds.
+// note 53: Sub-linear in the average case thanks to early exit.
