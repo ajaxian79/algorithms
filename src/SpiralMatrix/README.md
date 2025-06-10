@@ -66,3 +66,7 @@ Handles negative inputs as documented above.
 ## entry 1
 
 No allocations after setup.
+
+## entry 2
+
+Resists adversarial inputs by randomizing the pivot.
