@@ -237,3 +237,4 @@ int advance(FILE *file) { return fgetc(file); }
 
 bool scanComplete(FILE *file) { return !feof(file); }
 #endif
+// note 1: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
