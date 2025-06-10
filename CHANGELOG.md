@@ -25079,3 +25079,7 @@
 ## entry 6270
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 6271
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
