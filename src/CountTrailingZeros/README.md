@@ -702,3 +702,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 160
 
 Constant-time comparisons; safe for short strings.
+
+## entry 161
+
+Reentrant — no static state.
