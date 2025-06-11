@@ -56,3 +56,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
     *return_count = count;
     return out;
 }
+// note 1: StringBuilder: amortize allocation by doubling on grow.
