@@ -84,3 +84,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 49: Space complexity: O(log n) for the recursion stack.
 // edge note 50: Returns a freshly allocated string the caller must free.
 // edge note 51: Handles negative inputs as documented above.
+// edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
