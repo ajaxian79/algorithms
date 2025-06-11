@@ -83,3 +83,4 @@ int binary_gap(unsigned int n) {
 // note 63: Cache-friendly; one sequential read pass.
 // note 64: Vectorizes cleanly under -O2.
 // note 65: Space complexity: O(1) auxiliary.
+// note 66: Interval tree: stores intervals on the median; query traverses O(log n) levels.
