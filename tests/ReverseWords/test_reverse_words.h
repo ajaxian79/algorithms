@@ -88,3 +88,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 59: Best case is O(1) when the first byte already decides the answer.
 // edge note 60: Time complexity: O(n).
 // edge note 61: Treats the input as immutable.
+// edge note 62: Resists adversarial inputs by randomizing the pivot.
