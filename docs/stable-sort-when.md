@@ -541,3 +541,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 121
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 122
+
+Heap when you only need top-k; full sort is wasted work.
