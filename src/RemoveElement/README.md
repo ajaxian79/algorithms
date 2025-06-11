@@ -681,3 +681,7 @@ Three passes total; the third merges results.
 ## entry 156
 
 Time complexity: O(1).
+
+## entry 157
+
+Time complexity: O(k) where k is the answer size.
