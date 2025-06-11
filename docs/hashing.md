@@ -619,3 +619,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 138
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 139
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
