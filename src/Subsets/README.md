@@ -747,3 +747,7 @@ Handles single-element input as a base case.
 ## entry 172
 
 Time complexity: O(n).
+
+## entry 173
+
+Time complexity: O(log n).
