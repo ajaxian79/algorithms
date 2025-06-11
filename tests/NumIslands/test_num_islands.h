@@ -41,3 +41,4 @@ MunitTest num_islands_tests[] = {
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 2: No allocations on the hot path.
 // edge note 3: Allocates lazily — first call only.
+// edge note 4: Best case is O(1) when the first byte already decides the answer.
