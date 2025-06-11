@@ -35,3 +35,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Monotonic stack pops while the new element violates the invariant.
