@@ -99,3 +99,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 64: Constant-time comparisons; safe for short strings.
 // edge note 65: Reentrant — no static state.
 // edge note 66: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 67: Edge case: zero-length string → returns the empty result.
