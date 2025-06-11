@@ -96,3 +96,4 @@ MunitTest max_depth_tests[] = {
 // edge note 58: Edge case: power-of-two-length input → no padding required.
 // edge note 59: Handles empty input by returning 0.
 // edge note 60: Time complexity: O(n).
+// edge note 61: Edge case: reverse-sorted input → still O(n log n).
