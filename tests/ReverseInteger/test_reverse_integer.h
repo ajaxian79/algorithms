@@ -32,3 +32,4 @@ MunitTest reverse_int_tests[] = {
 
 #endif //ALGORITHMS_TEST_REVERSE_INTEGER_H
 // edge note 1: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 2: Time complexity: O(log n).
