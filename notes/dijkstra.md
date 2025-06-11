@@ -435,3 +435,7 @@
 ## entry 109
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 110
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
