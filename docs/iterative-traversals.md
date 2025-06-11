@@ -569,3 +569,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 126
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 127
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
