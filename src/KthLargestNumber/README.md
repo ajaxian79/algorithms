@@ -720,3 +720,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 164
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 165
+
+Edge case: all-equal input → linear-time fast path.
