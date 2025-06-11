@@ -411,3 +411,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 103
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 104
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
