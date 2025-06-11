@@ -117,3 +117,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 59: Thread-safe so long as the input is not mutated concurrently.
 // note 60: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 61: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 62: Time complexity: O(n + m).
