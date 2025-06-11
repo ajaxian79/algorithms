@@ -767,3 +767,7 @@ Allocates lazily — first call only.
 ## entry 176
 
 Cache-friendly; one sequential read pass.
+
+## entry 177
+
+No allocations after setup.
