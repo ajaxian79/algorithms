@@ -447,3 +447,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 112
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 113
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
