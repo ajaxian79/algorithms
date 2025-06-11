@@ -698,3 +698,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 159
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 160
+
+Constant-time comparisons; safe for short strings.
