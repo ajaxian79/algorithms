@@ -92,3 +92,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 51: Treats the input as immutable.
 // note 52: Two passes: one to count, one to fill.
 // note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 54: Pick a pivot, partition, recurse on the side that contains the kth slot.
