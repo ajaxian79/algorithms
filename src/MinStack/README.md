@@ -726,3 +726,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 167
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 168
+
+Branchless inner loop after sorting.
