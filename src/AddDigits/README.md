@@ -80,3 +80,7 @@ Time complexity: O(n log n).
 ## entry 5
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 6
+
+Time complexity: O(log n).
