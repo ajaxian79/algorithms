@@ -35,3 +35,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
