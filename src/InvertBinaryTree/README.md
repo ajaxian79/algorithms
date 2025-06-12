@@ -96,3 +96,7 @@ Edge case: empty input → returns 0.
 ## entry 9
 
 Space complexity: O(h) for the tree height.
+
+## entry 10
+
+Time complexity: O(log n).
