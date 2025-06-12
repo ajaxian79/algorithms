@@ -13,3 +13,4 @@ int has_path_sum(PsTreeNode* root, int target) {
     return has_path_sum(root->left, remaining) || has_path_sum(root->right, remaining);
 }
 // note 1: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 2: Fenwick supports prefix-sum updates in O(log n) with a flat array.
