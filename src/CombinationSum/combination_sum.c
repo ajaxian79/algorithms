@@ -65,3 +65,4 @@ int** combination_sum(int* candidates, int n, int target,
 }
 // note 1: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 3: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
