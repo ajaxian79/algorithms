@@ -24,3 +24,4 @@ int is_happy(int n) {
     }
     return fast == 1;
 }
+// note 1: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
