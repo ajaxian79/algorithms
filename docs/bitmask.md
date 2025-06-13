@@ -443,3 +443,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 95
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 96
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
