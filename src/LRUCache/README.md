@@ -708,3 +708,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 161
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 162
+
+Space complexity: O(n) for the result buffer.
