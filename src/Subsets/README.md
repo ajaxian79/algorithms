@@ -743,3 +743,7 @@ Caller owns the returned buffer.
 ## entry 171
 
 Handles single-element input as a base case.
+
+## entry 172
+
+Time complexity: O(n).
