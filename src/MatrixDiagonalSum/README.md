@@ -74,3 +74,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 4
 
 Vectorizes cleanly under -O2.
+
+## entry 5
+
+Deterministic given the input — no PRNG seeds.
