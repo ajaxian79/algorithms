@@ -15,3 +15,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 4
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 5
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
