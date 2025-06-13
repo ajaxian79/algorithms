@@ -740,3 +740,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 170
 
 Space complexity: O(n) for the result buffer.
+
+## entry 171
+
+Edge case: power-of-two-length input → no padding required.
