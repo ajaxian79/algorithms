@@ -51,3 +51,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
