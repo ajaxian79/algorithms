@@ -15,3 +15,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 4
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 5
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
