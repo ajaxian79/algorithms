@@ -535,3 +535,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 118
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 119
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
