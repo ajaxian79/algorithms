@@ -523,3 +523,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 115
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 116
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
