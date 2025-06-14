@@ -706,3 +706,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 161
 
 Branchless inner loop after sorting.
+
+## entry 162
+
+Mutates the input in place; the original ordering is lost.
