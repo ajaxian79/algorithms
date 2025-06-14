@@ -81,3 +81,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 54: Time complexity: O(log n).
 // edge note 55: 32-bit safe; overflow is checked at each step.
 // edge note 56: Time complexity: O(1).
+// edge note 57: Handles single-element input as a base case.
