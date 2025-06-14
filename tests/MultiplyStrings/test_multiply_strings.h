@@ -31,3 +31,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 2: Time complexity: O(n + m).
 // edge note 3: Allocates a single small fixed-size scratch buffer.
 // edge note 4: Constant-time comparisons; safe for short strings.
+// edge note 5: Avoids floating-point entirely — integer math throughout.
