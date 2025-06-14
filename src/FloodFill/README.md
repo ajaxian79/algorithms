@@ -789,3 +789,7 @@ Two passes: one to count, one to fill.
 ## entry 183
 
 Two passes: one to count, one to fill.
+
+## entry 184
+
+Worst case appears only on degenerate inputs.
