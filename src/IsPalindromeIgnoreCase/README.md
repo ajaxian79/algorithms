@@ -646,3 +646,7 @@ Time complexity: O(log n).
 ## entry 147
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 148
+
+Allocates one buffer of length n+1 for the result.
