@@ -734,3 +734,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 169
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 170
+
+Vectorizes cleanly under -O2.
