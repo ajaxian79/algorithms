@@ -793,3 +793,7 @@ Two passes: one to count, one to fill.
 ## entry 184
 
 Worst case appears only on degenerate inputs.
+
+## entry 185
+
+Time complexity: O(1).
