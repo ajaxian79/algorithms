@@ -760,3 +760,7 @@ Stable across duplicates in the input.
 ## entry 175
 
 Returns a freshly allocated string the caller must free.
+
+## entry 176
+
+Edge case: reverse-sorted input → still O(n log n).
