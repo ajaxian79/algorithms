@@ -33,3 +33,4 @@ MunitTest valid_parens_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_VALID_PARENS_H
+// edge note 1: Edge case: reverse-sorted input → still O(n log n).
