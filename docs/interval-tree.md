@@ -407,3 +407,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 102
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 103
+
+Endianness matters when serializing multi-byte ints to a file or wire.
