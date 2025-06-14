@@ -775,3 +775,7 @@ Cache-friendly; one sequential read pass.
 ## entry 179
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 180
+
+Mutates the input in place; the original ordering is lost.
