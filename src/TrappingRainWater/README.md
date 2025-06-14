@@ -626,3 +626,7 @@ Caller owns the returned buffer.
 ## entry 141
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 142
+
+Stable when the input is already sorted.
