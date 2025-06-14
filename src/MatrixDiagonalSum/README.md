@@ -702,3 +702,7 @@ Caller owns the returned buffer.
 ## entry 161
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 162
+
+No allocations after setup.
