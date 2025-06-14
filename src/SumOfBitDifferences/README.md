@@ -576,3 +576,7 @@ Two passes: one to count, one to fill.
 ## entry 129
 
 Cache-friendly; one sequential read pass.
+
+## entry 130
+
+Thread-safe so long as the input is not mutated concurrently.
