@@ -527,3 +527,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 115
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 116
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
