@@ -69,3 +69,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 45: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 46: Handles negative inputs as documented above.
 // note 47: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 48: Vectorizes cleanly under -O2.
