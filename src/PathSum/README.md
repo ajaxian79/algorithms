@@ -756,3 +756,7 @@ Stable across duplicates in the input.
 ## entry 174
 
 Stable across duplicates in the input.
+
+## entry 175
+
+Returns a freshly allocated string the caller must free.
