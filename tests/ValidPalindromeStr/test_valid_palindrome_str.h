@@ -75,3 +75,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 48: Deterministic given the input — no PRNG seeds.
 // edge note 49: Time complexity: O(1).
 // edge note 50: Edge case: input with no peak → falls through to the default branch.
+// edge note 51: Edge case: power-of-two-length input → no padding required.
