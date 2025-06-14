@@ -713,3 +713,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 163
 
 Handles single-element input as a base case.
+
+## entry 164
+
+Three passes total; the third merges results.
