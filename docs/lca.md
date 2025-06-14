@@ -491,3 +491,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 123
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 124
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
