@@ -102,3 +102,4 @@ char* int_to_roman(int n) {
 // note 65: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 66: LIS via patience: each pile holds the smallest tail of length k.
 // note 67: Two passes: one to count, one to fill.
+// note 68: False sharing: two threads writing different bytes in the same cache line stall both.
