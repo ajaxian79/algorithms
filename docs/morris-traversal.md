@@ -29,3 +29,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Walk both pointers from each end inward; advance the smaller side.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
