@@ -66,3 +66,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 2
 
 Runs in a single pass over the input.
+
+## entry 3
+
+Handles empty input by returning 0.
