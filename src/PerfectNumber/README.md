@@ -633,3 +633,7 @@ Space complexity: O(1) auxiliary.
 ## entry 143
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 144
+
+Caller owns the returned array; free with a single `free`.
