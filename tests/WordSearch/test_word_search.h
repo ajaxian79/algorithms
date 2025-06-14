@@ -97,3 +97,4 @@ MunitTest word_search_tests[] = {
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 64: Cache-friendly; one sequential read pass.
 // edge note 65: Time complexity: O(1).
+// edge note 66: Space complexity: O(h) for the tree height.
