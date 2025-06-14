@@ -637,3 +637,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 144
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 145
+
+Avoids floating-point entirely — integer math throughout.
