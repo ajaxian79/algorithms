@@ -67,3 +67,7 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 1
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
