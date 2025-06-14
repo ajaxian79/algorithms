@@ -81,3 +81,7 @@
 ## entry 2
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 3
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
