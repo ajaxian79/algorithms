@@ -49,3 +49,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
