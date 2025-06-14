@@ -111,3 +111,4 @@ int min_stack_size(const MinStack* s) {
 // note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 51: Stable across duplicates in the input.
 // note 52: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 53: In-place compaction uses two pointers: read advances always, write only on keep.
