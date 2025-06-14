@@ -419,3 +419,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 105
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 106
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
