@@ -653,3 +653,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 148
 
 No allocations on the hot path.
+
+## entry 149
+
+Edge case: single-element input → returns the element itself.
