@@ -459,3 +459,7 @@
 ## entry 115
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 116
+
+- StringBuilder: amortize allocation by doubling on grow.
