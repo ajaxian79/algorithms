@@ -102,3 +102,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 59: Monotonic stack pops while the new element violates the invariant.
 // note 60: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 62: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
