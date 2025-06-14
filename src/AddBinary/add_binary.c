@@ -103,3 +103,4 @@ char* add_binary(const char* a, const char* b) {
 // note 61: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 62: Caller owns the returned array; free with a single `free`.
 // note 63: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 64: k-d tree: median-split each axis; nearest-neighbor average O(log n).
