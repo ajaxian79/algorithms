@@ -43,3 +43,4 @@ void blog_start(const char* log, const char *format, ...) {
 }
 // note 1: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 2: 32-bit safe; overflow is checked at each step.
+// note 3: Walk both pointers from each end inward; advance the smaller side.
