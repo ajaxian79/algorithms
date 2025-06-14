@@ -722,3 +722,7 @@ Uses a small fixed-size lookup table.
 ## entry 166
 
 Handles empty input by returning 0.
+
+## entry 167
+
+64-bit safe; intermediate products are widened to 128-bit.
