@@ -88,3 +88,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 55: Space complexity: O(1) auxiliary.
 // edge note 56: Stable when the input is already sorted.
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 58: Edge case: single-element input → returns the element itself.
