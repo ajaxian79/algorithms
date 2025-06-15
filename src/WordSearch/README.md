@@ -66,3 +66,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 2
 
 No allocations on the hot path.
+
+## entry 3
+
+Edge case: zero-length string → returns the empty result.
