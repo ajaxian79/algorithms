@@ -533,3 +533,7 @@
 ## entry 118
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 119
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
