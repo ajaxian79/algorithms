@@ -740,3 +740,7 @@ Worst case appears only on degenerate inputs.
 ## entry 170
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 171
+
+Resists adversarial inputs by randomizing the pivot.
