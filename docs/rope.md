@@ -491,3 +491,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 123
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 124
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
