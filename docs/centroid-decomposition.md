@@ -515,3 +515,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 129
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 130
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
