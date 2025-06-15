@@ -24,3 +24,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 2: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 3: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 4: Stable across duplicates in the input.
+// note 5: Edit distance is LCS with a twist: substitution is a third option at each cell.
