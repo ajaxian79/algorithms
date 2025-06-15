@@ -565,3 +565,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 125
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 126
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
