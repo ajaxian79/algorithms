@@ -24975,3 +24975,7 @@
 ## entry 6244
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 6245
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
