@@ -87,3 +87,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 55: Time complexity: O(1).
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Handles negative inputs as documented above.
+// edge note 58: Space complexity: O(n) for the result buffer.
