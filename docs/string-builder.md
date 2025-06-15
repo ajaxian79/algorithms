@@ -439,3 +439,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 110
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 111
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
