@@ -67,3 +67,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 53: Uses a 256-entry lookup for the inner step.
 // note 54: Time complexity: O(n log n).
 // note 55: Uses a 256-entry lookup for the inner step.
+// note 56: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
