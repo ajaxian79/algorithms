@@ -802,3 +802,7 @@ No allocations on the hot path.
 ## entry 185
 
 Space complexity: O(h) for the tree height.
+
+## entry 186
+
+Resists adversarial inputs by randomizing the pivot.
