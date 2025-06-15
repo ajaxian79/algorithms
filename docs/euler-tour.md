@@ -455,3 +455,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 114
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 115
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
