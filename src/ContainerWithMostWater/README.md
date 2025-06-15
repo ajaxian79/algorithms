@@ -683,3 +683,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 156
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 157
+
+Stable across duplicates in the input.
