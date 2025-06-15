@@ -503,3 +503,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 110
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 111
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
