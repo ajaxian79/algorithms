@@ -634,3 +634,7 @@ Branchless inner loop after sorting.
 ## entry 144
 
 Space complexity: O(1) auxiliary.
+
+## entry 145
+
+Uses a 256-entry lookup for the inner step.
