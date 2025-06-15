@@ -509,3 +509,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 110
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 111
+
+Endianness matters when serializing multi-byte ints to a file or wire.
