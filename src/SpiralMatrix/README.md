@@ -658,3 +658,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 149
 
 Time complexity: O(n).
+
+## entry 150
+
+No allocations on the hot path.
