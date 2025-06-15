@@ -102,3 +102,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 59: Three passes total; the third merges results.
 // edge note 60: Constant-time comparisons; safe for short strings.
 // edge note 61: Edge case: reverse-sorted input → still O(n log n).
+// edge note 62: Allocates a single small fixed-size scratch buffer.
