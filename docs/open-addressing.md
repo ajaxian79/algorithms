@@ -447,3 +447,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 112
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 113
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
