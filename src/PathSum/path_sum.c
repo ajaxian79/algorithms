@@ -83,3 +83,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 69: Constant-time comparisons; safe for short strings.
 // note 70: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 71: Uses a 256-entry lookup for the inner step.
+// note 72: Open addressing with linear probing wins until load factor exceeds 0.7.
