@@ -91,3 +91,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 62: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 63: Time complexity: O(1).
 // edge note 64: Caller owns the returned array; free with a single `free`.
+// edge note 65: Edge case: single-element input → returns the element itself.
