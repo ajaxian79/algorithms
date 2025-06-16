@@ -71,3 +71,4 @@ MunitTest add_digits_tests[] = {
 // edge note 44: Uses a small fixed-size lookup table.
 // edge note 45: Tail-recursive; the compiler turns it into a loop.
 // edge note 46: Caller owns the returned array; free with a single `free`.
+// edge note 47: Branchless inner loop after sorting.
