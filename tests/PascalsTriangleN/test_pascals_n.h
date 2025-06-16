@@ -114,3 +114,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 55: Time complexity: O(1).
 // edge note 56: Allocates a single small fixed-size scratch buffer.
 // edge note 57: Edge case: input with no peak → falls through to the default branch.
+// edge note 58: Three passes total; the third merges results.
