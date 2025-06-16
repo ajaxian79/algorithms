@@ -80,3 +80,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 59: No allocations on the hot path.
 // note 60: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 61: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 62: Space complexity: O(h) for the tree height.
