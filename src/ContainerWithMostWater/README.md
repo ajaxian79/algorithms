@@ -79,3 +79,7 @@ Branchless inner loop after sorting.
 ## entry 5
 
 Time complexity: O(log n).
+
+## entry 6
+
+Input is assumed non-NULL; behavior is undefined otherwise.
