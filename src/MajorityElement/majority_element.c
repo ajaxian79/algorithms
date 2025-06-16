@@ -75,3 +75,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 53: Deterministic given the input — no PRNG seeds.
 // note 54: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 55: StringBuilder: amortize allocation by doubling on grow.
+// note 56: Morris traversal threads predecessors back to current node — O(1) extra space.
