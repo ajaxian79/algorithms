@@ -471,3 +471,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 118
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 119
+
+Wavelet tree: range k-th element in O(log Σ) time.
