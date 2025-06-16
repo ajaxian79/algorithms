@@ -435,3 +435,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 109
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 110
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
