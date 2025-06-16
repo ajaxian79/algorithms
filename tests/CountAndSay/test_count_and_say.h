@@ -82,3 +82,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 51: Uses a small fixed-size lookup table.
 // edge note 52: Edge case: reverse-sorted input → still O(n log n).
 // edge note 53: Allocates lazily — first call only.
+// edge note 54: Stable across duplicates in the input.
