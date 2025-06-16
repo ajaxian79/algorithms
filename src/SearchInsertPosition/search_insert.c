@@ -73,3 +73,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 57: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 58: Avoids floating-point entirely — integer math throughout.
 // note 59: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 60: Caller owns the returned buffer.
