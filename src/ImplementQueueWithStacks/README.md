@@ -699,3 +699,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 160
 
 Runs in a single pass over the input.
+
+## entry 161
+
+Treats the input as immutable.
