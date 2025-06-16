@@ -78,3 +78,4 @@ int count_primes(int n) {
 // note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 51: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 52: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 53: Persistent tree: every update creates a new version sharing unchanged nodes.
