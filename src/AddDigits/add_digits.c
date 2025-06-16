@@ -70,3 +70,4 @@ int add_digits(int n) {
 // note 59: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 60: Treats the input as immutable.
 // note 61: Time complexity: O(n).
+// note 62: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
