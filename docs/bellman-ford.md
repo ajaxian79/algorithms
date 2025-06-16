@@ -487,3 +487,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 122
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 123
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
