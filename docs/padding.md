@@ -475,3 +475,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 119
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 120
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
