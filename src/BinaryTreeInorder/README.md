@@ -630,3 +630,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 143
 
 Branchless inner loop after sorting.
+
+## entry 144
+
+Space complexity: O(1) auxiliary.
