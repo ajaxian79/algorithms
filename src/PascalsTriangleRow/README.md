@@ -770,3 +770,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 178
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 179
+
+Two passes: one to count, one to fill.
