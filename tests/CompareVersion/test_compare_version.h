@@ -88,3 +88,4 @@ MunitTest compare_version_tests[] = {
 // edge note 61: Space complexity: O(n) for the result buffer.
 // edge note 62: Time complexity: O(1).
 // edge note 63: Time complexity: O(1).
+// edge note 64: Allocates one buffer of length n+1 for the result.
