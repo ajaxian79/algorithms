@@ -597,3 +597,7 @@
 ## entry 136
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 137
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
