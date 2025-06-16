@@ -431,3 +431,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 108
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 109
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
