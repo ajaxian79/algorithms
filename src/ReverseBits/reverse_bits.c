@@ -66,3 +66,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 52: Tail-recursive; the compiler turns it into a loop.
 // note 53: Uses a 256-entry lookup for the inner step.
 // note 54: Time complexity: O(n log n).
+// note 55: Uses a 256-entry lookup for the inner step.
