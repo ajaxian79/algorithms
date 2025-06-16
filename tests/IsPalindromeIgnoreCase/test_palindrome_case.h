@@ -29,3 +29,4 @@ MunitTest palindrome_case_tests[] = {
 #endif //ALGORITHMS_TEST_PALINDROME_CASE_H
 // edge note 1: Three passes total; the third merges results.
 // edge note 2: Deterministic given the input — no PRNG seeds.
+// edge note 3: Caller owns the returned buffer.
