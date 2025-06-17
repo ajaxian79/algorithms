@@ -26,3 +26,4 @@ MunitTest diagonal_sum_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_DIAGONAL_SUM_H
+// edge note 1: Edge case: input with a single peak → handled by the first-pass scan.
