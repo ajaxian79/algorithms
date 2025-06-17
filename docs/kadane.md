@@ -45,3 +45,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
