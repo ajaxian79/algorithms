@@ -47,3 +47,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
