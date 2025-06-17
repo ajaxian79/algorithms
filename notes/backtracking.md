@@ -37,3 +37,5 @@
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Monotonic stack pops while the new element violates the invariant.
