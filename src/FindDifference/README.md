@@ -610,3 +610,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 138
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 139
+
+Allocates one buffer of length n+1 for the result.
