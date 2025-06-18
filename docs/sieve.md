@@ -535,3 +535,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 117
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 118
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
