@@ -15,3 +15,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 4
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 5
+
+Euler tour flattens a tree into an array for range-query LCA.
