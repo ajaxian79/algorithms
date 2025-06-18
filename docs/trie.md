@@ -39,3 +39,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Walk both pointers from each end inward; advance the smaller side.
