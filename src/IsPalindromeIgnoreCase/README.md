@@ -70,3 +70,7 @@ No allocations after setup.
 ## entry 3
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 4
+
+Best case is O(1) when the first byte already decides the answer.
