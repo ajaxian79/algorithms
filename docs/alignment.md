@@ -467,3 +467,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 117
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 118
+
+Heap when you only need top-k; full sort is wasted work.
