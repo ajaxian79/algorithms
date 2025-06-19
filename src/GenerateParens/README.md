@@ -688,3 +688,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 156
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 157
+
+Runs in a single pass over the input.
