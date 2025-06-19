@@ -31,3 +31,5 @@ Heap when you only need top-k; full sort is wasted work.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
