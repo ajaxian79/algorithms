@@ -261,3 +261,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 52: Walk both pointers from each end inward; advance the smaller side.
 // note 53: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 55: Deterministic given the input — no PRNG seeds.
