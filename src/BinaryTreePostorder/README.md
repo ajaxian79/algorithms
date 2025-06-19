@@ -710,3 +710,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 163
 
 Two passes: one to count, one to fill.
+
+## entry 164
+
+Space complexity: O(1) auxiliary.
