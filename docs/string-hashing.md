@@ -37,3 +37,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Monotonic stack pops while the new element violates the invariant.
