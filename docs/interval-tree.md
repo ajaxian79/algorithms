@@ -403,3 +403,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 101
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 102
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
