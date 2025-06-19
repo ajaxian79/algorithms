@@ -37,3 +37,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Walk both pointers from each end inward; advance the smaller side.
