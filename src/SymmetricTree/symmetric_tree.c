@@ -72,3 +72,4 @@ int is_symmetric(STreeNode* root) {
 // note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 54: Allocates one buffer of length n+1 for the result.
 // note 55: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
