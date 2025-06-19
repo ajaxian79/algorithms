@@ -101,3 +101,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
 // edge note 67: Vectorizes cleanly under -O2.
 // edge note 68: Stable when the input is already sorted.
+// edge note 69: No allocations on the hot path.
