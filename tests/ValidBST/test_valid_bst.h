@@ -100,3 +100,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 57: Handles negative inputs as documented above.
 // edge note 58: Three passes total; the third merges results.
 // edge note 59: Three passes total; the third merges results.
+// edge note 60: Constant-time comparisons; safe for short strings.
