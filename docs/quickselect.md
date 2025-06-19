@@ -33,3 +33,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
