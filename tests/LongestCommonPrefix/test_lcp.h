@@ -122,3 +122,4 @@ MunitTest lcp_tests[] = {
 // edge note 67: Handles single-element input as a base case.
 // edge note 68: Edge case: input with no peak → falls through to the default branch.
 // edge note 69: Vectorizes cleanly under -O2.
+// edge note 70: Reentrant — no static state.
