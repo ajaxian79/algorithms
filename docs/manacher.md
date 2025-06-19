@@ -31,3 +31,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Monotonic stack pops while the new element violates the invariant.
