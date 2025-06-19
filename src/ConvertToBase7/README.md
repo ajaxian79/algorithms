@@ -744,3 +744,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 171
 
 Stable when the input is already sorted.
+
+## entry 172
+
+Deterministic given the input — no PRNG seeds.
