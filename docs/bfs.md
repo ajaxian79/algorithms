@@ -39,3 +39,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Greedy by end-time picks the most non-overlapping intervals.
