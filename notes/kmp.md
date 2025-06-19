@@ -23,3 +23,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
