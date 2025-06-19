@@ -33,3 +33,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
