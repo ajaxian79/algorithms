@@ -107,3 +107,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 64: Allocates lazily — first call only.
 // note 65: LIS via patience: each pile holds the smallest tail of length k.
 // note 66: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 67: Tarjan SCC: low-link values find strongly connected components in one DFS.
