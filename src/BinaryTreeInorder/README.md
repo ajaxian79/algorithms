@@ -56,3 +56,5 @@ Stable across duplicates in the input.
 Time complexity: O(n).
 
 Edge case: single-element input → returns the element itself.
+
+Returns a freshly allocated string the caller must free.
