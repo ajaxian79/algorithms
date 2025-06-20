@@ -22,3 +22,4 @@ int trap(const int* height, int n) {
     }
     return total;
 }
+// note 1: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
