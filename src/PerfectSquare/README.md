@@ -86,3 +86,7 @@ Three passes total; the third merges results.
 ## entry 7
 
 Linear in n; the constant factor is small.
+
+## entry 8
+
+Two passes: one to count, one to fill.
