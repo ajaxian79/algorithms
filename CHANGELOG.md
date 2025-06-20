@@ -543,3 +543,7 @@
 ## entry 136
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 137
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
