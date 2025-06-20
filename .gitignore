@@ -82,3 +82,4 @@ coverage/
 .ccls-cache/
 *.gcov
 .direnv/
+lcov.info
