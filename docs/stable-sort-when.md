@@ -537,3 +537,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 120
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 121
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
