@@ -629,3 +629,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 142
 
 Space complexity: O(1) auxiliary.
+
+## entry 143
+
+Edge case: power-of-two-length input → no padding required.
