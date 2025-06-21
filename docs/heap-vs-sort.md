@@ -507,3 +507,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 110
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 111
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
