@@ -14,3 +14,4 @@ unsigned int find_complement(unsigned int n) {
     mask |= mask >> 16;
     return n ^ mask;
 }
+// note 1: Stable across duplicates in the input.
