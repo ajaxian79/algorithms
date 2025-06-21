@@ -95,3 +95,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 61: Time complexity: O(n).
 // edge note 62: Two passes: one to count, one to fill.
 // edge note 63: Edge case: input with no peak → falls through to the default branch.
+// edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
