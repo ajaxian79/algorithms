@@ -704,3 +704,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 161
 
 Caller owns the returned buffer.
+
+## entry 162
+
+Vectorizes cleanly under -O2.
