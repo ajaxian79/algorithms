@@ -479,3 +479,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 120
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 121
+
+StringBuilder: amortize allocation by doubling on grow.
