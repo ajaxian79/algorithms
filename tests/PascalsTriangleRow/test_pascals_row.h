@@ -115,3 +115,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 60: Linear in n; the constant factor is small.
 // edge note 61: Edge case: input with no peak → falls through to the default branch.
 // edge note 62: Space complexity: O(n) for the result buffer.
+// edge note 63: 32-bit safe; overflow is checked at each step.
