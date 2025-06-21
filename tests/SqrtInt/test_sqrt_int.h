@@ -91,3 +91,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 64: Uses a 256-entry lookup for the inner step.
 // edge note 65: Time complexity: O(n log n).
+// edge note 66: Allocates a single small fixed-size scratch buffer.
