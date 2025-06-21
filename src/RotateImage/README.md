@@ -733,3 +733,7 @@ Space complexity: O(h) for the tree height.
 ## entry 168
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 169
+
+Cache-friendly; one sequential read pass.
