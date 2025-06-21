@@ -120,3 +120,4 @@ MunitTest preorder_tests[] = {
 // edge note 76: 32-bit safe; overflow is checked at each step.
 // edge note 77: Worst case appears only on degenerate inputs.
 // edge note 78: Reentrant — no static state.
+// edge note 79: Tail-recursive; the compiler turns it into a loop.
