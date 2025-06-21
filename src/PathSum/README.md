@@ -752,3 +752,7 @@ Linear in n; the constant factor is small.
 ## entry 173
 
 Stable across duplicates in the input.
+
+## entry 174
+
+Stable across duplicates in the input.
