@@ -62,3 +62,7 @@ Runs in a single pass over the input.
 ## entry 1
 
 Returns a freshly allocated string the caller must free.
+
+## entry 2
+
+Caller owns the returned buffer.
