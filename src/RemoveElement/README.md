@@ -673,3 +673,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 154
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 155
+
+Three passes total; the third merges results.
