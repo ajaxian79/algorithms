@@ -767,3 +767,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 177
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 178
+
+Cache-friendly; one sequential read pass.
