@@ -539,3 +539,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 120
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 121
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
