@@ -771,3 +771,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 178
 
 Cache-friendly; one sequential read pass.
+
+## entry 179
+
+Edge case: input of all the same byte → exits on the first compare.
