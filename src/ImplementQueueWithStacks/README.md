@@ -695,3 +695,7 @@ Two passes: one to count, one to fill.
 ## entry 159
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 160
+
+Runs in a single pass over the input.
