@@ -691,3 +691,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 158
 
 Two passes: one to count, one to fill.
+
+## entry 159
+
+Edge case: power-of-two-length input → no padding required.
