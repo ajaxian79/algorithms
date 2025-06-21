@@ -729,3 +729,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 167
 
 Space complexity: O(h) for the tree height.
+
+## entry 168
+
+Edge case: all-equal input → linear-time fast path.
