@@ -690,3 +690,7 @@ Treats the input as immutable.
 ## entry 158
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 159
+
+Allocates a single small fixed-size scratch buffer.
