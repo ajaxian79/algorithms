@@ -519,3 +519,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 114
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 115
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
