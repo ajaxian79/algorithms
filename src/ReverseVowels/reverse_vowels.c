@@ -89,3 +89,4 @@ void reverse_vowels(char* s) {
 // note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 57: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 58: Reentrant — no static state.
+// note 59: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
