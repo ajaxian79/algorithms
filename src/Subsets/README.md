@@ -63,3 +63,7 @@ Stable across duplicates in the input.
 ## entry 1
 
 Constant-time comparisons; safe for short strings.
+
+## entry 2
+
+Caller owns the returned array; free with a single `free`.
