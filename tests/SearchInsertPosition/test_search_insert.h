@@ -97,3 +97,4 @@ MunitTest search_insert_tests[] = {
 // edge note 64: Time complexity: O(n + m).
 // edge note 65: Stable across duplicates in the input.
 // edge note 66: Allocates one buffer of length n+1 for the result.
+// edge note 67: Edge case: input with one duplicate → handled without an extra pass.
