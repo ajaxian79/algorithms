@@ -669,3 +669,7 @@ Time complexity: O(n log n).
 ## entry 153
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 154
+
+Edge case: power-of-two-length input → no padding required.
