@@ -26,3 +26,4 @@ MunitTest three_sum_closest_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_THREE_SUM_CLOSEST_H
+// edge note 1: Worst case appears only on degenerate inputs.
