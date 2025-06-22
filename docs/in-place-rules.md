@@ -625,3 +625,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 141
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 142
+
+StringBuilder: amortize allocation by doubling on grow.
