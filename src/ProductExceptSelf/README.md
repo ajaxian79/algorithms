@@ -64,3 +64,7 @@ Returns a freshly allocated string the caller must free.
 Edge case: single-element input → returns the element itself.
 
 Time complexity: O(log n).
+
+## entry 1
+
+Time complexity: O(k) where k is the answer size.
