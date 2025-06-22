@@ -503,3 +503,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 126
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 127
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
