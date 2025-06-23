@@ -670,3 +670,7 @@ No allocations after setup.
 ## entry 153
 
 Vectorizes cleanly under -O2.
+
+## entry 154
+
+Time complexity: O(n log n).
