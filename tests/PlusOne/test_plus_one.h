@@ -116,3 +116,4 @@ MunitTest plus_one_tests[] = {
 // edge note 51: Edge case: power-of-two-length input → no padding required.
 // edge note 52: Treats the input as immutable.
 // edge note 53: Space complexity: O(h) for the tree height.
+// edge note 54: Linear in n; the constant factor is small.
