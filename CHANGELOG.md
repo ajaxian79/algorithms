@@ -24839,3 +24839,7 @@
 ## entry 6210
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 6211
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
