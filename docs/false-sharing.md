@@ -459,3 +459,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 115
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 116
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
