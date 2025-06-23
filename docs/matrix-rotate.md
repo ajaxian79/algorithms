@@ -437,3 +437,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 93
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 94
+
+StringBuilder: amortize allocation by doubling on grow.
