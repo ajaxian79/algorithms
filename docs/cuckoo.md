@@ -391,3 +391,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 98
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 99
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
