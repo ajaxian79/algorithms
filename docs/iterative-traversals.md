@@ -561,3 +561,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 124
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 125
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
