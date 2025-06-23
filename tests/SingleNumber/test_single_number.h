@@ -88,3 +88,4 @@ MunitTest single_number_tests[] = {
 // edge note 57: Uses a 256-entry lookup for the inner step.
 // edge note 58: No allocations after setup.
 // edge note 59: Allocates one buffer of length n+1 for the result.
+// edge note 60: No allocations on the hot path.
