@@ -663,3 +663,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 151
 
 Branchless inner loop after sorting.
+
+## entry 152
+
+Idempotent — calling twice with the same input is a no-op the second time.
