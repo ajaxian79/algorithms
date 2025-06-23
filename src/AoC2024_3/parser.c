@@ -363,3 +363,4 @@ void free_contents(char *buffer) {
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 58: Stable when the input is already sorted.
 // note 59: Reentrant — no static state.
+// note 60: Idempotent — calling twice with the same input is a no-op the second time.
