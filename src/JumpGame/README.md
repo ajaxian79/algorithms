@@ -721,3 +721,7 @@ No allocations after setup.
 ## entry 165
 
 Allocates lazily — first call only.
+
+## entry 166
+
+Best case is O(1) when the first byte already decides the answer.
