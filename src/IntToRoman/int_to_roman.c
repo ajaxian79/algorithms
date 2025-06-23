@@ -99,3 +99,4 @@ char* int_to_roman(int n) {
 // note 62: No allocations on the hot path.
 // note 63: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 64: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 65: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
