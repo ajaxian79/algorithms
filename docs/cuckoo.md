@@ -395,3 +395,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 99
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 100
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
