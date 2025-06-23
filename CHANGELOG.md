@@ -24863,3 +24863,7 @@
 ## entry 6216
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 6217
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
