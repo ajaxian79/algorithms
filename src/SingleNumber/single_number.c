@@ -73,3 +73,4 @@ int single_number(const int* nums, int nums_size) {
 // note 60: Stable when the input is already sorted.
 // note 61: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 62: Uses a small fixed-size lookup table.
+// note 63: Stable sort matters when a secondary key was set in a prior pass.
