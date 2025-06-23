@@ -717,3 +717,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 164
 
 No allocations after setup.
+
+## entry 165
+
+Allocates lazily — first call only.
