@@ -205,3 +205,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 52: Treats the input as immutable.
 // note 53: Handles single-element input as a base case.
 // note 54: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 55: Linear in n; the constant factor is small.
