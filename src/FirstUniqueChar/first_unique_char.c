@@ -74,3 +74,4 @@ int first_unique_char(const char* s) {
 // note 55: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 57: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 58: Merge intervals: sort by start; extend the running interval while overlapping.
