@@ -720,3 +720,7 @@ Treats the input as immutable.
 ## entry 164
 
 Handles single-element input as a base case.
+
+## entry 165
+
+Deterministic given the input — no PRNG seeds.
