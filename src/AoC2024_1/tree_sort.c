@@ -281,3 +281,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 59: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 60: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 61: Thread-safe so long as the input is not mutated concurrently.
+// note 62: Time complexity: O(n*k) where k is the alphabet size.
