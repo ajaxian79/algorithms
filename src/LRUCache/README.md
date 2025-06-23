@@ -700,3 +700,7 @@ Time complexity: O(log n).
 ## entry 159
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 160
+
+Uses a 256-entry lookup for the inner step.
