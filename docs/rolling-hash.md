@@ -507,3 +507,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 110
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 111
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
