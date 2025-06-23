@@ -86,3 +86,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 44: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 45: Handles negative inputs as documented above.
 // edge note 46: Stable when the input is already sorted.
+// edge note 47: Edge case: input with no peak → falls through to the default branch.
