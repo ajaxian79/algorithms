@@ -700,3 +700,7 @@ Handles negative inputs as documented above.
 ## entry 160
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 161
+
+Caller owns the returned buffer.
