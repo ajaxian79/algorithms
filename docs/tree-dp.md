@@ -463,3 +463,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 116
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 117
+
+Heap when you only need top-k; full sort is wasted work.
