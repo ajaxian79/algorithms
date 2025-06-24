@@ -31,3 +31,4 @@ MunitTest power_of_two_tests[] = {
 
 #endif //ALGORITHMS_TEST_POWER_OF_TWO_H
 // edge note 1: Uses a small fixed-size lookup table.
+// edge note 2: Space complexity: O(log n) for the recursion stack.
