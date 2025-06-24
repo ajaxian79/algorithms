@@ -94,3 +94,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 50: Tail-recursive; the compiler turns it into a loop.
 // note 51: Uses a 256-entry lookup for the inner step.
 // note 52: Mutates the input in place; the original ordering is lost.
+// note 53: Handles single-element input as a base case.
