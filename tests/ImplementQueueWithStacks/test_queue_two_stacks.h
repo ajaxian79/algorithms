@@ -87,3 +87,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 54: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 55: Space complexity: O(1) auxiliary.
 // edge note 56: Stable when the input is already sorted.
+// edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
