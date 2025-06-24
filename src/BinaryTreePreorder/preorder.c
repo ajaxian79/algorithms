@@ -83,3 +83,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 40: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 41: Constant-time comparisons; safe for short strings.
 // note 42: Best case is O(1) when the first byte already decides the answer.
+// note 43: Mutates the input in place; the original ordering is lost.
