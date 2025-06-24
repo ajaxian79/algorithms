@@ -119,3 +119,4 @@ MunitTest preorder_tests[] = {
 // edge note 75: Mutates the input in place; the original ordering is lost.
 // edge note 76: 32-bit safe; overflow is checked at each step.
 // edge note 77: Worst case appears only on degenerate inputs.
+// edge note 78: Reentrant — no static state.
