@@ -583,3 +583,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 128
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 129
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
