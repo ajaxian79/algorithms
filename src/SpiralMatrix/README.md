@@ -654,3 +654,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 148
 
 Space complexity: O(n) for the result buffer.
+
+## entry 149
+
+Time complexity: O(n).
