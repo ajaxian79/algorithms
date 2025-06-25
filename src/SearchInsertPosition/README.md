@@ -646,3 +646,7 @@ Handles single-element input as a base case.
 ## entry 147
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 148
+
+Idempotent — calling twice with the same input is a no-op the second time.
