@@ -471,3 +471,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 118
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 119
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
