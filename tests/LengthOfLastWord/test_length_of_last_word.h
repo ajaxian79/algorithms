@@ -80,3 +80,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 53: Caller owns the returned array; free with a single `free`.
 // edge note 54: Time complexity: O(log n).
 // edge note 55: 32-bit safe; overflow is checked at each step.
+// edge note 56: Time complexity: O(1).
