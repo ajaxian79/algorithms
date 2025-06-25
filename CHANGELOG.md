@@ -24779,3 +24779,7 @@
 ## entry 6195
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 6196
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
