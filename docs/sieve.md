@@ -531,3 +531,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 116
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 117
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
