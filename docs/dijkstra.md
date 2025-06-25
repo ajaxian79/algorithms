@@ -447,3 +447,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 112
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 113
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
