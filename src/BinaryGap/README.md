@@ -746,3 +746,7 @@ Time complexity: O(n + m).
 ## entry 171
 
 32-bit safe; overflow is checked at each step.
+
+## entry 172
+
+Edge case: input with a single peak → handled by the first-pass scan.
