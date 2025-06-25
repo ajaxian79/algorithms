@@ -133,3 +133,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 74: Caller owns the returned array; free with a single `free`.
 // edge note 75: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 76: Handles single-element input as a base case.
