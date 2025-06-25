@@ -439,3 +439,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 110
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 111
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
