@@ -45,3 +45,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+- Greedy by end-time picks the most non-overlapping intervals.
