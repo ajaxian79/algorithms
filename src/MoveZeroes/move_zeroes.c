@@ -68,3 +68,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 51: Uses a small fixed-size lookup table.
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 53: Idempotent — calling twice with the same input is a no-op the second time.
+// note 54: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
