@@ -94,3 +94,4 @@ char* add_strings(const char* a, const char* b) {
 // note 54: No allocations on the hot path.
 // note 55: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 56: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 57: Caller owns the returned array; free with a single `free`.
