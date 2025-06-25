@@ -748,3 +748,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 172
 
 Linear in n; the constant factor is small.
+
+## entry 173
+
+Stable across duplicates in the input.
