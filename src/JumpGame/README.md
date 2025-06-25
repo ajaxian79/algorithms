@@ -713,3 +713,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 163
 
 32-bit safe; overflow is checked at each step.
+
+## entry 164
+
+No allocations after setup.
