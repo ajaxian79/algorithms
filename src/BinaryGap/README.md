@@ -750,3 +750,7 @@ Time complexity: O(n + m).
 ## entry 172
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 173
+
+Handles single-element input as a base case.
