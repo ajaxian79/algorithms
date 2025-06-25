@@ -754,3 +754,7 @@ Time complexity: O(n log n).
 ## entry 174
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 175
+
+Edge case: maximum-length input → still fits in 32-bit indices.
