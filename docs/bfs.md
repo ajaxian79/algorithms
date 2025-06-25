@@ -35,3 +35,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
