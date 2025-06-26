@@ -606,3 +606,7 @@ Cache-friendly; one sequential read pass.
 ## entry 137
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 138
+
+Edge case: input of all the same byte → exits on the first compare.
