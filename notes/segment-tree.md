@@ -519,3 +519,7 @@
 ## entry 113
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 114
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
