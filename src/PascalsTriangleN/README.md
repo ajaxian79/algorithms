@@ -650,3 +650,7 @@ Allocates lazily — first call only.
 ## entry 147
 
 No allocations on the hot path.
+
+## entry 148
+
+Time complexity: O(n + m).
