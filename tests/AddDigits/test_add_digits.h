@@ -69,3 +69,4 @@ MunitTest add_digits_tests[] = {
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 43: Stable when the input is already sorted.
 // edge note 44: Uses a small fixed-size lookup table.
+// edge note 45: Tail-recursive; the compiler turns it into a loop.
