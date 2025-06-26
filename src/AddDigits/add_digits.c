@@ -69,3 +69,4 @@ int add_digits(int n) {
 // note 58: Space complexity: O(log n) for the recursion stack.
 // note 59: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 60: Treats the input as immutable.
+// note 61: Time complexity: O(n).
