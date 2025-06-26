@@ -451,3 +451,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 113
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 114
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
