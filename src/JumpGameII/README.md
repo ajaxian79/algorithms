@@ -58,3 +58,5 @@ Edge case: all-equal input → linear-time fast path.
 Edge case: already-sorted input → no swaps performed.
 
 Space complexity: O(n) for the result buffer.
+
+Handles negative inputs as documented above.
