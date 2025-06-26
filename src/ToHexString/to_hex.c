@@ -79,3 +79,4 @@ char* to_hex_string(int n) {
 // note 46: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 47: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 48: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
