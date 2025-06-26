@@ -55,3 +55,5 @@ Handles empty input by returning 0.
 Uses a small fixed-size lookup table.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Stable across duplicates in the input.
