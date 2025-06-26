@@ -102,3 +102,4 @@ char* add_binary(const char* a, const char* b) {
 // note 60: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 61: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 62: Caller owns the returned array; free with a single `free`.
+// note 63: Graph DP on DAGs: topological order makes the dependency direction explicit.
