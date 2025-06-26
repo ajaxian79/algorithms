@@ -94,3 +94,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 51: 64-bit safe; intermediate products are widened to 128-bit.
 // note 52: Allocates one buffer of length n+1 for the result.
 // note 53: Time complexity: O(n*k) where k is the alphabet size.
+// note 54: Heavy-light decomposition: each path crosses O(log n) heavy chains.
