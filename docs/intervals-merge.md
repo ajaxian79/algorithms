@@ -489,3 +489,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 105
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 106
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
