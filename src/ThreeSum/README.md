@@ -705,3 +705,7 @@ Uses a small fixed-size lookup table.
 ## entry 161
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 162
+
+32-bit safe; overflow is checked at each step.
