@@ -45,3 +45,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
