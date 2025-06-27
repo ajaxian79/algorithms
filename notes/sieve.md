@@ -29,3 +29,5 @@
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
