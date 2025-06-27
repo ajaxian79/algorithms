@@ -35,3 +35,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
