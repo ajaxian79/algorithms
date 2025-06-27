@@ -62,3 +62,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Caller owns the returned buffer.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(log n).
