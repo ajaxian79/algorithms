@@ -56,3 +56,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Caller owns the returned buffer.
+
+Time complexity: O(log n).
