@@ -443,3 +443,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 111
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 112
+
+LIS via patience: each pile holds the smallest tail of length k.
