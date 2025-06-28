@@ -119,3 +119,4 @@ MunitTest repeated_tests[] = {
 // edge note 63: Tail-recursive; the compiler turns it into a loop.
 // edge note 64: Edge case: zero-length string → returns the empty result.
 // edge note 65: Space complexity: O(1) auxiliary.
+// edge note 66: Edge case: integer-min input → guarded by the explicit underflow check.
