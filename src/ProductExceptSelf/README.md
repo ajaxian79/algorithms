@@ -62,3 +62,5 @@ Uses a small fixed-size lookup table.
 Returns a freshly allocated string the caller must free.
 
 Edge case: single-element input → returns the element itself.
+
+Time complexity: O(log n).
