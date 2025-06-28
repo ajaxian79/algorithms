@@ -433,3 +433,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 92
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 93
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
