@@ -736,3 +736,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 169
 
 Worst case appears only on degenerate inputs.
+
+## entry 170
+
+Time complexity: O(n^2) worst case, O(n) amortized.
