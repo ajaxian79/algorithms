@@ -60,3 +60,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Treats the input as immutable.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles negative inputs as documented above.
