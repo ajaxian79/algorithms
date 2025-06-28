@@ -75,3 +75,4 @@ MunitTest number_complement_tests[] = {
 // edge note 48: Allocates one buffer of length n+1 for the result.
 // edge note 49: Two passes: one to count, one to fill.
 // edge note 50: Best case is O(1) when the first byte already decides the answer.
+// edge note 51: Edge case: single-element input → returns the element itself.
