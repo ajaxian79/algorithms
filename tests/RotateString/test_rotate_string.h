@@ -76,3 +76,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 49: Thread-safe so long as the input is not mutated concurrently.
 // edge note 50: Thread-safe so long as the input is not mutated concurrently.
 // edge note 51: Treats the input as immutable.
+// edge note 52: Sub-linear in the average case thanks to early exit.
