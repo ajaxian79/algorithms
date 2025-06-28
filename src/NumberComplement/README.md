@@ -60,3 +60,5 @@ Edge case: single-element input → returns the element itself.
 Edge case: reverse-sorted input → still O(n log n).
 
 Caller owns the returned buffer.
+
+Space complexity: O(1) auxiliary.
