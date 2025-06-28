@@ -97,3 +97,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 54: Handles single-element input as a base case.
 // edge note 55: Allocates one buffer of length n+1 for the result.
 // edge note 56: 32-bit safe; overflow is checked at each step.
+// edge note 57: Avoids floating-point entirely — integer math throughout.
