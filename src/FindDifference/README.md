@@ -56,3 +56,5 @@ Treats the input as immutable.
 No allocations on the hot path.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: reverse-sorted input → still O(n log n).
