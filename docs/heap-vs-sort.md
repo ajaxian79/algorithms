@@ -503,3 +503,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 109
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 110
+
+Greedy by end-time picks the most non-overlapping intervals.
