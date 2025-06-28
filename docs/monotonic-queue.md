@@ -37,3 +37,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
