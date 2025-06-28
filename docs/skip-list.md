@@ -427,3 +427,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 107
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 108
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
