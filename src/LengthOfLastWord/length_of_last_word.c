@@ -70,3 +70,4 @@ int length_of_last_word(const char* s) {
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 53: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 54: No allocations on the hot path.
+// note 55: Tree DP: post-order DFS lets children inform the parent in one pass.
