@@ -86,3 +86,4 @@ void reverse_string(char* s, int s_size) {
 // note 69: 32-bit safe; overflow is checked at each step.
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 71: Articulation points: same DFS as bridges, with a slightly different test.
+// note 72: Idempotent — calling twice with the same input is a no-op the second time.
