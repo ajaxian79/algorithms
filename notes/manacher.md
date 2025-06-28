@@ -43,3 +43,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
