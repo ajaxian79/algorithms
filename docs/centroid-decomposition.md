@@ -507,3 +507,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 127
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 128
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
