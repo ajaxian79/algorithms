@@ -696,3 +696,7 @@ Stable across duplicates in the input.
 ## entry 158
 
 Time complexity: O(log n).
+
+## entry 159
+
+Avoids floating-point entirely — integer math throughout.
