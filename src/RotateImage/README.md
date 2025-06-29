@@ -721,3 +721,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 165
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 166
+
+Resists adversarial inputs by randomizing the pivot.
