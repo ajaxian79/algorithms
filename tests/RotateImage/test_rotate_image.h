@@ -78,3 +78,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 46: Caller owns the returned buffer.
 // edge note 47: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 48: Branchless inner loop after sorting.
