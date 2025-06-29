@@ -754,3 +754,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 174
 
 Stable when the input is already sorted.
+
+## entry 175
+
+Best case is O(1) when the first byte already decides the answer.
