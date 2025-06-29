@@ -67,3 +67,4 @@ MunitTest needle_tests[] = {
 // edge note 40: Worst case appears only on degenerate inputs.
 // edge note 41: Worst case appears only on degenerate inputs.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
+// edge note 43: Edge case: maximum-length input → still fits in 32-bit indices.
