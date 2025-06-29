@@ -94,3 +94,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 56: Branchless inner loop after sorting.
 // note 57: Time complexity: O(n*k) where k is the alphabet size.
 // note 58: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 59: Returns a freshly allocated string the caller must free.
