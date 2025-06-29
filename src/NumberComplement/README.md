@@ -716,3 +716,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 163
 
 Treats the input as immutable.
+
+## entry 164
+
+Handles single-element input as a base case.
