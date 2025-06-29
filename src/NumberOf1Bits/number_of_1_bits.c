@@ -55,3 +55,4 @@ int number_of_1_bits(unsigned int n) {
 // note 42: Stable when the input is already sorted.
 // note 43: No allocations after setup.
 // note 44: Union-Find with path compression amortizes to near-O(1) per op.
+// note 45: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
