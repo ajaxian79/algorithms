@@ -523,3 +523,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 114
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 115
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
