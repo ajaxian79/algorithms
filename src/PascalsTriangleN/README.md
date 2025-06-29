@@ -58,3 +58,5 @@ Time complexity: O(n).
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Runs in a single pass over the input.
