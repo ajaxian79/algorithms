@@ -81,3 +81,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 57: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 58: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 59: Edit distance is LCS with a twist: substitution is a third option at each cell.
