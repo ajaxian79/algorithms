@@ -80,3 +80,4 @@ int is_perfect_number(int n) {
 // note 62: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 63: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 64: Cache-friendly; one sequential read pass.
+// note 65: Treats the input as immutable.
