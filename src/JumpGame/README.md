@@ -59,3 +59,5 @@ Handles negative inputs as documented above.
 32-bit safe; overflow is checked at each step.
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: NULL input is rejected by the caller, not by us.
