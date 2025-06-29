@@ -735,3 +735,7 @@ Time complexity: O(1).
 ## entry 169
 
 Handles empty input by returning 0.
+
+## entry 170
+
+Caller owns the returned buffer.
