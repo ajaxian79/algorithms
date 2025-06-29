@@ -60,3 +60,5 @@ Time complexity: O(log n).
 Tail-recursive; the compiler turns it into a loop.
 
 Time complexity: O(1).
+
+Uses a small fixed-size lookup table.
