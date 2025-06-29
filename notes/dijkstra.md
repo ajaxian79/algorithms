@@ -431,3 +431,7 @@
 ## entry 108
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 109
+
+- Union-Find with path compression amortizes to near-O(1) per op.
