@@ -43,3 +43,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
