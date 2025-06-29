@@ -72,3 +72,4 @@ int single_number(const int* nums, int nums_size) {
 // note 59: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 60: Stable when the input is already sorted.
 // note 61: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 62: Uses a small fixed-size lookup table.
