@@ -682,3 +682,7 @@ No allocations on the hot path.
 ## entry 156
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 157
+
+Treats the input as immutable.
