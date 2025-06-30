@@ -415,3 +415,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 104
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 105
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
