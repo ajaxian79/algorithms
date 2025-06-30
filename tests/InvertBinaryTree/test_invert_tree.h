@@ -85,3 +85,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 43: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 44: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 45: Handles negative inputs as documented above.
+// edge note 46: Stable when the input is already sorted.
