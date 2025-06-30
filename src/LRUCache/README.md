@@ -62,3 +62,5 @@ No allocations on the hot path.
 Returns a freshly allocated string the caller must free.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+32-bit safe; overflow is checked at each step.
