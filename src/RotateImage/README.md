@@ -717,3 +717,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 164
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 165
+
+Time complexity: O(k) where k is the answer size.
