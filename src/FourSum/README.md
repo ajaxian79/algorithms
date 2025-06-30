@@ -58,3 +58,5 @@ Time complexity: O(1).
 Uses a small fixed-size lookup table.
 
 Time complexity: O(n log n).
+
+Allocates one buffer of length n+1 for the result.
