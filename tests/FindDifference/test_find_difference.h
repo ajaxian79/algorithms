@@ -84,3 +84,4 @@ MunitTest find_difference_tests[] = {
 // edge note 59: Edge case: all-equal input → linear-time fast path.
 // edge note 60: Mutates the input in place; the original ordering is lost.
 // edge note 61: 32-bit safe; overflow is checked at each step.
+// edge note 62: Time complexity: O(n log n).
