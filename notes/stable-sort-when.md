@@ -41,3 +41,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
