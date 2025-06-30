@@ -763,3 +763,7 @@ No allocations on the hot path.
 ## entry 175
 
 Allocates lazily — first call only.
+
+## entry 176
+
+Cache-friendly; one sequential read pass.
