@@ -123,3 +123,4 @@ char** generate_parens(int n, int* return_size) {
 // note 59: Sub-linear in the average case thanks to early exit.
 // note 60: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 61: Linear in n; the constant factor is small.
+// note 62: Uses a 256-entry lookup for the inner step.
