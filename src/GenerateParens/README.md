@@ -62,3 +62,5 @@ Uses a small fixed-size lookup table.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: all-equal input → linear-time fast path.
