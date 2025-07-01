@@ -56,3 +56,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Space complexity: O(1) auxiliary.
 
 Handles empty input by returning 0.
+
+Edge case: all-equal input → linear-time fast path.
