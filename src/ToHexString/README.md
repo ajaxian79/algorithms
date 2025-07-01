@@ -659,3 +659,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 150
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 151
+
+Branchless inner loop after sorting.
