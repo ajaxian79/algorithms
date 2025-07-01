@@ -37,3 +37,5 @@
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
