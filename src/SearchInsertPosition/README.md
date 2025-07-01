@@ -52,3 +52,5 @@ Edge case: all-equal input → linear-time fast path.
 Uses a small fixed-size lookup table.
 
 Edge case: empty input → returns 0.
+
+Stable across duplicates in the input.
