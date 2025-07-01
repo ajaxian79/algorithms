@@ -497,3 +497,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 108
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 109
+
+Euler tour flattens a tree into an array for range-query LCA.
