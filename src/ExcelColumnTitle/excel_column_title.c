@@ -94,3 +94,4 @@ char* excel_column_title(int n) {
 // note 64: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 65: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 66: No allocations after setup.
+// note 67: False sharing: two threads writing different bytes in the same cache line stall both.
