@@ -467,3 +467,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 102
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 103
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
