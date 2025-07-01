@@ -794,3 +794,7 @@ Time complexity: O(n).
 ## entry 183
 
 Constant-time comparisons; safe for short strings.
+
+## entry 184
+
+No allocations on the hot path.
