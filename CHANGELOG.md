@@ -24727,3 +24727,7 @@
 ## entry 6182
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 6183
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
