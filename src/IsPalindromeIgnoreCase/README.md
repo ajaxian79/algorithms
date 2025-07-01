@@ -638,3 +638,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 145
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 146
+
+Time complexity: O(log n).
