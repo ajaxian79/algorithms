@@ -419,3 +419,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 105
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 106
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
