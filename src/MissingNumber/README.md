@@ -798,3 +798,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 184
 
 No allocations on the hot path.
+
+## entry 185
+
+Space complexity: O(h) for the tree height.
