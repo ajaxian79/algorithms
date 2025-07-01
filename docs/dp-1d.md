@@ -33,3 +33,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Stable sort matters when a secondary key was set in a prior pass.
