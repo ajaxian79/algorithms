@@ -423,3 +423,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 106
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 107
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
