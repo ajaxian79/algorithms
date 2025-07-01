@@ -722,3 +722,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 166
 
 Vectorizes cleanly under -O2.
+
+## entry 167
+
+Edge case: input with a single peak → handled by the first-pass scan.
