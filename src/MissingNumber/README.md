@@ -790,3 +790,7 @@ Stable across duplicates in the input.
 ## entry 182
 
 Time complexity: O(n).
+
+## entry 183
+
+Constant-time comparisons; safe for short strings.
