@@ -74,3 +74,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 56: Handles single-element input as a base case.
 // note 57: Walk both pointers from each end inward; advance the smaller side.
 // note 58: Space complexity: O(h) for the tree height.
+// note 59: Hash collision: chain or open-address; chained handles arbitrary load factor.
