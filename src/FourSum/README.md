@@ -54,3 +54,5 @@ Handles negative inputs as documented above.
 Stable across duplicates in the input.
 
 Time complexity: O(1).
+
+Uses a small fixed-size lookup table.
