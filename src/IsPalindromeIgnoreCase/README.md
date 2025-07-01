@@ -634,3 +634,7 @@ Worst case appears only on degenerate inputs.
 ## entry 144
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 145
+
+Resists adversarial inputs by randomizing the pivot.
