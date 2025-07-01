@@ -116,3 +116,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Mutates the input in place; the original ordering is lost.
 // edge note 58: Handles negative inputs as documented above.
+// edge note 59: Edge case: already-sorted input → no swaps performed.
