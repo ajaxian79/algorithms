@@ -664,3 +664,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 150
 
 Handles negative inputs as documented above.
+
+## entry 151
+
+Edge case: already-sorted input → no swaps performed.
