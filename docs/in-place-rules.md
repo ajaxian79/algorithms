@@ -617,3 +617,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 139
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 140
+
+Interval DP: solve all `[l, r]` ranges from short to long.
