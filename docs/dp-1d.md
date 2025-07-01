@@ -499,3 +499,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 108
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 109
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
