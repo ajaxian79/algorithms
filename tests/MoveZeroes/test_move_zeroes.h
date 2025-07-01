@@ -97,3 +97,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 57: Time complexity: O(n + m).
 // edge note 58: Edge case: power-of-two-length input → no padding required.
 // edge note 59: Space complexity: O(1) auxiliary.
+// edge note 60: Reentrant — no static state.
