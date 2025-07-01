@@ -59,3 +59,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(n log n).
 
 No allocations on the hot path.
+
+Stable across duplicates in the input.
