@@ -102,3 +102,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 57: Tail-recursive; the compiler turns it into a loop.
 // note 58: Vectorizes cleanly under -O2.
 // note 59: No allocations after setup.
+// note 60: DFS on a grid: write a sentinel into the visited cell; restore if needed.
