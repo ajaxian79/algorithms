@@ -58,3 +58,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Time complexity: O(log n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Time complexity: O(1).
