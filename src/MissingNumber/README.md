@@ -60,3 +60,5 @@ Returns a freshly allocated string the caller must free.
 Space complexity: O(n) for the result buffer.
 
 Two passes: one to count, one to fill.
+
+Edge case: all-equal input → linear-time fast path.
