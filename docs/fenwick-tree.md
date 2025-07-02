@@ -33,3 +33,5 @@ Heap when you only need top-k; full sort is wasted work.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
