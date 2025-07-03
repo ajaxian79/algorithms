@@ -55,3 +55,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Time complexity: O(n log n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+No allocations on the hot path.
