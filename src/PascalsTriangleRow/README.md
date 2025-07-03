@@ -56,3 +56,5 @@ Allocates one buffer of length n+1 for the result.
 Space complexity: O(n) for the result buffer.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(1).
