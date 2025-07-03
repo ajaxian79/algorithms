@@ -59,3 +59,5 @@ Two passes: one to count, one to fill.
 Uses a small fixed-size lookup table.
 
 Stable across duplicates in the input.
+
+Handles empty input by returning 0.
