@@ -58,3 +58,5 @@ Time complexity: O(n).
 Edge case: NULL input is rejected by the caller, not by us.
 
 Treats the input as immutable.
+
+Edge case: already-sorted input → no swaps performed.
