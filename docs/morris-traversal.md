@@ -27,3 +27,5 @@ Monotonic stack pops while the new element violates the invariant.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Stable sort matters when a secondary key was set in a prior pass.
