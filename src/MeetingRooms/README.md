@@ -674,3 +674,7 @@ Caller owns the returned buffer.
 ## entry 154
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 155
+
+No allocations on the hot path.
