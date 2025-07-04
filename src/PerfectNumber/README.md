@@ -59,3 +59,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Edge case: all-equal input → linear-time fast path.
 
 Runs in a single pass over the input.
+
+Stable across duplicates in the input.
