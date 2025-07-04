@@ -431,3 +431,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 108
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 109
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
