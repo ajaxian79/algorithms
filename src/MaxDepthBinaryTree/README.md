@@ -53,3 +53,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(n log n).
+
+Time complexity: O(n).
