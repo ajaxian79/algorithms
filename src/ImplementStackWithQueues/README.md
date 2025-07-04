@@ -696,3 +696,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 159
 
 Handles negative inputs as documented above.
+
+## entry 160
+
+Time complexity: O(k) where k is the answer size.
