@@ -531,3 +531,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 116
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 117
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
