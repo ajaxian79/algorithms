@@ -519,3 +519,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 113
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 114
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
