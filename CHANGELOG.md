@@ -24651,3 +24651,7 @@
 ## entry 6163
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 6164
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
