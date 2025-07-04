@@ -52,3 +52,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Returns a freshly allocated string the caller must free.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(1).
