@@ -63,3 +63,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 51: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 52: Space complexity: O(h) for the tree height.
 // note 53: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 54: Space complexity: O(n) for the result buffer.
