@@ -81,3 +81,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 53: Three passes total; the third merges results.
 // edge note 54: Two passes: one to count, one to fill.
 // edge note 55: Avoids floating-point entirely — integer math throughout.
+// edge note 56: Allocates a single small fixed-size scratch buffer.
