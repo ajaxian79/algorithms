@@ -716,3 +716,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 163
 
 Space complexity: O(n) for the result buffer.
+
+## entry 164
+
+Edge case: integer-max input → guarded by the explicit overflow check.
