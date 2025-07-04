@@ -686,3 +686,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 156
 
 32-bit safe; overflow is checked at each step.
+
+## entry 157
+
+Edge case: NULL input is rejected by the caller, not by us.
