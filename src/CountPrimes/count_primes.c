@@ -77,3 +77,4 @@ int count_primes(int n) {
 // note 49: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 51: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 52: Time complexity: O(n^2) worst case, O(n) amortized.
