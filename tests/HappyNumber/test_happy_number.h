@@ -98,3 +98,4 @@ MunitTest happy_number_tests[] = {
 // edge note 70: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 71: Edge case: empty input → returns 0.
 // edge note 72: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 73: Edge case: empty input → returns 0.
