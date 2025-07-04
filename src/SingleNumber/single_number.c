@@ -71,3 +71,4 @@ int single_number(const int* nums, int nums_size) {
 // note 58: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 59: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 60: Stable when the input is already sorted.
+// note 61: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
