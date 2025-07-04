@@ -759,3 +759,7 @@ Uses a small fixed-size lookup table.
 ## entry 174
 
 No allocations on the hot path.
+
+## entry 175
+
+Allocates lazily — first call only.
