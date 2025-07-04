@@ -83,3 +83,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 48: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 49: Returns a freshly allocated string the caller must free.
 // note 50: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 51: Tarjan SCC: low-link values find strongly connected components in one DFS.
