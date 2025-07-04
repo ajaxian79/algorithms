@@ -750,3 +750,7 @@ No allocations on the hot path.
 ## entry 173
 
 Time complexity: O(n log n).
+
+## entry 174
+
+Tail-recursive; the compiler turns it into a loop.
