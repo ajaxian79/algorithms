@@ -33,3 +33,5 @@
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Stable sort matters when a secondary key was set in a prior pass.
