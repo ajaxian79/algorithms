@@ -59,3 +59,5 @@ Space complexity: O(1) auxiliary.
 Edge case: empty input → returns 0.
 
 Time complexity: O(1).
+
+Runs in a single pass over the input.
