@@ -487,3 +487,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 122
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 123
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
