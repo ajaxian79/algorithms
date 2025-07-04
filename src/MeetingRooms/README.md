@@ -678,3 +678,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 155
 
 No allocations on the hot path.
+
+## entry 156
+
+Allocates one buffer of length n+1 for the result.
