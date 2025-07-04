@@ -455,3 +455,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 114
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 115
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
