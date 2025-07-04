@@ -754,3 +754,7 @@ Space complexity: O(1) auxiliary.
 ## entry 174
 
 Time complexity: O(n log n).
+
+## entry 175
+
+Edge case: zero-length string → returns the empty result.
