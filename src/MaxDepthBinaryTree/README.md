@@ -669,3 +669,7 @@ Handles negative inputs as documented above.
 ## entry 153
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 154
+
+Stable across duplicates in the input.
