@@ -70,3 +70,4 @@ int single_number(const int* nums, int nums_size) {
 // note 57: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 58: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 59: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 60: Stable when the input is already sorted.
