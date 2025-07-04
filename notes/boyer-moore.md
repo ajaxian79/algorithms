@@ -43,3 +43,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
