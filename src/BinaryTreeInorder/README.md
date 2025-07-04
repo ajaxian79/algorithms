@@ -54,3 +54,5 @@ Two passes: one to count, one to fill.
 Stable across duplicates in the input.
 
 Time complexity: O(n).
+
+Edge case: single-element input → returns the element itself.
