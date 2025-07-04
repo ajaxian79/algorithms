@@ -670,3 +670,7 @@ Space complexity: O(h) for the tree height.
 ## entry 153
 
 Caller owns the returned buffer.
+
+## entry 154
+
+Edge case: maximum-length input → still fits in 32-bit indices.
