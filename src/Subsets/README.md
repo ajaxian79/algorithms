@@ -731,3 +731,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 168
 
 Time complexity: O(1).
+
+## entry 169
+
+Handles empty input by returning 0.
