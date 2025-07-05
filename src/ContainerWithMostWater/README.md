@@ -675,3 +675,7 @@ Reentrant — no static state.
 ## entry 154
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 155
+
+32-bit safe; overflow is checked at each step.
