@@ -660,3 +660,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 149
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 150
+
+Handles negative inputs as documented above.
