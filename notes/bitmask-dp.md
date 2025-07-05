@@ -447,3 +447,7 @@
 ## entry 112
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 113
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
