@@ -471,3 +471,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 118
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 119
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
