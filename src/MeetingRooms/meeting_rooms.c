@@ -75,3 +75,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 54: Reentrant — no static state.
 // note 55: Vectorizes cleanly under -O2.
+// note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
