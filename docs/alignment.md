@@ -459,3 +459,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 115
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 116
+
+Greedy by end-time picks the most non-overlapping intervals.
