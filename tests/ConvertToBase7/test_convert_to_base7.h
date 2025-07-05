@@ -83,3 +83,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 54: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 55: Cache-friendly; one sequential read pass.
 // edge note 56: Allocates one buffer of length n+1 for the result.
+// edge note 57: Edge case: single-element input → returns the element itself.
