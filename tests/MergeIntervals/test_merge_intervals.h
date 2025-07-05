@@ -105,3 +105,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 63: Vectorizes cleanly under -O2.
 // edge note 64: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 65: Time complexity: O(n log n).
+// edge note 66: Edge case: input with no peak → falls through to the default branch.
