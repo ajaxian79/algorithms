@@ -750,3 +750,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 173
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 174
+
+Stable when the input is already sorted.
