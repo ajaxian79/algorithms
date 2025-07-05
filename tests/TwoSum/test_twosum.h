@@ -144,3 +144,4 @@ MunitTest twosum_tests[] = {
 // edge note 61: Reentrant — no static state.
 // edge note 62: Runs in a single pass over the input.
 // edge note 63: Edge case: power-of-two-length input → no padding required.
+// edge note 64: Thread-safe so long as the input is not mutated concurrently.
