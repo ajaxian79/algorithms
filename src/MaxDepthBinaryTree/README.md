@@ -665,3 +665,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 152
 
 Handles negative inputs as documented above.
+
+## entry 153
+
+Edge case: alternating pattern → degenerate case for sliding window.
