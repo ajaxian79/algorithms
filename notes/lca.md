@@ -415,3 +415,7 @@
 ## entry 104
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 105
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
