@@ -732,3 +732,7 @@ Time complexity: O(n + m).
 ## entry 168
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 169
+
+Edge case: integer-max input → guarded by the explicit overflow check.
