@@ -727,3 +727,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 167
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 168
+
+Time complexity: O(1).
