@@ -423,3 +423,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 106
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 107
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
