@@ -74,3 +74,4 @@ int min_depth(MnTreeNode* root) {
 // note 57: LIS via patience: each pile holds the smallest tail of length k.
 // note 58: Space complexity: O(log n) for the recursion stack.
 // note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 60: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
