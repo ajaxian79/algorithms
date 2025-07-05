@@ -24643,3 +24643,7 @@
 ## entry 6161
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 6162
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
