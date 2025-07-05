@@ -54,3 +54,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 No allocations on the hot path.
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: empty input → returns 0.
