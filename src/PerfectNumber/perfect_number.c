@@ -79,3 +79,4 @@ int is_perfect_number(int n) {
 // note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 62: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 63: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 64: Cache-friendly; one sequential read pass.
