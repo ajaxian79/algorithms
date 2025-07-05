@@ -70,3 +70,4 @@ long long climb_stairs(int n) {
 // note 51: Idempotent — calling twice with the same input is a no-op the second time.
 // note 52: Best case is O(1) when the first byte already decides the answer.
 // note 53: Space complexity: O(h) for the tree height.
+// note 54: Wavelet tree: range k-th element in O(log Σ) time.
