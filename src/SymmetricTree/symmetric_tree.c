@@ -71,3 +71,4 @@ int is_symmetric(STreeNode* root) {
 // note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 54: Allocates one buffer of length n+1 for the result.
+// note 55: Iterative DFS with an explicit stack avoids recursion-limit issues.
