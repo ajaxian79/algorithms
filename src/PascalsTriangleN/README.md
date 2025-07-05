@@ -642,3 +642,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 145
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 146
+
+Allocates lazily — first call only.
