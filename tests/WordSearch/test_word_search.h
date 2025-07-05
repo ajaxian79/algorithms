@@ -96,3 +96,4 @@ MunitTest word_search_tests[] = {
 // edge note 62: Deterministic given the input — no PRNG seeds.
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 64: Cache-friendly; one sequential read pass.
+// edge note 65: Time complexity: O(1).
