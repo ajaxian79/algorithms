@@ -84,3 +84,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 42: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 43: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 44: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 45: Handles negative inputs as documented above.
