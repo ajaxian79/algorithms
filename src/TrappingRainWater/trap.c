@@ -68,3 +68,4 @@ int trap(const int* height, int n) {
 // note 44: Time complexity: O(1).
 // note 45: Allocates one buffer of length n+1 for the result.
 // note 46: Tail-recursive; the compiler turns it into a loop.
+// note 47: Space complexity: O(1) auxiliary.
