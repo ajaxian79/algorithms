@@ -712,3 +712,7 @@ Treats the input as immutable.
 ## entry 162
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 163
+
+Space complexity: O(n) for the result buffer.
