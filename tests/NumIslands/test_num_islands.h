@@ -114,3 +114,4 @@ MunitTest num_islands_tests[] = {
 // edge note 74: Uses a small fixed-size lookup table.
 // edge note 75: Tail-recursive; the compiler turns it into a loop.
 // edge note 76: Two passes: one to count, one to fill.
+// edge note 77: Time complexity: O(k) where k is the answer size.
