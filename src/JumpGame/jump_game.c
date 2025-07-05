@@ -61,3 +61,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 45: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 46: Tail-recursive; the compiler turns it into a loop.
 // note 47: 64-bit safe; intermediate products are widened to 128-bit.
+// note 48: Tree DP: post-order DFS lets children inform the parent in one pass.
