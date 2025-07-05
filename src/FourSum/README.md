@@ -50,3 +50,5 @@ No allocations on the hot path.
 Edge case: empty input → returns 0.
 
 Handles negative inputs as documented above.
+
+Stable across duplicates in the input.
