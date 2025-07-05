@@ -57,3 +57,5 @@ Time complexity: O(log n).
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: all-equal input → linear-time fast path.
+
+Runs in a single pass over the input.
