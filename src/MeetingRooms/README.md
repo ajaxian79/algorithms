@@ -54,3 +54,5 @@ Runs in a single pass over the input.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Space complexity: O(1) auxiliary.
+
+Handles empty input by returning 0.
