@@ -58,3 +58,5 @@ Space complexity: O(1) auxiliary.
 No allocations on the hot path.
 
 Uses a small fixed-size lookup table.
+
+Returns a freshly allocated string the caller must free.
