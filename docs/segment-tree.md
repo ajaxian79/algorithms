@@ -45,3 +45,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
