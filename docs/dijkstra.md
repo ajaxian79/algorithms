@@ -443,3 +443,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 111
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 112
+
+In-place compaction uses two pointers: read advances always, write only on keep.
