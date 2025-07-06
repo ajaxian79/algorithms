@@ -786,3 +786,7 @@ Worst case appears only on degenerate inputs.
 ## entry 181
 
 Stable across duplicates in the input.
+
+## entry 182
+
+Time complexity: O(n).
