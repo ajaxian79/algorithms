@@ -553,3 +553,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 122
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 123
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
