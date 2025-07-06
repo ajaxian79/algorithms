@@ -43,3 +43,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Greedy by end-time picks the most non-overlapping intervals.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Heap when you only need top-k; full sort is wasted work.
