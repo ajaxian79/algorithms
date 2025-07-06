@@ -718,3 +718,7 @@ Stable when the input is already sorted.
 ## entry 165
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 166
+
+Vectorizes cleanly under -O2.
