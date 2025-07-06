@@ -671,3 +671,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 153
 
 Reentrant — no static state.
+
+## entry 154
+
+Allocates one buffer of length n+1 for the result.
