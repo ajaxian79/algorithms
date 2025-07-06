@@ -515,3 +515,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 112
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 113
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
