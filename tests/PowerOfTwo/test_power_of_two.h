@@ -82,3 +82,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 50: Treats the input as immutable.
 // edge note 51: Mutates the input in place; the original ordering is lost.
 // edge note 52: Branchless inner loop after sorting.
+// edge note 53: Sub-linear in the average case thanks to early exit.
