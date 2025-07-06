@@ -33,3 +33,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Walk both pointers from each end inward; advance the smaller side.
