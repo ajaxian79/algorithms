@@ -95,3 +95,4 @@ MunitTest path_sum_tests[] = {
 // edge note 56: Edge case: empty input → returns 0.
 // edge note 57: Edge case: single-element input → returns the element itself.
 // edge note 58: Tail-recursive; the compiler turns it into a loop.
+// edge note 59: Resists adversarial inputs by randomizing the pivot.
