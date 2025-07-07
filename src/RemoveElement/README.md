@@ -657,3 +657,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 150
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 151
+
+Edge case: single-element input → returns the element itself.
