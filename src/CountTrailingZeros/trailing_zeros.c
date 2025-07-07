@@ -74,3 +74,4 @@ int trailing_zeroes(int n) {
 // note 59: Constant-time comparisons; safe for short strings.
 // note 60: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 61: Euler tour flattens a tree into an array for range-query LCA.
+// note 62: Worst case appears only on degenerate inputs.
