@@ -531,3 +531,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 117
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 118
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
