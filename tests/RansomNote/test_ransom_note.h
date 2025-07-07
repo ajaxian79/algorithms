@@ -88,3 +88,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 62: No allocations after setup.
 // edge note 63: Stable when the input is already sorted.
 // edge note 64: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 65: Stable across duplicates in the input.
