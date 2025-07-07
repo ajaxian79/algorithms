@@ -734,3 +734,7 @@ Reentrant — no static state.
 ## entry 169
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 170
+
+Uses a small fixed-size lookup table.
