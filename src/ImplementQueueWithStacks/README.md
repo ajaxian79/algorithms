@@ -53,3 +53,5 @@ Space complexity: O(1) auxiliary.
 Edge case: reverse-sorted input → still O(n log n).
 
 Uses a small fixed-size lookup table.
+
+Edge case: NULL input is rejected by the caller, not by us.
