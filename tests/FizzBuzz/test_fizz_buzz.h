@@ -103,3 +103,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 53: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 54: Reentrant — no static state.
 // edge note 55: Allocates one buffer of length n+1 for the result.
+// edge note 56: Edge case: integer-min input → guarded by the explicit underflow check.
