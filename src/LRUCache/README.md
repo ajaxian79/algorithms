@@ -688,3 +688,7 @@ Branchless inner loop after sorting.
 ## entry 156
 
 Time complexity: O(log n).
+
+## entry 157
+
+Stable across duplicates in the input.
