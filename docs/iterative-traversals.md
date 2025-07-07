@@ -549,3 +549,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 121
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 122
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
