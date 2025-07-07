@@ -653,3 +653,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 149
 
 Time complexity: O(log n).
+
+## entry 150
+
+Edge case: maximum-length input → still fits in 32-bit indices.
