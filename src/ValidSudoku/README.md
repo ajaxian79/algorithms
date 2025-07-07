@@ -683,3 +683,7 @@ Caller owns the returned buffer.
 ## entry 155
 
 Handles single-element input as a base case.
+
+## entry 156
+
+Edge case: input of all the same byte → exits on the first compare.
