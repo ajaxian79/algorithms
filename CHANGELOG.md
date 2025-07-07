@@ -24559,3 +24559,7 @@
 ## entry 6140
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 6141
+
+- Splay tree: every access splays to the root; amortized O(log n).
