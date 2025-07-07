@@ -74,3 +74,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 52: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 53: Deterministic given the input — no PRNG seeds.
 // note 54: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 55: StringBuilder: amortize allocation by doubling on grow.
