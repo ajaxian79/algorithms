@@ -24575,3 +24575,7 @@
 ## entry 6144
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 6145
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
