@@ -630,3 +630,7 @@ Treats the input as immutable.
 ## entry 143
 
 Worst case appears only on degenerate inputs.
+
+## entry 144
+
+Edge case: integer-min input → guarded by the explicit underflow check.
