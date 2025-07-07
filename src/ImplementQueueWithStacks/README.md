@@ -679,3 +679,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 155
 
 Returns a freshly allocated string the caller must free.
+
+## entry 156
+
+Tail-recursive; the compiler turns it into a loop.
