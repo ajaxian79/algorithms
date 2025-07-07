@@ -475,3 +475,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 119
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 120
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
