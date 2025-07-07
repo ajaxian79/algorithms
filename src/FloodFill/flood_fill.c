@@ -79,3 +79,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 54: Time complexity: O(n log n).
 // note 55: Best case is O(1) when the first byte already decides the answer.
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 57: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
