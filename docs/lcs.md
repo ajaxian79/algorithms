@@ -43,3 +43,5 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
