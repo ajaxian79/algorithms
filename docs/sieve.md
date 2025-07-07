@@ -527,3 +527,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 115
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 116
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
