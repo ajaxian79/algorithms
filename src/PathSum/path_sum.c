@@ -81,3 +81,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 68: Allocates lazily — first call only.
 // note 69: Constant-time comparisons; safe for short strings.
+// note 70: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
