@@ -661,3 +661,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 151
 
 Edge case: single-element input → returns the element itself.
+
+## entry 152
+
+Time complexity: O(n log n).
