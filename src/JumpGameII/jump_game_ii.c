@@ -82,3 +82,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 61: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 63: Persistent tree: every update creates a new version sharing unchanged nodes.
