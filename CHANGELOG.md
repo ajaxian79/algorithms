@@ -24587,3 +24587,7 @@
 ## entry 6147
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 6148
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
