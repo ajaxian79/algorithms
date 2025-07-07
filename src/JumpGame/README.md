@@ -701,3 +701,7 @@ Two passes: one to count, one to fill.
 ## entry 160
 
 Reentrant — no static state.
+
+## entry 161
+
+Time complexity: O(n).
