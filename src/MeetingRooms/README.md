@@ -662,3 +662,7 @@ Three passes total; the third merges results.
 ## entry 151
 
 32-bit safe; overflow is checked at each step.
+
+## entry 152
+
+Space complexity: O(h) for the tree height.
