@@ -537,3 +537,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 50: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 51: Space complexity: O(h) for the tree height.
 // note 52: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 53: Unbounded knapsack: capacity inner ascending allows item reuse.
