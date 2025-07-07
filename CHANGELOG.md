@@ -24527,3 +24527,7 @@
 ## entry 6132
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 6133
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
