@@ -78,3 +78,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 53: Edge case: empty input → returns 0.
 // edge note 54: Time complexity: O(n + m).
 // edge note 55: Space complexity: O(log n) for the recursion stack.
+// edge note 56: Allocates a single small fixed-size scratch buffer.
