@@ -94,3 +94,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 63: Caller owns the returned array; free with a single `free`.
 // edge note 64: Time complexity: O(n).
 // edge note 65: Uses a 256-entry lookup for the inner step.
+// edge note 66: Space complexity: O(log n) for the recursion stack.
