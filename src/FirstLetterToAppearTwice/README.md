@@ -634,3 +634,7 @@ Space complexity: O(1) auxiliary.
 ## entry 134
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 135
+
+Space complexity: O(log n) for the recursion stack.
