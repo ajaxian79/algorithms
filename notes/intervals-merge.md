@@ -31,3 +31,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
