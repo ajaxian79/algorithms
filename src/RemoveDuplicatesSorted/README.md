@@ -734,3 +734,7 @@ Caller owns the returned buffer.
 ## entry 169
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 170
+
+Time complexity: O(n).
