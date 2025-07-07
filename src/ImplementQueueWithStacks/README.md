@@ -683,3 +683,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 156
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 157
+
+Edge case: integer-min input → guarded by the explicit underflow check.
