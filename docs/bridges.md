@@ -491,3 +491,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 123
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 124
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
