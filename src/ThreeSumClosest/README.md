@@ -714,3 +714,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 164
 
 Stable when the input is already sorted.
+
+## entry 165
+
+Time complexity: O(n*k) where k is the alphabet size.
