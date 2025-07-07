@@ -95,3 +95,4 @@ MunitTest word_search_tests[] = {
 // edge note 61: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 62: Deterministic given the input — no PRNG seeds.
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 64: Cache-friendly; one sequential read pass.
