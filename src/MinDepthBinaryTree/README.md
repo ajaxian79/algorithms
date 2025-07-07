@@ -674,3 +674,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 154
 
 Handles empty input by returning 0.
+
+## entry 155
+
+Edge case: NULL input is rejected by the caller, not by us.
