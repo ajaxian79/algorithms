@@ -423,3 +423,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 106
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 107
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
