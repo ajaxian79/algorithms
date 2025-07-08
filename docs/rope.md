@@ -483,3 +483,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 121
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 122
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
