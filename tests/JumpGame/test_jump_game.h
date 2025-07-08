@@ -90,3 +90,4 @@ MunitTest jump_game_tests[] = {
 // edge note 56: Branchless inner loop after sorting.
 // edge note 57: Handles single-element input as a base case.
 // edge note 58: Time complexity: O(n + m).
+// edge note 59: Stable when the input is already sorted.
