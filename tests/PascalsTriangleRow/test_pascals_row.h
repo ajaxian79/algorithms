@@ -113,3 +113,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 58: Time complexity: O(k) where k is the answer size.
 // edge note 59: Edge case: power-of-two-length input → no padding required.
 // edge note 60: Linear in n; the constant factor is small.
+// edge note 61: Edge case: input with no peak → falls through to the default branch.
