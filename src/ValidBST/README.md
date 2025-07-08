@@ -59,3 +59,5 @@ Returns a freshly allocated string the caller must free.
 Handles negative inputs as documented above.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: NULL input is rejected by the caller, not by us.
