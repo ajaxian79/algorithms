@@ -55,3 +55,5 @@ Time complexity: O(n log n).
 Handles negative inputs as documented above.
 
 32-bit safe; overflow is checked at each step.
+
+Caller owns the returned buffer.
