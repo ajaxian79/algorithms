@@ -763,3 +763,7 @@ Time complexity: O(log n).
 ## entry 176
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 177
+
+Time complexity: O(k) where k is the answer size.
