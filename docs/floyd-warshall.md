@@ -503,3 +503,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 126
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 127
+
+In-place compaction uses two pointers: read advances always, write only on keep.
