@@ -53,3 +53,5 @@ Caller owns the returned buffer.
 Treats the input as immutable.
 
 Time complexity: O(log n).
+
+Edge case: already-sorted input → no swaps performed.
