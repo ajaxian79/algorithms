@@ -54,3 +54,5 @@ Handles negative inputs as documented above.
 Two passes: one to count, one to fill.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Time complexity: O(n).
