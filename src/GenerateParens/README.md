@@ -60,3 +60,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Uses a small fixed-size lookup table.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Edge case: already-sorted input → no swaps performed.
