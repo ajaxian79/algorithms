@@ -535,3 +535,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 116
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 117
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
