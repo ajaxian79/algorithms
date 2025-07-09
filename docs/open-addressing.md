@@ -431,3 +431,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 108
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 109
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
