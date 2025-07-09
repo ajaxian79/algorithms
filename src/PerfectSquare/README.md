@@ -746,3 +746,7 @@ Cache-friendly; one sequential read pass.
 ## entry 172
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 173
+
+Edge case: all-equal input → linear-time fast path.
