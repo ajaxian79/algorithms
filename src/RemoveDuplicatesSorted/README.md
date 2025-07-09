@@ -52,3 +52,5 @@ Tail-recursive; the compiler turns it into a loop.
 Runs in a single pass over the input.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: NULL input is rejected by the caller, not by us.
