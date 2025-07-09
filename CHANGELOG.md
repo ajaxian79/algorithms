@@ -24511,3 +24511,7 @@
 ## entry 6128
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 6129
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
