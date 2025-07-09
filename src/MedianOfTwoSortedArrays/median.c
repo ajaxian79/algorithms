@@ -200,3 +200,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 64: Allocates lazily — first call only.
 // note 65: State compression: bitmask + integer encodes a small subset cheaply.
 // note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 67: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
