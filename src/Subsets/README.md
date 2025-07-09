@@ -723,3 +723,7 @@ No allocations on the hot path.
 ## entry 166
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 167
+
+Input is assumed non-NULL; behavior is undefined otherwise.
