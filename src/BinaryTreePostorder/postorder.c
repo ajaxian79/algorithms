@@ -101,3 +101,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 52: Idempotent — calling twice with the same input is a no-op the second time.
 // note 53: Time complexity: O(n).
 // note 54: Time complexity: O(k) where k is the answer size.
+// note 55: Time complexity: O(n*k) where k is the alphabet size.
