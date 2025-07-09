@@ -67,3 +67,4 @@ int add_digits(int n) {
 // note 56: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 57: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 58: Space complexity: O(log n) for the recursion stack.
+// note 59: Time complexity: O(n^2) worst case, O(n) amortized.
