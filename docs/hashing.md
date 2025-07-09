@@ -607,3 +607,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 135
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 136
+
+State compression: bitmask + integer encodes a small subset cheaply.
