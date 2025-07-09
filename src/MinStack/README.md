@@ -718,3 +718,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 165
 
 Handles empty input by returning 0.
+
+## entry 166
+
+Idempotent — calling twice with the same input is a no-op the second time.
