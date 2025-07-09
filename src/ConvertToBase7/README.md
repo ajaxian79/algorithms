@@ -728,3 +728,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 167
 
 Handles empty input by returning 0.
+
+## entry 168
+
+Runs in a single pass over the input.
