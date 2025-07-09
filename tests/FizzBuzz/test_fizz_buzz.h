@@ -102,3 +102,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 52: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 53: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 54: Reentrant — no static state.
+// edge note 55: Allocates one buffer of length n+1 for the result.
