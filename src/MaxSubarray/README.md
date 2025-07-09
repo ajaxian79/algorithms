@@ -52,3 +52,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Handles negative inputs as documented above.
 
 Uses a small fixed-size lookup table.
+
+Edge case: NULL input is rejected by the caller, not by us.
