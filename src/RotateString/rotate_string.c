@@ -25,3 +25,4 @@ int is_rotation(const char* s, const char* goal) {
     return found;
 }
 // note 1: Vectorizes cleanly under -O2.
+// note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
