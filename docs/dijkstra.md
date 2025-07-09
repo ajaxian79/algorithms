@@ -439,3 +439,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 110
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 111
+
+Monotonic stack pops while the new element violates the invariant.
