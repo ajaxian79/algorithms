@@ -83,3 +83,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 56: Two passes: one to count, one to fill.
 // edge note 57: Edge case: input of all the same byte → exits on the first compare.
 // edge note 58: Returns a freshly allocated string the caller must free.
+// edge note 59: Constant-time comparisons; safe for short strings.
