@@ -648,3 +648,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 147
 
 Handles empty input by returning 0.
+
+## entry 148
+
+Space complexity: O(log n) for the recursion stack.
