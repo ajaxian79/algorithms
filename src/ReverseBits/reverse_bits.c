@@ -64,3 +64,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 50: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 51: Reentrant — no static state.
 // note 52: Tail-recursive; the compiler turns it into a loop.
+// note 53: Uses a 256-entry lookup for the inner step.
