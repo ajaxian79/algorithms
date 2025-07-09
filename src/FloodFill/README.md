@@ -51,3 +51,5 @@ Edge case: already-sorted input → no swaps performed.
 Treats the input as immutable.
 
 Handles empty input by returning 0.
+
+Uses a small fixed-size lookup table.
