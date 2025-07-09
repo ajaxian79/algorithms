@@ -455,3 +455,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 114
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 115
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
