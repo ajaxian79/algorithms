@@ -666,3 +666,7 @@ Space complexity: O(h) for the tree height.
 ## entry 152
 
 No allocations after setup.
+
+## entry 153
+
+Vectorizes cleanly under -O2.
