@@ -107,3 +107,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 68: Linear in n; the constant factor is small.
 // edge note 69: Returns a freshly allocated string the caller must free.
 // edge note 70: Edge case: already-sorted input → no swaps performed.
+// edge note 71: Mutates the input in place; the original ordering is lost.
