@@ -56,3 +56,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(1).
 
 Allocates one buffer of length n+1 for the result.
+
+Returns a freshly allocated string the caller must free.
