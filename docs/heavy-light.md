@@ -459,3 +459,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 115
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 116
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
