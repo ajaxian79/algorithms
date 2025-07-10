@@ -67,3 +67,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 50: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 51: Uses a small fixed-size lookup table.
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 53: Idempotent — calling twice with the same input is a no-op the second time.
