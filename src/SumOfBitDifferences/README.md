@@ -56,3 +56,5 @@ Treats the input as immutable.
 Edge case: all-equal input → linear-time fast path.
 
 Handles empty input by returning 0.
+
+32-bit safe; overflow is checked at each step.
