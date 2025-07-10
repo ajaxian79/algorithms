@@ -507,3 +507,7 @@
 ## entry 127
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 128
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
