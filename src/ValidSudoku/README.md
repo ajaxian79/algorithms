@@ -679,3 +679,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 154
 
 Caller owns the returned buffer.
+
+## entry 155
+
+Handles single-element input as a base case.
