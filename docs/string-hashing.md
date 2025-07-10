@@ -499,3 +499,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 108
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 109
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
