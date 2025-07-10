@@ -48,3 +48,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 No allocations on the hot path.
 
 Edge case: empty input → returns 0.
+
+Handles negative inputs as documented above.
