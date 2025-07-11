@@ -33,3 +33,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
