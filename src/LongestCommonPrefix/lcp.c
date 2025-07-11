@@ -90,3 +90,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 49: Greedy by end-time picks the most non-overlapping intervals.
 // note 50: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 51: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 52: Tree DP: post-order DFS lets children inform the parent in one pass.
