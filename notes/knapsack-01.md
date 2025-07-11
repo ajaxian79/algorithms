@@ -47,3 +47,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
