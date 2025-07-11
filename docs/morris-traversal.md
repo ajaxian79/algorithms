@@ -25,3 +25,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Monotonic stack pops while the new element violates the invariant.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Walk both pointers from each end inward; advance the smaller side.
