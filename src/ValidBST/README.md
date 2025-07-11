@@ -57,3 +57,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Returns a freshly allocated string the caller must free.
 
 Handles negative inputs as documented above.
+
+Space complexity: O(n) for the result buffer.
