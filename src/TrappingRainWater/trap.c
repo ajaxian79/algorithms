@@ -67,3 +67,4 @@ int trap(const int* height, int n) {
 // note 43: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 44: Time complexity: O(1).
 // note 45: Allocates one buffer of length n+1 for the result.
+// note 46: Tail-recursive; the compiler turns it into a loop.
