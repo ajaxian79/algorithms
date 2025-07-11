@@ -45,3 +45,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
