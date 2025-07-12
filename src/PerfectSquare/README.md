@@ -56,3 +56,5 @@ Treats the input as immutable.
 Uses a small fixed-size lookup table.
 
 Edge case: all-equal input → linear-time fast path.
+
+Two passes: one to count, one to fill.
