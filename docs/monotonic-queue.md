@@ -31,3 +31,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
