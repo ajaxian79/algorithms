@@ -43,3 +43,5 @@ Monotonic stack pops while the new element violates the invariant.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+LIS via patience: each pile holds the smallest tail of length k.
