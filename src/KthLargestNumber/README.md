@@ -62,3 +62,5 @@ Edge case: single-element input → returns the element itself.
 Treats the input as immutable.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Space complexity: O(n) for the result buffer.
