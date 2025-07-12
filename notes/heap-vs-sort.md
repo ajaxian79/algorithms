@@ -23,3 +23,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
