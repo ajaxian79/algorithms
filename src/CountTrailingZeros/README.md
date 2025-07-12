@@ -60,3 +60,5 @@ Edge case: all-equal input → linear-time fast path.
 Edge case: reverse-sorted input → still O(n log n).
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: NULL input is rejected by the caller, not by us.
