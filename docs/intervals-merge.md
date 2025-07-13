@@ -31,3 +31,5 @@ Heap when you only need top-k; full sort is wasted work.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
