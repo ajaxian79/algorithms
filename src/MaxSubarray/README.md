@@ -50,3 +50,5 @@ Time complexity: O(1).
 Edge case: input with one duplicate → handled without an extra pass.
 
 Handles negative inputs as documented above.
+
+Uses a small fixed-size lookup table.
