@@ -53,3 +53,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(n log n).
 
 Handles negative inputs as documented above.
+
+32-bit safe; overflow is checked at each step.
