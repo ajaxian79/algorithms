@@ -45,3 +45,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
