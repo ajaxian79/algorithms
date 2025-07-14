@@ -54,3 +54,5 @@ Caller owns the returned buffer.
 Allocates one buffer of length n+1 for the result.
 
 Time complexity: O(n log n).
+
+Stable across duplicates in the input.
