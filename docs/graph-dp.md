@@ -419,3 +419,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 105
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 106
+
+Greedy by end-time picks the most non-overlapping intervals.
