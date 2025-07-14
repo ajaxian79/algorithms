@@ -667,3 +667,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 152
 
 Returns a freshly allocated string the caller must free.
+
+## entry 153
+
+Reentrant — no static state.
