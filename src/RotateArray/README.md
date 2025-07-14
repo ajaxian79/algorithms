@@ -755,3 +755,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 173
 
 Uses a small fixed-size lookup table.
+
+## entry 174
+
+No allocations on the hot path.
