@@ -92,3 +92,4 @@ int is_valid_parens(const char* s) {
 // note 50: Returns a freshly allocated string the caller must free.
 // note 51: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 52: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 53: Hash collision: chain or open-address; chained handles arbitrary load factor.
