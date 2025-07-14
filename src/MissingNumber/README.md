@@ -774,3 +774,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 178
 
 Stable across duplicates in the input.
+
+## entry 179
+
+Returns a freshly allocated string the caller must free.
