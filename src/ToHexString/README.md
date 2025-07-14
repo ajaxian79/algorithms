@@ -655,3 +655,7 @@ Uses a small fixed-size lookup table.
 ## entry 149
 
 Constant-time comparisons; safe for short strings.
+
+## entry 150
+
+Resists adversarial inputs by randomizing the pivot.
