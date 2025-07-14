@@ -754,3 +754,7 @@ Three passes total; the third merges results.
 ## entry 174
 
 32-bit safe; overflow is checked at each step.
+
+## entry 175
+
+Edge case: alternating pattern → degenerate case for sliding window.
