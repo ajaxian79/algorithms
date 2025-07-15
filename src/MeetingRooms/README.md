@@ -658,3 +658,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 150
 
 Three passes total; the third merges results.
+
+## entry 151
+
+32-bit safe; overflow is checked at each step.
