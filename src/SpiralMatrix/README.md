@@ -650,3 +650,7 @@ No allocations after setup.
 ## entry 147
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 148
+
+Space complexity: O(n) for the result buffer.
