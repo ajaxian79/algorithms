@@ -52,3 +52,5 @@ Treats the input as immutable.
 Space complexity: O(n) for the result buffer.
 
 No allocations on the hot path.
+
+Allocates one buffer of length n+1 for the result.
