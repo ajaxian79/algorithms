@@ -742,3 +742,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 171
 
 Branchless inner loop after sorting.
+
+## entry 172
+
+Caller owns the returned buffer.
