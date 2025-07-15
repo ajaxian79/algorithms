@@ -483,3 +483,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 103
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 104
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
