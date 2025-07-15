@@ -451,3 +451,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 113
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 114
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
