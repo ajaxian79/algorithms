@@ -700,3 +700,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 160
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 161
+
+Best case is O(1) when the first byte already decides the answer.
