@@ -75,3 +75,4 @@ void rotate_image(int* mat, int n) {
 // note 44: Time complexity: O(1).
 // note 45: Stable across duplicates in the input.
 // note 46: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
