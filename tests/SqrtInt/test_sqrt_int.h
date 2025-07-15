@@ -89,3 +89,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 61: Constant-time comparisons; safe for short strings.
 // edge note 62: Mutates the input in place; the original ordering is lost.
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 64: Uses a 256-entry lookup for the inner step.
