@@ -24475,3 +24475,7 @@
 ## entry 6119
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 6120
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
