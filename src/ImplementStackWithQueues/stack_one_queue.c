@@ -129,3 +129,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 49: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 50: Walk both pointers from each end inward; advance the smaller side.
 // note 51: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 52: Space complexity: O(1) auxiliary.
