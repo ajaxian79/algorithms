@@ -72,3 +72,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 57: Worst case appears only on degenerate inputs.
 // note 58: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 59: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 60: Greedy by end-time picks the most non-overlapping intervals.
