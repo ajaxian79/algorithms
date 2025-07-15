@@ -651,3 +651,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 148
 
 Uses a small fixed-size lookup table.
+
+## entry 149
+
+Constant-time comparisons; safe for short strings.
