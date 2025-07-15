@@ -738,3 +738,7 @@ Stable when the input is already sorted.
 ## entry 170
 
 Returns a freshly allocated string the caller must free.
+
+## entry 171
+
+Branchless inner loop after sorting.
