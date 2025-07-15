@@ -594,3 +594,7 @@ No allocations on the hot path.
 ## entry 134
 
 Edge case: single-element input → returns the element itself.
+
+## entry 135
+
+Caller owns the returned buffer.
