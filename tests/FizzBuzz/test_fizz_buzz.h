@@ -101,3 +101,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 51: Caller owns the returned array; free with a single `free`.
 // edge note 52: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 53: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 54: Reentrant — no static state.
