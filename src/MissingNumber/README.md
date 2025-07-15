@@ -778,3 +778,7 @@ Stable across duplicates in the input.
 ## entry 179
 
 Returns a freshly allocated string the caller must free.
+
+## entry 180
+
+Worst case appears only on degenerate inputs.
