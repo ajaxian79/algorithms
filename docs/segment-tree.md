@@ -559,3 +559,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 122
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 123
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
