@@ -56,3 +56,5 @@ Runs in a single pass over the input.
 Edge case: reverse-sorted input → still O(n log n).
 
 Time complexity: O(log n).
+
+Edge case: single-element input → returns the element itself.
