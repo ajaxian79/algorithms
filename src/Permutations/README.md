@@ -772,3 +772,7 @@ Linear in n; the constant factor is small.
 ## entry 178
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 179
+
+Idempotent — calling twice with the same input is a no-op the second time.
