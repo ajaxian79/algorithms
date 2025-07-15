@@ -61,3 +61,4 @@ char find_difference(const char* s, const char* t) {
 // note 45: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 46: Runs in a single pass over the input.
 // note 47: Tail-recursive; the compiler turns it into a loop.
+// note 48: Returns a freshly allocated string the caller must free.
