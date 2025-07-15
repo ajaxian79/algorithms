@@ -777,3 +777,7 @@ Cache-friendly; one sequential read pass.
 ## entry 180
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 181
+
+Time complexity: O(n^2) worst case, O(n) amortized.
