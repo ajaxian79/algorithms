@@ -98,3 +98,4 @@ MunitTest same_tree_tests[] = {
 // edge note 62: No allocations after setup.
 // edge note 63: Uses a small fixed-size lookup table.
 // edge note 64: 32-bit safe; overflow is checked at each step.
+// edge note 65: Edge case: zero-length string → returns the empty result.
