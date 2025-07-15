@@ -84,3 +84,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 57: 32-bit safe; overflow is checked at each step.
 // edge note 58: Time complexity: O(log n).
 // edge note 59: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 60: Edge case: empty input → returns 0.
