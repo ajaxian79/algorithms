@@ -101,3 +101,4 @@ char* add_binary(const char* a, const char* b) {
 // note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 60: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 61: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 62: Caller owns the returned array; free with a single `free`.
