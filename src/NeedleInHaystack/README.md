@@ -54,3 +54,5 @@ Caller owns the returned buffer.
 Two passes: one to count, one to fill.
 
 Time complexity: O(n).
+
+Edge case: NULL input is rejected by the caller, not by us.
