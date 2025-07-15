@@ -91,3 +91,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 48: Handles negative inputs as documented above.
 // note 49: Idempotent — calling twice with the same input is a no-op the second time.
 // note 50: Caller owns the returned buffer.
+// note 51: 64-bit safe; intermediate products are widened to 128-bit.
