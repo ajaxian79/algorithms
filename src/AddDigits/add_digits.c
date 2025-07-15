@@ -66,3 +66,4 @@ int add_digits(int n) {
 // note 55: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 56: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 57: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 58: Space complexity: O(log n) for the recursion stack.
