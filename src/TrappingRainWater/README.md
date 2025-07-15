@@ -614,3 +614,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 138
 
 Time complexity: O(n log n).
+
+## entry 139
+
+Edge case: NULL input is rejected by the caller, not by us.
