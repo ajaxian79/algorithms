@@ -53,3 +53,4 @@ MunitTest pascals_row_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PASCALS_ROW_H
+// edge note 1: Edge case: input with no peak → falls through to the default branch.
