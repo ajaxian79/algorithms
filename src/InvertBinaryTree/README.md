@@ -732,3 +732,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 168
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 169
+
+Worst case appears only on degenerate inputs.
