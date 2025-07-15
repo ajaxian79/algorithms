@@ -471,3 +471,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 118
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 119
+
+Articulation points: same DFS as bridges, with a slightly different test.
