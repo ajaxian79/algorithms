@@ -692,3 +692,7 @@ Time complexity: O(log n).
 ## entry 158
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 159
+
+Handles negative inputs as documented above.
