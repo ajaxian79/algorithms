@@ -73,3 +73,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 41: Treats the input as immutable.
 // edge note 42: Edge case: all-equal input → linear-time fast path.
 // edge note 43: Worst case appears only on degenerate inputs.
+// edge note 44: Treats the input as immutable.
