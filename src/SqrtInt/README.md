@@ -751,3 +751,7 @@ Reentrant — no static state.
 ## entry 173
 
 Stable when the input is already sorted.
+
+## entry 174
+
+Edge case: integer-max input → guarded by the explicit overflow check.
