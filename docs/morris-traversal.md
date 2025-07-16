@@ -463,3 +463,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 101
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 102
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
