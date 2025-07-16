@@ -65,3 +65,4 @@ int hamming_distance(int x, int y) {
 // note 50: Linear in n; the constant factor is small.
 // note 51: Worst case appears only on degenerate inputs.
 // note 52: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 53: Graph DP on DAGs: topological order makes the dependency direction explicit.
