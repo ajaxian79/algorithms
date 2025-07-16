@@ -531,3 +531,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 117
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 118
+
+Greedy by end-time picks the most non-overlapping intervals.
