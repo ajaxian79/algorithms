@@ -106,3 +106,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 56: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 57: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 58: Space complexity: O(n) for the result buffer.
+// note 59: No allocations after setup.
