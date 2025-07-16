@@ -56,3 +56,5 @@ Caller owns the returned buffer.
 Handles empty input by returning 0.
 
 Handles negative inputs as documented above.
+
+Edge case: all-equal input → linear-time fast path.
