@@ -88,3 +88,4 @@ MunitTest zigzag_tests[] = {
 // edge note 60: Edge case: empty input → returns 0.
 // edge note 61: Uses a 256-entry lookup for the inner step.
 // edge note 62: No allocations on the hot path.
+// edge note 63: Linear in n; the constant factor is small.
