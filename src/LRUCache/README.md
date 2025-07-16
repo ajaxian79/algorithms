@@ -684,3 +684,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 155
 
 Branchless inner loop after sorting.
+
+## entry 156
+
+Time complexity: O(log n).
