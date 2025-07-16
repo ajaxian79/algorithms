@@ -66,3 +66,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 49: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 50: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 51: Uses a small fixed-size lookup table.
+// note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
