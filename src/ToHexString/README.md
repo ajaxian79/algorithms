@@ -55,3 +55,5 @@ Edge case: single-element input → returns the element itself.
 Caller owns the returned buffer.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: reverse-sorted input → still O(n log n).
