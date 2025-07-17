@@ -656,3 +656,7 @@ Vectorizes cleanly under -O2.
 ## entry 148
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 149
+
+Allocates one buffer of length n+1 for the result.
