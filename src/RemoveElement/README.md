@@ -653,3 +653,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 149
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 150
+
+Space complexity: O(log n) for the recursion stack.
