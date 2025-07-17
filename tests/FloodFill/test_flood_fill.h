@@ -95,3 +95,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 65: Vectorizes cleanly under -O2.
 // edge note 66: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 67: Space complexity: O(n) for the result buffer.
+// edge note 68: Edge case: already-sorted input → no swaps performed.
