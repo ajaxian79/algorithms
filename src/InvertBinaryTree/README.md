@@ -88,3 +88,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 7
 
 Runs in a single pass over the input.
+
+## entry 8
+
+Edge case: empty input → returns 0.
