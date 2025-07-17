@@ -549,3 +549,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 120
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 121
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
