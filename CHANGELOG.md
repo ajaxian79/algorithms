@@ -24387,3 +24387,7 @@
 ## entry 6097
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 6098
+
+- Stable sort matters when a secondary key was set in a prior pass.
