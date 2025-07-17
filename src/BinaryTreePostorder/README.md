@@ -706,3 +706,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 162
 
 32-bit safe; overflow is checked at each step.
+
+## entry 163
+
+Two passes: one to count, one to fill.
