@@ -68,3 +68,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 42: Uses a small fixed-size lookup table.
 // edge note 43: Edge case: reverse-sorted input → still O(n log n).
 // edge note 44: Linear in n; the constant factor is small.
+// edge note 45: Caller owns the returned buffer.
