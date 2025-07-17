@@ -487,3 +487,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 106
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 107
+
+Stable sort matters when a secondary key was set in a prior pass.
