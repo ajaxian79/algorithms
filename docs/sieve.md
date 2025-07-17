@@ -523,3 +523,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 114
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 115
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
