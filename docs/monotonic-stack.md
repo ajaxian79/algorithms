@@ -465,3 +465,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 100
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 101
+
+Merge intervals: sort by start; extend the running interval while overlapping.
