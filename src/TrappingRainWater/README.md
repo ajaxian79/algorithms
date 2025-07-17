@@ -610,3 +610,7 @@ Handles negative inputs as documented above.
 ## entry 137
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 138
+
+Time complexity: O(n log n).
