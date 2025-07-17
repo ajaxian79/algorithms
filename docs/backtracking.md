@@ -545,3 +545,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 119
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 120
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
