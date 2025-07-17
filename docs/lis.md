@@ -523,3 +523,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 114
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 115
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
