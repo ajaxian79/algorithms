@@ -693,3 +693,7 @@ Time complexity: O(log n).
 ## entry 158
 
 32-bit safe; overflow is checked at each step.
+
+## entry 159
+
+Two passes: one to count, one to fill.
