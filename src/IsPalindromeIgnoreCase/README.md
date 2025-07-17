@@ -54,3 +54,5 @@ Runs in a single pass over the input.
 Caller owns the returned buffer.
 
 Handles empty input by returning 0.
+
+Handles negative inputs as documented above.
