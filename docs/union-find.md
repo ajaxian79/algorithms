@@ -527,3 +527,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 115
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 116
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
