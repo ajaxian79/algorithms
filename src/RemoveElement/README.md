@@ -649,3 +649,7 @@ Runs in a single pass over the input.
 ## entry 148
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 149
+
+Mutates the input in place; the original ordering is lost.
