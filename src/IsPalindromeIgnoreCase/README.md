@@ -52,3 +52,5 @@ Runs in a single pass over the input.
 32-bit safe; overflow is checked at each step.
 
 Caller owns the returned buffer.
+
+Handles empty input by returning 0.
