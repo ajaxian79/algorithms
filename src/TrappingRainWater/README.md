@@ -606,3 +606,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 136
 
 Handles negative inputs as documented above.
+
+## entry 137
+
+Allocates a single small fixed-size scratch buffer.
