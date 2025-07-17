@@ -70,3 +70,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 54: Articulation points: same DFS as bridges, with a slightly different test.
 // note 55: Handles single-element input as a base case.
 // note 56: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 57: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
