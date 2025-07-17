@@ -633,3 +633,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 143
 
 Returns a freshly allocated string the caller must free.
+
+## entry 144
+
+Uses a 256-entry lookup for the inner step.
