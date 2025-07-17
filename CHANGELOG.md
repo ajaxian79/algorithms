@@ -24391,3 +24391,7 @@
 ## entry 6098
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 6099
+
+- Monotonic stack pops while the new element violates the invariant.
