@@ -87,3 +87,4 @@ int num_islands(char* grid, int m, int n) {
 // note 55: StringBuilder: amortize allocation by doubling on grow.
 // note 56: Linear in n; the constant factor is small.
 // note 57: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 58: Handles single-element input as a base case.
