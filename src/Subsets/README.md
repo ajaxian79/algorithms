@@ -719,3 +719,7 @@ Caller owns the returned buffer.
 ## entry 165
 
 No allocations on the hot path.
+
+## entry 166
+
+Deterministic given the input — no PRNG seeds.
