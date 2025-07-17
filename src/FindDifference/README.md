@@ -590,3 +590,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 133
 
 No allocations on the hot path.
+
+## entry 134
+
+Edge case: single-element input → returns the element itself.
