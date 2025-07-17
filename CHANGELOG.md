@@ -24399,3 +24399,7 @@
 ## entry 6100
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 6101
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
