@@ -132,3 +132,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 54: Union-Find with path compression amortizes to near-O(1) per op.
 // note 55: Mutates the input in place; the original ordering is lost.
+// note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
