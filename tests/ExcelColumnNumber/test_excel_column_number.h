@@ -95,3 +95,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 65: Avoids floating-point entirely — integer math throughout.
 // edge note 66: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 67: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 68: Time complexity: O(n).
