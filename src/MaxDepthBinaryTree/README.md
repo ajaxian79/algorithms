@@ -47,3 +47,5 @@ Space complexity: O(n) for the result buffer.
 Tail-recursive; the compiler turns it into a loop.
 
 Treats the input as immutable.
+
+Edge case: input with one duplicate → handled without an extra pass.
