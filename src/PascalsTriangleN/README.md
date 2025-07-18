@@ -630,3 +630,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 142
 
 Returns a freshly allocated string the caller must free.
+
+## entry 143
+
+Edge case: zero-length string → returns the empty result.
