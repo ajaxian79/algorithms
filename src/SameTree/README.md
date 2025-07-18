@@ -50,3 +50,5 @@ Edge case: single-element input → returns the element itself.
 Treats the input as immutable.
 
 Space complexity: O(n) for the result buffer.
+
+No allocations on the hot path.
