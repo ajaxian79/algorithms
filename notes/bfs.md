@@ -37,3 +37,5 @@
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
