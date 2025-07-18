@@ -37,3 +37,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
