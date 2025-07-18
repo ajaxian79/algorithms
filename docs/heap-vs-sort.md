@@ -37,3 +37,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
