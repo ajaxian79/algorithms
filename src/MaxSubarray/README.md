@@ -46,3 +46,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: empty input → returns 0.
 
 Time complexity: O(1).
+
+Edge case: input with one duplicate → handled without an extra pass.
