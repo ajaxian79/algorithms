@@ -80,3 +80,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 58: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 59: Time complexity: O(n log n).
 // note 60: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 61: Unbounded knapsack: capacity inner ascending allows item reuse.
