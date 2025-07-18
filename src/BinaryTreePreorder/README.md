@@ -52,3 +52,5 @@ Time complexity: O(1).
 Treats the input as immutable.
 
 Time complexity: O(log n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
