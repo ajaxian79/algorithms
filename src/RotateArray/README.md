@@ -751,3 +751,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 172
 
 Returns a freshly allocated string the caller must free.
+
+## entry 173
+
+Uses a small fixed-size lookup table.
