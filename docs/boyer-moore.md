@@ -475,3 +475,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 103
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 104
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
