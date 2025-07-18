@@ -629,3 +629,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 142
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 143
+
+Returns a freshly allocated string the caller must free.
