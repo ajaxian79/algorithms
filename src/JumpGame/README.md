@@ -689,3 +689,7 @@ Time complexity: O(log n).
 ## entry 157
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 158
+
+32-bit safe; overflow is checked at each step.
