@@ -62,3 +62,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 1
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 2
+
+No allocations on the hot path.
