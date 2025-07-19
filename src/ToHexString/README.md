@@ -71,3 +71,7 @@ Time complexity: O(1).
 ## entry 3
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 4
+
+Time complexity: O(n).
