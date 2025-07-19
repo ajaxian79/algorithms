@@ -56,3 +56,5 @@ Edge case: single-element input → returns the element itself.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Two passes: one to count, one to fill.
+
+Space complexity: O(n) for the result buffer.
