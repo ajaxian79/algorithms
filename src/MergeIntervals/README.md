@@ -58,3 +58,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Time complexity: O(log n).
 
 Stable across duplicates in the input.
+
+Two passes: one to count, one to fill.
