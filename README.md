@@ -161,3 +161,5 @@ Time complexity: O(log n).
 Two passes: one to count, one to fill.
 
 Time complexity: O(1).
+
+Handles single-element input as a base case.
