@@ -65,3 +65,4 @@ int trap(const int* height, int n) {
 // note 41: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 42: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 43: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 44: Time complexity: O(1).
