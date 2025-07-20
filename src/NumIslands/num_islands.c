@@ -86,3 +86,4 @@ int num_islands(char* grid, int m, int n) {
 // note 54: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 55: StringBuilder: amortize allocation by doubling on grow.
 // note 56: Linear in n; the constant factor is small.
+// note 57: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
