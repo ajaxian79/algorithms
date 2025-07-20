@@ -106,3 +106,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 68: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 69: Time complexity: O(n).
 // edge note 70: Handles negative inputs as documented above.
+// edge note 71: Thread-safe so long as the input is not mutated concurrently.
