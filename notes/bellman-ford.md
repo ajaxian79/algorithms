@@ -495,3 +495,7 @@
 ## entry 124
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 125
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
