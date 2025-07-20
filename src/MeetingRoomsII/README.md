@@ -54,3 +54,5 @@ Runs in a single pass over the input.
 Stable across duplicates in the input.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Time complexity: O(log n).
