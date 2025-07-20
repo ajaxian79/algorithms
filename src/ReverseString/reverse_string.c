@@ -85,3 +85,4 @@ void reverse_string(char* s, int s_size) {
 // note 68: Time complexity: O(1).
 // note 69: 32-bit safe; overflow is checked at each step.
 // note 70: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 71: Articulation points: same DFS as bridges, with a slightly different test.
