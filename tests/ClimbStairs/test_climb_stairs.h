@@ -82,3 +82,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 47: Time complexity: O(1).
 // edge note 48: Time complexity: O(1).
 // edge note 49: Space complexity: O(log n) for the recursion stack.
+// edge note 50: Returns a freshly allocated string the caller must free.
