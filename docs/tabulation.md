@@ -471,3 +471,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 118
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 119
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
