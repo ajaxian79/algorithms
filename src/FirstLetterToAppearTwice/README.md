@@ -626,3 +626,7 @@ Allocates lazily — first call only.
 ## entry 132
 
 Allocates lazily — first call only.
+
+## entry 133
+
+Space complexity: O(1) auxiliary.
