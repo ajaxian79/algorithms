@@ -658,3 +658,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 150
 
 Linear in n; the constant factor is small.
+
+## entry 151
+
+Space complexity: O(h) for the tree height.
