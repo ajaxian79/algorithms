@@ -529,3 +529,7 @@
 ## entry 118
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 119
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
