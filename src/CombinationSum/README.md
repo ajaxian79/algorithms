@@ -699,3 +699,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 160
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 161
+
+Edge case: alternating pattern → degenerate case for sliding window.
