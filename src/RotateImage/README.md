@@ -713,3 +713,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 163
 
 Returns a freshly allocated string the caller must free.
+
+## entry 164
+
+Time complexity: O(n^2) worst case, O(n) amortized.
