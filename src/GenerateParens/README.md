@@ -680,3 +680,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 154
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 155
+
+Returns a freshly allocated string the caller must free.
