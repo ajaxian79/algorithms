@@ -427,3 +427,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 107
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 108
+
+Endianness matters when serializing multi-byte ints to a file or wire.
