@@ -645,3 +645,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 147
 
 Runs in a single pass over the input.
+
+## entry 148
+
+Edge case: NULL input is rejected by the caller, not by us.
