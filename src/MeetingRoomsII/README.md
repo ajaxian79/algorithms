@@ -52,3 +52,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Runs in a single pass over the input.
 
 Stable across duplicates in the input.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
