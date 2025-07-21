@@ -93,3 +93,5 @@ Caller owns the returned buffer.
 Time complexity: O(n log n).
 
 Uses a small fixed-size lookup table.
+
+Runs in a single pass over the input.
