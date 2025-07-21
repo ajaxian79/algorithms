@@ -21,3 +21,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
