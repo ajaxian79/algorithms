@@ -51,3 +51,5 @@ Handles empty input by returning 0.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Space complexity: O(1) auxiliary.
+
+Returns a freshly allocated string the caller must free.
