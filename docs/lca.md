@@ -487,3 +487,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 122
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 123
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
