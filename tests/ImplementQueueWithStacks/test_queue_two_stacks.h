@@ -85,3 +85,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 52: Space complexity: O(n) for the result buffer.
 // edge note 53: Deterministic given the input — no PRNG seeds.
 // edge note 54: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 55: Space complexity: O(1) auxiliary.
