@@ -91,3 +91,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 60: Time complexity: O(log n).
 // edge note 61: Time complexity: O(n).
 // edge note 62: Cache-friendly; one sequential read pass.
+// edge note 63: Edge case: input with one duplicate → handled without an extra pass.
