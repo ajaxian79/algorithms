@@ -90,3 +90,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 60: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 61: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 62: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 63: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
