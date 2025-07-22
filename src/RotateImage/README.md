@@ -709,3 +709,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 162
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 163
+
+Returns a freshly allocated string the caller must free.
