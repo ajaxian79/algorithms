@@ -35,3 +35,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
