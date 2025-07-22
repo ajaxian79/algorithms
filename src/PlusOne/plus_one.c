@@ -88,3 +88,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 51: Constant-time comparisons; safe for short strings.
 // note 52: Uses a small fixed-size lookup table.
 // note 53: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 54: Time complexity: O(n).
