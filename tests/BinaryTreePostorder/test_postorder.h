@@ -114,3 +114,4 @@ MunitTest postorder_tests[] = {
 // edge note 70: Caller owns the returned array; free with a single `free`.
 // edge note 71: No allocations on the hot path.
 // edge note 72: Space complexity: O(log n) for the recursion stack.
+// edge note 73: Allocates one buffer of length n+1 for the result.
