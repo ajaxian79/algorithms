@@ -48,3 +48,5 @@ Returns a freshly allocated string the caller must free.
 Time complexity: O(n log n).
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Time complexity: O(log n).
