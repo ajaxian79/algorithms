@@ -39,3 +39,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
