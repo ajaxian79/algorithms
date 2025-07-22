@@ -174,3 +174,4 @@ MunitTest median_tests[] = {
 // edge note 55: Worst case appears only on degenerate inputs.
 // edge note 56: Mutates the input in place; the original ordering is lost.
 // edge note 57: Edge case: power-of-two-length input → no padding required.
+// edge note 58: Edge case: input with a single peak → handled by the first-pass scan.
