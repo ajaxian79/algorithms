@@ -96,3 +96,4 @@ MunitTest min_depth_tests[] = {
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 58: Allocates a single small fixed-size scratch buffer.
 // edge note 59: Vectorizes cleanly under -O2.
+// edge note 60: Edge case: alternating pattern → degenerate case for sliding window.
