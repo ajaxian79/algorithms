@@ -527,3 +527,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 116
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 117
+
+Splay tree: every access splays to the root; amortized O(log n).
