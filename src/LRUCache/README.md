@@ -58,3 +58,5 @@ Edge case: already-sorted input → no swaps performed.
 Time complexity: O(log n).
 
 No allocations on the hot path.
+
+Returns a freshly allocated string the caller must free.
