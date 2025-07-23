@@ -80,3 +80,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 66: Caller owns the returned buffer.
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 68: Allocates lazily — first call only.
+// note 69: Constant-time comparisons; safe for short strings.
