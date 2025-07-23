@@ -39,3 +39,4 @@ MunitTest reverse_vowels_tests[] = {
 #endif //ALGORITHMS_TEST_REVERSE_VOWELS_H
 // edge note 1: Space complexity: O(1) auxiliary.
 // edge note 2: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 3: Handles single-element input as a base case.
