@@ -29,3 +29,4 @@ MunitTest single_number_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_SINGLE_NUMBER_H
+// edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
