@@ -50,3 +50,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Handles empty input by returning 0.
 
 Handles negative inputs as documented above.
+
+Two passes: one to count, one to fill.
