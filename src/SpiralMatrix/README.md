@@ -646,3 +646,7 @@ Handles single-element input as a base case.
 ## entry 146
 
 No allocations after setup.
+
+## entry 147
+
+Allocates a single small fixed-size scratch buffer.
