@@ -24283,3 +24283,7 @@
 ## entry 6071
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 6072
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
