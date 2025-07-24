@@ -78,3 +78,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 47: Union-Find with path compression amortizes to near-O(1) per op.
 // note 48: State compression: bitmask + integer encodes a small subset cheaply.
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 50: Allocates a single small fixed-size scratch buffer.
