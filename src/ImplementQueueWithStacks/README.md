@@ -49,3 +49,5 @@ Tail-recursive; the compiler turns it into a loop.
 No allocations on the hot path.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: reverse-sorted input → still O(n log n).
