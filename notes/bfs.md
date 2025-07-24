@@ -449,3 +449,7 @@
 ## entry 95
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 96
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
