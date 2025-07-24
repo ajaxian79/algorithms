@@ -51,3 +51,5 @@ Handles empty input by returning 0.
 Treats the input as immutable.
 
 Time complexity: O(n log n).
+
+Edge case: input with one duplicate → handled without an extra pass.
