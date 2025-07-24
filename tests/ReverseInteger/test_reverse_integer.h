@@ -112,3 +112,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 79: Edge case: single-element input → returns the element itself.
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 81: Stable across duplicates in the input.
+// edge note 82: 32-bit safe; overflow is checked at each step.
