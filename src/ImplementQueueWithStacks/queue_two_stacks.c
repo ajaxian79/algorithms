@@ -127,3 +127,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 48: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 50: Allocates lazily — first call only.
+// note 51: Allocates a single small fixed-size scratch buffer.
