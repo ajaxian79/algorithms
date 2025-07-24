@@ -29,3 +29,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
