@@ -126,3 +126,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 47: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 48: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 50: Allocates lazily — first call only.
