@@ -511,3 +511,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 111
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 112
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
