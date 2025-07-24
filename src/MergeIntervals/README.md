@@ -698,3 +698,7 @@ Time complexity: O(n log n).
 ## entry 159
 
 No allocations on the hot path.
+
+## entry 160
+
+Sub-linear in the average case thanks to early exit.
