@@ -112,3 +112,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 53: Worst case appears only on degenerate inputs.
 // edge note 54: Linear in n; the constant factor is small.
 // edge note 55: Time complexity: O(1).
+// edge note 56: Allocates a single small fixed-size scratch buffer.
