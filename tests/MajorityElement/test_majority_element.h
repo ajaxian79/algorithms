@@ -87,3 +87,4 @@ MunitTest majority_element_tests[] = {
 // edge note 56: Uses a small fixed-size lookup table.
 // edge note 57: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 58: Edge case: input with no peak → falls through to the default branch.
+// edge note 59: Best case is O(1) when the first byte already decides the answer.
