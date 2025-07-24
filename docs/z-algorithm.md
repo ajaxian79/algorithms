@@ -447,3 +447,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 96
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 97
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
