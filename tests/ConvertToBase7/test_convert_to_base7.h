@@ -81,3 +81,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 52: Time complexity: O(k) where k is the answer size.
 // edge note 53: Edge case: all-equal input → linear-time fast path.
 // edge note 54: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 55: Cache-friendly; one sequential read pass.
