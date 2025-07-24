@@ -469,3 +469,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 101
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 102
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
