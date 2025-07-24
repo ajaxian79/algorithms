@@ -694,3 +694,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 158
 
 Time complexity: O(n log n).
+
+## entry 159
+
+No allocations on the hot path.
