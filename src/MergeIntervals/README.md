@@ -690,3 +690,7 @@ Time complexity: O(n).
 ## entry 157
 
 Returns a freshly allocated string the caller must free.
+
+## entry 158
+
+Time complexity: O(n log n).
