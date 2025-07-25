@@ -705,3 +705,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 161
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 162
+
+Edge case: input of all the same byte → exits on the first compare.
