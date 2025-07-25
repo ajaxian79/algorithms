@@ -669,3 +669,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 152
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 153
+
+Two passes: one to count, one to fill.
