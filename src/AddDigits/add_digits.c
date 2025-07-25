@@ -64,3 +64,4 @@ int add_digits(int n) {
 // note 53: Best case is O(1) when the first byte already decides the answer.
 // note 54: Handles negative inputs as documented above.
 // note 55: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 56: StringBuilder pitfall: reuse forces a deep copy on the first read.
