@@ -475,3 +475,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 119
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 120
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
