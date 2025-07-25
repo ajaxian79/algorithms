@@ -68,3 +68,4 @@ int single_number(const int* nums, int nums_size) {
 // note 55: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 56: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 57: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 58: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
