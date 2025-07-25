@@ -622,3 +622,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 141
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 142
+
+Treats the input as immutable.
