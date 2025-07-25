@@ -722,3 +722,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 166
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 167
+
+Idempotent — calling twice with the same input is a no-op the second time.
