@@ -471,3 +471,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 118
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 119
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
