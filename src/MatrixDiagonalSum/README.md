@@ -694,3 +694,7 @@ Time complexity: O(1).
 ## entry 159
 
 Time complexity: O(log n).
+
+## entry 160
+
+Caller owns the returned buffer.
