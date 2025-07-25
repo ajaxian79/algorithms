@@ -594,3 +594,7 @@ Cache-friendly; one sequential read pass.
 ## entry 133
 
 Time complexity: O(1).
+
+## entry 134
+
+Edge case: input with a single peak → handled by the first-pass scan.
