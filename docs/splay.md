@@ -371,3 +371,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 93
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 94
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
