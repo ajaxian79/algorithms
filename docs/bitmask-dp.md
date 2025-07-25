@@ -463,3 +463,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 116
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 117
+
+False sharing: two threads writing different bytes in the same cache line stall both.
