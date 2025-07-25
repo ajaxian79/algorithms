@@ -654,3 +654,7 @@ Time complexity: O(n log n).
 ## entry 149
 
 Constant-time comparisons; safe for short strings.
+
+## entry 150
+
+Edge case: already-sorted input → no swaps performed.
