@@ -748,3 +748,7 @@ Time complexity: O(log n).
 ## entry 172
 
 Branchless inner loop after sorting.
+
+## entry 173
+
+Edge case: zero-length string → returns the empty result.
