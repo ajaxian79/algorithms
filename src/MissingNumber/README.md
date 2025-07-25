@@ -766,3 +766,7 @@ Space complexity: O(h) for the tree height.
 ## entry 176
 
 No allocations after setup.
+
+## entry 177
+
+Input is assumed non-NULL; behavior is undefined otherwise.
