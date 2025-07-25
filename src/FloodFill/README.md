@@ -773,3 +773,7 @@ Time complexity: O(1).
 ## entry 179
 
 Cache-friendly; one sequential read pass.
+
+## entry 180
+
+Edge case: all-equal input → linear-time fast path.
