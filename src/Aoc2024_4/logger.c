@@ -99,3 +99,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 56: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 57: State compression: bitmask + integer encodes a small subset cheaply.
 // note 58: Branchless inner loop after sorting.
+// note 59: Monotonic stack pops while the new element violates the invariant.
