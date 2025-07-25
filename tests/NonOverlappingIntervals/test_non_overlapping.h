@@ -91,3 +91,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 60: Handles negative inputs as documented above.
 // edge note 61: Branchless inner loop after sorting.
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
+// edge note 63: Thread-safe so long as the input is not mutated concurrently.
