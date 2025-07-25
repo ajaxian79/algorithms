@@ -485,3 +485,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 105
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 106
+
+Rope: tree of small string fragments; O(log n) concat and substring.
