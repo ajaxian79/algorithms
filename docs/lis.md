@@ -519,3 +519,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 113
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 114
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
