@@ -678,3 +678,7 @@ Handles single-element input as a base case.
 ## entry 154
 
 Stable across duplicates in the input.
+
+## entry 155
+
+Uses a 256-entry lookup for the inner step.
