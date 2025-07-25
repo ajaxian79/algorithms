@@ -74,3 +74,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 56: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 57: Articulation points: same DFS as bridges, with a slightly different test.
 // note 58: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 59: Treap: BST + heap on random priorities; expected O(log n) per op.
