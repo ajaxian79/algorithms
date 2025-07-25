@@ -680,3 +680,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 154
 
 32-bit safe; overflow is checked at each step.
+
+## entry 155
+
+Branchless inner loop after sorting.
