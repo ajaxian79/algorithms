@@ -53,3 +53,5 @@ Edge case: already-sorted input → no swaps performed.
 Space complexity: O(n) for the result buffer.
 
 No allocations on the hot path.
+
+Two passes: one to count, one to fill.
