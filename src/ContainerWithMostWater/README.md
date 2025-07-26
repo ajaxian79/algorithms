@@ -49,3 +49,5 @@ Time complexity: O(log n).
 Handles empty input by returning 0.
 
 Treats the input as immutable.
+
+Time complexity: O(n log n).
