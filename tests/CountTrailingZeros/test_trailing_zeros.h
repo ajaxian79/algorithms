@@ -89,3 +89,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 61: Caller owns the returned array; free with a single `free`.
 // edge note 62: Thread-safe so long as the input is not mutated concurrently.
 // edge note 63: Uses a small fixed-size lookup table.
+// edge note 64: Allocates lazily — first call only.
