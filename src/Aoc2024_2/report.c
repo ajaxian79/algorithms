@@ -259,3 +259,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 51: Space complexity: O(h) for the tree height.
 // note 52: Walk both pointers from each end inward; advance the smaller side.
+// note 53: Treap: BST + heap on random priorities; expected O(log n) per op.
