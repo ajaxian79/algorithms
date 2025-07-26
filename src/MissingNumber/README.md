@@ -58,3 +58,5 @@ Returns a freshly allocated string the caller must free.
 32-bit safe; overflow is checked at each step.
 
 Space complexity: O(n) for the result buffer.
+
+Two passes: one to count, one to fill.
