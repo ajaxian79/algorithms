@@ -54,3 +54,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles negative inputs as documented above.
 
 Space complexity: O(1) auxiliary.
+
+No allocations on the hot path.
