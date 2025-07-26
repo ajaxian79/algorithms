@@ -50,3 +50,5 @@ Handles negative inputs as documented above.
 Uses a small fixed-size lookup table.
 
 Stable across duplicates in the input.
+
+Allocates one buffer of length n+1 for the result.
