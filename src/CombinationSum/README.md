@@ -55,3 +55,5 @@ Uses a small fixed-size lookup table.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Returns a freshly allocated string the caller must free.
+
+Space complexity: O(n) for the result buffer.
