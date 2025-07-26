@@ -51,3 +51,5 @@ Time complexity: O(n log n).
 Caller owns the returned buffer.
 
 Treats the input as immutable.
+
+Time complexity: O(log n).
