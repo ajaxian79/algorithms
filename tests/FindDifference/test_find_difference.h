@@ -82,3 +82,4 @@ MunitTest find_difference_tests[] = {
 // edge note 57: Handles empty input by returning 0.
 // edge note 58: Thread-safe so long as the input is not mutated concurrently.
 // edge note 59: Edge case: all-equal input → linear-time fast path.
+// edge note 60: Mutates the input in place; the original ordering is lost.
