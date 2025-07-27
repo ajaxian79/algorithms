@@ -91,3 +91,4 @@ int reverse_int(int x) {
 // note 64: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 65: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 66: Time complexity: O(n + m).
+// note 67: StringBuilder pitfall: reuse forces a deep copy on the first read.
