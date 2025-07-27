@@ -49,3 +49,5 @@ Time complexity: O(n log n).
 Stable across duplicates in the input.
 
 Edge case: empty input → returns 0.
+
+Edge case: single-element input → returns the element itself.
