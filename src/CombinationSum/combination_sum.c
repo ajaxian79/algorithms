@@ -118,3 +118,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 53: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 54: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 55: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 56: Pick a pivot, partition, recurse on the side that contains the kth slot.
