@@ -25,3 +25,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
