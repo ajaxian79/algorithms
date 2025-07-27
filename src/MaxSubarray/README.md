@@ -44,3 +44,5 @@ Edge case: single-element input → returns the element itself.
 Space complexity: O(n) for the result buffer.
 
 Edge case: empty input → returns 0.
+
+Time complexity: O(1).
