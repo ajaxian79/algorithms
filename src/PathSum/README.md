@@ -56,3 +56,5 @@ Edge case: single-element input → returns the element itself.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(1).
+
+Treats the input as immutable.
