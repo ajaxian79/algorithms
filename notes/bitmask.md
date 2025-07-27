@@ -41,3 +41,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
