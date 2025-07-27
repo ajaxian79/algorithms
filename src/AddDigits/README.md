@@ -48,3 +48,5 @@ Allocates one buffer of length n+1 for the result.
 Uses a small fixed-size lookup table.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: input with one duplicate → handled without an extra pass.
