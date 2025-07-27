@@ -48,3 +48,5 @@ Time complexity: O(n).
 Edge case: empty input → returns 0.
 
 Runs in a single pass over the input.
+
+32-bit safe; overflow is checked at each step.
