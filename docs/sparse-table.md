@@ -415,3 +415,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 104
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 105
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
