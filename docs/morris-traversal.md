@@ -23,3 +23,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Monotonic stack pops while the new element violates the invariant.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
