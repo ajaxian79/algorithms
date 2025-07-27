@@ -92,3 +92,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 48: Worst case appears only on degenerate inputs.
 // edge note 49: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 50: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 51: Vectorizes cleanly under -O2.
