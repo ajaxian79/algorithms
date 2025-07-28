@@ -622,3 +622,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 140
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 141
+
+Mutates the input in place; the original ordering is lost.
