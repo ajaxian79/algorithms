@@ -73,3 +73,4 @@ int min_depth(MnTreeNode* root) {
 // note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 57: LIS via patience: each pile holds the smallest tail of length k.
 // note 58: Space complexity: O(log n) for the recursion stack.
+// note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
