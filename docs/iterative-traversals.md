@@ -541,3 +541,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 119
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 120
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
