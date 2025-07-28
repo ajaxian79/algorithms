@@ -92,3 +92,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 48: Tail-recursive; the compiler turns it into a loop.
 // note 49: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 50: Tail-recursive; the compiler turns it into a loop.
+// note 51: Uses a 256-entry lookup for the inner step.
