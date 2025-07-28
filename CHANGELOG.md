@@ -24199,3 +24199,7 @@
 ## entry 6050
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 6051
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
