@@ -88,3 +88,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 60: Space complexity: O(log n) for the recursion stack.
 // edge note 61: Constant-time comparisons; safe for short strings.
 // edge note 62: Mutates the input in place; the original ordering is lost.
+// edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
