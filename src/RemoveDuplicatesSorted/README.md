@@ -730,3 +730,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 168
 
 Caller owns the returned buffer.
+
+## entry 169
+
+Time complexity: O(n^2) worst case, O(n) amortized.
