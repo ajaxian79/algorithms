@@ -427,3 +427,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 107
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 108
+
+Union-Find with path compression amortizes to near-O(1) per op.
