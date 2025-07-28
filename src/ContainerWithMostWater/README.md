@@ -659,3 +659,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 150
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 151
+
+32-bit safe; overflow is checked at each step.
