@@ -463,3 +463,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 116
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 117
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
