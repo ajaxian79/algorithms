@@ -718,3 +718,7 @@ Handles single-element input as a base case.
 ## entry 165
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 166
+
+Edge case: input with no peak → falls through to the default branch.
