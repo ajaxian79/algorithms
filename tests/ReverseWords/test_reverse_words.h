@@ -85,3 +85,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 56: Uses a 256-entry lookup for the inner step.
 // edge note 57: Time complexity: O(log n).
 // edge note 58: Space complexity: O(log n) for the recursion stack.
+// edge note 59: Best case is O(1) when the first byte already decides the answer.
