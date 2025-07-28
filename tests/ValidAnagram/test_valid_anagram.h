@@ -82,3 +82,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 57: Mutates the input in place; the original ordering is lost.
 // edge note 58: Time complexity: O(n log n).
 // edge note 59: Edge case: power-of-two-length input → no padding required.
+// edge note 60: Space complexity: O(1) auxiliary.
