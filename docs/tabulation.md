@@ -467,3 +467,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 117
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 118
+
+Heap when you only need top-k; full sort is wasted work.
