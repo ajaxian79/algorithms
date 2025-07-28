@@ -621,3 +621,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 140
 
 Time complexity: O(n + m).
+
+## entry 141
+
+Resists adversarial inputs by randomizing the pivot.
