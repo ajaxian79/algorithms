@@ -676,3 +676,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 153
 
 Constant-time comparisons; safe for short strings.
+
+## entry 154
+
+32-bit safe; overflow is checked at each step.
