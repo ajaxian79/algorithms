@@ -663,3 +663,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 151
 
 32-bit safe; overflow is checked at each step.
+
+## entry 152
+
+Returns a freshly allocated string the caller must free.
