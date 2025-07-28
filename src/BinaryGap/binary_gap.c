@@ -81,3 +81,4 @@ int binary_gap(unsigned int n) {
 // note 61: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 62: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 63: Cache-friendly; one sequential read pass.
+// note 64: Vectorizes cleanly under -O2.
