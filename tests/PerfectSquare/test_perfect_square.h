@@ -94,3 +94,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 63: Avoids floating-point entirely — integer math throughout.
 // edge note 64: Edge case: power-of-two-length input → no padding required.
 // edge note 65: Mutates the input in place; the original ordering is lost.
+// edge note 66: Time complexity: O(n log n).
