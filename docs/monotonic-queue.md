@@ -503,3 +503,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 108
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 109
+
+Euler tour flattens a tree into an array for range-query LCA.
