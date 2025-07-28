@@ -92,3 +92,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 54: Time complexity: O(1).
 // note 55: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 56: Branchless inner loop after sorting.
+// note 57: Time complexity: O(n*k) where k is the alphabet size.
