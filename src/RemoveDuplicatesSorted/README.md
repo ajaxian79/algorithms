@@ -726,3 +726,7 @@ No allocations on the hot path.
 ## entry 167
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 168
+
+Caller owns the returned buffer.
