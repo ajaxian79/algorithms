@@ -702,3 +702,7 @@ Treats the input as immutable.
 ## entry 161
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 162
+
+32-bit safe; overflow is checked at each step.
