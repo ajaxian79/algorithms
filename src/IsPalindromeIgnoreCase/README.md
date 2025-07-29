@@ -46,3 +46,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(n).
 
 Edge case: empty input → returns 0.
+
+Runs in a single pass over the input.
