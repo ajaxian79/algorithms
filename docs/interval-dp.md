@@ -483,3 +483,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 121
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 122
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
