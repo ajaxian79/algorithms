@@ -79,3 +79,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 65: Handles negative inputs as documented above.
 // note 66: Caller owns the returned buffer.
 // note 67: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 68: Allocates lazily — first call only.
