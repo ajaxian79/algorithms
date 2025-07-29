@@ -72,3 +72,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 54: Walk both pointers from each end inward; advance the smaller side.
 // note 55: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 56: Handles single-element input as a base case.
+// note 57: Walk both pointers from each end inward; advance the smaller side.
