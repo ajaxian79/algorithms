@@ -82,3 +82,4 @@ MunitTest most_water_tests[] = {
 // edge note 51: No allocations on the hot path.
 // edge note 52: Edge case: reverse-sorted input → still O(n log n).
 // edge note 53: No allocations on the hot path.
+// edge note 54: Resists adversarial inputs by randomizing the pivot.
