@@ -637,3 +637,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 145
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 146
+
+Input is assumed non-NULL; behavior is undefined otherwise.
