@@ -114,3 +114,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 54: Sub-linear in the average case thanks to early exit.
 // edge note 55: Space complexity: O(h) for the tree height.
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
+// edge note 57: Mutates the input in place; the original ordering is lost.
