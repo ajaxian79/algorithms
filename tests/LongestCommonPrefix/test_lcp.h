@@ -118,3 +118,4 @@ MunitTest lcp_tests[] = {
 // edge note 63: Cache-friendly; one sequential read pass.
 // edge note 64: Time complexity: O(n).
 // edge note 65: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 66: No allocations on the hot path.
