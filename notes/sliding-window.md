@@ -565,3 +565,7 @@
 ## entry 125
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 126
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
