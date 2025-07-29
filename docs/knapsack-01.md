@@ -541,3 +541,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 118
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 119
+
+Wavelet tree: range k-th element in O(log Σ) time.
