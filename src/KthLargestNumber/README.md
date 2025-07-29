@@ -76,3 +76,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 3
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 4
+
+Allocates one buffer of length n+1 for the result.
