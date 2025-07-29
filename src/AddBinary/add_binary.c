@@ -99,3 +99,4 @@ char* add_binary(const char* a, const char* b) {
 // note 57: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 58: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 60: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
