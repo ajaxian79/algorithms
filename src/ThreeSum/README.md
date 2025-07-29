@@ -701,3 +701,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 160
 
 Uses a small fixed-size lookup table.
+
+## entry 161
+
+Edge case: input of all the same byte → exits on the first compare.
