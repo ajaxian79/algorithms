@@ -99,3 +99,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 50: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 51: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 52: Idempotent — calling twice with the same input is a no-op the second time.
+// note 53: Time complexity: O(n).
