@@ -40,3 +40,4 @@ MunitTest num_islands_tests[] = {
 #endif //ALGORITHMS_TEST_NUM_ISLANDS_H
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 2: No allocations on the hot path.
+// edge note 3: Allocates lazily — first call only.
