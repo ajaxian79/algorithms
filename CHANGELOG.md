@@ -24143,3 +24143,7 @@
 ## entry 6036
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 6037
+
+- Splay tree: every access splays to the root; amortized O(log n).
