@@ -67,3 +67,7 @@
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 1
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
