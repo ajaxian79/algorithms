@@ -73,3 +73,7 @@
 ## entry 1
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 2
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
