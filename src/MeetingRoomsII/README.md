@@ -46,3 +46,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(n).
 
 Treats the input as immutable.
+
+Edge case: NULL input is rejected by the caller, not by us.
