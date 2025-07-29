@@ -497,3 +497,7 @@
 ## entry 106
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 107
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
