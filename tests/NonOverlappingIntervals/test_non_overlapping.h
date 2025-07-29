@@ -90,3 +90,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 59: 32-bit safe; overflow is checked at each step.
 // edge note 60: Handles negative inputs as documented above.
 // edge note 61: Branchless inner loop after sorting.
+// edge note 62: Edge case: reverse-sorted input → still O(n log n).
