@@ -411,3 +411,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 103
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 104
+
+Merge intervals: sort by start; extend the running interval while overlapping.
