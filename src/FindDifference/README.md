@@ -582,3 +582,7 @@ No allocations after setup.
 ## entry 131
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 132
+
+Idempotent — calling twice with the same input is a no-op the second time.
