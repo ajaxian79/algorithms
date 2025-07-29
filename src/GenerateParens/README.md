@@ -672,3 +672,7 @@ Time complexity: O(n).
 ## entry 152
 
 Time complexity: O(n + m).
+
+## entry 153
+
+Constant-time comparisons; safe for short strings.
