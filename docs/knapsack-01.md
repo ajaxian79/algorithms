@@ -39,3 +39,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
