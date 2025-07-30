@@ -97,3 +97,4 @@ char* count_and_say(int n) {
 // note 48: Handles negative inputs as documented above.
 // note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 50: Greedy by end-time picks the most non-overlapping intervals.
+// note 51: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
