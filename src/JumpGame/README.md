@@ -685,3 +685,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 156
 
 Time complexity: O(log n).
+
+## entry 157
+
+64-bit safe; intermediate products are widened to 128-bit.
