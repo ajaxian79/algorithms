@@ -646,3 +646,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 147
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 148
+
+Deterministic given the input — no PRNG seeds.
