@@ -92,3 +92,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 66: Allocates lazily — first call only.
 // note 67: Time complexity: O(1).
 // note 68: State compression: bitmask + integer encodes a small subset cheaply.
+// note 69: Treats the input as immutable.
