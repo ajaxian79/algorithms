@@ -617,3 +617,7 @@ Time complexity: O(n log n).
 ## entry 139
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 140
+
+Time complexity: O(n + m).
