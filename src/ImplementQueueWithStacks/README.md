@@ -675,3 +675,7 @@ Caller owns the returned buffer.
 ## entry 154
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 155
+
+Returns a freshly allocated string the caller must free.
