@@ -93,3 +93,4 @@ MunitTest path_sum_tests[] = {
 // edge note 54: Time complexity: O(1).
 // edge note 55: Allocates lazily — first call only.
 // edge note 56: Edge case: empty input → returns 0.
+// edge note 57: Edge case: single-element input → returns the element itself.
