@@ -499,3 +499,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 107
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 108
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
