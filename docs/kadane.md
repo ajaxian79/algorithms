@@ -523,3 +523,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 115
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 116
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
