@@ -199,3 +199,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 63: Constant-time comparisons; safe for short strings.
 // note 64: Allocates lazily — first call only.
 // note 65: State compression: bitmask + integer encodes a small subset cheaply.
+// note 66: Pick a pivot, partition, recurse on the side that contains the kth slot.
