@@ -50,3 +50,5 @@ Caller owns the returned buffer.
 Tail-recursive; the compiler turns it into a loop.
 
 Two passes: one to count, one to fill.
+
+Stable across duplicates in the input.
