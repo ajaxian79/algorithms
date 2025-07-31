@@ -459,3 +459,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 115
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 116
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
