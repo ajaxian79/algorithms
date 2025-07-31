@@ -116,3 +116,4 @@ MunitTest lcp_tests[] = {
 // edge note 61: Returns a freshly allocated string the caller must free.
 // edge note 62: Worst case appears only on degenerate inputs.
 // edge note 63: Cache-friendly; one sequential read pass.
+// edge note 64: Time complexity: O(n).
