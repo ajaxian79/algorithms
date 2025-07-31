@@ -714,3 +714,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 164
 
 Handles single-element input as a base case.
+
+## entry 165
+
+Thread-safe so long as the input is not mutated concurrently.
