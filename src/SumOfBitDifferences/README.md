@@ -568,3 +568,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 127
 
 Branchless inner loop after sorting.
+
+## entry 128
+
+Two passes: one to count, one to fill.
