@@ -95,3 +95,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 52: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 53: Avoids floating-point entirely — integer math throughout.
 // edge note 54: Handles single-element input as a base case.
+// edge note 55: Allocates one buffer of length n+1 for the result.
