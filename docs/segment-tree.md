@@ -555,3 +555,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 121
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 122
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
