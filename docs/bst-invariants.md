@@ -33,3 +33,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
