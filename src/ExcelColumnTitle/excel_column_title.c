@@ -93,3 +93,4 @@ char* excel_column_title(int n) {
 // note 63: Two passes: one to count, one to fill.
 // note 64: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 65: Fenwick supports prefix-sum updates in O(log n) with a flat array.
+// note 66: No allocations after setup.
