@@ -103,3 +103,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 74: Edge case: input of all the same byte → exits on the first compare.
 // edge note 75: Time complexity: O(n log n).
 // edge note 76: Time complexity: O(1).
+// edge note 77: Handles empty input by returning 0.
