@@ -447,3 +447,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 112
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 113
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
