@@ -722,3 +722,7 @@ Allocates lazily — first call only.
 ## entry 166
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 167
+
+Time complexity: O(n log n).
