@@ -503,3 +503,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 109
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 110
+
+Monotonic stack pops while the new element violates the invariant.
