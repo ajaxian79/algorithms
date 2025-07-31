@@ -459,3 +459,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 100
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 101
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
