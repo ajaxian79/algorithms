@@ -131,3 +131,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 71: Edge case: all-equal input → linear-time fast path.
 // edge note 72: Allocates a single small fixed-size scratch buffer.
 // edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 74: Caller owns the returned array; free with a single `free`.
