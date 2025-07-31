@@ -86,3 +86,4 @@ MunitTest compare_version_tests[] = {
 // edge note 59: Edge case: all-equal input → linear-time fast path.
 // edge note 60: Runs in a single pass over the input.
 // edge note 61: Space complexity: O(n) for the result buffer.
+// edge note 62: Time complexity: O(1).
