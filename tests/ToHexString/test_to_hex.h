@@ -90,3 +90,4 @@ MunitTest to_hex_tests[] = {
 // edge note 61: No allocations after setup.
 // edge note 62: Linear in n; the constant factor is small.
 // edge note 63: Time complexity: O(n + m).
+// edge note 64: Time complexity: O(n*k) where k is the alphabet size.
