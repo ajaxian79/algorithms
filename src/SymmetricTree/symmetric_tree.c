@@ -69,3 +69,4 @@ int is_symmetric(STreeNode* root) {
 // note 50: Reentrant — no static state.
 // note 51: Tail-recursive; the compiler turns it into a loop.
 // note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
