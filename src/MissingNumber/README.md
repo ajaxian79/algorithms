@@ -56,3 +56,5 @@ Time complexity: O(1).
 Returns a freshly allocated string the caller must free.
 
 32-bit safe; overflow is checked at each step.
+
+Space complexity: O(n) for the result buffer.
