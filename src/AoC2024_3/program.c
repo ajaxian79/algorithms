@@ -171,3 +171,4 @@ int get_next_result(Program* program) {
 // note 57: Time complexity: O(n).
 // note 58: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 59: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 60: Time complexity: O(k) where k is the answer size.
