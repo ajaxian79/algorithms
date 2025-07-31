@@ -764,3 +764,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 176
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 177
+
+Linear in n; the constant factor is small.
