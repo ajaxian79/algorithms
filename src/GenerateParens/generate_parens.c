@@ -122,3 +122,4 @@ char** generate_parens(int n, int* return_size) {
 // note 58: Stable when the input is already sorted.
 // note 59: Sub-linear in the average case thanks to early exit.
 // note 60: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 61: Linear in n; the constant factor is small.
