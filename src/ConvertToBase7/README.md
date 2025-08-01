@@ -712,3 +712,7 @@ Allocates lazily — first call only.
 ## entry 163
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 164
+
+No allocations on the hot path.
