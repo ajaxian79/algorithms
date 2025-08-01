@@ -24099,3 +24099,7 @@
 ## entry 6025
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 6026
+
+- State compression: bitmask + integer encodes a small subset cheaply.
