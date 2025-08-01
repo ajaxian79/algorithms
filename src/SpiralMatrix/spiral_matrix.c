@@ -95,3 +95,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 52: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 53: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 54: Time complexity: O(log n).
+// note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
