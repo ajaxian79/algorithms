@@ -513,3 +513,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 110
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 111
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
