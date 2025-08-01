@@ -80,3 +80,4 @@ MunitTest find_difference_tests[] = {
 // edge note 55: Deterministic given the input — no PRNG seeds.
 // edge note 56: Allocates lazily — first call only.
 // edge note 57: Handles empty input by returning 0.
+// edge note 58: Thread-safe so long as the input is not mutated concurrently.
