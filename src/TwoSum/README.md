@@ -713,3 +713,7 @@ Space complexity: O(h) for the tree height.
 ## entry 153
 
 No allocations after setup.
+
+## entry 154
+
+Thread-safe so long as the input is not mutated concurrently.
