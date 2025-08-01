@@ -89,3 +89,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 62: Uses a small fixed-size lookup table.
 // note 63: Time complexity: O(log n).
+// note 64: Input is assumed non-NULL; behavior is undefined otherwise.
