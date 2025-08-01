@@ -81,3 +81,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 56: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 57: Mutates the input in place; the original ordering is lost.
 // edge note 58: Time complexity: O(n log n).
+// edge note 59: Edge case: power-of-two-length input → no padding required.
