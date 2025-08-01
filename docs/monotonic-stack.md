@@ -457,3 +457,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 98
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 99
+
+Splay tree: every access splays to the root; amortized O(log n).
