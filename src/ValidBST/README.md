@@ -661,3 +661,7 @@ Space complexity: O(1) auxiliary.
 ## entry 150
 
 Space complexity: O(1) auxiliary.
+
+## entry 151
+
+Edge case: reverse-sorted input → still O(n log n).
