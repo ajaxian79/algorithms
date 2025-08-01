@@ -423,3 +423,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 106
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 107
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
