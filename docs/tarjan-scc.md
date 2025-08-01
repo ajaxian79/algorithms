@@ -447,3 +447,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 112
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 113
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
