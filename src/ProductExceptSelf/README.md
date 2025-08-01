@@ -652,3 +652,7 @@ Time complexity: O(n log n).
 ## entry 147
 
 Vectorizes cleanly under -O2.
+
+## entry 148
+
+Edge case: zero-length string → returns the empty result.
