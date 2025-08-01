@@ -543,3 +543,7 @@
 ## entry 119
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 120
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
