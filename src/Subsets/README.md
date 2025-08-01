@@ -711,3 +711,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 163
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 164
+
+Caller owns the returned buffer.
