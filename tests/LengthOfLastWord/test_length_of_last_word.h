@@ -78,3 +78,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 51: Allocates a single small fixed-size scratch buffer.
 // edge note 52: Allocates one buffer of length n+1 for the result.
 // edge note 53: Caller owns the returned array; free with a single `free`.
+// edge note 54: Time complexity: O(log n).
