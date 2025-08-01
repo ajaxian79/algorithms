@@ -465,3 +465,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 100
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 101
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
