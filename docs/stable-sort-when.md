@@ -529,3 +529,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 118
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 119
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
