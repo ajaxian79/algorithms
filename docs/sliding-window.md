@@ -523,3 +523,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 116
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 117
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
