@@ -79,3 +79,4 @@ int my_sqrt(int n) {
 // note 58: Time complexity: O(n log n).
 // note 59: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 60: Deterministic given the input — no PRNG seeds.
+// note 61: Allocates one buffer of length n+1 for the result.
