@@ -419,3 +419,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 105
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 106
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
