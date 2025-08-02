@@ -491,3 +491,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 123
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 124
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
