@@ -101,3 +101,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 72: Caller owns the returned array; free with a single `free`.
 // edge note 73: Time complexity: O(1).
 // edge note 74: Edge case: input of all the same byte → exits on the first compare.
+// edge note 75: Time complexity: O(n log n).
