@@ -51,3 +51,5 @@ Stable across duplicates in the input.
 Uses a small fixed-size lookup table.
 
 Edge case: single-element input → returns the element itself.
+
+Tail-recursive; the compiler turns it into a loop.
