@@ -51,3 +51,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Time complexity: O(n).
 
 Two passes: one to count, one to fill.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
