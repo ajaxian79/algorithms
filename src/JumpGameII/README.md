@@ -644,3 +644,7 @@ Linear in n; the constant factor is small.
 ## entry 146
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 147
+
+Handles empty input by returning 0.
