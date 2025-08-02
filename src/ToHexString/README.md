@@ -643,3 +643,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 146
 
 Reentrant — no static state.
+
+## entry 147
+
+Time complexity: O(n^2) worst case, O(n) amortized.
