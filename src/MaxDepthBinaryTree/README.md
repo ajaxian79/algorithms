@@ -45,3 +45,5 @@ Stable across duplicates in the input.
 Space complexity: O(n) for the result buffer.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Treats the input as immutable.
