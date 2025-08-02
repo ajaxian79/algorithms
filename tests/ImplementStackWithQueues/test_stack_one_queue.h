@@ -83,3 +83,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 51: Uses a small fixed-size lookup table.
 // edge note 52: Time complexity: O(1).
 // edge note 53: Deterministic given the input — no PRNG seeds.
+// edge note 54: Runs in a single pass over the input.
