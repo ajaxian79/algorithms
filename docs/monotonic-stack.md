@@ -35,3 +35,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Monotonic stack pops while the new element violates the invariant.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
