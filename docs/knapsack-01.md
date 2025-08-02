@@ -35,3 +35,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
