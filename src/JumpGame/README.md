@@ -55,3 +55,5 @@ Uses a small fixed-size lookup table.
 Space complexity: O(1) auxiliary.
 
 Handles negative inputs as documented above.
+
+32-bit safe; overflow is checked at each step.
