@@ -564,3 +564,7 @@ Vectorizes cleanly under -O2.
 ## entry 126
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 127
+
+Branchless inner loop after sorting.
