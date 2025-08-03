@@ -58,3 +58,5 @@ Handles empty input by returning 0.
 32-bit safe; overflow is checked at each step.
 
 Edge case: all-equal input → linear-time fast path.
+
+Uses a small fixed-size lookup table.
