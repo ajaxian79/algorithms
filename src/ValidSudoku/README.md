@@ -667,3 +667,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 151
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 152
+
+Thread-safe so long as the input is not mutated concurrently.
