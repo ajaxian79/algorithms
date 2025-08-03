@@ -487,3 +487,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 106
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 107
+
+False sharing: two threads writing different bytes in the same cache line stall both.
