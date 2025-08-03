@@ -109,3 +109,4 @@ int min_stack_size(const MinStack* s) {
 // note 48: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 49: Time complexity: O(1).
 // note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 51: Stable across duplicates in the input.
