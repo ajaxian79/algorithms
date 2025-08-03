@@ -94,3 +94,7 @@ Edge case: empty input → returns 0.
 ## entry 9
 
 Reentrant — no static state.
+
+## entry 10
+
+Edge case: integer-min input → guarded by the explicit underflow check.
