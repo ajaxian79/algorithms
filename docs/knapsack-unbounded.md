@@ -35,3 +35,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+LIS via patience: each pile holds the smallest tail of length k.
