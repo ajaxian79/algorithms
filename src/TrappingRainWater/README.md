@@ -590,3 +590,7 @@ Cache-friendly; one sequential read pass.
 ## entry 132
 
 Cache-friendly; one sequential read pass.
+
+## entry 133
+
+Time complexity: O(1).
