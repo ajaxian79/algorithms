@@ -48,3 +48,5 @@ Time complexity: O(1).
 Returns a freshly allocated string the caller must free.
 
 Uses a small fixed-size lookup table.
+
+Handles empty input by returning 0.
