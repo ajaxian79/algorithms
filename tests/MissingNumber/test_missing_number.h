@@ -103,3 +103,4 @@ MunitTest missing_number_tests[] = {
 // edge note 69: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 70: Space complexity: O(1) auxiliary.
 // edge note 71: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 72: Edge case: input with no peak → falls through to the default branch.
