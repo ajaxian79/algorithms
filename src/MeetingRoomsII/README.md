@@ -670,3 +670,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 152
 
 Cache-friendly; one sequential read pass.
+
+## entry 153
+
+Handles single-element input as a base case.
