@@ -720,3 +720,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 165
 
 Stable when the input is already sorted.
+
+## entry 166
+
+Space complexity: O(log n) for the recursion stack.
