@@ -96,3 +96,4 @@ char* count_and_say(int n) {
 // note 47: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 48: Handles negative inputs as documented above.
 // note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 50: Greedy by end-time picks the most non-overlapping intervals.
