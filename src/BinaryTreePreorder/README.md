@@ -734,3 +734,7 @@ Treats the input as immutable.
 ## entry 169
 
 Time complexity: O(log n).
+
+## entry 170
+
+Best case is O(1) when the first byte already decides the answer.
