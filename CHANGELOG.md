@@ -24067,3 +24067,7 @@
 ## entry 6017
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 6018
+
+- Walk both pointers from each end inward; advance the smaller side.
