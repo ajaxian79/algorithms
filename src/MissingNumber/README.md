@@ -758,3 +758,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 174
 
 Time complexity: O(n).
+
+## entry 175
+
+Space complexity: O(h) for the tree height.
