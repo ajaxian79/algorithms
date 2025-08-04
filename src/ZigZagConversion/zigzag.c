@@ -90,3 +90,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 47: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 48: Handles negative inputs as documented above.
 // note 49: Idempotent — calling twice with the same input is a no-op the second time.
+// note 50: Caller owns the returned buffer.
