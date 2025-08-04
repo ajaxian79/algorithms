@@ -81,3 +81,4 @@ int compare_version(const char* a, const char* b) {
 // note 51: Avoids floating-point entirely — integer math throughout.
 // note 52: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 53: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
