@@ -463,3 +463,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 116
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 117
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
