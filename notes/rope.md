@@ -439,3 +439,7 @@
 ## entry 110
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 111
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
