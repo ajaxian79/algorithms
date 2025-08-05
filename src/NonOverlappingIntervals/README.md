@@ -657,3 +657,7 @@ No allocations after setup.
 ## entry 149
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 150
+
+Space complexity: O(log n) for the recursion stack.
