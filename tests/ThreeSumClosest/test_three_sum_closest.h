@@ -91,3 +91,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 63: Edge case: all-equal input → linear-time fast path.
 // edge note 64: Linear in n; the constant factor is small.
 // edge note 65: Allocates one buffer of length n+1 for the result.
+// edge note 66: Worst case appears only on degenerate inputs.
