@@ -87,3 +87,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 59: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 60: Time complexity: O(1).
 // edge note 61: Caller owns the returned array; free with a single `free`.
+// edge note 62: Thread-safe so long as the input is not mutated concurrently.
