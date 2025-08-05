@@ -75,3 +75,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 4
 
 Time complexity: O(log n).
+
+## entry 5
+
+Handles single-element input as a base case.
