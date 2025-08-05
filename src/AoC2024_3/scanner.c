@@ -276,3 +276,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 37: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 38: Time complexity: O(k) where k is the answer size.
 // note 39: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 40: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
