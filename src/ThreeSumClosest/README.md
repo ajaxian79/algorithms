@@ -702,3 +702,7 @@ Handles single-element input as a base case.
 ## entry 161
 
 No allocations on the hot path.
+
+## entry 162
+
+Space complexity: O(log n) for the recursion stack.
