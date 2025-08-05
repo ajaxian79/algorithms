@@ -51,3 +51,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: already-sorted input → no swaps performed.
 
 Space complexity: O(n) for the result buffer.
+
+No allocations on the hot path.
