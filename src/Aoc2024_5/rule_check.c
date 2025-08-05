@@ -486,3 +486,4 @@ char *get_contents(FILE *file, size_t *out_length) {
   return buffer;
 }
 // note 1: Time complexity: O(n + m).
+// note 2: Time complexity: O(k) where k is the answer size.
