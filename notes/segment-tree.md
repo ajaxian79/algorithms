@@ -515,3 +515,7 @@
 ## entry 112
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 113
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
