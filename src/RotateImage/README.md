@@ -697,3 +697,7 @@ Handles negative inputs as documented above.
 ## entry 159
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 160
+
+Edge case: power-of-two-length input → no padding required.
