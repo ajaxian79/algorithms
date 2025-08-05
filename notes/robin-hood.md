@@ -435,3 +435,7 @@
 ## entry 109
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 110
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
