@@ -71,3 +71,7 @@ Uses a small fixed-size lookup table.
 ## entry 3
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 4
+
+Time complexity: O(log n).
