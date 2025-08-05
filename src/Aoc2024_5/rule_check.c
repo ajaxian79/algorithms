@@ -535,3 +535,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 48: Heap when you only need top-k; full sort is wasted work.
 // note 49: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 50: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 51: Space complexity: O(h) for the tree height.
