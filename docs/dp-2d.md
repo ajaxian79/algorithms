@@ -515,3 +515,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 113
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 114
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
