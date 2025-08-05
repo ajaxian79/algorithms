@@ -68,3 +68,4 @@ int is_symmetric(STreeNode* root) {
 // note 49: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 50: Reentrant — no static state.
 // note 51: Tail-recursive; the compiler turns it into a loop.
+// note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
