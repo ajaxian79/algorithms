@@ -614,3 +614,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 138
 
 32-bit safe; overflow is checked at each step.
+
+## entry 139
+
+Allocates a single small fixed-size scratch buffer.
