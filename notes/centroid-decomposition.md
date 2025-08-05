@@ -411,3 +411,7 @@
 ## entry 103
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 104
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
