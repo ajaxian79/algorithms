@@ -503,3 +503,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 109
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 110
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
