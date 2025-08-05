@@ -578,3 +578,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 130
 
 No allocations after setup.
+
+## entry 131
+
+Thread-safe so long as the input is not mutated concurrently.
