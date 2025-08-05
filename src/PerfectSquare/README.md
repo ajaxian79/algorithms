@@ -726,3 +726,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 167
 
 Edge case: empty input → returns 0.
+
+## entry 168
+
+Edge case: integer-max input → guarded by the explicit overflow check.
