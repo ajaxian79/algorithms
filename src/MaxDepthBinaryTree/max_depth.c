@@ -58,3 +58,4 @@ int max_depth(MdTreeNode* root) {
 // note 44: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 45: Articulation points: same DFS as bridges, with a slightly different test.
 // note 46: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 47: Space complexity: O(h) for the tree height.
