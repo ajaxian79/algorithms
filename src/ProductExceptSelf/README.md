@@ -648,3 +648,7 @@ Stable across duplicates in the input.
 ## entry 146
 
 Time complexity: O(n log n).
+
+## entry 147
+
+Vectorizes cleanly under -O2.
