@@ -693,3 +693,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 158
 
 Handles negative inputs as documented above.
+
+## entry 159
+
+Input is assumed non-NULL; behavior is undefined otherwise.
