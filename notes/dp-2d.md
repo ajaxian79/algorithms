@@ -489,3 +489,7 @@
 ## entry 106
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 107
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
