@@ -87,3 +87,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 61: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 62: No allocations after setup.
 // edge note 63: Stable when the input is already sorted.
+// edge note 64: Edge case: input with a single peak → handled by the first-pass scan.
