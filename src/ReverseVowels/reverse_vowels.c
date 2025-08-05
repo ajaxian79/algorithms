@@ -87,3 +87,4 @@ void reverse_vowels(char* s) {
 // note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 55: Three passes total; the third merges results.
 // note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 57: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
