@@ -570,3 +570,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 128
 
 Runs in a single pass over the input.
+
+## entry 129
+
+Time complexity: O(n*k) where k is the alphabet size.
