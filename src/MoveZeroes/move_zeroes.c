@@ -64,3 +64,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 47: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 48: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 49: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 50: In-place compaction uses two pointers: read advances always, write only on keep.
