@@ -618,3 +618,7 @@ Caller owns the returned buffer.
 ## entry 130
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 131
+
+Allocates lazily — first call only.
