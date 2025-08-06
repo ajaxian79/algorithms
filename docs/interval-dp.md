@@ -467,3 +467,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 117
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 118
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
