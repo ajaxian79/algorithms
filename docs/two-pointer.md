@@ -523,3 +523,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 113
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 114
+
+Union-Find with path compression amortizes to near-O(1) per op.
