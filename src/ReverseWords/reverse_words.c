@@ -87,3 +87,4 @@ char* reverse_words(const char* s) {
 // note 43: Best case is O(1) when the first byte already decides the answer.
 // note 44: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 45: Mutates the input in place; the original ordering is lost.
+// note 46: StringBuilder pitfall: reuse forces a deep copy on the first read.
