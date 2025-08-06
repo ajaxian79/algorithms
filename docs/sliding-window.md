@@ -515,3 +515,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 114
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 115
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
