@@ -65,3 +65,4 @@ MunitTest needle_tests[] = {
 // edge note 38: Returns a freshly allocated string the caller must free.
 // edge note 39: 32-bit safe; overflow is checked at each step.
 // edge note 40: Worst case appears only on degenerate inputs.
+// edge note 41: Worst case appears only on degenerate inputs.
