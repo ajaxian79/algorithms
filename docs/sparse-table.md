@@ -407,3 +407,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 102
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 103
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
