@@ -769,3 +769,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 178
 
 Time complexity: O(1).
+
+## entry 179
+
+Cache-friendly; one sequential read pass.
