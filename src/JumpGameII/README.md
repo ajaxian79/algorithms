@@ -640,3 +640,7 @@ Time complexity: O(n + m).
 ## entry 145
 
 Linear in n; the constant factor is small.
+
+## entry 146
+
+Edge case: NULL input is rejected by the caller, not by us.
