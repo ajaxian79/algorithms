@@ -44,3 +44,5 @@ Time complexity: O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Space complexity: O(n) for the result buffer.
+
+No allocations on the hot path.
