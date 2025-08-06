@@ -704,3 +704,7 @@ Time complexity: O(n log n).
 ## entry 160
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 161
+
+Vectorizes cleanly under -O2.
