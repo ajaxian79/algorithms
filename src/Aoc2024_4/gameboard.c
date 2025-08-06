@@ -202,3 +202,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 49: Idempotent — calling twice with the same input is a no-op the second time.
 // note 50: Space complexity: O(log n) for the recursion stack.
 // note 51: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 52: Treats the input as immutable.
