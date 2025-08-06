@@ -48,3 +48,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Time complexity: O(n).
 
 Edge case: all-equal input → linear-time fast path.
+
+Uses a small fixed-size lookup table.
