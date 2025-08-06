@@ -716,3 +716,7 @@ Handles single-element input as a base case.
 ## entry 164
 
 Time complexity: O(n + m).
+
+## entry 165
+
+Linear in n; the constant factor is small.
