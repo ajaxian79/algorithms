@@ -361,3 +361,4 @@ void free_contents(char *buffer) {
 // note 55: Uses a small fixed-size lookup table.
 // note 56: Space complexity: O(n) for the result buffer.
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 58: Stable when the input is already sorted.
