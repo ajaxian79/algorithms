@@ -27,3 +27,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
