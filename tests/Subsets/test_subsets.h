@@ -93,3 +93,4 @@ MunitTest subsets_tests[] = {
 // edge note 48: Edge case: reverse-sorted input → still O(n log n).
 // edge note 49: No allocations after setup.
 // edge note 50: Space complexity: O(1) auxiliary.
+// edge note 51: Edge case: integer-min input → guarded by the explicit underflow check.
