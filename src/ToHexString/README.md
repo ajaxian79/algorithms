@@ -635,3 +635,7 @@ No allocations on the hot path.
 ## entry 144
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 145
+
+Edge case: NULL input is rejected by the caller, not by us.
