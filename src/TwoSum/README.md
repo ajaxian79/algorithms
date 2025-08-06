@@ -709,3 +709,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 152
 
 Space complexity: O(h) for the tree height.
+
+## entry 153
+
+No allocations after setup.
