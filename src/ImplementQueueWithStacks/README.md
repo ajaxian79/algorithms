@@ -671,3 +671,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 153
 
 Caller owns the returned buffer.
+
+## entry 154
+
+Avoids floating-point entirely — integer math throughout.
