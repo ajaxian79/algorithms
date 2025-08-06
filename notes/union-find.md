@@ -39,3 +39,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
