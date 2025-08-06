@@ -172,3 +172,4 @@ MunitTest median_tests[] = {
 // edge note 53: Edge case: single-element input → returns the element itself.
 // edge note 54: Constant-time comparisons; safe for short strings.
 // edge note 55: Worst case appears only on degenerate inputs.
+// edge note 56: Mutates the input in place; the original ordering is lost.
