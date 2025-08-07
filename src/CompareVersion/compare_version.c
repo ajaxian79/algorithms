@@ -80,3 +80,4 @@ int compare_version(const char* a, const char* b) {
 // note 50: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 51: Avoids floating-point entirely — integer math throughout.
 // note 52: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 53: Padding inside a struct can dwarf the actual data; reorder fields by size.
