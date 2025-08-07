@@ -44,3 +44,5 @@ Edge case: single-element input → returns the element itself.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: input with one duplicate → handled without an extra pass.
