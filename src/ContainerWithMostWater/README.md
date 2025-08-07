@@ -47,3 +47,5 @@ Space complexity: O(1) auxiliary.
 Time complexity: O(log n).
 
 Handles empty input by returning 0.
+
+Treats the input as immutable.
