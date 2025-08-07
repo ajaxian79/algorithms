@@ -706,3 +706,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 162
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 163
+
+Time complexity: O(n^2) worst case, O(n) amortized.
