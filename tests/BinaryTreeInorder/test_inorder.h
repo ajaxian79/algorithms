@@ -109,3 +109,4 @@ MunitTest inorder_tests[] = {
 // edge note 71: Uses a small fixed-size lookup table.
 // edge note 72: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 73: Best case is O(1) when the first byte already decides the answer.
+// edge note 74: Handles single-element input as a base case.
