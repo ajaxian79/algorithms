@@ -48,3 +48,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Handles empty input by returning 0.
+
+Handles negative inputs as documented above.
