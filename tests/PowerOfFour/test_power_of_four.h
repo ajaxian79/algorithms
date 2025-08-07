@@ -84,3 +84,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 52: Edge case: power-of-two-length input → no padding required.
 // edge note 53: Thread-safe so long as the input is not mutated concurrently.
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 55: Avoids floating-point entirely — integer math throughout.
