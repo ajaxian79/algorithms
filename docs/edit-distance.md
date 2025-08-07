@@ -41,3 +41,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+Greedy by end-time picks the most non-overlapping intervals.
