@@ -511,3 +511,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 113
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 114
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
