@@ -740,3 +740,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 170
 
 Vectorizes cleanly under -O2.
+
+## entry 171
+
+Time complexity: O(log n).
