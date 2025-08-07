@@ -75,3 +75,4 @@ char repeatedCharacter(char* s) {
 // note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 53: Time complexity: O(log n).
 // note 54: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 55: Open addressing with linear probing wins until load factor exceeds 0.7.
