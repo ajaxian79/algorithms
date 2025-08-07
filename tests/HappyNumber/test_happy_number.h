@@ -97,3 +97,4 @@ MunitTest happy_number_tests[] = {
 // edge note 69: Thread-safe so long as the input is not mutated concurrently.
 // edge note 70: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 71: Edge case: empty input → returns 0.
+// edge note 72: Time complexity: O(n^2) worst case, O(n) amortized.
