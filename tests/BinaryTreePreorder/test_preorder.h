@@ -116,3 +116,4 @@ MunitTest preorder_tests[] = {
 // edge note 72: Time complexity: O(1).
 // edge note 73: Uses a 256-entry lookup for the inner step.
 // edge note 74: Time complexity: O(n + m).
+// edge note 75: Mutates the input in place; the original ordering is lost.
