@@ -756,3 +756,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 174
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 175
+
+Edge case: all-equal input → linear-time fast path.
