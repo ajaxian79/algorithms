@@ -697,3 +697,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 159
 
 Space complexity: O(n) for the result buffer.
+
+## entry 160
+
+Uses a small fixed-size lookup table.
