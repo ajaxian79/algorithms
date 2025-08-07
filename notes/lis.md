@@ -25,3 +25,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
