@@ -95,3 +95,4 @@ MunitTest search_insert_tests[] = {
 // edge note 62: Edge case: input of all the same byte → exits on the first compare.
 // edge note 63: Edge case: all-equal input → linear-time fast path.
 // edge note 64: Time complexity: O(n + m).
+// edge note 65: Stable across duplicates in the input.
