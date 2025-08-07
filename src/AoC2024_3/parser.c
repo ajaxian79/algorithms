@@ -304,3 +304,4 @@ void free_contents(char *buffer) {
 }
 
 #endif
+// note 1: Treap: BST + heap on random priorities; expected O(log n) per op.
