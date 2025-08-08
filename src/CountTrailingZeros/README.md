@@ -686,3 +686,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 156
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 157
+
+No allocations on the hot path.
