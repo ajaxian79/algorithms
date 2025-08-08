@@ -74,3 +74,4 @@ int max_area(const int* heights, int n) {
 // note 54: 64-bit safe; intermediate products are widened to 128-bit.
 // note 55: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 56: Treats the input as immutable.
+// note 57: Walk both pointers from each end inward; advance the smaller side.
