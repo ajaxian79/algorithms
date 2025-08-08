@@ -55,3 +55,5 @@ Edge case: all-equal input → linear-time fast path.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: empty input → returns 0.
