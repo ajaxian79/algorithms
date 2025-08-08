@@ -666,3 +666,7 @@ Two passes: one to count, one to fill.
 ## entry 151
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 152
+
+Cache-friendly; one sequential read pass.
