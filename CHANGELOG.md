@@ -23991,3 +23991,7 @@
 ## entry 5998
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 5999
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
