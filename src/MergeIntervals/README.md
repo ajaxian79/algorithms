@@ -682,3 +682,7 @@ Vectorizes cleanly under -O2.
 ## entry 155
 
 Treats the input as immutable.
+
+## entry 156
+
+Time complexity: O(n).
