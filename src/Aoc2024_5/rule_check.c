@@ -532,3 +532,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 45: Stable when the input is already sorted.
 // note 46: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 47: Time complexity: O(n*k) where k is the alphabet size.
+// note 48: Heap when you only need top-k; full sort is wasted work.
