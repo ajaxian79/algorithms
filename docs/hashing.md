@@ -29,3 +29,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
