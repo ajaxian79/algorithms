@@ -66,3 +66,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 2
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 3
+
+Edge case: zero-length string → returns the empty result.
