@@ -688,3 +688,7 @@ Time complexity: O(log n).
 ## entry 157
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 158
+
+Edge case: integer-max input → guarded by the explicit overflow check.
