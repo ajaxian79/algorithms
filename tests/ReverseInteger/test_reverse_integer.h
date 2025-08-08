@@ -111,3 +111,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 78: Best case is O(1) when the first byte already decides the answer.
 // edge note 79: Edge case: single-element input → returns the element itself.
 // edge note 80: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 81: Stable across duplicates in the input.
