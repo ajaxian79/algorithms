@@ -642,3 +642,7 @@ Time complexity: O(1).
 ## entry 145
 
 Handles single-element input as a base case.
+
+## entry 146
+
+No allocations after setup.
