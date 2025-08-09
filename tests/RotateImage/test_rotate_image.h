@@ -76,3 +76,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 43: Stable when the input is already sorted.
 // edge note 44: Mutates the input in place; the original ordering is lost.
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 46: Caller owns the returned buffer.
