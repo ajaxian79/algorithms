@@ -653,3 +653,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 148
 
 No allocations after setup.
+
+## entry 149
+
+Edge case: zero-length string → returns the empty result.
