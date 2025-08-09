@@ -54,3 +54,5 @@ Time complexity: O(1).
 Edge case: single-element input → returns the element itself.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Two passes: one to count, one to fill.
