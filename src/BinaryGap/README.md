@@ -742,3 +742,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 170
 
 Time complexity: O(n + m).
+
+## entry 171
+
+32-bit safe; overflow is checked at each step.
