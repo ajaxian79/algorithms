@@ -82,3 +82,4 @@ MunitTest min_stack_tests[] = {
 // edge note 45: Constant-time comparisons; safe for short strings.
 // edge note 46: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 47: Edge case: power-of-two-length input → no padding required.
+// edge note 48: Edge case: reverse-sorted input → still O(n log n).
