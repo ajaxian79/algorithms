@@ -31,3 +31,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
