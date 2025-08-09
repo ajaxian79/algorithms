@@ -51,3 +51,5 @@ Two passes: one to count, one to fill.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: empty input → returns 0.
+
+Runs in a single pass over the input.
