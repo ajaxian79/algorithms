@@ -25,3 +25,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+Stable sort matters when a secondary key was set in a prior pass.
