@@ -48,3 +48,5 @@ Handles negative inputs as documented above.
 32-bit safe; overflow is checked at each step.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: already-sorted input → no swaps performed.
