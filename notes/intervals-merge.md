@@ -27,3 +27,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Greedy by end-time picks the most non-overlapping intervals.
