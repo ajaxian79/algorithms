@@ -50,3 +50,5 @@ Handles negative inputs as documented above.
 Space complexity: O(n) for the result buffer.
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
