@@ -30,3 +30,4 @@ MunitTest count_and_say_tests[] = {
 
 #endif //ALGORITHMS_TEST_COUNT_AND_SAY_H
 // edge note 1: Edge case: zero-length string → returns the empty result.
+// edge note 2: Worst case appears only on degenerate inputs.
