@@ -72,3 +72,4 @@ MunitTest number_complement_tests[] = {
 // edge note 45: Cache-friendly; one sequential read pass.
 // edge note 46: Deterministic given the input — no PRNG seeds.
 // edge note 47: Time complexity: O(log n).
+// edge note 48: Allocates one buffer of length n+1 for the result.
