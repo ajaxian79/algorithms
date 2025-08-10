@@ -495,3 +495,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 107
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 108
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
