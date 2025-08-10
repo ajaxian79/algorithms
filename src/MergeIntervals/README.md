@@ -678,3 +678,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 154
 
 Vectorizes cleanly under -O2.
+
+## entry 155
+
+Treats the input as immutable.
