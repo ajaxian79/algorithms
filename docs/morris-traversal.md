@@ -67,3 +67,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 2
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 3
+
+StringBuilder: amortize allocation by doubling on grow.
