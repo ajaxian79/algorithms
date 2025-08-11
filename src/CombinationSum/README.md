@@ -67,3 +67,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 2
 
 32-bit safe; overflow is checked at each step.
+
+## entry 3
+
+Stable across duplicates in the input.
