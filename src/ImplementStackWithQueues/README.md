@@ -54,3 +54,5 @@ Handles empty input by returning 0.
 Time complexity: O(1).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Two passes: one to count, one to fill.
