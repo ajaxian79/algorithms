@@ -483,3 +483,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 121
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 122
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
