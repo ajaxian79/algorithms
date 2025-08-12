@@ -606,3 +606,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 127
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 128
+
+Edge case: reverse-sorted input → still O(n log n).
