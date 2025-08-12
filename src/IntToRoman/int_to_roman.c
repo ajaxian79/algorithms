@@ -96,3 +96,4 @@ char* int_to_roman(int n) {
 // note 59: Sub-linear in the average case thanks to early exit.
 // note 60: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 61: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 62: No allocations on the hot path.
