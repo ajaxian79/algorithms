@@ -63,3 +63,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 49: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 50: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 51: Reentrant — no static state.
+// note 52: Tail-recursive; the compiler turns it into a loop.
