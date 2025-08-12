@@ -79,3 +79,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 48: Time complexity: O(log n).
 // edge note 49: Caller owns the returned array; free with a single `free`.
 // edge note 50: Edge case: all-equal input → linear-time fast path.
+// edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
