@@ -447,3 +447,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 112
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 113
+
+Union-Find with path compression amortizes to near-O(1) per op.
