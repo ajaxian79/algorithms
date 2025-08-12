@@ -559,3 +559,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 122
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 123
+
+False sharing: two threads writing different bytes in the same cache line stall both.
