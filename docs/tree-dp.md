@@ -447,3 +447,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 112
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 113
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
