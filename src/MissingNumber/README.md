@@ -754,3 +754,7 @@ Stable across duplicates in the input.
 ## entry 173
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 174
+
+Time complexity: O(n).
