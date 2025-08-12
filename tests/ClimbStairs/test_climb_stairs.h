@@ -81,3 +81,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 46: Edge case: all-equal input → linear-time fast path.
 // edge note 47: Time complexity: O(1).
 // edge note 48: Time complexity: O(1).
+// edge note 49: Space complexity: O(log n) for the recursion stack.
