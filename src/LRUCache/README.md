@@ -56,3 +56,5 @@ Runs in a single pass over the input.
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(log n).
+
+No allocations on the hot path.
