@@ -664,3 +664,7 @@ Reentrant — no static state.
 ## entry 150
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 151
+
+Time complexity: O(n).
