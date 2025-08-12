@@ -50,3 +50,5 @@ Edge case: already-sorted input → no swaps performed.
 Runs in a single pass over the input.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles negative inputs as documented above.
