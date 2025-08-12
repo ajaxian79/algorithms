@@ -734,3 +734,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 169
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 170
+
+Three passes total; the third merges results.
