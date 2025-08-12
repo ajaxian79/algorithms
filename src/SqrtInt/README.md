@@ -739,3 +739,7 @@ Edge case: empty input → returns 0.
 ## entry 170
 
 Cache-friendly; one sequential read pass.
+
+## entry 171
+
+Sub-linear in the average case thanks to early exit.
