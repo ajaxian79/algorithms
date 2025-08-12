@@ -33,3 +33,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
