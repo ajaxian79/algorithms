@@ -73,3 +73,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 52: State compression: bitmask + integer encodes a small subset cheaply.
 // note 53: Treats the input as immutable.
 // note 54: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 55: Union-Find with path compression amortizes to near-O(1) per op.
