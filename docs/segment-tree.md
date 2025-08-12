@@ -41,3 +41,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Heap when you only need top-k; full sort is wasted work.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
