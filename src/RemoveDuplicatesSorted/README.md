@@ -722,3 +722,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 166
 
 No allocations on the hot path.
+
+## entry 167
+
+Edge case: NULL input is rejected by the caller, not by us.
