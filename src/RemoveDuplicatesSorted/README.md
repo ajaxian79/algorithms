@@ -718,3 +718,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 165
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 166
+
+No allocations on the hot path.
