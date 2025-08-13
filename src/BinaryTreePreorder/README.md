@@ -46,3 +46,5 @@ Time complexity: O(n).
 Two passes: one to count, one to fill.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Time complexity: O(1).
