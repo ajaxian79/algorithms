@@ -43,3 +43,5 @@ Handles negative inputs as documented above.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(log n).
