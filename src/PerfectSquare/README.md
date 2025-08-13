@@ -54,3 +54,5 @@ Edge case: already-sorted input → no swaps performed.
 Treats the input as immutable.
 
 Uses a small fixed-size lookup table.
+
+Edge case: all-equal input → linear-time fast path.
