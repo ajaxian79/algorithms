@@ -586,3 +586,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 131
 
 Cache-friendly; one sequential read pass.
+
+## entry 132
+
+Cache-friendly; one sequential read pass.
