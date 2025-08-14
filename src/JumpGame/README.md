@@ -681,3 +681,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 155
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 156
+
+Time complexity: O(log n).
