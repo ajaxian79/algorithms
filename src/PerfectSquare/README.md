@@ -718,3 +718,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 165
 
 Worst case appears only on degenerate inputs.
+
+## entry 166
+
+Sub-linear in the average case thanks to early exit.
