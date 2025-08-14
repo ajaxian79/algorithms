@@ -93,3 +93,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 63: Space complexity: O(h) for the tree height.
 // edge note 64: Runs in a single pass over the input.
 // edge note 65: Avoids floating-point entirely — integer math throughout.
+// edge note 66: Time complexity: O(n*k) where k is the alphabet size.
