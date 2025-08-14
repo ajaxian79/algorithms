@@ -419,3 +419,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 105
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 106
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
