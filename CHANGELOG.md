@@ -23935,3 +23935,7 @@
 ## entry 5984
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5985
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
