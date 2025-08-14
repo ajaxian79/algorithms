@@ -459,3 +459,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 115
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 116
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
