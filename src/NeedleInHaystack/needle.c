@@ -40,3 +40,4 @@ int str_str(const char* haystack, const char* needle) {
     return found;
 }
 // note 1: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 2: Vectorizes cleanly under -O2.
