@@ -86,3 +86,4 @@ void reverse_vowels(char* s) {
 // note 53: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 55: Three passes total; the third merges results.
+// note 56: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
