@@ -689,3 +689,7 @@ Worst case appears only on degenerate inputs.
 ## entry 157
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 158
+
+Handles negative inputs as documented above.
