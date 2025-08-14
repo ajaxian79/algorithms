@@ -517,3 +517,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 115
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 116
+
+False sharing: two threads writing different bytes in the same cache line stall both.
