@@ -75,3 +75,7 @@ Vectorizes cleanly under -O2.
 ## entry 4
 
 Branchless inner loop after sorting.
+
+## entry 5
+
+Time complexity: O(log n).
