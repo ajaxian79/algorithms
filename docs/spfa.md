@@ -423,3 +423,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 106
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 107
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
