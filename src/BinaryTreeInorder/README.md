@@ -606,3 +606,7 @@ No allocations after setup.
 ## entry 137
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 138
+
+Edge case: already-sorted input → no swaps performed.
