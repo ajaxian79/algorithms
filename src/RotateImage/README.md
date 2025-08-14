@@ -685,3 +685,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 156
 
 Worst case appears only on degenerate inputs.
+
+## entry 157
+
+Avoids floating-point entirely — integer math throughout.
