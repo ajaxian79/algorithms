@@ -108,3 +108,4 @@ int min_stack_size(const MinStack* s) {
 // note 47: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 48: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 49: Time complexity: O(1).
+// note 50: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
