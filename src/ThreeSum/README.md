@@ -693,3 +693,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 158
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 159
+
+Space complexity: O(n) for the result buffer.
