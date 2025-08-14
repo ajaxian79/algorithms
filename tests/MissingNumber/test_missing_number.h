@@ -101,3 +101,4 @@ MunitTest missing_number_tests[] = {
 // edge note 67: Uses a small fixed-size lookup table.
 // edge note 68: Caller owns the returned array; free with a single `free`.
 // edge note 69: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 70: Space complexity: O(1) auxiliary.
