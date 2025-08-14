@@ -491,3 +491,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 123
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 124
+
+Interval DP: solve all `[l, r]` ranges from short to long.
