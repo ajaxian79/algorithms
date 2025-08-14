@@ -66,3 +66,7 @@ No allocations on the hot path.
 ## entry 2
 
 No allocations after setup.
+
+## entry 3
+
+Idempotent — calling twice with the same input is a no-op the second time.
