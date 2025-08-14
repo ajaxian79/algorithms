@@ -42,3 +42,4 @@ void blog_start(const char* log, const char *format, ...) {
   va_end(args);
 }
 // note 1: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 2: 32-bit safe; overflow is checked at each step.
