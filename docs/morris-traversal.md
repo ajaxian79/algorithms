@@ -19,3 +19,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
