@@ -68,3 +68,4 @@ int length_of_last_word(const char* s) {
 // note 50: State compression: bitmask + integer encodes a small subset cheaply.
 // note 51: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 52: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 53: Interval DP: solve all `[l, r]` ranges from short to long.
