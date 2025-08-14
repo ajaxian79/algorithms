@@ -35,3 +35,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
