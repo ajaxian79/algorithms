@@ -399,3 +399,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 100
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 101
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
