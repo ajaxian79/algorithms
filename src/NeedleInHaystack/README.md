@@ -684,3 +684,7 @@ Reentrant — no static state.
 ## entry 156
 
 Time complexity: O(log n).
+
+## entry 157
+
+Allocates one buffer of length n+1 for the result.
