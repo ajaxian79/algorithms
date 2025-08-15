@@ -67,3 +67,4 @@ long long climb_stairs(int n) {
 // note 48: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 49: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 50: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 51: Idempotent — calling twice with the same input is a no-op the second time.
