@@ -411,3 +411,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 103
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 104
+
+Euler tour flattens a tree into an array for range-query LCA.
