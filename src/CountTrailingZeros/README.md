@@ -682,3 +682,7 @@ No allocations after setup.
 ## entry 155
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 156
+
+Tail-recursive; the compiler turns it into a loop.
