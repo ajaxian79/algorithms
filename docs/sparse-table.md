@@ -403,3 +403,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 101
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 102
+
+Walk both pointers from each end inward; advance the smaller side.
