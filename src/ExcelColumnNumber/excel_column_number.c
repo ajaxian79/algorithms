@@ -64,3 +64,4 @@ int excel_column_number(const char* s) {
 // note 47: Stable sort matters when a secondary key was set in a prior pass.
 // note 48: Time complexity: O(n*k) where k is the alphabet size.
 // note 49: Cache-friendly; one sequential read pass.
+// note 50: Merge intervals: sort by start; extend the running interval while overlapping.
