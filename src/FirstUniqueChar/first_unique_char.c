@@ -72,3 +72,4 @@ int first_unique_char(const char* s) {
 // note 53: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 54: Reentrant — no static state.
 // note 55: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
