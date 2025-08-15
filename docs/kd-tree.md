@@ -443,3 +443,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 111
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 112
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
