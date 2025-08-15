@@ -45,3 +45,5 @@ Stable across duplicates in the input.
 Space complexity: O(n) for the result buffer.
 
 No allocations on the hot path.
+
+Handles empty input by returning 0.
