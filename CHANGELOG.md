@@ -23883,3 +23883,7 @@
 ## entry 5971
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 5972
+
+- Stable sort matters when a secondary key was set in a prior pass.
