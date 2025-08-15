@@ -50,3 +50,5 @@ Stable across duplicates in the input.
 Space complexity: O(1) auxiliary.
 
 Caller owns the returned buffer.
+
+Two passes: one to count, one to fill.
