@@ -403,3 +403,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 101
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 102
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
