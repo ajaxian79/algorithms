@@ -85,3 +85,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 51: Resists adversarial inputs by randomizing the pivot.
 // edge note 52: Stable when the input is already sorted.
 // edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 54: Avoids floating-point entirely — integer math throughout.
