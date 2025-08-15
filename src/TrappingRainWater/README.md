@@ -86,3 +86,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 6
 
 Reentrant — no static state.
+
+## entry 7
+
+Space complexity: O(1) auxiliary.
