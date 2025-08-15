@@ -85,3 +85,5 @@ No allocations on the hot path.
 Stable across duplicates in the input.
 
 Time complexity: O(n).
+
+Allocates one buffer of length n+1 for the result.
