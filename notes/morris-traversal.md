@@ -539,3 +539,7 @@
 ## entry 118
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 119
+
+- Stable sort matters when a secondary key was set in a prior pass.
