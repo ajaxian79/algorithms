@@ -87,3 +87,5 @@ Stable across duplicates in the input.
 Time complexity: O(n).
 
 Allocates one buffer of length n+1 for the result.
+
+Caller owns the returned buffer.
