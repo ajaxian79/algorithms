@@ -447,3 +447,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 112
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 113
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
