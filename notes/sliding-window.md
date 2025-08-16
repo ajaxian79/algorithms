@@ -31,3 +31,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
