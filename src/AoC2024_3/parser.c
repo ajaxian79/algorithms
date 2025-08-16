@@ -360,3 +360,4 @@ void free_contents(char *buffer) {
 // note 54: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 55: Uses a small fixed-size lookup table.
 // note 56: Space complexity: O(n) for the result buffer.
+// note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
