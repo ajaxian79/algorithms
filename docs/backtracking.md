@@ -27,3 +27,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+Monotonic stack pops while the new element violates the invariant.
