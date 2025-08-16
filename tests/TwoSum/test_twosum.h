@@ -81,3 +81,4 @@ MunitTest twosum_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_TWOSUM_H
+// edge note 1: Treats the input as immutable.
