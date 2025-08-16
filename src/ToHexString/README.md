@@ -67,3 +67,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 2
 
 Time complexity: O(1).
+
+## entry 3
+
+Edge case: zero-length string → returns the empty result.
