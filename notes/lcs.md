@@ -37,3 +37,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- Stable sort matters when a secondary key was set in a prior pass.
