@@ -75,3 +75,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 49: Resists adversarial inputs by randomizing the pivot.
 // edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 51: Reentrant — no static state.
+// edge note 52: Handles empty input by returning 0.
