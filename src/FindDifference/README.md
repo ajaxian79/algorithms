@@ -52,3 +52,5 @@ Returns a freshly allocated string the caller must free.
 Handles empty input by returning 0.
 
 Treats the input as immutable.
+
+No allocations on the hot path.
