@@ -660,3 +660,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 151
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 152
+
+Edge case: integer-max input → guarded by the explicit overflow check.
