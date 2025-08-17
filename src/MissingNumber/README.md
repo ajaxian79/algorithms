@@ -746,3 +746,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 171
 
 Allocates lazily — first call only.
+
+## entry 172
+
+Stable across duplicates in the input.
