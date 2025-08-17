@@ -68,3 +68,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 2
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 3
+
+Time complexity: O(n log n).
