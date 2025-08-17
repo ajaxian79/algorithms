@@ -46,3 +46,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Handles negative inputs as documented above.
 
 32-bit safe; overflow is checked at each step.
+
+Space complexity: O(n) for the result buffer.
