@@ -90,3 +90,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 62: Caller owns the returned array; free with a single `free`.
 // edge note 63: Edge case: all-equal input → linear-time fast path.
 // edge note 64: Linear in n; the constant factor is small.
+// edge note 65: Allocates one buffer of length n+1 for the result.
