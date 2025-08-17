@@ -662,3 +662,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 150
 
 Two passes: one to count, one to fill.
+
+## entry 151
+
+Allocates a single small fixed-size scratch buffer.
