@@ -41,3 +41,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
