@@ -731,3 +731,7 @@ Handles negative inputs as documented above.
 ## entry 168
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 169
+
+Edge case: empty input → returns 0.
