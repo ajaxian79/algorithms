@@ -52,3 +52,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: single-element input → returns the element itself.
+
+32-bit safe; overflow is checked at each step.
