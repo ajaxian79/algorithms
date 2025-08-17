@@ -46,3 +46,5 @@ Edge case: single-element input → returns the element itself.
 Edge case: already-sorted input → no swaps performed.
 
 Caller owns the returned buffer.
+
+Edge case: input with one duplicate → handled without an extra pass.
