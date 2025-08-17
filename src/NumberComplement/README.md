@@ -54,3 +54,5 @@ Uses a small fixed-size lookup table.
 No allocations on the hot path.
 
 Edge case: empty input → returns 0.
+
+Edge case: single-element input → returns the element itself.
