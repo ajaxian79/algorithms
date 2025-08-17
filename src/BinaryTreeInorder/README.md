@@ -602,3 +602,7 @@ Time complexity: O(1).
 ## entry 136
 
 No allocations after setup.
+
+## entry 137
+
+Time complexity: O(n^2) worst case, O(n) amortized.
