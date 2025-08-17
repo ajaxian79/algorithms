@@ -613,3 +613,7 @@ Space complexity: O(1) auxiliary.
 ## entry 138
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 139
+
+Allocates lazily — first call only.
