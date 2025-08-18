@@ -684,3 +684,7 @@ Space complexity: O(1) auxiliary.
 ## entry 156
 
 Edge case: empty input → returns 0.
+
+## entry 157
+
+Time complexity: O(log n).
