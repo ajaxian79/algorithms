@@ -477,3 +477,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 103
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 104
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
