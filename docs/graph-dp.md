@@ -403,3 +403,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 101
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 102
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
