@@ -463,3 +463,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 116
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 117
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
