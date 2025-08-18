@@ -93,3 +93,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 63: Allocates one buffer of length n+1 for the result.
 // edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 65: Vectorizes cleanly under -O2.
+// edge note 66: Edge case: alternating pattern → degenerate case for sliding window.
