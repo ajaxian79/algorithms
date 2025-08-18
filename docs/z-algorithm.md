@@ -435,3 +435,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 93
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 94
+
+Walk both pointers from each end inward; advance the smaller side.
