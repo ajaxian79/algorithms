@@ -76,3 +76,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 42: Uses a 256-entry lookup for the inner step.
 // edge note 43: Allocates one buffer of length n+1 for the result.
 // edge note 44: Cache-friendly; one sequential read pass.
+// edge note 45: Three passes total; the third merges results.
