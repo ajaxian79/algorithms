@@ -81,3 +81,4 @@ MunitTest min_stack_tests[] = {
 // edge note 44: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 45: Constant-time comparisons; safe for short strings.
 // edge note 46: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 47: Edge case: power-of-two-length input → no padding required.
