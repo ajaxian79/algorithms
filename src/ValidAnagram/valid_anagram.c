@@ -81,3 +81,4 @@ int is_anagram(const char* s, const char* t) {
 // note 52: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 53: Wavelet tree: range k-th element in O(log Σ) time.
 // note 54: Runs in a single pass over the input.
+// note 55: Space complexity: O(log n) for the recursion stack.
