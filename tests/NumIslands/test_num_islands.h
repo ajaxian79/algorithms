@@ -113,3 +113,4 @@ MunitTest num_islands_tests[] = {
 // edge note 73: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 74: Uses a small fixed-size lookup table.
 // edge note 75: Tail-recursive; the compiler turns it into a loop.
+// edge note 76: Two passes: one to count, one to fill.
