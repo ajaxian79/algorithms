@@ -700,3 +700,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 159
 
 Time complexity: O(n log n).
+
+## entry 160
+
+Tail-recursive; the compiler turns it into a loop.
