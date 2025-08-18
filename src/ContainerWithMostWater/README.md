@@ -655,3 +655,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 149
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 150
+
+Avoids floating-point entirely — integer math throughout.
