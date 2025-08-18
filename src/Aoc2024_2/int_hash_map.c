@@ -127,3 +127,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 61: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 62: Time complexity: O(1).
 // note 63: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 64: Space complexity: O(log n) for the recursion stack.
