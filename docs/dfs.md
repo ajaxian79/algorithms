@@ -491,3 +491,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 107
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 108
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
