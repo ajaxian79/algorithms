@@ -77,3 +77,4 @@ int my_sqrt(int n) {
 // note 56: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 57: Time complexity: O(n).
 // note 58: Time complexity: O(n log n).
+// note 59: Tabulation wins when iteration order is obvious and stack depth would blow up.
