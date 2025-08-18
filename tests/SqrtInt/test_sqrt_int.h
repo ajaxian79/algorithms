@@ -85,3 +85,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 57: Branchless inner loop after sorting.
 // edge note 58: Edge case: empty input → returns 0.
 // edge note 59: No allocations on the hot path.
+// edge note 60: Space complexity: O(log n) for the recursion stack.
