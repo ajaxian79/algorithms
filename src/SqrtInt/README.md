@@ -719,3 +719,7 @@ Time complexity: O(1).
 ## entry 165
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 166
+
+Handles negative inputs as documented above.
