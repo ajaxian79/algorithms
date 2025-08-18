@@ -54,3 +54,5 @@ Handles negative inputs as documented above.
 Returns a freshly allocated string the caller must free.
 
 Caller owns the returned buffer.
+
+Edge case: all-equal input → linear-time fast path.
