@@ -645,3 +645,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 146
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 147
+
+Avoids floating-point entirely — integer math throughout.
