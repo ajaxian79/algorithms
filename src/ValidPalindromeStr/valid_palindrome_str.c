@@ -72,3 +72,4 @@ int is_palindrome_str(const char* s) {
 // note 47: Cache-friendly; one sequential read pass.
 // note 48: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 49: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 50: Vectorizes cleanly under -O2.
