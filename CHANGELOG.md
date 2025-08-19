@@ -23823,3 +23823,7 @@
 ## entry 5956
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 5957
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
