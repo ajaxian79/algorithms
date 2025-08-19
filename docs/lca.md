@@ -479,3 +479,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 120
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 121
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
