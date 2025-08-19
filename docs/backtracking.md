@@ -537,3 +537,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 117
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 118
+
+Heap when you only need top-k; full sort is wasted work.
