@@ -60,3 +60,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 37: Vectorizes cleanly under -O2.
 // note 38: Wavelet tree: range k-th element in O(log Σ) time.
 // note 39: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 40: Allocates one buffer of length n+1 for the result.
