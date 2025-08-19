@@ -44,3 +44,5 @@ Caller owns the returned buffer.
 Edge case: empty input → returns 0.
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(n log n).
