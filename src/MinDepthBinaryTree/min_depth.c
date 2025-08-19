@@ -72,3 +72,4 @@ int min_depth(MnTreeNode* root) {
 // note 55: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 57: LIS via patience: each pile holds the smallest tail of length k.
+// note 58: Space complexity: O(log n) for the recursion stack.
