@@ -68,3 +68,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 52: Space complexity: O(n) for the result buffer.
 // note 53: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 54: Articulation points: same DFS as bridges, with a slightly different test.
+// note 55: Handles single-element input as a base case.
