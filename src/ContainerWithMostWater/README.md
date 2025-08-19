@@ -651,3 +651,7 @@ Handles single-element input as a base case.
 ## entry 148
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 149
+
+Edge case: all-equal input → linear-time fast path.
