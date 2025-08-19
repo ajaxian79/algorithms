@@ -728,3 +728,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 167
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 168
+
+Time complexity: O(n*k) where k is the alphabet size.
