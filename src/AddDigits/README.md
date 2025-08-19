@@ -732,3 +732,7 @@ Linear in n; the constant factor is small.
 ## entry 168
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 169
+
+32-bit safe; overflow is checked at each step.
