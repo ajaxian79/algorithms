@@ -72,3 +72,4 @@ int trailing_zeroes(int n) {
 // note 57: Thread-safe so long as the input is not mutated concurrently.
 // note 58: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 59: Constant-time comparisons; safe for short strings.
+// note 60: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
