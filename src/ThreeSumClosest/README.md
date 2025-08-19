@@ -698,3 +698,7 @@ Vectorizes cleanly under -O2.
 ## entry 160
 
 Handles single-element input as a base case.
+
+## entry 161
+
+No allocations on the hot path.
