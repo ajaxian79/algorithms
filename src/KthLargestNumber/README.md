@@ -52,3 +52,5 @@ Time complexity: O(n).
 Caller owns the returned buffer.
 
 Handles negative inputs as documented above.
+
+Tail-recursive; the compiler turns it into a loop.
