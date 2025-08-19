@@ -62,3 +62,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 1
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 2
+
+Runs in a single pass over the input.
