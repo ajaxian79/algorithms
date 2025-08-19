@@ -106,3 +106,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 48: Worst case appears only on degenerate inputs.
 // note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 50: Euler tour flattens a tree into an array for range-query LCA.
