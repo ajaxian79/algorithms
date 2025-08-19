@@ -761,3 +761,7 @@ Cache-friendly; one sequential read pass.
 ## entry 176
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 177
+
+32-bit safe; overflow is checked at each step.
