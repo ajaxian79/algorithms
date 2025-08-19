@@ -66,3 +66,4 @@ int single_number(const int* nums, int nums_size) {
 // note 53: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 54: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 55: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 56: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
