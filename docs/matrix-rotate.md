@@ -413,3 +413,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 87
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 88
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
