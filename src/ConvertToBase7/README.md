@@ -708,3 +708,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 162
 
 Allocates lazily — first call only.
+
+## entry 163
+
+Sub-linear in the average case thanks to early exit.
