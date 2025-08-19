@@ -475,3 +475,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 102
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 103
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
