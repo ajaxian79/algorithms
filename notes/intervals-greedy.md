@@ -517,3 +517,7 @@
 ## entry 112
 
 - Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 113
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
