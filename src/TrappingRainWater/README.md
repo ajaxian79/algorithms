@@ -50,3 +50,5 @@ Time complexity: O(n log n).
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(1).
+
+Edge case: single-element input → returns the element itself.
