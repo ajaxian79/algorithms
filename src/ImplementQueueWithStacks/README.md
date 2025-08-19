@@ -667,3 +667,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 152
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 153
+
+Caller owns the returned buffer.
