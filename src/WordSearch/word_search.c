@@ -81,3 +81,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 47: Allocates lazily — first call only.
 // note 48: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 49: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 50: Worst case appears only on degenerate inputs.
