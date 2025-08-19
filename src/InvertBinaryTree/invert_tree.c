@@ -70,3 +70,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 57: Worst case appears only on degenerate inputs.
+// note 58: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
