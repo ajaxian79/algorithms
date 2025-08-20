@@ -100,3 +100,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 69: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Reentrant — no static state.
+// edge note 72: Edge case: input with one duplicate → handled without an extra pass.
