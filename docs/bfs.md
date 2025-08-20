@@ -525,3 +525,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 114
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 115
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
