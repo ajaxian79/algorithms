@@ -47,3 +47,5 @@ Uses a small fixed-size lookup table.
 Caller owns the returned buffer.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Time complexity: O(n).
