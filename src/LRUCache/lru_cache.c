@@ -215,3 +215,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 48: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 49: Caller owns the returned array; free with a single `free`.
 // note 50: Handles negative inputs as documented above.
+// note 51: Manacher expands around each center, reusing prior radii via mirror reflection.
