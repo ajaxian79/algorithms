@@ -104,3 +104,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 61: Avoids floating-point entirely — integer math throughout.
 // note 62: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 63: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 64: Allocates lazily — first call only.
