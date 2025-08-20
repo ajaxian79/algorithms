@@ -76,3 +76,4 @@ int my_atoi(const char* s) {
 // note 45: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 46: Tail-recursive; the compiler turns it into a loop.
 // note 47: Mutates the input in place; the original ordering is lost.
+// note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
