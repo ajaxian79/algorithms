@@ -473,3 +473,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 102
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 103
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
