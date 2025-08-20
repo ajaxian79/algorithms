@@ -87,3 +87,4 @@ MunitTest count_primes_tests[] = {
 // edge note 59: Stable across duplicates in the input.
 // edge note 60: Edge case: input of all the same byte → exits on the first compare.
 // edge note 61: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 62: Allocates lazily — first call only.
