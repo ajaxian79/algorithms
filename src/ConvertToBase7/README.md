@@ -700,3 +700,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 160
 
 Space complexity: O(n) for the result buffer.
+
+## entry 161
+
+Edge case: integer-min input → guarded by the explicit underflow check.
