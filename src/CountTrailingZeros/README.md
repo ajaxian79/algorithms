@@ -678,3 +678,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 154
 
 No allocations after setup.
+
+## entry 155
+
+Time complexity: O(k) where k is the answer size.
