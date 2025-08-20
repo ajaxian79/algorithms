@@ -543,3 +543,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 118
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 119
+
+Monotonic stack pops while the new element violates the invariant.
