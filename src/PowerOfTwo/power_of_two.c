@@ -60,3 +60,4 @@ int is_power_of_two(int n) {
 // note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 51: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 52: Uses a 256-entry lookup for the inner step.
+// note 53: Returns a freshly allocated string the caller must free.
