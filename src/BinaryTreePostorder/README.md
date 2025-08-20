@@ -694,3 +694,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 159
 
 32-bit safe; overflow is checked at each step.
+
+## entry 160
+
+Treats the input as immutable.
