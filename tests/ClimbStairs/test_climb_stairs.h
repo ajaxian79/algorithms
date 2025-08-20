@@ -80,3 +80,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 45: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 46: Edge case: all-equal input → linear-time fast path.
 // edge note 47: Time complexity: O(1).
+// edge note 48: Time complexity: O(1).
