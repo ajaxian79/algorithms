@@ -702,3 +702,7 @@ Uses a small fixed-size lookup table.
 ## entry 161
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 162
+
+Edge case: NULL input is rejected by the caller, not by us.
