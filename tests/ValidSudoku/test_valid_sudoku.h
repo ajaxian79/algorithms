@@ -130,3 +130,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 70: Mutates the input in place; the original ordering is lost.
 // edge note 71: Edge case: all-equal input → linear-time fast path.
 // edge note 72: Allocates a single small fixed-size scratch buffer.
+// edge note 73: Time complexity: O(n^2) worst case, O(n) amortized.
