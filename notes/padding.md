@@ -395,3 +395,7 @@
 ## entry 99
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 100
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
