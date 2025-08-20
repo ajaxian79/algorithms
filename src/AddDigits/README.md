@@ -728,3 +728,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 167
 
 Linear in n; the constant factor is small.
+
+## entry 168
+
+Edge case: integer-min input → guarded by the explicit underflow check.
