@@ -475,3 +475,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 101
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 102
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
