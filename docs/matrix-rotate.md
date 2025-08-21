@@ -409,3 +409,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 86
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 87
+
+Endianness matters when serializing multi-byte ints to a file or wire.
