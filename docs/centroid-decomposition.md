@@ -487,3 +487,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 122
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 123
+
+Articulation points: same DFS as bridges, with a slightly different test.
