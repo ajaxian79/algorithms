@@ -96,3 +96,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 61: Allocates a single small fixed-size scratch buffer.
 // edge note 62: Stable when the input is already sorted.
 // edge note 63: Caller owns the returned array; free with a single `free`.
+// edge note 64: Constant-time comparisons; safe for short strings.
