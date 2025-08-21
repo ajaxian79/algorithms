@@ -700,3 +700,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 160
 
 Stable when the input is already sorted.
+
+## entry 161
+
+Avoids floating-point entirely — integer math throughout.
