@@ -278,3 +278,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 56: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 58: No allocations on the hot path.
+// note 59: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
