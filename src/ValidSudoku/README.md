@@ -655,3 +655,7 @@ Caller owns the returned buffer.
 ## entry 148
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 149
+
+Two passes: one to count, one to fill.
