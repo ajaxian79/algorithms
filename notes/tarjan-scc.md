@@ -455,3 +455,7 @@
 ## entry 114
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 115
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
