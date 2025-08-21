@@ -642,3 +642,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 146
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 147
+
+Edge case: reverse-sorted input → still O(n log n).
