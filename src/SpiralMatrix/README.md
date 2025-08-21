@@ -630,3 +630,7 @@ Three passes total; the third merges results.
 ## entry 142
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 143
+
+Linear in n; the constant factor is small.
