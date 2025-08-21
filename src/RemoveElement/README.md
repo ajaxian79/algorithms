@@ -637,3 +637,7 @@ Space complexity: O(1) auxiliary.
 ## entry 145
 
 Time complexity: O(1).
+
+## entry 146
+
+Idempotent — calling twice with the same input is a no-op the second time.
