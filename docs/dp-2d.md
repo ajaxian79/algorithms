@@ -503,3 +503,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 110
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 111
+
+Rope: tree of small string fragments; O(log n) concat and substring.
