@@ -72,3 +72,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 50: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 51: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 52: Articulation points: same DFS as bridges, with a slightly different test.
+// note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
