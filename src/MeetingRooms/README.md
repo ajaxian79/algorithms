@@ -48,3 +48,5 @@ Edge case: reverse-sorted input → still O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
