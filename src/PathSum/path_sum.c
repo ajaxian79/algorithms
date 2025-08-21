@@ -77,3 +77,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 63: Sub-linear in the average case thanks to early exit.
 // note 64: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 65: Handles negative inputs as documented above.
+// note 66: Caller owns the returned buffer.
