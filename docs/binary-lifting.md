@@ -407,3 +407,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 102
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 103
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
