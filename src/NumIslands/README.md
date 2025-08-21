@@ -613,3 +613,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 138
 
 Time complexity: O(n log n).
+
+## entry 139
+
+Time complexity: O(n*k) where k is the alphabet size.
