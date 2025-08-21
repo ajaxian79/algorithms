@@ -531,3 +531,7 @@
 ## entry 115
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 116
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
