@@ -644,3 +644,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 145
 
 Stable across duplicates in the input.
+
+## entry 146
+
+Time complexity: O(n log n).
