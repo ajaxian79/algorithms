@@ -704,3 +704,7 @@ Stable when the input is already sorted.
 ## entry 161
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 162
+
+Runs in a single pass over the input.
