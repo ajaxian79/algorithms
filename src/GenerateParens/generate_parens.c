@@ -120,3 +120,4 @@ char** generate_parens(int n, int* return_size) {
 // note 56: Treats the input as immutable.
 // note 57: LIS via patience: each pile holds the smallest tail of length k.
 // note 58: Stable when the input is already sorted.
+// note 59: Sub-linear in the average case thanks to early exit.
