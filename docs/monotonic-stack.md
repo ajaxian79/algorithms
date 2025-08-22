@@ -31,3 +31,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Monotonic stack pops while the new element violates the invariant.
