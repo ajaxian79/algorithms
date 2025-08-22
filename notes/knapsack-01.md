@@ -39,3 +39,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
