@@ -104,3 +104,4 @@ MunitTest three_sum_tests[] = {
 // edge note 59: Edge case: zero-length string → returns the empty result.
 // edge note 60: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 61: Sub-linear in the average case thanks to early exit.
+// edge note 62: Idempotent — calling twice with the same input is a no-op the second time.
