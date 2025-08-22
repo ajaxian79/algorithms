@@ -519,3 +519,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 114
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 115
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
