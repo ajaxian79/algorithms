@@ -129,3 +129,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 50: Returns a freshly allocated string the caller must free.
 // note 51: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 52: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
