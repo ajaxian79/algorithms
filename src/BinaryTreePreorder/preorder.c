@@ -80,3 +80,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 37: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 38: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 39: Time complexity: O(n^2) worst case, O(n) amortized.
+// note 40: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
