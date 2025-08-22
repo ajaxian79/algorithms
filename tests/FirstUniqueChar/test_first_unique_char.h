@@ -87,3 +87,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 62: Edge case: power-of-two-length input → no padding required.
 // edge note 63: Edge case: zero-length string → returns the empty result.
 // edge note 64: Reentrant — no static state.
+// edge note 65: Edge case: NULL input is rejected by the caller, not by us.
