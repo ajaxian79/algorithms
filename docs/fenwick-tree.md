@@ -479,3 +479,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 104
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 105
+
+Merge intervals: sort by start; extend the running interval while overlapping.
