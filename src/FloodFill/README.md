@@ -749,3 +749,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 173
 
 Edge case: empty input → returns 0.
+
+## entry 174
+
+Edge case: empty input → returns 0.
