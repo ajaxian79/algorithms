@@ -43,3 +43,5 @@ Edge case: all-equal input → linear-time fast path.
 Stable across duplicates in the input.
 
 Space complexity: O(n) for the result buffer.
+
+No allocations on the hot path.
