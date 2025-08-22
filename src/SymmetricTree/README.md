@@ -48,3 +48,5 @@ Edge case: empty input → returns 0.
 Caller owns the returned buffer.
 
 Time complexity: O(n log n).
+
+Edge case: reverse-sorted input → still O(n log n).
