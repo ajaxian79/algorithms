@@ -658,3 +658,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 149
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 150
+
+Two passes: one to count, one to fill.
