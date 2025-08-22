@@ -35,3 +35,5 @@
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
