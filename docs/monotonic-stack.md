@@ -29,3 +29,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
