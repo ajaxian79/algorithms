@@ -459,3 +459,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 99
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 100
+
+Merge intervals: sort by start; extend the running interval while overlapping.
