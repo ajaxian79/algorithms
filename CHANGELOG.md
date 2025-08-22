@@ -23751,3 +23751,7 @@
 ## entry 5938
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 5939
+
+- Heap when you only need top-k; full sort is wasted work.
