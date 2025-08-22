@@ -54,3 +54,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Time complexity: O(1).
 
 Returns a freshly allocated string the caller must free.
+
+32-bit safe; overflow is checked at each step.
