@@ -47,3 +47,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(n).
 
 Time complexity: O(n log n).
+
+Caller owns the returned buffer.
