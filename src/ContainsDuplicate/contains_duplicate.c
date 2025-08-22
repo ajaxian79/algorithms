@@ -128,3 +128,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 49: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 50: Returns a freshly allocated string the caller must free.
 // note 51: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 52: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
