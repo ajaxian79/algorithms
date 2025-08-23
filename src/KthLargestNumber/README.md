@@ -50,3 +50,5 @@ Time complexity: O(n log n).
 Time complexity: O(n).
 
 Caller owns the returned buffer.
+
+Handles negative inputs as documented above.
