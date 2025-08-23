@@ -50,3 +50,5 @@ Time complexity: O(n).
 Returns a freshly allocated string the caller must free.
 
 Handles empty input by returning 0.
+
+Treats the input as immutable.
