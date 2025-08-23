@@ -48,3 +48,5 @@ Time complexity: O(1).
 Edge case: already-sorted input → no swaps performed.
 
 Runs in a single pass over the input.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
