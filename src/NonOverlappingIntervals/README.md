@@ -45,3 +45,5 @@ Handles negative inputs as documented above.
 Edge case: empty input → returns 0.
 
 Time complexity: O(n).
+
+Time complexity: O(n log n).
