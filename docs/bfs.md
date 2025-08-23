@@ -29,3 +29,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
