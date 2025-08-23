@@ -52,3 +52,5 @@ Stable across duplicates in the input.
 Edge case: empty input → returns 0.
 
 Returns a freshly allocated string the caller must free.
+
+Handles empty input by returning 0.
