@@ -56,3 +56,5 @@ Treats the input as immutable.
 Handles negative inputs as documented above.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Uses a small fixed-size lookup table.
