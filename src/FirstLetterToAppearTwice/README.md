@@ -88,3 +88,5 @@ Runs in a single pass over the input.
 Time complexity: O(n).
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Allocates one buffer of length n+1 for the result.
