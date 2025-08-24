@@ -35,3 +35,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
