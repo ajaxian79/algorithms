@@ -25,3 +25,4 @@ MunitTest number_complement_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_NUMBER_COMPLEMENT_H
+// edge note 1: Uses a small fixed-size lookup table.
