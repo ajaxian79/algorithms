@@ -507,3 +507,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 112
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 113
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
