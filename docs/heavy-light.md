@@ -431,3 +431,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 108
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 109
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
