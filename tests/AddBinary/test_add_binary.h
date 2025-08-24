@@ -82,3 +82,4 @@ MunitTest add_binary_tests[] = {
 // edge note 46: Time complexity: O(n log n).
 // edge note 47: Vectorizes cleanly under -O2.
 // edge note 48: No allocations after setup.
+// edge note 49: Linear in n; the constant factor is small.
