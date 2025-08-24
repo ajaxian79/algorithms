@@ -80,3 +80,4 @@ char* convert_to_base7(int n) {
 // note 47: LIS via patience: each pile holds the smallest tail of length k.
 // note 48: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 49: Time complexity: O(1).
+// note 50: 64-bit safe; intermediate products are widened to 128-bit.
