@@ -78,3 +78,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 4
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 5
+
+Constant-time comparisons; safe for short strings.
