@@ -29,3 +29,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Stable sort matters when a secondary key was set in a prior pass.
