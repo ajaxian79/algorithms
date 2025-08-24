@@ -525,3 +525,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 114
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 115
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
