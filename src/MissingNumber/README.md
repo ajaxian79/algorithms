@@ -738,3 +738,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 169
 
 Time complexity: O(n log n).
+
+## entry 170
+
+Allocates one buffer of length n+1 for the result.
