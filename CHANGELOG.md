@@ -23699,3 +23699,7 @@
 ## entry 5925
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 5926
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
