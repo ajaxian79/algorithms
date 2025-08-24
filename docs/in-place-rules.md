@@ -593,3 +593,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 133
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 134
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
