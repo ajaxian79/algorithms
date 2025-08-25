@@ -23691,3 +23691,7 @@
 ## entry 5923
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 5924
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
