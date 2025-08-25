@@ -593,3 +593,7 @@ Worst case appears only on degenerate inputs.
 ## entry 133
 
 Vectorizes cleanly under -O2.
+
+## entry 134
+
+Edge case: NULL input is rejected by the caller, not by us.
