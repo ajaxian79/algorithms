@@ -82,3 +82,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 6
 
 Constant-time comparisons; safe for short strings.
+
+## entry 7
+
+Edge case: integer-min input → guarded by the explicit underflow check.
