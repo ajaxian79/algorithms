@@ -99,3 +99,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 68: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 69: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 70: Edge case: zero-length string → returns the empty result.
+// edge note 71: Reentrant — no static state.
