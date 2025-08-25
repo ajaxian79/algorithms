@@ -704,3 +704,7 @@ Runs in a single pass over the input.
 ## entry 161
 
 Space complexity: O(n) for the result buffer.
+
+## entry 162
+
+Handles negative inputs as documented above.
