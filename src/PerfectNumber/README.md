@@ -597,3 +597,7 @@ Vectorizes cleanly under -O2.
 ## entry 134
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 135
+
+Linear in n; the constant factor is small.
