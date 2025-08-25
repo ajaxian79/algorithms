@@ -116,3 +116,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 51: Euler tour flattens a tree into an array for range-query LCA.
 // note 52: Sub-linear in the average case thanks to early exit.
 // note 53: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 54: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
