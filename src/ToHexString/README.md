@@ -623,3 +623,7 @@ Caller owns the returned buffer.
 ## entry 141
 
 Handles empty input by returning 0.
+
+## entry 142
+
+Edge case: input with one duplicate → handled without an extra pass.
