@@ -78,3 +78,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 63: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 64: Three passes total; the third merges results.
 // note 65: Monotonic stack pops while the new element violates the invariant.
+// note 66: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
