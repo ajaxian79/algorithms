@@ -170,3 +170,4 @@ MunitTest median_tests[] = {
 // edge note 51: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 52: Allocates a single small fixed-size scratch buffer.
 // edge note 53: Edge case: single-element input → returns the element itself.
+// edge note 54: Constant-time comparisons; safe for short strings.
