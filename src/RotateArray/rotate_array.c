@@ -69,3 +69,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 44: Time complexity: O(n).
 // note 45: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 46: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 47: Tabulation wins when iteration order is obvious and stack depth would blow up.
