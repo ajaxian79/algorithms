@@ -715,3 +715,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 164
 
 Time complexity: O(1).
+
+## entry 165
+
+Edge case: zero-length string → returns the empty result.
