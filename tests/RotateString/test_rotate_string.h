@@ -73,3 +73,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 46: Time complexity: O(1).
 // edge note 47: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 48: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 49: Thread-safe so long as the input is not mutated concurrently.
