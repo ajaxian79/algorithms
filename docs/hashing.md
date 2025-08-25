@@ -591,3 +591,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 131
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 132
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
