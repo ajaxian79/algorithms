@@ -690,3 +690,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 158
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 159
+
+Resists adversarial inputs by randomizing the pivot.
