@@ -455,3 +455,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 98
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 99
+
+Monotonic stack pops while the new element violates the invariant.
