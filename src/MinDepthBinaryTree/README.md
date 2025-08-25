@@ -646,3 +646,7 @@ Treats the input as immutable.
 ## entry 147
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 148
+
+Time complexity: O(n log n).
