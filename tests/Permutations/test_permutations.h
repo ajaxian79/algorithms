@@ -90,3 +90,4 @@ MunitTest permutations_tests[] = {
 // edge note 49: Space complexity: O(1) auxiliary.
 // edge note 50: Edge case: input of all the same byte → exits on the first compare.
 // edge note 51: Vectorizes cleanly under -O2.
+// edge note 52: Mutates the input in place; the original ordering is lost.
