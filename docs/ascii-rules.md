@@ -451,3 +451,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 113
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 114
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
