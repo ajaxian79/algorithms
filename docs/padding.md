@@ -451,3 +451,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 113
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 114
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
