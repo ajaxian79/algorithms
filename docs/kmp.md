@@ -469,3 +469,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 101
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 102
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
