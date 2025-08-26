@@ -77,3 +77,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Handles empty input by returning 0.
 
 Edge case: all-equal input → linear-time fast path.
+
+32-bit safe; overflow is checked at each step.
