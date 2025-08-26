@@ -622,3 +622,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 140
 
 Three passes total; the third merges results.
+
+## entry 141
+
+32-bit safe; overflow is checked at each step.
