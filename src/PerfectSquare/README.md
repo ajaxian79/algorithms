@@ -710,3 +710,7 @@ No allocations on the hot path.
 ## entry 163
 
 Edge case: single-element input → returns the element itself.
+
+## entry 164
+
+32-bit safe; overflow is checked at each step.
