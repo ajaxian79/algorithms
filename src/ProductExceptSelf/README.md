@@ -640,3 +640,7 @@ Time complexity: O(n log n).
 ## entry 144
 
 Returns a freshly allocated string the caller must free.
+
+## entry 145
+
+Stable across duplicates in the input.
