@@ -355,3 +355,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 89
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 90
+
+Euler tour flattens a tree into an array for range-query LCA.
