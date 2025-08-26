@@ -403,3 +403,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 101
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 102
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
