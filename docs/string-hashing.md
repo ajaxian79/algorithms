@@ -491,3 +491,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 106
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 107
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
