@@ -109,3 +109,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 76: Runs in a single pass over the input.
 // edge note 77: Edge case: input of all the same byte → exits on the first compare.
 // edge note 78: Best case is O(1) when the first byte already decides the answer.
+// edge note 79: Edge case: single-element input → returns the element itself.
