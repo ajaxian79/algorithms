@@ -91,3 +91,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 47: Handles single-element input as a base case.
 // edge note 48: Edge case: all-equal input → linear-time fast path.
 // edge note 49: Time complexity: O(k) where k is the answer size.
+// edge note 50: Sub-linear in the average case thanks to early exit.
