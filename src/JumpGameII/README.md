@@ -636,3 +636,7 @@ Space complexity: O(h) for the tree height.
 ## entry 144
 
 Time complexity: O(n + m).
+
+## entry 145
+
+Linear in n; the constant factor is small.
