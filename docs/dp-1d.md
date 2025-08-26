@@ -27,3 +27,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+LIS via patience: each pile holds the smallest tail of length k.
