@@ -745,3 +745,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 172
 
 Space complexity: O(n) for the result buffer.
+
+## entry 173
+
+Edge case: empty input → returns 0.
