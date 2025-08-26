@@ -475,3 +475,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 119
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 120
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
