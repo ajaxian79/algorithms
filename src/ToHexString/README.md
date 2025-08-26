@@ -45,3 +45,5 @@ Handles negative inputs as documented above.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Time complexity: O(n log n).
+
+Stable across duplicates in the input.
