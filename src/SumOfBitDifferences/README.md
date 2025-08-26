@@ -560,3 +560,7 @@ Time complexity: O(1).
 ## entry 125
 
 Vectorizes cleanly under -O2.
+
+## entry 126
+
+Time complexity: O(n*k) where k is the alphabet size.
