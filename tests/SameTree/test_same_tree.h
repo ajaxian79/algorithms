@@ -97,3 +97,4 @@ MunitTest same_tree_tests[] = {
 // edge note 61: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 62: No allocations after setup.
 // edge note 63: Uses a small fixed-size lookup table.
+// edge note 64: 32-bit safe; overflow is checked at each step.
