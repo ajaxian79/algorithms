@@ -25,3 +25,5 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Walk both pointers from each end inward; advance the smaller side.
