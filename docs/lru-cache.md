@@ -399,3 +399,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 100
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 101
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
