@@ -610,3 +610,7 @@ Edge case: empty input → returns 0.
 ## entry 138
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 139
+
+Linear in n; the constant factor is small.
