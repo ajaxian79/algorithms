@@ -633,3 +633,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 144
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 145
+
+Allocates one buffer of length n+1 for the result.
