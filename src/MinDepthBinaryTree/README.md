@@ -642,3 +642,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 146
 
 Treats the input as immutable.
+
+## entry 147
+
+Uses a 256-entry lookup for the inner step.
