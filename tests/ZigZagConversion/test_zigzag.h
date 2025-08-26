@@ -85,3 +85,4 @@ MunitTest zigzag_tests[] = {
 // edge note 57: Handles single-element input as a base case.
 // edge note 58: 32-bit safe; overflow is checked at each step.
 // edge note 59: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 60: Edge case: empty input → returns 0.
