@@ -698,3 +698,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 160
 
 Uses a small fixed-size lookup table.
+
+## entry 161
+
+Caller owns the returned array; free with a single `free`.
