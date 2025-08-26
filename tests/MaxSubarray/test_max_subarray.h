@@ -75,3 +75,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 41: Edge case: input with no peak → falls through to the default branch.
 // edge note 42: Uses a 256-entry lookup for the inner step.
 // edge note 43: Allocates one buffer of length n+1 for the result.
+// edge note 44: Cache-friendly; one sequential read pass.
