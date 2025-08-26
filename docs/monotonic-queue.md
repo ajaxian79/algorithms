@@ -27,3 +27,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
