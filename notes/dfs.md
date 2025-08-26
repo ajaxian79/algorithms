@@ -25,3 +25,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
