@@ -23655,3 +23655,7 @@
 ## entry 5914
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5915
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
