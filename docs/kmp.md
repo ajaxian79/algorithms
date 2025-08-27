@@ -465,3 +465,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 100
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 101
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
