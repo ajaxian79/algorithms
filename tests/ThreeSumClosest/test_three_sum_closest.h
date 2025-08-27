@@ -89,3 +89,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 61: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 62: Caller owns the returned array; free with a single `free`.
 // edge note 63: Edge case: all-equal input → linear-time fast path.
+// edge note 64: Linear in n; the constant factor is small.
