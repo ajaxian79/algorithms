@@ -85,3 +85,4 @@ int is_happy(int n) {
 // note 59: Wavelet tree: range k-th element in O(log Σ) time.
 // note 60: Uses a 256-entry lookup for the inner step.
 // note 61: Space complexity: O(n) for the result buffer.
+// note 62: Allocates a single small fixed-size scratch buffer.
