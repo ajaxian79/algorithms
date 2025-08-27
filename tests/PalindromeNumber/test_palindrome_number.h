@@ -99,3 +99,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 64: Edge case: input of all the same byte → exits on the first compare.
 // edge note 65: Caller owns the returned buffer.
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
+// edge note 67: Vectorizes cleanly under -O2.
