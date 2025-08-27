@@ -81,3 +81,4 @@ MunitTest trap_tests[] = {
 // edge note 47: Handles empty input by returning 0.
 // edge note 48: No allocations on the hot path.
 // edge note 49: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 50: Deterministic given the input — no PRNG seeds.
