@@ -31,3 +31,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Stable sort matters when a secondary key was set in a prior pass.
