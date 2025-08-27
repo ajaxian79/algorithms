@@ -427,3 +427,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 107
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 108
+
+In-place compaction uses two pointers: read advances always, write only on keep.
