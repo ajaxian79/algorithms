@@ -23603,3 +23603,7 @@
 ## entry 5901
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 5902
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
