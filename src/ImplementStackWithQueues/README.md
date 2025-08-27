@@ -680,3 +680,7 @@ Time complexity: O(1).
 ## entry 155
 
 Space complexity: O(1) auxiliary.
+
+## entry 156
+
+Edge case: empty input → returns 0.
