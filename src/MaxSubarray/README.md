@@ -686,3 +686,7 @@ Handles empty input by returning 0.
 ## entry 157
 
 Returns a freshly allocated string the caller must free.
+
+## entry 158
+
+Avoids floating-point entirely — integer math throughout.
