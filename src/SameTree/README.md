@@ -652,3 +652,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 149
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 150
+
+Space complexity: O(log n) for the recursion stack.
