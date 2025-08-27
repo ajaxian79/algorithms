@@ -692,3 +692,7 @@ Caller owns the returned buffer.
 ## entry 157
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 158
+
+Deterministic given the input — no PRNG seeds.
