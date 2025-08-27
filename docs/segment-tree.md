@@ -535,3 +535,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 116
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 117
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
