@@ -495,3 +495,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 107
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 108
+
+Splay tree: every access splays to the root; amortized O(log n).
