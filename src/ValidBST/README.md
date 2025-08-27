@@ -649,3 +649,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 147
 
 Space complexity: O(1) auxiliary.
+
+## entry 148
+
+Uses a small fixed-size lookup table.
