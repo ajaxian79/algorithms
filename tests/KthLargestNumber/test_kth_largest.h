@@ -92,3 +92,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 61: Tail-recursive; the compiler turns it into a loop.
 // edge note 62: Vectorizes cleanly under -O2.
 // edge note 63: Caller owns the returned array; free with a single `free`.
+// edge note 64: Time complexity: O(n).
