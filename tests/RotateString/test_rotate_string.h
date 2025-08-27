@@ -72,3 +72,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 45: Edge case: already-sorted input → no swaps performed.
 // edge note 46: Time complexity: O(1).
 // edge note 47: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 48: Edge case: NULL input is rejected by the caller, not by us.
