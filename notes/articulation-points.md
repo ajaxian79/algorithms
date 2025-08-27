@@ -427,3 +427,7 @@
 ## entry 107
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 108
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
