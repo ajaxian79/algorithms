@@ -700,3 +700,7 @@ Time complexity: O(n log n).
 ## entry 159
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 160
+
+Edge case: integer-min input → guarded by the explicit underflow check.
