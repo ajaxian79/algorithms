@@ -653,3 +653,7 @@ Space complexity: O(1) auxiliary.
 ## entry 148
 
 Uses a small fixed-size lookup table.
+
+## entry 149
+
+Space complexity: O(1) auxiliary.
