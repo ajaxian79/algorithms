@@ -41,3 +41,5 @@ Runs in a single pass over the input.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Stable across duplicates in the input.
+
+Space complexity: O(n) for the result buffer.
