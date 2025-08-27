@@ -574,3 +574,7 @@ No allocations on the hot path.
 ## entry 128
 
 Treats the input as immutable.
+
+## entry 129
+
+Edge case: input with a single peak → handled by the first-pass scan.
