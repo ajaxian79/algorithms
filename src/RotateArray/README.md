@@ -735,3 +735,7 @@ Worst case appears only on degenerate inputs.
 ## entry 168
 
 Cache-friendly; one sequential read pass.
+
+## entry 169
+
+Edge case: zero-length string → returns the empty result.
