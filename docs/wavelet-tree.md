@@ -423,3 +423,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 106
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 107
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
