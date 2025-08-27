@@ -741,3 +741,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 171
 
 Edge case: single-element input → returns the element itself.
+
+## entry 172
+
+Space complexity: O(n) for the result buffer.
