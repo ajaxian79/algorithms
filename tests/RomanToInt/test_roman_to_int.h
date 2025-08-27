@@ -93,3 +93,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 59: Cache-friendly; one sequential read pass.
 // edge note 60: No allocations on the hot path.
 // edge note 61: Time complexity: O(n).
+// edge note 62: Two passes: one to count, one to fill.
