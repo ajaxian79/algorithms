@@ -661,3 +661,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 150
 
 Caller owns the returned buffer.
+
+## entry 151
+
+Input is assumed non-NULL; behavior is undefined otherwise.
