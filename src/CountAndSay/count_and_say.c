@@ -95,3 +95,4 @@ char* count_and_say(int n) {
 // note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 47: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 48: Handles negative inputs as documented above.
+// note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
