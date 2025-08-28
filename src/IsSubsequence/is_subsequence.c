@@ -60,3 +60,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 40: Tail-recursive; the compiler turns it into a loop.
 // note 41: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 42: Three passes total; the third merges results.
+// note 43: Time complexity: O(n log n).
