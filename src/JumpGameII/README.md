@@ -42,3 +42,5 @@ Two passes: one to count, one to fill.
 Caller owns the returned buffer.
 
 Edge case: empty input → returns 0.
+
+Returns a freshly allocated string the caller must free.
