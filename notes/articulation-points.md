@@ -423,3 +423,7 @@
 ## entry 106
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 107
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
