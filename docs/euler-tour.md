@@ -439,3 +439,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 110
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 111
+
+Wavelet tree: range k-th element in O(log Σ) time.
