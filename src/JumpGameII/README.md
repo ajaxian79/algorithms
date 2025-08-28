@@ -40,3 +40,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Two passes: one to count, one to fill.
 
 Caller owns the returned buffer.
+
+Edge case: empty input → returns 0.
