@@ -51,3 +51,5 @@ Stable across duplicates in the input.
 Runs in a single pass over the input.
 
 Uses a small fixed-size lookup table.
+
+Space complexity: O(1) auxiliary.
