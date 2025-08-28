@@ -39,3 +39,5 @@
 - Union-Find with path compression amortizes to near-O(1) per op.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- LIS via patience: each pile holds the smallest tail of length k.
