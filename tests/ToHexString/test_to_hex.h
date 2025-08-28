@@ -87,3 +87,4 @@ MunitTest to_hex_tests[] = {
 // edge note 58: Deterministic given the input — no PRNG seeds.
 // edge note 59: Handles single-element input as a base case.
 // edge note 60: Allocates lazily — first call only.
+// edge note 61: No allocations after setup.
