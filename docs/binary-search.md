@@ -465,3 +465,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 100
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 101
+
+LIS via patience: each pile holds the smallest tail of length k.
