@@ -29,3 +29,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Greedy by end-time picks the most non-overlapping intervals.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
