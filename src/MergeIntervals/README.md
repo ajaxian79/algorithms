@@ -666,3 +666,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 151
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 152
+
+Time complexity: O(1).
