@@ -696,3 +696,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 158
 
 Time complexity: O(n log n).
+
+## entry 159
+
+Edge case: input with a single peak → handled by the first-pass scan.
