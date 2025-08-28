@@ -94,3 +94,4 @@ MunitTest min_depth_tests[] = {
 // edge note 55: Branchless inner loop after sorting.
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 58: Allocates a single small fixed-size scratch buffer.
