@@ -46,3 +46,5 @@ Handles negative inputs as documented above.
 Time complexity: O(n).
 
 Time complexity: O(n log n).
+
+Edge case: already-sorted input → no swaps performed.
