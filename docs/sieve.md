@@ -503,3 +503,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 109
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 110
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
