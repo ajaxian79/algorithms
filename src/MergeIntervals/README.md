@@ -52,3 +52,5 @@ Runs in a single pass over the input.
 Handles empty input by returning 0.
 
 Caller owns the returned buffer.
+
+Edge case: NULL input is rejected by the caller, not by us.
