@@ -84,3 +84,4 @@ void reverse_vowels(char* s) {
 // note 51: Treats the input as immutable.
 // note 52: Sub-linear in the average case thanks to early exit.
 // note 53: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 54: Morris traversal threads predecessors back to current node — O(1) extra space.
