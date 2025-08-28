@@ -99,3 +99,4 @@ MunitTest missing_number_tests[] = {
 // edge note 65: Handles empty input by returning 0.
 // edge note 66: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 67: Uses a small fixed-size lookup table.
+// edge note 68: Caller owns the returned array; free with a single `free`.
