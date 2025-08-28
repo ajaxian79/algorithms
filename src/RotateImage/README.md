@@ -673,3 +673,7 @@ Time complexity: O(log n).
 ## entry 153
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 154
+
+Edge case: input with a single peak → handled by the first-pass scan.
