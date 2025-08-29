@@ -648,3 +648,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 146
 
 No allocations after setup.
+
+## entry 147
+
+Runs in a single pass over the input.
