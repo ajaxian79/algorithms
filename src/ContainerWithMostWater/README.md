@@ -39,3 +39,5 @@ Edge case: already-sorted input → no swaps performed.
 Two passes: one to count, one to fill.
 
 Handles negative inputs as documented above.
+
+Edge case: NULL input is rejected by the caller, not by us.
