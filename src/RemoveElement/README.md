@@ -633,3 +633,7 @@ Time complexity: O(log n).
 ## entry 144
 
 Space complexity: O(1) auxiliary.
+
+## entry 145
+
+Time complexity: O(1).
