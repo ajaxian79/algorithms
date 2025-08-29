@@ -700,3 +700,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 160
 
 Runs in a single pass over the input.
+
+## entry 161
+
+Space complexity: O(n) for the result buffer.
