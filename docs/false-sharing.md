@@ -423,3 +423,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 106
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 107
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
