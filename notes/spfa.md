@@ -367,3 +367,7 @@
 ## entry 92
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 93
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
