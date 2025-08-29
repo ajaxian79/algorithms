@@ -44,3 +44,5 @@ Edge case: single-element input → returns the element itself.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Handles negative inputs as documented above.
