@@ -467,3 +467,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 99
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 100
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
