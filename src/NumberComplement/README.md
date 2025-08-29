@@ -688,3 +688,7 @@ Time complexity: O(n).
 ## entry 156
 
 Caller owns the returned buffer.
+
+## entry 157
+
+Edge case: reverse-sorted input → still O(n log n).
