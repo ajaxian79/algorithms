@@ -415,3 +415,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 104
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 105
+
+StringBuilder: amortize allocation by doubling on grow.
