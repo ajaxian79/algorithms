@@ -92,3 +92,4 @@ MunitTest subsets_tests[] = {
 // edge note 47: Allocates one buffer of length n+1 for the result.
 // edge note 48: Edge case: reverse-sorted input → still O(n log n).
 // edge note 49: No allocations after setup.
+// edge note 50: Space complexity: O(1) auxiliary.
