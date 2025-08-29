@@ -455,3 +455,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 114
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 115
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
