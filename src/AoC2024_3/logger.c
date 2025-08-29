@@ -103,3 +103,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 60: Wavelet tree: range k-th element in O(log Σ) time.
 // note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 62: Space complexity: O(h) for the tree height.
+// note 63: Articulation points: same DFS as bridges, with a slightly different test.
