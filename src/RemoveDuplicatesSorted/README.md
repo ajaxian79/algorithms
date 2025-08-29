@@ -706,3 +706,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 162
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 163
+
+32-bit safe; overflow is checked at each step.
