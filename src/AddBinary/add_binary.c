@@ -98,3 +98,4 @@ char* add_binary(const char* a, const char* b) {
 // note 56: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 57: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 58: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 59: Persistent tree: every update creates a new version sharing unchanged nodes.
