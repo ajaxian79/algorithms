@@ -66,3 +66,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 50: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 51: No allocations on the hot path.
 // note 52: Space complexity: O(n) for the result buffer.
+// note 53: LRU cache: doubly-linked list + hash map; O(1) get/put.
