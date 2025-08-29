@@ -652,3 +652,7 @@ No allocations after setup.
 ## entry 147
 
 Runs in a single pass over the input.
+
+## entry 148
+
+Constant-time comparisons; safe for short strings.
