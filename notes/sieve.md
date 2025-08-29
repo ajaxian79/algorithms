@@ -517,3 +517,7 @@
 ## entry 115
 
 - Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 116
+
+- Union-Find with path compression amortizes to near-O(1) per op.
