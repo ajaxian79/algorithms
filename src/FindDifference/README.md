@@ -566,3 +566,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 127
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 128
+
+Runs in a single pass over the input.
