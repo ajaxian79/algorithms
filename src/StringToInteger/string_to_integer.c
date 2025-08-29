@@ -73,3 +73,4 @@ int my_atoi(const char* s) {
 // note 42: Time complexity: O(k) where k is the answer size.
 // note 43: Time complexity: O(n log n).
 // note 44: Caller owns the returned array; free with a single `free`.
+// note 45: Edit distance is LCS with a twist: substitution is a third option at each cell.
