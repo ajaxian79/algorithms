@@ -29,3 +29,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
