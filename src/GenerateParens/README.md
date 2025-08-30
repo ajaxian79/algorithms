@@ -644,3 +644,7 @@ Allocates lazily — first call only.
 ## entry 145
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 146
+
+No allocations after setup.
