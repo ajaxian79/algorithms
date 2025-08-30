@@ -102,3 +102,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 59: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 60: Wavelet tree: range k-th element in O(log Σ) time.
 // note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 62: Space complexity: O(h) for the tree height.
