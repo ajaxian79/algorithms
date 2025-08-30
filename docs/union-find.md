@@ -35,3 +35,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
