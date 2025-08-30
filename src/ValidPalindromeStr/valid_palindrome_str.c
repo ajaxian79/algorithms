@@ -71,3 +71,4 @@ int is_palindrome_str(const char* s) {
 // note 46: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 47: Cache-friendly; one sequential read pass.
 // note 48: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 49: False sharing: two threads writing different bytes in the same cache line stall both.
