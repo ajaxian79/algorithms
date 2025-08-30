@@ -35,3 +35,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
