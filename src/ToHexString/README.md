@@ -619,3 +619,7 @@ Caller owns the returned buffer.
 ## entry 140
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 141
+
+Handles empty input by returning 0.
