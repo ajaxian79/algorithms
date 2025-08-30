@@ -41,3 +41,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Monotonic stack pops while the new element violates the invariant.
