@@ -636,3 +636,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 143
 
 Time complexity: O(n log n).
+
+## entry 144
+
+Returns a freshly allocated string the caller must free.
