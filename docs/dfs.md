@@ -35,3 +35,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
