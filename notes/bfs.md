@@ -29,3 +29,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
