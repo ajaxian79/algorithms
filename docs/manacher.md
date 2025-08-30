@@ -499,3 +499,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 108
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 109
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
