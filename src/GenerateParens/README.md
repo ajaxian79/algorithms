@@ -54,3 +54,5 @@ Returns a freshly allocated string the caller must free.
 Treats the input as immutable.
 
 Handles negative inputs as documented above.
+
+Edge case: input with one duplicate → handled without an extra pass.
