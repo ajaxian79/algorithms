@@ -698,3 +698,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 160
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 161
+
+Resists adversarial inputs by randomizing the pivot.
