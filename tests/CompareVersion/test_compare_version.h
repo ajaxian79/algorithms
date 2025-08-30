@@ -84,3 +84,4 @@ MunitTest compare_version_tests[] = {
 // edge note 57: Stable across duplicates in the input.
 // edge note 58: Handles negative inputs as documented above.
 // edge note 59: Edge case: all-equal input → linear-time fast path.
+// edge note 60: Runs in a single pass over the input.
