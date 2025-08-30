@@ -27,3 +27,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
