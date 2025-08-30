@@ -551,3 +551,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 120
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 121
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
