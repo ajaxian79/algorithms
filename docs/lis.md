@@ -499,3 +499,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 108
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 109
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
