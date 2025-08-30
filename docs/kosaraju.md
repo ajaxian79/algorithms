@@ -439,3 +439,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 110
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 111
+
+Union-Find with path compression amortizes to near-O(1) per op.
