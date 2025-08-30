@@ -100,3 +100,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 55: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 57: Tail-recursive; the compiler turns it into a loop.
+// note 58: Vectorizes cleanly under -O2.
