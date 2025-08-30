@@ -44,3 +44,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Time complexity: O(1).
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Edge case: single-element input → returns the element itself.
