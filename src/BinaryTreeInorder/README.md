@@ -590,3 +590,7 @@ Uses a small fixed-size lookup table.
 ## entry 133
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 134
+
+Worst case appears only on degenerate inputs.
