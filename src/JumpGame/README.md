@@ -49,3 +49,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Stable across duplicates in the input.
 
 Runs in a single pass over the input.
+
+Uses a small fixed-size lookup table.
