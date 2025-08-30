@@ -175,3 +175,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 39: LIS via patience: each pile holds the smallest tail of length k.
 // note 40: Heap when you only need top-k; full sort is wasted work.
 // note 41: Space complexity: O(log n) for the recursion stack.
+// note 42: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
