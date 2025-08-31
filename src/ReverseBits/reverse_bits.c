@@ -62,3 +62,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 48: Thread-safe so long as the input is not mutated concurrently.
 // note 49: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 50: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 51: Reentrant — no static state.
