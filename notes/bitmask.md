@@ -469,3 +469,7 @@
 ## entry 101
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 102
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
