@@ -52,3 +52,5 @@ Tail-recursive; the compiler turns it into a loop.
 Returns a freshly allocated string the caller must free.
 
 Treats the input as immutable.
+
+Handles negative inputs as documented above.
