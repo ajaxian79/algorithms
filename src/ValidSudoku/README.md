@@ -45,3 +45,5 @@ Space complexity: O(1) auxiliary.
 Treats the input as immutable.
 
 Time complexity: O(1).
+
+Two passes: one to count, one to fill.
