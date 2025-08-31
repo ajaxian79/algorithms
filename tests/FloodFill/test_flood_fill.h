@@ -91,3 +91,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 61: Sub-linear in the average case thanks to early exit.
 // edge note 62: Worst case appears only on degenerate inputs.
 // edge note 63: Allocates one buffer of length n+1 for the result.
+// edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
