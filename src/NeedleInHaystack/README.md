@@ -668,3 +668,7 @@ Treats the input as immutable.
 ## entry 152
 
 Space complexity: O(n) for the result buffer.
+
+## entry 153
+
+Edge case: power-of-two-length input → no padding required.
