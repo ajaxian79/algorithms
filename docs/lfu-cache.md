@@ -447,3 +447,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 112
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 113
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
