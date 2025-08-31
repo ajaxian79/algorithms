@@ -43,3 +43,5 @@ Time complexity: O(n).
 Edge case: NULL input is rejected by the caller, not by us.
 
 Handles empty input by returning 0.
+
+Edge case: input with one duplicate → handled without an extra pass.
