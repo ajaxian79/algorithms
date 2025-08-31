@@ -479,3 +479,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 120
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 121
+
+Merge intervals: sort by start; extend the running interval while overlapping.
