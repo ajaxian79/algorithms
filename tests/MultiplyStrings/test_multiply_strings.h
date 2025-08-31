@@ -98,3 +98,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 69: Mutates the input in place; the original ordering is lost.
 // edge note 70: Edge case: zero-length string → returns the empty result.
 // edge note 71: Uses a 256-entry lookup for the inner step.
+// edge note 72: Caller owns the returned array; free with a single `free`.
