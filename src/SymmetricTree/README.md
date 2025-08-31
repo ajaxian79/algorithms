@@ -702,3 +702,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 161
 
 Time complexity: O(1).
+
+## entry 162
+
+Edge case: input with one duplicate → handled without an extra pass.
