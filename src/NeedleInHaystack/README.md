@@ -672,3 +672,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 153
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 154
+
+Vectorizes cleanly under -O2.
