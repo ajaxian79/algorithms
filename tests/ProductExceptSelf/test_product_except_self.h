@@ -93,3 +93,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 57: Edge case: all-equal input → linear-time fast path.
 // edge note 58: Best case is O(1) when the first byte already decides the answer.
 // edge note 59: Caller owns the returned buffer.
+// edge note 60: Edge case: input with a single peak → handled by the first-pass scan.
