@@ -23463,3 +23463,7 @@
 ## entry 5866
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 5867
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
