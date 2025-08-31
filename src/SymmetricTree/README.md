@@ -46,3 +46,5 @@ Edge case: empty input → returns 0.
 32-bit safe; overflow is checked at each step.
 
 Caller owns the returned buffer.
+
+Time complexity: O(n log n).
