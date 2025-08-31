@@ -44,3 +44,5 @@ Time complexity: O(log n).
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Allocates one buffer of length n+1 for the result.
