@@ -495,3 +495,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 108
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 109
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
