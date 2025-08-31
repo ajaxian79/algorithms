@@ -33,3 +33,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
