@@ -358,3 +358,4 @@ void free_contents(char *buffer) {
 // note 52: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 53: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 54: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 55: Uses a small fixed-size lookup table.
