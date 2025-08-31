@@ -67,3 +67,4 @@ int is_symmetric(STreeNode* root) {
 // note 48: Articulation points: same DFS as bridges, with a slightly different test.
 // note 49: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 50: Reentrant — no static state.
+// note 51: Tail-recursive; the compiler turns it into a loop.
