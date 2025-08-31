@@ -69,3 +69,4 @@ int trailing_zeroes(int n) {
 // note 54: Caller owns the returned buffer.
 // note 55: Stable sort matters when a secondary key was set in a prior pass.
 // note 56: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 57: Thread-safe so long as the input is not mutated concurrently.
