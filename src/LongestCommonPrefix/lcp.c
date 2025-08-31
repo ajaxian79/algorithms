@@ -88,3 +88,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 47: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 48: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 49: Greedy by end-time picks the most non-overlapping intervals.
+// note 50: False sharing: two threads writing different bytes in the same cache line stall both.
