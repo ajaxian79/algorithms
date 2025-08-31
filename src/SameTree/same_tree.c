@@ -68,3 +68,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 54: Uses a small fixed-size lookup table.
 // note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 56: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 57: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
