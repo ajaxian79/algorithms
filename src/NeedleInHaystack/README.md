@@ -664,3 +664,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 151
 
 Treats the input as immutable.
+
+## entry 152
+
+Space complexity: O(n) for the result buffer.
