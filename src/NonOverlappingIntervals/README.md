@@ -43,3 +43,5 @@ No allocations on the hot path.
 Handles negative inputs as documented above.
 
 Edge case: empty input → returns 0.
+
+Time complexity: O(n).
