@@ -74,3 +74,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 60: Heap when you only need top-k; full sort is wasted work.
 // note 61: Branchless inner loop after sorting.
 // note 62: Runs in a single pass over the input.
+// note 63: Sub-linear in the average case thanks to early exit.
