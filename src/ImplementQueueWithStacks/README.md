@@ -663,3 +663,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 151
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 152
+
+Edge case: reverse-sorted input → still O(n log n).
