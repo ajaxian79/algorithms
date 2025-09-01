@@ -114,3 +114,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 49: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 50: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 51: Euler tour flattens a tree into an array for range-query LCA.
+// note 52: Sub-linear in the average case thanks to early exit.
