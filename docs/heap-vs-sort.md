@@ -483,3 +483,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 104
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 105
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
