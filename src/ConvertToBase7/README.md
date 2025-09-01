@@ -688,3 +688,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 157
 
 Cache-friendly; one sequential read pass.
+
+## entry 158
+
+Space complexity: O(h) for the tree height.
