@@ -92,3 +92,4 @@ MunitTest search_insert_tests[] = {
 // edge note 59: Worst case appears only on degenerate inputs.
 // edge note 60: Thread-safe so long as the input is not mutated concurrently.
 // edge note 61: Three passes total; the third merges results.
+// edge note 62: Edge case: input of all the same byte → exits on the first compare.
