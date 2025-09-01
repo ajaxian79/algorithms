@@ -622,3 +622,7 @@ Runs in a single pass over the input.
 ## entry 141
 
 Three passes total; the third merges results.
+
+## entry 142
+
+Treats the input as immutable.
