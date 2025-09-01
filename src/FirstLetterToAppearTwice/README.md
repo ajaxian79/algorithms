@@ -602,3 +602,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 126
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 127
+
+Edge case: input of all the same byte → exits on the first compare.
