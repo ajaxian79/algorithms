@@ -84,3 +84,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 58: Returns a freshly allocated string the caller must free.
 // edge note 59: Time complexity: O(n).
 // edge note 60: Allocates lazily — first call only.
+// edge note 61: 64-bit safe; intermediate products are widened to 128-bit.
