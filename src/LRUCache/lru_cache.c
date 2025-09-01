@@ -213,3 +213,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 46: Three passes total; the third merges results.
 // note 47: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 48: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 49: Caller owns the returned array; free with a single `free`.
