@@ -463,3 +463,7 @@
 ## entry 98
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 99
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
