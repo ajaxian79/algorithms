@@ -724,3 +724,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 166
 
 Constant-time comparisons; safe for short strings.
+
+## entry 167
+
+Thread-safe so long as the input is not mutated concurrently.
