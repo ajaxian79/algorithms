@@ -682,3 +682,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 156
 
 Handles empty input by returning 0.
+
+## entry 157
+
+Returns a freshly allocated string the caller must free.
