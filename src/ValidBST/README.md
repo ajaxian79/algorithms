@@ -645,3 +645,7 @@ Linear in n; the constant factor is small.
 ## entry 146
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 147
+
+Space complexity: O(1) auxiliary.
