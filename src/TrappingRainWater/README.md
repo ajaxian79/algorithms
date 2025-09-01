@@ -570,3 +570,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 127
 
 No allocations on the hot path.
+
+## entry 128
+
+Treats the input as immutable.
