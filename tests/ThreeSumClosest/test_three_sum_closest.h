@@ -88,3 +88,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 60: Allocates a single small fixed-size scratch buffer.
 // edge note 61: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 62: Caller owns the returned array; free with a single `free`.
+// edge note 63: Edge case: all-equal input → linear-time fast path.
