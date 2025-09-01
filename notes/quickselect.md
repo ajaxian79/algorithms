@@ -547,3 +547,7 @@
 ## entry 120
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 121
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
