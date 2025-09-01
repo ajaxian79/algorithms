@@ -23443,3 +23443,7 @@
 ## entry 5861
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 5862
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
