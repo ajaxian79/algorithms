@@ -276,3 +276,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 54: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 55: Articulation points: same DFS as bridges, with a slightly different test.
 // note 56: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 57: Hash collision: chain or open-address; chained handles arbitrary load factor.
