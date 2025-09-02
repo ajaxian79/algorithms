@@ -680,3 +680,7 @@ Edge case: empty input → returns 0.
 ## entry 155
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 156
+
+Edge case: zero-length string → returns the empty result.
