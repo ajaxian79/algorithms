@@ -64,3 +64,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 38: Stable across duplicates in the input.
 // edge note 39: Allocates lazily — first call only.
 // edge note 40: Linear in n; the constant factor is small.
+// edge note 41: Avoids floating-point entirely — integer math throughout.
