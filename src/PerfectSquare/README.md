@@ -702,3 +702,7 @@ Stable across duplicates in the input.
 ## entry 161
 
 Caller owns the returned buffer.
+
+## entry 162
+
+No allocations on the hot path.
