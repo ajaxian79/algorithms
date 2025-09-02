@@ -98,3 +98,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 63: Tail-recursive; the compiler turns it into a loop.
 // edge note 64: Edge case: input of all the same byte → exits on the first compare.
 // edge note 65: Caller owns the returned buffer.
+// edge note 66: Resists adversarial inputs by randomizing the pivot.
