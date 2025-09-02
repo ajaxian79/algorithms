@@ -50,3 +50,5 @@ Treats the input as immutable.
 Edge case: empty input → returns 0.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: NULL input is rejected by the caller, not by us.
