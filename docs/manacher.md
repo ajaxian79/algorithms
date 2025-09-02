@@ -495,3 +495,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 107
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 108
+
+Endianness matters when serializing multi-byte ints to a file or wire.
