@@ -722,3 +722,7 @@ Handles negative inputs as documented above.
 ## entry 166
 
 Returns a freshly allocated string the caller must free.
+
+## entry 167
+
+Edge case: integer-max input → guarded by the explicit overflow check.
