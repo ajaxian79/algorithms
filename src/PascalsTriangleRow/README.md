@@ -42,3 +42,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: single-element input → returns the element itself.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: reverse-sorted input → still O(n log n).
