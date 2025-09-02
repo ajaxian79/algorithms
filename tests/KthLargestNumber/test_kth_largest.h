@@ -91,3 +91,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 60: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 61: Tail-recursive; the compiler turns it into a loop.
 // edge note 62: Vectorizes cleanly under -O2.
+// edge note 63: Caller owns the returned array; free with a single `free`.
