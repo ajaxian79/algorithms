@@ -748,3 +748,7 @@ Time complexity: O(n).
 ## entry 172
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 173
+
+Time complexity: O(n*k) where k is the alphabet size.
