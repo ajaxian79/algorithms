@@ -722,3 +722,7 @@ Stable across duplicates in the input.
 ## entry 166
 
 Edge case: empty input → returns 0.
+
+## entry 167
+
+Handles negative inputs as documented above.
