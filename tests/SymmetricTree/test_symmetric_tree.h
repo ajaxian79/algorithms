@@ -89,3 +89,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 45: Edge case: zero-length string → returns the empty result.
 // edge note 46: Allocates one buffer of length n+1 for the result.
 // edge note 47: Handles single-element input as a base case.
+// edge note 48: Edge case: all-equal input → linear-time fast path.
