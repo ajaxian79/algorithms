@@ -521,3 +521,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 113
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 114
+
+Monotonic stack pops while the new element violates the invariant.
