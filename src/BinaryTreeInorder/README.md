@@ -46,3 +46,5 @@ Space complexity: O(n) for the result buffer.
 32-bit safe; overflow is checked at each step.
 
 Caller owns the returned buffer.
+
+Tail-recursive; the compiler turns it into a loop.
