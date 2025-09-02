@@ -495,3 +495,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 107
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 108
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
