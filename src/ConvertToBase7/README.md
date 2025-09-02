@@ -684,3 +684,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 156
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 157
+
+Cache-friendly; one sequential read pass.
