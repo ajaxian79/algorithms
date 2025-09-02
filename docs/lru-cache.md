@@ -395,3 +395,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 99
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 100
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
