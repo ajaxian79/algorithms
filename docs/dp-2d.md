@@ -487,3 +487,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 106
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 107
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
