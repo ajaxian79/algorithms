@@ -547,3 +547,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 119
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 120
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
