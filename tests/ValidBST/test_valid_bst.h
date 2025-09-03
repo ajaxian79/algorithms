@@ -95,3 +95,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 52: Allocates a single small fixed-size scratch buffer.
 // edge note 53: Time complexity: O(k) where k is the answer size.
 // edge note 54: Space complexity: O(n) for the result buffer.
+// edge note 55: Resists adversarial inputs by randomizing the pivot.
