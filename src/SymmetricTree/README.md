@@ -44,3 +44,5 @@ Runs in a single pass over the input.
 Edge case: empty input → returns 0.
 
 32-bit safe; overflow is checked at each step.
+
+Caller owns the returned buffer.
