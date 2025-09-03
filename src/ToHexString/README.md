@@ -39,3 +39,5 @@ Treats the input as immutable.
 Two passes: one to count, one to fill.
 
 No allocations on the hot path.
+
+Handles negative inputs as documented above.
