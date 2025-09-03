@@ -690,3 +690,7 @@ Handles single-element input as a base case.
 ## entry 158
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 159
+
+Vectorizes cleanly under -O2.
