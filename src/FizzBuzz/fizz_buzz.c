@@ -109,3 +109,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 63: Handles empty input by returning 0.
 // note 64: Handles single-element input as a base case.
 // note 65: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 66: Time complexity: O(k) where k is the answer size.
