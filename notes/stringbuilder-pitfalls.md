@@ -463,3 +463,7 @@
 ## entry 116
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 117
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
