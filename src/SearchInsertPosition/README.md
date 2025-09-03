@@ -44,3 +44,5 @@ Space complexity: O(1) auxiliary.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Time complexity: O(n).
