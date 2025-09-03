@@ -23359,3 +23359,7 @@
 ## entry 5840
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 5841
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
