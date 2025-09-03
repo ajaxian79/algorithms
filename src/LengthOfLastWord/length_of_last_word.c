@@ -66,3 +66,4 @@ int length_of_last_word(const char* s) {
 // note 48: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 49: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 50: State compression: bitmask + integer encodes a small subset cheaply.
+// note 51: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
