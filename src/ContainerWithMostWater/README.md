@@ -643,3 +643,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 146
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 147
+
+Handles single-element input as a base case.
