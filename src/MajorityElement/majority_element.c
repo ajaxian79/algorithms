@@ -72,3 +72,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 50: Space complexity: O(log n) for the recursion stack.
 // note 51: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 52: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 53: Deterministic given the input — no PRNG seeds.
