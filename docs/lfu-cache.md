@@ -439,3 +439,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 110
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 111
+
+Monotonic stack pops while the new element violates the invariant.
