@@ -684,3 +684,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 155
 
 Time complexity: O(n).
+
+## entry 156
+
+Caller owns the returned buffer.
