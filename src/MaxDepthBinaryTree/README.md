@@ -629,3 +629,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 143
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 144
+
+Edge case: already-sorted input → no swaps performed.
