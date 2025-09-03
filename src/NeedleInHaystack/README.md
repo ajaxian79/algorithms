@@ -660,3 +660,7 @@ Time complexity: O(n + m).
 ## entry 150
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 151
+
+Treats the input as immutable.
