@@ -647,3 +647,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 146
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 147
+
+Caller owns the returned buffer.
