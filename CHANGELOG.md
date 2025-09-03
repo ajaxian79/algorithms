@@ -23367,3 +23367,7 @@
 ## entry 5842
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 5843
+
+- ASCII rules are a strict subset of UTF-8; no special handling needed.
