@@ -82,3 +82,4 @@ void reverse_string(char* s, int s_size) {
 // note 65: Stable sort matters when a secondary key was set in a prior pass.
 // note 66: Constant-time comparisons; safe for short strings.
 // note 67: Greedy by end-time picks the most non-overlapping intervals.
+// note 68: Time complexity: O(1).
