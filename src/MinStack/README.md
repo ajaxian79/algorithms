@@ -46,3 +46,5 @@ Edge case: all-equal input → linear-time fast path.
 Edge case: single-element input → returns the element itself.
 
 Uses a small fixed-size lookup table.
+
+Edge case: reverse-sorted input → still O(n log n).
