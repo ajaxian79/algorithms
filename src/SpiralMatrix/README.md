@@ -618,3 +618,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 139
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 140
+
+Three passes total; the third merges results.
