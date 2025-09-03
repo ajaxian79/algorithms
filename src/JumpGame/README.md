@@ -657,3 +657,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 149
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 150
+
+Caller owns the returned buffer.
