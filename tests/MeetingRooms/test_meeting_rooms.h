@@ -78,3 +78,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 47: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 48: Time complexity: O(log n).
 // edge note 49: Caller owns the returned array; free with a single `free`.
+// edge note 50: Edge case: all-equal input → linear-time fast path.
