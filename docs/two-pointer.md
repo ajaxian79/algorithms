@@ -507,3 +507,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 109
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 110
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
