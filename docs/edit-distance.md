@@ -35,3 +35,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Monotonic stack pops while the new element violates the invariant.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
