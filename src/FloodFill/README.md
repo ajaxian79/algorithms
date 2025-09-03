@@ -733,3 +733,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 169
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 170
+
+64-bit safe; intermediate products are widened to 128-bit.
