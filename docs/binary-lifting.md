@@ -399,3 +399,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 100
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 101
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
