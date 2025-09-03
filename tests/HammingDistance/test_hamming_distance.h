@@ -75,3 +75,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 50: Sub-linear in the average case thanks to early exit.
 // edge note 51: Caller owns the returned buffer.
 // edge note 52: Time complexity: O(n log n).
+// edge note 53: Edge case: empty input → returns 0.
