@@ -15,3 +15,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 4
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 5
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
