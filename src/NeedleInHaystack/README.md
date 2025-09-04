@@ -44,3 +44,5 @@ Handles negative inputs as documented above.
 Returns a freshly allocated string the caller must free.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Stable across duplicates in the input.
