@@ -42,3 +42,5 @@ Time complexity: O(log n).
 32-bit safe; overflow is checked at each step.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: input with one duplicate → handled without an extra pass.
