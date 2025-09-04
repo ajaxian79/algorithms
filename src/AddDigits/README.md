@@ -44,3 +44,5 @@ Returns a freshly allocated string the caller must free.
 Runs in a single pass over the input.
 
 Allocates one buffer of length n+1 for the result.
+
+Uses a small fixed-size lookup table.
