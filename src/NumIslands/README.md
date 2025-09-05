@@ -605,3 +605,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 136
 
 Worst case appears only on degenerate inputs.
+
+## entry 137
+
+Constant-time comparisons; safe for short strings.
