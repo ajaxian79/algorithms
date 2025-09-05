@@ -443,3 +443,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 111
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 112
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
