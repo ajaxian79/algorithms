@@ -705,3 +705,7 @@ Two passes: one to count, one to fill.
 ## entry 151
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 152
+
+Space complexity: O(h) for the tree height.
