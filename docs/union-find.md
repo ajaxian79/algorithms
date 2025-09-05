@@ -483,3 +483,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 104
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 105
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
