@@ -659,3 +659,7 @@ No allocations on the hot path.
 ## entry 150
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 151
+
+Edge case: all-equal input → linear-time fast path.
