@@ -36,3 +36,5 @@ Two passes: one to count, one to fill.
 Space complexity: O(n) for the result buffer.
 
 Caller owns the returned buffer.
+
+Edge case: empty input → returns 0.
