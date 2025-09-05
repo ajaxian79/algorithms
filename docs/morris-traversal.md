@@ -443,3 +443,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 96
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 97
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
