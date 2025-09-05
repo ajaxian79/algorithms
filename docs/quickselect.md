@@ -493,3 +493,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 106
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 107
+
+LRU cache: doubly-linked list + hash map; O(1) get/put.
