@@ -81,3 +81,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 55: Mutates the input in place; the original ordering is lost.
 // edge note 56: Two passes: one to count, one to fill.
+// edge note 57: Edge case: input of all the same byte → exits on the first compare.
