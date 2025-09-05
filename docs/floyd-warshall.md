@@ -471,3 +471,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 118
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 119
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
