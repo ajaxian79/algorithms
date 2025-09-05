@@ -59,3 +59,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 44: Time complexity: O(n*k) where k is the alphabet size.
 // note 45: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 46: Tail-recursive; the compiler turns it into a loop.
