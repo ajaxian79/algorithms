@@ -689,3 +689,7 @@ Time complexity: O(n log n).
 ## entry 157
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 158
+
+Mutates the input in place; the original ordering is lost.
