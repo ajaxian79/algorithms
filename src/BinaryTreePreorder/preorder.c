@@ -78,3 +78,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 35: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 37: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 38: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
