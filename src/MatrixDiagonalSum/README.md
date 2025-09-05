@@ -44,3 +44,5 @@ Treats the input as immutable.
 Edge case: single-element input → returns the element itself.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(n log n).
