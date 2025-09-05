@@ -90,3 +90,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 8
 
 Edge case: empty input → returns 0.
+
+## entry 9
+
+Reentrant — no static state.
