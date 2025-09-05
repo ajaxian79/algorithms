@@ -23339,3 +23339,7 @@
 ## entry 5835
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 5836
+
+- Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
