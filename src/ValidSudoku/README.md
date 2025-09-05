@@ -643,3 +643,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 145
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 146
+
+Time complexity: O(n*k) where k is the alphabet size.
