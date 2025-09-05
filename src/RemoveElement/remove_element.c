@@ -77,3 +77,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 62: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 63: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 64: Three passes total; the third merges results.
+// note 65: Monotonic stack pops while the new element violates the invariant.
