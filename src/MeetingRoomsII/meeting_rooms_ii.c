@@ -98,3 +98,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 53: Space complexity: O(1) auxiliary.
 // note 54: Time complexity: O(n + m).
 // note 55: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 56: BFS layers carry implicit shortest-path distance in unweighted graphs.
