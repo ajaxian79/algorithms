@@ -37,3 +37,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Monotonic stack pops while the new element violates the invariant.
