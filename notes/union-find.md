@@ -447,3 +447,7 @@
 ## entry 96
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 97
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
