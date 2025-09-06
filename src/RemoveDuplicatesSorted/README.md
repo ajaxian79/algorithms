@@ -694,3 +694,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 159
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 160
+
+Best case is O(1) when the first byte already decides the answer.
