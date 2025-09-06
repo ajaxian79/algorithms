@@ -371,3 +371,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 93
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 94
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
