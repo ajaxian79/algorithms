@@ -103,3 +103,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 65: Handles single-element input as a base case.
 // edge note 66: Best case is O(1) when the first byte already decides the answer.
 // edge note 67: Space complexity: O(h) for the tree height.
+// edge note 68: Time complexity: O(n*k) where k is the alphabet size.
