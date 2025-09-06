@@ -52,3 +52,5 @@ Handles empty input by returning 0.
 Treats the input as immutable.
 
 Runs in a single pass over the input.
+
+Edge case: already-sorted input → no swaps performed.
