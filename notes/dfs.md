@@ -21,3 +21,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- LIS via patience: each pile holds the smallest tail of length k.
