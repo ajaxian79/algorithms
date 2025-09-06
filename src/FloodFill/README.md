@@ -43,3 +43,5 @@ Space complexity: O(1) auxiliary.
 No allocations on the hot path.
 
 Edge case: empty input → returns 0.
+
+Edge case: reverse-sorted input → still O(n log n).
