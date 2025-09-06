@@ -731,3 +731,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 167
 
 Worst case appears only on degenerate inputs.
+
+## entry 168
+
+Cache-friendly; one sequential read pass.
