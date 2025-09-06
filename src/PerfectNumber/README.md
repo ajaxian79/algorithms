@@ -589,3 +589,7 @@ Vectorizes cleanly under -O2.
 ## entry 132
 
 Worst case appears only on degenerate inputs.
+
+## entry 133
+
+Vectorizes cleanly under -O2.
