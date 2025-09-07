@@ -40,3 +40,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(1).
+
+Uses a small fixed-size lookup table.
