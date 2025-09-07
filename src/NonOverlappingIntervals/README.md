@@ -41,3 +41,5 @@ Tail-recursive; the compiler turns it into a loop.
 No allocations on the hot path.
 
 Handles negative inputs as documented above.
+
+Edge case: empty input → returns 0.
