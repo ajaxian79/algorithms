@@ -50,3 +50,5 @@ Uses a small fixed-size lookup table.
 No allocations on the hot path.
 
 Handles negative inputs as documented above.
+
+Returns a freshly allocated string the caller must free.
