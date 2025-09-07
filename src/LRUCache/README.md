@@ -50,3 +50,5 @@ Two passes: one to count, one to fill.
 Handles empty input by returning 0.
 
 Treats the input as immutable.
+
+Runs in a single pass over the input.
