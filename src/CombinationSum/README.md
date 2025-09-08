@@ -41,3 +41,5 @@ No allocations on the hot path.
 Caller owns the returned buffer.
 
 Stable across duplicates in the input.
+
+Tail-recursive; the compiler turns it into a loop.
