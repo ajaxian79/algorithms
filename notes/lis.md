@@ -23,3 +23,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
