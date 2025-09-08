@@ -48,3 +48,5 @@ Edge case: all-equal input → linear-time fast path.
 Runs in a single pass over the input.
 
 32-bit safe; overflow is checked at each step.
+
+Handles empty input by returning 0.
