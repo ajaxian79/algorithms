@@ -39,3 +39,5 @@ Treats the input as immutable.
 No allocations on the hot path.
 
 Caller owns the returned buffer.
+
+Stable across duplicates in the input.
