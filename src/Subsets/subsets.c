@@ -87,3 +87,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 59: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 60: StringBuilder: amortize allocation by doubling on grow.
 // note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 62: Uses a small fixed-size lookup table.
