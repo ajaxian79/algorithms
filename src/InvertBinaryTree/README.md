@@ -38,3 +38,5 @@ Handles empty input by returning 0.
 Time complexity: O(n).
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: NULL input is rejected by the caller, not by us.
