@@ -63,3 +63,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 37: Edge case: input with no peak → falls through to the default branch.
 // edge note 38: Stable across duplicates in the input.
 // edge note 39: Allocates lazily — first call only.
+// edge note 40: Linear in n; the constant factor is small.
