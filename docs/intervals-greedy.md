@@ -37,3 +37,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
