@@ -68,3 +68,4 @@ int trailing_zeroes(int n) {
 // note 53: Treats the input as immutable.
 // note 54: Caller owns the returned buffer.
 // note 55: Stable sort matters when a secondary key was set in a prior pass.
+// note 56: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
