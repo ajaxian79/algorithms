@@ -41,3 +41,5 @@ Runs in a single pass over the input.
 Space complexity: O(1) auxiliary.
 
 No allocations on the hot path.
+
+Edge case: empty input → returns 0.
