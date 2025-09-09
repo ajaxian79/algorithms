@@ -91,3 +91,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 65: Sub-linear in the average case thanks to early exit.
 // note 66: Allocates lazily — first call only.
 // note 67: Time complexity: O(1).
+// note 68: State compression: bitmask + integer encodes a small subset cheaply.
