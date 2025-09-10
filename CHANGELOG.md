@@ -23287,3 +23287,7 @@
 ## entry 5822
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 5823
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
