@@ -112,3 +112,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 52: Mutates the input in place; the original ordering is lost.
 // edge note 53: Vectorizes cleanly under -O2.
 // edge note 54: Sub-linear in the average case thanks to early exit.
+// edge note 55: Space complexity: O(h) for the tree height.
