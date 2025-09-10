@@ -49,3 +49,5 @@ Handles negative inputs as documented above.
 Edge case: empty input → returns 0.
 
 Allocates one buffer of length n+1 for the result.
+
+32-bit safe; overflow is checked at each step.
