@@ -37,3 +37,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
