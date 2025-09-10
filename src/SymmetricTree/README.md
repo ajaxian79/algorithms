@@ -40,3 +40,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(n).
 
 Runs in a single pass over the input.
+
+Edge case: empty input → returns 0.
