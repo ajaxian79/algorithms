@@ -49,3 +49,5 @@ Two passes: one to count, one to fill.
 Time complexity: O(n log n).
 
 Time complexity: O(n).
+
+Edge case: all-equal input → linear-time fast path.
