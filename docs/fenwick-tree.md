@@ -21,3 +21,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Stable sort matters when a secondary key was set in a prior pass.
