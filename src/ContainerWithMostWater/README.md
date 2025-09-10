@@ -639,3 +639,7 @@ Allocates lazily — first call only.
 ## entry 145
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 146
+
+Tail-recursive; the compiler turns it into a loop.
