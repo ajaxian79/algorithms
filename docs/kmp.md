@@ -25,3 +25,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Walk both pointers from each end inward; advance the smaller side.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Greedy by end-time picks the most non-overlapping intervals.
