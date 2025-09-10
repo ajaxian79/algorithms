@@ -720,3 +720,7 @@ Stable when the input is already sorted.
 ## entry 165
 
 Constant-time comparisons; safe for short strings.
+
+## entry 166
+
+Constant-time comparisons; safe for short strings.
