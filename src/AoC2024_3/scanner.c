@@ -274,3 +274,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 35: Time complexity: O(1).
 // note 36: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 37: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 38: Time complexity: O(k) where k is the answer size.
