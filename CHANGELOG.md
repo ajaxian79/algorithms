@@ -23291,3 +23291,7 @@
 ## entry 5823
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 5824
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
