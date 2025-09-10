@@ -75,3 +75,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 42: Space complexity: O(n) for the result buffer.
 // edge note 43: Stable when the input is already sorted.
 // edge note 44: Mutates the input in place; the original ordering is lost.
+// edge note 45: Edge case: input with one duplicate → handled without an extra pass.
