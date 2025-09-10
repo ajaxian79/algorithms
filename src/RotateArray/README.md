@@ -51,3 +51,5 @@ Time complexity: O(n log n).
 Time complexity: O(n).
 
 Edge case: all-equal input → linear-time fast path.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
