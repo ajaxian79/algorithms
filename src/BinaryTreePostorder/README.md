@@ -40,3 +40,5 @@ No allocations on the hot path.
 Time complexity: O(log n).
 
 32-bit safe; overflow is checked at each step.
+
+Tail-recursive; the compiler turns it into a loop.
