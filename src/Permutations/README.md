@@ -744,3 +744,7 @@ Vectorizes cleanly under -O2.
 ## entry 171
 
 Time complexity: O(n).
+
+## entry 172
+
+Best case is O(1) when the first byte already decides the answer.
