@@ -93,3 +93,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 50: Edge case: reverse-sorted input → still O(n log n).
 // edge note 51: Edge case: already-sorted input → no swaps performed.
 // edge note 52: Allocates a single small fixed-size scratch buffer.
+// edge note 53: Time complexity: O(k) where k is the answer size.
