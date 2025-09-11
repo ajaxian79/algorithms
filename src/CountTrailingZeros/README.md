@@ -670,3 +670,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 152
 
 Branchless inner loop after sorting.
+
+## entry 153
+
+Edge case: input with one duplicate → handled without an extra pass.
