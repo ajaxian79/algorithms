@@ -725,3 +725,7 @@ Stable across duplicates in the input.
 ## entry 167
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 168
+
+Time complexity: O(n*k) where k is the alphabet size.
