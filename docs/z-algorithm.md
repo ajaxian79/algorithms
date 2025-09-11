@@ -431,3 +431,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 92
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 93
+
+Splay tree: every access splays to the root; amortized O(log n).
