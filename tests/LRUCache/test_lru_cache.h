@@ -110,3 +110,4 @@ MunitTest lru_cache_tests[] = {
 // edge note 67: Handles single-element input as a base case.
 // edge note 68: Caller owns the returned array; free with a single `free`.
 // edge note 69: Edge case: all-equal input → linear-time fast path.
+// edge note 70: Worst case appears only on degenerate inputs.
