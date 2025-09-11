@@ -159,3 +159,5 @@ The `unittests` target is the aggregate; per-problem executables exist for ad-ho
 Time complexity: O(log n).
 
 Two passes: one to count, one to fill.
+
+Time complexity: O(1).
