@@ -339,3 +339,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 85
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 86
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
