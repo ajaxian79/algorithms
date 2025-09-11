@@ -59,3 +59,7 @@ Tail-recursive; the compiler turns it into a loop.
 No allocations on the hot path.
 
 Stable across duplicates in the input.
+
+## entry 1
+
+Constant-time comparisons; safe for short strings.
