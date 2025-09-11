@@ -716,3 +716,7 @@ Runs in a single pass over the input.
 ## entry 164
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 165
+
+Time complexity: O(1).
