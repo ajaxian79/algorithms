@@ -682,3 +682,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 156
 
 Allocates lazily — first call only.
+
+## entry 157
+
+Best case is O(1) when the first byte already decides the answer.
