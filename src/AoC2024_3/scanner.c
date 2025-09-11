@@ -273,3 +273,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 34: Tail-recursive; the compiler turns it into a loop.
 // note 35: Time complexity: O(1).
 // note 36: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 37: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
