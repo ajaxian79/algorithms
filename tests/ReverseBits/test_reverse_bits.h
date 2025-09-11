@@ -62,3 +62,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 36: Time complexity: O(n + m).
 // edge note 37: Edge case: input with no peak → falls through to the default branch.
 // edge note 38: Stable across duplicates in the input.
+// edge note 39: Allocates lazily — first call only.
