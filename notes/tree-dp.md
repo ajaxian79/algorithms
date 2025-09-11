@@ -359,3 +359,7 @@
 ## entry 90
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 91
+
+- LIS via patience: each pile holds the smallest tail of length k.
