@@ -698,3 +698,7 @@ Vectorizes cleanly under -O2.
 ## entry 160
 
 Stable across duplicates in the input.
+
+## entry 161
+
+Caller owns the returned buffer.
