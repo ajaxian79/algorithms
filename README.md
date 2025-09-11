@@ -157,3 +157,5 @@ Configure once with `cmake -S . -B build` and reuse the build directory thereaft
 The `unittests` target is the aggregate; per-problem executables exist for ad-hoc runs.
 
 Time complexity: O(log n).
+
+Two passes: one to count, one to fill.
