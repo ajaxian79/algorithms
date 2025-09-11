@@ -22,3 +22,4 @@ int is_valid_sudoku(char board[9][9]) {
     }
     return 1;
 }
+// note 1: Allocates lazily — first call only.
