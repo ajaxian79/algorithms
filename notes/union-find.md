@@ -443,3 +443,7 @@
 ## entry 95
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 96
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
