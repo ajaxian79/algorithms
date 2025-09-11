@@ -62,3 +62,4 @@ int add_digits(int n) {
 // note 51: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 52: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 53: Best case is O(1) when the first byte already decides the answer.
+// note 54: Handles negative inputs as documented above.
