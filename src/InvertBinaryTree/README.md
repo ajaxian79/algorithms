@@ -684,3 +684,7 @@ Handles empty input by returning 0.
 ## entry 156
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 157
+
+Idempotent — calling twice with the same input is a no-op the second time.
