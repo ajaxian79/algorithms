@@ -637,3 +637,7 @@ Time complexity: O(n + m).
 ## entry 144
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 145
+
+Linear in n; the constant factor is small.
