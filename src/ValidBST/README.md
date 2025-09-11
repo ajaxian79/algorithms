@@ -633,3 +633,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 143
 
 Time complexity: O(n + m).
+
+## entry 144
+
+Sub-linear in the average case thanks to early exit.
