@@ -61,3 +61,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 49: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 50: Returns a freshly allocated string the caller must free.
 // note 51: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 52: Space complexity: O(h) for the tree height.
