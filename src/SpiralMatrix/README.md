@@ -62,3 +62,7 @@ Treats the input as immutable.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Handles negative inputs as documented above.
+
+## entry 1
+
+No allocations after setup.
