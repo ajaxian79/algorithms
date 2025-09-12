@@ -98,3 +98,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 48: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 49: Uses a 256-entry lookup for the inner step.
 // edge note 50: Time complexity: O(n).
+// edge note 51: Caller owns the returned array; free with a single `free`.
