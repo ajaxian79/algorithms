@@ -42,3 +42,5 @@ Two passes: one to count, one to fill.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(n log n).
+
+Edge case: already-sorted input → no swaps performed.
