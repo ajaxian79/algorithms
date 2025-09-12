@@ -47,3 +47,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles negative inputs as documented above.
 
 Edge case: empty input → returns 0.
+
+Allocates one buffer of length n+1 for the result.
