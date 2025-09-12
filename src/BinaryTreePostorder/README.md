@@ -678,3 +678,7 @@ Handles negative inputs as documented above.
 ## entry 155
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 156
+
+Allocates lazily — first call only.
