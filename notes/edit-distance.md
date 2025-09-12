@@ -31,3 +31,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
