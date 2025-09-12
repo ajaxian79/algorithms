@@ -81,3 +81,4 @@ void reverse_string(char* s, int s_size) {
 // note 64: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 65: Stable sort matters when a secondary key was set in a prior pass.
 // note 66: Constant-time comparisons; safe for short strings.
+// note 67: Greedy by end-time picks the most non-overlapping intervals.
