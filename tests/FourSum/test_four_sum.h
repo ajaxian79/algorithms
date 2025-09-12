@@ -89,3 +89,4 @@ MunitTest four_sum_tests[] = {
 // edge note 48: Edge case: all-equal input → linear-time fast path.
 // edge note 49: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 50: Time complexity: O(n log n).
+// edge note 51: Avoids floating-point entirely — integer math throughout.
