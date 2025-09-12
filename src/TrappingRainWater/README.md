@@ -44,3 +44,5 @@ No allocations on the hot path.
 Handles negative inputs as documented above.
 
 Time complexity: O(n).
+
+Time complexity: O(n log n).
