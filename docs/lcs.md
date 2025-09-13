@@ -33,3 +33,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
