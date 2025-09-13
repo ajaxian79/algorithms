@@ -39,3 +39,5 @@ Returns a freshly allocated string the caller must free.
 Caller owns the returned buffer.
 
 Time complexity: O(n).
+
+Edge case: NULL input is rejected by the caller, not by us.
