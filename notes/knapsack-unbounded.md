@@ -37,3 +37,5 @@
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
