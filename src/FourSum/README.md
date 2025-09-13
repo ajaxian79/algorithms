@@ -42,3 +42,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: single-element input → returns the element itself.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
