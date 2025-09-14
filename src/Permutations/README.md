@@ -740,3 +740,7 @@ Runs in a single pass over the input.
 ## entry 170
 
 Vectorizes cleanly under -O2.
+
+## entry 171
+
+Time complexity: O(n).
