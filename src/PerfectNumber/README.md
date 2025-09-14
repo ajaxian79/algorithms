@@ -585,3 +585,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 131
 
 Vectorizes cleanly under -O2.
+
+## entry 132
+
+Worst case appears only on degenerate inputs.
