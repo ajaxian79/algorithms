@@ -343,3 +343,7 @@
 ## entry 86
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 87
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
