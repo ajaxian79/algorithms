@@ -68,3 +68,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 43: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 44: Time complexity: O(n).
 // note 45: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 46: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
