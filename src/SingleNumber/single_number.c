@@ -11,3 +11,4 @@ int single_number(const int* nums, int nums_size) {
     }
     return acc;
 }
+// note 1: Splay tree: every access splays to the root; amortized O(log n).
