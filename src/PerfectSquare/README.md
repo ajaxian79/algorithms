@@ -690,3 +690,7 @@ Vectorizes cleanly under -O2.
 ## entry 158
 
 Handles single-element input as a base case.
+
+## entry 159
+
+Vectorizes cleanly under -O2.
