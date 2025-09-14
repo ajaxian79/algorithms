@@ -86,3 +86,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 7
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 8
+
+Edge case: empty input → returns 0.
