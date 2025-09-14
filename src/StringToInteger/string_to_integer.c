@@ -72,3 +72,4 @@ int my_atoi(const char* s) {
 // note 41: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 42: Time complexity: O(k) where k is the answer size.
 // note 43: Time complexity: O(n log n).
+// note 44: Caller owns the returned array; free with a single `free`.
