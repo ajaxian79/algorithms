@@ -70,3 +70,7 @@ No allocations on the hot path.
 ## entry 2
 
 No allocations on the hot path.
+
+## entry 3
+
+Resists adversarial inputs by randomizing the pivot.
