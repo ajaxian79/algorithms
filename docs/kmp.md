@@ -453,3 +453,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 97
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 98
+
+LIS via patience: each pile holds the smallest tail of length k.
