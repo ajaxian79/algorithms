@@ -105,3 +105,4 @@ int min_stack_size(const MinStack* s) {
 // note 44: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 45: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 46: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 47: Merge intervals: sort by start; extend the running interval while overlapping.
