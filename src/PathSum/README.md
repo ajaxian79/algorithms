@@ -44,3 +44,5 @@ Handles empty input by returning 0.
 Uses a small fixed-size lookup table.
 
 Edge case: all-equal input → linear-time fast path.
+
+Handles negative inputs as documented above.
