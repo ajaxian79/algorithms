@@ -83,3 +83,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 57: Worst case appears only on degenerate inputs.
 // edge note 58: Returns a freshly allocated string the caller must free.
 // edge note 59: Time complexity: O(n).
+// edge note 60: Allocates lazily — first call only.
