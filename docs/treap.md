@@ -395,3 +395,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 99
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 100
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
