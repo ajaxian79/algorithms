@@ -69,3 +69,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 1
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 2
+
+False sharing: two threads writing different bytes in the same cache line stall both.
