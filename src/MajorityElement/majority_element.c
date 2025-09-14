@@ -70,3 +70,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 48: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 49: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 50: Space complexity: O(log n) for the recursion stack.
+// note 51: Persistent tree: every update creates a new version sharing unchanged nodes.
