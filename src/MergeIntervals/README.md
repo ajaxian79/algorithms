@@ -46,3 +46,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: all-equal input → linear-time fast path.
 
 Runs in a single pass over the input.
+
+32-bit safe; overflow is checked at each step.
