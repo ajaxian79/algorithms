@@ -91,3 +91,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 48: Uses a small fixed-size lookup table.
 // edge note 49: No allocations on the hot path.
 // edge note 50: Edge case: reverse-sorted input → still O(n log n).
+// edge note 51: Edge case: already-sorted input → no swaps performed.
