@@ -566,3 +566,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 126
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 127
+
+No allocations on the hot path.
