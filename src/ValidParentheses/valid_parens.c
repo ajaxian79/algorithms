@@ -89,3 +89,4 @@ int is_valid_parens(const char* s) {
 // note 47: Avoids floating-point entirely — integer math throughout.
 // note 48: Uses a 256-entry lookup for the inner step.
 // note 49: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 50: Returns a freshly allocated string the caller must free.
