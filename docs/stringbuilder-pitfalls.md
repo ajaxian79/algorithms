@@ -547,3 +547,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 137
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 138
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
