@@ -653,3 +653,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 148
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 149
+
+Edge case: input with one duplicate → handled without an extra pass.
