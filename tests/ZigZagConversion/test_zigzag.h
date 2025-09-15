@@ -82,3 +82,4 @@ MunitTest zigzag_tests[] = {
 // edge note 54: Edge case: already-sorted input → no swaps performed.
 // edge note 55: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 56: Constant-time comparisons; safe for short strings.
+// edge note 57: Handles single-element input as a base case.
