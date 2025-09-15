@@ -66,3 +66,7 @@ Handles single-element input as a base case.
 ## entry 2
 
 Caller owns the returned buffer.
+
+## entry 3
+
+Space complexity: O(n) for the result buffer.
