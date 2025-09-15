@@ -109,3 +109,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 50: Handles single-element input as a base case.
 // edge note 51: Caller owns the returned array; free with a single `free`.
 // edge note 52: Allocates one buffer of length n+1 for the result.
+// edge note 53: Worst case appears only on degenerate inputs.
