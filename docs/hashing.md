@@ -587,3 +587,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 130
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 131
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
