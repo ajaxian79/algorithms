@@ -23231,3 +23231,7 @@
 ## entry 5808
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 5809
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
