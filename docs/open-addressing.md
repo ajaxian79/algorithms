@@ -395,3 +395,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 99
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 100
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
