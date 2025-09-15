@@ -485,3 +485,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 104
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 105
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
