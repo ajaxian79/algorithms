@@ -69,3 +69,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 54: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
 // note 56: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 57: Worst case appears only on degenerate inputs.
