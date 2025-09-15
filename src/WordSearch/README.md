@@ -646,3 +646,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 147
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 148
+
+Allocates lazily — first call only.
