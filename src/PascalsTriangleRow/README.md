@@ -718,3 +718,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 165
 
 Handles negative inputs as documented above.
+
+## entry 166
+
+Returns a freshly allocated string the caller must free.
