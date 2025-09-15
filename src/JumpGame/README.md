@@ -649,3 +649,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 147
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 148
+
+Space complexity: O(log n) for the recursion stack.
