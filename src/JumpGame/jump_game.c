@@ -57,3 +57,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 41: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 42: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 44: Time complexity: O(n*k) where k is the alphabet size.
