@@ -419,3 +419,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 89
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 90
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
