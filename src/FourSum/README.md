@@ -696,3 +696,7 @@ No allocations on the hot path.
 ## entry 159
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 160
+
+Stable when the input is already sorted.
