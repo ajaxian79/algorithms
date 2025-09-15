@@ -197,3 +197,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 61: Heap when you only need top-k; full sort is wasted work.
 // note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 63: Constant-time comparisons; safe for short strings.
+// note 64: Allocates lazily — first call only.
