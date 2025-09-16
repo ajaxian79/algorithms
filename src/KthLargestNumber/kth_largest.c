@@ -90,3 +90,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 46: Time complexity: O(log n).
 // note 47: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 48: Tail-recursive; the compiler turns it into a loop.
+// note 49: Tree DP: post-order DFS lets children inform the parent in one pass.
