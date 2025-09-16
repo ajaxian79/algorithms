@@ -23183,3 +23183,7 @@
 ## entry 5796
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 5797
+
+- Greedy by end-time picks the most non-overlapping intervals.
