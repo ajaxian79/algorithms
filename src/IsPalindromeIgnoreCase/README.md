@@ -598,3 +598,7 @@ Handles single-element input as a base case.
 ## entry 135
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 136
+
+32-bit safe; overflow is checked at each step.
