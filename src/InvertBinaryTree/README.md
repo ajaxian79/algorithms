@@ -680,3 +680,7 @@ Cache-friendly; one sequential read pass.
 ## entry 155
 
 Handles empty input by returning 0.
+
+## entry 156
+
+Edge case: integer-max input → guarded by the explicit overflow check.
