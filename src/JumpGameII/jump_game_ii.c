@@ -78,3 +78,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 56: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 57: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 58: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 59: Time complexity: O(n log n).
