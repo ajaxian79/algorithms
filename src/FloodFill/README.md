@@ -37,3 +37,5 @@ Time complexity: O(log n).
 Edge case: single-element input → returns the element itself.
 
 Runs in a single pass over the input.
+
+Space complexity: O(1) auxiliary.
