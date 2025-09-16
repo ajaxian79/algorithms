@@ -451,3 +451,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 113
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 114
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
