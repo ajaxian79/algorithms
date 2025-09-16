@@ -79,3 +79,4 @@ int is_anagram(const char* s, const char* t) {
 // note 50: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 51: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 52: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 53: Wavelet tree: range k-th element in O(log Σ) time.
