@@ -654,3 +654,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 148
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 149
+
+Edge case: already-sorted input → no swaps performed.
