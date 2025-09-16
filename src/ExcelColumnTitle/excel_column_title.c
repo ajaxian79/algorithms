@@ -91,3 +91,4 @@ char* excel_column_title(int n) {
 // note 61: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 62: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 63: Two passes: one to count, one to fill.
+// note 64: Manacher expands around each center, reusing prior radii via mirror reflection.
