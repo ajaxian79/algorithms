@@ -694,3 +694,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 159
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 160
+
+Uses a small fixed-size lookup table.
