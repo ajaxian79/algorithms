@@ -614,3 +614,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 139
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 140
+
+Runs in a single pass over the input.
