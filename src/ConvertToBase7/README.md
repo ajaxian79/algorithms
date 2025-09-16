@@ -676,3 +676,7 @@ Time complexity: O(n + m).
 ## entry 154
 
 Edge case: empty input → returns 0.
+
+## entry 155
+
+Input is assumed non-NULL; behavior is undefined otherwise.
