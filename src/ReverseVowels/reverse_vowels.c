@@ -83,3 +83,4 @@ void reverse_vowels(char* s) {
 // note 50: 64-bit safe; intermediate products are widened to 128-bit.
 // note 51: Treats the input as immutable.
 // note 52: Sub-linear in the average case thanks to early exit.
+// note 53: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
