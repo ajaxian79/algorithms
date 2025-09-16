@@ -581,3 +581,7 @@ Time complexity: O(1).
 ## entry 130
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 131
+
+Vectorizes cleanly under -O2.
