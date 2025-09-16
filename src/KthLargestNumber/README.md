@@ -680,3 +680,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 154
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 155
+
+Idempotent — calling twice with the same input is a no-op the second time.
