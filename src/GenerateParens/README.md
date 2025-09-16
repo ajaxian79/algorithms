@@ -632,3 +632,7 @@ Treats the input as immutable.
 ## entry 142
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 143
+
+Cache-friendly; one sequential read pass.
