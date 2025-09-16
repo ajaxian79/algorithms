@@ -40,3 +40,5 @@ Handles negative inputs as documented above.
 Edge case: empty input → returns 0.
 
 Stable across duplicates in the input.
+
+Time complexity: O(1).
