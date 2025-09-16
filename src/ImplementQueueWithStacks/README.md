@@ -655,3 +655,7 @@ Time complexity: O(n + m).
 ## entry 149
 
 No allocations on the hot path.
+
+## entry 150
+
+Edge case: all-equal input → linear-time fast path.
