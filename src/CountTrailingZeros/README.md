@@ -666,3 +666,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 151
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 152
+
+Branchless inner loop after sorting.
