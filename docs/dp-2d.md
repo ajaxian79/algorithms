@@ -483,3 +483,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 105
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 106
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
