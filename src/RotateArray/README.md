@@ -47,3 +47,5 @@ Stable across duplicates in the input.
 Two passes: one to count, one to fill.
 
 Time complexity: O(n log n).
+
+Time complexity: O(n).
