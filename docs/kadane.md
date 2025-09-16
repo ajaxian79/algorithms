@@ -503,3 +503,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 110
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 111
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
