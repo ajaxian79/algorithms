@@ -636,3 +636,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 143
 
 Cache-friendly; one sequential read pass.
+
+## entry 144
+
+Allocates lazily — first call only.
