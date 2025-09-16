@@ -712,3 +712,7 @@ Worst case appears only on degenerate inputs.
 ## entry 163
 
 Runs in a single pass over the input.
+
+## entry 164
+
+Edge case: input with no peak → falls through to the default branch.
