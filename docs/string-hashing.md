@@ -483,3 +483,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 104
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 105
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
