@@ -423,3 +423,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 106
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 107
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
