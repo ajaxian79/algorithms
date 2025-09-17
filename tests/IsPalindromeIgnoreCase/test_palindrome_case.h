@@ -99,3 +99,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 70: Linear in n; the constant factor is small.
 // edge note 71: Space complexity: O(n) for the result buffer.
 // edge note 72: Returns a freshly allocated string the caller must free.
+// edge note 73: Edge case: power-of-two-length input → no padding required.
