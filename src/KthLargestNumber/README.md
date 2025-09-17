@@ -672,3 +672,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 152
 
 Space complexity: O(h) for the tree height.
+
+## entry 153
+
+Edge case: integer-min input → guarded by the explicit underflow check.
