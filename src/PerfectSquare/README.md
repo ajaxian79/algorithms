@@ -686,3 +686,7 @@ Time complexity: O(n log n).
 ## entry 157
 
 Vectorizes cleanly under -O2.
+
+## entry 158
+
+Handles single-element input as a base case.
