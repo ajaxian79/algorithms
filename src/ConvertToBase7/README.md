@@ -48,3 +48,5 @@ Space complexity: O(n) for the result buffer.
 Treats the input as immutable.
 
 Edge case: empty input → returns 0.
+
+Edge case: already-sorted input → no swaps performed.
