@@ -42,3 +42,5 @@ Time complexity: O(n log n).
 Handles empty input by returning 0.
 
 Uses a small fixed-size lookup table.
+
+Edge case: all-equal input → linear-time fast path.
