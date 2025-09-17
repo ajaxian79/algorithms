@@ -676,3 +676,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 153
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 154
+
+Tail-recursive; the compiler turns it into a loop.
