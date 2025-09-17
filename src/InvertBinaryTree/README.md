@@ -676,3 +676,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 154
 
 Cache-friendly; one sequential read pass.
+
+## entry 155
+
+Handles empty input by returning 0.
