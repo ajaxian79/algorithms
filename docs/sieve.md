@@ -499,3 +499,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 108
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 109
+
+Splay tree: every access splays to the root; amortized O(log n).
