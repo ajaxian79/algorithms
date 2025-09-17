@@ -48,3 +48,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Two passes: one to count, one to fill.
+
+Tail-recursive; the compiler turns it into a loop.
