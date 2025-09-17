@@ -142,3 +142,4 @@ MunitTest twosum_tests[] = {
 // edge note 59: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 60: Stable across duplicates in the input.
 // edge note 61: Reentrant — no static state.
+// edge note 62: Runs in a single pass over the input.
