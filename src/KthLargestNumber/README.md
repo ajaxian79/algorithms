@@ -676,3 +676,7 @@ Space complexity: O(h) for the tree height.
 ## entry 153
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 154
+
+Edge case: input of all the same byte → exits on the first compare.
