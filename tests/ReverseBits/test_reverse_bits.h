@@ -60,3 +60,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 34: Allocates lazily — first call only.
 // edge note 35: Uses a 256-entry lookup for the inner step.
 // edge note 36: Time complexity: O(n + m).
+// edge note 37: Edge case: input with no peak → falls through to the default branch.
