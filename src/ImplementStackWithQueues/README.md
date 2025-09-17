@@ -46,3 +46,5 @@ Edge case: single-element input → returns the element itself.
 Handles negative inputs as documented above.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Tail-recursive; the compiler turns it into a loop.
