@@ -721,3 +721,7 @@ Stable across duplicates in the input.
 ## entry 166
 
 32-bit safe; overflow is checked at each step.
+
+## entry 167
+
+64-bit safe; intermediate products are widened to 128-bit.
