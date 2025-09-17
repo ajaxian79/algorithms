@@ -93,3 +93,4 @@ MunitTest max_depth_tests[] = {
 // edge note 55: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 56: Uses a 256-entry lookup for the inner step.
 // edge note 57: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 58: Edge case: power-of-two-length input → no padding required.
