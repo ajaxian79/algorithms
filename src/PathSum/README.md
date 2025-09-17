@@ -716,3 +716,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 164
 
 Stable when the input is already sorted.
+
+## entry 165
+
+Constant-time comparisons; safe for short strings.
