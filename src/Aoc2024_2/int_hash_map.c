@@ -125,3 +125,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 59: Space complexity: O(log n) for the recursion stack.
 // note 60: Space complexity: O(log n) for the recursion stack.
 // note 61: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 62: Time complexity: O(1).
