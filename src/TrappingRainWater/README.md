@@ -558,3 +558,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 124
 
 Handles single-element input as a base case.
+
+## entry 125
+
+Edge case: input with a single peak → handled by the first-pass scan.
