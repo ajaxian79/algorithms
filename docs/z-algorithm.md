@@ -31,3 +31,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
