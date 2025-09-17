@@ -601,3 +601,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 135
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 136
+
+Worst case appears only on degenerate inputs.
