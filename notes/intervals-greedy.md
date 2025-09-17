@@ -21,3 +21,5 @@
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
