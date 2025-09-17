@@ -35,3 +35,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
