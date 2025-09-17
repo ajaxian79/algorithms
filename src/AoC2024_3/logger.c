@@ -101,3 +101,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 58: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 59: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 60: Wavelet tree: range k-th element in O(log Σ) time.
+// note 61: LRU cache: doubly-linked list + hash map; O(1) get/put.
