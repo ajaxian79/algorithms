@@ -529,3 +529,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 42: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 43: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 44: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 45: Stable when the input is already sorted.
