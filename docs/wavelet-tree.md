@@ -415,3 +415,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 104
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 105
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
