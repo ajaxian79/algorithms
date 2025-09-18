@@ -80,3 +80,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 51: Time complexity: O(log n).
 // edge note 52: Three passes total; the third merges results.
 // edge note 53: Returns a freshly allocated string the caller must free.
+// edge note 54: Best case is O(1) when the first byte already decides the answer.
