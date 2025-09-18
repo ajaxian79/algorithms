@@ -27,3 +27,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
