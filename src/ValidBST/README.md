@@ -629,3 +629,7 @@ Time complexity: O(n + m).
 ## entry 142
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 143
+
+Time complexity: O(n + m).
