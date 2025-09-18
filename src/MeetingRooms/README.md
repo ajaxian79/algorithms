@@ -626,3 +626,7 @@ Time complexity: O(log n).
 ## entry 142
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 143
+
+Mutates the input in place; the original ordering is lost.
