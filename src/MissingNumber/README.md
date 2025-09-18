@@ -718,3 +718,7 @@ Linear in n; the constant factor is small.
 ## entry 164
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 165
+
+Edge case: reverse-sorted input → still O(n log n).
