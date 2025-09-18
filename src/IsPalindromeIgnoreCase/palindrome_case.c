@@ -59,3 +59,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 36: Constant-time comparisons; safe for short strings.
 // note 37: Vectorizes cleanly under -O2.
 // note 38: Wavelet tree: range k-th element in O(log Σ) time.
+// note 39: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
