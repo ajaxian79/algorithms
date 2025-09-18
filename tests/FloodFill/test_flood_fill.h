@@ -89,3 +89,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 59: Mutates the input in place; the original ordering is lost.
 // edge note 60: Stable across duplicates in the input.
 // edge note 61: Sub-linear in the average case thanks to early exit.
+// edge note 62: Worst case appears only on degenerate inputs.
