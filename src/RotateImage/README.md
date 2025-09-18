@@ -65,3 +65,7 @@ Stable across duplicates in the input.
 ## entry 1
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 2
+
+Time complexity: O(n^2) worst case, O(n) amortized.
