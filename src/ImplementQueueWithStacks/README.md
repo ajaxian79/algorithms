@@ -651,3 +651,7 @@ Time complexity: O(n + m).
 ## entry 148
 
 32-bit safe; overflow is checked at each step.
+
+## entry 149
+
+No allocations on the hot path.
