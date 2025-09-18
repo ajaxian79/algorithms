@@ -443,3 +443,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 111
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 112
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
