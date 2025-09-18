@@ -45,3 +45,5 @@ Time complexity: O(1).
 Time complexity: O(n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Stable across duplicates in the input.
