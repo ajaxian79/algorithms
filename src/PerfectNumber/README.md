@@ -45,3 +45,5 @@ Two passes: one to count, one to fill.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Handles negative inputs as documented above.
+
+Edge case: empty input → returns 0.
