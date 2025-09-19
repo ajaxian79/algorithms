@@ -38,3 +38,5 @@ Handles empty input by returning 0.
 Time complexity: O(n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: single-element input → returns the element itself.
