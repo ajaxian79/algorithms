@@ -706,3 +706,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 162
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 163
+
+Uses a 256-entry lookup for the inner step.
