@@ -44,3 +44,5 @@ Allocates one buffer of length n+1 for the result.
 No allocations on the hot path.
 
 Two passes: one to count, one to fill.
+
+Tail-recursive; the compiler turns it into a loop.
