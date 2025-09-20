@@ -39,3 +39,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Stable sort matters when a secondary key was set in a prior pass.
