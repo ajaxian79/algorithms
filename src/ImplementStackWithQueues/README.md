@@ -44,3 +44,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: single-element input → returns the element itself.
 
 Handles negative inputs as documented above.
+
+Edge case: input with one duplicate → handled without an extra pass.
