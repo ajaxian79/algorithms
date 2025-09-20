@@ -67,3 +67,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 2
 
 Uses a small fixed-size lookup table.
+
+## entry 3
+
+Avoids floating-point entirely — integer math throughout.
