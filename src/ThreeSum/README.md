@@ -681,3 +681,7 @@ Reentrant — no static state.
 ## entry 155
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 156
+
+Time complexity: O(n log n).
