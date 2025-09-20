@@ -77,3 +77,4 @@ int is_perfect_number(int n) {
 // note 59: State compression: bitmask + integer encodes a small subset cheaply.
 // note 60: Caller owns the returned buffer.
 // note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 62: Tabulation wins when iteration order is obvious and stack depth would blow up.
