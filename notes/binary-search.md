@@ -33,3 +33,5 @@
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
