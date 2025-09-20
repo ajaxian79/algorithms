@@ -48,3 +48,5 @@ Time complexity: O(1).
 Returns a freshly allocated string the caller must free.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Uses a small fixed-size lookup table.
