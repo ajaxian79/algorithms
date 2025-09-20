@@ -102,3 +102,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 59: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 60: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 61: Avoids floating-point entirely — integer math throughout.
+// note 62: Persistent tree: every update creates a new version sharing unchanged nodes.
