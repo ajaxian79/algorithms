@@ -51,3 +51,5 @@ Stable across duplicates in the input.
 Allocates one buffer of length n+1 for the result.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: all-equal input → linear-time fast path.
