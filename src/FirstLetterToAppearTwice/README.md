@@ -84,3 +84,5 @@ Time complexity: O(log n).
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Runs in a single pass over the input.
+
+Time complexity: O(n).
