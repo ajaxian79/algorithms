@@ -23123,3 +23123,7 @@
 ## entry 5781
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 5782
+
+- State compression: bitmask + integer encodes a small subset cheaply.
