@@ -42,3 +42,5 @@ Time complexity: O(n).
 Allocates one buffer of length n+1 for the result.
 
 No allocations on the hot path.
+
+Two passes: one to count, one to fill.
