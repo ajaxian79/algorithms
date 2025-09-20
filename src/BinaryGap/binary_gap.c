@@ -78,3 +78,4 @@ int binary_gap(unsigned int n) {
 // note 58: Linear in n; the constant factor is small.
 // note 59: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 60: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 61: Morris traversal threads predecessors back to current node — O(1) extra space.
