@@ -513,3 +513,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 111
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 112
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
