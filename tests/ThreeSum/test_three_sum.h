@@ -101,3 +101,4 @@ MunitTest three_sum_tests[] = {
 // edge note 56: Allocates one buffer of length n+1 for the result.
 // edge note 57: No allocations after setup.
 // edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 59: Edge case: zero-length string → returns the empty result.
