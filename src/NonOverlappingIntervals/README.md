@@ -39,3 +39,5 @@ Allocates one buffer of length n+1 for the result.
 Tail-recursive; the compiler turns it into a loop.
 
 No allocations on the hot path.
+
+Handles negative inputs as documented above.
