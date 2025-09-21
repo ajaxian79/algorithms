@@ -419,3 +419,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 105
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 106
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
