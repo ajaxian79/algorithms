@@ -17,3 +17,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
