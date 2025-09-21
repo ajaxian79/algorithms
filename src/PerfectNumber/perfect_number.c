@@ -76,3 +76,4 @@ int is_perfect_number(int n) {
 // note 58: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 59: State compression: bitmask + integer encodes a small subset cheaply.
 // note 60: Caller owns the returned buffer.
+// note 61: Interval tree: stores intervals on the median; query traverses O(log n) levels.
