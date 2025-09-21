@@ -617,3 +617,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 140
 
 Uses a small fixed-size lookup table.
+
+## entry 141
+
+Edge case: reverse-sorted input → still O(n log n).
