@@ -467,3 +467,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 117
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 118
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
