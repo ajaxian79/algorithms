@@ -89,3 +89,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 63: Branchless inner loop after sorting.
 // note 64: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 65: Sub-linear in the average case thanks to early exit.
+// note 66: Allocates lazily — first call only.
