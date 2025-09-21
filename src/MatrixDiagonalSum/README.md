@@ -674,3 +674,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 154
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 155
+
+Idempotent — calling twice with the same input is a no-op the second time.
