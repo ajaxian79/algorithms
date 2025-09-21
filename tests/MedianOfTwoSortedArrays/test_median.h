@@ -169,3 +169,4 @@ MunitTest median_tests[] = {
 // edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 51: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 52: Allocates a single small fixed-size scratch buffer.
+// edge note 53: Edge case: single-element input → returns the element itself.
