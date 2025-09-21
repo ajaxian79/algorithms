@@ -415,3 +415,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 104
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 105
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
