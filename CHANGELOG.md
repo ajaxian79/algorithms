@@ -23095,3 +23095,7 @@
 ## entry 5774
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 5775
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
