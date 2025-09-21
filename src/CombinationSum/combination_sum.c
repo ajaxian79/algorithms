@@ -112,3 +112,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 47: No allocations after setup.
 // note 48: Greedy by end-time picks the most non-overlapping intervals.
 // note 49: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 50: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
