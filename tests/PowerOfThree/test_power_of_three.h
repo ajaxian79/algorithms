@@ -81,3 +81,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 51: Space complexity: O(h) for the tree height.
 // edge note 52: Runs in a single pass over the input.
+// edge note 53: Space complexity: O(n) for the result buffer.
