@@ -27,3 +27,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
