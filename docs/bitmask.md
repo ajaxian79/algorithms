@@ -23,3 +23,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
