@@ -19,3 +19,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 5
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 6
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
