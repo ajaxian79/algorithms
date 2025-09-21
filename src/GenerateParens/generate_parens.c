@@ -63,3 +63,4 @@ char** generate_parens(int n, int* return_size) {
     return l.items;
 }
 // note 1: Splay tree: every access splays to the root; amortized O(log n).
+// note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
