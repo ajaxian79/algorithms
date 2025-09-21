@@ -670,3 +670,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 153
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 154
+
+Deterministic given the input — no PRNG seeds.
