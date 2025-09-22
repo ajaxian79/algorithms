@@ -606,3 +606,7 @@ Edge case: empty input → returns 0.
 ## entry 136
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 137
+
+Avoids floating-point entirely — integer math throughout.
