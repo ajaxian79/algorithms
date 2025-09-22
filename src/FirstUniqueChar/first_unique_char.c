@@ -68,3 +68,4 @@ int first_unique_char(const char* s) {
 // note 49: Reentrant — no static state.
 // note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 51: Space complexity: O(1) auxiliary.
+// note 52: Pick a pivot, partition, recurse on the side that contains the kth slot.
