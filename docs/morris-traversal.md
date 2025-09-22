@@ -439,3 +439,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 95
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 96
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
