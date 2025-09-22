@@ -71,3 +71,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 39: Two passes: one to count, one to fill.
 // edge note 40: Time complexity: O(k) where k is the answer size.
 // edge note 41: Treats the input as immutable.
+// edge note 42: Edge case: all-equal input → linear-time fast path.
