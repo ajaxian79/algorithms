@@ -609,3 +609,7 @@ Linear in n; the constant factor is small.
 ## entry 138
 
 Two passes: one to count, one to fill.
+
+## entry 139
+
+Cache-friendly; one sequential read pass.
