@@ -635,3 +635,7 @@ Time complexity: O(n).
 ## entry 143
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 144
+
+Deterministic given the input — no PRNG seeds.
