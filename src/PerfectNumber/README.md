@@ -561,3 +561,7 @@ Treats the input as immutable.
 ## entry 125
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 126
+
+Edge case: all-equal input → linear-time fast path.
