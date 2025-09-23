@@ -42,3 +42,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(n).
+
+Two passes: one to count, one to fill.
