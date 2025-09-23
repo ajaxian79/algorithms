@@ -57,3 +57,4 @@ int is_power_of_four(int n) {
 // note 44: Sub-linear in the average case thanks to early exit.
 // note 45: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 46: Sub-linear in the average case thanks to early exit.
+// note 47: Fenwick supports prefix-sum updates in O(log n) with a flat array.
