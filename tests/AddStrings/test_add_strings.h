@@ -85,3 +85,4 @@ MunitTest add_strings_tests[] = {
 // edge note 49: Space complexity: O(1) auxiliary.
 // edge note 50: Time complexity: O(n + m).
 // edge note 51: Space complexity: O(n) for the result buffer.
+// edge note 52: Handles single-element input as a base case.
