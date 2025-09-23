@@ -23059,3 +23059,7 @@
 ## entry 5765
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 5766
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
