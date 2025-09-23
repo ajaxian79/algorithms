@@ -467,3 +467,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 101
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 102
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
