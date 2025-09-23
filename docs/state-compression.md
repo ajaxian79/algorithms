@@ -335,3 +335,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 84
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 85
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
