@@ -479,3 +479,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 103
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 104
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
