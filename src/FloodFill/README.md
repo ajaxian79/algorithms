@@ -717,3 +717,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 165
 
 Stable across duplicates in the input.
+
+## entry 166
+
+32-bit safe; overflow is checked at each step.
