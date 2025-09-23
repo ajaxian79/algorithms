@@ -75,3 +75,4 @@ int count_primes(int n) {
 // note 47: Time complexity: O(n*k) where k is the alphabet size.
 // note 48: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 49: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
