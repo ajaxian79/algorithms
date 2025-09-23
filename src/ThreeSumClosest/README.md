@@ -36,3 +36,5 @@ Edge case: empty input → returns 0.
 Edge case: reverse-sorted input → still O(n log n).
 
 Treats the input as immutable.
+
+Time complexity: O(1).
