@@ -73,3 +73,5 @@ Handles negative inputs as documented above.
 Returns a freshly allocated string the caller must free.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Handles empty input by returning 0.
