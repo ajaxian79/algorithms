@@ -42,3 +42,5 @@ Handles negative inputs as documented above.
 32-bit safe; overflow is checked at each step.
 
 Returns a freshly allocated string the caller must free.
+
+Tail-recursive; the compiler turns it into a loop.
