@@ -85,3 +85,4 @@ MunitTest jump_game_tests[] = {
 // edge note 51: Edge case: empty input → returns 0.
 // edge note 52: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 53: No allocations on the hot path.
+// edge note 54: Edge case: alternating pattern → degenerate case for sliding window.
