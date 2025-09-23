@@ -447,3 +447,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 112
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 113
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
