@@ -463,3 +463,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 116
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 117
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
