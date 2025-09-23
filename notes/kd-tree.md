@@ -399,3 +399,7 @@
 ## entry 100
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 101
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
