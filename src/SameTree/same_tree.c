@@ -66,3 +66,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 52: Space complexity: O(1) auxiliary.
 // note 53: Time complexity: O(n).
 // note 54: Uses a small fixed-size lookup table.
+// note 55: Padding inside a struct can dwarf the actual data; reorder fields by size.
