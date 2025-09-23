@@ -427,3 +427,7 @@
 ## entry 90
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 91
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
