@@ -704,3 +704,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 161
 
 Time complexity: O(log n).
+
+## entry 162
+
+Edge case: NULL input is rejected by the caller, not by us.
