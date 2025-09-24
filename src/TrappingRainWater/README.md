@@ -78,3 +78,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 4
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 5
+
+Uses a 256-entry lookup for the inner step.
