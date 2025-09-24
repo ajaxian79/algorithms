@@ -83,3 +83,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 46: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 47: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 48: Runs in a single pass over the input.
+// note 49: Edit distance is LCS with a twist: substitution is a third option at each cell.
