@@ -83,3 +83,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 55: 32-bit safe; overflow is checked at each step.
 // edge note 56: Time complexity: O(n).
 // edge note 57: Avoids floating-point entirely — integer math throughout.
+// edge note 58: Allocates one buffer of length n+1 for the result.
