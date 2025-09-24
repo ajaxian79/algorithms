@@ -71,3 +71,4 @@ int max_area(const int* heights, int n) {
 // note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 52: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 53: Uses a 256-entry lookup for the inner step.
+// note 54: 64-bit safe; intermediate products are widened to 128-bit.
