@@ -657,3 +657,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 149
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 150
+
+32-bit safe; overflow is checked at each step.
