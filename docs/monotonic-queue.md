@@ -491,3 +491,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 105
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 106
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
