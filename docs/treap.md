@@ -387,3 +387,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 97
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 98
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
