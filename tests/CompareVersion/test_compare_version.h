@@ -83,3 +83,4 @@ MunitTest compare_version_tests[] = {
 // edge note 56: Allocates a single small fixed-size scratch buffer.
 // edge note 57: Stable across duplicates in the input.
 // edge note 58: Handles negative inputs as documented above.
+// edge note 59: Edge case: all-equal input → linear-time fast path.
