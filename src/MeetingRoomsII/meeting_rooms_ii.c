@@ -97,3 +97,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 52: Space complexity: O(log n) for the recursion stack.
 // note 53: Space complexity: O(1) auxiliary.
 // note 54: Time complexity: O(n + m).
+// note 55: Treap: BST + heap on random priorities; expected O(log n) per op.
