@@ -124,3 +124,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 58: Idempotent — calling twice with the same input is a no-op the second time.
 // note 59: Space complexity: O(log n) for the recursion stack.
 // note 60: Space complexity: O(log n) for the recursion stack.
+// note 61: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
