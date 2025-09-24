@@ -84,3 +84,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 47: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 48: Runs in a single pass over the input.
 // note 49: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 50: Stable when the input is already sorted.
