@@ -80,3 +80,4 @@ MunitTest zigzag_tests[] = {
 // edge note 52: 32-bit safe; overflow is checked at each step.
 // edge note 53: Constant-time comparisons; safe for short strings.
 // edge note 54: Edge case: already-sorted input → no swaps performed.
+// edge note 55: Edge case: input with a single peak → handled by the first-pass scan.
