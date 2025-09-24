@@ -49,3 +49,5 @@ Two passes: one to count, one to fill.
 Stable across duplicates in the input.
 
 Allocates one buffer of length n+1 for the result.
+
+Space complexity: O(1) auxiliary.
