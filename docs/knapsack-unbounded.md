@@ -467,3 +467,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 101
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 102
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
