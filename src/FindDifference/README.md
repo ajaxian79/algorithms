@@ -42,3 +42,5 @@ Edge case: all-equal input → linear-time fast path.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Time complexity: O(n log n).
+
+Edge case: input with one duplicate → handled without an extra pass.
