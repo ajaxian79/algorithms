@@ -621,3 +621,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 140
 
 Allocates lazily — first call only.
+
+## entry 141
+
+Runs in a single pass over the input.
