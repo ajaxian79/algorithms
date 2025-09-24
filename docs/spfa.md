@@ -395,3 +395,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 99
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 100
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
