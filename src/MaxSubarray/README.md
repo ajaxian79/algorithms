@@ -662,3 +662,7 @@ Handles negative inputs as documented above.
 ## entry 151
 
 Allocates lazily — first call only.
+
+## entry 152
+
+Edge case: all-equal input → linear-time fast path.
