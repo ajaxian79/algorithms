@@ -115,3 +115,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 57: Space complexity: O(n) for the result buffer.
 // note 58: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 59: Thread-safe so long as the input is not mutated concurrently.
+// note 60: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
