@@ -407,3 +407,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 102
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 103
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
