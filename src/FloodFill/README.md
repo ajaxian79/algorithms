@@ -713,3 +713,7 @@ Time complexity: O(1).
 ## entry 164
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 165
+
+Stable across duplicates in the input.
