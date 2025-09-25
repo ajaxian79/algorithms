@@ -443,3 +443,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 111
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 112
+
+Wavelet tree: range k-th element in O(log Σ) time.
