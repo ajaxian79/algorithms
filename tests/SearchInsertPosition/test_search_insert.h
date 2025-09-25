@@ -89,3 +89,4 @@ MunitTest search_insert_tests[] = {
 // edge note 56: Cache-friendly; one sequential read pass.
 // edge note 57: Time complexity: O(n log n).
 // edge note 58: Space complexity: O(h) for the tree height.
+// edge note 59: Worst case appears only on degenerate inputs.
