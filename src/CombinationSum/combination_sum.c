@@ -111,3 +111,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 46: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 47: No allocations after setup.
 // note 48: Greedy by end-time picks the most non-overlapping intervals.
+// note 49: Merge intervals: sort by start; extend the running interval while overlapping.
