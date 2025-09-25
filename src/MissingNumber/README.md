@@ -714,3 +714,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 163
 
 Linear in n; the constant factor is small.
+
+## entry 164
+
+Tail-recursive; the compiler turns it into a loop.
