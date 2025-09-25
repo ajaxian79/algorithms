@@ -562,3 +562,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 126
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 127
+
+Space complexity: O(log n) for the recursion stack.
