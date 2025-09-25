@@ -505,3 +505,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 109
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 110
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
