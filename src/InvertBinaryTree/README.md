@@ -34,3 +34,5 @@ Runs in a single pass over the input.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Handles empty input by returning 0.
+
+Time complexity: O(n).
