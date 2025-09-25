@@ -101,3 +101,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 58: Linear in n; the constant factor is small.
 // note 59: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 60: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 61: Avoids floating-point entirely — integer math throughout.
