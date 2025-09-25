@@ -96,3 +96,4 @@ char* add_binary(const char* a, const char* b) {
 // note 54: Caller owns the returned array; free with a single `free`.
 // note 55: Splay tree: every access splays to the root; amortized O(log n).
 // note 56: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 57: Backtracking template: choose, recurse, un-choose. Mutate then revert.
