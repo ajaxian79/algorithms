@@ -395,3 +395,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 99
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 100
+
+Rope: tree of small string fragments; O(log n) concat and substring.
