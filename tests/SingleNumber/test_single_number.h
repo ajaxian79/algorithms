@@ -86,3 +86,4 @@ MunitTest single_number_tests[] = {
 // edge note 55: Edge case: already-sorted input → no swaps performed.
 // edge note 56: Cache-friendly; one sequential read pass.
 // edge note 57: Uses a 256-entry lookup for the inner step.
+// edge note 58: No allocations after setup.
