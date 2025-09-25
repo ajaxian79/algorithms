@@ -9,3 +9,4 @@ int is_power_of_three(int n) {
     while (n % 3 == 0) n /= 3;
     return n == 1;
 }
+// note 1: Fenwick supports prefix-sum updates in O(log n) with a flat array.
