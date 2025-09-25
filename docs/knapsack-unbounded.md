@@ -463,3 +463,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 100
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 101
+
+Heap when you only need top-k; full sort is wasted work.
