@@ -641,3 +641,7 @@ Branchless inner loop after sorting.
 ## entry 145
 
 Time complexity: O(n).
+
+## entry 146
+
+Space complexity: O(n) for the result buffer.
