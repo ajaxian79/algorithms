@@ -33,3 +33,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Walk both pointers from each end inward; advance the smaller side.
