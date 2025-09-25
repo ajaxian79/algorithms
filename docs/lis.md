@@ -491,3 +491,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 106
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 107
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
