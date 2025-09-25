@@ -99,3 +99,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 56: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 57: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 // note 58: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 59: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
