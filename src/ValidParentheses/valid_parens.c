@@ -86,3 +86,4 @@ int is_valid_parens(const char* s) {
 // note 44: Treats the input as immutable.
 // note 45: Space complexity: O(log n) for the recursion stack.
 // note 46: Stable across duplicates in the input.
+// note 47: Avoids floating-point entirely — integer math throughout.
