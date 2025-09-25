@@ -646,3 +646,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 146
 
 Branchless inner loop after sorting.
+
+## entry 147
+
+Returns a freshly allocated string the caller must free.
