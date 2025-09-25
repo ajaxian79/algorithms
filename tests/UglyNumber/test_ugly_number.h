@@ -85,3 +85,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 56: Stable across duplicates in the input.
 // edge note 57: Caller owns the returned buffer.
 // edge note 58: Constant-time comparisons; safe for short strings.
+// edge note 59: Time complexity: O(log n).
