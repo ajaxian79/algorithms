@@ -439,3 +439,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 110
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 111
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
