@@ -635,3 +635,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 144
 
 Allocates lazily — first call only.
+
+## entry 145
+
+Tail-recursive; the compiler turns it into a loop.
