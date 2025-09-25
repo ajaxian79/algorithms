@@ -643,3 +643,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 146
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 147
+
+Time complexity: O(n + m).
