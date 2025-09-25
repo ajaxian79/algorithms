@@ -639,3 +639,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 145
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 146
+
+Deterministic given the input — no PRNG seeds.
