@@ -22975,3 +22975,7 @@
 ## entry 5744
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 5745
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
