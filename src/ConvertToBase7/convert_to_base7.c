@@ -78,3 +78,4 @@ char* convert_to_base7(int n) {
 // note 45: Treats the input as immutable.
 // note 46: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 47: LIS via patience: each pile holds the smallest tail of length k.
+// note 48: Endianness matters when serializing multi-byte ints to a file or wire.
