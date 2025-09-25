@@ -58,3 +58,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Edge case: all-equal input → linear-time fast path.
 
 Runs in a single pass over the input.
+
+## entry 1
+
+Returns a freshly allocated string the caller must free.
