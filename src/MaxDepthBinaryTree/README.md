@@ -605,3 +605,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 137
 
 Linear in n; the constant factor is small.
+
+## entry 138
+
+Two passes: one to count, one to fill.
