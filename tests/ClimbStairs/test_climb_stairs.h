@@ -78,3 +78,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 43: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 44: No allocations on the hot path.
 // edge note 45: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 46: Edge case: all-equal input → linear-time fast path.
