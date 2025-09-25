@@ -509,3 +509,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 113
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 114
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
