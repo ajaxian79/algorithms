@@ -688,3 +688,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 157
 
 Three passes total; the third merges results.
+
+## entry 158
+
+No allocations on the hot path.
