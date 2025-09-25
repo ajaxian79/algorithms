@@ -487,3 +487,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 105
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 106
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
