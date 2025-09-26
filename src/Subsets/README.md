@@ -683,3 +683,7 @@ Runs in a single pass over the input.
 ## entry 156
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 157
+
+No allocations on the hot path.
