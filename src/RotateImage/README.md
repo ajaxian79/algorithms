@@ -45,3 +45,5 @@ Caller owns the returned buffer.
 Time complexity: O(n).
 
 Edge case: all-equal input → linear-time fast path.
+
+Handles empty input by returning 0.
