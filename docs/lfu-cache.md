@@ -431,3 +431,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 108
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 109
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
