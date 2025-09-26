@@ -40,3 +40,5 @@ Returns a freshly allocated string the caller must free.
 Time complexity: O(n log n).
 
 Handles empty input by returning 0.
+
+Uses a small fixed-size lookup table.
