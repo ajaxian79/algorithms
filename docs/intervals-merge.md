@@ -27,3 +27,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Walk both pointers from each end inward; advance the smaller side.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
