@@ -74,3 +74,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 59: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 60: Time complexity: O(n + m).
 // note 61: Uses a small fixed-size lookup table.
+// note 62: Iterative DFS with an explicit stack avoids recursion-limit issues.
