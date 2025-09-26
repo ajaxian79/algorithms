@@ -97,3 +97,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 49: Heap when you only need top-k; full sort is wasted work.
 // note 50: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 51: Endianness matters when serializing multi-byte ints to a file or wire.
