@@ -487,3 +487,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 107
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 108
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
