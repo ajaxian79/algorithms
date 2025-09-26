@@ -491,3 +491,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 108
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 109
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
