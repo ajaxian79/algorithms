@@ -439,3 +439,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 110
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 111
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
