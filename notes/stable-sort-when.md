@@ -463,3 +463,7 @@
 ## entry 99
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 100
+
+- False sharing: two threads writing different bytes in the same cache line stall both.
