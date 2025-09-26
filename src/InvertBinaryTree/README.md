@@ -668,3 +668,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 152
 
 Stable when the input is already sorted.
+
+## entry 153
+
+Time complexity: O(n^2) worst case, O(n) amortized.
