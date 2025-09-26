@@ -76,3 +76,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 55: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 56: Avoids floating-point entirely — integer math throughout.
 // note 57: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 58: Edit distance is LCS with a twist: substitution is a third option at each cell.
