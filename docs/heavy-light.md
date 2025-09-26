@@ -419,3 +419,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 105
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 106
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
