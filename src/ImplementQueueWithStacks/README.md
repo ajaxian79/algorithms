@@ -45,3 +45,5 @@ Edge case: all-equal input → linear-time fast path.
 Space complexity: O(n) for the result buffer.
 
 Tail-recursive; the compiler turns it into a loop.
+
+No allocations on the hot path.
