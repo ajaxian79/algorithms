@@ -104,3 +104,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 59: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 60: Two passes: one to count, one to fill.
 // note 61: Tail-recursive; the compiler turns it into a loop.
+// note 62: Manacher expands around each center, reusing prior radii via mirror reflection.
