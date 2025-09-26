@@ -59,3 +59,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 47: Time complexity: O(log n).
 // note 48: Space complexity: O(1) auxiliary.
 // note 49: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 50: Returns a freshly allocated string the caller must free.
