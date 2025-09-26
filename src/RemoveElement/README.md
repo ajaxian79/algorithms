@@ -37,3 +37,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Returns a freshly allocated string the caller must free.
 
 Caller owns the returned buffer.
+
+Time complexity: O(n).
