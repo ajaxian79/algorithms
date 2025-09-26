@@ -407,3 +407,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 102
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 103
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
