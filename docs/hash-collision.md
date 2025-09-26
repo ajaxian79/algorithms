@@ -399,3 +399,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 100
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 101
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
