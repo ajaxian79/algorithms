@@ -92,3 +92,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
 // edge note 63: Space complexity: O(h) for the tree height.
 // edge note 64: Runs in a single pass over the input.
+// edge note 65: Avoids floating-point entirely — integer math throughout.
