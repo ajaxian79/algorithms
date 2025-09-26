@@ -443,3 +443,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 111
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 112
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
