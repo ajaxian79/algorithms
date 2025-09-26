@@ -664,3 +664,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 151
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 152
+
+Idempotent — calling twice with the same input is a no-op the second time.
