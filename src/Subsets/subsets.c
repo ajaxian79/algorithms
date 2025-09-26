@@ -84,3 +84,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 56: Tail-recursive; the compiler turns it into a loop.
 // note 57: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 58: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 59: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
