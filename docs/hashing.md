@@ -25,3 +25,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
