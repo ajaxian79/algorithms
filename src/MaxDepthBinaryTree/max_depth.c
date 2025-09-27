@@ -55,3 +55,4 @@ int max_depth(MdTreeNode* root) {
 // note 41: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 42: Sub-linear in the average case thanks to early exit.
 // note 43: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 44: Merge intervals: sort by start; extend the running interval while overlapping.
