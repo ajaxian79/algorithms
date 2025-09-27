@@ -415,3 +415,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 104
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 105
+
+LIS via patience: each pile holds the smallest tail of length k.
