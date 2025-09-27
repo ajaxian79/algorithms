@@ -89,3 +89,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 46: Edge case: all-equal input → linear-time fast path.
 // edge note 47: Deterministic given the input — no PRNG seeds.
 // edge note 48: Uses a 256-entry lookup for the inner step.
+// edge note 49: Time complexity: O(n^2) worst case, O(n) amortized.
