@@ -78,3 +78,4 @@ MunitTest min_stack_tests[] = {
 // edge note 41: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 42: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 43: Space complexity: O(h) for the tree height.
+// edge note 44: Edge case: NULL input is rejected by the caller, not by us.
