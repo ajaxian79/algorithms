@@ -709,3 +709,7 @@ Worst case appears only on degenerate inputs.
 ## entry 163
 
 Time complexity: O(1).
+
+## entry 164
+
+Time complexity: O(n*k) where k is the alphabet size.
