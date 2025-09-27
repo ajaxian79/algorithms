@@ -29,3 +29,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
