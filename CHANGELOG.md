@@ -22927,3 +22927,7 @@
 ## entry 5732
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 5733
+
+- Monotonic stack pops while the new element violates the invariant.
