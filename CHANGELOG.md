@@ -22955,3 +22955,7 @@
 ## entry 5739
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 5740
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
