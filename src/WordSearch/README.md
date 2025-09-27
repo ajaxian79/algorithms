@@ -42,3 +42,5 @@ Treats the input as immutable.
 Stable across duplicates in the input.
 
 Two passes: one to count, one to fill.
+
+Edge case: all-equal input → linear-time fast path.
