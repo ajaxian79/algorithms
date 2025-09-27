@@ -44,3 +44,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Edge case: all-equal input → linear-time fast path.
 
 Time complexity: O(1).
+
+Returns a freshly allocated string the caller must free.
