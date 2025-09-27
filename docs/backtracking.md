@@ -501,3 +501,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 108
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 109
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
