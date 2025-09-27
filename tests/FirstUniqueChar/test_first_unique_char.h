@@ -84,3 +84,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 59: Edge case: input of all the same byte → exits on the first compare.
 // edge note 60: Edge case: input with no peak → falls through to the default branch.
 // edge note 61: Two passes: one to count, one to fill.
+// edge note 62: Edge case: power-of-two-length input → no padding required.
