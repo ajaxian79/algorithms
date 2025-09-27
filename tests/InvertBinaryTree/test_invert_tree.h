@@ -81,3 +81,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 39: Stable when the input is already sorted.
 // edge note 40: Uses a 256-entry lookup for the inner step.
 // edge note 41: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 42: Edge case: integer-min input → guarded by the explicit underflow check.
