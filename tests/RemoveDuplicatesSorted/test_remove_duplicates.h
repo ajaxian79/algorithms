@@ -84,3 +84,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 48: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 49: Space complexity: O(n) for the result buffer.
 // edge note 50: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 51: Space complexity: O(n) for the result buffer.
