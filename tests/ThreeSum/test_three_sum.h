@@ -99,3 +99,4 @@ MunitTest three_sum_tests[] = {
 // edge note 54: Edge case: power-of-two-length input → no padding required.
 // edge note 55: Uses a small fixed-size lookup table.
 // edge note 56: Allocates one buffer of length n+1 for the result.
+// edge note 57: No allocations after setup.
