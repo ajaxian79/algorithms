@@ -40,3 +40,5 @@ No allocations on the hot path.
 Treats the input as immutable.
 
 Stable across duplicates in the input.
+
+Two passes: one to count, one to fill.
