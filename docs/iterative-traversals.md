@@ -27,3 +27,5 @@ Heap when you only need top-k; full sort is wasted work.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
