@@ -612,3 +612,7 @@ Stable across duplicates in the input.
 ## entry 138
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 139
+
+Mutates the input in place; the original ordering is lost.
