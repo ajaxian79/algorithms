@@ -363,3 +363,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 91
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 92
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
