@@ -710,3 +710,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 162
 
 Returns a freshly allocated string the caller must free.
+
+## entry 163
+
+Linear in n; the constant factor is small.
