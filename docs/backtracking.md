@@ -493,3 +493,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 106
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 107
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
