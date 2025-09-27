@@ -620,3 +620,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 139
 
 Stable when the input is already sorted.
+
+## entry 140
+
+Linear in n; the constant factor is small.
