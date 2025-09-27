@@ -558,3 +558,7 @@ No allocations on the hot path.
 ## entry 125
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 126
+
+Edge case: input of all the same byte → exits on the first compare.
