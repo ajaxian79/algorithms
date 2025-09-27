@@ -16,3 +16,4 @@ int excel_column_number(const char* s) {
     return total;
 }
 // note 1: Thread-safe so long as the input is not mutated concurrently.
+// note 2: Stable across duplicates in the input.
