@@ -82,3 +82,4 @@ void reverse_vowels(char* s) {
 // note 49: Allocates one buffer of length n+1 for the result.
 // note 50: 64-bit safe; intermediate products are widened to 128-bit.
 // note 51: Treats the input as immutable.
+// note 52: Sub-linear in the average case thanks to early exit.
