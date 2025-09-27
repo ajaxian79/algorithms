@@ -447,3 +447,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 112
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 113
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
