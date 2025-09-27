@@ -483,3 +483,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 104
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 105
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
