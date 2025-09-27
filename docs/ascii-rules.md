@@ -439,3 +439,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 110
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 111
+
+Splay tree: every access splays to the root; amortized O(log n).
