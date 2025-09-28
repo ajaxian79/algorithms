@@ -658,3 +658,7 @@ Space complexity: O(h) for the tree height.
 ## entry 150
 
 Handles negative inputs as documented above.
+
+## entry 151
+
+Allocates lazily — first call only.
