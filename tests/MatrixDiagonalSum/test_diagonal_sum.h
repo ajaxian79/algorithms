@@ -77,3 +77,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 49: Treats the input as immutable.
 // edge note 50: Uses a small fixed-size lookup table.
 // edge note 51: Constant-time comparisons; safe for short strings.
+// edge note 52: Three passes total; the third merges results.
