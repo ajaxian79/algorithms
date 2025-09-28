@@ -615,3 +615,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 139
 
 Caller owns the returned buffer.
+
+## entry 140
+
+64-bit safe; intermediate products are widened to 128-bit.
