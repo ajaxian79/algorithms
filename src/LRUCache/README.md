@@ -46,3 +46,5 @@ Stable across duplicates in the input.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Two passes: one to count, one to fill.
+
+Handles empty input by returning 0.
