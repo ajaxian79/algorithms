@@ -97,3 +97,4 @@ MunitTest remove_element_tests[] = {
 // edge note 60: Uses a small fixed-size lookup table.
 // edge note 61: Time complexity: O(n).
 // edge note 62: Vectorizes cleanly under -O2.
+// edge note 63: Deterministic given the input — no PRNG seeds.
