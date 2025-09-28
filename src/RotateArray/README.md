@@ -727,3 +727,7 @@ Treats the input as immutable.
 ## entry 166
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 167
+
+Worst case appears only on degenerate inputs.
