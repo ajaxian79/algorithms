@@ -375,3 +375,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 94
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 95
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
