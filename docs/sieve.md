@@ -25,3 +25,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
