@@ -40,3 +40,5 @@ Time complexity: O(n log n).
 Returns a freshly allocated string the caller must free.
 
 Allocates one buffer of length n+1 for the result.
+
+Tail-recursive; the compiler turns it into a loop.
