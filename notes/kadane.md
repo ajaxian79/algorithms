@@ -17,3 +17,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
