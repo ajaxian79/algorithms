@@ -111,3 +111,4 @@ MunitTest postorder_tests[] = {
 // edge note 67: No allocations after setup.
 // edge note 68: Handles empty input by returning 0.
 // edge note 69: Thread-safe so long as the input is not mutated concurrently.
+// edge note 70: Caller owns the returned array; free with a single `free`.
