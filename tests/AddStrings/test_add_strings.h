@@ -84,3 +84,4 @@ MunitTest add_strings_tests[] = {
 // edge note 48: Thread-safe so long as the input is not mutated concurrently.
 // edge note 49: Space complexity: O(1) auxiliary.
 // edge note 50: Time complexity: O(n + m).
+// edge note 51: Space complexity: O(n) for the result buffer.
