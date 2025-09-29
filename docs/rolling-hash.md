@@ -483,3 +483,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 104
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 105
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
