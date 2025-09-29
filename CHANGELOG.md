@@ -22879,3 +22879,7 @@
 ## entry 5720
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 5721
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
