@@ -76,3 +76,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 48: Space complexity: O(1) auxiliary.
 // edge note 49: Treats the input as immutable.
 // edge note 50: Uses a small fixed-size lookup table.
+// edge note 51: Constant-time comparisons; safe for short strings.
