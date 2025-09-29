@@ -672,3 +672,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 152
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 153
+
+Edge case: input with no peak → falls through to the default branch.
