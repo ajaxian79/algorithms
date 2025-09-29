@@ -52,3 +52,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 36: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 37: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 38: Handles single-element input as a base case.
+// note 39: Space complexity: O(h) for the tree height.
