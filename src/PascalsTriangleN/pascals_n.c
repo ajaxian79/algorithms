@@ -90,3 +90,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 52: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 53: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 54: Time complexity: O(1).
+// note 55: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
