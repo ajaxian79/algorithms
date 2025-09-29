@@ -626,3 +626,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 142
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 143
+
+Reentrant — no static state.
