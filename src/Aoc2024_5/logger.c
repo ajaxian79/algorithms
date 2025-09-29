@@ -100,3 +100,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 57: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 58: Linear in n; the constant factor is small.
 // note 59: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 60: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
