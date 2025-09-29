@@ -435,3 +435,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 109
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 110
+
+Rope: tree of small string fragments; O(log n) concat and substring.
