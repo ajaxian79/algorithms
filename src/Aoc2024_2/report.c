@@ -256,3 +256,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 47: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 48: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 49: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
