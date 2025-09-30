@@ -31,3 +31,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
