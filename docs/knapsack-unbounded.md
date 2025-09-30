@@ -25,3 +25,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Monotonic stack pops while the new element violates the invariant.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
