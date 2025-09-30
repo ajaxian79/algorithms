@@ -702,3 +702,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 161
 
 No allocations after setup.
+
+## entry 162
+
+Linear in n; the constant factor is small.
