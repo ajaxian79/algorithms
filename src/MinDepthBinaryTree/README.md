@@ -36,3 +36,5 @@ Two passes: one to count, one to fill.
 Edge case: all-equal input → linear-time fast path.
 
 Handles negative inputs as documented above.
+
+Edge case: empty input → returns 0.
