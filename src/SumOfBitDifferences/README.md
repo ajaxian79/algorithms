@@ -38,3 +38,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Edge case: reverse-sorted input → still O(n log n).
 
 Time complexity: O(n).
+
+Allocates one buffer of length n+1 for the result.
