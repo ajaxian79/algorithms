@@ -38,3 +38,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Allocates one buffer of length n+1 for the result.
 
 Time complexity: O(n).
+
+Runs in a single pass over the input.
