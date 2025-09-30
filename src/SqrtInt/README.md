@@ -37,3 +37,5 @@ Edge case: single-element input → returns the element itself.
 Time complexity: O(log n).
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: all-equal input → linear-time fast path.
