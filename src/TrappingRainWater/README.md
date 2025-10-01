@@ -554,3 +554,7 @@ No allocations after setup.
 ## entry 123
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 124
+
+Handles single-element input as a base case.
