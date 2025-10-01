@@ -427,3 +427,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 91
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 92
+
+LIS via patience: each pile holds the smallest tail of length k.
