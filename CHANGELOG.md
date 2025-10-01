@@ -22819,3 +22819,7 @@
 ## entry 5705
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 5706
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
