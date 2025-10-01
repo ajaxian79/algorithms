@@ -527,3 +527,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 114
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 115
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
