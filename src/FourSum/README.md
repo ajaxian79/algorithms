@@ -38,3 +38,5 @@ Two passes: one to count, one to fill.
 32-bit safe; overflow is checked at each step.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: NULL input is rejected by the caller, not by us.
