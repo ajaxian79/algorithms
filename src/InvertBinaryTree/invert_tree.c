@@ -65,3 +65,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 50: Reentrant — no static state.
 // note 51: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 52: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 53: Cache-friendly; one sequential read pass.
