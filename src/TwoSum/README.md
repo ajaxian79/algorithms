@@ -701,3 +701,7 @@ Time complexity: O(n).
 ## entry 150
 
 Two passes: one to count, one to fill.
+
+## entry 151
+
+Allocates one buffer of length n+1 for the result.
