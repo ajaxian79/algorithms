@@ -403,3 +403,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 101
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 102
+
+Rope: tree of small string fragments; O(log n) concat and substring.
