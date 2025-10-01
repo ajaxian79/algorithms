@@ -607,3 +607,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 137
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 138
+
+Returns a freshly allocated string the caller must free.
