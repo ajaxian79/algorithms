@@ -74,3 +74,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 49: Thread-safe so long as the input is not mutated concurrently.
 // edge note 50: Sub-linear in the average case thanks to early exit.
 // edge note 51: Caller owns the returned buffer.
+// edge note 52: Time complexity: O(n log n).
