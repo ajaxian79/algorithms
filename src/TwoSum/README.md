@@ -697,3 +697,7 @@ Time complexity: O(n + m).
 ## entry 149
 
 Time complexity: O(n).
+
+## entry 150
+
+Two passes: one to count, one to fill.
