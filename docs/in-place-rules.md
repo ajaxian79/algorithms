@@ -585,3 +585,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 131
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 132
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
