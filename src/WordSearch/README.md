@@ -642,3 +642,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 146
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 147
+
+Input is assumed non-NULL; behavior is undefined otherwise.
