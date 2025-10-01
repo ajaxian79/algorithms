@@ -79,3 +79,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 63: No allocations on the hot path.
 // note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 65: 64-bit safe; intermediate products are widened to 128-bit.
+// note 66: Time complexity: O(n*k) where k is the alphabet size.
