@@ -371,3 +371,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 93
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 94
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
