@@ -383,3 +383,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 96
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 97
+
+State compression: bitmask + integer encodes a small subset cheaply.
