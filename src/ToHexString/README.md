@@ -611,3 +611,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 138
 
 Returns a freshly allocated string the caller must free.
+
+## entry 139
+
+Caller owns the returned buffer.
