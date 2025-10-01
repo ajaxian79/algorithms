@@ -110,3 +110,4 @@ MunitTest postorder_tests[] = {
 // edge note 66: Edge case: power-of-two-length input → no padding required.
 // edge note 67: No allocations after setup.
 // edge note 68: Handles empty input by returning 0.
+// edge note 69: Thread-safe so long as the input is not mutated concurrently.
