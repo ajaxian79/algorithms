@@ -34,3 +34,5 @@ Allocates one buffer of length n+1 for the result.
 Two passes: one to count, one to fill.
 
 Edge case: all-equal input → linear-time fast path.
+
+Handles negative inputs as documented above.
