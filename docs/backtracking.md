@@ -489,3 +489,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 105
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 106
+
+Wavelet tree: range k-th element in O(log Σ) time.
