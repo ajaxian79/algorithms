@@ -467,3 +467,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 117
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 118
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
