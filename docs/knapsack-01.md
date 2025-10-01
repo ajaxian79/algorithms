@@ -521,3 +521,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 113
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 114
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
