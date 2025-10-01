@@ -640,3 +640,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 146
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 147
+
+Stable when the input is already sorted.
