@@ -82,3 +82,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 49: Uses a 256-entry lookup for the inner step.
 // edge note 50: No allocations on the hot path.
 // edge note 51: Three passes total; the third merges results.
+// edge note 52: Space complexity: O(n) for the result buffer.
