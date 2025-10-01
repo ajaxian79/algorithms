@@ -42,3 +42,5 @@ Returns a freshly allocated string the caller must free.
 No allocations on the hot path.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(n).
