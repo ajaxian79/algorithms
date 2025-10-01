@@ -19,3 +19,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
