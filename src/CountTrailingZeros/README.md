@@ -658,3 +658,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 149
 
 Treats the input as immutable.
+
+## entry 150
+
+Deterministic given the input — no PRNG seeds.
