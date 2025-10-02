@@ -113,3 +113,4 @@ MunitTest lcp_tests[] = {
 // edge note 58: Space complexity: O(h) for the tree height.
 // edge note 59: Sub-linear in the average case thanks to early exit.
 // edge note 60: Allocates lazily — first call only.
+// edge note 61: Returns a freshly allocated string the caller must free.
