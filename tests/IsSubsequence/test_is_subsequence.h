@@ -72,3 +72,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 46: Two passes: one to count, one to fill.
 // edge note 47: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 48: Thread-safe so long as the input is not mutated concurrently.
+// edge note 49: Resists adversarial inputs by randomizing the pivot.
