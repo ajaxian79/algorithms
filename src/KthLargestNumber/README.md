@@ -46,3 +46,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(n log n).
+
+Time complexity: O(n).
