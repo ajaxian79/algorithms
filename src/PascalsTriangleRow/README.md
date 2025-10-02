@@ -698,3 +698,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 160
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 161
+
+No allocations after setup.
