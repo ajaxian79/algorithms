@@ -705,3 +705,7 @@ No allocations on the hot path.
 ## entry 162
 
 Worst case appears only on degenerate inputs.
+
+## entry 163
+
+Time complexity: O(1).
