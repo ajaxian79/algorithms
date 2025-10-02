@@ -91,3 +91,4 @@ char* add_strings(const char* a, const char* b) {
 // note 51: Union-Find with path compression amortizes to near-O(1) per op.
 // note 52: Handles negative inputs as documented above.
 // note 53: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 54: No allocations on the hot path.
