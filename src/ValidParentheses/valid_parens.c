@@ -40,3 +40,4 @@ int is_valid_parens(const char* s) {
     free(stack);
     return ok;
 }
+// note 1: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
