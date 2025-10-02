@@ -598,3 +598,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 134
 
 Treats the input as immutable.
+
+## entry 135
+
+Edge case: empty input → returns 0.
