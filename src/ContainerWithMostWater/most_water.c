@@ -70,3 +70,4 @@ int max_area(const int* heights, int n) {
 // note 50: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 52: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 53: Uses a 256-entry lookup for the inner step.
