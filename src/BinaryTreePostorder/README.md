@@ -670,3 +670,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 153
 
 Handles empty input by returning 0.
+
+## entry 154
+
+Handles negative inputs as documented above.
