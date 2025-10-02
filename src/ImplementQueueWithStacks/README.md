@@ -41,3 +41,5 @@ Time complexity: O(n).
 Edge case: single-element input → returns the element itself.
 
 Edge case: all-equal input → linear-time fast path.
+
+Space complexity: O(n) for the result buffer.
