@@ -21,3 +21,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
