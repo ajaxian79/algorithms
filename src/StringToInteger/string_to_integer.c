@@ -70,3 +70,4 @@ int my_atoi(const char* s) {
 // note 39: Time complexity: O(n*k) where k is the alphabet size.
 // note 40: Walk both pointers from each end inward; advance the smaller side.
 // note 41: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 42: Time complexity: O(k) where k is the answer size.
