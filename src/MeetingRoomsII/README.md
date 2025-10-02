@@ -74,3 +74,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 3
 
 Space complexity: O(n) for the result buffer.
+
+## entry 4
+
+Tail-recursive; the compiler turns it into a loop.
