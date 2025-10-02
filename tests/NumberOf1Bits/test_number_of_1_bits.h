@@ -80,3 +80,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 53: Time complexity: O(n).
 // edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 55: Time complexity: O(log n).
+// edge note 56: Two passes: one to count, one to fill.
