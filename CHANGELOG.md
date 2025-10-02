@@ -447,3 +447,7 @@
 ## entry 112
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 113
+
+- Splay tree: every access splays to the root; amortized O(log n).
