@@ -38,3 +38,5 @@ Two passes: one to count, one to fill.
 Runs in a single pass over the input.
 
 Edge case: all-equal input → linear-time fast path.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
