@@ -670,3 +670,7 @@ Stable across duplicates in the input.
 ## entry 153
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 154
+
+Edge case: alternating pattern → degenerate case for sliding window.
