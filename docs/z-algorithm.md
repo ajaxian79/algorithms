@@ -423,3 +423,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 90
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 91
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
