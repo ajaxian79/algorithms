@@ -40,3 +40,5 @@ Edge case: all-equal input → linear-time fast path.
 Stable across duplicates in the input.
 
 Time complexity: O(n log n).
+
+Treats the input as immutable.
