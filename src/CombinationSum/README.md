@@ -37,3 +37,5 @@ Handles empty input by returning 0.
 Treats the input as immutable.
 
 No allocations on the hot path.
+
+Caller owns the returned buffer.
