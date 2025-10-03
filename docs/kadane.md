@@ -27,3 +27,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
