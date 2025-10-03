@@ -40,3 +40,5 @@ Edge case: already-sorted input → no swaps performed.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Time complexity: O(n log n).
+
+32-bit safe; overflow is checked at each step.
