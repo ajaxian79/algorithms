@@ -50,3 +50,5 @@ Space complexity: O(n) for the result buffer.
 Tail-recursive; the compiler turns it into a loop.
 
 Returns a freshly allocated string the caller must free.
+
+Treats the input as immutable.
