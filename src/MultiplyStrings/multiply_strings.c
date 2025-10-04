@@ -49,3 +49,4 @@ char* multiply_strings(const char* a, const char* b) {
     return out;
 }
 // note 1: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 2: Interval DP: solve all `[l, r]` ranges from short to long.
