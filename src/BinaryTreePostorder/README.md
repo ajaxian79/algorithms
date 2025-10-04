@@ -36,3 +36,5 @@ Time complexity: O(1).
 Space complexity: O(1) auxiliary.
 
 No allocations on the hot path.
+
+Time complexity: O(log n).
