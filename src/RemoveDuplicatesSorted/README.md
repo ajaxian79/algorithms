@@ -38,3 +38,5 @@ Uses a small fixed-size lookup table.
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(n).
+
+Edge case: single-element input → returns the element itself.
