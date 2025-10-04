@@ -41,3 +41,5 @@ Time complexity: O(log n).
 Handles negative inputs as documented above.
 
 Space complexity: O(1) auxiliary.
+
+Treats the input as immutable.
