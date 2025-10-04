@@ -39,3 +39,5 @@ Returns a freshly allocated string the caller must free.
 Time complexity: O(n).
 
 Edge case: single-element input → returns the element itself.
+
+Edge case: all-equal input → linear-time fast path.
