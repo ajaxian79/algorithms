@@ -38,3 +38,5 @@ Edge case: single-element input → returns the element itself.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Handles negative inputs as documented above.
+
+32-bit safe; overflow is checked at each step.
