@@ -70,3 +70,7 @@ Caller owns the returned buffer.
 ## entry 2
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 3
+
+Space complexity: O(n) for the result buffer.
