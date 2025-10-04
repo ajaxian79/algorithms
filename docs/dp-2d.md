@@ -35,3 +35,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
