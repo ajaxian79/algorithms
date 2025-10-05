@@ -38,3 +38,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 No allocations on the hot path.
 
 Treats the input as immutable.
+
+Stable across duplicates in the input.
