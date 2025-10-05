@@ -379,3 +379,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 95
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 96
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
