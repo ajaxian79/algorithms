@@ -505,3 +505,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 110
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 111
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
