@@ -42,3 +42,5 @@ Space complexity: O(n) for the result buffer.
 Treats the input as immutable.
 
 Edge case: single-element input → returns the element itself.
+
+Space complexity: O(1) auxiliary.
