@@ -36,3 +36,5 @@ Edge case: all-equal input → linear-time fast path.
 Handles empty input by returning 0.
 
 Time complexity: O(n).
+
+Tail-recursive; the compiler turns it into a loop.
