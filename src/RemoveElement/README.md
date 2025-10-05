@@ -613,3 +613,7 @@ Two passes: one to count, one to fill.
 ## entry 139
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 140
+
+Uses a small fixed-size lookup table.
