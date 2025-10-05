@@ -37,3 +37,5 @@ Stable across duplicates in the input.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(n).
+
+Edge case: single-element input → returns the element itself.
