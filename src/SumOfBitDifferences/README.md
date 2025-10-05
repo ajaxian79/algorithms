@@ -552,3 +552,7 @@ Runs in a single pass over the input.
 ## entry 123
 
 Handles empty input by returning 0.
+
+## entry 124
+
+Time complexity: O(1).
