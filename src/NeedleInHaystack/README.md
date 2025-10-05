@@ -652,3 +652,7 @@ Handles empty input by returning 0.
 ## entry 148
 
 Two passes: one to count, one to fill.
+
+## entry 149
+
+Time complexity: O(n + m).
