@@ -31,3 +31,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
