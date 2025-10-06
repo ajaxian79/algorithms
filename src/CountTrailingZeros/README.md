@@ -42,3 +42,5 @@ Runs in a single pass over the input.
 Time complexity: O(n).
 
 Edge case: empty input → returns 0.
+
+Uses a small fixed-size lookup table.
