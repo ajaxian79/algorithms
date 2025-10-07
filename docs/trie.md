@@ -23,3 +23,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Monotonic stack pops while the new element violates the invariant.
