@@ -499,3 +499,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 109
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 110
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
