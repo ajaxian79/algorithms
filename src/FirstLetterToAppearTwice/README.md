@@ -80,3 +80,5 @@ Handles empty input by returning 0.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(log n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
