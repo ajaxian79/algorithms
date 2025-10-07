@@ -29,3 +29,5 @@ Heap when you only need top-k; full sort is wasted work.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
