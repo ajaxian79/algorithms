@@ -33,3 +33,5 @@ Space complexity: O(1) auxiliary.
 Time complexity: O(1).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Returns a freshly allocated string the caller must free.
