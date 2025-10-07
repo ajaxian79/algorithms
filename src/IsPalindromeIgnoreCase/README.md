@@ -32,3 +32,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Edge case: already-sorted input → no swaps performed.
 
 No allocations on the hot path.
+
+Treats the input as immutable.
