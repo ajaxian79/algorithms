@@ -43,3 +43,5 @@ Edge case: single-element input → returns the element itself.
 Caller owns the returned buffer.
 
 Time complexity: O(n).
+
+Edge case: all-equal input → linear-time fast path.
