@@ -427,3 +427,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 107
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 108
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
