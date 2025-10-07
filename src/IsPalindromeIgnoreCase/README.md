@@ -34,3 +34,5 @@ Edge case: already-sorted input → no swaps performed.
 No allocations on the hot path.
 
 Treats the input as immutable.
+
+Edge case: NULL input is rejected by the caller, not by us.
