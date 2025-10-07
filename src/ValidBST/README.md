@@ -33,3 +33,5 @@ Tail-recursive; the compiler turns it into a loop.
 Time complexity: O(1).
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
