@@ -610,3 +610,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 138
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 139
+
+Caller owns the returned array; free with a single `free`.
