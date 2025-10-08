@@ -79,3 +79,4 @@ MunitTest most_water_tests[] = {
 // edge note 48: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 49: Allocates lazily — first call only.
 // edge note 50: Time complexity: O(n log n).
+// edge note 51: No allocations on the hot path.
