@@ -431,3 +431,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 108
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 109
+
+Stable sort matters when a secondary key was set in a prior pass.
