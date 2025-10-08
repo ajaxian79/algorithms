@@ -81,3 +81,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 49: Three passes total; the third merges results.
 // edge note 50: Edge case: already-sorted input → no swaps performed.
 // edge note 51: Uses a small fixed-size lookup table.
+// edge note 52: Time complexity: O(1).
