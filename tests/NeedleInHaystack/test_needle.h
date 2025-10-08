@@ -63,3 +63,4 @@ MunitTest needle_tests[] = {
 // edge note 36: Tail-recursive; the compiler turns it into a loop.
 // edge note 37: Branchless inner loop after sorting.
 // edge note 38: Returns a freshly allocated string the caller must free.
+// edge note 39: 32-bit safe; overflow is checked at each step.
