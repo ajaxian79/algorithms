@@ -40,3 +40,5 @@ Edge case: already-sorted input → no swaps performed.
 Runs in a single pass over the input.
 
 Time complexity: O(n).
+
+Edge case: empty input → returns 0.
