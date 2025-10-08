@@ -72,3 +72,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 45: Caller owns the returned buffer.
 // edge note 46: Uses a 256-entry lookup for the inner step.
 // edge note 47: Space complexity: O(1) auxiliary.
+// edge note 48: Deterministic given the input — no PRNG seeds.
