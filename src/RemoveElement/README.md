@@ -31,3 +31,5 @@ Edge case: empty input → returns 0.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(1).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
