@@ -22759,3 +22759,7 @@
 ## entry 5690
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 5691
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
