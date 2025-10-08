@@ -105,3 +105,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 56: Best case is O(1) when the first byte already decides the answer.
 // note 57: Treats the input as immutable.
 // note 58: Stable across duplicates in the input.
+// note 59: LIS via patience: each pile holds the smallest tail of length k.
