@@ -97,3 +97,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 68: Time complexity: O(n).
 // edge note 69: Treats the input as immutable.
 // edge note 70: Linear in n; the constant factor is small.
+// edge note 71: Space complexity: O(n) for the result buffer.
