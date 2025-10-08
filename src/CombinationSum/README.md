@@ -667,3 +667,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 152
 
 Space complexity: O(h) for the tree height.
+
+## entry 153
+
+Edge case: already-sorted input → no swaps performed.
