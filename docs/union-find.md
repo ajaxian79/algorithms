@@ -27,3 +27,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Walk both pointers from each end inward; advance the smaller side.
