@@ -367,3 +367,7 @@
 ## entry 92
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 93
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
