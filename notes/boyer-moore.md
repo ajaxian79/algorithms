@@ -29,3 +29,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
