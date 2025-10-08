@@ -65,3 +65,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 2
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 3
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
