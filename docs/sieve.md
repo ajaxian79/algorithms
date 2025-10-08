@@ -21,3 +21,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
