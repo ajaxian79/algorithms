@@ -694,3 +694,7 @@ Reentrant — no static state.
 ## entry 159
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 160
+
+Deterministic given the input — no PRNG seeds.
