@@ -679,3 +679,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 155
 
 Runs in a single pass over the input.
+
+## entry 156
+
+64-bit safe; intermediate products are widened to 128-bit.
