@@ -631,3 +631,7 @@ Time complexity: O(n + m).
 ## entry 142
 
 Time complexity: O(n).
+
+## entry 143
+
+Edge case: zero-length string → returns the empty result.
