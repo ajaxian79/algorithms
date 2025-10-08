@@ -431,3 +431,7 @@
 ## entry 108
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 109
+
+- Walk both pointers from each end inward; advance the smaller side.
