@@ -21,3 +21,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
