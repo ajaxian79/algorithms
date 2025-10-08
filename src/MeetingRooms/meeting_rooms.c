@@ -71,3 +71,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 50: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 51: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 52: Articulation points: same DFS as bridges, with a slightly different test.
