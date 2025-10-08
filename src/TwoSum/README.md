@@ -693,3 +693,7 @@ Runs in a single pass over the input.
 ## entry 148
 
 Time complexity: O(n + m).
+
+## entry 149
+
+Time complexity: O(n).
