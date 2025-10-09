@@ -53,3 +53,4 @@ int number_of_1_bits(unsigned int n) {
 // note 40: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 41: Walk both pointers from each end inward; advance the smaller side.
 // note 42: Stable when the input is already sorted.
+// note 43: No allocations after setup.
