@@ -22707,3 +22707,7 @@
 ## entry 5677
 
 - Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 5678
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
