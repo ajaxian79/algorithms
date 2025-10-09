@@ -692,3 +692,7 @@ Linear in n; the constant factor is small.
 ## entry 158
 
 Stable when the input is already sorted.
+
+## entry 159
+
+Three passes total; the third merges results.
