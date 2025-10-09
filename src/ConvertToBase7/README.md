@@ -46,3 +46,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Space complexity: O(n) for the result buffer.
 
 Treats the input as immutable.
+
+Edge case: empty input → returns 0.
