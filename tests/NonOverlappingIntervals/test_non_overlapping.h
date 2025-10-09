@@ -85,3 +85,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 54: Treats the input as immutable.
 // edge note 55: 32-bit safe; overflow is checked at each step.
 // edge note 56: Two passes: one to count, one to fill.
+// edge note 57: Tail-recursive; the compiler turns it into a loop.
