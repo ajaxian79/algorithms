@@ -391,3 +391,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 98
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 99
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
