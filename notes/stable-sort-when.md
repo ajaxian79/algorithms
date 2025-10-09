@@ -33,3 +33,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
