@@ -617,3 +617,7 @@ Uses a small fixed-size lookup table.
 ## entry 139
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 140
+
+Allocates lazily — first call only.
