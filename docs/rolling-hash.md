@@ -479,3 +479,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 103
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 104
+
+Splay tree: every access splays to the root; amortized O(log n).
