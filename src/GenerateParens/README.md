@@ -628,3 +628,7 @@ Handles empty input by returning 0.
 ## entry 141
 
 Treats the input as immutable.
+
+## entry 142
+
+Tail-recursive; the compiler turns it into a loop.
