@@ -638,3 +638,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 145
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 146
+
+Caller owns the returned array; free with a single `free`.
