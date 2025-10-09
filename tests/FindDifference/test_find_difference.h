@@ -78,3 +78,4 @@ MunitTest find_difference_tests[] = {
 // edge note 53: Caller owns the returned array; free with a single `free`.
 // edge note 54: Time complexity: O(log n).
 // edge note 55: Deterministic given the input — no PRNG seeds.
+// edge note 56: Allocates lazily — first call only.
