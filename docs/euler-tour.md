@@ -423,3 +423,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 106
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 107
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
