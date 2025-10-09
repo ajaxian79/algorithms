@@ -40,3 +40,5 @@ Handles negative inputs as documented above.
 Treats the input as immutable.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Allocates one buffer of length n+1 for the result.
