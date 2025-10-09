@@ -697,3 +697,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 160
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 161
+
+No allocations on the hot path.
