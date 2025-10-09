@@ -105,3 +105,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 48: Worst case appears only on degenerate inputs.
+// note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
