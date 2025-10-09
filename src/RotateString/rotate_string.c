@@ -87,3 +87,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 61: Returns a freshly allocated string the caller must free.
 // note 62: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 63: Branchless inner loop after sorting.
+// note 64: LRU cache: doubly-linked list + hash map; O(1) get/put.
