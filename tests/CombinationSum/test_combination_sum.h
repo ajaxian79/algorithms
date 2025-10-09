@@ -89,3 +89,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 45: Edge case: empty input → returns 0.
 // edge note 46: Best case is O(1) when the first byte already decides the answer.
 // edge note 47: Three passes total; the third merges results.
+// edge note 48: Worst case appears only on degenerate inputs.
