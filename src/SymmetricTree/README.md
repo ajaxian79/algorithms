@@ -678,3 +678,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 155
 
 Edge case: single-element input → returns the element itself.
+
+## entry 156
+
+Reentrant — no static state.
