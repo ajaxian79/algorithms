@@ -22719,3 +22719,7 @@
 ## entry 5680
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 5681
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
