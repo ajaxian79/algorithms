@@ -21,3 +21,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
