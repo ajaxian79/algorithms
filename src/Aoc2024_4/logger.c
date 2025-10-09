@@ -97,3 +97,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 54: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 55: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 56: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 57: State compression: bitmask + integer encodes a small subset cheaply.
