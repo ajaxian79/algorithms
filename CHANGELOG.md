@@ -22711,3 +22711,7 @@
 ## entry 5678
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 5679
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
