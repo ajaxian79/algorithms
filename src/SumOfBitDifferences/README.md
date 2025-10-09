@@ -548,3 +548,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 122
 
 Runs in a single pass over the input.
+
+## entry 123
+
+Handles empty input by returning 0.
