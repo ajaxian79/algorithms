@@ -22731,3 +22731,7 @@
 ## entry 5683
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 5684
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
