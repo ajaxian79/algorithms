@@ -31,3 +31,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Stable sort matters when a secondary key was set in a prior pass.
