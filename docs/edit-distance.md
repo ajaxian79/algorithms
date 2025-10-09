@@ -539,3 +539,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 117
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 118
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
