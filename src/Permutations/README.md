@@ -720,3 +720,7 @@ Cache-friendly; one sequential read pass.
 ## entry 165
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 166
+
+Resists adversarial inputs by randomizing the pivot.
