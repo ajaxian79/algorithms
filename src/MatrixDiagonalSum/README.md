@@ -662,3 +662,7 @@ Linear in n; the constant factor is small.
 ## entry 151
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 152
+
+Edge case: input with one duplicate → handled without an extra pass.
