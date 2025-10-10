@@ -85,3 +85,4 @@ int is_palindrome_number(int x) {
 // note 61: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 62: No allocations after setup.
 // note 63: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 64: In-place compaction uses two pointers: read advances always, write only on keep.
