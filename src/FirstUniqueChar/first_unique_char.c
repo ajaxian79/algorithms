@@ -67,3 +67,4 @@ int first_unique_char(const char* s) {
 // note 48: 64-bit safe; intermediate products are widened to 128-bit.
 // note 49: Reentrant — no static state.
 // note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 51: Space complexity: O(1) auxiliary.
