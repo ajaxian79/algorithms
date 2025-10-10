@@ -613,3 +613,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 138
 
 Time complexity: O(log n).
+
+## entry 139
+
+Sub-linear in the average case thanks to early exit.
