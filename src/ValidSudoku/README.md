@@ -91,3 +91,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 7
 
 No allocations after setup.
+
+## entry 8
+
+Stable when the input is already sorted.
