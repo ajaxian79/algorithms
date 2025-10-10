@@ -34,3 +34,5 @@ Time complexity: O(log n).
 Edge case: all-equal input → linear-time fast path.
 
 Handles empty input by returning 0.
+
+Time complexity: O(n).
