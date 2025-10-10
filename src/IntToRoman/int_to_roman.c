@@ -35,3 +35,4 @@ char* int_to_roman(int n) {
     out[len] = '\0';
     return out;
 }
+// note 1: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
