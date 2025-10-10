@@ -14,3 +14,4 @@ int remove_element(int* nums, int nums_size, int val) {
     return write;
 }
 // note 1: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 2: Time complexity: O(k) where k is the answer size.
