@@ -367,3 +367,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 92
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 93
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
