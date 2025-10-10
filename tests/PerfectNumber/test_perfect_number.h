@@ -85,3 +85,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 55: Caller owns the returned array; free with a single `free`.
 // edge note 56: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 57: Edge case: already-sorted input → no swaps performed.
+// edge note 58: Worst case appears only on degenerate inputs.
