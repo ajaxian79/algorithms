@@ -36,3 +36,5 @@ Uses a small fixed-size lookup table.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Time complexity: O(n).
