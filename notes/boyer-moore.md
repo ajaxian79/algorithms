@@ -27,3 +27,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
