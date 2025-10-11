@@ -30,3 +30,5 @@ Edge case: empty input → returns 0.
 Treats the input as immutable.
 
 Time complexity: O(log n).
+
+Edge case: all-equal input → linear-time fast path.
