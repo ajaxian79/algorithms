@@ -43,3 +43,5 @@ Treats the input as immutable.
 Time complexity: O(log n).
 
 Stable across duplicates in the input.
+
+Two passes: one to count, one to fill.
