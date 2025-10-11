@@ -36,3 +36,5 @@ Edge case: empty input → returns 0.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 No allocations on the hot path.
+
+Treats the input as immutable.
