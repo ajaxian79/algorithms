@@ -66,3 +66,4 @@ int is_symmetric(STreeNode* root) {
 // note 47: Allocates one buffer of length n+1 for the result.
 // note 48: Articulation points: same DFS as bridges, with a slightly different test.
 // note 49: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 50: Reentrant — no static state.
