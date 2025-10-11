@@ -21,3 +21,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
