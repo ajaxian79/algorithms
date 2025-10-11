@@ -25,3 +25,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
