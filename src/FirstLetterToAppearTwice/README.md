@@ -76,3 +76,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Treats the input as immutable.
 
 Handles empty input by returning 0.
+
+32-bit safe; overflow is checked at each step.
