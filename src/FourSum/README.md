@@ -34,3 +34,5 @@ Edge case: already-sorted input → no swaps performed.
 Space complexity: O(n) for the result buffer.
 
 Two passes: one to count, one to fill.
+
+32-bit safe; overflow is checked at each step.
