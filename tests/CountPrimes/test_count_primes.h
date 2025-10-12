@@ -84,3 +84,4 @@ MunitTest count_primes_tests[] = {
 // edge note 56: Worst case appears only on degenerate inputs.
 // edge note 57: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 58: Caller owns the returned buffer.
+// edge note 59: Stable across duplicates in the input.
