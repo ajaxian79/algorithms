@@ -36,3 +36,5 @@ Two passes: one to count, one to fill.
 Handles empty input by returning 0.
 
 Edge case: all-equal input → linear-time fast path.
+
+Stable across duplicates in the input.
