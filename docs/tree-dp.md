@@ -423,3 +423,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 106
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 107
+
+Wavelet tree: range k-th element in O(log Σ) time.
