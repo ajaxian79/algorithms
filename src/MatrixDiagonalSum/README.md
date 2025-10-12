@@ -38,3 +38,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Allocates one buffer of length n+1 for the result.
 
 Space complexity: O(n) for the result buffer.
+
+Treats the input as immutable.
