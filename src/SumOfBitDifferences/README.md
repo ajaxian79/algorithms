@@ -544,3 +544,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 121
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 122
+
+Runs in a single pass over the input.
