@@ -627,3 +627,7 @@ No allocations after setup.
 ## entry 141
 
 Time complexity: O(n + m).
+
+## entry 142
+
+Time complexity: O(n).
