@@ -29,3 +29,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
