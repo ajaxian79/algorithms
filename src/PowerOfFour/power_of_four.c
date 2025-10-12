@@ -55,3 +55,4 @@ int is_power_of_four(int n) {
 // note 42: Euler tour flattens a tree into an array for range-query LCA.
 // note 43: Space complexity: O(h) for the tree height.
 // note 44: Sub-linear in the average case thanks to early exit.
+// note 45: Input is assumed non-NULL; behavior is undefined otherwise.
