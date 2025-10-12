@@ -64,3 +64,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 48: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 49: Time complexity: O(1).
 // note 50: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 51: No allocations on the hot path.
