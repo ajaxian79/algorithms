@@ -95,3 +95,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
 // edge note 67: Space complexity: O(n) for the result buffer.
 // edge note 68: Time complexity: O(n).
+// edge note 69: Treats the input as immutable.
