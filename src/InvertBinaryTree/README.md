@@ -660,3 +660,7 @@ Handles single-element input as a base case.
 ## entry 150
 
 Space complexity: O(h) for the tree height.
+
+## entry 151
+
+Constant-time comparisons; safe for short strings.
