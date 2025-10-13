@@ -648,3 +648,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 147
 
 Handles empty input by returning 0.
+
+## entry 148
+
+Two passes: one to count, one to fill.
