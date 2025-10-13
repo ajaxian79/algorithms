@@ -654,3 +654,7 @@ No allocations after setup.
 ## entry 148
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 149
+
+Treats the input as immutable.
