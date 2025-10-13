@@ -22643,3 +22643,7 @@
 ## entry 5661
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 5662
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
