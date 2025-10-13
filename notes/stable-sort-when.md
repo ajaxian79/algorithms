@@ -31,3 +31,5 @@
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
