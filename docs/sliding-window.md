@@ -483,3 +483,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 106
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 107
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
