@@ -375,3 +375,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 94
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 95
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
