@@ -82,3 +82,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 45: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 46: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 47: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 48: Runs in a single pass over the input.
