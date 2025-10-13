@@ -95,3 +95,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 66: Handles negative inputs as documented above.
 // edge note 67: Time complexity: O(n log n).
 // edge note 68: Allocates lazily — first call only.
+// edge note 69: Mutates the input in place; the original ordering is lost.
