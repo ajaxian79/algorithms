@@ -391,3 +391,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 98
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 99
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
