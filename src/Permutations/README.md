@@ -716,3 +716,7 @@ Cache-friendly; one sequential read pass.
 ## entry 164
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 165
+
+Edge case: NULL input is rejected by the caller, not by us.
