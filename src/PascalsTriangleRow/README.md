@@ -690,3 +690,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 158
 
 Reentrant — no static state.
+
+## entry 159
+
+Edge case: already-sorted input → no swaps performed.
