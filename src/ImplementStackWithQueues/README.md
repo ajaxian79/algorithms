@@ -660,3 +660,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 150
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 151
+
+Edge case: reverse-sorted input → still O(n log n).
