@@ -467,3 +467,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 100
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 101
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
