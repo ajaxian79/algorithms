@@ -81,3 +81,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 49: Edge case: all-equal input → linear-time fast path.
 // edge note 50: Reentrant — no static state.
 // edge note 51: Edge case: input with no peak → falls through to the default branch.
+// edge note 52: Edge case: power-of-two-length input → no padding required.
