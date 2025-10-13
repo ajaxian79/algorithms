@@ -93,3 +93,4 @@ MunitTest happy_number_tests[] = {
 // edge note 65: Resists adversarial inputs by randomizing the pivot.
 // edge note 66: Runs in a single pass over the input.
 // edge note 67: No allocations on the hot path.
+// edge note 68: Uses a small fixed-size lookup table.
