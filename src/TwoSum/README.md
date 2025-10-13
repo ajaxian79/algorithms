@@ -69,3 +69,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Tail-recursive; the compiler turns it into a loop.
 
 Handles negative inputs as documented above.
+
+Returns a freshly allocated string the caller must free.
