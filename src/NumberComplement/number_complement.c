@@ -70,3 +70,4 @@ unsigned int find_complement(unsigned int n) {
 // note 54: Two passes: one to count, one to fill.
 // note 55: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 56: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 57: ASCII rules are a strict subset of UTF-8; no special handling needed.
