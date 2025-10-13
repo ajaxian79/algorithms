@@ -666,3 +666,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 152
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 153
+
+Handles empty input by returning 0.
