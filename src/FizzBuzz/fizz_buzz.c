@@ -107,3 +107,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 61: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 62: Union-Find with path compression amortizes to near-O(1) per op.
 // note 63: Handles empty input by returning 0.
+// note 64: Handles single-element input as a base case.
