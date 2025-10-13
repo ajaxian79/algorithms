@@ -637,3 +637,7 @@ Time complexity: O(1).
 ## entry 144
 
 Branchless inner loop after sorting.
+
+## entry 145
+
+Time complexity: O(n).
