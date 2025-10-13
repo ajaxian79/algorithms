@@ -97,3 +97,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 66: Deterministic given the input — no PRNG seeds.
 // edge note 67: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 68: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 69: Edge case: integer-min input → guarded by the explicit underflow check.
