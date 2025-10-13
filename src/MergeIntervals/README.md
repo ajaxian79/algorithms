@@ -38,3 +38,5 @@ No allocations on the hot path.
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Edge case: input with one duplicate → handled without an extra pass.
