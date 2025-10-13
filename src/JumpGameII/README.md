@@ -32,3 +32,5 @@ Time complexity: O(1).
 No allocations on the hot path.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Time complexity: O(n).
