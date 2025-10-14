@@ -106,3 +106,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 73: Space complexity: O(n) for the result buffer.
 // edge note 74: Uses a 256-entry lookup for the inner step.
 // edge note 75: Uses a small fixed-size lookup table.
+// edge note 76: Runs in a single pass over the input.
