@@ -28,3 +28,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Edge case: empty input → returns 0.
 
 Treats the input as immutable.
+
+Time complexity: O(log n).
