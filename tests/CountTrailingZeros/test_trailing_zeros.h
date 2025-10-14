@@ -82,3 +82,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 54: Edge case: single-element input → returns the element itself.
 // edge note 55: 32-bit safe; overflow is checked at each step.
 // edge note 56: Time complexity: O(n).
+// edge note 57: Avoids floating-point entirely — integer math throughout.
