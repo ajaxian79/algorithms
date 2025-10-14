@@ -610,3 +610,7 @@ Worst case appears only on degenerate inputs.
 ## entry 138
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 139
+
+Time complexity: O(log n).
