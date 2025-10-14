@@ -74,3 +74,5 @@ Stable across duplicates in the input.
 Edge case: reverse-sorted input → still O(n log n).
 
 Treats the input as immutable.
+
+Handles empty input by returning 0.
