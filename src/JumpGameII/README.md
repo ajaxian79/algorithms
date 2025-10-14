@@ -28,3 +28,5 @@ Handles empty input by returning 0.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(1).
+
+No allocations on the hot path.
