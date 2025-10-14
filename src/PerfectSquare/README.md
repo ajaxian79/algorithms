@@ -48,3 +48,5 @@ Tail-recursive; the compiler turns it into a loop.
 Runs in a single pass over the input.
 
 Handles negative inputs as documented above.
+
+Edge case: already-sorted input → no swaps performed.
