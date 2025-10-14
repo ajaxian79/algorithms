@@ -719,3 +719,7 @@ Treats the input as immutable.
 ## entry 164
 
 Treats the input as immutable.
+
+## entry 165
+
+64-bit safe; intermediate products are widened to 128-bit.
