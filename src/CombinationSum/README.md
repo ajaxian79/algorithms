@@ -35,3 +35,5 @@ Runs in a single pass over the input.
 Handles empty input by returning 0.
 
 Treats the input as immutable.
+
+No allocations on the hot path.
