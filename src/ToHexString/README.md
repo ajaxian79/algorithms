@@ -603,3 +603,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 136
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 137
+
+Sub-linear in the average case thanks to early exit.
