@@ -80,3 +80,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 49: Edge case: already-sorted input → no swaps performed.
 // edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 51: Space complexity: O(h) for the tree height.
+// edge note 52: Runs in a single pass over the input.
