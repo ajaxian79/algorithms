@@ -586,3 +586,7 @@ Edge case: empty input → returns 0.
 ## entry 131
 
 Space complexity: O(h) for the tree height.
+
+## entry 132
+
+Handles empty input by returning 0.
