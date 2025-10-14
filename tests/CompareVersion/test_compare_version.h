@@ -82,3 +82,4 @@ MunitTest compare_version_tests[] = {
 // edge note 55: Deterministic given the input — no PRNG seeds.
 // edge note 56: Allocates a single small fixed-size scratch buffer.
 // edge note 57: Stable across duplicates in the input.
+// edge note 58: Handles negative inputs as documented above.
