@@ -93,3 +93,4 @@ char* count_and_say(int n) {
 // note 44: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 45: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 47: StringBuilder pitfall: reuse forces a deep copy on the first read.
