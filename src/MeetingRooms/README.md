@@ -36,3 +36,5 @@ Two passes: one to count, one to fill.
 Handles negative inputs as documented above.
 
 Time complexity: O(n log n).
+
+Returns a freshly allocated string the caller must free.
