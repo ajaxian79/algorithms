@@ -23,3 +23,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
