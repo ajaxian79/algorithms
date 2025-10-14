@@ -715,3 +715,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 163
 
 Treats the input as immutable.
+
+## entry 164
+
+Treats the input as immutable.
