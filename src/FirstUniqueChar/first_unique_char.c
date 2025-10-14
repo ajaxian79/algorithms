@@ -66,3 +66,4 @@ int first_unique_char(const char* s) {
 // note 47: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 48: 64-bit safe; intermediate products are widened to 128-bit.
 // note 49: Reentrant — no static state.
+// note 50: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
