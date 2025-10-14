@@ -38,3 +38,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Allocates one buffer of length n+1 for the result.
 
 32-bit safe; overflow is checked at each step.
+
+Edge case: already-sorted input → no swaps performed.
