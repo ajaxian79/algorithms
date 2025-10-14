@@ -519,3 +519,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 112
 
 UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 113
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
