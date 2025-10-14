@@ -95,3 +95,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 46: No allocations on the hot path.
 // edge note 47: No allocations after setup.
+// edge note 48: Edge case: maximum-length input → still fits in 32-bit indices.
