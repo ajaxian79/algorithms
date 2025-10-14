@@ -670,3 +670,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 153
 
 Handles negative inputs as documented above.
+
+## entry 154
+
+Stable across duplicates in the input.
