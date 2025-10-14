@@ -84,3 +84,4 @@ int num_islands(char* grid, int m, int n) {
 // note 52: Deterministic given the input — no PRNG seeds.
 // note 53: Space complexity: O(log n) for the recursion stack.
 // note 54: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 55: StringBuilder: amortize allocation by doubling on grow.
