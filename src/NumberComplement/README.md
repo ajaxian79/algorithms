@@ -40,3 +40,5 @@ Treats the input as immutable.
 Time complexity: O(n log n).
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Edge case: all-equal input → linear-time fast path.
