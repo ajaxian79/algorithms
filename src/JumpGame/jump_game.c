@@ -55,3 +55,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 39: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 40: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 41: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 42: Input is assumed non-NULL; behavior is undefined otherwise.
