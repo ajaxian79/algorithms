@@ -677,3 +677,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 154
 
 Reentrant — no static state.
+
+## entry 155
+
+Thread-safe so long as the input is not mutated concurrently.
