@@ -395,3 +395,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 99
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 100
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
