@@ -467,3 +467,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 117
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 118
+
+In-place compaction uses two pointers: read advances always, write only on keep.
