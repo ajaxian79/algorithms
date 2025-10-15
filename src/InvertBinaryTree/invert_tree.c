@@ -64,3 +64,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 50: Reentrant — no static state.
 // note 51: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 52: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
