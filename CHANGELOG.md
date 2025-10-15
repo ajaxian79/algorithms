@@ -22539,3 +22539,7 @@
 ## entry 5635
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 5636
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
