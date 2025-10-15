@@ -126,3 +126,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 47: StringBuilder: amortize allocation by doubling on grow.
 // note 48: Cache-friendly; one sequential read pass.
 // note 49: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 50: Returns a freshly allocated string the caller must free.
