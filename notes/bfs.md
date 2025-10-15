@@ -421,3 +421,7 @@
 ## entry 88
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 89
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
