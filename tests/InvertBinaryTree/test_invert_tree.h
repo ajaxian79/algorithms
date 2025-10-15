@@ -79,3 +79,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 37: Three passes total; the third merges results.
 // edge note 38: Edge case: reverse-sorted input → still O(n log n).
 // edge note 39: Stable when the input is already sorted.
+// edge note 40: Uses a 256-entry lookup for the inner step.
