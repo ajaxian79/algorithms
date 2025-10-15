@@ -549,3 +549,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 122
 
 Edge case: empty input → returns 0.
+
+## entry 123
+
+Caller owns the returned array; free with a single `free`.
