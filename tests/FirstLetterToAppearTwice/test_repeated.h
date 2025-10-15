@@ -115,3 +115,4 @@ MunitTest repeated_tests[] = {
 // edge note 59: Reentrant — no static state.
 // edge note 60: Three passes total; the third merges results.
 // edge note 61: Allocates a single small fixed-size scratch buffer.
+// edge note 62: Edge case: maximum-length input → still fits in 32-bit indices.
