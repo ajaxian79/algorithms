@@ -93,3 +93,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 53: Stable across duplicates in the input.
 // edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 55: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 56: Edge case: power-of-two-length input → no padding required.
