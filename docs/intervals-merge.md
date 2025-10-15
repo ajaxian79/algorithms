@@ -23,3 +23,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+Walk both pointers from each end inward; advance the smaller side.
