@@ -23,3 +23,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
