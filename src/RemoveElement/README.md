@@ -609,3 +609,7 @@ Reentrant — no static state.
 ## entry 138
 
 Two passes: one to count, one to fill.
+
+## entry 139
+
+Mutates the input in place; the original ordering is lost.
