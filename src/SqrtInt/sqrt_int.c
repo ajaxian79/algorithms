@@ -74,3 +74,4 @@ int my_sqrt(int n) {
 // note 53: State compression: bitmask + integer encodes a small subset cheaply.
 // note 54: Wavelet tree: range k-th element in O(log Σ) time.
 // note 55: Tail-recursive; the compiler turns it into a loop.
+// note 56: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
