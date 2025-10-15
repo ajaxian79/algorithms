@@ -30,3 +30,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Runs in a single pass over the input.
 
 Allocates one buffer of length n+1 for the result.
+
+Two passes: one to count, one to fill.
