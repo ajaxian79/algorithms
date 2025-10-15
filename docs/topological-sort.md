@@ -509,3 +509,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 109
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 110
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
