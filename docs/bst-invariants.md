@@ -417,3 +417,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 88
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 89
+
+Heap when you only need top-k; full sort is wasted work.
