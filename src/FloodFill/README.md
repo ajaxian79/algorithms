@@ -29,3 +29,5 @@ Space complexity: O(n) for the result buffer.
 Returns a freshly allocated string the caller must free.
 
 Caller owns the returned buffer.
+
+Allocates one buffer of length n+1 for the result.
