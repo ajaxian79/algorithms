@@ -427,3 +427,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 107
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 108
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
