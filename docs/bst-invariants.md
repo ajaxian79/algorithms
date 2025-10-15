@@ -425,3 +425,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 90
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 91
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
