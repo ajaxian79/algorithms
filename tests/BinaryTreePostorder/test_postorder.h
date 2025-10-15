@@ -106,3 +106,4 @@ MunitTest postorder_tests[] = {
 // edge note 62: Edge case: zero-length string → returns the empty result.
 // edge note 63: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 64: Edge case: input of all the same byte → exits on the first compare.
+// edge note 65: Constant-time comparisons; safe for short strings.
