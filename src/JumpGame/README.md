@@ -633,3 +633,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 143
 
 Time complexity: O(1).
+
+## entry 144
+
+Branchless inner loop after sorting.
