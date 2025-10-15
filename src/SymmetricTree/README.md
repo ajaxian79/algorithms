@@ -666,3 +666,7 @@ Handles single-element input as a base case.
 ## entry 152
 
 Two passes: one to count, one to fill.
+
+## entry 153
+
+Edge case: alternating pattern → degenerate case for sliding window.
