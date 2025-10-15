@@ -33,3 +33,5 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
