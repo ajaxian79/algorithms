@@ -678,3 +678,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 155
 
 Space complexity: O(n) for the result buffer.
+
+## entry 156
+
+Space complexity: O(1) auxiliary.
