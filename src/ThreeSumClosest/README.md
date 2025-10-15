@@ -666,3 +666,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 152
 
 Stable across duplicates in the input.
+
+## entry 153
+
+Edge case: already-sorted input → no swaps performed.
