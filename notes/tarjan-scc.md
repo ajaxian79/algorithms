@@ -419,3 +419,7 @@
 ## entry 105
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 106
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
