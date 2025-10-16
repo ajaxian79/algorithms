@@ -38,3 +38,5 @@ Treats the input as immutable.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(n log n).
+
+Edge case: NULL input is rejected by the caller, not by us.
