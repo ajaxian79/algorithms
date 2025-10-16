@@ -25,3 +25,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 Heap when you only need top-k; full sort is wasted work.
+
+LIS via patience: each pile holds the smallest tail of length k.
