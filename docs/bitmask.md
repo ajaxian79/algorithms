@@ -411,3 +411,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 ## entry 87
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 88
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
