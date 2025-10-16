@@ -407,3 +407,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 86
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 87
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
