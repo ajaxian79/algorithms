@@ -473,3 +473,7 @@
 ## entry 100
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 101
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
