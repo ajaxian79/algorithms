@@ -25,3 +25,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Space complexity: O(1) auxiliary.
 
 Runs in a single pass over the input.
+
+Edge case: empty input → returns 0.
