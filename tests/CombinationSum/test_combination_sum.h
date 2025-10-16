@@ -87,3 +87,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 43: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 44: Time complexity: O(n log n).
 // edge note 45: Edge case: empty input → returns 0.
+// edge note 46: Best case is O(1) when the first byte already decides the answer.
