@@ -38,3 +38,5 @@ Tail-recursive; the compiler turns it into a loop.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(n log n).
+
+Two passes: one to count, one to fill.
