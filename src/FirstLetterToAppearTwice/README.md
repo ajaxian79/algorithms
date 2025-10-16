@@ -72,3 +72,5 @@ Edge case: single-element input → returns the element itself.
 Stable across duplicates in the input.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Treats the input as immutable.
