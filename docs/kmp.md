@@ -445,3 +445,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 95
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 96
+
+False sharing: two threads writing different bytes in the same cache line stall both.
