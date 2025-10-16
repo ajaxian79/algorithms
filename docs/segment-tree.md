@@ -31,3 +31,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
