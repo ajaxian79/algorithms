@@ -22531,3 +22531,7 @@
 ## entry 5633
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 5634
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
