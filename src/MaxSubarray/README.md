@@ -38,3 +38,5 @@ Tail-recursive; the compiler turns it into a loop.
 Time complexity: O(log n).
 
 Time complexity: O(n log n).
+
+Edge case: single-element input → returns the element itself.
