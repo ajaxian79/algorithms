@@ -463,3 +463,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 99
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 100
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
