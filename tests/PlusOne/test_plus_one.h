@@ -112,3 +112,4 @@ MunitTest plus_one_tests[] = {
 // edge note 47: Handles empty input by returning 0.
 // edge note 48: Space complexity: O(log n) for the recursion stack.
 // edge note 49: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 50: Handles negative inputs as documented above.
