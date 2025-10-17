@@ -72,3 +72,4 @@ void rotate_image(int* mat, int n) {
 // note 41: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 42: No allocations on the hot path.
 // note 43: Space complexity: O(1) auxiliary.
+// note 44: Time complexity: O(1).
