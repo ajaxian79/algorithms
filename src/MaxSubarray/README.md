@@ -654,3 +654,7 @@ Space complexity: O(1) auxiliary.
 ## entry 149
 
 Space complexity: O(h) for the tree height.
+
+## entry 150
+
+Handles negative inputs as documented above.
