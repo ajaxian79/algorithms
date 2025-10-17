@@ -34,3 +34,5 @@ Two passes: one to count, one to fill.
 Edge case: empty input → returns 0.
 
 Uses a small fixed-size lookup table.
+
+Edge case: already-sorted input → no swaps performed.
