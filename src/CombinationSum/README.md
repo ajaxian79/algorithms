@@ -663,3 +663,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 151
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 152
+
+Space complexity: O(h) for the tree height.
