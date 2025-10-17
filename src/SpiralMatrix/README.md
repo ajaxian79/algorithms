@@ -594,3 +594,7 @@ Runs in a single pass over the input.
 ## entry 133
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 134
+
+Treats the input as immutable.
