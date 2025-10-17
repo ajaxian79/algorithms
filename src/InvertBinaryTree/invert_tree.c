@@ -63,3 +63,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 50: Reentrant — no static state.
+// note 51: Treap: BST + heap on random priorities; expected O(log n) per op.
