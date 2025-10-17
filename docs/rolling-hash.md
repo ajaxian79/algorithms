@@ -33,3 +33,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Walk both pointers from each end inward; advance the smaller side.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
