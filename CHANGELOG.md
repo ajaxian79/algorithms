@@ -22519,3 +22519,7 @@
 ## entry 5630
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 5631
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
