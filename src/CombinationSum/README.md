@@ -659,3 +659,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 150
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 151
+
+Time complexity: O(n^2) worst case, O(n) amortized.
