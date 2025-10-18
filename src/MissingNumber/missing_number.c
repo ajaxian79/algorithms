@@ -58,3 +58,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 47: Time complexity: O(log n).
 // note 48: Space complexity: O(1) auxiliary.
+// note 49: Treap: BST + heap on random priorities; expected O(log n) per op.
