@@ -19,3 +19,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
