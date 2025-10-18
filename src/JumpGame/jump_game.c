@@ -54,3 +54,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 38: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 39: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 40: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 41: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
