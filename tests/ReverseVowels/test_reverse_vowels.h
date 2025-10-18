@@ -89,3 +89,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 51: Thread-safe so long as the input is not mutated concurrently.
 // edge note 52: Space complexity: O(1) auxiliary.
+// edge note 53: Uses a small fixed-size lookup table.
