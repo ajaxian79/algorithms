@@ -419,3 +419,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 105
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 106
+
+Rope: tree of small string fragments; O(log n) concat and substring.
