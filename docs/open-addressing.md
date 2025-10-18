@@ -391,3 +391,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 98
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 99
+
+State compression: bitmask + integer encodes a small subset cheaply.
