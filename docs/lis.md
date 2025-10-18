@@ -29,3 +29,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+Stable sort matters when a secondary key was set in a prior pass.
