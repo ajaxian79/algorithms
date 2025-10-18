@@ -41,3 +41,5 @@ Caller owns the returned buffer.
 Edge case: already-sorted input → no swaps performed.
 
 Two passes: one to count, one to fill.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
