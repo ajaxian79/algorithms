@@ -691,3 +691,7 @@ Vectorizes cleanly under -O2.
 ## entry 158
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 159
+
+Time complexity: O(1).
