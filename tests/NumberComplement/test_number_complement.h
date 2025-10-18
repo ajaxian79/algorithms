@@ -67,3 +67,4 @@ MunitTest number_complement_tests[] = {
 // edge note 40: Time complexity: O(log n).
 // edge note 41: Worst case appears only on degenerate inputs.
 // edge note 42: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 43: Edge case: alternating pattern → degenerate case for sliding window.
