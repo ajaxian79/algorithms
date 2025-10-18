@@ -597,3 +597,7 @@ Stable across duplicates in the input.
 ## entry 135
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 136
+
+Edge case: integer-max input → guarded by the explicit overflow check.
