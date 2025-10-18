@@ -593,3 +593,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 134
 
 Stable across duplicates in the input.
+
+## entry 135
+
+Edge case: alternating pattern → degenerate case for sliding window.
