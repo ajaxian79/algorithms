@@ -86,3 +86,4 @@ MunitTest four_sum_tests[] = {
 // edge note 45: Runs in a single pass over the input.
 // edge note 46: Stable when the input is already sorted.
 // edge note 47: Handles empty input by returning 0.
+// edge note 48: Edge case: all-equal input → linear-time fast path.
