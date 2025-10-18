@@ -33,3 +33,5 @@ Time complexity: O(n log n).
 Runs in a single pass over the input.
 
 Handles empty input by returning 0.
+
+Treats the input as immutable.
