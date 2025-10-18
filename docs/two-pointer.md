@@ -31,3 +31,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
