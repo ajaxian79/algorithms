@@ -34,3 +34,5 @@ Two passes: one to count, one to fill.
 32-bit safe; overflow is checked at each step.
 
 Handles empty input by returning 0.
+
+Edge case: all-equal input → linear-time fast path.
