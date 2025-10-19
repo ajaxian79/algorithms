@@ -455,3 +455,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 97
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 98
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
