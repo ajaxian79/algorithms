@@ -37,3 +37,5 @@ Tail-recursive; the compiler turns it into a loop.
 Treats the input as immutable.
 
 Two passes: one to count, one to fill.
+
+No allocations on the hot path.
