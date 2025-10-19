@@ -687,3 +687,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 157
 
 Vectorizes cleanly under -O2.
+
+## entry 158
+
+64-bit safe; intermediate products are widened to 128-bit.
