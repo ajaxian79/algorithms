@@ -83,3 +83,4 @@ MunitTest jump_game_tests[] = {
 // edge note 49: Deterministic given the input — no PRNG seeds.
 // edge note 50: Cache-friendly; one sequential read pass.
 // edge note 51: Edge case: empty input → returns 0.
+// edge note 52: Edge case: maximum-length input → still fits in 32-bit indices.
