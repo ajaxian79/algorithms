@@ -383,3 +383,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 96
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 97
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
