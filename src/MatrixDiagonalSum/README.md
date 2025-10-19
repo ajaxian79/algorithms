@@ -654,3 +654,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 149
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 150
+
+Linear in n; the constant factor is small.
