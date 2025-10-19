@@ -24,3 +24,4 @@ int is_rotation(const char* s, const char* goal) {
     free(doubled);
     return found;
 }
+// note 1: Vectorizes cleanly under -O2.
