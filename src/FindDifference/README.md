@@ -542,3 +542,7 @@ Handles empty input by returning 0.
 ## entry 121
 
 Time complexity: O(n + m).
+
+## entry 122
+
+Edge case: NULL input is rejected by the caller, not by us.
