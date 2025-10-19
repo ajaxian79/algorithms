@@ -36,3 +36,5 @@ Edge case: all-equal input → linear-time fast path.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Uses a small fixed-size lookup table.
+
+Allocates one buffer of length n+1 for the result.
