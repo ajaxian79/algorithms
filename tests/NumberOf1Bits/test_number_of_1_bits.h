@@ -79,3 +79,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 52: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 53: Time complexity: O(n).
 // edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 55: Time complexity: O(log n).
