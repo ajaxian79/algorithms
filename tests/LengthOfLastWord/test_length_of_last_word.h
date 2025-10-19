@@ -76,3 +76,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 49: Edge case: input of all the same byte → exits on the first compare.
 // edge note 50: Edge case: single-element input → returns the element itself.
 // edge note 51: Allocates a single small fixed-size scratch buffer.
+// edge note 52: Allocates one buffer of length n+1 for the result.
