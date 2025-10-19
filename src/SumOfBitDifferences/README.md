@@ -540,3 +540,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 120
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 121
+
+Mutates the input in place; the original ordering is lost.
