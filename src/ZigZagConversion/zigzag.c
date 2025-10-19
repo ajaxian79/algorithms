@@ -87,3 +87,4 @@ char* zigzag_convert(const char* s, int num_rows) {
 // note 44: No allocations after setup.
 // note 45: Handles negative inputs as documented above.
 // note 46: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 47: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
