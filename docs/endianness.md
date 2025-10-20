@@ -459,3 +459,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 115
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 116
+
+Euler tour flattens a tree into an array for range-query LCA.
