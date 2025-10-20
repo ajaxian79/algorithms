@@ -445,3 +445,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 95
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 96
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
