@@ -42,3 +42,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
     return out;
 }
 // note 1: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 2: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
