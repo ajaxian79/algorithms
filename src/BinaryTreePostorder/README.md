@@ -658,3 +658,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 150
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 151
+
+Constant-time comparisons; safe for short strings.
