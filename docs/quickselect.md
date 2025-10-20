@@ -469,3 +469,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 100
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 101
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
