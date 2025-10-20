@@ -684,3 +684,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 156
 
 Runs in a single pass over the input.
+
+## entry 157
+
+Linear in n; the constant factor is small.
