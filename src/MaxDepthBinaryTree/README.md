@@ -589,3 +589,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 133
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 134
+
+Stable across duplicates in the input.
