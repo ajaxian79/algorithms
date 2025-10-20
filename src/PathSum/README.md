@@ -688,3 +688,7 @@ Runs in a single pass over the input.
 ## entry 157
 
 Linear in n; the constant factor is small.
+
+## entry 158
+
+Stable when the input is already sorted.
