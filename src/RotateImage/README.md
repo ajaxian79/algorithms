@@ -633,3 +633,7 @@ Handles negative inputs as documented above.
 ## entry 143
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 144
+
+Linear in n; the constant factor is small.
