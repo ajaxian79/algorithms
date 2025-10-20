@@ -77,3 +77,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 46: Two passes: one to count, one to fill.
 // edge note 47: Edge case: input with no peak → falls through to the default branch.
 // edge note 48: Allocates one buffer of length n+1 for the result.
+// edge note 49: Handles negative inputs as documented above.
