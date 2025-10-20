@@ -613,3 +613,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 138
 
 Uses a small fixed-size lookup table.
+
+## entry 139
+
+Deterministic given the input — no PRNG seeds.
