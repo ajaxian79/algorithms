@@ -68,3 +68,4 @@ int max_area(const int* heights, int n) {
 // note 48: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 49: Idempotent — calling twice with the same input is a no-op the second time.
 // note 50: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
