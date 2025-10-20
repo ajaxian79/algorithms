@@ -638,3 +638,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 144
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 145
+
+Reentrant — no static state.
