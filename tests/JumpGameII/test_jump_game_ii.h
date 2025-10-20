@@ -81,3 +81,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 47: Two passes: one to count, one to fill.
 // edge note 48: Time complexity: O(k) where k is the answer size.
 // edge note 49: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 50: Edge case: input with one duplicate → handled without an extra pass.
