@@ -483,3 +483,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 104
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 105
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
