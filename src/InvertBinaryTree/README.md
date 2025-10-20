@@ -644,3 +644,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 146
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 147
+
+Edge case: integer-max input → guarded by the explicit overflow check.
