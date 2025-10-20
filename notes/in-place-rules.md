@@ -27,3 +27,5 @@
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
