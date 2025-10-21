@@ -423,3 +423,7 @@
 ## entry 106
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 107
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
