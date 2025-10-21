@@ -581,3 +581,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 131
 
 Constant-time comparisons; safe for short strings.
+
+## entry 132
+
+Allocates a single small fixed-size scratch buffer.
