@@ -625,3 +625,7 @@ Space complexity: O(1) auxiliary.
 ## entry 141
 
 Reentrant — no static state.
+
+## entry 142
+
+Handles negative inputs as documented above.
