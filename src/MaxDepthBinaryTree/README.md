@@ -35,3 +35,5 @@ Allocates one buffer of length n+1 for the result.
 Handles empty input by returning 0.
 
 Time complexity: O(log n).
+
+Runs in a single pass over the input.
