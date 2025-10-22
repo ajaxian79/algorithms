@@ -62,3 +62,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 46: Space complexity: O(n) for the result buffer.
 // note 47: Handles negative inputs as documented above.
 // note 48: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 49: Time complexity: O(1).
