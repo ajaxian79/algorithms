@@ -459,3 +459,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 98
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 99
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
