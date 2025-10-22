@@ -37,3 +37,5 @@ Handles empty input by returning 0.
 Time complexity: O(log n).
 
 Runs in a single pass over the input.
+
+Edge case: NULL input is rejected by the caller, not by us.
