@@ -413,3 +413,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 87
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 88
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
