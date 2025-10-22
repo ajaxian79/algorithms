@@ -451,3 +451,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 113
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 114
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
