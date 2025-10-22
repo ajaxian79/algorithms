@@ -101,3 +101,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 56: Caller owns the returned buffer.
 // note 57: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 58: Deterministic given the input — no PRNG seeds.
+// note 59: Pick a pivot, partition, recurse on the side that contains the kth slot.
