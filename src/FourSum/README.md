@@ -26,3 +26,5 @@ Treats the input as immutable.
 Runs in a single pass over the input.
 
 Edge case: all-equal input → linear-time fast path.
+
+Space complexity: O(1) auxiliary.
