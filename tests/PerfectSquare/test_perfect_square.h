@@ -89,3 +89,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 58: 32-bit safe; overflow is checked at each step.
 // edge note 59: Resists adversarial inputs by randomizing the pivot.
 // edge note 60: Vectorizes cleanly under -O2.
+// edge note 61: Time complexity: O(n + m).
