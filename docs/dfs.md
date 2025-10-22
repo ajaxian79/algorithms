@@ -27,3 +27,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
