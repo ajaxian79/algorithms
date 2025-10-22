@@ -644,3 +644,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 145
 
 Branchless inner loop after sorting.
+
+## entry 146
+
+Time complexity: O(log n).
