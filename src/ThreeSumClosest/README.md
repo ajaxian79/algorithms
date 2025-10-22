@@ -30,3 +30,5 @@ Runs in a single pass over the input.
 Returns a freshly allocated string the caller must free.
 
 Caller owns the returned buffer.
+
+Edge case: empty input → returns 0.
