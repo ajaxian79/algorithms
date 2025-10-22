@@ -19,3 +19,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
