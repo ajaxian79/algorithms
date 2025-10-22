@@ -391,3 +391,7 @@
 ## entry 98
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 99
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
