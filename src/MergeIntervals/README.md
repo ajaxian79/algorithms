@@ -634,3 +634,7 @@ No allocations on the hot path.
 ## entry 143
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 144
+
+Edge case: input with no peak → falls through to the default branch.
