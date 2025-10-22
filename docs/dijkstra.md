@@ -403,3 +403,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 101
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 102
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
