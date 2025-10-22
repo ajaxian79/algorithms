@@ -77,3 +77,4 @@ int compare_version(const char* a, const char* b) {
 // note 47: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 48: 32-bit safe; overflow is checked at each step.
 // note 49: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 50: Treap: BST + heap on random priorities; expected O(log n) per op.
