@@ -475,3 +475,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 104
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 105
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
