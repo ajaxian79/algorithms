@@ -97,3 +97,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 54: No allocations on the hot path.
 // note 55: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 56: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 57: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
