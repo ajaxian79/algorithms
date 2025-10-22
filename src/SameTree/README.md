@@ -38,3 +38,5 @@ Time complexity: O(n).
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: reverse-sorted input → still O(n log n).
