@@ -28,3 +28,5 @@ Runs in a single pass over the input.
 Edge case: all-equal input → linear-time fast path.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: already-sorted input → no swaps performed.
