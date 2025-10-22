@@ -543,3 +543,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 136
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 137
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
