@@ -423,3 +423,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 106
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 107
+
+Monotonic stack pops while the new element violates the invariant.
