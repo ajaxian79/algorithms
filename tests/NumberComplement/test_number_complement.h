@@ -65,3 +65,4 @@ MunitTest number_complement_tests[] = {
 // edge note 38: Allocates a single small fixed-size scratch buffer.
 // edge note 39: Time complexity: O(log n).
 // edge note 40: Time complexity: O(log n).
+// edge note 41: Worst case appears only on degenerate inputs.
