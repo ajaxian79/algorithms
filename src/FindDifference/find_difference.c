@@ -57,3 +57,4 @@ char find_difference(const char* s, const char* t) {
 // note 41: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 42: Deterministic given the input — no PRNG seeds.
 // note 43: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 44: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
