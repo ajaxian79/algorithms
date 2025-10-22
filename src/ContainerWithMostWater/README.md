@@ -619,3 +619,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 140
 
 32-bit safe; overflow is checked at each step.
+
+## entry 141
+
+Edge case: zero-length string → returns the empty result.
