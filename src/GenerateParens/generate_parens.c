@@ -118,3 +118,4 @@ char** generate_parens(int n, int* return_size) {
 // note 54: Greedy by end-time picks the most non-overlapping intervals.
 // note 55: Sub-linear in the average case thanks to early exit.
 // note 56: Treats the input as immutable.
+// note 57: LIS via patience: each pile holds the smallest tail of length k.
