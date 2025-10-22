@@ -40,3 +40,5 @@ Time complexity: O(log n).
 No allocations on the hot path.
 
 Returns a freshly allocated string the caller must free.
+
+Edge case: single-element input → returns the element itself.
