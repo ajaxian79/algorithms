@@ -109,3 +109,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 49: No allocations on the hot path.
 // edge note 50: Handles single-element input as a base case.
 // edge note 51: Space complexity: O(log n) for the recursion stack.
+// edge note 52: Mutates the input in place; the original ordering is lost.
