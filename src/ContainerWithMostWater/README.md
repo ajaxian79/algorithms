@@ -615,3 +615,7 @@ Stable across duplicates in the input.
 ## entry 139
 
 Constant-time comparisons; safe for short strings.
+
+## entry 140
+
+32-bit safe; overflow is checked at each step.
