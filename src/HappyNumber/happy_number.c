@@ -83,3 +83,4 @@ int is_happy(int n) {
 // note 57: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 58: Avoids floating-point entirely — integer math throughout.
 // note 59: Wavelet tree: range k-th element in O(log Σ) time.
+// note 60: Uses a 256-entry lookup for the inner step.
