@@ -640,3 +640,7 @@ Uses a small fixed-size lookup table.
 ## entry 145
 
 Returns a freshly allocated string the caller must free.
+
+## entry 146
+
+Deterministic given the input — no PRNG seeds.
