@@ -681,3 +681,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 156
 
 Time complexity: O(1).
+
+## entry 157
+
+Time complexity: O(k) where k is the answer size.
