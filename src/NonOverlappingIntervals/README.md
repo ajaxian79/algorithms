@@ -609,3 +609,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 137
 
 32-bit safe; overflow is checked at each step.
+
+## entry 138
+
+Uses a small fixed-size lookup table.
