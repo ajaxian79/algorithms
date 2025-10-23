@@ -25,3 +25,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Union-Find with path compression amortizes to near-O(1) per op.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
