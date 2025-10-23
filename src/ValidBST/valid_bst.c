@@ -70,3 +70,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 52: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 53: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 54: Walk both pointers from each end inward; advance the smaller side.
+// note 55: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
