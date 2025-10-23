@@ -36,3 +36,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Edge case: input with one duplicate → handled without an extra pass.
