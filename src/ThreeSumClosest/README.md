@@ -28,3 +28,5 @@ Uses a small fixed-size lookup table.
 Runs in a single pass over the input.
 
 Returns a freshly allocated string the caller must free.
+
+Caller owns the returned buffer.
