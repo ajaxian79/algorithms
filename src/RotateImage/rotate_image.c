@@ -71,3 +71,4 @@ void rotate_image(int* mat, int n) {
 // note 40: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 41: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 42: No allocations on the hot path.
+// note 43: Space complexity: O(1) auxiliary.
