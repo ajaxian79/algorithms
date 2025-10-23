@@ -571,3 +571,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 126
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 127
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
