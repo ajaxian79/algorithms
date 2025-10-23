@@ -573,3 +573,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 128
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 129
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
