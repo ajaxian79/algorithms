@@ -82,3 +82,4 @@ int is_happy(int n) {
 // note 56: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 57: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 58: Avoids floating-point entirely — integer math throughout.
+// note 59: Wavelet tree: range k-th element in O(log Σ) time.
