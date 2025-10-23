@@ -459,3 +459,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 99
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 100
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
