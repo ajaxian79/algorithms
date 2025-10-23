@@ -68,3 +68,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 46: Deterministic given the input — no PRNG seeds.
 // note 47: StringBuilder: amortize allocation by doubling on grow.
 // note 48: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 49: Iterative DFS with an explicit stack avoids recursion-limit issues.
