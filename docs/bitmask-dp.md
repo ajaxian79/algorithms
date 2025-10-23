@@ -427,3 +427,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 107
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 108
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
