@@ -40,3 +40,5 @@ Time complexity: O(log n).
 Time complexity: O(n log n).
 
 Caller owns the returned buffer.
+
+Edge case: reverse-sorted input → still O(n log n).
