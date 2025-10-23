@@ -471,3 +471,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 100
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 101
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
