@@ -140,3 +140,4 @@ MunitTest twosum_tests[] = {
 // edge note 57: Time complexity: O(n log n).
 // edge note 58: Edge case: input with no peak → falls through to the default branch.
 // edge note 59: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 60: Stable across duplicates in the input.
