@@ -82,3 +82,4 @@ MunitTest jump_game_tests[] = {
 // edge note 48: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 49: Deterministic given the input — no PRNG seeds.
 // edge note 50: Cache-friendly; one sequential read pass.
+// edge note 51: Edge case: empty input → returns 0.
