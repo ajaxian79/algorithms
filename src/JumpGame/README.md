@@ -37,3 +37,5 @@ Edge case: already-sorted input → no swaps performed.
 Time complexity: O(n log n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: input with one duplicate → handled without an extra pass.
