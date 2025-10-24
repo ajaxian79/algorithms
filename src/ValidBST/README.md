@@ -31,3 +31,5 @@ Tail-recursive; the compiler turns it into a loop.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(1).
+
+Edge case: already-sorted input → no swaps performed.
