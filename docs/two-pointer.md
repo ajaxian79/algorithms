@@ -495,3 +495,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 106
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 107
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
