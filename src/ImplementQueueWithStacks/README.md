@@ -33,3 +33,5 @@ Handles negative inputs as documented above.
 Edge case: already-sorted input → no swaps performed.
 
 Stable across duplicates in the input.
+
+Returns a freshly allocated string the caller must free.
