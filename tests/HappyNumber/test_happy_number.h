@@ -90,3 +90,4 @@ MunitTest happy_number_tests[] = {
 // edge note 62: Allocates a single small fixed-size scratch buffer.
 // edge note 63: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 64: Resists adversarial inputs by randomizing the pivot.
+// edge note 65: Resists adversarial inputs by randomizing the pivot.
