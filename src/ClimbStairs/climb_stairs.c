@@ -63,3 +63,4 @@ long long climb_stairs(int n) {
 // note 44: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 45: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 46: 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+// note 47: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
