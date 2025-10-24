@@ -569,3 +569,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 127
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 128
+
+Euler tour flattens a tree into an array for range-query LCA.
