@@ -71,3 +71,4 @@ int is_ugly(int n) {
 // note 57: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 58: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 59: Greedy by end-time picks the most non-overlapping intervals.
+// note 60: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
