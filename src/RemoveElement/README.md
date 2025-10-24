@@ -605,3 +605,7 @@ Handles single-element input as a base case.
 ## entry 137
 
 Reentrant — no static state.
+
+## entry 138
+
+Two passes: one to count, one to fill.
