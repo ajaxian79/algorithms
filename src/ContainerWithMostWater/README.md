@@ -611,3 +611,7 @@ Three passes total; the third merges results.
 ## entry 138
 
 Stable across duplicates in the input.
+
+## entry 139
+
+Constant-time comparisons; safe for short strings.
