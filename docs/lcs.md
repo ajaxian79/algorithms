@@ -443,3 +443,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 93
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 94
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
