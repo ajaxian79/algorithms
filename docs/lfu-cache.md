@@ -415,3 +415,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 104
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 105
+
+SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
