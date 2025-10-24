@@ -89,3 +89,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 49: No allocations on the hot path.
 // note 50: Two passes: one to count, one to fill.
 // note 51: Allocates one buffer of length n+1 for the result.
+// note 52: Time complexity: O(1).
