@@ -89,3 +89,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 46: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 47: Branchless inner loop after sorting.
 // edge note 48: Uses a small fixed-size lookup table.
+// edge note 49: No allocations on the hot path.
