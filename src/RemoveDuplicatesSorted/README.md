@@ -678,3 +678,7 @@ No allocations after setup.
 ## entry 155
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 156
+
+Handles single-element input as a base case.
