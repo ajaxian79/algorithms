@@ -32,3 +32,5 @@ Time complexity: O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Two passes: one to count, one to fill.
+
+Space complexity: O(n) for the result buffer.
