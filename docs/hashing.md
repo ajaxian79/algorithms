@@ -567,3 +567,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 125
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 126
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
