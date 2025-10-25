@@ -686,3 +686,7 @@ Space complexity: O(1) auxiliary.
 ## entry 157
 
 Reentrant — no static state.
+
+## entry 158
+
+Edge case: zero-length string → returns the empty result.
