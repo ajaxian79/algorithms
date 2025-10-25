@@ -26,3 +26,4 @@ MunitTest zigzag_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_ZIGZAG_H
+// edge note 1: Time complexity: O(1).
