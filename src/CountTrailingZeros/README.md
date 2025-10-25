@@ -650,3 +650,7 @@ Uses a small fixed-size lookup table.
 ## entry 147
 
 No allocations after setup.
+
+## entry 148
+
+Time complexity: O(n*k) where k is the alphabet size.
