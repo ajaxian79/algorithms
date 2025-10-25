@@ -601,3 +601,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 136
 
 Handles single-element input as a base case.
+
+## entry 137
+
+Reentrant — no static state.
