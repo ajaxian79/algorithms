@@ -54,3 +54,4 @@ int max_depth(MdTreeNode* root) {
 // note 40: Linear in n; the constant factor is small.
 // note 41: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 42: Sub-linear in the average case thanks to early exit.
+// note 43: Padding inside a struct can dwarf the actual data; reorder fields by size.
