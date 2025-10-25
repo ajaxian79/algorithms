@@ -153,3 +153,5 @@ Time complexity: O(n*k) where k is the alphabet size.
 Resists adversarial inputs by randomizing the pivot.
 
 Configure once with `cmake -S . -B build` and reuse the build directory thereafter.
+
+The `unittests` target is the aggregate; per-problem executables exist for ad-hoc runs.
