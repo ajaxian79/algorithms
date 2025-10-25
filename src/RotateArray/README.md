@@ -699,3 +699,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 159
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 160
+
+Space complexity: O(1) auxiliary.
