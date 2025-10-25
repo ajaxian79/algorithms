@@ -43,3 +43,4 @@ MunitTest symmetric_tree_tests[] = {
 
 #endif //ALGORITHMS_TEST_SYMMETRIC_TREE_H
 // edge note 1: Time complexity: O(n).
+// edge note 2: Edge case: maximum-length input → still fits in 32-bit indices.
