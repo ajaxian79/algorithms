@@ -27,3 +27,5 @@
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Monotonic stack pops while the new element violates the invariant.
