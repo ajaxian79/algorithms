@@ -26,3 +26,5 @@ Uses a small fixed-size lookup table.
 Stable across duplicates in the input.
 
 32-bit safe; overflow is checked at each step.
+
+Time complexity: O(n log n).
