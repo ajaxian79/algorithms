@@ -35,3 +35,5 @@
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
