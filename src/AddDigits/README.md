@@ -696,3 +696,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 159
 
 Uses a small fixed-size lookup table.
+
+## entry 160
+
+Stable across duplicates in the input.
