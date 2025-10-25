@@ -455,3 +455,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 114
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 115
+
+Heap when you only need top-k; full sort is wasted work.
