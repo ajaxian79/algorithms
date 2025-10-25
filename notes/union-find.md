@@ -31,3 +31,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+- Greedy by end-time picks the most non-overlapping intervals.
