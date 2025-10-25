@@ -76,3 +76,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 45: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 46: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 47: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 48: Time complexity: O(log n).
