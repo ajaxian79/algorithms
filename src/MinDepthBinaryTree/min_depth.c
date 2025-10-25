@@ -70,3 +70,4 @@ int min_depth(MnTreeNode* root) {
 // note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 54: Time complexity: O(n).
 // note 55: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 56: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
