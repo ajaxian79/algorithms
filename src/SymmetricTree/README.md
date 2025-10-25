@@ -662,3 +662,7 @@ Three passes total; the third merges results.
 ## entry 151
 
 Handles single-element input as a base case.
+
+## entry 152
+
+Two passes: one to count, one to fill.
