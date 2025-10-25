@@ -616,3 +616,7 @@ Three passes total; the third merges results.
 ## entry 138
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 139
+
+Space complexity: O(h) for the tree height.
