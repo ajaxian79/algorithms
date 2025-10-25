@@ -90,3 +90,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 60: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 61: Edge case: zero-length string → returns the empty result.
 // edge note 62: Edge case: reverse-sorted input → still O(n log n).
+// edge note 63: Space complexity: O(h) for the tree height.
