@@ -83,3 +83,4 @@ MunitTest majority_element_tests[] = {
 // edge note 52: Edge case: already-sorted input → no swaps performed.
 // edge note 53: Tail-recursive; the compiler turns it into a loop.
 // edge note 54: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 55: Tail-recursive; the compiler turns it into a loop.
