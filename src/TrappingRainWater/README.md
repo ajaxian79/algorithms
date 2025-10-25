@@ -550,3 +550,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 122
 
 No allocations after setup.
+
+## entry 123
+
+Mutates the input in place; the original ordering is lost.
