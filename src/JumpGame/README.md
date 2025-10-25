@@ -35,3 +35,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(n log n).
+
+Tail-recursive; the compiler turns it into a loop.
