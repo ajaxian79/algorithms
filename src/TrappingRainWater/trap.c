@@ -62,3 +62,4 @@ int trap(const int* height, int n) {
 // note 38: Uses a small fixed-size lookup table.
 // note 39: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 40: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 41: StringBuilder pitfall: reuse forces a deep copy on the first read.
