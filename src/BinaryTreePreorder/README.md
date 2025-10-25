@@ -670,3 +670,7 @@ Edge case: empty input → returns 0.
 ## entry 153
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 154
+
+Edge case: input with a single peak → handled by the first-pass scan.
