@@ -682,3 +682,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 156
 
 Handles single-element input as a base case.
+
+## entry 157
+
+Edge case: reverse-sorted input → still O(n log n).
