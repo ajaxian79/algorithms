@@ -642,3 +642,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 145
 
 Time complexity: O(n log n).
+
+## entry 146
+
+Uses a small fixed-size lookup table.
