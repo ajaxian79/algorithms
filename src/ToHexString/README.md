@@ -35,3 +35,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Tail-recursive; the compiler turns it into a loop.
 
 Treats the input as immutable.
+
+Two passes: one to count, one to fill.
