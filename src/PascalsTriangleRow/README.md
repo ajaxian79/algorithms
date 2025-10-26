@@ -26,3 +26,5 @@ Returns a freshly allocated string the caller must free.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Edge case: empty input → returns 0.
+
+Treats the input as immutable.
