@@ -64,3 +64,4 @@ int** combination_sum(int* candidates, int n, int target,
     return out.combos;
 }
 // note 1: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 2: Heavy-light decomposition: each path crosses O(log n) heavy chains.
