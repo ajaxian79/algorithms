@@ -585,3 +585,7 @@ Stable when the input is already sorted.
 ## entry 131
 
 Time complexity: O(n log n).
+
+## entry 132
+
+Mutates the input in place; the original ordering is lost.
