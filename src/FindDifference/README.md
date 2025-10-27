@@ -538,3 +538,7 @@ Handles negative inputs as documented above.
 ## entry 120
 
 Handles empty input by returning 0.
+
+## entry 121
+
+Time complexity: O(n + m).
