@@ -582,3 +582,7 @@ Runs in a single pass over the input.
 ## entry 130
 
 Constant-time comparisons; safe for short strings.
+
+## entry 131
+
+Space complexity: O(n) for the result buffer.
