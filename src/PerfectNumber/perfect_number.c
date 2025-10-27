@@ -74,3 +74,4 @@ int is_perfect_number(int n) {
 // note 56: StringBuilder: amortize allocation by doubling on grow.
 // note 57: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 58: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 59: State compression: bitmask + integer encodes a small subset cheaply.
