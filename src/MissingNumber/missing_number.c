@@ -57,3 +57,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 45: Union-Find with path compression amortizes to near-O(1) per op.
 // note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 47: Time complexity: O(log n).
+// note 48: Space complexity: O(1) auxiliary.
