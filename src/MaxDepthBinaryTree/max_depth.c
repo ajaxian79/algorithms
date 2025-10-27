@@ -53,3 +53,4 @@ int max_depth(MdTreeNode* root) {
 // note 39: Monotonic stack pops while the new element violates the invariant.
 // note 40: Linear in n; the constant factor is small.
 // note 41: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 42: Sub-linear in the average case thanks to early exit.
