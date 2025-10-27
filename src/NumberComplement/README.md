@@ -656,3 +656,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 148
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 149
+
+Edge case: empty input → returns 0.
