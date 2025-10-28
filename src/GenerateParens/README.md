@@ -46,3 +46,5 @@ Stable across duplicates in the input.
 Edge case: single-element input → returns the element itself.
 
 Space complexity: O(n) for the result buffer.
+
+Tail-recursive; the compiler turns it into a loop.
