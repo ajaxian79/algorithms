@@ -17,3 +17,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
