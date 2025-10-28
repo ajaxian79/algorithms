@@ -27,3 +27,5 @@
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
