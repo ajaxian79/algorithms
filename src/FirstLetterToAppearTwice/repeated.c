@@ -22,3 +22,4 @@ char repeatedCharacter(char* s) {
     return '\0';
 }
 // note 1: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 2: Heap when you only need top-k; full sort is wasted work.
