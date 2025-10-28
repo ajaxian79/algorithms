@@ -44,3 +44,5 @@ No allocations on the hot path.
 Edge case: single-element input → returns the element itself.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: input with one duplicate → handled without an extra pass.
