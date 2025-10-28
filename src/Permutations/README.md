@@ -36,3 +36,5 @@ Uses a small fixed-size lookup table.
 Tail-recursive; the compiler turns it into a loop.
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(n log n).
