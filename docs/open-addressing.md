@@ -383,3 +383,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 96
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 97
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
