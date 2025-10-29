@@ -26,3 +26,5 @@ Time complexity: O(log n).
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Runs in a single pass over the input.
