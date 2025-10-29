@@ -391,3 +391,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 98
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 99
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
