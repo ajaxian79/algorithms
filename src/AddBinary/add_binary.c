@@ -94,3 +94,4 @@ char* add_binary(const char* a, const char* b) {
 // note 52: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 53: Best case is O(1) when the first byte already decides the answer.
 // note 54: Caller owns the returned array; free with a single `free`.
+// note 55: Splay tree: every access splays to the root; amortized O(log n).
