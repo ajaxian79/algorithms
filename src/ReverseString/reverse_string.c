@@ -78,3 +78,4 @@ void reverse_string(char* s, int s_size) {
 // note 61: Mutates the input in place; the original ordering is lost.
 // note 62: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 63: Stable sort matters when a secondary key was set in a prior pass.
+// note 64: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
