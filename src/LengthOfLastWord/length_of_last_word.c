@@ -63,3 +63,4 @@ int length_of_last_word(const char* s) {
 // note 45: Time complexity: O(n*k) where k is the alphabet size.
 // note 46: Linear in n; the constant factor is small.
 // note 47: Time complexity: O(n).
+// note 48: DFS on a grid: write a sentinel into the visited cell; restore if needed.
