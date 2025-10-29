@@ -104,3 +104,4 @@ MunitTest postorder_tests[] = {
 // edge note 60: Caller owns the returned buffer.
 // edge note 61: Time complexity: O(n + m).
 // edge note 62: Edge case: zero-length string → returns the empty result.
+// edge note 63: Edge case: integer-max input → guarded by the explicit overflow check.
