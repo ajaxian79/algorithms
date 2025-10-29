@@ -497,3 +497,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 108
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 109
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
