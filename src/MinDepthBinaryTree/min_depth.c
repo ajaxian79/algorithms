@@ -69,3 +69,4 @@ int min_depth(MnTreeNode* root) {
 // note 52: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 54: Time complexity: O(n).
+// note 55: In-place compaction uses two pointers: read advances always, write only on keep.
