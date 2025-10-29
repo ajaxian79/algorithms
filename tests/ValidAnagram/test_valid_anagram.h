@@ -78,3 +78,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 53: Stable across duplicates in the input.
 // edge note 54: Deterministic given the input — no PRNG seeds.
 // edge note 55: Deterministic given the input — no PRNG seeds.
+// edge note 56: Edge case: input with a single peak → handled by the first-pass scan.
