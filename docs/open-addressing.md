@@ -379,3 +379,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 95
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 96
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
