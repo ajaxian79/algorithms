@@ -455,3 +455,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 97
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 98
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
