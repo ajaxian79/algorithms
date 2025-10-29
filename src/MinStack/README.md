@@ -42,3 +42,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 No allocations on the hot path.
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: single-element input → returns the element itself.
