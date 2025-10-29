@@ -395,3 +395,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 83
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 84
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
