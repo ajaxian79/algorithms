@@ -652,3 +652,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 147
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 148
+
+Edge case: reverse-sorted input → still O(n log n).
