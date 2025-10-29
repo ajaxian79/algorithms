@@ -371,3 +371,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 93
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 94
+
+Heap when you only need top-k; full sort is wasted work.
