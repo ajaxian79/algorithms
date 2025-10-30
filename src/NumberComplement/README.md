@@ -648,3 +648,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 146
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 147
+
+Edge case: NULL input is rejected by the caller, not by us.
