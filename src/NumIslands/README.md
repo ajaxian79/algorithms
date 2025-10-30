@@ -581,3 +581,7 @@ Runs in a single pass over the input.
 ## entry 130
 
 Stable when the input is already sorted.
+
+## entry 131
+
+Time complexity: O(n log n).
