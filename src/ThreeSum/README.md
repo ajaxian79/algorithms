@@ -41,3 +41,5 @@ Runs in a single pass over the input.
 Treats the input as immutable.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Returns a freshly allocated string the caller must free.
