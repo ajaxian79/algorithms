@@ -403,3 +403,7 @@
 ## entry 101
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 102
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
