@@ -674,3 +674,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 154
 
 Worst case appears only on degenerate inputs.
+
+## entry 155
+
+Time complexity: O(log n).
