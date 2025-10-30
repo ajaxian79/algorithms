@@ -34,3 +34,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: all-equal input → linear-time fast path.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Uses a small fixed-size lookup table.
