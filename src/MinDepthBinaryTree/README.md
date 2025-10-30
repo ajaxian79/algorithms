@@ -614,3 +614,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 139
 
 Caller owns the returned buffer.
+
+## entry 140
+
+Edge case: integer-min input → guarded by the explicit underflow check.
