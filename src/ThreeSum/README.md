@@ -43,3 +43,5 @@ Treats the input as immutable.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Returns a freshly allocated string the caller must free.
+
+Two passes: one to count, one to fill.
