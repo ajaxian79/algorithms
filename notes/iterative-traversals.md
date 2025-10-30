@@ -23,3 +23,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
