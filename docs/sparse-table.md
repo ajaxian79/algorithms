@@ -375,3 +375,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 94
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 95
+
+Merge intervals: sort by start; extend the running interval while overlapping.
