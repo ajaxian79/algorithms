@@ -23,3 +23,5 @@ Treats the input as immutable.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Space complexity: O(1) auxiliary.
+
+Runs in a single pass over the input.
