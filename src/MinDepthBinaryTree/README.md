@@ -610,3 +610,7 @@ Runs in a single pass over the input.
 ## entry 138
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 139
+
+Caller owns the returned buffer.
