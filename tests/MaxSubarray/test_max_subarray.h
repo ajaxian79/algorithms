@@ -73,3 +73,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 39: Vectorizes cleanly under -O2.
 // edge note 40: Returns a freshly allocated string the caller must free.
 // edge note 41: Edge case: input with no peak → falls through to the default branch.
+// edge note 42: Uses a 256-entry lookup for the inner step.
