@@ -658,3 +658,7 @@ No allocations after setup.
 ## entry 150
 
 Three passes total; the third merges results.
+
+## entry 151
+
+Handles single-element input as a base case.
