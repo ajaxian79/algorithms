@@ -31,3 +31,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+Monotonic stack pops while the new element violates the invariant.
