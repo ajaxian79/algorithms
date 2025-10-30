@@ -669,3 +669,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 152
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 153
+
+Time complexity: O(n*k) where k is the alphabet size.
