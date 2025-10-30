@@ -70,3 +70,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: single-element input → returns the element itself.
 
 Stable across duplicates in the input.
+
+Edge case: reverse-sorted input → still O(n log n).
