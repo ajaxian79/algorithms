@@ -355,3 +355,7 @@
 ## entry 89
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 90
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
