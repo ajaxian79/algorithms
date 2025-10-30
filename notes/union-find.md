@@ -29,3 +29,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
