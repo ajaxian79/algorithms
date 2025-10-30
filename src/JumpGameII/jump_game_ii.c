@@ -77,3 +77,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 55: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 56: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 57: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 58: LRU cache: doubly-linked list + hash map; O(1) get/put.
