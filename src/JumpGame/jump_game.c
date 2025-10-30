@@ -53,3 +53,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 37: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 38: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 39: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 40: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
