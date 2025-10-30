@@ -403,3 +403,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 101
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 102
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
