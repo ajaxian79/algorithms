@@ -103,3 +103,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 54: Time complexity: O(n + m).
 // note 55: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 56: Best case is O(1) when the first byte already decides the answer.
+// note 57: Treats the input as immutable.
