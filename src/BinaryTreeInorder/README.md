@@ -546,3 +546,7 @@ Reentrant — no static state.
 ## entry 122
 
 Linear in n; the constant factor is small.
+
+## entry 123
+
+Uses a small fixed-size lookup table.
