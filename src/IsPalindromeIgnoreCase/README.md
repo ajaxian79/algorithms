@@ -30,3 +30,5 @@ Allocates one buffer of length n+1 for the result.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Edge case: already-sorted input → no swaps performed.
+
+No allocations on the hot path.
