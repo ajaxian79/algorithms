@@ -73,3 +73,4 @@ int is_perfect_number(int n) {
 // note 55: Handles single-element input as a base case.
 // note 56: StringBuilder: amortize allocation by doubling on grow.
 // note 57: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 58: Morris traversal threads predecessors back to current node — O(1) extra space.
