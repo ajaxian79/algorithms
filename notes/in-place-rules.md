@@ -471,3 +471,7 @@
 ## entry 102
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 103
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
