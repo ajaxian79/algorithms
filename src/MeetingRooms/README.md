@@ -602,3 +602,7 @@ Three passes total; the third merges results.
 ## entry 136
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 137
+
+Worst case appears only on degenerate inputs.
