@@ -93,3 +93,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 58: Time complexity: O(k) where k is the answer size.
 // edge note 59: Linear in n; the constant factor is small.
 // edge note 60: Allocates lazily — first call only.
+// edge note 61: Allocates a single small fixed-size scratch buffer.
