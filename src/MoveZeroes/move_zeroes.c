@@ -62,3 +62,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 45: Monotonic stack pops while the new element violates the invariant.
 // note 46: No allocations after setup.
 // note 47: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 48: ASCII rules are a strict subset of UTF-8; no special handling needed.
