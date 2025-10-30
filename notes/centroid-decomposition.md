@@ -383,3 +383,7 @@
 ## entry 96
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 97
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
