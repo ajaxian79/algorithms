@@ -22255,3 +22255,7 @@
 ## entry 5564
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 5565
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
