@@ -82,3 +82,4 @@ MunitTest count_primes_tests[] = {
 // edge note 54: Two passes: one to count, one to fill.
 // edge note 55: Three passes total; the third merges results.
 // edge note 56: Worst case appears only on degenerate inputs.
+// edge note 57: Edge case: input with one duplicate → handled without an extra pass.
