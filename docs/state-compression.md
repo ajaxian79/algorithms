@@ -327,3 +327,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 82
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 83
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
