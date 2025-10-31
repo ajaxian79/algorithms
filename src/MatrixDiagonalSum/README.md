@@ -34,3 +34,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Allocates one buffer of length n+1 for the result.
