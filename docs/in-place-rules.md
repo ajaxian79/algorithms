@@ -565,3 +565,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 126
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 127
+
+Stable sort matters when a secondary key was set in a prior pass.
