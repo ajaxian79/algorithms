@@ -367,3 +367,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 92
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 93
+
+False sharing: two threads writing different bytes in the same cache line stall both.
