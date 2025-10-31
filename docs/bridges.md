@@ -439,3 +439,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 110
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 111
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
