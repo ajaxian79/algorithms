@@ -83,3 +83,4 @@ MunitTest add_strings_tests[] = {
 // edge note 47: 32-bit safe; overflow is checked at each step.
 // edge note 48: Thread-safe so long as the input is not mutated concurrently.
 // edge note 49: Space complexity: O(1) auxiliary.
+// edge note 50: Time complexity: O(n + m).
