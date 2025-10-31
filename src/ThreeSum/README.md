@@ -665,3 +665,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 151
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 152
+
+Edge case: already-sorted input → no swaps performed.
