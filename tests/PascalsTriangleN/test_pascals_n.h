@@ -107,3 +107,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 48: Space complexity: O(h) for the tree height.
 // edge note 49: No allocations after setup.
 // edge note 50: Handles single-element input as a base case.
+// edge note 51: Caller owns the returned array; free with a single `free`.
