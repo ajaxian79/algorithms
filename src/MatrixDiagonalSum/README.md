@@ -650,3 +650,7 @@ Stable across duplicates in the input.
 ## entry 148
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 149
+
+Edge case: integer-min input → guarded by the explicit underflow check.
