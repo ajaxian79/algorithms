@@ -692,3 +692,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 158
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 159
+
+Uses a small fixed-size lookup table.
