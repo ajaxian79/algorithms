@@ -654,3 +654,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 149
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 150
+
+Time complexity: O(k) where k is the answer size.
