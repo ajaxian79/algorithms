@@ -27,3 +27,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
