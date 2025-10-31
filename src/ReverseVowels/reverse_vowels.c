@@ -80,3 +80,4 @@ void reverse_vowels(char* s) {
 // note 47: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 48: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 49: Allocates one buffer of length n+1 for the result.
+// note 50: 64-bit safe; intermediate products are widened to 128-bit.
