@@ -628,3 +628,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 141
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 142
+
+Space complexity: O(n) for the result buffer.
