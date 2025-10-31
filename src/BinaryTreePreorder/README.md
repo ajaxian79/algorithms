@@ -34,3 +34,5 @@ Handles empty input by returning 0.
 Caller owns the returned buffer.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Allocates one buffer of length n+1 for the result.
