@@ -666,3 +666,7 @@ Runs in a single pass over the input.
 ## entry 152
 
 Edge case: empty input → returns 0.
+
+## entry 153
+
+Edge case: input of all the same byte → exits on the first compare.
