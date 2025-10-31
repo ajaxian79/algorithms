@@ -22219,3 +22219,7 @@
 ## entry 5555
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 5556
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
