@@ -650,3 +650,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 148
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 149
+
+Edge case: input with one duplicate → handled without an extra pass.
