@@ -91,3 +91,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 62: Linear in n; the constant factor is small.
 // edge note 63: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 64: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 65: Space complexity: O(n) for the result buffer.
