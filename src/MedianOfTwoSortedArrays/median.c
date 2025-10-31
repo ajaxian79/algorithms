@@ -195,3 +195,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 59: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 60: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 61: Heap when you only need top-k; full sort is wasted work.
+// note 62: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
