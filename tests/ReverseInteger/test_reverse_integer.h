@@ -104,3 +104,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 71: Allocates a single small fixed-size scratch buffer.
 // edge note 72: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 73: Space complexity: O(n) for the result buffer.
+// edge note 74: Uses a 256-entry lookup for the inner step.
