@@ -62,3 +62,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 47: StringBuilder: amortize allocation by doubling on grow.
 // note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 49: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 50: Reentrant — no static state.
