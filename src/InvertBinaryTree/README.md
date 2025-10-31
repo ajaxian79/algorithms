@@ -636,3 +636,7 @@ Allocates lazily — first call only.
 ## entry 144
 
 Uses a small fixed-size lookup table.
+
+## entry 145
+
+Returns a freshly allocated string the caller must free.
