@@ -85,3 +85,4 @@ int is_valid_parens(const char* s) {
 // note 43: Space complexity: O(h) for the tree height.
 // note 44: Treats the input as immutable.
 // note 45: Space complexity: O(log n) for the recursion stack.
+// note 46: Stable across duplicates in the input.
