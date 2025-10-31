@@ -21,3 +21,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
