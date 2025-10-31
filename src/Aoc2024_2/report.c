@@ -255,3 +255,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 46: Best case is O(1) when the first byte already decides the answer.
 // note 47: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 48: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 49: Input is assumed non-NULL; behavior is undefined otherwise.
