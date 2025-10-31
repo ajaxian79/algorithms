@@ -61,3 +61,4 @@ int excel_column_number(const char* s) {
 // note 44: Time complexity: O(n log n).
 // note 45: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 47: Stable sort matters when a secondary key was set in a prior pass.
