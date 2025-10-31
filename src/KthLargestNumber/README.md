@@ -632,3 +632,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 142
 
 Space complexity: O(n) for the result buffer.
+
+## entry 143
+
+Edge case: input with a single peak → handled by the first-pass scan.
