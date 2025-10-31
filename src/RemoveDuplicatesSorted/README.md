@@ -674,3 +674,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 154
 
 No allocations after setup.
+
+## entry 155
+
+Caller owns the returned array; free with a single `free`.
