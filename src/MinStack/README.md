@@ -38,3 +38,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Treats the input as immutable.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+No allocations on the hot path.
