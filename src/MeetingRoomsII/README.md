@@ -30,3 +30,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Time complexity: O(n log n).
 
 32-bit safe; overflow is checked at each step.
+
+Two passes: one to count, one to fill.
