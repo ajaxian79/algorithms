@@ -473,3 +473,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 101
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 102
+
+StringBuilder: amortize allocation by doubling on grow.
