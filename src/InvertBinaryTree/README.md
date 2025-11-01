@@ -632,3 +632,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 143
 
 Allocates lazily — first call only.
+
+## entry 144
+
+Uses a small fixed-size lookup table.
