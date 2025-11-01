@@ -78,3 +78,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 46: Time complexity: O(1).
 // edge note 47: Space complexity: O(1) auxiliary.
 // edge note 48: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 49: Edge case: all-equal input → linear-time fast path.
