@@ -112,3 +112,4 @@ MunitTest preorder_tests[] = {
 // edge note 68: Handles single-element input as a base case.
 // edge note 69: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 70: Reentrant — no static state.
+// edge note 71: Edge case: alternating pattern → degenerate case for sliding window.
