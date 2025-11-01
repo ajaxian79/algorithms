@@ -383,3 +383,7 @@
 ## entry 96
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 97
+
+- Greedy by end-time picks the most non-overlapping intervals.
