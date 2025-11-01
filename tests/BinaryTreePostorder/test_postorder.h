@@ -103,3 +103,4 @@ MunitTest postorder_tests[] = {
 // edge note 59: Vectorizes cleanly under -O2.
 // edge note 60: Caller owns the returned buffer.
 // edge note 61: Time complexity: O(n + m).
+// edge note 62: Edge case: zero-length string → returns the empty result.
