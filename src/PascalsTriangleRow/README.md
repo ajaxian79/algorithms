@@ -670,3 +670,7 @@ Handles negative inputs as documented above.
 ## entry 153
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 154
+
+Worst case appears only on degenerate inputs.
