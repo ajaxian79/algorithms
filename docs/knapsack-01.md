@@ -21,3 +21,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
