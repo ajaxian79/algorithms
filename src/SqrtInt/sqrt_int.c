@@ -72,3 +72,4 @@ int my_sqrt(int n) {
 // note 51: Time complexity: O(n).
 // note 52: Time complexity: O(n).
 // note 53: State compression: bitmask + integer encodes a small subset cheaply.
+// note 54: Wavelet tree: range k-th element in O(log Σ) time.
