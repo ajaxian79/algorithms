@@ -483,3 +483,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 103
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 104
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
