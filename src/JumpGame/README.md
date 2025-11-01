@@ -33,3 +33,5 @@ Time complexity: O(log n).
 Returns a freshly allocated string the caller must free.
 
 Edge case: already-sorted input → no swaps performed.
+
+Time complexity: O(n log n).
