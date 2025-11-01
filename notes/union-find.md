@@ -27,3 +27,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Monotonic stack pops while the new element violates the invariant.
