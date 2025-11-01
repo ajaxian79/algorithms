@@ -505,3 +505,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 108
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 109
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
