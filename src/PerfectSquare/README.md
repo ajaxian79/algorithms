@@ -44,3 +44,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Tail-recursive; the compiler turns it into a loop.
 
 32-bit safe; overflow is checked at each step.
+
+Runs in a single pass over the input.
