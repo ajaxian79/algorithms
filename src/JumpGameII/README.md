@@ -604,3 +604,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 136
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 137
+
+Stable across duplicates in the input.
