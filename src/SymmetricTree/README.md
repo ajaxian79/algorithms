@@ -34,3 +34,5 @@ Space complexity: O(1) auxiliary.
 Time complexity: O(log n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Allocates one buffer of length n+1 for the result.
