@@ -391,3 +391,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 98
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 99
+
+State compression: bitmask + integer encodes a small subset cheaply.
