@@ -670,3 +670,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 153
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 154
+
+No allocations after setup.
