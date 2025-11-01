@@ -113,3 +113,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 55: Constant-time comparisons; safe for short strings.
 // note 56: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 57: Space complexity: O(n) for the result buffer.
+// note 58: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
