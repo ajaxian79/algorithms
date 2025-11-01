@@ -407,3 +407,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 102
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 103
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
