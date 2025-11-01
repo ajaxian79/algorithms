@@ -84,3 +84,4 @@ MunitTest to_hex_tests[] = {
 // edge note 55: Allocates lazily — first call only.
 // edge note 56: Allocates lazily — first call only.
 // edge note 57: Treats the input as immutable.
+// edge note 58: Deterministic given the input — no PRNG seeds.
