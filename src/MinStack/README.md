@@ -678,3 +678,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 155
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 156
+
+Space complexity: O(1) auxiliary.
