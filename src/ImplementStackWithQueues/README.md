@@ -648,3 +648,7 @@ Handles single-element input as a base case.
 ## entry 147
 
 Time complexity: O(n + m).
+
+## entry 148
+
+Edge case: empty input → returns 0.
