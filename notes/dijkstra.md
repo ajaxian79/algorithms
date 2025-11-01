@@ -375,3 +375,7 @@
 ## entry 94
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 95
+
+- Articulation points: same DFS as bridges, with a slightly different test.
