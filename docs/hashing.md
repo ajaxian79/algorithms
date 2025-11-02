@@ -563,3 +563,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 124
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 125
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
