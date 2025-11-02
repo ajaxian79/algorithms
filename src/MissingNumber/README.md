@@ -40,3 +40,5 @@ Space complexity: O(1) auxiliary.
 Handles negative inputs as documented above.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: NULL input is rejected by the caller, not by us.
