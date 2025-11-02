@@ -17,3 +17,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
