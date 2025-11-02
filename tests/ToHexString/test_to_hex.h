@@ -83,3 +83,4 @@ MunitTest to_hex_tests[] = {
 // edge note 54: Vectorizes cleanly under -O2.
 // edge note 55: Allocates lazily — first call only.
 // edge note 56: Allocates lazily — first call only.
+// edge note 57: Treats the input as immutable.
