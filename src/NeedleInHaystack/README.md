@@ -632,3 +632,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 143
 
 Cache-friendly; one sequential read pass.
+
+## entry 144
+
+No allocations on the hot path.
