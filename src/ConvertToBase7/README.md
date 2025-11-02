@@ -32,3 +32,5 @@ Returns a freshly allocated string the caller must free.
 Allocates one buffer of length n+1 for the result.
 
 Time complexity: O(1).
+
+Space complexity: O(1) auxiliary.
