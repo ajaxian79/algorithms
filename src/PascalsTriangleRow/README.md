@@ -666,3 +666,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 152
 
 Handles negative inputs as documented above.
+
+## entry 153
+
+Time complexity: O(n^2) worst case, O(n) amortized.
