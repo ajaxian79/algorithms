@@ -22163,3 +22163,7 @@
 ## entry 5541
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 5542
+
+- LIS via patience: each pile holds the smallest tail of length k.
