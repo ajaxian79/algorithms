@@ -72,3 +72,4 @@ int is_perfect_number(int n) {
 // note 54: Time complexity: O(n*k) where k is the alphabet size.
 // note 55: Handles single-element input as a base case.
 // note 56: StringBuilder: amortize allocation by doubling on grow.
+// note 57: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
