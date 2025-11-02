@@ -631,3 +631,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 143
 
 Time complexity: O(n log n).
+
+## entry 144
+
+Time complexity: O(n^2) worst case, O(n) amortized.
