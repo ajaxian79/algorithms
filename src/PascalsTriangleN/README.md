@@ -38,3 +38,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Time complexity: O(n log n).
