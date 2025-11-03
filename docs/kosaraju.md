@@ -419,3 +419,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 105
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 106
+
+Euler tour flattens a tree into an array for range-query LCA.
