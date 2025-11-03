@@ -387,3 +387,7 @@
 ## entry 97
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 98
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
