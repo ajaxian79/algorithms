@@ -642,3 +642,7 @@ Uses a small fixed-size lookup table.
 ## entry 146
 
 Stable across duplicates in the input.
+
+## entry 147
+
+Thread-safe so long as the input is not mutated concurrently.
