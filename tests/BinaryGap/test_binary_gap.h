@@ -79,3 +79,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 52: Caller owns the returned array; free with a single `free`.
 // edge note 53: Edge case: input of all the same byte → exits on the first compare.
 // edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 55: Mutates the input in place; the original ordering is lost.
