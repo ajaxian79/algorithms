@@ -451,3 +451,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 97
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 98
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
