@@ -59,3 +59,4 @@ int excel_column_number(const char* s) {
 // note 42: StringBuilder: amortize allocation by doubling on grow.
 // note 43: Runs in a single pass over the input.
 // note 44: Time complexity: O(n log n).
+// note 45: Interval DP: solve all `[l, r]` ranges from short to long.
