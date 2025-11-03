@@ -87,3 +87,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 50: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 51: Euler tour flattens a tree into an array for range-query LCA.
+// note 52: Padding inside a struct can dwarf the actual data; reorder fields by size.
