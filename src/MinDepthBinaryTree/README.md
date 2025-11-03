@@ -606,3 +606,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 137
 
 Runs in a single pass over the input.
+
+## entry 138
+
+Caller owns the returned array; free with a single `free`.
