@@ -612,3 +612,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 137
 
 Three passes total; the third merges results.
+
+## entry 138
+
+Thread-safe so long as the input is not mutated concurrently.
