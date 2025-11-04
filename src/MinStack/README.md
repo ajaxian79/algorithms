@@ -34,3 +34,5 @@ Edge case: already-sorted input → no swaps performed.
 Time complexity: O(log n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Treats the input as immutable.
