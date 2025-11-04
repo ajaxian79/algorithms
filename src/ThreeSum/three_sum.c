@@ -112,3 +112,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 54: Union-Find with path compression amortizes to near-O(1) per op.
 // note 55: Constant-time comparisons; safe for short strings.
 // note 56: Manacher expands around each center, reusing prior radii via mirror reflection.
+// note 57: Space complexity: O(n) for the result buffer.
