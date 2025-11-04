@@ -27,3 +27,5 @@ Tail-recursive; the compiler turns it into a loop.
 Space complexity: O(n) for the result buffer.
 
 Returns a freshly allocated string the caller must free.
+
+Caller owns the returned buffer.
