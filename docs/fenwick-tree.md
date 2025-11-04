@@ -17,3 +17,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
