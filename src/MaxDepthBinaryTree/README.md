@@ -31,3 +31,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Uses a small fixed-size lookup table.
 
 Allocates one buffer of length n+1 for the result.
+
+Handles empty input by returning 0.
