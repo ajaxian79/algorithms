@@ -23,3 +23,5 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
