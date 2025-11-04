@@ -684,3 +684,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 156
 
 Three passes total; the third merges results.
+
+## entry 157
+
+Edge case: single-element input → returns the element itself.
