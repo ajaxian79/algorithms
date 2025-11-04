@@ -427,3 +427,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 107
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 108
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
