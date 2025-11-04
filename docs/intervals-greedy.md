@@ -33,3 +33,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
