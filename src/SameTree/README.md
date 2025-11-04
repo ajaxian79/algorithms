@@ -36,3 +36,5 @@ Handles negative inputs as documented above.
 Time complexity: O(n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: already-sorted input → no swaps performed.
