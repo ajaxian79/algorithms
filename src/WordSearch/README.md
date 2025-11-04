@@ -626,3 +626,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 142
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 143
+
+Two passes: one to count, one to fill.
