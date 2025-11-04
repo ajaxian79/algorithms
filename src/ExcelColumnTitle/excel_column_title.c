@@ -90,3 +90,4 @@ char* excel_column_title(int n) {
 // note 60: Idempotent — calling twice with the same input is a no-op the second time.
 // note 61: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 62: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 63: Two passes: one to count, one to fill.
