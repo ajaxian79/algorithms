@@ -415,3 +415,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 104
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 105
+
+Merge intervals: sort by start; extend the running interval while overlapping.
