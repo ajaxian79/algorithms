@@ -561,3 +561,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 125
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 126
+
+State compression: bitmask + integer encodes a small subset cheaply.
