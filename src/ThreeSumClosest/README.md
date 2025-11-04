@@ -646,3 +646,7 @@ Stable when the input is already sorted.
 ## entry 147
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 148
+
+Edge case: zero-length string → returns the empty result.
