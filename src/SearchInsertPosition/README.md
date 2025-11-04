@@ -36,3 +36,5 @@ Time complexity: O(n log n).
 No allocations on the hot path.
 
 Two passes: one to count, one to fill.
+
+Edge case: single-element input → returns the element itself.
