@@ -88,3 +88,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 58: Allocates one buffer of length n+1 for the result.
 // edge note 59: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 60: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 61: Edge case: zero-length string → returns the empty result.
