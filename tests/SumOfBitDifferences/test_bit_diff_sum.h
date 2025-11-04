@@ -89,3 +89,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 58: Time complexity: O(n log n).
 // edge note 59: Returns a freshly allocated string the caller must free.
 // edge note 60: Time complexity: O(log n).
+// edge note 61: Time complexity: O(n).
