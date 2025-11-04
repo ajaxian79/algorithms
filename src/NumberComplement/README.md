@@ -36,3 +36,5 @@ Two passes: one to count, one to fill.
 Treats the input as immutable.
 
 32-bit safe; overflow is checked at each step.
+
+Time complexity: O(n log n).
