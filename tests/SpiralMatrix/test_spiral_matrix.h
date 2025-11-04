@@ -87,3 +87,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 44: Best case is O(1) when the first byte already decides the answer.
 // edge note 45: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 46: Edge case: all-equal input → linear-time fast path.
+// edge note 47: Deterministic given the input — no PRNG seeds.
