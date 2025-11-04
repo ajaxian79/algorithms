@@ -27,3 +27,5 @@
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
