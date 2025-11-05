@@ -17,3 +17,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Stable sort matters when a secondary key was set in a prior pass.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
