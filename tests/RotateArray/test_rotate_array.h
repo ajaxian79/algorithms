@@ -37,3 +37,4 @@ MunitTest rotate_array_tests[] = {
 
 #endif //ALGORITHMS_TEST_ROTATE_ARRAY_H
 // edge note 1: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 2: Edge case: power-of-two-length input → no padding required.
