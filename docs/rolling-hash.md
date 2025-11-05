@@ -31,3 +31,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
