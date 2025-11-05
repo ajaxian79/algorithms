@@ -32,3 +32,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(1).
+
+Edge case: single-element input → returns the element itself.
