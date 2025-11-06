@@ -538,3 +538,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 120
 
 Time complexity: O(1).
+
+## entry 121
+
+Reentrant — no static state.
