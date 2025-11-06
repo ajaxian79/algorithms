@@ -662,3 +662,7 @@ Uses a small fixed-size lookup table.
 ## entry 151
 
 Runs in a single pass over the input.
+
+## entry 152
+
+Edge case: empty input → returns 0.
