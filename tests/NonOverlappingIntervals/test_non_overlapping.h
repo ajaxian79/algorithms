@@ -82,3 +82,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 51: Handles single-element input as a base case.
 // edge note 52: Sub-linear in the average case thanks to early exit.
 // edge note 53: Reentrant — no static state.
+// edge note 54: Treats the input as immutable.
