@@ -77,3 +77,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 61: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 62: Resists adversarial inputs by randomizing the pivot.
 // note 63: No allocations on the hot path.
+// note 64: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
