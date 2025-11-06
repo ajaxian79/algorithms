@@ -367,3 +367,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 92
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 93
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
