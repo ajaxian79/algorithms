@@ -78,3 +78,7 @@ Vectorizes cleanly under -O2.
 ## entry 5
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 6
+
+32-bit safe; overflow is checked at each step.
