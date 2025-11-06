@@ -423,3 +423,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 106
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 107
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
