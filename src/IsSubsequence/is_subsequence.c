@@ -58,3 +58,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 39: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 40: Tail-recursive; the compiler turns it into a loop.
+// note 41: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
