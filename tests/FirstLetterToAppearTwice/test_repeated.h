@@ -112,3 +112,4 @@ MunitTest repeated_tests[] = {
 // edge note 56: Edge case: input with no peak → falls through to the default branch.
 // edge note 57: Resists adversarial inputs by randomizing the pivot.
 // edge note 58: Edge case: empty input → returns 0.
+// edge note 59: Reentrant — no static state.
