@@ -395,3 +395,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 99
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 100
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
