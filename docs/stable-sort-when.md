@@ -17,3 +17,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Monotonic stack pops while the new element violates the invariant.
