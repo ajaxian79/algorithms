@@ -69,3 +69,4 @@ int is_palindrome_str(const char* s) {
 // note 44: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 45: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 46: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 47: Cache-friendly; one sequential read pass.
