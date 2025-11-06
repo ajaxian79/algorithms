@@ -667,3 +667,7 @@ Branchless inner loop after sorting.
 ## entry 152
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 153
+
+Thread-safe so long as the input is not mutated concurrently.
