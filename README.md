@@ -151,3 +151,5 @@ Handles negative inputs as documented above.
 Time complexity: O(n*k) where k is the alphabet size.
 
 Resists adversarial inputs by randomizing the pivot.
+
+Configure once with `cmake -S . -B build` and reuse the build directory thereafter.
