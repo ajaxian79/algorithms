@@ -149,3 +149,5 @@ Mutates the input in place; the original ordering is lost.
 Handles negative inputs as documented above.
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+Resists adversarial inputs by randomizing the pivot.
