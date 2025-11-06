@@ -604,3 +604,7 @@ Time complexity: O(log n).
 ## entry 135
 
 Runs in a single pass over the input.
+
+## entry 136
+
+Edge case: input of all the same byte → exits on the first compare.
