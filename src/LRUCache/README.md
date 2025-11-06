@@ -640,3 +640,7 @@ Worst case appears only on degenerate inputs.
 ## entry 144
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 145
+
+Uses a 256-entry lookup for the inner step.
