@@ -81,3 +81,4 @@ coverage/
 *.gcno
 .ccls-cache/
 *.gcov
+.direnv/
