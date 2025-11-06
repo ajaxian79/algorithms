@@ -431,3 +431,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 108
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 109
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
