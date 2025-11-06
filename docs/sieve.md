@@ -99,3 +99,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 8
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 9
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
