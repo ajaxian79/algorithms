@@ -704,3 +704,7 @@ No allocations on the hot path.
 ## entry 161
 
 Three passes total; the third merges results.
+
+## entry 162
+
+Edge case: input of all the same byte → exits on the first compare.
