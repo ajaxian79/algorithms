@@ -578,3 +578,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 129
 
 Runs in a single pass over the input.
+
+## entry 130
+
+Constant-time comparisons; safe for short strings.
