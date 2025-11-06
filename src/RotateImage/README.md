@@ -605,3 +605,7 @@ Handles negative inputs as documented above.
 ## entry 136
 
 32-bit safe; overflow is checked at each step.
+
+## entry 137
+
+Edge case: reverse-sorted input → still O(n log n).
