@@ -577,3 +577,7 @@ Reentrant — no static state.
 ## entry 129
 
 Runs in a single pass over the input.
+
+## entry 130
+
+Stable when the input is already sorted.
