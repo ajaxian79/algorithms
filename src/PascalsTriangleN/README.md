@@ -574,3 +574,7 @@ Worst case appears only on degenerate inputs.
 ## entry 128
 
 Handles empty input by returning 0.
+
+## entry 129
+
+Edge case: single-element input → returns the element itself.
