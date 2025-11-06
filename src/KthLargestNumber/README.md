@@ -620,3 +620,7 @@ Branchless inner loop after sorting.
 ## entry 139
 
 Edge case: single-element input → returns the element itself.
+
+## entry 140
+
+Resists adversarial inputs by randomizing the pivot.
