@@ -94,3 +94,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 65: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 66: Resists adversarial inputs by randomizing the pivot.
 // edge note 67: Space complexity: O(n) for the result buffer.
+// edge note 68: Time complexity: O(n).
