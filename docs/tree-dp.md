@@ -415,3 +415,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 104
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 105
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
