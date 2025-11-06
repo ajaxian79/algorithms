@@ -90,3 +90,4 @@ MunitTest path_sum_tests[] = {
 // edge note 51: Handles single-element input as a base case.
 // edge note 52: Best case is O(1) when the first byte already decides the answer.
 // edge note 53: Worst case appears only on degenerate inputs.
+// edge note 54: Time complexity: O(1).
