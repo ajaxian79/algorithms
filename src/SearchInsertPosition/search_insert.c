@@ -60,3 +60,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 44: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 45: Space complexity: O(1) auxiliary.
 // note 46: Space complexity: O(n) for the result buffer.
+// note 47: Handles negative inputs as documented above.
