@@ -80,3 +80,4 @@ MunitTest count_primes_tests[] = {
 // edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 53: Sub-linear in the average case thanks to early exit.
 // edge note 54: Two passes: one to count, one to fill.
+// edge note 55: Three passes total; the third merges results.
