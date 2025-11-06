@@ -399,3 +399,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 100
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 101
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
