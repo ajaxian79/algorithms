@@ -708,3 +708,7 @@ Three passes total; the third merges results.
 ## entry 162
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 163
+
+Cache-friendly; one sequential read pass.
