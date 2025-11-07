@@ -463,3 +463,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 100
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 101
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
