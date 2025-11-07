@@ -447,3 +447,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 112
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 113
+
+Greedy by end-time picks the most non-overlapping intervals.
