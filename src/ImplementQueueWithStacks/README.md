@@ -29,3 +29,5 @@ Handles empty input by returning 0.
 Treats the input as immutable.
 
 Handles negative inputs as documented above.
+
+Edge case: already-sorted input → no swaps performed.
