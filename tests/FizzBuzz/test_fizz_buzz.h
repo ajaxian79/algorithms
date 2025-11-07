@@ -92,3 +92,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 42: Constant-time comparisons; safe for short strings.
 // edge note 43: Three passes total; the third merges results.
 // edge note 44: Deterministic given the input — no PRNG seeds.
+// edge note 45: Edge case: integer-max input → guarded by the explicit overflow check.
