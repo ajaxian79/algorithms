@@ -34,3 +34,5 @@ Edge case: already-sorted input → no swaps performed.
 Time complexity: O(n log n).
 
 No allocations on the hot path.
+
+Two passes: one to count, one to fill.
