@@ -594,3 +594,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 134
 
 Handles single-element input as a base case.
+
+## entry 135
+
+Allocates a single small fixed-size scratch buffer.
