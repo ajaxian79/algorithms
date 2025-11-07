@@ -657,3 +657,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 149
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 150
+
+Edge case: zero-length string → returns the empty result.
