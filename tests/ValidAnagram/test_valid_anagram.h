@@ -77,3 +77,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 52: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 53: Stable across duplicates in the input.
 // edge note 54: Deterministic given the input — no PRNG seeds.
+// edge note 55: Deterministic given the input — no PRNG seeds.
