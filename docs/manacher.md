@@ -475,3 +475,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 102
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 103
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
