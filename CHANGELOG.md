@@ -22035,3 +22035,7 @@
 ## entry 5509
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 5510
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
