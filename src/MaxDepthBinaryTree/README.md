@@ -573,3 +573,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 129
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 130
+
+Caller owns the returned array; free with a single `free`.
