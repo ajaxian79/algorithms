@@ -30,3 +30,5 @@ Allocates one buffer of length n+1 for the result.
 Space complexity: O(n) for the result buffer.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Time complexity: O(1).
