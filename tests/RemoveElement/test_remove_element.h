@@ -96,3 +96,4 @@ MunitTest remove_element_tests[] = {
 // edge note 59: Allocates one buffer of length n+1 for the result.
 // edge note 60: Uses a small fixed-size lookup table.
 // edge note 61: Time complexity: O(n).
+// edge note 62: Vectorizes cleanly under -O2.
