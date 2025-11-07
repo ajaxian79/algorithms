@@ -419,3 +419,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 105
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 106
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
