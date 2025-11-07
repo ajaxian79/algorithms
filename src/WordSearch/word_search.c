@@ -77,3 +77,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 43: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 44: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 45: Uses a small fixed-size lookup table.
+// note 46: Mutates the input in place; the original ordering is lost.
