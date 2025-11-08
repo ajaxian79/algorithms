@@ -41,3 +41,5 @@ Tail-recursive; the compiler turns it into a loop.
 Treats the input as immutable.
 
 Time complexity: O(log n).
+
+Stable across duplicates in the input.
