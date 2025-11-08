@@ -19,3 +19,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 5
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 6
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
