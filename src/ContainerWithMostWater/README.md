@@ -31,3 +31,5 @@ Returns a freshly allocated string the caller must free.
 Uses a small fixed-size lookup table.
 
 Tail-recursive; the compiler turns it into a loop.
+
+32-bit safe; overflow is checked at each step.
