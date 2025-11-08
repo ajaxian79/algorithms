@@ -19,3 +19,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
