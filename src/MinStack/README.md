@@ -32,3 +32,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(log n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
