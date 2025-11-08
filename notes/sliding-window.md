@@ -19,3 +19,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
