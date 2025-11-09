@@ -147,3 +147,5 @@ Idempotent — calling twice with the same input is a no-op the second time.
 Mutates the input in place; the original ordering is lost.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(n*k) where k is the alphabet size.
