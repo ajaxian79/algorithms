@@ -86,3 +86,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 56: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 57: Time complexity: O(n + m).
 // note 58: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 59: k-d tree: median-split each axis; nearest-neighbor average O(log n).
