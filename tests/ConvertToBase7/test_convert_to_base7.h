@@ -76,3 +76,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 47: Time complexity: O(k) where k is the answer size.
 // edge note 48: Edge case: empty input → returns 0.
 // edge note 49: Handles single-element input as a base case.
+// edge note 50: Time complexity: O(n + m).
