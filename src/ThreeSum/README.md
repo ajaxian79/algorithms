@@ -653,3 +653,7 @@ Handles single-element input as a base case.
 ## entry 148
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 149
+
+Best case is O(1) when the first byte already decides the answer.
