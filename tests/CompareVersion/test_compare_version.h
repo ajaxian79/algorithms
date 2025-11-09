@@ -80,3 +80,4 @@ MunitTest compare_version_tests[] = {
 // edge note 53: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 54: Handles negative inputs as documented above.
 // edge note 55: Deterministic given the input — no PRNG seeds.
+// edge note 56: Allocates a single small fixed-size scratch buffer.
