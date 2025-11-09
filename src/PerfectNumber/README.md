@@ -545,3 +545,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 121
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 122
+
+Edge case: empty input → returns 0.
