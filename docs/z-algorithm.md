@@ -29,3 +29,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
