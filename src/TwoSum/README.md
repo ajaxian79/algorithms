@@ -677,3 +677,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 144
 
 Caller owns the returned buffer.
+
+## entry 145
+
+Mutates the input in place; the original ordering is lost.
