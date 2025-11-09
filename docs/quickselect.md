@@ -457,3 +457,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 97
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 98
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
