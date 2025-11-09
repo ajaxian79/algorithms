@@ -21983,3 +21983,7 @@
 ## entry 5496
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 5497
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
