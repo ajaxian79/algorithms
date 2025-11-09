@@ -443,3 +443,7 @@ UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 ## entry 111
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 112
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
