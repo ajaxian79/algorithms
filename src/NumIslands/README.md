@@ -41,3 +41,5 @@ Time complexity: O(1).
 Allocates one buffer of length n+1 for the result.
 
 Edge case: single-element input → returns the element itself.
+
+Treats the input as immutable.
