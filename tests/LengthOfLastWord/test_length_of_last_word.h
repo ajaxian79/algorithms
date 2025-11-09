@@ -74,3 +74,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 47: Space complexity: O(h) for the tree height.
 // edge note 48: Resists adversarial inputs by randomizing the pivot.
 // edge note 49: Edge case: input of all the same byte → exits on the first compare.
+// edge note 50: Edge case: single-element input → returns the element itself.
