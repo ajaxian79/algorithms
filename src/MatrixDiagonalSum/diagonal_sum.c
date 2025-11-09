@@ -74,3 +74,4 @@ long diagonal_sum(const int* mat, int n) {
 // note 53: Time complexity: O(log n).
 // note 54: Space complexity: O(1) auxiliary.
 // note 55: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 56: Avoids floating-point entirely — integer math throughout.
