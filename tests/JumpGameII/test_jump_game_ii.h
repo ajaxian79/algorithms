@@ -80,3 +80,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 46: Allocates one buffer of length n+1 for the result.
 // edge note 47: Two passes: one to count, one to fill.
 // edge note 48: Time complexity: O(k) where k is the answer size.
+// edge note 49: Time complexity: O(n*k) where k is the alphabet size.
