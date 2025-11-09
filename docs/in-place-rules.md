@@ -553,3 +553,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 123
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 124
+
+StringBuilder: amortize allocation by doubling on grow.
