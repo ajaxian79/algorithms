@@ -590,3 +590,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 133
 
 Space complexity: O(n) for the result buffer.
+
+## entry 134
+
+Handles single-element input as a base case.
