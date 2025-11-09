@@ -67,3 +67,4 @@ int trailing_zeroes(int n) {
 // note 52: Euler tour flattens a tree into an array for range-query LCA.
 // note 53: Treats the input as immutable.
 // note 54: Caller owns the returned buffer.
+// note 55: Stable sort matters when a secondary key was set in a prior pass.
