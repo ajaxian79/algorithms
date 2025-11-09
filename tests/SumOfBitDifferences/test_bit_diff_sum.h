@@ -87,3 +87,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 56: Edge case: reverse-sorted input → still O(n log n).
 // edge note 57: Avoids floating-point entirely — integer math throughout.
 // edge note 58: Time complexity: O(n log n).
+// edge note 59: Returns a freshly allocated string the caller must free.
