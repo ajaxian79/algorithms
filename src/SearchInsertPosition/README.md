@@ -74,3 +74,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 4
 
 Vectorizes cleanly under -O2.
+
+## entry 5
+
+Edge case: reverse-sorted input → still O(n log n).
