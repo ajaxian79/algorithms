@@ -19,3 +19,4 @@ int my_sqrt(int n) {
     }
     return (int)answer;
 }
+// note 1: No allocations after setup.
