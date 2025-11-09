@@ -21979,3 +21979,7 @@
 ## entry 5495
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 5496
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
