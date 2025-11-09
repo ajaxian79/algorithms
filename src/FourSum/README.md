@@ -684,3 +684,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 156
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 157
+
+Three passes total; the third merges results.
