@@ -49,3 +49,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 33: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 34: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 35: Stable sort matters when a secondary key was set in a prior pass.
+// note 36: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
