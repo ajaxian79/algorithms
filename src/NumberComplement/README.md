@@ -640,3 +640,7 @@ Space complexity: O(h) for the tree height.
 ## entry 144
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 145
+
+Edge case: integer-max input → guarded by the explicit overflow check.
