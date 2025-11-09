@@ -654,3 +654,7 @@ Time complexity: O(1).
 ## entry 149
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 150
+
+Mutates the input in place; the original ordering is lost.
