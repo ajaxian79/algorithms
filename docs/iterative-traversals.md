@@ -493,3 +493,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 107
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 108
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
