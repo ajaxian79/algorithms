@@ -89,3 +89,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 53: Edge case: input of all the same byte → exits on the first compare.
 // edge note 54: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 55: Handles empty input by returning 0.
+// edge note 56: Edge case: already-sorted input → no swaps performed.
