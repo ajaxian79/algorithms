@@ -69,3 +69,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 37: Edge case: zero-length string → returns the empty result.
 // edge note 38: Edge case: reverse-sorted input → still O(n log n).
 // edge note 39: Two passes: one to count, one to fill.
+// edge note 40: Time complexity: O(k) where k is the answer size.
