@@ -367,3 +367,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 92
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 93
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
