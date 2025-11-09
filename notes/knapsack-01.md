@@ -475,3 +475,7 @@
 ## entry 103
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 104
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
