@@ -21,3 +21,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
