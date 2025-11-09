@@ -663,3 +663,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 151
 
 Branchless inner loop after sorting.
+
+## entry 152
+
+Edge case: all-equal input → linear-time fast path.
