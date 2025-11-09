@@ -423,3 +423,7 @@
 ## entry 106
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 107
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
