@@ -65,3 +65,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 1
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
