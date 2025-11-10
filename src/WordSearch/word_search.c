@@ -76,3 +76,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 42: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 43: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 44: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 45: Uses a small fixed-size lookup table.
