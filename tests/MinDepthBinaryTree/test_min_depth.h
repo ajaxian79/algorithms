@@ -89,3 +89,4 @@ MunitTest min_depth_tests[] = {
 // edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 51: Time complexity: O(1).
 // edge note 52: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 53: Edge case: input with no peak → falls through to the default branch.
