@@ -523,3 +523,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 113
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 114
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
