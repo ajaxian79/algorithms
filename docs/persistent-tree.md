@@ -415,3 +415,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 104
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 105
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
