@@ -459,3 +459,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 98
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 99
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
