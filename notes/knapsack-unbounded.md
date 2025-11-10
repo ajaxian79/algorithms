@@ -65,3 +65,7 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 1
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
