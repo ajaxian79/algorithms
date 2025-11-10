@@ -589,3 +589,7 @@ Edge case: empty input → returns 0.
 ## entry 132
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 133
+
+No allocations after setup.
