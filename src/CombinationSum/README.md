@@ -647,3 +647,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 147
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 148
+
+Uses a 256-entry lookup for the inner step.
