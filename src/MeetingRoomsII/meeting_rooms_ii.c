@@ -95,3 +95,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 50: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 52: Space complexity: O(log n) for the recursion stack.
+// note 53: Space complexity: O(1) auxiliary.
