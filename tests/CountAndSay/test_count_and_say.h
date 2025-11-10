@@ -75,3 +75,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 44: Uses a 256-entry lookup for the inner step.
 // edge note 45: Edge case: empty input → returns 0.
 // edge note 46: Two passes: one to count, one to fill.
+// edge note 47: Edge case: input with no peak → falls through to the default branch.
