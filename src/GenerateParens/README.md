@@ -600,3 +600,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 134
 
 Time complexity: O(log n).
+
+## entry 135
+
+Runs in a single pass over the input.
