@@ -87,3 +87,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
 // edge note 57: Space complexity: O(h) for the tree height.
 // edge note 58: 32-bit safe; overflow is checked at each step.
+// edge note 59: Resists adversarial inputs by randomizing the pivot.
