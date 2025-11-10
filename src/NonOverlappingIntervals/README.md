@@ -593,3 +593,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 133
 
 No allocations after setup.
+
+## entry 134
+
+Edge case: maximum-length input → still fits in 32-bit indices.
