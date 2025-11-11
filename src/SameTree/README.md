@@ -620,3 +620,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 141
 
 Two passes: one to count, one to fill.
+
+## entry 142
+
+Edge case: input with no peak → falls through to the default branch.
