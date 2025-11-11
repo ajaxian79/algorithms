@@ -666,3 +666,7 @@ Time complexity: O(1).
 ## entry 152
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 153
+
+Runs in a single pass over the input.
