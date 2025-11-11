@@ -21,3 +21,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Treats the input as immutable.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Space complexity: O(1) auxiliary.
