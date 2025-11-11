@@ -22,3 +22,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Time complexity: O(n log n).
 
 Time complexity: O(log n).
+
+Edge case: NULL input is rejected by the caller, not by us.
