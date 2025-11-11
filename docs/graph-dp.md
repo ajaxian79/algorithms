@@ -363,3 +363,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 91
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 92
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
