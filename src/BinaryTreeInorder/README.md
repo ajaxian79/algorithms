@@ -32,3 +32,5 @@ Time complexity: O(1).
 Time complexity: O(n log n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles negative inputs as documented above.
