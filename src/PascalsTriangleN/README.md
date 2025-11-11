@@ -32,3 +32,5 @@ Caller owns the returned buffer.
 Time complexity: O(log n).
 
 Stable across duplicates in the input.
+
+Allocates one buffer of length n+1 for the result.
