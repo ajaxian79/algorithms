@@ -30,3 +30,5 @@ Two passes: one to count, one to fill.
 Caller owns the returned buffer.
 
 Time complexity: O(log n).
+
+Stable across duplicates in the input.
