@@ -109,3 +109,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 54: Space complexity: O(1) auxiliary.
 // edge note 55: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 56: Allocates one buffer of length n+1 for the result.
+// edge note 57: Allocates lazily — first call only.
