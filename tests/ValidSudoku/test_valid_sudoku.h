@@ -128,3 +128,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 68: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 69: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 70: Mutates the input in place; the original ordering is lost.
+// edge note 71: Edge case: all-equal input → linear-time fast path.
