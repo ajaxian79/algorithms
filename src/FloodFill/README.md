@@ -25,3 +25,5 @@ Edge case: all-equal input → linear-time fast path.
 Tail-recursive; the compiler turns it into a loop.
 
 Space complexity: O(n) for the result buffer.
+
+Returns a freshly allocated string the caller must free.
