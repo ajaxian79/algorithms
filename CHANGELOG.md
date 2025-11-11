@@ -21919,3 +21919,7 @@
 ## entry 5480
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 5481
+
+- Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
