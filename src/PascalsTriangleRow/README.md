@@ -654,3 +654,7 @@ Cache-friendly; one sequential read pass.
 ## entry 149
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 150
+
+Caller owns the returned array; free with a single `free`.
