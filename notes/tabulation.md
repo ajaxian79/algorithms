@@ -423,3 +423,7 @@
 ## entry 106
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 107
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
