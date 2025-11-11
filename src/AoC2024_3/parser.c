@@ -355,3 +355,4 @@ void free_contents(char *buffer) {
 // note 49: Space complexity: O(h) for the tree height.
 // note 50: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 51: Uses a small fixed-size lookup table.
+// note 52: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
