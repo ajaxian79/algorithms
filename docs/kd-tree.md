@@ -411,3 +411,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 103
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 104
+
+Euler tour flattens a tree into an array for range-query LCA.
