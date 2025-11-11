@@ -84,3 +84,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 41: Returns a freshly allocated string the caller must free.
 // edge note 42: Reentrant — no static state.
 // edge note 43: Reentrant — no static state.
+// edge note 44: Best case is O(1) when the first byte already decides the answer.
