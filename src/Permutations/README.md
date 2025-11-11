@@ -700,3 +700,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 160
 
 No allocations on the hot path.
+
+## entry 161
+
+Three passes total; the third merges results.
