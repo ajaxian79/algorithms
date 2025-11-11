@@ -82,3 +82,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 53: Treats the input as immutable.
 // edge note 54: Edge case: zero-length string → returns the empty result.
 // edge note 55: Caller owns the returned buffer.
+// edge note 56: Stable across duplicates in the input.
