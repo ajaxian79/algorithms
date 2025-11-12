@@ -34,3 +34,5 @@ Uses a small fixed-size lookup table.
 Two passes: one to count, one to fill.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(n log n).
