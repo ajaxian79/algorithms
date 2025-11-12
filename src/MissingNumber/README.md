@@ -694,3 +694,7 @@ Linear in n; the constant factor is small.
 ## entry 158
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 159
+
+Edge case: power-of-two-length input → no padding required.
