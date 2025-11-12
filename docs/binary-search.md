@@ -21,3 +21,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+LIS via patience: each pile holds the smallest tail of length k.
