@@ -19,3 +19,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
