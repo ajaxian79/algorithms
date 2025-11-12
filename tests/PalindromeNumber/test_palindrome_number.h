@@ -95,3 +95,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 60: Deterministic given the input — no PRNG seeds.
 // edge note 61: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 62: Allocates one buffer of length n+1 for the result.
+// edge note 63: Tail-recursive; the compiler turns it into a loop.
