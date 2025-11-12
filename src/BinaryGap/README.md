@@ -40,3 +40,5 @@ Time complexity: O(n).
 Two passes: one to count, one to fill.
 
 Space complexity: O(n) for the result buffer.
+
+Time complexity: O(n log n).
