@@ -36,3 +36,5 @@ Edge case: already-sorted input → no swaps performed.
 Edge case: empty input → returns 0.
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(n log n).
