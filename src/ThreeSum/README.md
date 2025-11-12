@@ -649,3 +649,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 147
 
 Handles single-element input as a base case.
+
+## entry 148
+
+Uses a 256-entry lookup for the inner step.
