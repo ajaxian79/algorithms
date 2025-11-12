@@ -123,3 +123,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 57: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 58: Idempotent — calling twice with the same input is a no-op the second time.
 // note 59: Space complexity: O(log n) for the recursion stack.
+// note 60: Space complexity: O(log n) for the recursion stack.
