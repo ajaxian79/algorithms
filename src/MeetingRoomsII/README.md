@@ -28,3 +28,5 @@ Space complexity: O(1) auxiliary.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(n log n).
+
+32-bit safe; overflow is checked at each step.
