@@ -13,3 +13,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
