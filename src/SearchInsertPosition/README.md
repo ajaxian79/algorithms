@@ -32,3 +32,5 @@ Time complexity: O(log n).
 Edge case: already-sorted input → no swaps performed.
 
 Time complexity: O(n log n).
+
+No allocations on the hot path.
