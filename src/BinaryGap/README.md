@@ -38,3 +38,5 @@ Handles negative inputs as documented above.
 Time complexity: O(n).
 
 Two passes: one to count, one to fill.
+
+Space complexity: O(n) for the result buffer.
