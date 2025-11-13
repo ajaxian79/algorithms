@@ -32,3 +32,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(log n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
