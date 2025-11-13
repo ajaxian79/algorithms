@@ -29,3 +29,5 @@ Stable across duplicates in the input.
 Returns a freshly allocated string the caller must free.
 
 Uses a small fixed-size lookup table.
+
+Tail-recursive; the compiler turns it into a loop.
