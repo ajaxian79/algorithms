@@ -19,3 +19,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
