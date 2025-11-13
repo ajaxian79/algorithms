@@ -632,3 +632,7 @@ Branchless inner loop after sorting.
 ## entry 142
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 143
+
+Space complexity: O(h) for the tree height.
