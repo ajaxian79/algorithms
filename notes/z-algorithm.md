@@ -27,3 +27,5 @@
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
