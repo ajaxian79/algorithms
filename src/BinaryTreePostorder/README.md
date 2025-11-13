@@ -30,3 +30,5 @@ Stable across duplicates in the input.
 Edge case: empty input → returns 0.
 
 Handles empty input by returning 0.
+
+Time complexity: O(1).
