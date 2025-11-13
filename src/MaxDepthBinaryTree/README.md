@@ -27,3 +27,5 @@ Edge case: all-equal input → linear-time fast path.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 32-bit safe; overflow is checked at each step.
+
+Uses a small fixed-size lookup table.
