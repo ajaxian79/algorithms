@@ -17,3 +17,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 Union-Find with path compression amortizes to near-O(1) per op.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
