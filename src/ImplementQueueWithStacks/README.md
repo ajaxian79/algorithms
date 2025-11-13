@@ -27,3 +27,5 @@ Time complexity: O(1).
 Handles empty input by returning 0.
 
 Treats the input as immutable.
+
+Handles negative inputs as documented above.
