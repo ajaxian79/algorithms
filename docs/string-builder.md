@@ -379,3 +379,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 95
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 96
+
+Endianness matters when serializing multi-byte ints to a file or wire.
