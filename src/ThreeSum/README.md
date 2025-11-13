@@ -37,3 +37,5 @@ Uses a small fixed-size lookup table.
 Edge case: single-element input → returns the element itself.
 
 Runs in a single pass over the input.
+
+Treats the input as immutable.
