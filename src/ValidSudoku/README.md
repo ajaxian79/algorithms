@@ -31,3 +31,5 @@ Handles empty input by returning 0.
 Time complexity: O(n log n).
 
 Stable across duplicates in the input.
+
+Edge case: single-element input → returns the element itself.
