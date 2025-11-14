@@ -23,3 +23,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Walk both pointers from each end inward; advance the smaller side.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
