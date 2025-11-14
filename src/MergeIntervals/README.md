@@ -34,3 +34,5 @@ Space complexity: O(n) for the result buffer.
 Time complexity: O(n log n).
 
 No allocations on the hot path.
+
+Handles negative inputs as documented above.
