@@ -535,3 +535,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 134
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 135
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
