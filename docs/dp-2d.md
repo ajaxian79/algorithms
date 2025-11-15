@@ -63,3 +63,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 1
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
