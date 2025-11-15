@@ -634,3 +634,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 144
 
 Handles negative inputs as documented above.
+
+## entry 145
+
+Edge case: input with no peak → falls through to the default branch.
