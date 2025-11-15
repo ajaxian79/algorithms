@@ -379,3 +379,7 @@
 ## entry 95
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 96
+
+- Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
