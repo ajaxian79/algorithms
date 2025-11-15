@@ -76,3 +76,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 41: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 42: Handles single-element input as a base case.
 // edge note 43: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 44: No allocations on the hot path.
