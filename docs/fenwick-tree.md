@@ -447,3 +447,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 96
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 97
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
