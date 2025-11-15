@@ -68,3 +68,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 50: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 51: 32-bit safe; overflow is checked at each step.
 // note 52: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 53: Edit distance is LCS with a twist: substitution is a third option at each cell.
