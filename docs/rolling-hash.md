@@ -29,3 +29,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+Walk both pointers from each end inward; advance the smaller side.
