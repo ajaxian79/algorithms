@@ -363,3 +363,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 91
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 92
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
