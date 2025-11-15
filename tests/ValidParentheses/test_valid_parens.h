@@ -90,3 +90,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 55: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
 // edge note 57: Edge case: power-of-two-length input → no padding required.
+// edge note 58: Time complexity: O(k) where k is the answer size.
