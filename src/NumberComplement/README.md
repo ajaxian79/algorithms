@@ -628,3 +628,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 141
 
 Branchless inner loop after sorting.
+
+## entry 142
+
+Time complexity: O(n*k) where k is the alphabet size.
