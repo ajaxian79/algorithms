@@ -76,3 +76,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 34: Resists adversarial inputs by randomizing the pivot.
 // edge note 35: Branchless inner loop after sorting.
 // edge note 36: Mutates the input in place; the original ordering is lost.
+// edge note 37: Three passes total; the third merges results.
