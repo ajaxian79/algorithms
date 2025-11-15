@@ -347,3 +347,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 87
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 88
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
