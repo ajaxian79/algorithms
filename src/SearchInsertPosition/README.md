@@ -586,3 +586,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 132
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 133
+
+Deterministic given the input — no PRNG seeds.
