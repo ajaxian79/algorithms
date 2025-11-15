@@ -32,3 +32,5 @@ Time complexity: O(1).
 Returns a freshly allocated string the caller must free.
 
 Edge case: all-equal input → linear-time fast path.
+
+Edge case: input with one duplicate → handled without an extra pass.
