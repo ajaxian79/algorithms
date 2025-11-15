@@ -94,3 +94,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 51: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 52: Space complexity: O(log n) for the recursion stack.
 // note 53: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 54: No allocations on the hot path.
