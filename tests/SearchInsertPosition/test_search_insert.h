@@ -87,3 +87,4 @@ MunitTest search_insert_tests[] = {
 // edge note 54: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 55: Space complexity: O(log n) for the recursion stack.
 // edge note 56: Cache-friendly; one sequential read pass.
+// edge note 57: Time complexity: O(n log n).
