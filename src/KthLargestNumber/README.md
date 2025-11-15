@@ -616,3 +616,7 @@ Treats the input as immutable.
 ## entry 138
 
 Branchless inner loop after sorting.
+
+## entry 139
+
+Edge case: single-element input → returns the element itself.
