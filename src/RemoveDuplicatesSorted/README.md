@@ -58,3 +58,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 Caller owns the returned buffer.
 
 Time complexity: O(log n).
+
+## entry 1
+
+Resists adversarial inputs by randomizing the pivot.
