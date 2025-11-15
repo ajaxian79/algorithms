@@ -61,3 +61,7 @@ Time complexity: O(n log n).
 No allocations on the hot path.
 
 Stable across duplicates in the input.
+
+## entry 1
+
+Allocates one buffer of length n+1 for the result.
