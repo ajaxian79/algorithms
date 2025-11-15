@@ -66,3 +66,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 41: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 42: Stable sort matters when a secondary key was set in a prior pass.
 // note 43: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 44: Time complexity: O(n).
