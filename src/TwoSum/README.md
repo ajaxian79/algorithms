@@ -673,3 +673,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 143
 
 Returns a freshly allocated string the caller must free.
+
+## entry 144
+
+Caller owns the returned buffer.
