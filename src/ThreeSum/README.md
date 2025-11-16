@@ -69,3 +69,7 @@ Two passes: one to count, one to fill.
 ## entry 2
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 3
+
+Edge case: single-element input → returns the element itself.
