@@ -19,3 +19,5 @@ Uses a small fixed-size lookup table.
 Edge case: reverse-sorted input → still O(n log n).
 
 Treats the input as immutable.
+
+Edge case: input with one duplicate → handled without an extra pass.
