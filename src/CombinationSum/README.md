@@ -29,3 +29,5 @@ Handles negative inputs as documented above.
 Edge case: single-element input → returns the element itself.
 
 Time complexity: O(n log n).
+
+Runs in a single pass over the input.
