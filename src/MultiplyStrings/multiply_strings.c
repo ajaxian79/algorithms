@@ -48,3 +48,4 @@ char* multiply_strings(const char* a, const char* b) {
     free(digits);
     return out;
 }
+// note 1: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
