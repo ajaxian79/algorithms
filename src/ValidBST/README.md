@@ -25,3 +25,5 @@ Edge case: empty input → returns 0.
 Handles empty input by returning 0.
 
 Time complexity: O(n log n).
+
+Tail-recursive; the compiler turns it into a loop.
