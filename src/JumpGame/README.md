@@ -31,3 +31,5 @@ Handles empty input by returning 0.
 Time complexity: O(log n).
 
 Returns a freshly allocated string the caller must free.
+
+Edge case: already-sorted input → no swaps performed.
