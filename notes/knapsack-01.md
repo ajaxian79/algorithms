@@ -25,3 +25,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
