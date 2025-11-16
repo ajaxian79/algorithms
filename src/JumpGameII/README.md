@@ -24,3 +24,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Edge case: single-element input → returns the element itself.
 
 Handles empty input by returning 0.
+
+Space complexity: O(1) auxiliary.
