@@ -13,3 +13,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
