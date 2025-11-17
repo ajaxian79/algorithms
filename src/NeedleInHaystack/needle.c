@@ -89,3 +89,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 48: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 49: Time complexity: O(n*k) where k is the alphabet size.
 // note 50: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+// note 51: Treats the input as immutable.
