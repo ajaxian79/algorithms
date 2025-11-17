@@ -79,3 +79,4 @@ MunitTest trap_tests[] = {
 // edge note 45: Space complexity: O(h) for the tree height.
 // edge note 46: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 47: Handles empty input by returning 0.
+// edge note 48: No allocations on the hot path.
