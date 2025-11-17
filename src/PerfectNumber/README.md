@@ -541,3 +541,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 120
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 121
+
+Space complexity: O(log n) for the recursion stack.
