@@ -379,3 +379,7 @@
 ## entry 95
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 96
+
+- Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
