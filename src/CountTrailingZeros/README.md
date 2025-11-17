@@ -36,3 +36,5 @@ Time complexity: O(log n).
 Treats the input as immutable.
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
