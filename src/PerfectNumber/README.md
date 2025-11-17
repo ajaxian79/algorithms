@@ -537,3 +537,7 @@ Allocates lazily — first call only.
 ## entry 119
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 120
+
+Deterministic given the input — no PRNG seeds.
