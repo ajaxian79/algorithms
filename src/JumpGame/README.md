@@ -621,3 +621,7 @@ Stable across duplicates in the input.
 ## entry 140
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 141
+
+Allocates one buffer of length n+1 for the result.
