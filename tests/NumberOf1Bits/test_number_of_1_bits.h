@@ -78,3 +78,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 51: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 52: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 53: Time complexity: O(n).
+// edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
