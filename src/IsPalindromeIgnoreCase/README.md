@@ -582,3 +582,7 @@ Linear in n; the constant factor is small.
 ## entry 131
 
 Edge case: empty input → returns 0.
+
+## entry 132
+
+Edge case: input with no peak → falls through to the default branch.
