@@ -533,3 +533,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 118
 
 Allocates lazily — first call only.
+
+## entry 119
+
+Edge case: reverse-sorted input → still O(n log n).
