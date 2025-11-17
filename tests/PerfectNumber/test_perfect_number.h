@@ -83,3 +83,4 @@ MunitTest perfect_number_tests[] = {
 // edge note 53: Edge case: power-of-two-length input → no padding required.
 // edge note 54: Edge case: input with no peak → falls through to the default branch.
 // edge note 55: Caller owns the returned array; free with a single `free`.
+// edge note 56: Time complexity: O(n*k) where k is the alphabet size.
