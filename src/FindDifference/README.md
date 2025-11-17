@@ -530,3 +530,7 @@ Worst case appears only on degenerate inputs.
 ## entry 118
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 119
+
+Handles negative inputs as documented above.
