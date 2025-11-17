@@ -375,3 +375,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 94
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 95
+
+Walk both pointers from each end inward; advance the smaller side.
