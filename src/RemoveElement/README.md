@@ -589,3 +589,7 @@ No allocations on the hot path.
 ## entry 133
 
 No allocations on the hot path.
+
+## entry 134
+
+Constant-time comparisons; safe for short strings.
