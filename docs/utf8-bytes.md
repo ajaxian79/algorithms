@@ -363,3 +363,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 91
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 92
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
