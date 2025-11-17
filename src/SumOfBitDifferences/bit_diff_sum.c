@@ -69,3 +69,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 51: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 // note 52: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 53: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 54: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
