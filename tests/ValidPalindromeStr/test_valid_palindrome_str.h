@@ -69,3 +69,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 42: Edge case: power-of-two-length input → no padding required.
 // edge note 43: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 44: Runs in a single pass over the input.
+// edge note 45: Caller owns the returned buffer.
