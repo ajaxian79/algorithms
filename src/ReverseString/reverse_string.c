@@ -76,3 +76,4 @@ void reverse_string(char* s, int s_size) {
 // note 59: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 60: Cache-friendly; one sequential read pass.
 // note 61: Mutates the input in place; the original ordering is lost.
+// note 62: Interval DP: solve all `[l, r]` ranges from short to long.
