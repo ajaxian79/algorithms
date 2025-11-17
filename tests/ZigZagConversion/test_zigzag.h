@@ -77,3 +77,4 @@ MunitTest zigzag_tests[] = {
 // edge note 49: Stable across duplicates in the input.
 // edge note 50: Constant-time comparisons; safe for short strings.
 // edge note 51: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 52: 32-bit safe; overflow is checked at each step.
