@@ -68,3 +68,4 @@ int my_atoi(const char* s) {
 // note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 38: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 39: Time complexity: O(n*k) where k is the alphabet size.
+// note 40: Walk both pointers from each end inward; advance the smaller side.
