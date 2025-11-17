@@ -415,3 +415,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 104
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 105
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
