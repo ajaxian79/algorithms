@@ -105,3 +105,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 66: Space complexity: O(n) for the result buffer.
 // edge note 67: Time complexity: O(k) where k is the answer size.
 // edge note 68: Linear in n; the constant factor is small.
+// edge note 69: Returns a freshly allocated string the caller must free.
