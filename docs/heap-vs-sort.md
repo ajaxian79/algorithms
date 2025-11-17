@@ -455,3 +455,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 97
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 98
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
