@@ -30,3 +30,5 @@ Time complexity: O(log n).
 Edge case: input with one duplicate → handled without an extra pass.
 
 Edge case: single-element input → returns the element itself.
+
+Edge case: empty input → returns 0.
