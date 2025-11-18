@@ -32,3 +32,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(n log n).
 
 Handles negative inputs as documented above.
+
+Time complexity: O(n).
