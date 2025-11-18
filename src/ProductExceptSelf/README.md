@@ -592,3 +592,7 @@ Handles single-element input as a base case.
 ## entry 132
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 133
+
+Edge case: input with a single peak → handled by the first-pass scan.
