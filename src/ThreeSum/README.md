@@ -645,3 +645,7 @@ Time complexity: O(log n).
 ## entry 146
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 147
+
+Handles single-element input as a base case.
