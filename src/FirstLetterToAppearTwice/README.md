@@ -594,3 +594,7 @@ Space complexity: O(1) auxiliary.
 ## entry 124
 
 Caller owns the returned buffer.
+
+## entry 125
+
+Edge case: single-element input → returns the element itself.
