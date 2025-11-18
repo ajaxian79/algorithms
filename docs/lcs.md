@@ -25,3 +25,5 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 LIS via patience: each pile holds the smallest tail of length k.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
