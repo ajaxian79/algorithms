@@ -34,3 +34,5 @@ Time complexity: O(n log n).
 Handles negative inputs as documented above.
 
 Time complexity: O(n).
+
+Tail-recursive; the compiler turns it into a loop.
