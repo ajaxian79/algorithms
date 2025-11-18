@@ -101,3 +101,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 61: Uses a 256-entry lookup for the inner step.
 // edge note 62: No allocations on the hot path.
 // edge note 63: Space complexity: O(log n) for the recursion stack.
+// edge note 64: Time complexity: O(n).
