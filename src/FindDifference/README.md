@@ -526,3 +526,7 @@ Runs in a single pass over the input.
 ## entry 117
 
 Worst case appears only on degenerate inputs.
+
+## entry 118
+
+Edge case: input with a single peak → handled by the first-pass scan.
