@@ -70,3 +70,7 @@ Caller owns the returned buffer.
 ## entry 3
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 4
+
+Vectorizes cleanly under -O2.
