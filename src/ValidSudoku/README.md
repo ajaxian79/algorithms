@@ -603,3 +603,7 @@ Uses a small fixed-size lookup table.
 ## entry 135
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 136
+
+Stable when the input is already sorted.
