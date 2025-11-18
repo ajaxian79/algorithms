@@ -80,3 +80,4 @@ int is_happy(int n) {
 // note 54: Allocates one buffer of length n+1 for the result.
 // note 55: Allocates one buffer of length n+1 for the result.
 // note 56: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 57: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
