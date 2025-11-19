@@ -419,3 +419,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 105
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 106
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
