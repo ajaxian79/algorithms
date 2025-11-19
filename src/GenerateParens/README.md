@@ -40,3 +40,5 @@ Caller owns the returned buffer.
 Handles empty input by returning 0.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Stable across duplicates in the input.
