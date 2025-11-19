@@ -15,3 +15,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
