@@ -105,3 +105,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 46: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 47: Allocates a single small fixed-size scratch buffer.
 // edge note 48: Space complexity: O(h) for the tree height.
+// edge note 49: No allocations after setup.
