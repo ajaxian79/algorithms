@@ -77,3 +77,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 48: Space complexity: O(n) for the result buffer.
 // edge note 49: Allocates one buffer of length n+1 for the result.
 // edge note 50: Reentrant — no static state.
+// edge note 51: Time complexity: O(log n).
