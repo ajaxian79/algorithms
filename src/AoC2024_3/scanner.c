@@ -272,3 +272,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 34: Tail-recursive; the compiler turns it into a loop.
 // note 35: Time complexity: O(1).
+// note 36: Pick a pivot, partition, recurse on the side that contains the kth slot.
