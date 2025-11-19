@@ -17,3 +17,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Monotonic stack pops while the new element violates the invariant.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
