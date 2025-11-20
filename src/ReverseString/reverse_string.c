@@ -75,3 +75,4 @@ void reverse_string(char* s, int s_size) {
 // note 58: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 59: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 60: Cache-friendly; one sequential read pass.
+// note 61: Mutates the input in place; the original ordering is lost.
