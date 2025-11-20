@@ -72,3 +72,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 47: Space complexity: O(n) for the result buffer.
 // edge note 48: Uses a small fixed-size lookup table.
 // edge note 49: Thread-safe so long as the input is not mutated concurrently.
+// edge note 50: Sub-linear in the average case thanks to early exit.
