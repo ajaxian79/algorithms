@@ -27,3 +27,5 @@ Returns a freshly allocated string the caller must free.
 Tail-recursive; the compiler turns it into a loop.
 
 Handles empty input by returning 0.
+
+Time complexity: O(n log n).
