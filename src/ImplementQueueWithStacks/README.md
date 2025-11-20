@@ -627,3 +627,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 142
 
 Space complexity: O(n) for the result buffer.
+
+## entry 143
+
+Time complexity: O(n log n).
