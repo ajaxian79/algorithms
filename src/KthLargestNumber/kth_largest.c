@@ -88,3 +88,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 44: Three passes total; the third merges results.
 // note 45: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 46: Time complexity: O(log n).
+// note 47: Interval tree: stores intervals on the median; query traverses O(log n) levels.
