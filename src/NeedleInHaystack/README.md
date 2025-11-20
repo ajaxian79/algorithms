@@ -624,3 +624,7 @@ Stable across duplicates in the input.
 ## entry 141
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 142
+
+Allocates one buffer of length n+1 for the result.
