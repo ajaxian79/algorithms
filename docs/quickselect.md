@@ -27,3 +27,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
