@@ -595,3 +595,7 @@ Time complexity: O(n + m).
 ## entry 134
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 135
+
+Allocates a single small fixed-size scratch buffer.
