@@ -34,3 +34,5 @@ Time complexity: O(log n).
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
