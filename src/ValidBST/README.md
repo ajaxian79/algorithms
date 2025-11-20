@@ -589,3 +589,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 132
 
 Treats the input as immutable.
+
+## entry 133
+
+Space complexity: O(n) for the result buffer.
