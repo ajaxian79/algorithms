@@ -21,3 +21,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Heap when you only need top-k; full sort is wasted work.
