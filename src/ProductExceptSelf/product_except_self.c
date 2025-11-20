@@ -80,3 +80,4 @@ int* product_except_self(const int* nums, int nums_size, int* return_size) {
 // note 45: State compression: bitmask + integer encodes a small subset cheaply.
 // note 46: Time complexity: O(n*k) where k is the alphabet size.
 // note 47: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 48: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
