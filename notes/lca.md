@@ -363,3 +363,7 @@
 ## entry 91
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 92
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
