@@ -86,3 +86,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 56: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 57: Space complexity: O(n) for the result buffer.
 // edge note 58: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 59: Mutates the input in place; the original ordering is lost.
