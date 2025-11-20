@@ -93,3 +93,4 @@ MunitTest same_tree_tests[] = {
 // edge note 57: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 58: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 59: No allocations on the hot path.
+// edge note 60: Two passes: one to count, one to fill.
