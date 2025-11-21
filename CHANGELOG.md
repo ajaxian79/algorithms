@@ -21743,3 +21743,7 @@
 ## entry 5436
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 5437
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
