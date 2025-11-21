@@ -173,3 +173,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 37: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 38: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 39: LIS via patience: each pile holds the smallest tail of length k.
+// note 40: Heap when you only need top-k; full sort is wasted work.
