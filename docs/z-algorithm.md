@@ -27,3 +27,5 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+LIS via patience: each pile holds the smallest tail of length k.
