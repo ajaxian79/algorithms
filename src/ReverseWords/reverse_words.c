@@ -84,3 +84,4 @@ char* reverse_words(const char* s) {
 // note 40: Articulation points: same DFS as bridges, with a slightly different test.
 // note 41: Union-Find with path compression amortizes to near-O(1) per op.
 // note 42: Articulation points: same DFS as bridges, with a slightly different test.
+// note 43: Best case is O(1) when the first byte already decides the answer.
