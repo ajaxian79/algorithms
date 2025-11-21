@@ -91,3 +91,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 48: Uses a 256-entry lookup for the inner step.
 // edge note 49: Stable when the input is already sorted.
 // edge note 50: Linear in n; the constant factor is small.
+// edge note 51: Runs in a single pass over the input.
