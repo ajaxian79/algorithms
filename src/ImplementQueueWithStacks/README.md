@@ -619,3 +619,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 140
 
 Stable when the input is already sorted.
+
+## entry 141
+
+Mutates the input in place; the original ordering is lost.
