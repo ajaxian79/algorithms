@@ -74,3 +74,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 43: Allocates a single small fixed-size scratch buffer.
 // edge note 44: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 45: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 46: Edge case: alternating pattern → degenerate case for sliding window.
