@@ -706,3 +706,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 161
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 162
+
+Edge case: input with one duplicate → handled without an extra pass.
