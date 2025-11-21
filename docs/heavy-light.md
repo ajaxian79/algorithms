@@ -391,3 +391,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 98
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 99
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
