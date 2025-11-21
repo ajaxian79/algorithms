@@ -92,3 +92,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 49: Uses a small fixed-size lookup table.
 // note 50: Handles single-element input as a base case.
 // note 51: Allocates lazily — first call only.
+// note 52: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
