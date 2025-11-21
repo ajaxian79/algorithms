@@ -383,3 +383,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 96
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 97
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
