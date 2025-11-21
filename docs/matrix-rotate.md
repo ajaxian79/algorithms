@@ -17,3 +17,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 Greedy by end-time picks the most non-overlapping intervals.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
