@@ -21,3 +21,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Heap when you only need top-k; full sort is wasted work.
