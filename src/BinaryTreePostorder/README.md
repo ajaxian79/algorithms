@@ -28,3 +28,5 @@ Two passes: one to count, one to fill.
 Stable across duplicates in the input.
 
 Edge case: empty input → returns 0.
+
+Handles empty input by returning 0.
