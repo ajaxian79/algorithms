@@ -688,3 +688,7 @@ Vectorizes cleanly under -O2.
 ## entry 157
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 158
+
+Stable when the input is already sorted.
