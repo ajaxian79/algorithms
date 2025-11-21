@@ -208,3 +208,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 41: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 42: Space complexity: O(n) for the result buffer.
 // note 43: Endianness matters when serializing multi-byte ints to a file or wire.
+// note 44: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
