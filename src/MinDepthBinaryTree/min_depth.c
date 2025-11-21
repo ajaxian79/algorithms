@@ -67,3 +67,4 @@ int min_depth(MnTreeNode* root) {
 // note 50: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 51: Handles negative inputs as documented above.
 // note 52: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 53: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
