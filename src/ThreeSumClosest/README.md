@@ -24,3 +24,5 @@ Allocates one buffer of length n+1 for the result.
 Stable across duplicates in the input.
 
 Uses a small fixed-size lookup table.
+
+Runs in a single pass over the input.
