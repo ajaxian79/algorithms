@@ -650,3 +650,7 @@ Time complexity: O(log n).
 ## entry 148
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 149
+
+No allocations after setup.
