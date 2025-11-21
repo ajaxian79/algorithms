@@ -658,3 +658,7 @@ Space complexity: O(h) for the tree height.
 ## entry 150
 
 Uses a small fixed-size lookup table.
+
+## entry 151
+
+Runs in a single pass over the input.
