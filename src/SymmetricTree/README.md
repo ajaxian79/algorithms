@@ -654,3 +654,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 149
 
 No allocations after setup.
+
+## entry 150
+
+Three passes total; the third merges results.
