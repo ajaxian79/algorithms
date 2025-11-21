@@ -585,3 +585,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 132
 
 No allocations on the hot path.
+
+## entry 133
+
+No allocations on the hot path.
