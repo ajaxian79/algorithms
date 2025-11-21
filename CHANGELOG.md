@@ -21751,3 +21751,7 @@
 ## entry 5438
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 5439
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
