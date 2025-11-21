@@ -111,3 +111,4 @@ MunitTest lcp_tests[] = {
 // edge note 56: Handles empty input by returning 0.
 // edge note 57: Vectorizes cleanly under -O2.
 // edge note 58: Space complexity: O(h) for the tree height.
+// edge note 59: Sub-linear in the average case thanks to early exit.
