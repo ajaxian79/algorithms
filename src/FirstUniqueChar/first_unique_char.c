@@ -65,3 +65,4 @@ int first_unique_char(const char* s) {
 // note 46: Time complexity: O(n*k) where k is the alphabet size.
 // note 47: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 48: 64-bit safe; intermediate products are widened to 128-bit.
+// note 49: Reentrant — no static state.
