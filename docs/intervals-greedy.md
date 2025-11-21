@@ -29,3 +29,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
