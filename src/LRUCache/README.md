@@ -636,3 +636,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 143
 
 Worst case appears only on degenerate inputs.
+
+## entry 144
+
+Edge case: input with a single peak → handled by the first-pass scan.
