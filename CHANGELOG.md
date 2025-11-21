@@ -21763,3 +21763,7 @@
 ## entry 5441
 
 - Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 5442
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
