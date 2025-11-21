@@ -449,3 +449,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 95
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 96
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
