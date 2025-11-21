@@ -469,3 +469,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 100
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 101
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
