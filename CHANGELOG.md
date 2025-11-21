@@ -21755,3 +21755,7 @@
 ## entry 5439
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 5440
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
