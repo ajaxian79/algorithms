@@ -407,3 +407,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 102
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 103
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
