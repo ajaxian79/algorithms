@@ -66,3 +66,4 @@ int min_depth(MnTreeNode* root) {
 // note 49: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 50: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 51: Handles negative inputs as documented above.
+// note 52: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
