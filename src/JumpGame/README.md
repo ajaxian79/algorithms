@@ -613,3 +613,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 138
 
 32-bit safe; overflow is checked at each step.
+
+## entry 139
+
+Stable across duplicates in the input.
