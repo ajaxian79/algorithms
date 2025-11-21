@@ -654,3 +654,7 @@ Handles negative inputs as documented above.
 ## entry 149
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 150
+
+Sub-linear in the average case thanks to early exit.
