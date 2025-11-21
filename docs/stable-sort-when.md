@@ -501,3 +501,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 111
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 112
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
