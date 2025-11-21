@@ -76,3 +76,4 @@ int compare_version(const char* a, const char* b) {
 // note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 47: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 48: 32-bit safe; overflow is checked at each step.
+// note 49: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
