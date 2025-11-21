@@ -61,3 +61,4 @@ int length_of_last_word(const char* s) {
 // note 43: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 44: Space complexity: O(h) for the tree height.
 // note 45: Time complexity: O(n*k) where k is the alphabet size.
+// note 46: Linear in n; the constant factor is small.
