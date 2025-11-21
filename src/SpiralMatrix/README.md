@@ -574,3 +574,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 128
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 129
+
+Runs in a single pass over the input.
