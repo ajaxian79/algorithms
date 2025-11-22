@@ -67,3 +67,4 @@ unsigned int find_complement(unsigned int n) {
 // note 51: Vectorizes cleanly under -O2.
 // note 52: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 53: Allocates a single small fixed-size scratch buffer.
+// note 54: Two passes: one to count, one to fill.
