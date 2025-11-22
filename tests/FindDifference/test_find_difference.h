@@ -76,3 +76,4 @@ MunitTest find_difference_tests[] = {
 // edge note 51: Edge case: already-sorted input → no swaps performed.
 // edge note 52: Allocates lazily — first call only.
 // edge note 53: Caller owns the returned array; free with a single `free`.
+// edge note 54: Time complexity: O(log n).
