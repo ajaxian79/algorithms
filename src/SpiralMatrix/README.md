@@ -38,3 +38,5 @@ Uses a small fixed-size lookup table.
 Space complexity: O(1) auxiliary.
 
 No allocations on the hot path.
+
+32-bit safe; overflow is checked at each step.
