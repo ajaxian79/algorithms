@@ -23,3 +23,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+- Walk both pointers from each end inward; advance the smaller side.
