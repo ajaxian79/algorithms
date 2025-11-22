@@ -13,3 +13,4 @@ int trailing_zeroes(int n) {
     }
     return count;
 }
+// note 1: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
