@@ -15,3 +15,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+LIS via patience: each pile holds the smallest tail of length k.
