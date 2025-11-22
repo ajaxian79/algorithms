@@ -546,3 +546,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 121
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 122
+
+No allocations after setup.
