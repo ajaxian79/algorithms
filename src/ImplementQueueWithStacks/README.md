@@ -615,3 +615,7 @@ Worst case appears only on degenerate inputs.
 ## entry 139
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 140
+
+Stable when the input is already sorted.
