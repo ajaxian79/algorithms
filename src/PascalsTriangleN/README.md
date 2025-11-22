@@ -26,3 +26,5 @@ Space complexity: O(1) auxiliary.
 Edge case: single-element input → returns the element itself.
 
 Two passes: one to count, one to fill.
+
+Caller owns the returned buffer.
