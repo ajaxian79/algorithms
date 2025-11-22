@@ -624,3 +624,7 @@ Time complexity: O(n).
 ## entry 141
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 142
+
+Mutates the input in place; the original ordering is lost.
