@@ -471,3 +471,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 101
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 102
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
