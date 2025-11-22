@@ -29,3 +29,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
