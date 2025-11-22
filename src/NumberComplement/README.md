@@ -620,3 +620,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 139
 
 Runs in a single pass over the input.
+
+## entry 140
+
+Caller owns the returned array; free with a single `free`.
