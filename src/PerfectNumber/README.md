@@ -529,3 +529,7 @@ Time complexity: O(log n).
 ## entry 117
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 118
+
+Allocates lazily — first call only.
