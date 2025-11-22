@@ -570,3 +570,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 127
 
 Worst case appears only on degenerate inputs.
+
+## entry 128
+
+Handles empty input by returning 0.
