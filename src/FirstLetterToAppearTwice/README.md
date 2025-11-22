@@ -66,3 +66,5 @@ Space complexity: O(n) for the result buffer.
 Time complexity: O(n log n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: single-element input → returns the element itself.
