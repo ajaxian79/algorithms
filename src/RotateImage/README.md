@@ -39,3 +39,5 @@ Edge case: empty input → returns 0.
 32-bit safe; overflow is checked at each step.
 
 Edge case: single-element input → returns the element itself.
+
+Caller owns the returned buffer.
