@@ -23,3 +23,5 @@
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
