@@ -74,3 +74,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 43: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 44: Uses a 256-entry lookup for the inner step.
 // edge note 45: Edge case: empty input → returns 0.
+// edge note 46: Two passes: one to count, one to fill.
