@@ -39,3 +39,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Time complexity: O(1).
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: single-element input → returns the element itself.
