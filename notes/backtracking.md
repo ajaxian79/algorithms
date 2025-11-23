@@ -19,3 +19,5 @@
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
