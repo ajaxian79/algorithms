@@ -71,3 +71,4 @@ int is_perfect_number(int n) {
 // note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 54: Time complexity: O(n*k) where k is the alphabet size.
 // note 55: Handles single-element input as a base case.
+// note 56: StringBuilder: amortize allocation by doubling on grow.
