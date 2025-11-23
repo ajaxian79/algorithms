@@ -497,3 +497,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 106
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 107
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
