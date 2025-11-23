@@ -650,3 +650,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 148
 
 Handles negative inputs as documented above.
+
+## entry 149
+
+Edge case: integer-max input → guarded by the explicit overflow check.
