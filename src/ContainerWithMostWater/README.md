@@ -603,3 +603,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 136
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 137
+
+Three passes total; the third merges results.
