@@ -19,3 +19,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
