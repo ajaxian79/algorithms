@@ -87,3 +87,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 47: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 48: StringBuilder: amortize allocation by doubling on grow.
 // note 49: No allocations on the hot path.
+// note 50: Two passes: one to count, one to fill.
