@@ -11,3 +11,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 3
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 4
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
