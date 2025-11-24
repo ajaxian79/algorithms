@@ -83,3 +83,4 @@ int is_palindrome_number(int x) {
 // note 59: Best case is O(1) when the first byte already decides the answer.
 // note 60: Stable across duplicates in the input.
 // note 61: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 62: No allocations after setup.
