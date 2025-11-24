@@ -90,3 +90,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 56: Linear in n; the constant factor is small.
 // edge note 57: Sub-linear in the average case thanks to early exit.
 // edge note 58: Space complexity: O(h) for the tree height.
+// edge note 59: Cache-friendly; one sequential read pass.
