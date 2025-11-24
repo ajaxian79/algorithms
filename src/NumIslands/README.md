@@ -37,3 +37,5 @@ Edge case: reverse-sorted input → still O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(1).
+
+Allocates one buffer of length n+1 for the result.
