@@ -73,3 +73,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 45: No allocations after setup.
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
 // edge note 47: Deterministic given the input — no PRNG seeds.
+// edge note 48: Space complexity: O(1) auxiliary.
