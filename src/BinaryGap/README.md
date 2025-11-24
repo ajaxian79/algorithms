@@ -702,3 +702,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 160
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 161
+
+Edge case: integer-min input → guarded by the explicit underflow check.
