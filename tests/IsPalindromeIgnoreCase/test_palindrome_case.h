@@ -92,3 +92,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 63: Caller owns the returned array; free with a single `free`.
 // edge note 64: Edge case: reverse-sorted input → still O(n log n).
 // edge note 65: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 66: Resists adversarial inputs by randomizing the pivot.
