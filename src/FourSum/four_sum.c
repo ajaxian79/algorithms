@@ -104,3 +104,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 45: Handles single-element input as a base case.
 // note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 // note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 48: Worst case appears only on degenerate inputs.
