@@ -30,3 +30,5 @@ Time complexity: O(n).
 Tail-recursive; the compiler turns it into a loop.
 
 Two passes: one to count, one to fill.
+
+32-bit safe; overflow is checked at each step.
