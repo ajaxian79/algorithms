@@ -166,3 +166,4 @@ MunitTest median_tests[] = {
 // edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 48: Allocates lazily — first call only.
 // edge note 49: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
