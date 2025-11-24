@@ -85,3 +85,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 54: Worst case appears only on degenerate inputs.
 // edge note 55: Edge case: input with no peak → falls through to the default branch.
 // edge note 56: Edge case: reverse-sorted input → still O(n log n).
+// edge note 57: Avoids floating-point entirely — integer math throughout.
