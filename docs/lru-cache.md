@@ -359,3 +359,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 90
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 91
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
