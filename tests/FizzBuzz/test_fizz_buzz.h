@@ -91,3 +91,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 41: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 42: Constant-time comparisons; safe for short strings.
 // edge note 43: Three passes total; the third merges results.
+// edge note 44: Deterministic given the input — no PRNG seeds.
