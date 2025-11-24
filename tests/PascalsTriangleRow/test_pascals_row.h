@@ -108,3 +108,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 53: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 54: Space complexity: O(1) auxiliary.
 // edge note 55: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 56: Allocates one buffer of length n+1 for the result.
