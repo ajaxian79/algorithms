@@ -421,3 +421,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 89
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 90
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
