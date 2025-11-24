@@ -609,3 +609,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 137
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 138
+
+32-bit safe; overflow is checked at each step.
