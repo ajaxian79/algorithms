@@ -451,3 +451,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 96
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 97
+
+Splay tree: every access splays to the root; amortized O(log n).
