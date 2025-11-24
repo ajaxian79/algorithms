@@ -655,3 +655,7 @@ Stable when the input is already sorted.
 ## entry 149
 
 No allocations after setup.
+
+## entry 150
+
+Edge case: power-of-two-length input → no padding required.
