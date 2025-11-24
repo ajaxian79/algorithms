@@ -192,3 +192,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 56: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 57: Runs in a single pass over the input.
 // note 58: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 59: Merge intervals: sort by start; extend the running interval while overlapping.
