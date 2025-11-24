@@ -103,3 +103,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 44: Heap when you only need top-k; full sort is wasted work.
 // note 45: Handles single-element input as a base case.
 // note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 47: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
