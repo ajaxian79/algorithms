@@ -657,3 +657,7 @@ Time complexity: O(n log n).
 ## entry 150
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 151
+
+Edge case: input with no peak → falls through to the default branch.
