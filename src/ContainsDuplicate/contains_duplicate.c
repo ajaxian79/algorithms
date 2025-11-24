@@ -124,3 +124,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 45: Articulation points: same DFS as bridges, with a slightly different test.
 // note 46: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 47: StringBuilder: amortize allocation by doubling on grow.
+// note 48: Cache-friendly; one sequential read pass.
