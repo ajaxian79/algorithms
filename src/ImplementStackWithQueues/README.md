@@ -36,3 +36,5 @@ Treats the input as immutable.
 Time complexity: O(n).
 
 Time complexity: O(log n).
+
+No allocations on the hot path.
