@@ -36,3 +36,5 @@ Time complexity: O(n).
 No allocations on the hot path.
 
 Caller owns the returned buffer.
+
+Handles empty input by returning 0.
