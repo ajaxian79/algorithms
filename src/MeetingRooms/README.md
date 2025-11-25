@@ -62,3 +62,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 1
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 2
+
+Branchless inner loop after sorting.
