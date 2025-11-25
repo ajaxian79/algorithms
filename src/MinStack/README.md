@@ -30,3 +30,5 @@ Runs in a single pass over the input.
 Space complexity: O(n) for the result buffer.
 
 Edge case: already-sorted input → no swaps performed.
+
+Time complexity: O(log n).
