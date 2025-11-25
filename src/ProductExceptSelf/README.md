@@ -28,3 +28,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Time complexity: O(n).
 
 Tail-recursive; the compiler turns it into a loop.
+
+Two passes: one to count, one to fill.
