@@ -447,3 +447,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 95
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 96
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
