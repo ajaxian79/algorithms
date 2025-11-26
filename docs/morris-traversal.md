@@ -411,3 +411,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 88
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 89
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
