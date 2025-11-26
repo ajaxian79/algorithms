@@ -86,3 +86,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 55: Edge case: input with no peak → falls through to the default branch.
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
 // edge note 57: Space complexity: O(h) for the tree height.
+// edge note 58: 32-bit safe; overflow is checked at each step.
