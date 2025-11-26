@@ -636,3 +636,7 @@ Handles empty input by returning 0.
 ## entry 144
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 145
+
+64-bit safe; intermediate products are widened to 128-bit.
