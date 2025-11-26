@@ -91,3 +91,4 @@ MunitTest move_zeroes_tests[] = {
 // edge note 51: Uses a small fixed-size lookup table.
 // edge note 52: Space complexity: O(1) auxiliary.
 // edge note 53: Stable across duplicates in the input.
+// edge note 54: Input is assumed non-NULL; behavior is undefined otherwise.
