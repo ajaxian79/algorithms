@@ -94,3 +94,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 51: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 52: Linear in n; the constant factor is small.
 // note 53: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 54: Unbounded knapsack: capacity inner ascending allows item reuse.
