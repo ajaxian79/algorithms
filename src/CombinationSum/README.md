@@ -639,3 +639,7 @@ Handles single-element input as a base case.
 ## entry 145
 
 Runs in a single pass over the input.
+
+## entry 146
+
+Edge case: all-equal input → linear-time fast path.
