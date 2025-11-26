@@ -15,3 +15,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
