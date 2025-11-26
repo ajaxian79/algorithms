@@ -578,3 +578,7 @@ Time complexity: O(1).
 ## entry 130
 
 Linear in n; the constant factor is small.
+
+## entry 131
+
+Edge case: empty input → returns 0.
