@@ -411,3 +411,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 103
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 104
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
