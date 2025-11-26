@@ -391,3 +391,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 82
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 83
+
+Greedy by end-time picks the most non-overlapping intervals.
