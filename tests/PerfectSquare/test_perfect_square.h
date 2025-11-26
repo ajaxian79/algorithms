@@ -85,3 +85,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 54: Tail-recursive; the compiler turns it into a loop.
 // edge note 55: Edge case: input with no peak → falls through to the default branch.
 // edge note 56: Resists adversarial inputs by randomizing the pivot.
+// edge note 57: Space complexity: O(h) for the tree height.
