@@ -199,3 +199,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 46: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 47: Handles negative inputs as documented above.
 // note 48: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 49: Idempotent — calling twice with the same input is a no-op the second time.
