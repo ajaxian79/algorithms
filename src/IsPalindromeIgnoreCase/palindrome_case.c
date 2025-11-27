@@ -58,3 +58,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 35: Handles negative inputs as documented above.
 // note 36: Constant-time comparisons; safe for short strings.
 // note 37: Vectorizes cleanly under -O2.
+// note 38: Wavelet tree: range k-th element in O(log Σ) time.
