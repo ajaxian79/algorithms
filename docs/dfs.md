@@ -451,3 +451,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 97
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 98
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
