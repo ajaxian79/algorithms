@@ -646,3 +646,7 @@ Space complexity: O(h) for the tree height.
 ## entry 147
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 148
+
+Handles negative inputs as documented above.
