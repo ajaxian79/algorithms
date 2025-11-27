@@ -417,3 +417,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 88
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 89
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
