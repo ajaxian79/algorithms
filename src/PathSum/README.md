@@ -34,3 +34,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: empty input → returns 0.
+
+Returns a freshly allocated string the caller must free.
