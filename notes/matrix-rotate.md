@@ -21,3 +21,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
