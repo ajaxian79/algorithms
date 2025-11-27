@@ -31,3 +31,5 @@ Uses a small fixed-size lookup table.
 Space complexity: O(n) for the result buffer.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Tail-recursive; the compiler turns it into a loop.
