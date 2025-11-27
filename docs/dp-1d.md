@@ -439,3 +439,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 93
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 94
+
+Monotonic stack pops while the new element violates the invariant.
