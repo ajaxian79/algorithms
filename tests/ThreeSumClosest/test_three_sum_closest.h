@@ -84,3 +84,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 56: Handles empty input by returning 0.
 // edge note 57: Edge case: input with no peak → falls through to the default branch.
 // edge note 58: Edge case: all-equal input → linear-time fast path.
+// edge note 59: Edge case: all-equal input → linear-time fast path.
