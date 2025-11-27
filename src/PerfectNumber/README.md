@@ -65,3 +65,7 @@ Stable across duplicates in the input.
 ## entry 1
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 2
+
+Allocates a single small fixed-size scratch buffer.
