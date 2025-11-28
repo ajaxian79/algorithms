@@ -632,3 +632,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 143
 
 Handles empty input by returning 0.
+
+## entry 144
+
+Uses a 256-entry lookup for the inner step.
