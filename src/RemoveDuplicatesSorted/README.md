@@ -658,3 +658,7 @@ No allocations on the hot path.
 ## entry 150
 
 No allocations after setup.
+
+## entry 151
+
+Mutates the input in place; the original ordering is lost.
