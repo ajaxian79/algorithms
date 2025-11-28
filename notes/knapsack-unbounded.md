@@ -433,3 +433,7 @@
 ## entry 92
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 93
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
