@@ -23,3 +23,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(n log n).
 
 Time complexity: O(1).
+
+Handles empty input by returning 0.
