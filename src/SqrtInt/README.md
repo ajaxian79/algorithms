@@ -17,3 +17,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Uses a small fixed-size lookup table.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Treats the input as immutable.
