@@ -87,3 +87,4 @@ int reverse_int(int x) {
 // note 60: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 61: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 62: Time complexity: O(k) where k is the answer size.
+// note 63: LCA via binary lifting: jump up powers of two until depths match, then converge.
