@@ -28,3 +28,5 @@ No allocations on the hot path.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Tail-recursive; the compiler turns it into a loop.
