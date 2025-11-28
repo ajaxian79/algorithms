@@ -36,3 +36,5 @@ Edge case: all-equal input → linear-time fast path.
 Edge case: reverse-sorted input → still O(n log n).
 
 Runs in a single pass over the input.
+
+Returns a freshly allocated string the caller must free.
