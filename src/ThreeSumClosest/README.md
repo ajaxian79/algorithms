@@ -22,3 +22,5 @@ Allocates one buffer of length n+1 for the result.
 32-bit safe; overflow is checked at each step.
 
 Stable across duplicates in the input.
+
+Uses a small fixed-size lookup table.
