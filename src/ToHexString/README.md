@@ -591,3 +591,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 133
 
 Time complexity: O(n + m).
+
+## entry 134
+
+Resists adversarial inputs by randomizing the pivot.
