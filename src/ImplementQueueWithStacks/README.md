@@ -611,3 +611,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 138
 
 Worst case appears only on degenerate inputs.
+
+## entry 139
+
+Edge case: all-equal input → linear-time fast path.
