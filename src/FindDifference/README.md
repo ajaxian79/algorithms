@@ -522,3 +522,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 116
 
 Runs in a single pass over the input.
+
+## entry 117
+
+Worst case appears only on degenerate inputs.
