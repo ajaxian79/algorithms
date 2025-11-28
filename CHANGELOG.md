@@ -21643,3 +21643,7 @@
 ## entry 5411
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 5412
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
