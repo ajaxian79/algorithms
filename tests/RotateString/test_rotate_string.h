@@ -70,3 +70,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 43: No allocations after setup.
 // edge note 44: Allocates a single small fixed-size scratch buffer.
 // edge note 45: Edge case: already-sorted input → no swaps performed.
+// edge note 46: Time complexity: O(1).
