@@ -109,3 +109,4 @@ int** combination_sum(int* candidates, int n, int target,
 // note 44: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 45: Uses a small fixed-size lookup table.
 // note 46: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 47: No allocations after setup.
