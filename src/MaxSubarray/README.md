@@ -26,3 +26,5 @@ Edge case: all-equal input → linear-time fast path.
 Handles empty input by returning 0.
 
 No allocations on the hot path.
+
+Returns a freshly allocated string the caller must free.
