@@ -19,3 +19,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Union-Find with path compression amortizes to near-O(1) per op.
