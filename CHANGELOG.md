@@ -21655,3 +21655,7 @@
 ## entry 5414
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 5415
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
