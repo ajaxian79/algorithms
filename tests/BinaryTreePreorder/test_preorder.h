@@ -109,3 +109,4 @@ MunitTest preorder_tests[] = {
 // edge note 65: Time complexity: O(1).
 // edge note 66: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 67: Edge case: single-element input → returns the element itself.
+// edge note 68: Handles single-element input as a base case.
