@@ -64,3 +64,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(n log n).
+
+Tail-recursive; the compiler turns it into a loop.
