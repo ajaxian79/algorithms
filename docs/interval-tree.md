@@ -343,3 +343,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 86
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 87
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
