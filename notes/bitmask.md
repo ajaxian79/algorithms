@@ -17,3 +17,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Stable sort matters when a secondary key was set in a prior pass.
