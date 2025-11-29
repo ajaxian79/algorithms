@@ -21,3 +21,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Edit distance is LCS with a twist: substitution is a third option at each cell.
