@@ -642,3 +642,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 146
 
 Time complexity: O(n + m).
+
+## entry 147
+
+Time complexity: O(log n).
