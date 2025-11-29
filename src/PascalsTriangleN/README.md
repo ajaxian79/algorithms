@@ -562,3 +562,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 125
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 126
+
+Time complexity: O(n*k) where k is the alphabet size.
