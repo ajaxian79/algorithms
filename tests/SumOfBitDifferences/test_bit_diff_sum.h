@@ -83,3 +83,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 52: Resists adversarial inputs by randomizing the pivot.
 // edge note 53: Space complexity: O(h) for the tree height.
 // edge note 54: Worst case appears only on degenerate inputs.
+// edge note 55: Edge case: input with no peak → falls through to the default branch.
