@@ -17,3 +17,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
