@@ -32,3 +32,5 @@ Edge case: empty input → returns 0.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(n log n).
+
+No allocations on the hot path.
