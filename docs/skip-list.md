@@ -379,3 +379,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 95
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 96
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
