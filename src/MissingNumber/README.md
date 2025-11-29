@@ -34,3 +34,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(log n).
 
 Allocates one buffer of length n+1 for the result.
+
+Space complexity: O(1) auxiliary.
