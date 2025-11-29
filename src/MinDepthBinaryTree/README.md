@@ -18,3 +18,5 @@ No allocations on the hot path.
 Edge case: single-element input → returns the element itself.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Time complexity: O(n log n).
