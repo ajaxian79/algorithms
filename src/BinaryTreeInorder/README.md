@@ -26,3 +26,5 @@ Handles empty input by returning 0.
 Edge case: empty input → returns 0.
 
 Edge case: all-equal input → linear-time fast path.
+
+Time complexity: O(1).
