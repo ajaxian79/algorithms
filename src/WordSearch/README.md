@@ -28,3 +28,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Time complexity: O(log n).
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Edge case: single-element input → returns the element itself.
