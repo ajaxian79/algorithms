@@ -64,3 +64,4 @@ int trailing_zeroes(int n) {
 // note 49: Monotonic stack pops while the new element violates the invariant.
 // note 50: Space complexity: O(1) auxiliary.
 // note 51: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 52: Euler tour flattens a tree into an array for range-query LCA.
