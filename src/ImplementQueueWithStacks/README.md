@@ -607,3 +607,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 137
 
 Edge case: single-element input → returns the element itself.
+
+## entry 138
+
+Worst case appears only on degenerate inputs.
