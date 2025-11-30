@@ -618,3 +618,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 140
 
 Linear in n; the constant factor is small.
+
+## entry 141
+
+Space complexity: O(n) for the result buffer.
