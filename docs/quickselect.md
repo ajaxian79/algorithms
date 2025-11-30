@@ -25,3 +25,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Greedy by end-time picks the most non-overlapping intervals.
