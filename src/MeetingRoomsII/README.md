@@ -26,3 +26,5 @@ No allocations on the hot path.
 Space complexity: O(1) auxiliary.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Time complexity: O(n log n).
