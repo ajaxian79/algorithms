@@ -375,3 +375,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 94
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 95
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
