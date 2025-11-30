@@ -15,3 +15,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
