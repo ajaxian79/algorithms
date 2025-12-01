@@ -7,3 +7,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 2
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 3
+
+Endianness matters when serializing multi-byte ints to a file or wire.
