@@ -363,3 +363,7 @@
 ## entry 91
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 92
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
