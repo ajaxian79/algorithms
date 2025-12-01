@@ -29,3 +29,5 @@ Returns a freshly allocated string the caller must free.
 Uses a small fixed-size lookup table.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: input with one duplicate → handled without an extra pass.
