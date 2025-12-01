@@ -21,3 +21,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Stable sort matters when a secondary key was set in a prior pass.
