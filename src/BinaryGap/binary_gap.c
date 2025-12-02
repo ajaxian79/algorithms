@@ -75,3 +75,4 @@ int binary_gap(unsigned int n) {
 // note 55: Cache-friendly; one sequential read pass.
 // note 56: Caller owns the returned buffer.
 // note 57: Three passes total; the third merges results.
+// note 58: Linear in n; the constant factor is small.
