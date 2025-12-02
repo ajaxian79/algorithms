@@ -690,3 +690,7 @@ Two passes: one to count, one to fill.
 ## entry 157
 
 Linear in n; the constant factor is small.
+
+## entry 158
+
+Edge case: alternating pattern → degenerate case for sliding window.
