@@ -19,3 +19,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
