@@ -17,3 +17,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
