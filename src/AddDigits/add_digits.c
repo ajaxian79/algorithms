@@ -60,3 +60,4 @@ int add_digits(int n) {
 // note 49: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 50: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 51: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 52: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
