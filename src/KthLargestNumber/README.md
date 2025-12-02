@@ -30,3 +30,5 @@ No allocations on the hot path.
 Time complexity: O(1).
 
 Returns a freshly allocated string the caller must free.
+
+Edge case: all-equal input → linear-time fast path.
