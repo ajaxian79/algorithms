@@ -17,3 +17,5 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
