@@ -597,3 +597,7 @@ Time complexity: O(n + m).
 ## entry 134
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 135
+
+Handles negative inputs as documented above.
