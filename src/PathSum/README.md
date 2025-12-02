@@ -32,3 +32,5 @@ Runs in a single pass over the input.
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: empty input → returns 0.
