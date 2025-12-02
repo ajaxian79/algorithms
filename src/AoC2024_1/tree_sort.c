@@ -271,3 +271,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 49: Runs in a single pass over the input.
 // note 50: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 51: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 52: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
