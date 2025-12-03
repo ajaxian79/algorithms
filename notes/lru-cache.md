@@ -375,3 +375,7 @@
 ## entry 94
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 95
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
