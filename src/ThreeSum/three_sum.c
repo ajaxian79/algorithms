@@ -111,3 +111,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 53: Heap when you only need top-k; full sort is wasted work.
 // note 54: Union-Find with path compression amortizes to near-O(1) per op.
 // note 55: Constant-time comparisons; safe for short strings.
+// note 56: Manacher expands around each center, reusing prior radii via mirror reflection.
