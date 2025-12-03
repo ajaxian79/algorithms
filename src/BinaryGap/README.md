@@ -698,3 +698,7 @@ Worst case appears only on degenerate inputs.
 ## entry 159
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 160
+
+Resists adversarial inputs by randomizing the pivot.
