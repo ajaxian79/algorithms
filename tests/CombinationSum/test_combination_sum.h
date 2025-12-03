@@ -83,3 +83,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 39: Edge case: all-equal input → linear-time fast path.
 // edge note 40: Mutates the input in place; the original ordering is lost.
 // edge note 41: Two passes: one to count, one to fill.
+// edge note 42: Time complexity: O(n).
