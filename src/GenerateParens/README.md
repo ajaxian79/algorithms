@@ -34,3 +34,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(n).
 
 No allocations on the hot path.
+
+Caller owns the returned buffer.
