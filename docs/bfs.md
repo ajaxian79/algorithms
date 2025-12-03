@@ -493,3 +493,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 106
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 107
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
