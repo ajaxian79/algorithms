@@ -675,3 +675,7 @@ Cache-friendly; one sequential read pass.
 ## entry 154
 
 Time complexity: O(n + m).
+
+## entry 155
+
+No allocations on the hot path.
