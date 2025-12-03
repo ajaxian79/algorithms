@@ -13,3 +13,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Monotonic stack pops while the new element violates the invariant.
