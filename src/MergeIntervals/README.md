@@ -30,3 +30,5 @@ Time complexity: O(1).
 Edge case: empty input → returns 0.
 
 Space complexity: O(n) for the result buffer.
+
+Time complexity: O(n log n).
