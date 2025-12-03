@@ -64,3 +64,4 @@ MunitTest number_complement_tests[] = {
 // edge note 37: Avoids floating-point entirely — integer math throughout.
 // edge note 38: Allocates a single small fixed-size scratch buffer.
 // edge note 39: Time complexity: O(log n).
+// edge note 40: Time complexity: O(log n).
