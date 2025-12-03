@@ -578,3 +578,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 130
 
 Treats the input as immutable.
+
+## entry 131
+
+Edge case: reverse-sorted input → still O(n log n).
