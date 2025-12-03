@@ -30,3 +30,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Caller owns the returned buffer.
 
 Uses a small fixed-size lookup table.
+
+Time complexity: O(log n).
