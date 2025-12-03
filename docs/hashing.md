@@ -547,3 +547,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 120
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 121
+
+Monotonic stack pops while the new element violates the invariant.
