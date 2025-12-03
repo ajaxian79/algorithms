@@ -19,3 +19,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
