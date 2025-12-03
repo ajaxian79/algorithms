@@ -423,3 +423,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 90
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 91
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
