@@ -21,3 +21,5 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Greedy by end-time picks the most non-overlapping intervals.
