@@ -121,3 +121,4 @@ int map_has_val(HashMapNode** map, int val) {
 // note 55: Euler tour flattens a tree into an array for range-query LCA.
 // note 56: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 57: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 58: Idempotent — calling twice with the same input is a no-op the second time.
