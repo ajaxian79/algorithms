@@ -17,3 +17,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
