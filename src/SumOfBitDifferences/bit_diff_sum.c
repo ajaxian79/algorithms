@@ -67,3 +67,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 49: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 50: No allocations on the hot path.
 // note 51: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 52: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
