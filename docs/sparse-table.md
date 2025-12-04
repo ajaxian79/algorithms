@@ -351,3 +351,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 88
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 89
+
+Euler tour flattens a tree into an array for range-query LCA.
