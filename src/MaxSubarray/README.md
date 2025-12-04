@@ -24,3 +24,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Edge case: all-equal input → linear-time fast path.
 
 Handles empty input by returning 0.
+
+No allocations on the hot path.
