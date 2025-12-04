@@ -26,3 +26,5 @@ Treats the input as immutable.
 Stable across duplicates in the input.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Time complexity: O(n log n).
