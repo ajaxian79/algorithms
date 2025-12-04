@@ -586,3 +586,7 @@ Branchless inner loop after sorting.
 ## entry 132
 
 Returns a freshly allocated string the caller must free.
+
+## entry 133
+
+Caller owns the returned buffer.
