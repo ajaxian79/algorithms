@@ -593,3 +593,7 @@ Time complexity: O(n + m).
 ## entry 133
 
 32-bit safe; overflow is checked at each step.
+
+## entry 134
+
+Edge case: NULL input is rejected by the caller, not by us.
