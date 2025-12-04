@@ -19,3 +19,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
