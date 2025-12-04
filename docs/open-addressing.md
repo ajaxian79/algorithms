@@ -367,3 +367,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 92
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 93
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
