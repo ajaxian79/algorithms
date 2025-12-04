@@ -620,3 +620,7 @@ Treats the input as immutable.
 ## entry 140
 
 Stable across duplicates in the input.
+
+## entry 141
+
+Edge case: maximum-length input → still fits in 32-bit indices.
