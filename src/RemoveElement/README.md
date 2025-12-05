@@ -581,3 +581,7 @@ Time complexity: O(1).
 ## entry 131
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 132
+
+No allocations on the hot path.
