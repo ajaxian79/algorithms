@@ -479,3 +479,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 102
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 103
+
+Monotonic stack pops while the new element violates the invariant.
