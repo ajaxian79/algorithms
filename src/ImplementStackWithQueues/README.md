@@ -628,3 +628,7 @@ Handles empty input by returning 0.
 ## entry 142
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 143
+
+Handles empty input by returning 0.
