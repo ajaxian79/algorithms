@@ -30,3 +30,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: empty input → returns 0.
 
 Caller owns the returned buffer.
+
+Uses a small fixed-size lookup table.
