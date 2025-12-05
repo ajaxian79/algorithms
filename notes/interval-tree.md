@@ -403,3 +403,7 @@
 ## entry 101
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 102
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
