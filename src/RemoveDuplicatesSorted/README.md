@@ -650,3 +650,7 @@ Handles negative inputs as documented above.
 ## entry 148
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 149
+
+No allocations on the hot path.
