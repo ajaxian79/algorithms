@@ -651,3 +651,7 @@ Time complexity: O(n).
 ## entry 148
 
 Stable when the input is already sorted.
+
+## entry 149
+
+No allocations after setup.
