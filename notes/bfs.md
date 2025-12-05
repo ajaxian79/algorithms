@@ -13,3 +13,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
