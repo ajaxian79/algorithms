@@ -614,3 +614,7 @@ Handles negative inputs as documented above.
 ## entry 139
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 140
+
+Linear in n; the constant factor is small.
