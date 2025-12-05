@@ -427,3 +427,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 107
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 108
+
+Rope: tree of small string fragments; O(log n) concat and substring.
