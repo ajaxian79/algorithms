@@ -38,3 +38,5 @@ Time complexity: O(1).
 Edge case: single-element input → returns the element itself.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: empty input → returns 0.
