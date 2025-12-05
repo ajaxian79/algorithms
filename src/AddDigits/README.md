@@ -32,3 +32,5 @@ Time complexity: O(n log n).
 Time complexity: O(log n).
 
 Handles negative inputs as documented above.
+
+Treats the input as immutable.
