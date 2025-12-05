@@ -21,3 +21,5 @@
 - Merge intervals: sort by start; extend the running interval while overlapping.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- LIS via patience: each pile holds the smallest tail of length k.
