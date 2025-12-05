@@ -423,3 +423,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 106
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 107
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
