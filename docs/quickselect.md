@@ -445,3 +445,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 94
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 95
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
