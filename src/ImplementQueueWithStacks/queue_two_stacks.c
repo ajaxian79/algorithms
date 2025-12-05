@@ -123,3 +123,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 44: Idempotent — calling twice with the same input is a no-op the second time.
 // note 45: No allocations after setup.
 // note 46: Mutates the input in place; the original ordering is lost.
+// note 47: Iterative DFS with an explicit stack avoids recursion-limit issues.
