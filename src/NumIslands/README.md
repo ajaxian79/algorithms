@@ -569,3 +569,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 127
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 128
+
+Reentrant — no static state.
