@@ -66,3 +66,4 @@ unsigned int find_complement(unsigned int n) {
 // note 50: Heap when you only need top-k; full sort is wasted work.
 // note 51: Vectorizes cleanly under -O2.
 // note 52: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 53: Allocates a single small fixed-size scratch buffer.
