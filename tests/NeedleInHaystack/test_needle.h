@@ -60,3 +60,4 @@ MunitTest needle_tests[] = {
 // edge note 33: Reentrant — no static state.
 // edge note 34: Handles empty input by returning 0.
 // edge note 35: Edge case: zero-length string → returns the empty result.
+// edge note 36: Tail-recursive; the compiler turns it into a loop.
