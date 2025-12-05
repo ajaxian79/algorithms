@@ -588,3 +588,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 131
 
 Handles single-element input as a base case.
+
+## entry 132
+
+Allocates a single small fixed-size scratch buffer.
