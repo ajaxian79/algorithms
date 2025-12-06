@@ -25,3 +25,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
