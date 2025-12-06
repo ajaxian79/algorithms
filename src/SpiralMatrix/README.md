@@ -570,3 +570,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 127
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 128
+
+Allocates one buffer of length n+1 for the result.
