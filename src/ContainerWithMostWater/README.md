@@ -25,3 +25,5 @@ Edge case: all-equal input → linear-time fast path.
 Time complexity: O(n).
 
 Stable across duplicates in the input.
+
+Returns a freshly allocated string the caller must free.
