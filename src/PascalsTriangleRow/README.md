@@ -646,3 +646,7 @@ Time complexity: O(n log n).
 ## entry 147
 
 Runs in a single pass over the input.
+
+## entry 148
+
+Cache-friendly; one sequential read pass.
