@@ -435,3 +435,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 109
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 110
+
+Articulation points: same DFS as bridges, with a slightly different test.
