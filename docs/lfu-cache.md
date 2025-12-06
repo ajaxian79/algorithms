@@ -399,3 +399,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 100
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 101
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
