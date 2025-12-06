@@ -20,3 +20,5 @@ Handles empty input by returning 0.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Treats the input as immutable.
