@@ -82,3 +82,7 @@ Allocates lazily — first call only.
 ## entry 6
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 7
+
+Sub-linear in the average case thanks to early exit.
