@@ -383,3 +383,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 80
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 81
+
+Articulation points: same DFS as bridges, with a slightly different test.
