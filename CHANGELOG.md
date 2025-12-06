@@ -21543,3 +21543,7 @@
 ## entry 5386
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 5387
+
+- StringBuilder pitfall: reuse forces a deep copy on the first read.
