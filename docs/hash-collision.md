@@ -379,3 +379,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 95
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 96
+
+Wavelet tree: range k-th element in O(log Σ) time.
