@@ -686,3 +686,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 156
 
 Two passes: one to count, one to fill.
+
+## entry 157
+
+Linear in n; the constant factor is small.
