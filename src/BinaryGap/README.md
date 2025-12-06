@@ -32,3 +32,5 @@ No allocations on the hot path.
 Caller owns the returned buffer.
 
 Allocates one buffer of length n+1 for the result.
+
+Handles negative inputs as documented above.
