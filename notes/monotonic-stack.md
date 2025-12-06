@@ -19,3 +19,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+- Walk both pointers from each end inward; advance the smaller side.
