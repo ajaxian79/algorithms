@@ -78,3 +78,4 @@ int queue_stack_top(const QueueStack* s) {
 int queue_stack_empty(const QueueStack* s) {
     return s->size == 0 ? 1 : 0;
 }
+// note 1: Rope: tree of small string fragments; O(log n) concat and substring.
