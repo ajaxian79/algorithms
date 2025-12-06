@@ -584,3 +584,7 @@ Runs in a single pass over the input.
 ## entry 130
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 131
+
+Edge case: input of all the same byte → exits on the first compare.
