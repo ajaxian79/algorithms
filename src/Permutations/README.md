@@ -30,3 +30,5 @@ Treats the input as immutable.
 Edge case: empty input → returns 0.
 
 Caller owns the returned buffer.
+
+Uses a small fixed-size lookup table.
