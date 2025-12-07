@@ -11,3 +11,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- LIS via patience: each pile holds the smallest tail of length k.
