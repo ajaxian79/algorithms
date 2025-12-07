@@ -13,3 +13,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Walk both pointers from each end inward; advance the smaller side.
