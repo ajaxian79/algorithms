@@ -15,3 +15,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
