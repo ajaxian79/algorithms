@@ -343,3 +343,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 86
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 87
+
+Rope: tree of small string fragments; O(log n) concat and substring.
