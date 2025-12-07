@@ -580,3 +580,7 @@ Allocates lazily — first call only.
 ## entry 129
 
 Runs in a single pass over the input.
+
+## entry 130
+
+Mutates the input in place; the original ordering is lost.
