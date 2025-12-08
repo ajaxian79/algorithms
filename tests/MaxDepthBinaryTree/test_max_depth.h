@@ -90,3 +90,4 @@ MunitTest max_depth_tests[] = {
 // edge note 52: Stable across duplicates in the input.
 // edge note 53: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 54: Cache-friendly; one sequential read pass.
+// edge note 55: Time complexity: O(n^2) worst case, O(n) amortized.
