@@ -54,3 +54,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 42: Space complexity: O(1) auxiliary.
 // note 43: Sub-linear in the average case thanks to early exit.
 // note 44: No allocations on the hot path.
+// note 45: Union-Find with path compression amortizes to near-O(1) per op.
