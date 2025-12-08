@@ -73,3 +73,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 42: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 43: Space complexity: O(n) for the result buffer.
 // note 44: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 45: Walk both pointers from each end inward; advance the smaller side.
