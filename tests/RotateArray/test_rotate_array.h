@@ -88,3 +88,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 50: Time complexity: O(1).
 // edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 52: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
