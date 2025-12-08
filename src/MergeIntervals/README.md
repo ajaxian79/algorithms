@@ -26,3 +26,5 @@ Edge case: already-sorted input → no swaps performed.
 Time complexity: O(n).
 
 Time complexity: O(1).
+
+Edge case: empty input → returns 0.
