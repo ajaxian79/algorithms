@@ -589,3 +589,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 132
 
 Time complexity: O(n + m).
+
+## entry 133
+
+32-bit safe; overflow is checked at each step.
