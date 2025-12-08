@@ -24,3 +24,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: already-sorted input → no swaps performed.
 
 Two passes: one to count, one to fill.
+
+Stable across duplicates in the input.
