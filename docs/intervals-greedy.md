@@ -25,3 +25,5 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
