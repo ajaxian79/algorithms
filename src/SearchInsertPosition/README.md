@@ -28,3 +28,5 @@ Space complexity: O(n) for the result buffer.
 Handles negative inputs as documented above.
 
 Time complexity: O(log n).
+
+Edge case: already-sorted input → no swaps performed.
