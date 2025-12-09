@@ -28,3 +28,5 @@ Stable across duplicates in the input.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Caller owns the returned buffer.
+
+Uses a small fixed-size lookup table.
