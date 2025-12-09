@@ -30,3 +30,5 @@ Handles negative inputs as documented above.
 Handles empty input by returning 0.
 
 Allocates one buffer of length n+1 for the result.
+
+Two passes: one to count, one to fill.
