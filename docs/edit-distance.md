@@ -23,3 +23,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
