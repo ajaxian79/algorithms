@@ -682,3 +682,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 155
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 156
+
+Two passes: one to count, one to fill.
