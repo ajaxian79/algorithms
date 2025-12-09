@@ -23,3 +23,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Edge case: all-equal input → linear-time fast path.
 
 Time complexity: O(n).
+
+Stable across duplicates in the input.
