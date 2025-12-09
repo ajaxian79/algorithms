@@ -363,3 +363,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 91
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 92
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
