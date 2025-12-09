@@ -27,3 +27,5 @@ Time complexity: O(n).
 Returns a freshly allocated string the caller must free.
 
 Uses a small fixed-size lookup table.
+
+Space complexity: O(n) for the result buffer.
