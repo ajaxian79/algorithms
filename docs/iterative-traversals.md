@@ -13,3 +13,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
