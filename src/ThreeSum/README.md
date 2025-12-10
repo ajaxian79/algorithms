@@ -33,3 +33,5 @@ Space complexity: O(n) for the result buffer.
 32-bit safe; overflow is checked at each step.
 
 Uses a small fixed-size lookup table.
+
+Edge case: single-element input → returns the element itself.
