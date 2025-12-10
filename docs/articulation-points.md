@@ -359,3 +359,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 90
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 91
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
