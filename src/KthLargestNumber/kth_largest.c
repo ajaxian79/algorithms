@@ -86,3 +86,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 42: Time complexity: O(1).
 // note 43: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 44: Three passes total; the third merges results.
+// note 45: LCA via binary lifting: jump up powers of two until depths match, then converge.
