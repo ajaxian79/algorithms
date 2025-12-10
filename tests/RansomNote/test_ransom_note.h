@@ -80,3 +80,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 54: Edge case: reverse-sorted input → still O(n log n).
 // edge note 55: Three passes total; the third merges results.
 // edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 57: Worst case appears only on degenerate inputs.
