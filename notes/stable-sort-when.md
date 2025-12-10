@@ -23,3 +23,5 @@
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
