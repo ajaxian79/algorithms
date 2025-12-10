@@ -616,3 +616,7 @@ Caller owns the returned buffer.
 ## entry 139
 
 Treats the input as immutable.
+
+## entry 140
+
+Stable across duplicates in the input.
