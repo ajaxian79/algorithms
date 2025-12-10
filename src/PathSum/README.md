@@ -30,3 +30,5 @@ Stable across duplicates in the input.
 Runs in a single pass over the input.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Edge case: already-sorted input → no swaps performed.
