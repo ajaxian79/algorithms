@@ -21,3 +21,5 @@ Greedy by end-time picks the most non-overlapping intervals.
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+LIS via patience: each pile holds the smallest tail of length k.
