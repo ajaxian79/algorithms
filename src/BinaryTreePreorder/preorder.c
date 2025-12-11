@@ -76,3 +76,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 33: Sub-linear in the average case thanks to early exit.
 // note 34: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 35: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 36: Heavy-light decomposition: each path crosses O(log n) heavy chains.
