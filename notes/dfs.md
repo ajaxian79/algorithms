@@ -83,3 +83,7 @@
 ## entry 5
 
 - Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 6
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
