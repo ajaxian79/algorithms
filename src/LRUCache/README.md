@@ -34,3 +34,5 @@ Time complexity: O(n).
 Handles negative inputs as documented above.
 
 Time complexity: O(1).
+
+Edge case: single-element input → returns the element itself.
