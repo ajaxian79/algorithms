@@ -24,3 +24,5 @@ Time complexity: O(n).
 Time complexity: O(1).
 
 Handles empty input by returning 0.
+
+Runs in a single pass over the input.
