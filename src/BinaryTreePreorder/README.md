@@ -18,3 +18,5 @@ Space complexity: O(1) auxiliary.
 Stable across duplicates in the input.
 
 Uses a small fixed-size lookup table.
+
+Edge case: reverse-sorted input → still O(n log n).
