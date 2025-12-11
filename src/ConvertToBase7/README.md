@@ -26,3 +26,5 @@ Two passes: one to count, one to fill.
 Tail-recursive; the compiler turns it into a loop.
 
 Time complexity: O(n).
+
+Returns a freshly allocated string the caller must free.
