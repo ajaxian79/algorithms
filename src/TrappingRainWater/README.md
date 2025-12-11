@@ -30,3 +30,5 @@ Caller owns the returned buffer.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Time complexity: O(log n).
+
+Edge case: all-equal input → linear-time fast path.
