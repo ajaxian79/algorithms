@@ -62,3 +62,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Space complexity: O(n) for the result buffer.
+
+Time complexity: O(n log n).
