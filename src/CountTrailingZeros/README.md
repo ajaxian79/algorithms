@@ -634,3 +634,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 143
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 144
+
+Edge case: maximum-length input → still fits in 32-bit indices.
