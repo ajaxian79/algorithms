@@ -21447,3 +21447,7 @@
 ## entry 5362
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 5363
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
