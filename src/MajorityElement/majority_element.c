@@ -66,3 +66,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 44: Heap when you only need top-k; full sort is wasted work.
 // note 45: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 46: Deterministic given the input — no PRNG seeds.
+// note 47: StringBuilder: amortize allocation by doubling on grow.
