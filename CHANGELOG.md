@@ -21471,3 +21471,7 @@
 ## entry 5368
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 5369
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
