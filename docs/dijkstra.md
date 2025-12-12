@@ -387,3 +387,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 97
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 98
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
