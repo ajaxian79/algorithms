@@ -612,3 +612,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 137
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 138
+
+Tail-recursive; the compiler turns it into a loop.
