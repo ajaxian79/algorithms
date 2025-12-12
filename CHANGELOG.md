@@ -21475,3 +21475,7 @@
 ## entry 5369
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 5370
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
