@@ -630,3 +630,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 142
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 143
+
+Uses a 256-entry lookup for the inner step.
