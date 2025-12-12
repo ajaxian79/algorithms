@@ -542,3 +542,7 @@ Stable when the input is already sorted.
 ## entry 120
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 121
+
+Edge case: input with one duplicate → handled without an extra pass.
