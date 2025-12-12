@@ -479,3 +479,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 103
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 104
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
