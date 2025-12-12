@@ -85,3 +85,4 @@ int reverse_int(int x) {
 // note 58: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 59: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 60: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 61: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
