@@ -403,3 +403,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 101
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 102
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
