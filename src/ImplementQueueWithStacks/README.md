@@ -603,3 +603,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 136
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 137
+
+Edge case: single-element input → returns the element itself.
