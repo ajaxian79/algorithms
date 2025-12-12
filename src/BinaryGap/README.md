@@ -30,3 +30,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 No allocations on the hot path.
 
 Caller owns the returned buffer.
+
+Allocates one buffer of length n+1 for the result.
