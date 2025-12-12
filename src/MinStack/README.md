@@ -22,3 +22,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Time complexity: O(n).
 
 Time complexity: O(1).
+
+Handles empty input by returning 0.
