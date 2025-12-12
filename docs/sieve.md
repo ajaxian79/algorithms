@@ -11,3 +11,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
