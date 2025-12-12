@@ -355,3 +355,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 89
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 90
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
