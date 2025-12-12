@@ -359,3 +359,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 90
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 91
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
