@@ -630,3 +630,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 143
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 144
+
+Caller owns the returned array; free with a single `free`.
