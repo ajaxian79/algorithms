@@ -581,3 +581,7 @@ Vectorizes cleanly under -O2.
 ## entry 130
 
 Time complexity: O(1).
+
+## entry 131
+
+Returns a freshly allocated string the caller must free.
