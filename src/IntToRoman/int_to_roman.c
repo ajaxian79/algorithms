@@ -92,3 +92,4 @@ char* int_to_roman(int n) {
 // note 55: Three passes total; the third merges results.
 // note 56: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 57: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 58: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
