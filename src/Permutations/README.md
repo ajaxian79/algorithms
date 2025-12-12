@@ -672,3 +672,7 @@ Time complexity: O(1).
 ## entry 153
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 154
+
+Time complexity: O(log n).
