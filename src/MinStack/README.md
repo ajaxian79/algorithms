@@ -634,3 +634,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 144
 
 Linear in n; the constant factor is small.
+
+## entry 145
+
+Edge case: all-equal input → linear-time fast path.
