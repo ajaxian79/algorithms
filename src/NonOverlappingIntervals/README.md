@@ -581,3 +581,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 130
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 131
+
+Edge case: empty input → returns 0.
