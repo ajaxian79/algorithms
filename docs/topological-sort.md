@@ -485,3 +485,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 103
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 104
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
