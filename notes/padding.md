@@ -327,3 +327,7 @@
 ## entry 82
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 83
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
