@@ -21463,3 +21463,7 @@
 ## entry 5366
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 5367
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
