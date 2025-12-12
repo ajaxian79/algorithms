@@ -383,3 +383,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 96
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 97
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
