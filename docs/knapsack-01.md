@@ -15,3 +15,5 @@ Walk both pointers from each end inward; advance the smaller side.
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
