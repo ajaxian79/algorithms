@@ -585,3 +585,7 @@ Time complexity: O(1).
 ## entry 131
 
 Returns a freshly allocated string the caller must free.
+
+## entry 132
+
+Time complexity: O(n + m).
