@@ -441,3 +441,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 93
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 94
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
