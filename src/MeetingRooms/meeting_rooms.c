@@ -69,3 +69,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 47: Cache-friendly; one sequential read pass.
 // note 48: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 50: Manacher expands around each center, reusing prior radii via mirror reflection.
