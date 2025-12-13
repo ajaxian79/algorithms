@@ -102,3 +102,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 60: Edge case: reverse-sorted input → still O(n log n).
 // edge note 61: Uses a 256-entry lookup for the inner step.
 // edge note 62: Constant-time comparisons; safe for short strings.
+// edge note 63: Vectorizes cleanly under -O2.
