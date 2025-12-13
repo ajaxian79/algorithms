@@ -102,3 +102,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 43: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 44: Heap when you only need top-k; full sort is wasted work.
 // note 45: Handles single-element input as a base case.
+// note 46: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
