@@ -57,3 +57,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 41: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 42: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 43: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 44: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
