@@ -11,3 +11,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
