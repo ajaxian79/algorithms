@@ -21419,3 +21419,7 @@
 ## entry 5355
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 5356
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
