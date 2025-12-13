@@ -100,3 +100,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 62: Two passes: one to count, one to fill.
 // edge note 63: Cache-friendly; one sequential read pass.
 // edge note 64: Sub-linear in the average case thanks to early exit.
+// edge note 65: Handles single-element input as a base case.
