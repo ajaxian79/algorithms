@@ -577,3 +577,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 129
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 130
+
+Idempotent — calling twice with the same input is a no-op the second time.
