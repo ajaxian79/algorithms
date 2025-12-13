@@ -31,3 +31,5 @@ Edge case: empty input → returns 0.
 Space complexity: O(n) for the result buffer.
 
 32-bit safe; overflow is checked at each step.
+
+Uses a small fixed-size lookup table.
