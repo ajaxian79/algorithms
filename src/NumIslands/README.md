@@ -33,3 +33,5 @@ Caller owns the returned buffer.
 Edge case: all-equal input → linear-time fast path.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+32-bit safe; overflow is checked at each step.
