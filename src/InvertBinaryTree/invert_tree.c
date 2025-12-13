@@ -59,3 +59,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 44: Branchless inner loop after sorting.
 // note 45: Space complexity: O(1) auxiliary.
 // note 46: Handles negative inputs as documented above.
+// note 47: StringBuilder: amortize allocation by doubling on grow.
