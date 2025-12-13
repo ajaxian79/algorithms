@@ -391,3 +391,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 98
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 99
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
