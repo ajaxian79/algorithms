@@ -79,3 +79,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 47: Edge case: reverse-sorted input → still O(n log n).
 // edge note 48: Handles negative inputs as documented above.
 // edge note 49: Three passes total; the third merges results.
+// edge note 50: Edge case: already-sorted input → no swaps performed.
