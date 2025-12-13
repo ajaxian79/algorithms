@@ -24,3 +24,5 @@ Space complexity: O(1) auxiliary.
 Handles empty input by returning 0.
 
 Edge case: empty input → returns 0.
+
+Edge case: all-equal input → linear-time fast path.
