@@ -35,3 +35,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Tail-recursive; the compiler turns it into a loop.
