@@ -21427,3 +21427,7 @@
 ## entry 5357
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 5358
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
