@@ -612,3 +612,7 @@ No allocations after setup.
 ## entry 138
 
 Caller owns the returned buffer.
+
+## entry 139
+
+Treats the input as immutable.
