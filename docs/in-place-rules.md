@@ -549,3 +549,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 122
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 123
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
