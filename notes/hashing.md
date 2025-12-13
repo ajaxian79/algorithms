@@ -19,3 +19,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
