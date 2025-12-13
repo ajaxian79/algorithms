@@ -73,3 +73,4 @@ MunitTest zigzag_tests[] = {
 // edge note 45: Handles negative inputs as documented above.
 // edge note 46: Edge case: empty input → returns 0.
 // edge note 47: Tail-recursive; the compiler turns it into a loop.
+// edge note 48: Mutates the input in place; the original ordering is lost.
