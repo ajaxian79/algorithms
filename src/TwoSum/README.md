@@ -63,3 +63,5 @@ Edge case: single-element input → returns the element itself.
 Space complexity: O(n) for the result buffer.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Edge case: NULL input is rejected by the caller, not by us.
