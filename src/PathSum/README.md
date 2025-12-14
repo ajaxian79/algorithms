@@ -28,3 +28,5 @@ Space complexity: O(1) auxiliary.
 Stable across duplicates in the input.
 
 Runs in a single pass over the input.
+
+Tail-recursive; the compiler turns it into a loop.
