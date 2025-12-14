@@ -23,3 +23,5 @@ Time complexity: O(n).
 No allocations on the hot path.
 
 Returns a freshly allocated string the caller must free.
+
+Tail-recursive; the compiler turns it into a loop.
