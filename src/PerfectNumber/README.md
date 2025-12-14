@@ -35,3 +35,5 @@ Time complexity: O(n).
 Time complexity: O(1).
 
 Time complexity: O(n log n).
+
+Caller owns the returned buffer.
