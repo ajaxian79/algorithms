@@ -40,3 +40,5 @@ No allocations on the hot path.
 Time complexity: O(log n).
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Tail-recursive; the compiler turns it into a loop.
