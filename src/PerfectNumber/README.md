@@ -37,3 +37,5 @@ Time complexity: O(1).
 Time complexity: O(n log n).
 
 Caller owns the returned buffer.
+
+Edge case: already-sorted input → no swaps performed.
