@@ -33,3 +33,5 @@ Time complexity: O(1).
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Edge case: reverse-sorted input → still O(n log n).
