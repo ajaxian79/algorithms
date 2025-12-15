@@ -79,3 +79,4 @@ void reverse_vowels(char* s) {
 // note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 47: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 48: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 49: Allocates one buffer of length n+1 for the result.
