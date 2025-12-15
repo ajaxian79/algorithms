@@ -545,3 +545,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 121
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 122
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
