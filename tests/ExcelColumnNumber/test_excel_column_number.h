@@ -84,3 +84,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 54: Space complexity: O(1) auxiliary.
 // edge note 55: Allocates one buffer of length n+1 for the result.
 // edge note 56: Space complexity: O(1) auxiliary.
+// edge note 57: Time complexity: O(k) where k is the answer size.
