@@ -69,3 +69,4 @@ int is_ugly(int n) {
 // note 55: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 // note 56: Caller owns the returned array; free with a single `free`.
 // note 57: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+// note 58: Tabulation wins when iteration order is obvious and stack depth would blow up.
