@@ -441,3 +441,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 93
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 94
+
+Euler tour flattens a tree into an array for range-query LCA.
