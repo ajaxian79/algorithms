@@ -24,3 +24,5 @@ Edge case: all-equal input → linear-time fast path.
 No allocations on the hot path.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: input with one duplicate → handled without an extra pass.
