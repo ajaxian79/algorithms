@@ -84,3 +84,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 6
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 7
+
+Runs in a single pass over the input.
