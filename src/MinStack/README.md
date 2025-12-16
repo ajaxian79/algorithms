@@ -20,3 +20,5 @@ Returns a freshly allocated string the caller must free.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(n).
+
+Time complexity: O(1).
