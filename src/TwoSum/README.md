@@ -109,3 +109,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 2
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 3
+
+Edge case: NULL input is rejected by the caller, not by us.
