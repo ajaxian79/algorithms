@@ -19,3 +19,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
