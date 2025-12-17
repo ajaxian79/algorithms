@@ -31,3 +31,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(1).
 
 Handles negative inputs as documented above.
+
+Treats the input as immutable.
