@@ -680,3 +680,7 @@ Reentrant — no static state.
 ## entry 155
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 156
+
+Allocates one buffer of length n+1 for the result.
