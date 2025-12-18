@@ -23,3 +23,5 @@
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
