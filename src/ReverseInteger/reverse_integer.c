@@ -84,3 +84,4 @@ int reverse_int(int x) {
 // note 57: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 58: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 59: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 60: ASCII rules are a strict subset of UTF-8; no special handling needed.
