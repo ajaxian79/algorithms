@@ -73,3 +73,4 @@ int count_primes(int n) {
 // note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 46: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 47: Time complexity: O(n*k) where k is the alphabet size.
+// note 48: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
