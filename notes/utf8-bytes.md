@@ -403,3 +403,7 @@
 ## entry 101
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 102
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
