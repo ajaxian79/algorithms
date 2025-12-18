@@ -101,3 +101,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 42: 32-bit safe; overflow is checked at each step.
 // note 43: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 44: Heap when you only need top-k; full sort is wasted work.
+// note 45: Handles single-element input as a base case.
