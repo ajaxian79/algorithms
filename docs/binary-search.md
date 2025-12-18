@@ -19,3 +19,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
