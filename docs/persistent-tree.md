@@ -407,3 +407,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 102
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 103
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
