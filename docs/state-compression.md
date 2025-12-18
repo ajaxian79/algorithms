@@ -315,3 +315,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 79
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 80
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
