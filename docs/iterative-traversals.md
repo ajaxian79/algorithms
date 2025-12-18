@@ -489,3 +489,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 106
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 107
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
