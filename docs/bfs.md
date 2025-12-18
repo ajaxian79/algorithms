@@ -19,3 +19,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
