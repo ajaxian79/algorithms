@@ -22,3 +22,5 @@ No allocations on the hot path.
 Space complexity: O(n) for the result buffer.
 
 Treats the input as immutable.
+
+Stable across duplicates in the input.
