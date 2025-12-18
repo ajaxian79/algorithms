@@ -587,3 +587,7 @@ Handles single-element input as a base case.
 ## entry 131
 
 Time complexity: O(n).
+
+## entry 132
+
+Constant-time comparisons; safe for short strings.
