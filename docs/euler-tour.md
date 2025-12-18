@@ -379,3 +379,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 95
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 96
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
