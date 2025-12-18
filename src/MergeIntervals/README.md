@@ -626,3 +626,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 141
 
 32-bit safe; overflow is checked at each step.
+
+## entry 142
+
+No allocations on the hot path.
