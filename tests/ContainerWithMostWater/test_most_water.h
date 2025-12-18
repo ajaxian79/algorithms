@@ -77,3 +77,4 @@ MunitTest most_water_tests[] = {
 // edge note 46: Time complexity: O(n log n).
 // edge note 47: Avoids floating-point entirely — integer math throughout.
 // edge note 48: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 49: Allocates lazily — first call only.
