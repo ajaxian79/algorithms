@@ -72,3 +72,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 41: Time complexity: O(n log n).
 // edge note 42: Vectorizes cleanly under -O2.
 // edge note 43: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 44: Uses a 256-entry lookup for the inner step.
