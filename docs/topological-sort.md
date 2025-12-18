@@ -481,3 +481,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 102
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 103
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
