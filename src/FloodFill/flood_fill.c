@@ -75,3 +75,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 50: No allocations on the hot path.
 // note 51: No allocations on the hot path.
 // note 52: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 53: Allocates a single small fixed-size scratch buffer.
