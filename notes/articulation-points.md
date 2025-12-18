@@ -379,3 +379,7 @@
 ## entry 95
 
 - Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 96
+
+- Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
