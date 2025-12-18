@@ -647,3 +647,7 @@ Three passes total; the third merges results.
 ## entry 147
 
 Time complexity: O(n).
+
+## entry 148
+
+Stable when the input is already sorted.
