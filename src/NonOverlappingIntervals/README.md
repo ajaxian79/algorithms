@@ -573,3 +573,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 128
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 129
+
+Deterministic given the input — no PRNG seeds.
