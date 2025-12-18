@@ -83,3 +83,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 42: Cache-friendly; one sequential read pass.
 // note 43: Caller owns the returned array; free with a single `free`.
 // note 44: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+// note 45: Sub-linear in the average case thanks to early exit.
