@@ -499,3 +499,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 107
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 108
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
