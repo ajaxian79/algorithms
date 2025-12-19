@@ -590,3 +590,7 @@ Worst case appears only on degenerate inputs.
 ## entry 133
 
 Time complexity: O(n).
+
+## entry 134
+
+Edge case: reverse-sorted input → still O(n log n).
