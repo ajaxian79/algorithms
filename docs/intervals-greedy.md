@@ -21,3 +21,5 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 LIS via patience: each pile holds the smallest tail of length k.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
