@@ -59,3 +59,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 45: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 46: Union-Find with path compression amortizes to near-O(1) per op.
 // note 47: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 48: Thread-safe so long as the input is not mutated concurrently.
