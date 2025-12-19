@@ -32,3 +32,5 @@ Time complexity: O(n log n).
 Treats the input as immutable.
 
 32-bit safe; overflow is checked at each step.
+
+Time complexity: O(n).
