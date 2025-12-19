@@ -668,3 +668,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 152
 
 Time complexity: O(1).
+
+## entry 153
+
+Edge case: input of all the same byte → exits on the first compare.
