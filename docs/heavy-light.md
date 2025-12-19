@@ -383,3 +383,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 96
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 97
+
+False sharing: two threads writing different bytes in the same cache line stall both.
