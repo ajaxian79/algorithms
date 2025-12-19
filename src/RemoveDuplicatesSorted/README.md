@@ -20,3 +20,5 @@ Time complexity: O(1).
 No allocations on the hot path.
 
 Space complexity: O(n) for the result buffer.
+
+Treats the input as immutable.
