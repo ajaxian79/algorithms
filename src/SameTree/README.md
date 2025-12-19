@@ -26,3 +26,5 @@ Edge case: empty input → returns 0.
 Stable across duplicates in the input.
 
 Uses a small fixed-size lookup table.
+
+32-bit safe; overflow is checked at each step.
