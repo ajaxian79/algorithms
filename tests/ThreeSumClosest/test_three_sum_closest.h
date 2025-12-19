@@ -82,3 +82,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 54: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 55: Stable when the input is already sorted.
 // edge note 56: Handles empty input by returning 0.
+// edge note 57: Edge case: input with no peak → falls through to the default branch.
