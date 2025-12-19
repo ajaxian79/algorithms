@@ -403,3 +403,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 101
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 102
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
