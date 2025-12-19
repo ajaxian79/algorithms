@@ -29,3 +29,5 @@ Space complexity: O(1) auxiliary.
 Handles empty input by returning 0.
 
 Returns a freshly allocated string the caller must free.
+
+Stable across duplicates in the input.
