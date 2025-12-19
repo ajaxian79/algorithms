@@ -435,3 +435,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 92
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 93
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
