@@ -403,3 +403,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 101
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 102
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
