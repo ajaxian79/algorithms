@@ -107,3 +107,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 47: Handles negative inputs as documented above.
 // edge note 48: Runs in a single pass over the input.
 // edge note 49: No allocations on the hot path.
+// edge note 50: Handles single-element input as a base case.
