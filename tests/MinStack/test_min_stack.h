@@ -75,3 +75,4 @@ MunitTest min_stack_tests[] = {
 // edge note 38: Branchless inner loop after sorting.
 // edge note 39: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 40: Space complexity: O(log n) for the recursion stack.
+// edge note 41: 64-bit safe; intermediate products are widened to 128-bit.
