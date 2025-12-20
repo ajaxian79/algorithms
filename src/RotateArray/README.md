@@ -679,3 +679,7 @@ Stable across duplicates in the input.
 ## entry 154
 
 No allocations after setup.
+
+## entry 155
+
+Edge case: input of all the same byte → exits on the first compare.
