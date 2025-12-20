@@ -403,3 +403,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 101
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 102
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
