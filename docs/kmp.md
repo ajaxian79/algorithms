@@ -429,3 +429,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 91
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 92
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
