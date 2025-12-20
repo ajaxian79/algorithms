@@ -610,3 +610,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 138
 
 Handles negative inputs as documented above.
+
+## entry 139
+
+Edge case: all-equal input → linear-time fast path.
