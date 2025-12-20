@@ -17,3 +17,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Walk both pointers from each end inward; advance the smaller side.
