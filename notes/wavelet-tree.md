@@ -351,3 +351,7 @@
 ## entry 88
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 89
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
