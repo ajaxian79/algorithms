@@ -84,3 +84,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 46: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 47: Vectorizes cleanly under -O2.
 // note 48: Walk both pointers from each end inward; advance the smaller side.
+// note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
