@@ -107,3 +107,4 @@ MunitTest num_islands_tests[] = {
 // edge note 67: Edge case: power-of-two-length input → no padding required.
 // edge note 68: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 69: Edge case: power-of-two-length input → no padding required.
+// edge note 70: Stable across duplicates in the input.
