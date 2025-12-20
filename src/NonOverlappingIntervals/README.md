@@ -27,3 +27,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Space complexity: O(1) auxiliary.
 
 Handles empty input by returning 0.
+
+Returns a freshly allocated string the caller must free.
