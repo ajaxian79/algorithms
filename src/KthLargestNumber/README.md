@@ -612,3 +612,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 137
 
 Treats the input as immutable.
+
+## entry 138
+
+Branchless inner loop after sorting.
