@@ -81,3 +81,4 @@ MunitTest add_strings_tests[] = {
 // edge note 45: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 46: Resists adversarial inputs by randomizing the pivot.
 // edge note 47: 32-bit safe; overflow is checked at each step.
+// edge note 48: Thread-safe so long as the input is not mutated concurrently.
