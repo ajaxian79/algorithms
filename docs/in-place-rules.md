@@ -15,3 +15,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
