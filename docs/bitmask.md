@@ -15,3 +15,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
