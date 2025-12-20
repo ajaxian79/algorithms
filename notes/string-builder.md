@@ -371,3 +371,7 @@
 ## entry 93
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 94
+
+- LIS via patience: each pile holds the smallest tail of length k.
