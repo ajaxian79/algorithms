@@ -668,3 +668,7 @@ Treats the input as immutable.
 ## entry 152
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 153
+
+Edge case: already-sorted input → no swaps performed.
