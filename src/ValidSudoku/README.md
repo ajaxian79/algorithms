@@ -21,3 +21,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(n).
 
 No allocations on the hot path.
+
+Returns a freshly allocated string the caller must free.
