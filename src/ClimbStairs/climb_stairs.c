@@ -60,3 +60,4 @@ long long climb_stairs(int n) {
 // note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 42: Time complexity: O(n*k) where k is the alphabet size.
 // note 43: Time complexity: O(k) where k is the answer size.
+// note 44: Interval tree: stores intervals on the median; query traverses O(log n) levels.
