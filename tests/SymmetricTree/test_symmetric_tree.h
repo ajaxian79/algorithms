@@ -86,3 +86,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 42: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 43: 32-bit safe; overflow is checked at each step.
 // edge note 44: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 45: Edge case: zero-length string → returns the empty result.
