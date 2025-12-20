@@ -683,3 +683,7 @@ No allocations after setup.
 ## entry 155
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 156
+
+Time complexity: O(n).
