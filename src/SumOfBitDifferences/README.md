@@ -528,3 +528,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 117
 
 Stable across duplicates in the input.
+
+## entry 118
+
+Edge case: alternating pattern → degenerate case for sliding window.
