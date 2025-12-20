@@ -17,3 +17,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Walk both pointers from each end inward; advance the smaller side.
