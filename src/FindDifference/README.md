@@ -28,3 +28,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: empty input → returns 0.
+
+Caller owns the returned buffer.
