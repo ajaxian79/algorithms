@@ -574,3 +574,7 @@ Treats the input as immutable.
 ## entry 129
 
 Time complexity: O(1).
+
+## entry 130
+
+Linear in n; the constant factor is small.
