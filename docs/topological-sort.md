@@ -477,3 +477,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 101
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 102
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
