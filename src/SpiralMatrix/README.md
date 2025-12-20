@@ -32,3 +32,5 @@ Time complexity: O(n log n).
 Time complexity: O(1).
 
 Time complexity: O(log n).
+
+Uses a small fixed-size lookup table.
