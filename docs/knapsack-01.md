@@ -13,3 +13,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Walk both pointers from each end inward; advance the smaller side.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
