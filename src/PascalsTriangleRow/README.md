@@ -20,3 +20,5 @@ Time complexity: O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Returns a freshly allocated string the caller must free.
