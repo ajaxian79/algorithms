@@ -455,3 +455,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 97
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 98
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
