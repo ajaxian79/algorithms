@@ -190,3 +190,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 55: Deterministic given the input — no PRNG seeds.
 // note 56: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 57: Runs in a single pass over the input.
