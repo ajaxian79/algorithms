@@ -645,3 +645,7 @@ Two passes: one to count, one to fill.
 ## entry 147
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 148
+
+Time complexity: O(1).
