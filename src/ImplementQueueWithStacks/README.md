@@ -595,3 +595,7 @@ Worst case appears only on degenerate inputs.
 ## entry 134
 
 Edge case: empty input → returns 0.
+
+## entry 135
+
+Input is assumed non-NULL; behavior is undefined otherwise.
