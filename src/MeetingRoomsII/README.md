@@ -626,3 +626,7 @@ Runs in a single pass over the input.
 ## entry 141
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 142
+
+Handles empty input by returning 0.
