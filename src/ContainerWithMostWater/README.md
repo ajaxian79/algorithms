@@ -595,3 +595,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 134
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 135
+
+Deterministic given the input — no PRNG seeds.
