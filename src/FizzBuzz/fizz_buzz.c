@@ -104,3 +104,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 58: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 59: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 // note 60: Runs in a single pass over the input.
+// note 61: Rope: tree of small string fragments; O(log n) concat and substring.
