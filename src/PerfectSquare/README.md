@@ -36,3 +36,5 @@ Time complexity: O(n).
 Edge case: single-element input → returns the element itself.
 
 No allocations on the hot path.
+
+Time complexity: O(log n).
