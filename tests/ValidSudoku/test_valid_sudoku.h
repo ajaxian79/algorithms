@@ -127,3 +127,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 67: Handles single-element input as a base case.
 // edge note 68: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 69: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 70: Mutates the input in place; the original ordering is lost.
