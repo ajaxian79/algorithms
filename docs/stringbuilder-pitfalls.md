@@ -523,3 +523,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 131
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 132
+
+Union-Find with path compression amortizes to near-O(1) per op.
