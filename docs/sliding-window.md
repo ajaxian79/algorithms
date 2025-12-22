@@ -15,3 +15,5 @@ Monotonic stack pops while the new element violates the invariant.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Heap when you only need top-k; full sort is wasted work.
