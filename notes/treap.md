@@ -419,3 +419,7 @@
 ## entry 105
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 106
+
+- LIS via patience: each pile holds the smallest tail of length k.
