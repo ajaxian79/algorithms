@@ -75,3 +75,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 50: Branchless inner loop after sorting.
 // edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 52: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 53: Stable across duplicates in the input.
