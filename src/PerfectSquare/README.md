@@ -646,3 +646,7 @@ Caller owns the returned buffer.
 ## entry 147
 
 Allocates lazily — first call only.
+
+## entry 148
+
+Time complexity: O(1).
