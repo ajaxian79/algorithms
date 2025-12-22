@@ -206,3 +206,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 39: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 40: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 41: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 42: Space complexity: O(n) for the result buffer.
