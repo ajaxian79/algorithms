@@ -64,3 +64,4 @@ void rotate_array(int* nums, int nums_size, int k) {
 // note 39: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 40: Walk both pointers from each end inward; advance the smaller side.
 // note 41: Unbounded knapsack: capacity inner ascending allows item reuse.
+// note 42: Stable sort matters when a secondary key was set in a prior pass.
