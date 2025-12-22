@@ -608,3 +608,7 @@ Time complexity: O(log n).
 ## entry 136
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 137
+
+Treats the input as immutable.
