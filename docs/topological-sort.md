@@ -473,3 +473,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 100
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 101
+
+Monotonic stack pops while the new element violates the invariant.
