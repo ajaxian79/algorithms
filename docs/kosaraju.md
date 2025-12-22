@@ -399,3 +399,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 100
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 101
+
+Merge intervals: sort by start; extend the running interval while overlapping.
