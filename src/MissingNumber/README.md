@@ -678,3 +678,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 154
 
 Edge case: single-element input → returns the element itself.
+
+## entry 155
+
+Mutates the input in place; the original ordering is lost.
