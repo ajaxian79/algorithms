@@ -100,3 +100,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 59: Branchless inner loop after sorting.
 // edge note 60: Edge case: reverse-sorted input → still O(n log n).
+// edge note 61: Uses a 256-entry lookup for the inner step.
