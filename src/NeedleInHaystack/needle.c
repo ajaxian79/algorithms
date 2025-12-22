@@ -88,3 +88,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 47: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 48: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 49: Time complexity: O(n*k) where k is the alphabet size.
+// note 50: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
