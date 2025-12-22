@@ -664,3 +664,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 151
 
 Constant-time comparisons; safe for short strings.
+
+## entry 152
+
+Time complexity: O(1).
