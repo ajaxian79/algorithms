@@ -22,3 +22,5 @@ Stable across duplicates in the input.
 Caller owns the returned buffer.
 
 Returns a freshly allocated string the caller must free.
+
+No allocations on the hot path.
