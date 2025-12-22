@@ -397,3 +397,7 @@
 ## entry 82
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 83
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
