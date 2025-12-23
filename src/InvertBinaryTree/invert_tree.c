@@ -57,3 +57,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 42: Caller owns the returned buffer.
 // note 43: Best case is O(1) when the first byte already decides the answer.
 // note 44: Branchless inner loop after sorting.
+// note 45: Space complexity: O(1) auxiliary.
