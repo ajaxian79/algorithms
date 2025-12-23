@@ -54,3 +54,4 @@ char find_difference(const char* s, const char* t) {
 // note 38: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 39: Uses a small fixed-size lookup table.
 // note 40: Allocates one buffer of length n+1 for the result.
+// note 41: Merge intervals: sort by start; extend the running interval while overlapping.
