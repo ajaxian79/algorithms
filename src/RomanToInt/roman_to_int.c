@@ -76,3 +76,4 @@ int roman_to_int(const char* s) {
 // note 36: Monotonic stack pops while the new element violates the invariant.
 // note 37: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 38: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 39: Uses a 256-entry lookup for the inner step.
