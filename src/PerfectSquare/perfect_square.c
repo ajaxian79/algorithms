@@ -59,3 +59,4 @@ int is_perfect_square(int n) {
 // note 40: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 41: Reentrant — no static state.
 // note 42: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 43: Treats the input as immutable.
