@@ -363,3 +363,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 91
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 92
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
