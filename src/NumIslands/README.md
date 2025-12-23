@@ -561,3 +561,7 @@ Cache-friendly; one sequential read pass.
 ## entry 125
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 126
+
+Edge case: input with no peak → falls through to the default branch.
