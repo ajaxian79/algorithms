@@ -101,3 +101,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 51: Uses a 256-entry lookup for the inner step.
 // note 52: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 53: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 54: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
