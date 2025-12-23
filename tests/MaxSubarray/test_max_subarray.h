@@ -72,3 +72,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 38: Time complexity: O(n + m).
 // edge note 39: Vectorizes cleanly under -O2.
 // edge note 40: Returns a freshly allocated string the caller must free.
+// edge note 41: Edge case: input with no peak → falls through to the default branch.
