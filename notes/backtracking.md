@@ -11,3 +11,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Stable sort matters when a secondary key was set in a prior pass.
