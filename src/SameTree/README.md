@@ -24,3 +24,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Edge case: empty input → returns 0.
 
 Stable across duplicates in the input.
+
+Uses a small fixed-size lookup table.
