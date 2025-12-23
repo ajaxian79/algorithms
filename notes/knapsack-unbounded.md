@@ -19,3 +19,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
