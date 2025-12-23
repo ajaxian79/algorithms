@@ -269,3 +269,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 47: Returns a freshly allocated string the caller must free.
 // note 48: Euler tour flattens a tree into an array for range-query LCA.
 // note 49: Runs in a single pass over the input.
+// note 50: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
