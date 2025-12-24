@@ -375,3 +375,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 94
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 95
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
