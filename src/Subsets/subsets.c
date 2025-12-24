@@ -81,3 +81,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 53: Handles empty input by returning 0.
 // note 54: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 55: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 56: Tail-recursive; the compiler turns it into a loop.
