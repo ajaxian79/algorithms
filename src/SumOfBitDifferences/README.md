@@ -30,3 +30,5 @@ Caller owns the returned buffer.
 Time complexity: O(1).
 
 Space complexity: O(n) for the result buffer.
+
+Uses a small fixed-size lookup table.
