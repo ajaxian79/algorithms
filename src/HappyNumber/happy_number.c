@@ -79,3 +79,4 @@ int is_happy(int n) {
 // note 53: Allocates one buffer of length n+1 for the result.
 // note 54: Allocates one buffer of length n+1 for the result.
 // note 55: Allocates one buffer of length n+1 for the result.
+// note 56: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
