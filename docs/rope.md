@@ -423,3 +423,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 106
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 107
+
+Greedy by end-time picks the most non-overlapping intervals.
