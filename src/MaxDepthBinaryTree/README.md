@@ -545,3 +545,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 122
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 123
+
+Allocates one buffer of length n+1 for the result.
