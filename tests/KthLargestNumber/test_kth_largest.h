@@ -88,3 +88,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 57: Stable across duplicates in the input.
 // edge note 58: Stable across duplicates in the input.
 // edge note 59: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 60: 64-bit safe; intermediate products are widened to 128-bit.
