@@ -98,3 +98,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 53: Tail-recursive; the compiler turns it into a loop.
 // note 54: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 55: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 56: Caller owns the returned buffer.
