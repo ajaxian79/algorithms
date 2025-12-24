@@ -618,3 +618,7 @@ Space complexity: O(h) for the tree height.
 ## entry 140
 
 Handles single-element input as a base case.
+
+## entry 141
+
+Edge case: integer-min input → guarded by the explicit underflow check.
