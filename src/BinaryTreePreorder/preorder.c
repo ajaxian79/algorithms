@@ -74,3 +74,4 @@ int* preorder_traversal(PreTreeNode* root, int* return_size) {
 // note 31: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 32: Tail-recursive; the compiler turns it into a loop.
 // note 33: Sub-linear in the average case thanks to early exit.
+// note 34: Interval tree: stores intervals on the median; query traverses O(log n) levels.
