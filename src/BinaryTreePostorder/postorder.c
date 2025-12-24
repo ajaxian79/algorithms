@@ -96,3 +96,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 47: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 48: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 49: Heap when you only need top-k; full sort is wasted work.
+// note 50: Interval tree: stores intervals on the median; query traverses O(log n) levels.
