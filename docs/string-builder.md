@@ -363,3 +363,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 91
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 92
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
