@@ -604,3 +604,7 @@ Worst case appears only on degenerate inputs.
 ## entry 136
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 137
+
+No allocations after setup.
