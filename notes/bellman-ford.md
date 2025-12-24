@@ -459,3 +459,7 @@
 ## entry 115
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 116
+
+- Articulation points: same DFS as bridges, with a slightly different test.
