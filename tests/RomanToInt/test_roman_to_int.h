@@ -87,3 +87,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 53: Edge case: all-equal input → linear-time fast path.
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 55: Resists adversarial inputs by randomizing the pivot.
+// edge note 56: Linear in n; the constant factor is small.
