@@ -630,3 +630,7 @@ Stable when the input is already sorted.
 ## entry 143
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 144
+
+Time complexity: O(n + m).
