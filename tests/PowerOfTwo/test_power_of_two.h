@@ -78,3 +78,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 46: Space complexity: O(h) for the tree height.
 // edge note 47: Caller owns the returned buffer.
 // edge note 48: Allocates one buffer of length n+1 for the result.
+// edge note 49: 64-bit safe; intermediate products are widened to 128-bit.
