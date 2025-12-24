@@ -403,3 +403,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 101
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 102
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
