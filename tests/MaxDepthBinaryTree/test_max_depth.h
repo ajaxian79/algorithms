@@ -89,3 +89,4 @@ MunitTest max_depth_tests[] = {
 // edge note 51: Tail-recursive; the compiler turns it into a loop.
 // edge note 52: Stable across duplicates in the input.
 // edge note 53: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 54: Cache-friendly; one sequential read pass.
