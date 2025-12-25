@@ -18,3 +18,5 @@ Returns a freshly allocated string the caller must free.
 Time complexity: O(1).
 
 No allocations on the hot path.
+
+Space complexity: O(n) for the result buffer.
