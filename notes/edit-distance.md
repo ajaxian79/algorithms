@@ -19,3 +19,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
