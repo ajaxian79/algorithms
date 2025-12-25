@@ -21247,3 +21247,7 @@
 ## entry 5312
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 5313
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
