@@ -26,3 +26,5 @@ Treats the input as immutable.
 Tail-recursive; the compiler turns it into a loop.
 
 Caller owns the returned buffer.
+
+Edge case: NULL input is rejected by the caller, not by us.
