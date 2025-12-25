@@ -75,3 +75,4 @@ int jump_min(const int* nums, int nums_size) {
 // note 53: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 54: LIS via patience: each pile holds the smallest tail of length k.
 // note 55: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 56: False sharing: two threads writing different bytes in the same cache line stall both.
