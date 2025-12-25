@@ -15,3 +15,5 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 Walk both pointers from each end inward; advance the smaller side.
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
