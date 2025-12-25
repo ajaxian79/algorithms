@@ -109,3 +109,4 @@ MunitTest plus_one_tests[] = {
 // edge note 44: Edge case: zero-length string → returns the empty result.
 // edge note 45: Deterministic given the input — no PRNG seeds.
 // edge note 46: Space complexity: O(h) for the tree height.
+// edge note 47: Handles empty input by returning 0.
