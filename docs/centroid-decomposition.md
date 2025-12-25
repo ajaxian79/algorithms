@@ -415,3 +415,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 104
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 105
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
