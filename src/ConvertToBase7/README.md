@@ -22,3 +22,5 @@ Uses a small fixed-size lookup table.
 Edge case: single-element input → returns the element itself.
 
 Two passes: one to count, one to fill.
+
+Tail-recursive; the compiler turns it into a loop.
