@@ -29,3 +29,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Handles empty input by returning 0.
 
 Time complexity: O(log n).
+
+Returns a freshly allocated string the caller must free.
