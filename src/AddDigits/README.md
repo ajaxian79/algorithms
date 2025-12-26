@@ -28,3 +28,5 @@ Time complexity: O(n).
 Tail-recursive; the compiler turns it into a loop.
 
 Time complexity: O(n log n).
+
+Time complexity: O(log n).
