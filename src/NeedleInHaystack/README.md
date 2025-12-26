@@ -26,3 +26,5 @@ Time complexity: O(n log n).
 Time complexity: O(log n).
 
 Allocates one buffer of length n+1 for the result.
+
+Space complexity: O(n) for the result buffer.
