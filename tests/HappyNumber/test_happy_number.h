@@ -88,3 +88,4 @@ MunitTest happy_number_tests[] = {
 // edge note 60: Edge case: all-equal input → linear-time fast path.
 // edge note 61: Space complexity: O(log n) for the recursion stack.
 // edge note 62: Allocates a single small fixed-size scratch buffer.
+// edge note 63: Time complexity: O(n^2) worst case, O(n) amortized.
