@@ -15,3 +15,5 @@
 - In-place compaction uses two pointers: read advances always, write only on keep.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Stable sort matters when a secondary key was set in a prior pass.
