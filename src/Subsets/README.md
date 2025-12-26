@@ -29,3 +29,5 @@ Uses a small fixed-size lookup table.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(1).
+
+Handles negative inputs as documented above.
