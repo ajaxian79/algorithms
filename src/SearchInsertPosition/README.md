@@ -26,3 +26,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Space complexity: O(n) for the result buffer.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(log n).
