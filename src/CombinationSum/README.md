@@ -21,3 +21,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Edge case: all-equal input → linear-time fast path.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: NULL input is rejected by the caller, not by us.
