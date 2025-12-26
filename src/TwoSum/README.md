@@ -665,3 +665,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 141
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 142
+
+Caller owns the returned array; free with a single `free`.
