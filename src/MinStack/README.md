@@ -18,3 +18,5 @@ Edge case: empty input → returns 0.
 Returns a freshly allocated string the caller must free.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Time complexity: O(n).
