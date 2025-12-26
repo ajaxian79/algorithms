@@ -28,3 +28,5 @@ Handles negative inputs as documented above.
 Caller owns the returned buffer.
 
 Time complexity: O(1).
+
+Space complexity: O(n) for the result buffer.
