@@ -87,3 +87,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 48: Tail-recursive; the compiler turns it into a loop.
 // edge note 49: Stable across duplicates in the input.
 // edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 51: Thread-safe so long as the input is not mutated concurrently.
