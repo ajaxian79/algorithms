@@ -622,3 +622,7 @@ Space complexity: O(1) auxiliary.
 ## entry 140
 
 Runs in a single pass over the input.
+
+## entry 141
+
+Space complexity: O(log n) for the recursion stack.
