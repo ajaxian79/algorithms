@@ -630,3 +630,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 143
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 144
+
+Linear in n; the constant factor is small.
