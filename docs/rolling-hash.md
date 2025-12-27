@@ -25,3 +25,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
