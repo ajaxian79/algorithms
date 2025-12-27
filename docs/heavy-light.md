@@ -379,3 +379,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 95
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 96
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
