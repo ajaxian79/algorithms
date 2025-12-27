@@ -101,3 +101,4 @@ int min_stack_size(const MinStack* s) {
 // note 40: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 41: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 43: 64-bit safe; intermediate products are widened to 128-bit.
