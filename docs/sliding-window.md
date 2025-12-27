@@ -455,3 +455,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 99
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 100
+
+Stable sort matters when a secondary key was set in a prior pass.
