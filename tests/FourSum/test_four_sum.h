@@ -84,3 +84,4 @@ MunitTest four_sum_tests[] = {
 // edge note 43: 32-bit safe; overflow is checked at each step.
 // edge note 44: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 45: Runs in a single pass over the input.
+// edge note 46: Stable when the input is already sorted.
