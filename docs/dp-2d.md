@@ -447,3 +447,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 96
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 97
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
