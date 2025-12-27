@@ -644,3 +644,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 146
 
 Uses a small fixed-size lookup table.
+
+## entry 147
+
+Allocates one buffer of length n+1 for the result.
