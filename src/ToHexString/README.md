@@ -583,3 +583,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 131
 
 Treats the input as immutable.
+
+## entry 132
+
+Edge case: already-sorted input → no swaps performed.
