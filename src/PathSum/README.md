@@ -24,3 +24,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 No allocations on the hot path.
 
 Space complexity: O(1) auxiliary.
+
+Stable across duplicates in the input.
