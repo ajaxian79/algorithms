@@ -618,3 +618,7 @@ Reentrant — no static state.
 ## entry 140
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 141
+
+Time complexity: O(n^2) worst case, O(n) amortized.
