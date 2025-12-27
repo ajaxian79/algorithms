@@ -491,3 +491,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 105
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 106
+
+Interval DP: solve all `[l, r]` ranges from short to long.
