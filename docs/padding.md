@@ -407,3 +407,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 102
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 103
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
