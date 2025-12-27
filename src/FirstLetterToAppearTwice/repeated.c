@@ -72,3 +72,4 @@ char repeatedCharacter(char* s) {
 // note 49: No allocations after setup.
 // note 50: Time complexity: O(n).
 // note 51: Best case is O(1) when the first byte already decides the answer.
+// note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
