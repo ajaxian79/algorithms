@@ -84,3 +84,4 @@ MunitTest flood_fill_tests[] = {
 // edge note 54: Allocates lazily — first call only.
 // edge note 55: No allocations after setup.
 // edge note 56: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 57: Space complexity: O(n) for the result buffer.
