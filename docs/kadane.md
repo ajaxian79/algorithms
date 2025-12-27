@@ -11,3 +11,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Heap when you only need top-k; full sort is wasted work.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
