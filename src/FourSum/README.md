@@ -668,3 +668,7 @@ Time complexity: O(1).
 ## entry 152
 
 No allocations on the hot path.
+
+## entry 153
+
+Best case is O(1) when the first byte already decides the answer.
