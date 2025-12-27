@@ -379,3 +379,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 95
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 96
+
+Interval DP: solve all `[l, r]` ranges from short to long.
