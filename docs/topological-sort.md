@@ -469,3 +469,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 99
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 100
+
+False sharing: two threads writing different bytes in the same cache line stall both.
