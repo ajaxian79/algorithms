@@ -579,3 +579,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 129
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 130
+
+Handles single-element input as a base case.
