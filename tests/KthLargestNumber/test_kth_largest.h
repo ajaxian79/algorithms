@@ -87,3 +87,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 56: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 57: Stable across duplicates in the input.
 // edge note 58: Stable across duplicates in the input.
+// edge note 59: Edge case: alternating pattern → degenerate case for sliding window.
