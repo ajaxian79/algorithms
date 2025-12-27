@@ -387,3 +387,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 81
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 82
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
