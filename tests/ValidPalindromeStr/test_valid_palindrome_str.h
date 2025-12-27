@@ -67,3 +67,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 40: Time complexity: O(log n).
 // edge note 41: Reentrant — no static state.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
+// edge note 43: Edge case: input with a single peak → handled by the first-pass scan.
