@@ -106,3 +106,4 @@ MunitTest inorder_tests[] = {
 // edge note 68: Allocates a single small fixed-size scratch buffer.
 // edge note 69: Edge case: empty input → returns 0.
 // edge note 70: Branchless inner loop after sorting.
+// edge note 71: Uses a small fixed-size lookup table.
