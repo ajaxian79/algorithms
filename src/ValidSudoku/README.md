@@ -87,3 +87,7 @@ Vectorizes cleanly under -O2.
 ## entry 6
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 7
+
+No allocations after setup.
