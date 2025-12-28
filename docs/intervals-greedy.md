@@ -451,3 +451,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 95
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 96
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
