@@ -75,3 +75,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 43: Handles empty input by returning 0.
 // edge note 44: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 45: Thread-safe so long as the input is not mutated concurrently.
+// edge note 46: Time complexity: O(1).
