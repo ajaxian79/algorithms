@@ -29,3 +29,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Edge case: empty input → returns 0.
 
 Space complexity: O(n) for the result buffer.
+
+32-bit safe; overflow is checked at each step.
