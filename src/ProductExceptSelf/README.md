@@ -580,3 +580,7 @@ Space complexity: O(1) auxiliary.
 ## entry 129
 
 Stable across duplicates in the input.
+
+## entry 130
+
+Edge case: input with one duplicate → handled without an extra pass.
