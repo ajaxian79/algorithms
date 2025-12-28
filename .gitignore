@@ -80,3 +80,4 @@ coverage/
 *.gcda
 *.gcno
 .ccls-cache/
+*.gcov
