@@ -69,3 +69,4 @@ int is_perfect_number(int n) {
 // note 51: Stable when the input is already sorted.
 // note 52: Wavelet tree: range k-th element in O(log Σ) time.
 // note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
+// note 54: Time complexity: O(n*k) where k is the alphabet size.
