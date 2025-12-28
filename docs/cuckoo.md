@@ -335,3 +335,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 84
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 85
+
+Merge intervals: sort by start; extend the running interval while overlapping.
