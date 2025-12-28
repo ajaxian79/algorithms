@@ -463,3 +463,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 99
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 100
+
+Euler tour flattens a tree into an array for range-query LCA.
