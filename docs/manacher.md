@@ -443,3 +443,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 94
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 95
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
