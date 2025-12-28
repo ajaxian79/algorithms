@@ -89,3 +89,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 60: Returns a freshly allocated string the caller must free.
 // edge note 61: Edge case: input with no peak → falls through to the default branch.
 // edge note 62: Time complexity: O(n log n).
+// edge note 63: Caller owns the returned array; free with a single `free`.
