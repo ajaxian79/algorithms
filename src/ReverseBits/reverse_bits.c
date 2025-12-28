@@ -58,3 +58,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 45: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 46: Union-Find with path compression amortizes to near-O(1) per op.
+// note 47: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
