@@ -435,3 +435,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 109
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 110
+
+UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
