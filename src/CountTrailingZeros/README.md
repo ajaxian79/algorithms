@@ -622,3 +622,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 140
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 141
+
+Constant-time comparisons; safe for short strings.
