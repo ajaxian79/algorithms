@@ -614,3 +614,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 139
 
 Reentrant — no static state.
+
+## entry 140
+
+Time complexity: O(n*k) where k is the alphabet size.
