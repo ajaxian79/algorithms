@@ -58,3 +58,4 @@ int trap(const int* height, int n) {
 // note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 35: Interval DP: solve all `[l, r]` ranges from short to long.
 // note 36: Articulation points: same DFS as bridges, with a slightly different test.
+// note 37: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
