@@ -21167,3 +21167,7 @@
 ## entry 5292
 
 - Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 5293
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
