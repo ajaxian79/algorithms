@@ -471,3 +471,7 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 ## entry 101
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 102
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
