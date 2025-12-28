@@ -13,3 +13,5 @@
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
