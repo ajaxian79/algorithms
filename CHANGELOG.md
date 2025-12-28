@@ -21147,3 +21147,7 @@
 ## entry 5287
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 5288
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
