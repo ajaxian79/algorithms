@@ -27,3 +27,5 @@ Two passes: one to count, one to fill.
 Uses a small fixed-size lookup table.
 
 32-bit safe; overflow is checked at each step.
+
+Time complexity: O(1).
