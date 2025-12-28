@@ -634,3 +634,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 144
 
 Stable across duplicates in the input.
+
+## entry 145
+
+Time complexity: O(n^2) worst case, O(n) amortized.
