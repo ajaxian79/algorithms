@@ -94,3 +94,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 49: Greedy by end-time picks the most non-overlapping intervals.
 // note 50: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 51: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 52: Space complexity: O(log n) for the recursion stack.
