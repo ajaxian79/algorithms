@@ -35,3 +35,5 @@ Two passes: one to count, one to fill.
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: empty input → returns 0.
+
+32-bit safe; overflow is checked at each step.
