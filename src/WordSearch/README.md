@@ -22,3 +22,5 @@ Space complexity: O(n) for the result buffer.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(n).
+
+Edge case: NULL input is rejected by the caller, not by us.
