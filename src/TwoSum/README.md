@@ -661,3 +661,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 140
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 141
+
+Best case is O(1) when the first byte already decides the answer.
