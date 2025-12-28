@@ -690,3 +690,7 @@ Uses a small fixed-size lookup table.
 ## entry 157
 
 Three passes total; the third merges results.
+
+## entry 158
+
+Worst case appears only on degenerate inputs.
