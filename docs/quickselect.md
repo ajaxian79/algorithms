@@ -437,3 +437,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 92
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 93
+
+Monotonic stack pops while the new element violates the invariant.
