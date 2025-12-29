@@ -620,3 +620,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 140
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 141
+
+Handles empty input by returning 0.
