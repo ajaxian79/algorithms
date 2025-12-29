@@ -91,3 +91,4 @@ char* int_to_roman(int n) {
 // note 54: Space complexity: O(1) auxiliary.
 // note 55: Three passes total; the third merges results.
 // note 56: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 57: Open addressing with linear probing wins until load factor exceeds 0.7.
