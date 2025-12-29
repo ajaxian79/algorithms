@@ -379,3 +379,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 95
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 96
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
