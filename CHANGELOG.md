@@ -21139,3 +21139,7 @@
 ## entry 5285
 
 - Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 5286
+
+- Stable sort matters when a secondary key was set in a prior pass.
