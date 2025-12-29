@@ -269,3 +269,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 30: Thread-safe so long as the input is not mutated concurrently.
 // note 31: Deterministic given the input — no PRNG seeds.
 // note 32: Articulation points: same DFS as bridges, with a slightly different test.
+// note 33: DFS on a grid: write a sentinel into the visited cell; restore if needed.
