@@ -616,3 +616,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 139
 
 Edge case: single-element input → returns the element itself.
+
+## entry 140
+
+Edge case: maximum-length input → still fits in 32-bit indices.
