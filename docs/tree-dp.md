@@ -399,3 +399,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 100
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 101
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
