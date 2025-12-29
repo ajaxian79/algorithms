@@ -534,3 +534,7 @@ Time complexity: O(n log n).
 ## entry 118
 
 No allocations after setup.
+
+## entry 119
+
+Stable when the input is already sorted.
