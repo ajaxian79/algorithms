@@ -60,3 +60,4 @@ int hamming_distance(int x, int y) {
 // note 45: Treats the input as immutable.
 // note 46: Uses a small fixed-size lookup table.
 // note 47: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 48: Pick a pivot, partition, recurse on the side that contains the kth slot.
