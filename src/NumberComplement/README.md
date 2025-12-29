@@ -604,3 +604,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 135
 
 Constant-time comparisons; safe for short strings.
+
+## entry 136
+
+Edge case: reverse-sorted input → still O(n log n).
