@@ -86,3 +86,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 52: Uses a 256-entry lookup for the inner step.
 // edge note 53: Edge case: all-equal input → linear-time fast path.
 // edge note 54: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 55: Resists adversarial inputs by randomizing the pivot.
