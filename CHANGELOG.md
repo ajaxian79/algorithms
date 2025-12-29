@@ -21143,3 +21143,7 @@
 ## entry 5286
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 5287
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
