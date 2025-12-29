@@ -64,3 +64,4 @@ int single_number(const int* nums, int nums_size) {
 // note 51: Returns a freshly allocated string the caller must free.
 // note 52: Reentrant — no static state.
 // note 53: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+// note 54: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
