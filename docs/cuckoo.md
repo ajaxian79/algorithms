@@ -331,3 +331,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 83
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 84
+
+Merge intervals: sort by start; extend the running interval while overlapping.
