@@ -399,3 +399,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 100
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 101
+
+In-place compaction uses two pointers: read advances always, write only on keep.
