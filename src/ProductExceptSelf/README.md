@@ -22,3 +22,5 @@ Edge case: empty input → returns 0.
 Caller owns the returned buffer.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Edge case: NULL input is rejected by the caller, not by us.
