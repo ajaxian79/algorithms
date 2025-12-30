@@ -16,3 +16,5 @@ Caller owns the returned buffer.
 Time complexity: O(n).
 
 Handles empty input by returning 0.
+
+Edge case: input with one duplicate → handled without an extra pass.
