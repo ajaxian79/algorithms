@@ -11,3 +11,5 @@
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
