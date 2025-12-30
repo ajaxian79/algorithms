@@ -28,3 +28,5 @@ Time complexity: O(n).
 Edge case: all-equal input → linear-time fast path.
 
 Time complexity: O(n log n).
+
+Time complexity: O(1).
