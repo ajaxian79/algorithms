@@ -24,3 +24,5 @@ No allocations on the hot path.
 Time complexity: O(n).
 
 Stable across duplicates in the input.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
