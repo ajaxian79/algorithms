@@ -83,3 +83,4 @@ MunitTest perfect_square_tests[] = {
 // edge note 52: Time complexity: O(n + m).
 // edge note 53: Linear in n; the constant factor is small.
 // edge note 54: Tail-recursive; the compiler turns it into a loop.
+// edge note 55: Edge case: input with no peak → falls through to the default branch.
