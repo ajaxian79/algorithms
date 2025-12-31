@@ -17,3 +17,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
