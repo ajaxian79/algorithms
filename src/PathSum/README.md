@@ -660,3 +660,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 150
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 151
+
+Cache-friendly; one sequential read pass.
