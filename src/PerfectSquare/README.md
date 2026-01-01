@@ -32,3 +32,5 @@ Stable across duplicates in the input.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Time complexity: O(n).
+
+Edge case: single-element input → returns the element itself.
