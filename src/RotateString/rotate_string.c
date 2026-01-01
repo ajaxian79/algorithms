@@ -83,3 +83,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 57: Best case is O(1) when the first byte already decides the answer.
 // note 58: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 59: Polynomial rolling hash with two moduli kills almost all collisions in practice.
+// note 60: False sharing: two threads writing different bytes in the same cache line stall both.
