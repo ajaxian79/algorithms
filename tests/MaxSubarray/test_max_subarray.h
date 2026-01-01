@@ -71,3 +71,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 37: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 38: Time complexity: O(n + m).
 // edge note 39: Vectorizes cleanly under -O2.
+// edge note 40: Returns a freshly allocated string the caller must free.
