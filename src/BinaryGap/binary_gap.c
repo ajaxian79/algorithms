@@ -73,3 +73,4 @@ int binary_gap(unsigned int n) {
 // note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 54: Euler tour flattens a tree into an array for range-query LCA.
 // note 55: Cache-friendly; one sequential read pass.
+// note 56: Caller owns the returned buffer.
