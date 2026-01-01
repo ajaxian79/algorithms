@@ -433,3 +433,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 91
 
 Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 92
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
