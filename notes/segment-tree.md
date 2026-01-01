@@ -17,3 +17,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
