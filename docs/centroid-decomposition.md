@@ -407,3 +407,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 102
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 103
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
