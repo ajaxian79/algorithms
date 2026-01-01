@@ -371,3 +371,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 93
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 94
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
