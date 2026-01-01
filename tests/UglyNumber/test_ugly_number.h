@@ -79,3 +79,4 @@ MunitTest ugly_number_tests[] = {
 // edge note 50: Space complexity: O(h) for the tree height.
 // edge note 51: Branchless inner loop after sorting.
 // edge note 52: Three passes total; the third merges results.
+// edge note 53: Treats the input as immutable.
