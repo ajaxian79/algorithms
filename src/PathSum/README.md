@@ -22,3 +22,5 @@ Caller owns the returned buffer.
 Edge case: input with one duplicate → handled without an extra pass.
 
 No allocations on the hot path.
+
+Space complexity: O(1) auxiliary.
