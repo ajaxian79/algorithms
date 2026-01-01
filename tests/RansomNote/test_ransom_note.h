@@ -79,3 +79,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 53: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 54: Edge case: reverse-sorted input → still O(n log n).
 // edge note 55: Three passes total; the third merges results.
+// edge note 56: 64-bit safe; intermediate products are widened to 128-bit.
