@@ -13,3 +13,5 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Morris traversal threads predecessors back to current node — O(1) extra space.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
