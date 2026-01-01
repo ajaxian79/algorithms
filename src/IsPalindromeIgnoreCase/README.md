@@ -570,3 +570,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 128
 
 Treats the input as immutable.
+
+## entry 129
+
+Time complexity: O(1).
