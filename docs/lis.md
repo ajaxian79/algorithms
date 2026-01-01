@@ -15,3 +15,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
