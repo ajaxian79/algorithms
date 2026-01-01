@@ -15,3 +15,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
