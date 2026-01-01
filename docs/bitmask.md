@@ -11,3 +11,5 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
