@@ -23,3 +23,5 @@
 - Greedy by end-time picks the most non-overlapping intervals.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
