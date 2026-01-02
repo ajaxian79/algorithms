@@ -86,3 +86,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 56: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 57: Stable across duplicates in the input.
+// edge note 58: Stable across duplicates in the input.
