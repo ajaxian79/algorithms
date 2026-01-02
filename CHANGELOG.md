@@ -21103,3 +21103,7 @@
 ## entry 5276
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 5277
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
