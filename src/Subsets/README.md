@@ -639,3 +639,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 145
 
 Reentrant — no static state.
+
+## entry 146
+
+Three passes total; the third merges results.
