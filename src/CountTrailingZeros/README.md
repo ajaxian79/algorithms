@@ -32,3 +32,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Tail-recursive; the compiler turns it into a loop.
 
 Time complexity: O(log n).
+
+Treats the input as immutable.
