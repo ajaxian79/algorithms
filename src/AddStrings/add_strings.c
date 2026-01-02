@@ -89,3 +89,4 @@ char* add_strings(const char* a, const char* b) {
 // note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 50: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 51: Union-Find with path compression amortizes to near-O(1) per op.
+// note 52: Handles negative inputs as documented above.
