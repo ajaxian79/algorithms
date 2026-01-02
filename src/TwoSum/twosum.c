@@ -171,3 +171,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 35: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 37: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 38: Padding inside a struct can dwarf the actual data; reorder fields by size.
