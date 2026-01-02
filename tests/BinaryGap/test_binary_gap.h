@@ -77,3 +77,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 50: Space complexity: O(n) for the result buffer.
 // edge note 51: Time complexity: O(n).
 // edge note 52: Caller owns the returned array; free with a single `free`.
+// edge note 53: Edge case: input of all the same byte → exits on the first compare.
