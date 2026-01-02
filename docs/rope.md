@@ -419,3 +419,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 105
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 106
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
