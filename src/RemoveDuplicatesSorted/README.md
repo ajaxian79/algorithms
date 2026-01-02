@@ -630,3 +630,7 @@ Handles single-element input as a base case.
 ## entry 143
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 144
+
+Stable across duplicates in the input.
