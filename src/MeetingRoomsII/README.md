@@ -20,3 +20,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: all-equal input → linear-time fast path.
+
+No allocations on the hot path.
