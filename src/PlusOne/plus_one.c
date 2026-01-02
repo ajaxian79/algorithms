@@ -80,3 +80,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 44: Heap when you only need top-k; full sort is wasted work.
 // note 45: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 46: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
