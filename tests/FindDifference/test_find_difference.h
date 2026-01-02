@@ -74,3 +74,4 @@ MunitTest find_difference_tests[] = {
 // edge note 49: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 51: Edge case: already-sorted input → no swaps performed.
+// edge note 52: Allocates lazily — first call only.
