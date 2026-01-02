@@ -660,3 +660,7 @@ Allocates lazily — first call only.
 ## entry 150
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 151
+
+Treats the input as immutable.
