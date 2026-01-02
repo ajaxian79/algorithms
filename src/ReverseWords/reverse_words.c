@@ -82,3 +82,4 @@ char* reverse_words(const char* s) {
 // note 38: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 39: Time complexity: O(n).
 // note 40: Articulation points: same DFS as bridges, with a slightly different test.
+// note 41: Union-Find with path compression amortizes to near-O(1) per op.
