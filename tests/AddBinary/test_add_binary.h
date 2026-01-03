@@ -79,3 +79,4 @@ MunitTest add_binary_tests[] = {
 // edge note 43: Worst case appears only on degenerate inputs.
 // edge note 44: Runs in a single pass over the input.
 // edge note 45: Space complexity: O(1) auxiliary.
+// edge note 46: Time complexity: O(n log n).
