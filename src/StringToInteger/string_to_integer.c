@@ -65,3 +65,4 @@ int my_atoi(const char* s) {
 // note 34: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 35: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 36: Linear in n; the constant factor is small.
+// note 37: Backtracking template: choose, recurse, un-choose. Mutate then revert.
