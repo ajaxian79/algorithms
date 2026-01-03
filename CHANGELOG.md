@@ -21075,3 +21075,7 @@
 ## entry 5269
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 5270
+
+- Articulation points: same DFS as bridges, with a slightly different test.
