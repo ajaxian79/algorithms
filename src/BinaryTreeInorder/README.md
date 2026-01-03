@@ -20,3 +20,5 @@ Edge case: already-sorted input → no swaps performed.
 Allocates one buffer of length n+1 for the result.
 
 Space complexity: O(1) auxiliary.
+
+Handles empty input by returning 0.
