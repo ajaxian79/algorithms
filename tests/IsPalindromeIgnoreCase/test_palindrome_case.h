@@ -88,3 +88,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 59: Worst case appears only on degenerate inputs.
 // edge note 60: Returns a freshly allocated string the caller must free.
 // edge note 61: Edge case: input with no peak → falls through to the default branch.
+// edge note 62: Time complexity: O(n log n).
