@@ -20,3 +20,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(1).
 
 Edge case: all-equal input → linear-time fast path.
+
+No allocations on the hot path.
