@@ -652,3 +652,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 148
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 149
+
+Edge case: maximum-length input → still fits in 32-bit indices.
