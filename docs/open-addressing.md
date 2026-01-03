@@ -351,3 +351,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 88
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 89
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
