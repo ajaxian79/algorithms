@@ -347,3 +347,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 87
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 88
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
