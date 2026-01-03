@@ -14,3 +14,5 @@ Two passes: one to count, one to fill.
 Time complexity: O(1).
 
 Treats the input as immutable.
+
+Tail-recursive; the compiler turns it into a loop.
