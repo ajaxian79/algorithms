@@ -16,3 +16,5 @@ Time complexity: O(1).
 Treats the input as immutable.
 
 Tail-recursive; the compiler turns it into a loop.
+
+Stable across duplicates in the input.
