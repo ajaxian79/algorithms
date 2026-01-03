@@ -574,3 +574,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 129
 
 Allocates lazily — first call only.
+
+## entry 130
+
+Edge case: reverse-sorted input → still O(n log n).
