@@ -638,3 +638,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 145
 
 Vectorizes cleanly under -O2.
+
+## entry 146
+
+Time complexity: O(1).
