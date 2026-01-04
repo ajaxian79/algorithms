@@ -575,3 +575,7 @@ No allocations on the hot path.
 ## entry 128
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 129
+
+Time complexity: O(n*k) where k is the alphabet size.
