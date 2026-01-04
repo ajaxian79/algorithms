@@ -32,3 +32,4 @@ MunitTest trap_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_TRAP_H
+// edge note 1: Mutates the input in place; the original ordering is lost.
