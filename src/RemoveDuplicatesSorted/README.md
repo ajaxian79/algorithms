@@ -626,3 +626,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 142
 
 Handles single-element input as a base case.
+
+## entry 143
+
+Deterministic given the input — no PRNG seeds.
