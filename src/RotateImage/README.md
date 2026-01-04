@@ -569,3 +569,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 127
 
 Stable across duplicates in the input.
+
+## entry 128
+
+Edge case: NULL input is rejected by the caller, not by us.
