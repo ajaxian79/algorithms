@@ -67,3 +67,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 1
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 2
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
