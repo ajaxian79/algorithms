@@ -411,3 +411,7 @@
 ## entry 87
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 88
+
+- Monotonic stack pops while the new element violates the invariant.
