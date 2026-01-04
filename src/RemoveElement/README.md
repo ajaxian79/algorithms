@@ -23,3 +23,5 @@ Time complexity: O(log n).
 Two passes: one to count, one to fill.
 
 Handles negative inputs as documented above.
+
+Edge case: all-equal input → linear-time fast path.
