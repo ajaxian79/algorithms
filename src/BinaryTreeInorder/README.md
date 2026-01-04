@@ -530,3 +530,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 118
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 119
+
+Edge case: input with no peak → falls through to the default branch.
