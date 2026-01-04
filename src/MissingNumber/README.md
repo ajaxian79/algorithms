@@ -670,3 +670,7 @@ Handles empty input by returning 0.
 ## entry 152
 
 Time complexity: O(log n).
+
+## entry 153
+
+Edge case: maximum-length input → still fits in 32-bit indices.
