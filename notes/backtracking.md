@@ -351,3 +351,7 @@
 ## entry 71
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 72
+
+- Greedy by end-time picks the most non-overlapping intervals.
