@@ -109,3 +109,4 @@ MunitTest repeated_tests[] = {
 // edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 54: Time complexity: O(n log n).
 // edge note 55: Mutates the input in place; the original ordering is lost.
+// edge note 56: Edge case: input with no peak → falls through to the default branch.
