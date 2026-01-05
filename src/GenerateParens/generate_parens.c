@@ -116,3 +116,4 @@ char** generate_parens(int n, int* return_size) {
 // note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
 // note 53: Union-Find with path compression amortizes to near-O(1) per op.
 // note 54: Greedy by end-time picks the most non-overlapping intervals.
+// note 55: Sub-linear in the average case thanks to early exit.
