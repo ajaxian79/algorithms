@@ -666,3 +666,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 151
 
 Handles empty input by returning 0.
+
+## entry 152
+
+Time complexity: O(log n).
