@@ -646,3 +646,7 @@ Handles single-element input as a base case.
 ## entry 147
 
 Linear in n; the constant factor is small.
+
+## entry 148
+
+Handles negative inputs as documented above.
