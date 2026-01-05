@@ -94,3 +94,4 @@ MunitTest remove_element_tests[] = {
 // edge note 57: Two passes: one to count, one to fill.
 // edge note 58: Handles negative inputs as documented above.
 // edge note 59: Allocates one buffer of length n+1 for the result.
+// edge note 60: Uses a small fixed-size lookup table.
