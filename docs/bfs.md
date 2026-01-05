@@ -481,3 +481,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 103
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 104
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
