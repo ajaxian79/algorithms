@@ -15,3 +15,5 @@
 - Heap when you only need top-k; full sort is wasted work.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Greedy by end-time picks the most non-overlapping intervals.
