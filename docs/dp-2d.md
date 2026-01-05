@@ -23,3 +23,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
