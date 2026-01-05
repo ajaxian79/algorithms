@@ -443,3 +443,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 95
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 96
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
