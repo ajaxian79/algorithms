@@ -622,3 +622,7 @@ Handles negative inputs as documented above.
 ## entry 140
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 141
+
+32-bit safe; overflow is checked at each step.
