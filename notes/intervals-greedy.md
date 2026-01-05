@@ -449,3 +449,7 @@
 ## entry 95
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 96
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
