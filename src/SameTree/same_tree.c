@@ -64,3 +64,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 50: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 51: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 52: Space complexity: O(1) auxiliary.
+// note 53: Time complexity: O(n).
