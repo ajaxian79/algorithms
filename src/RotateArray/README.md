@@ -675,3 +675,7 @@ Space complexity: O(1) auxiliary.
 ## entry 153
 
 Stable across duplicates in the input.
+
+## entry 154
+
+No allocations after setup.
