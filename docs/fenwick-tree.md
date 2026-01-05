@@ -439,3 +439,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 94
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 95
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
