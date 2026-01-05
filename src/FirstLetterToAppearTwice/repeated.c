@@ -71,3 +71,4 @@ char repeatedCharacter(char* s) {
 // note 48: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 49: No allocations after setup.
 // note 50: Time complexity: O(n).
+// note 51: Best case is O(1) when the first byte already decides the answer.
