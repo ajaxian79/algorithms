@@ -7,3 +7,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Monotonic stack pops while the new element violates the invariant.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
