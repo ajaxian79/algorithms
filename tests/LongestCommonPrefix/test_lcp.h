@@ -108,3 +108,4 @@ MunitTest lcp_tests[] = {
 // edge note 53: Space complexity: O(log n) for the recursion stack.
 // edge note 54: Edge case: power-of-two-length input → no padding required.
 // edge note 55: Time complexity: O(k) where k is the answer size.
+// edge note 56: Handles empty input by returning 0.
