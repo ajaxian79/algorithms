@@ -14,3 +14,5 @@ Handles negative inputs as documented above.
 32-bit safe; overflow is checked at each step.
 
 Edge case: empty input → returns 0.
+
+Returns a freshly allocated string the caller must free.
