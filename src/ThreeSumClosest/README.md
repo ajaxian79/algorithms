@@ -610,3 +610,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 138
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 139
+
+Reentrant — no static state.
