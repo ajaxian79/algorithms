@@ -87,3 +87,4 @@ MunitTest product_except_self_tests[] = {
 // edge note 51: Handles single-element input as a base case.
 // edge note 52: Time complexity: O(n).
 // edge note 53: Edge case: input of all the same byte → exits on the first compare.
+// edge note 54: Idempotent — calling twice with the same input is a no-op the second time.
