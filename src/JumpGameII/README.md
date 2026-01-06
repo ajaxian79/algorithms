@@ -588,3 +588,7 @@ Caller owns the returned buffer.
 ## entry 132
 
 Runs in a single pass over the input.
+
+## entry 133
+
+Stable across duplicates in the input.
