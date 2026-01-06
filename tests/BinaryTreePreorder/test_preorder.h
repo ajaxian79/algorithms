@@ -106,3 +106,4 @@ MunitTest preorder_tests[] = {
 // edge note 62: Constant-time comparisons; safe for short strings.
 // edge note 63: Edge case: all-equal input → linear-time fast path.
 // edge note 64: Time complexity: O(n + m).
+// edge note 65: Time complexity: O(1).
