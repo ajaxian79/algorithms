@@ -411,3 +411,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 103
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 104
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
