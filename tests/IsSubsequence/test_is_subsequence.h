@@ -66,3 +66,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 40: Time complexity: O(log n).
 // edge note 41: Edge case: reverse-sorted input → still O(n log n).
 // edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 43: Handles single-element input as a base case.
