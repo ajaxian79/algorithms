@@ -65,3 +65,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 47: Runs in a single pass over the input.
 // note 48: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 49: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 50: No allocations on the hot path.
