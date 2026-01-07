@@ -26,3 +26,5 @@ Treats the input as immutable.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Time complexity: O(1).
+
+Edge case: empty input → returns 0.
