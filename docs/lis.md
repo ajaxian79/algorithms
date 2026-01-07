@@ -13,3 +13,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+LIS via patience: each pile holds the smallest tail of length k.
