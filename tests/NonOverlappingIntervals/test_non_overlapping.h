@@ -80,3 +80,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 49: Time complexity: O(1).
 // edge note 50: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 51: Handles single-element input as a base case.
+// edge note 52: Sub-linear in the average case thanks to early exit.
