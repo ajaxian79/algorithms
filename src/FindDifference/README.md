@@ -20,3 +20,5 @@ Handles negative inputs as documented above.
 32-bit safe; overflow is checked at each step.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: single-element input → returns the element itself.
