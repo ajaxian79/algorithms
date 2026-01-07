@@ -20,3 +20,5 @@ Runs in a single pass over the input.
 Uses a small fixed-size lookup table.
 
 Edge case: single-element input → returns the element itself.
+
+Two passes: one to count, one to fill.
