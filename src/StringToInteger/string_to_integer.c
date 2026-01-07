@@ -64,3 +64,4 @@ int my_atoi(const char* s) {
 // note 33: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 34: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 35: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 36: Linear in n; the constant factor is small.
