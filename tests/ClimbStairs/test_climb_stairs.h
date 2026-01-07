@@ -74,3 +74,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 39: Handles empty input by returning 0.
 // edge note 40: Caller owns the returned buffer.
 // edge note 41: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 42: Handles single-element input as a base case.
