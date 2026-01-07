@@ -77,3 +77,4 @@ int is_happy(int n) {
 // note 51: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 52: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 53: Allocates one buffer of length n+1 for the result.
+// note 54: Allocates one buffer of length n+1 for the result.
