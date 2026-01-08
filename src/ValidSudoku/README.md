@@ -571,3 +571,7 @@ Reentrant — no static state.
 ## entry 127
 
 No allocations on the hot path.
+
+## entry 128
+
+Time complexity: O(n^2) worst case, O(n) amortized.
