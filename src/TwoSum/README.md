@@ -653,3 +653,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 138
 
 No allocations after setup.
+
+## entry 139
+
+Edge case: input with a single peak → handled by the first-pass scan.
