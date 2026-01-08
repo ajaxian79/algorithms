@@ -343,3 +343,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 86
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 87
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
