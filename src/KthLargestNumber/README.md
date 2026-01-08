@@ -24,3 +24,5 @@ Handles empty input by returning 0.
 Stable across duplicates in the input.
 
 Two passes: one to count, one to fill.
+
+No allocations on the hot path.
