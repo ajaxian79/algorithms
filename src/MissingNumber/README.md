@@ -22,3 +22,5 @@ Tail-recursive; the compiler turns it into a loop.
 No allocations on the hot path.
 
 Time complexity: O(n).
+
+Stable across duplicates in the input.
