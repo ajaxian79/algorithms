@@ -586,3 +586,7 @@ Branchless inner loop after sorting.
 ## entry 132
 
 Worst case appears only on degenerate inputs.
+
+## entry 133
+
+Time complexity: O(n).
