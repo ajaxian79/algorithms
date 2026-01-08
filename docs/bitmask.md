@@ -383,3 +383,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 80
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 81
+
+Wavelet tree: range k-th element in O(log Σ) time.
