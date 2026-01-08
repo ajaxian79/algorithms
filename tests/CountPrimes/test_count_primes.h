@@ -77,3 +77,4 @@ MunitTest count_primes_tests[] = {
 // edge note 49: Edge case: empty input → returns 0.
 // edge note 50: Edge case: input with no peak → falls through to the default branch.
 // edge note 51: Three passes total; the third merges results.
+// edge note 52: 64-bit safe; intermediate products are widened to 128-bit.
