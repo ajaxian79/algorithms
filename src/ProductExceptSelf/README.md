@@ -576,3 +576,7 @@ Edge case: empty input → returns 0.
 ## entry 128
 
 Space complexity: O(1) auxiliary.
+
+## entry 129
+
+Stable across duplicates in the input.
