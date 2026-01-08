@@ -347,3 +347,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 87
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 88
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
