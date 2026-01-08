@@ -435,3 +435,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 92
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 93
+
+Splay tree: every access splays to the root; amortized O(log n).
