@@ -100,3 +100,4 @@ MunitTest postorder_tests[] = {
 // edge note 56: Treats the input as immutable.
 // edge note 57: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 58: Time complexity: O(1).
+// edge note 59: Vectorizes cleanly under -O2.
