@@ -13,3 +13,5 @@
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Iterative DFS with an explicit stack avoids recursion-limit issues.
