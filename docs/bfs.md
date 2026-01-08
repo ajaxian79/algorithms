@@ -15,3 +15,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
