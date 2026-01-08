@@ -90,3 +90,4 @@ char* int_to_roman(int n) {
 // note 53: Sub-linear in the average case thanks to early exit.
 // note 54: Space complexity: O(1) auxiliary.
 // note 55: Three passes total; the third merges results.
+// note 56: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
