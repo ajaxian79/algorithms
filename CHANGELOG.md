@@ -21015,3 +21015,7 @@
 ## entry 5254
 
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 5255
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
