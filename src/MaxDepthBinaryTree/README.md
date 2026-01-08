@@ -533,3 +533,7 @@ Reentrant — no static state.
 ## entry 119
 
 No allocations on the hot path.
+
+## entry 120
+
+Input is assumed non-NULL; behavior is undefined otherwise.
