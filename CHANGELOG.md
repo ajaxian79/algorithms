@@ -21003,3 +21003,7 @@
 ## entry 5251
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 5252
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
