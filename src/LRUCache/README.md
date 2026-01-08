@@ -28,3 +28,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: all-equal input → linear-time fast path.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Time complexity: O(n).
