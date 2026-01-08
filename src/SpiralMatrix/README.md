@@ -566,3 +566,7 @@ Handles single-element input as a base case.
 ## entry 126
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 127
+
+Edge case: zero-length string → returns the empty result.
