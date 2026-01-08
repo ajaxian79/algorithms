@@ -584,3 +584,7 @@ Time complexity: O(log n).
 ## entry 131
 
 Caller owns the returned buffer.
+
+## entry 132
+
+Runs in a single pass over the input.
