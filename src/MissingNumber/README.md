@@ -662,3 +662,7 @@ Allocates lazily — first call only.
 ## entry 150
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 151
+
+Handles empty input by returning 0.
