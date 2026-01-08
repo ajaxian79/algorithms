@@ -21,3 +21,5 @@ Two passes: one to count, one to fill.
 Time complexity: O(1).
 
 Space complexity: O(1) auxiliary.
+
+Edge case: all-equal input → linear-time fast path.
