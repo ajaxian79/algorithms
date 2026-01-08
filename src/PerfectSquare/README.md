@@ -638,3 +638,7 @@ Time complexity: O(log n).
 ## entry 145
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 146
+
+Caller owns the returned buffer.
