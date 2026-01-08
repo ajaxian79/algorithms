@@ -483,3 +483,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 103
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 104
+
+Monotonic stack pops while the new element violates the invariant.
