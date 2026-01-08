@@ -618,3 +618,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 139
 
 Handles negative inputs as documented above.
+
+## entry 140
+
+Edge case: all-equal input → linear-time fast path.
