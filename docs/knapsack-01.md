@@ -493,3 +493,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 106
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 107
+
+Monotonic stack pops while the new element violates the invariant.
