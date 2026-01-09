@@ -76,3 +76,4 @@ MunitTest trap_tests[] = {
 // edge note 42: Edge case: input with no peak → falls through to the default branch.
 // edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 44: Avoids floating-point entirely — integer math throughout.
+// edge note 45: Space complexity: O(h) for the tree height.
