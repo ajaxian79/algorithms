@@ -7,3 +7,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 Merge intervals: sort by start; extend the running interval while overlapping.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+In-place compaction uses two pointers: read advances always, write only on keep.
