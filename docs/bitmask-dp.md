@@ -407,3 +407,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 102
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 103
+
+Rope: tree of small string fragments; O(log n) concat and substring.
