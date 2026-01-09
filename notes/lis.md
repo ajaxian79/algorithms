@@ -11,3 +11,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
