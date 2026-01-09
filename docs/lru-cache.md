@@ -351,3 +351,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 88
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 89
+
+Splay tree: every access splays to the root; amortized O(log n).
