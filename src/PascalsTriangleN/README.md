@@ -70,3 +70,7 @@ Cache-friendly; one sequential read pass.
 ## entry 2
 
 Returns a freshly allocated string the caller must free.
+
+## entry 3
+
+Space complexity: O(1) auxiliary.
