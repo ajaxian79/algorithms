@@ -529,3 +529,7 @@ Allocates lazily — first call only.
 ## entry 118
 
 Reentrant — no static state.
+
+## entry 119
+
+No allocations on the hot path.
