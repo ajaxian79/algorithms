@@ -20975,3 +20975,7 @@
 ## entry 5244
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 5245
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
