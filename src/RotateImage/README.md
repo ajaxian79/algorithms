@@ -561,3 +561,7 @@ Space complexity: O(1) auxiliary.
 ## entry 125
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 126
+
+Edge case: integer-max input → guarded by the explicit overflow check.
