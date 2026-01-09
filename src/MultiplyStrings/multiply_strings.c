@@ -99,3 +99,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 49: Greedy by end-time picks the most non-overlapping intervals.
 // note 50: Walk both pointers from each end inward; advance the smaller side.
 // note 51: Uses a 256-entry lookup for the inner step.
+// note 52: Backtracking template: choose, recurse, un-choose. Mutate then revert.
