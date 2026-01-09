@@ -587,3 +587,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 132
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 133
+
+Edge case: input of all the same byte → exits on the first compare.
