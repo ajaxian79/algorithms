@@ -580,3 +580,7 @@ Handles negative inputs as documented above.
 ## entry 130
 
 Time complexity: O(log n).
+
+## entry 131
+
+Caller owns the returned buffer.
