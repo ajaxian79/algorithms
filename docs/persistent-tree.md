@@ -399,3 +399,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 100
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 101
+
+State compression: bitmask + integer encodes a small subset cheaply.
