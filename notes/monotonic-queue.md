@@ -13,3 +13,5 @@
 - DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 - Union-Find with path compression amortizes to near-O(1) per op.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
