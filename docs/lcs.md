@@ -13,3 +13,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
