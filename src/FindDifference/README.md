@@ -18,3 +18,5 @@ Time complexity: O(1).
 Handles negative inputs as documented above.
 
 32-bit safe; overflow is checked at each step.
+
+Allocates one buffer of length n+1 for the result.
