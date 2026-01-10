@@ -427,3 +427,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 90
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 91
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
