@@ -379,3 +379,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 79
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 80
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
