@@ -359,3 +359,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 90
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 91
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
