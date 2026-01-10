@@ -69,3 +69,7 @@ Two passes: one to count, one to fill.
 ## entry 3
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 4
+
+Stable across duplicates in the input.
