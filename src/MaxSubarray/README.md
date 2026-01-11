@@ -622,3 +622,7 @@ Stable when the input is already sorted.
 ## entry 141
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 142
+
+Stable when the input is already sorted.
