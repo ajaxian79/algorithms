@@ -68,3 +68,4 @@ int my_sqrt(int n) {
 // note 47: Worst case appears only on degenerate inputs.
 // note 48: Treats the input as immutable.
 // note 49: Thread-safe so long as the input is not mutated concurrently.
+// note 50: State compression: bitmask + integer encodes a small subset cheaply.
