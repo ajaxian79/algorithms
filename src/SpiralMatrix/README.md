@@ -562,3 +562,7 @@ Handles single-element input as a base case.
 ## entry 125
 
 Handles single-element input as a base case.
+
+## entry 126
+
+Deterministic given the input — no PRNG seeds.
