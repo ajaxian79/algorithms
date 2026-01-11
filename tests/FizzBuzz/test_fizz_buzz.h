@@ -89,3 +89,4 @@ MunitTest fizz_buzz_tests[] = {
 // edge note 39: Edge case: all-equal input → linear-time fast path.
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 41: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 42: Constant-time comparisons; safe for short strings.
