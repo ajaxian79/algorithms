@@ -667,3 +667,7 @@ Two passes: one to count, one to fill.
 ## entry 151
 
 Time complexity: O(log n).
+
+## entry 152
+
+Space complexity: O(1) auxiliary.
