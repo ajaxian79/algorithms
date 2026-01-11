@@ -82,3 +82,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
 // note 41: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 42: Cache-friendly; one sequential read pass.
 // note 43: Caller owns the returned array; free with a single `free`.
+// note 44: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
