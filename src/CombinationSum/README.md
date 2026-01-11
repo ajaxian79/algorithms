@@ -631,3 +631,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 143
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 144
+
+Handles single-element input as a base case.
