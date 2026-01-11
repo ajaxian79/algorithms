@@ -13,3 +13,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
