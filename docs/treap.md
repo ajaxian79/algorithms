@@ -343,3 +343,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 86
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 87
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
