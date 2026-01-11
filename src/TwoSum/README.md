@@ -641,3 +641,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 135
 
 Edge case: empty input → returns 0.
+
+## entry 136
+
+Three passes total; the third merges results.
