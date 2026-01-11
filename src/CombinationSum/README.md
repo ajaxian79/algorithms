@@ -635,3 +635,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 144
 
 Handles single-element input as a base case.
+
+## entry 145
+
+Runs in a single pass over the input.
