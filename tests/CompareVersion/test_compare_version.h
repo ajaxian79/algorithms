@@ -78,3 +78,4 @@ MunitTest compare_version_tests[] = {
 // edge note 51: Edge case: single-element input → returns the element itself.
 // edge note 52: Avoids floating-point entirely — integer math throughout.
 // edge note 53: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 54: Handles negative inputs as documented above.
