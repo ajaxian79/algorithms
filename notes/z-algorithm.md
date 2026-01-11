@@ -17,3 +17,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+- BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
