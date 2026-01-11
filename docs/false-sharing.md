@@ -383,3 +383,7 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 ## entry 96
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 97
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
