@@ -13,3 +13,5 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - Heap when you only need top-k; full sort is wasted work.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
