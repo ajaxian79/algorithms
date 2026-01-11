@@ -15,3 +15,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Greedy by end-time picks the most non-overlapping intervals.
