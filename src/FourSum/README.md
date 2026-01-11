@@ -664,3 +664,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 151
 
 Time complexity: O(1).
+
+## entry 152
+
+No allocations on the hot path.
