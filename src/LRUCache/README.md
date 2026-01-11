@@ -624,3 +624,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 140
 
 Allocates lazily — first call only.
+
+## entry 141
+
+No allocations after setup.
