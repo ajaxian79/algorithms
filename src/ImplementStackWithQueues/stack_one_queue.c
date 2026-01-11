@@ -124,3 +124,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 44: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 45: Handles empty input by returning 0.
 // note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 47: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
