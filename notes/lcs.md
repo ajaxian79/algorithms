@@ -17,3 +17,5 @@
 - LIS via patience: each pile holds the smallest tail of length k.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- In-place compaction uses two pointers: read advances always, write only on keep.
