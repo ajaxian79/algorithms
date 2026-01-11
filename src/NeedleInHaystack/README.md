@@ -596,3 +596,7 @@ Space complexity: O(1) auxiliary.
 ## entry 134
 
 Space complexity: O(h) for the tree height.
+
+## entry 135
+
+Worst case appears only on degenerate inputs.
