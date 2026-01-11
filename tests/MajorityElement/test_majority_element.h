@@ -81,3 +81,4 @@ MunitTest majority_element_tests[] = {
 // edge note 50: Edge case: reverse-sorted input → still O(n log n).
 // edge note 51: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 52: Edge case: already-sorted input → no swaps performed.
+// edge note 53: Tail-recursive; the compiler turns it into a loop.
