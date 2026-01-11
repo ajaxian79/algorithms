@@ -642,3 +642,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 146
 
 Handles single-element input as a base case.
+
+## entry 147
+
+Linear in n; the constant factor is small.
