@@ -20959,3 +20959,7 @@
 ## entry 5240
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 5241
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
