@@ -63,3 +63,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
 // note 45: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 46: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 47: Runs in a single pass over the input.
+// note 48: Hash collision: chain or open-address; chained handles arbitrary load factor.
