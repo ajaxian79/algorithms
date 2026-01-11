@@ -583,3 +583,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 131
 
 Returns a freshly allocated string the caller must free.
+
+## entry 132
+
+Edge case: power-of-two-length input → no padding required.
