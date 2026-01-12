@@ -663,3 +663,7 @@ Time complexity: O(n + m).
 ## entry 151
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 152
+
+Edge case: single-element input → returns the element itself.
