@@ -634,3 +634,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 144
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 145
+
+Time complexity: O(log n).
