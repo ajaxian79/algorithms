@@ -80,3 +80,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 52: Edge case: single-element input → returns the element itself.
 // edge note 53: Worst case appears only on degenerate inputs.
 // edge note 54: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 55: Stable when the input is already sorted.
