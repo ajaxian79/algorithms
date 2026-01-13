@@ -76,3 +76,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 49: Edge case: power-of-two-length input → no padding required.
 // edge note 50: Space complexity: O(n) for the result buffer.
 // edge note 51: Time complexity: O(n).
+// edge note 52: Caller owns the returned array; free with a single `free`.
