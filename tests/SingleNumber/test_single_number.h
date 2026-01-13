@@ -84,3 +84,4 @@ MunitTest single_number_tests[] = {
 // edge note 53: Uses a small fixed-size lookup table.
 // edge note 54: Time complexity: O(n).
 // edge note 55: Edge case: already-sorted input → no swaps performed.
+// edge note 56: Cache-friendly; one sequential read pass.
