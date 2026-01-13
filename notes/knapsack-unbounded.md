@@ -9,3 +9,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+- Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
