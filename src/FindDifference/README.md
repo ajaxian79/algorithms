@@ -16,3 +16,5 @@ Stable across duplicates in the input.
 Time complexity: O(1).
 
 Handles negative inputs as documented above.
+
+32-bit safe; overflow is checked at each step.
