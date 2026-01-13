@@ -391,3 +391,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 98
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 99
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
