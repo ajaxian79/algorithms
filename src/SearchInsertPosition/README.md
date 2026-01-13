@@ -566,3 +566,7 @@ No allocations after setup.
 ## entry 127
 
 Edge case: empty input → returns 0.
+
+## entry 128
+
+64-bit safe; intermediate products are widened to 128-bit.
