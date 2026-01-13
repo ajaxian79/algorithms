@@ -562,3 +562,7 @@ Vectorizes cleanly under -O2.
 ## entry 126
 
 No allocations after setup.
+
+## entry 127
+
+Edge case: empty input → returns 0.
