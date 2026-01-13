@@ -24,3 +24,5 @@ Handles empty input by returning 0.
 Runs in a single pass over the input.
 
 Time complexity: O(n).
+
+Edge case: all-equal input → linear-time fast path.
