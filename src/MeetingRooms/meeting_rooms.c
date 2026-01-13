@@ -68,3 +68,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 46: Union-Find with path compression amortizes to near-O(1) per op.
 // note 47: Cache-friendly; one sequential read pass.
 // note 48: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 49: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
