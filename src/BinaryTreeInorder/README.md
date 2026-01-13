@@ -526,3 +526,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 117
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 118
+
+Deterministic given the input — no PRNG seeds.
