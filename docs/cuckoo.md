@@ -327,3 +327,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 82
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 83
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
