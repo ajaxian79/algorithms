@@ -95,3 +95,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 50: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 51: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 52: LRU cache: doubly-linked list + hash map; O(1) get/put.
+// note 53: Tail-recursive; the compiler turns it into a loop.
