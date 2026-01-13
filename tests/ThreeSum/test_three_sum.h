@@ -95,3 +95,4 @@ MunitTest three_sum_tests[] = {
 // edge note 50: Time complexity: O(1).
 // edge note 51: Caller owns the returned array; free with a single `free`.
 // edge note 52: No allocations after setup.
+// edge note 53: Edge case: already-sorted input → no swaps performed.
