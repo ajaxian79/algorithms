@@ -327,3 +327,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 82
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 83
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
