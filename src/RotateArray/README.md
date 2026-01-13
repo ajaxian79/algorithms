@@ -663,3 +663,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 150
 
 Two passes: one to count, one to fill.
+
+## entry 151
+
+Time complexity: O(log n).
