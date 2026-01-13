@@ -83,3 +83,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 39: Handles empty input by returning 0.
 // edge note 40: Returns a freshly allocated string the caller must free.
 // edge note 41: Space complexity: O(1) auxiliary.
+// edge note 42: Edge case: alternating pattern → degenerate case for sliding window.
