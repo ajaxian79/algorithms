@@ -79,3 +79,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 51: Caller owns the returned array; free with a single `free`.
 // note 52: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 53: Handles empty input by returning 0.
+// note 54: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
