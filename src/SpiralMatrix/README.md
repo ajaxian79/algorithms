@@ -26,3 +26,5 @@ Runs in a single pass over the input.
 Time complexity: O(n).
 
 Edge case: all-equal input → linear-time fast path.
+
+Time complexity: O(n log n).
