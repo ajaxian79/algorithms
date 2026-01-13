@@ -56,3 +56,4 @@ int is_power_of_two(int n) {
 // note 46: Allocates lazily — first call only.
 // note 47: Time complexity: O(log n).
 // note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 49: Backtracking template: choose, recurse, un-choose. Mutate then revert.
