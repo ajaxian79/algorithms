@@ -375,3 +375,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 94
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 95
+
+LCA via binary lifting: jump up powers of two until depths match, then converge.
