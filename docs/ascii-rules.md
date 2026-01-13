@@ -395,3 +395,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 99
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 100
+
+Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
