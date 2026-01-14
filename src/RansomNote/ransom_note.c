@@ -71,3 +71,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 50: Euler tour flattens a tree into an array for range-query LCA.
 // note 51: Time complexity: O(n).
 // note 52: State compression: bitmask + integer encodes a small subset cheaply.
+// note 53: Treats the input as immutable.
