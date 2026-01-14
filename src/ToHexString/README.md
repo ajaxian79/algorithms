@@ -559,3 +559,7 @@ Allocates lazily — first call only.
 ## entry 125
 
 Reentrant — no static state.
+
+## entry 126
+
+Space complexity: O(n) for the result buffer.
