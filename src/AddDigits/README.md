@@ -656,3 +656,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 149
 
 Allocates lazily — first call only.
+
+## entry 150
+
+Best case is O(1) when the first byte already decides the answer.
