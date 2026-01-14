@@ -558,3 +558,7 @@ Time complexity: O(1).
 ## entry 125
 
 Vectorizes cleanly under -O2.
+
+## entry 126
+
+No allocations after setup.
