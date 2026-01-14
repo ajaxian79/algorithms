@@ -561,3 +561,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 125
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 126
+
+Cache-friendly; one sequential read pass.
