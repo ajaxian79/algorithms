@@ -614,3 +614,7 @@ Handles single-element input as a base case.
 ## entry 138
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 139
+
+Edge case: integer-max input → guarded by the explicit overflow check.
