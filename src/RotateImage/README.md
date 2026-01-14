@@ -29,3 +29,5 @@ Runs in a single pass over the input.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(1).
+
+Two passes: one to count, one to fill.
