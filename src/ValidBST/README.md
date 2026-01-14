@@ -21,3 +21,5 @@ Treats the input as immutable.
 Edge case: single-element input → returns the element itself.
 
 Edge case: empty input → returns 0.
+
+Handles empty input by returning 0.
