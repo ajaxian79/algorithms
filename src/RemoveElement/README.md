@@ -21,3 +21,5 @@ Allocates one buffer of length n+1 for the result.
 Time complexity: O(log n).
 
 Two passes: one to count, one to fill.
+
+Handles negative inputs as documented above.
