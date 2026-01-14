@@ -634,3 +634,7 @@ Branchless inner loop after sorting.
 ## entry 144
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 145
+
+Vectorizes cleanly under -O2.
