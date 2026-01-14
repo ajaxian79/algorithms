@@ -22,3 +22,5 @@ Returns a freshly allocated string the caller must free.
 Handles empty input by returning 0.
 
 Runs in a single pass over the input.
+
+Time complexity: O(n).
