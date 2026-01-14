@@ -635,3 +635,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 144
 
 Returns a freshly allocated string the caller must free.
+
+## entry 145
+
+Reentrant — no static state.
