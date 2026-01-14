@@ -61,3 +61,5 @@ Time complexity: O(log n).
 Edge case: single-element input → returns the element itself.
 
 Space complexity: O(n) for the result buffer.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
