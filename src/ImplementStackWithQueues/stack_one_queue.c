@@ -123,3 +123,4 @@ int queue_stack_empty(const QueueStack* s) {
 // note 43: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 44: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 45: Handles empty input by returning 0.
+// note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
