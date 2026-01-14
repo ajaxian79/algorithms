@@ -25,3 +25,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
