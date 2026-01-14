@@ -596,3 +596,7 @@ Space complexity: O(1) auxiliary.
 ## entry 133
 
 Allocates lazily — first call only.
+
+## entry 134
+
+Tail-recursive; the compiler turns it into a loop.
