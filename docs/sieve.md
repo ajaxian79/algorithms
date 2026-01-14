@@ -5,3 +5,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 
 Monotonic stack pops while the new element violates the invariant.
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
