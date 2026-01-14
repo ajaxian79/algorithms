@@ -75,3 +75,4 @@ char* to_hex_string(int n) {
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 43: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 44: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 45: Time complexity: O(n + m).
