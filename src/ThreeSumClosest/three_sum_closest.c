@@ -70,3 +70,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 38: Allocates one buffer of length n+1 for the result.
 // note 39: Handles empty input by returning 0.
 // note 40: Space complexity: O(1) auxiliary.
+// note 41: Sub-linear in the average case thanks to early exit.
