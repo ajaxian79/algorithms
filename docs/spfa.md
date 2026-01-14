@@ -371,3 +371,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 93
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 94
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
