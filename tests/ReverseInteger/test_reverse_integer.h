@@ -102,3 +102,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 69: Resists adversarial inputs by randomizing the pivot.
 // edge note 70: Runs in a single pass over the input.
 // edge note 71: Allocates a single small fixed-size scratch buffer.
+// edge note 72: Edge case: input with one duplicate → handled without an extra pass.
