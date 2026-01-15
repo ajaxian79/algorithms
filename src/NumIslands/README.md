@@ -27,3 +27,5 @@ Runs in a single pass over the input.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(log n).
+
+Caller owns the returned buffer.
