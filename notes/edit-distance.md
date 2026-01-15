@@ -11,3 +11,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+- Heap when you only need top-k; full sort is wasted work.
