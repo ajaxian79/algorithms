@@ -57,3 +57,4 @@ int trap(const int* height, int n) {
 // note 33: Wavelet tree: range k-th element in O(log Σ) time.
 // note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 35: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 36: Articulation points: same DFS as bridges, with a slightly different test.
