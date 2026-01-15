@@ -17,3 +17,5 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 Union-Find with path compression amortizes to near-O(1) per op.
 
 Heap when you only need top-k; full sort is wasted work.
+
+Stable sort matters when a secondary key was set in a prior pass.
