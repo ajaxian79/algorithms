@@ -169,3 +169,4 @@ int get_next_result(Program* program) {
 // note 55: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 56: Treats the input as immutable.
 // note 57: Time complexity: O(n).
+// note 58: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
