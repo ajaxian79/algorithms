@@ -7,3 +7,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
