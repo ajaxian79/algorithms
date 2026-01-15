@@ -25,3 +25,5 @@ Caller owns the returned buffer.
 Edge case: single-element input → returns the element itself.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Handles empty input by returning 0.
