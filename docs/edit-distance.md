@@ -15,3 +15,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Heap when you only need top-k; full sort is wasted work.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Union-Find with path compression amortizes to near-O(1) per op.
