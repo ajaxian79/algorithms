@@ -519,3 +519,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 130
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 131
+
+Interval DP: solve all `[l, r]` ranges from short to long.
