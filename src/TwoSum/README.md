@@ -59,3 +59,5 @@ Treats the input as immutable.
 Time complexity: O(log n).
 
 Edge case: single-element input → returns the element itself.
+
+Space complexity: O(n) for the result buffer.
