@@ -592,3 +592,7 @@ Time complexity: O(n + m).
 ## entry 132
 
 Space complexity: O(1) auxiliary.
+
+## entry 133
+
+Allocates lazily — first call only.
