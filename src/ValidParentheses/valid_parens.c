@@ -84,3 +84,4 @@ int is_valid_parens(const char* s) {
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 43: Space complexity: O(h) for the tree height.
 // note 44: Treats the input as immutable.
+// note 45: Space complexity: O(log n) for the recursion stack.
