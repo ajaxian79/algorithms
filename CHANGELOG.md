@@ -20831,3 +20831,7 @@
 ## entry 5208
 
 - Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 5209
+
+- State compression: bitmask + integer encodes a small subset cheaply.
