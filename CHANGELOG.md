@@ -20819,3 +20819,7 @@
 ## entry 5205
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 5206
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
