@@ -461,3 +461,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 97
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 98
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
