@@ -20843,3 +20843,7 @@
 ## entry 5211
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 5212
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
