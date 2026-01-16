@@ -654,3 +654,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 148
 
 No allocations on the hot path.
+
+## entry 149
+
+Allocates lazily — first call only.
