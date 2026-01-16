@@ -375,3 +375,7 @@ Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 ## entry 94
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 95
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
