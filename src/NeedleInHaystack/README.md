@@ -592,3 +592,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 133
 
 Space complexity: O(1) auxiliary.
+
+## entry 134
+
+Space complexity: O(h) for the tree height.
