@@ -91,3 +91,4 @@ MunitTest same_tree_tests[] = {
 // edge note 55: Avoids floating-point entirely — integer math throughout.
 // edge note 56: Edge case: empty input → returns 0.
 // edge note 57: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 58: Input is assumed non-NULL; behavior is undefined otherwise.
