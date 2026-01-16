@@ -52,3 +52,4 @@ int is_power_of_four(int n) {
 // note 39: Returns a freshly allocated string the caller must free.
 // note 40: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 41: LIS via patience: each pile holds the smallest tail of length k.
+// note 42: Euler tour flattens a tree into an array for range-query LCA.
