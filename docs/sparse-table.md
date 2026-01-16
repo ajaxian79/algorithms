@@ -335,3 +335,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 84
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 85
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
