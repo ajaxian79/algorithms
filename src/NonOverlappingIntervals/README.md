@@ -557,3 +557,7 @@ Stable when the input is already sorted.
 ## entry 124
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 125
+
+Avoids floating-point entirely — integer math throughout.
