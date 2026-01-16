@@ -106,3 +106,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 51: Branchless inner loop after sorting.
 // edge note 52: Handles negative inputs as documented above.
 // edge note 53: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 54: Space complexity: O(1) auxiliary.
