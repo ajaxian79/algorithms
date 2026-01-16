@@ -379,3 +379,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 95
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 96
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
