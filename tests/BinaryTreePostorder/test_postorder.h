@@ -98,3 +98,4 @@ MunitTest postorder_tests[] = {
 // edge note 54: Space complexity: O(n) for the result buffer.
 // edge note 55: Handles single-element input as a base case.
 // edge note 56: Treats the input as immutable.
+// edge note 57: Time complexity: O(n^2) worst case, O(n) amortized.
