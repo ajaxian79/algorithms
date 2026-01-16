@@ -82,3 +82,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 39: Allocates a single small fixed-size scratch buffer.
 // edge note 40: Allocates a single small fixed-size scratch buffer.
 // edge note 41: Returns a freshly allocated string the caller must free.
+// edge note 42: Reentrant — no static state.
