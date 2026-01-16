@@ -16,3 +16,5 @@ Handles negative inputs as documented above.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(1).
+
+No allocations on the hot path.
