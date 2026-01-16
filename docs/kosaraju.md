@@ -371,3 +371,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 93
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 94
+
+Heap when you only need top-k; full sort is wasted work.
