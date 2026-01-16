@@ -371,3 +371,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 93
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 94
+
+Backtracking template: choose, recurse, un-choose. Mutate then revert.
