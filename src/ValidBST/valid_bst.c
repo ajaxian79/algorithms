@@ -66,3 +66,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 48: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 49: Space complexity: O(1) auxiliary.
 // note 50: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 51: 32-bit safe; overflow is checked at each step.
