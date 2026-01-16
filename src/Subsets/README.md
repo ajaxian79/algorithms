@@ -23,3 +23,5 @@ Time complexity: O(n).
 Edge case: empty input → returns 0.
 
 Two passes: one to count, one to fill.
+
+Uses a small fixed-size lookup table.
