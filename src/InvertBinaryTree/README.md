@@ -608,3 +608,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 137
 
 32-bit safe; overflow is checked at each step.
+
+## entry 138
+
+Three passes total; the third merges results.
