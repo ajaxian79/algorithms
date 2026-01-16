@@ -20855,3 +20855,7 @@
 ## entry 5214
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 5215
+
+- Splay tree: every access splays to the root; amortized O(log n).
