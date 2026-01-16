@@ -409,3 +409,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 86
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 87
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
