@@ -658,3 +658,7 @@ No allocations on the hot path.
 ## entry 149
 
 Allocates lazily — first call only.
+
+## entry 150
+
+Uses a 256-entry lookup for the inner step.
