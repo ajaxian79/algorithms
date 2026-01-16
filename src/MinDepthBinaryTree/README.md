@@ -582,3 +582,7 @@ Handles empty input by returning 0.
 ## entry 131
 
 Branchless inner loop after sorting.
+
+## entry 132
+
+Worst case appears only on degenerate inputs.
