@@ -558,3 +558,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 124
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 125
+
+Deterministic given the input — no PRNG seeds.
