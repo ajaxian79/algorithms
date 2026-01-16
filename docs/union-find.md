@@ -439,3 +439,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 93
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 94
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
