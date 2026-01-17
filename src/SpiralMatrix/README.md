@@ -558,3 +558,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 124
 
 Handles single-element input as a base case.
+
+## entry 125
+
+Handles single-element input as a base case.
