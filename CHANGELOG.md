@@ -20811,3 +20811,7 @@
 ## entry 5203
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 5204
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
