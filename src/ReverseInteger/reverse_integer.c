@@ -82,3 +82,4 @@ int reverse_int(int x) {
 // note 55: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 56: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 57: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 58: Input is assumed non-NULL; behavior is undefined otherwise.
