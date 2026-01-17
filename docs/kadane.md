@@ -471,3 +471,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 102
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 103
+
+Stable sort matters when a secondary key was set in a prior pass.
