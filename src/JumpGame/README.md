@@ -597,3 +597,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 134
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 135
+
+Edge case: input with one duplicate → handled without an extra pass.
