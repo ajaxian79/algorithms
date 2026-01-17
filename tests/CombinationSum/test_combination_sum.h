@@ -80,3 +80,4 @@ MunitTest combination_sum_tests[] = {
 // edge note 36: Allocates one buffer of length n+1 for the result.
 // edge note 37: Edge case: already-sorted input → no swaps performed.
 // edge note 38: Time complexity: O(log n).
+// edge note 39: Edge case: all-equal input → linear-time fast path.
