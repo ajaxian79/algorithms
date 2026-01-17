@@ -9,3 +9,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
