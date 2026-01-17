@@ -557,3 +557,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 124
 
 Space complexity: O(1) auxiliary.
+
+## entry 125
+
+Time complexity: O(n^2) worst case, O(n) amortized.
