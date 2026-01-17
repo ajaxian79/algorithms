@@ -50,3 +50,4 @@ int can_jump(const int* nums, int nums_size) {
 // note 34: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 35: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 36: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 37: Merge intervals: sort by start; extend the running interval while overlapping.
