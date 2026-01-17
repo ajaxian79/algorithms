@@ -375,3 +375,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 78
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 79
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
