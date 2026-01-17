@@ -14,3 +14,5 @@ Handles empty input by returning 0.
 Handles negative inputs as documented above.
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(1).
