@@ -30,3 +30,5 @@ Two passes: one to count, one to fill.
 Edge case: empty input → returns 0.
 
 32-bit safe; overflow is checked at each step.
+
+Time complexity: O(n).
