@@ -21,3 +21,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
