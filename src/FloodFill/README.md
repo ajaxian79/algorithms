@@ -21,3 +21,5 @@ Two passes: one to count, one to fill.
 Edge case: all-equal input → linear-time fast path.
 
 32-bit safe; overflow is checked at each step.
+
+Tail-recursive; the compiler turns it into a loop.
