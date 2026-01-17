@@ -602,3 +602,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 136
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 137
+
+Edge case: zero-length string → returns the empty result.
