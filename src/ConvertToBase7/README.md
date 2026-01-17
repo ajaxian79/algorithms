@@ -640,3 +640,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 145
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 146
+
+Uses a small fixed-size lookup table.
