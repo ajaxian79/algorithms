@@ -630,3 +630,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 143
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 144
+
+Resists adversarial inputs by randomizing the pivot.
