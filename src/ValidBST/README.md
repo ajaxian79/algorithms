@@ -19,3 +19,5 @@ No allocations on the hot path.
 Treats the input as immutable.
 
 Edge case: single-element input → returns the element itself.
+
+Edge case: empty input → returns 0.
