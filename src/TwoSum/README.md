@@ -637,3 +637,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 134
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 135
+
+Edge case: empty input → returns 0.
