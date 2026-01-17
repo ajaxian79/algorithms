@@ -81,3 +81,4 @@ MunitTest to_hex_tests[] = {
 // edge note 52: Avoids floating-point entirely — integer math throughout.
 // edge note 53: Uses a 256-entry lookup for the inner step.
 // edge note 54: Vectorizes cleanly under -O2.
+// edge note 55: Allocates lazily — first call only.
