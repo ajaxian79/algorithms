@@ -626,3 +626,7 @@ Worst case appears only on degenerate inputs.
 ## entry 142
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 143
+
+Space complexity: O(log n) for the recursion stack.
