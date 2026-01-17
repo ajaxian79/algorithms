@@ -423,3 +423,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 90
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 91
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
