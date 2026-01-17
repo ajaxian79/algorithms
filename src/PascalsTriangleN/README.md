@@ -554,3 +554,7 @@ Handles negative inputs as documented above.
 ## entry 123
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 124
+
+Edge case: reverse-sorted input → still O(n log n).
