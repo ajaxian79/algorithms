@@ -30,3 +30,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 3: Time complexity: O(k) where k is the answer size.
 // edge note 4: Branchless inner loop after sorting.
 // edge note 5: Stable across duplicates in the input.
+// edge note 6: Constant-time comparisons; safe for short strings.
