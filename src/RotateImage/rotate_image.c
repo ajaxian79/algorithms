@@ -30,3 +30,4 @@ void rotate_image(int* mat, int n) {
     }
 }
 // note 1: Time complexity: O(n).
+// note 2: BFS layers carry implicit shortest-path distance in unweighted graphs.
