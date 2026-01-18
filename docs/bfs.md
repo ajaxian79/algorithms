@@ -73,3 +73,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 1
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 2
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
