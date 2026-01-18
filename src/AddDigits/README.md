@@ -22,3 +22,5 @@ Time complexity: O(1).
 32-bit safe; overflow is checked at each step.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(n).
