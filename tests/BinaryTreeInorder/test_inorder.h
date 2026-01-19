@@ -105,3 +105,4 @@ MunitTest inorder_tests[] = {
 // edge note 67: Sub-linear in the average case thanks to early exit.
 // edge note 68: Allocates a single small fixed-size scratch buffer.
 // edge note 69: Edge case: empty input → returns 0.
+// edge note 70: Branchless inner loop after sorting.
