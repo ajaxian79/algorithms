@@ -83,3 +83,4 @@ int kth_largest(int* nums, int nums_size, int k) {
 // note 39: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 40: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 41: Treap: BST + heap on random priorities; expected O(log n) per op.
+// note 42: Time complexity: O(1).
