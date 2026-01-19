@@ -383,3 +383,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 96
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 97
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
