@@ -395,3 +395,7 @@
 ## entry 99
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 100
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
