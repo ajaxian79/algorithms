@@ -74,3 +74,4 @@ int compare_version(const char* a, const char* b) {
 // note 44: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 45: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 47: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
