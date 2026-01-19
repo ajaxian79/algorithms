@@ -119,3 +119,4 @@ int contains_duplicate(const int* nums, int nums_size) {
 // note 40: 32-bit safe; overflow is checked at each step.
 // note 41: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 42: LCA via binary lifting: jump up powers of two until depths match, then converge.
+// note 43: Backtracking template: choose, recurse, un-choose. Mutate then revert.
