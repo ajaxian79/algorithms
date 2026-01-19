@@ -553,3 +553,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 123
 
 Stable when the input is already sorted.
+
+## entry 124
+
+Edge case: already-sorted input → no swaps performed.
