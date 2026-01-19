@@ -626,3 +626,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 142
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 143
+
+64-bit safe; intermediate products are widened to 128-bit.
