@@ -351,3 +351,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 88
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 89
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
