@@ -81,3 +81,4 @@ int reverse_int(int x) {
 // note 54: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 55: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 56: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 57: Interval tree: stores intervals on the median; query traverses O(log n) levels.
