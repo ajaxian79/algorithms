@@ -82,3 +82,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 38: Best case is O(1) when the first byte already decides the answer.
 // edge note 39: Handles empty input by returning 0.
 // edge note 40: Returns a freshly allocated string the caller must free.
+// edge note 41: Space complexity: O(1) auxiliary.
