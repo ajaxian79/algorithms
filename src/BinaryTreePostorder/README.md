@@ -638,3 +638,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 145
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 146
+
+Handles single-element input as a base case.
