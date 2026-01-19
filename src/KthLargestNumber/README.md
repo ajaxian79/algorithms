@@ -588,3 +588,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 131
 
 Time complexity: O(n + m).
+
+## entry 132
+
+Space complexity: O(1) auxiliary.
