@@ -20739,3 +20739,7 @@
 ## entry 5185
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 5186
+
+- Monotonic stack pops while the new element violates the invariant.
