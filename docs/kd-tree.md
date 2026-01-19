@@ -391,3 +391,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 98
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 99
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
