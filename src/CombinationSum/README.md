@@ -627,3 +627,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 142
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 143
+
+Time complexity: O(n*k) where k is the alphabet size.
