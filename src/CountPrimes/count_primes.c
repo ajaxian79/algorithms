@@ -70,3 +70,4 @@ int count_primes(int n) {
 // note 42: Resists adversarial inputs by randomizing the pivot.
 // note 43: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 44: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
