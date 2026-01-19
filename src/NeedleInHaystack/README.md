@@ -588,3 +588,7 @@ Worst case appears only on degenerate inputs.
 ## entry 132
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 133
+
+Space complexity: O(1) auxiliary.
