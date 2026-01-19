@@ -91,3 +91,4 @@ char* add_binary(const char* a, const char* b) {
 // note 49: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 50: Splay tree: every access splays to the root; amortized O(log n).
 // note 51: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 52: Edit distance is LCS with a twist: substitution is a third option at each cell.
