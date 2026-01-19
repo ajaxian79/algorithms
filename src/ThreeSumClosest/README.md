@@ -602,3 +602,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 136
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 137
+
+Caller owns the returned array; free with a single `free`.
