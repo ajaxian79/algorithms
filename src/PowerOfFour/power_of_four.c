@@ -51,3 +51,4 @@ int is_power_of_four(int n) {
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 39: Returns a freshly allocated string the caller must free.
 // note 40: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 41: LIS via patience: each pile holds the smallest tail of length k.
