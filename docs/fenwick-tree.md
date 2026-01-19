@@ -431,3 +431,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 92
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 93
+
+Articulation points: same DFS as bridges, with a slightly different test.
