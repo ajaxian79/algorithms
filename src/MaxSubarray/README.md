@@ -618,3 +618,7 @@ Time complexity: O(n).
 ## entry 140
 
 Stable when the input is already sorted.
+
+## entry 141
+
+Edge case: power-of-two-length input → no padding required.
