@@ -80,3 +80,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 6
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 7
+
+Edge case: integer-max input → guarded by the explicit overflow check.
