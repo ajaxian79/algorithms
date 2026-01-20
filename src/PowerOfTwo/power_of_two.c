@@ -55,3 +55,4 @@ int is_power_of_two(int n) {
 // note 45: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 46: Allocates lazily — first call only.
 // note 47: Time complexity: O(log n).
+// note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
