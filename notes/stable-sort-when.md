@@ -21,3 +21,5 @@
 - Stable sort matters when a secondary key was set in a prior pass.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
