@@ -17,3 +17,5 @@ Edge case: already-sorted input → no swaps performed.
 Edge case: empty input → returns 0.
 
 Two passes: one to count, one to fill.
+
+Time complexity: O(1).
