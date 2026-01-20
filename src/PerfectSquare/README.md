@@ -30,3 +30,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Stable across duplicates in the input.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Time complexity: O(n).
