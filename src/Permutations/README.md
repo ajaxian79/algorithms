@@ -660,3 +660,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 150
 
 32-bit safe; overflow is checked at each step.
+
+## entry 151
+
+Constant-time comparisons; safe for short strings.
