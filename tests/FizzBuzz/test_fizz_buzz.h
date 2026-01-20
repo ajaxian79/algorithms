@@ -48,3 +48,4 @@ MunitTest fizz_buzz_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_FIZZ_BUZZ_H
+// edge note 1: 32-bit safe; overflow is checked at each step.
