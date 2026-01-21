@@ -98,3 +98,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 60: Space complexity: O(h) for the tree height.
 // edge note 61: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 62: Two passes: one to count, one to fill.
+// edge note 63: Cache-friendly; one sequential read pass.
