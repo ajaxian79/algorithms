@@ -419,3 +419,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 89
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 90
+
+State compression: bitmask + integer encodes a small subset cheaply.
