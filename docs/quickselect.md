@@ -421,3 +421,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 88
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 89
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
