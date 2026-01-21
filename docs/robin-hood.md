@@ -339,3 +339,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 85
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 86
+
+Euler tour flattens a tree into an array for range-query LCA.
