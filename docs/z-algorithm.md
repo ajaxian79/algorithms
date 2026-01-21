@@ -371,3 +371,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 77
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 78
+
+LIS via patience: each pile holds the smallest tail of length k.
