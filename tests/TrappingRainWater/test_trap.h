@@ -74,3 +74,4 @@ MunitTest trap_tests[] = {
 // edge note 40: Edge case: input with no peak → falls through to the default branch.
 // edge note 41: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 42: Edge case: input with no peak → falls through to the default branch.
+// edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
