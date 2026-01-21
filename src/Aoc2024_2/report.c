@@ -251,3 +251,4 @@ int check_if_duplicate(HashMapNode **map, const int *current) {
 // note 42: Stable sort matters when a secondary key was set in a prior pass.
 // note 43: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 44: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+// note 45: k-d tree: median-split each axis; nearest-neighbor average O(log n).
