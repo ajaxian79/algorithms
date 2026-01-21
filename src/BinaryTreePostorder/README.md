@@ -634,3 +634,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 144
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 145
+
+Edge case: input with no peak → falls through to the default branch.
