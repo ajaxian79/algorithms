@@ -99,3 +99,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 59: Linear in n; the constant factor is small.
 // edge note 60: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 61: Uses a 256-entry lookup for the inner step.
+// edge note 62: No allocations on the hot path.
