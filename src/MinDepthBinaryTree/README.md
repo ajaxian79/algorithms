@@ -574,3 +574,7 @@ Handles empty input by returning 0.
 ## entry 129
 
 32-bit safe; overflow is checked at each step.
+
+## entry 130
+
+64-bit safe; intermediate products are widened to 128-bit.
