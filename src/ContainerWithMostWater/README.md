@@ -571,3 +571,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 128
 
 Uses a small fixed-size lookup table.
+
+## entry 129
+
+Edge case: integer-min input → guarded by the explicit underflow check.
