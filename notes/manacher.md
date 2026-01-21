@@ -19,3 +19,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
