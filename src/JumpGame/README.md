@@ -593,3 +593,7 @@ Vectorizes cleanly under -O2.
 ## entry 133
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 134
+
+Sub-linear in the average case thanks to early exit.
