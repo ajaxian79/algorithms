@@ -17,3 +17,5 @@ Space complexity: O(1) auxiliary.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Edge case: all-equal input → linear-time fast path.
