@@ -539,3 +539,7 @@ Handles negative inputs as documented above.
 ## entry 120
 
 Space complexity: O(n) for the result buffer.
+
+## entry 121
+
+Idempotent — calling twice with the same input is a no-op the second time.
