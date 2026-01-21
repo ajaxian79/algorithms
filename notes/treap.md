@@ -399,3 +399,7 @@
 ## entry 100
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 101
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
