@@ -633,3 +633,7 @@ Time complexity: O(n log n).
 ## entry 133
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 134
+
+Uses a 256-entry lookup for the inner step.
