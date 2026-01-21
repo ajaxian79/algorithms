@@ -70,3 +70,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 39: Time complexity: O(1).
 // edge note 40: Allocates a single small fixed-size scratch buffer.
 // edge note 41: Time complexity: O(n log n).
+// edge note 42: Vectorizes cleanly under -O2.
