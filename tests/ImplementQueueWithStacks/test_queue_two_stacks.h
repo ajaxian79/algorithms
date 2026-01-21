@@ -76,3 +76,4 @@ MunitTest queue_two_stacks_tests[] = {
 // edge note 43: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 44: Three passes total; the third merges results.
 // edge note 45: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 46: Time complexity: O(n^2) worst case, O(n) amortized.
