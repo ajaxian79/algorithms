@@ -67,3 +67,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 35: Edge case: zero-length string → returns the empty result.
 // edge note 36: Handles single-element input as a base case.
 // edge note 37: Edge case: zero-length string → returns the empty result.
+// edge note 38: Edge case: reverse-sorted input → still O(n log n).
