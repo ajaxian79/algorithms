@@ -20,3 +20,5 @@ Handles empty input by returning 0.
 Treats the input as immutable.
 
 32-bit safe; overflow is checked at each step.
+
+Edge case: reverse-sorted input → still O(n log n).
