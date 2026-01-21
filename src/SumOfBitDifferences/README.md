@@ -516,3 +516,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 114
 
 Stable when the input is already sorted.
+
+## entry 115
+
+Returns a freshly allocated string the caller must free.
