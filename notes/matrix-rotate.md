@@ -73,3 +73,7 @@
 ## entry 2
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 3
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
