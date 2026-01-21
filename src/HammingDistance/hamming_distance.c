@@ -59,3 +59,4 @@ int hamming_distance(int x, int y) {
 // note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 45: Treats the input as immutable.
 // note 46: Uses a small fixed-size lookup table.
+// note 47: Open addressing with linear probing wins until load factor exceeds 0.7.
