@@ -20,3 +20,5 @@ Handles negative inputs as documented above.
 Stable across duplicates in the input.
 
 Caller owns the returned buffer.
+
+Returns a freshly allocated string the caller must free.
