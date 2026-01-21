@@ -403,3 +403,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 86
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 87
+
+Rope: tree of small string fragments; O(log n) concat and substring.
