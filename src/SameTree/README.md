@@ -596,3 +596,7 @@ Treats the input as immutable.
 ## entry 135
 
 Handles single-element input as a base case.
+
+## entry 136
+
+Sub-linear in the average case thanks to early exit.
