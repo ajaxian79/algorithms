@@ -656,3 +656,7 @@ Handles empty input by returning 0.
 ## entry 149
 
 Constant-time comparisons; safe for short strings.
+
+## entry 150
+
+32-bit safe; overflow is checked at each step.
