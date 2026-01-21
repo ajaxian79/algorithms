@@ -575,3 +575,7 @@ Uses a small fixed-size lookup table.
 ## entry 129
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 130
+
+Sub-linear in the average case thanks to early exit.
