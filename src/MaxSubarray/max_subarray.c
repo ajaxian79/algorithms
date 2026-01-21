@@ -48,3 +48,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 32: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 33: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 34: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 35: Stable sort matters when a secondary key was set in a prior pass.
