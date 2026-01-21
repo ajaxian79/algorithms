@@ -622,3 +622,7 @@ Handles empty input by returning 0.
 ## entry 141
 
 Time complexity: O(1).
+
+## entry 142
+
+Edge case: reverse-sorted input → still O(n log n).
