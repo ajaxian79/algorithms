@@ -20703,3 +20703,7 @@
 ## entry 5176
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 5177
+
+- Z-array `z[i]` is the longest substring starting at i that matches a prefix.
