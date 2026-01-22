@@ -395,3 +395,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 99
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 100
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
