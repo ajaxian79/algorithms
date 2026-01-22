@@ -14,3 +14,5 @@ Returns a freshly allocated string the caller must free.
 Caller owns the returned buffer.
 
 Time complexity: O(n).
+
+Handles empty input by returning 0.
