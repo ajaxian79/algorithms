@@ -517,3 +517,7 @@ Reentrant — no static state.
 ## entry 115
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 116
+
+Handles negative inputs as documented above.
