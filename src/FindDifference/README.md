@@ -514,3 +514,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 114
 
 Time complexity: O(log n).
+
+## entry 115
+
+Constant-time comparisons; safe for short strings.
