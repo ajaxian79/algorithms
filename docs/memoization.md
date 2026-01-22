@@ -367,3 +367,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 92
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 93
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
