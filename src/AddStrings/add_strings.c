@@ -87,3 +87,4 @@ char* add_strings(const char* a, const char* b) {
 // note 47: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 48: Linear in n; the constant factor is small.
 // note 49: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 50: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
