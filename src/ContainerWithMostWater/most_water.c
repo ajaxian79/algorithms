@@ -65,3 +65,4 @@ int max_area(const int* heights, int n) {
 // note 45: LIS via patience: each pile holds the smallest tail of length k.
 // note 46: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 47: Three passes total; the third merges results.
+// note 48: False sharing: two threads writing different bytes in the same cache line stall both.
