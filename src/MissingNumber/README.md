@@ -650,3 +650,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 147
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 148
+
+No allocations on the hot path.
