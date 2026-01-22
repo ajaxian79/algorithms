@@ -23,3 +23,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 1: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 2: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 3: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 4: Stable across duplicates in the input.
