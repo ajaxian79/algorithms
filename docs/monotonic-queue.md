@@ -471,3 +471,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 100
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 101
+
+False sharing: two threads writing different bytes in the same cache line stall both.
