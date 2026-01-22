@@ -55,3 +55,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 40: Wavelet tree: range k-th element in O(log Σ) time.
 // note 41: 64-bit safe; intermediate products are widened to 128-bit.
 // note 42: Caller owns the returned buffer.
+// note 43: Best case is O(1) when the first byte already decides the answer.
