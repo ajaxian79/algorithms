@@ -463,3 +463,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 100
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 101
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
