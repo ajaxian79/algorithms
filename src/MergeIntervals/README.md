@@ -20,3 +20,5 @@ Returns a freshly allocated string the caller must free.
 Space complexity: O(1) auxiliary.
 
 Edge case: single-element input → returns the element itself.
+
+Edge case: already-sorted input → no swaps performed.
