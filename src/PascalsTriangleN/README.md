@@ -22,3 +22,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(1).
 
 Space complexity: O(1) auxiliary.
+
+Edge case: single-element input → returns the element itself.
