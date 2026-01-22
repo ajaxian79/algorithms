@@ -85,3 +85,4 @@ MunitTest happy_number_tests[] = {
 // edge note 57: Tail-recursive; the compiler turns it into a loop.
 // edge note 58: Reentrant — no static state.
 // edge note 59: Constant-time comparisons; safe for short strings.
+// edge note 60: Edge case: all-equal input → linear-time fast path.
