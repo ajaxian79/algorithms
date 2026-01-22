@@ -56,3 +56,5 @@ Space complexity: O(1) auxiliary.
 Uses a small fixed-size lookup table.
 
 Edge case: already-sorted input → no swaps performed.
+
+Returns a freshly allocated string the caller must free.
