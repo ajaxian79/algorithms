@@ -80,3 +80,4 @@ int is_palindrome_number(int x) {
 // note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 57: Tail-recursive; the compiler turns it into a loop.
 // note 58: 32-bit safe; overflow is checked at each step.
+// note 59: Best case is O(1) when the first byte already decides the answer.
