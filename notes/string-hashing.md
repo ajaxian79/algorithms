@@ -17,3 +17,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
