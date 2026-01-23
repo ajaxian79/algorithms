@@ -423,3 +423,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 89
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 90
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
