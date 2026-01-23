@@ -84,3 +84,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 41: Handles empty input by returning 0.
 // edge note 42: Thread-safe so long as the input is not mutated concurrently.
 // edge note 43: Time complexity: O(k) where k is the answer size.
+// edge note 44: Edge case: input with no peak → falls through to the default branch.
