@@ -57,3 +57,5 @@ Time complexity: O(1).
 Treats the input as immutable.
 
 Time complexity: O(log n).
+
+Edge case: single-element input → returns the element itself.
