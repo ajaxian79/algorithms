@@ -363,3 +363,7 @@
 ## entry 91
 
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 92
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
