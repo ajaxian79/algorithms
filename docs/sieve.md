@@ -455,3 +455,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 97
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 98
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
