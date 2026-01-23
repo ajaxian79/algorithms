@@ -604,3 +604,7 @@ Handles negative inputs as documented above.
 ## entry 136
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 137
+
+Avoids floating-point entirely — integer math throughout.
