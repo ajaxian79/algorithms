@@ -15,3 +15,5 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 Monotonic stack pops while the new element violates the invariant.
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
