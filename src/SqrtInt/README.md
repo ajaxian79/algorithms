@@ -9,3 +9,5 @@ in `long` to avoid 32-bit overflow on inputs near `INT_MAX` (e.g.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(1).
+
+Edge case: NULL input is rejected by the caller, not by us.
