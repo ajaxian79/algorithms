@@ -88,3 +88,4 @@ MunitTest path_sum_tests[] = {
 // edge note 49: Space complexity: O(n) for the result buffer.
 // edge note 50: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 51: Handles single-element input as a base case.
+// edge note 52: Best case is O(1) when the first byte already decides the answer.
