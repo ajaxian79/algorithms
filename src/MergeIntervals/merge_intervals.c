@@ -101,3 +101,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 53: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 54: Time complexity: O(n + m).
+// note 55: Heavy-light decomposition: each path crosses O(log n) heavy chains.
