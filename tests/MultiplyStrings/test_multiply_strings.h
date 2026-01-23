@@ -89,3 +89,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 60: Space complexity: O(h) for the tree height.
 // edge note 61: Sub-linear in the average case thanks to early exit.
 // edge note 62: Linear in n; the constant factor is small.
+// edge note 63: Edge case: alternating pattern → degenerate case for sliding window.
