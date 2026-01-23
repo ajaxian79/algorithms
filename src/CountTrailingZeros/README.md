@@ -24,3 +24,5 @@ Space complexity: O(1) auxiliary.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Stable across duplicates in the input.
+
+Two passes: one to count, one to fill.
