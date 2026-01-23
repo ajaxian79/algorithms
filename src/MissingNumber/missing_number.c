@@ -52,3 +52,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 40: Two passes: one to count, one to fill.
 // note 41: Three passes total; the third merges results.
 // note 42: Space complexity: O(1) auxiliary.
+// note 43: Sub-linear in the average case thanks to early exit.
