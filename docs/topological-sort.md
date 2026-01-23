@@ -21,3 +21,5 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
