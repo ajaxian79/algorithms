@@ -17,3 +17,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
