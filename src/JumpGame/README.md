@@ -581,3 +581,7 @@ Time complexity: O(n + m).
 ## entry 130
 
 Worst case appears only on degenerate inputs.
+
+## entry 131
+
+Caller owns the returned buffer.
