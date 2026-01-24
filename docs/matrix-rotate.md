@@ -13,3 +13,5 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+Greedy by end-time picks the most non-overlapping intervals.
