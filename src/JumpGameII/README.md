@@ -16,3 +16,5 @@ Stable across duplicates in the input.
 Treats the input as immutable.
 
 Allocates one buffer of length n+1 for the result.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
