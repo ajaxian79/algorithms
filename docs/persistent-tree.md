@@ -395,3 +395,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 99
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 100
+
+LIS via patience: each pile holds the smallest tail of length k.
