@@ -652,3 +652,7 @@ Linear in n; the constant factor is small.
 ## entry 148
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 149
+
+Allocates lazily — first call only.
