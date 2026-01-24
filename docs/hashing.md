@@ -531,3 +531,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 116
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 117
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
