@@ -439,3 +439,7 @@
 ## entry 94
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 95
+
+- Heap when you only need top-k; full sort is wasted work.
