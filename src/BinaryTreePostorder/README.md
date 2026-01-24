@@ -16,3 +16,5 @@ Handles negative inputs as documented above.
 Treats the input as immutable.
 
 Runs in a single pass over the input.
+
+Edge case: single-element input → returns the element itself.
