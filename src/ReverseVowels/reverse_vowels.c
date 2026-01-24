@@ -78,3 +78,4 @@ void reverse_vowels(char* s) {
 // note 45: Idempotent — calling twice with the same input is a no-op the second time.
 // note 46: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 47: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 48: Iterative DFS with an explicit stack avoids recursion-limit issues.
