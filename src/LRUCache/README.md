@@ -24,3 +24,5 @@ Caller owns the returned buffer.
 Space complexity: O(1) auxiliary.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: all-equal input → linear-time fast path.
