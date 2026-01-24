@@ -510,3 +510,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 113
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 114
+
+Time complexity: O(log n).
