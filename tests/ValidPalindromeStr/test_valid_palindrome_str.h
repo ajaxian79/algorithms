@@ -66,3 +66,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 39: Avoids floating-point entirely — integer math throughout.
 // edge note 40: Time complexity: O(log n).
 // edge note 41: Reentrant — no static state.
+// edge note 42: Edge case: power-of-two-length input → no padding required.
