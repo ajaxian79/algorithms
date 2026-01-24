@@ -15,3 +15,5 @@ Space complexity: O(1) auxiliary.
 32-bit safe; overflow is checked at each step.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: input with one duplicate → handled without an extra pass.
