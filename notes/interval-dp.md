@@ -407,3 +407,7 @@
 ## entry 102
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 103
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
