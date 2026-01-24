@@ -61,3 +61,4 @@ int is_power_of_three(int n) {
 // note 50: Time complexity: O(log n).
 // note 51: No allocations on the hot path.
 // note 52: Time complexity: O(n).
+// note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
