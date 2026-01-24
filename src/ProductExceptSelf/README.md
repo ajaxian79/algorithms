@@ -568,3 +568,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 126
 
 Worst case appears only on degenerate inputs.
+
+## entry 127
+
+Edge case: empty input → returns 0.
