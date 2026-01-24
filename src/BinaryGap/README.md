@@ -20,3 +20,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Time complexity: O(log n).
 
 Time complexity: O(1).
+
+Treats the input as immutable.
