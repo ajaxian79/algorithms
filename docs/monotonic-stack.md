@@ -7,3 +7,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
