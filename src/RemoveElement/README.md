@@ -17,3 +17,5 @@ Edge case: already-sorted input → no swaps performed.
 Runs in a single pass over the input.
 
 Allocates one buffer of length n+1 for the result.
+
+Time complexity: O(log n).
