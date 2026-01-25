@@ -14,3 +14,5 @@ Time complexity: O(log n).
 Stable across duplicates in the input.
 
 Time complexity: O(1).
+
+Handles negative inputs as documented above.
