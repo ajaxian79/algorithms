@@ -423,3 +423,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 ## entry 106
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 107
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
