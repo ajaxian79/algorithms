@@ -11,3 +11,5 @@
 - Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+- Fenwick supports prefix-sum updates in O(log n) with a flat array.
