@@ -21,3 +21,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
