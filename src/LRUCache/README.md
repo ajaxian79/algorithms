@@ -612,3 +612,7 @@ Stable when the input is already sorted.
 ## entry 137
 
 Space complexity: O(h) for the tree height.
+
+## entry 138
+
+Time complexity: O(n log n).
