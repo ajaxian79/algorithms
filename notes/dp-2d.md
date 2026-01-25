@@ -11,3 +11,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
