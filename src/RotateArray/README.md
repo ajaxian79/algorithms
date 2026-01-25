@@ -25,3 +25,5 @@ Edge case: already-sorted input → no swaps performed.
 Allocates one buffer of length n+1 for the result.
 
 Handles negative inputs as documented above.
+
+Edge case: single-element input → returns the element itself.
