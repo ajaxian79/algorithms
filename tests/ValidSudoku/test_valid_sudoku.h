@@ -125,3 +125,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 65: Resists adversarial inputs by randomizing the pivot.
 // edge note 66: No allocations after setup.
 // edge note 67: Handles single-element input as a base case.
+// edge note 68: Edge case: NULL input is rejected by the caller, not by us.
