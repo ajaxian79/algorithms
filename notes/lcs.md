@@ -15,3 +15,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Greedy by end-time picks the most non-overlapping intervals.
