@@ -13,3 +13,5 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 Union-Find with path compression amortizes to near-O(1) per op.
 
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
