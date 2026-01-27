@@ -419,3 +419,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 105
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 106
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
