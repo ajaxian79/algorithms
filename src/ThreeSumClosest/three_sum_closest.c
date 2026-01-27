@@ -68,3 +68,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 36: Resists adversarial inputs by randomizing the pivot.
 // note 37: Space complexity: O(log n) for the recursion stack.
 // note 38: Allocates one buffer of length n+1 for the result.
+// note 39: Handles empty input by returning 0.
