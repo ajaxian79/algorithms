@@ -550,3 +550,7 @@ Treats the input as immutable.
 ## entry 123
 
 Space complexity: O(h) for the tree height.
+
+## entry 124
+
+Time complexity: O(1).
