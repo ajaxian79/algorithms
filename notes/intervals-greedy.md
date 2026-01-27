@@ -429,3 +429,7 @@
 ## entry 90
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 91
+
+- Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
