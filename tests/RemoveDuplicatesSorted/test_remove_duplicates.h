@@ -81,3 +81,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 45: Edge case: reverse-sorted input → still O(n log n).
 // edge note 46: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 47: Handles empty input by returning 0.
+// edge note 48: Idempotent — calling twice with the same input is a no-op the second time.
