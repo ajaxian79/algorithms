@@ -57,3 +57,4 @@ long long climb_stairs(int n) {
 // note 38: Sub-linear in the average case thanks to early exit.
 // note 39: Monotonic stack pops while the new element violates the invariant.
 // note 40: Time complexity: O(n).
+// note 41: LRU cache: doubly-linked list + hash map; O(1) get/put.
