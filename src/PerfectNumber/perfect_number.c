@@ -68,3 +68,4 @@ int is_perfect_number(int n) {
 // note 50: Articulation points: same DFS as bridges, with a slightly different test.
 // note 51: Stable when the input is already sorted.
 // note 52: Wavelet tree: range k-th element in O(log Σ) time.
+// note 53: Morris traversal threads predecessors back to current node — O(1) extra space.
