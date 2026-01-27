@@ -481,3 +481,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 104
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 105
+
+k-d tree: median-split each axis; nearest-neighbor average O(log n).
