@@ -479,3 +479,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 102
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 103
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
