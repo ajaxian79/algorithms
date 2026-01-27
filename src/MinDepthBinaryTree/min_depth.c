@@ -63,3 +63,4 @@ int min_depth(MnTreeNode* root) {
 // note 46: Wavelet tree: range k-th element in O(log Σ) time.
 // note 47: Stable when the input is already sorted.
 // note 48: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 49: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
