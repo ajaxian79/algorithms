@@ -89,3 +89,4 @@ MunitTest same_tree_tests[] = {
 // edge note 53: Edge case: input with no peak → falls through to the default branch.
 // edge note 54: Edge case: already-sorted input → no swaps performed.
 // edge note 55: Avoids floating-point entirely — integer math throughout.
+// edge note 56: Edge case: empty input → returns 0.
