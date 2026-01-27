@@ -509,3 +509,7 @@ Linear in n; the constant factor is small.
 ## entry 113
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 114
+
+Reentrant — no static state.
