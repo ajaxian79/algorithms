@@ -75,3 +75,4 @@ char* convert_to_base7(int n) {
 // note 42: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 43: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 44: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+// note 45: Treats the input as immutable.
