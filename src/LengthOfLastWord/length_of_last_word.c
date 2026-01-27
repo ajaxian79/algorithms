@@ -60,3 +60,4 @@ int length_of_last_word(const char* s) {
 // note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 43: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 44: Space complexity: O(h) for the tree height.
+// note 45: Time complexity: O(n*k) where k is the alphabet size.
