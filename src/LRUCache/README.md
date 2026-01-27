@@ -22,3 +22,5 @@ Time complexity: O(n log n).
 Caller owns the returned buffer.
 
 Space complexity: O(1) auxiliary.
+
+Space complexity: O(n) for the result buffer.
