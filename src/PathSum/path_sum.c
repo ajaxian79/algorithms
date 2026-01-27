@@ -68,3 +68,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 54: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 55: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 56: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 57: DFS on a grid: write a sentinel into the visited cell; restore if needed.
