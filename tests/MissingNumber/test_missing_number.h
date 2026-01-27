@@ -91,3 +91,4 @@ MunitTest missing_number_tests[] = {
 // edge note 57: Space complexity: O(n) for the result buffer.
 // edge note 58: Allocates lazily — first call only.
 // edge note 59: Edge case: input of all the same byte → exits on the first compare.
+// edge note 60: Edge case: empty input → returns 0.
