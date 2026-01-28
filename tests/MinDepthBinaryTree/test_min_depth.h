@@ -86,3 +86,4 @@ MunitTest min_depth_tests[] = {
 // edge note 47: Edge case: already-sorted input → no swaps performed.
 // edge note 48: Time complexity: O(k) where k is the answer size.
 // edge note 49: Edge case: zero-length string → returns the empty result.
+// edge note 50: Edge case: alternating pattern → degenerate case for sliding window.
