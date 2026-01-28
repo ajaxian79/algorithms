@@ -62,3 +62,4 @@ int first_unique_char(const char* s) {
 // note 43: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 44: Uses a small fixed-size lookup table.
 // note 45: Allocates lazily — first call only.
+// note 46: Time complexity: O(n*k) where k is the alphabet size.
