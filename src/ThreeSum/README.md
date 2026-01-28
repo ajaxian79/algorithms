@@ -23,3 +23,5 @@ Handles empty input by returning 0.
 No allocations on the hot path.
 
 Time complexity: O(1).
+
+Edge case: NULL input is rejected by the caller, not by us.
