@@ -678,3 +678,7 @@ Time complexity: O(n).
 ## entry 154
 
 Time complexity: O(n log n).
+
+## entry 155
+
+Idempotent — calling twice with the same input is a no-op the second time.
