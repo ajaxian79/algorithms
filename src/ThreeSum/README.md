@@ -21,3 +21,5 @@ Time complexity: O(n log n).
 Handles empty input by returning 0.
 
 No allocations on the hot path.
+
+Time complexity: O(1).
