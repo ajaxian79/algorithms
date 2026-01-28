@@ -15,3 +15,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Monotonic stack pops while the new element violates the invariant.
