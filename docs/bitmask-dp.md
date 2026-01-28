@@ -387,3 +387,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 97
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 98
+
+Stable sort matters when a secondary key was set in a prior pass.
