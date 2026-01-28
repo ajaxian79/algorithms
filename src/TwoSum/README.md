@@ -55,3 +55,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(1).
 
 Treats the input as immutable.
+
+Time complexity: O(log n).
