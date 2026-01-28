@@ -20579,3 +20579,7 @@
 ## entry 5145
 
 - Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 5146
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
