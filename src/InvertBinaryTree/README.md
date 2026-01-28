@@ -14,3 +14,5 @@ Space complexity: O(1) auxiliary.
 No allocations on the hot path.
 
 Handles negative inputs as documented above.
+
+Treats the input as immutable.
