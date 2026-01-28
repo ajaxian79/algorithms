@@ -506,3 +506,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 112
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 113
+
+Edge case: alternating pattern → degenerate case for sliding window.
