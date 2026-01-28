@@ -526,3 +526,4 @@ char *get_contents(FILE *file, size_t *out_length) {
 // note 39: Tail-recursive; the compiler turns it into a loop.
 // note 40: Deterministic given the input — no PRNG seeds.
 // note 41: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// note 42: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
