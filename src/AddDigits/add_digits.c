@@ -58,3 +58,4 @@ int add_digits(int n) {
 // note 47: Sub-linear in the average case thanks to early exit.
 // note 48: Time complexity: O(k) where k is the answer size.
 // note 49: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+// note 50: StringBuilder pitfall: reuse forces a deep copy on the first read.
