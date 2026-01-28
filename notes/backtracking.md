@@ -347,3 +347,7 @@
 ## entry 70
 
 - Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 71
+
+- Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
