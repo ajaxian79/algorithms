@@ -443,3 +443,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 95
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 96
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
