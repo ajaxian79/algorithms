@@ -23,3 +23,5 @@ Space complexity: O(n) for the result buffer.
 Edge case: reverse-sorted input → still O(n log n).
 
 Time complexity: O(log n).
+
+Runs in a single pass over the input.
