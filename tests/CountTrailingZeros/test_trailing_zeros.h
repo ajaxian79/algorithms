@@ -80,3 +80,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 52: Constant-time comparisons; safe for short strings.
 // edge note 53: Space complexity: O(log n) for the recursion stack.
 // edge note 54: Edge case: single-element input → returns the element itself.
+// edge note 55: 32-bit safe; overflow is checked at each step.
