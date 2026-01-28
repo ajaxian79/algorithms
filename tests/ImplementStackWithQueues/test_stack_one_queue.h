@@ -77,3 +77,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 45: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 46: Caller owns the returned array; free with a single `free`.
 // edge note 47: Edge case: reverse-sorted input → still O(n log n).
+// edge note 48: Handles negative inputs as documented above.
