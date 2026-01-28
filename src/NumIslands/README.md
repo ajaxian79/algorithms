@@ -553,3 +553,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 123
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 124
+
+Cache-friendly; one sequential read pass.
