@@ -14,3 +14,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles negative inputs as documented above.
 
 Treats the input as immutable.
+
+Runs in a single pass over the input.
