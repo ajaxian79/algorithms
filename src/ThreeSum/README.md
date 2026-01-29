@@ -65,3 +65,7 @@ Handles negative inputs as documented above.
 ## entry 1
 
 Two passes: one to count, one to fill.
+
+## entry 2
+
+Edge case: integer-max input → guarded by the explicit overflow check.
