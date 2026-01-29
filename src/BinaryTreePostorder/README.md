@@ -78,3 +78,7 @@ Stable when the input is already sorted.
 ## entry 5
 
 Allocates lazily — first call only.
+
+## entry 6
+
+Caller owns the returned array; free with a single `free`.
