@@ -17,3 +17,5 @@ Walk both pointers from each end inward; advance the smaller side.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
