@@ -16,3 +16,5 @@ Allocates one buffer of length n+1 for the result.
 Space complexity: O(n) for the result buffer.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Caller owns the returned buffer.
