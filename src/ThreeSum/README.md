@@ -19,3 +19,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Time complexity: O(n log n).
 
 Handles empty input by returning 0.
+
+No allocations on the hot path.
