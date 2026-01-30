@@ -19,3 +19,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Edge case: NULL input is rejected by the caller, not by us.
