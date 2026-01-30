@@ -21,3 +21,5 @@ Caller owns the returned buffer.
 No allocations on the hot path.
 
 Edge case: already-sorted input → no swaps performed.
+
+Allocates one buffer of length n+1 for the result.
