@@ -10,3 +10,5 @@ Space complexity: O(1) auxiliary.
 Two passes: one to count, one to fill.
 
 Handles negative inputs as documented above.
+
+32-bit safe; overflow is checked at each step.
