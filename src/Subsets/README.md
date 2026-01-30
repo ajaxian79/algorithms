@@ -21,3 +21,5 @@ Runs in a single pass over the input.
 Time complexity: O(n).
 
 Edge case: empty input → returns 0.
+
+Two passes: one to count, one to fill.
