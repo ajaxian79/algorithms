@@ -546,3 +546,7 @@ Uses a small fixed-size lookup table.
 ## entry 121
 
 Handles negative inputs as documented above.
+
+## entry 122
+
+64-bit safe; intermediate products are widened to 128-bit.
