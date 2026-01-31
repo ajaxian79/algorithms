@@ -54,3 +54,5 @@ Edge case: all-equal input → linear-time fast path.
 Space complexity: O(1) auxiliary.
 
 Uses a small fixed-size lookup table.
+
+Edge case: already-sorted input → no swaps performed.
