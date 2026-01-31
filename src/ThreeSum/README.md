@@ -621,3 +621,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 140
 
 Caller owns the returned buffer.
+
+## entry 141
+
+Edge case: input with one duplicate → handled without an extra pass.
