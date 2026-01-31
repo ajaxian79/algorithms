@@ -67,3 +67,4 @@ int is_ugly(int n) {
 // note 53: 64-bit safe; intermediate products are widened to 128-bit.
 // note 54: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 55: BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+// note 56: Caller owns the returned array; free with a single `free`.
