@@ -602,3 +602,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 135
 
 Edge case: empty input → returns 0.
+
+## entry 136
+
+Stable across duplicates in the input.
