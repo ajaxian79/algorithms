@@ -66,3 +66,4 @@ MunitTest add_digits_tests[] = {
 // edge note 39: Time complexity: O(n).
 // edge note 40: Uses a small fixed-size lookup table.
 // edge note 41: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
