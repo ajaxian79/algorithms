@@ -573,3 +573,7 @@ Worst case appears only on degenerate inputs.
 ## entry 128
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 129
+
+Time complexity: O(n + m).
