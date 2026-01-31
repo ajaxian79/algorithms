@@ -9,3 +9,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+Walk both pointers from each end inward; advance the smaller side.
