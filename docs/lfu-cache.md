@@ -367,3 +367,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 92
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 93
+
+ASCII rules are a strict subset of UTF-8; no special handling needed.
