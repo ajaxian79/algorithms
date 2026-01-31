@@ -5,3 +5,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 Edit distance is LCS with a twist: substitution is a third option at each cell.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
