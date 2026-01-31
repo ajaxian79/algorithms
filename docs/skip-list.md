@@ -359,3 +359,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 90
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 91
+
+Euler tour flattens a tree into an array for range-query LCA.
