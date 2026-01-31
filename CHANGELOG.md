@@ -20531,3 +20531,7 @@
 ## entry 5133
 
 - StringBuilder: amortize allocation by doubling on grow.
+
+## entry 5134
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
