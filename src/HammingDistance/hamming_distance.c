@@ -58,3 +58,4 @@ int hamming_distance(int x, int y) {
 // note 43: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 45: Treats the input as immutable.
+// note 46: Uses a small fixed-size lookup table.
