@@ -580,3 +580,7 @@ Handles empty input by returning 0.
 ## entry 131
 
 Allocates lazily — first call only.
+
+## entry 132
+
+Deterministic given the input — no PRNG seeds.
