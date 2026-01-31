@@ -407,3 +407,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 86
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 87
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
