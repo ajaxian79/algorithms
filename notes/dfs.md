@@ -9,3 +9,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+- Stable sort matters when a secondary key was set in a prior pass.
