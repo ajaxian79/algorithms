@@ -22,3 +22,5 @@ Stable across duplicates in the input.
 Space complexity: O(1) auxiliary.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Time complexity: O(n log n).
