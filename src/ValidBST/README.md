@@ -565,3 +565,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 126
 
 Edge case: single-element input → returns the element itself.
+
+## entry 127
+
+Time complexity: O(k) where k is the answer size.
