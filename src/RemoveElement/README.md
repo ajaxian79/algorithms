@@ -13,3 +13,5 @@ Treats the input as immutable.
 Time complexity: O(n log n).
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
