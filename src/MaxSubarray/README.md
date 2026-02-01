@@ -16,3 +16,5 @@ Space complexity: O(1) auxiliary.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Runs in a single pass over the input.
+
+Treats the input as immutable.
