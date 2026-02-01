@@ -11,3 +11,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Treats the input as immutable.
 
 Time complexity: O(n log n).
+
+Edge case: already-sorted input → no swaps performed.
