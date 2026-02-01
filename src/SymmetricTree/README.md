@@ -10,3 +10,5 @@ Edge case: single-element input → returns the element itself.
 Edge case: already-sorted input → no swaps performed.
 
 Two passes: one to count, one to fill.
+
+Time complexity: O(1).
