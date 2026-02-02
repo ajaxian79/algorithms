@@ -606,3 +606,7 @@ Worst case appears only on degenerate inputs.
 ## entry 136
 
 Edge case: empty input → returns 0.
+
+## entry 137
+
+Allocates lazily — first call only.
