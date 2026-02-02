@@ -26,3 +26,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles negative inputs as documented above.
 
 Caller owns the returned buffer.
+
+Time complexity: O(1).
