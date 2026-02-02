@@ -662,3 +662,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 150
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 151
+
+Cache-friendly; one sequential read pass.
