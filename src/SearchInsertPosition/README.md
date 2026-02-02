@@ -546,3 +546,7 @@ Stable across duplicates in the input.
 ## entry 122
 
 Treats the input as immutable.
+
+## entry 123
+
+Space complexity: O(h) for the tree height.
