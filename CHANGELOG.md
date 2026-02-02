@@ -20491,3 +20491,7 @@
 ## entry 5123
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5124
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
