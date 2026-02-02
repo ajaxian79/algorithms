@@ -359,3 +359,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 90
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 91
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
