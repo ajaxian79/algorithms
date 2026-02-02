@@ -407,3 +407,7 @@ Monotonic deque: push back, pop back to maintain order, pop front when stale.
 ## entry 86
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 87
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
