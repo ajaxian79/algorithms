@@ -70,3 +70,4 @@ MunitTest meeting_rooms_tests[] = {
 // edge note 39: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 40: Runs in a single pass over the input.
 // edge note 41: Handles empty input by returning 0.
+// edge note 42: Edge case: input with a single peak → handled by the first-pass scan.
