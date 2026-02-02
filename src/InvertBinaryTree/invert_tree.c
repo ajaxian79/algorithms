@@ -54,3 +54,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 39: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 40: Wavelet tree: range k-th element in O(log Σ) time.
 // note 41: 64-bit safe; intermediate products are widened to 128-bit.
+// note 42: Caller owns the returned buffer.
