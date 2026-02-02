@@ -20495,3 +20495,7 @@
 ## entry 5124
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5125
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
