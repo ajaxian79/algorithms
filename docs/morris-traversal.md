@@ -399,3 +399,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 85
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 86
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
