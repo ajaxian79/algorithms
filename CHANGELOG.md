@@ -20499,3 +20499,7 @@
 ## entry 5125
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 5126
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
