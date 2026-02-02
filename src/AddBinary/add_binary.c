@@ -90,3 +90,4 @@ char* add_binary(const char* a, const char* b) {
 // note 48: Heap when you only need top-k; full sort is wasted work.
 // note 49: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 50: Splay tree: every access splays to the root; amortized O(log n).
+// note 51: k-d tree: median-split each axis; nearest-neighbor average O(log n).
