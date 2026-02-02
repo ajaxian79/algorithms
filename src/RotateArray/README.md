@@ -19,3 +19,5 @@ Caller owns the returned buffer.
 32-bit safe; overflow is checked at each step.
 
 No allocations on the hot path.
+
+Edge case: already-sorted input → no swaps performed.
