@@ -11,3 +11,5 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
