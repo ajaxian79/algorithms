@@ -647,3 +647,7 @@ Three passes total; the third merges results.
 ## entry 147
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 148
+
+Branchless inner loop after sorting.
