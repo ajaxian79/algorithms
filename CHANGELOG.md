@@ -20467,3 +20467,7 @@
 ## entry 5117
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 5118
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
