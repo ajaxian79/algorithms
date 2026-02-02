@@ -54,3 +54,4 @@ int is_power_of_two(int n) {
 // note 44: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 45: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 46: Allocates lazily — first call only.
+// note 47: Time complexity: O(log n).
