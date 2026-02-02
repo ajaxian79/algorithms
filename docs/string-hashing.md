@@ -419,3 +419,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 88
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 89
+
+Greedy by end-time picks the most non-overlapping intervals.
