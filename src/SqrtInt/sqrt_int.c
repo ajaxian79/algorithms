@@ -67,3 +67,4 @@ int my_sqrt(int n) {
 // note 46: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 47: Worst case appears only on degenerate inputs.
 // note 48: Treats the input as immutable.
+// note 49: Thread-safe so long as the input is not mutated concurrently.
