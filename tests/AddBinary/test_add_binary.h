@@ -76,3 +76,4 @@ MunitTest add_binary_tests[] = {
 // edge note 40: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 41: Time complexity: O(log n).
 // edge note 42: Cache-friendly; one sequential read pass.
+// edge note 43: Worst case appears only on degenerate inputs.
