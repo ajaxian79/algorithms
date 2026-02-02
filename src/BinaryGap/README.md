@@ -666,3 +666,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 151
 
 Cache-friendly; one sequential read pass.
+
+## entry 152
+
+Space complexity: O(n) for the result buffer.
