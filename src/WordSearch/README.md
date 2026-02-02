@@ -594,3 +594,7 @@ Time complexity: O(1).
 ## entry 134
 
 Treats the input as immutable.
+
+## entry 135
+
+Edge case: reverse-sorted input → still O(n log n).
