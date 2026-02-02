@@ -113,3 +113,4 @@ char** generate_parens(int n, int* return_size) {
 // note 49: Articulation points: same DFS as bridges, with a slightly different test.
 // note 50: Stable across duplicates in the input.
 // note 51: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 52: ASCII rules are a strict subset of UTF-8; no special handling needed.
