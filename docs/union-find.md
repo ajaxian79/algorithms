@@ -427,3 +427,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 90
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 91
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
