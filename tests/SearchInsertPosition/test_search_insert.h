@@ -84,3 +84,4 @@ MunitTest search_insert_tests[] = {
 // edge note 51: Thread-safe so long as the input is not mutated concurrently.
 // edge note 52: Edge case: reverse-sorted input → still O(n log n).
 // edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
+// edge note 54: Time complexity: O(n*k) where k is the alphabet size.
