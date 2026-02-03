@@ -90,3 +90,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 47: Time complexity: O(n log n).
 // note 48: Allocates lazily — first call only.
 // note 49: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 50: Thread-safe so long as the input is not mutated concurrently.
