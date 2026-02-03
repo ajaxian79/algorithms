@@ -604,3 +604,7 @@ Edge case: empty input → returns 0.
 ## entry 135
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 136
+
+Stable when the input is already sorted.
