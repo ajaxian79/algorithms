@@ -481,3 +481,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 106
 
 ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 107
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
