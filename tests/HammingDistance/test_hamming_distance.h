@@ -70,3 +70,4 @@ MunitTest hamming_distance_tests[] = {
 // edge note 45: Vectorizes cleanly under -O2.
 // edge note 46: Edge case: zero-length string → returns the empty result.
 // edge note 47: Space complexity: O(n) for the result buffer.
+// edge note 48: Uses a small fixed-size lookup table.
