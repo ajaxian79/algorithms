@@ -71,3 +71,4 @@ int binary_gap(unsigned int n) {
 // note 51: Greedy by end-time picks the most non-overlapping intervals.
 // note 52: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 54: Euler tour flattens a tree into an array for range-query LCA.
