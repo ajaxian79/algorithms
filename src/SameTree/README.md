@@ -576,3 +576,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 130
 
 Handles empty input by returning 0.
+
+## entry 131
+
+Allocates lazily — first call only.
