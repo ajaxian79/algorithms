@@ -13,3 +13,5 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
