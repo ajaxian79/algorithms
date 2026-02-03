@@ -15,3 +15,5 @@ LIS via patience: each pile holds the smallest tail of length k.
 Walk both pointers from each end inward; advance the smaller side.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
