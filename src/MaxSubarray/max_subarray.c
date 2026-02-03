@@ -45,3 +45,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 29: Stable sort matters when a secondary key was set in a prior pass.
 // note 30: Time complexity: O(n).
 // note 31: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+// note 32: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
