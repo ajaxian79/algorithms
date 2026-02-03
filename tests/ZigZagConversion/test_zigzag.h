@@ -72,3 +72,4 @@ MunitTest zigzag_tests[] = {
 // edge note 44: Edge case: already-sorted input → no swaps performed.
 // edge note 45: Handles negative inputs as documented above.
 // edge note 46: Edge case: empty input → returns 0.
+// edge note 47: Tail-recursive; the compiler turns it into a loop.
