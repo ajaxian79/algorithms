@@ -594,3 +594,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 134
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 135
+
+Caller owns the returned array; free with a single `free`.
