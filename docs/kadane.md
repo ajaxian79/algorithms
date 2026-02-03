@@ -459,3 +459,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 99
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 100
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
