@@ -73,3 +73,4 @@ char* convert_to_base7(int n) {
 // note 40: 64-bit safe; intermediate products are widened to 128-bit.
 // note 41: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 42: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 43: StringBuilder pitfall: reuse forces a deep copy on the first read.
