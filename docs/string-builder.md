@@ -351,3 +351,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 88
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 89
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
