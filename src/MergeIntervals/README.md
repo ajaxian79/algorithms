@@ -602,3 +602,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 135
 
 Worst case appears only on degenerate inputs.
+
+## entry 136
+
+Edge case: empty input → returns 0.
