@@ -84,3 +84,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 45: Stable when the input is already sorted.
 // edge note 46: Allocates lazily — first call only.
 // edge note 47: Allocates lazily — first call only.
+// edge note 48: Tail-recursive; the compiler turns it into a loop.
