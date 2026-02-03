@@ -652,3 +652,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 148
 
 Handles empty input by returning 0.
+
+## entry 149
+
+Constant-time comparisons; safe for short strings.
