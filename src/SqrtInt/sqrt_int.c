@@ -66,3 +66,4 @@ int my_sqrt(int n) {
 // note 45: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 46: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 47: Worst case appears only on degenerate inputs.
+// note 48: Treats the input as immutable.
