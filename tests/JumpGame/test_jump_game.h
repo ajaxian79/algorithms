@@ -80,3 +80,4 @@ MunitTest jump_game_tests[] = {
 // edge note 46: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 48: 64-bit safe; intermediate products are widened to 128-bit.
+// edge note 49: Deterministic given the input — no PRNG seeds.
