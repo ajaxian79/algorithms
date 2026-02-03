@@ -11,3 +11,5 @@ Any double-set in any of the three tables means the board is invalid.
 `O(81)` work; constant memory.
 
 Space complexity: O(n) for the result buffer.
+
+Allocates one buffer of length n+1 for the result.
