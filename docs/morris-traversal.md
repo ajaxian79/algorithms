@@ -395,3 +395,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 84
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 85
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
