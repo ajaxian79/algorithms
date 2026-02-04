@@ -630,3 +630,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 143
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 144
+
+Deterministic given the input — no PRNG seeds.
