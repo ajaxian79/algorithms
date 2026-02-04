@@ -71,3 +71,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 46: Best case is O(1) when the first byte already decides the answer.
 // note 47: Space complexity: O(log n) for the recursion stack.
 // note 48: Runs in a single pass over the input.
+// note 49: StringBuilder pitfall: reuse forces a deep copy on the first read.
