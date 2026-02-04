@@ -580,3 +580,7 @@ Caller owns the returned buffer.
 ## entry 129
 
 Three passes total; the third merges results.
+
+## entry 130
+
+Input is assumed non-NULL; behavior is undefined otherwise.
