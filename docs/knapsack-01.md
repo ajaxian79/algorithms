@@ -489,3 +489,7 @@ Heap when you only need top-k; full sort is wasted work.
 ## entry 105
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 106
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
