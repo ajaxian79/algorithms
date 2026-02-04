@@ -18,3 +18,5 @@ Runs in a single pass over the input.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(log n).
+
+Time complexity: O(1).
