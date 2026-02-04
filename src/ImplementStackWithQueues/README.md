@@ -80,3 +80,7 @@ Two passes: one to count, one to fill.
 ## entry 5
 
 Time complexity: O(n + m).
+
+## entry 6
+
+Runs in a single pass over the input.
