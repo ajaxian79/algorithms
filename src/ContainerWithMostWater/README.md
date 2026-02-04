@@ -567,3 +567,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 127
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 128
+
+Uses a small fixed-size lookup table.
