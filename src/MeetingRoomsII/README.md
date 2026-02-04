@@ -610,3 +610,7 @@ No allocations on the hot path.
 ## entry 137
 
 Edge case: empty input → returns 0.
+
+## entry 138
+
+Time complexity: O(n log n).
