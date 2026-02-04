@@ -188,3 +188,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 52: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 53: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 // note 54: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 55: Deterministic given the input — no PRNG seeds.
