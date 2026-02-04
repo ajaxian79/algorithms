@@ -64,3 +64,4 @@ int my_sqrt(int n) {
 // note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 44: Allocates lazily — first call only.
 // note 45: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+// note 46: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
