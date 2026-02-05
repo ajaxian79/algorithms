@@ -11,3 +11,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+Walk both pointers from each end inward; advance the smaller side.
