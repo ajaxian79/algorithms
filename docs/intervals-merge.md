@@ -11,3 +11,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
