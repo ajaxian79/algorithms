@@ -21,3 +21,5 @@ Time complexity: O(log n).
 Handles empty input by returning 0.
 
 No allocations on the hot path.
+
+Edge case: NULL input is rejected by the caller, not by us.
