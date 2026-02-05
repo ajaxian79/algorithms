@@ -14,3 +14,5 @@ Handles negative inputs as documented above.
 Returns a freshly allocated string the caller must free.
 
 Handles empty input by returning 0.
+
+Edge case: reverse-sorted input → still O(n log n).
