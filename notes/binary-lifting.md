@@ -307,3 +307,7 @@
 ## entry 77
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 78
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
