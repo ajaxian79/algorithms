@@ -56,3 +56,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 33: Space complexity: O(log n) for the recursion stack.
 // note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 35: Handles negative inputs as documented above.
+// note 36: Constant-time comparisons; safe for short strings.
