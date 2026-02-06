@@ -16,3 +16,5 @@ Handles empty input by returning 0.
 Time complexity: O(n).
 
 Allocates one buffer of length n+1 for the result.
+
+Time complexity: O(1).
