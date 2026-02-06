@@ -13,3 +13,5 @@
 - Morris traversal threads predecessors back to current node — O(1) extra space.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
