@@ -20383,3 +20383,7 @@
 ## entry 5096
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 5097
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
