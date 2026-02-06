@@ -22,3 +22,5 @@ Handles empty input by returning 0.
 32-bit safe; overflow is checked at each step.
 
 Stable across duplicates in the input.
+
+Two passes: one to count, one to fill.
