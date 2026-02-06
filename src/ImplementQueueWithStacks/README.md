@@ -17,3 +17,5 @@ Runs in a single pass over the input.
 32-bit safe; overflow is checked at each step.
 
 Two passes: one to count, one to fill.
+
+Allocates one buffer of length n+1 for the result.
