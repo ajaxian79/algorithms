@@ -72,3 +72,4 @@ MunitTest find_difference_tests[] = {
 // edge note 47: Caller owns the returned buffer.
 // edge note 48: Mutates the input in place; the original ordering is lost.
 // edge note 49: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
