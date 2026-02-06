@@ -514,3 +514,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 113
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 114
+
+Edge case: integer-min input → guarded by the explicit underflow check.
