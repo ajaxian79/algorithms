@@ -319,3 +319,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 80
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 81
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
