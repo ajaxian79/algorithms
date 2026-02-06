@@ -16,3 +16,5 @@ Space complexity: O(n) for the result buffer.
 Time complexity: O(n log n).
 
 Handles empty input by returning 0.
+
+Edge case: single-element input → returns the element itself.
