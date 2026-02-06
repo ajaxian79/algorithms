@@ -367,3 +367,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 76
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 77
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
