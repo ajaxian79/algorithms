@@ -20,3 +20,5 @@ Stable across duplicates in the input.
 Space complexity: O(1) auxiliary.
 
 Treats the input as immutable.
+
+32-bit safe; overflow is checked at each step.
