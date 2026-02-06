@@ -20387,3 +20387,7 @@
 ## entry 5097
 
 - LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 5098
+
+- Treap: BST + heap on random priorities; expected O(log n) per op.
