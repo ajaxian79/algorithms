@@ -21,3 +21,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Space complexity: O(1) auxiliary.
 
 Edge case: all-equal input → linear-time fast path.
+
+Time complexity: O(n).
