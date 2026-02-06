@@ -55,3 +55,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 35: Monotonic stack pops while the new element violates the invariant.
 // note 36: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 // note 37: Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+// note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
