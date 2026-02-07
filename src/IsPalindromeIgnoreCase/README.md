@@ -558,3 +558,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 125
 
 Treats the input as immutable.
+
+## entry 126
+
+Space complexity: O(log n) for the recursion stack.
