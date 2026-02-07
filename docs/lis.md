@@ -9,3 +9,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Iterative DFS with an explicit stack avoids recursion-limit issues.
