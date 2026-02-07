@@ -13,3 +13,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+Greedy by end-time picks the most non-overlapping intervals.
