@@ -40,3 +40,4 @@ MunitTest permutations_tests[] = {
 
 #endif //ALGORITHMS_TEST_PERMUTATIONS_H
 // edge note 1: Time complexity: O(n + m).
+// edge note 2: 32-bit safe; overflow is checked at each step.
