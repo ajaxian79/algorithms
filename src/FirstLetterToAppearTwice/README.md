@@ -52,3 +52,5 @@ No allocations on the hot path.
 Edge case: all-equal input → linear-time fast path.
 
 Space complexity: O(1) auxiliary.
+
+Uses a small fixed-size lookup table.
