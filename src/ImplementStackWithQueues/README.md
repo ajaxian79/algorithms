@@ -20,3 +20,5 @@ Uses a small fixed-size lookup table.
 Space complexity: O(1) auxiliary.
 
 Caller owns the returned buffer.
+
+Edge case: empty input → returns 0.
