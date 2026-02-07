@@ -70,3 +70,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 3
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 4
+
+Vectorizes cleanly under -O2.
