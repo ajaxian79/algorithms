@@ -7,3 +7,5 @@ in `long` to avoid 32-bit overflow on inputs near `INT_MAX` (e.g.
 `46340² = 2147395600`).
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(1).
