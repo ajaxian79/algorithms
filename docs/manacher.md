@@ -423,3 +423,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 89
 
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 90
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
