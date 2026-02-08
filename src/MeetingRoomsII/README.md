@@ -606,3 +606,7 @@ Handles single-element input as a base case.
 ## entry 136
 
 No allocations on the hot path.
+
+## entry 137
+
+Edge case: empty input → returns 0.
