@@ -9,3 +9,5 @@
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
