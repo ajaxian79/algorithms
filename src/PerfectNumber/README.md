@@ -19,3 +19,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(log n).
 
 Handles empty input by returning 0.
+
+No allocations on the hot path.
