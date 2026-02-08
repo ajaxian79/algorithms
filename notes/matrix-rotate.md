@@ -13,3 +13,5 @@
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+- Walk both pointers from each end inward; advance the smaller side.
