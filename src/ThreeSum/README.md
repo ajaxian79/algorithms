@@ -17,3 +17,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Edge case: reverse-sorted input → still O(n log n).
 
 Time complexity: O(n log n).
+
+Handles empty input by returning 0.
