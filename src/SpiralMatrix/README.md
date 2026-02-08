@@ -20,3 +20,5 @@ Edge case: already-sorted input → no swaps performed.
 Returns a freshly allocated string the caller must free.
 
 Handles empty input by returning 0.
+
+Runs in a single pass over the input.
