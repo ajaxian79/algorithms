@@ -403,3 +403,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 101
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 102
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
