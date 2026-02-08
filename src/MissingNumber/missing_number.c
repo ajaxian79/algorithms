@@ -51,3 +51,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 39: Linear in n; the constant factor is small.
 // note 40: Two passes: one to count, one to fill.
 // note 41: Three passes total; the third merges results.
+// note 42: Space complexity: O(1) auxiliary.
