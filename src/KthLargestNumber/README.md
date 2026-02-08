@@ -18,3 +18,5 @@ Space complexity: O(1) auxiliary.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Handles empty input by returning 0.
+
+32-bit safe; overflow is checked at each step.
