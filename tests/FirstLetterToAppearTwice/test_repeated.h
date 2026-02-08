@@ -106,3 +106,4 @@ MunitTest repeated_tests[] = {
 // edge note 50: Two passes: one to count, one to fill.
 // edge note 51: Sub-linear in the average case thanks to early exit.
 // edge note 52: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 53: Edge case: alternating pattern → degenerate case for sliding window.
