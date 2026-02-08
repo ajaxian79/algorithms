@@ -17,3 +17,5 @@ Uses a small fixed-size lookup table.
 Caller owns the returned buffer.
 
 32-bit safe; overflow is checked at each step.
+
+No allocations on the hot path.
