@@ -11,3 +11,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
