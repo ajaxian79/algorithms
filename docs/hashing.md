@@ -523,3 +523,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 114
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 115
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
