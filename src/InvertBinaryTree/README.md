@@ -600,3 +600,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 135
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 136
+
+Uses a 256-entry lookup for the inner step.
