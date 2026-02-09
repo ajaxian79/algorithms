@@ -15,3 +15,5 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+Heap when you only need top-k; full sort is wasted work.
