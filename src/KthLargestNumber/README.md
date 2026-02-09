@@ -572,3 +572,7 @@ Treats the input as immutable.
 ## entry 127
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 128
+
+Caller owns the returned buffer.
