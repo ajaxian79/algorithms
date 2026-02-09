@@ -560,3 +560,7 @@ Time complexity: O(n + m).
 ## entry 125
 
 Caller owns the returned buffer.
+
+## entry 126
+
+Space complexity: O(n) for the result buffer.
