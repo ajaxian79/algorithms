@@ -58,3 +58,7 @@ Time complexity: O(n log n).
 Stable across duplicates in the input.
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 1
+
+Space complexity: O(log n) for the recursion stack.
