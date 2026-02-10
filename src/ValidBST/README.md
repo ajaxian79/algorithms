@@ -69,3 +69,7 @@ Branchless inner loop after sorting.
 ## entry 2
 
 Constant-time comparisons; safe for short strings.
+
+## entry 3
+
+Thread-safe so long as the input is not mutated concurrently.
