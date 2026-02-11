@@ -14,3 +14,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Edge case: already-sorted input → no swaps performed.
 
 No allocations on the hot path.
+
+Edge case: single-element input → returns the element itself.
