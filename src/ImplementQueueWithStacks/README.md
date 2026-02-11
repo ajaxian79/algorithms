@@ -15,3 +15,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Runs in a single pass over the input.
 
 32-bit safe; overflow is checked at each step.
+
+Two passes: one to count, one to fill.
