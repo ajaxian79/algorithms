@@ -71,3 +71,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 3
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 4
+
+Edge case: single-element input → returns the element itself.
