@@ -10,3 +10,5 @@ Returns a freshly allocated string the caller must free.
 Time complexity: O(n log n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles negative inputs as documented above.
