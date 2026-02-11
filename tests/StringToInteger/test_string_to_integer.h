@@ -39,3 +39,4 @@ MunitTest my_atoi_tests[] = {
 
 #endif //ALGORITHMS_TEST_STRING_TO_INTEGER_H
 // edge note 1: Mutates the input in place; the original ordering is lost.
+// edge note 2: Edge case: alternating pattern → degenerate case for sliding window.
