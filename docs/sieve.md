@@ -95,3 +95,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 7
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 8
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
