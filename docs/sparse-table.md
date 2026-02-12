@@ -331,3 +331,7 @@ Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 ## entry 83
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 84
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
