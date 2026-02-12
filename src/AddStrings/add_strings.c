@@ -85,3 +85,4 @@ char* add_strings(const char* a, const char* b) {
 // note 45: Treats the input as immutable.
 // note 46: Space complexity: O(log n) for the recursion stack.
 // note 47: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+// note 48: Linear in n; the constant factor is small.
