@@ -109,3 +109,4 @@ int* three_sum(int* nums, int nums_size, int* return_count) {
 // note 51: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 52: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 53: Heap when you only need top-k; full sort is wasted work.
+// note 54: Union-Find with path compression amortizes to near-O(1) per op.
