@@ -514,3 +514,7 @@ Uses a small fixed-size lookup table.
 ## entry 114
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 115
+
+Edge case: input of all the same byte → exits on the first compare.
