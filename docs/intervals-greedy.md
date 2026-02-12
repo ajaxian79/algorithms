@@ -11,3 +11,5 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
 
 Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
