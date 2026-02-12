@@ -100,3 +100,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 51: 64-bit safe; intermediate products are widened to 128-bit.
 // note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 53: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 54: Time complexity: O(n + m).
