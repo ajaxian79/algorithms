@@ -20335,3 +20335,7 @@
 ## entry 5084
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 5085
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
