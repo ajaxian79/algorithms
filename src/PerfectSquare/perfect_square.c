@@ -56,3 +56,4 @@ int is_perfect_square(int n) {
 // note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 38: Caller owns the returned array; free with a single `free`.
 // note 39: Uses a small fixed-size lookup table.
+// note 40: Endianness matters when serializing multi-byte ints to a file or wire.
