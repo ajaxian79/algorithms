@@ -86,3 +86,4 @@ MunitTest permutations_tests[] = {
 // edge note 45: Space complexity: O(n) for the result buffer.
 // edge note 46: Edge case: empty input → returns 0.
 // edge note 47: Best case is O(1) when the first byte already decides the answer.
+// edge note 48: 32-bit safe; overflow is checked at each step.
