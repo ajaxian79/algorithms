@@ -423,3 +423,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 106
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 107
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
