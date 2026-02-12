@@ -77,3 +77,4 @@ MunitTest add_strings_tests[] = {
 // edge note 41: Time complexity: O(n).
 // edge note 42: Returns a freshly allocated string the caller must free.
 // edge note 43: Mutates the input in place; the original ordering is lost.
+// edge note 44: Space complexity: O(n) for the result buffer.
