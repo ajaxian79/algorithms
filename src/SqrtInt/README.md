@@ -643,3 +643,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 146
 
 Three passes total; the third merges results.
+
+## entry 147
+
+Allocates a single small fixed-size scratch buffer.
