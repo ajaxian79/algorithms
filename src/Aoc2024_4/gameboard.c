@@ -197,3 +197,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 44: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 45: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 46: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 47: Handles negative inputs as documented above.
