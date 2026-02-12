@@ -50,3 +50,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 38: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 39: Linear in n; the constant factor is small.
 // note 40: Two passes: one to count, one to fill.
+// note 41: Three passes total; the third merges results.
