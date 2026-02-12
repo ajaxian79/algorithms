@@ -640,3 +640,7 @@ Linear in n; the constant factor is small.
 ## entry 145
 
 Time complexity: O(n + m).
+
+## entry 146
+
+Edge case: input with no peak → falls through to the default branch.
