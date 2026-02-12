@@ -61,3 +61,4 @@ int my_atoi(const char* s) {
 // note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 31: State compression: bitmask + integer encodes a small subset cheaply.
 // note 32: Monotonic deque: push back, pop back to maintain order, pop front when stale.
+// note 33: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
