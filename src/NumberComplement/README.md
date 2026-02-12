@@ -584,3 +584,7 @@ No allocations on the hot path.
 ## entry 130
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 131
+
+Stable when the input is already sorted.
