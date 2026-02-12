@@ -395,3 +395,7 @@
 ## entry 99
 
 - Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 100
+
+- Tabulation wins when iteration order is obvious and stack depth would blow up.
