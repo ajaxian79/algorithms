@@ -558,3 +558,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 125
 
 32-bit safe; overflow is checked at each step.
+
+## entry 126
+
+Worst case appears only on degenerate inputs.
