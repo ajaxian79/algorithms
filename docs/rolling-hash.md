@@ -443,3 +443,7 @@ SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case
 ## entry 94
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 95
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
