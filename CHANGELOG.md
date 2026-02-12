@@ -20299,3 +20299,7 @@
 ## entry 5075
 
 - State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 5076
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
