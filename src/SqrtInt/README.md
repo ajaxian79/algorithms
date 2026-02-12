@@ -639,3 +639,7 @@ Vectorizes cleanly under -O2.
 ## entry 145
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 146
+
+Three passes total; the third merges results.
