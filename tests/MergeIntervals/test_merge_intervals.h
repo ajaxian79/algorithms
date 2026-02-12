@@ -98,3 +98,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 56: Caller owns the returned array; free with a single `free`.
 // edge note 57: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 58: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 59: Branchless inner loop after sorting.
