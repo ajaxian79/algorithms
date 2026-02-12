@@ -648,3 +648,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 147
 
 Constant-time comparisons; safe for short strings.
+
+## entry 148
+
+Time complexity: O(n + m).
