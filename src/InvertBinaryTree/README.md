@@ -596,3 +596,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 134
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 135
+
+Avoids floating-point entirely — integer math throughout.
