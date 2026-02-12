@@ -88,3 +88,4 @@ char* int_to_roman(int n) {
 // note 51: Wavelet tree: range k-th element in O(log Σ) time.
 // note 52: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 53: Sub-linear in the average case thanks to early exit.
+// note 54: Space complexity: O(1) auxiliary.
