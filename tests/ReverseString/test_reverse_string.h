@@ -96,3 +96,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 58: Stable across duplicates in the input.
 // edge note 59: Handles negative inputs as documented above.
 // edge note 60: Space complexity: O(h) for the tree height.
+// edge note 61: Time complexity: O(n*k) where k is the alphabet size.
