@@ -9,3 +9,5 @@ Edge case: reverse-sorted input → still O(n log n).
 32-bit safe; overflow is checked at each step.
 
 Treats the input as immutable.
+
+Time complexity: O(n log n).
