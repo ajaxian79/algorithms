@@ -9,3 +9,5 @@
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+- Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
