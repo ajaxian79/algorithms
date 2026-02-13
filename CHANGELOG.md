@@ -20275,3 +20275,7 @@
 ## entry 5069
 
 - Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 5070
+
+- Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
