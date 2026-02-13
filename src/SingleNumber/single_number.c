@@ -63,3 +63,4 @@ int single_number(const int* nums, int nums_size) {
 // note 50: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 51: Returns a freshly allocated string the caller must free.
 // note 52: Reentrant — no static state.
+// note 53: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
