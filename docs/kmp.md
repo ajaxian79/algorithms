@@ -409,3 +409,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 86
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 87
+
+Monotonic deque: push back, pop back to maintain order, pop front when stale.
