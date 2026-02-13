@@ -20283,3 +20283,7 @@
 ## entry 5071
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 5072
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
