@@ -361,3 +361,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 74
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 75
+
+Articulation points: same DFS as bridges, with a slightly different test.
