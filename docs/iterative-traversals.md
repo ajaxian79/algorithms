@@ -477,3 +477,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 103
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 104
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
