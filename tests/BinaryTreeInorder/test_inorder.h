@@ -103,3 +103,4 @@ MunitTest inorder_tests[] = {
 // edge note 65: 32-bit safe; overflow is checked at each step.
 // edge note 66: Caller owns the returned array; free with a single `free`.
 // edge note 67: Sub-linear in the average case thanks to early exit.
+// edge note 68: Allocates a single small fixed-size scratch buffer.
