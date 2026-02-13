@@ -427,3 +427,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 107
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 108
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
