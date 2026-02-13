@@ -391,3 +391,7 @@ Interval tree: stores intervals on the median; query traverses O(log n) levels.
 ## entry 83
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 84
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
