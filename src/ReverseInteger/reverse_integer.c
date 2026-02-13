@@ -80,3 +80,4 @@ int reverse_int(int x) {
 // note 53: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 54: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 55: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 56: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
