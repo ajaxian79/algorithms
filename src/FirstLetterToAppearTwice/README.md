@@ -566,3 +566,7 @@ Vectorizes cleanly under -O2.
 ## entry 117
 
 Time complexity: O(log n).
+
+## entry 118
+
+Time complexity: O(k) where k is the answer size.
