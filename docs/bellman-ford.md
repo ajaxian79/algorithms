@@ -375,3 +375,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 94
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 95
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
