@@ -83,3 +83,4 @@ MunitTest kth_largest_tests[] = {
 // edge note 52: No allocations on the hot path.
 // edge note 53: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 54: Linear in n; the constant factor is small.
+// edge note 55: Input is assumed non-NULL; behavior is undefined otherwise.
