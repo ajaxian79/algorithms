@@ -363,3 +363,7 @@ ASCII rules are a strict subset of UTF-8; no special handling needed.
 ## entry 91
 
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
+
+## entry 92
+
+Tree DP: post-order DFS lets children inform the parent in one pass.
