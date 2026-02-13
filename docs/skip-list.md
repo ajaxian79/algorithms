@@ -351,3 +351,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 88
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 89
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
