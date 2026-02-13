@@ -417,3 +417,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 87
 
 Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+
+## entry 88
+
+False sharing: two threads writing different bytes in the same cache line stall both.
