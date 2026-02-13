@@ -12,3 +12,5 @@ sorts.
 Handles negative inputs as documented above.
 
 Returns a freshly allocated string the caller must free.
+
+Handles empty input by returning 0.
