@@ -633,3 +633,7 @@ Branchless inner loop after sorting.
 ## entry 144
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 145
+
+Edge case: input with no peak → falls through to the default branch.
