@@ -501,3 +501,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 111
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 112
+
+Linear in n; the constant factor is small.
