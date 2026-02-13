@@ -67,3 +67,4 @@ int is_palindrome_str(const char* s) {
 // note 42: Handles single-element input as a base case.
 // note 43: Space complexity: O(n) for the result buffer.
 // note 44: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+// note 45: Rope: tree of small string fragments; O(log n) concat and substring.
