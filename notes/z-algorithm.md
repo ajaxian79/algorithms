@@ -9,3 +9,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+- Walk both pointers from each end inward; advance the smaller side.
