@@ -13,3 +13,5 @@ Two passes: one to count, one to fill.
 Space complexity: O(1) auxiliary.
 
 32-bit safe; overflow is checked at each step.
+
+Edge case: already-sorted input → no swaps performed.
