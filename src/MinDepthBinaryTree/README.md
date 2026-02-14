@@ -10,3 +10,5 @@ Space complexity: O(n) for the result buffer.
 Caller owns the returned buffer.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Edge case: already-sorted input → no swaps performed.
