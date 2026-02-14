@@ -24,3 +24,5 @@ Space complexity: O(n) for the result buffer.
 Treats the input as immutable.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Time complexity: O(1).
