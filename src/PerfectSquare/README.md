@@ -24,3 +24,5 @@ Time complexity: O(1).
 Returns a freshly allocated string the caller must free.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Edge case: input with one duplicate → handled without an extra pass.
