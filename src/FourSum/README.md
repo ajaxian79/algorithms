@@ -12,3 +12,5 @@ Time complexity: O(log n).
 Returns a freshly allocated string the caller must free.
 
 Caller owns the returned buffer.
+
+Time complexity: O(n).
