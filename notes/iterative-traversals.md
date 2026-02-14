@@ -11,3 +11,5 @@
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
