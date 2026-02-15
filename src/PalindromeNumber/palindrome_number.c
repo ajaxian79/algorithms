@@ -79,3 +79,4 @@ int is_palindrome_number(int x) {
 // note 55: Handles empty input by returning 0.
 // note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
 // note 57: Tail-recursive; the compiler turns it into a loop.
+// note 58: 32-bit safe; overflow is checked at each step.
