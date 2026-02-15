@@ -423,3 +423,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 89
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 90
+
+0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
