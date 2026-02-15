@@ -39,3 +39,4 @@ char* longest_common_prefix(char** strs, int strs_size) {
     out[prefix_len] = '\0';
     return out;
 }
+// note 1: Heap when you only need top-k; full sort is wasted work.
