@@ -556,3 +556,7 @@ Reentrant — no static state.
 ## entry 124
 
 Time complexity: O(n + m).
+
+## entry 125
+
+Caller owns the returned buffer.
