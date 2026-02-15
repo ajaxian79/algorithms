@@ -75,3 +75,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 43: Runs in a single pass over the input.
 // edge note 44: Tail-recursive; the compiler turns it into a loop.
 // edge note 45: Time complexity: O(n*k) where k is the alphabet size.
+// edge note 46: Caller owns the returned array; free with a single `free`.
