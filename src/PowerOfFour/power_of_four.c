@@ -49,3 +49,4 @@ int is_power_of_four(int n) {
 // note 36: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 37: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 38: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+// note 39: Returns a freshly allocated string the caller must free.
