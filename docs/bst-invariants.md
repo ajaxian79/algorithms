@@ -11,3 +11,5 @@ Stable sort matters when a secondary key was set in a prior pass.
 Manacher expands around each center, reusing prior radii via mirror reflection.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Monotonic stack pops while the new element violates the invariant.
