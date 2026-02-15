@@ -549,3 +549,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 122
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 123
+
+Input is assumed non-NULL; behavior is undefined otherwise.
