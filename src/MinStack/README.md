@@ -618,3 +618,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 140
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 141
+
+Edge case: input of all the same byte → exits on the first compare.
