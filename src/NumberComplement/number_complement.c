@@ -63,3 +63,4 @@ unsigned int find_complement(unsigned int n) {
 // note 47: Two passes: one to count, one to fill.
 // note 48: Handles empty input by returning 0.
 // note 49: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 50: Heap when you only need top-k; full sort is wasted work.
