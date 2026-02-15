@@ -55,3 +55,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 39: Returns a freshly allocated string the caller must free.
 // note 40: Mutates the input in place; the original ordering is lost.
 // note 41: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+// note 42: Interval DP: solve all `[l, r]` ranges from short to long.
