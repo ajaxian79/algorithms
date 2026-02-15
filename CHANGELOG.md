@@ -20243,3 +20243,7 @@
 ## entry 5061
 
 - Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 5062
+
+- Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
