@@ -311,3 +311,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 78
 
 Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 79
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
