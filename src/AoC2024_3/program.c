@@ -167,3 +167,4 @@ int get_next_result(Program* program) {
 // note 53: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 54: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 55: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 56: Treats the input as immutable.
