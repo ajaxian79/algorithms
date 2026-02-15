@@ -20255,3 +20255,7 @@
 ## entry 5064
 
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 5065
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
