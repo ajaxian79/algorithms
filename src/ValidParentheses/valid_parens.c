@@ -83,3 +83,4 @@ int is_valid_parens(const char* s) {
 // note 41: Uses a small fixed-size lookup table.
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 43: Space complexity: O(h) for the tree height.
+// note 44: Treats the input as immutable.
