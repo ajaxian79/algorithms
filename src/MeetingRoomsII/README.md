@@ -602,3 +602,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 135
 
 Handles single-element input as a base case.
+
+## entry 136
+
+No allocations on the hot path.
