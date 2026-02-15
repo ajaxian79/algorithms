@@ -610,3 +610,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 138
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 139
+
+Idempotent — calling twice with the same input is a no-op the second time.
