@@ -22,3 +22,5 @@ Edge case: already-sorted input → no swaps performed.
 Runs in a single pass over the input.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Space complexity: O(n) for the result buffer.
