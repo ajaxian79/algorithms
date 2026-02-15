@@ -51,3 +51,4 @@ int max_depth(MdTreeNode* root) {
 // note 37: Treats the input as immutable.
 // note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 39: Monotonic stack pops while the new element violates the invariant.
+// note 40: Linear in n; the constant factor is small.
