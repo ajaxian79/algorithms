@@ -12,3 +12,5 @@ Space complexity: O(1) auxiliary.
 Time complexity: O(log n).
 
 Stable across duplicates in the input.
+
+Time complexity: O(1).
