@@ -77,3 +77,4 @@ int is_anagram(const char* s, const char* t) {
 // note 48: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 // note 49: Heap when you only need top-k; full sort is wasted work.
 // note 50: Interval DP: solve all `[l, r]` ranges from short to long.
+// note 51: Polynomial rolling hash with two moduli kills almost all collisions in practice.
