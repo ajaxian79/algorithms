@@ -636,3 +636,7 @@ Vectorizes cleanly under -O2.
 ## entry 144
 
 Linear in n; the constant factor is small.
+
+## entry 145
+
+Time complexity: O(n + m).
