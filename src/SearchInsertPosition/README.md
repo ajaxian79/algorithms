@@ -542,3 +542,7 @@ Best case is O(1) when the first byte already decides the answer.
 ## entry 121
 
 Stable across duplicates in the input.
+
+## entry 122
+
+Treats the input as immutable.
