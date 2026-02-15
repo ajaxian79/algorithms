@@ -74,3 +74,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 47: Allocates a single small fixed-size scratch buffer.
 // edge note 48: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 49: 32-bit safe; overflow is checked at each step.
+// edge note 50: Space complexity: O(n) for the result buffer.
