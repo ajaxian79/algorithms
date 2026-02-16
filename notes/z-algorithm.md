@@ -461,3 +461,7 @@
 ## entry 102
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 103
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
