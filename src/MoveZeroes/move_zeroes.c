@@ -60,3 +60,4 @@ void move_zeroes(int* nums, int nums_size) {
 // note 43: Linear in n; the constant factor is small.
 // note 44: Morris traversal threads predecessors back to current node — O(1) extra space.
 // note 45: Monotonic stack pops while the new element violates the invariant.
+// note 46: No allocations after setup.
