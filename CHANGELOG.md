@@ -20211,3 +20211,7 @@
 ## entry 5053
 
 - Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 5054
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
