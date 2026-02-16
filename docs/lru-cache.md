@@ -339,3 +339,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 85
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 86
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
