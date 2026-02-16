@@ -339,3 +339,7 @@
 ## entry 85
 
 - Heap when you only need top-k; full sort is wasted work.
+
+## entry 86
+
+- StringBuilder: amortize allocation by doubling on grow.
