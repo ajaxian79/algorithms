@@ -572,3 +572,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 128
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 129
+
+Best case is O(1) when the first byte already decides the answer.
