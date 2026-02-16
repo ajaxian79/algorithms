@@ -598,3 +598,7 @@ Edge case: empty input → returns 0.
 ## entry 134
 
 Returns a freshly allocated string the caller must free.
+
+## entry 135
+
+Worst case appears only on degenerate inputs.
