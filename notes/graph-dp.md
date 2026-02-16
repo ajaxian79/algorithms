@@ -351,3 +351,7 @@
 ## entry 88
 
 - Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 89
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
