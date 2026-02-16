@@ -640,3 +640,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 145
 
 Two passes: one to count, one to fill.
+
+## entry 146
+
+Thread-safe so long as the input is not mutated concurrently.
