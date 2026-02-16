@@ -20215,3 +20215,7 @@
 ## entry 5054
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 5055
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
