@@ -84,3 +84,4 @@ MunitTest roman_to_int_tests[] = {
 // edge note 50: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 51: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 52: Uses a 256-entry lookup for the inner step.
+// edge note 53: Edge case: all-equal input → linear-time fast path.
