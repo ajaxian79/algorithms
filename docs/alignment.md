@@ -403,3 +403,7 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 ## entry 101
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 102
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
