@@ -614,3 +614,7 @@ Worst case appears only on degenerate inputs.
 ## entry 139
 
 Allocates lazily — first call only.
+
+## entry 140
+
+Treats the input as immutable.
