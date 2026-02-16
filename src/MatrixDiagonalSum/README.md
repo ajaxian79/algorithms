@@ -610,3 +610,7 @@ Time complexity: O(log n).
 ## entry 138
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 139
+
+Space complexity: O(h) for the tree height.
