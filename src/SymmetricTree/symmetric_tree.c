@@ -64,3 +64,4 @@ int is_symmetric(STreeNode* root) {
 // note 45: Allocates lazily — first call only.
 // note 46: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 47: Allocates one buffer of length n+1 for the result.
+// note 48: Articulation points: same DFS as bridges, with a slightly different test.
