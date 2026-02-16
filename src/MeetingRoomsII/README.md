@@ -598,3 +598,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 134
 
 Returns a freshly allocated string the caller must free.
+
+## entry 135
+
+Handles single-element input as a base case.
