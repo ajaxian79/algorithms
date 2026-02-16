@@ -363,3 +363,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 91
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 92
+
+False sharing: two threads writing different bytes in the same cache line stall both.
