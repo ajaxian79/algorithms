@@ -572,3 +572,7 @@ No allocations on the hot path.
 ## entry 127
 
 Caller owns the returned buffer.
+
+## entry 128
+
+Edge case: integer-max input → guarded by the explicit overflow check.
