@@ -461,3 +461,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 98
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 99
+
+Morris traversal threads predecessors back to current node — O(1) extra space.
