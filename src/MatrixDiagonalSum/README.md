@@ -18,3 +18,5 @@ Time complexity: O(log n).
 Handles negative inputs as documented above.
 
 Stable across duplicates in the input.
+
+Caller owns the returned buffer.
