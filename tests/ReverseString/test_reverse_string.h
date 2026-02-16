@@ -95,3 +95,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 57: Edge case: single-element input → returns the element itself.
 // edge note 58: Stable across duplicates in the input.
 // edge note 59: Handles negative inputs as documented above.
+// edge note 60: Space complexity: O(h) for the tree height.
