@@ -644,3 +644,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 146
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 147
+
+Time complexity: O(n*k) where k is the alphabet size.
