@@ -74,3 +74,4 @@ MunitTest convert_to_base7_tests[] = {
 // edge note 45: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 46: Reentrant — no static state.
 // edge note 47: Time complexity: O(k) where k is the answer size.
+// edge note 48: Edge case: empty input → returns 0.
