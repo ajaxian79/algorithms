@@ -548,3 +548,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 122
 
 Time complexity: O(log n).
+
+## entry 123
+
+Reentrant — no static state.
