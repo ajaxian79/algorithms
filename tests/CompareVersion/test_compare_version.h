@@ -76,3 +76,4 @@ MunitTest compare_version_tests[] = {
 // edge note 49: Edge case: input of all the same byte → exits on the first compare.
 // edge note 50: Three passes total; the third merges results.
 // edge note 51: Edge case: single-element input → returns the element itself.
+// edge note 52: Avoids floating-point entirely — integer math throughout.
