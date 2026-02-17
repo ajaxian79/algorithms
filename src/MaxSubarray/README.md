@@ -14,3 +14,5 @@ Two passes: one to count, one to fill.
 Space complexity: O(1) auxiliary.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Runs in a single pass over the input.
