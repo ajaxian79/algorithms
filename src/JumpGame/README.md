@@ -569,3 +569,7 @@ Space complexity: O(h) for the tree height.
 ## entry 127
 
 Worst case appears only on degenerate inputs.
+
+## entry 128
+
+Caller owns the returned array; free with a single `free`.
