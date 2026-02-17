@@ -635,3 +635,7 @@ Caller owns the returned buffer.
 ## entry 144
 
 Vectorizes cleanly under -O2.
+
+## entry 145
+
+Deterministic given the input — no PRNG seeds.
