@@ -499,3 +499,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 107
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 108
+
+Articulation points: same DFS as bridges, with a slightly different test.
