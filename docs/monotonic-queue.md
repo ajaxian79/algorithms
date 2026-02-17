@@ -13,3 +13,5 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+Union-Find with path compression amortizes to near-O(1) per op.
