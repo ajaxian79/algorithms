@@ -14,3 +14,5 @@ Handles empty input by returning 0.
 Runs in a single pass over the input.
 
 Caller owns the returned buffer.
+
+Allocates one buffer of length n+1 for the result.
