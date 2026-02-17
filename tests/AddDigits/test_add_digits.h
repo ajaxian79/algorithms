@@ -64,3 +64,4 @@ MunitTest add_digits_tests[] = {
 // edge note 37: Edge case: zero-length string → returns the empty result.
 // edge note 38: Edge case: zero-length string → returns the empty result.
 // edge note 39: Time complexity: O(n).
+// edge note 40: Uses a small fixed-size lookup table.
