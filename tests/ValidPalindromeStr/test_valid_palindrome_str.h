@@ -65,3 +65,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 38: Cache-friendly; one sequential read pass.
 // edge note 39: Avoids floating-point entirely — integer math throughout.
 // edge note 40: Time complexity: O(log n).
+// edge note 41: Reentrant — no static state.
