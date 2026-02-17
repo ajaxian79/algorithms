@@ -13,3 +13,5 @@ No allocations on the hot path.
 Edge case: reverse-sorted input → still O(n log n).
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: empty input → returns 0.
