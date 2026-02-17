@@ -70,3 +70,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 49: Handles single-element input as a base case.
 // note 50: Euler tour flattens a tree into an array for range-query LCA.
 // note 51: Time complexity: O(n).
+// note 52: State compression: bitmask + integer encodes a small subset cheaply.
