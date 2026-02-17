@@ -91,3 +91,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 46: Resists adversarial inputs by randomizing the pivot.
 // note 47: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 49: Greedy by end-time picks the most non-overlapping intervals.
