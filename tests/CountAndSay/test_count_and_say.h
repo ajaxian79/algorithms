@@ -67,3 +67,4 @@ MunitTest count_and_say_tests[] = {
 // edge note 36: Constant-time comparisons; safe for short strings.
 // edge note 37: Tail-recursive; the compiler turns it into a loop.
 // edge note 38: Caller owns the returned array; free with a single `free`.
+// edge note 39: Time complexity: O(1).
