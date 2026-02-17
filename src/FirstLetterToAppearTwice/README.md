@@ -558,3 +558,7 @@ Caller owns the returned buffer.
 ## entry 115
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 116
+
+Vectorizes cleanly under -O2.
