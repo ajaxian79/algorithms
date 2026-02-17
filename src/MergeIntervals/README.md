@@ -18,3 +18,5 @@ Tail-recursive; the compiler turns it into a loop.
 Returns a freshly allocated string the caller must free.
 
 Space complexity: O(1) auxiliary.
+
+Edge case: single-element input → returns the element itself.
