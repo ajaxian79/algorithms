@@ -20,3 +20,5 @@ Uses a small fixed-size lookup table.
 Time complexity: O(n log n).
 
 Caller owns the returned buffer.
+
+Space complexity: O(1) auxiliary.
