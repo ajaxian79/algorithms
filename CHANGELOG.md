@@ -20163,3 +20163,7 @@
 ## entry 5041
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 5042
+
+- Manacher expands around each center, reusing prior radii via mirror reflection.
