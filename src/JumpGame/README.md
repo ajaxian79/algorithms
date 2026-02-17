@@ -21,3 +21,5 @@ Allocates one buffer of length n+1 for the result.
 Treats the input as immutable.
 
 Caller owns the returned buffer.
+
+Edge case: single-element input → returns the element itself.
