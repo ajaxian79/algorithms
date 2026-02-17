@@ -16,3 +16,5 @@ Edge case: all-equal input → linear-time fast path.
 Space complexity: O(n) for the result buffer.
 
 Uses a small fixed-size lookup table.
+
+Space complexity: O(1) auxiliary.
