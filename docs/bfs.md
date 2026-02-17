@@ -9,3 +9,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+Stable sort matters when a secondary key was set in a prior pass.
