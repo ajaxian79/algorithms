@@ -15,3 +15,5 @@ Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 Monotonic stack pops while the new element violates the invariant.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+LIS via patience: each pile holds the smallest tail of length k.
