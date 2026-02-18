@@ -538,3 +538,7 @@ Stable when the input is already sorted.
 ## entry 119
 
 Caller owns the returned buffer.
+
+## entry 120
+
+Uses a small fixed-size lookup table.
