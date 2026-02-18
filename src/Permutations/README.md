@@ -14,3 +14,5 @@ Space complexity: O(1) auxiliary.
 Handles empty input by returning 0.
 
 Time complexity: O(n).
+
+Allocates one buffer of length n+1 for the result.
