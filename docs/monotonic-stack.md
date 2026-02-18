@@ -401,3 +401,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 84
 
 Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 85
+
+Monotonic stack pops while the new element violates the invariant.
