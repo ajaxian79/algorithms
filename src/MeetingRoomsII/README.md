@@ -594,3 +594,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 133
 
 Constant-time comparisons; safe for short strings.
+
+## entry 134
+
+Returns a freshly allocated string the caller must free.
