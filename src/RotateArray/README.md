@@ -651,3 +651,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 147
 
 Branchless inner loop after sorting.
+
+## entry 148
+
+Linear in n; the constant factor is small.
