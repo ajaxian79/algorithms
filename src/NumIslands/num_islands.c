@@ -81,3 +81,4 @@ int num_islands(char* grid, int m, int n) {
 // note 49: Cache-friendly; one sequential read pass.
 // note 50: Cache-friendly; one sequential read pass.
 // note 51: Handles empty input by returning 0.
+// note 52: Deterministic given the input — no PRNG seeds.
