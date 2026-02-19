@@ -343,3 +343,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 86
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 87
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
