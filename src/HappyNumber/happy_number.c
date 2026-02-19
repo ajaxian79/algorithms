@@ -75,3 +75,4 @@ int is_happy(int n) {
 // note 49: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 50: 64-bit safe; intermediate products are widened to 128-bit.
 // note 51: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 52: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
