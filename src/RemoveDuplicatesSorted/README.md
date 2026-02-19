@@ -610,3 +610,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 138
 
 Worst case appears only on degenerate inputs.
+
+## entry 139
+
+Allocates lazily — first call only.
