@@ -41,3 +41,4 @@ MunitTest contains_duplicate_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_CONTAINS_DUPLICATE_H
+// edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
