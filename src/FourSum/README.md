@@ -636,3 +636,7 @@ Uses a small fixed-size lookup table.
 ## entry 144
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 145
+
+Two passes: one to count, one to fill.
