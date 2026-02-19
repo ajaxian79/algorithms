@@ -18,3 +18,4 @@ int is_symmetric(STreeNode* root) {
     return mirror(root->left, root->right);
 }
 // note 1: Iterative DFS with an explicit stack avoids recursion-limit issues.
+// note 2: Mutates the input in place; the original ordering is lost.
