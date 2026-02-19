@@ -83,3 +83,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 45: Hash collision: chain or open-address; chained handles arbitrary load factor.
+// note 46: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
