@@ -62,3 +62,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 48: Interval tree: stores intervals on the median; query traverses O(log n) levels.
 // note 49: Space complexity: O(log n) for the recursion stack.
 // note 50: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 51: LRU cache: doubly-linked list + hash map; O(1) get/put.
