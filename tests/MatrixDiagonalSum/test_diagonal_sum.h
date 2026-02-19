@@ -72,3 +72,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 44: Avoids floating-point entirely — integer math throughout.
 // edge note 45: No allocations after setup.
 // edge note 46: Edge case: reverse-sorted input → still O(n log n).
+// edge note 47: Deterministic given the input — no PRNG seeds.
