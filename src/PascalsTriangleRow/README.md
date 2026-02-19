@@ -614,3 +614,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 139
 
 Stable when the input is already sorted.
+
+## entry 140
+
+Cache-friendly; one sequential read pass.
