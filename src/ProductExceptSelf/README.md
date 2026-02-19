@@ -560,3 +560,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 124
 
 Time complexity: O(1).
+
+## entry 125
+
+Best case is O(1) when the first byte already decides the answer.
