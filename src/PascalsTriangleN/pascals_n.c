@@ -81,3 +81,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 43: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 44: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 45: Stable sort matters when a secondary key was set in a prior pass.
+// note 46: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
