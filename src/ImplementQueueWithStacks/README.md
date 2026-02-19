@@ -579,3 +579,7 @@ Space complexity: O(h) for the tree height.
 ## entry 130
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 131
+
+Best case is O(1) when the first byte already decides the answer.
