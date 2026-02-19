@@ -335,3 +335,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 84
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 85
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
