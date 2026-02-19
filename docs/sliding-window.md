@@ -435,3 +435,7 @@ Morris traversal threads predecessors back to current node — O(1) extra space.
 ## entry 94
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 95
+
+Stable sort matters when a secondary key was set in a prior pass.
