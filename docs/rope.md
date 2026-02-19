@@ -399,3 +399,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 100
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 101
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
