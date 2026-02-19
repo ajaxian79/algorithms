@@ -20111,3 +20111,7 @@
 ## entry 5028
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 5029
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
