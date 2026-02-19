@@ -423,3 +423,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 88
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 89
+
+Stable sort matters when a secondary key was set in a prior pass.
