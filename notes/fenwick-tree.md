@@ -17,3 +17,5 @@
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 - Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
