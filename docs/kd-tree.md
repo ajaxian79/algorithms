@@ -383,3 +383,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 96
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 97
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
