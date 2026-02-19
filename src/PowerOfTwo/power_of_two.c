@@ -52,3 +52,4 @@ int is_power_of_two(int n) {
 // note 42: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 43: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 44: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+// note 45: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
