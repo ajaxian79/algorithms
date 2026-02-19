@@ -86,3 +86,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 45: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 46: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 47: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 48: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
