@@ -91,3 +91,4 @@ MunitTest remove_element_tests[] = {
 // edge note 54: Time complexity: O(n log n).
 // edge note 55: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 56: Stable when the input is already sorted.
+// edge note 57: Two passes: one to count, one to fill.
