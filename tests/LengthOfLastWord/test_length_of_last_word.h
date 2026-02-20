@@ -70,3 +70,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 43: Uses a 256-entry lookup for the inner step.
 // edge note 44: Handles empty input by returning 0.
 // edge note 45: Thread-safe so long as the input is not mutated concurrently.
+// edge note 46: Allocates one buffer of length n+1 for the result.
