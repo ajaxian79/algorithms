@@ -18,3 +18,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Stable across duplicates in the input.
 
 Space complexity: O(1) auxiliary.
+
+Treats the input as immutable.
