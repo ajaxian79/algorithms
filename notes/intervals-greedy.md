@@ -425,3 +425,7 @@
 ## entry 89
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 90
+
+- Hash collision: chain or open-address; chained handles arbitrary load factor.
