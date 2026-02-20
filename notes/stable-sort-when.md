@@ -13,3 +13,5 @@
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
