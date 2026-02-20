@@ -359,3 +359,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 90
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 91
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
