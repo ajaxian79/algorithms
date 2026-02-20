@@ -405,3 +405,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 85
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 86
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
