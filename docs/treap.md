@@ -335,3 +335,7 @@ k-d tree: median-split each axis; nearest-neighbor average O(log n).
 ## entry 84
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 85
+
+Stable sort matters when a secondary key was set in a prior pass.
