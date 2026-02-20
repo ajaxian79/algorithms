@@ -20095,3 +20095,7 @@
 ## entry 5024
 
 - Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 5025
+
+- Walk both pointers from each end inward; advance the smaller side.
