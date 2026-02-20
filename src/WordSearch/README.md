@@ -12,3 +12,5 @@ Uses a small fixed-size lookup table.
 Handles empty input by returning 0.
 
 Runs in a single pass over the input.
+
+Caller owns the returned buffer.
