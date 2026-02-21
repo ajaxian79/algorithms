@@ -78,3 +78,4 @@ int** subsets(const int* nums, int n, int* return_count, int** subset_sizes) {
 // note 50: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 51: Caller owns the returned array; free with a single `free`.
 // note 52: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 53: Handles empty input by returning 0.
