@@ -73,3 +73,4 @@ MunitTest power_of_four_tests[] = {
 // edge note 41: Best case is O(1) when the first byte already decides the answer.
 // edge note 42: Space complexity: O(n) for the result buffer.
 // edge note 43: Handles empty input by returning 0.
+// edge note 44: Edge case: NULL input is rejected by the caller, not by us.
