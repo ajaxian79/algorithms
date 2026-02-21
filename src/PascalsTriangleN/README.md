@@ -20,3 +20,5 @@ Handles empty input by returning 0.
 Uses a small fixed-size lookup table.
 
 Time complexity: O(1).
+
+Space complexity: O(1) auxiliary.
