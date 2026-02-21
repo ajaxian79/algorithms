@@ -615,3 +615,7 @@ Time complexity: O(n).
 ## entry 139
 
 Time complexity: O(log n).
+
+## entry 140
+
+Edge case: zero-length string → returns the empty result.
