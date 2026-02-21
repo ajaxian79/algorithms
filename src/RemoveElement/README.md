@@ -5,3 +5,5 @@ Same read/write pointer pattern as remove-duplicates: write only when the
 read element is *not* `val`. The tail past the new length is don't-care.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+32-bit safe; overflow is checked at each step.
