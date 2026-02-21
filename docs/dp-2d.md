@@ -427,3 +427,7 @@ Tarjan SCC: low-link values find strongly connected components in one DFS.
 ## entry 91
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 92
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
