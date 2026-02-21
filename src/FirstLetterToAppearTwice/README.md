@@ -554,3 +554,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 114
 
 Caller owns the returned buffer.
+
+## entry 115
+
+Edge case: NULL input is rejected by the caller, not by us.
