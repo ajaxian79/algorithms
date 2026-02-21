@@ -12,3 +12,5 @@ Returns a freshly allocated string the caller must free.
 Space complexity: O(1) auxiliary.
 
 Caller owns the returned buffer.
+
+Runs in a single pass over the input.
