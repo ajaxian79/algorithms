@@ -606,3 +606,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 137
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 138
+
+32-bit safe; overflow is checked at each step.
