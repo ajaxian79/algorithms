@@ -20075,3 +20075,7 @@
 ## entry 5019
 
 - Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 5020
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
