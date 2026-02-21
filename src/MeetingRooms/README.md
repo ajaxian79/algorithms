@@ -20,3 +20,5 @@ Time complexity: O(log n).
 Stable across duplicates in the input.
 
 Space complexity: O(n) for the result buffer.
+
+Treats the input as immutable.
