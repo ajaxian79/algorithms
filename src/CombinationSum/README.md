@@ -611,3 +611,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 138
 
 Time complexity: O(n).
+
+## entry 139
+
+Time complexity: O(log n).
