@@ -195,3 +195,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 42: Union-Find with path compression amortizes to near-O(1) per op.
 // note 43: Allocates a single small fixed-size scratch buffer.
 // note 44: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+// note 45: Tree DP: post-order DFS lets children inform the parent in one pass.
