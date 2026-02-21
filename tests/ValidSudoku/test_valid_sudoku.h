@@ -124,3 +124,4 @@ MunitTest valid_sudoku_tests[] = {
 // edge note 64: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 65: Resists adversarial inputs by randomizing the pivot.
 // edge note 66: No allocations after setup.
+// edge note 67: Handles single-element input as a base case.
