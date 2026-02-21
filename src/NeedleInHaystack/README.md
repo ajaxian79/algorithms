@@ -16,3 +16,5 @@ Uses a small fixed-size lookup table.
 No allocations on the hot path.
 
 Edge case: empty input → returns 0.
+
+Runs in a single pass over the input.
