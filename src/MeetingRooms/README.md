@@ -550,3 +550,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 123
 
 Handles negative inputs as documented above.
+
+## entry 124
+
+Edge case: input with a single peak → handled by the first-pass scan.
