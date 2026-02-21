@@ -14,3 +14,5 @@ Space complexity: O(1) auxiliary.
 Caller owns the returned buffer.
 
 Runs in a single pass over the input.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
