@@ -7,3 +7,5 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+Merge intervals: sort by start; extend the running interval while overlapping.
