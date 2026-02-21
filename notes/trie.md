@@ -441,3 +441,7 @@
 ## entry 93
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 94
+
+- k-d tree: median-split each axis; nearest-neighbor average O(log n).
