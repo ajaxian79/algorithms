@@ -367,3 +367,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 92
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 93
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
