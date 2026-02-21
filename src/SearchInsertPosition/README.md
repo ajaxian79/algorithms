@@ -14,3 +14,5 @@ Returns a freshly allocated string the caller must free.
 Runs in a single pass over the input.
 
 Time complexity: O(1).
+
+Handles empty input by returning 0.
