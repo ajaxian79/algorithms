@@ -65,3 +65,4 @@ int is_ugly(int n) {
 // note 51: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 52: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 53: 64-bit safe; intermediate products are widened to 128-bit.
+// note 54: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
