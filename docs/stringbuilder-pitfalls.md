@@ -507,3 +507,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 127
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 128
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
