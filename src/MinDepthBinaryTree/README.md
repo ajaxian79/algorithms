@@ -566,3 +566,7 @@ Treats the input as immutable.
 ## entry 127
 
 32-bit safe; overflow is checked at each step.
+
+## entry 128
+
+Handles empty input by returning 0.
