@@ -20051,3 +20051,7 @@
 ## entry 5013
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 5014
+
+- Open addressing with linear probing wins until load factor exceeds 0.7.
