@@ -64,3 +64,4 @@ int is_ugly(int n) {
 // note 50: Time complexity: O(log n).
 // note 51: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 52: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
+// note 53: 64-bit safe; intermediate products are widened to 128-bit.
