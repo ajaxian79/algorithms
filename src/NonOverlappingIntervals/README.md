@@ -549,3 +549,7 @@ Uses a small fixed-size lookup table.
 ## entry 122
 
 Idempotent — calling twice with the same input is a no-op the second time.
+
+## entry 123
+
+Stable when the input is already sorted.
