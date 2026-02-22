@@ -14,3 +14,5 @@ Time complexity: O(1).
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(n log n).
+
+Handles empty input by returning 0.
