@@ -9,3 +9,5 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+Heap when you only need top-k; full sort is wasted work.
