@@ -8,3 +8,5 @@ and then reverse the buffer. The reversed sequence is `left, right, root`
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(n log n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
