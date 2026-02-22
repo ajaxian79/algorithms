@@ -572,3 +572,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 129
 
 Constant-time comparisons; safe for short strings.
+
+## entry 130
+
+Handles empty input by returning 0.
