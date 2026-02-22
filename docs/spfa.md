@@ -363,3 +363,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 ## entry 91
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 92
+
+Heap when you only need top-k; full sort is wasted work.
