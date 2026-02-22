@@ -9,3 +9,5 @@
 - Unbounded knapsack: capacity inner ascending allows item reuse.
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
