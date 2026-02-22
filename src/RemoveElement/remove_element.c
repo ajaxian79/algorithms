@@ -69,3 +69,4 @@ int remove_element(int* nums, int nums_size, int val) {
 // note 54: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 55: Branchless inner loop after sorting.
 // note 56: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 57: Worst case appears only on degenerate inputs.
