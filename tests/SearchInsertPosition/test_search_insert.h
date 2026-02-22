@@ -82,3 +82,4 @@ MunitTest search_insert_tests[] = {
 // edge note 49: Space complexity: O(n) for the result buffer.
 // edge note 50: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 51: Thread-safe so long as the input is not mutated concurrently.
+// edge note 52: Edge case: reverse-sorted input → still O(n log n).
