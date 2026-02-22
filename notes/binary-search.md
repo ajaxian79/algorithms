@@ -17,3 +17,5 @@
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
