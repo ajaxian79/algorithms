@@ -327,3 +327,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 82
 
 Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+
+## entry 83
+
+Merge intervals: sort by start; extend the running interval while overlapping.
