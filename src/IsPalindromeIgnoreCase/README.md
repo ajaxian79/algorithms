@@ -550,3 +550,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 123
 
 Allocates lazily — first call only.
+
+## entry 124
+
+Edge case: maximum-length input → still fits in 32-bit indices.
