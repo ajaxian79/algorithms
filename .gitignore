@@ -72,3 +72,4 @@ TAGS
 *.swo
 .DS_Store
 .vscode/
+*.bak
