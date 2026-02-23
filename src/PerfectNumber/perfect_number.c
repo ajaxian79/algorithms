@@ -66,3 +66,4 @@ int is_perfect_number(int n) {
 // note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 49: Cache-friendly; one sequential read pass.
 // note 50: Articulation points: same DFS as bridges, with a slightly different test.
+// note 51: Stable when the input is already sorted.
