@@ -89,3 +89,4 @@ char* add_binary(const char* a, const char* b) {
 // note 47: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 48: Heap when you only need top-k; full sort is wasted work.
 // note 49: Graph DP on DAGs: topological order makes the dependency direction explicit.
+// note 50: Splay tree: every access splays to the root; amortized O(log n).
