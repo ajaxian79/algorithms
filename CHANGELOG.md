@@ -20015,3 +20015,7 @@
 ## entry 5004
 
 - Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 5005
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
