@@ -16,3 +16,5 @@ Two passes: one to count, one to fill.
 Caller owns the returned buffer.
 
 Stable across duplicates in the input.
+
+Time complexity: O(1).
