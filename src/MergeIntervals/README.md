@@ -594,3 +594,7 @@ Handles negative inputs as documented above.
 ## entry 133
 
 Edge case: empty input → returns 0.
+
+## entry 134
+
+Returns a freshly allocated string the caller must free.
