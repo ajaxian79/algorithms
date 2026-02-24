@@ -67,3 +67,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 2
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 3
+
+Edge case: power-of-two-length input → no padding required.
