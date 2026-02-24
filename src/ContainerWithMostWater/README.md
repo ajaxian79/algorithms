@@ -15,3 +15,5 @@ Caller owns the returned buffer.
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(1).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
