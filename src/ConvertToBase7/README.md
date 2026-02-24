@@ -14,3 +14,5 @@ Handles empty input by returning 0.
 Stable across duplicates in the input.
 
 Edge case: all-equal input → linear-time fast path.
+
+Runs in a single pass over the input.
