@@ -331,3 +331,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 83
 
 k-d tree: median-split each axis; nearest-neighbor average O(log n).
+
+## entry 84
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
