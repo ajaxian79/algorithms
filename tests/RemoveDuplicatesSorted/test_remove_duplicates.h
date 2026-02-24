@@ -80,3 +80,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 44: Tail-recursive; the compiler turns it into a loop.
 // edge note 45: Edge case: reverse-sorted input → still O(n log n).
 // edge note 46: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 47: Handles empty input by returning 0.
