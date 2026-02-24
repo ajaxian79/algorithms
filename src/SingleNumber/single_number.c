@@ -62,3 +62,4 @@ int single_number(const int* nums, int nums_size) {
 // note 49: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 50: Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 // note 51: Returns a freshly allocated string the caller must free.
+// note 52: Reentrant — no static state.
