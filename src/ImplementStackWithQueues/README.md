@@ -600,3 +600,7 @@ Allocates lazily — first call only.
 ## entry 135
 
 Handles negative inputs as documented above.
+
+## entry 136
+
+Time complexity: O(n*k) where k is the alphabet size.
