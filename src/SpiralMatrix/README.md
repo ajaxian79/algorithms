@@ -554,3 +554,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 123
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 124
+
+Handles single-element input as a base case.
