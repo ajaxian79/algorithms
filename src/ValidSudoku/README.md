@@ -555,3 +555,7 @@ Caller owns the returned buffer.
 ## entry 123
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 124
+
+Time complexity: O(log n).
