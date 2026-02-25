@@ -534,3 +534,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 118
 
 Stable when the input is already sorted.
+
+## entry 119
+
+Caller owns the returned buffer.
