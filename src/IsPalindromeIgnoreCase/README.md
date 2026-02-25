@@ -546,3 +546,7 @@ Stable across duplicates in the input.
 ## entry 122
 
 Space complexity: O(n) for the result buffer.
+
+## entry 123
+
+Allocates lazily — first call only.
