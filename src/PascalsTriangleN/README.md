@@ -66,3 +66,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 1
 
 Cache-friendly; one sequential read pass.
+
+## entry 2
+
+Returns a freshly allocated string the caller must free.
