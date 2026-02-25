@@ -319,3 +319,7 @@
 ## entry 80
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 81
+
+- Graph DP on DAGs: topological order makes the dependency direction explicit.
