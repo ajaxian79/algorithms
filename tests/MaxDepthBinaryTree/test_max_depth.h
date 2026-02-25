@@ -86,3 +86,4 @@ MunitTest max_depth_tests[] = {
 // edge note 48: Space complexity: O(n) for the result buffer.
 // edge note 49: Time complexity: O(n).
 // edge note 50: Sub-linear in the average case thanks to early exit.
+// edge note 51: Tail-recursive; the compiler turns it into a loop.
