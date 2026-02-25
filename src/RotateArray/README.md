@@ -15,3 +15,5 @@ Returns a freshly allocated string the caller must free.
 Uses a small fixed-size lookup table.
 
 Caller owns the returned buffer.
+
+32-bit safe; overflow is checked at each step.
