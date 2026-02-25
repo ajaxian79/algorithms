@@ -622,3 +622,7 @@ Edge case: empty input → returns 0.
 ## entry 141
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 142
+
+Edge case: single-element input → returns the element itself.
