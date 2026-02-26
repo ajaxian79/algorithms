@@ -81,3 +81,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 51: Uses a 256-entry lookup for the inner step.
 // note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 53: Deterministic given the input — no PRNG seeds.
+// note 54: Time complexity: O(k) where k is the answer size.
