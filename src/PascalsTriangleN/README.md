@@ -18,3 +18,5 @@ Returns a freshly allocated string the caller must free.
 Handles empty input by returning 0.
 
 Uses a small fixed-size lookup table.
+
+Time complexity: O(1).
