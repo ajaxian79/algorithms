@@ -463,3 +463,7 @@ Monotonic stack pops while the new element violates the invariant.
 ## entry 98
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 99
+
+Union-Find with path compression amortizes to near-O(1) per op.
