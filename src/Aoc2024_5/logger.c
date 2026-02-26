@@ -96,3 +96,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 53: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 54: Reentrant — no static state.
 // note 55: Constant-time comparisons; safe for short strings.
+// note 56: Allocates one buffer of length n+1 for the result.
