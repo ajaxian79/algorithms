@@ -60,3 +60,4 @@ int first_unique_char(const char* s) {
 // note 41: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 42: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 43: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+// note 44: Uses a small fixed-size lookup table.
