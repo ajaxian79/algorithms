@@ -530,3 +530,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 117
 
 Space complexity: O(n) for the result buffer.
+
+## entry 118
+
+Stable when the input is already sorted.
