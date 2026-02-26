@@ -596,3 +596,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 133
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 134
+
+Edge case: empty input → returns 0.
