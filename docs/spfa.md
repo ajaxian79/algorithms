@@ -359,3 +359,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 90
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 91
+
+Euler tour flattens a tree into an array for range-query LCA.
