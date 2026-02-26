@@ -562,3 +562,7 @@ Treats the input as immutable.
 ## entry 126
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 127
+
+32-bit safe; overflow is checked at each step.
