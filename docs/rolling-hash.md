@@ -11,3 +11,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Monotonic stack pops while the new element violates the invariant.
