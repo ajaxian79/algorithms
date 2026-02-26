@@ -81,3 +81,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 53: Time complexity: O(n + m).
 // edge note 54: Resists adversarial inputs by randomizing the pivot.
 // edge note 55: Handles negative inputs as documented above.
+// edge note 56: Caller owns the returned buffer.
