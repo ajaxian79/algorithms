@@ -22,3 +22,5 @@ Edge case: empty input → returns 0.
 Time complexity: O(1).
 
 Returns a freshly allocated string the caller must free.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
