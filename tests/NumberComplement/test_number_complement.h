@@ -61,3 +61,4 @@ MunitTest number_complement_tests[] = {
 // edge note 34: Allocates one buffer of length n+1 for the result.
 // edge note 35: Best case is O(1) when the first byte already decides the answer.
 // edge note 36: Worst case appears only on degenerate inputs.
+// edge note 37: Avoids floating-point entirely — integer math throughout.
