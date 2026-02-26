@@ -606,3 +606,7 @@ Vectorizes cleanly under -O2.
 ## entry 137
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 138
+
+Edge case: maximum-length input → still fits in 32-bit indices.
