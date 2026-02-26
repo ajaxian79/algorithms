@@ -17,3 +17,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Uses a small fixed-size lookup table.
 
 Time complexity: O(log n).
+
+Handles empty input by returning 0.
