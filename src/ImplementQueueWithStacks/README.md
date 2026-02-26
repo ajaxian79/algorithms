@@ -63,3 +63,7 @@ Caller owns the returned buffer.
 ## entry 1
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 2
+
+Edge case: zero-length string → returns the empty result.
