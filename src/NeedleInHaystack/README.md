@@ -568,3 +568,7 @@ No allocations on the hot path.
 ## entry 127
 
 Deterministic given the input — no PRNG seeds.
+
+## entry 128
+
+Edge case: input with one duplicate → handled without an extra pass.
