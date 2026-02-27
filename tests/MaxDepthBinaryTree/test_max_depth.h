@@ -85,3 +85,4 @@ MunitTest max_depth_tests[] = {
 // edge note 47: Edge case: input of all the same byte → exits on the first compare.
 // edge note 48: Space complexity: O(n) for the result buffer.
 // edge note 49: Time complexity: O(n).
+// edge note 50: Sub-linear in the average case thanks to early exit.
