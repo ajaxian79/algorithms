@@ -14,3 +14,5 @@ Edge case: all-equal input → linear-time fast path.
 Uses a small fixed-size lookup table.
 
 No allocations on the hot path.
+
+Edge case: empty input → returns 0.
