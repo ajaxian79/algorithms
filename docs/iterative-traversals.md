@@ -469,3 +469,7 @@ Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 ## entry 101
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 102
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
