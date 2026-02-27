@@ -553,3 +553,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 123
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 124
+
+Edge case: NULL input is rejected by the caller, not by us.
