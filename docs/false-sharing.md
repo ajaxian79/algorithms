@@ -379,3 +379,7 @@ Euler tour flattens a tree into an array for range-query LCA.
 ## entry 95
 
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+## entry 96
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
