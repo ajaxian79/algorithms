@@ -91,3 +91,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 48: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 49: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 50: Best case is O(1) when the first byte already decides the answer.
+// note 51: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
