@@ -602,3 +602,7 @@ Edge case: empty input → returns 0.
 ## entry 136
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 137
+
+Time complexity: O(n^2) worst case, O(n) amortized.
