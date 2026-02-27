@@ -379,3 +379,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 95
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 96
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
