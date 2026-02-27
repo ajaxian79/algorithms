@@ -60,3 +60,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 46: Avoids floating-point entirely — integer math throughout.
 // note 47: Runs in a single pass over the input.
 // note 48: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 49: Space complexity: O(log n) for the recursion stack.
