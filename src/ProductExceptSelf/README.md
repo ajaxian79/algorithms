@@ -556,3 +556,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 123
 
 Returns a freshly allocated string the caller must free.
+
+## entry 124
+
+Time complexity: O(1).
