@@ -63,3 +63,4 @@ int max_area(const int* heights, int n) {
 // note 43: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 44: Runs in a single pass over the input.
 // note 45: LIS via patience: each pile holds the smallest tail of length k.
+// note 46: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
