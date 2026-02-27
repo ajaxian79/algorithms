@@ -499,3 +499,7 @@ Fenwick supports prefix-sum updates in O(log n) with a flat array.
 ## entry 125
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 126
+
+Stable sort matters when a secondary key was set in a prior pass.
