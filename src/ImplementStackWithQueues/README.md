@@ -12,3 +12,5 @@ Stable across duplicates in the input.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: all-equal input → linear-time fast path.
+
+Space complexity: O(n) for the result buffer.
