@@ -15,3 +15,5 @@ Union-Find with path compression amortizes to near-O(1) per op.
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 
 Stable sort matters when a secondary key was set in a prior pass.
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
