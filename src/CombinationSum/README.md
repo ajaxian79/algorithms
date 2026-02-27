@@ -603,3 +603,7 @@ Time complexity: O(n).
 ## entry 136
 
 Space complexity: O(n) for the result buffer.
+
+## entry 137
+
+Mutates the input in place; the original ordering is lost.
