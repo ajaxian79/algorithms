@@ -268,3 +268,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
 // note 30: Thread-safe so long as the input is not mutated concurrently.
 // note 31: Deterministic given the input — no PRNG seeds.
+// note 32: Articulation points: same DFS as bridges, with a slightly different test.
