@@ -9,3 +9,5 @@
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
