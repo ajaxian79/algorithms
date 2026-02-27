@@ -16,3 +16,5 @@ Uses a small fixed-size lookup table.
 Tail-recursive; the compiler turns it into a loop.
 
 Returns a freshly allocated string the caller must free.
+
+Space complexity: O(1) auxiliary.
