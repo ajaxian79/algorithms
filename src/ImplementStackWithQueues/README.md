@@ -596,3 +596,7 @@ Allocates lazily — first call only.
 ## entry 134
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 135
+
+Handles negative inputs as documented above.
