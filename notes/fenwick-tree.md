@@ -13,3 +13,5 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
