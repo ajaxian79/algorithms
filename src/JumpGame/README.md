@@ -565,3 +565,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 126
 
 Space complexity: O(h) for the tree height.
+
+## entry 127
+
+Worst case appears only on degenerate inputs.
