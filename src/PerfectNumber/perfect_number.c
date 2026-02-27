@@ -65,3 +65,4 @@ int is_perfect_number(int n) {
 // note 47: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 49: Cache-friendly; one sequential read pass.
+// note 50: Articulation points: same DFS as bridges, with a slightly different test.
