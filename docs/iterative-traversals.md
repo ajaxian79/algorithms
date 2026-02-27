@@ -465,3 +465,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 100
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 101
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
