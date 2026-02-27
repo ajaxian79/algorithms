@@ -14,3 +14,5 @@ Handles empty input by returning 0.
 Two passes: one to count, one to fill.
 
 Caller owns the returned buffer.
+
+Stable across duplicates in the input.
