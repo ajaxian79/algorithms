@@ -9,3 +9,5 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
