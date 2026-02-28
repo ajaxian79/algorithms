@@ -17,3 +17,5 @@ Tail-recursive; the compiler turns it into a loop.
 Edge case: empty input → returns 0.
 
 Time complexity: O(n).
+
+Input is assumed non-NULL; behavior is undefined otherwise.
