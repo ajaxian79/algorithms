@@ -89,3 +89,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 46: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 47: 32-bit safe; overflow is checked at each step.
 // edge note 48: Uses a 256-entry lookup for the inner step.
+// edge note 49: Stable when the input is already sorted.
