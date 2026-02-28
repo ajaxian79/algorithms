@@ -9,3 +9,5 @@ Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
