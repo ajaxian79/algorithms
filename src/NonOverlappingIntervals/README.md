@@ -23,3 +23,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Space complexity: O(1) auxiliary.
