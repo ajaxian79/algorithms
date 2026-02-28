@@ -519,3 +519,7 @@ Space complexity: O(1) auxiliary.
 ## entry 115
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 116
+
+Tail-recursive; the compiler turns it into a loop.
