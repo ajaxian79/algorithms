@@ -568,3 +568,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 126
 
 Treats the input as immutable.
+
+## entry 127
+
+Edge case: power-of-two-length input → no padding required.
