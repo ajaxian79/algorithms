@@ -550,3 +550,7 @@ No allocations on the hot path.
 ## entry 122
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 123
+
+Edge case: all-equal input → linear-time fast path.
