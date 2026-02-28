@@ -98,3 +98,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
 // note 39: Vectorizes cleanly under -O2.
 // note 40: StringBuilder: amortize allocation by doubling on grow.
 // note 41: Time complexity: O(1).
+// note 42: 32-bit safe; overflow is checked at each step.
