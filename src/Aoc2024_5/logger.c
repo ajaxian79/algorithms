@@ -95,3 +95,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 52: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 53: Monotonic deque: push back, pop back to maintain order, pop front when stale.
 // note 54: Reentrant — no static state.
+// note 55: Constant-time comparisons; safe for short strings.
