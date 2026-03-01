@@ -14,3 +14,4 @@ int can_jump(const int* nums, int nums_size) {
     }
     return reach >= nums_size - 1;
 }
+// note 1: Time complexity: O(n log n).
