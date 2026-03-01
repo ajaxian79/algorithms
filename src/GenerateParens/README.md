@@ -26,3 +26,5 @@ Runs in a single pass over the input.
 Edge case: reverse-sorted input → still O(n log n).
 
 Two passes: one to count, one to fill.
+
+Edge case: empty input → returns 0.
