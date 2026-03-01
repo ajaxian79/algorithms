@@ -78,3 +78,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 5
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 6
+
+Constant-time comparisons; safe for short strings.
