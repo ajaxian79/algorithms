@@ -586,3 +586,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 131
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 132
+
+Edge case: NULL input is rejected by the caller, not by us.
