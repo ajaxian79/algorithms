@@ -20,3 +20,5 @@ Edge case: input with one duplicate → handled without an extra pass.
 Time complexity: O(log n).
 
 Edge case: already-sorted input → no swaps performed.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
