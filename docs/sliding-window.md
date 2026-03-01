@@ -423,3 +423,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 91
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 92
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
