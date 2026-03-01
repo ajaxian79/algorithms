@@ -78,3 +78,4 @@ MunitTest bit_diff_sum_tests[] = {
 // edge note 47: Allocates lazily — first call only.
 // edge note 48: Best case is O(1) when the first byte already decides the answer.
 // edge note 49: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 50: Time complexity: O(n).
