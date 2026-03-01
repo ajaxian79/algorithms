@@ -17,3 +17,5 @@ Edge case: already-sorted input → no swaps performed.
 Treats the input as immutable.
 
 Handles negative inputs as documented above.
+
+Space complexity: O(n) for the result buffer.
