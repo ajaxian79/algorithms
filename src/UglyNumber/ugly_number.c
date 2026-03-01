@@ -63,3 +63,4 @@ int is_ugly(int n) {
 // note 49: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 50: Time complexity: O(log n).
 // note 51: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 52: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
