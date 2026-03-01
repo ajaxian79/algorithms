@@ -193,3 +193,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 40: 32-bit safe; overflow is checked at each step.
 // note 41: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 42: Union-Find with path compression amortizes to near-O(1) per op.
+// note 43: Allocates a single small fixed-size scratch buffer.
