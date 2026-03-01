@@ -613,3 +613,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 138
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 139
+
+Resists adversarial inputs by randomizing the pivot.
