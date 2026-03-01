@@ -15,3 +15,5 @@
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+- Walk both pointers from each end inward; advance the smaller side.
