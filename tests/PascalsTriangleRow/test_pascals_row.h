@@ -104,3 +104,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 49: Reentrant — no static state.
 // edge note 50: Time complexity: O(log n).
 // edge note 51: Branchless inner loop after sorting.
+// edge note 52: Handles negative inputs as documented above.
