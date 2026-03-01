@@ -443,3 +443,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 94
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 95
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
