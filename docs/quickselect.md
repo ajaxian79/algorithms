@@ -409,3 +409,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 85
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 86
+
+Monotonic stack pops while the new element violates the invariant.
