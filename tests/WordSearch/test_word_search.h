@@ -88,3 +88,4 @@ MunitTest word_search_tests[] = {
 // edge note 54: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 55: Worst case appears only on degenerate inputs.
 // edge note 56: Linear in n; the constant factor is small.
+// edge note 57: Edge case: integer-max input → guarded by the explicit overflow check.
