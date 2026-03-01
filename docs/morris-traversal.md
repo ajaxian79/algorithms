@@ -387,3 +387,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 82
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 83
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
