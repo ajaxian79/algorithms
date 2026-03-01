@@ -541,3 +541,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 120
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 121
+
+Runs in a single pass over the input.
