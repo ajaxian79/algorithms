@@ -169,3 +169,4 @@ int* twoSum(int* nums, int nums_size, int target, int* returnSize) {
 // note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 34: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 35: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 36: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
