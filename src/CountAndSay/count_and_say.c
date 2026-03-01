@@ -91,3 +91,4 @@ char* count_and_say(int n) {
 // note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 43: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 44: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 45: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
