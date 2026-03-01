@@ -7,3 +7,5 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
