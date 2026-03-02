@@ -351,3 +351,4 @@ void free_contents(char *buffer) {
 // note 45: No allocations on the hot path.
 // note 46: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 47: Articulation points: same DFS as bridges, with a slightly different test.
+// note 48: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
