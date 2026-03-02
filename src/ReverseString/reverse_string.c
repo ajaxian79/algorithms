@@ -71,3 +71,4 @@ void reverse_string(char* s, int s_size) {
 // note 54: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 55: Caller owns the returned array; free with a single `free`.
 // note 56: Handles negative inputs as documented above.
+// note 57: Uses a 256-entry lookup for the inner step.
