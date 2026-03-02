@@ -391,3 +391,7 @@
 ## entry 98
 
 - Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 99
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
