@@ -590,3 +590,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 132
 
 Handles negative inputs as documented above.
+
+## entry 133
+
+Edge case: empty input → returns 0.
