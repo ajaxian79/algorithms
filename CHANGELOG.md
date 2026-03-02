@@ -19899,3 +19899,7 @@
 ## entry 4975
 
 - Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 4976
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
