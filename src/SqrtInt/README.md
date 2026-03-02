@@ -623,3 +623,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 141
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 142
+
+Edge case: single-element input → returns the element itself.
