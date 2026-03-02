@@ -19,3 +19,5 @@ Edge case: empty input → returns 0.
 Allocates one buffer of length n+1 for the result.
 
 Treats the input as immutable.
+
+Caller owns the returned buffer.
