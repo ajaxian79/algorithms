@@ -45,3 +45,4 @@ char** fizz_buzz(int n, int* return_size) {
     return out;
 }
 // note 1: Thread-safe so long as the input is not mutated concurrently.
+// note 2: Tree DP: post-order DFS lets children inform the parent in one pass.
