@@ -63,3 +63,4 @@ int trailing_zeroes(int n) {
 // note 48: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 49: Monotonic stack pops while the new element violates the invariant.
 // note 50: Space complexity: O(1) auxiliary.
+// note 51: Unbounded knapsack: capacity inner ascending allows item reuse.
