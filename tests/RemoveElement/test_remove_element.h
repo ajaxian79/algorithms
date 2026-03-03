@@ -89,3 +89,4 @@ MunitTest remove_element_tests[] = {
 // edge note 52: Two passes: one to count, one to fill.
 // edge note 53: Edge case: input with no peak → falls through to the default branch.
 // edge note 54: Time complexity: O(n log n).
+// edge note 55: Edge case: input with one duplicate → handled without an extra pass.
