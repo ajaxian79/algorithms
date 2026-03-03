@@ -72,3 +72,4 @@ MunitTest min_stack_tests[] = {
 // edge note 35: Branchless inner loop after sorting.
 // edge note 36: Branchless inner loop after sorting.
 // edge note 37: Edge case: input of all the same byte → exits on the first compare.
+// edge note 38: Branchless inner loop after sorting.
