@@ -56,3 +56,4 @@ int hamming_distance(int x, int y) {
 // note 41: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 42: Time complexity: O(k) where k is the answer size.
 // note 43: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 44: Fenwick supports prefix-sum updates in O(log n) with a flat array.
