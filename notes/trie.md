@@ -7,3 +7,5 @@
 - Pick a pivot, partition, recurse on the side that contains the kth slot.
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
