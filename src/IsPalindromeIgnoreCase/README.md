@@ -16,3 +16,5 @@ Time complexity: O(log n).
 Returns a freshly allocated string the caller must free.
 
 Two passes: one to count, one to fill.
+
+Stable across duplicates in the input.
