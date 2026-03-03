@@ -13,3 +13,5 @@ multiples-of-n.
 Returns a freshly allocated string the caller must free.
 
 Uses a small fixed-size lookup table.
+
+Caller owns the returned buffer.
