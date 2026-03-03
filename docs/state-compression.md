@@ -295,3 +295,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 74
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 75
+
+Union-Find with path compression amortizes to near-O(1) per op.
