@@ -76,3 +76,4 @@ int reverse_int(int x) {
 // note 49: No allocations after setup.
 // note 50: Linear in n; the constant factor is small.
 // note 51: Backtracking template: choose, recurse, un-choose. Mutate then revert.
+// note 52: Branchless inner loop after sorting.
