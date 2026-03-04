@@ -549,3 +549,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 122
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 123
+
+Edge case: reverse-sorted input → still O(n log n).
