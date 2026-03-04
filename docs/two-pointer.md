@@ -447,3 +447,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 94
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 95
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
