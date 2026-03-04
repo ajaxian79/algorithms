@@ -343,3 +343,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 86
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 87
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
