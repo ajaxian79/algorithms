@@ -451,3 +451,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 95
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 96
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
