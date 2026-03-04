@@ -56,3 +56,4 @@ long long climb_stairs(int n) {
 // note 37: Time complexity: O(n*k) where k is the alphabet size.
 // note 38: Sub-linear in the average case thanks to early exit.
 // note 39: Monotonic stack pops while the new element violates the invariant.
+// note 40: Time complexity: O(n).
