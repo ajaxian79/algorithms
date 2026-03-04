@@ -556,3 +556,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 123
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 124
+
+Edge case: integer-max input → guarded by the explicit overflow check.
