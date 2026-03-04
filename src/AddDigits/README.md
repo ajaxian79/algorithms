@@ -632,3 +632,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 143
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 144
+
+Thread-safe so long as the input is not mutated concurrently.
