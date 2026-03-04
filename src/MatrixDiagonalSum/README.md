@@ -602,3 +602,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 136
 
 Worst case appears only on degenerate inputs.
+
+## entry 137
+
+Time complexity: O(log n).
