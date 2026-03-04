@@ -381,3 +381,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 79
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 80
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
