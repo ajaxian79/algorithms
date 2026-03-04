@@ -435,3 +435,7 @@ StringBuilder: amortize allocation by doubling on grow.
 ## entry 93
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 94
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
