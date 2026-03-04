@@ -393,3 +393,7 @@ Open addressing with linear probing wins until load factor exceeds 0.7.
 ## entry 82
 
 Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+
+## entry 83
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
