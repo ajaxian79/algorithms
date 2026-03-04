@@ -343,3 +343,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 86
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 87
+
+Hash collision: chain or open-address; chained handles arbitrary load factor.
