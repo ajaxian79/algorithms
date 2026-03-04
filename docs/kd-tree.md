@@ -371,3 +371,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 93
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 94
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
