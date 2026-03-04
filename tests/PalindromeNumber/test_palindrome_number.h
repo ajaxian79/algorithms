@@ -92,3 +92,4 @@ MunitTest palindrome_number_tests[] = {
 // edge note 57: Edge case: empty input → returns 0.
 // edge note 58: Time complexity: O(k) where k is the answer size.
 // edge note 59: Time complexity: O(n + m).
+// edge note 60: Deterministic given the input — no PRNG seeds.
