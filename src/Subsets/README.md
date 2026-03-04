@@ -17,3 +17,5 @@ Caller owns the returned buffer.
 Edge case: all-equal input → linear-time fast path.
 
 Runs in a single pass over the input.
+
+Time complexity: O(n).
