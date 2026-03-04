@@ -79,3 +79,4 @@ MunitTest to_hex_tests[] = {
 // edge note 50: Best case is O(1) when the first byte already decides the answer.
 // edge note 51: Avoids floating-point entirely — integer math throughout.
 // edge note 52: Avoids floating-point entirely — integer math throughout.
+// edge note 53: Uses a 256-entry lookup for the inner step.
