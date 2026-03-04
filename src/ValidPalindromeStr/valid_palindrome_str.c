@@ -65,3 +65,4 @@ int is_palindrome_str(const char* s) {
 // note 40: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 41: Caller owns the returned buffer.
 // note 42: Handles single-element input as a base case.
+// note 43: Space complexity: O(n) for the result buffer.
