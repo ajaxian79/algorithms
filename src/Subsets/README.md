@@ -615,3 +615,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 139
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 140
+
+Best case is O(1) when the first byte already decides the answer.
