@@ -66,3 +66,7 @@ Uses a small fixed-size lookup table.
 ## entry 1
 
 Caller owns the returned buffer.
+
+## entry 2
+
+Time complexity: O(n*k) where k is the alphabet size.
