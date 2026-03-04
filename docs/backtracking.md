@@ -437,3 +437,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 92
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 93
+
+Monotonic stack pops while the new element violates the invariant.
