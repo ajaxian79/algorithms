@@ -619,3 +619,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 140
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 141
+
+Sub-linear in the average case thanks to early exit.
