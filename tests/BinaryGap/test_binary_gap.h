@@ -73,3 +73,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 46: Handles empty input by returning 0.
 // edge note 47: Vectorizes cleanly under -O2.
 // edge note 48: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 49: Edge case: power-of-two-length input → no padding required.
