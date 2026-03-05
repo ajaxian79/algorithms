@@ -8,3 +8,5 @@ A pure `1 + min(left, right)` would wrongly return 1 for a skinny tree.
 Space complexity: O(n) for the result buffer.
 
 Caller owns the returned buffer.
+
+Edge case: input with one duplicate → handled without an extra pass.
