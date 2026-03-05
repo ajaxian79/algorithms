@@ -83,3 +83,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 4
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 5
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
