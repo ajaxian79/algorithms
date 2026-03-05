@@ -82,3 +82,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 53: Space complexity: O(log n) for the recursion stack.
 // edge note 54: Time complexity: O(n + m).
 // edge note 55: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 56: Best case is O(1) when the first byte already decides the answer.
