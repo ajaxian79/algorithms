@@ -568,3 +568,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 128
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 129
+
+Constant-time comparisons; safe for short strings.
