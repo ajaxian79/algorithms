@@ -638,3 +638,7 @@ Time complexity: O(n).
 ## entry 144
 
 Returns a freshly allocated string the caller must free.
+
+## entry 145
+
+Deterministic given the input — no PRNG seeds.
