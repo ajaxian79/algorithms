@@ -359,3 +359,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 74
 
 Monotonic stack pops while the new element violates the invariant.
+
+## entry 75
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
