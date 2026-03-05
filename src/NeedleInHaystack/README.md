@@ -564,3 +564,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 126
 
 No allocations on the hot path.
+
+## entry 127
+
+Deterministic given the input — no PRNG seeds.
