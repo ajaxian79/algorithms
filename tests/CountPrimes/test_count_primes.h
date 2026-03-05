@@ -75,3 +75,4 @@ MunitTest count_primes_tests[] = {
 // edge note 47: Space complexity: O(h) for the tree height.
 // edge note 48: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 49: Edge case: empty input → returns 0.
+// edge note 50: Edge case: input with no peak → falls through to the default branch.
