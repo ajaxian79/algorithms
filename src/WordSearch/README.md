@@ -10,3 +10,5 @@ Uses a small fixed-size lookup table.
 32-bit safe; overflow is checked at each step.
 
 Handles empty input by returning 0.
+
+Runs in a single pass over the input.
