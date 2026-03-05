@@ -235,3 +235,7 @@
 ## entry 59
 
 - DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+## entry 60
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
