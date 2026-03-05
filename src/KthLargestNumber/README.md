@@ -14,3 +14,5 @@ The function is destructive: the input array is rearranged.
 Runs in a single pass over the input.
 
 Space complexity: O(1) auxiliary.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
