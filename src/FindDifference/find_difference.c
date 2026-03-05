@@ -52,3 +52,4 @@ char find_difference(const char* s, const char* t) {
 // note 36: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 37: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 38: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 39: Uses a small fixed-size lookup table.
