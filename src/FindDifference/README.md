@@ -498,3 +498,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 110
 
 Space complexity: O(1) auxiliary.
+
+## entry 111
+
+Deterministic given the input — no PRNG seeds.
