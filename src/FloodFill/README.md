@@ -621,3 +621,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 141
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 142
+
+Worst case appears only on degenerate inputs.
