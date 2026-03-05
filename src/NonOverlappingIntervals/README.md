@@ -545,3 +545,7 @@ Branchless inner loop after sorting.
 ## entry 121
 
 Uses a small fixed-size lookup table.
+
+## entry 122
+
+Idempotent — calling twice with the same input is a no-op the second time.
