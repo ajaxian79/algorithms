@@ -399,3 +399,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 84
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 85
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
