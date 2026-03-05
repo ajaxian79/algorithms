@@ -32,3 +32,4 @@ MunitTest jump_game_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_JUMP_GAME_H
+// edge note 1: Time complexity: O(log n).
