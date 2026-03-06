@@ -542,3 +542,7 @@ Space complexity: O(1) auxiliary.
 ## entry 121
 
 Stable across duplicates in the input.
+
+## entry 122
+
+Space complexity: O(n) for the result buffer.
