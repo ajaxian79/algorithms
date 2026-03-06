@@ -16,3 +16,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Allocates one buffer of length n+1 for the result.
 
 Uses a small fixed-size lookup table.
+
+Time complexity: O(n log n).
