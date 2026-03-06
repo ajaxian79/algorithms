@@ -33,3 +33,4 @@ MunitTest palindrome_number_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PALINDROME_NUMBER_H
+// edge note 1: Edge case: single-element input → returns the element itself.
