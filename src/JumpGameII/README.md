@@ -64,3 +64,7 @@ Handles negative inputs as documented above.
 ## entry 1
 
 Edge case: empty input → returns 0.
+
+## entry 2
+
+Edge case: input with a single peak → handled by the first-pass scan.
