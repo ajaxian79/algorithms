@@ -15,3 +15,5 @@ Edge case: all-equal input → linear-time fast path.
 Time complexity: O(log n).
 
 No allocations on the hot path.
+
+Treats the input as immutable.
