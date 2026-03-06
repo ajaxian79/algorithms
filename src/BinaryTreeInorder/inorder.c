@@ -82,3 +82,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 42: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
+// note 45: Hash collision: chain or open-address; chained handles arbitrary load factor.
