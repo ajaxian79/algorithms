@@ -13,3 +13,5 @@
 - Manacher expands around each center, reusing prior radii via mirror reflection.
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
