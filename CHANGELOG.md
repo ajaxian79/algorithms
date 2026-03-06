@@ -19827,3 +19827,7 @@
 ## entry 4957
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 4958
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
