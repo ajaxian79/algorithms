@@ -628,3 +628,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 142
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 143
+
+64-bit safe; intermediate products are widened to 128-bit.
