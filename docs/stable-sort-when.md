@@ -453,3 +453,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 99
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 100
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
