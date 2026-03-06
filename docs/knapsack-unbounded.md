@@ -395,3 +395,7 @@ StringBuilder pitfall: reuse forces a deep copy on the first read.
 ## entry 83
 
 Graph DP on DAGs: topological order makes the dependency direction explicit.
+
+## entry 84
+
+Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
