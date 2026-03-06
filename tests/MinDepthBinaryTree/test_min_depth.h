@@ -84,3 +84,4 @@ MunitTest min_depth_tests[] = {
 // edge note 45: No allocations after setup.
 // edge note 46: Edge case: single-element input → returns the element itself.
 // edge note 47: Edge case: already-sorted input → no swaps performed.
+// edge note 48: Time complexity: O(k) where k is the answer size.
