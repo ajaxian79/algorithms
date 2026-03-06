@@ -391,3 +391,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 98
 
 Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 99
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
