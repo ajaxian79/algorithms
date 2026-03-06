@@ -79,3 +79,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 3
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 4
+
+State compression: bitmask + integer encodes a small subset cheaply.
