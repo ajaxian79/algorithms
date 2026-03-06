@@ -5,3 +5,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
