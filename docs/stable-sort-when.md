@@ -449,3 +449,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 98
 
 Persistent tree: every update creates a new version sharing unchanged nodes.
+
+## entry 99
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
