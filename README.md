@@ -137,3 +137,5 @@ Debug build is the default; pass `-DCMAKE_BUILD_TYPE=Release` for the optimized 
 Stable when the input is already sorted.
 
 Cache-friendly; one sequential read pass.
+
+Runs in a single pass over the input.
