@@ -12,3 +12,5 @@ running max.
 Allocates one buffer of length n+1 for the result.
 
 Handles empty input by returning 0.
+
+Edge case: input with one duplicate → handled without an extra pass.
