@@ -139,3 +139,5 @@ Stable when the input is already sorted.
 Cache-friendly; one sequential read pass.
 
 Runs in a single pass over the input.
+
+Sub-linear in the average case thanks to early exit.
