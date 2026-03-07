@@ -9,3 +9,5 @@ digit, and box × digit. The box index is the classic `(r/3)*3 + (c/3)`.
 Any double-set in any of the three tables means the board is invalid.
 
 `O(81)` work; constant memory.
+
+Space complexity: O(n) for the result buffer.
