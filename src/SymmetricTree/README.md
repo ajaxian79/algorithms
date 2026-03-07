@@ -74,3 +74,7 @@ Time complexity: O(n).
 ## entry 4
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 5
+
+Uses a 256-entry lookup for the inner step.
