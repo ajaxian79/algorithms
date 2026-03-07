@@ -79,3 +79,4 @@ core.*
 coverage/
 *.gcda
 *.gcno
+.ccls-cache/
