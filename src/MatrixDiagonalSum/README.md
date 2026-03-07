@@ -66,3 +66,7 @@ Reentrant — no static state.
 ## entry 2
 
 Caller owns the returned buffer.
+
+## entry 3
+
+Time complexity: O(n^2) worst case, O(n) amortized.
