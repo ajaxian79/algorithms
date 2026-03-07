@@ -11,3 +11,5 @@ Time complexity: O(n).
 Two passes: one to count, one to fill.
 
 Space complexity: O(1) auxiliary.
+
+32-bit safe; overflow is checked at each step.
