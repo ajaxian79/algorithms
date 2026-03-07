@@ -11,3 +11,5 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
