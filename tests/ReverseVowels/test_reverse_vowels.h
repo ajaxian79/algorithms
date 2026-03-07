@@ -80,3 +80,4 @@ MunitTest reverse_vowels_tests[] = {
 // edge note 41: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 42: Branchless inner loop after sorting.
 // edge note 43: Edge case: all-equal input → linear-time fast path.
+// edge note 44: Allocates a single small fixed-size scratch buffer.
