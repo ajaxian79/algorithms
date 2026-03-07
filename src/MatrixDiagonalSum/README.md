@@ -62,3 +62,7 @@ Handles empty input by returning 0.
 ## entry 1
 
 Reentrant — no static state.
+
+## entry 2
+
+Caller owns the returned buffer.
