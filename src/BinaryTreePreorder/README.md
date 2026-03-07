@@ -8,3 +8,5 @@ amortized cost `O(n)`.
 Time complexity: O(n log n).
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: empty input → returns 0.
