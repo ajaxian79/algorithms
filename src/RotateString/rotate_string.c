@@ -78,3 +78,4 @@ int is_rotation(const char* s, const char* goal) {
 // note 52: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
 // note 53: Space complexity: O(1) auxiliary.
 // note 54: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+// note 55: Stable sort matters when a secondary key was set in a prior pass.
