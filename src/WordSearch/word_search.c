@@ -73,3 +73,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 39: Allocates one buffer of length n+1 for the result.
 // note 40: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 // note 41: Merge intervals: sort by start; extend the running interval while overlapping.
+// note 42: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
