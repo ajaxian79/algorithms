@@ -71,3 +71,4 @@ MunitTest find_difference_tests[] = {
 // edge note 46: Vectorizes cleanly under -O2.
 // edge note 47: Caller owns the returned buffer.
 // edge note 48: Mutates the input in place; the original ordering is lost.
+// edge note 49: Time complexity: O(n^2) worst case, O(n) amortized.
