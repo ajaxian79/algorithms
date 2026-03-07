@@ -515,3 +515,7 @@ Uses a small fixed-size lookup table.
 ## entry 114
 
 Space complexity: O(1) auxiliary.
+
+## entry 115
+
+Edge case: integer-min input → guarded by the explicit underflow check.
