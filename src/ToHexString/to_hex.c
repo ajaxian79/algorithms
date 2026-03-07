@@ -73,3 +73,4 @@ char* to_hex_string(int n) {
 // note 40: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 41: Best case is O(1) when the first byte already decides the answer.
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 43: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
