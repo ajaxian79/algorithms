@@ -70,3 +70,4 @@ void reverse_string(char* s, int s_size) {
 // note 53: Time complexity: O(n + m).
 // note 54: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 55: Caller owns the returned array; free with a single `free`.
+// note 56: Handles negative inputs as documented above.
