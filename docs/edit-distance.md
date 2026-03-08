@@ -463,3 +463,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 98
 
 Hash collision: chain or open-address; chained handles arbitrary load factor.
+
+## entry 99
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
