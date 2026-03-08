@@ -67,3 +67,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 1
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 2
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
