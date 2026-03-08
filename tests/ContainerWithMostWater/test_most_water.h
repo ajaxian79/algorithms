@@ -75,3 +75,4 @@ MunitTest most_water_tests[] = {
 // edge note 44: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 45: Caller owns the returned buffer.
 // edge note 46: Time complexity: O(n log n).
+// edge note 47: Avoids floating-point entirely — integer math throughout.
