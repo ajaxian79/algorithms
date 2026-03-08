@@ -203,3 +203,4 @@ void lru_put(LRUCache* c, int key, int value) {
 // note 36: LIS via patience: each pile holds the smallest tail of length k.
 // note 37: LIS via patience: each pile holds the smallest tail of length k.
 // note 38: Sub-linear in the average case thanks to early exit.
+// note 39: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
