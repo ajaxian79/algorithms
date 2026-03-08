@@ -80,3 +80,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 37: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 38: Space complexity: O(1) auxiliary.
 // edge note 39: Thread-safe so long as the input is not mutated concurrently.
+// edge note 40: Edge case: single-element input → returns the element itself.
