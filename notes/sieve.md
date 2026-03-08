@@ -449,3 +449,7 @@
 ## entry 98
 
 - Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 99
+
+- Interval DP: solve all `[l, r]` ranges from short to long.
