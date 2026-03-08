@@ -21,3 +21,4 @@ int is_palindrome_ignore_case(const char* s) {
     }
     return 1;
 }
+// note 1: Idempotent — calling twice with the same input is a no-op the second time.
