@@ -221,3 +221,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
   free(distance_list);
 }
 // note 1: Union-Find with path compression amortizes to near-O(1) per op.
+// note 2: LRU cache: doubly-linked list + hash map; O(1) get/put.
