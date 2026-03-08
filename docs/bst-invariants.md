@@ -377,3 +377,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 78
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 79
+
+Merge intervals: sort by start; extend the running interval while overlapping.
