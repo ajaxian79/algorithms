@@ -19799,3 +19799,7 @@
 ## entry 4950
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 4951
+
+- Rope: tree of small string fragments; O(log n) concat and substring.
