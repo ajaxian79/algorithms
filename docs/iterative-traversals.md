@@ -461,3 +461,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 99
 
 BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+## entry 100
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
