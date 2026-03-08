@@ -78,3 +78,4 @@ MunitTest jump_game_tests[] = {
 // edge note 44: Branchless inner loop after sorting.
 // edge note 45: Edge case: already-sorted input → no swaps performed.
 // edge note 46: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
