@@ -654,3 +654,7 @@ Caller owns the returned buffer.
 ## entry 148
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 149
+
+Avoids floating-point entirely — integer math throughout.
