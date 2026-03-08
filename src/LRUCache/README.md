@@ -592,3 +592,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 132
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 133
+
+Edge case: already-sorted input → no swaps performed.
