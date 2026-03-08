@@ -443,3 +443,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 93
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 94
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
