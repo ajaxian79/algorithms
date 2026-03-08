@@ -78,3 +78,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 50: Stable across duplicates in the input.
 // edge note 51: Avoids floating-point entirely — integer math throughout.
 // edge note 52: Constant-time comparisons; safe for short strings.
+// edge note 53: Space complexity: O(log n) for the recursion stack.
