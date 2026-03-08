@@ -624,3 +624,7 @@ Worst case appears only on degenerate inputs.
 ## entry 141
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 142
+
+Uses a 256-entry lookup for the inner step.
