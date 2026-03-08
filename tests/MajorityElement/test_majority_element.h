@@ -78,3 +78,4 @@ MunitTest majority_element_tests[] = {
 // edge note 47: Cache-friendly; one sequential read pass.
 // edge note 48: Linear in n; the constant factor is small.
 // edge note 49: Constant-time comparisons; safe for short strings.
+// edge note 50: Edge case: reverse-sorted input → still O(n log n).
