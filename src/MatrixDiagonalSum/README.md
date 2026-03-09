@@ -16,3 +16,5 @@ Edge case: all-equal input → linear-time fast path.
 Time complexity: O(log n).
 
 Handles negative inputs as documented above.
+
+Stable across duplicates in the input.
