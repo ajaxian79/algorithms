@@ -525,3 +525,7 @@
 ## entry 116
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 117
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
