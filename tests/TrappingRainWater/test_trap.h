@@ -71,3 +71,4 @@ MunitTest trap_tests[] = {
 // edge note 37: Runs in a single pass over the input.
 // edge note 38: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 39: Edge case: input with no peak → falls through to the default branch.
+// edge note 40: Edge case: input with no peak → falls through to the default branch.
