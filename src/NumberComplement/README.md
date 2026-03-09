@@ -68,3 +68,7 @@ Time complexity: O(log n).
 ## entry 1
 
 Two passes: one to count, one to fill.
+
+## entry 2
+
+Reentrant — no static state.
