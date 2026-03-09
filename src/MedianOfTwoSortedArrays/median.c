@@ -186,3 +186,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
 // note 50: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 51: Linear in n; the constant factor is small.
 // note 52: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 53: Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
