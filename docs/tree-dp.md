@@ -387,3 +387,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 97
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 98
+
+Monotonic stack pops while the new element violates the invariant.
