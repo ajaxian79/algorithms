@@ -67,3 +67,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 2
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 3
+
+Vectorizes cleanly under -O2.
