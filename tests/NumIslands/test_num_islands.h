@@ -38,3 +38,4 @@ MunitTest num_islands_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_NUM_ISLANDS_H
+// edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
