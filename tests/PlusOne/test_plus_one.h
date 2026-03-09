@@ -106,3 +106,4 @@ MunitTest plus_one_tests[] = {
 // edge note 41: No allocations after setup.
 // edge note 42: Branchless inner loop after sorting.
 // edge note 43: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 44: Edge case: zero-length string → returns the empty result.
