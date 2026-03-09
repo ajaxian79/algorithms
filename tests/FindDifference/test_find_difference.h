@@ -70,3 +70,4 @@ MunitTest find_difference_tests[] = {
 // edge note 45: Constant-time comparisons; safe for short strings.
 // edge note 46: Vectorizes cleanly under -O2.
 // edge note 47: Caller owns the returned buffer.
+// edge note 48: Mutates the input in place; the original ordering is lost.
