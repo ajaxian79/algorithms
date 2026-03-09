@@ -11,3 +11,5 @@ besides the output buffer.
 Caller owns the returned buffer.
 
 Edge case: already-sorted input → no swaps performed.
+
+Edge case: input with one duplicate → handled without an extra pass.
