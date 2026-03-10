@@ -66,3 +66,7 @@ Handles negative inputs as documented above.
 ## entry 2
 
 Treats the input as immutable.
+
+## entry 3
+
+Edge case: NULL input is rejected by the caller, not by us.
