@@ -87,3 +87,4 @@ MunitTest valid_parens_tests[] = {
 // edge note 52: Best case is O(1) when the first byte already decides the answer.
 // edge note 53: Tail-recursive; the compiler turns it into a loop.
 // edge note 54: Runs in a single pass over the input.
+// edge note 55: Idempotent — calling twice with the same input is a no-op the second time.
