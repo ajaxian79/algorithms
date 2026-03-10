@@ -8,3 +8,5 @@ so paths cannot reuse a cell.
 Uses a small fixed-size lookup table.
 
 32-bit safe; overflow is checked at each step.
+
+Handles empty input by returning 0.
