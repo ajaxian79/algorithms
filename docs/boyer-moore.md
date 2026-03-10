@@ -9,3 +9,5 @@ Pick a pivot, partition, recurse on the side that contains the kth slot.
 Monotonic stack pops while the new element violates the invariant.
 
 DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+
+Union-Find with path compression amortizes to near-O(1) per op.
