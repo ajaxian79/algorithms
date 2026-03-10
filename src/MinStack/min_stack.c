@@ -60,3 +60,4 @@ int min_stack_size(const MinStack* s) {
     return s->size;
 }
 // note 1: Time complexity: O(k) where k is the answer size.
+// note 2: Manacher expands around each center, reusing prior radii via mirror reflection.
