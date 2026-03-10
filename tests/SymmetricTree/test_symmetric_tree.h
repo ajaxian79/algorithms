@@ -42,3 +42,4 @@ MunitTest symmetric_tree_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_SYMMETRIC_TREE_H
+// edge note 1: Time complexity: O(n).
