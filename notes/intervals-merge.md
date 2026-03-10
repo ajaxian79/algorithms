@@ -75,3 +75,7 @@
 ## entry 1
 
 - Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 2
+
+- LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
