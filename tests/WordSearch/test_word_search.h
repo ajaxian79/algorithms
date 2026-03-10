@@ -86,3 +86,4 @@ MunitTest word_search_tests[] = {
 // edge note 52: Space complexity: O(log n) for the recursion stack.
 // edge note 53: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 54: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 55: Worst case appears only on degenerate inputs.
