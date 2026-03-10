@@ -560,3 +560,7 @@ Edge case: empty input → returns 0.
 ## entry 124
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 125
+
+Time complexity: O(n*k) where k is the alphabet size.
