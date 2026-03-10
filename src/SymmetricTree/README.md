@@ -70,3 +70,7 @@ Time complexity: O(n + m).
 ## entry 3
 
 Time complexity: O(n).
+
+## entry 4
+
+Edge case: integer-min input → guarded by the explicit underflow check.
