@@ -339,3 +339,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 ## entry 85
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 86
+
+Interval DP: solve all `[l, r]` ranges from short to long.
