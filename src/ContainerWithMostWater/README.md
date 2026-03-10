@@ -13,3 +13,5 @@ Runs in a single pass over the input.
 Caller owns the returned buffer.
 
 Space complexity: O(n) for the result buffer.
+
+Time complexity: O(1).
