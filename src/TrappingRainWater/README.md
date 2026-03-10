@@ -66,3 +66,7 @@ Uses a small fixed-size lookup table.
 ## entry 1
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 2
+
+Time complexity: O(log n).
