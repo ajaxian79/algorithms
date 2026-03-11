@@ -11,3 +11,5 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+Pick a pivot, partition, recurse on the side that contains the kth slot.
