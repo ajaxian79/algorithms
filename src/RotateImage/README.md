@@ -15,3 +15,5 @@ Edge case: NULL input is rejected by the caller, not by us.
 Edge case: already-sorted input → no swaps performed.
 
 Treats the input as immutable.
+
+Handles negative inputs as documented above.
