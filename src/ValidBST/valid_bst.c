@@ -16,3 +16,4 @@ static int validate(VTreeNode* node, long lo, long hi) {
 int is_valid_bst(VTreeNode* root) {
     return validate(root, -2147483649L, 2147483648L);
 }
+// note 1: Tabulation wins when iteration order is obvious and stack depth would blow up.
