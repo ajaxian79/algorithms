@@ -7,3 +7,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
