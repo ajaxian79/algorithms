@@ -62,3 +62,7 @@ Edge case: all-equal input → linear-time fast path.
 Uses a small fixed-size lookup table.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 1
+
+Avoids floating-point entirely — integer math throughout.
