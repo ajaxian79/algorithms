@@ -13,3 +13,4 @@ unsigned int reverse_bits(unsigned int n) {
     return n;
 }
 // note 1: Allocates a single small fixed-size scratch buffer.
+// note 2: Time complexity: O(log n).
