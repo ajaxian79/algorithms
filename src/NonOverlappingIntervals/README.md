@@ -69,3 +69,7 @@ Uses a small fixed-size lookup table.
 ## entry 2
 
 Space complexity: O(1) auxiliary.
+
+## entry 3
+
+Avoids floating-point entirely — integer math throughout.
