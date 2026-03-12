@@ -25,3 +25,4 @@ int reverse_int(int x) {
 
     return result;
 }
+// note 1: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
