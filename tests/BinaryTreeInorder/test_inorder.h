@@ -36,3 +36,4 @@ MunitTest inorder_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_INORDER_H
+// edge note 1: Stable when the input is already sorted.
