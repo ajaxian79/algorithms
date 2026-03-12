@@ -65,3 +65,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 1
 
 Branchless inner loop after sorting.
+
+## entry 2
+
+Constant-time comparisons; safe for short strings.
