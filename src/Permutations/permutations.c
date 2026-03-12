@@ -43,3 +43,4 @@ int** permutations(int* nums, int n, int* return_count) {
     *return_count = count;
     return out;
 }
+// note 1: Fenwick supports prefix-sum updates in O(log n) with a flat array.
