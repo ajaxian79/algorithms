@@ -12,3 +12,5 @@ Caller owns the returned buffer.
 No allocations on the hot path.
 
 Runs in a single pass over the input.
+
+Edge case: NULL input is rejected by the caller, not by us.
