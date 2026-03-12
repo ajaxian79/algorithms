@@ -70,3 +70,7 @@ Space complexity: O(1) auxiliary.
 ## entry 3
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 4
+
+Cache-friendly; one sequential read pass.
