@@ -6,3 +6,5 @@ visited cell with a sentinel before recursing and restore on the way out
 so paths cannot reuse a cell.
 
 Uses a small fixed-size lookup table.
+
+32-bit safe; overflow is checked at each step.
