@@ -22,3 +22,5 @@ Space complexity: O(1) auxiliary.
 Time complexity: O(n log n).
 
 Runs in a single pass over the input.
+
+Edge case: reverse-sorted input → still O(n log n).
