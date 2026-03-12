@@ -12,3 +12,5 @@ Space complexity: O(1) auxiliary.
 Handles empty input by returning 0.
 
 Handles negative inputs as documented above.
+
+Returns a freshly allocated string the caller must free.
