@@ -14,3 +14,5 @@ Edge case: reverse-sorted input → still O(n log n).
 Edge case: input with one duplicate → handled without an extra pass.
 
 Returns a freshly allocated string the caller must free.
+
+Handles empty input by returning 0.
