@@ -602,3 +602,7 @@ Runs in a single pass over the input.
 ## entry 136
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 137
+
+Caller owns the returned array; free with a single `free`.
