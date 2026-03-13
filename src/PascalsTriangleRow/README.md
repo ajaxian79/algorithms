@@ -10,3 +10,5 @@ Two passes: one to count, one to fill.
 Caller owns the returned buffer.
 
 No allocations on the hot path.
+
+Runs in a single pass over the input.
