@@ -383,3 +383,7 @@
 ## entry 96
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 97
+
+- Wavelet tree: range k-th element in O(log Σ) time.
