@@ -8,3 +8,5 @@ out cleanly with no special-case branches.
 Caller owns the returned buffer.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Returns a freshly allocated string the caller must free.
