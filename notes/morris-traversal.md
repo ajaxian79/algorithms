@@ -5,3 +5,5 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - LIS via patience: each pile holds the smallest tail of length k.
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
