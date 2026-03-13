@@ -23,3 +23,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
     if (from == new_color) return;
     fill(image, m, n, sr, sc, from, new_color);
 }
+// note 1: Time complexity: O(n).
