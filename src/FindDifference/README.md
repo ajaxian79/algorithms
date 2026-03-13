@@ -62,3 +62,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 1
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 2
+
+Time complexity: O(n log n).
