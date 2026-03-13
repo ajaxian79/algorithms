@@ -65,3 +65,7 @@ Uses a small fixed-size lookup table.
 ## entry 1
 
 Uses a small fixed-size lookup table.
+
+## entry 2
+
+Space complexity: O(1) auxiliary.
