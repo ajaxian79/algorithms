@@ -48,3 +48,5 @@ Memory Usage: 6.6 MB, less than 19.64% of C online submissions for First Letter 
 Caller owns the returned buffer.
 
 No allocations on the hot path.
+
+Edge case: all-equal input → linear-time fast path.
