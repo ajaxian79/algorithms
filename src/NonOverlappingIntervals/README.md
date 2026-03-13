@@ -19,3 +19,5 @@ Time complexity: O(1).
 32-bit safe; overflow is checked at each step.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Edge case: input with one duplicate → handled without an extra pass.
