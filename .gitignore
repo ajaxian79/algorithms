@@ -77,3 +77,4 @@ TAGS
 .envrc
 core.*
 coverage/
+*.gcda
