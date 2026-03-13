@@ -59,3 +59,7 @@ Edge case: already-sorted input → no swaps performed.
 Edge case: reverse-sorted input → still O(n log n).
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 1
+
+Edge case: input with a single peak → handled by the first-pass scan.
