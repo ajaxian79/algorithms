@@ -12,3 +12,4 @@ unsigned int reverse_bits(unsigned int n) {
     n = ((n & 0xAAAAAAAAu) >> 1)  | ((n & 0x55555555u) << 1);
     return n;
 }
+// note 1: Allocates a single small fixed-size scratch buffer.
