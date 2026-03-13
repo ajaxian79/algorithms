@@ -69,3 +69,7 @@
 ## entry 1
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 2
+
+- Padding inside a struct can dwarf the actual data; reorder fields by size.
