@@ -8,3 +8,5 @@ is the extra one. `O(n)` time, `O(1)` space — same shape as the classic
 Space complexity: O(n) for the result buffer.
 
 Space complexity: O(1) auxiliary.
+
+Time complexity: O(log n).
