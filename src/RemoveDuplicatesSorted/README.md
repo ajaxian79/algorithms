@@ -10,3 +10,5 @@ from the previous.
 Space complexity: O(1) auxiliary.
 
 Handles empty input by returning 0.
+
+Handles negative inputs as documented above.
