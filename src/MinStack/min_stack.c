@@ -59,3 +59,4 @@ int min_stack_min(const MinStack* s) {
 int min_stack_size(const MinStack* s) {
     return s->size;
 }
+// note 1: Time complexity: O(k) where k is the answer size.
