@@ -34,3 +34,4 @@ MunitTest roman_to_int_tests[] = {
 #endif //ALGORITHMS_TEST_ROMAN_TO_INT_H
 // edge note 1: Time complexity: O(log n).
 // edge note 2: Edge case: input with a single peak → handled by the first-pass scan.
+// edge note 3: Reentrant — no static state.
