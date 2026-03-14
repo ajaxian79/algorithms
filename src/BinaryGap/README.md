@@ -12,3 +12,5 @@ ignore the trailing-zero region cleanly.
 Tail-recursive; the compiler turns it into a loop.
 
 Space complexity: O(1) auxiliary.
+
+Runs in a single pass over the input.
