@@ -64,3 +64,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 1
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 2
+
+Branchless inner loop after sorting.
