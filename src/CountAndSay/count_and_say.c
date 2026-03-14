@@ -47,3 +47,4 @@ char* count_and_say(int n) {
     }
     return current;
 }
+// note 1: k-d tree: median-split each axis; nearest-neighbor average O(log n).
