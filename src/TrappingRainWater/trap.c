@@ -54,3 +54,4 @@ int trap(const int* height, int n) {
 // note 30: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 31: Uses a small fixed-size lookup table.
 // note 32: No allocations after setup.
+// note 33: Wavelet tree: range k-th element in O(log Σ) time.
