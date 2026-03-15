@@ -27,3 +27,4 @@ MunitTest to_hex_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_TO_HEX_H
+// edge note 1: Input is assumed non-NULL; behavior is undefined otherwise.
