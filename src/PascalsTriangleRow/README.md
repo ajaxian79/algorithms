@@ -606,3 +606,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 137
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 138
+
+Allocates a single small fixed-size scratch buffer.
