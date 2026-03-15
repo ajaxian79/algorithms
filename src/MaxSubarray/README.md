@@ -594,3 +594,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 134
 
 Thread-safe so long as the input is not mutated concurrently.
+
+## entry 135
+
+Edge case: empty input → returns 0.
