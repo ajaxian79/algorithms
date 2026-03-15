@@ -339,3 +339,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 85
 
 LIS via patience: each pile holds the smallest tail of length k.
+
+## entry 86
+
+Merge intervals: sort by start; extend the running interval while overlapping.
