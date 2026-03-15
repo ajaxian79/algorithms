@@ -650,3 +650,7 @@ Vectorizes cleanly under -O2.
 ## entry 147
 
 Caller owns the returned buffer.
+
+## entry 148
+
+Space complexity: O(log n) for the recursion stack.
