@@ -80,3 +80,4 @@ MunitTest spiral_matrix_tests[] = {
 // edge note 37: Space complexity: O(h) for the tree height.
 // edge note 38: Idempotent — calling twice with the same input is a no-op the second time.
 // edge note 39: Allocates a single small fixed-size scratch buffer.
+// edge note 40: Allocates a single small fixed-size scratch buffer.
