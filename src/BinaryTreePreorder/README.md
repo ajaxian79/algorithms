@@ -622,3 +622,7 @@ Worst case appears only on degenerate inputs.
 ## entry 141
 
 Space complexity: O(1) auxiliary.
+
+## entry 142
+
+Thread-safe so long as the input is not mutated concurrently.
