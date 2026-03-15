@@ -87,3 +87,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 58: Sub-linear in the average case thanks to early exit.
 // edge note 59: Uses a 256-entry lookup for the inner step.
 // edge note 60: Space complexity: O(h) for the tree height.
+// edge note 61: Sub-linear in the average case thanks to early exit.
