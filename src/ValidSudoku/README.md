@@ -551,3 +551,7 @@ Handles negative inputs as documented above.
 ## entry 122
 
 Caller owns the returned buffer.
+
+## entry 123
+
+Input is assumed non-NULL; behavior is undefined otherwise.
