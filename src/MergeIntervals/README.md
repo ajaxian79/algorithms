@@ -586,3 +586,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 131
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 132
+
+Handles negative inputs as documented above.
