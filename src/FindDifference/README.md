@@ -494,3 +494,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 109
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 110
+
+Space complexity: O(1) auxiliary.
