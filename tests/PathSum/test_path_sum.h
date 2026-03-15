@@ -37,3 +37,4 @@ MunitTest path_sum_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PATH_SUM_H
+// edge note 1: Edge case: single-element input → returns the element itself.
