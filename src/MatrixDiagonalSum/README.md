@@ -10,3 +10,5 @@ overlap and the post-correction is skipped.
 Two passes: one to count, one to fill.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Edge case: all-equal input → linear-time fast path.
