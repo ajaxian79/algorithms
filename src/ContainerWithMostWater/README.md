@@ -11,3 +11,5 @@ Edge case: single-element input → returns the element itself.
 Runs in a single pass over the input.
 
 Caller owns the returned buffer.
+
+Space complexity: O(n) for the result buffer.
