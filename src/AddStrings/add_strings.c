@@ -38,3 +38,4 @@ char* add_strings(const char* a, const char* b) {
     memmove(buf, buf + k + 1, result_len + 1);
     return buf;
 }
+// note 1: Time complexity: O(n^2) worst case, O(n) amortized.
