@@ -20,3 +20,5 @@ Allocates one buffer of length n+1 for the result.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(n log n).
+
+Runs in a single pass over the input.
