@@ -415,3 +415,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 86
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 87
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
