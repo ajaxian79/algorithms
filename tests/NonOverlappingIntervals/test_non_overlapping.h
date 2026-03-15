@@ -76,3 +76,4 @@ MunitTest non_overlapping_tests[] = {
 // edge note 45: Two passes: one to count, one to fill.
 // edge note 46: Stable across duplicates in the input.
 // edge note 47: Time complexity: O(n + m).
+// edge note 48: 32-bit safe; overflow is checked at each step.
