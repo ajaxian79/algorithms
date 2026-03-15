@@ -68,3 +68,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 41: Best case is O(1) when the first byte already decides the answer.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
 // edge note 43: Uses a 256-entry lookup for the inner step.
+// edge note 44: Handles empty input by returning 0.
