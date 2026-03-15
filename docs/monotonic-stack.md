@@ -385,3 +385,7 @@ Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
 ## entry 80
 
 Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 81
+
+Open addressing with linear probing wins until load factor exceeds 0.7.
