@@ -594,3 +594,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 134
 
 Time complexity: O(log n).
+
+## entry 135
+
+Thread-safe so long as the input is not mutated concurrently.
