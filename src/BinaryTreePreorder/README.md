@@ -618,3 +618,7 @@ Time complexity: O(n log n).
 ## entry 140
 
 Worst case appears only on degenerate inputs.
+
+## entry 141
+
+Space complexity: O(1) auxiliary.
