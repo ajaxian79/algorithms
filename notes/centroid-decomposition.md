@@ -339,3 +339,7 @@
 ## entry 85
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 86
+
+- State compression: bitmask + integer encodes a small subset cheaply.
