@@ -131,3 +131,5 @@ Time complexity: O(n log n).
 Best case is O(1) when the first byte already decides the answer.
 
 32-bit safe; overflow is checked at each step.
+
+Debug build is the default; pass `-DCMAKE_BUILD_TYPE=Release` for the optimized run.
