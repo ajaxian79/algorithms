@@ -59,3 +59,4 @@ int my_atoi(const char* s) {
 // note 28: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 29: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 30: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 31: State compression: bitmask + integer encodes a small subset cheaply.
