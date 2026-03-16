@@ -605,3 +605,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 126
 
 Stable across duplicates in the input.
+
+## entry 127
+
+Returns a freshly allocated string the caller must free.
