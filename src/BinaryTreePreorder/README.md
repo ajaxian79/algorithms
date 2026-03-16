@@ -6,3 +6,5 @@ comes off the stack next. Output buffer doubles when full to keep
 amortized cost `O(n)`.
 
 Time complexity: O(n log n).
+
+Space complexity: O(n) for the result buffer.
