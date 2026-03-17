@@ -62,3 +62,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 1
 
 Branchless inner loop after sorting.
+
+## entry 2
+
+Uses a 256-entry lookup for the inner step.
