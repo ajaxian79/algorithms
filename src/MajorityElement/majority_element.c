@@ -62,3 +62,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 40: Handles negative inputs as documented above.
 // note 41: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 // note 42: Time complexity: O(n + m).
+// note 43: 32-bit safe; overflow is checked at each step.
