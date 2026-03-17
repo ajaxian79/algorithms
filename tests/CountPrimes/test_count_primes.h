@@ -26,3 +26,4 @@ MunitTest count_primes_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_COUNT_PRIMES_H
+// edge note 1: Mutates the input in place; the original ordering is lost.
