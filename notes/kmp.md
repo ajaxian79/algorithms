@@ -485,3 +485,7 @@
 ## entry 105
 
 - Padding inside a struct can dwarf the actual data; reorder fields by size.
+
+## entry 106
+
+- Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
