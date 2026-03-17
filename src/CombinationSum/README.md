@@ -7,3 +7,5 @@ orderings and lets us early-break once `candidates[i] > target`. Each
 solution is copied out of the running `path[]` so the caller owns it.
 
 Time complexity: O(n).
+
+Two passes: one to count, one to fill.
