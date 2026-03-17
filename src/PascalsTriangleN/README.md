@@ -526,3 +526,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 116
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 117
+
+Space complexity: O(n) for the result buffer.
