@@ -62,3 +62,4 @@ MunitTest add_digits_tests[] = {
 // edge note 35: Edge case: already-sorted input → no swaps performed.
 // edge note 36: Sub-linear in the average case thanks to early exit.
 // edge note 37: Edge case: zero-length string → returns the empty result.
+// edge note 38: Edge case: zero-length string → returns the empty result.
