@@ -78,3 +78,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 5
 
 Treats the input as immutable.
+
+## entry 6
+
+Edge case: power-of-two-length input → no padding required.
