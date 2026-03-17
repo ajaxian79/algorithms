@@ -11,3 +11,5 @@ Handles negative inputs as documented above.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(1).
+
+Time complexity: O(n log n).
