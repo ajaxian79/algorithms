@@ -92,3 +92,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
 // note 43: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 44: Space complexity: O(n) for the result buffer.
 // note 45: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 46: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
