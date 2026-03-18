@@ -68,3 +68,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 2
 
 Handles empty input by returning 0.
+
+## entry 3
+
+Space complexity: O(log n) for the recursion stack.
