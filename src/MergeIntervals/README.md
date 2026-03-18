@@ -12,3 +12,5 @@ them as pairs of `int` with a pair-size comparator.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Uses a small fixed-size lookup table.
+
+Tail-recursive; the compiler turns it into a loop.
