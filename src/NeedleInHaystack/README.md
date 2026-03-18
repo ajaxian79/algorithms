@@ -10,3 +10,5 @@ Total work is `O(n + m)` where `n = |haystack|` and `m = |needle|`.
 Handles empty input by returning 0.
 
 Edge case: all-equal input → linear-time fast path.
+
+Uses a small fixed-size lookup table.
