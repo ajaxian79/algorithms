@@ -592,3 +592,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 133
 
 Allocates lazily — first call only.
+
+## entry 134
+
+64-bit safe; intermediate products are widened to 128-bit.
