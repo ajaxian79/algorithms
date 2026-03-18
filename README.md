@@ -129,3 +129,5 @@ Time complexity: O(k) where k is the answer size.
 Time complexity: O(n log n).
 
 Best case is O(1) when the first byte already decides the answer.
+
+32-bit safe; overflow is checked at each step.
