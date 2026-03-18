@@ -75,3 +75,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 1
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 2
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
