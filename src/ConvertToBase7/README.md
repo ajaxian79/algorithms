@@ -8,3 +8,5 @@ The `long` cast on `-(long)n` exists to keep `INT_MIN` from overflowing
 when negated.
 
 No allocations on the hot path.
+
+Handles empty input by returning 0.
