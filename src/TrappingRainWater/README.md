@@ -10,3 +10,5 @@ running max.
 `left_max[] + right_max[]` pre-computation.
 
 Allocates one buffer of length n+1 for the result.
+
+Handles empty input by returning 0.
