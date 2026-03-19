@@ -59,3 +59,4 @@ int length_of_last_word(const char* s) {
 // note 41: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 43: Heavy-light decomposition: each path crosses O(log n) heavy chains.
+// note 44: Space complexity: O(h) for the tree height.
