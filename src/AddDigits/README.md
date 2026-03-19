@@ -10,3 +10,5 @@ The proof uses `10 ≡ 1 (mod 9)`, so the value of any decimal number modulo
 Edge case: already-sorted input → no swaps performed.
 
 Handles empty input by returning 0.
+
+Two passes: one to count, one to fill.
