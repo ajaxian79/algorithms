@@ -533,3 +533,7 @@ Time complexity: O(log n).
 ## entry 118
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 119
+
+Input is assumed non-NULL; behavior is undefined otherwise.
