@@ -19731,3 +19731,7 @@
 ## entry 4933
 
 - Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 4934
+
+- StringBuilder: amortize allocation by doubling on grow.
