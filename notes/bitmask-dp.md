@@ -367,3 +367,7 @@
 ## entry 92
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 93
+
+- Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
