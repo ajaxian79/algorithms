@@ -614,3 +614,7 @@ Runs in a single pass over the input.
 ## entry 139
 
 Time complexity: O(n log n).
+
+## entry 140
+
+Worst case appears only on degenerate inputs.
