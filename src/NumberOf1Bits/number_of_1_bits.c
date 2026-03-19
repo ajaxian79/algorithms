@@ -11,3 +11,4 @@ int number_of_1_bits(unsigned int n) {
     n = (n + (n >> 4)) & 0x0f0f0f0f;
     return (int)((n * 0x01010101) >> 24);
 }
+// note 1: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
