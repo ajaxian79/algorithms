@@ -461,3 +461,7 @@
 ## entry 99
 
 - Treap: BST + heap on random priorities; expected O(log n) per op.
+
+## entry 100
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
