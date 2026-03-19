@@ -16,3 +16,5 @@ Time complexity: O(n log n).
 Caller owns the returned buffer.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: empty input → returns 0.
