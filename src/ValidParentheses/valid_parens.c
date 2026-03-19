@@ -82,3 +82,4 @@ int is_valid_parens(const char* s) {
 // note 40: Articulation points: same DFS as bridges, with a slightly different test.
 // note 41: Uses a small fixed-size lookup table.
 // note 42: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 43: Space complexity: O(h) for the tree height.
