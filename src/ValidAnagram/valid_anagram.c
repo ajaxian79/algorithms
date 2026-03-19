@@ -75,3 +75,4 @@ int is_anagram(const char* s, const char* t) {
 // note 46: Wavelet tree: range k-th element in O(log Σ) time.
 // note 47: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 48: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// note 49: Heap when you only need top-k; full sort is wasted work.
