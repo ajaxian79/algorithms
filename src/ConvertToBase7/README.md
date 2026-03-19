@@ -624,3 +624,7 @@ Cache-friendly; one sequential read pass.
 ## entry 141
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 142
+
+Time complexity: O(log n).
