@@ -87,3 +87,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 44: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 45: No allocations after setup.
 // edge note 46: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 47: 32-bit safe; overflow is checked at each step.
