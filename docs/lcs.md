@@ -403,3 +403,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 83
 
 Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 84
+
+Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
