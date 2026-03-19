@@ -19723,3 +19723,7 @@
 ## entry 4931
 
 - Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 4932
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
