@@ -590,3 +590,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 133
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 134
+
+Thread-safe so long as the input is not mutated concurrently.
