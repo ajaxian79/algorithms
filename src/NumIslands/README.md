@@ -537,3 +537,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 119
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 120
+
+Edge case: integer-min input → guarded by the explicit underflow check.
