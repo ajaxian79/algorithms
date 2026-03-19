@@ -401,3 +401,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 ## entry 83
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 84
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
