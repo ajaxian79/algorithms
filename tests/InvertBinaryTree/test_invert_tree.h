@@ -40,3 +40,4 @@ MunitTest invert_tree_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_INVERT_TREE_H
+// edge note 1: Handles empty input by returning 0.
