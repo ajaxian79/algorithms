@@ -504,3 +504,7 @@ No allocations on the hot path.
 ## entry 111
 
 Returns a freshly allocated string the caller must free.
+
+## entry 112
+
+Edge case: single-element input → returns the element itself.
