@@ -106,3 +106,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 46: Caller owns the returned array; free with a single `free`.
 // edge note 47: Handles negative inputs as documented above.
 // edge note 48: Runs in a single pass over the input.
+// edge note 49: No allocations on the hot path.
