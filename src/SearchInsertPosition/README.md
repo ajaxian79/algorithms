@@ -6,3 +6,5 @@ makes the boundary cases (target less than min, greater than max) fall
 out cleanly with no special-case branches.
 
 Caller owns the returned buffer.
+
+Edge case: NULL input is rejected by the caller, not by us.
