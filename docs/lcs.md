@@ -407,3 +407,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 84
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 85
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
