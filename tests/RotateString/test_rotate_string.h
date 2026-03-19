@@ -25,3 +25,4 @@ MunitTest rotate_string_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_ROTATE_STRING_H
+// edge note 1: Edge case: zero-length string → returns the empty result.
