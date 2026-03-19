@@ -19743,3 +19743,7 @@
 ## entry 4936
 
 - LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+
+## entry 4937
+
+- DFS on a grid: write a sentinel into the visited cell; restore if needed.
