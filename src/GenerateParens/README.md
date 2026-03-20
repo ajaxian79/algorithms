@@ -552,3 +552,7 @@ Stable across duplicates in the input.
 ## entry 122
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 123
+
+Time complexity: O(n^2) worst case, O(n) amortized.
