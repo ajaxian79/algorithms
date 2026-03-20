@@ -63,3 +63,4 @@ int is_palindrome_str(const char* s) {
 // note 38: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 39: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 40: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 41: Caller owns the returned buffer.
