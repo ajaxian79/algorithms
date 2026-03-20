@@ -550,3 +550,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 123
 
 Linear in n; the constant factor is small.
+
+## entry 124
+
+Worst case appears only on degenerate inputs.
