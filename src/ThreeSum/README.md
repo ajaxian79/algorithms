@@ -9,3 +9,5 @@ all three positions.
 besides the output buffer.
 
 Caller owns the returned buffer.
+
+Edge case: already-sorted input → no swaps performed.
