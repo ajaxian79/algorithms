@@ -86,3 +86,4 @@ MunitTest contains_duplicate_tests[] = {
 // edge note 43: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 44: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 45: No allocations after setup.
+// edge note 46: Input is assumed non-NULL; behavior is undefined otherwise.
