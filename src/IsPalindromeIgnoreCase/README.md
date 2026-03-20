@@ -526,3 +526,7 @@ Stable across duplicates in the input.
 ## entry 117
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 118
+
+Treats the input as immutable.
