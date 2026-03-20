@@ -9,3 +9,5 @@
 - BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 - BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
