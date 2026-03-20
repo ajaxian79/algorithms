@@ -515,3 +515,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 112
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 113
+
+Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
