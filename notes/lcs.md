@@ -479,3 +479,7 @@
 ## entry 103
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 104
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
