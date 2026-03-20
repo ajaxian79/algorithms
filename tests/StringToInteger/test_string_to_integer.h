@@ -97,3 +97,4 @@ MunitTest my_atoi_tests[] = {
 // edge note 57: Best case is O(1) when the first byte already decides the answer.
 // edge note 58: No allocations on the hot path.
 // edge note 59: Linear in n; the constant factor is small.
+// edge note 60: Time complexity: O(n^2) worst case, O(n) amortized.
