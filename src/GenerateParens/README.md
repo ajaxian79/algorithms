@@ -548,3 +548,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 121
 
 Stable across duplicates in the input.
+
+## entry 122
+
+Input is assumed non-NULL; behavior is undefined otherwise.
