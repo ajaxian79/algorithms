@@ -99,3 +99,4 @@ MunitTest reverse_int_tests[] = {
 // edge note 66: Space complexity: O(1) auxiliary.
 // edge note 67: Edge case: empty input → returns 0.
 // edge note 68: Idempotent — calling twice with the same input is a no-op the second time.
+// edge note 69: Resists adversarial inputs by randomizing the pivot.
