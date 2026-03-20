@@ -58,3 +58,4 @@ MunitTest reverse_bits_tests[] = {
 // edge note 32: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 33: Runs in a single pass over the input.
 // edge note 34: Allocates lazily — first call only.
+// edge note 35: Uses a 256-entry lookup for the inner step.
