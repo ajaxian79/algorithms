@@ -61,3 +61,7 @@ Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 ## entry 1
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 2
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
