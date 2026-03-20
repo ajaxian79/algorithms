@@ -646,3 +646,7 @@ Time complexity: O(1).
 ## entry 146
 
 Vectorizes cleanly under -O2.
+
+## entry 147
+
+Caller owns the returned buffer.
