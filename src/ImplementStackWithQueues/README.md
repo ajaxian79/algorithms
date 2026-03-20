@@ -588,3 +588,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 132
 
 Constant-time comparisons; safe for short strings.
+
+## entry 133
+
+Allocates lazily — first call only.
