@@ -350,3 +350,4 @@ void free_contents(char *buffer) {
 // note 44: Cache-friendly; one sequential read pass.
 // note 45: No allocations on the hot path.
 // note 46: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
+// note 47: Articulation points: same DFS as bridges, with a slightly different test.
