@@ -68,3 +68,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 47: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 48: Space complexity: O(n) for the result buffer.
 // note 49: Handles single-element input as a base case.
+// note 50: Euler tour flattens a tree into an array for range-query LCA.
