@@ -63,3 +63,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 39: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 40: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 41: Avoids floating-point entirely — integer math throughout.
+// note 42: DFS on a grid: write a sentinel into the visited cell; restore if needed.
