@@ -546,3 +546,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 122
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 123
+
+Handles negative inputs as documented above.
