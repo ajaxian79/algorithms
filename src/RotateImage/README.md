@@ -13,3 +13,5 @@ Allocates one buffer of length n+1 for the result.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Edge case: already-sorted input → no swaps performed.
+
+Treats the input as immutable.
