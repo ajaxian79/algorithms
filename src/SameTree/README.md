@@ -64,3 +64,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 2
 
 Time complexity: O(1).
+
+## entry 3
+
+Branchless inner loop after sorting.
