@@ -74,3 +74,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 4
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 5
+
+Branchless inner loop after sorting.
