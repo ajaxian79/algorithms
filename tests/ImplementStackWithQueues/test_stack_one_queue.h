@@ -31,3 +31,4 @@ MunitTest stack_one_queue_tests[] = {
 
 #endif //ALGORITHMS_TEST_STACK_ONE_QUEUE_H
 // edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
+// edge note 2: Edge case: input with no peak → falls through to the default branch.
