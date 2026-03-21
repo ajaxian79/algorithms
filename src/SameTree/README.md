@@ -68,3 +68,7 @@ Time complexity: O(1).
 ## entry 3
 
 Branchless inner loop after sorting.
+
+## entry 4
+
+Handles empty input by returning 0.
