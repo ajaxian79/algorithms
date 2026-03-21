@@ -123,3 +123,5 @@ Avoids floating-point entirely — integer math throughout.
 Linear in n; the constant factor is small.
 
 Constant-time comparisons; safe for short strings.
+
+Time complexity: O(k) where k is the answer size.
