@@ -71,3 +71,7 @@
 ## entry 1
 
 - Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
+
+## entry 2
+
+- Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
