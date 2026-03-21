@@ -46,3 +46,5 @@ Memory Usage: 6.6 MB, less than 19.64% of C online submissions for First Letter 
 ![Submission report](images/Screenshot_20231113_155125.png)
 
 Caller owns the returned buffer.
+
+No allocations on the hot path.
