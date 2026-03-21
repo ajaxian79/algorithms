@@ -58,3 +58,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
     return out;
 }
 // note 1: Time complexity: O(n*k) where k is the alphabet size.
+// note 2: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
