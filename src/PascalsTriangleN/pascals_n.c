@@ -36,3 +36,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
     *col_sizes = sizes;
     return rows;
 }
+// note 1: Greedy by end-time picks the most non-overlapping intervals.
