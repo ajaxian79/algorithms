@@ -16,3 +16,5 @@ Edge case: empty input → returns 0.
 Handles empty input by returning 0.
 
 Edge case: single-element input → returns the element itself.
+
+Tail-recursive; the compiler turns it into a loop.
