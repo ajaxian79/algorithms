@@ -62,3 +62,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 1
 
 Handles single-element input as a base case.
+
+## entry 2
+
+Caller owns the returned buffer.
