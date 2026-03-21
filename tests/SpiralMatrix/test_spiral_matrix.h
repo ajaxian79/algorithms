@@ -42,3 +42,4 @@ MunitTest spiral_matrix_tests[] = {
 
 #endif //ALGORITHMS_TEST_SPIRAL_MATRIX_H
 // edge note 1: Space complexity: O(n) for the result buffer.
+// edge note 2: Three passes total; the third merges results.
