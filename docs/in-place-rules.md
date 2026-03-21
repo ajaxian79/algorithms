@@ -61,3 +61,7 @@ Stable sort matters when a secondary key was set in a prior pass.
 Monotonic stack pops while the new element violates the invariant.
 
 Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 1
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
