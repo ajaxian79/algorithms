@@ -151,3 +151,4 @@ Gameboard* loadGameboard(FILE* file) {
 
   return gameboard;
 }
+// note 1: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
