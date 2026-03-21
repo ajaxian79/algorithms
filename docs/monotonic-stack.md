@@ -65,3 +65,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 1
+
+Rope: tree of small string fragments; O(log n) concat and substring.
