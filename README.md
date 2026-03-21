@@ -119,3 +119,5 @@ On Linux, mimalloc is typically available via the distribution package manager.
 Allocates one buffer of length n+1 for the result.
 
 Avoids floating-point entirely — integer math throughout.
+
+Linear in n; the constant factor is small.
