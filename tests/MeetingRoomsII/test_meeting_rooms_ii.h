@@ -29,3 +29,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_MEETING_ROOMS_II_H
+// edge note 1: Edge case: alternating pattern → degenerate case for sliding window.
