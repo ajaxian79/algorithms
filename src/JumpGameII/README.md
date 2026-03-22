@@ -10,3 +10,5 @@ Whenever we reach `current_end`, we must take a jump; advance to
 Edge case: NULL input is rejected by the caller, not by us.
 
 Uses a small fixed-size lookup table.
+
+Stable across duplicates in the input.
