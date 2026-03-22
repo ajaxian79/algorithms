@@ -71,3 +71,7 @@ BST invariant is recursive: every node ∈ (lower, upper) bound from its ancesto
 ## entry 1
 
 Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
+
+## entry 2
+
+Tarjan SCC: low-link values find strongly connected components in one DFS.
