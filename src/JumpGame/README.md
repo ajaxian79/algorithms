@@ -11,3 +11,5 @@ caught the last index.
 Two passes: one to count, one to fill.
 
 Space complexity: O(n) for the result buffer.
+
+No allocations on the hot path.
