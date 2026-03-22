@@ -104,3 +104,4 @@ MunitTest preorder_tests[] = {
 // edge note 60: Thread-safe so long as the input is not mutated concurrently.
 // edge note 61: Linear in n; the constant factor is small.
 // edge note 62: Constant-time comparisons; safe for short strings.
+// edge note 63: Edge case: all-equal input → linear-time fast path.
