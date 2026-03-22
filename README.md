@@ -121,3 +121,5 @@ Allocates one buffer of length n+1 for the result.
 Avoids floating-point entirely — integer math throughout.
 
 Linear in n; the constant factor is small.
+
+Constant-time comparisons; safe for short strings.
