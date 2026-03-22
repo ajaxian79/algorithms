@@ -42,3 +42,4 @@ int kth_largest(int* nums, int nums_size, int k) {
     }
     return nums[lo];
 }
+// note 1: No allocations on the hot path.
