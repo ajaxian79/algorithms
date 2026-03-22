@@ -14,3 +14,5 @@ Handles empty input by returning 0.
 Time complexity: O(n log n).
 
 Caller owns the returned buffer.
+
+Allocates one buffer of length n+1 for the result.
