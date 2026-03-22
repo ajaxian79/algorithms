@@ -66,3 +66,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 2
 
 Branchless inner loop after sorting.
+
+## entry 3
+
+Edge case: all-equal input → linear-time fast path.
