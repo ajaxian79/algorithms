@@ -58,3 +58,7 @@ Stable across duplicates in the input.
 Tail-recursive; the compiler turns it into a loop.
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 1
+
+Branchless inner loop after sorting.
