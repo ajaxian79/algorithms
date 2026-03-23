@@ -52,3 +52,4 @@ InvTreeNode* invert_tree(InvTreeNode* root) {
 // note 37: Sub-linear in the average case thanks to early exit.
 // note 38: Union-Find with path compression amortizes to near-O(1) per op.
 // note 39: In-place compaction uses two pointers: read advances always, write only on keep.
+// note 40: Wavelet tree: range k-th element in O(log Σ) time.
