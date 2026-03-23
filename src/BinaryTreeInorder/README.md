@@ -12,3 +12,5 @@ Runs in a single pass over the input.
 Edge case: NULL input is rejected by the caller, not by us.
 
 Time complexity: O(log n).
+
+Edge case: reverse-sorted input → still O(n log n).
