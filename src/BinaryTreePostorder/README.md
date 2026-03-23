@@ -610,3 +610,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 138
 
 Handles negative inputs as documented above.
+
+## entry 139
+
+Edge case: empty input → returns 0.
