@@ -612,3 +612,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 138
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 139
+
+Idempotent — calling twice with the same input is a no-op the second time.
