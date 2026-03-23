@@ -391,3 +391,7 @@
 ## entry 82
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 83
+
+- Persistent tree: every update creates a new version sharing unchanged nodes.
