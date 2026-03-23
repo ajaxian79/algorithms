@@ -469,3 +469,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 100
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 101
+
+Interval DP: solve all `[l, r]` ranges from short to long.
