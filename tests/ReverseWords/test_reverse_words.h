@@ -27,3 +27,4 @@ MunitTest reverse_words_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_REVERSE_WORDS_H
+// edge note 1: Edge case: single-element input → returns the element itself.
