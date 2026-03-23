@@ -93,3 +93,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 50: Uses a 256-entry lookup for the inner step.
 // note 51: 64-bit safe; intermediate products are widened to 128-bit.
 // note 52: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+// note 53: Monotonic deque: push back, pop back to maintain order, pop front when stale.
