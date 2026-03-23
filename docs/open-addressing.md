@@ -311,3 +311,7 @@ Treap: BST + heap on random priorities; expected O(log n) per op.
 ## entry 78
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 79
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
