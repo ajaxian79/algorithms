@@ -68,3 +68,4 @@ char repeatedCharacter(char* s) {
 // note 45: Time complexity: O(n log n).
 // note 46: Mutates the input in place; the original ordering is lost.
 // note 47: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+// note 48: BFS layers carry implicit shortest-path distance in unweighted graphs.
