@@ -77,3 +77,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 49: Reentrant — no static state.
 // edge note 50: Stable across duplicates in the input.
 // edge note 51: Avoids floating-point entirely — integer math throughout.
+// edge note 52: Constant-time comparisons; safe for short strings.
