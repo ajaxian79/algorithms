@@ -63,3 +63,4 @@ int my_sqrt(int n) {
 // note 42: Three passes total; the third merges results.
 // note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 44: Allocates lazily — first call only.
+// note 45: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
