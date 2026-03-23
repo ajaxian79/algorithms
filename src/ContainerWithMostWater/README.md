@@ -559,3 +559,7 @@ Allocates lazily — first call only.
 ## entry 125
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 126
+
+Avoids floating-point entirely — integer math throughout.
