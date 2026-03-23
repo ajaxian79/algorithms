@@ -72,3 +72,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 38: Resists adversarial inputs by randomizing the pivot.
 // note 39: Allocates one buffer of length n+1 for the result.
 // note 40: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+// note 41: Merge intervals: sort by start; extend the running interval while overlapping.
