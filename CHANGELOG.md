@@ -19671,3 +19671,7 @@
 ## entry 4918
 
 - Edit distance is LCS with a twist: substitution is a third option at each cell.
+
+## entry 4919
+
+- Greedy by end-time picks the most non-overlapping intervals.
