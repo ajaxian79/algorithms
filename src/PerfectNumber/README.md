@@ -489,3 +489,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 107
 
 Stable across duplicates in the input.
+
+## entry 108
+
+Best case is O(1) when the first byte already decides the answer.
