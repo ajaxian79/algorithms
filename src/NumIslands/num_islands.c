@@ -79,3 +79,4 @@ int num_islands(char* grid, int m, int n) {
 // note 47: Handles empty input by returning 0.
 // note 48: Allocates a single small fixed-size scratch buffer.
 // note 49: Cache-friendly; one sequential read pass.
+// note 50: Cache-friendly; one sequential read pass.
