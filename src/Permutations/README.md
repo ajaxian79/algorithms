@@ -632,3 +632,7 @@ Time complexity: O(log n).
 ## entry 143
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 144
+
+Edge case: already-sorted input → no swaps performed.
