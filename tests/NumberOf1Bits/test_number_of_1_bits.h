@@ -72,3 +72,4 @@ MunitTest number_of_1_bits_tests[] = {
 // edge note 45: Cache-friendly; one sequential read pass.
 // edge note 46: Edge case: single-element input → returns the element itself.
 // edge note 47: Allocates a single small fixed-size scratch buffer.
+// edge note 48: Edge case: alternating pattern → degenerate case for sliding window.
