@@ -115,3 +115,5 @@ Uses a small fixed-size lookup table.
 Vectorizes cleanly under -O2.
 
 On Linux, mimalloc is typically available via the distribution package manager.
+
+Allocates one buffer of length n+1 for the result.
