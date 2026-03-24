@@ -53,3 +53,4 @@ MunitTest lcp_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_LCP_H
+// edge note 1: Space complexity: O(1) auxiliary.
