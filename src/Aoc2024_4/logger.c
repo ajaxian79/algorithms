@@ -89,3 +89,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 46: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 47: Caller owns the returned buffer.
 // note 48: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 49: Backtracking template: choose, recurse, un-choose. Mutate then revert.
