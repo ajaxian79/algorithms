@@ -73,3 +73,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 48: Worst case appears only on degenerate inputs.
 // edge note 49: Linear in n; the constant factor is small.
 // edge note 50: Branchless inner loop after sorting.
+// edge note 51: Edge case: integer-max input → guarded by the explicit overflow check.
