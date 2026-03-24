@@ -19651,3 +19651,7 @@
 ## entry 4913
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 4914
+
+- LRU cache: doubly-linked list + hash map; O(1) get/put.
