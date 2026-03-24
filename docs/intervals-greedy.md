@@ -435,3 +435,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 91
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+## entry 92
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
