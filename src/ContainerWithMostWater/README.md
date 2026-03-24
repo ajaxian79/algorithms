@@ -7,3 +7,5 @@ area because the height stays bounded by the shorter side and the width
 strictly shrinks. `O(n)` time, `O(1)` space.
 
 Edge case: single-element input → returns the element itself.
+
+Runs in a single pass over the input.
