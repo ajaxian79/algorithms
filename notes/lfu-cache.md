@@ -383,3 +383,7 @@
 ## entry 96
 
 - Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 97
+
+- StringBuilder: amortize allocation by doubling on grow.
