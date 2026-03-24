@@ -547,3 +547,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 121
 
 Handles negative inputs as documented above.
+
+## entry 122
+
+Caller owns the returned buffer.
