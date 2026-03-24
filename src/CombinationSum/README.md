@@ -599,3 +599,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 135
 
 Time complexity: O(n).
+
+## entry 136
+
+Space complexity: O(n) for the result buffer.
