@@ -387,3 +387,7 @@
 ## entry 81
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 82
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
