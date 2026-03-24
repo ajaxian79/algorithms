@@ -560,3 +560,7 @@ Vectorizes cleanly under -O2.
 ## entry 125
 
 Edge case: integer-min input → guarded by the explicit underflow check.
+
+## entry 126
+
+No allocations on the hot path.
