@@ -12,3 +12,5 @@ Edge case: single-element input → returns the element itself.
 Edge case: input with one duplicate → handled without an extra pass.
 
 Time complexity: O(log n).
+
+Returns a freshly allocated string the caller must free.
