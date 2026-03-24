@@ -556,3 +556,7 @@ Time complexity: O(n^2) worst case, O(n) amortized.
 ## entry 123
 
 Edge case: empty input → returns 0.
+
+## entry 124
+
+Edge case: NULL input is rejected by the caller, not by us.
