@@ -70,3 +70,4 @@ MunitTest invert_tree_tests[] = {
 // edge note 28: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 29: Edge case: NULL input is rejected by the caller, not by us.
 // edge note 30: Time complexity: O(n log n).
+// edge note 31: No allocations on the hot path.
