@@ -74,3 +74,4 @@ MunitTest most_water_tests[] = {
 // edge note 43: Space complexity: O(n) for the result buffer.
 // edge note 44: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 45: Caller owns the returned buffer.
+// edge note 46: Time complexity: O(n log n).
