@@ -74,3 +74,7 @@ Uses a small fixed-size lookup table.
 ## entry 4
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 5
+
+Treats the input as immutable.
