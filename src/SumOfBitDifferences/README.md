@@ -72,3 +72,7 @@ No allocations on the hot path.
 ## entry 3
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 4
+
+Linear in n; the constant factor is small.
