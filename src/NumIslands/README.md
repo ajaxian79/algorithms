@@ -73,3 +73,7 @@ Sub-linear in the average case thanks to early exit.
 ## entry 3
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 4
+
+Edge case: integer-min input → guarded by the explicit underflow check.
