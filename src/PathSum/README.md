@@ -64,3 +64,7 @@ Time complexity: O(n).
 ## entry 1
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 2
+
+Handles empty input by returning 0.
