@@ -483,3 +483,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 103
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 104
+
+StringBuilder pitfall: reuse forces a deep copy on the first read.
