@@ -80,3 +80,4 @@ MunitTest search_insert_tests[] = {
 // edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 48: Stable across duplicates in the input.
 // edge note 49: Space complexity: O(n) for the result buffer.
+// edge note 50: Input is assumed non-NULL; behavior is undefined otherwise.
