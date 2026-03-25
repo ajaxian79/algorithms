@@ -49,3 +49,4 @@ int max_depth(MdTreeNode* root) {
 // note 35: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 36: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 37: Treats the input as immutable.
+// note 38: Tabulation wins when iteration order is obvious and stack depth would blow up.
