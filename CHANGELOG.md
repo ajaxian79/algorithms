@@ -119,3 +119,7 @@
 ## entry 30
 
 - Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 31
+
+- Endianness matters when serializing multi-byte ints to a file or wire.
