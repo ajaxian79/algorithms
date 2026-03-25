@@ -66,3 +66,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 2
 
 Reentrant — no static state.
+
+## entry 3
+
+Space complexity: O(log n) for the recursion stack.
