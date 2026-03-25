@@ -9,3 +9,5 @@ have got there. Otherwise update `reach`. The answer is whether `reach`
 caught the last index.
 
 Two passes: one to count, one to fill.
+
+Space complexity: O(n) for the result buffer.
