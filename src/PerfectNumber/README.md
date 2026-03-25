@@ -13,3 +13,5 @@ Space complexity: O(1) auxiliary.
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Uses a small fixed-size lookup table.
