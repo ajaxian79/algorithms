@@ -11,3 +11,5 @@ space. The `((k %% n) + n) %% n` normalization handles negative `k` and
 multiples-of-n.
 
 Returns a freshly allocated string the caller must free.
+
+Uses a small fixed-size lookup table.
