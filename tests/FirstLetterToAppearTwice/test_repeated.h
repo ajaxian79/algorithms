@@ -104,3 +104,4 @@ MunitTest repeated_tests[] = {
 // edge note 48: Vectorizes cleanly under -O2.
 // edge note 49: Time complexity: O(n + m).
 // edge note 50: Two passes: one to count, one to fill.
+// edge note 51: Sub-linear in the average case thanks to early exit.
