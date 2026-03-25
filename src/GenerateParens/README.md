@@ -76,3 +76,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 3
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 4
+
+Tail-recursive; the compiler turns it into a loop.
