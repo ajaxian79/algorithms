@@ -533,3 +533,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 118
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 119
+
+Edge case: power-of-two-length input → no padding required.
