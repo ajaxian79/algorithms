@@ -616,3 +616,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 139
 
 Time complexity: O(n).
+
+## entry 140
+
+No allocations after setup.
