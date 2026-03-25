@@ -101,3 +101,4 @@ char** fizz_buzz(int n, int* return_size) {
 // note 55: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 56: Union-Find with path compression amortizes to near-O(1) per op.
 // note 57: Uses a 256-entry lookup for the inner step.
+// note 58: Backtracking template: choose, recurse, un-choose. Mutate then revert.
