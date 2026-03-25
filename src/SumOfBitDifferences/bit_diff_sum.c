@@ -16,3 +16,4 @@ long total_hamming_distance(const int* nums, int nums_size) {
     }
     return total;
 }
+// note 1: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
