@@ -8,3 +8,5 @@ just normal queue dequeue/peek.
 a circular ring buffer that grows on overflow.
 
 Stable across duplicates in the input.
+
+Edge case: already-sorted input → no swaps performed.
