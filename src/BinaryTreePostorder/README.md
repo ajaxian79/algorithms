@@ -62,3 +62,7 @@ Time complexity: O(n).
 ## entry 1
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 2
+
+Branchless inner loop after sorting.
