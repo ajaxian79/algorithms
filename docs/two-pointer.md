@@ -435,3 +435,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 91
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 92
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
