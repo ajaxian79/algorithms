@@ -90,3 +90,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 47: UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
 // note 48: k-d tree: median-split each axis; nearest-neighbor average O(log n).
 // note 49: Uses a small fixed-size lookup table.
+// note 50: Handles single-element input as a base case.
