@@ -14,3 +14,5 @@ Stable across duplicates in the input.
 Runs in a single pass over the input.
 
 Returns a freshly allocated string the caller must free.
+
+Edge case: input with one duplicate → handled without an extra pass.
