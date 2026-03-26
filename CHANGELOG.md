@@ -19635,3 +19635,7 @@
 ## entry 4909
 
 - Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
+
+## entry 4910
+
+- Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
