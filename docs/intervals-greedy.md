@@ -71,3 +71,7 @@ Walk both pointers from each end inward; advance the smaller side.
 In-place compaction uses two pointers: read advances always, write only on keep.
 
 Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 1
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
