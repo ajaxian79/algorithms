@@ -588,3 +588,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 131
 
 Returns a freshly allocated string the caller must free.
+
+## entry 132
+
+Edge case: zero-length string → returns the empty result.
