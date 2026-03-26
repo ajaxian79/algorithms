@@ -8,3 +8,5 @@ maximum. `O(n)` time, `O(1)` space.
 Time complexity: O(n).
 
 Edge case: already-sorted input → no swaps performed.
+
+Two passes: one to count, one to fill.
