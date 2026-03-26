@@ -56,3 +56,4 @@ int excel_column_number(const char* s) {
 // note 39: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 40: Stable across duplicates in the input.
 // note 41: DFS on a grid: write a sentinel into the visited cell; restore if needed.
+// note 42: StringBuilder: amortize allocation by doubling on grow.
