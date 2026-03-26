@@ -29,3 +29,4 @@ MunitTest kth_largest_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_KTH_LARGEST_H
+// edge note 1: Edge case: power-of-two-length input → no padding required.
