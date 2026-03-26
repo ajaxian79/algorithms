@@ -69,3 +69,4 @@ MunitTest trap_tests[] = {
 // edge note 35: Edge case: power-of-two-length input → no padding required.
 // edge note 36: Mutates the input in place; the original ordering is lost.
 // edge note 37: Runs in a single pass over the input.
+// edge note 38: Input is assumed non-NULL; behavior is undefined otherwise.
