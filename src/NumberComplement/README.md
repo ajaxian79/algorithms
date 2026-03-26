@@ -568,3 +568,7 @@ Space complexity: O(1) auxiliary.
 ## entry 126
 
 No allocations on the hot path.
+
+## entry 127
+
+Caller owns the returned buffer.
