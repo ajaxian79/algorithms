@@ -111,3 +111,5 @@ Treats the input as immutable.
 Allocates lazily — first call only.
 
 Uses a small fixed-size lookup table.
+
+Vectorizes cleanly under -O2.
