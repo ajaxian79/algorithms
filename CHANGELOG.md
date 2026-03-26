@@ -115,3 +115,7 @@
 ## entry 29
 
 - ASCII rules are a strict subset of UTF-8; no special handling needed.
+
+## entry 30
+
+- Merge intervals: sort by start; extend the running interval while overlapping.
