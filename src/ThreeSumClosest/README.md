@@ -8,3 +8,5 @@ distance to the target. `O(n²)` time.
 Edge case: single-element input → returns the element itself.
 
 No allocations on the hot path.
+
+Edge case: already-sorted input → no swaps performed.
