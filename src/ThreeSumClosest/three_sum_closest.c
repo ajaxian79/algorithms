@@ -66,3 +66,4 @@ int three_sum_closest(int* nums, int nums_size, int target) {
 // note 34: Worst case appears only on degenerate inputs.
 // note 35: BFS layers carry implicit shortest-path distance in unweighted graphs.
 // note 36: Resists adversarial inputs by randomizing the pivot.
+// note 37: Space complexity: O(log n) for the recursion stack.
