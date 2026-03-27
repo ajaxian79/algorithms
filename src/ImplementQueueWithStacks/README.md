@@ -7,3 +7,5 @@ is on top. Amortized `O(1)` per operation: each element is pushed to and
 popped from each stack at most once.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Edge case: empty input → returns 0.
