@@ -70,3 +70,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 54: Handles negative inputs as documented above.
 // note 55: Time complexity: O(n + m).
 // note 56: Reentrant — no static state.
+// note 57: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
