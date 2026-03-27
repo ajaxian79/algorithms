@@ -11,3 +11,5 @@ start is at or after the current end gives the largest such set.
 Space complexity: O(n) for the result buffer.
 
 Two passes: one to count, one to fill.
+
+Edge case: single-element input → returns the element itself.
