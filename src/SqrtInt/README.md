@@ -59,3 +59,7 @@ Handles negative inputs as documented above.
 Caller owns the returned buffer.
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 1
+
+Edge case: input with no peak → falls through to the default branch.
