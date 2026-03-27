@@ -62,3 +62,7 @@ Tail-recursive; the compiler turns it into a loop.
 Time complexity: O(1).
 
 Uses a small fixed-size lookup table.
+
+## entry 1
+
+Caller owns the returned buffer.
