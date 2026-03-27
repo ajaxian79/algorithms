@@ -12,3 +12,5 @@ Space complexity: O(1) auxiliary.
 Stable across duplicates in the input.
 
 Runs in a single pass over the input.
+
+Returns a freshly allocated string the caller must free.
