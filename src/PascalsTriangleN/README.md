@@ -10,3 +10,5 @@ this version keeps every row distinct so the caller can inspect the whole
 triangle without re-deriving rows.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Edge case: input with one duplicate → handled without an extra pass.
