@@ -395,3 +395,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 99
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 100
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
