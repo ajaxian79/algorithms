@@ -90,3 +90,4 @@ char* count_and_say(int n) {
 // note 41: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 43: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 44: DFS on a grid: write a sentinel into the visited cell; restore if needed.
