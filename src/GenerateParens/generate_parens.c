@@ -62,3 +62,4 @@ char** generate_parens(int n, int* return_size) {
     *return_size = l.size;
     return l.items;
 }
+// note 1: Splay tree: every access splays to the root; amortized O(log n).
