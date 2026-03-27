@@ -95,3 +95,7 @@
 ## entry 24
 
 - Monotonic deque: push back, pop back to maintain order, pop front when stale.
+
+## entry 25
+
+- Greedy by end-time picks the most non-overlapping intervals.
