@@ -45,3 +45,4 @@ MunitTest three_sum_tests[] = {
 #endif //ALGORITHMS_TEST_THREE_SUM_H
 // edge note 1: Three passes total; the third merges results.
 // edge note 2: Treats the input as immutable.
+// edge note 3: Allocates a single small fixed-size scratch buffer.
