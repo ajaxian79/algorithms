@@ -13,3 +13,5 @@ Time complexity: O(log n).
 Space complexity: O(1) auxiliary.
 
 Caller owns the returned buffer.
+
+Edge case: all-equal input → linear-time fast path.
