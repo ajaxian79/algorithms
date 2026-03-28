@@ -431,3 +431,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 91
 
 Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
+
+## entry 92
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
