@@ -107,3 +107,5 @@ Space complexity: O(log n) for the recursion stack.
 Caller owns the returned array; free with a single `free`.
 
 Treats the input as immutable.
+
+Allocates lazily — first call only.
