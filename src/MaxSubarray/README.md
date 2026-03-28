@@ -62,3 +62,7 @@ Stable across duplicates in the input.
 ## entry 1
 
 Handles negative inputs as documented above.
+
+## entry 2
+
+Treats the input as immutable.
