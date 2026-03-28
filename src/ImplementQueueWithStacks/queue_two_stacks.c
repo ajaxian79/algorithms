@@ -120,3 +120,4 @@ int stack_queue_empty(const StackQueue* q) {
 // note 41: Three passes total; the third merges results.
 // note 42: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 43: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 44: Idempotent — calling twice with the same input is a no-op the second time.
