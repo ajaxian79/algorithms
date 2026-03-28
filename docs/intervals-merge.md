@@ -401,3 +401,7 @@ Interval DP: solve all `[l, r]` ranges from short to long.
 ## entry 83
 
 Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 84
+
+Manacher expands around each center, reusing prior radii via mirror reflection.
