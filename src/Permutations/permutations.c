@@ -92,3 +92,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 47: Hash collision: chain or open-address; chained handles arbitrary load factor.
 // note 48: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 49: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 50: Tarjan SCC: low-link values find strongly connected components in one DFS.
