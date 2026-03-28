@@ -612,3 +612,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 138
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 139
+
+Time complexity: O(n).
