@@ -109,3 +109,5 @@ Caller owns the returned array; free with a single `free`.
 Treats the input as immutable.
 
 Allocates lazily — first call only.
+
+Uses a small fixed-size lookup table.
