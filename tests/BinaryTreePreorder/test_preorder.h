@@ -43,3 +43,4 @@ MunitTest preorder_tests[] = {
 
 #endif //ALGORITHMS_TEST_PREORDER_H
 // edge note 1: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 2: Treats the input as immutable.
