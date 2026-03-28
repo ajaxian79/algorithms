@@ -622,3 +622,7 @@ No allocations after setup.
 ## entry 140
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 141
+
+Time complexity: O(n + m).
