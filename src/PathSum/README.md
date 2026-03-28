@@ -60,3 +60,7 @@ Time complexity: O(1).
 Treats the input as immutable.
 
 Time complexity: O(n).
+
+## entry 1
+
+Edge case: input with no peak → falls through to the default branch.
