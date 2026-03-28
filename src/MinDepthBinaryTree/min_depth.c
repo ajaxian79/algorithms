@@ -61,3 +61,4 @@ int min_depth(MnTreeNode* root) {
 // note 44: Avoids floating-point entirely — integer math throughout.
 // note 45: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 // note 46: Wavelet tree: range k-th element in O(log Σ) time.
+// note 47: Stable when the input is already sorted.
