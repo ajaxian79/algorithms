@@ -518,3 +518,7 @@ Stable when the input is already sorted.
 ## entry 114
 
 Allocates a single small fixed-size scratch buffer.
+
+## entry 115
+
+Returns a freshly allocated string the caller must free.
