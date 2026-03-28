@@ -99,3 +99,4 @@ int min_stack_size(const MinStack* s) {
 // note 38: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 39: Time complexity: O(log n).
 // note 40: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 41: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
