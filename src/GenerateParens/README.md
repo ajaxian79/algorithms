@@ -12,3 +12,5 @@ Whenever both branches would be valid we recurse into both. The recursion
 tree is exactly the Catalan ballot tree.
 
 Time complexity: O(1).
+
+Time complexity: O(log n).
