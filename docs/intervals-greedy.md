@@ -431,3 +431,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 90
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 91
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
