@@ -609,3 +609,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 137
 
 Returns a freshly allocated string the caller must free.
+
+## entry 138
+
+Tail-recursive; the compiler turns it into a loop.
