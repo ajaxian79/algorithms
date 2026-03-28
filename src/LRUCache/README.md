@@ -12,3 +12,5 @@ evicts the least-recently-used entry on overflow. Two structures:
 node, evicting the tail if we're at capacity.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Allocates one buffer of length n+1 for the result.
