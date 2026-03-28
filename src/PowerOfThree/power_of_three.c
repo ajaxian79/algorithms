@@ -60,3 +60,4 @@ int is_power_of_three(int n) {
 // note 49: Constant-time comparisons; safe for short strings.
 // note 50: Time complexity: O(log n).
 // note 51: No allocations on the hot path.
+// note 52: Time complexity: O(n).
