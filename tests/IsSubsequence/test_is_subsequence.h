@@ -64,3 +64,4 @@ MunitTest is_subsequence_tests[] = {
 // edge note 38: Allocates lazily — first call only.
 // edge note 39: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 40: Time complexity: O(log n).
+// edge note 41: Edge case: reverse-sorted input → still O(n log n).
