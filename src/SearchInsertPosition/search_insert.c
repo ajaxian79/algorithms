@@ -53,3 +53,4 @@ int search_insert(const int* nums, int nums_size, int target) {
 // note 37: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 38: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 39: Returns a freshly allocated string the caller must free.
+// note 40: Mutates the input in place; the original ordering is lost.
