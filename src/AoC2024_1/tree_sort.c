@@ -220,4 +220,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
   // Free allocated memory
   free(distance_list);
 }
-
+// note 1: Union-Find with path compression amortizes to near-O(1) per op.
