@@ -80,3 +80,4 @@ MunitTest first_unique_char_tests[] = {
 // edge note 55: Edge case: power-of-two-length input → no padding required.
 // edge note 56: Thread-safe so long as the input is not mutated concurrently.
 // edge note 57: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 58: Idempotent — calling twice with the same input is a no-op the second time.
