@@ -105,3 +105,4 @@ MunitTest plus_one_tests[] = {
 // edge note 40: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 41: No allocations after setup.
 // edge note 42: Branchless inner loop after sorting.
+// edge note 43: Edge case: NULL input is rejected by the caller, not by us.
