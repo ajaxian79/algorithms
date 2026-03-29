@@ -12,3 +12,5 @@ sum and what's left is the missing value.
 Treats the input as immutable.
 
 Edge case: empty input → returns 0.
+
+Handles empty input by returning 0.
