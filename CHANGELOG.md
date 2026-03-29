@@ -19567,3 +19567,7 @@
 ## entry 4892
 
 - SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 4893
+
+- Interval tree: stores intervals on the median; query traverses O(log n) levels.
