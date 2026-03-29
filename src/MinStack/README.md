@@ -6,3 +6,5 @@ the new min is `min(val, previous_min)`. Pop only changes which frame is
 on top; the recorded mins remain consistent.
 
 Space complexity: O(1) auxiliary.
+
+Two passes: one to count, one to fill.
