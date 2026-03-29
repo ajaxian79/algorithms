@@ -435,3 +435,7 @@ DFS on a grid: write a sentinel into the visited cell; restore if needed.
 ## entry 92
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 93
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
