@@ -347,3 +347,7 @@
 ## entry 87
 
 - Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
+
+## entry 88
+
+- Monotonic deque: push back, pop back to maintain order, pop front when stale.
