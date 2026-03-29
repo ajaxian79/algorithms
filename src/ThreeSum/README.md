@@ -7,3 +7,5 @@ all three positions.
 
 `O(n²)` time, dominated by the inner two-pointer pass; `O(1)` extra space
 besides the output buffer.
+
+Caller owns the returned buffer.
