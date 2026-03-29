@@ -63,3 +63,7 @@ Edit distance is LCS with a twist: substitution is a third option at each cell.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 1
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
