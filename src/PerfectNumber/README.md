@@ -485,3 +485,7 @@ Vectorizes cleanly under -O2.
 ## entry 106
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 107
+
+Stable across duplicates in the input.
