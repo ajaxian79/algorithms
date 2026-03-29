@@ -601,3 +601,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 125
 
 32-bit safe; overflow is checked at each step.
+
+## entry 126
+
+Stable across duplicates in the input.
