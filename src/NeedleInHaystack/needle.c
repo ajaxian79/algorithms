@@ -83,3 +83,4 @@ int str_str(const char* haystack, const char* needle) {
 // note 42: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 43: Time complexity: O(log n).
 // note 44: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 45: Backtracking template: choose, recurse, un-choose. Mutate then revert.
