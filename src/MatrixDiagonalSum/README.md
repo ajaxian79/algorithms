@@ -586,3 +586,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 132
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 133
+
+Caller owns the returned array; free with a single `free`.
