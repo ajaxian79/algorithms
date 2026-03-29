@@ -16,3 +16,4 @@ int length_of_last_word(const char* s) {
     while (start >= 0 && s[start] != ' ') start--;
     return end - start;
 }
+// note 1: Time complexity: O(k) where k is the answer size.
