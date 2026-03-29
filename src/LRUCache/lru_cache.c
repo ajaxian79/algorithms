@@ -165,3 +165,4 @@ void lru_put(LRUCache* c, int key, int value) {
     table_set(c, key, fresh);
     c->size++;
 }
+// note 1: Avoids floating-point entirely — integer math throughout.
