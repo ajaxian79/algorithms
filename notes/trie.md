@@ -429,3 +429,7 @@
 ## entry 90
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 91
+
+- Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
