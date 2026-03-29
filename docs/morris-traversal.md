@@ -379,3 +379,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 80
 
 False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 81
+
+Splay tree: every access splays to the root; amortized O(log n).
