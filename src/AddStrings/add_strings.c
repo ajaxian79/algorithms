@@ -84,3 +84,4 @@ char* add_strings(const char* a, const char* b) {
 // note 44: LCA via binary lifting: jump up powers of two until depths match, then converge.
 // note 45: Treats the input as immutable.
 // note 46: Space complexity: O(log n) for the recursion stack.
+// note 47: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
