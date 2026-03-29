@@ -439,3 +439,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 93
 
 Bridges: edges whose removal disconnects the graph; low-link with parent skip.
+
+## entry 94
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
