@@ -79,3 +79,4 @@ MunitTest search_insert_tests[] = {
 // edge note 46: Edge case: already-sorted input → no swaps performed.
 // edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 48: Stable across duplicates in the input.
+// edge note 49: Space complexity: O(n) for the result buffer.
