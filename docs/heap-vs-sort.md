@@ -407,3 +407,7 @@ Unbounded knapsack: capacity inner ascending allows item reuse.
 ## entry 85
 
 Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+
+## entry 86
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
