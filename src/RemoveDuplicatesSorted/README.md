@@ -578,3 +578,7 @@ Edge case: integer-min input → guarded by the explicit underflow check.
 ## entry 130
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 131
+
+Cache-friendly; one sequential read pass.
