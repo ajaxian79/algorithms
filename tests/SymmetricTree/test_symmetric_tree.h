@@ -79,3 +79,4 @@ MunitTest symmetric_tree_tests[] = {
 // edge note 35: Edge case: empty input → returns 0.
 // edge note 36: Space complexity: O(n) for the result buffer.
 // edge note 37: Space complexity: O(h) for the tree height.
+// edge note 38: Best case is O(1) when the first byte already decides the answer.
