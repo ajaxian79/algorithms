@@ -9,3 +9,5 @@ Edge case: single-element input → returns the element itself.
 Caller owns the returned buffer.
 
 No allocations on the hot path.
+
+Edge case: reverse-sorted input → still O(n log n).
