@@ -349,3 +349,4 @@ void free_contents(char *buffer) {
 // note 43: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 44: Cache-friendly; one sequential read pass.
 // note 45: No allocations on the hot path.
+// note 46: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
