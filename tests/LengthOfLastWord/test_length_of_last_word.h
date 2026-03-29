@@ -67,3 +67,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 41: Best case is O(1) when the first byte already decides the answer.
 // edge note 42: Edge case: power-of-two-length input → no padding required.
+// edge note 43: Uses a 256-entry lookup for the inner step.
