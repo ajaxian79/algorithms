@@ -81,3 +81,4 @@ MunitTest excel_column_number_tests[] = {
 // edge note 51: No allocations on the hot path.
 // edge note 52: Edge case: zero-length string → returns the empty result.
 // edge note 53: Edge case: zero-length string → returns the empty result.
+// edge note 54: Space complexity: O(1) auxiliary.
