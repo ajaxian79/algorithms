@@ -6,3 +6,5 @@ and then reverse the buffer. The reversed sequence is `left, right, root`
 — which is postorder. Linear time, linear space.
 
 Returns a freshly allocated string the caller must free.
+
+Time complexity: O(n log n).
