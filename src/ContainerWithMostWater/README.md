@@ -547,3 +547,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 122
 
 Best case is O(1) when the first byte already decides the answer.
+
+## entry 123
+
+Allocates a single small fixed-size scratch buffer.
