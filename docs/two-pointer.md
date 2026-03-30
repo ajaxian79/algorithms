@@ -71,3 +71,7 @@ Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
 
 BFS layers carry implicit shortest-path distance in unweighted graphs.
+
+## entry 1
+
+Walk both pointers from each end inward; advance the smaller side.
