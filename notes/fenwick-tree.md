@@ -11,3 +11,5 @@
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+- Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
