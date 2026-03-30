@@ -395,3 +395,7 @@
 ## entry 99
 
 - Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 100
+
+- Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
