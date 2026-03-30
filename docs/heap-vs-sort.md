@@ -403,3 +403,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 84
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 85
+
+Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
