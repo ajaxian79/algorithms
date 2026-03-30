@@ -481,3 +481,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 105
 
 Vectorizes cleanly under -O2.
+
+## entry 106
+
+Tail-recursive; the compiler turns it into a loop.
