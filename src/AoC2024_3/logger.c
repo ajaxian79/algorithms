@@ -89,3 +89,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 46: Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
 // note 47: Time complexity: O(n log n).
 // note 48: Allocates lazily — first call only.
+// note 49: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
