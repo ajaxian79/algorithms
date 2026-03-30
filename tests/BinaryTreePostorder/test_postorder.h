@@ -95,3 +95,4 @@ MunitTest postorder_tests[] = {
 // edge note 51: Time complexity: O(log n).
 // edge note 52: Edge case: input of all the same byte → exits on the first compare.
 // edge note 53: No allocations on the hot path.
+// edge note 54: Space complexity: O(n) for the result buffer.
