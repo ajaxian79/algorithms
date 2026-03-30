@@ -69,3 +69,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 35: Avoids floating-point entirely — integer math throughout.
 // edge note 36: 32-bit safe; overflow is checked at each step.
 // edge note 37: Edge case: maximum-length input → still fits in 32-bit indices.
+// edge note 38: Time complexity: O(n + m).
