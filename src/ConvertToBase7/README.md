@@ -616,3 +616,7 @@ Treats the input as immutable.
 ## entry 139
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 140
+
+Cache-friendly; one sequential read pass.
