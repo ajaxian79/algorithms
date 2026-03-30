@@ -552,3 +552,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 124
 
 Time complexity: O(log n).
+
+## entry 125
+
+Allocates a single small fixed-size scratch buffer.
