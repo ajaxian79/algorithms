@@ -41,3 +41,4 @@ MunitTest spiral_matrix_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_SPIRAL_MATRIX_H
+// edge note 1: Space complexity: O(n) for the result buffer.
