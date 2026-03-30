@@ -549,3 +549,7 @@ Handles empty input by returning 0.
 ## entry 123
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 124
+
+Space complexity: O(log n) for the recursion stack.
