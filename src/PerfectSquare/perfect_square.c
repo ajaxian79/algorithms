@@ -53,3 +53,4 @@ int is_perfect_square(int n) {
 // note 34: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 35: Walk both pointers from each end inward; advance the smaller side.
 // note 36: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+// note 37: BFS layers carry implicit shortest-path distance in unweighted graphs.
