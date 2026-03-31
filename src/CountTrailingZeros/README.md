@@ -582,3 +582,7 @@ Caller owns the returned buffer.
 ## entry 130
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+## entry 131
+
+Edge case: input with no peak → falls through to the default branch.
