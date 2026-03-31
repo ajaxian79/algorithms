@@ -331,3 +331,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 83
 
 Splay tree: every access splays to the root; amortized O(log n).
+
+## entry 84
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
