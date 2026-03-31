@@ -10,3 +10,5 @@ arbitrarily unlikely on sorted-or-near-sorted inputs. Lomuto partition
 keeps the implementation short.
 
 The function is destructive: the input array is rearranged.
+
+Runs in a single pass over the input.
