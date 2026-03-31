@@ -391,3 +391,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 98
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 99
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
