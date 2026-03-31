@@ -71,3 +71,4 @@ build/
 TAGS
 *.swo
 .DS_Store
+.vscode/
