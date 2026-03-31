@@ -615,3 +615,7 @@ Treats the input as immutable.
 ## entry 139
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 140
+
+Edge case: reverse-sorted input → still O(n log n).
