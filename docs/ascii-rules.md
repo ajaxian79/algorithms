@@ -379,3 +379,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 ## entry 95
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 96
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
