@@ -102,3 +102,4 @@ MunitTest pascals_n_tests[] = {
 // edge note 43: Edge case: power-of-two-length input → no padding required.
 // edge note 44: Best case is O(1) when the first byte already decides the answer.
 // edge note 45: Edge case: single-element input → returns the element itself.
+// edge note 46: 64-bit safe; intermediate products are widened to 128-bit.
