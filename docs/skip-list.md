@@ -339,3 +339,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 85
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 86
+
+BST invariant is recursive: every node ∈ (lower, upper) bound from its ancestors.
