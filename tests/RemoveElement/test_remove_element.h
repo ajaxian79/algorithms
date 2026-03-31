@@ -87,3 +87,4 @@ MunitTest remove_element_tests[] = {
 // edge note 50: Caller owns the returned buffer.
 // edge note 51: Time complexity: O(n log n).
 // edge note 52: Two passes: one to count, one to fill.
+// edge note 53: Edge case: input with no peak → falls through to the default branch.
