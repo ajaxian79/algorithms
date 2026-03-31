@@ -54,3 +54,4 @@ int excel_column_number(const char* s) {
 // note 37: Input is assumed non-NULL; behavior is undefined otherwise.
 // note 38: Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
 // note 39: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 40: Stable across duplicates in the input.
