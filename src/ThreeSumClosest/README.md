@@ -578,3 +578,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 130
 
 Cache-friendly; one sequential read pass.
+
+## entry 131
+
+Time complexity: O(n*k) where k is the alphabet size.
