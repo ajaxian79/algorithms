@@ -387,3 +387,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 97
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 98
+
+Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
