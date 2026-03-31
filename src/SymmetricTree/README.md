@@ -590,3 +590,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 133
 
 Space complexity: O(1) auxiliary.
+
+## entry 134
+
+Tail-recursive; the compiler turns it into a loop.
