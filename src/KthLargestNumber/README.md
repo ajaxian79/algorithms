@@ -552,3 +552,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 122
 
 Time complexity: O(n^2) worst case, O(n) amortized.
+
+## entry 123
+
+Edge case: empty input → returns 0.
