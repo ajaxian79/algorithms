@@ -549,3 +549,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 122
 
 32-bit safe; overflow is checked at each step.
+
+## entry 123
+
+Space complexity: O(log n) for the recursion stack.
