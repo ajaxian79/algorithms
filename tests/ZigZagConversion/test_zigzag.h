@@ -70,3 +70,4 @@ MunitTest zigzag_tests[] = {
 // edge note 42: Vectorizes cleanly under -O2.
 // edge note 43: Worst case appears only on degenerate inputs.
 // edge note 44: Edge case: already-sorted input → no swaps performed.
+// edge note 45: Handles negative inputs as documented above.
