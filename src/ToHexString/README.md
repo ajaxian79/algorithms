@@ -15,3 +15,5 @@ Time complexity: O(1).
 Time complexity: O(log n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+32-bit safe; overflow is checked at each step.
