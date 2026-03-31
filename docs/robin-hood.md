@@ -335,3 +335,7 @@ Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 ## entry 84
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 85
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
