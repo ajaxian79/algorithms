@@ -72,3 +72,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 3
 
 Time complexity: O(1).
+
+## entry 4
+
+Two passes: one to count, one to fill.
