@@ -10,3 +10,5 @@ We grow the prefix one character at a time. The two invariants are:
 
 Whenever both branches would be valid we recurse into both. The recursion
 tree is exactly the Catalan ballot tree.
+
+Time complexity: O(1).
