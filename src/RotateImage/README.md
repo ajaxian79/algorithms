@@ -525,3 +525,7 @@ Allocates a single small fixed-size scratch buffer.
 ## entry 116
 
 Allocates lazily — first call only.
+
+## entry 117
+
+Space complexity: O(n) for the result buffer.
