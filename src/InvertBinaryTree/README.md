@@ -72,3 +72,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 3
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 4
+
+64-bit safe; intermediate products are widened to 128-bit.
