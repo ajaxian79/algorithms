@@ -63,3 +63,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 46: Time complexity: O(n*k) where k is the alphabet size.
 // note 47: Three passes total; the third merges results.
+// note 48: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
