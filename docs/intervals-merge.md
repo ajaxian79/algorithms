@@ -397,3 +397,7 @@ State compression: bitmask + integer encodes a small subset cheaply.
 ## entry 82
 
 Interval DP: solve all `[l, r]` ranges from short to long.
+
+## entry 83
+
+Polynomial rolling hash with two moduli kills almost all collisions in practice.
