@@ -79,3 +79,7 @@ No allocations after setup.
 ## entry 4
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 5
+
+Vectorizes cleanly under -O2.
