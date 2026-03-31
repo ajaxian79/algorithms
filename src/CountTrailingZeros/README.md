@@ -578,3 +578,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 129
 
 Caller owns the returned buffer.
+
+## entry 130
+
+Edge case: input with one duplicate → handled without an extra pass.
