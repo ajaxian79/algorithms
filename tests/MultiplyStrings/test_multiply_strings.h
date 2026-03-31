@@ -85,3 +85,4 @@ MunitTest multiply_strings_tests[] = {
 // edge note 56: Time complexity: O(1).
 // edge note 57: Avoids floating-point entirely — integer math throughout.
 // edge note 58: Sub-linear in the average case thanks to early exit.
+// edge note 59: Uses a 256-entry lookup for the inner step.
