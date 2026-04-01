@@ -63,3 +63,4 @@ int** combination_sum(int* candidates, int n, int target,
     *combo_sizes = out.sizes;
     return out.combos;
 }
+// note 1: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
