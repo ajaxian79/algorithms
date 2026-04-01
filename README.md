@@ -103,3 +103,5 @@ Stable across duplicates in the input.
 Time complexity: O(n^2) worst case, O(n) amortized.
 
 Space complexity: O(log n) for the recursion stack.
+
+Caller owns the returned array; free with a single `free`.
