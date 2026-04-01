@@ -10,3 +10,5 @@ The intervals are laid out flat as `[s0, e0, s1, e1, ...]` so we can sort
 them as pairs of `int` with a pair-size comparator.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Uses a small fixed-size lookup table.
