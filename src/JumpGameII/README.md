@@ -6,3 +6,5 @@ rules as Jump Game I. The greedy linear-time approach: think of jumps as
 the current level; `farthest` is the rightmost reachable in the next.
 Whenever we reach `current_end`, we must take a jump; advance to
 `farthest`. Stop as soon as the next level reaches the last index.
+
+Edge case: NULL input is rejected by the caller, not by us.
