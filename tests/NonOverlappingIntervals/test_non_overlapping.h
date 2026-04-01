@@ -29,3 +29,4 @@ MunitTest non_overlapping_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_NON_OVERLAPPING_H
+// edge note 1: Edge case: all-equal input → linear-time fast path.
