@@ -8,3 +8,5 @@ Whenever we reach `current_end`, we must take a jump; advance to
 `farthest`. Stop as soon as the next level reaches the last index.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+Uses a small fixed-size lookup table.
