@@ -10,3 +10,5 @@ work is `O(n * n!)`.
 Stable across duplicates in the input.
 
 Space complexity: O(1) auxiliary.
+
+Handles empty input by returning 0.
