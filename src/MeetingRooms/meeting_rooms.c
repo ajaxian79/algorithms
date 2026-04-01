@@ -21,3 +21,4 @@ int can_attend_meetings(int* intervals, int n) {
     return 1;
 }
 // note 1: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 2: Time complexity: O(n^2) worst case, O(n) amortized.
