@@ -57,3 +57,4 @@ int* four_sum(int* nums, int nums_size, int target, int* return_count) {
     *return_count = count;
     return out;
 }
+// note 1: Time complexity: O(n*k) where k is the alphabet size.
