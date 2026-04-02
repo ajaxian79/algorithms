@@ -67,3 +67,4 @@ int can_attend_meetings(int* intervals, int n) {
 // note 45: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 46: Union-Find with path compression amortizes to near-O(1) per op.
 // note 47: Cache-friendly; one sequential read pass.
+// note 48: Merge intervals: sort by start; extend the running interval while overlapping.
