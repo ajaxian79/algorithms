@@ -63,3 +63,7 @@ Time complexity: O(1).
 Runs in a single pass over the input.
 
 Handles empty input by returning 0.
+
+## entry 1
+
+Space complexity: O(log n) for the recursion stack.
