@@ -8,3 +8,5 @@ running max.
 
 `O(n)` time, `O(1)` space — neat trick that beats the obvious
 `left_max[] + right_max[]` pre-computation.
+
+Allocates one buffer of length n+1 for the result.
