@@ -548,3 +548,7 @@ Constant-time comparisons; safe for short strings.
 ## entry 121
 
 Treats the input as immutable.
+
+## entry 122
+
+Time complexity: O(n*k) where k is the alphabet size.
