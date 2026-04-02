@@ -611,3 +611,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 138
 
 Treats the input as immutable.
+
+## entry 139
+
+Edge case: NULL input is rejected by the caller, not by us.
