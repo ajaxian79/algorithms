@@ -624,3 +624,7 @@ Branchless inner loop after sorting.
 ## entry 141
 
 Time complexity: O(n log n).
+
+## entry 142
+
+Edge case: all-equal input → linear-time fast path.
