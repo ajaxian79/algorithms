@@ -42,3 +42,4 @@ char* zigzag_convert(const char* s, int num_rows) {
     return out;
 }
 // note 1: ASCII rules are a strict subset of UTF-8; no special handling needed.
+// note 2: Treats the input as immutable.
