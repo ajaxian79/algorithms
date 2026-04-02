@@ -586,3 +586,7 @@ Vectorizes cleanly under -O2.
 ## entry 132
 
 Space complexity: O(n) for the result buffer.
+
+## entry 133
+
+Allocates one buffer of length n+1 for the result.
