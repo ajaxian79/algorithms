@@ -73,3 +73,4 @@ int is_anagram(const char* s, const char* t) {
 // note 44: Pick a pivot, partition, recurse on the side that contains the kth slot.
 // note 45: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 // note 46: Wavelet tree: range k-th element in O(log Σ) time.
+// note 47: Merge intervals: sort by start; extend the running interval while overlapping.
