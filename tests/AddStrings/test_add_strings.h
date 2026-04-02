@@ -34,3 +34,4 @@ MunitTest add_strings_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_ADD_STRINGS_H
+// edge note 1: Time complexity: O(n).
