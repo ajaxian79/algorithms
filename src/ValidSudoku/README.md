@@ -543,3 +543,7 @@ Two passes: one to count, one to fill.
 ## entry 120
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 121
+
+Handles negative inputs as documented above.
