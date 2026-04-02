@@ -582,3 +582,7 @@ Reentrant — no static state.
 ## entry 131
 
 Constant-time comparisons; safe for short strings.
+
+## entry 132
+
+Edge case: all-equal input → linear-time fast path.
