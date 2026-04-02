@@ -546,3 +546,7 @@ Edge case: power-of-two-length input → no padding required.
 ## entry 121
 
 No allocations on the hot path.
+
+## entry 122
+
+Edge case: input with one duplicate → handled without an extra pass.
