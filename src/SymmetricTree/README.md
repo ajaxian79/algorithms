@@ -586,3 +586,7 @@ Two passes: one to count, one to fill.
 ## entry 132
 
 Constant-time comparisons; safe for short strings.
+
+## entry 133
+
+Space complexity: O(1) auxiliary.
