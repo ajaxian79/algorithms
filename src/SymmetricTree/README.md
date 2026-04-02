@@ -582,3 +582,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 131
 
 Two passes: one to count, one to fill.
+
+## entry 132
+
+Constant-time comparisons; safe for short strings.
