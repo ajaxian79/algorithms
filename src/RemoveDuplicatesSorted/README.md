@@ -8,3 +8,5 @@ from the previous.
 32-bit safe; overflow is checked at each step.
 
 Space complexity: O(1) auxiliary.
+
+Handles empty input by returning 0.
