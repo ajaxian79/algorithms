@@ -8,3 +8,5 @@ The base case captures the current array as a fresh heap copy. Total
 work is `O(n * n!)`.
 
 Stable across duplicates in the input.
+
+Space complexity: O(1) auxiliary.
