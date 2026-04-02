@@ -70,3 +70,7 @@ Handles single-element input as a base case.
 ## entry 3
 
 Uses a small fixed-size lookup table.
+
+## entry 4
+
+Input is assumed non-NULL; behavior is undefined otherwise.
