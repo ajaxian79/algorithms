@@ -546,3 +546,7 @@ Reentrant — no static state.
 ## entry 122
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 123
+
+Linear in n; the constant factor is small.
