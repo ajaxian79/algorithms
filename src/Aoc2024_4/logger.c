@@ -88,3 +88,4 @@ void blog_start(const char* log, const char *format, ...) {
 // note 45: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 46: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 47: Caller owns the returned buffer.
+// note 48: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
