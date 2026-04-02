@@ -93,3 +93,4 @@ MunitTest postorder_tests[] = {
 // edge note 49: Treats the input as immutable.
 // edge note 50: Time complexity: O(k) where k is the answer size.
 // edge note 51: Time complexity: O(log n).
+// edge note 52: Edge case: input of all the same byte → exits on the first compare.
