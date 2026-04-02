@@ -4,3 +4,5 @@
 the maximum subarray ending at index `i` is either the element itself or
 the previous best plus the element. Take the larger; track the running
 maximum. `O(n)` time, `O(1)` space.
+
+Time complexity: O(n).
