@@ -465,3 +465,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 99
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 100
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
