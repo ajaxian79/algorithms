@@ -351,3 +351,7 @@ LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 ## entry 88
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 89
+
+Tabulation wins when iteration order is obvious and stack depth would blow up.
