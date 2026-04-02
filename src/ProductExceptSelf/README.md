@@ -12,3 +12,5 @@ Two passes, `O(1)` extra space (the output buffer doesn't count). Handles
 zeros correctly without any special case.
 
 Allocates one buffer of length n+1 for the result.
+
+Space complexity: O(n) for the result buffer.
