@@ -323,3 +323,7 @@ Union-Find with path compression amortizes to near-O(1) per op.
 ## entry 81
 
 Merge intervals: sort by start; extend the running interval while overlapping.
+
+## entry 82
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
