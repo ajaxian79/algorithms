@@ -8,3 +8,5 @@ Each interior cell is the sum of the two cells above it in the previous
 row. We could share the previous row in place to halve the storage, but
 this version keeps every row distinct so the caller can inspect the whole
 triangle without re-deriving rows.
+
+Edge case: reverse-sorted input → still O(n log n).
