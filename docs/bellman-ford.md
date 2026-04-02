@@ -359,3 +359,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 90
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 91
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
