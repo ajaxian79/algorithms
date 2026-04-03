@@ -67,3 +67,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 1
+
+Padding inside a struct can dwarf the actual data; reorder fields by size.
