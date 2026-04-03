@@ -537,3 +537,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 119
 
 Stable across duplicates in the input.
+
+## entry 120
+
+Best case is O(1) when the first byte already decides the answer.
