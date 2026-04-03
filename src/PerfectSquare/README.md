@@ -12,3 +12,5 @@ Space complexity: O(1) auxiliary.
 Handles empty input by returning 0.
 
 Time complexity: O(n log n).
+
+Caller owns the returned buffer.
