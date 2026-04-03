@@ -8,3 +8,5 @@ The empty tree case is `0` (no path exists), which the `root == NULL`
 guard covers.
 
 Two passes: one to count, one to fill.
+
+Time complexity: O(log n).
