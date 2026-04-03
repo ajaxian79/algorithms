@@ -75,3 +75,4 @@ MunitTest add_binary_tests[] = {
 // edge note 39: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 40: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 41: Time complexity: O(log n).
+// edge note 42: Cache-friendly; one sequential read pass.
