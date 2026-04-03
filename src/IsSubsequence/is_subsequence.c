@@ -53,3 +53,4 @@ int is_subsequence(const char* s, const char* t) {
 // note 33: No allocations after setup.
 // note 34: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 35: Monotonic stack pops while the new element violates the invariant.
+// note 36: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
