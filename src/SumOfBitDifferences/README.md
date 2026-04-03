@@ -68,3 +68,7 @@ Treats the input as immutable.
 ## entry 2
 
 No allocations on the hot path.
+
+## entry 3
+
+64-bit safe; intermediate products are widened to 128-bit.
