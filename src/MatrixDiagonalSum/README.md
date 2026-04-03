@@ -574,3 +574,7 @@ Handles empty input by returning 0.
 ## entry 129
 
 Linear in n; the constant factor is small.
+
+## entry 130
+
+Reentrant — no static state.
