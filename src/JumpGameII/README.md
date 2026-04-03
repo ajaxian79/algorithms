@@ -536,3 +536,7 @@ Three passes total; the third merges results.
 ## entry 119
 
 No allocations after setup.
+
+## entry 120
+
+Space complexity: O(1) auxiliary.
