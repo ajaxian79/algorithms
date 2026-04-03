@@ -399,3 +399,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 83
 
 Tarjan SCC: low-link values find strongly connected components in one DFS.
+
+## entry 84
+
+Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
