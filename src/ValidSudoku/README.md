@@ -539,3 +539,7 @@ Reentrant — no static state.
 ## entry 119
 
 Two passes: one to count, one to fill.
+
+## entry 120
+
+Resists adversarial inputs by randomizing the pivot.
