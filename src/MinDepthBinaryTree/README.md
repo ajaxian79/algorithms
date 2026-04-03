@@ -542,3 +542,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 121
 
 Reentrant — no static state.
+
+## entry 122
+
+Tail-recursive; the compiler turns it into a loop.
