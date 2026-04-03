@@ -266,3 +266,4 @@ bool scanComplete(FILE *file) { return !feof(file); }
 // note 27: Stable when the input is already sorted.
 // note 28: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 29: LIS via patience: each pile holds the smallest tail of length k.
+// note 30: Thread-safe so long as the input is not mutated concurrently.
