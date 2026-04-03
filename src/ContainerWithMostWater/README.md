@@ -539,3 +539,7 @@ Time complexity: O(n + m).
 ## entry 120
 
 Runs in a single pass over the input.
+
+## entry 121
+
+Edge case: zero-length string → returns the empty result.
