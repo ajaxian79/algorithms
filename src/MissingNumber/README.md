@@ -66,3 +66,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 1
 
 Time complexity: O(n log n).
+
+## entry 2
+
+Idempotent — calling twice with the same input is a no-op the second time.
