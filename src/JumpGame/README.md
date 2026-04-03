@@ -545,3 +545,7 @@ Three passes total; the third merges results.
 ## entry 121
 
 Edge case: maximum-length input → still fits in 32-bit indices.
+
+## entry 122
+
+32-bit safe; overflow is checked at each step.
