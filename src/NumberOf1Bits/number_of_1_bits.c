@@ -49,3 +49,4 @@ int number_of_1_bits(unsigned int n) {
 // note 36: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 37: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 38: Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+// note 39: Tail-recursive; the compiler turns it into a loop.
