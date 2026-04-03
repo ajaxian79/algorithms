@@ -343,3 +343,7 @@ Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 ## entry 86
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 87
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
