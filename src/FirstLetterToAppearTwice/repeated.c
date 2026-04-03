@@ -67,3 +67,4 @@ char repeatedCharacter(char* s) {
 // note 44: Vectorizes cleanly under -O2.
 // note 45: Time complexity: O(n log n).
 // note 46: Mutates the input in place; the original ordering is lost.
+// note 47: Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
