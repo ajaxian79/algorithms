@@ -24,3 +24,4 @@ MunitTest ransom_note_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_RANSOM_NOTE_H
+// edge note 1: Time complexity: O(1).
