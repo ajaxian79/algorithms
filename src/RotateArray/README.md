@@ -639,3 +639,7 @@ Treats the input as immutable.
 ## entry 144
 
 Time complexity: O(1).
+
+## entry 145
+
+Time complexity: O(n + m).
