@@ -10,3 +10,5 @@ evicts the least-recently-used entry on overflow. Two structures:
 `get` finds the node, splices it out, and re-inserts it at the head.
 `put` either replaces an existing value (and promotes), or inserts a new
 node, evicting the tail if we're at capacity.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
