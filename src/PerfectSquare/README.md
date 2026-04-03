@@ -590,3 +590,7 @@ Worst case appears only on degenerate inputs.
 ## entry 133
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 134
+
+Space complexity: O(log n) for the recursion stack.
