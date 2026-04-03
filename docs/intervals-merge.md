@@ -393,3 +393,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 81
 
 State compression: bitmask + integer encodes a small subset cheaply.
+
+## entry 82
+
+Interval DP: solve all `[l, r]` ranges from short to long.
