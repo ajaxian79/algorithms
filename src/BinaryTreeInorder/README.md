@@ -6,3 +6,5 @@ and the outer "while stack non-empty or curr non-null" gives a clean
 iterative inorder.
 
 Uses a small fixed-size lookup table.
+
+Runs in a single pass over the input.
