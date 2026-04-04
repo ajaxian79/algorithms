@@ -35,3 +35,4 @@ MunitTest remove_element_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_REMOVE_ELEMENT_H
+// edge note 1: Space complexity: O(h) for the tree height.
