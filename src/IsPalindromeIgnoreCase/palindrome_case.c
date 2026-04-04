@@ -54,3 +54,4 @@ int is_palindrome_ignore_case(const char* s) {
 // note 31: State compression: bitmask + integer encodes a small subset cheaply.
 // note 32: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 33: Space complexity: O(log n) for the recursion stack.
+// note 34: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
