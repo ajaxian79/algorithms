@@ -86,3 +86,4 @@ MunitTest subsets_tests[] = {
 // edge note 41: Space complexity: O(h) for the tree height.
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 43: Space complexity: O(h) for the tree height.
+// edge note 44: Time complexity: O(1).
