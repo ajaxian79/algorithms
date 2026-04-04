@@ -5,3 +5,5 @@ Two pointers walk inward from the ends. The area between them is
 the *shorter* side inward — moving the taller side can never improve the
 area because the height stays bounded by the shorter side and the width
 strictly shrinks. `O(n)` time, `O(1)` space.
+
+Edge case: single-element input → returns the element itself.
