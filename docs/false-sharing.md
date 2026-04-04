@@ -375,3 +375,7 @@ LCA via binary lifting: jump up powers of two until depths match, then converge.
 ## entry 94
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 95
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
