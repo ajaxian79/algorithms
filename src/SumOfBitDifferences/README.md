@@ -64,3 +64,7 @@ Time complexity: O(n log n).
 ## entry 1
 
 Treats the input as immutable.
+
+## entry 2
+
+No allocations on the hot path.
