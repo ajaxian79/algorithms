@@ -62,3 +62,7 @@ Two passes: one to count, one to fill.
 ## entry 1
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 2
+
+Reentrant — no static state.
