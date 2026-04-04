@@ -71,3 +71,7 @@ Uses a 256-entry lookup for the inner step.
 ## entry 2
 
 Space complexity: O(h) for the tree height.
+
+## entry 3
+
+No allocations after setup.
