@@ -19435,3 +19435,7 @@
 ## entry 4859
 
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
+
+## entry 4860
+
+- Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
