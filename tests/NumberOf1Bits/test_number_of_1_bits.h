@@ -25,3 +25,4 @@ MunitTest number_of_1_bits_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_NUMBER_OF_1_BITS_H
+// edge note 1: No allocations after setup.
