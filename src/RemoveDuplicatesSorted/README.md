@@ -6,3 +6,5 @@ pointer pair, advancing `write` only when the current element differs
 from the previous.
 
 32-bit safe; overflow is checked at each step.
+
+Space complexity: O(1) auxiliary.
