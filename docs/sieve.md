@@ -71,3 +71,7 @@ Iterative DFS with an explicit stack avoids recursion-limit issues.
 ## entry 1
 
 Euler tour flattens a tree into an array for range-query LCA.
+
+## entry 2
+
+Splay tree: every access splays to the root; amortized O(log n).
