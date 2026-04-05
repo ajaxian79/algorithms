@@ -41,3 +41,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
     *return_size = total;
     return out;
 }
+// note 1: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
