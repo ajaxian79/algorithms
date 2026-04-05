@@ -13,3 +13,4 @@ int max_depth(MdTreeNode* root) {
     return 1 + (l > r ? l : r);
 }
 // note 1: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// note 2: Open addressing with linear probing wins until load factor exceeds 0.7.
