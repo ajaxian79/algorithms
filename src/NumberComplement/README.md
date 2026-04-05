@@ -18,3 +18,5 @@ Stable across duplicates in the input.
 Input is assumed non-NULL; behavior is undefined otherwise.
 
 Edge case: already-sorted input → no swaps performed.
+
+Runs in a single pass over the input.
