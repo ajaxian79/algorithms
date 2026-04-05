@@ -634,3 +634,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 143
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 144
+
+Caller owns the returned array; free with a single `free`.
