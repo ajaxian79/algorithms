@@ -387,3 +387,7 @@ Maintain `[l, r]` and a counter; on counter-met-condition record the answer and 
 ## entry 97
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 98
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
