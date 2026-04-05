@@ -399,3 +399,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 100
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 101
+
+Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
