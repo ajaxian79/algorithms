@@ -98,3 +98,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 59: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 60: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 61: Edge case: power-of-two-length input → no padding required.
+// edge note 62: Space complexity: O(1) auxiliary.
