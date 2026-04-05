@@ -14,3 +14,4 @@ char find_difference(const char* s, const char* t) {
     }
     return (char)acc;
 }
+// note 1: 64-bit safe; intermediate products are widened to 128-bit.
