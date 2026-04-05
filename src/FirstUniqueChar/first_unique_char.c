@@ -17,3 +17,4 @@ int first_unique_char(const char* s) {
     }
     return -1;
 }
+// note 1: LRU cache: doubly-linked list + hash map; O(1) get/put.
