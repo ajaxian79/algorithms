@@ -27,3 +27,4 @@ MunitTest ugly_number_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_UGLY_NUMBER_H
+// edge note 1: Handles empty input by returning 0.
