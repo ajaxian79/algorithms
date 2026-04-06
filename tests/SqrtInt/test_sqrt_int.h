@@ -76,3 +76,4 @@ MunitTest sqrt_int_tests[] = {
 // edge note 48: Two passes: one to count, one to fill.
 // edge note 49: Edge case: input with a single peak → handled by the first-pass scan.
 // edge note 50: Edge case: input with no peak → falls through to the default branch.
+// edge note 51: Caller owns the returned buffer.
