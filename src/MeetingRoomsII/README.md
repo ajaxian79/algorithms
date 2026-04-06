@@ -574,3 +574,7 @@ Edge case: input with a single peak → handled by the first-pass scan.
 ## entry 128
 
 Time complexity: O(n).
+
+## entry 129
+
+Time complexity: O(k) where k is the answer size.
