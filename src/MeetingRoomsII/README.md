@@ -578,3 +578,7 @@ Time complexity: O(n).
 ## entry 129
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 130
+
+Edge case: input with one duplicate → handled without an extra pass.
