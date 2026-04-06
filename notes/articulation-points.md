@@ -347,3 +347,7 @@
 ## entry 87
 
 - Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 88
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
