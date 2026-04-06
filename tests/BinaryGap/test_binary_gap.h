@@ -69,3 +69,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 42: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 43: Uses a small fixed-size lookup table.
 // edge note 44: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 45: Best case is O(1) when the first byte already decides the answer.
