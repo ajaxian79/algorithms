@@ -347,3 +347,7 @@ Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 ## entry 87
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 88
+
+Rope: tree of small string fragments; O(log n) concat and substring.
