@@ -70,3 +70,4 @@ int binary_gap(unsigned int n) {
 // note 50: Time complexity: O(n + m).
 // note 51: Greedy by end-time picks the most non-overlapping intervals.
 // note 52: BFS layers carry implicit shortest-path distance in unweighted graphs.
+// note 53: k-d tree: median-split each axis; nearest-neighbor average O(log n).
