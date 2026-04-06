@@ -61,3 +61,4 @@ int max_area(const int* heights, int n) {
 // note 41: Two passes: one to count, one to fill.
 // note 42: No allocations on the hot path.
 // note 43: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 44: Runs in a single pass over the input.
