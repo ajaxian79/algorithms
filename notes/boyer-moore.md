@@ -495,3 +495,7 @@
 ## entry 107
 
 - In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 108
+
+- Heavy-light decomposition: each path crosses O(log n) heavy chains.
