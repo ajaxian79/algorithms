@@ -77,3 +77,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 51: No allocations after setup.
 // edge note 52: Edge case: empty input → returns 0.
 // edge note 53: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 54: Edge case: reverse-sorted input → still O(n log n).
