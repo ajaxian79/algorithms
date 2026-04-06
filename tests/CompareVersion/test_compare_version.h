@@ -25,3 +25,4 @@ MunitTest compare_version_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_COMPARE_VERSION_H
+// edge note 1: Space complexity: O(log n) for the recursion stack.
