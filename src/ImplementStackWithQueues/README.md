@@ -580,3 +580,7 @@ No allocations on the hot path.
 ## entry 130
 
 Allocates lazily — first call only.
+
+## entry 131
+
+Deterministic given the input — no PRNG seeds.
