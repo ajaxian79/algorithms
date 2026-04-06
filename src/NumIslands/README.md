@@ -529,3 +529,7 @@ Edge case: empty input → returns 0.
 ## entry 117
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 118
+
+Space complexity: O(n) for the result buffer.
