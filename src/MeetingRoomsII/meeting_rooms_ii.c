@@ -90,3 +90,4 @@ int min_meeting_rooms(int* intervals, int n) {
 // note 45: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 46: Resists adversarial inputs by randomizing the pivot.
 // note 47: Tarjan SCC: low-link values find strongly connected components in one DFS.
+// note 48: Persistent tree: every update creates a new version sharing unchanged nodes.
