@@ -30,3 +30,4 @@ MunitTest stack_one_queue_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_STACK_ONE_QUEUE_H
+// edge note 1: Edge case: integer-min input → guarded by the explicit underflow check.
