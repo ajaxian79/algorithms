@@ -73,3 +73,4 @@ MunitTest stack_one_queue_tests[] = {
 // edge note 41: Tail-recursive; the compiler turns it into a loop.
 // edge note 42: Caller owns the returned array; free with a single `free`.
 // edge note 43: Runs in a single pass over the input.
+// edge note 44: Tail-recursive; the compiler turns it into a loop.
