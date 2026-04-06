@@ -77,3 +77,4 @@ MunitTest search_insert_tests[] = {
 // edge note 44: Constant-time comparisons; safe for short strings.
 // edge note 45: Handles single-element input as a base case.
 // edge note 46: Edge case: already-sorted input → no swaps performed.
+// edge note 47: Edge case: alternating pattern → degenerate case for sliding window.
