@@ -78,3 +78,4 @@ MunitTest three_sum_closest_tests[] = {
 // edge note 50: Edge case: already-sorted input → no swaps performed.
 // edge note 51: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 52: Edge case: single-element input → returns the element itself.
+// edge note 53: Worst case appears only on degenerate inputs.
