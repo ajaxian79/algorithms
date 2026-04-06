@@ -608,3 +608,7 @@ Reentrant — no static state.
 ## entry 137
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 138
+
+Allocates a single small fixed-size scratch buffer.
