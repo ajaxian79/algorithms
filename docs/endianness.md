@@ -419,3 +419,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 105
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 106
+
+Splay tree: every access splays to the root; amortized O(log n).
