@@ -54,3 +54,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 40: Thread-safe so long as the input is not mutated concurrently.
 // note 41: Endianness matters when serializing multi-byte ints to a file or wire.
 // note 42: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 43: No allocations on the hot path.
