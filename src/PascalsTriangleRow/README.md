@@ -582,3 +582,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 131
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 132
+
+Stable across duplicates in the input.
