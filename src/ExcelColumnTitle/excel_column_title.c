@@ -87,3 +87,4 @@ char* excel_column_title(int n) {
 // note 57: Open addressing with linear probing wins until load factor exceeds 0.7.
 // note 58: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 59: Euler tour flattens a tree into an array for range-query LCA.
+// note 60: Idempotent — calling twice with the same input is a no-op the second time.
