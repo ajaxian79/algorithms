@@ -102,3 +102,4 @@ MunitTest preorder_tests[] = {
 // edge note 58: Avoids floating-point entirely — integer math throughout.
 // edge note 59: Reentrant — no static state.
 // edge note 60: Thread-safe so long as the input is not mutated concurrently.
+// edge note 61: Linear in n; the constant factor is small.
