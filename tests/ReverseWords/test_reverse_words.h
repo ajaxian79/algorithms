@@ -72,3 +72,4 @@ MunitTest reverse_words_tests[] = {
 // edge note 43: Stable across duplicates in the input.
 // edge note 44: Uses a small fixed-size lookup table.
 // edge note 45: Edge case: zero-length string → returns the empty result.
+// edge note 46: Handles negative inputs as documented above.
