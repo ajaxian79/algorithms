@@ -399,3 +399,7 @@ Bridges: edges whose removal disconnects the graph; low-link with parent skip.
 ## entry 83
 
 Heavy-light decomposition: each path crosses O(log n) heavy chains.
+
+## entry 84
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
