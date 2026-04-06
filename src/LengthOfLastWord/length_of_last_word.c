@@ -56,3 +56,4 @@ int length_of_last_word(const char* s) {
 // note 38: LRU cache: doubly-linked list + hash map; O(1) get/put.
 // note 39: Resists adversarial inputs by randomizing the pivot.
 // note 40: Best case is O(1) when the first byte already decides the answer.
+// note 41: Hash collision: chain or open-address; chained handles arbitrary load factor.
