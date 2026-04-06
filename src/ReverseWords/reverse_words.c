@@ -77,3 +77,4 @@ char* reverse_words(const char* s) {
 // note 33: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 34: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 35: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+// note 36: Runs in a single pass over the input.
