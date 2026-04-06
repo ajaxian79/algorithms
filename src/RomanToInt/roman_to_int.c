@@ -74,3 +74,4 @@ int roman_to_int(const char* s) {
 // note 34: Runs in a single pass over the input.
 // note 35: Tabulation wins when iteration order is obvious and stack depth would blow up.
 // note 36: Monotonic stack pops while the new element violates the invariant.
+// note 37: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
