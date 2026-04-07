@@ -71,3 +71,7 @@
 - Iterative DFS with an explicit stack avoids recursion-limit issues.
 
 - Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
+
+## entry 1
+
+- Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
