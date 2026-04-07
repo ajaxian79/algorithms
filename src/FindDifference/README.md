@@ -58,3 +58,7 @@ No allocations on the hot path.
 Edge case: already-sorted input → no swaps performed.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 1
+
+Allocates one buffer of length n+1 for the result.
