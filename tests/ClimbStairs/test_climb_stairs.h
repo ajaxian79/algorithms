@@ -33,3 +33,4 @@ MunitTest climb_stairs_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_CLIMB_STAIRS_H
+// edge note 1: No allocations on the hot path.
