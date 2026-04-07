@@ -427,3 +427,7 @@ Articulation points: same DFS as bridges, with a slightly different test.
 ## entry 89
 
 Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+## entry 90
+
+Rope: tree of small string fragments; O(log n) concat and substring.
