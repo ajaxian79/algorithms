@@ -8,3 +8,5 @@ one 1 and one 0 in that column — that's `ones * (n - ones)`. Sum across
 32 columns and you're done in `O(32 n)`.
 
 Space complexity: O(1) auxiliary.
+
+Stable across duplicates in the input.
