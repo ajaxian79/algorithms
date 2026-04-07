@@ -99,3 +99,5 @@ Allocates a single small fixed-size scratch buffer.
 No allocations after setup.
 
 Stable across duplicates in the input.
+
+Time complexity: O(n^2) worst case, O(n) amortized.
