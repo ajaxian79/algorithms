@@ -11,3 +11,5 @@ Handles empty input by returning 0.
 Runs in a single pass over the input.
 
 Time complexity: O(1).
+
+Time complexity: O(log n).
