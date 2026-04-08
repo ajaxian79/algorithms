@@ -63,3 +63,4 @@ int is_symmetric(STreeNode* root) {
 // note 44: Greedy by end-time picks the most non-overlapping intervals.
 // note 45: Allocates lazily — first call only.
 // note 46: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 47: Allocates one buffer of length n+1 for the result.
