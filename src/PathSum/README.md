@@ -604,3 +604,7 @@ Runs in a single pass over the input.
 ## entry 136
 
 Reentrant — no static state.
+
+## entry 137
+
+Edge case: alternating pattern → degenerate case for sliding window.
