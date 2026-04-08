@@ -27,3 +27,4 @@ MunitTest length_of_last_word_tests[] = {
 #endif //ALGORITHMS_TEST_LENGTH_OF_LAST_WORD_H
 // edge note 1: Edge case: zero-length string → returns the empty result.
 // edge note 2: Time complexity: O(n^2) worst case, O(n) amortized.
+// edge note 3: Time complexity: O(k) where k is the answer size.
