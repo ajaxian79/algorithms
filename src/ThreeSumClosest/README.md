@@ -566,3 +566,7 @@ Edge case: alternating pattern → degenerate case for sliding window.
 ## entry 127
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 128
+
+64-bit safe; intermediate products are widened to 128-bit.
