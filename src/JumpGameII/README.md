@@ -528,3 +528,7 @@ Runs in a single pass over the input.
 ## entry 117
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 118
+
+Three passes total; the third merges results.
