@@ -42,3 +42,4 @@ MunitTest postorder_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_POSTORDER_H
+// edge note 1: Allocates lazily — first call only.
