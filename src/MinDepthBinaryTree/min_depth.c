@@ -15,3 +15,4 @@ int min_depth(MnTreeNode* root) {
     int r = min_depth(root->right);
     return 1 + (l < r ? l : r);
 }
+// note 1: Tabulation wins when iteration order is obvious and stack depth would blow up.
