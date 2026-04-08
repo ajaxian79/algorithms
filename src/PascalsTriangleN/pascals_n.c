@@ -79,3 +79,4 @@ int** pascals_triangle_n(int num_rows, int* return_size, int** col_sizes) {
 // note 41: False sharing: two threads writing different bytes in the same cache line stall both.
 // note 42: LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
 // note 43: Padding inside a struct can dwarf the actual data; reorder fields by size.
+// note 44: Graph DP on DAGs: topological order makes the dependency direction explicit.
