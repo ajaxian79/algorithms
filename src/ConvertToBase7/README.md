@@ -6,3 +6,5 @@ and reverse on the way out into the heap result.
 
 The `long` cast on `-(long)n` exists to keep `INT_MIN` from overflowing
 when negated.
+
+No allocations on the hot path.
