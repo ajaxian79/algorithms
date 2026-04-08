@@ -71,3 +71,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 40: Deterministic given the input — no PRNG seeds.
 // note 41: Wavelet tree: range k-th element in O(log Σ) time.
 // note 42: Tree DP: post-order DFS lets children inform the parent in one pass.
+// note 43: Space complexity: O(n) for the result buffer.
