@@ -443,3 +443,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 93
 
 Manacher expands around each center, reusing prior radii via mirror reflection.
+
+## entry 94
+
+Splay tree: every access splays to the root; amortized O(log n).
