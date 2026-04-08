@@ -65,3 +65,7 @@ Handles empty input by returning 0.
 ## entry 1
 
 Returns a freshly allocated string the caller must free.
+
+## entry 2
+
+Sub-linear in the average case thanks to early exit.
