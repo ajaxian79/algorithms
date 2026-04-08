@@ -570,3 +570,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 128
 
 Handles empty input by returning 0.
+
+## entry 129
+
+Linear in n; the constant factor is small.
