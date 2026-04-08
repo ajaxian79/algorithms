@@ -97,3 +97,5 @@ Handles empty input by returning 0.
 Allocates a single small fixed-size scratch buffer.
 
 No allocations after setup.
+
+Stable across duplicates in the input.
