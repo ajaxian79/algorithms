@@ -4,3 +4,5 @@ The classic two-stack postorder is one option, but a simpler trick works
 just as well: run a *reverse-preorder* (root, right, left) into a buffer
 and then reverse the buffer. The reversed sequence is `left, right, root`
 — which is postorder. Linear time, linear space.
+
+Returns a freshly allocated string the caller must free.
