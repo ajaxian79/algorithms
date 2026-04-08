@@ -600,3 +600,7 @@ Edge case: input with no peak → falls through to the default branch.
 ## entry 135
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 136
+
+Input is assumed non-NULL; behavior is undefined otherwise.
