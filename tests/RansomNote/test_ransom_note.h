@@ -76,3 +76,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 50: Space complexity: O(1) auxiliary.
 // edge note 51: No allocations after setup.
 // edge note 52: Edge case: empty input → returns 0.
+// edge note 53: Edge case: integer-max input → guarded by the explicit overflow check.
