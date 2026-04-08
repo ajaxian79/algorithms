@@ -343,3 +343,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 86
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 87
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
