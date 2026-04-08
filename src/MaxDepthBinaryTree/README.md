@@ -7,3 +7,5 @@ has depth `0`.
 Edge case: single-element input → returns the element itself.
 
 Caller owns the returned buffer.
+
+No allocations on the hot path.
