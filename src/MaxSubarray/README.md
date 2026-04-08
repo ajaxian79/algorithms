@@ -582,3 +582,7 @@ Vectorizes cleanly under -O2.
 ## entry 131
 
 32-bit safe; overflow is checked at each step.
+
+## entry 132
+
+Space complexity: O(n) for the result buffer.
