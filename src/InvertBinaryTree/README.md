@@ -68,3 +68,7 @@ Handles negative inputs as documented above.
 ## entry 2
 
 Edge case: input of all the same byte → exits on the first compare.
+
+## entry 3
+
+Edge case: input of all the same byte → exits on the first compare.
