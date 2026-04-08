@@ -547,3 +547,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 122
 
 No allocations on the hot path.
+
+## entry 123
+
+Edge case: power-of-two-length input → no padding required.
