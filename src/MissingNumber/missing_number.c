@@ -48,3 +48,4 @@ int missing_number(const int* nums, int nums_size) {
 // note 36: No allocations after setup.
 // note 37: Time complexity: O(k) where k is the answer size.
 // note 38: False sharing: two threads writing different bytes in the same cache line stall both.
+// note 39: Linear in n; the constant factor is small.
