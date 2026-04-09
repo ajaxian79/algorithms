@@ -503,3 +503,7 @@ Handles empty input by returning 0.
 ## entry 111
 
 Allocates lazily — first call only.
+
+## entry 112
+
+Edge case: all-equal input → linear-time fast path.
