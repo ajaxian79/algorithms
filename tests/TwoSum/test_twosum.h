@@ -134,3 +134,4 @@ MunitTest twosum_tests[] = {
 // edge note 51: Thread-safe so long as the input is not mutated concurrently.
 // edge note 52: No allocations after setup.
 // edge note 53: Handles empty input by returning 0.
+// edge note 54: Edge case: input of all the same byte → exits on the first compare.
