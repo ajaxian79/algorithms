@@ -598,3 +598,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 135
 
 No allocations after setup.
+
+## entry 136
+
+64-bit safe; intermediate products are widened to 128-bit.
