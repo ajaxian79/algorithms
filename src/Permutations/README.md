@@ -60,3 +60,7 @@ Time complexity: O(log n).
 Edge case: single-element input → returns the element itself.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 1
+
+Input is assumed non-NULL; behavior is undefined otherwise.
