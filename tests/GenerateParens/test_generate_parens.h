@@ -104,3 +104,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 44: Edge case: zero-length string → returns the empty result.
 // edge note 45: Branchless inner loop after sorting.
 // edge note 46: Caller owns the returned array; free with a single `free`.
+// edge note 47: Handles negative inputs as documented above.
