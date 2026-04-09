@@ -535,3 +535,7 @@ Thread-safe so long as the input is not mutated concurrently.
 ## entry 118
 
 Reentrant — no static state.
+
+## entry 119
+
+Two passes: one to count, one to fill.
