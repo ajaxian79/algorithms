@@ -500,3 +500,7 @@ Space complexity: O(1) auxiliary.
 ## entry 110
 
 No allocations on the hot path.
+
+## entry 111
+
+Returns a freshly allocated string the caller must free.
