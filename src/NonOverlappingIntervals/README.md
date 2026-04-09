@@ -521,3 +521,7 @@ Two passes: one to count, one to fill.
 ## entry 115
 
 Caller owns the returned buffer.
+
+## entry 116
+
+Avoids floating-point entirely — integer math throughout.
