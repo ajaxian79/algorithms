@@ -371,3 +371,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 93
 
 LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 94
+
+Merge intervals: sort by start; extend the running interval while overlapping.
