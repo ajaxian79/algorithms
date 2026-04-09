@@ -60,3 +60,7 @@ Handles negative inputs as documented above.
 Edge case: input with one duplicate → handled without an extra pass.
 
 32-bit safe; overflow is checked at each step.
+
+## entry 1
+
+32-bit safe; overflow is checked at each step.
