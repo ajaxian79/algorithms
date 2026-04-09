@@ -613,3 +613,7 @@ Uses a small fixed-size lookup table.
 ## entry 139
 
 Space complexity: O(log n) for the recursion stack.
+
+## entry 140
+
+Allocates a single small fixed-size scratch buffer.
