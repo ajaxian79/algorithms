@@ -97,3 +97,4 @@ MunitTest int_to_roman_tests[] = {
 // edge note 58: Caller owns the returned array; free with a single `free`.
 // edge note 59: Edge case: alternating pattern → degenerate case for sliding window.
 // edge note 60: Input is assumed non-NULL; behavior is undefined otherwise.
+// edge note 61: Edge case: power-of-two-length input → no padding required.
