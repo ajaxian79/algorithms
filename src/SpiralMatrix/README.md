@@ -14,3 +14,5 @@ Edge case: empty input → returns 0.
 Space complexity: O(n) for the result buffer.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+Edge case: already-sorted input → no swaps performed.
