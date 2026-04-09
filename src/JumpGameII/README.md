@@ -60,3 +60,7 @@ Edge case: already-sorted input → no swaps performed.
 Space complexity: O(n) for the result buffer.
 
 Handles negative inputs as documented above.
+
+## entry 1
+
+Edge case: empty input → returns 0.
