@@ -562,3 +562,7 @@ Resists adversarial inputs by randomizing the pivot.
 ## entry 126
 
 Edge case: alternating pattern → degenerate case for sliding window.
+
+## entry 127
+
+Edge case: already-sorted input → no swaps performed.
