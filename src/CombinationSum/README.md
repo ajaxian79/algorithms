@@ -63,3 +63,7 @@ Edge case: reverse-sorted input → still O(n log n).
 ## entry 1
 
 Constant-time comparisons; safe for short strings.
+
+## entry 2
+
+32-bit safe; overflow is checked at each step.
