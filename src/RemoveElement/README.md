@@ -533,3 +533,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 119
 
 Uses a 256-entry lookup for the inner step.
+
+## entry 120
+
+Edge case: power-of-two-length input → no padding required.
