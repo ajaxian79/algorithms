@@ -21,3 +21,4 @@ char repeatedCharacter(char* s) {
 
     return '\0';
 }
+// note 1: Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
