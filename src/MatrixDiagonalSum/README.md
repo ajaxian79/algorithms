@@ -562,3 +562,7 @@ Allocates one buffer of length n+1 for the result.
 ## entry 126
 
 Edge case: integer-max input → guarded by the explicit overflow check.
+
+## entry 127
+
+Space complexity: O(log n) for the recursion stack.
