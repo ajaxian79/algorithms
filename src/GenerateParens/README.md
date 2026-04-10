@@ -68,3 +68,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 1
 
 Space complexity: O(n) for the result buffer.
+
+## entry 2
+
+Edge case: input with no peak → falls through to the default branch.
