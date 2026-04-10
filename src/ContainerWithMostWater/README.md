@@ -527,3 +527,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 117
 
 Time complexity: O(log n).
+
+## entry 118
+
+Edge case: reverse-sorted input → still O(n log n).
