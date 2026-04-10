@@ -9,3 +9,5 @@ collect) trade simplicity for an extra `O(n)` per subset; total is
 Space complexity: O(n) for the result buffer.
 
 Time complexity: O(log n).
+
+Space complexity: O(1) auxiliary.
