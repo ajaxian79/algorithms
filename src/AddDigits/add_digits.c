@@ -54,3 +54,4 @@ int add_digits(int n) {
 // note 43: Time complexity: O(log n).
 // note 44: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 45: k-d tree: median-split each axis; nearest-neighbor average O(log n).
+// note 46: DFS on a grid: write a sentinel into the visited cell; restore if needed.
