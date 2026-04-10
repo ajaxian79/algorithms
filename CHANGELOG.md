@@ -19331,3 +19331,7 @@
 ## entry 4833
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 4834
+
+- UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
