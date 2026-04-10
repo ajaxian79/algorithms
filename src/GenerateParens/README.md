@@ -536,3 +536,7 @@ Runs in a single pass over the input.
 ## entry 118
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 119
+
+Space complexity: O(n) for the result buffer.
