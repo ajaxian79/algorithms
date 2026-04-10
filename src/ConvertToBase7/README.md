@@ -608,3 +608,7 @@ Edge case: zero-length string → returns the empty result.
 ## entry 137
 
 Edge case: input with a single peak → handled by the first-pass scan.
+
+## entry 138
+
+Treats the input as immutable.
