@@ -600,3 +600,7 @@ Space complexity: O(1) auxiliary.
 ## entry 135
 
 Runs in a single pass over the input.
+
+## entry 136
+
+Reentrant — no static state.
