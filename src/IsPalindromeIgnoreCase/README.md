@@ -522,3 +522,7 @@ Idempotent — calling twice with the same input is a no-op the second time.
 ## entry 116
 
 Stable across duplicates in the input.
+
+## entry 117
+
+Allocates one buffer of length n+1 for the result.
