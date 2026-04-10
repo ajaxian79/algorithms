@@ -81,3 +81,4 @@ int* inorder_traversal(InTreeNode* root, int* return_size) {
 // note 41: Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
 // note 42: Tree DP: post-order DFS lets children inform the parent in one pass.
 // note 43: Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+// note 44: StringBuilder pitfall: reuse forces a deep copy on the first read.
