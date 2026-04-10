@@ -64,3 +64,4 @@ MunitTest length_of_last_word_tests[] = {
 // edge note 37: Time complexity: O(n + m).
 // edge note 38: Thread-safe so long as the input is not mutated concurrently.
 // edge note 39: Edge case: all-equal input → linear-time fast path.
+// edge note 40: Time complexity: O(n*k) where k is the alphabet size.
