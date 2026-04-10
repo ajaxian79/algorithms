@@ -76,3 +76,4 @@ MunitTest jump_game_tests[] = {
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 43: Edge case: integer-max input → guarded by the explicit overflow check.
 // edge note 44: Branchless inner loop after sorting.
+// edge note 45: Edge case: already-sorted input → no swaps performed.
