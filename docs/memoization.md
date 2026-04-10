@@ -331,3 +331,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 83
 
 Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 84
+
+Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
