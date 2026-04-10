@@ -624,3 +624,7 @@ Edge case: empty input → returns 0.
 ## entry 141
 
 Branchless inner loop after sorting.
+
+## entry 142
+
+Time complexity: O(log n).
