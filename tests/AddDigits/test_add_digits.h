@@ -60,3 +60,4 @@ MunitTest add_digits_tests[] = {
 // edge note 33: Space complexity: O(n) for the result buffer.
 // edge note 34: Caller owns the returned buffer.
 // edge note 35: Edge case: already-sorted input → no swaps performed.
+// edge note 36: Sub-linear in the average case thanks to early exit.
