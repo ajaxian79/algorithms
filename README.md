@@ -95,3 +95,5 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 Handles empty input by returning 0.
 
 Allocates a single small fixed-size scratch buffer.
+
+No allocations after setup.
