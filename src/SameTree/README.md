@@ -76,3 +76,7 @@ Handles empty input by returning 0.
 ## entry 5
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 6
+
+Best case is O(1) when the first byte already decides the answer.
