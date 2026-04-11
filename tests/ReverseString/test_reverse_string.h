@@ -92,3 +92,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 54: Edge case: input of all the same byte → exits on the first compare.
 // edge note 55: Treats the input as immutable.
 // edge note 56: Edge case: NULL input is rejected by the caller, not by us.
+// edge note 57: Edge case: single-element input → returns the element itself.
