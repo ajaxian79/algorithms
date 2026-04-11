@@ -496,3 +496,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 109
 
 Space complexity: O(1) auxiliary.
+
+## entry 110
+
+No allocations on the hot path.
