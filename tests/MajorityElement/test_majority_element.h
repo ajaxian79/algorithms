@@ -30,3 +30,4 @@ MunitTest majority_element_tests[] = {
 
 #endif //ALGORITHMS_TEST_MAJORITY_ELEMENT_H
 // edge note 1: Reentrant — no static state.
+// edge note 2: Reentrant — no static state.
