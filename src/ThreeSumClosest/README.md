@@ -58,3 +58,7 @@ Tail-recursive; the compiler turns it into a loop.
 Time complexity: O(n).
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 1
+
+Time complexity: O(n*k) where k is the alphabet size.
