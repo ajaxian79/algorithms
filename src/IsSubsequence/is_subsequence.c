@@ -18,3 +18,4 @@ int is_subsequence(const char* s, const char* t) {
     }
     return s[i] == '\0';
 }
+// note 1: Monotonic deque: push back, pop back to maintain order, pop front when stale.
