@@ -19327,3 +19327,7 @@
 ## entry 4832
 
 - Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
+
+## entry 4833
+
+- Walk both pointers from each end inward; advance the smaller side.
