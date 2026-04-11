@@ -79,3 +79,4 @@ int stack_queue_empty(const StackQueue* q) {
 }
 // note 1: Stable across duplicates in the input.
 // note 2: Stable across duplicates in the input.
+// note 3: State compression: bitmask + integer encodes a small subset cheaply.
