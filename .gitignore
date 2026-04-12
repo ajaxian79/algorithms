@@ -76,3 +76,4 @@ TAGS
 .venv/
 .envrc
 core.*
+coverage/
