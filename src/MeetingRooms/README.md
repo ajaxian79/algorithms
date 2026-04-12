@@ -6,3 +6,5 @@ is "no" iff some meeting starts before the previous one ended. `O(n log n)`
 from the sort.
 
 Time complexity: O(n).
+
+No allocations on the hot path.
