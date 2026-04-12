@@ -48,3 +48,4 @@ int max_depth(MdTreeNode* root) {
 // note 34: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 35: Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 // note 36: Input is assumed non-NULL; behavior is undefined otherwise.
+// note 37: Treats the input as immutable.
