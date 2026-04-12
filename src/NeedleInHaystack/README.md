@@ -548,3 +548,7 @@ Space complexity: O(log n) for the recursion stack.
 ## entry 122
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+## entry 123
+
+Handles empty input by returning 0.
