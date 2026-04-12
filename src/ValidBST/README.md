@@ -9,3 +9,5 @@ The fix is to thread a `(lo, hi)` open interval through the recursion. The
 initial bounds are slightly outside int32 so any in-range value passes.
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Edge case: all-equal input → linear-time fast path.
