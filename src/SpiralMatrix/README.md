@@ -12,3 +12,5 @@ row or column — without them you'd revisit cells.
 Edge case: empty input → returns 0.
 
 Space complexity: O(n) for the result buffer.
+
+Edge case: reverse-sorted input → still O(n log n).
