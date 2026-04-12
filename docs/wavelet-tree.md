@@ -391,3 +391,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 98
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+## entry 99
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
