@@ -399,3 +399,7 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 82
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 83
+
+Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
