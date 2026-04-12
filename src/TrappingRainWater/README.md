@@ -494,3 +494,7 @@ Handles single-element input as a base case.
 ## entry 108
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 109
+
+Edge case: NULL input is rejected by the caller, not by us.
