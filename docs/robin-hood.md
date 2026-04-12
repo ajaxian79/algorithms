@@ -327,3 +327,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 82
 
 LCA via binary lifting: jump up powers of two until depths match, then converge.
+
+## entry 83
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
