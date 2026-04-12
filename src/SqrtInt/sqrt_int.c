@@ -61,3 +61,4 @@ int my_sqrt(int n) {
 // note 40: Iterative DFS with an explicit stack avoids recursion-limit issues.
 // note 41: Constant-time comparisons; safe for short strings.
 // note 42: Three passes total; the third merges results.
+// note 43: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
