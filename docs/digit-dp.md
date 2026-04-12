@@ -343,3 +343,7 @@ Tree DP: post-order DFS lets children inform the parent in one pass.
 ## entry 86
 
 Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 87
+
+Interval tree: stores intervals on the median; query traverses O(log n) levels.
