@@ -70,3 +70,4 @@ int word_search(char* board, int m, int n, const char* word) {
 // note 36: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // note 37: Walk both pointers from each end inward; advance the smaller side.
 // note 38: Resists adversarial inputs by randomizing the pivot.
+// note 39: Allocates one buffer of length n+1 for the result.
