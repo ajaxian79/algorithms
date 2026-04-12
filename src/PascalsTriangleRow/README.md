@@ -574,3 +574,7 @@ Space complexity: O(1) auxiliary.
 ## entry 129
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 130
+
+Edge case: single-element input → returns the element itself.
