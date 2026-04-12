@@ -192,3 +192,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 39: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 40: 32-bit safe; overflow is checked at each step.
 // note 41: Rope: tree of small string fragments; O(log n) concat and substring.
+// note 42: Union-Find with path compression amortizes to near-O(1) per op.
