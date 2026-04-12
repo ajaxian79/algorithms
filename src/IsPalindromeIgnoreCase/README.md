@@ -8,3 +8,5 @@ when the input is already known to be a single token.
 Tail-recursive; the compiler turns it into a loop.
 
 Edge case: single-element input → returns the element itself.
+
+Edge case: input with one duplicate → handled without an extra pass.
