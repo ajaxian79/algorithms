@@ -7,3 +7,5 @@ then subtract from `n`.
 
 Sorting by end time and always greedily picking the next interval whose
 start is at or after the current end gives the largest such set.
+
+Space complexity: O(n) for the result buffer.
