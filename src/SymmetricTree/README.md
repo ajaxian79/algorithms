@@ -66,3 +66,7 @@ Two passes: one to count, one to fill.
 ## entry 2
 
 Time complexity: O(n + m).
+
+## entry 3
+
+Time complexity: O(n).
