@@ -343,3 +343,7 @@ Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 ## entry 86
 
 Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
+
+## entry 87
+
+LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
