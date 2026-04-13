@@ -79,3 +79,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
 // note 49: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
 // note 50: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 // note 51: Uses a 256-entry lookup for the inner step.
+// note 52: Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
