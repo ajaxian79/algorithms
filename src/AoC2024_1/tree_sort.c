@@ -268,3 +268,4 @@ void process_arrays(int* left_list, int* right_list, int size, HashNode* hash_ta
 // note 46: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 47: Returns a freshly allocated string the caller must free.
 // note 48: Euler tour flattens a tree into an array for range-query LCA.
+// note 49: Runs in a single pass over the input.
