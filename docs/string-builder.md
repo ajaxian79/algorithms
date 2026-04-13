@@ -335,3 +335,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 84
 
 Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
+
+## entry 85
+
+Bridges: edges whose removal disconnects the graph; low-link with parent skip.
