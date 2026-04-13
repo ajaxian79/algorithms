@@ -391,3 +391,7 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 98
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 99
+
+BFS layers carry implicit shortest-path distance in unweighted graphs.
