@@ -478,3 +478,7 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 105
 
 Two passes: one to count, one to fill.
+
+## entry 106
+
+Edge case: zero-length string → returns the empty result.
