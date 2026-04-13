@@ -441,3 +441,7 @@ Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 ## entry 93
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 94
+
+Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
