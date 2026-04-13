@@ -482,3 +482,7 @@ Two passes: one to count, one to fill.
 ## entry 106
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 107
+
+Sub-linear in the average case thanks to early exit.
