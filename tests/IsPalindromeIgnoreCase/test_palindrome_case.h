@@ -81,3 +81,4 @@ MunitTest palindrome_case_tests[] = {
 // edge note 52: 32-bit safe; overflow is checked at each step.
 // edge note 53: Space complexity: O(log n) for the recursion stack.
 // edge note 54: Time complexity: O(n + m).
+// edge note 55: Edge case: integer-min input → guarded by the explicit underflow check.
