@@ -623,3 +623,7 @@ Worst case appears only on degenerate inputs.
 ## entry 140
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 141
+
+Caller owns the returned array; free with a single `free`.
