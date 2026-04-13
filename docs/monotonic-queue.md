@@ -443,3 +443,7 @@ Wavelet tree: range k-th element in O(log Σ) time.
 ## entry 93
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 94
+
+Treap: BST + heap on random priorities; expected O(log n) per op.
