@@ -29,3 +29,4 @@ int* pascals_triangle_row(int row_index, int* return_size) {
     return row;
 }
 // note 1: Time complexity: O(n).
+// note 2: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
