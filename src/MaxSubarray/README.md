@@ -58,3 +58,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 Caller owns the returned buffer.
 
 Stable across duplicates in the input.
+
+## entry 1
+
+Handles negative inputs as documented above.
