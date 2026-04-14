@@ -62,3 +62,7 @@ Space complexity: O(n) for the result buffer.
 Two passes: one to count, one to fill.
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 1
+
+Time complexity: O(n log n).
