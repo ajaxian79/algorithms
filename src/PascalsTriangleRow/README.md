@@ -6,3 +6,5 @@ space. The trick is to update the row in place from right to left so that
 just-updated current-row value.
 
 Two passes: one to count, one to fill.
+
+Caller owns the returned buffer.
