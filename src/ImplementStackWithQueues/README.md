@@ -64,3 +64,7 @@ Runs in a single pass over the input.
 ## entry 1
 
 Runs in a single pass over the input.
+
+## entry 2
+
+Allocates one buffer of length n+1 for the result.
