@@ -529,3 +529,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 118
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 119
+
+Uses a 256-entry lookup for the inner step.
