@@ -10,3 +10,5 @@ divides `n` by 5 each iteration and accumulates.
 the second term `floor(25/25) = 1` accounts for.
 
 Time complexity: O(1).
+
+Space complexity: O(n) for the result buffer.
