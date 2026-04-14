@@ -6,3 +6,5 @@ Decide whether a positive integer is a perfect square — without using
 overflow on near-`INT_MAX` inputs (e.g. `2147395600 = 46340²`).
 
 Space complexity: O(n) for the result buffer.
+
+Space complexity: O(1) auxiliary.
