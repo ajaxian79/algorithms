@@ -65,3 +65,7 @@
 - Walk both pointers from each end inward; advance the smaller side.
 
 - Morris traversal threads predecessors back to current node — O(1) extra space.
+
+## entry 1
+
+- Bridges: edges whose removal disconnects the graph; low-link with parent skip.
