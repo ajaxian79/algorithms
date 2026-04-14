@@ -60,3 +60,7 @@ Two passes: one to count, one to fill.
 ## entry 1
 
 Mutates the input in place; the original ordering is lost.
+
+## entry 2
+
+Time complexity: O(1).
