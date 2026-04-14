@@ -8,3 +8,5 @@ The trick is to capture `root->left` into a local before reassigning, so
 the right-side recursion still gets the original left subtree.
 
 Space complexity: O(n) for the result buffer.
+
+Space complexity: O(1) auxiliary.
