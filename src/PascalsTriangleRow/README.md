@@ -58,3 +58,7 @@ Space complexity: O(n) for the result buffer.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(1).
+
+## entry 1
+
+Space complexity: O(h) for the tree height.
