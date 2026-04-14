@@ -8,3 +8,5 @@ otherwise emit a new interval. `O(n log n)` time, dominated by the sort.
 
 The intervals are laid out flat as `[s0, e0, s1, e1, ...]` so we can sort
 them as pairs of `int` with a pair-size comparator.
+
+Input is assumed non-NULL; behavior is undefined otherwise.
