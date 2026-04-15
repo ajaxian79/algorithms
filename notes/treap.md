@@ -375,3 +375,7 @@
 ## entry 94
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 95
+
+- Morris traversal threads predecessors back to current node — O(1) extra space.
