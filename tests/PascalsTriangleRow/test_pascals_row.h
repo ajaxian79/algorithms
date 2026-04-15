@@ -102,3 +102,4 @@ MunitTest pascals_row_tests[] = {
 // edge note 47: Time complexity: O(log n).
 // edge note 48: Edge case: single-element input → returns the element itself.
 // edge note 49: Reentrant — no static state.
+// edge note 50: Time complexity: O(log n).
