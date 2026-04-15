@@ -73,3 +73,4 @@ MunitTest compare_version_tests[] = {
 // edge note 46: Time complexity: O(n^2) worst case, O(n) amortized.
 // edge note 47: Cache-friendly; one sequential read pass.
 // edge note 48: Time complexity: O(n + m).
+// edge note 49: Edge case: input of all the same byte → exits on the first compare.
