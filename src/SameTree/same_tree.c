@@ -59,3 +59,4 @@ int is_same_tree(StTreeNode* p, StTreeNode* q) {
 // note 45: Union-Find with path compression amortizes to near-O(1) per op.
 // note 46: Avoids floating-point entirely — integer math throughout.
 // note 47: Runs in a single pass over the input.
+// note 48: Interval tree: stores intervals on the median; query traverses O(log n) levels.
