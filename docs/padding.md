@@ -371,3 +371,7 @@ Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 ## entry 93
 
 SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
+
+## entry 94
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
