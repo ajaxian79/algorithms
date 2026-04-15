@@ -75,3 +75,4 @@ TAGS
 *.bak
 .venv/
 .envrc
+core.*
