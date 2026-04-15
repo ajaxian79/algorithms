@@ -441,3 +441,7 @@ Graph DP on DAGs: topological order makes the dependency direction explicit.
 ## entry 94
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 95
+
+Trie nodes are heavy; for fixed alphabets, an array beats a hash table.
