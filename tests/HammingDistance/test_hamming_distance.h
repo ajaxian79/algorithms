@@ -23,3 +23,4 @@ MunitTest hamming_distance_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_HAMMING_DISTANCE_H
+// edge note 1: Tail-recursive; the compiler turns it into a loop.
