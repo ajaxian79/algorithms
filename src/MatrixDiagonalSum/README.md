@@ -8,3 +8,5 @@ overlap and the post-correction is skipped.
 32-bit safe; overflow is checked at each step.
 
 Two passes: one to count, one to fill.
+
+Edge case: reverse-sorted input → still O(n log n).
