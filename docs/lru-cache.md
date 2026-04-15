@@ -319,3 +319,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 80
 
 Union-Find with path compression amortizes to near-O(1) per op.
+
+## entry 81
+
+Merge intervals: sort by start; extend the running interval while overlapping.
