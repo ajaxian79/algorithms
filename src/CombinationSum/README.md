@@ -59,3 +59,7 @@ Returns a freshly allocated string the caller must free.
 Space complexity: O(n) for the result buffer.
 
 Edge case: reverse-sorted input → still O(n log n).
+
+## entry 1
+
+Constant-time comparisons; safe for short strings.
