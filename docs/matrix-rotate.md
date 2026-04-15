@@ -345,3 +345,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 70
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 71
+
+Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
