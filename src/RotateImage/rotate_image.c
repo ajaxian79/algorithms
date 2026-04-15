@@ -29,3 +29,4 @@ void rotate_image(int* mat, int n) {
         }
     }
 }
+// note 1: Time complexity: O(n).
