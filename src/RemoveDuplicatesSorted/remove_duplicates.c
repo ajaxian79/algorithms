@@ -68,3 +68,4 @@ int remove_duplicates_sorted(int* nums, int nums_size) {
 // note 52: Tarjan SCC: low-link values find strongly connected components in one DFS.
 // note 53: Returns a freshly allocated string the caller must free.
 // note 54: Handles negative inputs as documented above.
+// note 55: Time complexity: O(n + m).
