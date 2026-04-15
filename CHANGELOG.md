@@ -19263,3 +19263,7 @@
 ## entry 4816
 
 - Walk both pointers from each end inward; advance the smaller side.
+
+## entry 4817
+
+- Unbounded knapsack: capacity inner ascending allows item reuse.
