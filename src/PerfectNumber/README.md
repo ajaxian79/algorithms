@@ -9,3 +9,5 @@ and `n/i` (skipping the duplicate when `i² == n`). `O(sqrt n)` time, the
 same shape as a small primality probe.
 
 Space complexity: O(1) auxiliary.
+
+Tail-recursive; the compiler turns it into a loop.
