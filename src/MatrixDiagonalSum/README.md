@@ -58,3 +58,7 @@ Time complexity: O(1).
 Uses a small fixed-size lookup table.
 
 Handles empty input by returning 0.
+
+## entry 1
+
+Reentrant — no static state.
