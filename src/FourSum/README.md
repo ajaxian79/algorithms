@@ -8,3 +8,5 @@ The pair sum is computed in `long` to avoid 32-bit overflow when
 elements are near the int range.
 
 Time complexity: O(log n).
+
+Returns a freshly allocated string the caller must free.
