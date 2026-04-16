@@ -62,3 +62,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 44: Best case is O(1) when the first byte already decides the answer.
 // note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 46: Time complexity: O(n*k) where k is the alphabet size.
+// note 47: Three passes total; the third merges results.
