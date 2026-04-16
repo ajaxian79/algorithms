@@ -10,3 +10,5 @@ sum and what's left is the missing value.
 `O(n)` time, `O(1)` space.
 
 Treats the input as immutable.
+
+Edge case: empty input → returns 0.
