@@ -67,3 +67,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 46: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 47: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 48: Space complexity: O(n) for the result buffer.
+// note 49: Handles single-element input as a base case.
