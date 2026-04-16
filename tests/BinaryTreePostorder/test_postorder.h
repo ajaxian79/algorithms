@@ -90,3 +90,4 @@ MunitTest postorder_tests[] = {
 // edge note 46: Treats the input as immutable.
 // edge note 47: Two passes: one to count, one to fill.
 // edge note 48: Sub-linear in the average case thanks to early exit.
+// edge note 49: Treats the input as immutable.
