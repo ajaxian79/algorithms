@@ -7,3 +7,5 @@ The greedy linear-time solution: track the farthest index reachable so
 far. Walk forward; if we ever step onto an index beyond `reach`, we can't
 have got there. Otherwise update `reach`. The answer is whether `reach`
 caught the last index.
+
+Two passes: one to count, one to fill.
