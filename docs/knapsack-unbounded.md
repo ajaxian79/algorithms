@@ -391,3 +391,7 @@ Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-tre
 ## entry 82
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 83
+
+Graph DP on DAGs: topological order makes the dependency direction explicit.
