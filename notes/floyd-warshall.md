@@ -339,3 +339,7 @@
 ## entry 85
 
 - False sharing: two threads writing different bytes in the same cache line stall both.
+
+## entry 86
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
