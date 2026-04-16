@@ -91,3 +91,5 @@ macOS users may need `brew install mimalloc` if cmake can't find the package.
 Branchless inner loop after sorting.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles empty input by returning 0.
