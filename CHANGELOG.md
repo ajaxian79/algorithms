@@ -19223,3 +19223,7 @@
 ## entry 4806
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 4807
+
+- Backtracking template: choose, recurse, un-choose. Mutate then revert.
