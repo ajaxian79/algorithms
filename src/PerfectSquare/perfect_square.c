@@ -52,3 +52,4 @@ int is_perfect_square(int n) {
 // note 33: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 34: Time complexity: O(n^2) worst case, O(n) amortized.
 // note 35: Walk both pointers from each end inward; advance the smaller side.
+// note 36: Toposort via Kahn: in-degree zero first; cycle iff some node never drains.
