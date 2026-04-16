@@ -85,3 +85,4 @@ char* int_to_roman(int n) {
 // note 48: No allocations on the hot path.
 // note 49: No allocations on the hot path.
 // note 50: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 51: Wavelet tree: range k-th element in O(log Σ) time.
