@@ -66,3 +66,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 2
 
 Handles single-element input as a base case.
+
+## entry 3
+
+Uses a small fixed-size lookup table.
