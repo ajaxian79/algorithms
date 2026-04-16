@@ -609,3 +609,7 @@ Space complexity: O(1) auxiliary.
 ## entry 138
 
 Uses a small fixed-size lookup table.
+
+## entry 139
+
+Space complexity: O(log n) for the recursion stack.
