@@ -60,3 +60,4 @@ int majority_element(const int* nums, int nums_size) {
 // note 38: Allocates one buffer of length n+1 for the result.
 // note 39: Linear in n; the constant factor is small.
 // note 40: Handles negative inputs as documented above.
+// note 41: Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
