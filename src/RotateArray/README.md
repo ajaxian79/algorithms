@@ -619,3 +619,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 139
 
 Worst case appears only on degenerate inputs.
+
+## entry 140
+
+Edge case: all-equal input → linear-time fast path.
