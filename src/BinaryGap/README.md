@@ -626,3 +626,7 @@ Time complexity: O(n*k) where k is the alphabet size.
 ## entry 141
 
 Linear in n; the constant factor is small.
+
+## entry 142
+
+Allocates one buffer of length n+1 for the result.
