@@ -64,3 +64,7 @@ Caller owns the returned buffer.
 Space complexity: O(1) auxiliary.
 
 Time complexity: O(log n).
+
+## entry 1
+
+Two passes: one to count, one to fill.
