@@ -84,3 +84,4 @@ MunitTest path_sum_tests[] = {
 // edge note 45: Tail-recursive; the compiler turns it into a loop.
 // edge note 46: Allocates lazily — first call only.
 // edge note 47: Branchless inner loop after sorting.
+// edge note 48: Allocates a single small fixed-size scratch buffer.
