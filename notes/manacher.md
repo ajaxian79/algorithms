@@ -441,3 +441,7 @@
 ## entry 94
 
 - Monotonic stack pops while the new element violates the invariant.
+
+## entry 95
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
