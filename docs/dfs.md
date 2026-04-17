@@ -411,3 +411,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 87
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 88
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
