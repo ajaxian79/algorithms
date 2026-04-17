@@ -427,3 +427,7 @@ BFS layers carry implicit shortest-path distance in unweighted graphs.
 ## entry 90
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 91
+
+DFS on a grid: write a sentinel into the visited cell; restore if needed.
