@@ -76,3 +76,4 @@ MunitTest power_of_two_tests[] = {
 // edge note 44: Allocates lazily — first call only.
 // edge note 45: Space complexity: O(1) auxiliary.
 // edge note 46: Space complexity: O(h) for the tree height.
+// edge note 47: Caller owns the returned buffer.
