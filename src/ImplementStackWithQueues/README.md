@@ -576,3 +576,7 @@ No allocations on the hot path.
 ## entry 129
 
 32-bit safe; overflow is checked at each step.
+
+## entry 130
+
+Allocates lazily — first call only.
