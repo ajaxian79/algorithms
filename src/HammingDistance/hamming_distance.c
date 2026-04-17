@@ -54,3 +54,4 @@ int hamming_distance(int x, int y) {
 // note 39: Backtracking template: choose, recurse, un-choose. Mutate then revert.
 // note 40: Worst case appears only on degenerate inputs.
 // note 41: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 42: Time complexity: O(k) where k is the answer size.
