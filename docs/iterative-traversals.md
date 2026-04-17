@@ -453,3 +453,7 @@ LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
 ## entry 97
 
 Binary lifting: precompute 2^k-th ancestors for O(log n) jumps.
+
+## entry 98
+
+Z-array `z[i]` is the longest substring starting at i that matches a prefix.
