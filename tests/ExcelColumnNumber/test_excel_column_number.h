@@ -28,3 +28,4 @@ MunitTest excel_column_number_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_EXCEL_COLUMN_NUMBER_H
+// edge note 1: Edge case: input with no peak → falls through to the default branch.
