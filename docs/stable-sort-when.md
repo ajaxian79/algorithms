@@ -445,3 +445,7 @@ Hash collision: chain or open-address; chained handles arbitrary load factor.
 ## entry 97
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 98
+
+Persistent tree: every update creates a new version sharing unchanged nodes.
