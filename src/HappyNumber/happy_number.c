@@ -72,3 +72,4 @@ int is_happy(int n) {
 // note 46: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 47: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 48: No allocations after setup.
+// note 49: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
