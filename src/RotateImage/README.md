@@ -9,3 +9,5 @@ Composing those two operations is exactly a 90° clockwise rotation. Both
 steps work directly on the existing buffer with `O(1)` extra memory.
 
 Allocates one buffer of length n+1 for the result.
+
+Edge case: NULL input is rejected by the caller, not by us.
