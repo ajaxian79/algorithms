@@ -87,3 +87,5 @@ Deterministic given the input — no PRNG seeds.
 Thread-safe so long as the input is not mutated concurrently.
 
 macOS users may need `brew install mimalloc` if cmake can't find the package.
+
+Branchless inner loop after sorting.
