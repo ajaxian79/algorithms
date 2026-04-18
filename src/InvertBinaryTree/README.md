@@ -64,3 +64,7 @@ Time complexity: O(log n).
 ## entry 1
 
 Handles negative inputs as documented above.
+
+## entry 2
+
+Edge case: input of all the same byte → exits on the first compare.
