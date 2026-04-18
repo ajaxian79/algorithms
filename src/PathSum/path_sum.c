@@ -66,3 +66,4 @@ int has_path_sum(PsTreeNode* root, int target) {
 // note 52: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 53: Stable when the input is already sorted.
 // note 54: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
+// note 55: StringBuilder pitfall: reuse forces a deep copy on the first read.
