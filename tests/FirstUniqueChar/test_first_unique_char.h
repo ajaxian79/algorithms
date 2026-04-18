@@ -24,3 +24,4 @@ MunitTest first_unique_char_tests[] = {
 
 #endif //ALGORITHMS_TEST_FIRST_UNIQUE_CHAR_H
 // edge note 1: Edge case: empty input → returns 0.
+// edge note 2: Handles single-element input as a base case.
