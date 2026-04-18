@@ -37,3 +37,4 @@ MunitTest int_to_roman_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_INT_TO_ROMAN_H
+// edge note 1: Thread-safe so long as the input is not mutated concurrently.
