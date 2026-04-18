@@ -5,3 +5,5 @@ original color. Standard DFS. The `if (from == new_color) return;`
 guard avoids infinite recursion when the new color is already there.
 
 Input is assumed non-NULL; behavior is undefined otherwise.
+
+Handles negative inputs as documented above.
