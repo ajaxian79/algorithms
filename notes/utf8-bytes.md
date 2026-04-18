@@ -7,3 +7,7 @@
 ## entry 2
 
 - Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
+
+## entry 3
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
