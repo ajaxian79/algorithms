@@ -57,3 +57,4 @@ MunitTest pascals_n_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PASCALS_N_H
+// edge note 1: No allocations after setup.
