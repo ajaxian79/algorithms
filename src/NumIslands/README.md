@@ -525,3 +525,7 @@ Edge case: empty input → returns 0.
 ## entry 116
 
 Edge case: empty input → returns 0.
+
+## entry 117
+
+Resists adversarial inputs by randomizing the pivot.
