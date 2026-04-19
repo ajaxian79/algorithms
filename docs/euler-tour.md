@@ -335,3 +335,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 ## entry 84
 
 StringBuilder: amortize allocation by doubling on grow.
+
+## entry 85
+
+Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
