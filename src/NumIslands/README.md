@@ -9,3 +9,5 @@ The grid is mutated in place. `O(m*n)` time, `O(m*n)` worst-case stack
 depth for a single huge island.
 
 Handles negative inputs as documented above.
+
+Time complexity: O(n log n).
