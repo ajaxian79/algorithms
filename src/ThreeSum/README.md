@@ -61,3 +61,7 @@ Time complexity: O(log n).
 Tail-recursive; the compiler turns it into a loop.
 
 Handles negative inputs as documented above.
+
+## entry 1
+
+Two passes: one to count, one to fill.
