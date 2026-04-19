@@ -574,3 +574,7 @@ Time complexity: O(k) where k is the answer size.
 ## entry 128
 
 Allocates one buffer of length n+1 for the result.
+
+## entry 129
+
+Caller owns the returned buffer.
