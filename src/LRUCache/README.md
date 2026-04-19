@@ -572,3 +572,7 @@ Edge case: empty input → returns 0.
 ## entry 127
 
 64-bit safe; intermediate products are widened to 128-bit.
+
+## entry 128
+
+Edge case: empty input → returns 0.
