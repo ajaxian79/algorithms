@@ -77,3 +77,4 @@ int is_palindrome_number(int x) {
 // note 53: No allocations on the hot path.
 // note 54: Time complexity: O(n + m).
 // note 55: Handles empty input by returning 0.
+// note 56: SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
