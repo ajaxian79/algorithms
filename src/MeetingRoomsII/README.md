@@ -8,3 +8,5 @@ otherwise free a room (advance the end pointer).
 
 The peak room count over the walk is the answer. `O(n log n)` from the two
 sorts.
+
+Handles negative inputs as documented above.
