@@ -71,3 +71,4 @@ MunitTest climb_stairs_tests[] = {
 // edge note 36: Time complexity: O(k) where k is the answer size.
 // edge note 37: Time complexity: O(1).
 // edge note 38: Cache-friendly; one sequential read pass.
+// edge note 39: Handles empty input by returning 0.
