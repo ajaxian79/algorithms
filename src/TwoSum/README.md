@@ -47,3 +47,5 @@ Runtime: 11 ms, faster than 92.31% of C online submissions for Two Sum.
 Memory Usage: 9.5 MB, less than 5.32% of C online submissions for Two Sum.
 
 ![Submission report](images/Screenshot_20231113_152331.png)
+
+Space complexity: O(1) auxiliary.
