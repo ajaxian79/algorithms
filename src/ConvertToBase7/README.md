@@ -596,3 +596,7 @@ Time complexity: O(n + m).
 ## entry 134
 
 Sub-linear in the average case thanks to early exit.
+
+## entry 135
+
+Edge case: integer-max input → guarded by the explicit overflow check.
