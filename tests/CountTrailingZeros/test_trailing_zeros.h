@@ -76,3 +76,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 48: Time complexity: O(k) where k is the answer size.
 // edge note 49: Reentrant — no static state.
 // edge note 50: Stable across duplicates in the input.
+// edge note 51: Avoids floating-point entirely — integer math throughout.
