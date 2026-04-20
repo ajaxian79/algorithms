@@ -369,3 +369,7 @@
 ## entry 75
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 76
+
+- Splay tree: every access splays to the root; amortized O(log n).
