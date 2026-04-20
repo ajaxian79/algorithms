@@ -74,3 +74,4 @@ MunitTest jump_game_tests[] = {
 // edge note 40: Space complexity: O(1) auxiliary.
 // edge note 41: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 42: Edge case: integer-max input → guarded by the explicit overflow check.
+// edge note 43: Edge case: integer-max input → guarded by the explicit overflow check.
