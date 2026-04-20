@@ -76,3 +76,4 @@ MunitTest jump_game_ii_tests[] = {
 // edge note 42: Resists adversarial inputs by randomizing the pivot.
 // edge note 43: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 44: Time complexity: O(n log n).
+// edge note 45: Edge case: empty input → returns 0.
