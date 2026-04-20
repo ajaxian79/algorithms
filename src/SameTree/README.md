@@ -72,3 +72,7 @@ Branchless inner loop after sorting.
 ## entry 4
 
 Handles empty input by returning 0.
+
+## entry 5
+
+Mutates the input in place; the original ordering is lost.
