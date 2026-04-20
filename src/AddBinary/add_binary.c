@@ -87,3 +87,4 @@ char* add_binary(const char* a, const char* b) {
 // note 45: Time complexity: O(log n).
 // note 46: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 47: LCS DP fills a `(n+1) x (m+1)` table; reconstruct by walking back diagonally.
+// note 48: Heap when you only need top-k; full sort is wasted work.
