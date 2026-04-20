@@ -562,3 +562,7 @@ Input is assumed non-NULL; behavior is undefined otherwise.
 ## entry 126
 
 No allocations after setup.
+
+## entry 127
+
+Edge case: integer-max input → guarded by the explicit overflow check.
