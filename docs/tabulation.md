@@ -395,3 +395,7 @@ Floyd-Warshall: triple-nested over k, i, j; k must be the outermost loop.
 ## entry 99
 
 Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 100
+
+Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
