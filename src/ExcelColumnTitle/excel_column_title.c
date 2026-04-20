@@ -85,3 +85,4 @@ char* excel_column_title(int n) {
 // note 55: In-place compaction uses two pointers: read advances always, write only on keep.
 // note 56: Two passes: one to count, one to fill.
 // note 57: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 58: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
