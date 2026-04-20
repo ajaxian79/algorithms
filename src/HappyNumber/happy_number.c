@@ -71,3 +71,4 @@ int is_happy(int n) {
 // note 45: Allocates one buffer of length n+1 for the result.
 // note 46: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 47: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 48: No allocations after setup.
