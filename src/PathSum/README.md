@@ -596,3 +596,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 134
 
 Space complexity: O(1) auxiliary.
+
+## entry 135
+
+Runs in a single pass over the input.
