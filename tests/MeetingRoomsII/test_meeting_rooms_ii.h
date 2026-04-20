@@ -92,3 +92,4 @@ MunitTest meeting_rooms_ii_tests[] = {
 // edge note 61: Caller owns the returned array; free with a single `free`.
 // edge note 62: Runs in a single pass over the input.
 // edge note 63: Sub-linear in the average case thanks to early exit.
+// edge note 64: Edge case: maximum-length input → still fits in 32-bit indices.
