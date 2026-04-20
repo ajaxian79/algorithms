@@ -461,3 +461,7 @@ Polynomial rolling hash with two moduli kills almost all collisions in practice.
 ## entry 98
 
 In-place compaction uses two pointers: read advances always, write only on keep.
+
+## entry 99
+
+Heavy-light decomposition: each path crosses O(log n) heavy chains.
