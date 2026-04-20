@@ -602,3 +602,7 @@ Time complexity: O(1).
 ## entry 136
 
 Edge case: power-of-two-length input → no padding required.
+
+## entry 137
+
+Edge case: input of all the same byte → exits on the first compare.
