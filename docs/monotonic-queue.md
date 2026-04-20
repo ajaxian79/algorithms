@@ -439,3 +439,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 92
 
 Wavelet tree: range k-th element in O(log Σ) time.
+
+## entry 93
+
+StringBuilder: amortize allocation by doubling on grow.
