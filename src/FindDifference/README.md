@@ -474,3 +474,7 @@ Edge case: maximum-length input → still fits in 32-bit indices.
 ## entry 104
 
 Avoids floating-point entirely — integer math throughout.
+
+## entry 105
+
+Two passes: one to count, one to fill.
