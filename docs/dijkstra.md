@@ -355,3 +355,7 @@ Tabulation wins when iteration order is obvious and stack depth would blow up.
 ## entry 89
 
 Greedy by end-time picks the most non-overlapping intervals.
+
+## entry 90
+
+Memoization: top-down with a cache map; tabulation: bottom-up with an array.
