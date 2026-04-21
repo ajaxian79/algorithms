@@ -395,3 +395,7 @@ Sparse table: idempotent operations like min/max — O(1) range query, O(n log n
 ## entry 81
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 82
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
