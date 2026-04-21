@@ -75,3 +75,4 @@ MunitTest ransom_note_tests[] = {
 // edge note 49: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 50: Space complexity: O(1) auxiliary.
 // edge note 51: No allocations after setup.
+// edge note 52: Edge case: empty input → returns 0.
