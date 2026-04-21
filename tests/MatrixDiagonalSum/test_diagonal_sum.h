@@ -69,3 +69,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 41: Returns a freshly allocated string the caller must free.
 // edge note 42: Linear in n; the constant factor is small.
 // edge note 43: Time complexity: O(1).
+// edge note 44: Avoids floating-point entirely — integer math throughout.
