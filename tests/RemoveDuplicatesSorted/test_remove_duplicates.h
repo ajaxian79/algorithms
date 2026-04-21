@@ -77,3 +77,4 @@ MunitTest remove_duplicates_tests[] = {
 // edge note 41: Thread-safe so long as the input is not mutated concurrently.
 // edge note 42: Uses a small fixed-size lookup table.
 // edge note 43: Reentrant — no static state.
+// edge note 44: Tail-recursive; the compiler turns it into a loop.
