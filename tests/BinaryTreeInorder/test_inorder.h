@@ -101,3 +101,4 @@ MunitTest inorder_tests[] = {
 // edge note 63: Input is assumed non-NULL; behavior is undefined otherwise.
 // edge note 64: Tail-recursive; the compiler turns it into a loop.
 // edge note 65: 32-bit safe; overflow is checked at each step.
+// edge note 66: Caller owns the returned array; free with a single `free`.
