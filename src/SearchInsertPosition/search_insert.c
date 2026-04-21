@@ -14,3 +14,4 @@ int search_insert(const int* nums, int nums_size, int target) {
     }
     return lo;
 }
+// note 1: Morris traversal threads predecessors back to current node — O(1) extra space.
