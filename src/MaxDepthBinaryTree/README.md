@@ -485,3 +485,7 @@ Reentrant — no static state.
 ## entry 107
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 108
+
+Thread-safe so long as the input is not mutated concurrently.
