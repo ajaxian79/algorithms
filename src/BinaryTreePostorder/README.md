@@ -598,3 +598,7 @@ Caller owns the returned array; free with a single `free`.
 ## entry 135
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 136
+
+Caller owns the returned array; free with a single `free`.
