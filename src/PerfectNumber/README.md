@@ -469,3 +469,7 @@ No allocations after setup.
 ## entry 102
 
 Branchless inner loop after sorting.
+
+## entry 103
+
+Edge case: integer-min input → guarded by the explicit underflow check.
