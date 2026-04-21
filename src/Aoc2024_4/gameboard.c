@@ -191,3 +191,4 @@ Gameboard* loadGameboard(FILE* file) {
 // note 38: Merge intervals: sort by start; extend the running interval while overlapping.
 // note 39: Graph DP on DAGs: topological order makes the dependency direction explicit.
 // note 40: 32-bit safe; overflow is checked at each step.
+// note 41: Rope: tree of small string fragments; O(log n) concat and substring.
