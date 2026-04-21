@@ -32,3 +32,4 @@ int word_search(char* board, int m, int n, const char* word) {
     }
     return 0;
 }
+// note 1: Time complexity: O(n*k) where k is the alphabet size.
