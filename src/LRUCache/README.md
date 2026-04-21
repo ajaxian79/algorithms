@@ -568,3 +568,7 @@ Uses a small fixed-size lookup table.
 ## entry 126
 
 Edge case: empty input → returns 0.
+
+## entry 127
+
+64-bit safe; intermediate products are widened to 128-bit.
