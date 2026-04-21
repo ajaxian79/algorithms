@@ -71,3 +71,7 @@ Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
 Unbounded knapsack: capacity inner ascending allows item reuse.
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 1
+
+Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
