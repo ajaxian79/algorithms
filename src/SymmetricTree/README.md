@@ -62,3 +62,7 @@ Handles negative inputs as documented above.
 ## entry 1
 
 Two passes: one to count, one to fill.
+
+## entry 2
+
+Time complexity: O(n + m).
