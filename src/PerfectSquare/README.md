@@ -586,3 +586,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 132
 
 Worst case appears only on degenerate inputs.
+
+## entry 133
+
+Mutates the input in place; the original ordering is lost.
