@@ -6,3 +6,5 @@ once during the loop and subtract it once at the end. Even `n` has no
 overlap and the post-correction is skipped.
 
 32-bit safe; overflow is checked at each step.
+
+Two passes: one to count, one to fill.
