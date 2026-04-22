@@ -8,3 +8,5 @@ without re-examining haystack characters that have already been compared.
 Total work is `O(n + m)` where `n = |haystack|` and `m = |needle|`.
 
 Handles empty input by returning 0.
+
+Edge case: all-equal input → linear-time fast path.
