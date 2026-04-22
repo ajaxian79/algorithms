@@ -58,3 +58,7 @@ Edge case: all-equal input → linear-time fast path.
 Space complexity: O(n) for the result buffer.
 
 Handles negative inputs as documented above.
+
+## entry 1
+
+Two passes: one to count, one to fill.
