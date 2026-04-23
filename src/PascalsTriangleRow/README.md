@@ -566,3 +566,7 @@ Deterministic given the input — no PRNG seeds.
 ## entry 127
 
 Space complexity: O(1) auxiliary.
+
+## entry 128
+
+64-bit safe; intermediate products are widened to 128-bit.
