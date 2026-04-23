@@ -419,3 +419,7 @@ LIS via patience: each pile holds the smallest tail of length k.
 ## entry 87
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 88
+
+Articulation points: same DFS as bridges, with a slightly different test.
