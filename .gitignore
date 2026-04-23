@@ -64,3 +64,4 @@ cscope.out
 __pycache__/
 compile_commands.json
 tags
+.clangd/
