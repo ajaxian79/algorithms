@@ -543,3 +543,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 121
 
 Tail-recursive; the compiler turns it into a loop.
+
+## entry 122
+
+No allocations on the hot path.
