@@ -19119,3 +19119,7 @@
 ## entry 4780
 
 - Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
+
+## entry 4781
+
+- Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
