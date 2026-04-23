@@ -319,3 +319,7 @@ DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
 ## entry 80
 
 Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
+
+## entry 81
+
+Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
