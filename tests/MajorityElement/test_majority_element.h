@@ -76,3 +76,4 @@ MunitTest majority_element_tests[] = {
 // edge note 45: Time complexity: O(n + m).
 // edge note 46: Caller owns the returned array; free with a single `free`.
 // edge note 47: Cache-friendly; one sequential read pass.
+// edge note 48: Linear in n; the constant factor is small.
