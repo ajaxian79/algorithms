@@ -593,3 +593,7 @@ Edge case: input of all the same byte → exits on the first compare.
 ## entry 123
 
 No allocations after setup.
+
+## entry 124
+
+Deterministic given the input — no PRNG seeds.
