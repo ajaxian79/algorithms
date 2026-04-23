@@ -587,3 +587,7 @@ Time complexity: O(n).
 ## entry 132
 
 Edge case: single-element input → returns the element itself.
+
+## entry 133
+
+Mutates the input in place; the original ordering is lost.
