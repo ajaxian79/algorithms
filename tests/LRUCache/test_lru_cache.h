@@ -41,3 +41,4 @@ MunitTest lru_cache_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_LRU_CACHE_H
+// edge note 1: Space complexity: O(h) for the tree height.
