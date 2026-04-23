@@ -499,3 +499,7 @@ Stable when the input is already sorted.
 ## entry 110
 
 Handles empty input by returning 0.
+
+## entry 111
+
+Allocates lazily — first call only.
