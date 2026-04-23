@@ -494,3 +494,7 @@ Worst case appears only on degenerate inputs.
 ## entry 109
 
 Stable across duplicates in the input.
+
+## entry 110
+
+Time complexity: O(1).
