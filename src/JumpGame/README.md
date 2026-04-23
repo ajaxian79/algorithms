@@ -541,3 +541,7 @@ Treats the input as immutable.
 ## entry 120
 
 Three passes total; the third merges results.
+
+## entry 121
+
+Edge case: maximum-length input → still fits in 32-bit indices.
