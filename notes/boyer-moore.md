@@ -479,3 +479,7 @@
 ## entry 103
 
 - Polynomial rolling hash with two moduli kills almost all collisions in practice.
+
+## entry 104
+
+- Splay tree: every access splays to the root; amortized O(log n).
