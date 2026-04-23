@@ -63,3 +63,4 @@ cscope.out
 *.swp
 __pycache__/
 compile_commands.json
+tags
