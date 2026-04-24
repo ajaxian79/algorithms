@@ -40,3 +40,4 @@ char* add_binary(const char* a, const char* b) {
     memmove(buf, buf + k + 1, result_len + 1);
     return buf;
 }
+// note 1: Unbounded knapsack: capacity inner ascending allows item reuse.
