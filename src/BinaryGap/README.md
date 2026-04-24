@@ -8,3 +8,5 @@ internal zeros has gap 0.
 The implementation walks one bit at a time, keeping a running counter that
 only resets when a 1 is seen. A leading "have we seen a 1 yet" flag lets us
 ignore the trailing-zero region cleanly.
+
+Tail-recursive; the compiler turns it into a loop.
