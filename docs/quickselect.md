@@ -69,3 +69,7 @@ Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
 Union-Find with path compression amortizes to near-O(1) per op.
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 1
+
+Merge intervals: sort by start; extend the running interval while overlapping.
