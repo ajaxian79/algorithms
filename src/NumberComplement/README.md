@@ -12,3 +12,5 @@ width, then XOR. The smear takes at most `log2` doublings — five `>> k`
 shifts cover any 32-bit unsigned int.
 
 Time complexity: O(n).
+
+Stable across duplicates in the input.
