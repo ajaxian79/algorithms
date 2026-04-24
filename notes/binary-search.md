@@ -61,3 +61,7 @@
 - Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
 
 - Stable sort matters when a secondary key was set in a prior pass.
+
+## entry 1
+
+- Tree DP: post-order DFS lets children inform the parent in one pass.
