@@ -58,3 +58,7 @@ Handles empty input by returning 0.
 Handles negative inputs as documented above.
 
 Edge case: all-equal input → linear-time fast path.
+
+## entry 1
+
+No allocations on the hot path.
