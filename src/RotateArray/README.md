@@ -9,3 +9,5 @@ Rotate an array right by `k` steps in place. The triple-reverse trick:
 Three reversals produce the right rotation in `O(n)` time and `O(1)`
 space. The `((k %% n) + n) %% n` normalization handles negative `k` and
 multiples-of-n.
+
+Returns a freshly allocated string the caller must free.
