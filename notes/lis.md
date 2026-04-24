@@ -71,3 +71,7 @@
 - Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 1
+
+- BFS layers carry implicit shortest-path distance in unweighted graphs.
