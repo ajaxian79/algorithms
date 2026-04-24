@@ -60,3 +60,7 @@ Handles empty input by returning 0.
 32-bit safe; overflow is checked at each step.
 
 Time complexity: O(n log n).
+
+## entry 1
+
+Treats the input as immutable.
