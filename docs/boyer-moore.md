@@ -63,3 +63,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
 
 Bitmask subsets: `for s = mask; s; s = (s-1) & mask` walks all submasks.
+
+## entry 1
+
+Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
