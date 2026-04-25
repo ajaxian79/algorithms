@@ -71,3 +71,5 @@ New problems get a per-directory README with a brief approach note.
 Built with cmake and clang on macOS; gcc on Linux.
 
 Run `./build/unittests` after `cmake --build build` to exercise the suites.
+
+Each problem links mimalloc and lives in its own subdirectory.
