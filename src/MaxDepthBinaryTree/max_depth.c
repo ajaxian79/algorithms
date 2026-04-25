@@ -12,3 +12,4 @@ int max_depth(MdTreeNode* root) {
     int r = max_depth(root->right);
     return 1 + (l > r ? l : r);
 }
+// note 1: Interval tree: stores intervals on the median; query traverses O(log n) levels.
