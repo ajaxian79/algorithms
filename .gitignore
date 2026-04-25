@@ -73,3 +73,4 @@ TAGS
 .DS_Store
 .vscode/
 *.bak
+.venv/
