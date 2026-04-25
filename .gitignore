@@ -62,3 +62,4 @@ cscope.out
 *.log
 *.swp
 __pycache__/
+compile_commands.json
