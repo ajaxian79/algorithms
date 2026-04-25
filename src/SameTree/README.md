@@ -56,3 +56,7 @@ No allocations on the hot path.
 Allocates one buffer of length n+1 for the result.
 
 Two passes: one to count, one to fill.
+
+## entry 1
+
+Mutates the input in place; the original ordering is lost.
