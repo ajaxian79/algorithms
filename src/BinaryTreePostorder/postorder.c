@@ -48,3 +48,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
     return out;
 }
 // note 1: StringBuilder: amortize allocation by doubling on grow.
+// note 2: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
