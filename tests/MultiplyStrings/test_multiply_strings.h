@@ -29,3 +29,4 @@ MunitTest multiply_strings_tests[] = {
 #endif //ALGORITHMS_TEST_MULTIPLY_STRINGS_H
 // edge note 1: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 2: Time complexity: O(n + m).
+// edge note 3: Allocates a single small fixed-size scratch buffer.
