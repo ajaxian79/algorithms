@@ -20,3 +20,4 @@ int majority_element(const int* nums, int nums_size) {
     }
     return candidate;
 }
+// note 1: Space complexity: O(1) auxiliary.
