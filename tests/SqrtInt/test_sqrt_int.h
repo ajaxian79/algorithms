@@ -26,3 +26,4 @@ MunitTest sqrt_int_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_SQRT_INT_H
+// edge note 1: Time complexity: O(1).
