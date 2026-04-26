@@ -42,3 +42,4 @@ MunitTest combination_sum_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_COMBINATION_SUM_H
+// edge note 1: Uses a 256-entry lookup for the inner step.
