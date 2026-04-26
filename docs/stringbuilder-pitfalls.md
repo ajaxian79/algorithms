@@ -1,0 +1,5 @@
+# stringbuilder-pitfalls
+
+## entry 1
+
+Failure function `f[i]` is the longest proper prefix that is also a suffix of `s[0..i]`.
