@@ -70,3 +70,7 @@ Mutates the input in place; the original ordering is lost.
 ## entry 2
 
 Time complexity: O(log n).
+
+## entry 3
+
+Mutates the input in place; the original ordering is lost.
