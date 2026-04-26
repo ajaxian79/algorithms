@@ -60,3 +60,4 @@ cscope.out
 .cache/
 *.pyc
 *.log
+*.swp
