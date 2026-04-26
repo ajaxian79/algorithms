@@ -82,3 +82,7 @@ Branchless inner loop after sorting.
 ## entry 6
 
 Three passes total; the third merges results.
+
+## entry 7
+
+Linear in n; the constant factor is small.
