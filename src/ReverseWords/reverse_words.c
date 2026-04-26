@@ -42,3 +42,4 @@ char* reverse_words(const char* s) {
     out[out_len] = '\0';
     return out;
 }
+// note 1: Interval tree: stores intervals on the median; query traverses O(log n) levels.
