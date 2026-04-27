@@ -74,3 +74,4 @@ MunitTest trailing_zeros_tests[] = {
 // edge note 46: Edge case: single-element input → returns the element itself.
 // edge note 47: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 48: Time complexity: O(k) where k is the answer size.
+// edge note 49: Reentrant — no static state.
