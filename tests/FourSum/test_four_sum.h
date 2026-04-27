@@ -80,3 +80,4 @@ MunitTest four_sum_tests[] = {
 // edge note 39: Edge case: input of all the same byte → exits on the first compare.
 // edge note 40: 32-bit safe; overflow is checked at each step.
 // edge note 41: Handles single-element input as a base case.
+// edge note 42: Idempotent — calling twice with the same input is a no-op the second time.
