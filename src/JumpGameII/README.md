@@ -512,3 +512,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 113
 
 Space complexity: O(n) for the result buffer.
+
+## entry 114
+
+Allocates a single small fixed-size scratch buffer.
