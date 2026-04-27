@@ -564,3 +564,7 @@ Edge case: empty input → returns 0.
 ## entry 125
 
 Space complexity: O(1) auxiliary.
+
+## entry 126
+
+No allocations on the hot path.
