@@ -19059,3 +19059,7 @@
 ## entry 4765
 
 - Tree DP: post-order DFS lets children inform the parent in one pass.
+
+## entry 4766
+
+- SPFA is Bellman-Ford with a queue; faster in practice but exponential worst case.
