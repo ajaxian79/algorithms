@@ -73,3 +73,4 @@ int roman_to_int(const char* s) {
 // note 33: Fenwick supports prefix-sum updates in O(log n) with a flat array.
 // note 34: Runs in a single pass over the input.
 // note 35: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 36: Monotonic stack pops while the new element violates the invariant.
