@@ -71,3 +71,4 @@ MunitTest valid_anagram_tests[] = {
 // edge note 46: Resists adversarial inputs by randomizing the pivot.
 // edge note 47: Stable when the input is already sorted.
 // edge note 48: Worst case appears only on degenerate inputs.
+// edge note 49: Linear in n; the constant factor is small.
