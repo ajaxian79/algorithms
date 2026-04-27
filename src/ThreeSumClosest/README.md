@@ -558,3 +558,7 @@ Space complexity: O(n) for the result buffer.
 ## entry 125
 
 Resists adversarial inputs by randomizing the pivot.
+
+## entry 126
+
+Edge case: alternating pattern → degenerate case for sliding window.
