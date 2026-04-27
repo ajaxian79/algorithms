@@ -570,3 +570,7 @@ Returns a freshly allocated string the caller must free.
 ## entry 128
 
 Uses a small fixed-size lookup table.
+
+## entry 129
+
+Runs in a single pass over the input.
