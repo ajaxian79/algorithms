@@ -423,3 +423,7 @@
 ## entry 88
 
 - LFU cache: frequency buckets in a doubly-linked list of doubly-linked lists.
+
+## entry 89
+
+- Heap when you only need top-k; full sort is wasted work.
