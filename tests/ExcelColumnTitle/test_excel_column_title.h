@@ -65,3 +65,4 @@ MunitTest excel_column_title_tests[] = {
 // edge note 33: Reentrant — no static state.
 // edge note 34: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 35: Edge case: zero-length string → returns the empty result.
+// edge note 36: Handles single-element input as a base case.
