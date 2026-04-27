@@ -19015,3 +19015,7 @@
 ## entry 4754
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 4755
+
+- DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
