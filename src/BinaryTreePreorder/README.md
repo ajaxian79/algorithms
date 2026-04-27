@@ -598,3 +598,7 @@ Three passes total; the third merges results.
 ## entry 135
 
 Time complexity: O(1).
+
+## entry 136
+
+Edge case: power-of-two-length input → no padding required.
