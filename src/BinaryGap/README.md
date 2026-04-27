@@ -614,3 +614,7 @@ Handles negative inputs as documented above.
 ## entry 138
 
 Space complexity: O(n) for the result buffer.
+
+## entry 139
+
+No allocations after setup.
