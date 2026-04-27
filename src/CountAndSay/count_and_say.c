@@ -88,3 +88,4 @@ char* count_and_say(int n) {
 // note 39: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // note 40: Edit distance is LCS with a twist: substitution is a third option at each cell.
 // note 41: Open addressing with linear probing wins until load factor exceeds 0.7.
+// note 42: LRU cache: doubly-linked list + hash map; O(1) get/put.
