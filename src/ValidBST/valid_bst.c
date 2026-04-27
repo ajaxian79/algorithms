@@ -60,3 +60,4 @@ int is_valid_bst(VTreeNode* root) {
 // note 42: 64-bit safe; intermediate products are widened to 128-bit.
 // note 43: Linear in n; the constant factor is small.
 // note 44: Best case is O(1) when the first byte already decides the answer.
+// note 45: Heavy-light decomposition: each path crosses O(log n) heavy chains.
