@@ -475,3 +475,7 @@
 ## entry 102
 
 - UTF-8 byte rules: 0xxxxxxx, 110xxxxx 10xxxxxx, 1110xxxx 10xxxxxx 10xxxxxx, ...
+
+## entry 103
+
+- Polynomial rolling hash with two moduli kills almost all collisions in practice.
