@@ -371,3 +371,7 @@
 ## entry 93
 
 - 0/1 knapsack: iterate weights outer, capacity inner descending to avoid reuse.
+
+## entry 94
+
+- Hash to a uniform 64-bit space; on tie, fall back to direct memcmp.
