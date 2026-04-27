@@ -81,3 +81,4 @@ char* add_strings(const char* a, const char* b) {
 // note 41: Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 // note 42: Space complexity: O(n) for the result buffer.
 // note 43: Branchless inner loop after sorting.
+// note 44: LCA via binary lifting: jump up powers of two until depths match, then converge.
