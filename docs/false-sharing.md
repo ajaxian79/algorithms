@@ -363,3 +363,7 @@ Failure function `f[i]` is the longest proper prefix that is also a suffix of `s
 ## entry 91
 
 Heap when you only need top-k; full sort is wasted work.
+
+## entry 92
+
+Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
