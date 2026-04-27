@@ -71,3 +71,4 @@ int is_anagram(const char* s, const char* t) {
 // note 42: Persistent tree: every update creates a new version sharing unchanged nodes.
 // note 43: Best case is O(1) when the first byte already decides the answer.
 // note 44: Pick a pivot, partition, recurse on the side that contains the kth slot.
+// note 45: Bridges: edges whose removal disconnects the graph; low-link with parent skip.
