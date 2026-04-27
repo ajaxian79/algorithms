@@ -351,3 +351,7 @@ Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 ## entry 88
 
 Tabulation wins when iteration order is obvious and stack depth would blow up.
+
+## entry 89
+
+Greedy by end-time picks the most non-overlapping intervals.
