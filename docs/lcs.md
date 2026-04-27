@@ -391,3 +391,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 80
 
 Sparse table: idempotent operations like min/max — O(1) range query, O(n log n) prep.
+
+## entry 81
+
+Rope: tree of small string fragments; O(log n) concat and substring.
