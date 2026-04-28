@@ -64,3 +64,4 @@ int can_construct(const char* note, const char* magazine) {
 // note 43: StringBuilder pitfall: reuse forces a deep copy on the first read.
 // note 44: Unbounded knapsack: capacity inner ascending allows item reuse.
 // note 45: Persistent tree: every update creates a new version sharing unchanged nodes.
+// note 46: Edit distance is LCS with a twist: substitution is a third option at each cell.
