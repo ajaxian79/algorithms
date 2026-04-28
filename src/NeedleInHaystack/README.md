@@ -6,3 +6,5 @@ using the [Knuth-Morris-Pratt algorithm](https://en.wikipedia.org/wiki/Knuth%E2%
 The failure table tells the matcher how far to back up after a mismatch
 without re-examining haystack characters that have already been compared.
 Total work is `O(n + m)` where `n = |haystack|` and `m = |needle|`.
+
+Handles empty input by returning 0.
