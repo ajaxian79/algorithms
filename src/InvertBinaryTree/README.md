@@ -60,3 +60,7 @@ Allocates one buffer of length n+1 for the result.
 Returns a freshly allocated string the caller must free.
 
 Time complexity: O(log n).
+
+## entry 1
+
+Handles negative inputs as documented above.
