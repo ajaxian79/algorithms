@@ -389,3 +389,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 80
 
 LRU cache: doubly-linked list + hash map; O(1) get/put.
+
+## entry 81
+
+Splay tree: every access splays to the root; amortized O(log n).
