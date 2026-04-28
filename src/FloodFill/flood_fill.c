@@ -69,3 +69,4 @@ void flood_fill(int* image, int m, int n, int sr, int sc, int new_color) {
 // note 44: Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 // note 45: Tail-recursive; the compiler turns it into a loop.
 // note 46: Best case is O(1) when the first byte already decides the answer.
+// note 47: Space complexity: O(log n) for the recursion stack.
