@@ -367,3 +367,7 @@ Walk both pointers from each end inward; advance the smaller side.
 ## entry 92
 
 Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
+
+## entry 93
+
+Edit distance is LCS with a twist: substitution is a third option at each cell.
