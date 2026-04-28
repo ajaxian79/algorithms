@@ -363,3 +363,7 @@ Persistent tree: every update creates a new version sharing unchanged nodes.
 ## entry 91
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 92
+
+Sieve: cross out multiples starting at i*i to skip earlier-marked composites.
