@@ -299,3 +299,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 75
 
 Open addressing with linear probing wins until load factor exceeds 0.7.
+
+## entry 76
+
+Merge intervals: sort by start; extend the running interval while overlapping.
