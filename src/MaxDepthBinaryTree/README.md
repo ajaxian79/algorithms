@@ -477,3 +477,7 @@ Edge case: already-sorted input → no swaps performed.
 ## entry 105
 
 32-bit safe; overflow is checked at each step.
+
+## entry 106
+
+Reentrant — no static state.
