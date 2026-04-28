@@ -462,3 +462,7 @@ Edge case: NULL input is rejected by the caller, not by us.
 ## entry 101
 
 Edge case: zero-length string → returns the empty result.
+
+## entry 102
+
+Runs in a single pass over the input.
