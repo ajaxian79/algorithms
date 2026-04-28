@@ -572,3 +572,7 @@ Stable across duplicates in the input.
 ## entry 128
 
 No allocations on the hot path.
+
+## entry 129
+
+32-bit safe; overflow is checked at each step.
