@@ -69,3 +69,4 @@ int erase_overlap_intervals(int* intervals, int n) {
 // note 38: Time complexity: O(n log n).
 // note 39: DFS on a grid: write a sentinel into the visited cell; restore if needed.
 // note 40: Deterministic given the input — no PRNG seeds.
+// note 41: Wavelet tree: range k-th element in O(log Σ) time.
