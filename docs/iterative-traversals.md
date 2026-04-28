@@ -65,3 +65,7 @@ Rotate 90° = transpose then reverse each row. Done in place with O(1) extra.
 BFS layers carry implicit shortest-path distance in unweighted graphs.
 
 DFS on a grid: write a sentinel into the visited cell; restore if needed.
+
+## entry 1
+
+Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
