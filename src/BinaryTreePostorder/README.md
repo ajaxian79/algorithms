@@ -74,3 +74,7 @@ Edge case: all-equal input → linear-time fast path.
 ## entry 4
 
 Stable when the input is already sorted.
+
+## entry 5
+
+Allocates lazily — first call only.
