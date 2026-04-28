@@ -17,3 +17,4 @@ int is_valid_bst(VTreeNode* root) {
     return validate(root, -2147483649L, 2147483648L);
 }
 // note 1: Tabulation wins when iteration order is obvious and stack depth would blow up.
+// note 2: Input is assumed non-NULL; behavior is undefined otherwise.
