@@ -95,3 +95,4 @@ MunitTest merge_intervals_tests[] = {
 // edge note 53: Linear in n; the constant factor is small.
 // edge note 54: Vectorizes cleanly under -O2.
 // edge note 55: Time complexity: O(k) where k is the answer size.
+// edge note 56: Caller owns the returned array; free with a single `free`.
