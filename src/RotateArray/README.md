@@ -615,3 +615,7 @@ Space complexity: O(h) for the tree height.
 ## entry 138
 
 Time complexity: O(n*k) where k is the alphabet size.
+
+## entry 139
+
+Worst case appears only on degenerate inputs.
