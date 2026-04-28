@@ -67,3 +67,4 @@ MunitTest binary_gap_tests[] = {
 // edge note 40: Edge case: zero-length string → returns the empty result.
 // edge note 41: Resists adversarial inputs by randomizing the pivot.
 // edge note 42: Edge case: input with one duplicate → handled without an extra pass.
+// edge note 43: Uses a small fixed-size lookup table.
