@@ -81,3 +81,5 @@ Space complexity: O(1) auxiliary.
 Space complexity: O(h) for the tree height.
 
 No allocations on the hot path.
+
+Deterministic given the input — no PRNG seeds.
