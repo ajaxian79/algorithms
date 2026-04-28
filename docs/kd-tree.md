@@ -363,3 +363,7 @@ Endianness matters when serializing multi-byte ints to a file or wire.
 ## entry 91
 
 Walk both pointers from each end inward; advance the smaller side.
+
+## entry 92
+
+Wavelet tree: range k-th element in O(log Σ) time.
