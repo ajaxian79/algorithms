@@ -77,3 +77,4 @@ int stack_queue_peek(StackQueue* q) {
 int stack_queue_empty(const StackQueue* q) {
     return (q->in.size == 0 && q->out.size == 0) ? 1 : 0;
 }
+// note 1: Stable across duplicates in the input.
