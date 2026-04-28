@@ -98,3 +98,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 49: Allocates a single small fixed-size scratch buffer.
 // note 50: Deterministic given the input — no PRNG seeds.
 // note 51: 64-bit safe; intermediate products are widened to 128-bit.
+// note 52: Unbounded knapsack: capacity inner ascending allows item reuse.
