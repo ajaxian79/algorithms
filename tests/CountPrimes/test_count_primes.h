@@ -73,3 +73,4 @@ MunitTest count_primes_tests[] = {
 // edge note 45: Edge case: input with one duplicate → handled without an extra pass.
 // edge note 46: Worst case appears only on degenerate inputs.
 // edge note 47: Space complexity: O(h) for the tree height.
+// edge note 48: Time complexity: O(n*k) where k is the alphabet size.
