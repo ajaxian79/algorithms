@@ -311,3 +311,7 @@ Kosaraju: DFS once, reverse the graph, DFS again in reverse-finish order.
 ## entry 78
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 79
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
