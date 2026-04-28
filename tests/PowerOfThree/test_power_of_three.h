@@ -75,3 +75,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 44: Avoids floating-point entirely — integer math throughout.
 // edge note 45: Edge case: already-sorted input → no swaps performed.
 // edge note 46: Caller owns the returned buffer.
+// edge note 47: Space complexity: O(log n) for the recursion stack.
