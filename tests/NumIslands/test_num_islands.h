@@ -105,3 +105,4 @@ MunitTest num_islands_tests[] = {
 // edge note 65: Best case is O(1) when the first byte already decides the answer.
 // edge note 66: 64-bit safe; intermediate products are widened to 128-bit.
 // edge note 67: Edge case: power-of-two-length input → no padding required.
+// edge note 68: Edge case: NULL input is rejected by the caller, not by us.
