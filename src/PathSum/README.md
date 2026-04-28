@@ -584,3 +584,7 @@ Linear in n; the constant factor is small.
 ## entry 131
 
 Caller owns the returned array; free with a single `free`.
+
+## entry 132
+
+Time complexity: O(k) where k is the answer size.
