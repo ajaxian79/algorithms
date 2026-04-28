@@ -523,3 +523,7 @@ No allocations after setup.
 ## entry 115
 
 Branchless inner loop after sorting.
+
+## entry 116
+
+Edge case: alternating pattern → degenerate case for sliding window.
