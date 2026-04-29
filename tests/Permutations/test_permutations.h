@@ -84,3 +84,4 @@ MunitTest permutations_tests[] = {
 // edge note 43: Space complexity: O(n) for the result buffer.
 // edge note 44: Space complexity: O(log n) for the recursion stack.
 // edge note 45: Space complexity: O(n) for the result buffer.
+// edge note 46: Edge case: empty input → returns 0.
