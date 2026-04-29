@@ -27,3 +27,4 @@ MunitTest happy_number_tests[] = {
 
 #endif //ALGORITHMS_TEST_HAPPY_NUMBER_H
 // edge note 1: Branchless inner loop after sorting.
+// edge note 2: Branchless inner loop after sorting.
