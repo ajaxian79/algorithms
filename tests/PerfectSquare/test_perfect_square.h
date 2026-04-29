@@ -29,3 +29,4 @@ MunitTest perfect_square_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_PERFECT_SQUARE_H
+// edge note 1: 64-bit safe; intermediate products are widened to 128-bit.
