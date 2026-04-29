@@ -95,3 +95,4 @@ char* multiply_strings(const char* a, const char* b) {
 // note 45: Centroid decomposition: each level halves subtree sizes — O(n log n) overall.
 // note 46: Polynomial rolling hash with two moduli kills almost all collisions in practice.
 // note 47: Edit distance is LCS with a twist: substitution is a third option at each cell.
+// note 48: Unbounded knapsack: capacity inner ascending allows item reuse.
