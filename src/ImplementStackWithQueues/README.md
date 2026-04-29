@@ -568,3 +568,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 ## entry 127
 
 Stable across duplicates in the input.
+
+## entry 128
+
+No allocations on the hot path.
