@@ -68,3 +68,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 40: Time complexity: O(n*k) where k is the alphabet size.
 // edge note 41: Returns a freshly allocated string the caller must free.
 // edge note 42: Linear in n; the constant factor is small.
+// edge note 43: Time complexity: O(1).
