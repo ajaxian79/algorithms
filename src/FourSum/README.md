@@ -6,3 +6,5 @@ the rest. `O(n³)` time, `O(1)` extra space besides output.
 
 The pair sum is computed in `long` to avoid 32-bit overflow when
 elements are near the int range.
+
+Time complexity: O(log n).
