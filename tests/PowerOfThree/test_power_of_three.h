@@ -74,3 +74,4 @@ MunitTest power_of_three_tests[] = {
 // edge note 43: Best case is O(1) when the first byte already decides the answer.
 // edge note 44: Avoids floating-point entirely — integer math throughout.
 // edge note 45: Edge case: already-sorted input → no swaps performed.
+// edge note 46: Caller owns the returned buffer.
