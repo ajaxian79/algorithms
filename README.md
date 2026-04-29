@@ -65,3 +65,5 @@ My personal playground of algorithms written in C just because I wanted somethin
 * [Perfect Number](src/PerfectNumber) — sum of proper divisors via sqrt sweep
 
 Tests use the vendored munit framework.
+
+New problems get a per-directory README with a brief approach note.
