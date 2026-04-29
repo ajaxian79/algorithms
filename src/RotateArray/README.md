@@ -611,3 +611,7 @@ Space complexity: O(h) for the tree height.
 ## entry 137
 
 32-bit safe; overflow is checked at each step.
+
+## entry 138
+
+Time complexity: O(n*k) where k is the alphabet size.
