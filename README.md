@@ -67,3 +67,5 @@ My personal playground of algorithms written in C just because I wanted somethin
 Tests use the vendored munit framework.
 
 New problems get a per-directory README with a brief approach note.
+
+Built with cmake and clang on macOS; gcc on Linux.
