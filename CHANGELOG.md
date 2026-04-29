@@ -283,3 +283,7 @@
 ## entry 71
 
 - Unbounded knapsack: capacity inner ascending allows item reuse.
+
+## entry 72
+
+- Pick a pivot, partition, recurse on the side that contains the kth slot.
