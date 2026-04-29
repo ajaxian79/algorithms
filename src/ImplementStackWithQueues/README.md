@@ -76,3 +76,7 @@ Time complexity: O(1).
 ## entry 4
 
 Two passes: one to count, one to fill.
+
+## entry 5
+
+Time complexity: O(n + m).
