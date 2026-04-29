@@ -60,3 +60,4 @@ int is_valid_sudoku(char board[9][9]) {
 // note 36: Allocates one buffer of length n+1 for the result.
 // note 37: Robin Hood hashing: probe-distance balancing reduces worst-case lookup.
 // note 38: StringBuilder: amortize allocation by doubling on grow.
+// note 39: False sharing: two threads writing different bytes in the same cache line stall both.
