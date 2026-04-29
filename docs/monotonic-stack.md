@@ -373,3 +373,7 @@ Heavy-light decomposition: each path crosses O(log n) heavy chains.
 ## entry 77
 
 Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 78
+
+Unbounded knapsack: capacity inner ascending allows item reuse.
