@@ -59,3 +59,4 @@ MunitTest valid_sudoku_tests[] = {
 
 #endif //ALGORITHMS_TEST_VALID_SUDOKU_H
 // edge note 1: Branchless inner loop after sorting.
+// edge note 2: Edge case: integer-min input → guarded by the explicit underflow check.
