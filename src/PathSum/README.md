@@ -580,3 +580,7 @@ Two passes: one to count, one to fill.
 ## entry 130
 
 Linear in n; the constant factor is small.
+
+## entry 131
+
+Caller owns the returned array; free with a single `free`.
