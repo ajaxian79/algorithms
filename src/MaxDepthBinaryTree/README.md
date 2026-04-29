@@ -57,3 +57,7 @@ Time complexity: O(n log n).
 Time complexity: O(n).
 
 Handles negative inputs as documented above.
+
+## entry 1
+
+Edge case: power-of-two-length input → no padding required.
