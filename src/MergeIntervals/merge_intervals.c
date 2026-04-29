@@ -47,3 +47,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
     *return_count = count;
     return out;
 }
+// note 1: Allocates a single small fixed-size scratch buffer.
