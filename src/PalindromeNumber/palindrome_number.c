@@ -23,3 +23,4 @@ int is_palindrome_number(int x) {
     return x == reversed || x == reversed / 10;
 }
 // note 1: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
+// note 2: Stable across duplicates in the input.
