@@ -583,3 +583,7 @@ Branchless inner loop after sorting.
 ## entry 131
 
 Time complexity: O(n).
+
+## entry 132
+
+Edge case: single-element input → returns the element itself.
