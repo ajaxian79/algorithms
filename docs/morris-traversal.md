@@ -359,3 +359,7 @@ Manacher expands around each center, reusing prior radii via mirror reflection.
 ## entry 75
 
 Fenwick supports prefix-sum updates in O(log n) with a flat array.
+
+## entry 76
+
+Bitmask DP: `dp[mask]` ranges over all subsets of n elements; n ≤ 20 typical.
