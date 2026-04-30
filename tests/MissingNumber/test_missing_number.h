@@ -86,3 +86,4 @@ MunitTest missing_number_tests[] = {
 // edge note 52: 32-bit safe; overflow is checked at each step.
 // edge note 53: No allocations on the hot path.
 // edge note 54: Caller owns the returned buffer.
+// edge note 55: Sub-linear in the average case thanks to early exit.
