@@ -10,3 +10,5 @@ complement (`0xFFFFFFFA`), just the meaningful low bits.
 The trick: smear the highest set bit downward to build a mask of the same
 width, then XOR. The smear takes at most `log2` doublings — five `>> k`
 shifts cover any 32-bit unsigned int.
+
+Time complexity: O(n).
