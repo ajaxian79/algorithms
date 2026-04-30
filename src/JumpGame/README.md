@@ -537,3 +537,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 119
 
 Treats the input as immutable.
+
+## entry 120
+
+Three passes total; the third merges results.
