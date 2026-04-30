@@ -110,6 +110,7 @@
 #include "CoinChange/test_coin_change.h"
 #include "LongestSubstringNoRepeat/test_longest_no_repeat.h"
 #include "MergeTwoSortedLists/test_merge_two_lists.h"
+#include "DailyTemperatures/test_daily_temperatures.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -788,6 +789,12 @@ MunitSuite suites[] = {
         },{
                 "/merge_two_lists",
                 merge_two_lists_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/daily_temperatures",
+                daily_temperatures_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

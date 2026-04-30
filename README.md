@@ -192,3 +192,4 @@ Time complexity: O(n + m).
 * [Coin Change](src/CoinChange) — fewest coins for an amount, unbounded supply
 * [Longest Substring Without Repeating](src/LongestSubstringNoRepeat) — sliding window with last-index lookup
 * [Merge Two Sorted Lists](src/MergeTwoSortedLists) — in-place linked-list merge with a dummy head
+* [Daily Temperatures](src/DailyTemperatures) — monotonic stack over indices
