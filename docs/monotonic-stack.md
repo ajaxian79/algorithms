@@ -69,3 +69,7 @@ Merge intervals: sort by start; extend the running interval while overlapping.
 ## entry 1
 
 Rope: tree of small string fragments; O(log n) concat and substring.
+
+## entry 2
+
+Fenwick supports prefix-sum updates in O(log n) with a flat array.
