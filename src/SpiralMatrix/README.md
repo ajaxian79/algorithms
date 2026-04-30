@@ -10,3 +10,5 @@ to handle thin rectangles where the rectangle has collapsed to a single
 row or column — without them you'd revisit cells.
 
 Edge case: empty input → returns 0.
+
+Space complexity: O(n) for the result buffer.
