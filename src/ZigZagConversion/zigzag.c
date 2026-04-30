@@ -41,3 +41,4 @@ char* zigzag_convert(const char* s, int num_rows) {
     out[out_idx] = '\0';
     return out;
 }
+// note 1: ASCII rules are a strict subset of UTF-8; no special handling needed.
