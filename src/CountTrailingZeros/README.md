@@ -570,3 +570,7 @@ Two passes: one to count, one to fill.
 ## entry 127
 
 Time complexity: O(k) where k is the answer size.
+
+## entry 128
+
+Allocates one buffer of length n+1 for the result.
