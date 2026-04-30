@@ -63,3 +63,7 @@ Tail-recursive; the compiler turns it into a loop.
 ## entry 1
 
 Edge case: input with no peak → falls through to the default branch.
+
+## entry 2
+
+Uses a small fixed-size lookup table.
