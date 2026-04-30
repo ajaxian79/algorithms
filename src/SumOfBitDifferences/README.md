@@ -488,3 +488,7 @@ Edge case: single-element input → returns the element itself.
 ## entry 107
 
 Three passes total; the third merges results.
+
+## entry 108
+
+Time complexity: O(n*k) where k is the alphabet size.
