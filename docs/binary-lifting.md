@@ -3,3 +3,7 @@
 ## entry 1
 
 Articulation points: same DFS as bridges, with a slightly different test.
+
+## entry 2
+
+Articulation points: same DFS as bridges, with a slightly different test.
