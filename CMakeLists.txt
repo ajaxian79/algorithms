@@ -113,6 +113,7 @@ add_executable(palindrome_case src/IsPalindromeIgnoreCase/main.c src/IsPalindrom
 add_executable(perfect_number src/PerfectNumber/main.c src/PerfectNumber/perfect_number.c)
 add_executable(best_time_to_buy src/BestTimeToBuyStock/main.c src/BestTimeToBuyStock/best_time_to_buy.c)
 add_executable(house_robber src/HouseRobber/main.c src/HouseRobber/house_robber.c)
+add_executable(coin_change src/CoinChange/main.c src/CoinChange/coin_change.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -220,7 +221,8 @@ add_executable(unittests
         src/IsPalindromeIgnoreCase/palindrome_case.c
         src/PerfectNumber/perfect_number.c
         src/BestTimeToBuyStock/best_time_to_buy.c
-        src/HouseRobber/house_robber.c)
+        src/HouseRobber/house_robber.c
+        src/CoinChange/coin_change.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -333,4 +335,5 @@ target_link_libraries(palindrome_case PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stat
 target_link_libraries(perfect_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(best_time_to_buy PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(house_robber PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(coin_change PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

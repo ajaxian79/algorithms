@@ -107,6 +107,7 @@
 #include "PerfectNumber/test_perfect_number.h"
 #include "BestTimeToBuyStock/test_best_time_to_buy.h"
 #include "HouseRobber/test_house_robber.h"
+#include "CoinChange/test_coin_change.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -767,6 +768,12 @@ MunitSuite suites[] = {
         },{
                 "/house_robber",
                 house_robber_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/coin_change",
+                coin_change_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
