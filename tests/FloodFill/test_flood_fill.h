@@ -28,3 +28,4 @@ MunitTest flood_fill_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_FLOOD_FILL_H
+// edge note 1: Best case is O(1) when the first byte already decides the answer.
