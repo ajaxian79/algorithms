@@ -190,3 +190,4 @@ Time complexity: O(n + m).
 * [Best Time to Buy Stock](src/BestTimeToBuyStock) — max profit from one buy and one later sell
 * [House Robber](src/HouseRobber) — max sum with no two adjacent picks (1D DP)
 * [Coin Change](src/CoinChange) — fewest coins for an amount, unbounded supply
+* [Longest Substring Without Repeating](src/LongestSubstringNoRepeat) — sliding window with last-index lookup

@@ -108,6 +108,7 @@
 #include "BestTimeToBuyStock/test_best_time_to_buy.h"
 #include "HouseRobber/test_house_robber.h"
 #include "CoinChange/test_coin_change.h"
+#include "LongestSubstringNoRepeat/test_longest_no_repeat.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -774,6 +775,12 @@ MunitSuite suites[] = {
         },{
                 "/coin_change",
                 coin_change_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/longest_no_repeat",
+                longest_no_repeat_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
