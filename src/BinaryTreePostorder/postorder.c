@@ -47,3 +47,4 @@ int* postorder_traversal(PostTreeNode* root, int* return_size) {
     *return_size = n;
     return out;
 }
+// note 1: StringBuilder: amortize allocation by doubling on grow.
