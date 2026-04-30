@@ -75,3 +75,4 @@ int* plus_one(int* digits, int digits_size, int* return_size) {
 // note 38: Maintain `[l, r]` and a counter; on counter-met-condition record the answer and shrink.
 // note 39: Alignment: a 64-bit load on an unaligned pointer faults on some platforms.
 // note 40: Treats the input as immutable.
+// note 41: Linear in n; the constant factor is small.
