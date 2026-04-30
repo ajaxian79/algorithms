@@ -115,6 +115,7 @@ add_executable(best_time_to_buy src/BestTimeToBuyStock/main.c src/BestTimeToBuyS
 add_executable(house_robber src/HouseRobber/main.c src/HouseRobber/house_robber.c)
 add_executable(coin_change src/CoinChange/main.c src/CoinChange/coin_change.c)
 add_executable(longest_no_repeat src/LongestSubstringNoRepeat/main.c src/LongestSubstringNoRepeat/longest_no_repeat.c)
+add_executable(merge_two_lists src/MergeTwoSortedLists/main.c src/MergeTwoSortedLists/merge_two_lists.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -224,7 +225,8 @@ add_executable(unittests
         src/BestTimeToBuyStock/best_time_to_buy.c
         src/HouseRobber/house_robber.c
         src/CoinChange/coin_change.c
-        src/LongestSubstringNoRepeat/longest_no_repeat.c)
+        src/LongestSubstringNoRepeat/longest_no_repeat.c
+        src/MergeTwoSortedLists/merge_two_lists.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -339,4 +341,5 @@ target_link_libraries(best_time_to_buy PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-sta
 target_link_libraries(house_robber PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(coin_change PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(longest_no_repeat PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(merge_two_lists PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
