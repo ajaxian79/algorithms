@@ -60,3 +60,7 @@ Edge case: empty input → returns 0.
 Edge case: reverse-sorted input → still O(n log n).
 
 Edge case: single-element input → returns the element itself.
+
+## entry 1
+
+Edge case: empty input → returns 0.
