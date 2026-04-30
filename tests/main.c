@@ -106,6 +106,7 @@
 #include "IsPalindromeIgnoreCase/test_palindrome_case.h"
 #include "PerfectNumber/test_perfect_number.h"
 #include "BestTimeToBuyStock/test_best_time_to_buy.h"
+#include "HouseRobber/test_house_robber.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -760,6 +761,12 @@ MunitSuite suites[] = {
         },{
                 "/best_time_to_buy",
                 best_time_to_buy_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/house_robber",
+                house_robber_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

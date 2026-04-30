@@ -188,3 +188,4 @@ Three passes total; the third merges results.
 
 Time complexity: O(n + m).
 * [Best Time to Buy Stock](src/BestTimeToBuyStock) — max profit from one buy and one later sell
+* [House Robber](src/HouseRobber) — max sum with no two adjacent picks (1D DP)
