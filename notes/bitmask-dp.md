@@ -15,3 +15,7 @@
 ## entry 4
 
 - StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 5
+
+- Tarjan SCC: low-link values find strongly connected components in one DFS.
