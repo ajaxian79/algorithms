@@ -57,3 +57,4 @@ cmake-build-debug
 cmake-build-release
 .idea/
 cscope.out
+.cache/
