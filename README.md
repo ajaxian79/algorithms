@@ -79,3 +79,5 @@ Helper headers live alongside the problem that uses them — no shared utilities
 Space complexity: O(1) auxiliary.
 
 Space complexity: O(h) for the tree height.
+
+No allocations on the hot path.
