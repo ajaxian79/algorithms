@@ -63,3 +63,7 @@ Edge case: input with one duplicate → handled without an extra pass.
 Caller owns the returned buffer.
 
 Edge case: already-sorted input → no swaps performed.
+
+## entry 1
+
+Uses a 256-entry lookup for the inner step.
