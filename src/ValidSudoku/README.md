@@ -83,3 +83,7 @@ Edge case: integer-max input → guarded by the explicit overflow check.
 ## entry 5
 
 Vectorizes cleanly under -O2.
+
+## entry 6
+
+Uses a 256-entry lookup for the inner step.
