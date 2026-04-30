@@ -105,6 +105,7 @@
 #include "FindDifference/test_find_difference.h"
 #include "IsPalindromeIgnoreCase/test_palindrome_case.h"
 #include "PerfectNumber/test_perfect_number.h"
+#include "BestTimeToBuyStock/test_best_time_to_buy.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -756,6 +757,12 @@ MunitSuite suites[] = {
                 1,
                 MUNIT_SUITE_OPTION_NONE
         },
+        },{
+                "/best_time_to_buy",
+                best_time_to_buy_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
         { NULL, NULL, NULL, 0, MUNIT_SUITE_OPTION_NONE }
 };
 

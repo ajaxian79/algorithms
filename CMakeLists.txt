@@ -111,6 +111,7 @@ add_executable(lru_cache src/LRUCache/main.c src/LRUCache/lru_cache.c)
 add_executable(find_difference src/FindDifference/main.c src/FindDifference/find_difference.c)
 add_executable(palindrome_case src/IsPalindromeIgnoreCase/main.c src/IsPalindromeIgnoreCase/palindrome_case.c)
 add_executable(perfect_number src/PerfectNumber/main.c src/PerfectNumber/perfect_number.c)
+add_executable(best_time_to_buy src/BestTimeToBuyStock/main.c src/BestTimeToBuyStock/best_time_to_buy.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -216,7 +217,8 @@ add_executable(unittests
         src/LRUCache/lru_cache.c
         src/FindDifference/find_difference.c
         src/IsPalindromeIgnoreCase/palindrome_case.c
-        src/PerfectNumber/perfect_number.c)
+        src/PerfectNumber/perfect_number.c
+        src/BestTimeToBuyStock/best_time_to_buy.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -327,4 +329,5 @@ target_link_libraries(lru_cache PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(find_difference PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(palindrome_case PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(perfect_number PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(best_time_to_buy PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

@@ -187,3 +187,4 @@ Returns a freshly allocated string the caller must free.
 Three passes total; the third merges results.
 
 Time complexity: O(n + m).
+* [Best Time to Buy Stock](src/BestTimeToBuyStock) — max profit from one buy and one later sell
