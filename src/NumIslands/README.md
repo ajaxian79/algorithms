@@ -61,3 +61,7 @@ Uses a small fixed-size lookup table.
 Stable across duplicates in the input.
 
 Handles empty input by returning 0.
+
+## entry 1
+
+Returns a freshly allocated string the caller must free.
