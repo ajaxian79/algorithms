@@ -59,3 +59,4 @@ cmake-build-release
 cscope.out
 .cache/
 *.pyc
+*.log
