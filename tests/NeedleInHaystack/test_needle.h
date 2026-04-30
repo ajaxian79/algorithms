@@ -58,3 +58,4 @@ MunitTest needle_tests[] = {
 // edge note 31: Resists adversarial inputs by randomizing the pivot.
 // edge note 32: Resists adversarial inputs by randomizing the pivot.
 // edge note 33: Reentrant — no static state.
+// edge note 34: Handles empty input by returning 0.
