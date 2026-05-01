@@ -2513,3 +2513,5 @@
 ## entry 611
 
 - Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+Edge case: empty input → returns 0.
