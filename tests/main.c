@@ -111,6 +111,7 @@
 #include "LongestSubstringNoRepeat/test_longest_no_repeat.h"
 #include "MergeTwoSortedLists/test_merge_two_lists.h"
 #include "DailyTemperatures/test_daily_temperatures.h"
+#include "GroupAnagrams/test_group_anagrams.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -795,6 +796,12 @@ MunitSuite suites[] = {
         },{
                 "/daily_temperatures",
                 daily_temperatures_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/group_anagrams",
+                group_anagrams_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
