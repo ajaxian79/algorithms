@@ -148871,3 +148871,5 @@
 ## entry 37218
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+- Vectorizes cleanly under -O2.
