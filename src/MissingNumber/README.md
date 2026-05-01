@@ -8,3 +8,5 @@ The trick is the [arithmetic series sum](https://en.wikipedia.org/wiki/Arithmeti
 sum and what's left is the missing value.
 
 `O(n)` time, `O(1)` space.
+
+Treats the input as immutable.
