@@ -7,3 +7,7 @@
 ## entry 2
 
 - Boyer-Moore: candidate + counter; reset on tie; verify on second pass.
+
+## entry 3
+
+- LCA via binary lifting: jump up powers of two until depths match, then converge.
