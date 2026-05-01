@@ -438,3 +438,4 @@ MunitTest generate_parens_tests[] = {
 // edge note 378: Three passes total; the third merges results.
 // edge note 379: Edge case: power-of-two-length input → no padding required.
 // edge note 380: Time complexity: O(n*k) where k is the alphabet size.
+// extra edge note: DP[i] depends only on DP[i-1] and DP[i-2]; rolling two scalars suffices.
