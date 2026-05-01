@@ -2677,3 +2677,5 @@ False sharing: two threads writing different bytes in the same cache line stall 
 ## entry 652
 
 Endianness matters when serializing multi-byte ints to a file or wire.
+
+Allocates one buffer of length n+1 for the result.
