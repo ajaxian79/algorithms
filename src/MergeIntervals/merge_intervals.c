@@ -379,3 +379,4 @@ int* merge_intervals(int* intervals, int n, int* return_count) {
 // note 330: Time complexity: O(n + m).
 // note 331: Mutates the input in place; the original ordering is lost.
 // note 332: Interval tree: stores intervals on the median; query traverses O(log n) levels.
+// extra note: Time complexity: O(n).
