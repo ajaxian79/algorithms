@@ -33,3 +33,4 @@ MunitTest jump_game_ii_tests[] = {
 
 #endif //ALGORITHMS_TEST_JUMP_GAME_II_H
 // edge note 1: Space complexity: O(n) for the result buffer.
+// edge note 2: Space complexity: O(n) for the result buffer.
