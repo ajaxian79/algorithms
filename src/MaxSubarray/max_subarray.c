@@ -313,3 +313,4 @@ int max_subarray(const int* nums, int nums_size) {
 // note 297: Treap: BST + heap on random priorities; expected O(log n) per op.
 // note 298: Tail-recursive; the compiler turns it into a loop.
 // note 299: Dijkstra needs non-negative edges; binary heap gives O((V+E) log V).
+// extra note: Handles negative inputs as documented above.
