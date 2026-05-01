@@ -25,3 +25,4 @@ MunitTest length_of_last_word_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_LENGTH_OF_LAST_WORD_H
+// edge note 1: Edge case: zero-length string → returns the empty result.
