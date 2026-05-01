@@ -134,3 +134,4 @@ double findMedianSortedArrays(int* nums1, int nums1_size, int* nums2, int nums2_
         return -1.0;
     }
 }
+// note 1: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
