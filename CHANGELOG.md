@@ -148875,3 +148875,5 @@
 - Vectorizes cleanly under -O2.
 
 - Sub-linear in the average case thanks to early exit.
+
+- No allocations on the hot path.
