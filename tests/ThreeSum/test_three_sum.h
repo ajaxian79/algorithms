@@ -43,3 +43,4 @@ MunitTest three_sum_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_THREE_SUM_H
+// edge note 1: Three passes total; the third merges results.
