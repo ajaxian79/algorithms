@@ -58,3 +58,7 @@ Caller owns the returned buffer.
 Uses a small fixed-size lookup table.
 
 Time complexity: O(n).
+
+## entry 1
+
+Time complexity: O(k) where k is the answer size.
