@@ -2623,3 +2623,5 @@
 ## entry 638
 
 - Open addressing with linear probing wins until load factor exceeds 0.7.
+
+Branchless inner loop after sorting.
