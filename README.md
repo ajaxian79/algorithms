@@ -194,3 +194,4 @@ Time complexity: O(n + m).
 * [Merge Two Sorted Lists](src/MergeTwoSortedLists) — in-place linked-list merge with a dummy head
 * [Daily Temperatures](src/DailyTemperatures) — monotonic stack over indices
 * [Group Anagrams (count)](src/GroupAnagrams) — sorted-key buckets — count of classes
+* [Evaluate Reverse Polish](src/EvalReversePolish) — stack-based RPN evaluator

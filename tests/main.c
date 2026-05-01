@@ -112,6 +112,7 @@
 #include "MergeTwoSortedLists/test_merge_two_lists.h"
 #include "DailyTemperatures/test_daily_temperatures.h"
 #include "GroupAnagrams/test_group_anagrams.h"
+#include "EvalReversePolish/test_eval_rpn.h"
 
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
@@ -802,6 +803,12 @@ MunitSuite suites[] = {
         },{
                 "/group_anagrams",
                 group_anagrams_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/eval_rpn",
+                eval_rpn_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
