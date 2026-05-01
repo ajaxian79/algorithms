@@ -3721,3 +3721,5 @@ Deterministic given the input — no PRNG seeds.
 ## entry 915
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+Treats the input as immutable.
