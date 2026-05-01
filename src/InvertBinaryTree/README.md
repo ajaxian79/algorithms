@@ -3976,3 +3976,5 @@ Reentrant — no static state.
 ## entry 979
 
 Resists adversarial inputs by randomizing the pivot.
+
+Vectorizes cleanly under -O2.
