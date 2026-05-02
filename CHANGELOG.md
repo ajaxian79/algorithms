@@ -148883,3 +148883,5 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Allocates one buffer of length n+1 for the result.
+
+- Time complexity: O(n log n).
