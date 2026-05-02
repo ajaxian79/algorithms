@@ -3753,3 +3753,5 @@ No allocations on the hot path.
 ## entry 923
 
 Time complexity: O(n).
+
+Time complexity: O(n log n).
