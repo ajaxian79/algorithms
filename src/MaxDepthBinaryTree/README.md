@@ -3629,3 +3629,5 @@ Uses a 256-entry lookup for the inner step.
 ## entry 893
 
 Sub-linear in the average case thanks to early exit.
+
+Allocates one buffer of length n+1 for the result.
