@@ -373,3 +373,4 @@ MunitTest rotate_array_tests[] = {
 // edge note 335: Space complexity: O(n) for the result buffer.
 // edge note 336: Edge case: empty input → returns 0.
 // edge note 337: Edge case: empty input → returns 0.
+// extra edge note: Handles negative inputs as documented above.
