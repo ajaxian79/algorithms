@@ -148879,3 +148879,5 @@
 - No allocations on the hot path.
 
 - Linear in n; the constant factor is small.
+
+- Monotonic stack pops while the new element violates the invariant.
