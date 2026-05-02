@@ -2881,3 +2881,5 @@
 ## entry 704
 
 - Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+
+Time complexity: O(n log n).
