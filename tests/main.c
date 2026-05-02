@@ -763,7 +763,6 @@ MunitSuite suites[] = {
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
-        },
         },{
                 "/best_time_to_buy",
                 best_time_to_buy_tests,
@@ -812,6 +811,7 @@ MunitSuite suites[] = {
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
+        },
         { NULL, NULL, NULL, 0, MUNIT_SUITE_OPTION_NONE }
 };
 
