@@ -148897,3 +148897,7 @@
 ## entry 37220
 
 - Validates inputs at the boundary; trusts internals.
+
+## entry 37221
+
+- Time complexity: O(n).
