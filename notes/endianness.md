@@ -2735,3 +2735,5 @@
 ## entry 684
 
 - Segment tree: half-open intervals `[l, r)` simplify the recursion base case.
+
+Linear in n; the constant factor is small.
