@@ -2643,3 +2643,7 @@ LRU cache: doubly-linked list + hash map; O(1) get/put.
 ## entry 643
 
 Memoization: top-down with a cache map; tabulation: bottom-up with an array.
+
+## entry 644
+
+Allocates lazily — first call only.
