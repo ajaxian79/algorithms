@@ -148893,3 +148893,7 @@
 ## entry 37219
 
 - Tail-recursive; the compiler turns it into a loop.
+
+## entry 37220
+
+- Validates inputs at the boundary; trusts internals.
