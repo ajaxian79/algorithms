@@ -16,3 +16,5 @@ Edge case: amount == 0 → returns 0 without touching the table.
 Edge case: no combination reaches the amount → returns -1.
 
 Unbounded knapsack: capacity inner ascending allows item reuse.
+
+Stable when ties are present.
