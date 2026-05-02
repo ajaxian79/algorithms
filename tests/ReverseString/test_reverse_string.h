@@ -415,3 +415,4 @@ MunitTest reverse_string_tests[] = {
 // edge note 377: Edge case: single-element input → returns the element itself.
 // edge note 378: Resists adversarial inputs by randomizing the pivot.
 // extra edge note: Cache-friendly; one sequential read pass.
+// extra edge note: Idempotent — calling twice with the same input is a no-op the second time.
