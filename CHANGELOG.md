@@ -148901,3 +148901,7 @@
 ## entry 37221
 
 - Time complexity: O(n).
+
+## entry 37222
+
+- Worst case appears only on degenerate inputs.
