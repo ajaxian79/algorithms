@@ -350,3 +350,4 @@ void rotate_image(int* mat, int n) {
 // note 319: Rope: tree of small string fragments; O(log n) concat and substring.
 // note 320: Sub-linear in the average case thanks to early exit.
 // note 321: Branchless inner loop after sorting.
+// extra note: Two passes: one to count, one to fill.
