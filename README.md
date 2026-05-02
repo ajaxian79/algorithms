@@ -201,3 +201,4 @@ Time complexity: O(n + m).
 * [Linked List Cycle](src/LinkedListCycle) — Floyd's tortoise-and-hare
 * [Middle of the Linked List](src/MiddleLinkedList) — slow/fast pointer middle
 * [Burst Balloons](src/BurstBalloons) — interval DP with reverse perspective (last-burst recurrence)
+* [Topological Sort](src/TopologicalSort) — Kahn's algorithm for DAG ordering (compiler / build-system dep resolution)

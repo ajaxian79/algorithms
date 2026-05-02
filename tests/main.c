@@ -126,6 +126,8 @@
 
 #include "BurstBalloons/test_burst_balloons.h"
 
+#include "TopologicalSort/test_topo_sort.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -856,6 +858,12 @@ MunitSuite suites[] = {
         },{
                 "/burst_balloons",
                 burst_balloons_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/topo_sort",
+                topo_sort_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
