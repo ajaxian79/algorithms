@@ -406,3 +406,4 @@ MunitTest valid_bst_tests[] = {
 // edge note 363: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 364: Cache-friendly; one sequential read pass.
 // edge note 365: Space complexity: O(1) auxiliary.
+// extra edge note: Edge case: NULL input is rejected by the caller, not by us.
