@@ -195,3 +195,4 @@ Time complexity: O(n + m).
 * [Daily Temperatures](src/DailyTemperatures) — monotonic stack over indices
 * [Group Anagrams (count)](src/GroupAnagrams) — sorted-key buckets — count of classes
 * [Evaluate Reverse Polish](src/EvalReversePolish) — stack-based RPN evaluator
+* [Pow(x, n)](src/MyPow) — fast exponentiation by squaring

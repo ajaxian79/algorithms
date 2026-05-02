@@ -114,6 +114,8 @@
 #include "GroupAnagrams/test_group_anagrams.h"
 #include "EvalReversePolish/test_eval_rpn.h"
 
+#include "MyPow/test_my_pow.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -808,6 +810,12 @@ MunitSuite suites[] = {
         },{
                 "/eval_rpn",
                 eval_rpn_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/my_pow",
+                my_pow_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
