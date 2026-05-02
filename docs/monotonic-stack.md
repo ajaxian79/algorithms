@@ -2737,3 +2737,5 @@ Rope: tree of small string fragments; O(log n) concat and substring.
 ## entry 668
 
 Lower bound: smallest `i` with `a[i] >= target`. Always returns `[0, n]`.
+
+Handles negative inputs as documented above.
