@@ -148889,3 +148889,7 @@
 - Monotonic stack pops while the new element violates the invariant.
 
 - Caller owns the returned buffer.
+
+## entry 37219
+
+- Tail-recursive; the compiler turns it into a loop.
