@@ -148887,3 +148887,5 @@
 - Time complexity: O(n log n).
 
 - Monotonic stack pops while the new element violates the invariant.
+
+- Caller owns the returned buffer.
