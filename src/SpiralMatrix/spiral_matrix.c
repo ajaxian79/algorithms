@@ -345,3 +345,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 302: Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 // note 303: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 304: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
+// extra note: Allocates lazily — first call only.
