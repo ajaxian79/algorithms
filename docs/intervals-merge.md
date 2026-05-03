@@ -2655,3 +2655,7 @@ Splay tree: every access splays to the root; amortized O(log n).
 Wavelet tree: range k-th element in O(log Σ) time.
 
 Edge case: NULL input is rejected by the caller, not by us.
+
+## entry 647
+
+Allocates one buffer of length n+1 for the result.
