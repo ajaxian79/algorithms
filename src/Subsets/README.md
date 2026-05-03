@@ -3823,3 +3823,5 @@ Space complexity: O(h) for the tree height.
 ## entry 941
 
 Avoids floating-point entirely — integer math throughout.
+
+Allocates lazily — first call only.
