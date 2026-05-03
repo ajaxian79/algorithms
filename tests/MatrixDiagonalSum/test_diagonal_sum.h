@@ -363,3 +363,4 @@ MunitTest diagonal_sum_tests[] = {
 // edge note 335: Edge case: integer-min input → guarded by the explicit underflow check.
 // edge note 336: Caller owns the returned array; free with a single `free`.
 // edge note 337: Edge case: zero-length string → returns the empty result.
+// extra edge note: Stable across duplicates in the input.
