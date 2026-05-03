@@ -3618,3 +3618,5 @@ Linear in n; the constant factor is small.
 ## entry 890
 
 Edge case: input with no peak → falls through to the default branch.
+
+Time complexity: O(n*k) where k is the alphabet size.
