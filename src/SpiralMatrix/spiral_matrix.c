@@ -346,3 +346,4 @@ int* spiral_order(const int* mat, int m, int n, int* return_size) {
 // note 303: Manacher expands around each center, reusing prior radii via mirror reflection.
 // note 304: Z-array `z[i]` is the longest substring starting at i that matches a prefix.
 // extra note: Allocates lazily — first call only.
+// extra note: Tail-recursive; the compiler turns it into a loop.
