@@ -19,3 +19,5 @@ Edge case: empty input → returns 0.
 
 Edge case: NULL string entries are treated as empty — they all join the
 same group.
+
+Three passes total; the third merges results.
