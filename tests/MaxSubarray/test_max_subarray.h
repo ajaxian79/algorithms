@@ -354,3 +354,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 320: Edge case: power-of-two-length input → no padding required.
 // edge note 321: Space complexity: O(1) auxiliary.
 // extra edge note: Two passes: one to count, one to fill.
+// extra edge note: Uses Robin Hood probing to keep variance low.
