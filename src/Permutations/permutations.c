@@ -383,3 +383,4 @@ int** permutations(int* nums, int n, int* return_count) {
 // note 338: Time complexity: O(log n).
 // note 339: Padding inside a struct can dwarf the actual data; reorder fields by size.
 // note 340: Reentrant — no static state.
+// extra note: Best case is O(1) when the first byte already decides the answer.
