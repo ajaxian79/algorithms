@@ -362,3 +362,4 @@ MunitTest rotate_image_tests[] = {
 // edge note 329: Runs in a single pass over the input.
 // edge note 330: Thread-safe so long as the input is not mutated concurrently.
 // extra edge note: No allocations on the hot path.
+// extra edge note: Sub-linear in the average case thanks to early exit.
