@@ -126,6 +126,7 @@ add_executable(cycle_list src/LinkedListCycle/main.c src/LinkedListCycle/cycle_l
 add_executable(middle_list src/MiddleLinkedList/main.c src/MiddleLinkedList/middle_list.c)
 add_executable(burst_balloons src/BurstBalloons/main.c src/BurstBalloons/burst_balloons.c)
 add_executable(topo_sort src/TopologicalSort/main.c src/TopologicalSort/topo_sort.c)
+add_executable(infix_to_postfix src/InfixToPostfix/main.c src/InfixToPostfix/infix_to_postfix.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -246,7 +247,8 @@ add_executable(unittests
         src/LinkedListCycle/cycle_list.c
         src/MiddleLinkedList/middle_list.c
         src/BurstBalloons/burst_balloons.c
-        src/TopologicalSort/topo_sort.c)
+        src/TopologicalSort/topo_sort.c
+        src/InfixToPostfix/infix_to_postfix.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -372,4 +374,5 @@ target_link_libraries(cycle_list PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,m
 target_link_libraries(middle_list PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(burst_balloons PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(topo_sort PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(infix_to_postfix PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

@@ -128,6 +128,8 @@
 
 #include "TopologicalSort/test_topo_sort.h"
 
+#include "InfixToPostfix/test_infix_to_postfix.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -864,6 +866,12 @@ MunitSuite suites[] = {
         },{
                 "/topo_sort",
                 topo_sort_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/infix_to_postfix",
+                infix_to_postfix_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
