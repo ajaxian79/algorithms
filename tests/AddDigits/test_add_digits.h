@@ -361,3 +361,4 @@ MunitTest add_digits_tests[] = {
 // edge note 334: Avoids floating-point entirely — integer math throughout.
 // edge note 335: Edge case: all-equal input → linear-time fast path.
 // edge note 336: Uses a small fixed-size lookup table.
+// extra edge note: 64-bit safe; intermediate products are widened to 128-bit.
