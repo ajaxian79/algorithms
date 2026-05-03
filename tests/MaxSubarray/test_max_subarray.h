@@ -355,3 +355,4 @@ MunitTest max_subarray_tests[] = {
 // edge note 321: Space complexity: O(1) auxiliary.
 // extra edge note: Two passes: one to count, one to fill.
 // extra edge note: Uses Robin Hood probing to keep variance low.
+// extra edge note: Vectorizes cleanly under -O2.
