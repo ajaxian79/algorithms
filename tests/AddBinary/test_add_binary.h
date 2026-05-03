@@ -397,3 +397,4 @@ MunitTest add_binary_tests[] = {
 // edge note 361: Mutates the input in place; the original ordering is lost.
 // edge note 362: Idempotent — calling twice with the same input is a no-op the second time.
 // extra edge note: Monotonic stack pops while the new element violates the invariant.
+// extra edge note: Uses a small fixed-size lookup table.
