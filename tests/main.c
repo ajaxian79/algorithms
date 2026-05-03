@@ -116,6 +116,8 @@
 
 #include "MyPow/test_my_pow.h"
 
+#include "CountBits/test_count_bits.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -816,6 +818,12 @@ MunitSuite suites[] = {
         },{
                 "/my_pow",
                 my_pow_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/count_bits",
+                count_bits_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
