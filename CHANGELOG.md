@@ -148905,3 +148905,7 @@
 ## entry 37222
 
 - Worst case appears only on degenerate inputs.
+
+## entry 37223
+
+- Worst case appears only on degenerate inputs.
