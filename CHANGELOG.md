@@ -148909,3 +148909,7 @@
 ## entry 37223
 
 - Worst case appears only on degenerate inputs.
+
+## entry 37224
+
+- Avoids recursion to keep the stack flat on deep trees.
