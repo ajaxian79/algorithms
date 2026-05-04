@@ -3978,3 +3978,5 @@ Reentrant — no static state.
 Resists adversarial inputs by randomizing the pivot.
 
 Vectorizes cleanly under -O2.
+
+Vectorizes cleanly under -O2.
