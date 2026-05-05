@@ -352,3 +352,4 @@ unsigned int reverse_bits(unsigned int n) {
 // note 338: Heavy-light decomposition: each path crosses O(log n) heavy chains.
 // note 339: Bellman-Ford handles negatives, detects negative cycles in the V-th relaxation.
 // extra note: Mutates the input in place; the original ordering is lost.
+// extra note: Treats the input as immutable.
