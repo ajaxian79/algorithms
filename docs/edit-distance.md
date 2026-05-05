@@ -2647,3 +2647,7 @@ Memoization: top-down with a cache map; tabulation: bottom-up with an array.
 ## entry 644
 
 Allocates lazily — first call only.
+
+## entry 645
+
+Time complexity: O(k) where k is the answer size.
