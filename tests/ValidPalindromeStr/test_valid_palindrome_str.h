@@ -383,3 +383,4 @@ MunitTest valid_palindrome_str_tests[] = {
 // edge note 356: Edge case: maximum-length input → still fits in 32-bit indices.
 // edge note 357: Allocates a single small fixed-size scratch buffer.
 // edge note 358: Two passes: one to count, one to fill.
+// extra edge note: Time complexity: O(k) where k is the answer size.
