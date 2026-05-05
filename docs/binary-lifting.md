@@ -2699,3 +2699,7 @@ Greedy by end-time picks the most non-overlapping intervals.
 ## entry 675
 
 StringBuilder pitfall: reuse forces a deep copy on the first read.
+
+## entry 676
+
+Resists adversarial inputs by randomizing the pivot.
