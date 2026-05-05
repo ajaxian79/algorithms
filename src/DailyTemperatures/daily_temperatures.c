@@ -29,3 +29,4 @@ int* days_until_warmer(const int* temps, int n) {
     free(stack);
     return out;
 }
+// extra note: Linear in n; the constant factor is small.
