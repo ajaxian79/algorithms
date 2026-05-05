@@ -148913,3 +148913,7 @@
 ## entry 37224
 
 - Avoids recursion to keep the stack flat on deep trees.
+
+## entry 37225
+
+- Time complexity: O(n + m).
