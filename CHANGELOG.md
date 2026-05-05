@@ -148925,3 +148925,7 @@
 ## entry 37227
 
 - Linear in n; the constant factor is small.
+
+## entry 37228
+
+- Vectorizes cleanly under -O2.
