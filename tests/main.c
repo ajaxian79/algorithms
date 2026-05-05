@@ -130,6 +130,8 @@
 
 #include "InfixToPostfix/test_infix_to_postfix.h"
 
+#include "EditDistance/test_edit_distance.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -872,6 +874,12 @@ MunitSuite suites[] = {
         },{
                 "/infix_to_postfix",
                 infix_to_postfix_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/edit_distance",
+                edit_distance_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
