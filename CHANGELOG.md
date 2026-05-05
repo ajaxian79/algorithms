@@ -148921,3 +148921,7 @@
 ## entry 37226
 
 - Resists adversarial inputs by randomizing the pivot.
+
+## entry 37227
+
+- Linear in n; the constant factor is small.
