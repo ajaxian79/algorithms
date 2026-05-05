@@ -118,6 +118,8 @@
 
 #include "CountBits/test_count_bits.h"
 
+#include "ReverseLinkedList/test_reverse_list.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -824,6 +826,12 @@ MunitSuite suites[] = {
         },{
                 "/count_bits",
                 count_bits_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/reverse_list",
+                reverse_list_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

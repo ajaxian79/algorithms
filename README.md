@@ -197,3 +197,4 @@ Time complexity: O(n + m).
 * [Evaluate Reverse Polish](src/EvalReversePolish) — stack-based RPN evaluator
 * [Pow(x, n)](src/MyPow) — fast exponentiation by squaring
 * [Count Bits](src/CountBits) — popcount table for 0..n via i & (i-1) DP
+* [Reverse Linked List](src/ReverseLinkedList) — iterative prev/curr/next pointer reversal

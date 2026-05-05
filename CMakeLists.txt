@@ -121,6 +121,7 @@ add_executable(group_anagrams src/GroupAnagrams/main.c src/GroupAnagrams/group_a
 add_executable(eval_rpn src/EvalReversePolish/main.c src/EvalReversePolish/eval_rpn.c)
 add_executable(my_pow src/MyPow/main.c src/MyPow/my_pow.c)
 add_executable(count_bits src/CountBits/main.c src/CountBits/count_bits.c)
+add_executable(reverse_list src/ReverseLinkedList/main.c src/ReverseLinkedList/reverse_list.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -236,7 +237,8 @@ add_executable(unittests
         src/GroupAnagrams/group_anagrams.c
         src/EvalReversePolish/eval_rpn.c
         src/MyPow/my_pow.c
-        src/CountBits/count_bits.c)
+        src/CountBits/count_bits.c
+        src/ReverseLinkedList/reverse_list.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -357,4 +359,5 @@ target_link_libraries(group_anagrams PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-stati
 target_link_libraries(eval_rpn PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(my_pow PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(count_bits PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(reverse_list PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
