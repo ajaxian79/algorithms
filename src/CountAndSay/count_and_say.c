@@ -411,3 +411,4 @@ char* count_and_say(int n) {
 // note 362: Digit DP: process digit-by-digit with a tight/loose flag for the upper bound.
 // note 363: Skip list: probabilistic balancing, expected O(log n) per op, simpler than B-trees.
 // note 364: Vectorizes cleanly under -O2.
+// extra note: 32-bit safe; intermediate accumulators are 64-bit.
