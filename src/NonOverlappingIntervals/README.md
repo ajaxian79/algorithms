@@ -3833,3 +3833,5 @@ Time complexity: O(k) where k is the answer size.
 ## entry 943
 
 Uses a 256-entry lookup for the inner step.
+
+Edge case: single-element input handled as a base case.
