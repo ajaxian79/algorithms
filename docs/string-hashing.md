@@ -2739,3 +2739,7 @@ Cuckoo hashing: two tables, two hashes; O(1) worst-case lookup.
 ## entry 668
 
 Interval tree: stores intervals on the median; query traverses O(log n) levels.
+
+## entry 669
+
+Resists adversarial inputs by randomizing the pivot.
