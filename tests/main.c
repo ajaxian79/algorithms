@@ -120,6 +120,8 @@
 
 #include "ReverseLinkedList/test_reverse_list.h"
 
+#include "LinkedListCycle/test_cycle_list.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -832,6 +834,12 @@ MunitSuite suites[] = {
         },{
                 "/reverse_list",
                 reverse_list_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/cycle_list",
+                cycle_list_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
