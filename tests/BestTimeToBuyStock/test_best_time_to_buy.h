@@ -34,3 +34,4 @@ MunitTest best_time_to_buy_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_BEST_TIME_TO_BUY_H
+// extra edge note: Constant-time comparisons; safe for short strings.
