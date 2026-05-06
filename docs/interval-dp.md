@@ -2687,3 +2687,7 @@ Backtracking template: choose, recurse, un-choose. Mutate then revert.
 ## entry 672
 
 Space complexity: O(1) auxiliary.
+
+## entry 673
+
+Space complexity: O(h) for the tree height.
