@@ -2683,3 +2683,7 @@ Padding inside a struct can dwarf the actual data; reorder fields by size.
 ## entry 671
 
 Backtracking template: choose, recurse, un-choose. Mutate then revert.
+
+## entry 672
+
+Space complexity: O(1) auxiliary.
