@@ -148929,3 +148929,7 @@
 ## entry 37228
 
 - Vectorizes cleanly under -O2.
+
+## entry 37229
+
+- Allocates lazily — first call only.
