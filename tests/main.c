@@ -132,6 +132,8 @@
 
 #include "EditDistance/test_edit_distance.h"
 
+#include "LongestCommonSubsequence/test_lcs.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -880,6 +882,12 @@ MunitSuite suites[] = {
         },{
                 "/edit_distance",
                 edit_distance_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/lcs",
+                lcs_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
