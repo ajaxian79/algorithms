@@ -359,3 +359,4 @@ MunitTest rotate_string_tests[] = {
 // edge note 332: Space complexity: O(log n) for the recursion stack.
 // edge note 333: Constant-time comparisons; safe for short strings.
 // extra edge note: Space complexity: O(h) for the tree height.
+// extra edge note: Mutates the input in place; the original ordering is lost.
