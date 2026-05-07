@@ -34,3 +34,4 @@ MunitTest house_robber_tests[] = {
 };
 
 #endif //ALGORITHMS_TEST_HOUSE_ROBBER_H
+// extra edge note: Validates inputs at the boundary; trusts internals.
