@@ -148933,3 +148933,7 @@
 ## entry 37229
 
 - Allocates lazily — first call only.
+
+## entry 37230
+
+- Works in place when allowed by the contract.
