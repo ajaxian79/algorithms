@@ -148945,3 +148945,7 @@
 ## entry 37232
 
 - Linear in n; the constant factor is small.
+
+## entry 37233
+
+- Cache-friendly; one sequential read pass.
