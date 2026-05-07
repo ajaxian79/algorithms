@@ -122,6 +122,8 @@
 
 #include "LinkedListCycle/test_cycle_list.h"
 
+#include "MiddleLinkedList/test_middle_list.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -840,6 +842,12 @@ MunitSuite suites[] = {
         },{
                 "/cycle_list",
                 cycle_list_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/middle_list",
+                middle_list_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
