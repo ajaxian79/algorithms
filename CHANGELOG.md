@@ -148937,3 +148937,7 @@
 ## entry 37230
 
 - Works in place when allowed by the contract.
+
+## entry 37231
+
+- Vectorizes cleanly under -O2.
