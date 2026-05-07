@@ -3711,3 +3711,5 @@ Avoids floating-point entirely — integer math throughout.
 ## entry 913
 
 Edge case: input with one duplicate → handled without an extra pass.
+
+32-bit safe; intermediate accumulators are 64-bit.
