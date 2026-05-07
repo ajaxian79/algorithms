@@ -129,6 +129,7 @@ add_executable(topo_sort src/TopologicalSort/main.c src/TopologicalSort/topo_sor
 add_executable(infix_to_postfix src/InfixToPostfix/main.c src/InfixToPostfix/infix_to_postfix.c)
 add_executable(edit_distance src/EditDistance/main.c src/EditDistance/edit_distance.c)
 add_executable(lcs src/LongestCommonSubsequence/main.c src/LongestCommonSubsequence/lcs.c)
+add_executable(dll src/DoublyLinkedList/main.c src/DoublyLinkedList/dll.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -252,7 +253,8 @@ add_executable(unittests
         src/TopologicalSort/topo_sort.c
         src/InfixToPostfix/infix_to_postfix.c
         src/EditDistance/edit_distance.c
-        src/LongestCommonSubsequence/lcs.c)
+        src/LongestCommonSubsequence/lcs.c
+        src/DoublyLinkedList/dll.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -381,4 +383,5 @@ target_link_libraries(topo_sort PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 target_link_libraries(infix_to_postfix PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(edit_distance PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(lcs PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(dll PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

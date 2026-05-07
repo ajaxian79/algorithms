@@ -205,3 +205,4 @@ Time complexity: O(n + m).
 * [Infix to Postfix](src/InfixToPostfix) — Dijkstra's shunting-yard, precedence + right-associativity
 * [Edit Distance](src/EditDistance) — Levenshtein 2D DP, rolled to O(min(m,n)) space
 * [Longest Common Subsequence](src/LongestCommonSubsequence) — 2D DP with rolled rows
+* [Doubly Linked List](src/DoublyLinkedList) — sentinel-based bidirectional list

@@ -134,6 +134,8 @@
 
 #include "LongestCommonSubsequence/test_lcs.h"
 
+#include "DoublyLinkedList/test_dll.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -888,6 +890,12 @@ MunitSuite suites[] = {
         },{
                 "/lcs",
                 lcs_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/dll",
+                dll_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
