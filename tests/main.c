@@ -136,6 +136,8 @@
 
 #include "DoublyLinkedList/test_dll.h"
 
+#include "AVLTree/test_avl_tree.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -896,6 +898,12 @@ MunitSuite suites[] = {
         },{
                 "/dll",
                 dll_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/avl_tree",
+                avl_tree_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE

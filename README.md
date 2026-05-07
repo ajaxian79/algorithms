@@ -206,3 +206,4 @@ Time complexity: O(n + m).
 * [Edit Distance](src/EditDistance) — Levenshtein 2D DP, rolled to O(min(m,n)) space
 * [Longest Common Subsequence](src/LongestCommonSubsequence) — 2D DP with rolled rows
 * [Doubly Linked List](src/DoublyLinkedList) — sentinel-based bidirectional list
+* [AVL Tree](src/AVLTree) — self-balancing BST with LL/LR/RR/RL rotations
