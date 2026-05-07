@@ -2709,3 +2709,7 @@ In-place compaction uses two pointers: read advances always, write only on keep.
 ## entry 661
 
 Pick a pivot, partition, recurse on the side that contains the kth slot.
+
+## entry 662
+
+Worst case appears only on degenerate inputs.
