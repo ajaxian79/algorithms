@@ -208,3 +208,4 @@ Time complexity: O(n + m).
 * [Doubly Linked List](src/DoublyLinkedList) — sentinel-based bidirectional list
 * [AVL Tree](src/AVLTree) — self-balancing BST with LL/LR/RR/RL rotations
 * [Skip List](src/SkipList) — probabilistic ordered set (used in RocksDB/LevelDB/Redis sorted sets)
+* [Bloom Filter](src/BloomFilter) — probabilistic membership; SSTable filter / cache-miss rejection

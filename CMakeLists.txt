@@ -132,6 +132,7 @@ add_executable(lcs src/LongestCommonSubsequence/main.c src/LongestCommonSubseque
 add_executable(dll src/DoublyLinkedList/main.c src/DoublyLinkedList/dll.c)
 add_executable(avl_tree src/AVLTree/main.c src/AVLTree/avl_tree.c)
 add_executable(skip_list src/SkipList/main.c src/SkipList/skip_list.c)
+add_executable(bloom_filter src/BloomFilter/main.c src/BloomFilter/bloom_filter.c)
 add_executable(unittests
         vendor/munit/munit.c
         tests/main.c
@@ -258,7 +259,8 @@ add_executable(unittests
         src/LongestCommonSubsequence/lcs.c
         src/DoublyLinkedList/dll.c
         src/AVLTree/avl_tree.c
-        src/SkipList/skip_list.c)
+        src/SkipList/skip_list.c
+        src/BloomFilter/bloom_filter.c)
 
 find_package(mimalloc CONFIG REQUIRED)
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -390,4 +392,5 @@ target_link_libraries(lcs PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc
 target_link_libraries(dll PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(avl_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(skip_list PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+target_link_libraries(bloom_filter PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)

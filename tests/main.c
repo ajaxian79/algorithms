@@ -140,6 +140,8 @@
 
 #include "SkipList/test_skip_list.h"
 
+#include "BloomFilter/test_bloom_filter.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -912,6 +914,12 @@ MunitSuite suites[] = {
         },{
                 "/skip_list",
                 skip_list_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/bloom_filter",
+                bloom_filter_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
