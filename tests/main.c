@@ -138,6 +138,8 @@
 
 #include "AVLTree/test_avl_tree.h"
 
+#include "SkipList/test_skip_list.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -904,6 +906,12 @@ MunitSuite suites[] = {
         },{
                 "/avl_tree",
                 avl_tree_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/skip_list",
+                skip_list_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
