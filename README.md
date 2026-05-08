@@ -200,3 +200,4 @@ Time complexity: O(n + m).
 * [Reverse Linked List](src/ReverseLinkedList) — iterative prev/curr/next pointer reversal
 * [Linked List Cycle](src/LinkedListCycle) — Floyd's tortoise-and-hare
 * [Middle of the Linked List](src/MiddleLinkedList) — slow/fast pointer middle
+* [Burst Balloons](src/BurstBalloons) — interval DP with reverse perspective (last-burst recurrence)

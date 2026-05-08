@@ -124,6 +124,8 @@
 
 #include "MiddleLinkedList/test_middle_list.h"
 
+#include "BurstBalloons/test_burst_balloons.h"
+
 static void*
 test_setup(const MunitParameter params[], void* user_data) {
     return strdup("Hello, world!");
@@ -848,6 +850,12 @@ MunitSuite suites[] = {
         },{
                 "/middle_list",
                 middle_list_tests,
+                NULL,
+                1,
+                MUNIT_SUITE_OPTION_NONE
+        },{
+                "/burst_balloons",
+                burst_balloons_tests,
                 NULL,
                 1,
                 MUNIT_SUITE_OPTION_NONE
