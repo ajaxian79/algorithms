@@ -115,6 +115,12 @@ CurveLocator::PositionTable CurveLocator::build_positions(std::span<const std::u
 
 CurveEquation CurveLocator::locate(std::span<const std::uint8_t> x,
                                    std::span<const std::uint8_t> y) {
+    return locate(x, y, PickStrategy::CursorCycle);
+}
+
+CurveEquation CurveLocator::locate(std::span<const std::uint8_t> x,
+                                   std::span<const std::uint8_t> y,
+                                   PickStrategy strategy) {
     if (x.size() > kMaxXLength) {
         throw std::invalid_argument("CurveLocator::locate: X exceeds kMaxXLength");
     }
@@ -126,17 +132,56 @@ CurveEquation CurveLocator::locate(std::span<const std::uint8_t> x,
 
     std::vector<std::int64_t> nodes;
     nodes.reserve(x.size());
-    // Per-value cursor so the curve advances through Y rather than collapsing
-    // onto the first occurrence each time. This both spreads the curve across
-    // Y and keeps repeated X-values from producing identical (i, j_i) pairs
-    // when their occurrence count in Y allows distinct picks.
-    std::array<std::size_t, 256> cursor{};
-    for (std::uint8_t v : x) {
-        const auto& slots = positions[v];
-        // validate_y guarantees slots.size() >= kRequiredMultiplicity == 3.
-        const std::size_t pick = cursor[v] % slots.size();
-        nodes.push_back(slots[pick]);
-        ++cursor[v];
+
+    switch (strategy) {
+        case PickStrategy::CursorCycle: {
+            // Per-value cursor so the curve advances through Y rather than
+            // collapsing onto the first occurrence each time. Spreads the curve
+            // across Y but is locally arbitrary.
+            std::array<std::size_t, 256> cursor{};
+            for (std::uint8_t v : x) {
+                const auto& slots = positions[v];
+                // validate_y guarantees slots.size() >= kRequiredMultiplicity == 3.
+                const std::size_t pick = cursor[v] % slots.size();
+                nodes.push_back(slots[pick]);
+                ++cursor[v];
+            }
+            break;
+        }
+        case PickStrategy::NearestToPrevious: {
+            // Pick the slot whose index is closest to the previous node. The
+            // slot list is already sorted (build_positions visits Y left-to-
+            // right) so std::lower_bound + a 1-step compare locates the
+            // nearest in O(log per_value). For i=1 there is no previous, so
+            // fall back to slots.front() (cursor=0).
+            std::int64_t prev = 0;
+            bool have_prev = false;
+            for (std::uint8_t v : x) {
+                const auto& slots = positions[v];
+                std::int64_t pick;
+                if (!have_prev) {
+                    pick = slots.front();
+                } else {
+                    auto it = std::lower_bound(slots.begin(), slots.end(), prev);
+                    if (it == slots.end()) {
+                        pick = slots.back();
+                    } else if (it == slots.begin()) {
+                        pick = *it;
+                    } else {
+                        const std::int64_t hi = *it;
+                        const std::int64_t lo = *(it - 1);
+                        // Tie (equal distance) breaks toward the higher index;
+                        // immaterial for verify(), keeps the choice
+                        // deterministic.
+                        pick = (hi - prev) <= (prev - lo) ? hi : lo;
+                    }
+                }
+                nodes.push_back(pick);
+                prev = pick;
+                have_prev = true;
+            }
+            break;
+        }
     }
     return CurveEquation(std::move(nodes));
 }

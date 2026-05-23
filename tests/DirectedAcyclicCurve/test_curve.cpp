@@ -22,6 +22,7 @@
 
 #include <sstream>
 
+#include "../../src/DirectedAcyclicCurve/curve_bezier.hpp"
 #include "../../src/DirectedAcyclicCurve/curve_codec.hpp"
 #include "../../src/DirectedAcyclicCurve/curve_locator.hpp"
 #include "../../src/DirectedAcyclicCurve/y_builder.hpp"
@@ -471,6 +472,223 @@ DAC_TEST(newton_form_round_trip_medium) {
     auto curve = CurveLocator::locate(x, y);
     DAC_EXPECT(CurveLocator::verify(curve, x, y));
     DAC_EXPECT(CurveLocator::verify_equation(curve, x, y));
+}
+
+// --- 5b. NearestToPrevious pick strategy (Slice 2) ------------------------
+
+DAC_TEST(default_locate_overload_matches_cursor_cycle) {
+    // The 2-arg overload must produce exactly the same nodes as the 3-arg
+    // overload with PickStrategy::CursorCycle. Pins the backwards-compatible
+    // default introduced in Slice 2.
+    auto y = DeterministicYBuilder::build(0xC0FFEEULL, 4096);
+    auto x = make_x(512, 0xBADCAFEULL);
+    auto a = CurveLocator::locate(x, y);
+    auto b = CurveLocator::locate(x, y, algorithms::dac::PickStrategy::CursorCycle);
+    DAC_EXPECT_EQ(a.length(), b.length());
+    DAC_EXPECT(a.nodes() == b.nodes());
+}
+
+DAC_TEST(nearest_pick_round_trip_uniform_y) {
+    auto y = DeterministicYBuilder::build(0xC0FFEEULL, 4096);
+    auto x = make_x(256, 0xBADCAFEULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    DAC_EXPECT_EQ(curve.length(), x.size());
+    DAC_EXPECT(CurveLocator::verify(curve, x, y));
+}
+
+DAC_TEST(nearest_pick_round_trip_stratified_y) {
+    DeterministicYBuilder::Params p;
+    p.seed = 0xC0FFEEULL;
+    p.multiplicity = 16;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    auto x = make_x(1024, 0xBADCAFEULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    DAC_EXPECT_EQ(curve.length(), x.size());
+    DAC_EXPECT(CurveLocator::verify(curve, x, y));
+}
+
+namespace {
+
+double mean_absolute_step(const algorithms::dac::CurveEquation& c) {
+    const auto& n = c.nodes();
+    if (n.size() < 2) return 0.0;
+    long long sum = 0;
+    for (std::size_t i = 1; i < n.size(); ++i) {
+        sum += std::llabs(n[i] - n[i - 1]);
+    }
+    return static_cast<double>(sum) / static_cast<double>(n.size() - 1);
+}
+
+}  // namespace
+
+DAC_TEST(nearest_pick_smoother_than_cursor_cycle_on_stratified) {
+    // Quantitative smoothness regression. With Stratified Y at multiplicity
+    // 16 and N=1024 random X, the mean step size under NearestToPrevious must
+    // be at least 4x smaller than under the historical Uniform+CursorCycle
+    // baseline AND below an absolute ceiling of 128 (half the 256-byte band
+    // width - the natural mean distance to the nearest slot of a fixed byte
+    // value within a single band of uniformly-random permutations). Both
+    // bounds together protect against regressions in either the Stratified
+    // layout or the NearestToPrevious pick.
+    auto y_uniform = DeterministicYBuilder::build(0xC0FFEEULL, /*min_length=*/4096);
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y_stratified = DeterministicYBuilder::build(strat);
+
+    auto x = make_x(1024, 0xDEADBEEFULL);
+
+    auto c_baseline = CurveLocator::locate(x, y_uniform,
+        algorithms::dac::PickStrategy::CursorCycle);
+    auto c_smooth = CurveLocator::locate(x, y_stratified,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+
+    const double mean_base = mean_absolute_step(c_baseline);
+    const double mean_smooth = mean_absolute_step(c_smooth);
+
+    DAC_EXPECT(CurveLocator::verify(c_baseline, x, y_uniform));
+    DAC_EXPECT(CurveLocator::verify(c_smooth, x, y_stratified));
+    if (!(mean_smooth * 4.0 < mean_base)) {
+        char buf[160];
+        std::snprintf(buf, sizeof buf,
+                      "smooth mean |dj| %.2f >= baseline / 4 = %.2f",
+                      mean_smooth, mean_base / 4.0);
+        DAC_TEST_FAIL(buf);
+    }
+    if (!(mean_smooth < 128.0)) {
+        char buf[160];
+        std::snprintf(buf, sizeof buf,
+                      "smooth mean |dj| %.2f exceeds half-band ceiling 128",
+                      mean_smooth);
+        DAC_TEST_FAIL(buf);
+    }
+}
+
+// --- 5c. Bezier fitter (Slice 2) ------------------------------------------
+
+DAC_TEST(bezier_fit_empty_curve) {
+    using algorithms::dac::BezierFitter;
+    algorithms::dac::CurveEquation empty;
+    auto r = BezierFitter::fit(empty, 0.5);
+    DAC_EXPECT_EQ(r.segments.size(), 0u);
+    DAC_EXPECT_EQ(r.control_point_count(), 0u);
+}
+
+DAC_TEST(bezier_fit_single_node_collapses) {
+    using algorithms::dac::BezierFitter;
+    algorithms::dac::CurveEquation one(std::vector<std::int64_t>{42});
+    auto r = BezierFitter::fit(one, 0.5);
+    DAC_EXPECT_EQ(r.segments.size(), 1u);
+    DAC_EXPECT_EQ(r.control_point_count(), 4u);
+    const auto& s = r.segments.front();
+    DAC_EXPECT(s.y0 == 42.0);
+    DAC_EXPECT(s.y3 == 42.0);
+}
+
+DAC_TEST(bezier_fit_endpoints_exact) {
+    using algorithms::dac::BezierFitter;
+    auto y = DeterministicYBuilder::build(0xC0FFEEULL, 4096);
+    auto x = make_x(64, 0xBADCAFEULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    auto r = BezierFitter::fit(curve, 0.5);
+    DAC_EXPECT(!r.segments.empty());
+
+    // Left endpoint of the first segment is the first node; right endpoint
+    // of the last segment is the last node.
+    const auto& first = r.segments.front();
+    const auto& last  = r.segments.back();
+    DAC_EXPECT(first.y0 == static_cast<double>(curve.nodes().front()));
+    DAC_EXPECT(last.y3 == static_cast<double>(curve.nodes().back()));
+
+    // Adjacent segments are C^0-continuous: the right endpoint of segment k
+    // equals the left endpoint of segment k+1.
+    for (std::size_t k = 1; k < r.segments.size(); ++k) {
+        DAC_EXPECT(r.segments[k - 1].y3 == r.segments[k].y0);
+        DAC_EXPECT_EQ(r.segments[k - 1].i_end, r.segments[k].i_start);
+    }
+}
+
+DAC_TEST(bezier_fit_interpolates_within_tolerance) {
+    using algorithms::dac::BezierFitter;
+    // For each integer node i, after locating the segment that contains i
+    // and evaluating at the appropriate t, the result must be within
+    // tolerance of the node value.
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(256, 0xBADCAFEULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    const double tol = 0.5;
+    auto r = BezierFitter::fit(curve, tol);
+
+    // For each node i in [1, N], locate the segment whose [i_start, i_end]
+    // contains it and evaluate.
+    const auto& nodes = curve.nodes();
+    for (std::size_t i = 1; i <= nodes.size(); ++i) {
+        // Linear scan is fine for the test - segment count is small.
+        bool found = false;
+        for (const auto& s : r.segments) {
+            if (i >= s.i_start && i <= s.i_end) {
+                const double t = s.i_end == s.i_start ? 0.0
+                    : static_cast<double>(i - s.i_start) /
+                      static_cast<double>(s.i_end - s.i_start);
+                const double v = BezierFitter::evaluate_y(s, t);
+                if (std::abs(v - static_cast<double>(nodes[i - 1])) > tol + 1e-9) {
+                    char buf[160];
+                    std::snprintf(buf, sizeof buf,
+                                  "i=%zu node=%lld fit=%.3f tol=%.3f",
+                                  i, static_cast<long long>(nodes[i - 1]), v, tol);
+                    DAC_TEST_FAIL(buf);
+                    return;
+                }
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            DAC_TEST_FAIL("node not covered by any Bezier segment");
+            return;
+        }
+    }
+    DAC_EXPECT(r.max_residual <= tol + 1e-9);
+}
+
+DAC_TEST(bezier_fit_smoother_needs_fewer_segments) {
+    using algorithms::dac::BezierFitter;
+    // Smoothness <-> compressibility: (Stratified + Nearest) must produce a
+    // strictly smaller piecewise-Bezier representation than the historical
+    // (Uniform + CursorCycle) baseline at the same tolerance.
+    auto y_uniform = DeterministicYBuilder::build(0xC0FFEEULL, 4096);
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y_strat = DeterministicYBuilder::build(strat);
+
+    auto x = make_x(256, 0xDEADBEEFULL);
+    auto c_base = CurveLocator::locate(x, y_uniform,
+        algorithms::dac::PickStrategy::CursorCycle);
+    auto c_smooth = CurveLocator::locate(x, y_strat,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+
+    const double tol = 0.5;
+    auto r_base = BezierFitter::fit(c_base, tol);
+    auto r_smooth = BezierFitter::fit(c_smooth, tol);
+    if (!(r_smooth.segments.size() < r_base.segments.size())) {
+        char buf[160];
+        std::snprintf(buf, sizeof buf,
+                      "smooth segs %zu >= base segs %zu",
+                      r_smooth.segments.size(), r_base.segments.size());
+        DAC_TEST_FAIL(buf);
+    }
 }
 
 // --- 6. Codec round-trip ---------------------------------------------------

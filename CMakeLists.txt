@@ -409,7 +409,8 @@ target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mi
 add_library(dac_curve STATIC
         src/DirectedAcyclicCurve/curve_locator.cpp
         src/DirectedAcyclicCurve/y_builder.cpp
-        src/DirectedAcyclicCurve/curve_codec.cpp)
+        src/DirectedAcyclicCurve/curve_codec.cpp
+        src/DirectedAcyclicCurve/curve_bezier.cpp)
 target_include_directories(dac_curve PUBLIC src/DirectedAcyclicCurve)
 
 add_executable(dac_demo src/DirectedAcyclicCurve/main.cpp)

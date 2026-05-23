@@ -71,14 +71,46 @@ private:
     std::vector<std::int64_t> nodes_{};
 };
 
+// How the locator selects which of the (>= 3) candidate Y-positions for
+// X[i-1] becomes p(i) = j_i.
+//
+//   CursorCycle        - historical default. The per-byte cursor advances each
+//                        time a byte value is consumed and the locator picks
+//                        slots[cursor[v]++ % slots.size()]. Spreads the curve
+//                        across Y but is locally arbitrary: consecutive picks
+//                        for different bytes have uncorrelated targets.
+//
+//   NearestToPrevious  - given the previous node j_{i-1}, choose the slot for
+//                        X[i-1] whose index minimises |slot - j_{i-1}|. With
+//                        Stratified Y this drives the curve toward
+//                        near-monotone behaviour; with Uniform Y it still
+//                        reduces local hop distance because each byte's slot
+//                        list spans Y. O(log per_value) per pick via
+//                        std::lower_bound on the (sorted) slot list. For i=1
+//                        falls back to slots.front() since there is no prior
+//                        node to anchor against; verify() still passes either
+//                        way.
+enum class PickStrategy : std::uint8_t {
+    CursorCycle = 0,
+    NearestToPrevious = 1,
+};
+
 // Stateless locator for the directed-acyclic curve.
 class CurveLocator {
 public:
-    // Locate the curve for (X, Y). Throws std::invalid_argument if X exceeds
-    // kMaxXLength, if Y has fewer than kRequiredMultiplicity occurrences of any
-    // byte value, or if Y is otherwise malformed.
+    // Locate the curve for (X, Y) under the default CursorCycle pick. Throws
+    // std::invalid_argument if X exceeds kMaxXLength, if Y has fewer than
+    // kRequiredMultiplicity occurrences of any byte value, or if Y is otherwise
+    // malformed.
     static CurveEquation locate(std::span<const std::uint8_t> x,
                                 std::span<const std::uint8_t> y);
+
+    // Locate under an explicit PickStrategy. Behaviour for CursorCycle is
+    // bit-exact-identical to the 2-argument overload; NearestToPrevious is the
+    // smoothness lever introduced in Slice 2.
+    static CurveEquation locate(std::span<const std::uint8_t> x,
+                                std::span<const std::uint8_t> y,
+                                PickStrategy strategy);
 
     // Validate that Y contains every byte value 0..255 at least
     // kRequiredMultiplicity times.
