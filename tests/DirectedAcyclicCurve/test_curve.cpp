@@ -20,6 +20,9 @@
 #include <cstdint>
 #include <vector>
 
+#include <sstream>
+
+#include "../../src/DirectedAcyclicCurve/curve_codec.hpp"
 #include "../../src/DirectedAcyclicCurve/curve_locator.hpp"
 #include "../../src/DirectedAcyclicCurve/y_builder.hpp"
 #include "test_harness.hpp"
@@ -316,6 +319,68 @@ DAC_TEST(newton_form_round_trip_medium) {
     auto curve = CurveLocator::locate(x, y);
     DAC_EXPECT(CurveLocator::verify(curve, x, y));
     DAC_EXPECT(CurveLocator::verify_equation(curve, x, y));
+}
+
+// --- 6. Codec round-trip ---------------------------------------------------
+
+namespace {
+void check_codec_round_trip(algorithms::dac::testing::TestRegistry& _dac_reg,
+                             std::size_t n,
+                             std::size_t y_len,
+                             std::uint64_t y_seed,
+                             std::uint64_t x_seed) {
+    using algorithms::dac::CurveCodec;
+    auto y = DeterministicYBuilder::build(y_seed, y_len);
+    auto x = make_x(n, x_seed);
+    auto curve = CurveLocator::locate(x, y);
+
+    std::stringstream buf(std::ios::in | std::ios::out | std::ios::binary);
+    CurveCodec::serialize(buf, y_seed, y.size(), curve);
+    const auto blob = buf.str();
+    DAC_EXPECT_EQ(static_cast<std::uint64_t>(blob.size()),
+                  CurveCodec::persisted_size(x.size(), y.size()));
+
+    std::stringstream rb(blob, std::ios::in | std::ios::out | std::ios::binary);
+    auto rt = CurveCodec::deserialize(rb);
+    DAC_EXPECT_EQ(rt.curve.length(), x.size());
+    DAC_EXPECT_EQ(rt.y_seed, y_seed);
+    DAC_EXPECT_EQ(rt.y_length, static_cast<std::uint64_t>(y.size()));
+    DAC_EXPECT(rt.y == y);
+    for (std::size_t i = 1; i <= x.size(); ++i) {
+        DAC_EXPECT_EQ(static_cast<int>(rt.y[rt.curve.evaluate_at_node(i)]),
+                      static_cast<int>(x[i - 1]));
+    }
+}
+}  // namespace
+
+DAC_TEST(codec_round_trip_size_1)     { check_codec_round_trip(_dac_reg, 1, 768, 0x1ULL, 0xA1ULL); }
+DAC_TEST(codec_round_trip_size_10)    { check_codec_round_trip(_dac_reg, 10, 768, 0xAULL, 0xAAULL); }
+DAC_TEST(codec_round_trip_size_100)   { check_codec_round_trip(_dac_reg, 100, 768, 0x64ULL, 0xB0ULL); }
+DAC_TEST(codec_round_trip_size_1024)  { check_codec_round_trip(_dac_reg, 1024, 4096, 0x400ULL, 0xC0ULL); }
+DAC_TEST(codec_round_trip_size_10240) { check_codec_round_trip(_dac_reg, 10240, 16384, 0x2800ULL, 0xD0ULL); }
+DAC_TEST(codec_round_trip_index_width_4) { check_codec_round_trip(_dac_reg, 1024, 65792, 0x401ULL, 0xC1ULL); }
+
+DAC_TEST(codec_index_width_picks) {
+    using algorithms::dac::CurveCodec;
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(1)),     1);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(256)),   1);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(257)),   2);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(65536)), 2);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(65537)), 4);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width(static_cast<std::uint64_t>(1) << 32)), 4);
+    DAC_EXPECT_EQ(static_cast<int>(CurveCodec::pick_index_width((static_cast<std::uint64_t>(1) << 32) + 1)), 8);
+}
+
+DAC_TEST(codec_rejects_bad_magic) {
+    using algorithms::dac::CurveCodec;
+    std::stringstream rb(std::string("ZZZZ"), std::ios::in | std::ios::out | std::ios::binary);
+    bool threw = false;
+    try {
+        (void)CurveCodec::deserialize(rb);
+    } catch (const std::runtime_error&) {
+        threw = true;
+    }
+    DAC_EXPECT(threw);
 }
 
 int main() {

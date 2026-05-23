@@ -62,6 +62,30 @@ interpolates the `N` points `(1, j_1), ..., (N, j_N)` is the curve. The
 - `DeterministicYBuilder::build(seed, min_length=768)` →
   `std::vector<uint8_t>`. Same seed → same Y on any machine, by construction
   (hardcoded splitmix64 + hand-rolled Fisher-Yates over 256x3 base array).
+- `CurveCodec::serialize(out, y_seed, y_length, curve)` /
+  `CurveCodec::deserialize(in)` → `PersistedCurve`. Stores
+  `(y_seed, y_length, j_1..j_N)` in a 32-byte header plus an `N*W` index
+  array, where `W ∈ {1,2,4,8}` is auto-sized so every index in `[0, y_length)`
+  fits without bias. Y is regenerated from `(seed, length)` on decode, so the
+  file does not store Y bytes at all.
+
+## Persisted size
+
+`file_bytes = 32 + N * W`. With the minimum legal `|Y| = 768` (so every byte
+0..255 is present 3 times) the index slot is W=2, and the persisted form is
+asymptotically `2 * |X|`. See `dac_bench_persist` for a sweep.
+
+| `|X|` | `|Y|` | `W` | persisted bytes | ratio of `|X|` |
+| ----: | ----: | --: | --------------: | -------------: |
+|     1 |   768 |   2 |              34 |        34.000× |
+|     5 |   768 |   2 |              42 |         8.400× |
+|    10 |   768 |   2 |              52 |         5.200× |
+|   100 |   768 |   2 |             232 |         2.320× |
+|  1024 |   768 |   2 |           2,080 |         2.031× |
+|  4096 |   768 |   2 |           8,224 |         2.008× |
+| 10240 |   768 |   2 |          20,512 |         2.003× |
+|  1024 | 65792 |   4 |           4,128 |         4.031× |
+| 10240 | 65792 |   4 |          40,992 |         4.003× |
 
 ## Build
 
