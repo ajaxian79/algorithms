@@ -262,6 +262,24 @@ DAC_TEST(builder_length_rounds_up_to_multiple_of_256) {
     }
 }
 
+// Legacy alias must agree with build(Params{seed, multiplicity, Uniform}) when
+// multiplicity is derived from min_length the way the pre-multi-policy
+// implementation did. This is what protects the existing bit-exact anchor.
+DAC_TEST(builder_legacy_alias_matches_uniform_params) {
+    for (std::size_t min_len : {1u, 768u, 769u, 1000u, 1024u, 4096u, 16384u}) {
+        auto legacy = DeterministicYBuilder::build(0xC0FFEEULL, min_len);
+        std::size_t length = std::max<std::size_t>(min_len, 768);
+        if (length % 256 != 0) length += 256 - (length % 256);
+        DeterministicYBuilder::Params p;
+        p.seed = 0xC0FFEEULL;
+        p.multiplicity = length / 256;
+        p.policy = algorithms::dac::ShufflePolicy::Uniform;
+        auto via_params = DeterministicYBuilder::build(p);
+        DAC_EXPECT_EQ(legacy.size(), via_params.size());
+        DAC_EXPECT(legacy == via_params);
+    }
+}
+
 // Cross-machine bit-exactness anchor: a fixed (seed, length) pair must produce
 // a Y whose first 16 bytes match the values below. The values were captured on
 // the reference build (Linux x86_64, libstdc++); any divergence on another
@@ -292,6 +310,140 @@ DAC_TEST(builder_bit_exact_anchor) {
         expected[j] = tmp;
     }
     DAC_EXPECT(y == expected);
+}
+
+// --- 4b. Stratified shuffle policy ----------------------------------------
+
+DAC_TEST(builder_stratified_validates) {
+    // For multiplicity 3..8 and a handful of seeds, the Stratified policy
+    // produces a Y of size 256*multiplicity that satisfies validate_y().
+    for (std::uint64_t seed : {0ULL, 1ULL, 42ULL, 0xC0FFEEULL, 0xDEADBEEFULL}) {
+        for (std::size_t m : {3u, 4u, 8u, 16u, 32u}) {
+            DeterministicYBuilder::Params p;
+            p.seed = seed;
+            p.multiplicity = m;
+            p.policy = algorithms::dac::ShufflePolicy::Stratified;
+            auto y = DeterministicYBuilder::build(p);
+            DAC_EXPECT_EQ(y.size(), 256u * m);
+            if (!CurveLocator::validate_y(y)) {
+                DAC_TEST_FAIL("stratified Y failed validate_y");
+            }
+        }
+    }
+}
+
+DAC_TEST(builder_stratified_band_invariant) {
+    // The defining property of Stratified: every 256-byte band must be a
+    // permutation of 0..255 (each value appearing exactly once).
+    DeterministicYBuilder::Params p;
+    p.seed = 0xC0FFEEULL;
+    p.multiplicity = 8;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    DAC_EXPECT_EQ(y.size(), 256u * 8u);
+    for (std::size_t band = 0; band < 8; ++band) {
+        std::array<std::size_t, 256> counts{};
+        for (std::size_t i = 0; i < 256; ++i) {
+            ++counts[y[band * 256 + i]];
+        }
+        for (std::size_t v = 0; v < 256; ++v) {
+            if (counts[v] != 1) {
+                char buf[160];
+                std::snprintf(buf, sizeof buf,
+                              "band %zu: byte %zu count %zu (expected 1)",
+                              band, v, counts[v]);
+                DAC_TEST_FAIL(buf);
+                return;
+            }
+        }
+    }
+}
+
+DAC_TEST(builder_stratified_same_params_same_output) {
+    DeterministicYBuilder::Params p;
+    p.seed = 0xC0FFEEULL;
+    p.multiplicity = 5;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto a = DeterministicYBuilder::build(p);
+    auto b = DeterministicYBuilder::build(p);
+    DAC_EXPECT_EQ(a.size(), b.size());
+    DAC_EXPECT(a == b);
+}
+
+DAC_TEST(builder_stratified_differs_from_uniform) {
+    // Same seed + same multiplicity, different policy: must not collide. (The
+    // probability of accidental collision is ~1/(256!^multiplicity), so a
+    // single inequality is a sufficient smoke test.)
+    DeterministicYBuilder::Params u;
+    u.seed = 0xC0FFEEULL;
+    u.multiplicity = 4;
+    u.policy = algorithms::dac::ShufflePolicy::Uniform;
+    DeterministicYBuilder::Params s = u;
+    s.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y_u = DeterministicYBuilder::build(u);
+    auto y_s = DeterministicYBuilder::build(s);
+    DAC_EXPECT_EQ(y_u.size(), y_s.size());
+    DAC_EXPECT(!(y_u == y_s));
+}
+
+DAC_TEST(builder_stratified_anchor) {
+    // Cross-machine bit-exactness anchor for the Stratified policy. The
+    // expected output is recomputed from source (splitmix64 + Fisher-Yates
+    // band-by-band) rather than hard-coded, so the test is portable yet still
+    // pins the per-band stream derivation.
+    DeterministicYBuilder::Params p;
+    p.seed = 0x123456789ABCDEF0ULL;
+    p.multiplicity = 4;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    DAC_EXPECT_EQ(y.size(), 256u * 4u);
+
+    std::vector<std::uint8_t> expected;
+    expected.reserve(256 * 4);
+    for (std::size_t band = 0; band < 4; ++band) {
+        std::size_t base = expected.size();
+        for (int v = 0; v < 256; ++v) {
+            expected.push_back(static_cast<std::uint8_t>(v));
+        }
+        std::uint64_t state = DeterministicYBuilder::derive_band_state(
+            0x123456789ABCDEF0ULL, band);
+        for (std::size_t i = 256; i > 1; --i) {
+            std::uint64_t j = DeterministicYBuilder::bounded(
+                state, static_cast<std::uint64_t>(i));
+            std::uint8_t tmp = expected[base + i - 1];
+            expected[base + i - 1] = expected[base + j];
+            expected[base + j] = tmp;
+        }
+    }
+    DAC_EXPECT(y == expected);
+}
+
+DAC_TEST(builder_stratified_clamps_multiplicity_to_three) {
+    // Multiplicity below kRequiredMultiplicity must be clamped up so the
+    // resulting Y still satisfies validate_y().
+    DeterministicYBuilder::Params p;
+    p.seed = 0x42ULL;
+    p.multiplicity = 1;  // illegal; should clamp to 3
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    DAC_EXPECT_EQ(y.size(), 256u * 3u);
+    DAC_EXPECT(CurveLocator::validate_y(y));
+}
+
+// Stratified Y must still produce a valid curve via the existing locator
+// (cursor-cycle pick). This is a smoke test that the locator's preconditions
+// are met when Y comes from the new policy; the locator behaviour itself does
+// not change in Slice 1.
+DAC_TEST(locate_works_on_stratified_y) {
+    DeterministicYBuilder::Params p;
+    p.seed = 0xC0FFEEULL;
+    p.multiplicity = 16;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    auto x = make_x(256, 0xBADCAFEULL);
+    auto curve = CurveLocator::locate(x, y);
+    DAC_EXPECT_EQ(curve.length(), x.size());
+    DAC_EXPECT(CurveLocator::verify(curve, x, y));
 }
 
 // --- 5. Newton-form round trip -------------------------------------------
