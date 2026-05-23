@@ -972,6 +972,35 @@ DAC_TEST(layered_cubic_storage_formula) {
         4096, 1024), 81ull);
 }
 
+DAC_TEST(floor_quadratic_storage_formula) {
+    using algorithms::dac::FloorQuadraticBezierStorage;
+    // n=1024, |Y|=4096 -> W_x=2, W_y=2, W_c=2.
+    // 32 + 8 + 16*(3*2 + 2*2 + 2) = 232.
+    DAC_EXPECT_EQ(FloorQuadraticBezierStorage::persisted_size(
+        16, 4096, 1024), 232ull);
+    DAC_EXPECT_EQ(FloorQuadraticBezierStorage::break_even_segments(
+        4096, 1024), 82ull);
+}
+
+DAC_TEST(floor_quadratic_turn_curve_covers_more_than_five_points) {
+    using algorithms::dac::FloorQuadraticBezierFitter;
+    std::vector<std::int64_t> nodes;
+    for (std::size_t k = 0; k < 7; ++k) {
+        const double t = static_cast<double>(k) / 6.0;
+        nodes.push_back(bucket_floor_for_test(
+            FloorQuadraticBezierFitter::evaluate_y(
+                {1.0, 0.0, 4.0, 72.0, 7.0, 0.0, 1u, 7u}, t)));
+    }
+    algorithms::dac::CurveEquation curve(nodes);
+    FloorQuadraticBezierFitter::Options options;
+    options.max_cluster_points = 9;
+    auto r = FloorQuadraticBezierFitter::fit(curve, options);
+    DAC_EXPECT_EQ(r.segments.size(), 1u);
+    DAC_EXPECT_EQ(r.max_cluster_points, 7u);
+    DAC_EXPECT(FloorQuadraticBezierFitter::verify_segment(
+        r.segments.front(), curve));
+}
+
 DAC_TEST(layered_cubic_covers_slice2_graph_shape) {
     using algorithms::dac::LayeredBezierCoverFitter;
     algorithms::dac::CurveEquation curve(std::vector<std::int64_t>{
@@ -1063,6 +1092,35 @@ DAC_TEST(layered_pick_optimizer_block_greedy_do_not_worsen_curve_count) {
     DAC_EXPECT(block.cover.max_points_per_curve <= 5u);
     expect_layered_curve_point_bounds(_dac_reg, block.curve, block.cover);
     expect_layered_cover_decodes(_dac_reg, block.curve, block.cover);
+}
+
+DAC_TEST(layered_pick_optimizer_seeded_sort_search_does_not_worsen) {
+    using algorithms::dac::LayeredPickOptimizer;
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(256, 0xABCD1234ULL);
+
+    LayeredPickOptimizer::Options baseline_opts;
+    baseline_opts.attempts = 1;
+    baseline_opts.noise_radius = 0;
+    auto baseline = LayeredPickOptimizer::optimize(x, y, baseline_opts);
+
+    LayeredPickOptimizer::Options search_opts;
+    search_opts.attempts = 16;
+    search_opts.noise_radius = 64;
+    search_opts.slot_sort_mode = algorithms::dac::SlotSortMode::HashDistance;
+    search_opts.sort_seed = 0x12345678ULL;
+    search_opts.block_greedy = true;
+    search_opts.block_interior_limit = 4;
+    auto searched = LayeredPickOptimizer::optimize(x, y, search_opts);
+
+    DAC_EXPECT(CurveLocator::verify(searched.curve, x, y));
+    DAC_EXPECT(searched.cover.curves.size() <= baseline.cover.curves.size());
+    expect_layered_curve_point_bounds(_dac_reg, searched.curve, searched.cover);
+    expect_layered_cover_decodes(_dac_reg, searched.curve, searched.cover);
 }
 
 // --- 6. Codec round-trip ---------------------------------------------------

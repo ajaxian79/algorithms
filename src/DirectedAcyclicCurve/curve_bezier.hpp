@@ -62,6 +62,22 @@ struct LinearBezierSegment {
     }
 };
 
+// A three-point Bezier cluster: endpoints are the first/last DAC nodes and the
+// middle point is a turn/control point. The x coordinate of the turn is fixed
+// at the midpoint of the covered node range, so x(t) remains monotone and
+// integer nodes can be evaluated with t = (i - start) / (end - start).
+struct QuadraticBezierSegment {
+    double x0, y0;  // P0 (cluster's first node)
+    double x1, y1;  // P1 (turn/control point)
+    double x2, y2;  // P2 (cluster's last node)
+    std::size_t i_start;  // 1-based node index of first covered point
+    std::size_t i_end;    // 1-based node index of last covered point
+
+    std::size_t covered_points() const noexcept {
+        return i_end >= i_start ? (i_end - i_start + 1u) : 0u;
+    }
+};
+
 struct LayeredBezierOverride {
     std::size_t i;     // 1-based node index
     std::size_t rank;  // 0 = lowest active curve at i, 1 = one curve up, etc.
@@ -125,6 +141,30 @@ public:
 //
 // Storage = 32 + 8 + n_segments * 2 * (W_x + W_y)
 class FloorLinearBezierStorage {
+public:
+    static std::uint64_t persisted_size(std::uint64_t n_segments,
+                                         std::uint64_t y_length,
+                                         std::uint64_t n_nodes) noexcept;
+
+    static std::uint64_t break_even_segments(std::uint64_t y_length,
+                                              std::uint64_t n_nodes) noexcept;
+};
+
+// Storage model for floor-accepted, three-point quadratic Bezier clusters:
+//
+//   header        32 bytes
+//   seg_count      8 bytes
+//   per segment:
+//     i_start     W_x bytes
+//     y0          W_y bytes
+//     i_turn      W_x bytes
+//     y1          W_c bytes (signed turn/control y)
+//     i_end       W_x bytes
+//     y2          W_y bytes
+//
+// This intentionally follows the user's point-cost framing: starting a curve
+// costs two endpoint points; adding the turn/control point costs one point.
+class FloorQuadraticBezierStorage {
 public:
     static std::uint64_t persisted_size(std::uint64_t n_segments,
                                          std::uint64_t y_length,
@@ -210,6 +250,35 @@ public:
 
     // True iff floor(line_y(i)) == j_i for every integer node in segment range.
     static bool verify_segment(const LinearBezierSegment& s,
+                               const CurveEquation& curve) noexcept;
+};
+
+class FloorQuadraticBezierFitter {
+public:
+    struct Options {
+        // Bound the greedy endpoint search. Quadratic turn clusters are meant
+        // to test whether one extra stored point can cover more than the 2-5
+        // point cubic windows without making corpus-scale runs quadratic.
+        std::size_t max_cluster_points = 9;
+    };
+
+    struct Result {
+        std::vector<QuadraticBezierSegment> segments;
+        std::size_t control_point_count() const noexcept {
+            return 3u * segments.size();
+        }
+        std::size_t max_cluster_points = 0;
+        double mean_cluster_points = 0.0;
+    };
+
+    static Result fit(const CurveEquation& curve);
+    static Result fit(const CurveEquation& curve, Options options);
+
+    static double evaluate_y(const QuadraticBezierSegment& s,
+                             double t) noexcept;
+
+    // True iff floor(quadratic_y(i)) == j_i for every integer node in range.
+    static bool verify_segment(const QuadraticBezierSegment& s,
                                const CurveEquation& curve) noexcept;
 };
 

@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <array>
 #include <cmath>
+#include <cstdlib>
+#include <cstdint>
 #include <limits>
 #include <stdexcept>
 #include <tuple>
@@ -26,6 +28,26 @@ PositionTable build_positions(std::span<const std::uint8_t> y) {
     return table;
 }
 
+std::uint64_t mix64(std::uint64_t v) noexcept {
+    v += 0x9E3779B97F4A7C15ULL;
+    v = (v ^ (v >> 30)) * 0xBF58476D1CE4E5B9ULL;
+    v = (v ^ (v >> 27)) * 0x94D049BB133111EBULL;
+    return v ^ (v >> 31);
+}
+
+std::uint64_t slot_hash(std::uint64_t seed,
+                        std::uint8_t value,
+                        std::size_t node_index,
+                        std::int64_t slot,
+                        std::size_t attempt) noexcept {
+    std::uint64_t h = seed;
+    h ^= 0xA0761D6478BD642FULL * static_cast<std::uint64_t>(value + 1u);
+    h ^= 0xE7037ED1A0B428DBULL * static_cast<std::uint64_t>(node_index + 1u);
+    h ^= 0x8EBC6AF09C88C6E3ULL * static_cast<std::uint64_t>(attempt + 1u);
+    h ^= static_cast<std::uint64_t>(slot) + 0x589965CC75374CC3ULL;
+    return mix64(h);
+}
+
 std::size_t nearest_slot_index(const std::vector<std::int64_t>& slots,
                                std::int64_t target) noexcept {
     auto it = std::lower_bound(slots.begin(), slots.end(), target);
@@ -37,47 +59,104 @@ std::size_t nearest_slot_index(const std::vector<std::int64_t>& slots,
     return (hi - target) <= (target - lo) ? hi_index : hi_index - 1u;
 }
 
-std::int64_t pick_slot(const std::vector<std::int64_t>& slots,
-                       std::int64_t target,
-                       bool have_target,
-                       std::size_t attempt,
-                       const LayeredPickOptimizer::Options& options,
-                       std::uint64_t& rng) noexcept {
-    if (slots.empty()) return 0;
-    const std::size_t center = have_target
-        ? nearest_slot_index(slots, target)
-        : 0u;
-    if (attempt == 0 || options.noise_radius == 0 || slots.size() == 1) {
-        return slots[center];
-    }
+struct CandidateSlot {
+    std::int64_t slot = 0;
+    std::uint64_t hash = 0;
+    std::uint64_t distance = 0;
+};
 
-    const std::size_t lo = center > options.noise_radius
-        ? center - options.noise_radius
-        : 0u;
-    const std::size_t hi = std::min(slots.size() - 1u,
-                                    center + options.noise_radius);
-    const std::size_t width = hi - lo + 1u;
-    const std::size_t offset = static_cast<std::size_t>(
-        DeterministicYBuilder::bounded(rng, static_cast<std::uint64_t>(width)));
-    return slots[lo + offset];
-}
-
-std::vector<std::int64_t> nearby_slots(const std::vector<std::int64_t>& slots,
-                                       std::int64_t target,
-                                       bool have_target,
-                                       std::size_t radius) {
+std::vector<std::int64_t> candidate_slots(const std::vector<std::int64_t>& slots,
+                                          std::int64_t target,
+                                          bool have_target,
+                                          std::uint8_t value,
+                                          std::size_t node_index,
+                                          std::size_t attempt,
+                                          std::size_t radius,
+                                          std::size_t limit,
+                                          const LayeredPickOptimizer::Options& options) {
     std::vector<std::int64_t> out;
     if (slots.empty()) return out;
     const std::size_t center = have_target
         ? nearest_slot_index(slots, target)
         : 0u;
-    const std::size_t lo = center > radius ? center - radius : 0u;
-    const std::size_t hi = std::min(slots.size() - 1u, center + radius);
-    out.reserve(hi - lo + 1u);
+    const std::size_t lo = center > radius
+        ? center - radius
+        : 0u;
+    const std::size_t hi = std::min(slots.size() - 1u,
+                                    center + radius);
+    std::vector<CandidateSlot> tmp;
+    tmp.reserve(hi - lo + 1u);
     for (std::size_t i = lo; i <= hi; ++i) {
-        out.push_back(slots[i]);
+        const std::int64_t slot = slots[i];
+        const std::uint64_t d = have_target
+            ? static_cast<std::uint64_t>(std::llabs(slot - target))
+            : static_cast<std::uint64_t>(i);
+        tmp.push_back({slot,
+                       slot_hash(options.sort_seed, value, node_index, slot, attempt),
+                       d});
+    }
+
+    switch (options.slot_sort_mode) {
+        case SlotSortMode::Distance:
+            std::sort(tmp.begin(), tmp.end(),
+                      [](const CandidateSlot& a, const CandidateSlot& b) {
+                          return std::tie(a.distance, a.slot) <
+                                 std::tie(b.distance, b.slot);
+                      });
+            break;
+        case SlotSortMode::Hash:
+            std::sort(tmp.begin(), tmp.end(),
+                      [](const CandidateSlot& a, const CandidateSlot& b) {
+                          return std::tie(a.hash, a.slot) <
+                                 std::tie(b.hash, b.slot);
+                      });
+            break;
+        case SlotSortMode::DistanceHash:
+            std::sort(tmp.begin(), tmp.end(),
+                      [](const CandidateSlot& a, const CandidateSlot& b) {
+                          return std::tie(a.distance, a.hash, a.slot) <
+                                 std::tie(b.distance, b.hash, b.slot);
+                      });
+            break;
+        case SlotSortMode::HashDistance:
+            std::sort(tmp.begin(), tmp.end(),
+                      [](const CandidateSlot& a, const CandidateSlot& b) {
+                          return std::tie(a.hash, a.distance, a.slot) <
+                                 std::tie(b.hash, b.distance, b.slot);
+                      });
+            break;
+    }
+    const std::size_t n = limit == 0 ? tmp.size() : std::min(limit, tmp.size());
+    out.reserve(n);
+    for (std::size_t i = 0; i < n; ++i) {
+        out.push_back(tmp[i].slot);
     }
     return out;
+}
+
+std::int64_t pick_slot(const std::vector<std::int64_t>& slots,
+                       std::int64_t target,
+                       bool have_target,
+                       std::uint8_t value,
+                       std::size_t node_index,
+                       std::size_t attempt,
+                       const LayeredPickOptimizer::Options& options) {
+    if (slots.empty()) return 0;
+    const std::size_t radius = attempt == 0
+        ? 0u
+        : std::min(options.noise_radius, slots.size() - 1u);
+    auto candidates = candidate_slots(slots, target, have_target, value,
+                                      node_index, attempt, radius,
+                                      options.candidate_limit, options);
+    if (candidates.empty()) return 0;
+    if (attempt == 0 || candidates.size() == 1) {
+        return candidates.front();
+    }
+    const std::uint64_t h = slot_hash(options.seed ^ options.sort_seed,
+                                      value, node_index, target, attempt);
+    const std::size_t index = static_cast<std::size_t>(
+        h % static_cast<std::uint64_t>(candidates.size()));
+    return candidates[index];
 }
 
 double cubic_y(double y0, double y1, double y2, double y3, double t) noexcept {
@@ -139,6 +218,23 @@ bool one_curve_covers(const std::vector<std::int64_t>& nodes,
     return true;
 }
 
+bool fill_interiors(const std::vector<std::vector<std::int64_t>>& choices,
+                    std::size_t k,
+                    std::vector<std::int64_t>& nodes,
+                    const LayeredBezierCoverFitter::Options& cover_options) {
+    if (k == choices.size()) {
+        return one_curve_covers(nodes, cover_options);
+    }
+    const std::size_t node_index = k + 1u;
+    for (std::int64_t y : choices[k]) {
+        nodes[node_index] = y;
+        if (fill_interiors(choices, k + 1u, nodes, cover_options)) {
+            return true;
+        }
+    }
+    return false;
+}
+
 bool try_block(const PositionTable& positions,
                std::span<const std::uint8_t> x,
                std::size_t start,
@@ -149,15 +245,28 @@ bool try_block(const PositionTable& positions,
                std::vector<std::int64_t>& out) {
     const std::size_t first = start;
     const std::size_t last = start + len - 1u;
-    const auto starts = nearby_slots(positions[x[first]], prev, have_prev,
-                                     options.noise_radius);
+    const std::size_t radius = std::min(options.noise_radius,
+        positions[x[first]].empty() ? 0u : positions[x[first]].size() - 1u);
+    const auto starts = candidate_slots(
+        positions[x[first]], prev, have_prev, x[first], first, 0u, radius,
+        options.block_endpoint_limit == 0 ? options.candidate_limit
+                                          : options.block_endpoint_limit,
+        options);
     for (std::int64_t y0 : starts) {
-        const auto ends = nearby_slots(positions[x[last]], y0, true,
-                                       options.noise_radius + len);
+        const auto ends = candidate_slots(
+            positions[x[last]], y0, true, x[last], last, 0u,
+            std::min(options.noise_radius + len,
+                     positions[x[last]].empty() ? 0u
+                                                : positions[x[last]].size() - 1u),
+            options.block_endpoint_limit == 0 ? options.candidate_limit
+                                              : options.block_endpoint_limit,
+            options);
         for (std::int64_t y_last : ends) {
             std::vector<std::int64_t> nodes(len);
             nodes.front() = y0;
             nodes.back() = y_last;
+            std::vector<std::vector<std::int64_t>> interior_choices;
+            interior_choices.reserve(len > 2 ? len - 2u : 0u);
             for (std::size_t k = 1; k + 1 < len; ++k) {
                 const double t = static_cast<double>(k) /
                                  static_cast<double>(len - 1u);
@@ -165,9 +274,21 @@ bool try_block(const PositionTable& positions,
                     std::llround(static_cast<double>(y0) +
                                  (static_cast<double>(y_last - y0) * t)));
                 const auto& slots = positions[x[start + k]];
-                nodes[k] = slots[nearest_slot_index(slots, target)];
+                auto choices = candidate_slots(
+                    slots, target, true, x[start + k], start + k, k,
+                    std::min(options.noise_radius,
+                             slots.empty() ? 0u : slots.size() - 1u),
+                    options.block_interior_limit == 0
+                        ? options.candidate_limit
+                        : options.block_interior_limit,
+                    options);
+                if (choices.empty()) {
+                    choices.push_back(slots[nearest_slot_index(slots, target)]);
+                }
+                interior_choices.push_back(std::move(choices));
             }
-            if (one_curve_covers(nodes, options.cover_options)) {
+            if (fill_interiors(interior_choices, 0u, nodes,
+                               options.cover_options)) {
                 out = std::move(nodes);
                 return true;
             }
@@ -188,7 +309,9 @@ CurveEquation locate_block_greedy(std::span<const std::uint8_t> x,
         std::vector<std::int64_t> block;
         const std::size_t remaining = x.size() - start;
         bool accepted = false;
-        for (std::size_t len = std::min<std::size_t>(5u, remaining);
+        const std::size_t max_len = std::max<std::size_t>(
+            2u, options.cover_options.max_points_per_curve);
+        for (std::size_t len = std::min(max_len, remaining);
              len >= 2u; --len) {
             if (try_block(positions, x, start, len, prev, have_prev,
                           options, block)) {
@@ -199,7 +322,8 @@ CurveEquation locate_block_greedy(std::span<const std::uint8_t> x,
         }
         if (!accepted) {
             const auto& slots = positions[x[start]];
-            block = {slots[have_prev ? nearest_slot_index(slots, prev) : 0u]};
+            block = {pick_slot(slots, prev, have_prev, x[start], start, 0u,
+                               options)};
         }
         nodes.insert(nodes.end(), block.begin(), block.end());
         prev = nodes.back();
@@ -216,16 +340,13 @@ CurveEquation locate_noisy(std::span<const std::uint8_t> x,
     std::vector<std::int64_t> nodes;
     nodes.reserve(x.size());
 
-    std::uint64_t rng = options.seed ^
-        (0x9E3779B97F4A7C15ULL * static_cast<std::uint64_t>(attempt + 1u));
-    (void)DeterministicYBuilder::splitmix64(rng);
-
     std::int64_t prev = 0;
     bool have_prev = false;
-    for (std::uint8_t v : x) {
+    for (std::size_t node_index = 0; node_index < x.size(); ++node_index) {
+        const std::uint8_t v = x[node_index];
         const auto& slots = positions[v];
         const std::int64_t pick =
-            pick_slot(slots, prev, have_prev, attempt, options, rng);
+            pick_slot(slots, prev, have_prev, v, node_index, attempt, options);
         nodes.push_back(pick);
         prev = pick;
         have_prev = true;
@@ -288,6 +409,8 @@ LayeredPickOptimizer::Result LayeredPickOptimizer::optimize(
 
     best.attempts_run = attempts;
     best.noise_radius = options.noise_radius;
+    best.slot_sort_mode = options.slot_sort_mode;
+    best.sort_seed = options.sort_seed;
     return best;
 }
 

@@ -76,6 +76,35 @@ std::uint64_t FloorLinearBezierStorage::break_even_segments(
     return (n_nodes - overhead) / per_seg;
 }
 
+std::uint64_t FloorQuadraticBezierStorage::persisted_size(
+        std::uint64_t n_segments,
+        std::uint64_t y_length,
+        std::uint64_t n_nodes) noexcept {
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint8_t w_c = BezierStorage::pick_ctrl_width(y_length);
+    const std::uint64_t header = 32u;
+    const std::uint64_t seg_count_field = 8u;
+    const std::uint64_t per_seg = 3u * static_cast<std::uint64_t>(w_x) +
+                                  2u * static_cast<std::uint64_t>(w_y) +
+                                  static_cast<std::uint64_t>(w_c);
+    return header + seg_count_field + n_segments * per_seg;
+}
+
+std::uint64_t FloorQuadraticBezierStorage::break_even_segments(
+        std::uint64_t y_length,
+        std::uint64_t n_nodes) noexcept {
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint8_t w_c = BezierStorage::pick_ctrl_width(y_length);
+    const std::uint64_t per_seg = 3u * static_cast<std::uint64_t>(w_x) +
+                                  2u * static_cast<std::uint64_t>(w_y) +
+                                  static_cast<std::uint64_t>(w_c);
+    const std::uint64_t overhead = 40u;
+    if (n_nodes <= overhead) return 0;
+    return (n_nodes - overhead) / per_seg;
+}
+
 std::uint64_t LayeredBezierCoverStorage::persisted_size(
         std::uint64_t n_curves,
         std::uint64_t n_overrides,
@@ -119,6 +148,11 @@ double bezier_basis_y(double y0, double y1, double y2, double y3, double t) {
          + 3.0 * u * u * t * y1
          + 3.0 * u * t * t * y2
          + t * t * t * y3;
+}
+
+double quadratic_basis_y(double y0, double y1, double y2, double t) {
+    const double u = 1.0 - t;
+    return u * u * y0 + 2.0 * u * t * y1 + t * t * y2;
 }
 
 std::int64_t bucket_floor(double v) noexcept {
@@ -275,6 +309,55 @@ LinearBezierSegment make_linear_segment(const std::vector<std::int64_t>& nodes,
     seg.i_start = a;
     seg.i_end = b;
     return seg;
+}
+
+QuadraticBezierSegment make_quadratic_segment(
+        const std::vector<std::int64_t>& nodes,
+        std::size_t a,
+        std::size_t b) noexcept {
+    const double y0 = static_cast<double>(nodes[a - 1]);
+    const double y2 = static_cast<double>(nodes[b - 1]);
+    const double dx = static_cast<double>(b - a);
+    double numer = 0.0;
+    double denom = 0.0;
+    if (b > a + 1) {
+        for (std::size_t i = a + 1; i <= b - 1; ++i) {
+            const double t = static_cast<double>(i - a) / dx;
+            const double u = 1.0 - t;
+            const double c = 2.0 * u * t;
+            const double endpoints = u * u * y0 + t * t * y2;
+            numer += c * (static_cast<double>(nodes[i - 1]) - endpoints);
+            denom += c * c;
+        }
+    }
+
+    const double y1 = denom <= 1e-18
+        ? y0 + (y2 - y0) * 0.5
+        : numer / denom;
+    QuadraticBezierSegment seg;
+    seg.x0 = static_cast<double>(a);
+    seg.y0 = y0;
+    seg.x1 = static_cast<double>(a) + dx * 0.5;
+    seg.y1 = y1;
+    seg.x2 = static_cast<double>(b);
+    seg.y2 = y2;
+    seg.i_start = a;
+    seg.i_end = b;
+    return seg;
+}
+
+bool floor_quadratic_hits_range(const std::vector<std::int64_t>& nodes,
+                                const QuadraticBezierSegment& seg) noexcept {
+    for (std::size_t i = seg.i_start; i <= seg.i_end; ++i) {
+        const double span = static_cast<double>(seg.i_end - seg.i_start);
+        const double t = span == 0.0 ? 0.0
+            : static_cast<double>(i - seg.i_start) / span;
+        const double v = quadratic_basis_y(seg.y0, seg.y1, seg.y2, t);
+        if (bucket_floor(v) != nodes[i - 1]) {
+            return false;
+        }
+    }
+    return true;
 }
 
 bool cubic_floor_hits_range(const std::vector<std::int64_t>& nodes,
@@ -564,6 +647,69 @@ FloorLinearBezierFitter::Result FloorLinearBezierFitter::fit(
         : static_cast<double>(covered) /
           static_cast<double>(result.segments.size());
     return result;
+}
+
+FloorQuadraticBezierFitter::Result FloorQuadraticBezierFitter::fit(
+        const CurveEquation& curve) {
+    return fit(curve, Options{});
+}
+
+FloorQuadraticBezierFitter::Result FloorQuadraticBezierFitter::fit(
+        const CurveEquation& curve,
+        Options options) {
+    Result result;
+    const auto& nodes = curve.nodes();
+    const std::size_t n = nodes.size();
+    if (n == 0) return result;
+    if (options.max_cluster_points < 2) options.max_cluster_points = 2;
+
+    std::size_t covered = 0;
+    for (std::size_t start = 1; start <= n; ) {
+        std::size_t best = start;
+        QuadraticBezierSegment best_seg =
+            make_quadratic_segment(nodes, start, start);
+        const std::size_t upper = std::min(n, start + options.max_cluster_points - 1u);
+        for (std::size_t end = upper; end > start; --end) {
+            auto candidate = make_quadratic_segment(nodes, start, end);
+            if (floor_quadratic_hits_range(nodes, candidate)) {
+                best = end;
+                best_seg = candidate;
+                break;
+            }
+        }
+
+        const std::size_t count = best - start + 1u;
+        covered += count;
+        result.max_cluster_points = std::max(result.max_cluster_points, count);
+        result.segments.push_back(best_seg);
+        start = best + 1u;
+    }
+
+    result.mean_cluster_points = result.segments.empty() ? 0.0
+        : static_cast<double>(covered) /
+          static_cast<double>(result.segments.size());
+    return result;
+}
+
+double FloorQuadraticBezierFitter::evaluate_y(
+        const QuadraticBezierSegment& s,
+        double t) noexcept {
+    return quadratic_basis_y(s.y0, s.y1, s.y2, t);
+}
+
+bool FloorQuadraticBezierFitter::verify_segment(
+        const QuadraticBezierSegment& s,
+        const CurveEquation& curve) noexcept {
+    const auto& nodes = curve.nodes();
+    if (s.i_start == 0 || s.i_end == 0 ||
+        s.i_start > s.i_end || s.i_end > nodes.size()) {
+        return false;
+    }
+    if (s.y0 != static_cast<double>(nodes[s.i_start - 1]) ||
+        s.y2 != static_cast<double>(nodes[s.i_end - 1])) {
+        return false;
+    }
+    return floor_quadratic_hits_range(nodes, s);
 }
 
 LayeredBezierCoverFitter::Result LayeredBezierCoverFitter::fit(
