@@ -1,16 +1,21 @@
 cmake_minimum_required(VERSION 3.26)
-project(algorithms C)
+project(algorithms C CXX)
 
 set(CMAKE_C_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+enable_testing()
 
 add_executable(twosum src/TwoSum/main.c src/TwoSum/twosum.c src/FirstLetterToAppearTwice/repeated.c)
 add_executable(repeatedchar src/FirstLetterToAppearTwice/main.c src/FirstLetterToAppearTwice/repeated.c)
 add_executable(median src/MedianOfTwoSortedArrays/main.c src/MedianOfTwoSortedArrays/median.c)
 add_executable(aoc2024_1 src/AoC2024_1/main.c src/AoC2024_1/tree_sort.c)
-add_executable(aoc2024_2 src/AoC2024_2/main.c src/Aoc2024_2/report.c src/Aoc2024_2/int_hash_map.c)
+add_executable(aoc2024_2 src/Aoc2024_2/main.c src/Aoc2024_2/report.c src/Aoc2024_2/int_hash_map.c)
 add_executable(aoc2024_3 src/AoC2024_3/main.c src/AoC2024_3/scanner.c src/AoC2024_3/parser.c src/AoC2024_3/logger.c src/AoC2024_3/program.c)
-add_executable(aoc2024_4 src/AoC2024_4/main.c src/AoC2024_4/logger.c src/AoC2024_4/gameboard.c)
-add_executable(aoc2024_5 src/AoC2024_5/main.c src/AoC2024_5/logger.c src/AoC2024_5/rule_check.c)
+add_executable(aoc2024_4 src/Aoc2024_4/main.c src/Aoc2024_4/logger.c src/Aoc2024_4/gameboard.c)
+add_executable(aoc2024_5 src/Aoc2024_5/main.c src/Aoc2024_5/logger.c src/Aoc2024_5/rule_check.c)
 add_executable(reverse_integer src/ReverseInteger/main.c src/ReverseInteger/reverse_integer.c)
 add_executable(palindrome_number src/PalindromeNumber/main.c src/PalindromeNumber/palindrome_number.c)
 add_executable(roman_to_int src/RomanToInt/main.c src/RomanToInt/roman_to_int.c)
@@ -262,7 +267,12 @@ add_executable(unittests
         src/SkipList/skip_list.c
         src/BloomFilter/bloom_filter.c)
 
-find_package(mimalloc CONFIG REQUIRED)
+find_package(mimalloc CONFIG QUIET)
+if(NOT mimalloc_FOUND)
+    message(STATUS "mimalloc not found via find_package — building with the system allocator. "
+                   "Install mimalloc to enable the optimized allocator linkage.")
+    add_library(mimalloc INTERFACE)
+endif()
 target_link_libraries(twosum PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(repeatedchar PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(median PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
@@ -394,3 +404,17 @@ target_link_libraries(avl_tree PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mim
 target_link_libraries(skip_list PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(bloom_filter PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
 target_link_libraries(unittests PRIVATE $<IF:$<TARGET_EXISTS:mimalloc-static>,mimalloc-static,mimalloc>)
+
+# --- DirectedAcyclicCurve (C++20) -----------------------------------------
+add_library(dac_curve STATIC
+        src/DirectedAcyclicCurve/curve_locator.cpp
+        src/DirectedAcyclicCurve/y_builder.cpp)
+target_include_directories(dac_curve PUBLIC src/DirectedAcyclicCurve)
+
+add_executable(dac_demo src/DirectedAcyclicCurve/main.cpp)
+target_link_libraries(dac_demo PRIVATE dac_curve)
+
+add_executable(dac_tests tests/DirectedAcyclicCurve/test_curve.cpp)
+target_link_libraries(dac_tests PRIVATE dac_curve)
+
+add_test(NAME dac_tests COMMAND dac_tests)
