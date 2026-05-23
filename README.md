@@ -209,3 +209,4 @@ Time complexity: O(n + m).
 * [AVL Tree](src/AVLTree) — self-balancing BST with LL/LR/RR/RL rotations
 * [Skip List](src/SkipList) — probabilistic ordered set (used in RocksDB/LevelDB/Redis sorted sets)
 * [Bloom Filter](src/BloomFilter) — probabilistic membership; SSTable filter / cache-miss rejection
+* [Directed Acyclic Curve](src/DirectedAcyclicCurve) — C++20: locate a polynomial p(x) such that for every i in [1, |X|], Y[p(i)] == X[i-1], given Y with >= 3 of every byte
