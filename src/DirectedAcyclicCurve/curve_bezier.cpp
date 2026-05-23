@@ -52,6 +52,30 @@ std::uint64_t BezierStorage::break_even_segments(std::uint64_t y_length,
     return (n_nodes - overhead) / per_seg;
 }
 
+std::uint64_t FloorLinearBezierStorage::persisted_size(std::uint64_t n_segments,
+                                                        std::uint64_t y_length,
+                                                        std::uint64_t n_nodes) noexcept {
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint64_t header = 32u;
+    const std::uint64_t seg_count_field = 8u;
+    const std::uint64_t per_seg = 2u *
+        (static_cast<std::uint64_t>(w_x) + static_cast<std::uint64_t>(w_y));
+    return header + seg_count_field + n_segments * per_seg;
+}
+
+std::uint64_t FloorLinearBezierStorage::break_even_segments(
+        std::uint64_t y_length,
+        std::uint64_t n_nodes) noexcept {
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint64_t per_seg = 2u *
+        (static_cast<std::uint64_t>(w_x) + static_cast<std::uint64_t>(w_y));
+    const std::uint64_t overhead = 40u;
+    if (n_nodes <= overhead) return 0;
+    return (n_nodes - overhead) / per_seg;
+}
+
 namespace {
 
 double bezier_basis_y(double y0, double y1, double y2, double y3, double t) {
@@ -166,6 +190,50 @@ double fit_recursive(const std::vector<std::int64_t>& nodes,
     return std::max(left_resid, right_resid);
 }
 
+std::int64_t floor_div_i128(__int128 numerator, __int128 denominator) noexcept {
+    __int128 q = numerator / denominator;
+    const __int128 r = numerator % denominator;
+    if (r != 0 && ((r > 0) != (denominator > 0))) {
+        --q;
+    }
+    return static_cast<std::int64_t>(q);
+}
+
+std::int64_t floor_linear_at_node(const std::vector<std::int64_t>& nodes,
+                                  std::size_t a, std::size_t b,
+                                  std::size_t i) noexcept {
+    if (a == b) return nodes[a - 1];
+    const __int128 dx = static_cast<__int128>(b - a);
+    const __int128 dy = static_cast<__int128>(nodes[b - 1] - nodes[a - 1]);
+    const __int128 numerator =
+        static_cast<__int128>(nodes[a - 1]) * dx +
+        dy * static_cast<__int128>(i - a);
+    return floor_div_i128(numerator, dx);
+}
+
+bool floor_line_hits_range(const std::vector<std::int64_t>& nodes,
+                           std::size_t a, std::size_t b) noexcept {
+    if (a >= b) return true;
+    for (std::size_t i = a + 1; i <= b - 1; ++i) {
+        if (floor_linear_at_node(nodes, a, b, i) != nodes[i - 1]) {
+            return false;
+        }
+    }
+    return true;
+}
+
+LinearBezierSegment make_linear_segment(const std::vector<std::int64_t>& nodes,
+                                        std::size_t a, std::size_t b) noexcept {
+    LinearBezierSegment seg;
+    seg.x0 = static_cast<double>(a);
+    seg.y0 = static_cast<double>(nodes[a - 1]);
+    seg.x1 = static_cast<double>(b);
+    seg.y1 = static_cast<double>(nodes[b - 1]);
+    seg.i_start = a;
+    seg.i_end = b;
+    return seg;
+}
+
 }  // namespace
 
 double BezierFitter::evaluate_y(const BezierSegment& s, double t) noexcept {
@@ -187,6 +255,60 @@ BezierFitter::Result BezierFitter::fit(const CurveEquation& curve, double tolera
     }
     const double t = tolerance < 0.0 ? 0.0 : tolerance;
     result.max_residual = fit_recursive(nodes, 1, n, t, result.segments);
+    return result;
+}
+
+double FloorLinearBezierFitter::evaluate_y(const LinearBezierSegment& s,
+                                           double x) noexcept {
+    if (s.i_start == s.i_end) return s.y0;
+    const double span = s.x1 - s.x0;
+    if (span == 0.0) return s.y0;
+    const double t = (x - s.x0) / span;
+    return s.y0 + (s.y1 - s.y0) * t;
+}
+
+bool FloorLinearBezierFitter::verify_segment(const LinearBezierSegment& s,
+                                             const CurveEquation& curve) noexcept {
+    const auto& nodes = curve.nodes();
+    if (s.i_start == 0 || s.i_end == 0 ||
+        s.i_start > s.i_end || s.i_end > nodes.size()) {
+        return false;
+    }
+    if (s.y0 != static_cast<double>(nodes[s.i_start - 1]) ||
+        s.y1 != static_cast<double>(nodes[s.i_end - 1])) {
+        return false;
+    }
+    return floor_line_hits_range(nodes, s.i_start, s.i_end);
+}
+
+FloorLinearBezierFitter::Result FloorLinearBezierFitter::fit(
+        const CurveEquation& curve) {
+    Result result;
+    const auto& nodes = curve.nodes();
+    const std::size_t n = nodes.size();
+    if (n == 0) return result;
+
+    std::size_t covered = 0;
+    for (std::size_t start = 1; start <= n; ) {
+        std::size_t best = start;
+        for (std::size_t end = n; end > start; --end) {
+            if (floor_line_hits_range(nodes, start, end)) {
+                best = end;
+                break;
+            }
+        }
+
+        auto seg = make_linear_segment(nodes, start, best);
+        const std::size_t count = seg.covered_points();
+        covered += count;
+        result.max_cluster_points = std::max(result.max_cluster_points, count);
+        result.segments.push_back(seg);
+        start = best + 1;
+    }
+
+    result.mean_cluster_points = result.segments.empty() ? 0.0
+        : static_cast<double>(covered) /
+          static_cast<double>(result.segments.size());
     return result;
 }
 

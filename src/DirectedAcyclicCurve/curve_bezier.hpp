@@ -46,6 +46,22 @@ struct BezierSegment {
     std::size_t i_end;    // 1-based node index of right endpoint
 };
 
+// A two-control-point Bezier is a straight line segment. This form stores only
+// the first and last DAC points in a cluster; every interior point in the
+// cluster is accepted when floor(line_y(i)) == j_i. The segments are allowed to
+// jump between clusters, so segment k+1 starts at the first point not covered
+// by segment k instead of sharing the previous endpoint.
+struct LinearBezierSegment {
+    double x0, y0;  // P0 (cluster's first node)
+    double x1, y1;  // P1 (cluster's last node)
+    std::size_t i_start;  // 1-based node index of first covered point
+    std::size_t i_end;    // 1-based node index of last covered point
+
+    std::size_t covered_points() const noexcept {
+        return i_end >= i_start ? (i_end - i_start + 1u) : 0u;
+    }
+};
+
 // Theoretical persisted-size accounting for a piecewise-cubic-Bezier
 // representation of the DAC curve. The format we cost out is:
 //
@@ -91,6 +107,28 @@ public:
                                               std::uint64_t n_nodes) noexcept;
 };
 
+// Theoretical persisted-size accounting for floor-accepted, two-point Bezier
+// clusters:
+//
+//   header        32 bytes  (matches the codec's DAC1 header)
+//   seg_count     8 bytes   (uint64_t)
+//   per segment:
+//     i_start     W_x bytes (cluster first node index, 1-based)
+//     y0          W_y bytes (cluster first Y index)
+//     i_end       W_x bytes (cluster last node index, 1-based)
+//     y1          W_y bytes (cluster last Y index)
+//
+// Storage = 32 + 8 + n_segments * 2 * (W_x + W_y)
+class FloorLinearBezierStorage {
+public:
+    static std::uint64_t persisted_size(std::uint64_t n_segments,
+                                         std::uint64_t y_length,
+                                         std::uint64_t n_nodes) noexcept;
+
+    static std::uint64_t break_even_segments(std::uint64_t y_length,
+                                              std::uint64_t n_nodes) noexcept;
+};
+
 class BezierFitter {
 public:
     struct Result {
@@ -114,6 +152,30 @@ public:
 
     // Evaluate a single segment's y at parameter t in [0, 1].
     static double evaluate_y(const BezierSegment& s, double t) noexcept;
+};
+
+class FloorLinearBezierFitter {
+public:
+    struct Result {
+        std::vector<LinearBezierSegment> segments;
+        std::size_t control_point_count() const noexcept {
+            return 2u * segments.size();
+        }
+        std::size_t max_cluster_points = 0;
+        double mean_cluster_points = 0.0;
+    };
+
+    // Greedy exact-longest clustering. From the first uncovered node, choose
+    // the farthest endpoint whose straight line floor-hits every integer node
+    // in the closed range [start, end], then continue at end + 1. This matches
+    // the "jumps allowed between clusters" interpretation.
+    static Result fit(const CurveEquation& curve);
+
+    static double evaluate_y(const LinearBezierSegment& s, double x) noexcept;
+
+    // True iff floor(line_y(i)) == j_i for every integer node in segment range.
+    static bool verify_segment(const LinearBezierSegment& s,
+                               const CurveEquation& curve) noexcept;
 };
 
 }  // namespace algorithms::dac

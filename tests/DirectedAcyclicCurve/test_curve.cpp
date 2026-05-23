@@ -779,6 +779,95 @@ DAC_TEST(bezier_fit_smoother_needs_fewer_segments) {
     }
 }
 
+// --- 5d. Floor-linear two-point Bezier clusters ---------------------------
+
+DAC_TEST(floor_linear_empty_curve) {
+    using algorithms::dac::FloorLinearBezierFitter;
+    algorithms::dac::CurveEquation empty;
+    auto r = FloorLinearBezierFitter::fit(empty);
+    DAC_EXPECT_EQ(r.segments.size(), 0u);
+    DAC_EXPECT_EQ(r.control_point_count(), 0u);
+    DAC_EXPECT_EQ(r.max_cluster_points, 0u);
+}
+
+DAC_TEST(floor_linear_single_node_collapses) {
+    using algorithms::dac::FloorLinearBezierFitter;
+    algorithms::dac::CurveEquation one(std::vector<std::int64_t>{42});
+    auto r = FloorLinearBezierFitter::fit(one);
+    DAC_EXPECT_EQ(r.segments.size(), 1u);
+    DAC_EXPECT_EQ(r.control_point_count(), 2u);
+    DAC_EXPECT_EQ(r.max_cluster_points, 1u);
+    DAC_EXPECT(r.segments.front().y0 == 42.0);
+    DAC_EXPECT(r.segments.front().y1 == 42.0);
+}
+
+DAC_TEST(floor_linear_accepts_values_inside_target_bucket) {
+    using algorithms::dac::FloorLinearBezierFitter;
+    // One line from (1, 2) to (3, 3) crosses node 2 at y=2.5. That is not an
+    // exact hit, but floor(2.5) == 2, so it satisfies the requested bucket rule.
+    algorithms::dac::CurveEquation curve(std::vector<std::int64_t>{2, 2, 3});
+    auto r = FloorLinearBezierFitter::fit(curve);
+    DAC_EXPECT_EQ(r.segments.size(), 1u);
+    DAC_EXPECT_EQ(r.max_cluster_points, 3u);
+    DAC_EXPECT(FloorLinearBezierFitter::verify_segment(r.segments.front(), curve));
+    const double y = FloorLinearBezierFitter::evaluate_y(r.segments.front(), 2.0);
+    DAC_EXPECT(y > 2.0 && y < 3.0);
+    DAC_EXPECT_EQ(static_cast<int>(std::floor(y)), 2);
+}
+
+DAC_TEST(floor_linear_rejects_exact_next_integer_boundary) {
+    using algorithms::dac::FloorLinearBezierFitter;
+    // A line from (1, 2) to (3, 4) crosses node 2 at exactly 3.0, so it does
+    // not satisfy target value 2. The greedy fitter must split before node 3.
+    algorithms::dac::CurveEquation curve(std::vector<std::int64_t>{2, 2, 4});
+    auto r = FloorLinearBezierFitter::fit(curve);
+    DAC_EXPECT_EQ(r.segments.size(), 2u);
+    DAC_EXPECT_EQ(r.segments[0].i_start, 1u);
+    DAC_EXPECT_EQ(r.segments[0].i_end, 2u);
+    DAC_EXPECT_EQ(r.segments[1].i_start, 3u);
+    DAC_EXPECT_EQ(r.segments[1].i_end, 3u);
+}
+
+DAC_TEST(floor_linear_covers_deterministic_curve) {
+    using algorithms::dac::FloorLinearBezierFitter;
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(256, 0xDEADBEEFULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+
+    auto r = FloorLinearBezierFitter::fit(curve);
+    DAC_EXPECT(!r.segments.empty());
+    DAC_EXPECT(r.mean_cluster_points >= 1.0);
+    std::size_t covered = 0;
+    for (const auto& s : r.segments) {
+        DAC_EXPECT(FloorLinearBezierFitter::verify_segment(s, curve));
+        covered += s.covered_points();
+        for (std::size_t i = s.i_start; i <= s.i_end; ++i) {
+            const double v = FloorLinearBezierFitter::evaluate_y(
+                s, static_cast<double>(i));
+            DAC_EXPECT_EQ(static_cast<long long>(std::floor(v)),
+                          static_cast<long long>(curve.nodes()[i - 1]));
+        }
+    }
+    DAC_EXPECT_EQ(covered, curve.length());
+}
+
+DAC_TEST(floor_linear_storage_formula) {
+    using algorithms::dac::FloorLinearBezierStorage;
+    // formula: 32 + 8 + segs * 2 * (W_x + W_y)
+    // n=1024, |Y|=4096 -> W_x=2, W_y=2, per_seg=8.
+    DAC_EXPECT_EQ(FloorLinearBezierStorage::persisted_size(128, 4096, 1024), 1064ull);
+    // n=1024, |Y|=65792 -> W_x=2, W_y=4, per_seg=12.
+    DAC_EXPECT_EQ(FloorLinearBezierStorage::persisted_size(128, 65792, 1024), 1576ull);
+    const auto s = FloorLinearBezierStorage::break_even_segments(4096, 1024);
+    DAC_EXPECT(FloorLinearBezierStorage::persisted_size(s, 4096, 1024) <= 1024ull);
+    DAC_EXPECT(FloorLinearBezierStorage::persisted_size(s + 1, 4096, 1024) > 1024ull);
+}
+
 // --- 6. Codec round-trip ---------------------------------------------------
 
 namespace {

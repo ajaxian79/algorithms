@@ -9,6 +9,9 @@
 //   --pick {cursor|nearest}           locator pick strategy (default cursor)
 //   --bezier-tolerance <T>            enable Bezier fit + storage column
 //                                     (default disabled; tolerance must be >= 0)
+//   --floor-linear                    enable two-point Bezier clusters whose
+//                                     interior nodes pass when
+//                                     floor(line_y(i)) == j_i
 //   --compare-all-combos              run all 4 (policy x pick) combos per
 //                                     case; bezier-tolerance also enabled
 //                                     so the comparison includes Bezier
@@ -88,8 +91,17 @@ struct CombineResult {
     std::uint64_t bezier_break_even_segs = 0;
     double bezier_ratio_vs_raw = 0.0;
     double bezier_ratio_vs_codec = 0.0;
+    bool floor_linear_enabled = false;
+    std::size_t floor_linear_segments = 0;
+    std::uint64_t floor_linear_bytes = 0;
+    std::uint64_t floor_linear_break_even_segs = 0;
+    double floor_linear_ratio_vs_raw = 0.0;
+    double floor_linear_ratio_vs_codec = 0.0;
+    std::size_t floor_linear_max_cluster_points = 0;
+    double floor_linear_mean_cluster_points = 0.0;
     std::vector<std::pair<std::size_t, std::int64_t>> sampled_points;  // raw nodes
     std::vector<std::pair<double, double>> bezier_samples;            // for chart
+    std::vector<std::pair<double, double>> floor_linear_samples;       // for chart
     const char* combo_label = "";
 };
 
@@ -117,7 +129,8 @@ subsample_nodes(const std::vector<std::int64_t>& nodes) {
 
 CombineResult run_combo(const Case& c, dac::ShufflePolicy policy,
                         dac::PickStrategy pick, const char* label,
-                        bool bezier_enabled, double bezier_tolerance) {
+                        bool bezier_enabled, double bezier_tolerance,
+                        bool floor_linear_enabled) {
     dac::DeterministicYBuilder::Params yp;
     yp.seed = c.y_seed;
     yp.policy = policy;
@@ -216,6 +229,40 @@ CombineResult run_combo(const Case& c, dac::ShufflePolicy policy,
         }
     }
 
+    if (floor_linear_enabled) {
+        cr.floor_linear_enabled = true;
+        auto fit = dac::FloorLinearBezierFitter::fit(curve);
+        cr.floor_linear_segments = fit.segments.size();
+        cr.floor_linear_bytes = dac::FloorLinearBezierStorage::persisted_size(
+            cr.floor_linear_segments, y.size(), x.size());
+        cr.floor_linear_break_even_segs =
+            dac::FloorLinearBezierStorage::break_even_segments(y.size(), x.size());
+        cr.floor_linear_ratio_vs_raw = x.size() == 0 ? 0.0
+            : static_cast<double>(cr.floor_linear_bytes) /
+              static_cast<double>(x.size());
+        cr.floor_linear_ratio_vs_codec = file_bytes == 0 ? 0.0
+            : static_cast<double>(cr.floor_linear_bytes) /
+              static_cast<double>(file_bytes);
+        cr.floor_linear_max_cluster_points = fit.max_cluster_points;
+        cr.floor_linear_mean_cluster_points = fit.mean_cluster_points;
+
+        cr.floor_linear_samples.reserve(cr.sampled_points.size());
+        for (const auto& p : cr.sampled_points) {
+            const std::size_t i = p.first;
+            const dac::LinearBezierSegment* hit = nullptr;
+            for (const auto& seg : fit.segments) {
+                if (i >= seg.i_start && i <= seg.i_end) {
+                    hit = &seg; break;
+                }
+            }
+            if (!hit) continue;
+            cr.floor_linear_samples.emplace_back(
+                static_cast<double>(i),
+                dac::FloorLinearBezierFitter::evaluate_y(
+                    *hit, static_cast<double>(i)));
+        }
+    }
+
     return cr;
 }
 
@@ -255,6 +302,26 @@ void print_row_compare(const CombineResult& r) {
                 r.bezier_ratio_vs_raw, r.bezier_ratio_vs_codec);
 }
 
+void print_header_floor_linear() {
+    std::printf("| %5s | %5s | %-18s | %9s | %7s | %8s | %12s | %10s | %10s | %12s |\n",
+                "|X|", "|Y|", "policy/pick",
+                "mean|dj|", "segs", "max_run",
+                "floor_bytes", "floor/raw", "floor/codec", "break_even");
+    std::printf("|-------|-------|--------------------|-----------|---------|----------|--------------|------------|------------|--------------|\n");
+}
+
+void print_row_floor_linear(const CombineResult& r) {
+    std::printf("| %5zu | %5zu | %-18s | %9.2f | %7zu | %8zu | %12llu | %9.3fx | %9.3fx | %12llu |\n",
+                r.x_len, r.y_len, r.combo_label,
+                r.mean_abs_step,
+                r.floor_linear_segments,
+                r.floor_linear_max_cluster_points,
+                static_cast<unsigned long long>(r.floor_linear_bytes),
+                r.floor_linear_ratio_vs_raw,
+                r.floor_linear_ratio_vs_codec,
+                static_cast<unsigned long long>(r.floor_linear_break_even_segs));
+}
+
 void emit_json_compare(std::ostream& out,
                         const std::vector<std::vector<CombineResult>>& results,
                         double bezier_tolerance) {
@@ -285,6 +352,20 @@ void emit_json_compare(std::ostream& out,
                 << r.bezier_ratio_vs_raw << ",\n";
             out << "          \"bezier_ratio_vs_codec\": "
                 << r.bezier_ratio_vs_codec << ",\n";
+            out << "          \"floor_linear_segments\": "
+                << r.floor_linear_segments << ",\n";
+            out << "          \"floor_linear_bytes\": "
+                << r.floor_linear_bytes << ",\n";
+            out << "          \"floor_linear_break_even_segs\": "
+                << r.floor_linear_break_even_segs << ",\n";
+            out << "          \"floor_linear_ratio_vs_raw\": "
+                << r.floor_linear_ratio_vs_raw << ",\n";
+            out << "          \"floor_linear_ratio_vs_codec\": "
+                << r.floor_linear_ratio_vs_codec << ",\n";
+            out << "          \"floor_linear_max_cluster_points\": "
+                << r.floor_linear_max_cluster_points << ",\n";
+            out << "          \"floor_linear_mean_cluster_points\": "
+                << r.floor_linear_mean_cluster_points << ",\n";
             out << "          \"nodes\": [";
             for (std::size_t p = 0; p < r.sampled_points.size(); ++p) {
                 if (p) out << ", ";
@@ -297,6 +378,13 @@ void emit_json_compare(std::ostream& out,
                 if (p) out << ", ";
                 out << "[" << r.bezier_samples[p].first << ", "
                     << r.bezier_samples[p].second << "]";
+            }
+            out << "],\n";
+            out << "          \"floor_linear\": [";
+            for (std::size_t p = 0; p < r.floor_linear_samples.size(); ++p) {
+                if (p) out << ", ";
+                out << "[" << r.floor_linear_samples[p].first << ", "
+                    << r.floor_linear_samples[p].second << "]";
             }
             out << "]\n        }";
             if (k + 1 < combos.size()) out << ",";
@@ -337,6 +425,7 @@ int main(int argc, char** argv) {
     dac::PickStrategy  pick   = dac::PickStrategy::CursorCycle;
     bool bezier_enabled = false;
     double bezier_tolerance = 0.5;
+    bool floor_linear_enabled = false;
     bool compare_all = false;
     const char* policy_label = "uniform";
     const char* pick_label   = "cursor";
@@ -367,6 +456,8 @@ int main(int argc, char** argv) {
         } else if (arg == "--compare-all-combos") {
             compare_all = true;
             bezier_enabled = true;
+        } else if (arg == "--floor-linear") {
+            floor_linear_enabled = true;
         } else {
             std::fprintf(stderr, "bench_persist: unknown arg %s\n", arg.c_str());
             return 2;
@@ -384,7 +475,8 @@ int main(int argc, char** argv) {
         results.reserve(cases.size());
         for (const auto& c : cases) {
             auto r = run_combo(c, policy, pick, combo_label,
-                               bezier_enabled, bezier_tolerance);
+                               bezier_enabled, bezier_tolerance,
+                               floor_linear_enabled);
             const std::uint64_t predicted = dac::CurveCodec::persisted_size(
                 c.x_len, r.y_len);
             print_row_simple(r, predicted);
@@ -404,6 +496,13 @@ int main(int argc, char** argv) {
                             static_cast<unsigned long long>(r.bezier_bytes),
                             r.bezier_ratio_vs_raw, r.bezier_ratio_vs_codec,
                             static_cast<unsigned long long>(r.bezier_break_even_segs));
+            }
+        }
+        if (floor_linear_enabled) {
+            std::printf("\nFloor-linear two-point Bezier clusters:\n");
+            print_header_floor_linear();
+            for (const auto& r : results) {
+                print_row_floor_linear(r);
             }
         }
         if (!json_path.empty()) {
@@ -432,7 +531,8 @@ int main(int argc, char** argv) {
         combos.reserve(4);
         for (const auto& ck : kComboAll) {
             auto r = run_combo(c, ck.policy, ck.pick, ck.label,
-                               true, bezier_tolerance);
+                               true, bezier_tolerance,
+                               floor_linear_enabled);
             print_row_compare(r);
             combos.push_back(std::move(r));
         }
@@ -447,6 +547,20 @@ int main(int argc, char** argv) {
     std::printf("  * bez/codec         = bezier_bytes / file_bytes; ratio < 1.0 means Bezier beats the existing codec\n");
     std::printf("  * tolerance         = %.3f (rounding the Bezier at integer i recovers j_i)\n",
                 bezier_tolerance);
+
+    if (floor_linear_enabled) {
+        std::printf("\nFloor-linear two-point Bezier clusters\n");
+        print_header_floor_linear();
+        for (const auto& combos : all_results) {
+            for (const auto& r : combos) {
+                print_row_floor_linear(r);
+            }
+            std::printf("|-------|-------|--------------------|-----------|---------|----------|--------------|------------|------------|--------------|\n");
+        }
+        std::printf("\n");
+        std::printf("  * floor-linear accepts a cluster iff floor(line_y(i)) == j_i at every covered integer node\n");
+        std::printf("  * floor_bytes = 32 + 8 + segs * 2 * (W_x + W_y); each segment stores first+last cluster point\n");
+    }
 
     if (!json_path.empty()) {
         std::ofstream out(json_path);
