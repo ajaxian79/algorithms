@@ -868,6 +868,111 @@ DAC_TEST(floor_linear_storage_formula) {
     DAC_EXPECT(FloorLinearBezierStorage::persisted_size(s + 1, 4096, 1024) > 1024ull);
 }
 
+// --- 5e. Layered cubic Bezier cover ---------------------------------------
+
+namespace {
+std::int64_t bucket_floor_for_test(double v) {
+    const double nearest = std::round(v);
+    if (std::abs(v - nearest) < 1e-9) {
+        return static_cast<std::int64_t>(nearest);
+    }
+    return static_cast<std::int64_t>(std::floor(v));
+}
+
+void expect_layered_cover_decodes(algorithms::dac::testing::TestRegistry& _dac_reg,
+                                  const algorithms::dac::CurveEquation& curve,
+                                  const algorithms::dac::LayeredBezierCoverFitter::Result& r) {
+    const auto& nodes = curve.nodes();
+    std::vector<std::size_t> rank_override(nodes.size() + 1, static_cast<std::size_t>(-1));
+    for (const auto& ov : r.overrides) {
+        DAC_EXPECT(ov.i >= 1 && ov.i <= nodes.size());
+        rank_override[ov.i] = ov.rank;
+    }
+    for (std::size_t i = 1; i <= nodes.size(); ++i) {
+        struct Active { double y; };
+        std::vector<Active> active;
+        for (const auto& s : r.curves) {
+            if (i < s.i_start || i > s.i_end) continue;
+            const double span = static_cast<double>(s.i_end - s.i_start);
+            const double t = span == 0.0 ? 0.0
+                : static_cast<double>(i - s.i_start) / span;
+            active.push_back({algorithms::dac::BezierFitter::evaluate_y(s, t)});
+        }
+        std::sort(active.begin(), active.end(),
+                  [](const Active& a, const Active& b) { return a.y < b.y; });
+        DAC_EXPECT(!active.empty());
+        const std::size_t rank = rank_override[i] == static_cast<std::size_t>(-1)
+            ? 0u : rank_override[i];
+        DAC_EXPECT(rank < active.size());
+        const auto decoded = bucket_floor_for_test(active[rank].y);
+        if (decoded != nodes[i - 1]) {
+            char buf[160];
+            std::snprintf(buf, sizeof buf,
+                          "i=%zu decoded=%lld node=%lld rank=%zu active=%zu",
+                          i, static_cast<long long>(decoded),
+                          static_cast<long long>(nodes[i - 1]), rank,
+                          active.size());
+            DAC_TEST_FAIL(buf);
+            return;
+        }
+    }
+}
+}  // namespace
+
+DAC_TEST(layered_cubic_four_points_one_curve) {
+    using algorithms::dac::LayeredBezierCoverFitter;
+    algorithms::dac::CurveEquation curve(std::vector<std::int64_t>{10, 100, 20, 80});
+    auto r = LayeredBezierCoverFitter::fit(curve);
+    DAC_EXPECT_EQ(r.curves.size(), 1u);
+    DAC_EXPECT_EQ(r.overrides.size(), 0u);
+    DAC_EXPECT_EQ(r.max_points_per_curve, 4u);
+    expect_layered_cover_decodes(_dac_reg, curve, r);
+}
+
+DAC_TEST(layered_cubic_storage_formula) {
+    using algorithms::dac::LayeredBezierCoverStorage;
+    // n=1024, |Y|=4096 -> W_x=2, W_y=2, W_c=2, W_rank=1 at 16 curves.
+    // 32 + 8 + 16*12 + 8 + 5*3 = 255.
+    DAC_EXPECT_EQ(LayeredBezierCoverStorage::persisted_size(
+        16, 5, 4096, 1024), 255ull);
+    DAC_EXPECT_EQ(LayeredBezierCoverStorage::break_even_curves_no_overrides(
+        4096, 1024), 81ull);
+}
+
+DAC_TEST(layered_cubic_covers_slice2_graph_shape) {
+    using algorithms::dac::LayeredBezierCoverFitter;
+    algorithms::dac::CurveEquation curve(std::vector<std::int64_t>{
+        193, 203, 194, 265, 478, 411, 502, 461,
+        511, 278, 368, 300, 314, 326, 203, 287,
+        197, 68, 48, 191, 40, 155, 68, 71,
+        17, 201, 206, 184, 255, 250, 304, 320,
+        248, 444, 420, 257, 274, 345, 304, 456,
+        590, 766, 644, 746, 741, 799, 859, 960,
+        919, 932, 1007, 1092, 1173, 1190, 1035, 964,
+        864, 925, 980, 933, 891, 791, 799, 1004
+    });
+    auto r = LayeredBezierCoverFitter::fit(curve);
+    DAC_EXPECT(r.curves.size() <= 20u);
+    DAC_EXPECT(r.max_points_per_curve >= 4u);
+    expect_layered_cover_decodes(_dac_reg, curve, r);
+}
+
+DAC_TEST(layered_cubic_covers_deterministic_curve) {
+    using algorithms::dac::LayeredBezierCoverFitter;
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(256, 0xDEADBEEFULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    auto r = LayeredBezierCoverFitter::fit(curve);
+    DAC_EXPECT(!r.curves.empty());
+    DAC_EXPECT(r.mean_points_per_curve >= 3.0);
+    expect_layered_cover_decodes(_dac_reg, curve, r);
+}
+
 // --- 6. Codec round-trip ---------------------------------------------------
 
 namespace {

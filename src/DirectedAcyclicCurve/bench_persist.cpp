@@ -12,6 +12,8 @@
 //   --floor-linear                    enable two-point Bezier clusters whose
 //                                     interior nodes pass when
 //                                     floor(line_y(i)) == j_i
+//   --layered-cubic                   enable two-anchor cubic Bezier layer
+//                                     cover + sparse curve-rank overrides
 //   --compare-all-combos              run all 4 (policy x pick) combos per
 //                                     case; bezier-tolerance also enabled
 //                                     so the comparison includes Bezier
@@ -23,6 +25,7 @@
 // Output: a human-readable table on stdout. With --compare-all-combos there
 // is one row per (case, combo) tuple; otherwise one row per case.
 
+#include <algorithm>
 #include <cstdint>
 #include <cstdio>
 #include <cstdlib>
@@ -99,9 +102,20 @@ struct CombineResult {
     double floor_linear_ratio_vs_codec = 0.0;
     std::size_t floor_linear_max_cluster_points = 0;
     double floor_linear_mean_cluster_points = 0.0;
+    bool layered_cubic_enabled = false;
+    std::size_t layered_cubic_curves = 0;
+    std::size_t layered_cubic_overrides = 0;
+    std::uint64_t layered_cubic_bytes = 0;
+    std::uint64_t layered_cubic_break_even_curves = 0;
+    double layered_cubic_ratio_vs_raw = 0.0;
+    double layered_cubic_ratio_vs_codec = 0.0;
+    std::size_t layered_cubic_max_points_per_curve = 0;
+    double layered_cubic_mean_points_per_curve = 0.0;
+    std::size_t layered_cubic_max_rank = 0;
     std::vector<std::pair<std::size_t, std::int64_t>> sampled_points;  // raw nodes
     std::vector<std::pair<double, double>> bezier_samples;            // for chart
     std::vector<std::pair<double, double>> floor_linear_samples;       // for chart
+    std::vector<std::pair<double, double>> layered_cubic_samples;      // selected layer for chart
     const char* combo_label = "";
 };
 
@@ -130,7 +144,8 @@ subsample_nodes(const std::vector<std::int64_t>& nodes) {
 CombineResult run_combo(const Case& c, dac::ShufflePolicy policy,
                         dac::PickStrategy pick, const char* label,
                         bool bezier_enabled, double bezier_tolerance,
-                        bool floor_linear_enabled) {
+                        bool floor_linear_enabled,
+                        bool layered_cubic_enabled) {
     dac::DeterministicYBuilder::Params yp;
     yp.seed = c.y_seed;
     yp.policy = policy;
@@ -263,6 +278,54 @@ CombineResult run_combo(const Case& c, dac::ShufflePolicy policy,
         }
     }
 
+    if (layered_cubic_enabled) {
+        cr.layered_cubic_enabled = true;
+        auto cover = dac::LayeredBezierCoverFitter::fit(curve);
+        cr.layered_cubic_curves = cover.curves.size();
+        cr.layered_cubic_overrides = cover.overrides.size();
+        cr.layered_cubic_bytes = dac::LayeredBezierCoverStorage::persisted_size(
+            cover.curves.size(), cover.overrides.size(), y.size(), x.size());
+        cr.layered_cubic_break_even_curves =
+            dac::LayeredBezierCoverStorage::break_even_curves_no_overrides(
+                y.size(), x.size());
+        cr.layered_cubic_ratio_vs_raw = x.size() == 0 ? 0.0
+            : static_cast<double>(cr.layered_cubic_bytes) /
+              static_cast<double>(x.size());
+        cr.layered_cubic_ratio_vs_codec = file_bytes == 0 ? 0.0
+            : static_cast<double>(cr.layered_cubic_bytes) /
+              static_cast<double>(file_bytes);
+        cr.layered_cubic_max_points_per_curve = cover.max_points_per_curve;
+        cr.layered_cubic_mean_points_per_curve = cover.mean_points_per_curve;
+        cr.layered_cubic_max_rank = cover.max_rank;
+
+        std::vector<std::size_t> rank_override(x.size() + 1,
+                                               static_cast<std::size_t>(-1));
+        for (const auto& ov : cover.overrides) {
+            if (ov.i <= x.size()) rank_override[ov.i] = ov.rank;
+        }
+        cr.layered_cubic_samples.reserve(cr.sampled_points.size());
+        for (const auto& p : cr.sampled_points) {
+            const std::size_t i = p.first;
+            std::vector<double> active;
+            for (const auto& s : cover.curves) {
+                if (i >= s.i_start && i <= s.i_end) {
+                    const double span = static_cast<double>(s.i_end - s.i_start);
+                    const double t = span == 0.0 ? 0.0
+                        : static_cast<double>(i - s.i_start) / span;
+                    active.push_back(dac::BezierFitter::evaluate_y(s, t));
+                }
+            }
+            if (active.empty()) continue;
+            std::sort(active.begin(), active.end());
+            const std::size_t rank =
+                rank_override[i] == static_cast<std::size_t>(-1)
+                    ? 0u : rank_override[i];
+            if (rank >= active.size()) continue;
+            cr.layered_cubic_samples.emplace_back(
+                static_cast<double>(i), active[rank]);
+        }
+    }
+
     return cr;
 }
 
@@ -322,6 +385,27 @@ void print_row_floor_linear(const CombineResult& r) {
                 static_cast<unsigned long long>(r.floor_linear_break_even_segs));
 }
 
+void print_header_layered_cubic() {
+    std::printf("| %5s | %5s | %-18s | %9s | %7s | %9s | %7s | %8s | %12s | %10s | %10s |\n",
+                "|X|", "|Y|", "policy/pick",
+                "mean|dj|", "curves", "overrides", "max_pts", "max_rank",
+                "layer_bytes", "layer/raw", "layer/codec");
+    std::printf("|-------|-------|--------------------|-----------|---------|-----------|---------|----------|--------------|------------|------------|\n");
+}
+
+void print_row_layered_cubic(const CombineResult& r) {
+    std::printf("| %5zu | %5zu | %-18s | %9.2f | %7zu | %9zu | %7zu | %8zu | %12llu | %9.3fx | %9.3fx |\n",
+                r.x_len, r.y_len, r.combo_label,
+                r.mean_abs_step,
+                r.layered_cubic_curves,
+                r.layered_cubic_overrides,
+                r.layered_cubic_max_points_per_curve,
+                r.layered_cubic_max_rank,
+                static_cast<unsigned long long>(r.layered_cubic_bytes),
+                r.layered_cubic_ratio_vs_raw,
+                r.layered_cubic_ratio_vs_codec);
+}
+
 void emit_json_compare(std::ostream& out,
                         const std::vector<std::vector<CombineResult>>& results,
                         double bezier_tolerance) {
@@ -366,6 +450,24 @@ void emit_json_compare(std::ostream& out,
                 << r.floor_linear_max_cluster_points << ",\n";
             out << "          \"floor_linear_mean_cluster_points\": "
                 << r.floor_linear_mean_cluster_points << ",\n";
+            out << "          \"layered_cubic_curves\": "
+                << r.layered_cubic_curves << ",\n";
+            out << "          \"layered_cubic_overrides\": "
+                << r.layered_cubic_overrides << ",\n";
+            out << "          \"layered_cubic_bytes\": "
+                << r.layered_cubic_bytes << ",\n";
+            out << "          \"layered_cubic_break_even_curves\": "
+                << r.layered_cubic_break_even_curves << ",\n";
+            out << "          \"layered_cubic_ratio_vs_raw\": "
+                << r.layered_cubic_ratio_vs_raw << ",\n";
+            out << "          \"layered_cubic_ratio_vs_codec\": "
+                << r.layered_cubic_ratio_vs_codec << ",\n";
+            out << "          \"layered_cubic_max_points_per_curve\": "
+                << r.layered_cubic_max_points_per_curve << ",\n";
+            out << "          \"layered_cubic_mean_points_per_curve\": "
+                << r.layered_cubic_mean_points_per_curve << ",\n";
+            out << "          \"layered_cubic_max_rank\": "
+                << r.layered_cubic_max_rank << ",\n";
             out << "          \"nodes\": [";
             for (std::size_t p = 0; p < r.sampled_points.size(); ++p) {
                 if (p) out << ", ";
@@ -385,6 +487,13 @@ void emit_json_compare(std::ostream& out,
                 if (p) out << ", ";
                 out << "[" << r.floor_linear_samples[p].first << ", "
                     << r.floor_linear_samples[p].second << "]";
+            }
+            out << "],\n";
+            out << "          \"layered_cubic\": [";
+            for (std::size_t p = 0; p < r.layered_cubic_samples.size(); ++p) {
+                if (p) out << ", ";
+                out << "[" << r.layered_cubic_samples[p].first << ", "
+                    << r.layered_cubic_samples[p].second << "]";
             }
             out << "]\n        }";
             if (k + 1 < combos.size()) out << ",";
@@ -426,6 +535,7 @@ int main(int argc, char** argv) {
     bool bezier_enabled = false;
     double bezier_tolerance = 0.5;
     bool floor_linear_enabled = false;
+    bool layered_cubic_enabled = false;
     bool compare_all = false;
     const char* policy_label = "uniform";
     const char* pick_label   = "cursor";
@@ -458,6 +568,8 @@ int main(int argc, char** argv) {
             bezier_enabled = true;
         } else if (arg == "--floor-linear") {
             floor_linear_enabled = true;
+        } else if (arg == "--layered-cubic") {
+            layered_cubic_enabled = true;
         } else {
             std::fprintf(stderr, "bench_persist: unknown arg %s\n", arg.c_str());
             return 2;
@@ -476,7 +588,8 @@ int main(int argc, char** argv) {
         for (const auto& c : cases) {
             auto r = run_combo(c, policy, pick, combo_label,
                                bezier_enabled, bezier_tolerance,
-                               floor_linear_enabled);
+                               floor_linear_enabled,
+                               layered_cubic_enabled);
             const std::uint64_t predicted = dac::CurveCodec::persisted_size(
                 c.x_len, r.y_len);
             print_row_simple(r, predicted);
@@ -503,6 +616,13 @@ int main(int argc, char** argv) {
             print_header_floor_linear();
             for (const auto& r : results) {
                 print_row_floor_linear(r);
+            }
+        }
+        if (layered_cubic_enabled) {
+            std::printf("\nLayered cubic Bezier cover:\n");
+            print_header_layered_cubic();
+            for (const auto& r : results) {
+                print_row_layered_cubic(r);
             }
         }
         if (!json_path.empty()) {
@@ -532,7 +652,8 @@ int main(int argc, char** argv) {
         for (const auto& ck : kComboAll) {
             auto r = run_combo(c, ck.policy, ck.pick, ck.label,
                                true, bezier_tolerance,
-                               floor_linear_enabled);
+                               floor_linear_enabled,
+                               layered_cubic_enabled);
             print_row_compare(r);
             combos.push_back(std::move(r));
         }
@@ -560,6 +681,20 @@ int main(int argc, char** argv) {
         std::printf("\n");
         std::printf("  * floor-linear accepts a cluster iff floor(line_y(i)) == j_i at every covered integer node\n");
         std::printf("  * floor_bytes = 32 + 8 + segs * 2 * (W_x + W_y); each segment stores first+last cluster point\n");
+    }
+
+    if (layered_cubic_enabled) {
+        std::printf("\nLayered cubic Bezier cover\n");
+        print_header_layered_cubic();
+        for (const auto& combos : all_results) {
+            for (const auto& r : combos) {
+                print_row_layered_cubic(r);
+            }
+            std::printf("|-------|-------|--------------------|-----------|---------|-----------|---------|----------|--------------|------------|------------|\n");
+        }
+        std::printf("\n");
+        std::printf("  * layer decode uses floor(lowest active curve) unless an override stores the rank above the lowest curve\n");
+        std::printf("  * layer_bytes = 32 + 8 + curves*(2W_x + 2W_y + 2W_c) + 8 + overrides*(W_x + W_rank)\n");
     }
 
     if (!json_path.empty()) {

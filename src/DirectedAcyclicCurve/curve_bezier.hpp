@@ -62,6 +62,11 @@ struct LinearBezierSegment {
     }
 };
 
+struct LayeredBezierOverride {
+    std::size_t i;     // 1-based node index
+    std::size_t rank;  // 0 = lowest active curve at i, 1 = one curve up, etc.
+};
+
 // Theoretical persisted-size accounting for a piecewise-cubic-Bezier
 // representation of the DAC curve. The format we cost out is:
 //
@@ -129,6 +134,36 @@ public:
                                               std::uint64_t n_nodes) noexcept;
 };
 
+// Storage model for a layered cubic Bezier cover:
+//
+//   header        32 bytes
+//   curve_count    8 bytes
+//   per curve:
+//     i_start     W_x bytes
+//     i_end       W_x bytes
+//     y0          W_y bytes
+//     y1          W_c bytes
+//     y2          W_c bytes
+//     y3          W_y bytes
+//   override_count 8 bytes
+//   per override:
+//     i           W_x bytes
+//     rank        W_r bytes  (number of curves up from the lowest active one)
+//
+// x1/x2 are implicit thirds between i_start and i_end. y1/y2 are signed
+// controls, using the same conservative W_c as cubic Bezier storage.
+class LayeredBezierCoverStorage {
+public:
+    static std::uint64_t persisted_size(std::uint64_t n_curves,
+                                         std::uint64_t n_overrides,
+                                         std::uint64_t y_length,
+                                         std::uint64_t n_nodes) noexcept;
+
+    static std::uint64_t break_even_curves_no_overrides(
+        std::uint64_t y_length,
+        std::uint64_t n_nodes) noexcept;
+};
+
 class BezierFitter {
 public:
     struct Result {
@@ -176,6 +211,33 @@ public:
     // True iff floor(line_y(i)) == j_i for every integer node in segment range.
     static bool verify_segment(const LinearBezierSegment& s,
                                const CurveEquation& curve) noexcept;
+};
+
+class LayeredBezierCoverFitter {
+public:
+    struct Result {
+        std::vector<BezierSegment> curves;
+        std::vector<LayeredBezierOverride> overrides;
+        std::size_t max_points_per_curve = 0;
+        double mean_points_per_curve = 0.0;
+        std::size_t max_rank = 0;
+    };
+
+    struct Options {
+        // Candidate endpoint search window. Large enough to find visual chart
+        // clusters; bounded so 10k-node benchmark cases stay tractable.
+        std::size_t max_span = 64;
+        // Use the overlapping greedy set-cover search for small curves. Larger
+        // curves fall back to a contiguous greedy search using the same bucket
+        // rule; the storage model still supports overrides.
+        std::size_t exact_cover_node_limit = 512;
+    };
+
+    // Cover the curve with two-anchor cubic Beziers. A candidate curve accepts
+    // a node when floor(B(i)) == j_i. At decode time, rank 0 means the lowest
+    // active curve at i; overrides store the rank above the lowest curve.
+    static Result fit(const CurveEquation& curve);
+    static Result fit(const CurveEquation& curve, Options options);
 };
 
 }  // namespace algorithms::dac
