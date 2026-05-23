@@ -46,6 +46,51 @@ struct BezierSegment {
     std::size_t i_end;    // 1-based node index of right endpoint
 };
 
+// Theoretical persisted-size accounting for a piecewise-cubic-Bezier
+// representation of the DAC curve. The format we cost out is:
+//
+//   header        32 bytes  (matches the codec's DAC1 header)
+//   seg_count     8 bytes   (uint64_t)
+//   i_start_0     W_x bytes (first segment left endpoint, 1-based node index)
+//   y0_0          W_y bytes (first segment left endpoint y-value)
+//   per segment:
+//     i_end       W_x bytes (right endpoint of this segment in node space)
+//     y1          W_c bytes (first inner control y; signed)
+//     y2          W_c bytes (second inner control y; signed)
+//     y3          W_y bytes (right endpoint y-value)
+//
+// W_x = CurveCodec::pick_index_width(n_nodes + 1)   -- node index
+// W_y = CurveCodec::pick_index_width(y_length)      -- Y index
+// W_c = BezierStorage::pick_ctrl_width(y_length)    -- signed inner control
+//
+// The inner controls are solved by least squares and can range up to ~3*Y in
+// magnitude, sometimes negative. W_c is sized conservatively as the smallest
+// power-of-two width whose signed range covers 4*y_length.
+//
+// Storage = 32 + 8 + W_x + W_y + n_segments * (W_x + 2*W_c + W_y)
+//
+// This is a theoretical projection - we do not yet serialise. It exists so
+// bench_persist + the curve report can compare the Bezier representation's
+// bytes-on-the-wire against raw |X| and the existing CurveCodec output, and
+// answer the convergence question: does the Bezier form ever cost less than
+// raw bytes for this kind of curve?
+class BezierStorage {
+public:
+    static std::uint8_t pick_ctrl_width(std::uint64_t y_length) noexcept;
+
+    // Total persisted size in bytes for the described representation.
+    static std::uint64_t persisted_size(std::uint64_t n_segments,
+                                         std::uint64_t y_length,
+                                         std::uint64_t n_nodes) noexcept;
+
+    // Number of segments at which the Bezier representation would EXACTLY
+    // match raw |X| bytes (n_nodes) on the wire. Useful as a break-even
+    // signal: if a fit produces fewer segments than this, Bezier is cheaper
+    // than raw; otherwise raw wins. Returns 0 if break-even is unreachable.
+    static std::uint64_t break_even_segments(std::uint64_t y_length,
+                                              std::uint64_t n_nodes) noexcept;
+};
+
 class BezierFitter {
 public:
     struct Result {

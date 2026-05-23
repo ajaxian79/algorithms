@@ -661,6 +661,94 @@ DAC_TEST(bezier_fit_interpolates_within_tolerance) {
     DAC_EXPECT(r.max_residual <= tol + 1e-9);
 }
 
+DAC_TEST(bezier_storage_pick_ctrl_width_thresholds) {
+    using algorithms::dac::BezierStorage;
+    // 4 * y_length must comfortably fit in a signed int of the chosen width.
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(0)),     2);
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(768)),   2);
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(4096)),  2);
+    // 4 * 8191 = 32764 still fits in int16.
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(8191)),  2);
+    // 4 * 8192 = 32768 does NOT fit in int16 -> jump to int32.
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(8192)),  4);
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(16384)), 4);
+    DAC_EXPECT_EQ(static_cast<int>(BezierStorage::pick_ctrl_width(65792)), 4);
+}
+
+DAC_TEST(bezier_storage_persisted_size_formula) {
+    using algorithms::dac::BezierStorage;
+    // formula: 32 + 8 + W_x + W_y + segs * (W_x + 2*W_c + W_y)
+    //   W_x = pick_index_width(n_nodes + 1)
+    //   W_y = pick_index_width(y_length)
+    //   W_c = pick_ctrl_width(y_length)
+    //
+    // Case 1: n=1024 nodes, |Y|=4096 -> W_x=2, W_y=2, W_c=2, per_seg=8.
+    //         At segs=758: 32 + 8 + 2 + 2 + 758*8 = 6108
+    DAC_EXPECT_EQ(BezierStorage::persisted_size(758, 4096, 1024), 6108ull);
+    // Case 2: n=10240 nodes, |Y|=16384 -> W_x=2, W_y=2, W_c=4, per_seg=12.
+    //         At segs=7000: 32 + 8 + 2 + 2 + 7000*12 = 84044
+    DAC_EXPECT_EQ(BezierStorage::persisted_size(7000, 16384, 10240), 84044ull);
+    // Case 3: n=1024, |Y|=65792 -> W_x=2, W_y=4, W_c=4, per_seg=14.
+    //         At segs=500: 32 + 8 + 2 + 4 + 500*14 = 7046
+    DAC_EXPECT_EQ(BezierStorage::persisted_size(500, 65792, 1024), 7046ull);
+    // Zero segments: still pay header + seg_count + first-seg endpoints.
+    DAC_EXPECT_EQ(BezierStorage::persisted_size(0, 4096, 1024), 44ull);
+}
+
+DAC_TEST(bezier_storage_break_even_matches_inverse) {
+    using algorithms::dac::BezierStorage;
+    // For each (y_length, n_nodes), the break-even segment count S* must
+    // satisfy: persisted_size(S*) <= n_nodes < persisted_size(S* + 1).
+    struct Param { std::uint64_t y_length, n_nodes; };
+    Param ps[] = {
+        {768, 1024}, {768, 10240}, {4096, 1024}, {16384, 10240}, {65792, 10240}
+    };
+    for (auto p : ps) {
+        std::uint64_t s = BezierStorage::break_even_segments(p.y_length, p.n_nodes);
+        std::uint64_t at = BezierStorage::persisted_size(s, p.y_length, p.n_nodes);
+        std::uint64_t past = BezierStorage::persisted_size(s + 1, p.y_length, p.n_nodes);
+        DAC_EXPECT(at <= p.n_nodes);
+        DAC_EXPECT(past > p.n_nodes);
+    }
+}
+
+DAC_TEST(bezier_storage_loses_to_raw_at_strict_tolerance) {
+    // Documents the headline storage finding: at tolerance 0.5 (rounding
+    // recovers j_i exactly) the Bezier representation of a DAC curve on
+    // typical integer noise is multiple x larger than raw |X| bytes. The
+    // assertion encodes the strict-tolerance convergence boundary so future
+    // builder/locator changes that lower per-node bytes are noticed.
+    using algorithms::dac::BezierFitter;
+    using algorithms::dac::BezierStorage;
+    DeterministicYBuilder::Params p;
+    p.seed = 0xC0FFEEULL;
+    p.multiplicity = 16;
+    p.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(p);
+    auto x = make_x(1024, 0xDEADBEEFULL);
+    auto curve = CurveLocator::locate(x, y,
+        algorithms::dac::PickStrategy::NearestToPrevious);
+    auto fit = BezierFitter::fit(curve, 0.5);
+    std::uint64_t bez_bytes = BezierStorage::persisted_size(
+        fit.segments.size(), y.size(), x.size());
+    std::uint64_t break_even = BezierStorage::break_even_segments(y.size(), x.size());
+
+    // We are above break-even (Bezier cost > raw bytes).
+    if (!(fit.segments.size() > break_even)) {
+        char buf[160];
+        std::snprintf(buf, sizeof buf,
+                      "segments %zu <= break_even %llu (Bezier would beat raw - update test)",
+                      fit.segments.size(),
+                      static_cast<unsigned long long>(break_even));
+        DAC_TEST_FAIL(buf);
+    }
+    // The ratio is bounded below by ~5 in this configuration (mean step ~76,
+    // per-seg ~8 bytes, ~70% nodes/seg).
+    double ratio = static_cast<double>(bez_bytes) / static_cast<double>(x.size());
+    DAC_EXPECT(ratio > 4.0);
+    DAC_EXPECT(ratio < 12.0);
+}
+
 DAC_TEST(bezier_fit_smoother_needs_fewer_segments) {
     using algorithms::dac::BezierFitter;
     // Smoothness <-> compressibility: (Stratified + Nearest) must produce a

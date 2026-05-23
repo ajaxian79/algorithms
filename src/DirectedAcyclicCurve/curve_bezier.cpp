@@ -5,7 +5,52 @@
 #include <cstddef>
 #include <vector>
 
+#include "curve_codec.hpp"  // CurveCodec::pick_index_width
+
 namespace algorithms::dac {
+
+std::uint8_t BezierStorage::pick_ctrl_width(std::uint64_t y_length) noexcept {
+    // Smallest signed power-of-two byte width whose representable range
+    // [-2^(8w-1), 2^(8w-1)) covers 4 * y_length. 4x leaves headroom for
+    // least-squares overshoot beyond the [0, y_length) interval.
+    const std::uint64_t need = (y_length == 0) ? 1 : (y_length * 4);
+    if (need <= 0x7FFFu) return 2;                       // int16
+    if (need <= 0x7FFFFFFFull) return 4;                 // int32
+    return 8;                                            // int64
+}
+
+std::uint64_t BezierStorage::persisted_size(std::uint64_t n_segments,
+                                             std::uint64_t y_length,
+                                             std::uint64_t n_nodes) noexcept {
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint8_t w_c = pick_ctrl_width(y_length);
+    const std::uint64_t header = 32u;
+    const std::uint64_t seg_count_field = 8u;
+    const std::uint64_t first_seg_extra = static_cast<std::uint64_t>(w_x) +
+                                          static_cast<std::uint64_t>(w_y);
+    const std::uint64_t per_seg = static_cast<std::uint64_t>(w_x) +
+                                  2u * static_cast<std::uint64_t>(w_c) +
+                                  static_cast<std::uint64_t>(w_y);
+    return header + seg_count_field + first_seg_extra + n_segments * per_seg;
+}
+
+std::uint64_t BezierStorage::break_even_segments(std::uint64_t y_length,
+                                                  std::uint64_t n_nodes) noexcept {
+    // Solve: persisted_size(S, y_length, n_nodes) = n_nodes
+    // n_nodes = 40 + W_x + W_y + S * per_seg
+    // S = max(0, (n_nodes - 40 - W_x - W_y) / per_seg)
+    const std::uint8_t w_x = CurveCodec::pick_index_width(n_nodes + 1);
+    const std::uint8_t w_y = CurveCodec::pick_index_width(y_length);
+    const std::uint8_t w_c = pick_ctrl_width(y_length);
+    const std::uint64_t per_seg = static_cast<std::uint64_t>(w_x) +
+                                  2u * static_cast<std::uint64_t>(w_c) +
+                                  static_cast<std::uint64_t>(w_y);
+    const std::uint64_t overhead = 40u + static_cast<std::uint64_t>(w_x) +
+                                   static_cast<std::uint64_t>(w_y);
+    if (n_nodes <= overhead) return 0;
+    return (n_nodes - overhead) / per_seg;
+}
 
 namespace {
 
