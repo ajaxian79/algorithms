@@ -323,23 +323,27 @@ CoverCandidate make_cubic_candidate(const std::vector<std::int64_t>& nodes,
 
 void compute_layer_overrides(const std::vector<std::int64_t>& nodes,
                              LayeredBezierCoverFitter::Result& result) {
-    result.overrides.clear();
-    result.max_rank = 0;
-    for (std::size_t i = 1; i <= nodes.size(); ++i) {
-        struct Active {
-            double y;
-            bool hit;
-        };
-        std::vector<Active> active;
-        active.reserve(result.curves.size());
-        for (const auto& curve : result.curves) {
-            if (i < curve.i_start || i > curve.i_end) continue;
+    struct Active {
+        double y;
+        bool hit;
+    };
+    std::vector<std::vector<Active>> active_by_node(nodes.size() + 1);
+    for (const auto& curve : result.curves) {
+        const std::size_t start = std::max<std::size_t>(1, curve.i_start);
+        const std::size_t end = std::min(nodes.size(), curve.i_end);
+        for (std::size_t i = start; i <= end; ++i) {
             const double span = static_cast<double>(curve.i_end - curve.i_start);
             const double t = span == 0.0 ? 0.0
                 : static_cast<double>(i - curve.i_start) / span;
             const double y = bezier_basis_y(curve.y0, curve.y1, curve.y2, curve.y3, t);
-            active.push_back({y, bucket_floor(y) == nodes[i - 1]});
+            active_by_node[i].push_back({y, bucket_floor(y) == nodes[i - 1]});
         }
+    }
+
+    result.overrides.clear();
+    result.max_rank = 0;
+    for (std::size_t i = 1; i <= nodes.size(); ++i) {
+        auto& active = active_by_node[i];
         std::sort(active.begin(), active.end(),
                   [](const Active& a, const Active& b) { return a.y < b.y; });
         for (std::size_t rank = 0; rank < active.size(); ++rank) {
@@ -353,6 +357,25 @@ void compute_layer_overrides(const std::vector<std::int64_t>& nodes,
     }
 }
 
+void observe_curve_points(LayeredBezierCoverFitter::Result& result,
+                          std::size_t points,
+                          std::size_t& hit_total) noexcept {
+    result.min_points_per_curve = result.curves.size() == 1
+        ? points
+        : std::min(result.min_points_per_curve, points);
+    result.max_points_per_curve =
+        std::max(result.max_points_per_curve, points);
+    hit_total += points;
+}
+
+bool allowed_candidate_points(std::size_t points,
+                              std::size_t n,
+                              const LayeredBezierCoverFitter::Options& options) noexcept {
+    if (n == 1) return points == 1;
+    return points >= options.min_points_per_curve &&
+           points <= options.max_points_per_curve;
+}
+
 LayeredBezierCoverFitter::Result fit_layered_exact(
         const std::vector<std::int64_t>& nodes,
         const LayeredBezierCoverFitter::Options& options) {
@@ -364,7 +387,7 @@ LayeredBezierCoverFitter::Result fit_layered_exact(
         const std::size_t upper = std::min(n, a + options.max_span);
         for (std::size_t b = a; b <= upper; ++b) {
             auto c = make_cubic_candidate(nodes, a, b);
-            if (!c.hits.empty()) {
+            if (allowed_candidate_points(c.hits.size(), n, options)) {
                 candidates.push_back(std::move(c));
             }
         }
@@ -390,9 +413,7 @@ LayeredBezierCoverFitter::Result fit_layered_exact(
         }
         if (!best || best_new == 0) break;
         result.curves.push_back(best->curve);
-        hit_total += best->hits.size();
-        result.max_points_per_curve =
-            std::max(result.max_points_per_curve, best->hits.size());
+        observe_curve_points(result, best->hits.size(), hit_total);
         for (std::size_t i : best->hits) {
             if (!covered[i]) {
                 covered[i] = true;
@@ -404,10 +425,15 @@ LayeredBezierCoverFitter::Result fit_layered_exact(
     for (std::size_t i = 1; i <= n; ++i) {
         if (covered[i]) continue;
         double ignored = 0.0;
-        result.curves.push_back(fit_segment(nodes, i, i, ignored));
-        result.max_points_per_curve = std::max<std::size_t>(
-            result.max_points_per_curve, 1u);
-        ++hit_total;
+        if (n == 1) {
+            result.curves.push_back(fit_segment(nodes, i, i, ignored));
+            observe_curve_points(result, 1u, hit_total);
+        } else {
+            const std::size_t a = i == 1 ? 1u : i - 1u;
+            const std::size_t b = i == 1 ? 2u : i;
+            result.curves.push_back(fit_segment(nodes, a, b, ignored));
+            observe_curve_points(result, 2u, hit_total);
+        }
     }
 
     result.mean_points_per_curve = result.curves.empty() ? 0.0
@@ -422,12 +448,21 @@ LayeredBezierCoverFitter::Result fit_layered_contiguous(
         const LayeredBezierCoverFitter::Options& options) {
     LayeredBezierCoverFitter::Result result;
     const std::size_t n = nodes.size();
-    std::size_t covered = 0;
+    std::size_t hit_total = 0;
     for (std::size_t start = 1; start <= n; ) {
-        const std::size_t upper = std::min(n, start + options.max_span);
+        if (start == n && n > 1) {
+            double ignored = 0.0;
+            result.curves.push_back(fit_segment(nodes, n - 1u, n, ignored));
+            observe_curve_points(result, 2u, hit_total);
+            break;
+        }
+        const std::size_t upper = std::min(
+            n, start + options.max_points_per_curve - 1u);
+        const std::size_t lower = std::min(
+            upper, start + options.min_points_per_curve - 1u);
         BezierSegment best{};
         std::size_t best_end = start;
-        for (std::size_t end = upper; end > start; --end) {
+        for (std::size_t end = upper; end >= lower; --end) {
             double ignored = 0.0;
             auto candidate = fit_segment(nodes, start, end, ignored);
             if (cubic_floor_hits_range(nodes, candidate)) {
@@ -435,6 +470,7 @@ LayeredBezierCoverFitter::Result fit_layered_contiguous(
                 best_end = end;
                 break;
             }
+            if (end == lower) break;
         }
         if (best_end == start) {
             double ignored = 0.0;
@@ -442,13 +478,11 @@ LayeredBezierCoverFitter::Result fit_layered_contiguous(
         }
         result.curves.push_back(best);
         const std::size_t count = best_end - start + 1u;
-        covered += count;
-        result.max_points_per_curve =
-            std::max(result.max_points_per_curve, count);
+        observe_curve_points(result, count, hit_total);
         start = best_end + 1u;
     }
     result.mean_points_per_curve = result.curves.empty() ? 0.0
-        : static_cast<double>(covered) /
+        : static_cast<double>(hit_total) /
           static_cast<double>(result.curves.size());
     compute_layer_overrides(nodes, result);
     return result;
@@ -541,6 +575,10 @@ LayeredBezierCoverFitter::Result LayeredBezierCoverFitter::fit(
         const CurveEquation& curve,
         Options options) {
     if (options.max_span == 0) options.max_span = 1;
+    if (options.min_points_per_curve == 0) options.min_points_per_curve = 1;
+    if (options.max_points_per_curve < options.min_points_per_curve) {
+        options.max_points_per_curve = options.min_points_per_curve;
+    }
     const auto& nodes = curve.nodes();
     if (nodes.empty()) return {};
     if (nodes.size() <= options.exact_cover_node_limit) {

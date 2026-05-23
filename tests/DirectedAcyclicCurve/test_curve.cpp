@@ -25,6 +25,7 @@
 #include "../../src/DirectedAcyclicCurve/curve_bezier.hpp"
 #include "../../src/DirectedAcyclicCurve/curve_codec.hpp"
 #include "../../src/DirectedAcyclicCurve/curve_locator.hpp"
+#include "../../src/DirectedAcyclicCurve/curve_pick_optimizer.hpp"
 #include "../../src/DirectedAcyclicCurve/y_builder.hpp"
 #include "test_harness.hpp"
 
@@ -879,6 +880,37 @@ std::int64_t bucket_floor_for_test(double v) {
     return static_cast<std::int64_t>(std::floor(v));
 }
 
+std::size_t count_curve_hits(const algorithms::dac::CurveEquation& curve,
+                             const algorithms::dac::BezierSegment& s) {
+    const auto& nodes = curve.nodes();
+    std::size_t hits = 0;
+    for (std::size_t i = s.i_start; i <= s.i_end; ++i) {
+        const double span = static_cast<double>(s.i_end - s.i_start);
+        const double t = span == 0.0 ? 0.0
+            : static_cast<double>(i - s.i_start) / span;
+        if (bucket_floor_for_test(algorithms::dac::BezierFitter::evaluate_y(s, t)) ==
+            nodes[i - 1]) {
+            ++hits;
+        }
+    }
+    return hits;
+}
+
+void expect_layered_curve_point_bounds(algorithms::dac::testing::TestRegistry& _dac_reg,
+                                       const algorithms::dac::CurveEquation& curve,
+                                       const algorithms::dac::LayeredBezierCoverFitter::Result& r) {
+    if (curve.length() <= 1) return;
+    for (const auto& s : r.curves) {
+        const std::size_t hits = count_curve_hits(curve, s);
+        if (hits < 2u || hits > 5u) {
+            char buf[120];
+            std::snprintf(buf, sizeof buf, "curve hit count %zu outside [2,5]", hits);
+            DAC_TEST_FAIL(buf);
+            return;
+        }
+    }
+}
+
 void expect_layered_cover_decodes(algorithms::dac::testing::TestRegistry& _dac_reg,
                                   const algorithms::dac::CurveEquation& curve,
                                   const algorithms::dac::LayeredBezierCoverFitter::Result& r) {
@@ -926,6 +958,7 @@ DAC_TEST(layered_cubic_four_points_one_curve) {
     DAC_EXPECT_EQ(r.curves.size(), 1u);
     DAC_EXPECT_EQ(r.overrides.size(), 0u);
     DAC_EXPECT_EQ(r.max_points_per_curve, 4u);
+    expect_layered_curve_point_bounds(_dac_reg, curve, r);
     expect_layered_cover_decodes(_dac_reg, curve, r);
 }
 
@@ -952,8 +985,11 @@ DAC_TEST(layered_cubic_covers_slice2_graph_shape) {
         864, 925, 980, 933, 891, 791, 799, 1004
     });
     auto r = LayeredBezierCoverFitter::fit(curve);
-    DAC_EXPECT(r.curves.size() <= 20u);
+    DAC_EXPECT(r.curves.size() <= 24u);
+    DAC_EXPECT(r.min_points_per_curve >= 2u);
+    DAC_EXPECT(r.max_points_per_curve <= 5u);
     DAC_EXPECT(r.max_points_per_curve >= 4u);
+    expect_layered_curve_point_bounds(_dac_reg, curve, r);
     expect_layered_cover_decodes(_dac_reg, curve, r);
 }
 
@@ -969,8 +1005,64 @@ DAC_TEST(layered_cubic_covers_deterministic_curve) {
         algorithms::dac::PickStrategy::NearestToPrevious);
     auto r = LayeredBezierCoverFitter::fit(curve);
     DAC_EXPECT(!r.curves.empty());
+    DAC_EXPECT(r.min_points_per_curve >= 2u);
+    DAC_EXPECT(r.max_points_per_curve <= 5u);
     DAC_EXPECT(r.mean_points_per_curve >= 3.0);
+    expect_layered_curve_point_bounds(_dac_reg, curve, r);
     expect_layered_cover_decodes(_dac_reg, curve, r);
+}
+
+DAC_TEST(layered_pick_optimizer_noisy_attempts_do_not_worsen_curve_count) {
+    using algorithms::dac::LayeredPickOptimizer;
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(128, 0xBEEFBEEFULL);
+
+    LayeredPickOptimizer::Options baseline_opts;
+    baseline_opts.attempts = 1;
+    baseline_opts.noise_radius = 0;
+    auto baseline = LayeredPickOptimizer::optimize(x, y, baseline_opts);
+
+    LayeredPickOptimizer::Options noisy_opts;
+    noisy_opts.attempts = 8;
+    noisy_opts.noise_radius = 3;
+    auto noisy = LayeredPickOptimizer::optimize(x, y, noisy_opts);
+
+    DAC_EXPECT(CurveLocator::verify(noisy.curve, x, y));
+    DAC_EXPECT(noisy.cover.curves.size() <= baseline.cover.curves.size());
+    DAC_EXPECT(noisy.cover.max_points_per_curve <= 5u);
+    expect_layered_curve_point_bounds(_dac_reg, noisy.curve, noisy.cover);
+    expect_layered_cover_decodes(_dac_reg, noisy.curve, noisy.cover);
+}
+
+DAC_TEST(layered_pick_optimizer_block_greedy_do_not_worsen_curve_count) {
+    using algorithms::dac::LayeredPickOptimizer;
+    DeterministicYBuilder::Params strat;
+    strat.seed = 0xC0FFEEULL;
+    strat.multiplicity = 16;
+    strat.policy = algorithms::dac::ShufflePolicy::Stratified;
+    auto y = DeterministicYBuilder::build(strat);
+    auto x = make_x(256, 0xFACEB00CULL);
+
+    LayeredPickOptimizer::Options baseline_opts;
+    baseline_opts.attempts = 1;
+    baseline_opts.noise_radius = 0;
+    auto baseline = LayeredPickOptimizer::optimize(x, y, baseline_opts);
+
+    LayeredPickOptimizer::Options block_opts;
+    block_opts.attempts = 1;
+    block_opts.noise_radius = 8;
+    block_opts.block_greedy = true;
+    auto block = LayeredPickOptimizer::optimize(x, y, block_opts);
+
+    DAC_EXPECT(CurveLocator::verify(block.curve, x, y));
+    DAC_EXPECT(block.cover.curves.size() <= baseline.cover.curves.size());
+    DAC_EXPECT(block.cover.max_points_per_curve <= 5u);
+    expect_layered_curve_point_bounds(_dac_reg, block.curve, block.cover);
+    expect_layered_cover_decodes(_dac_reg, block.curve, block.cover);
 }
 
 // --- 6. Codec round-trip ---------------------------------------------------

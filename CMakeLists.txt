@@ -410,7 +410,8 @@ add_library(dac_curve STATIC
         src/DirectedAcyclicCurve/curve_locator.cpp
         src/DirectedAcyclicCurve/y_builder.cpp
         src/DirectedAcyclicCurve/curve_codec.cpp
-        src/DirectedAcyclicCurve/curve_bezier.cpp)
+        src/DirectedAcyclicCurve/curve_bezier.cpp
+        src/DirectedAcyclicCurve/curve_pick_optimizer.cpp)
 target_include_directories(dac_curve PUBLIC src/DirectedAcyclicCurve)
 
 add_executable(dac_demo src/DirectedAcyclicCurve/main.cpp)
@@ -418,6 +419,9 @@ target_link_libraries(dac_demo PRIVATE dac_curve)
 
 add_executable(dac_bench_persist src/DirectedAcyclicCurve/bench_persist.cpp)
 target_link_libraries(dac_bench_persist PRIVATE dac_curve)
+
+add_executable(dac_bench_corpus src/DirectedAcyclicCurve/bench_corpus.cpp)
+target_link_libraries(dac_bench_corpus PRIVATE dac_curve)
 
 add_executable(dac_tests tests/DirectedAcyclicCurve/test_curve.cpp)
 target_link_libraries(dac_tests PRIVATE dac_curve)

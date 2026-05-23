@@ -218,6 +218,7 @@ public:
     struct Result {
         std::vector<BezierSegment> curves;
         std::vector<LayeredBezierOverride> overrides;
+        std::size_t min_points_per_curve = 0;
         std::size_t max_points_per_curve = 0;
         double mean_points_per_curve = 0.0;
         std::size_t max_rank = 0;
@@ -227,6 +228,11 @@ public:
         // Candidate endpoint search window. Large enough to find visual chart
         // clusters; bounded so 10k-node benchmark cases stay tractable.
         std::size_t max_span = 64;
+        // Count only target nodes whose floor bucket is hit by the candidate.
+        // Except for the degenerate one-node curve, every stored curve is
+        // constrained to hit between these bounds.
+        std::size_t min_points_per_curve = 2;
+        std::size_t max_points_per_curve = 5;
         // Use the overlapping greedy set-cover search for small curves. Larger
         // curves fall back to a contiguous greedy search using the same bucket
         // rule; the storage model still supports overrides.
